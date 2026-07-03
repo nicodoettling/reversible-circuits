@@ -1,0 +1,64 @@
+\section{Hurwitz Walks and Their Obstruction}
+
+For a factorization $(g_1,\ldots,g_m)$ in a group, a right Hurwitz move at
+position $i$ replaces
+\[
+  (g_i,g_{i+1})
+  \mapsto
+  (g_{i+1}, g_{i+1}^{-1}g_i g_{i+1}).
+\]
+The inverse move replaces
+\[
+  (g_i,g_{i+1})
+  \mapsto
+  (g_i g_{i+1}g_i^{-1}, g_i).
+\]
+For transpositions, conjugates are transpositions, so Hurwitz moves preserve
+the generator set, word length, and total product.
+
+Hurwitz moves are useful local scramblers, but they are orbit samplers rather
+than global samplers.  The experiments track the support graph of a word: its
+vertices are the points touched by at least one transposition and its edges are
+the transpositions appearing in the word, with multiplicity.  A weighted
+support-component invariant records the connected components of this support
+graph together with the number of factors supported in each component.  Pure
+Hurwitz moves preserve this invariant in the tested cases, and the exact
+Hurwitz components coincide with invariant classes in the small references.
+
+\begin{proposition}[Component obstruction]
+Suppose a Markov chain on $\Omega(N,m)$ is confined to a Hurwitz component
+$C\subsetneq \Omega(N,m)$.  Then, regardless of its mixing behavior inside
+$C$, its total variation distance from the global uniform law on
+$\Omega(N,m)$ is at least
+\[
+  1-\frac{|C|}{|\Omega(N,m)|}.
+\]
+\end{proposition}
+
+\begin{proof}
+The chain assigns probability $0$ to $\Omega(N,m)\setminus C$, while the
+uniform distribution assigns mass
+$1-|C|/|\Omega(N,m)|$ to that complement.
+\end{proof}
+
+Exact enumeration gives the following small cases.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Case & $|\Omega(N,m)|$ & Hurwitz components & Largest component & TV lower bound \\
+\midrule
+$S_3,m=4$ & 27 & 4 & 24 & 0.111111 \\
+$S_4,m=4$ & 120 & 13 & 24 & 0.800000 \\
+$S_4,m=6$ & 3936 & 17 & 2880 & 0.268293 \\
+\bottomrule
+\end{tabular}
+\caption{Exact small cases.  The TV lower bound is the best possible lower
+bound for a pure Hurwitz walk started in the largest component.}
+\label{tab:hurwitz-obstruction}
+\end{table}
+
+This table is the first key negative result: pure Hurwitz random walks cannot
+sample the global fixed-length bridge distribution except in instances where
+the relevant Hurwitz orbit already has full mass.

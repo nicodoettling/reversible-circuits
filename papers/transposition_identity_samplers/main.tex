@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{question}{Question}
+
+\newcommand{\SN}{S_N}
+\newcommand{\TN}{T_N}
+\newcommand{\OmegaNm}{\Omega(N,m)}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\TV}{\mathrm{TV}}
+\newcommand{\dist}{\mathrm{dist}}
+\newcommand{\Klocal}{K_{\{3,4,5\}}}
+\newcommand{\KN}{K_N}
+\newcommand{\XN}{X_N}
+
+\title{Sampling Identity Bridges in Symmetric Groups:\ Transpositions, Heat-Bath Chains, and Expander Generators}
+\author{Project notes from the reversible-circuits sampler experiments}
+\date{June 27, 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We study the following finite sampling problem.  Let $T_N$ be the set of
+transpositions in $S_N$, and let
+\[
+  \Omega(N,m)
+  =
+  \{(t_1,\ldots,t_m)\in T_N^m : t_1t_2\cdots t_m=\id\}.
+\]
+The target distribution is the uniform distribution on $\Omega(N,m)$.
+This is the random-walk bridge distribution for the random-transposition
+Cayley graph, conditioned to return to the identity at time $m$.
+
+The completed experiments show that pure Hurwitz random walks are not global
+samplers: they preserve a weighted support-component invariant and split even
+small instances into many components.  The most promising sampler found so far
+is a fixed-length block heat-bath chain: choose a contiguous block, keep its
+product fixed, and resample exactly from all transposition blocks with that
+product.  Exact block heat-bath is reversible for the uniform law on
+$\Omega(N,m)$, and small exact cases show connected transition graphs and
+positive spectral gaps.  A later run removed the main practical bottleneck by
+constructing direct exact conditional samplers for block sizes $4$ and $5$ and
+integrating them into an exact $\{3,4,5\}$ block heat-bath kernel.  The main
+frontier is now theoretical: formalizing the Hurwitz weighted-support
+classification in the project convention and proving, or refuting, polynomial
+mixing for the exact local heat-bath chain.
+
+This note consolidates the completed findings available through the direct
+conditional-sampler run, the subsequent theory-frontier run, the polynomial
+upper-bound attempt, and the later polynomial-mixing swarm.  The strongest
+current result is conditional: polynomial mixing follows from precise
+quantitative projection and fiber estimates, but no unconditional polynomial
+mixing theorem is claimed.  A graph-theoretic reformulation identifies the
+main object as a local-rewrite graph on ordered edge sequences of the complete
+graph whose associated token-swapping schedule is the identity.  Because the
+small-block transposition chain may have hidden slow modes, we also isolate
+bounded-degree expander generator sets, including Kassabov-style generators,
+as a separate benchmark direction for identity-bridge sampling.
+\end{abstract}
+
+\input{sections/problem_formulation}
+
+\input{sections/graph_theoretic_interpretation}
+
+\input{sections/hurwitz_obstruction}
+
+\input{sections/orbit_breaking_candidates}
+
+\input{sections/exact_small_cases}
+
+\input{sections/finite_spectral_evidence}
+
+\input{sections/conditional_block_sampling}
+
+\input{sections/scalable_diagnostics}
+
+\input{sections/square_refresh}
+
+\input{sections/theoretical_status}
+
+\input{sections/expander_gate_sets}
+
+\input{sections/implications}
+
+\input{sections/next_steps}
+
+\input{sections/internal_sources}
+
+\end{document}

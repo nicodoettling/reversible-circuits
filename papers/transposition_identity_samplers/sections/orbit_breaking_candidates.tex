@@ -1,0 +1,47 @@
+\section{Orbit-Breaking Candidates}
+
+The experiments considered two main orbit-breaking fixed-length candidates.
+
+\paragraph{Block heat-bath.}
+Choose a contiguous block $B=(t_i,\ldots,t_{i+r-1})$, compute its product
+$h=t_i\cdots t_{i+r-1}$, and replace $B$ by an exactly uniform element of
+\[
+  \mathcal{B}_r(h)
+  =
+  \{(s_1,\ldots,s_r)\in T_N^r : s_1\cdots s_r=h\}.
+\]
+The outside coordinates are unchanged.
+
+\paragraph{Square refresh plus Hurwitz scrambling.}
+If an adjacent block has the form $(t,t)$, replace it by $(s,s)$ for a random
+transposition $s$, then apply Hurwitz scrambling.  This move preserves product
+and length.  It can break Hurwitz components, but later measurements showed
+that a random-slot square refresh acts too rarely at moderate $N$.
+
+\subsection{Stationarity of Exact Block Heat-Bath}
+
+\begin{proposition}[Reversibility of block heat-bath]
+Fix a block-size distribution and suppose each selected block is resampled
+exactly uniformly from $\mathcal{B}_r(h)$, where $h$ is the product of the old
+block.  The resulting random-scan block heat-bath chain is reversible with
+respect to the uniform distribution on $\Omega(N,m)$.
+\end{proposition}
+
+\begin{proof}
+Condition on the choice of block position and size, and fix the outside
+coordinates.  The outside coordinates force the block product $h$ because the
+total word product must remain $\id$.  Under the uniform law on $\Omega(N,m)$,
+the conditional distribution of the selected block is precisely the uniform
+law on $\mathcal{B}_r(h)$.  Replacing the block by an independent sample from
+that conditional distribution is the usual Gibbs update, hence it satisfies
+detailed balance.  Averaging over block choices preserves reversibility.
+\end{proof}
+
+Consequently, if a lazy version of the chain is irreducible on $\Omega(N,m)$,
+it converges to the global uniform fixed-length bridge distribution.  The
+remaining tasks are therefore:
+\begin{enumerate}
+\item sample $\mathcal{B}_r(h)$ exactly and efficiently for useful $r$;
+\item prove irreducibility for the selected block sizes;
+\item prove or estimate a useful mixing time.
+\end{enumerate}

@@ -1,0 +1,33 @@
+\section{Problem Formulation}
+
+Let $S_N$ be the symmetric group on $\{1,\ldots,N\}$ and let $T_N$ denote the
+conjugacy class of all transpositions.  A length-$m$ transposition word is a
+tuple $w=(t_1,\ldots,t_m)\in T_N^m$.  We say that $w$ is an identity word if
+\[
+  \mathrm{eval}(w) = t_1t_2\cdots t_m = \id.
+\]
+The canonical fixed-length target is
+\[
+  \Omega(N,m)
+  =
+  \{w\in T_N^m : \mathrm{eval}(w)=\id\},
+\]
+with the uniform distribution on this finite set.
+
+Equivalently, $\Omega(N,m)$ is the set of length-$m$ closed walks at $\id$ in
+the Cayley graph $\mathrm{Cay}(S_N,T_N)$.  Thus exact uniform sampling from
+$\Omega(N,m)$ is a random-walk bridge problem.  If an exact bridge sampler were
+available, the transition at time $j$ would select $t\in T_N$ with probability
+proportional to the number of completions from the current product times $t$
+back to $\id$ in the remaining number of steps.  This is conceptually clean but
+not directly efficient at large $N$.
+
+The project uses exact tuple permutation arithmetic in experiments.  The first
+exact harness used permutations $p$ as tuples with $p[x]$ equal to the image of
+$x$, and evaluated words left to right as
+\[
+  (((\id\cdot t_1)\cdot t_2)\cdots t_m).
+\]
+All experimental claims below are internal to this convention.  The
+mathematical statements are convention-independent after consistently choosing
+left or right multiplication.

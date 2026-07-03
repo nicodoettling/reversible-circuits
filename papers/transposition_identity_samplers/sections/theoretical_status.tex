@@ -1,0 +1,188 @@
+\section{Theoretical Status}
+
+\subsection{Proved inputs}
+
+The exact block heat-bath kernel is reversible for the uniform law on
+$\Omega(N,m)$.  Therefore, for any fixed finite $(N,m)$, a lazy irreducible
+version of the chain converges to the desired global uniform distribution.
+
+Pure Hurwitz walks are confined to Hurwitz components and therefore cannot be
+global samplers in the small cases of Table~\ref{tab:hurwitz-obstruction}.
+
+The direct $r=4$ and $r=5$ conditional samplers are exact in the
+all-transpositions model.  Exact block counts and per-block probabilities were
+validated through $S_5$ for both $r=4$ and $r=5$, and the integrated
+$\{3,4,5\}$ heat-bath transition checks passed $S_3,m=4$, $S_4,m=4$, and
+$S_4,m=6$.
+
+\begin{lemma}[Feasible identity components]
+Let $C$ be a labeled vertex set with $|C|=v\ge 2$.  There exists an identity
+word of length $k$ whose factors are transpositions supported on $C$ and whose
+support graph is connected if and only if
+\[
+  k \text{ is even}\qquad\text{and}\qquad k\ge 2(v-1).
+\]
+\end{lemma}
+
+\begin{proof}[Proof sketch]
+The parity condition is forced because an identity permutation is even.  The
+lower bound $k\ge 2(v-1)$ is the standard transitive transposition
+factorization lower bound specialized to the identity: a transitive
+factorization of a permutation $\sigma\in S_v$ has length at least
+$v+c(\sigma)-2$, and $c(\id)=v$.  Conversely, choose any tree on $C$ and list
+its $v-1$ edges twice.  The resulting doubled-tree word has product $\id$ and
+connected support.  Additional length can be added in increments of two by
+inserting square pairs $(t,t)$.
+\end{proof}
+
+The latest proof runs also isolated a useful macro-fiber structure.  Fix the
+labeled weighted support-component data of a word: the nonzero support
+components, together with the number of factors assigned to each component.
+Since transpositions supported on disjoint components commute, the conditional
+state space factors into a color-word interleaving problem and independent
+transitive identity-factorization problems inside the components.  The
+restricted heat-bath chain on such a fiber is reversible for the conditional
+uniform law.  This factorization is now a proved structural input, but its
+spectral consequences remain open.
+
+\subsection{Conditional irreducibility}
+
+Earlier versions of the project isolated the following identity-specialized
+Hurwitz transitivity statement as the main irreducibility input.  A later H1
+run found a local citation to Ben-Itzhak--Teicher, Theorem 3.4, which appears
+to prove the needed identity Classification H statement for all-transpositions
+in $S_N$.  Final manuscript use should still verify the bibliographic details
+and theorem numbering, but the mathematical blocker has shifted from
+qualitative irreducibility to quantitative mixing.
+
+The earlier formulation is:
+
+\begin{conjecture}[\texttt{H1\_id}]
+For every labeled set $C$ with $|C|=v\ge 2$ and every even
+$k\ge 2(v-1)$, all length-$k$ identity words in $S_C$ whose support graph is
+connected lie in one Hurwitz orbit.
+\end{conjecture}
+
+Equivalently, after adding the already proved disjoint-component sorting and
+invariant preservation directions, \texttt{H1\_id} would imply the identity
+Classification H: two identity transposition words are Hurwitz-connected if
+and only if they have the same labeled weighted support-component data.
+
+\begin{proposition}[Conditional irreducibility]
+Assume \texttt{H1\_id}, or equivalently identity Classification H in the
+preceding convention.  Then the lazy exact $\{3,4,5\}$ same-product heat-bath
+chain is irreducible on $\Omega(N,m)$ for $N\ge 2$ and even $m\ge 4$.
+\end{proposition}
+
+\begin{proof}[Proof sketch]
+Size-$3$ same-product block updates contain padded Hurwitz moves, so the chain
+can move within each weighted support-component class.  Size-$4$ updates
+contain square refreshes $(t,t)\mapsto (s,s)$, so the chain can change the
+weighted component data by creating, moving, and pruning square pairs.  Under
+Classification H, each component can be put into a doubled-tree normal form;
+square refreshes then move between feasible component data, and the feasible
+component lemma characterizes exactly the available nonzero components.  Hence
+all nonexceptional states communicate.
+\end{proof}
+
+The exceptional cases are understood separately.  If $m$ is odd then
+$\Omega(N,m)$ is empty.  If $m=0$ it is a singleton.  If $N=2$ and $m$ is even
+it is also a singleton.  If $m=2$ and $N\ge 3$, then
+$\Omega(N,2)=\{(t,t):t\in T_N\}$ is disconnected for a chain whose allowed
+block sizes are $3,4,5$.
+
+\subsection{Conditional polynomial-mixing statements}
+
+No unconditional polynomial mixing theorem is currently available.  The
+strongest output of the polynomial upper-bound attempt is a pair of conditional
+routes.
+
+For any lazy reversible irreducible chain $K$ on $\Omega(N,m)$ with spectral
+gap $\gamma$,
+\[
+  \tau_{\mathrm{mix}}(\epsilon)
+  \le
+  \gamma^{-1}\left(m\log\binom{N}{2}+\log\frac{1}{\epsilon}\right),
+\]
+because the uniform stationary law has
+$\pi_{\min}\ge |T_N|^{-m}=\binom{N}{2}^{-m}$.  Thus the remaining task is an
+inverse-polynomial lower bound on the gap of $\Klocal$.
+
+\begin{theorem}[Projection/decomposition route, conditional]
+Assume \texttt{H1\_id}.  Let $\Phi$ be the labeled weighted
+support-component map, and let $\bar K$ be the stationary-flow projection of
+$\Klocal$ onto the image of $\Phi$.  Suppose the following estimates hold:
+\begin{enumerate}
+\item a projection Poincare inequality with constant $q_{\mathrm{proj}}(N,m)$;
+\item a restricted-fiber Poincare inequality with constant
+  $q_{\mathrm{fib}}(N,m)$ for every fiber of $\Phi$;
+\item a mean-lift bound with constant $q_{\mathrm{lift}}(N,m)$ controlling the
+  projected Dirichlet form of fiber averages by the original Dirichlet form.
+\end{enumerate}
+Then
+\[
+  \mathrm{gap}(\Klocal)
+  \ge
+  \frac{1}{q_{\mathrm{fib}}(N,m)
+    +q_{\mathrm{proj}}(N,m)q_{\mathrm{lift}}(N,m)}.
+\]
+In particular, if the three constants are polynomial in $N$ and $m$, then
+$\Klocal$ mixes in time polynomial in $N$, $m$, and $\log(1/\epsilon)$.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+Use the variance decomposition
+$\mathrm{Var}_{\pi}(f)=\mathrm{Var}_{\bar\pi}(\mathbb{E}[f\mid\Phi])+
+\mathbb{E}_{\bar\pi}[\mathrm{Var}(f\mid\Phi)]$.  Apply the projection
+Poincare inequality to the first term, the restricted-fiber inequality to the
+second term, and the mean-lift bound to compare the projected Dirichlet form
+back to the Dirichlet form of $\Klocal$.
+\end{proof}
+
+\begin{theorem}[Large-block comparison route, conditional]
+Assume \texttt{H1\_id}.  Let $K_L$ be the lazy ideal length-$L$ same-product
+heat-bath chain.  Suppose that, for some polynomially bounded $L=L(N,m)$,
+$K_L$ has inverse-polynomial gap, every positive-probability $K_L$ transition
+can be simulated by $\{3,4,5\}$ subwindow updates, and the randomized
+simulations have polynomial Diaconis-Saloff-Coste comparison congestion.  Then
+$\Klocal$ has inverse-polynomial gap and hence polynomial mixing time.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+Route the stationary flow of the reversible ideal chain $K_L$ through local
+$\{3,4,5\}$ paths and apply the standard reversible-chain comparison theorem.
+The gap loss is the product of the inverse gap of $K_L$ and the comparison
+congestion, up to absolute laziness and normalization constants.
+\end{proof}
+
+\subsection{Current proof obligations}
+
+For the projection/decomposition route, the missing estimates are now precise.
+The projection must have inverse-polynomial conductance or Poincare constant;
+the weighted-component fibers must mix in polynomial time; and the mean-lift
+term must not lose more than a polynomial factor.  The latest run proved a
+fresh-square certificate for support expansion from a length-$4$ identity
+window and found no small support-size or weighted-component bottleneck through
+$S_5,m=6$.  For example, the $S_5,m=6$ support-size conductance was about
+$0.614126$, and singleton/threshold scans of the labeled weighted-component
+projection had minimum conductance about $0.556800$.  These are finite checks,
+not asymptotic proofs.
+
+For the large-block route, $K_m$ samples the uniform bridge in one non-lazy
+step, but this is too global to implement locally.  A useful mesoscopic
+$K_L$, with $L<m$, would require parity-aware bridge smoothing and a
+one-dimensional block-dynamics contraction theorem.  Local simulation is false
+for $L=2$ in general.  For $L\ge 6$, the current reduction is to a
+Pair-Resampling Lemma: adjacent two-factor same-product replacements should
+connect every same-product length-$L$ fiber with polynomial diameter.  Finite
+checks through $S_5,L=6$ found connected representative fibers, with maximum
+sampled-source BFS distance $12$ in the largest checked fiber, but this remains
+empirical.
+
+The main negative theory lesson is that deterministic routing through one
+canonical doubled-tree or square-rich normal form should not be used as a
+rapid-mixing proof.  If positive comparison flow is forced through a fixed
+canonical word $c$, vertex congestion is at least on the order of $1/\pi(c)$;
+for a fixed canonical square word, $\pi(c)=1/|\Omega(N,m)|$.  Normal forms are
+therefore useful for connectivity, but a mixing proof needs randomized routes
+that stay in typical macrostates.

@@ -1,0 +1,50 @@
+\section{Scalable Diagnostics}
+
+The initial $S_{10}$ candidate run did not enumerate $\Omega(10,m)$.  It
+instead compared prefix cycle types to exact bridge counts from the
+random-transposition chain lumped by conjugacy class and measured word-level
+statistics.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Candidate & $m$ & Samples & Identity failures & Max prefix TV \\
+\midrule
+Block heat-bath & 20 & 2500 & 0 & 0.1043 \\
+Square refresh + Hurwitz & 20 & 2500 & 0 & 0.1160 \\
+\bottomrule
+\end{tabular}
+\caption{Initial $S_{10}$ exploratory diagnostics.}
+\label{tab:s10-initial}
+\end{table}
+
+Before direct block sampling, the larger scaling run tested
+$N\in\{8,10,12\}$ and $m\in\{20,30\}$ using prefix rejection.  It found zero
+identity failures, but prefix rejection was slow and finite chains were not
+close enough to justify a mixing claim: maximum prefix bridge TV was $0.2304$,
+maximum per-position edge TV was $0.5276$, and the minimum reported effective
+sample size was $18.38$ out of $4000$.
+
+After replacing prefix rejection by direct exact conditionals, Worker D ran the
+direct heat-bath grid
+\[
+  N\in\{8,10,12,16\},\quad m\in\{20,30,40\},
+\]
+for block sets $\{3,4\}$, $\{4,5\}$, and $\{3,4,5\}$, with burn-in $2000$ and
+$4000$ retained samples.  The main summary was:
+\begin{itemize}
+\item identity failures: $0$;
+\item block-product failures: $0$;
+\item mean runtime per update: $0.2938$ ms;
+\item maximum runtime per update: $0.7842$ ms;
+\item mean option-cache hit rate: $0.5867$;
+\item maximum prefix bridge TV proxy: $0.4843$;
+\item maximum per-position edge TV proxy: $0.7191$;
+\item minimum recorded effective sample size: $18.33$.
+\end{itemize}
+The block set $\{4,5\}$ had the best aggregate TV proxies in that run, with
+maximum prefix TV $0.3283$ and maximum edge TV $0.6341$, but it was slower than
+$\{3,4\}$.  The interpretation is that the exact direct kernel scales to the
+requested grid and preserves identity, but the convergence proxies remain too
+rough for any practical mixing claim.

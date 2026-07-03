@@ -1,0 +1,11 @@
+\section{Square Refresh}
+
+Square refresh is valid as a product-preserving move: $(t,t)$ may be replaced
+by $(s,s)$ because both blocks have product $\id$.  In exact small cases it
+helped connect Hurwitz components.  However, random-slot square refresh has an
+action-rate bottleneck.  In a mixed kernel with square-refresh probability
+$p=0.05$, the measured changed-square rate was approximately $0.002055$ per
+step for $S_{10},m=20$ and $0.0005479$ per step for $S_{12},m=30$, consistent
+with a scale of about $p/\binom{N}{2}$.  The current conclusion is to
+deprioritize random-slot square refresh unless a balanced square-slot proposal
+with detailed balance is developed.

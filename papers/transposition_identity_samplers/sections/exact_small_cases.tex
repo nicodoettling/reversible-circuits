@@ -1,0 +1,28 @@
+\section{Exact Small-Case Evidence}
+
+The first exact harness enumerated all transposition words for three smoke
+cases and retained the identity words.  It also built the Hurwitz graph and
+recorded diagnostics such as prefix cycle types, edge frequencies, adjacent
+repeat counts, support shapes, and window product types.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Case & Total words & Identity words & Identity density \\
+\midrule
+$S_3,m=4$ & 81 & 27 & 0.333333333333 \\
+$S_4,m=4$ & 1296 & 120 & 0.0925925925926 \\
+$S_4,m=6$ & 46656 & 3936 & 0.0843621399177 \\
+\bottomrule
+\end{tabular}
+\caption{Exact enumeration harness results.}
+\label{tab:exact-counts}
+\end{table}
+
+The first sampler-candidate run promoted both block heat-bath and
+square-refresh-plus-Hurwitz on small cases: both preserved identity, visited
+all exact Hurwitz components in the tested cases, and had acceptable empirical
+diagnostic distances after finite runs.  The more important result is that the
+exact move graphs for block heat-bath were connected in
+$S_3,m=4$, $S_4,m=4$, and $S_4,m=6$.

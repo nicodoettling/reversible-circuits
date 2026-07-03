@@ -1,0 +1,162 @@
+\section{Conditional Block Sampling}
+
+For a block product $h\in S_N$, define
+\[
+  F_r(h) = |\mathcal{B}_r(h)|
+  =
+  |\{(s_1,\ldots,s_r)\in T_N^r : s_1\cdots s_r=h\}|.
+\]
+Let $M=|T_N|=\binom{N}{2}$.
+
+\subsection{Prefix Rejection}
+
+The simplest exact sampler for $\mathcal{B}_r(h)$ samples the first $r-1$
+transpositions uniformly, computes the unique final factor needed to make the
+product equal to $h$, and accepts iff that final factor is a transposition.
+Every valid block has a unique prefix, so the accepted distribution is exactly
+uniform on $\mathcal{B}_r(h)$.
+
+\begin{lemma}[Prefix-rejection acceptance]
+The acceptance probability of prefix rejection for block size $r$ and target
+product $h$ is
+\[
+  A_r(h) = \frac{F_r(h)}{M^{r-1}}.
+\]
+\end{lemma}
+
+\begin{proof}
+There are $M^{r-1}$ possible prefixes.  Exactly $F_r(h)$ of them are prefixes
+of valid length-$r$ factorizations of $h$ by transpositions.
+\end{proof}
+
+Since $T_N$ is a conjugacy class, $F_r(h)$ depends only on the cycle type of
+$h$.  If $d(h)=N-c(h)$ is the transposition distance, where $c(h)$ is the
+number of cycles including fixed points, then the standard parity and distance
+constraints imply
+\[
+  F_r(h)=0
+  \quad\text{unless}\quad
+  d(h)\leq r
+  \quad\text{and}\quad
+  r-d(h)\equiv 0 \pmod 2.
+\]
+The previous run also found, with high confidence for exact counts and medium
+confidence for an interpolated formula table, that for fixed $r$,
+\[
+  A_r(h)=O_r\left(N^{2-r-d(h)}\right).
+\]
+This asymptotic should be treated as a checked empirical/formula-guided claim
+until a symbolic derivation is written.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{rrlrr}
+\toprule
+$N$ & $r$ & Product type & Acceptance & Expected trials \\
+\midrule
+12 & 3 & transposition & 0.04959 & 20.17 \\
+12 & 3 & 4-cycle & 0.003673 & 272.25 \\
+12 & 4 & identity & 0.04959 & 20.17 \\
+12 & 4 & 5-cycle & 0.0004348 & 2299.97 \\
+12 & 5 & transposition & 0.004489 & 222.77 \\
+12 & 5 & 6-cycle & 0.00006830 & 14641 \\
+\bottomrule
+\end{tabular}
+\caption{Selected exact prefix-rejection acceptance probabilities at $N=12$.}
+\label{tab:prefix-rejection}
+\end{table}
+
+Actual MCMC instrumentation confirmed the bottleneck.  For $r=4$ prefix
+rejection, mean attempts were about $243.6$ at $N=8,m=20$, $1334$ at
+$N=10,m=20$, $4809$ at $N=12,m=20$, and $5282$ at $N=12,m=30$.  The largest
+observed attempt count in that run was $100388$.
+
+
+\subsection{\texorpdfstring{Direct Exact Samplers for $r=4$ and $r=5$}{Direct Exact Samplers for r=4 and r=5}}
+
+The direct conditional-sampler run completed the implementation target from the
+previous version of this note.  It used the convention that permutations are
+stored as tuples $p[x]$, multiplication means composition ``$p$ after $q$'',
+and words are evaluated left to right by right-multiplying transpositions.  In
+this convention, after choosing first transposition $t$ in a block with target
+product $h$, the residual target is $th$.
+
+For $r=4$, Worker A implemented an exact two-pair midpoint sampler.  Let
+\[
+  P_2(g)=\{(a,b)\in T_N^2 : ab=g\}.
+\]
+For target product $h$, sample a midpoint product $p$ with probability
+proportional to
+\[
+  |P_2(p)|\,|P_2(p^{-1}h)|,
+\]
+then sample uniformly from $P_2(p)$ and $P_2(p^{-1}h)$.  Each valid block
+$(t_1,t_2,t_3,t_4)$ has the unique midpoint $p=t_1t_2$, hence every valid
+block is produced with probability $1/F_4(h)$.
+
+For $r=5$, Worker B implemented exact completion-count recursion.  Let
+$F_\ell(g)$ be the number of length-$\ell$ transposition words with product
+$g$.  At residual target $g$, the next transposition $t$ is chosen with
+probability proportional to $F_{\ell-1}(tg)$ in the project convention.  The
+conditional probabilities telescope, so every valid length-$5$ block with
+product $h$ has probability $1/F_5(h)$.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Case & Blocks checked & Product count & Result \\
+\midrule
+$S_3,r=4$ & 81 & 3 & pass \\
+$S_4,r=4$ & 1296 & 12 & pass \\
+$S_5,r=4$ & 10000 & 60 & pass \\
+$S_3,r=5$ & 243 & 3 & pass \\
+$S_4,r=5$ & 7776 & 12 & pass \\
+$S_5,r=5$ & 100000 & 60 & pass \\
+\bottomrule
+\end{tabular}
+\caption{Direct conditional block sampler validation from the completed
+$r=4/r=5$ run.  ``Blocks checked'' means full enumeration of $T_N^r$ for the
+listed case.}
+\label{tab:direct-block-validation}
+\end{table}
+
+At $N=20$, the $r=4$ midpoint sampler peaked near $10.9$ MB during pair-fiber
+construction, had worst measured target-kernel build time $21.3$ ms, and had
+worst measured sampling time about $1.27$ microseconds per sample.  For a
+6-cycle target at $N=20$, direct $r=5$ sampling took about $1.59$ ms per sample,
+whereas prefix rejection was estimated at about $3.47$ seconds per sample, a
+slowdown of roughly $2183\times$.  Thus the practical prefix-rejection
+bottleneck for $r=4,5$ has been removed for the all-transpositions model.
+
+\subsection{\texorpdfstring{Integrated $\{3,4,5\}$ Heat-Bath Kernel}{Integrated {3,4,5} Heat-Bath Kernel}}
+
+The promoted kernel chooses a block size from $\{3,4,5\}$, chooses a contiguous
+block, computes its product, and replaces it by an exactly uniform block of the
+same length and product.  Exact finite transition checks passed the standard
+small cases.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Case & Blocks & States & Components & Largest column error \\
+\midrule
+$S_3,m=4$ & $\{3,4,5\}$ & 27 & 1 & $5.55\cdot 10^{-16}$ \\
+$S_4,m=4$ & $\{3,4,5\}$ & 120 & 1 & $2.11\cdot 10^{-15}$ \\
+$S_4,m=6$ & $\{3,4,5\}$ & 3936 & 1 & $1.83\cdot 10^{-14}$ \\
+\bottomrule
+\end{tabular}
+\caption{Exact finite transition checks for the integrated direct heat-bath
+kernel.  Symmetry errors were reported as zero in these cases.}
+\label{tab:direct-heatbath-checks}
+\end{table}
+
+The proposed implementation interface is
+\[
+\texttt{DirectTranspositionBlockSampler.count/sample\_block}
+\]
+together with a \texttt{block\_heat\_bath\_step} routine.  These primitives are
+ready to promote for the abstract model $S_N$ with all transpositions.  They do
+not automatically transfer to restricted reversible gate libraries, where the
+same-product completion counts change.

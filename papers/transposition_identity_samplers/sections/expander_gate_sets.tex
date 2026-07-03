@@ -1,0 +1,65 @@
+\section{Alternative Gate Sets and Expander Generators}
+
+The all-transpositions model is attractive because it has rich Hurwitz
+structure and very explicit local block conditionals.  The recent
+polynomial-mixing work also suggests a possible drawback: the natural
+$\{3,4,5\}$ heat-bath chain may have subtle slow modes inside weighted
+support-component fibers or near sparse boundary layers.  It is therefore
+reasonable to consider different generator sets.
+
+A particularly clean theoretical alternative is to choose, for each $N$, a
+bounded-size symmetric generating set $S_N^{\mathrm{exp}}\subseteq S_N$ or
+$A_N$ whose Cayley graphs form an expander family.  Kassabov constructed such
+bounded-size generating sets for symmetric and alternating groups; see
+\href{https://arxiv.org/abs/math/0503204}{arXiv:math/0503204} and
+\href{https://arxiv.org/abs/math/0505624}{arXiv:math/0505624}.  For the
+unconditioned walk, this changes the baseline geometry: the Cayley graph has
+bounded degree and a spectral gap bounded away from zero, so the ordinary
+random walk mixes in $O(\log |S_N|)$ steps up to constants.
+
+For identity-word sampling the target would become
+\[
+  \Omega_S(N,m)
+  =
+  \{(g_1,\ldots,g_m)\in S^m :
+      g_1g_2\cdots g_m=\id\},
+\]
+with the uniform law on length-$m$ loops at the identity in
+$\mathrm{Cay}(G_N,S_N^{\mathrm{exp}})$.  This is still a random-walk bridge
+problem, but now on a known expander rather than on the complete
+transposition Cayley graph equipped with a support-multigraph invariant.  A
+natural research question is:
+\[
+  \text{Can bounded-degree expander Cayley graphs support efficient
+  near-uniform loop samplers?}
+\]
+The expected proof tools would be different: bridge return-ratio estimates,
+endpoint influence decay, and block dynamics on expander paths rather than
+Hurwitz orbit classification and weighted support-component geometry.
+
+There are two caveats.  First, expansion of the unconditioned Cayley walk does
+not by itself prove rapid mixing of a local bridge sampler.  Endpoint
+conditioning can introduce long-range dependence, and the exact fixed-length
+bridge still requires either completion counts or a rapidly mixing
+conditioned dynamics.  Second, Kassabov generators are global permutations of
+$N$ points.  If $N=2^n$ is the state space of an $n$-wire reversible circuit,
+such permutations are not automatically small local reversible gates.  They
+are best viewed as a mathematically clean benchmark model unless an efficient
+reversible-circuit implementation of the generators is supplied.
+
+This suggests a useful split in future work:
+\begin{itemize}
+\item keep the all-transpositions model as the Hurwitz-rich model where exact
+  local block samplers and support-component invariants are available;
+\item study expander generator sets as a benchmark model for identity
+  bridges on bounded-degree expanding Cayley graphs;
+\item for cryptographic reversible circuits, compare both abstractions with
+  implementable gate families from the random reversible-circuit literature,
+  such as random local reversible gates or simple permutations.
+\end{itemize}
+
+If polynomial mixing for the $\{3,4,5\}$ transposition heat-bath chain is
+false, an expander-generator bridge model could still provide a clean
+theorem-level sampler target.  Conversely, if even expander-generator bridge
+dynamics are hard to analyze, that would clarify that the main difficulty is
+endpoint conditioning itself rather than the transposition support geometry.

@@ -1,0 +1,24 @@
+\section{Implications for Reversible-Circuit Sampling}
+
+The transposition model is a clean abstraction of reversible identity-circuit
+sampling.  In a general reversible gate library, identity circuits are closed
+walks in the Cayley graph of the generated permutation group.  The fixed-length
+uniform target is again a bridge distribution.  Easy samplers such as
+$CC^{-1}$, adjacent cancellations, or products of relators produce identity
+circuits efficiently, but they are structurally biased.  The transposition
+experiments show the kind of discipline needed for a less biased sampler:
+\begin{itemize}
+\item define the target distribution explicitly;
+\item prove stationarity or detailed balance for the actual chain;
+\item test exact small cases before scaling;
+\item track invariants that local moves may preserve accidentally;
+\item separate empirical convergence evidence from mixing-time theorems.
+\end{itemize}
+
+For cryptographic use, conditioning on identity means the output permutation is
+known.  Any pseudorandomness claim must therefore concern the circuit
+description or the difficulty of distinguishing the generated identity word
+from a chosen target distribution over identity words.  The present work does
+not prove such a cryptographic claim.  It identifies block heat-bath as a
+mathematically clean candidate for approximating the fixed-length bridge target
+in the transposition setting.
