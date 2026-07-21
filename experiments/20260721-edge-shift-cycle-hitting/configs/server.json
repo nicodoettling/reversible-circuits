@@ -1,0 +1,35 @@
+{
+  "seed": 20260721,
+  "exact_cycle_rank_cap": 16,
+  "output": "results-server.jsonl",
+  "defaults": {
+    "graphs_per_setting": 1,
+    "walks_per_graph": 500,
+    "max_steps": 2000000,
+    "exact_cycle_element_cap": 1000000,
+    "random_relabel": true
+  },
+  "sweeps": [
+    {
+      "kind": "equal_cycles",
+      "id_prefix": "equal-cycles",
+      "total_edges_values": [48, 96, 192],
+      "cycle_count_values": [1, 2, 4, 8, 16],
+      "topologies": ["disjoint", "bouquet"]
+    },
+    {
+      "kind": "cycle_with_chords",
+      "id_prefix": "overlap-chords",
+      "n_values": [48, 96, 192],
+      "cycle_rank_values": [1, 2, 4, 8, 16],
+      "graphs_per_setting": 10,
+      "walks_per_graph": 50
+    },
+    {
+      "kind": "theta",
+      "id_prefix": "theta",
+      "total_edges_values": [48, 96, 192],
+      "shapes": ["near_triangle", "skew", "balanced"]
+    }
+  ]
+}

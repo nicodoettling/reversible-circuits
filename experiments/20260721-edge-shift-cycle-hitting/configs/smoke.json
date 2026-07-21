@@ -1,0 +1,40 @@
+{
+  "seed": 20260721,
+  "exact_cycle_rank_cap": 16,
+  "output": "results-smoke.jsonl",
+  "defaults": {
+    "graphs_per_setting": 1,
+    "walks_per_graph": 20,
+    "max_steps": 20000,
+    "exact_cycle_element_cap": 1000000
+  },
+  "settings": [
+    {
+      "id": "smoke-single-cycle-8",
+      "generator": "disjoint_cycles",
+      "cycle_lengths": [8]
+    },
+    {
+      "id": "smoke-disjoint-4-5",
+      "generator": "disjoint_cycles",
+      "cycle_lengths": [4, 5]
+    },
+    {
+      "id": "smoke-bouquet-3-4-5",
+      "generator": "cycle_bouquet",
+      "cycle_lengths": [3, 4, 5]
+    },
+    {
+      "id": "smoke-theta-2-3-4",
+      "generator": "theta",
+      "path_lengths": [2, 3, 4]
+    },
+    {
+      "id": "smoke-cycle-chords-n12-beta3",
+      "generator": "cycle_with_chords",
+      "n": 12,
+      "cycle_rank": 3,
+      "graphs_per_setting": 2
+    }
+  ]
+}
