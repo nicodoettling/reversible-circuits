@@ -1,29 +1,26 @@
 \section{Next Steps}
 
-The sampler implementation story is now mature enough for review: the target is
-fixed, the local heat-bath updates are exact in the all-transpositions model,
-and the stationary distribution is understood.  The highest-priority tasks are
-mathematical rather than exploratory:
+The dense rank-recursive theorem changes the priority order.  The immediate
+task is proof verification and simplification, followed by sharpening the one
+remaining approximation primitive:
 \begin{enumerate}
-\item prove or cite \texttt{H1\_id}, the connected-support identity Hurwitz
-  transitivity statement, in the project convention;
-\item polish the paper-ready proved inputs: stationarity, direct $r=4/r=5$
-  exactness, feasible identity components, macro-fiber factorization,
-  restricted-fiber reversibility, and the ideal-chain definition;
-\item turn conditional irreducibility into a theorem once Classification H is
-  available, including the empty, singleton, and $m=2$ exceptional cases;
-\item choose one mixing route to pursue first: either the
-  projection/decomposition route via support fresh-square estimates and
-  within-fiber Hurwitz gaps, or the large-block route via Pair-Resampling and
-  randomized comparison congestion;
-\item run an explicitly adversarial bottleneck search for the fixed
-  $\{3,4,5\}$ transposition heat-bath chain, especially in sparse and
-  near-minimal regimes;
-\item develop an alternative benchmark based on bounded-degree expander
-  generator sets, such as Kassabov-style generators, where the unconditioned
-  Cayley walk has a uniform spectral gap and the main remaining issue is the
-  endpoint-conditioned bridge dynamics;
-\item run further diagnostics only when they test a named proof obligation,
-  rather than escalating full-state spectral computations beyond the current
-  exact sanity checks.
+\item independently referee Lemma~\ref{lem:retained-rank} and the telescope
+  (RR.26), including all ceiling losses, bridge-conditioning denominators, and
+  finite-rank cases;
+\item independently verify the positive star formula and its translation from
+  F\'eray's convention, then compare the backward sampler against the count
+  formula on the recorded exact cases;
+\item solve the tunable positive connection problem: sample the exact branch
+  law (RR.9), or approximate it to arbitrary requested $\epsilon$, in time
+  polynomial in $N,L,$ and $\log(1/\epsilon)$;
+\item improve the constants and exponent in (RR.2), which are intentionally
+  loose and become numerically useful only at very large $N$;
+\item determine the broadest dense length regime for which the retained-rank
+  construction works, rather than fixing $L=2N^3$;
+\item continue the local heat-bath program as a separate structural problem:
+  verify connected-support Hurwitz transitivity and prove or refute polynomial
+  mixing of the exact $\{3,4,5\}$ chain;
+\item compare the rank-recursive construction with implementable reversible
+  gate libraries and bounded-degree expander generators before drawing
+  cryptographic conclusions.
 \end{enumerate}

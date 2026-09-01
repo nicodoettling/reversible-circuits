@@ -1,0 +1,95 @@
+{
+  "schema": "r0-exact-coverage-summary-v1",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "command": "python3 experiments/20260901-rank-recursive-identity-bridge-goal/roles/r0-coverage/exact_coverage_check.py",
+  "python": "3.12.3",
+  "random_seed": null,
+  "deterministic": true,
+  "universal_claim_falsifiable": "Finite instances of the deleted-generator return identity, even-time trace bounds, coverage union bound, and spectral constants; finite success does not prove the quantified theorem.",
+  "summary": {
+    "exit_code": 0,
+    "full_walk_partition_spectrum_N_3_through_12": "pass_exact",
+    "deleted_graph_constant_N_3_through_12": "pass_exact",
+    "return_count_cases_N_3_through_5": "pass_exact",
+    "all_deleted_edges_checked_through_N_5_L_6": "same_exact_count",
+    "dense_fixed_edge_cases_N_3_through_5": "pass_exact",
+    "coverage_union_cases": "pass_exact"
+  },
+  "selected_exact_coverage": [
+    {
+      "N": 2,
+      "L": 0,
+      "identity_words": "1",
+      "full_support_identity_words": "0"
+    },
+    {
+      "N": 2,
+      "L": 2,
+      "identity_words": "1",
+      "full_support_identity_words": "1"
+    },
+    {
+      "N": 3,
+      "L": 4,
+      "identity_words": "27",
+      "full_support_identity_words": "12",
+      "not_full_probability": "5/9"
+    },
+    {
+      "N": 3,
+      "L": 6,
+      "identity_words": "243",
+      "full_support_identity_words": "180",
+      "not_full_probability": "7/27"
+    },
+    {
+      "N": 4,
+      "L": 4,
+      "identity_words": "120",
+      "full_support_identity_words": "0",
+      "not_full_probability": "1"
+    },
+    {
+      "N": 4,
+      "L": 6,
+      "identity_words": "3936",
+      "full_support_identity_words": "96",
+      "not_full_probability": "40/41"
+    },
+    {
+      "N": 5,
+      "L": 6,
+      "identity_words": "20860",
+      "full_support_identity_words": "0",
+      "not_full_probability": "1"
+    }
+  ],
+  "dense_fixed_edge_checks": [
+    {
+      "N": 3,
+      "L": 54,
+      "fixed_edge_absence_probability_float": 3.0979329293510296e-10,
+      "proved_fixed_edge_upper_bound_float": 3.0979329293510300e-10,
+      "proved_union_upper_bound_float": 9.29379878805309e-10
+    },
+    {
+      "N": 4,
+      "L": 128,
+      "fixed_edge_absence_probability_float": 7.324879859303191e-11,
+      "proved_fixed_edge_upper_bound_float": 7.324879859303191e-11,
+      "proved_union_upper_bound_float": 4.394927915581915e-10
+    },
+    {
+      "N": 5,
+      "L": 250,
+      "fixed_edge_absence_probability_float": 3.6360291795869937e-12,
+      "proved_fixed_edge_upper_bound_float": 3.6360291795869937e-12,
+      "proved_union_upper_bound_float": 3.636029179586994e-11
+    }
+  ],
+  "boundary_checks": {
+    "N_2_L_16_identity_full": true,
+    "N_2_L_0_identity_full": false,
+    "N_3_odd_identity_fiber_empty": true
+  }
+}

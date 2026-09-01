@@ -18,6 +18,19 @@ transposition $s$, then apply Hurwitz scrambling.  This move preserves product
 and length.  It can break Hurwitz components, but later measurements showed
 that a random-slot square refresh acts too rarely at moderate $N$.
 
+\paragraph{Pair insertion as a rank lift.}
+A more global proposal embeds a lower-rank identity word, inserts an adjacent
+pair incident to the new label, applies a uniform conjugation, and then uses
+Hurwitz moves.  This particular architecture is not exact: the unlabeled
+weighted support-component signature is preserved by both conjugation and
+Hurwitz moves, and its initial law differs from the uniform bridge law.  For
+example, the event that all factors are one repeated edge has positive
+probability under the uniform target and probability zero under the one-pair
+lift for every $N\ge3$ and every even length at least four.  This obstruction
+does not apply to the rank-recursive sampler in
+Section~\ref{sec:rank-recursive-sampler}, which samples across the positive
+old/star disintegration rather than retaining pair-insertion ancestry.
+
 \subsection{Stationarity of Exact Block Heat-Bath}
 
 \begin{proposition}[Reversibility of block heat-bath]
@@ -38,10 +51,13 @@ detailed balance.  Averaging over block choices preserves reversibility.
 \end{proof}
 
 Consequently, if a lazy version of the chain is irreducible on $\Omega(N,m)$,
-it converges to the global uniform fixed-length bridge distribution.  The
-remaining tasks are therefore:
+it converges to the global uniform fixed-length bridge distribution.  Exact
+conditional samplers are already available for the implemented block sizes
+$3,4,5$.  The remaining local-chain tasks are therefore:
 \begin{enumerate}
-\item sample $\mathcal{B}_r(h)$ exactly and efficiently for useful $r$;
-\item prove irreducibility for the selected block sizes;
-\item prove or estimate a useful mixing time.
+\item make the current conditional irreducibility argument unconditional;
+\item prove an inverse-polynomial spectral gap, or find an asymptotic
+  bottleneck;
+\item determine whether useful larger blocks admit efficient exact
+  conditionals and a quantitative comparison to the local chain.
 \end{enumerate}

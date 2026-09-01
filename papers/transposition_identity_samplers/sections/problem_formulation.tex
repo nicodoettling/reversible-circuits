@@ -22,12 +22,15 @@ proportional to the number of completions from the current product times $t$
 back to $\id$ in the remaining number of steps.  This is conceptually clean but
 not directly efficient at large $N$.
 
-The project uses exact tuple permutation arithmetic in experiments.  The first
-exact harness used permutations $p$ as tuples with $p[x]$ equal to the image of
-$x$, and evaluated words left to right as
+Throughout the mathematical statements, permutations are maps composed by
 \[
-  (((\id\cdot t_1)\cdot t_2)\cdots t_m).
+  (\alpha\beta)(x)=\alpha(\beta(x)),
 \]
-All experimental claims below are internal to this convention.  The
-mathematical statements are convention-independent after consistently choosing
-left or right multiplication.
+so the rightmost displayed factor acts first.  Successive right multiplication
+has states
+\[
+  \id,\quad t_1,\quad t_1t_2,\quad\ldots,\quad t_1\cdots t_m,
+\]
+and therefore evaluates to the displayed product above.  Historical exact
+harnesses that used the opposite tuple-composition convention were translated
+before comparison with the statements in this note.

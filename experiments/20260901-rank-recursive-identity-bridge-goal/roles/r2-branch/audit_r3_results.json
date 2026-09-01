@@ -1,0 +1,96 @@
+{
+  "audit_scope": {
+    "formula_and_direct_dp": "every endpoint for N=1..4,k=0..6 and N=5,k=6",
+    "implementation_independence": "does not import roles/r3-star code",
+    "sampler": "exact symbolic probability of every word in every nonempty tested fiber",
+    "support_dp": "every exact lower-label support in the same endpoint/length cases"
+  },
+  "boundary_sequences": {
+    "N=1_identity_k=0..6": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "N=2_identity_k=0..6": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "N=2_swap_k=0..6": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "checks": {
+    "endpoint_equalities": 351,
+    "exact_support_cell_equalities": 3467,
+    "feasibility_equalities": 351,
+    "last_factor_recurrences": 318,
+    "minimal_and_padding_endpoints": 152,
+    "symbolically_enumerated_words": 5324,
+    "symbolically_uniform_nonempty_fibers": 145,
+    "total_walk_mass_equalities": 29
+  },
+  "environment": {
+    "command": "python3 experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/audit_r3_independent.py --output experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/audit_r3_results.json",
+    "determinism": "no randomness used",
+    "implementation": "CPython",
+    "nonstandard_dependencies": [],
+    "python": "3.12.3",
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993"
+  },
+  "last_factor_orientation_witness": {
+    "k": 2,
+    "left_prepend_suffix_weights": [
+      0,
+      1
+    ],
+    "n": 3,
+    "q_zero_based_images": [
+      1,
+      2,
+      0
+    ],
+    "right_append_prefix_weights": [
+      1,
+      0
+    ]
+  },
+  "pointed_state_counts": {
+    "10": 97,
+    "100": 1452423276,
+    "20": 2087,
+    "50": 1091745
+  },
+  "primary_source": {
+    "F": "2*sinh(t/2)/t",
+    "composition": "partial permutations multiply as sigma o sigma-prime, hence rightmost-first as maps",
+    "equation_12": "repeats the theorem normalization after coefficient extraction",
+    "excess": "g=r-(|lambda|+ell(lambda)-2)",
+    "lemma_3_1": "full partial-permutation support is equivalent to transitivity",
+    "proposition_1_1": "transitive star count is constant on ordinary conjugacy classes",
+    "theorem_1_2": "r!/|lambda|! * product(lambda_i) * [t^g] F(t)^(|lambda|-2) product_i F(lambda_i t)",
+    "url": "https://arxiv.org/html/0904.4854v2"
+  },
+  "selected_counts": {
+    "N=2,k=0,q=[0, 1]": 1,
+    "N=2,k=5,q=[1, 0]": 1,
+    "N=3,k=4,q=[0, 1, 2]": 6,
+    "N=4,k=6,q=[0, 1, 2, 3]": 93,
+    "N=5,k=6,q=[0, 1, 2, 3, 4]": 244,
+    "N=5,k=6,q=[1, 0, 3, 2, 4]": 24
+  }
+}

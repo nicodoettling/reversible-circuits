@@ -1,0 +1,26 @@
+{"bijection_method": "exhaustive structured enumeration over pattern x old-word x star-word", "claim": "fixed-pattern stable sort is a product-preserving bijection and (D) holds", "coefficient_method": "exact endpoint dynamic programming", "convention": "(alpha beta)(x)=alpha(beta(x)); rightmost displayed factor acts first", "elapsed_seconds": 55.46248197555542, "nonstandard_dependencies": [], "note_on_orientation": "The opposite g h^{-1} coefficient happens to agree because J_N commutes with H; the stored word-level witness distinguishes the actual star endpoint.", "parameters": {"max_L": 6, "max_N": 5, "min_L": 0, "min_N": 2}, "python_version": "3.12.3", "rank_summaries": [{"N": 2, "all_checks_passed": true, "bijection_cases": 7, "conjugation_identity_checks": 1, "endpoint_checks": 14, "lengths": [0, 6], "orientation_witness": null}, {"N": 3, "all_checks_passed": true, "bijection_cases": 1093, "conjugation_identity_checks": 4, "endpoint_checks": 42, "lengths": [0, 6], "orientation_witness": {"N": 3, "g_equals_hq_cycles": "(1 3 2)", "g_h_inverse_cycles": "(2 3)", "h_cycles": "(1 2)", "h_inverse_g_cycles": "(1 3)", "q_cycles": "(1 3)"}}, {"N": 4, "all_checks_passed": true, "bijection_cases": 55987, "conjugation_identity_checks": 18, "endpoint_checks": 168, "lengths": [0, 6], "orientation_witness": {"N": 4, "g_equals_hq_cycles": "(1 4 2)", "g_h_inverse_cycles": "(2 4)", "h_cycles": "(1 2)", "h_inverse_g_cycles": "(1 4)", "q_cycles": "(1 4)"}}, {"N": 5, "all_checks_passed": true, "bijection_cases": 1111111, "conjugation_identity_checks": 96, "endpoint_checks": 840, "lengths": [0, 6], "orientation_witness": {"N": 5, "g_equals_hq_cycles": "(1 5 2)", "g_h_inverse_cycles": "(2 5)", "h_cycles": "(1 2)", "h_inverse_g_cycles": "(1 5)", "q_cycles": "(1 5)"}}], "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993", "status": "exact finite validation", "totals": {"adjacent_rewrite_steps_checked": 16219028, "all_checks_passed": true, "bijection_cases": 1168198, "endpoint_coefficient_checks": 1064, "rank_length_cases": 28}}
+results_sha256=8bcfa513ac070a2991d89eb25b5179dd273cd13e6b7cfb8a8731caa44274e8a0
+summary_path=/home/nico/projects/research_projects/reversible_circuits/experiments/20260901-rank-recursive-identity-bridge-goal/roles/r1-bijection/summary.json
+	Command being timed: "python3 experiments/20260901-rank-recursive-identity-bridge-goal/roles/r1-bijection/check_disintegration.py --min-n 2 --max-n 5 --max-length 6 --output-dir experiments/20260901-rank-recursive-identity-bridge-goal/roles/r1-bijection"
+	User time (seconds): 55.48
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:55.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3117
+	Voluntary context switches: 5
+	Involuntary context switches: 95
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 624
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

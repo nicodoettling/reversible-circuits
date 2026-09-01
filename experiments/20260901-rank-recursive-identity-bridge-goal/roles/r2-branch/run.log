@@ -1,0 +1,24 @@
+{"all_checks_passed": true, "claim": "positive exact type-cell compression and polynomial two-sided dense branch sampler", "convention": "(alpha beta)(x)=alpha(beta(x)); rightmost displayed factor acts first", "dense_exact_audit": [{"L": 128, "N": 4, "all_checks_passed": true, "feasible_endpoints_checked": 12, "maximum_endpoint_one_based": [1, 3, 4, 2], "maximum_exact_tv": {"denominator": 1017295973953927648258488992223609343936377149492920897833268589755146824303657619958331411993942254100604636020340874268975086058074823308024186556868718531008528384, "float": 6.86151696931699e-13, "numerator": 698019358810272925042418778506535179883160350641740338187795908353097837101734644079860631139302290909698653630294291387896769520385556452523541250077483}, "pointwise_theorem_bound": {"denominator": 10301051460471709084351937132291, "float": 3.939679082071359e-11, "numerator": 405828369621610135552}, "simple_bound_2exp_minus_N2_over_2": 0.0006709252558050237}, {"L": 250, "N": 5, "all_checks_passed": true, "feasible_endpoints_checked": 60, "maximum_endpoint_one_based": [1, 2, 4, 5, 3], "maximum_exact_tv": {"denominator": 104210492094174424465313522803390574274704393330858822828790044882838409526301094015279059183043776615129386903839416840262446584491029292224906017793829285657422309631977452208278899956827452938165507644631248274664177410460814360056620086493640661550049561666618798025828927829886280745801195751377628697162134616887745613961149982463546422219582749977796727316382859103290979831227289079549221674507012060459031962974583195275821889668525070558786482756589, "float": 1.0035021268542645e-19, "numerator": 10457545045703354894283918589721617726057613504958774752842091276385839121863880606777914679738448344980716859024594955904157126680460035834476302339992922551522300602695308629347679532091939580133964658334440687676467137185007541368062543302560942734781524174437263915875909233185252559942952316570106522992479004009297833603181675861841598687764179594147837479989111128805119976990410305057971796451661080754003920627464011841948841788870}, "pointwise_theorem_bound": {"denominator": 7237005577332184922763176943442203159551727003980171361967882969980633189085, "float": 1.0679998679524558e-14, "numerator": 77291210009619600791081277647037622363890498216030513937413411}, "simple_bound_2exp_minus_N2_over_2": 7.453306344157342e-06}], "elapsed_seconds": 4.818297386169434, "exact_low_rank_audit": {"all_checks_passed": true, "exact_positive_k_marginal_checks": 125, "max_L": 8, "ranks": [2, 3, 4]}, "nonstandard_dependencies": [], "python_version": "3.12.3", "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993", "seed": 20260901, "small_exact_audit": {"all_checks_passed": true, "approximation_cases": 532, "coefficient_checks": 1368, "feasibility_checks": 1368, "max_L": 8, "max_N": 5, "sampler_smoke_checks": 1911, "spectral_normalization_bound_checks": 30, "token_coset_count_checks": 126, "worst_small_exact_tv": {"denominator": 5, "float": 0.4, "numerator": 2}}, "type_cell_state_counts": [{"H_cycle_types_p_N_minus_1": 5, "N": 5, "pointed_types_sum_p_0_to_N_minus_1": 12, "rectangular_type_cell_inventory": 60}, {"H_cycle_types_p_N_minus_1": 30, "N": 10, "pointed_types_sum_p_0_to_N_minus_1": 97, "rectangular_type_cell_inventory": 2910}, {"H_cycle_types_p_N_minus_1": 490, "N": 20, "pointed_types_sum_p_0_to_N_minus_1": 2087, "rectangular_type_cell_inventory": 1022630}, {"H_cycle_types_p_N_minus_1": 173525, "N": 50, "pointed_types_sum_p_0_to_N_minus_1": 1091745, "rectangular_type_cell_inventory": 189445051125}, {"H_cycle_types_p_N_minus_1": 169229875, "N": 100, "pointed_types_sum_p_0_to_N_minus_1": 1452423276, "rectangular_type_cell_inventory": 245793409444570500}]}
+	Command being timed: "python3 experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/branch_audit.py --max-small-n 5 --max-small-length 8 --dense-n 4 5 --output experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/results.json"
+	User time (seconds): 4.83
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 25600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11408
+	Voluntary context switches: 5
+	Involuntary context switches: 10
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

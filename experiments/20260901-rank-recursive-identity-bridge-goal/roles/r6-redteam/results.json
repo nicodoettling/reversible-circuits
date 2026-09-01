@@ -1,0 +1,2198 @@
+{
+  "boundary_cases": [
+    {
+      "L": 0,
+      "N": 2,
+      "count": 1,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 1,
+      "N": 2,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 2,
+      "N": 2,
+      "count": 1,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 3,
+      "N": 2,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "count": 1,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 5,
+      "N": 2,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 6,
+      "N": 2,
+      "count": 1,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 0,
+      "N": 3,
+      "count": 1,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 1,
+      "N": 3,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 2,
+      "N": 3,
+      "count": 3,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 3,
+      "N": 3,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 4,
+      "N": 3,
+      "count": 27,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "L": 5,
+      "N": 3,
+      "count": 0,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": true
+    },
+    {
+      "L": 6,
+      "N": 3,
+      "count": 243,
+      "kind": "full_identity_fiber",
+      "parity_expected_empty": false
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "e",
+      "k": 0,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "e",
+      "k": 1,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "e",
+      "k": 2,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "e",
+      "k": 3,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "e",
+      "k": 4,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "e",
+      "k": 5,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "e",
+      "k": 6,
+      "kind": "star_endpoint_fiber",
+      "minimum": 0,
+      "name": "N2_identity"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 0,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "(1 2)",
+      "k": 1,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 2,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "(1 2)",
+      "k": 3,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 4,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 1,
+      "endpoint": "(1 2)",
+      "k": 5,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 2,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 6,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "N2_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 0,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 1,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 2,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 2,
+      "endpoint": "(1 2)",
+      "k": 3,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 4,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 10,
+      "endpoint": "(1 2)",
+      "k": 5,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2)",
+      "k": 6,
+      "kind": "star_endpoint_fiber",
+      "minimum": 3,
+      "name": "lower_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 3)",
+      "k": 0,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 1,
+      "endpoint": "(1 3)",
+      "k": 1,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 3)",
+      "k": 2,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 3,
+      "endpoint": "(1 3)",
+      "k": 3,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 3)",
+      "k": 4,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 11,
+      "endpoint": "(1 3)",
+      "k": 5,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 3)",
+      "k": 6,
+      "kind": "star_endpoint_fiber",
+      "minimum": 1,
+      "name": "pivot_transposition"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2 3)",
+      "k": 0,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2 3)",
+      "k": 1,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 1,
+      "endpoint": "(1 2 3)",
+      "k": 2,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2 3)",
+      "k": 3,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 5,
+      "endpoint": "(1 2 3)",
+      "k": 4,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 0,
+      "endpoint": "(1 2 3)",
+      "k": 5,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    },
+    {
+      "N": 3,
+      "count": 21,
+      "endpoint": "(1 2 3)",
+      "k": 6,
+      "kind": "star_endpoint_fiber",
+      "minimum": 2,
+      "name": "three_cycle"
+    }
+  ],
+  "branch_law_cases": [
+    {
+      "L": 4,
+      "N": 3,
+      "branches": [
+        {
+          "L": 4,
+          "N": 3,
+          "branch_count": 1,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2
+          ],
+          "k": 0,
+          "old_fiber_size": 1,
+          "patterns": 1,
+          "probability": {
+            "denominator": 27,
+            "numerator": 1
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2
+          ],
+          "star_fiber_size": 1
+        },
+        {
+          "L": 4,
+          "N": 3,
+          "branch_count": 12,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2
+          ],
+          "k": 2,
+          "old_fiber_size": 1,
+          "patterns": 6,
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 4,
+          "N": 3,
+          "branch_count": 8,
+          "h": "(1 2)",
+          "h_images": [
+            1,
+            0,
+            2
+          ],
+          "k": 3,
+          "old_fiber_size": 1,
+          "patterns": 4,
+          "probability": {
+            "denominator": 27,
+            "numerator": 8
+          },
+          "star_endpoint_images": [
+            1,
+            0,
+            2
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 4,
+          "N": 3,
+          "branch_count": 6,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2
+          ],
+          "k": 4,
+          "old_fiber_size": 1,
+          "patterns": 1,
+          "probability": {
+            "denominator": 9,
+            "numerator": 2
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2
+          ],
+          "star_fiber_size": 6
+        }
+      ],
+      "identity_fiber_size": 27,
+      "k_marginal": [
+        {
+          "count": 1,
+          "k": 0,
+          "probability": {
+            "denominator": 27,
+            "numerator": 1
+          }
+        },
+        {
+          "count": 12,
+          "k": 2,
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          }
+        },
+        {
+          "count": 8,
+          "k": 3,
+          "probability": {
+            "denominator": 27,
+            "numerator": 8
+          }
+        },
+        {
+          "count": 6,
+          "k": 4,
+          "probability": {
+            "denominator": 9,
+            "numerator": 2
+          }
+        }
+      ]
+    },
+    {
+      "L": 4,
+      "N": 4,
+      "branches": [
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 27,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 0,
+          "old_fiber_size": 27,
+          "patterns": 1,
+          "probability": {
+            "denominator": 40,
+            "numerator": 9
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 1
+        },
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 54,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 2,
+          "old_fiber_size": 3,
+          "patterns": 6,
+          "probability": {
+            "denominator": 20,
+            "numerator": 9
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 3
+        },
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 8,
+          "h": "(2 3)",
+          "h_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 1,
+          "patterns": 4,
+          "probability": {
+            "denominator": 15,
+            "numerator": 1
+          },
+          "star_endpoint_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 8,
+          "h": "(1 2)",
+          "h_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 1,
+          "patterns": 4,
+          "probability": {
+            "denominator": 15,
+            "numerator": 1
+          },
+          "star_endpoint_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 8,
+          "h": "(1 3)",
+          "h_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 1,
+          "patterns": 4,
+          "probability": {
+            "denominator": 15,
+            "numerator": 1
+          },
+          "star_endpoint_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 4,
+          "N": 4,
+          "branch_count": 15,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 4,
+          "old_fiber_size": 1,
+          "patterns": 1,
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 15
+        }
+      ],
+      "identity_fiber_size": 120,
+      "k_marginal": [
+        {
+          "count": 27,
+          "k": 0,
+          "probability": {
+            "denominator": 40,
+            "numerator": 9
+          }
+        },
+        {
+          "count": 54,
+          "k": 2,
+          "probability": {
+            "denominator": 20,
+            "numerator": 9
+          }
+        },
+        {
+          "count": 24,
+          "k": 3,
+          "probability": {
+            "denominator": 5,
+            "numerator": 1
+          }
+        },
+        {
+          "count": 15,
+          "k": 4,
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        }
+      ]
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "branches": [
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 243,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 0,
+          "old_fiber_size": 243,
+          "patterns": 1,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 81
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 1
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 1215,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 2,
+          "old_fiber_size": 27,
+          "patterns": 15,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 405
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 3
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 360,
+          "h": "(2 3)",
+          "h_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 9,
+          "patterns": 20,
+          "probability": {
+            "denominator": 164,
+            "numerator": 15
+          },
+          "star_endpoint_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 360,
+          "h": "(1 2)",
+          "h_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 9,
+          "patterns": 20,
+          "probability": {
+            "denominator": 164,
+            "numerator": 15
+          },
+          "star_endpoint_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 360,
+          "h": "(1 3)",
+          "h_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "k": 3,
+          "old_fiber_size": 9,
+          "patterns": 20,
+          "probability": {
+            "denominator": 164,
+            "numerator": 15
+          },
+          "star_endpoint_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "star_fiber_size": 2
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 675,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 4,
+          "old_fiber_size": 3,
+          "patterns": 15,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 225
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 15
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 135,
+          "h": "(1 2 3)",
+          "h_images": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "k": 4,
+          "old_fiber_size": 3,
+          "patterns": 15,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 45
+          },
+          "star_endpoint_images": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "star_fiber_size": 3
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 135,
+          "h": "(1 3 2)",
+          "h_images": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "k": 4,
+          "old_fiber_size": 3,
+          "patterns": 15,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 45
+          },
+          "star_endpoint_images": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "star_fiber_size": 3
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 120,
+          "h": "(2 3)",
+          "h_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "k": 5,
+          "old_fiber_size": 1,
+          "patterns": 6,
+          "probability": {
+            "denominator": 164,
+            "numerator": 5
+          },
+          "star_endpoint_images": [
+            0,
+            2,
+            1,
+            3
+          ],
+          "star_fiber_size": 20
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 120,
+          "h": "(1 2)",
+          "h_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "k": 5,
+          "old_fiber_size": 1,
+          "patterns": 6,
+          "probability": {
+            "denominator": 164,
+            "numerator": 5
+          },
+          "star_endpoint_images": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "star_fiber_size": 20
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 120,
+          "h": "(1 3)",
+          "h_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "k": 5,
+          "old_fiber_size": 1,
+          "patterns": 6,
+          "probability": {
+            "denominator": 164,
+            "numerator": 5
+          },
+          "star_endpoint_images": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "star_fiber_size": 20
+        },
+        {
+          "L": 6,
+          "N": 4,
+          "branch_count": 93,
+          "h": "e",
+          "h_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "k": 6,
+          "old_fiber_size": 1,
+          "patterns": 1,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 31
+          },
+          "star_endpoint_images": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "star_fiber_size": 93
+        }
+      ],
+      "identity_fiber_size": 3936,
+      "k_marginal": [
+        {
+          "count": 243,
+          "k": 0,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 81
+          }
+        },
+        {
+          "count": 1215,
+          "k": 2,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 405
+          }
+        },
+        {
+          "count": 1080,
+          "k": 3,
+          "probability": {
+            "denominator": 164,
+            "numerator": 45
+          }
+        },
+        {
+          "count": 945,
+          "k": 4,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 315
+          }
+        },
+        {
+          "count": 360,
+          "k": 5,
+          "probability": {
+            "denominator": 164,
+            "numerator": 15
+          }
+        },
+        {
+          "count": 93,
+          "k": 6,
+          "probability": {
+            "denominator": 1312,
+            "numerator": 31
+          }
+        }
+      ]
+    }
+  ],
+  "convention": "(p q)(x)=p(q(x)); displayed word products act rightmost-first",
+  "metadata": {
+    "command": "python3 /home/nico/projects/research_projects/reversible_circuits/experiments/20260901-rank-recursive-identity-bridge-goal/roles/r6-redteam/exact_redteam.py --output-dir experiments/20260901-rank-recursive-identity-bridge-goal/roles/r6-redteam",
+    "deterministic": true,
+    "elapsed_seconds": 2.961991786956787,
+    "implementation": "CPython",
+    "nonstandard_dependencies": [],
+    "python": "3.12.3",
+    "random_seed": null,
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993"
+  },
+  "paired_architecture_cases": [
+    {
+      "L": 4,
+      "N": 3,
+      "adjacent_pair_tv": {
+        "denominator": 9,
+        "numerator": 7
+      },
+      "component_mass_tv": {
+        "denominator": 9,
+        "numerator": 1
+      },
+      "finite_hurwitz": [
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 0,
+          "support_size": 12,
+          "tv_to_uniform": {
+            "denominator": 9,
+            "numerator": 5
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 1,
+          "support_size": 24,
+          "tv_to_uniform": {
+            "denominator": 3,
+            "numerator": 1
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 2,
+          "support_size": 24,
+          "tv_to_uniform": {
+            "denominator": 27,
+            "numerator": 7
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 4,
+          "support_size": 24,
+          "tv_to_uniform": {
+            "denominator": 3888,
+            "numerator": 653
+          }
+        }
+      ],
+      "hurwitz_components": 4,
+      "ideal_orbit_uniformized_tv": {
+        "denominator": 9,
+        "numerator": 1
+      },
+      "overweighted_support_macro_event": {
+        "hurwitz_invariant": true,
+        "probability_gap": {
+          "denominator": 9,
+          "numerator": 1
+        },
+        "signatures": [
+          [
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "under_symmetrized_pair": {
+          "denominator": 1,
+          "numerator": 1
+        },
+        "under_uniform_target": {
+          "denominator": 9,
+          "numerator": 8
+        }
+      },
+      "pair_components_occupied": 1,
+      "pair_output_support": 6,
+      "pair_source_outcomes": 6,
+      "single_edge_event": {
+        "persistent_all_hurwitz_times": true,
+        "under_symmetrized_pair": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "under_uniform_target": {
+          "denominator": 9,
+          "numerator": 1
+        }
+      },
+      "support_macro_tv_lower_bound_all_hurwitz_times": {
+        "denominator": 9,
+        "numerator": 1
+      },
+      "symmetrized_components_occupied": 1,
+      "symmetrized_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "value": [
+            2,
+            2
+          ]
+        }
+      ],
+      "symmetrized_output_support": 12,
+      "symmetrized_pair_tv": {
+        "denominator": 9,
+        "numerator": 5
+      },
+      "symmetrized_source_outcomes": 36,
+      "symmetrized_support_signatures": [
+        {
+          "probability": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "value": [
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ],
+      "target_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          },
+          "value": [
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          },
+          "value": [
+            2,
+            2
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 1
+          },
+          "value": [
+            4
+          ]
+        }
+      ],
+      "target_mass_of_macrotypes_absent_from_pair_lift": {
+        "denominator": 9,
+        "numerator": 1
+      },
+      "target_size": 27,
+      "target_support_signatures": [
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 1
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 8
+          },
+          "value": [
+            [
+              3,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "L": 4,
+      "N": 4,
+      "adjacent_pair_tv": {
+        "denominator": 40,
+        "numerator": 31
+      },
+      "component_mass_tv": {
+        "denominator": 60,
+        "numerator": 11
+      },
+      "finite_hurwitz": [
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 0,
+          "support_size": 60,
+          "tv_to_uniform": {
+            "denominator": 2,
+            "numerator": 1
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 1,
+          "support_size": 114,
+          "tv_to_uniform": {
+            "denominator": 540,
+            "numerator": 191
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 2,
+          "support_size": 114,
+          "tv_to_uniform": {
+            "denominator": 1620,
+            "numerator": 493
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 4,
+          "support_size": 114,
+          "tv_to_uniform": {
+            "denominator": 29160,
+            "numerator": 7099
+          }
+        }
+      ],
+      "hurwitz_components": 13,
+      "ideal_orbit_uniformized_tv": {
+        "denominator": 60,
+        "numerator": 11
+      },
+      "overweighted_support_macro_event": {
+        "hurwitz_invariant": true,
+        "probability_gap": {
+          "denominator": 60,
+          "numerator": 11
+        },
+        "signatures": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        ],
+        "under_symmetrized_pair": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "under_uniform_target": {
+          "denominator": 20,
+          "numerator": 3
+        }
+      },
+      "pair_components_occupied": 6,
+      "pair_output_support": 27,
+      "pair_source_outcomes": 27,
+      "single_edge_event": {
+        "persistent_all_hurwitz_times": true,
+        "under_symmetrized_pair": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "under_uniform_target": {
+          "denominator": 20,
+          "numerator": 1
+        }
+      },
+      "support_macro_tv_lower_bound_all_hurwitz_times": {
+        "denominator": 60,
+        "numerator": 11
+      },
+      "symmetrized_components_occupied": 7,
+      "symmetrized_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "value": [
+            2,
+            2
+          ]
+        }
+      ],
+      "symmetrized_output_support": 60,
+      "symmetrized_pair_tv": {
+        "denominator": 2,
+        "numerator": 1
+      },
+      "symmetrized_source_outcomes": 648,
+      "symmetrized_support_signatures": [
+        {
+          "probability": {
+            "denominator": 3,
+            "numerator": 2
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 3,
+            "numerator": 1
+          },
+          "value": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "target_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 5,
+            "numerator": 2
+          },
+          "value": [
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 20,
+            "numerator": 11
+          },
+          "value": [
+            2,
+            2
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 20,
+            "numerator": 1
+          },
+          "value": [
+            4
+          ]
+        }
+      ],
+      "target_mass_of_macrotypes_absent_from_pair_lift": {
+        "denominator": 20,
+        "numerator": 1
+      },
+      "target_size": 120,
+      "target_support_signatures": [
+        {
+          "probability": {
+            "denominator": 20,
+            "numerator": 1
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 5,
+            "numerator": 4
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 20,
+            "numerator": 3
+          },
+          "value": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "L": 6,
+      "N": 4,
+      "adjacent_pair_tv": {
+        "denominator": 1312,
+        "numerator": 1177
+      },
+      "component_mass_tv": {
+        "denominator": 17712,
+        "numerator": 3035
+      },
+      "finite_hurwitz": [
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 0,
+          "support_size": 1326,
+          "tv_to_uniform": {
+            "denominator": 656,
+            "numerator": 435
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 1,
+          "support_size": 2574,
+          "tv_to_uniform": {
+            "denominator": 147600,
+            "numerator": 79507
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 2,
+          "support_size": 3528,
+          "tv_to_uniform": {
+            "denominator": 442800,
+            "numerator": 205417
+          }
+        },
+        {
+          "single_edge_probability": {
+            "denominator": 1,
+            "numerator": 0
+          },
+          "steps": 4,
+          "support_size": 3930,
+          "tv_to_uniform": {
+            "denominator": 55350000,
+            "numerator": 20827133
+          }
+        }
+      ],
+      "hurwitz_components": 17,
+      "ideal_orbit_uniformized_tv": {
+        "denominator": 17712,
+        "numerator": 3035
+      },
+      "overweighted_support_macro_event": {
+        "hurwitz_invariant": true,
+        "probability_gap": {
+          "denominator": 17712,
+          "numerator": 3035
+        },
+        "signatures": [
+          [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          [
+            [
+              4,
+              6
+            ]
+          ]
+        ],
+        "under_symmetrized_pair": {
+          "denominator": 27,
+          "numerator": 25
+        },
+        "under_uniform_target": {
+          "denominator": 656,
+          "numerator": 495
+        }
+      },
+      "pair_components_occupied": 7,
+      "pair_output_support": 405,
+      "pair_source_outcomes": 405,
+      "single_edge_event": {
+        "persistent_all_hurwitz_times": true,
+        "under_symmetrized_pair": {
+          "denominator": 1,
+          "numerator": 0
+        },
+        "under_uniform_target": {
+          "denominator": 656,
+          "numerator": 1
+        }
+      },
+      "support_macro_tv_lower_bound_all_hurwitz_times": {
+        "denominator": 17712,
+        "numerator": 3035
+      },
+      "symmetrized_components_occupied": 11,
+      "symmetrized_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          },
+          "value": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 4
+          },
+          "value": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 1
+          },
+          "value": [
+            4,
+            2
+          ]
+        }
+      ],
+      "symmetrized_output_support": 1326,
+      "symmetrized_pair_tv": {
+        "denominator": 656,
+        "numerator": 435
+      },
+      "symmetrized_source_outcomes": 9720,
+      "symmetrized_support_signatures": [
+        {
+          "probability": {
+            "denominator": 27,
+            "numerator": 2
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 27,
+            "numerator": 1
+          },
+          "value": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 9,
+            "numerator": 8
+          },
+          "value": [
+            [
+              4,
+              6
+            ]
+          ]
+        }
+      ],
+      "target_edge_multiplicity_partitions": [
+        {
+          "probability": {
+            "denominator": 41,
+            "numerator": 1
+          },
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 164,
+            "numerator": 33
+          },
+          "value": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 164,
+            "numerator": 57
+          },
+          "value": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 41,
+            "numerator": 8
+          },
+          "value": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 82,
+            "numerator": 9
+          },
+          "value": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 164,
+            "numerator": 1
+          },
+          "value": [
+            3,
+            3
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 82,
+            "numerator": 3
+          },
+          "value": [
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 656,
+            "numerator": 51
+          },
+          "value": [
+            4,
+            2
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 656,
+            "numerator": 1
+          },
+          "value": [
+            6
+          ]
+        }
+      ],
+      "target_mass_of_macrotypes_absent_from_pair_lift": {
+        "denominator": 656,
+        "numerator": 1
+      },
+      "target_size": 3936,
+      "target_support_signatures": [
+        {
+          "probability": {
+            "denominator": 656,
+            "numerator": 1
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 41,
+            "numerator": 10
+          },
+          "value": [
+            [
+              1,
+              0
+            ],
+            [
+              3,
+              6
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 656,
+            "numerator": 15
+          },
+          "value": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "probability": {
+            "denominator": 41,
+            "numerator": 30
+          },
+          "value": [
+            [
+              4,
+              6
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "r1_independent_checks": {
+    "adjacent_rewrites": 199613,
+    "all_endpoint_coefficient_checks": 224,
+    "cases": [
+      {
+        "L": 0,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 1,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 2,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 3,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 4,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 5,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 6,
+        "N": 2,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 0,
+        "N": 3,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 1,
+        "N": 3,
+        "all_words_roundtripped": 3,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 2,
+        "N": 3,
+        "all_words_roundtripped": 9,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 3,
+        "N": 3,
+        "all_words_roundtripped": 27,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 4,
+        "N": 3,
+        "all_words_roundtripped": 81,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 5,
+        "N": 3,
+        "all_words_roundtripped": 243,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 6,
+        "N": 3,
+        "all_words_roundtripped": 729,
+        "reachable_endpoints": 3
+      },
+      {
+        "L": 0,
+        "N": 4,
+        "all_words_roundtripped": 1,
+        "reachable_endpoints": 1
+      },
+      {
+        "L": 1,
+        "N": 4,
+        "all_words_roundtripped": 6,
+        "reachable_endpoints": 6
+      },
+      {
+        "L": 2,
+        "N": 4,
+        "all_words_roundtripped": 36,
+        "reachable_endpoints": 12
+      },
+      {
+        "L": 3,
+        "N": 4,
+        "all_words_roundtripped": 216,
+        "reachable_endpoints": 12
+      },
+      {
+        "L": 4,
+        "N": 4,
+        "all_words_roundtripped": 1296,
+        "reachable_endpoints": 12
+      },
+      {
+        "L": 5,
+        "N": 4,
+        "all_words_roundtripped": 7776,
+        "reachable_endpoints": 12
+      },
+      {
+        "L": 6,
+        "N": 4,
+        "all_words_roundtripped": 46656,
+        "reachable_endpoints": 12
+      }
+    ],
+    "roundtrip_words": 57087
+  },
+  "r2_candidate_independent_audit": {
+    "all_checks_passed": true,
+    "candidate": "two-sided old/star parity flattening",
+    "dense_every_feasible_endpoint_cases": [
+      {
+        "L": 128,
+        "N": 4,
+        "feasible_endpoints_checked": 12,
+        "maximum_endpoint_images": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "maximum_tv": {
+          "denominator": 1017295973953927648258488992223609343936377149492920897833268589755146824303657619958331411993942254100604636020340874268975086058074823308024186556868718531008528384,
+          "numerator": 698019358810272925042418778506535179883160350641740338187795908353097837101734644079860631139302290909698653630294291387896769520385556452523541250077483
+        },
+        "pointwise_normalization_bound": {
+          "denominator": 10301051460471709084351937132291,
+          "numerator": 405828369621610135552
+        }
+      },
+      {
+        "L": 250,
+        "N": 5,
+        "feasible_endpoints_checked": 60,
+        "maximum_endpoint_images": [
+          0,
+          1,
+          3,
+          4,
+          2
+        ],
+        "maximum_tv": {
+          "denominator": 104210492094174424465313522803390574274704393330858822828790044882838409526301094015279059183043776615129386903839416840262446584491029292224906017793829285657422309631977452208278899956827452938165507644631248274664177410460814360056620086493640661550049561666618798025828927829886280745801195751377628697162134616887745613961149982463546422219582749977796727316382859103290979831227289079549221674507012060459031962974583195275821889668525070558786482756589,
+          "numerator": 10457545045703354894283918589721617726057613504958774752842091276385839121863880606777914679738448344980716859024594955904157126680460035834476302339992922551522300602695308629347679532091939580133964658334440687676467137185007541368062543302560942734781524174437263915875909233185252559942952316570106522992479004009297833603181675861841598687764179594147837479989111128805119976990410305057971796451661080754003920627464011841948841788870
+        },
+        "pointwise_normalization_bound": {
+          "denominator": 7237005577332184922763176943442203159551727003980171361967882969980633189085,
+          "numerator": 77291210009619600791081277647037622363890498216030513937413411
+        }
+      }
+    ],
+    "small_identity_cases": [
+      {
+        "L": 4,
+        "N": 3,
+        "endpoint": "e",
+        "exact_normalizer": 27,
+        "scaled_approximate_normalizer": 87,
+        "tv": {
+          "denominator": 783,
+          "numerator": 56
+        }
+      },
+      {
+        "L": 4,
+        "N": 4,
+        "endpoint": "e",
+        "exact_normalizer": 120,
+        "scaled_approximate_normalizer": 1377,
+        "tv": {
+          "denominator": 136,
+          "numerator": 9
+        }
+      },
+      {
+        "L": 6,
+        "N": 4,
+        "endpoint": "e",
+        "exact_normalizer": 3936,
+        "scaled_approximate_normalizer": 46494,
+        "tv": {
+          "denominator": 287,
+          "numerator": 29
+        }
+      }
+    ]
+  },
+  "r3_independent_checks": {
+    "all_passed": true,
+    "boundary_records_retained": 432,
+    "endpoint_formula_checks": 1064,
+    "last_factor_recurrence_checks": 912
+  }
+}

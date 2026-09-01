@@ -170,6 +170,68 @@ Construct high-entropy, efficiently samplable identity circuits whose descriptio
 
 This seems different from just sampling random reversible functions.
 
+## Rank-Recursive Transposition Sampler Direction
+
+A separate candidate direction applies specifically to the all-transpositions
+model.  Generalize the recursive interface to endpoint fibers
+
+```text
+Omega(N,L;g) = { (t_1,...,t_L) : t_i transpositions in S_N,
+                                  t_1 ... t_L = g }.
+```
+
+The top-level identity sampler is still `Sample(N,L,e)`.  Arbitrary endpoints
+are required internally when splitting `S_N` along the point stabilizer
+`S_(N-1)`.  If
+
+```text
+C_N = sum_(t transposition in S_N) t,
+J_N = sum_(i<N) (i N),
+```
+
+then `C_N=C_(N-1)+J_N` and the two summands commute.  Stable-sorting old and
+star transpositions gives the positive exact disintegration
+
+```text
+[g] C_N^L
+ = sum_k binom(L,k) sum_(h in S_(N-1))
+     [h] C_(N-1)^(L-k) [h^(-1)g] J_N^k.
+```
+
+The September 2026 rank-recursive goal run resolved these primitives in the
+dense fixed-length regime.  Its current theorem candidate gives, for every
+sufficiently large `N` and every feasible endpoint `g`, a polynomial-time
+sampler on `Omega(N,2N^3;g)` whose output law is within
+
+```text
+3N exp(-N/12288)
+```
+
+of uniform in total variation.  In particular, `g=e` gives statistically
+close-to-uniform identity bridges.  The conservative exact-arithmetic runtime
+bound recorded by the run is `O(N^4 L^3)`, hence `O(N^13)` at `L=2N^3`.
+
+The proof combines the exact stable-sort disintegration above with an exact
+prescribed-endpoint sampler for star factorizations, a pointwise smoothing
+bound for the star walk, and a retained-length recursion that prevents the
+lower-rank instances from becoming short.  Complete transposition support is
+then a high-probability property of the uniform target: its failure probability
+at `L=2N^3` is at most `exp(-2N)` in the stated parameter range.
+
+This is a fixed-negligible-error theorem candidate, not an exact sampler or a
+sampler with a user-specified accuracy parameter.  It rests on agent-produced
+proofs and internal finite audits and therefore still requires line-by-line
+human review before being treated as established.  The adjacent-pair lift is
+also not itself exact: it occupies a restricted branch, and neither global
+conjugation nor subsequent Hurwitz moves corrects that branch bias in general.
+
+The derivation and run materials are in
+`notes/rank-recursive-identity-bridge-sampling.md` and
+`experiments/20260901-rank-recursive-identity-bridge-goal/`.  The streamlined
+proof is in the manuscript.  This result supplies a separate dense-regime
+sampler and does not prove polynomial mixing of the local heat-bath chain in
+`GOAL_SPEC.md`.
+
 ## Expected-Length Relaxation
 
 The fixed-`m` constraint is not essential for the user's cryptographic goal.

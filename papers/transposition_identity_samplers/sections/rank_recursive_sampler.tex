@@ -1,0 +1,589 @@
+\section{A Polynomial-Time Sampler for Dense Bridges}
+\label{sec:rank-recursive-sampler}
+
+This section gives the main positive result.  It does not analyze a Markov
+chain on identity words.  Instead, it recursively separates transpositions
+that avoid the largest label from star transpositions incident to that label.
+Approximation enters only when long endpoint walks are replaced by their
+parity-uniform limits and when a negligible set of recursively short branches
+is discarded.  Every sampled word still has exactly the prescribed length and
+endpoint.
+
+For $g\in S_r$, write
+\[
+  \Omega_r(L;g)
+  =
+  \{(t_1,\ldots,t_L)\in T_r^L:t_1\cdots t_L=g\},
+  \qquad
+  U_{r,L,g}=\operatorname{Unif}\Omega_r(L;g).
+\]
+The fiber is nonempty exactly when
+\[
+  \operatorname{sgn}(g)=(-1)^L
+  \quad\hbox{and}\quad
+  L\ge r-c(g),
+  \tag{RR.1}
+\]
+where $c(g)$ counts all cycles, including fixed points.  Necessity follows
+from sign and cycle count.  Sufficiency follows by writing each cycle as a
+minimal product of transpositions and padding by adjacent pairs.
+
+\begin{theorem}[Dense rank-recursive sampler]
+\label{thm:dense-rank-recursion}
+For every sufficiently large $N$ and every $g\in S_N$ for which
+$\Omega_N(2N^3;g)$ is nonempty, there is a randomized algorithm
+$\mathsf{DenseSample}(N,2N^3,g)$ with the following properties.
+\begin{enumerate}
+\item Every output consists of exactly $2N^3$ transpositions and has product
+  exactly $g$.
+\item If $\nu_{N,g}$ is its output law, then
+  \[
+    d_{\TV}\bigl(\nu_{N,g},U_{N,2N^3,g}\bigr)
+    \le 3N\exp(-N/12288).
+    \tag{RR.2}
+  \]
+\item Its expected Turing runtime and space are polynomial in $N$ and the
+  length.  A deliberately conservative bound is
+  $O(N^4L^3)$ exact-arithmetic operations on polynomial-bit integers and
+  rationals, with $L=2N^3$.
+\end{enumerate}
+In particular, taking $g=\id$ gives a polynomial-time statistically uniform
+sampler for dense identity bridges.
+\end{theorem}
+
+The proof is organized around four ingredients: an exact rank
+disintegration, exact star completion, a pointwise-smoothed one-rank lift, and
+a retained-length telescope.
+
+\subsection{Exact rank disintegration}
+
+Embed $H=S_{r-1}$ in $S_r$ as the stabilizer of $r$.  Call a transposition
+\emph{old} if it lies in $H$, and call
+\[
+  \tau_i=(i\,r),\qquad 1\le i<r,
+\]
+a \emph{star} transposition.  In the group algebra put
+\[
+  C_r=\sum_{t\in T_r}t,\qquad
+  C_{r-1}=\sum_{t\in T_{r-1}}t,\qquad
+  J_r=\sum_{i<r}\tau_i.
+\]
+
+\begin{lemma}[Stable-sort bijection]
+\label{lem:stable-sort}
+Fix an old/star pattern of length $L$ containing $k$ star positions.  There is
+a product-preserving bijection between words with this pattern and pairs
+$(u,v)$, where $u$ is an old word of length $L-k$ and $v$ is a star word of
+length $k$.  If $h=\operatorname{eval}(u)$ and the original endpoint is $g$,
+then
+\[
+  \operatorname{eval}(v)=h^{-1}g.
+  \tag{RR.3}
+\]
+The bijection and its inverse use at most $k(L-k)$ adjacent rewrites.
+\end{lemma}
+
+\begin{proof}
+For $a\in H$,
+\[
+  \tau_i a=a\tau_{a^{-1}(i)}.
+  \tag{RR.4}
+\]
+Repeatedly use (RR.4) to move every old factor left of every star factor.
+Each rewrite reduces the number of star--old inversions by one, so the
+procedure terminates in at most $k(L-k)$ steps and preserves the product.
+It is stable: no two old ancestors and no two star ancestors are exchanged.
+
+The inverse starts from $uv$ and restores the chosen binary pattern.  Whenever
+a star must move left across an old factor, use the inverse equality
+\[
+  a\tau_j=\tau_{a(j)}a.
+\]
+The two procedures undo one another rewrite by rewrite.  Finally
+$g=\operatorname{eval}(u)\operatorname{eval}(v)=h\operatorname{eval}(v)$,
+which proves (RR.3).
+\end{proof}
+
+Since $C_r=C_{r-1}+J_r$ and $C_{r-1}$ commutes with $J_r$, Lemma
+\ref{lem:stable-sort} gives the positive coefficient identity
+\[
+  [g]C_r^L
+  =
+  \sum_{k=0}^L\binom{L}{k}
+  \sum_{h\in H}
+    [h]C_{r-1}^{L-k}\,[h^{-1}g]J_r^k.
+  \tag{RR.5}
+\]
+Every summand counts actual words.  Thus an exact sampler could draw $(k,h)$
+proportionally to the summand, sample the two endpoint fibers, choose a
+uniform binary pattern, and apply the inverse stable sort.  The difficulty is
+to draw the labeled branch $(k,h)$ without enumerating $(r-1)!$ possibilities.
+
+\subsection{Exact prescribed-endpoint star bridges}
+
+Write
+\[
+  B_{r,k}(q)=[q]J_r^k.
+\]
+The following proposition turns these coefficients into an exact conditional
+sampler.  Its enumerative input is the positive transitive
+star-factorization formula of F\'eray \cite[Proposition 1.1, Theorem 1.2, and
+Lemma 3.1]{Feray2012}.
+
+\begin{proposition}[Star completion]
+\label{prop:star-completion}
+Given $r,k$ and a labeled endpoint $q\in S_r$, the number $B_{r,k}(q)$ can be
+computed in time polynomial in $r$ and $k$.  Whenever it is positive, one can
+sample exactly and uniformly from the corresponding length-$k$ star words in
+polynomial expected time.
+\end{proposition}
+
+\begin{proof}
+Let the cycle of $q$ containing $r$ have length $a$, let
+$b_1,\ldots,b_m$ be the lengths of the other nontrivial cycles, and let $f$
+be the number of fixed points in $\{1,\ldots,r-1\}$.  Put
+\[
+  \mu=(a,b_1,\ldots,b_m),\quad
+  n_0=a+\sum_jb_j,\quad
+  \ell_*(q)=n_0+\ell(\mu)-2,
+\]
+and
+\[
+  F(x)=\frac{2\sinh(x/2)}{x}
+      =\sum_{\substack{d\ge0\\d\ {\rm even}}}
+        \frac{x^d}{2^d(d+1)!}.
+\]
+For $0\le z\le f$, set
+\[
+  \mu_z=\mu\cup 1^z,\qquad n_z=n_0+z,\qquad
+  d_z=k-\ell_*(q)-2z.
+\]
+For $n_z\ge2$, define
+\[
+  T_k(\mu_z)
+  =
+  \frac{k!}{n_z!}
+  \left(\prod_{u\in\mu_z}u\right)
+  [x^{d_z}]F(x)^{n_z-2}\prod_{u\in\mu_z}F(ux),
+  \tag{RR.6}
+\]
+with a zero contribution when $d_z<0$.  Use the singleton convention
+$T_0((1))=1$ and $T_k((1))=0$ for $k>0$.  Decomposing a star word by the
+subset of fixed lower labels that it actually uses gives
+\[
+  B_{r,k}(q)=\sum_{z=0}^f\binom{f}{z}T_k(\mu_z).
+  \tag{RR.7}
+\]
+Indeed, on its exact used-label set the star factor graph is connected, so
+F\'eray's transitive formula gives (RR.6); conversely every transitive
+factorization on that set uses exactly those labels.  This is a disjoint,
+positive decomposition.
+
+All series may be truncated at degree $k$.  There are $O(r)$ factors and
+$O(r)$ support choices, so schoolbook polynomial multiplication evaluates
+(RR.7) with polynomially many operations on polynomial-bit rationals.
+
+For sampling, partition by the last displayed factor:
+\[
+  B_{r,j}(q)=\sum_{i<r}B_{r,j-1}(q\tau_i).
+  \tag{RR.8}
+\]
+Choose $i$ with weight $B_{r,j-1}(q\tau_i)$, recurse on
+$(j-1,q\tau_i)$, and append $\tau_i$.  Induction using (RR.8) shows that
+every word has probability $1/B_{r,j}(q)$.  Exact integer range draws make
+the procedure Las Vegas.  A conservative implementation uses
+$O(r^3k^3)$ exact-rational operations, and all intermediate integers and
+rationals have polynomial bit length.
+\end{proof}
+
+\subsection{A positive one-rank lift}
+
+For a rank-$r$ call of length $L$, put $s=L-k$,
+\[
+  d=\binom{r-1}{2},\qquad b=r-1,
+\]
+and define
+\[
+  A_s(h)=[h]C_{r-1}^s,\qquad B_k(q)=[q]J_r^k.
+\]
+The exact branch weight from (RR.5) is
+\[
+  \binom{L}{k}A_s(h)B_k(h^{-1}g).
+  \tag{RR.9}
+\]
+
+We need pointwise, parity-aware estimates rather than ordinary total-variation
+mixing.  The following form will be used twice.
+
+\begin{lemma}[Pointwise parity smoothing]
+\label{lem:pointwise-smoothing}
+Let $K$ be the normalized random-transposition operator associated with the
+edges of a connected graph, acting on the corresponding symmetric group.
+Suppose its nontrivial absolute spectral radius, after removing the constant
+and sign eigenvectors, is at most $\rho$.  On the parity class reachable at
+time $t$,
+\[
+  \left|
+    \frac{K^t(e,x)}{2/|G|}-1
+  \right|
+  \le \frac{|G|-2}{2}\rho^t.
+  \tag{RR.10}
+\]
+For the old and star walks at rank $r$, respectively,
+\[
+  \rho_{\rm old}=\frac{r-4}{r-2},
+  \qquad
+  \rho_{\rm star}=\frac{r-2}{r-1}.
+  \tag{RR.11}
+\]
+\end{lemma}
+
+\begin{proof}
+Project the two point masses in the matrix coefficient $K^t(e,x)$ away from
+the constant and sign eigenspaces.  Cauchy--Schwarz and the operator norm on
+the remaining space bound the absolute remainder by
+$(1-2/|G|)\rho^t$.  Dividing by the parity-uniform mass $2/|G|$ gives
+(RR.10).
+
+For an edge-transposition walk, the interchange-process spectral gap equals
+the one-particle graph gap by Caputo--Liggett--Richthammer
+\cite[Theorem 1.1]{CLR2010}.  The unnormalized one-particle gaps of
+$K_{r-1}$ and the star $K_{1,r-1}$ are $r-1$ and $1$; division by their
+numbers of edges gives (RR.11).  Multiplication by the sign character
+anticommutes with every transposition operator, so positive and negative
+eigenvalues are paired and the same bounds hold in absolute value.
+\end{proof}
+
+Consequently, on reachable endpoints,
+\begin{align}
+  \left|
+  \frac{A_s(h)}{2d^s/(r-1)!}-1
+  \right|
+  &\le
+  \delta_{\rm old}(r,s)
+  :=
+  \frac{(r-1)!-2}{2}
+  \left(\frac{r-4}{r-2}\right)^s,
+  \tag{RR.12}\\
+  \left|
+  \frac{B_k(q)}{2b^k/r!}-1
+  \right|
+  &\le
+  \delta_{\rm star}(r,k)
+  :=
+  \frac{r!-2}{2}
+  \left(\frac{r-2}{r-1}\right)^k.
+  \tag{RR.13}
+\end{align}
+
+The positive lift flattens only the longer side of (RR.9).  Let
+$x=g^{-1}(r)$, and let $Z_r(k,x)$ be the number of length-$k$ star words with
+endpoint $q$ satisfying $q(x)=r$.  These are exactly the endpoints for which
+$h=gq^{-1}$ fixes $r$.  The count has the two-state recurrence
+\[
+  u_0=1,\quad v_0=0,\qquad
+  u_{j+1}=bv_j,\quad v_{j+1}=u_j+(b-1)v_j,
+  \tag{RR.14}
+\]
+with $Z_r(k,r)=u_k$ and $Z_r(k,x)=v_k$ for $x\ne r$.  The same completion
+counts give an exact backward sampler for a uniform star word satisfying the
+token condition.
+
+After multiplying by one harmless common factor, use the integer $k$-weights
+\[
+  \widetilde W_k=
+  \begin{cases}
+  r\binom{L}{k}d^sZ_r(k,x),&s\ge k,\\[3pt]
+  \binom{L}{k}d^sb^k,&k>s.
+  \end{cases}
+  \tag{RR.15}
+\]
+If $s\ge k$, sample the star token bridge, let its endpoint be $q$, set
+$h=gq^{-1}$, and recursively request an old bridge with endpoint $h$.  If
+$k>s$, sample the old word unconditionally, let its endpoint be $h$, and use
+Proposition \ref{prop:star-completion} at endpoint $h^{-1}g$; this branch does
+not recurse.  In both cases choose a uniform binary pattern and invert the
+stable sort.
+
+\begin{lemma}[One-rank comparison]
+\label{lem:one-rank-comparison}
+Let
+\[
+  \Delta(r,L)=
+  \max\left\{
+  \delta_{\rm old}\!\left(r,\left\lceil L/2\right\rceil\right),
+  \delta_{\rm star}\!\left(r,\left\lfloor L/2\right\rfloor+1\right)
+  \right\}.
+  \tag{RR.16}
+\]
+If $\Delta(r,L)<1$, then the exact and approximate branch supports agree, and
+the one-rank lift with an exact lower child differs from $U_{r,L,g}$ by at
+most
+\[
+  \frac{\Delta(r,L)}{1-\Delta(r,L)}
+  \tag{RR.17}
+\]
+in total variation, uniformly over feasible $g$.
+\end{lemma}
+
+\begin{proof}
+In the old-long half, (RR.12) compares every exact old endpoint count with
+the flat value used in (RR.15), while the star-coset weight remains exact.
+In the star-long half, (RR.13) compares every exact star endpoint count with
+the flat value, while the old-word weight remains exact.  Thus every exact
+unnormalized branch weight divided by its approximate counterpart lies in
+$[1-\Delta,1+\Delta]$.  The same interval contains the ratio of normalizers.
+The standard likelihood-ratio estimate then gives
+\[
+  d_{\TV}(P,Q)
+  \le
+  \frac{1}{2(1-\Delta)}
+  \mathbb E_Q\left|
+    \frac{w}{\widetilde w}
+    -\frac{Z}{\widetilde Z}
+  \right|
+  \le \frac{\Delta}{1-\Delta}.
+\]
+Applying identical exact conditional kernels for old words, star words,
+patterns, and inverse sorting cannot increase total variation.
+\end{proof}
+
+\subsection{Retained lengths and the rank telescope}
+
+One-rank smoothing is not enough: a recursive old child could be too short.
+The following explicit floors retain enough old length at every rank while
+discarding only negligible bridge mass.
+
+Fix the top rank $N\ge6$ and set
+\[
+  a_N=\lceil\log_2N\rceil,\qquad
+  z_N=\left\lceil\sqrt{Na_N}\right\rceil.
+\]
+For $6\le j\le N$, define
+\[
+  w_j=\frac{1}{j\lceil\sqrt j\rceil}+\frac{100z_N}{Nj},
+  \qquad
+  W_N=\sum_{j=6}^Nw_j,
+  \tag{RR.18}
+\]
+\[
+  c_5=1,\qquad
+  c_r=1+\frac{\sum_{j=6}^r w_j}{W_N},
+  \qquad
+  B_4=0,\qquad
+  B_r=\left\lceil Nr(r-1)c_r\right\rceil.
+  \tag{RR.19}
+\]
+In particular $c_N=2$ and
+\[
+  B_N=2N^2(N-1)<2N^3.
+  \tag{RR.20}
+\]
+At rank $r\ge6$, retain every star-long branch and retain an old-long branch
+only if its old length $s$ is at least $B_{r-1}$.  Rank five needs no
+truncation, and ranks at most four have exact elementary samplers.
+
+\begin{lemma}[Uniform retained-rank bounds]
+\label{lem:retained-rank}
+Suppose $N$ is large enough that
+\[
+  \frac{100z_N(1+\log N)}{N}\le\frac{15}{8},
+  \qquad 12z_N\le N,\qquad \log N\le\frac N4.
+  \tag{RR.21}
+\]
+At rank five, for every $L\ge B_5$, there is no discarded branch,
+$\Delta(5,L)\le\exp(-5N/4)$, and every recursive child is handled exactly at
+rank four.  Moreover, for every $6\le r\le N$, every $L\ge B_r$, and every feasible
+$g\in S_r$:
+\begin{enumerate}
+\item under $U_{r,L,g}$, the mass of discarded old-long branches is at most
+  $\exp(-N/12288)$;
+\item $\Delta(r,L)\le\exp(-Nr/4)$;
+\item every retained recursive child lies in the next retained domain.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+The rank-five statement follows directly from (RR.12)--(RR.16) with
+$B_5=20N$: the two nontrivial radii are $1/3$ and $3/4$, and rank-four
+children are exact.  We therefore turn to $r\ge6$.
+
+The decreasing-series and harmonic bounds, together with (RR.21), give
+$W_N\le3$.  In an unconditioned rank-$r$ word, the old count $A$ has law
+\[
+  A\sim\operatorname{Bin}\left(L,\frac{r-2}{r}\right).
+\]
+For a fixed cutoff, its lower-tail probability decreases with $L$, so take
+$L=B_r$.  Equations (RR.18)--(RR.19), including the ceiling loss, give
+\[
+  \mathbb E A-B_{r-1}
+  \ge
+  \frac{N\sqrt r}{32}+6z_Nr=:t_0.
+  \tag{RR.22}
+\]
+Equivalently, the star count has mean at most $5Nr$.  Bernstein's inequality,
+(RR.21), and $(x+y)^2\ge x^2+y^2$ yield
+\[
+  \Pr[A<B_{r-1}]
+  \le
+  \exp\!\left(-\frac{N}{12288}-3r\log N\right).
+  \tag{RR.23}
+\]
+
+This unconditioned estimate must still be transferred to the bridge.  Let
+$M_r=\binom r2$.  Lemma \ref{lem:pointwise-smoothing}, applied to the full
+transposition walk, gives on the feasible parity class
+\[
+  P_r^L(e,g)
+  \ge
+  \frac{2}{r!}
+  -
+  \left(1-\frac{2}{r-1}\right)^L
+  \ge \frac1{r!}
+  \tag{RR.24}
+\]
+for $L\ge B_r$ under (RR.21).  Therefore
+$|\Omega_r(L;g)|\ge M_r^L/r!$.  The number of discarded words ending at
+$g$ is at most the total number of unconditioned words satisfying the tail
+event.  Dividing by (RR.24) and using $r!\le N^r$ in (RR.23) proves
+\[
+  U_{r,L,g}(\text{discarded})
+  \le
+  \exp\!\left(-\frac{N}{12288}-2r\log N\right)
+  \le \exp(-N/12288).
+  \tag{RR.25}
+\]
+
+For the second assertion, substitute $L\ge B_r$ into (RR.12)--(RR.16), use
+$1-x\le e^{-x}$, and absorb the factorial prefactors using
+$\log r\le N/4$.  This gives $\Delta(r,L)\le e^{-Nr/4}$.  The third assertion
+is immediate from the retention rule $s\ge B_{r-1}$; star-long branches do
+not recurse.
+\end{proof}
+
+\begin{proof}[Proof of Theorem \ref{thm:dense-rank-recursion}]
+At a retained call $(r,L,g)$, compute the integer weights (RR.15), setting to
+zero precisely the discarded old-long weights.  Draw $k$ exactly, execute the
+corresponding old-long or star-long procedure, choose a uniform binary
+pattern, and invert Lemma \ref{lem:stable-sort}.  The endpoint is always
+exactly $g$.
+
+Let $D_r$ be the worst total-variation error over retained rank-$r$ calls.
+Ranks at most four are exact: $S_2$ has one feasible word; the old parity
+classes at ranks three and four are singletons or exactly uniform, and the
+remaining all-star case uses Proposition \ref{prop:star-completion}.  Hence
+$D_4=0$.  Comparing first with the exact bridge conditioned on retention and
+then using Lemma \ref{lem:one-rank-comparison}, Lemma
+\ref{lem:retained-rank} gives
+\[
+  D_r
+  \le
+  \exp(-N/12288)+2\exp(-Nr/4)+D_{r-1}.
+  \tag{RR.26}
+\]
+The last term follows from contraction of total variation under the exact
+reconstruction kernel.  Summing (RR.26) from rank five to rank $N$ gives
+\[
+  D_N
+  \le
+  \sum_{r=5}^N
+  \left(\exp(-N/12288)+2\exp(-Nr/4)\right)
+  \le 3N\exp(-N/12288).
+\]
+Equation (RR.20) places the top-level length $2N^3$ in the retained domain.
+
+There are $O(L)$ branch weights, each with $O(L\log N)$ bits.  Token
+sampling, permutation updates, and stable sorting are polynomial.  Along one
+recursive path there is at most one star-long branch, hence at most one call
+to the $O(r^3L^3)$ star sampler.  Summing over ranks gives the stated
+conservative $O(N^4L^3)$ exact-arithmetic bound on polynomial-bit operands.
+Exact fair-bit range rejection accounts for the expected-runtime qualifier.
+\end{proof}
+
+\subsection{Complete transposition support}
+
+The dense target itself contains every transposition with overwhelming
+probability.  This is a bridge-conditioned statement, not an ordinary coupon
+collector estimate.
+
+\begin{theorem}[Dense complete support]
+\label{thm:dense-complete-support}
+Let $M=\binom N2$, let $N\ge3$, and let $L$ be even.  Under the uniform
+identity bridge,
+\[
+  \Pr[\text{some transposition is absent}]
+  \le
+  M\left(1-\frac1M\right)^L
+  +
+  \frac{MN!}{2}\left(1-\frac2N\right)^L.
+  \tag{RR.27}
+\]
+At $L=2N^3$ this is at most $\exp(-2N)$.  The same conclusion is immediate
+for $N=2$.
+\end{theorem}
+
+\begin{proof}
+Fix a transposition $a$.  Let $P$ be the normalized full-transposition
+operator and $Q_a$ the normalized operator with $a$ deleted.  If
+$p_L=P^L(e,e)$ and $q_L=Q_a^L(e,e)$, exact word counting gives
+\[
+  \Pr[a\text{ absent}]
+  =
+  \left(\frac{M-1}{M}\right)^L\frac{q_L}{p_L}.
+  \tag{RR.28}
+\]
+The graph $K_N-a$ has one-particle Laplacian gap $N-2$.  By
+\cite[Theorem 1.1]{CLR2010}, sign symmetry, and the trace formula for the
+even return probability,
+\[
+  q_L\le\frac2{N!}
+  +
+  \left(1-\frac{N-2}{M-1}\right)^L,
+  \qquad
+  p_L\ge\frac2{N!}.
+\]
+Insert these estimates into (RR.28), use
+\[
+  \frac{M-1}{M}
+  \left(1-\frac{N-2}{M-1}\right)
+  =1-\frac2N,
+\]
+and take a union bound over the $M$ choices of $a$.  This proves (RR.27).
+At $L=2N^3$, the two terms are each at most $e^{-3N}$ by
+$1-x\le e^{-x}$, $\log M\le N$, and $\log(N!)\le N^2$.
+\end{proof}
+
+\begin{corollary}
+At length $2N^3$, the sampler of Theorem
+\ref{thm:dense-rank-recursion} fails to contain every transposition with
+probability at most
+\[
+  \exp(-2N)+3N\exp(-N/12288).
+\]
+\end{corollary}
+
+\begin{proof}
+Apply Theorem \ref{thm:dense-complete-support} to the target and use the
+defining event bound for total variation.
+\end{proof}
+
+\subsection{Scope and proof status}
+
+Theorem \ref{thm:dense-rank-recursion} is not an exact sampler and not an
+arbitrary-accuracy scheme at fixed $(N,L)$.  Its error is a negligible
+function of the scheduled parameters, but additional runtime does not lower
+the bound below (RR.2).  The remaining standalone problem is to sample the
+positive labeled branch law (RR.9), exactly or to arbitrary requested
+$\epsilon$, in time polynomial in $r,L,$ and $\log(1/\epsilon)$ without
+enumerating $S_{r-1}$ or partition-scale endpoint types.
+
+The result is also polynomial in the permutation degree $N$ and word length
+$L$.  If $S_N$ is used to model a reversible function on $n=\log_2N$ wires,
+this is not automatically polynomial in $n$.
+
+This proof is a streamlined consolidation of a multi-agent derivation.  Its
+algebraic identities and finite boundary cases passed independent exact
+implementations, and the retained-length estimates were separately audited.
+The section is nevertheless newly assembled and should receive ordinary
+human referee review, with particular attention to (RR.22)--(RR.26), before
+being treated as a final external theorem.

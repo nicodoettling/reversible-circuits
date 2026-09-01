@@ -1,0 +1,54 @@
+{
+  "schema": "r4-r5-flat-projection-summary-v1",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "command": "python3 experiments/20260901-rank-recursive-identity-bridge-goal/roles/r4-r5-closure/check_flat_projection.py",
+  "python": "3.12.3",
+  "deterministic": true,
+  "random_seed": null,
+  "exit_code": 0,
+  "universal_claim_falsifiable": "Finite instances of h=gq^{-1}, the stabilizer/projection equivalence, projected-star counts, flat positive branch normalization, and the pointwise old-walk bound.",
+  "checks": {
+    "stabilizer_convolution_equalities": 1064,
+    "orientation_equivalences": 29018,
+    "projected_formula_and_backward_recurrence_equalities": 98,
+    "exact_kernel_entry_inequalities": 975,
+    "disintegration_coefficient_equalities": 1050,
+    "rank_three_exact_flat_cases": 19,
+    "failures": 0
+  },
+  "selected_branch_tv": [
+    {
+      "N": 3,
+      "L": 4,
+      "endpoint": "identity",
+      "exact_count": "27",
+      "one_sided_flat_branch_tv": "0/1"
+    },
+    {
+      "N": 4,
+      "L": 4,
+      "endpoint": "identity",
+      "exact_count": "120",
+      "one_sided_flat_branch_tv": "9/112"
+    },
+    {
+      "N": 4,
+      "L": 6,
+      "endpoint": "identity",
+      "exact_count": "3936",
+      "one_sided_flat_branch_tv": "2511/160064"
+    },
+    {
+      "N": 5,
+      "L": 6,
+      "endpoint": "identity",
+      "exact_count": "20860",
+      "one_sided_flat_branch_tv": "4514802/55409375"
+    }
+  ],
+  "selected_projected_counts": [
+    {"N": 3, "k": 6, "center": 22, "each_leaf": 21, "total": 64},
+    {"N": 4, "k": 6, "center": 183, "each_leaf": 182, "total": 729},
+    {"N": 5, "k": 6, "center": 820, "each_leaf": 819, "total": 4096}
+  ]
+}

@@ -8,6 +8,7 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}{Proposition}
 \newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
 \newtheorem{conjecture}{Conjecture}
 \newtheorem{question}{Question}
 
@@ -21,9 +22,9 @@
 \newcommand{\KN}{K_N}
 \newcommand{\XN}{X_N}
 
-\title{Sampling Identity Bridges in Symmetric Groups:\ Transpositions, Heat-Bath Chains, and Expander Generators}
+\title{Sampling Identity Bridges in Symmetric Groups:\ Rank Recursion and Local Dynamics}
 \author{Project notes from the reversible-circuits sampler experiments}
-\date{June 27, 2026}
+\date{September 1, 2026}
 
 \begin{document}
 
@@ -41,34 +42,33 @@ The target distribution is the uniform distribution on $\Omega(N,m)$.
 This is the random-walk bridge distribution for the random-transposition
 Cayley graph, conditioned to return to the identity at time $m$.
 
-The completed experiments show that pure Hurwitz random walks are not global
-samplers: they preserve a weighted support-component invariant and split even
-small instances into many components.  The most promising sampler found so far
-is a fixed-length block heat-bath chain: choose a contiguous block, keep its
-product fixed, and resample exactly from all transposition blocks with that
-product.  Exact block heat-bath is reversible for the uniform law on
-$\Omega(N,m)$, and small exact cases show connected transition graphs and
-positive spectral gaps.  A later run removed the main practical bottleneck by
-constructing direct exact conditional samplers for block sizes $4$ and $5$ and
-integrating them into an exact $\{3,4,5\}$ block heat-bath kernel.  The main
-frontier is now theoretical: formalizing the Hurwitz weighted-support
-classification in the project convention and proving, or refuting, polynomial
-mixing for the exact local heat-bath chain.
+Our main result is a rank-recursive sampler for the dense schedule $m=2N^3$.
+For every sufficiently large $N$, it always returns a length-$2N^3$
+transposition word with product identity, runs in expected time polynomial in
+$N$ and $m$, and has total-variation distance at most
+\[
+  3N\exp(-N/12288)
+\]
+from the uniform bridge law.  The proof combines an exact stable-sort
+disintegration along $S_{N-1}\subset S_N$, an exact polynomial-time sampler
+for prescribed-endpoint star factorizations, parity-aware pointwise smoothing,
+and a retained-length recursion whose errors telescope over the ranks.  At the
+same schedule, every transposition occurs with probability at least
+$1-\exp(-2N)$ under the uniform bridge.  The approximation error is negligible
+but fixed by $N$ and $m$; arbitrary requested accuracy remains open.
 
-This note consolidates the completed findings available through the direct
-conditional-sampler run, the subsequent theory-frontier run, the polynomial
-upper-bound attempt, and the later polynomial-mixing swarm.  The strongest
-current result is conditional: polynomial mixing follows from precise
-quantitative projection and fiber estimates, but no unconditional polynomial
-mixing theorem is claimed.  A graph-theoretic reformulation identifies the
-main object as a local-rewrite graph on ordered edge sequences of the complete
-graph whose associated token-swapping schedule is the identity.  Because the
-small-block transposition chain may have hidden slow modes, we also isolate
-bounded-degree expander generator sets, including Kassabov-style generators,
-as a separate benchmark direction for identity-bridge sampling.
+We also retain the local-dynamics picture.  Pure Hurwitz walks are not global
+samplers because they preserve weighted support-component data.  Exact
+$\{3,4,5\}$ block heat-bath updates are reversible for the uniform law and
+pass small exact tests, but no unconditional polynomial mixing theorem for
+that local chain is known.  Thus rank recursion supplies the current
+polynomial-time sampling result, while local heat-bath mixing and bounded-degree
+expander gate sets remain distinct structural questions.
 \end{abstract}
 
 \input{sections/problem_formulation}
+
+\input{sections/rank_recursive_sampler}
 
 \input{sections/graph_theoretic_interpretation}
 
@@ -95,5 +95,7 @@ as a separate benchmark direction for identity-bridge sampling.
 \input{sections/next_steps}
 
 \input{sections/internal_sources}
+
+\input{sections/references}
 
 \end{document}
