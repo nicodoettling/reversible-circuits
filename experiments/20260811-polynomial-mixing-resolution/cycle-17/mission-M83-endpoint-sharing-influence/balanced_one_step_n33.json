@@ -1,0 +1,67 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_one_step_family.py --n 9 15 21 27 33 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_one_step_n33.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "family": "n=3k odd: [k,k,k]_3 versus [1,k-1,k,k]_S",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "TV_K": 0.5681777777777778,
+      "k": 3,
+      "n": 9,
+      "n_times_TV_K": 5.1136,
+      "quotient_orbits": 38,
+      "raw_rank_two_targets": 336,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.7045333333333335
+    },
+    {
+      "TV_K": 0.37028577771677856,
+      "k": 5,
+      "n": 15,
+      "n_times_TV_K": 5.554286665751678,
+      "quotient_orbits": 213,
+      "raw_rank_two_targets": 3185,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.4341106504345449
+    },
+    {
+      "TV_K": 0.2938675138865023,
+      "k": 7,
+      "n": 21,
+      "n_times_TV_K": 6.171217791616548,
+      "quotient_orbits": 634,
+      "raw_rank_two_targets": 13300,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.3466701266733831
+    },
+    {
+      "TV_K": 0.2509808541572818,
+      "k": 9,
+      "n": 27,
+      "n_times_TV_K": 6.776483062246608,
+      "quotient_orbits": 1409,
+      "raw_rank_two_targets": 38025,
+      "row_sum_balanced": 0.9999999999999999,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.3041347733823396
+    },
+    {
+      "TV_K": 0.22286121427805974,
+      "k": 11,
+      "n": 33,
+      "n_times_TV_K": 7.354420071175972,
+      "quotient_orbits": 2646,
+      "raw_rank_two_targets": 87296,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.2802402069038497
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_diagnostic_only"
+}

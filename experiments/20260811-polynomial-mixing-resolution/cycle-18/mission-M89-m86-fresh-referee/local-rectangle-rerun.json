@@ -1,0 +1,79 @@
+{
+  "schema": "m86-local-signed-rectangle-v1",
+  "claim_status": "exact finite audit of the universal transposition case split",
+  "scope_warning": "The enumeration checks local signed algebra; the all-length voltage bound additionally uses the proved occurrence-band pullback induction.",
+  "convention": "R(a,b)=(b,bab); R^-1(a,b)=(aba,a)",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "dependencies": {},
+  "seed": null,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M86-voltage-signed-bypass/local_signed_rectangle_audit.py",
+    "--N",
+    "3",
+    "4",
+    "5",
+    "6",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M89-m86-fresh-referee/local-rectangle-rerun.json"
+  ],
+  "elapsed_seconds": 0.003274679183959961,
+  "records": [
+    {
+      "N": 3,
+      "ordered_edge_pairs": 9,
+      "signed_cases": 18,
+      "inverse_failures": 0,
+      "occurrence_label_failures": 0,
+      "endpoint_bound_failures": 0,
+      "endpoint_moves_histogram": {
+        "0": 0,
+        "1": 12,
+        "2": 6
+      },
+      "max_endpoint_tracks_changed_when_both_occurrences_marked": 2
+    },
+    {
+      "N": 4,
+      "ordered_edge_pairs": 36,
+      "signed_cases": 72,
+      "inverse_failures": 0,
+      "occurrence_label_failures": 0,
+      "endpoint_bound_failures": 0,
+      "endpoint_moves_histogram": {
+        "0": 12,
+        "1": 48,
+        "2": 12
+      },
+      "max_endpoint_tracks_changed_when_both_occurrences_marked": 2
+    },
+    {
+      "N": 5,
+      "ordered_edge_pairs": 100,
+      "signed_cases": 200,
+      "inverse_failures": 0,
+      "occurrence_label_failures": 0,
+      "endpoint_bound_failures": 0,
+      "endpoint_moves_histogram": {
+        "0": 60,
+        "1": 120,
+        "2": 20
+      },
+      "max_endpoint_tracks_changed_when_both_occurrences_marked": 2
+    },
+    {
+      "N": 6,
+      "ordered_edge_pairs": 225,
+      "signed_cases": 450,
+      "inverse_failures": 0,
+      "occurrence_label_failures": 0,
+      "endpoint_bound_failures": 0,
+      "endpoint_moves_histogram": {
+        "0": 180,
+        "1": 240,
+        "2": 30
+      },
+      "max_endpoint_tracks_changed_when_both_occurrences_marked": 2
+    }
+  ]
+}

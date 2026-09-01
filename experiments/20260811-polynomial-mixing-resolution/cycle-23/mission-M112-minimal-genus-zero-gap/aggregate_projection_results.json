@@ -1,0 +1,159 @@
+{
+  "argv": [
+    "aggregate_projection_audit.py",
+    "--d",
+    "3",
+    "4",
+    "--output",
+    "aggregate_projection_results.json"
+  ],
+  "claim_tested": "The raw fixed-leaf stationary-flow projection aggregate-dominates the uniform P_(0,d-1) base edge flow.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "elapsed_seconds": 0.27387085696682334,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "base_oriented_offdiagonal_demands": 0,
+      "base_states": 1,
+      "d": 3,
+      "elapsed_seconds": 0.0012108241207897663,
+      "fixed_leaf_label": 2,
+      "lift_count_histogram": {},
+      "mark_loss_fraction": 0.20833333333333334,
+      "mark_lost": 20,
+      "marked_restriction_states": 16,
+      "maximum_oriented_demand": null,
+      "maximum_parallel_pair_normalized_flow_ratio": null,
+      "minimum_oriented_demand": null,
+      "minimum_parallel_pair_normalized_flow_ratio": null,
+      "per_source_state_lift_fraction_max": null,
+      "per_source_state_lift_fraction_min": null,
+      "physical_directed_proposals": 96,
+      "retained_base_move": 0,
+      "retained_identity": 76,
+      "source_fiber_size_histogram": {
+        "16": 1
+      },
+      "upstairs_states": 24,
+      "zero_aggregate_lift_demands": 0
+    },
+    {
+      "base_oriented_offdiagonal_demands": 108,
+      "base_states": 24,
+      "d": 4,
+      "elapsed_seconds": 0.26979912794195116,
+      "fixed_leaf_label": 3,
+      "lift_count_histogram": {
+        "36": 24,
+        "45": 36,
+        "46": 36,
+        "52": 12
+      },
+      "mark_loss_fraction": 0.11734317343173432,
+      "mark_lost": 1908,
+      "marked_restriction_states": 1626,
+      "maximum_oriented_demand": {
+        "base_orientation": 1,
+        "base_site": 1,
+        "normalized_flow_ratio": 0.46051660516605164,
+        "physical_lift_count": 52,
+        "source": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "source_fiber_size": 67,
+        "target": [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "maximum_parallel_pair_normalized_flow_ratio": 0.46051660516605164,
+      "minimum_oriented_demand": {
+        "base_orientation": -1,
+        "base_site": 1,
+        "normalized_flow_ratio": 0.31881918819188193,
+        "physical_lift_count": 36,
+        "source": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "source_fiber_size": 67,
+        "target": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "minimum_parallel_pair_normalized_flow_ratio": 0.31881918819188193,
+      "per_source_state_lift_fraction_max": 0.7761194029850746,
+      "per_source_state_lift_fraction_min": 0.5294117647058824,
+      "physical_directed_proposals": 16260,
+      "retained_base_move": 4764,
+      "retained_identity": 9588,
+      "source_fiber_size_histogram": {
+        "67": 6,
+        "68": 18
+      },
+      "upstairs_states": 2880,
+      "zero_aggregate_lift_demands": 0
+    }
+  ],
+  "scope_warning": "Finite normalized ratios can falsify zero aggregate lifting but do not prove a universal comparison.",
+  "seed": null
+}

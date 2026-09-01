@@ -1,0 +1,202 @@
+{
+  "arithmetic": "fractions.Fraction exact parking-macro enumeration",
+  "claim_tested": "g=q K_reset W <= Var(Phi), its one-step variance supersolution, and the beta-binomial variance envelope",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 35.47820711135864,
+  "finite_scope_warning": "Exact bounded survival proves no universal inequality.",
+  "parameters": {
+    "ambient_max": 7
+  },
+  "python": "3.12.3",
+  "result": {
+    "counts": {
+      "contexts": 105,
+      "one_step_children": 168,
+      "right_heavy_contexts": 50
+    },
+    "failure_counts": {
+      "beta_binomial_variance_envelope": 0,
+      "one_step_contextual_variance": 0,
+      "resolvent_over_contextual_variance": 0,
+      "right_heavy_pointwise_unit_interval": 0
+    },
+    "first_failures": {
+      "beta_binomial_variance_envelope": [],
+      "one_step_contextual_variance": [],
+      "resolvent_over_contextual_variance": [],
+      "right_heavy_pointwise_unit_interval": []
+    },
+    "maxima": {
+      "one_step_contextual_variance": {
+        "ratio": {
+          "decimal": 0.954915729754062,
+          "denominator": "64041192000",
+          "numerator": "61153941593"
+        },
+        "row": {
+          "ambient": 7,
+          "beta_binomial_envelope": {
+            "decimal": 0.18594726413656454,
+            "denominator": "6561",
+            "numerator": "1220"
+          },
+          "context": [
+            5,
+            2,
+            1,
+            2
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.06215792181069959,
+            "denominator": "388800",
+            "numerator": "24167"
+          },
+          "one_step_margin": {
+            "decimal": 0.003772827096255485,
+            "denominator": "765275040000",
+            "numerator": "2887250407"
+          },
+          "one_step_total": {
+            "decimal": 0.07991106255471235,
+            "denominator": "765275040000",
+            "numerator": "61153941593"
+          },
+          "q": {
+            "decimal": 0.24691358024691357,
+            "denominator": "81",
+            "numerator": "20"
+          },
+          "reset_budget": {
+            "decimal": 0.01775314074401277,
+            "denominator": "765275040000",
+            "numerator": "13586035493"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.023326100491955153,
+            "denominator": "30611001600000",
+            "numerator": "714035299481"
+          },
+          "variance": {
+            "decimal": 0.08368388965096785,
+            "denominator": "131220",
+            "numerator": "10981"
+          }
+        }
+      },
+      "resolvent_over_contextual_variance": {
+        "ratio": {
+          "decimal": 0.54610748341583,
+          "denominator": "35913013933104000000",
+          "numerator": "19612365660885066031"
+        },
+        "row": {
+          "ambient": 7,
+          "beta_binomial_envelope": {
+            "decimal": 0.14199389200290607,
+            "denominator": "282475249",
+            "numerator": "40109760"
+          },
+          "context": [
+            6,
+            1,
+            0,
+            3
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.04152332361516035,
+            "denominator": "137200",
+            "numerator": "5697"
+          },
+          "one_step_margin": {
+            "decimal": 0.007912614284697738,
+            "denominator": "45576590495452800",
+            "numerator": "360629981002139"
+          },
+          "one_step_total": {
+            "decimal": 0.0796396760046366,
+            "denominator": "45576590495452800",
+            "numerator": "3629704900453861"
+          },
+          "q": {
+            "decimal": 0.17135717260665198,
+            "denominator": "16807",
+            "numerator": "2880"
+          },
+          "reset_budget": {
+            "decimal": 0.038116352389476256,
+            "denominator": "45576590495452800",
+            "numerator": "1737213384035533"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.047812960917200595,
+            "denominator": "410189314459075200000",
+            "numerator": "19612365660885066031"
+          },
+          "variance": {
+            "decimal": 0.08755229028933434,
+            "denominator": "282475249",
+            "numerator": "24731355"
+          }
+        }
+      },
+      "variance_over_beta_binomial_envelope": {
+        "ratio": {
+          "decimal": 1.0,
+          "denominator": "1",
+          "numerator": "1"
+        },
+        "row": {
+          "ambient": 3,
+          "beta_binomial_envelope": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          },
+          "context": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "one_step_margin": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          },
+          "one_step_total": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "q": {
+            "decimal": 0.6666666666666666,
+            "denominator": "3",
+            "numerator": "2"
+          },
+          "reset_budget": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "variance": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          }
+        }
+      }
+    },
+    "resolvent_memoized_contexts": 105
+  },
+  "seed": null
+}

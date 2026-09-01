@@ -1,0 +1,439 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the centralizer-invariant quotient mu grows without bound, then universal product-increment O(1/l) is false.",
+  "scope_warning": "The quotient gives a rigorous lower bound after exact counting, but finite lengths cannot establish an asymptotic trend and it does not include nontrivial centralizer representations.",
+  "quotient": "pair-stabilizer",
+  "records": [
+    {
+      "N": 8,
+      "length": 4,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "quotient": "pair-stabilizer",
+      "product_support_size": 323,
+      "centralizer_orbit_count": 17,
+      "completion_cycle_type_count": 18,
+      "detailed_balance_error": 3.469446951953614e-18,
+      "whitened_self_adjoint_error": 8.326672684688674e-17,
+      "quotient_kappa_eigenvalues": [
+        -0.27441565186039446,
+        -0.20756463538289532,
+        -0.06863993614694362,
+        -0.06138708712774994,
+        -0.041236620207868654,
+        -0.016194537121822034,
+        -0.0017224066407752184,
+        0.011843647809607543,
+        0.015088771245240383,
+        0.022047604478227116,
+        0.042807649514326224,
+        0.044526038056837455,
+        0.0814378378380918,
+        0.13869300585430164,
+        0.2441477096089818,
+        0.4647655273004439,
+        0.9999999999999997
+      ],
+      "quotient_mu_lower_bound": 0.5985741454753329,
+      "length_times_quotient_mu": 2.3942965819013318,
+      "orbits": [
+        {
+          "index": 0,
+          "canonical_key": [
+            0,
+            1
+          ],
+          "size": 1,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 28
+        },
+        {
+          "index": 1,
+          "canonical_key": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "size": 12,
+          "representative": [
+            0,
+            2,
+            3,
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 2,
+          "canonical_key": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "size": 3,
+          "representative": [
+            1,
+            0,
+            2,
+            3,
+            4,
+            5,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 3,
+          "canonical_key": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "size": 12,
+          "representative": [
+            1,
+            2,
+            0,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 4,
+          "canonical_key": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "size": 6,
+          "representative": [
+            2,
+            3,
+            0,
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 5,
+          "canonical_key": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3
+          ],
+          "size": 24,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            5
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 6,
+          "canonical_key": [
+            0,
+            1,
+            3,
+            2,
+            5,
+            4
+          ],
+          "size": 3,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 7,
+          "canonical_key": [
+            0,
+            1,
+            4,
+            5,
+            2,
+            3
+          ],
+          "size": 6,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            4,
+            5
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 8,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            3,
+            5,
+            4
+          ],
+          "size": 24,
+          "representative": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 9,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            2,
+            1,
+            4,
+            3,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 10,
+          "canonical_key": [
+            0,
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            2,
+            4,
+            3,
+            1,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 11,
+          "canonical_key": [
+            1,
+            0,
+            2,
+            4,
+            3,
+            5
+          ],
+          "size": 12,
+          "representative": [
+            1,
+            0,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 12,
+          "canonical_key": [
+            2,
+            4,
+            0,
+            3,
+            1,
+            5
+          ],
+          "size": 24,
+          "representative": [
+            2,
+            4,
+            0,
+            3,
+            1,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 13,
+          "canonical_key": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            7,
+            6
+          ],
+          "size": 12,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 14,
+          "canonical_key": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            6,
+            5,
+            7
+          ],
+          "size": 24,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            6,
+            5,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 15,
+          "canonical_key": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            5,
+            3,
+            7
+          ],
+          "size": 16,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            5,
+            3,
+            7
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 16,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          "raw_lift_weight": 2
+        }
+      ]
+    }
+  ]
+}

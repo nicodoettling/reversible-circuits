@@ -1,0 +1,80 @@
+{
+  "actual_kernel": "nonlazy uniform scan of exact adjacent rank-two heat baths in minimal long-cycle factorizations",
+  "claim_tested": "Every Lorentzian ideal parking edge has an actual projected route of length at most two with inverse-polynomial capacity loss.",
+  "convention": "(pq)(x)=p(q(x)); factor products left-to-right",
+  "finite_scope_warning": "A missing route refutes the two-hop claim. Positive finite instances do not prove a universal path or congestion theorem.",
+  "ideal_kernel": "delete a uniformly chosen coordinate and reinsert uniformly among feasible parking values",
+  "python": "3.12.3",
+  "records": [
+    {
+      "denes_expected": 3,
+      "ideal_detailed_balance_failures": [],
+      "ideal_directed_edge_count": 2,
+      "inverse_label_failures": [],
+      "macro_count": 2,
+      "maximum_actual_distance_of_ideal_edge": 1,
+      "minimum_best_capacity_ratio": "4/3",
+      "minimum_best_capacity_ratio_float": 1.3333333333333333,
+      "missing_length_at_most_two_routes": [],
+      "n": 3,
+      "projected_detailed_balance_failures": [],
+      "r": 2,
+      "rank_two_interval_histogram": {
+        "3": 3
+      },
+      "raw_factorization_count": 3,
+      "twenty_worst_capacity_records": [
+        {
+          "actual_graph_distance": 1,
+          "best_middle": null,
+          "best_min_capacity_over_ideal_flow": "4/3",
+          "best_ratio_float": 1.3333333333333333,
+          "best_route_length_at_most_two": 1,
+          "ideal_rate": "1/2",
+          "source": [
+            0,
+            0
+          ],
+          "target": [
+            0,
+            1
+          ]
+        },
+        {
+          "actual_graph_distance": 1,
+          "best_middle": null,
+          "best_min_capacity_over_ideal_flow": "4/3",
+          "best_ratio_float": 1.3333333333333333,
+          "best_route_length_at_most_two": 1,
+          "ideal_rate": "1/4",
+          "source": [
+            0,
+            1
+          ],
+          "target": [
+            0,
+            0
+          ]
+        }
+      ],
+      "worst_capacity_record": {
+        "actual_graph_distance": 1,
+        "best_middle": null,
+        "best_min_capacity_over_ideal_flow": "4/3",
+        "best_ratio_float": 1.3333333333333333,
+        "best_route_length_at_most_two": 1,
+        "ideal_rate": "1/2",
+        "source": [
+          0,
+          0
+        ],
+        "target": [
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null
+}

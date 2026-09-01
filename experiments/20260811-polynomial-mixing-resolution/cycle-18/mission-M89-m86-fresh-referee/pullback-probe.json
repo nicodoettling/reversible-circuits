@@ -1,0 +1,145 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M89-m86-fresh-referee/general_pullback_probe.py",
+    "--case",
+    "8601",
+    "5000",
+    "--case",
+    "8902",
+    "5000",
+    "--case",
+    "8903",
+    "5000",
+    "--case",
+    "8904",
+    "5000",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M89-m86-fresh-referee/pullback-probe.json"
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab)",
+  "method": "per-occurrence conjugators with exact all-token integral-voltage transport",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "elapsed_seconds": 0.4833007990382612,
+      "equal_adjacent_pairs_checked": 1562,
+      "first_safe_bound_failure": null,
+      "first_safe_pair": {
+        "pair_index": 5,
+        "q": 68,
+        "voltage": [
+          0,
+          1
+        ]
+      },
+      "maximum_coordinate": 71,
+      "maximum_excess_record": {
+        "bound": 138,
+        "excess": -137,
+        "pair_index": 5,
+        "q": 68,
+        "safe": true,
+        "voltage": [
+          0,
+          1
+        ]
+      },
+      "safe_iff_nonzero_homology_mismatches": 0,
+      "safe_pairs_checked": 722,
+      "seed": 8601,
+      "steps": 5000
+    },
+    {
+      "elapsed_seconds": 0.503096034983173,
+      "equal_adjacent_pairs_checked": 3493,
+      "first_safe_bound_failure": null,
+      "first_safe_pair": {
+        "pair_index": 12,
+        "q": 121,
+        "voltage": [
+          1,
+          0
+        ]
+      },
+      "maximum_coordinate": 1679,
+      "maximum_excess_record": {
+        "bound": 244,
+        "excess": -243,
+        "pair_index": 12,
+        "q": 121,
+        "safe": true,
+        "voltage": [
+          1,
+          0
+        ]
+      },
+      "safe_iff_nonzero_homology_mismatches": 0,
+      "safe_pairs_checked": 1498,
+      "seed": 8902,
+      "steps": 5000
+    },
+    {
+      "elapsed_seconds": 0.4997607711702585,
+      "equal_adjacent_pairs_checked": 3210,
+      "first_safe_bound_failure": null,
+      "first_safe_pair": {
+        "pair_index": 3,
+        "q": 477,
+        "voltage": [
+          1,
+          1
+        ]
+      },
+      "maximum_coordinate": 142,
+      "maximum_excess_record": {
+        "bound": 518,
+        "excess": -518,
+        "pair_index": 13,
+        "q": 258,
+        "safe": false,
+        "voltage": [
+          0,
+          0
+        ]
+      },
+      "safe_iff_nonzero_homology_mismatches": 0,
+      "safe_pairs_checked": 1546,
+      "seed": 8903,
+      "steps": 5000
+    },
+    {
+      "elapsed_seconds": 0.4944322691299021,
+      "equal_adjacent_pairs_checked": 1969,
+      "first_safe_bound_failure": null,
+      "first_safe_pair": {
+        "pair_index": 7,
+        "q": 267,
+        "voltage": [
+          1,
+          2
+        ]
+      },
+      "maximum_coordinate": 1501,
+      "maximum_excess_record": {
+        "bound": 154,
+        "excess": -154,
+        "pair_index": 7,
+        "q": 76,
+        "safe": false,
+        "voltage": [
+          0,
+          0
+        ]
+      },
+      "safe_iff_nonzero_homology_mismatches": 0,
+      "safe_pairs_checked": 1284,
+      "seed": 8904,
+      "steps": 5000
+    }
+  ],
+  "schema": "m89-general-pullback-probe-v1",
+  "scope": "W_1 base torus only",
+  "status": "exact finite falsification probe; not a universal proof"
+}

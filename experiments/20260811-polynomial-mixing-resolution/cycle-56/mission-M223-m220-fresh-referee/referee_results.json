@@ -1,0 +1,635 @@
+{
+  "d5_to_d6": {
+    "failures": 0,
+    "passes": 112,
+    "row_count": 112,
+    "rows_digest": "8e588730997b69d27fa418b0ab3150fc0e028537af04ae7b51318a4c70f1d928",
+    "tree_count": 16
+  },
+  "d6_to_d7": {
+    "complete_rows_digest": "f0deca809ef570f7d557a88a94d517e3885f971f0178ac7ef2938bad651341c0",
+    "digest_matches_expected": true,
+    "edit_count": 9,
+    "failure_counts_by_edit": [
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0
+    ],
+    "first_same_key_witness": {
+      "left": {
+        "actual": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "descriptor": {
+          "direct_child_run": 0,
+          "forward_chain_exception": false,
+          "kind": "ordinary_odd",
+          "late_ancestor": false,
+          "path": [
+            2,
+            1
+          ],
+          "proposed_class": [
+            "ordinary_odd",
+            2,
+            false,
+            0,
+            false
+          ],
+          "vertex": 2
+        },
+        "edit": 1,
+        "mismatch_positions": [],
+        "naive": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "naive_equals_actual": false,
+        "pass": true,
+        "proposed_class": [
+          "ordinary_odd",
+          2,
+          false,
+          0,
+          false
+        ],
+        "replay": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "route": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            -1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            -1
+          ],
+          [
+            9,
+            -1
+          ],
+          [
+            8,
+            -1
+          ],
+          [
+            7,
+            -1
+          ],
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "tree": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "tree_id": 0
+      },
+      "proposed_class": [
+        "ordinary_odd",
+        2,
+        false,
+        0,
+        false
+      ],
+      "right": {
+        "actual": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "descriptor": {
+          "direct_child_run": 0,
+          "forward_chain_exception": false,
+          "kind": "ordinary_odd",
+          "late_ancestor": false,
+          "path": [
+            2,
+            1
+          ],
+          "proposed_class": [
+            "ordinary_odd",
+            2,
+            false,
+            0,
+            false
+          ],
+          "vertex": 2
+        },
+        "edit": 1,
+        "mismatch_positions": [
+          7,
+          8
+        ],
+        "naive": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "naive_equals_actual": false,
+        "pass": false,
+        "proposed_class": [
+          "ordinary_odd",
+          2,
+          false,
+          0,
+          false
+        ],
+        "replay": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "route": [
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            -1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            -1
+          ],
+          [
+            9,
+            -1
+          ],
+          [
+            8,
+            -1
+          ],
+          [
+            7,
+            -1
+          ],
+          [
+            6,
+            -1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            2,
+            -1
+          ]
+        ],
+        "tree": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "tree_id": 1
+      }
+    },
+    "pass_counts_by_edit": [
+      114,
+      125,
+      125,
+      125,
+      125,
+      125,
+      109,
+      125,
+      125
+    ],
+    "row_count": 1125,
+    "total_failures": 27,
+    "total_passes": 1098,
+    "tree_count": 125
+  },
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "experiment": "M223 clean-room referee of M220",
+  "formal_identities": {
+    "all_pass": true,
+    "carrier_distinct_assignments": 840,
+    "double_inverse_distinct_assignments": 210,
+    "single_inverse_edge_pairs": 441
+  },
+  "logical_verdict": {
+    "accept_m220": true,
+    "not_refuted": [
+      "an alternative common braid",
+      "a richer contour descriptor",
+      "an all-rank theorem by another construction"
+    ],
+    "refuted": "only the displayed key-to-word recurrence"
+  },
+  "method": {
+    "action_order": "chronological",
+    "clean_room": true,
+    "m220_data_reads": false,
+    "m220_imports": false,
+    "q6_enumeration": false,
+    "q7_enumeration": false,
+    "route_search": false
+  },
+  "source_lock": {
+    "complete_inventory_ok": true,
+    "expected_m220_sha256sums_digest": "0b953e9c517cfeb379d32abe04b32ea928dd2a83e67bc1ac40d61f87fccd1316",
+    "externally_verified_before_computation": true
+  }
+}

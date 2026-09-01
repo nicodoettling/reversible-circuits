@@ -1,0 +1,393 @@
+{
+  "composition": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "finite_asymptotic_or_sign_inference": false,
+  "mission": "M192",
+  "parameters": {
+    "k": [
+      3,
+      5,
+      7
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "collision_events_retained": 14,
+      "disjoint_Abel_decomposition_exact": true,
+      "double_mass_difference_endpoint": "-4/15",
+      "finite_only_diagnostics": {
+        "all_types": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-248/1125",
+            "scalar_Abel_part": "-41/375",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.4676332846247034,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.2357022603955158,
+            "signed_embedding_part": "-1/9",
+            "weighted_variation_over_sqrt_cutoff": 0.21213203435596423
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-86/1125",
+            "scalar_Abel_part": "-62/375",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.1324056617341542,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.1539600717839002,
+            "signed_embedding_part": "4/45",
+            "weighted_variation_over_sqrt_cutoff": 0.34641016151377546
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "112/1125",
+            "scalar_Abel_part": "-121/375",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.14933333333333332,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.6333333333333333,
+            "signed_embedding_part": "19/45",
+            "weighted_variation_over_sqrt_cutoff": 0.15
+          }
+        ],
+        "one_run": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-64/225",
+            "scalar_Abel_part": "-8/75",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.6033977866125205,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.37712361663282534,
+            "signed_embedding_part": "-8/45",
+            "weighted_variation_over_sqrt_cutoff": 0.0
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-248/1125",
+            "scalar_Abel_part": "-41/375",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.3818209780240725,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.19245008972987526,
+            "signed_embedding_part": "-1/9",
+            "weighted_variation_over_sqrt_cutoff": 0.17320508075688773
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "-104/1125",
+            "scalar_Abel_part": "-161/750",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.13866666666666666,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.18333333333333332,
+            "signed_embedding_part": "11/90",
+            "weighted_variation_over_sqrt_cutoff": 0.075
+          }
+        ]
+      },
+      "k": 3,
+      "max_scaled_cumulative_abs_k_over_sqrt_u": 1.04,
+      "n": 9,
+      "shared_endpoint_gamma_exact": true,
+      "triangle_mass_A": "1/3",
+      "triangle_mass_B": "3/5"
+    },
+    {
+      "collision_events_retained": 132,
+      "disjoint_Abel_decomposition_exact": true,
+      "double_mass_difference_endpoint": "-8/105",
+      "finite_only_diagnostics": {
+        "all_types": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-90692024/1395032625",
+            "scalar_Abel_part": "-27097212753577/391984079155200",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.22984747460631294,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.014558151900300175,
+            "signed_embedding_part": "15185693/3687936000",
+            "weighted_variation_over_sqrt_cutoff": 0.7832091144136442
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-170253164/1395032625",
+            "scalar_Abel_part": "-11971115042231/195992039577600",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.35230613357800683,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.17598452105160792,
+            "signed_embedding_part": "-37471167/614656000",
+            "weighted_variation_over_sqrt_cutoff": 0.874638765112015
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "-229741508/1395032625",
+            "scalar_Abel_part": "-10176445940467/391984079155200",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.41171350383293004,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.346810064626935,
+            "signed_embedding_part": "-511605329/3687936000",
+            "weighted_variation_over_sqrt_cutoff": 0.6453628323650549
+          },
+          {
+            "cutoff": 5,
+            "direct_double_prefix": "-110024008/1395032625",
+            "scalar_Abel_part": "-1030634993509/195992039577600",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.17635513079486628,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.16459664350914305,
+            "signed_embedding_part": "-407202661/5531904000",
+            "weighted_variation_over_sqrt_cutoff": 0.360497143329888
+          },
+          {
+            "cutoff": 6,
+            "direct_double_prefix": "99370492/1395032625",
+            "scalar_Abel_part": "-4868245871071/244990049472000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.14540102057309584,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.18596293438767392,
+            "signed_embedding_part": "125993069/1382976000",
+            "weighted_variation_over_sqrt_cutoff": 0.3082742017401782
+          },
+          {
+            "cutoff": 7,
+            "direct_double_prefix": "97042455494/523137234375",
+            "scalar_Abel_part": "-73062866618737/1175952237465600",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.35056384959991976,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.4679800464414272,
+            "signed_embedding_part": "1027406360531/4148928000000",
+            "weighted_variation_over_sqrt_cutoff": 0.525581941704327
+          }
+        ],
+        "one_run": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-3666376/66430125",
+            "scalar_Abel_part": "-10774509666899/130661359718400",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.19513130014278984,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.09641353246281358,
+            "signed_embedding_part": "100569517/3687936000",
+            "weighted_variation_over_sqrt_cutoff": 0.9211998954046678
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-154501408/1395032625",
+            "scalar_Abel_part": "-34794880010759/391984079155200",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.31971090819104037,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.0634653817920131,
+            "signed_embedding_part": "-81079469/3687936000",
+            "weighted_variation_over_sqrt_cutoff": 1.0482326144422363
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "-276534752/1395032625",
+            "scalar_Abel_part": "-25570453144501/391984079155200",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.4955704028785707,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.33248690979633777,
+            "signed_embedding_part": "-1471428533/11063808000",
+            "weighted_variation_over_sqrt_cutoff": 0.9135909251797272
+          },
+          {
+            "cutoff": 5,
+            "direct_double_prefix": "-73511584/465010875",
+            "scalar_Abel_part": "-6674321224679/130661359718400",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.3534904403207471,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.2392697097679927,
+            "signed_embedding_part": "-1183879093/11063808000",
+            "weighted_variation_over_sqrt_cutoff": 0.6320286826938334
+          },
+          {
+            "cutoff": 6,
+            "direct_double_prefix": "-23615584/465010875",
+            "scalar_Abel_part": "-3988222078579/65330679859200",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.10366447662439891,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.020946567457735106,
+            "signed_embedding_part": "56766631/5531904000",
+            "weighted_variation_over_sqrt_cutoff": 0.4147435602535929
+          },
+          {
+            "cutoff": 7,
+            "direct_double_prefix": "26796248/1395032625",
+            "scalar_Abel_part": "-16506615194353/195992039577600",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.03630033295438004,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.19546276951419586,
+            "signed_embedding_part": "572160271/5531904000",
+            "weighted_variation_over_sqrt_cutoff": 0.5835305081305419
+          }
+        ]
+      },
+      "k": 5,
+      "max_scaled_cumulative_abs_k_over_sqrt_u": 0.8392203207776722,
+      "n": 15,
+      "shared_endpoint_gamma_exact": true,
+      "triangle_mass_A": "9/35",
+      "triangle_mass_B": "1/3"
+    },
+    {
+      "collision_events_retained": 470,
+      "disjoint_Abel_decomposition_exact": true,
+      "double_mass_difference_endpoint": "-36/1001",
+      "finite_only_diagnostics": {
+        "all_types": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-12561205911166820/331329237168378449",
+            "scalar_Abel_part": "-185360773949099882989539074830564057/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.18765261311989068,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.04229886233775466,
+            "signed_embedding_part": "932243845875294867123589/109089733409834240448000000",
+            "weighted_variation_over_sqrt_cutoff": 1.080823558625045
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-23554858249952460/331329237168378449",
+            "scalar_Abel_part": "-77674966111976557912115160964449863/997481120475305183531338180656000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.28731489883869527,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.02739746184110257,
+            "signed_embedding_part": "2403478045801497601863263/354541633581961281456000000",
+            "weighted_variation_over_sqrt_cutoff": 1.125882403836465
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "-34151275115480340/331329237168378449",
+            "scalar_Abel_part": "-246038147926828738640934086944737227/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.36075736607402814,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.14493034437221242,
+            "signed_embedding_part": "-58724389770651882422114173/1418166534327845125824000000",
+            "weighted_variation_over_sqrt_cutoff": 0.9863212692475511
+          },
+          {
+            "cutoff": 5,
+            "direct_double_prefix": "-44737393756250060/331329237168378449",
+            "scalar_Abel_part": "-23089763136271579710360014379398173/797984896380244146825070544524800000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.4226919308483407,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.33211077791201016,
+            "signed_embedding_part": "-30090344534862962134030427/283633306865569025164800000",
+            "weighted_variation_over_sqrt_cutoff": 0.8279624222328038
+          },
+          {
+            "cutoff": 6,
+            "direct_double_prefix": "-7457747902613612/47332748166911207",
+            "scalar_Abel_part": "-4003595574404267703717331070770783/797984896380244146825070544524800000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.45026521064259695,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.43592756165373336,
+            "signed_embedding_part": "-6180891241715260925222831/40519043837938432166400000",
+            "weighted_variation_over_sqrt_cutoff": 0.620590486048649
+          },
+          {
+            "cutoff": 7,
+            "direct_double_prefix": "-4850701514957132/47332748166911207",
+            "scalar_Abel_part": "435247788857473647401341481636831/31919395855209765873002821780992000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.2711389131162362,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.3072159558407047,
+            "signed_embedding_part": "-188197533613464813249233/1620761753517537286656000",
+            "weighted_variation_over_sqrt_cutoff": 0.387453961140216
+          },
+          {
+            "cutoff": 8,
+            "direct_double_prefix": "168567239666068/47332748166911207",
+            "scalar_Abel_part": "132465226322490672378048554130503/6926952225522952663412070699000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.008813826579793864,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.03851358360591788,
+            "signed_embedding_part": "-421040857159638521933/27055985468708889000000",
+            "weighted_variation_over_sqrt_cutoff": 0.4184768035680018
+          },
+          {
+            "cutoff": 9,
+            "direct_double_prefix": "45448222230961340880/506240953553539690213",
+            "scalar_Abel_part": "52877032889598056892526206687411869/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.20947703090367975,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.17855420417632495,
+            "signed_embedding_part": "1823940756660896972765388548317/23835124942448093029723968000000",
+            "weighted_variation_over_sqrt_cutoff": 0.44433608133777525
+          },
+          {
+            "cutoff": 10,
+            "direct_double_prefix": "918351989590605535180/5568650489088936592343",
+            "scalar_Abel_part": "-9442079277231074114414516138021761/1329974827300406911375117574208000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.36505411689611655,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.3807694018967909,
+            "signed_embedding_part": "1366659044642073135723282705727/7945041647482697676574656000000",
+            "weighted_variation_over_sqrt_cutoff": 0.45123880315717174
+          }
+        ],
+        "one_run": [
+          {
+            "cutoff": 2,
+            "direct_double_prefix": "-118783329221280/3640980628223939",
+            "scalar_Abel_part": "-14678504360639067255736151458478077/306917267838555441086565594048000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.16148053041874275,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.07524414235466163,
+            "signed_embedding_part": "3079773990631632089719543/202595219189692160832000000",
+            "weighted_variation_over_sqrt_cutoff": 1.177876920968111
+          },
+          {
+            "cutoff": 3,
+            "direct_double_prefix": "-1554099249542520/25486864397567573",
+            "scalar_Abel_part": "-27358926483707196749894303246915593/306917267838555441086565594048000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.24643350560984728,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.11382574526069879,
+            "signed_embedding_part": "39942047386397411636158909/1418166534327845125824000000",
+            "weighted_variation_over_sqrt_cutoff": 1.245290506287755
+          },
+          {
+            "cutoff": 4,
+            "direct_double_prefix": "-29427776543022360/331329237168378449",
+            "scalar_Abel_part": "-336276240002343958903078048141921537/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.31086063753630055,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.015875896509981006,
+            "signed_embedding_part": "-494827805118841698382451/109089733409834240448000000",
+            "weighted_variation_over_sqrt_cutoff": 1.1203443142471916
+          },
+          {
+            "cutoff": 5,
+            "direct_double_prefix": "-519757853361360/4302977106082837",
+            "scalar_Abel_part": "-245920421191660455143967157274093227/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.37813341986816335,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.185184231514336,
+            "signed_embedding_part": "-921885122240701694636903/15584247629976320064000000",
+            "weighted_variation_over_sqrt_cutoff": 1.0167197061229765
+          },
+          {
+            "cutoff": 6,
+            "direct_double_prefix": "-56901896963780304/331329237168378449",
+            "scalar_Abel_part": "-187321027567704972771265035482151793/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.49078287357617656,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.35661631795954807,
+            "signed_embedding_part": "-176972599252147614698360807/1418166534327845125824000000",
+            "weighted_variation_over_sqrt_cutoff": 0.9244737165685697
+          },
+          {
+            "cutoff": 7,
+            "direct_double_prefix": "-48203647920333264/331329237168378449",
+            "scalar_Abel_part": "-143552795713759528233281282616440689/3989924481901220734125352722624000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.38491883714598235,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.2897278130578054,
+            "signed_embedding_part": "-155298907657819077749339111/1418166534327845125824000000",
+            "weighted_variation_over_sqrt_cutoff": 0.6521307420524655
+          },
+          {
+            "cutoff": 8,
+            "direct_double_prefix": "-22359848866029264/331329237168378449",
+            "scalar_Abel_part": "-2798704003808763160063095253620073/79798489638024414682507054452480000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.1670175657635747,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.08021844136768609,
+            "signed_embedding_part": "-919344752127574135668527/28363330686556902516480000",
+            "weighted_variation_over_sqrt_cutoff": 0.566944053219734
+          },
+          {
+            "cutoff": 9,
+            "direct_double_prefix": "-3731243536759944/331329237168378449",
+            "scalar_Abel_part": "-1030706517436820469763607901764549/25908600531826108663151641056000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.026276687784972348,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.06654893091507938,
+            "signed_embedding_part": "1838522078942752884929243/64462115196720232992000000",
+            "weighted_variation_over_sqrt_cutoff": 0.5422112691177567
+          },
+          {
+            "cutoff": 10,
+            "direct_double_prefix": "10795457627501496/331329237168378449",
+            "scalar_Abel_part": "-2067911987828089136126981802473113/40713515121441027899238293088000000",
+            "scaled_abs_direct_k_over_sqrt_cutoff": 0.07212392225010769,
+            "scaled_abs_embedding_k_over_sqrt_cutoff": 0.18455632470807037,
+            "signed_embedding_part": "59119143027884251398089137/709083267163922562912000000",
+            "weighted_variation_over_sqrt_cutoff": 0.5403227316651653
+          }
+        ]
+      },
+      "k": 7,
+      "max_scaled_cumulative_abs_k_over_sqrt_u": 0.8300176049687751,
+      "n": 21,
+      "shared_endpoint_gamma_exact": true,
+      "triangle_mass_A": "15/77",
+      "triangle_mass_B": "3/13"
+    }
+  ],
+  "standard_library_only": true,
+  "status": "all exact k=3,5,7 J=2 reduction assertions passed; DV/DE/PCR unresolved"
+}

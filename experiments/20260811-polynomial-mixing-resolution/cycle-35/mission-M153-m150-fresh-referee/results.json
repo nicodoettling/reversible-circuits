@@ -1,0 +1,132 @@
+{
+  "common_parity_conjugacy": [
+    {
+      "d": 3,
+      "even_transporter_failures": [],
+      "ordered_transposition_pairs": 9,
+      "tuple_consequence": "coordinatewise even transporters lie in A_d^s <= P_(d,s)"
+    },
+    {
+      "d": 5,
+      "even_transporter_failures": [],
+      "ordered_transposition_pairs": 100,
+      "tuple_consequence": "coordinatewise even transporters lie in A_d^s <= P_(d,s)"
+    }
+  ],
+  "d3_even_product_one": {
+    "even_length_translate_independence": true,
+    "rows": [
+      {
+        "central_translate_masks_checked_widths_1_to_4": 30,
+        "connected_product_one_words": 24,
+        "length": 4,
+        "nonidentity_section_products": 0,
+        "product_one_words": 27
+      },
+      {
+        "central_translate_masks_checked_widths_1_to_4": 30,
+        "connected_product_one_words": 240,
+        "length": 6,
+        "nonidentity_section_products": 0,
+        "product_one_words": 243
+      }
+    ]
+  },
+  "d3_split_section": {
+    "a2_braid": true,
+    "homomorphism_table_entries": 36,
+    "section_lift_of_02": "-a_(02)",
+    "section_order": 6
+  },
+  "finite_pin_preimages": [
+    {
+      "base_order": 6,
+      "d": 3,
+      "fiber_size_histogram": {
+        "2": 6
+      },
+      "kernel": [
+        "+1",
+        "-1"
+      ],
+      "preimage_order": 12
+    },
+    {
+      "base_order": 120,
+      "d": 5,
+      "fiber_size_histogram": {
+        "2": 120
+      },
+      "kernel": [
+        "+1",
+        "-1"
+      ],
+      "preimage_order": 240
+    }
+  ],
+  "localized_kernel": [
+    {
+      "d": 4,
+      "deduction": "each z_q occurs as [a_t,a_t a_v], so K_C contains the full kernel",
+      "rows": [
+        {
+          "failures": [],
+          "localized_witnesses": 6,
+          "tuples": 6,
+          "width": 1
+        },
+        {
+          "failures": [],
+          "localized_witnesses": 72,
+          "tuples": 36,
+          "width": 2
+        },
+        {
+          "failures": [],
+          "localized_witnesses": 648,
+          "tuples": 216,
+          "width": 3
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "deduction": "each z_q occurs as [a_t,a_t a_v], so K_C contains the full kernel",
+      "rows": [
+        {
+          "failures": [],
+          "localized_witnesses": 10,
+          "tuples": 10,
+          "width": 1
+        },
+        {
+          "failures": [],
+          "localized_witnesses": 200,
+          "tuples": 100,
+          "width": 2
+        },
+        {
+          "failures": [],
+          "localized_witnesses": 3000,
+          "tuples": 1000,
+          "width": 3
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "command": "python3 -B cleanroom_pin_audit.py",
+    "dependencies": {},
+    "frozen_m150_inputs_imported": false,
+    "kind": "fresh immutable referee",
+    "mission": "M153",
+    "python": "3.12.3",
+    "seed": null
+  },
+  "signed_hurwitz_section": {
+    "d": 3,
+    "failures": [],
+    "identity": "ell(b) ell(b^-1 a b) = ell(a) ell(b)",
+    "ordered_pairs_checked": 9
+  }
+}

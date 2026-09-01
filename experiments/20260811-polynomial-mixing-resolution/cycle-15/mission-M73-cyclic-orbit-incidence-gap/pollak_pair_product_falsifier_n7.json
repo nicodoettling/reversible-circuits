@@ -1,0 +1,5590 @@
+{
+  "claim_tested": "A pair-product theta orbit is determined by the two Stanley/Pollak lower-endpoint coordinates modulo diagonal translation, possibly augmented by multiplicities and occurrence ranks.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/pollak_pair_product_falsifier.py --n 5 --n 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/pollak_pair_product_falsifier_n7.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "parameters": [
+    5,
+    7
+  ],
+  "python": "3.12.3",
+  "results": [
+    {
+      "U_parking_label_diagonal_translation_match_multiplicity": {
+        "0": 125
+      },
+      "U_parking_labels_equal_some_diagonal_translation_count": 0,
+      "expected_states": 125,
+      "first_U_not_diagonal_translation_witness": {
+        "U_parking_labels": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "U_word_edges": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "source_parking_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source_word_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      "fixed_pair_position_tests": [
+        {
+          "observations": 125,
+          "pair_position_zero_based": 0,
+          "tests": [
+            {
+              "ambiguous_metadata_keys": 5,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": 4,
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "directed_difference_mod_n"
+            },
+            {
+              "ambiguous_metadata_keys": 5,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "ordered_pair_mod_diagonal"
+            },
+            {
+              "ambiguous_metadata_keys": 12,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "ordered_pair_absolute"
+            },
+            {
+              "ambiguous_metadata_keys": 11,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1,
+                  1,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    4,
+                    2,
+                    3,
+                    0
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 2,
+              "metadata": "pair_plus_local_multiplicities"
+            },
+            {
+              "ambiguous_metadata_keys": 11,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1,
+                  1,
+                  2,
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    4,
+                    2,
+                    3,
+                    0
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 2,
+              "metadata": "pair_plus_multiplicities_and_occurrence_ranks"
+            },
+            {
+              "ambiguous_metadata_keys": 0,
+              "determines_product_theta_orbit": true,
+              "first_collision": null,
+              "maximum_product_orbits_for_one_metadata_key": 1,
+              "metadata": "pair_plus_full_multiplicity_vector_and_occurrence_ranks"
+            }
+          ]
+        },
+        {
+          "observations": 125,
+          "pair_position_zero_based": 1,
+          "tests": [
+            {
+              "ambiguous_metadata_keys": 5,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": 3,
+                "second": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    4,
+                    1
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "directed_difference_mod_n"
+            },
+            {
+              "ambiguous_metadata_keys": 5,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    4,
+                    1
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "ordered_pair_mod_diagonal"
+            },
+            {
+              "ambiguous_metadata_keys": 12,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  1,
+                  3
+                ],
+                "second": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    4,
+                    1
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 4,
+              "metadata": "ordered_pair_absolute"
+            },
+            {
+              "ambiguous_metadata_keys": 17,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    4,
+                    1
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  1,
+                  3,
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      2,
+                      1,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      3
+                    ],
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 2,
+              "metadata": "pair_plus_local_multiplicities"
+            },
+            {
+              "ambiguous_metadata_keys": 17,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    4,
+                    1
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    4,
+                    3,
+                    1
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  1,
+                  3,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 3,
+                  "ordered_pair_absolute": [
+                    1,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    3,
+                    [
+                      2,
+                      1,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    0,
+                    1,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      3
+                    ],
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 2,
+              "metadata": "pair_plus_multiplicities_and_occurrence_ranks"
+            },
+            {
+              "ambiguous_metadata_keys": 0,
+              "determines_product_theta_orbit": true,
+              "first_collision": null,
+              "maximum_product_orbits_for_one_metadata_key": 1,
+              "metadata": "pair_plus_full_multiplicity_vector_and_occurrence_ranks"
+            }
+          ]
+        }
+      ],
+      "n": 5,
+      "states": 125
+    },
+    {
+      "U_parking_label_diagonal_translation_match_multiplicity": {
+        "0": 16807
+      },
+      "U_parking_labels_equal_some_diagonal_translation_count": 0,
+      "expected_states": 16807,
+      "first_U_not_diagonal_translation_witness": {
+        "U_parking_labels": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "U_word_edges": [
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "source_parking_labels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "source_word_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      "fixed_pair_position_tests": [
+        {
+          "observations": 16807,
+          "pair_position_zero_based": 0,
+          "tests": [
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": 6,
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "directed_difference_mod_n"
+            },
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_mod_diagonal"
+            },
+            {
+              "ambiguous_metadata_keys": 32,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    2,
+                    0,
+                    3,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_absolute"
+            },
+            {
+              "ambiguous_metadata_keys": 110,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1,
+                  1,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      1,
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    4,
+                    2,
+                    3,
+                    0,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 5,
+              "metadata": "pair_plus_local_multiplicities"
+            },
+            {
+              "ambiguous_metadata_keys": 110,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      0,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    3,
+                    2,
+                    0,
+                    4,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1,
+                  1,
+                  2,
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    0,
+                    1
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    0,
+                    1,
+                    [
+                      1,
+                      2,
+                      1,
+                      0,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    0,
+                    1,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 0,
+                  "pair_product": [
+                    1,
+                    4,
+                    2,
+                    3,
+                    0,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    1,
+                    2,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      4
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 5,
+              "metadata": "pair_plus_multiplicities_and_occurrence_ranks"
+            },
+            {
+              "ambiguous_metadata_keys": 0,
+              "determines_product_theta_orbit": true,
+              "first_collision": null,
+              "maximum_product_orbits_for_one_metadata_key": 1,
+              "metadata": "pair_plus_full_multiplicity_vector_and_occurrence_ranks"
+            }
+          ]
+        },
+        {
+          "observations": 16807,
+          "pair_position_zero_based": 1,
+          "tests": [
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": 6,
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    5,
+                    4,
+                    2,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "directed_difference_mod_n"
+            },
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    5,
+                    4,
+                    2,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_mod_diagonal"
+            },
+            {
+              "ambiguous_metadata_keys": 32,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    2,
+                    5,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    4
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  2,
+                  3
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    5,
+                    4,
+                    2,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_absolute"
+            },
+            {
+              "ambiguous_metadata_keys": 209,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    5,
+                    4,
+                    2,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  2,
+                  3,
+                  1,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    4
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "pair_plus_local_multiplicities"
+            },
+            {
+              "ambiguous_metadata_keys": 300,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    5,
+                    4,
+                    2,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  2,
+                  3,
+                  1,
+                  2,
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 6,
+                  "ordered_pair_absolute": [
+                    2,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    1
+                  ],
+                  "pair_edges": [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    2,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    2,
+                    3,
+                    1,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    2,
+                    3,
+                    1,
+                    2,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    4
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    6,
+                    4,
+                    5,
+                    2
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      4,
+                      5
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 11,
+              "metadata": "pair_plus_multiplicities_and_occurrence_ranks"
+            },
+            {
+              "ambiguous_metadata_keys": 991,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    1,
+                    4
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    3
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    4,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    4,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    3,
+                    2,
+                    1,
+                    5,
+                    4,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    2,
+                    1,
+                    4,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    4,
+                    3,
+                    2,
+                    6,
+                    5
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  1,
+                  4,
+                  [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                  ],
+                  1,
+                  1
+                ],
+                "second": {
+                  "directed_difference_mod_n": 4,
+                  "ordered_pair_absolute": [
+                    1,
+                    4
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    3
+                  ],
+                  "pair_edges": [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      4,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    1,
+                    4,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    1,
+                    4,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    1,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 1,
+                  "pair_product": [
+                    0,
+                    2,
+                    1,
+                    3,
+                    5,
+                    4,
+                    6
+                  ],
+                  "parking_labels": [
+                    0,
+                    3,
+                    1,
+                    4,
+                    2,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    4,
+                    6,
+                    5
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      2,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 6,
+              "metadata": "pair_plus_full_multiplicity_vector_and_occurrence_ranks"
+            }
+          ]
+        },
+        {
+          "observations": 16807,
+          "pair_position_zero_based": 2,
+          "tests": [
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": 5,
+                "second": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "directed_difference_mod_n"
+            },
+            {
+              "ambiguous_metadata_keys": 7,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  0,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_mod_diagonal"
+            },
+            {
+              "ambiguous_metadata_keys": 32,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    2,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    2,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    2,
+                    1,
+                    2,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    6,
+                    5
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      3,
+                      4
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  3,
+                  5
+                ],
+                "second": {
+                  "directed_difference_mod_n": 5,
+                  "ordered_pair_absolute": [
+                    3,
+                    5
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    2
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    5,
+                    [
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      1,
+                      0
+                    ],
+                    1,
+                    1
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    5,
+                    1,
+                    1
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    5,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    5
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      5
+                    ],
+                    [
+                      5,
+                      6
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 12,
+              "metadata": "ordered_pair_absolute"
+            },
+            {
+              "ambiguous_metadata_keys": 140,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 0,
+                  "ordered_pair_absolute": [
+                    3,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    0
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    2
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    3,
+                    2,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    1,
+                    2
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  3,
+                  3,
+                  2,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 0,
+                  "ordered_pair_absolute": [
+                    3,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    0
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    2
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    3,
+                    2,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    1,
+                    2
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    3,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      5,
+                      6
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 7,
+              "metadata": "pair_plus_local_multiplicities"
+            },
+            {
+              "ambiguous_metadata_keys": 140,
+              "determines_product_theta_orbit": false,
+              "first_collision": {
+                "first": {
+                  "directed_difference_mod_n": 0,
+                  "ordered_pair_absolute": [
+                    3,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    0
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      1,
+                      0,
+                      0
+                    ],
+                    1,
+                    2
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    3,
+                    2,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    1,
+                    2
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    3,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    4,
+                    6,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      4,
+                      5
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      5
+                    ]
+                  ]
+                },
+                "metadata_key": [
+                  3,
+                  3,
+                  2,
+                  2,
+                  1,
+                  2
+                ],
+                "second": {
+                  "directed_difference_mod_n": 0,
+                  "ordered_pair_absolute": [
+                    3,
+                    3
+                  ],
+                  "ordered_pair_mod_diagonal": [
+                    0,
+                    0
+                  ],
+                  "pair_edges": [
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ],
+                  "pair_plus_full_multiplicity_vector_and_occurrence_ranks": [
+                    3,
+                    3,
+                    [
+                      1,
+                      1,
+                      1,
+                      2,
+                      0,
+                      1,
+                      0
+                    ],
+                    1,
+                    2
+                  ],
+                  "pair_plus_local_multiplicities": [
+                    3,
+                    3,
+                    2,
+                    2
+                  ],
+                  "pair_plus_multiplicities_and_occurrence_ranks": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    1,
+                    2
+                  ],
+                  "pair_position": 2,
+                  "pair_product": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "parking_labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    3,
+                    3
+                  ],
+                  "product_theta_orbit": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    5,
+                    3
+                  ],
+                  "word_edges": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      5,
+                      6
+                    ],
+                    [
+                      3,
+                      6
+                    ],
+                    [
+                      3,
+                      4
+                    ]
+                  ]
+                }
+              },
+              "maximum_product_orbits_for_one_metadata_key": 7,
+              "metadata": "pair_plus_multiplicities_and_occurrence_ranks"
+            },
+            {
+              "ambiguous_metadata_keys": 0,
+              "determines_product_theta_orbit": true,
+              "first_collision": null,
+              "maximum_product_orbits_for_one_metadata_key": 1,
+              "metadata": "pair_plus_full_multiplicity_vector_and_occurrence_ranks"
+            }
+          ]
+        }
+      ],
+      "n": 7,
+      "states": 16807
+    }
+  ],
+  "scope_warning": "One exact collision refutes a universal deterministic shortcut; finite collision frequencies are not asymptotic statements.",
+  "seed": null
+}

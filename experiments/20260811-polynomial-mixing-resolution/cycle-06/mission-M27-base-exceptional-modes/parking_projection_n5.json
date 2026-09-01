@@ -1,0 +1,156 @@
+{
+  "claim_tested": "Every feasible one-entry replacement between sorted parking multisets is one stationary-flow projection edge of the local rank-two heat-bath.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "factorizations": 125,
+  "feasible_one_entry_edges": 38,
+  "first_missing_edges": [
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        0,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        3
+      ]
+    ]
+  ],
+  "missing_edges": 10,
+  "n": 5,
+  "parking_multisets": 14,
+  "projection_edges": 28,
+  "python": "3.12.3",
+  "r": 4,
+  "seed": null,
+  "universal_implication": "A missing edge refutes direct one-step domination of a full single-entry heat-bath; it leaves polynomial path comparison open."
+}

@@ -1,0 +1,76 @@
+{
+  "BODT_or_downstream_inference": false,
+  "complete_boundary_omega_before_norm": true,
+  "distinct_owner_rows": {
+    "2,2": {
+      "lag_l1_exact": "6047112210907854515998929760400/1506110335556782503232867256978679",
+      "lag_l1_float": 0.0040150525948501265,
+      "normalized_k_over_de_bdb_e": 0.4932324989203326
+    },
+    "2,3": {
+      "lag_l1_exact": "10057885290413507609606379164/2065994973328919757521079913551",
+      "lag_l1_float": 0.004868300949545547,
+      "normalized_k_over_de_bdb_e": 0.722519923384128
+    },
+    "2,4": {
+      "lag_l1_exact": "2784444883310273208387591918080/502036778518927501077622418992893",
+      "lag_l1_float": 0.005546296611026668,
+      "normalized_k_over_de_bdb_e": 0.9439603945900316
+    },
+    "3,2": {
+      "lag_l1_exact": "10057885290413507609606379164/2065994973328919757521079913551",
+      "lag_l1_float": 0.004868300949545547,
+      "normalized_k_over_de_bdb_e": 0.722519923384128
+    },
+    "3,3": {
+      "lag_l1_exact": "25539664978302138203579200/2834012309093168391661289319",
+      "lag_l1_float": 0.009011839820298578,
+      "normalized_k_over_de_bdb_e": 1.6158380737123743
+    },
+    "3,4": {
+      "lag_l1_exact": "7890185382025392975639663560/688664991109639919173693304517",
+      "lag_l1_float": 0.011457218653313573,
+      "normalized_k_over_de_bdb_e": 2.3558186022353844
+    },
+    "4,2": {
+      "lag_l1_exact": "2784444883310273208387591918080/502036778518927501077622418992893",
+      "lag_l1_float": 0.005546296611026668,
+      "normalized_k_over_de_bdb_e": 0.9439603945900316
+    },
+    "4,3": {
+      "lag_l1_exact": "7890185382025392975639663560/688664991109639919173693304517",
+      "lag_l1_float": 0.011457218653313573,
+      "normalized_k_over_de_bdb_e": 2.3558186022353844
+    },
+    "4,4": {
+      "lag_l1_exact": "23239964306909741434548743168000/1506110335556782503232867256978679",
+      "lag_l1_float": 0.01543045270871097,
+      "normalized_k_over_de_bdb_e": 3.6384765926775713
+    }
+  },
+  "imports": "mission-local bodt_k9_probe.py only",
+  "scope": "self/off coefficient rows for the M297 SOCL candidate",
+  "self_owner_rows": {
+    "1": {
+      "lag_l1_exact": "0",
+      "lag_l1_float": 0.0,
+      "normalized_k_over_d2_b_d": 0.0
+    },
+    "2": {
+      "lag_l1_exact": "0",
+      "lag_l1_float": 0.0,
+      "normalized_k_over_d2_b_d": 0.0
+    },
+    "3": {
+      "lag_l1_exact": "0",
+      "lag_l1_float": 0.0,
+      "normalized_k_over_d2_b_d": 0.0
+    },
+    "4": {
+      "lag_l1_exact": "9736447785119043593657920/314890256565907599073476591",
+      "lag_l1_float": 0.030920130369550422,
+      "normalized_k_over_d2_b_d": 0.35610087310898075
+    }
+  },
+  "status": "exact k=9 calibration only"
+}

@@ -1,0 +1,97 @@
+{
+  "command": "cleanroom_pcs_audit.py --output cleanroom_results.json --frozen-m174 <frozen pcs_channel_exact.json>",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "frozen_comparison": [
+    {
+      "exact_match_after_cleanroom_computation": true,
+      "k": 3
+    },
+    {
+      "exact_match_after_cleanroom_computation": true,
+      "k": 5
+    }
+  ],
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "J0_and_J1_kind_transfer_zero": true,
+      "J0_measures_identical": true,
+      "channel_event_deltas_exact": {
+        "0": "0",
+        "1": "1246448146451/172298010937500",
+        "2": "14147513873327/551353635000000"
+      },
+      "channel_masses_exact": [
+        "1/15",
+        "8/15",
+        "2/5"
+      ],
+      "distinct_intermediates": 64,
+      "eta_B_formal_coefficients_E0_E1_E2": [
+        "-48/25",
+        "0",
+        "10075637745539/10210252500000"
+      ],
+      "eta_double_exact": "-8/75",
+      "eta_triangle_exact": "8/75",
+      "event_delta_exact": "10075637745539/306307575000000",
+      "formal_affine_identity_for_every_intermediate": true,
+      "k": 3,
+      "literal_equals_decorated_for_every_intermediate": true,
+      "n": 9,
+      "pi_y_exact": "33614/531441",
+      "reduction_identity_formal_exact": true,
+      "run_profiles": {
+        "('D', (1, 1, 2))": 52,
+        "('T', (1, 1, 1))": 12
+      },
+      "runtime_seconds": 0.0193079081363976,
+      "signed_cell_sum_exact": "7345139916497931/7061881225000000",
+      "source_A_atoms": 30,
+      "source_B_atoms": 51
+    },
+    {
+      "J0_and_J1_kind_transfer_zero": true,
+      "J0_measures_identical": true,
+      "channel_event_deltas_exact": {
+        "0": "0",
+        "1": "1564967636762780667913917551532247324012670310367005349/936267128127425336688718648541721754696658160000000000000",
+        "2": "54899261278817513117291042188449171443694429357772463976067/10875678960328172710976155821460639902556381186560000000000000"
+      },
+      "channel_masses_exact": [
+        "1/11",
+        "16/33",
+        "14/33"
+      ],
+      "distinct_intermediates": 810,
+      "eta_B_formal_coefficients_E0_E1_E2": [
+        "-32/33",
+        "0",
+        "73077925347453973355779108467047756359425607682995598110051/82391507275213429628607241071671514413305918080000000000000"
+      ],
+      "eta_double_exact": "-16/495",
+      "eta_triangle_exact": "16/495",
+      "event_delta_exact": "73077925347453973355779108467047756359425607682995598110051/10875678960328172710976155821460639902556381186560000000000000",
+      "formal_affine_identity_for_every_intermediate": true,
+      "k": 5,
+      "literal_equals_decorated_for_every_intermediate": true,
+      "n": 15,
+      "pi_y_exact": "3584320788074/129746337890625",
+      "reduction_identity_formal_exact": true,
+      "run_profiles": {
+        "('D', (1, 1, 2))": 710,
+        "('T', (1, 1, 1))": 100
+      },
+      "runtime_seconds": 0.6144276559352875,
+      "signed_cell_sum_exact": "73077925347453973355779108467047756359425607682995598110051/150223593265440401176815963858761531101584168449901928120320",
+      "source_A_atoms": 360,
+      "source_B_atoms": 716
+    }
+  ],
+  "scope": "M174 PCS reduction at k=3,5 only",
+  "seed": null,
+  "status": "fresh exact finite audit; no asymptotic inference"
+}

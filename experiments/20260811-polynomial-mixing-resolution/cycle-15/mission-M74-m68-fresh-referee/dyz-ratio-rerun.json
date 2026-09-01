@@ -1,0 +1,54 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "For all v>=2,g>=1, normalized connected Hurwitz ratio h_g(v)/h_{g-1}(v) is at most v^3/12. Finite arithmetic checks normalization but is not the universal proof.",
+  "deterministic": true,
+  "random_seed": null,
+  "parameters": {
+    "n_max": 12,
+    "m_max": 80
+  },
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "nonstandard_dependencies": []
+  },
+  "failure_count": 0,
+  "first_failures": [],
+  "maximum_ratio_divided_by_bound": {
+    "v": 4,
+    "k": 8,
+    "ratio": "13/16",
+    "bound": "16/3",
+    "fraction_of_bound": 0.15234375
+  },
+  "calibration_records": [
+    {
+      "v": 2,
+      "k": 4,
+      "C_previous": "1",
+      "C_current": "1",
+      "normalized_ratio": "1/12"
+    },
+    {
+      "v": 3,
+      "k": 6,
+      "C_previous": "24",
+      "C_current": "240",
+      "normalized_ratio": "1/3"
+    },
+    {
+      "v": 4,
+      "k": 8,
+      "C_previous": "2880",
+      "C_current": "131040",
+      "normalized_ratio": "13/16"
+    },
+    {
+      "v": 4,
+      "k": 10,
+      "C_previous": "131040",
+      "C_current": "4959360",
+      "normalized_ratio": "82/195"
+    }
+  ]
+}

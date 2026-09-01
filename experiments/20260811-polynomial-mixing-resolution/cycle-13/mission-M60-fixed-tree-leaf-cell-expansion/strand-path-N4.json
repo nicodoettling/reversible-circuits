@@ -1,0 +1,108 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/strand_canonical_path_falsifier.py",
+    "--N",
+    "4",
+    "--shape",
+    "all",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/strand-path-N4.json"
+  ],
+  "claim_tested": "Every leaf deletion cell admits the explicit <=2m-3 H3-supported canonical path preserving Del_v.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "N<=5 exact success is a falsification check; the universal proof is separate.",
+  "seed": null,
+  "summary": {
+    "N": 4,
+    "elapsed_seconds_before_write": 0.15208464092575014,
+    "failures": 0,
+    "m": 6,
+    "maximum_path_steps": 5,
+    "shapes": [
+      "star",
+      "path"
+    ],
+    "state_leaf_pairs_checked": 914
+  },
+  "trees": [
+    {
+      "failures": 0,
+      "fiber_size": 186,
+      "leaves": [
+        1,
+        2,
+        3
+      ],
+      "maximum_path_steps": 5,
+      "path_length_distribution": {
+        "1": 24,
+        "2": 66,
+        "3": 120,
+        "4": 162,
+        "5": 186
+      },
+      "shape": "star",
+      "state_leaf_pairs_checked": 558,
+      "step_type_totals": {
+        "inverse_hurwitz": 222,
+        "right_hurwitz": 762,
+        "square_label_refresh": 558,
+        "square_slide": 552
+      },
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "failures": 0,
+      "fiber_size": 178,
+      "leaves": [
+        1,
+        3
+      ],
+      "maximum_path_steps": 5,
+      "path_length_distribution": {
+        "1": 16,
+        "2": 42,
+        "3": 78,
+        "4": 102,
+        "5": 118
+      },
+      "shape": "path",
+      "state_leaf_pairs_checked": 356,
+      "step_type_totals": {
+        "inverse_hurwitz": 130,
+        "right_hurwitz": 490,
+        "square_label_refresh": 356,
+        "square_slide": 356
+      },
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ]
+}

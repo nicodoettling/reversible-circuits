@@ -1,0 +1,40 @@
+{
+  "boundary_falsification": {
+    "d3": {
+      "boundary_aligned_failures": 0,
+      "boundary_aligned_tests": 2,
+      "pair_aligned_failures_mod_global_conjugacy": 0,
+      "pair_aligned_tests": 24
+    },
+    "d4": {
+      "boundary_aligned_failures": 0,
+      "boundary_aligned_tests": 84,
+      "pair_aligned_failures_mod_global_conjugacy": 0,
+      "pair_aligned_tests": 576
+    },
+    "interpretation": "convention/falsification audit only; proof is structural"
+  },
+  "command": "python3 -B targeted_dps_probe.py",
+  "d5_width_two_probe": {
+    "anchored_root_pair_positive_routes": {
+      "1": [],
+      "2": [2],
+      "3": [],
+      "4": [4],
+      "6": [6],
+      "7": []
+    },
+    "eligible_distinct_target_tuples": 54,
+    "found_path_lengths": [0, 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 5],
+    "positive_targets_found_within_depth": 14,
+    "search_depth": 5,
+    "unfound_interpretation": "none; misses are not nonreachability",
+    "visited_quotient_tuples": 4008
+  },
+  "dependencies": {},
+  "experiment": "M187 targeted DPS quotient-route audit",
+  "python": "3.12.3",
+  "repository_base_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "scope": "M181 width-two d=5 pair plus doubled-tree d=3,4 convention tests; no Z5/Q5 enumeration",
+  "seed": null
+}

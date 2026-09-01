@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "N": 5,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 60
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 60,
+      "maximum_fiber_size": 20860,
+      "minimum_fiber_size": 15625,
+      "pair_length": 3,
+      "states": 1000000,
+      "transposition_word_length": 6,
+      "transpositions": 10
+    }
+  ],
+  "claim_tested": "every nonempty fixed-endpoint microfactorized Q-bridge fiber is connected under aligned length-four same-product heat baths",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-03/mission-M08-fixed-endpoint-pair-resampling/exact_fixed_endpoint_connectivity.py --case 5,3 --output experiments/20260811-polynomial-mixing-resolution/cycle-03/mission-M08-fixed-endpoint-pair-resampling/results_N5_l3.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word product t1...tm",
+  "python": "3.12.3",
+  "scope_warning": "finite connectivity can refute but cannot prove the universal claim or a gap",
+  "seed": null
+}

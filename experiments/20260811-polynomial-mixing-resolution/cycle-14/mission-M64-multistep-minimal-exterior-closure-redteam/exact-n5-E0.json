@@ -1,0 +1,34 @@
+{
+  "A_size": 3904,
+  "A_to_FminusA_by_r": {
+    "3": "572315/1836",
+    "4": "3823174493/10263750",
+    "5": "5878446255439/15213848832"
+  },
+  "A_to_FminusA_unnormalized_sum": "11941091918637848459/11153652924960000",
+  "C0_size": 318675,
+  "C0_stationary_mass": "63735/354188",
+  "E0_size": 314771,
+  "N": 5,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact_n5_exterior_closure.py",
+    "--construct-only",
+    "--max-radius",
+    "0",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact-n5-E0.json"
+  ],
+  "claim_tested": "The N=5 maximal one-step exterior halo E_0 has the exact reported cardinality; this can falsify a proposed small-halo or immediate-saturation claim.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); words are base-10 little-endian encoded",
+  "elapsed_seconds_before_write": 10.309625482885167,
+  "exterior_total_size": 762940,
+  "full_minimal_size": 1008000,
+  "kernel": "literal lazy K; each outcome weight 1/[6(m-r+1)|F_r(g)|]",
+  "m": 8,
+  "nonstandard_dependencies": {},
+  "omega": 1770940,
+  "python": "3.12.3",
+  "scope_warning": "The construction-only result does not compute flow from E_0 or prove asymptotic expansion.",
+  "seed": null
+}

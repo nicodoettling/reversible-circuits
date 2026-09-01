@@ -1,0 +1,427 @@
+{
+  "N": 3,
+  "claim_falsifiers": [
+    "mu_2^*<1",
+    "for all l>=3 and endpoints, mu_l<=1/(l-1)",
+    "the oriented forward coordinate kernel is always self-adjoint"
+  ],
+  "composition": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "deterministic": true,
+  "increment_product_support_size": 3,
+  "l_max": 8,
+  "maxima_by_length": [
+    {
+      "length": 2,
+      "max_abs_kappa": 1.0,
+      "max_l_times_abs_kappa": 2.0,
+      "max_mu": 1.0000000000000004
+    },
+    {
+      "length": 3,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 1.9708321943346587e-32,
+      "max_mu": 0.3333333333333336
+    },
+    {
+      "length": 4,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 2.627776259112878e-32,
+      "max_mu": 0.2500000000000003
+    },
+    {
+      "length": 5,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 3.2847203238910975e-32,
+      "max_mu": 0.2000000000000002
+    },
+    {
+      "length": 6,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 3.9416643886693175e-32,
+      "max_mu": 0.16666666666666674
+    },
+    {
+      "length": 7,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 4.598608453447537e-32,
+      "max_mu": 0.14285714285714307
+    },
+    {
+      "length": 8,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "max_l_times_abs_kappa": 5.255552518225756e-32,
+      "max_mu": 0.12500000000000008
+    }
+  ],
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "records": [
+    {
+      "K_U_commutator_error": 0.0,
+      "K_normality_error": 0.0,
+      "active_product_count": 3,
+      "bridge_microstate_count": 27,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 4.246847167926316e-17,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 2.0,
+      "length": 2,
+      "max_abs_kappa": 1.0,
+      "mu_full": 1.0,
+      "mu_product": 1.0,
+      "one_minus_mu": 0.0,
+      "product_gram_dimension": 4,
+      "scalar_block_spectrum_error": 5.551115123125783e-17
+    },
+    {
+      "K_U_commutator_error": 5.551115123125783e-17,
+      "K_normality_error": 2.220446049250313e-16,
+      "active_product_count": 3,
+      "bridge_microstate_count": 27,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 1.1102230246251565e-16,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 2.000000000000001,
+      "length": 2,
+      "max_abs_kappa": 1.0,
+      "mu_full": 1.0000000000000004,
+      "mu_product": 1.0000000000000004,
+      "one_minus_mu": -4.440892098500626e-16,
+      "product_gram_dimension": 4,
+      "scalar_block_spectrum_error": 4.440892098500626e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 243,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000009,
+      "length": 3,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.3333333333333336,
+      "mu_product": 0.3333333333333336,
+      "one_minus_mu": 0.6666666666666664,
+      "product_gram_dimension": 6,
+      "scalar_block_spectrum_error": 2.7755575615628914e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 243,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000009,
+      "length": 3,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.3333333333333336,
+      "mu_product": 0.3333333333333336,
+      "one_minus_mu": 0.6666666666666664,
+      "product_gram_dimension": 6,
+      "scalar_block_spectrum_error": 2.7755575615628914e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 2187,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.000000000000001,
+      "length": 4,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.2500000000000003,
+      "mu_product": 0.2500000000000003,
+      "one_minus_mu": 0.7499999999999998,
+      "product_gram_dimension": 8,
+      "scalar_block_spectrum_error": 1.3877787807814457e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 2187,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.000000000000001,
+      "length": 4,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.2500000000000003,
+      "mu_product": 0.2500000000000003,
+      "one_minus_mu": 0.7499999999999998,
+      "product_gram_dimension": 8,
+      "scalar_block_spectrum_error": 1.3877787807814457e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 19683,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.000000000000001,
+      "length": 5,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.2000000000000002,
+      "mu_product": 0.2000000000000002,
+      "one_minus_mu": 0.7999999999999998,
+      "product_gram_dimension": 10,
+      "scalar_block_spectrum_error": 1.6653345369377348e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 19683,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.000000000000001,
+      "length": 5,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.2000000000000002,
+      "mu_product": 0.2000000000000002,
+      "one_minus_mu": 0.7999999999999998,
+      "product_gram_dimension": 10,
+      "scalar_block_spectrum_error": 1.6653345369377348e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 177147,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000004,
+      "length": 6,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.16666666666666674,
+      "mu_product": 0.16666666666666674,
+      "one_minus_mu": 0.8333333333333333,
+      "product_gram_dimension": 12,
+      "scalar_block_spectrum_error": 1.942890293094024e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 177147,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000004,
+      "length": 6,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.16666666666666674,
+      "mu_product": 0.16666666666666674,
+      "one_minus_mu": 0.8333333333333333,
+      "product_gram_dimension": 12,
+      "scalar_block_spectrum_error": 1.942890293094024e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 1594323,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000016,
+      "length": 7,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.14285714285714307,
+      "mu_product": 0.14285714285714307,
+      "one_minus_mu": 0.857142857142857,
+      "product_gram_dimension": 14,
+      "scalar_block_spectrum_error": 1.6653345369377348e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 1594323,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000016,
+      "length": 7,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.14285714285714307,
+      "mu_product": 0.14285714285714307,
+      "one_minus_mu": 0.857142857142857,
+      "product_gram_dimension": 14,
+      "scalar_block_spectrum_error": 1.6653345369377348e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 14348907,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000007,
+      "length": 8,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.12500000000000008,
+      "mu_product": 0.12500000000000008,
+      "one_minus_mu": 0.8749999999999999,
+      "product_gram_dimension": 16,
+      "scalar_block_spectrum_error": 1.1102230246251565e-16
+    },
+    {
+      "K_U_commutator_error": 3.4211388289180104e-49,
+      "K_normality_error": 5.138832210131746e-66,
+      "active_product_count": 3,
+      "bridge_microstate_count": 14348907,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        3
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 8.299604576103798e-34,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "l_times_mu": 1.0000000000000007,
+      "length": 8,
+      "max_abs_kappa": 6.569440647782195e-33,
+      "mu_full": 0.12500000000000008,
+      "mu_product": 0.12500000000000008,
+      "one_minus_mu": 0.8749999999999999,
+      "product_gram_dimension": 16,
+      "scalar_block_spectrum_error": 1.1102230246251565e-16
+    }
+  ],
+  "scope_warning": "Exact bridge counts with floating diagonalization can falsify quantitative candidates but cannot prove uniform asymptotics.",
+  "seed": null,
+  "status": "complete"
+}

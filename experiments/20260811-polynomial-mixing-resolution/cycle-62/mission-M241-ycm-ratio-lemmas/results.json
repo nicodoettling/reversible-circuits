@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "r1_tuples": 2585,
+    "r2_cases": 56,
+    "r3_cases": 56
+  },
+  "e_interval": {
+    "lower_decimal": 2.718281828459045,
+    "upper_decimal": 2.718281828459045,
+    "width_decimal": 6.57337061379947e-67
+  },
+  "e_interval_terms": 50,
+  "odd_k": [
+    3,
+    31
+  ],
+  "role": "finite certified-interval falsification only",
+  "seed": null,
+  "status": "pass",
+  "worst_normalized": {
+    "r1_over_36": {
+      "decimal": 0.39979747724348486,
+      "denominator_bits": 10444,
+      "numerator_bits": 10442
+    },
+    "r2_over_rhs": {
+      "decimal": 0.014827834647833714,
+      "denominator_bits": 246,
+      "numerator_bits": 240
+    },
+    "r3_actual_squared_over_rhs_squared": {
+      "decimal": 0.0004134116458076698,
+      "denominator_bits": 3338,
+      "numerator_bits": 3327
+    },
+    "r3_comparison_squared_over_rhs_squared": {
+      "decimal": 0.00018447566611363032,
+      "denominator_bits": 262,
+      "numerator_bits": 249
+    }
+  }
+}

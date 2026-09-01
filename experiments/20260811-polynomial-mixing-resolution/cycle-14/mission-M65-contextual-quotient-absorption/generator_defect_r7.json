@@ -1,0 +1,7314 @@
+{
+  "claim_tested": "Every contextual conditional mean is harmonic, superharmonic, or a committor on the deep last-branch region for the accepted root-composition generator.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/generator_defect.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/generator_defect_r7.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "One nonzero or wrong-sign defect refutes the named literal identity. Finite agreement proves no universal inequality.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "ambient_r": 3,
+      "classification_counts": {
+        "harmonic": 1,
+        "subharmonic_G_ge_0": 1
+      },
+      "context_count": 2,
+      "macro_count": 5,
+      "raw_factorization_count": 16,
+      "rows": [
+        {
+          "ambient_r": 3,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 3,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "ambient_r": 4,
+      "classification_counts": {
+        "harmonic": 4,
+        "mixed_sign": 1,
+        "subharmonic_G_ge_0": 2
+      },
+      "context_count": 7,
+      "macro_count": 14,
+      "raw_factorization_count": 125,
+      "rows": [
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "1",
+              "total_defect": "1"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "2/9",
+              "total_defect": "2/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 4,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "-2/3",
+              "split_defect": "1/3",
+              "total_defect": "-1/3"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "2/3",
+              "total_defect": "2/3"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "ambient_r": 5,
+      "classification_counts": {
+        "harmonic": 9,
+        "mixed_sign": 3,
+        "subharmonic_G_ge_0": 6,
+        "superharmonic_G_le_0": 2
+      },
+      "context_count": 20,
+      "macro_count": 42,
+      "raw_factorization_count": 1296,
+      "rows": [
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "16/27",
+              "total_defect": "16/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-5/9",
+              "split_defect": "1",
+              "total_defect": "4/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "25/27",
+              "total_defect": "25/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "1",
+              "total_defect": "1"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "-4/27",
+              "total_defect": "-4/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-7/9",
+              "split_defect": "-1/3",
+              "total_defect": "-10/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "11/27",
+              "total_defect": "11/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            5
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "0",
+              "split_defect": "9/64",
+              "total_defect": "9/64"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-37/72",
+              "split_defect": "2/27",
+              "total_defect": "-95/216"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "11/32",
+              "total_defect": "11/32"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            3,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 5,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-7/6",
+              "split_defect": "1/4",
+              "total_defect": "-11/12"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-47/144",
+              "split_defect": "31/54",
+              "total_defect": "107/432"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "-37/48",
+              "split_defect": "5/12",
+              "total_defect": "-17/48"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "0",
+              "split_defect": "41/64",
+              "total_defect": "41/64"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            4,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "ambient_r": 6,
+      "classification_counts": {
+        "harmonic": 21,
+        "mixed_sign": 9,
+        "subharmonic_G_ge_0": 16,
+        "superharmonic_G_le_0": 6
+      },
+      "context_count": 52,
+      "macro_count": 132,
+      "raw_factorization_count": 16807,
+      "rows": [
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/5",
+              "merge_defect": "0",
+              "split_defect": "7/5",
+              "total_defect": "7/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "4/5",
+              "total_defect": "4/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "7/9",
+              "total_defect": "7/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-7/15",
+              "split_defect": "7/5",
+              "total_defect": "14/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "47/45",
+              "total_defect": "47/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2",
+            "9/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            2,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            2,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "0",
+              "split_defect": "1/5",
+              "total_defect": "1/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "2/9",
+              "total_defect": "2/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "7/10",
+              "merge_defect": "-11/15",
+              "split_defect": "1/5",
+              "total_defect": "-8/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "31/45",
+              "total_defect": "31/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "9/10",
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            5
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "15/32",
+              "total_defect": "15/32"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            2,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-5/12",
+              "split_defect": "5/9",
+              "total_defect": "5/36"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "1/8",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            3,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-11/10",
+              "split_defect": "1",
+              "total_defect": "-1/10"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-7/24",
+              "split_defect": "43/45",
+              "total_defect": "239/360"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-5/8",
+              "split_defect": "11/10",
+              "total_defect": "19/40"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "27/32",
+              "total_defect": "27/32"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            4,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2",
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            2,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "16/27",
+              "total_defect": "16/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-5/9",
+              "split_defect": "1",
+              "total_defect": "4/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "25/27",
+              "total_defect": "25/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "0",
+              "split_defect": "-2/5",
+              "total_defect": "-2/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            2,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            2,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            3
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            3
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            3,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "1",
+              "total_defect": "1"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            3,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "-1/3",
+              "total_defect": "-1/3"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-4/5",
+              "split_defect": "-3/5",
+              "total_defect": "-7/5"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "4/15",
+              "total_defect": "4/15"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/10",
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            2
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "-4/27",
+              "total_defect": "-4/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-7/9",
+              "split_defect": "-1/3",
+              "total_defect": "-10/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "11/27",
+              "total_defect": "11/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            5,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            4,
+            1
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "0",
+              "split_defect": "-3/16",
+              "total_defect": "-3/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-11/18",
+              "split_defect": "-11/27",
+              "total_defect": "-55/54"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "3/16",
+              "total_defect": "3/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            3,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-37/30",
+              "split_defect": "-1/2",
+              "total_defect": "-26/15"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-13/36",
+              "split_defect": "26/135",
+              "total_defect": "-91/540"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-11/12",
+              "split_defect": "-4/15",
+              "total_defect": "-71/60"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "0",
+              "split_defect": "7/16",
+              "total_defect": "7/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            4,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5",
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            6
+          ],
+          "deep_rows": [],
+          "local_s": 5,
+          "refined": [
+            1,
+            5
+          ],
+          "suffix_size": 5,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "32/125",
+              "merge_defect": "0",
+              "split_defect": "64/625",
+              "total_defect": "64/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            2,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "-231/500",
+              "split_defect": "0",
+              "total_defect": "-231/500"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "18/125",
+              "merge_defect": "0",
+              "split_defect": "156/625",
+              "total_defect": "156/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            3,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-11/12",
+              "split_defect": "0",
+              "total_defect": "-11/12"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "-53/250",
+              "split_defect": "9/32",
+              "total_defect": "277/4000"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-676/1125",
+              "split_defect": "7/54",
+              "total_defect": "-3181/6750"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "18/125",
+              "merge_defect": "0",
+              "split_defect": "196/625",
+              "total_defect": "196/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            4,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 6,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-8/5",
+              "split_defect": "1/5",
+              "total_defect": "-7/5"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-13/24",
+              "split_defect": "8/15",
+              "total_defect": "-1/120"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-11/8",
+              "split_defect": "3/10",
+              "total_defect": "-43/40"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "-119/500",
+              "split_defect": "9/16",
+              "total_defect": "649/2000"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-7/6",
+              "split_defect": "3/10",
+              "total_defect": "-13/15"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-424/1125",
+              "split_defect": "17/27",
+              "total_defect": "853/3375"
+            },
+            {
+              "composition": [
+                3,
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "-308/375",
+              "split_defect": "4/9",
+              "total_defect": "-424/1125"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "32/125",
+              "merge_defect": "0",
+              "split_defect": "384/625",
+              "total_defect": "384/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            5,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "ambient_r": 7,
+      "classification_counts": {
+        "harmonic": 51,
+        "mixed_sign": 24,
+        "subharmonic_G_ge_0": 39,
+        "superharmonic_G_le_0": 14
+      },
+      "context_count": 128,
+      "macro_count": 429,
+      "raw_factorization_count": 262144,
+      "rows": [
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 4,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 4,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "3/2",
+              "total_defect": "3/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "5/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "1",
+              "total_defect": "1"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/15",
+              "merge_defect": "0",
+              "split_defect": "8/9",
+              "total_defect": "8/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-2/5",
+              "split_defect": "5/3",
+              "total_defect": "19/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/15",
+              "merge_defect": "0",
+              "split_defect": "10/9",
+              "total_defect": "10/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "8/5",
+            "2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/5",
+              "merge_defect": "0",
+              "split_defect": "7/5",
+              "total_defect": "7/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "4/5",
+              "total_defect": "4/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/15",
+              "merge_defect": "0",
+              "split_defect": "4/9",
+              "total_defect": "4/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-2/3",
+              "split_defect": "3/5",
+              "total_defect": "-1/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/15",
+              "merge_defect": "0",
+              "split_defect": "38/45",
+              "total_defect": "38/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/64",
+              "merge_defect": "0",
+              "split_defect": "81/128",
+              "total_defect": "81/128"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "4/15",
+              "merge_defect": "-83/240",
+              "split_defect": "38/45",
+              "total_defect": "359/720"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/32",
+              "merge_defect": "0",
+              "split_defect": "183/320",
+              "total_defect": "183/320"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "3/2",
+            "9/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-1",
+              "split_defect": "3/2",
+              "total_defect": "1/2"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "4/15",
+              "merge_defect": "-121/480",
+              "split_defect": "53/45",
+              "total_defect": "1333/1440"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-83/160",
+              "split_defect": "3/2",
+              "total_defect": "157/160"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/64",
+              "merge_defect": "0",
+              "split_defect": "597/640",
+              "total_defect": "597/640"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2",
+            "9/5",
+            "2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/5",
+              "merge_defect": "0",
+              "split_defect": "7/5",
+              "total_defect": "7/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "4/5",
+              "total_defect": "4/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            2,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            2,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "7/9",
+              "total_defect": "7/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            2,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-7/15",
+              "split_defect": "7/5",
+              "total_defect": "14/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "47/45",
+              "total_defect": "47/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2",
+            "9/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "0",
+              "split_defect": "1/5",
+              "total_defect": "1/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "0",
+              "split_defect": "1/5",
+              "total_defect": "1/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            3,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            3,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-4/5",
+              "split_defect": "-1/5",
+              "total_defect": "-1"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "8/15",
+              "total_defect": "8/15"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/5",
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            4,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            4,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "2/9",
+              "total_defect": "2/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            4,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "7/10",
+              "merge_defect": "-11/15",
+              "split_defect": "1/5",
+              "total_defect": "-8/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "31/45",
+              "total_defect": "31/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "9/10",
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "0",
+              "split_defect": "9/64",
+              "total_defect": "9/64"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "7/15",
+              "merge_defect": "-67/120",
+              "split_defect": "-1/45",
+              "total_defect": "-209/360"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "57/160",
+              "total_defect": "57/160"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "9/10",
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-13/10",
+              "split_defect": "0",
+              "total_defect": "-13/10"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "7/15",
+              "merge_defect": "-89/240",
+              "split_defect": "23/45",
+              "total_defect": "101/720"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "7/10",
+              "merge_defect": "-67/80",
+              "split_defect": "3/10",
+              "total_defect": "-43/80"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "0",
+              "split_defect": "213/320",
+              "total_defect": "213/320"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/5",
+            "9/10",
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            1,
+            6
+          ],
+          "deep_rows": [],
+          "local_s": 5,
+          "refined": [
+            1,
+            1,
+            5
+          ],
+          "suffix_size": 5,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "64/375",
+              "merge_defect": "0",
+              "split_defect": "256/625",
+              "total_defect": "256/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            1,
+            2,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            1,
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "-741/2000",
+              "split_defect": "27/64",
+              "total_defect": "411/8000"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "12/125",
+              "merge_defect": "0",
+              "split_defect": "234/625",
+              "total_defect": "234/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            1,
+            3,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-67/80",
+              "split_defect": "8/15",
+              "total_defect": "-73/240"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "-183/1000",
+              "split_defect": "81/160",
+              "total_defect": "1293/4000"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-178/375",
+              "split_defect": "28/45",
+              "total_defect": "166/1125"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "12/125",
+              "merge_defect": "0",
+              "split_defect": "264/625",
+              "total_defect": "264/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            1,
+            4,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2",
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            1,
+            6
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "-8/5",
+              "split_defect": "1",
+              "total_defect": "-3/5"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-89/160",
+              "split_defect": "44/45",
+              "total_defect": "607/1440"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-201/160",
+              "split_defect": "16/15",
+              "total_defect": "-91/480"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "-1327/6000",
+              "split_defect": "279/320",
+              "total_defect": "15617/24000"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-11/10",
+              "split_defect": "16/15",
+              "total_defect": "-1/30"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-122/375",
+              "split_defect": "46/45",
+              "total_defect": "784/1125"
+            },
+            {
+              "composition": [
+                3,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-247/375",
+              "split_defect": "17/15",
+              "total_defect": "178/375"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "64/375",
+              "merge_defect": "0",
+              "split_defect": "496/625",
+              "total_defect": "496/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            1,
+            5,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2",
+            "8/5",
+            "5/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 3,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/5",
+              "merge_defect": "0",
+              "split_defect": "7/5",
+              "total_defect": "7/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "0",
+              "split_defect": "4/5",
+              "total_defect": "4/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "6/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            1,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "7/9",
+              "total_defect": "7/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            1,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "2/5",
+              "merge_defect": "-7/15",
+              "split_defect": "7/5",
+              "total_defect": "14/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/6",
+              "merge_defect": "0",
+              "split_defect": "47/45",
+              "total_defect": "47/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2",
+            "9/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            2,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            2,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "0",
+              "split_defect": "1/5",
+              "total_defect": "1/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            3,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            3,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            4,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "2/9",
+              "total_defect": "2/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            2,
+            4,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "7/10",
+              "merge_defect": "-11/15",
+              "split_defect": "1/5",
+              "total_defect": "-8/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "31/45",
+              "total_defect": "31/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "9/10",
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            2,
+            5
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            2,
+            1,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "15/32",
+              "total_defect": "15/32"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            2,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            2,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-5/12",
+              "split_defect": "5/9",
+              "total_defect": "5/36"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "1/8",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            3,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            2,
+            5
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-11/10",
+              "split_defect": "1",
+              "total_defect": "-1/10"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "-7/24",
+              "split_defect": "43/45",
+              "total_defect": "239/360"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-5/8",
+              "split_defect": "11/10",
+              "total_defect": "19/40"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/16",
+              "merge_defect": "0",
+              "split_defect": "27/32",
+              "total_defect": "27/32"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            4,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2",
+            "8/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "0",
+              "split_defect": "-1/2",
+              "total_defect": "-1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "0",
+              "split_defect": "-2/5",
+              "total_defect": "-2/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "0",
+              "split_defect": "-2/5",
+              "total_defect": "-2/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 2,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "5/4",
+              "total_defect": "5/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "0",
+              "split_defect": "-2/5",
+              "total_defect": "-2/5"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            2,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            2,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            3,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "0",
+              "split_defect": "-1/4",
+              "total_defect": "-1/4"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            3,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3,
+            3,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "1/2",
+              "total_defect": "1/2"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            1,
+            2,
+            4
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "0",
+              "split_defect": "0",
+              "total_defect": "0"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            2,
+            1,
+            4
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            3,
+            4
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "16/27",
+              "total_defect": "16/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            3,
+            4
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-5/9",
+              "split_defect": "1",
+              "total_defect": "4/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "2/9",
+              "merge_defect": "0",
+              "split_defect": "25/27",
+              "total_defect": "25/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            3,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3",
+            "3/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "8/15",
+              "merge_defect": "0",
+              "split_defect": "-4/9",
+              "total_defect": "-4/9"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "14/15",
+              "merge_defect": "-4/5",
+              "split_defect": "-11/15",
+              "total_defect": "-23/15"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "8/15",
+              "merge_defect": "0",
+              "split_defect": "8/45",
+              "total_defect": "8/45"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/5",
+            "2/5"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            1,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            1,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "-1/3",
+              "total_defect": "-1/3"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            1,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-4/5",
+              "split_defect": "-3/5",
+              "total_defect": "-7/5"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "4/15",
+              "total_defect": "4/15"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/10",
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            2,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            2,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "-1/3",
+              "total_defect": "-1/3"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            2,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-4/5",
+              "split_defect": "-3/5",
+              "total_defect": "-7/5"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "0",
+              "split_defect": "4/15",
+              "total_defect": "4/15"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "3/10",
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 3,
+          "refined": [
+            1,
+            3,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            4,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "-4/27",
+              "total_defect": "-4/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            2,
+            2,
+            3
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            4,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-7/9",
+              "split_defect": "-1/3",
+              "total_defect": "-10/9"
+            },
+            {
+              "composition": [
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "0",
+              "split_defect": "11/27",
+              "total_defect": "11/27"
+            }
+          ],
+          "local_s": 3,
+          "refined": [
+            3,
+            1,
+            3
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            4,
+            3
+          ],
+          "deep_rows": [],
+          "local_s": 2,
+          "refined": [
+            4,
+            1,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 1,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            4,
+            3
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                2
+              ],
+              "h_over_alpha": "1/3",
+              "merge_defect": "0",
+              "split_defect": "1",
+              "total_defect": "1"
+            }
+          ],
+          "local_s": 2,
+          "refined": [
+            4,
+            2,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "4/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "27/64",
+              "merge_defect": "0",
+              "split_defect": "-45/128",
+              "total_defect": "-45/128"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-51/80",
+              "split_defect": "-3/5",
+              "total_defect": "-99/80"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "0",
+              "split_defect": "33/320",
+              "total_defect": "33/320"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "3/10",
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "19/20",
+              "merge_defect": "-6/5",
+              "split_defect": "-3/4",
+              "total_defect": "-39/20"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-57/160",
+              "split_defect": "1/30",
+              "total_defect": "-31/96"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-153/160",
+              "split_defect": "-11/20",
+              "total_defect": "-241/160"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "27/64",
+              "merge_defect": "0",
+              "split_defect": "207/640",
+              "total_defect": "207/640"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/5",
+            "3/10",
+            "1/2"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            5,
+            2
+          ],
+          "deep_rows": [],
+          "local_s": 4,
+          "refined": [
+            1,
+            4,
+            2
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            5,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "0",
+              "split_defect": "-3/16",
+              "total_defect": "-3/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            2,
+            3,
+            2
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-11/18",
+              "split_defect": "-11/27",
+              "total_defect": "-55/54"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "0",
+              "split_defect": "3/16",
+              "total_defect": "3/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            3,
+            2,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            5,
+            2
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-37/30",
+              "split_defect": "-1/2",
+              "total_defect": "-26/15"
+            },
+            {
+              "composition": [
+                1,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-13/36",
+              "split_defect": "26/135",
+              "total_defect": "-91/540"
+            },
+            {
+              "composition": [
+                2,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-11/12",
+              "split_defect": "-4/15",
+              "total_defect": "-71/60"
+            },
+            {
+              "composition": [
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "0",
+              "split_defect": "7/16",
+              "total_defect": "7/16"
+            }
+          ],
+          "local_s": 4,
+          "refined": [
+            4,
+            1,
+            2
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "2/5",
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            6,
+            1
+          ],
+          "deep_rows": [],
+          "local_s": 5,
+          "refined": [
+            1,
+            5,
+            1
+          ],
+          "suffix_size": 5,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "superharmonic_G_le_0",
+          "coarse": [
+            6,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "128/375",
+              "merge_defect": "0",
+              "split_defect": "-128/625",
+              "total_defect": "-128/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            2,
+            4,
+            1
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "15/32",
+              "merge_defect": "-1107/2000",
+              "split_defect": "-27/64",
+              "total_defect": "-7803/8000"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "24/125",
+              "merge_defect": "0",
+              "split_defect": "78/625",
+              "total_defect": "78/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            3,
+            3,
+            1
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-239/240",
+              "split_defect": "-8/15",
+              "total_defect": "-367/240"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "5/16",
+              "merge_defect": "-241/1000",
+              "split_defect": "9/160",
+              "total_defect": "-739/4000"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-818/1125",
+              "split_defect": "-49/135",
+              "total_defect": "-3679/3375"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "24/125",
+              "merge_defect": "0",
+              "split_defect": "128/625",
+              "total_defect": "128/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            4,
+            2,
+            1
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "2/5",
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            6,
+            1
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "14/15",
+              "merge_defect": "-8/5",
+              "split_defect": "-3/5",
+              "total_defect": "-11/5"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "3/5",
+              "merge_defect": "-253/480",
+              "split_defect": "4/45",
+              "total_defect": "-631/1440"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-239/160",
+              "split_defect": "-7/15",
+              "total_defect": "-941/480"
+            },
+            {
+              "composition": [
+                1,
+                4
+              ],
+              "h_over_alpha": "15/32",
+              "merge_defect": "-1529/6000",
+              "split_defect": "81/320",
+              "total_defect": "-41/24000"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                2
+              ],
+              "h_over_alpha": "9/10",
+              "merge_defect": "-37/30",
+              "split_defect": "-7/15",
+              "total_defect": "-17/10"
+            },
+            {
+              "composition": [
+                2,
+                3
+              ],
+              "h_over_alpha": "5/9",
+              "merge_defect": "-482/1125",
+              "split_defect": "32/135",
+              "total_defect": "-646/3375"
+            },
+            {
+              "composition": [
+                3,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-123/125",
+              "split_defect": "-11/45",
+              "total_defect": "-1382/1125"
+            },
+            {
+              "composition": [
+                5
+              ],
+              "h_over_alpha": "128/375",
+              "merge_defect": "0",
+              "split_defect": "272/625",
+              "total_defect": "272/625"
+            }
+          ],
+          "local_s": 5,
+          "refined": [
+            5,
+            1,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1/3",
+            "2/5",
+            "1/2",
+            "2/3"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "harmonic",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [],
+          "local_s": 6,
+          "refined": [
+            1,
+            6
+          ],
+          "suffix_size": 6,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "subharmonic_G_ge_0",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                6
+              ],
+              "h_over_alpha": "625/2592",
+              "merge_defect": "0",
+              "split_defect": "625/7776",
+              "total_defect": "625/7776"
+            }
+          ],
+          "local_s": 6,
+          "refined": [
+            2,
+            5
+          ],
+          "suffix_size": 5,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                5
+              ],
+              "h_over_alpha": "128/375",
+              "merge_defect": "-4412/10125",
+              "split_defect": "-64/1875",
+              "total_defect": "-23788/50625"
+            },
+            {
+              "composition": [
+                6
+              ],
+              "h_over_alpha": "10/81",
+              "merge_defect": "0",
+              "split_defect": "50/243",
+              "total_defect": "50/243"
+            }
+          ],
+          "local_s": 6,
+          "refined": [
+            3,
+            4
+          ],
+          "suffix_size": 4,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                4
+              ],
+              "h_over_alpha": "27/64",
+              "merge_defect": "-3321/4000",
+              "split_defect": "-9/128",
+              "total_defect": "-14409/16000"
+            },
+            {
+              "composition": [
+                1,
+                5
+              ],
+              "h_over_alpha": "24/125",
+              "merge_defect": "-527/3000",
+              "split_defect": "123/625",
+              "total_defect": "317/15000"
+            },
+            {
+              "composition": [
+                2,
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "-13/24",
+              "split_defect": "3/64",
+              "total_defect": "-95/192"
+            },
+            {
+              "composition": [
+                6
+              ],
+              "h_over_alpha": "5/48",
+              "merge_defect": "0",
+              "split_defect": "95/432",
+              "total_defect": "95/432"
+            }
+          ],
+          "local_s": 6,
+          "refined": [
+            4,
+            3
+          ],
+          "suffix_size": 3,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "8/15",
+              "merge_defect": "-51/40",
+              "split_defect": "-2/45",
+              "total_defect": "-95/72"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                4
+              ],
+              "h_over_alpha": "9/32",
+              "merge_defect": "-723/2000",
+              "split_defect": "81/320",
+              "total_defect": "-867/8000"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-409/375",
+              "split_defect": "1/30",
+              "total_defect": "-793/750"
+            },
+            {
+              "composition": [
+                1,
+                5
+              ],
+              "h_over_alpha": "24/125",
+              "merge_defect": "-1388/10125",
+              "split_defect": "168/625",
+              "total_defect": "6668/50625"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-11/12",
+              "split_defect": "1/30",
+              "total_defect": "-53/60"
+            },
+            {
+              "composition": [
+                2,
+                4
+              ],
+              "h_over_alpha": "1/4",
+              "merge_defect": "-41/162",
+              "split_defect": "5/16",
+              "total_defect": "77/1296"
+            },
+            {
+              "composition": [
+                3,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-52/81",
+              "split_defect": "4/27",
+              "total_defect": "-40/81"
+            },
+            {
+              "composition": [
+                6
+              ],
+              "h_over_alpha": "10/81",
+              "merge_defect": "0",
+              "split_defect": "70/243",
+              "total_defect": "70/243"
+            }
+          ],
+          "local_s": 6,
+          "refined": [
+            5,
+            2
+          ],
+          "suffix_size": 2,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        },
+        {
+          "ambient_r": 7,
+          "below_support_nonzero": [],
+          "branch_index": 0,
+          "classification_on_deep_region": "mixed_sign",
+          "coarse": [
+            7
+          ],
+          "deep_rows": [
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "5/6",
+              "merge_defect": "-2",
+              "split_defect": "1/6",
+              "total_defect": "-11/6"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                1,
+                3
+              ],
+              "h_over_alpha": "8/15",
+              "merge_defect": "-57/80",
+              "split_defect": "23/45",
+              "total_defect": "-29/144"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                2,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-153/80",
+              "split_defect": "7/30",
+              "total_defect": "-403/240"
+            },
+            {
+              "composition": [
+                1,
+                1,
+                4
+              ],
+              "h_over_alpha": "27/64",
+              "merge_defect": "-1529/4000",
+              "split_defect": "339/640",
+              "total_defect": "2359/16000"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                1,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-8/5",
+              "split_defect": "7/30",
+              "total_defect": "-41/30"
+            },
+            {
+              "composition": [
+                1,
+                2,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-241/375",
+              "split_defect": "17/30",
+              "total_defect": "-19/250"
+            },
+            {
+              "composition": [
+                1,
+                3,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-369/250",
+              "split_defect": "19/60",
+              "total_defect": "-1739/1500"
+            },
+            {
+              "composition": [
+                1,
+                5
+              ],
+              "h_over_alpha": "128/375",
+              "merge_defect": "-32467/162000",
+              "split_defect": "1016/1875",
+              "total_defect": "276577/810000"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                1,
+                2
+              ],
+              "h_over_alpha": "4/5",
+              "merge_defect": "-8/5",
+              "split_defect": "7/30",
+              "total_defect": "-41/30"
+            },
+            {
+              "composition": [
+                2,
+                1,
+                3
+              ],
+              "h_over_alpha": "1/2",
+              "merge_defect": "-13/24",
+              "split_defect": "17/30",
+              "total_defect": "1/40"
+            },
+            {
+              "composition": [
+                2,
+                2,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-11/8",
+              "split_defect": "7/20",
+              "total_defect": "-41/40"
+            },
+            {
+              "composition": [
+                2,
+                4
+              ],
+              "h_over_alpha": "3/8",
+              "merge_defect": "-347/1296",
+              "split_defect": "39/64",
+              "total_defect": "1771/5184"
+            },
+            {
+              "composition": [
+                3,
+                1,
+                2
+              ],
+              "h_over_alpha": "3/4",
+              "merge_defect": "-7/6",
+              "split_defect": "19/60",
+              "total_defect": "-17/20"
+            },
+            {
+              "composition": [
+                3,
+                3
+              ],
+              "h_over_alpha": "4/9",
+              "merge_defect": "-527/1296",
+              "split_defect": "35/54",
+              "total_defect": "313/1296"
+            },
+            {
+              "composition": [
+                4,
+                2
+              ],
+              "h_over_alpha": "2/3",
+              "merge_defect": "-1103/1296",
+              "split_defect": "11/24",
+              "total_defect": "-509/1296"
+            },
+            {
+              "composition": [
+                6
+              ],
+              "h_over_alpha": "625/2592",
+              "merge_defect": "0",
+              "split_defect": "4625/7776",
+              "total_defect": "4625/7776"
+            }
+          ],
+          "local_s": 6,
+          "refined": [
+            6,
+            1
+          ],
+          "suffix_size": 1,
+          "top_values_over_alpha": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "seed": null,
+  "sign_convention": "G_0 h=sum R/alpha*(h(target)-h(source)); superharmonic means G_0 h<=0."
+}

@@ -1,0 +1,383 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped mixed moments",
+  "claim_tested": "exact contextual second-moment recurrence and the variance supersolution g<=Var(Phi)",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 13.180866956710815,
+  "finite_scope_warning": "Exact bounded survival proves no universal inequality.",
+  "parameters": {
+    "k_max": 16,
+    "s_max": 10
+  },
+  "python": "3.12.3",
+  "result": {
+    "contexts": 6534,
+    "direct_macro_calibrations": [
+      {
+        "context": [
+          5,
+          2,
+          1,
+          2
+        ],
+        "exact_match": true,
+        "expected": {
+          "decimal": 0.08368388965096785,
+          "denominator": "131220",
+          "numerator": "10981"
+        },
+        "observed": {
+          "decimal": 0.08368388965096785,
+          "denominator": "131220",
+          "numerator": "10981"
+        }
+      },
+      {
+        "context": [
+          6,
+          1,
+          0,
+          3
+        ],
+        "exact_match": true,
+        "expected": {
+          "decimal": 0.08755229028933434,
+          "denominator": "282475249",
+          "numerator": "24731355"
+        },
+        "observed": {
+          "decimal": 0.08755229028933434,
+          "denominator": "282475249",
+          "numerator": "24731355"
+        }
+      }
+    ],
+    "failure_counts": {
+      "beta_binomial_variance_envelope": 0,
+      "mean_or_variance_sanity": 0,
+      "one_step_variance_supersolution": 1352,
+      "resolvent_over_variance": 0
+    },
+    "first_failures": {
+      "beta_binomial_variance_envelope": [],
+      "mean_or_variance_sanity": [],
+      "one_step_variance_supersolution": [
+        {
+          "beta_binomial_envelope": {
+            "decimal": 0.1733381957298496,
+            "denominator": "282475249",
+            "numerator": "48963750"
+          },
+          "context": [
+            6,
+            2,
+            1,
+            2
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.059158918939565895,
+            "denominator": "1361367",
+            "numerator": "80537"
+          },
+          "one_step_margin": {
+            "decimal": -0.0005795211914508295,
+            "denominator": "36917038301316768",
+            "numerator": "-21394206021215"
+          },
+          "one_step_total": {
+            "decimal": 0.07832262757360799,
+            "denominator": "36917038301316768",
+            "numerator": "2891439441994655"
+          },
+          "q": {
+            "decimal": 0.2231213184982448,
+            "denominator": "16807",
+            "numerator": "3750"
+          },
+          "reset_budget": {
+            "decimal": 0.019163708634042098,
+            "denominator": "36917038301316768",
+            "numerator": "707467365638207"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.027435220996147855,
+            "denominator": "7008468990015605175000",
+            "numerator": "192278895585727275743"
+          },
+          "variance": {
+            "decimal": 0.07774310638215716,
+            "denominator": "847425747",
+            "numerator": "65881510"
+          }
+        },
+        {
+          "beta_binomial_envelope": {
+            "decimal": 0.14199389200290607,
+            "denominator": "282475249",
+            "numerator": "40109760"
+          },
+          "context": [
+            6,
+            2,
+            1,
+            3
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.05437912774439222,
+            "denominator": "336140",
+            "numerator": "18279"
+          },
+          "one_step_margin": {
+            "decimal": -0.00032082791807085413,
+            "denominator": "2848536905965800",
+            "numerator": "-913890165089"
+          },
+          "one_step_total": {
+            "decimal": 0.07134429093305522,
+            "denominator": "2848536905965800",
+            "numerator": "203226845752769"
+          },
+          "q": {
+            "decimal": 0.17135717260665198,
+            "denominator": "16807",
+            "numerator": "2880"
+          },
+          "reset_budget": {
+            "decimal": 0.016965163188663004,
+            "denominator": "2848536905965800",
+            "numerator": "48325893458639"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.0281752679684542,
+            "denominator": "307641985844306400000",
+            "numerator": "8667895389510726379"
+          },
+          "variance": {
+            "decimal": 0.07102346301498437,
+            "denominator": "1412376245",
+            "numerator": "100311852"
+          }
+        },
+        {
+          "beta_binomial_envelope": {
+            "decimal": 0.1733381957298496,
+            "denominator": "282475249",
+            "numerator": "48963750"
+          },
+          "context": [
+            6,
+            3,
+            2,
+            2
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.06900659197853394,
+            "denominator": "3705943500",
+            "numerator": "255734531"
+          },
+          "one_step_margin": {
+            "decimal": -0.0007480199031840746,
+            "denominator": "2563683215369220000",
+            "numerator": "-1917686070555121"
+          },
+          "one_step_total": {
+            "decimal": 0.08368802148895133,
+            "denominator": "2563683215369220000",
+            "numerator": "214549576018683121"
+          },
+          "q": {
+            "decimal": 0.2231213184982448,
+            "denominator": "16807",
+            "numerator": "3750"
+          },
+          "reset_budget": {
+            "decimal": 0.014681429510417386,
+            "denominator": "2563683215369220000",
+            "numerator": "37638534413483401"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.02344140438359428,
+            "denominator": "62297502133472046000000",
+            "numerator": "1460340939598545758261"
+          },
+          "variance": {
+            "decimal": 0.08294000158576725,
+            "denominator": "1412376245",
+            "numerator": "117142488"
+          }
+        }
+      ],
+      "resolvent_over_variance": []
+    },
+    "maxima": {
+      "one_step_over_variance": {
+        "ratio": {
+          "decimal": 1.1215866331126072,
+          "denominator": "24143190858449244160474373990464623390720000000",
+          "numerator": "27078680147523163500145100936786038883060304811"
+        },
+        "row": {
+          "beta_binomial_envelope": {
+            "decimal": 0.10565214478638212,
+            "denominator": "5559917313492231481",
+            "numerator": "587417189005393920"
+          },
+          "context": [
+            10,
+            2,
+            1,
+            3
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.04170476000263714,
+            "denominator": "43479800878778880000000",
+            "numerator": "1813314660611924502107"
+          },
+          "one_step_margin": {
+            "decimal": -0.006295166954487053,
+            "denominator": "466308409339575788275662733280702270315520000000",
+            "numerator": "-2935489289073919339670726946321415492340304811"
+          },
+          "one_step_total": {
+            "decimal": 0.058070323427952354,
+            "denominator": "466308409339575788275662733280702270315520000000",
+            "numerator": "27078680147523163500145100936786038883060304811"
+          },
+          "q": {
+            "decimal": 0.12006861775628762,
+            "denominator": "2357947691",
+            "numerator": "283115520"
+          },
+          "reset_budget": {
+            "decimal": 0.016365563425315213,
+            "denominator": "466308409339575788275662733280702270315520000000",
+            "numerator": "7631399848804677299177164575011461813360672633"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.031048920267713553,
+            "denominator": "4835594508923271924535365528043428151005374046535680000000000000000000",
+            "numerator": "150139988354552141668309262699369831132460673926230879704185664638163"
+          },
+          "variance": {
+            "decimal": 0.0517751564734653,
+            "denominator": "116758263583336861101",
+            "numerator": "6045177366597371236"
+          }
+        }
+      },
+      "resolvent_over_variance": {
+        "ratio": {
+          "decimal": 0.98841662596379,
+          "denominator": "43310654494354006556073237449021917849245134590047367987200000000000000000000",
+          "numerator": "42808970983592842181759980297691787161454826443892254342487476311403791575633"
+        },
+        "row": {
+          "beta_binomial_envelope": {
+            "decimal": 0.5634781055273713,
+            "denominator": "5559917313492231481",
+            "numerator": "3132891674695434240"
+          },
+          "context": [
+            10,
+            16,
+            2,
+            3
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.03130345092475857,
+            "denominator": "17079875951398160733719040000000",
+            "numerator": "534659058645556502764239979831"
+          },
+          "one_step_margin": {
+            "decimal": -0.00865072328103162,
+            "denominator": "3676511461442281525363020793133431829643804533760000000",
+            "numerator": "-31804483292478334070092337570647671771551179200235093"
+          },
+          "one_step_total": {
+            "decimal": 0.17093788103799706,
+            "denominator": "3676511461442281525363020793133431829643804533760000000",
+            "numerator": "628455078830853409184405004761850175784090673600235093"
+          },
+          "q": {
+            "decimal": 0.12006861775628762,
+            "denominator": "2357947691",
+            "numerator": "283115520"
+          },
+          "reset_budget": {
+            "decimal": 0.13963443011323848,
+            "denominator": "3676511461442281525363020793133431829643804533760000000",
+            "numerator": "513367582723282521051398891573884868535147068230216879"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.16040732490739307,
+            "denominator": "266876659206850243369255729442703449434540784848640087162880000000000000000000",
+            "numerator": "42808970983592842181759980297691787161454826443892254342487476311403791575633"
+          },
+          "variance": {
+            "decimal": 0.16228715775696542,
+            "denominator": "306852064488246108617880721",
+            "numerator": "49798149397654526448186240"
+          }
+        }
+      },
+      "variance_over_envelope": {
+        "ratio": {
+          "decimal": 1.0,
+          "denominator": "1",
+          "numerator": "1"
+        },
+        "row": {
+          "beta_binomial_envelope": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          },
+          "context": [
+            2,
+            1,
+            0,
+            2
+          ],
+          "continuation_variance_budget": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "one_step_margin": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          },
+          "one_step_total": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "q": {
+            "decimal": 0.6666666666666666,
+            "denominator": "3",
+            "numerator": "2"
+          },
+          "reset_budget": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "transformed_resolvent": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "variance": {
+            "decimal": 0.2222222222222222,
+            "denominator": "9",
+            "numerator": "2"
+          }
+        }
+      }
+    },
+    "memoized_mixed_moment_contexts": 26010,
+    "memoized_resolvent_contexts": 9168,
+    "mixed_pair_terms_visited": 951812
+  },
+  "seed": null
+}

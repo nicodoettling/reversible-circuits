@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "gg2_cases": 323,
+    "product_boundaries": 288,
+    "r1_tuples": 3706,
+    "rho_steps": 138,
+    "sg_cases": 72
+  },
+  "odd_k": [
+    3,
+    35
+  ],
+  "predecessor_imports": false,
+  "scope": "finite clean-room boundary falsification only",
+  "seed": null,
+  "standard_library_only": true,
+  "status": "pass",
+  "worst_normalized": {
+    "gg2_squared_over_bound": {
+      "decimal": 0.005625,
+      "denominator_bits": 11,
+      "numerator_bits": 4
+    },
+    "r1_over_36": {
+      "decimal": 0.4006944793221601,
+      "denominator_bits": 13434,
+      "numerator_bits": 13432
+    },
+    "r2_over_bound": {
+      "decimal": 0.014827834647833714,
+      "denominator_bits": 282,
+      "numerator_bits": 276
+    },
+    "r3_actual_squared_over_bound": {
+      "decimal": 0.0004980262180038474,
+      "denominator_bits": 4323,
+      "numerator_bits": 4312
+    },
+    "r3_comparison_squared_over_bound": {
+      "decimal": 0.00019281204451639363,
+      "denominator_bits": 306,
+      "numerator_bits": 293
+    },
+    "sg_squared_over_bound": {
+      "decimal": 0.00012623275523444304,
+      "denominator_bits": 10503,
+      "numerator_bits": 10490
+    }
+  }
+}

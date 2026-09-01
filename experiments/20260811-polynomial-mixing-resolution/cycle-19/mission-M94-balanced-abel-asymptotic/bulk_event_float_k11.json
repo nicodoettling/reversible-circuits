@@ -1,0 +1,142 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/compact_bulk_summary.py experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k5.json experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k7.json experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k9.json experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k11.json --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/bulk_event_float_k11.json",
+  "deterministic": true,
+  "nonstandard_dependencies": {
+    "numpy": "1.26.4"
+  },
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "central_event": {
+        "cauchy_partition_lower_bound": 0.00023856902417949098,
+        "definition": "double target with every support gap >= (k+1)/2",
+        "k_fourth_cauchy_partition_lower_bound": 0.14910564011218186,
+        "k_fourth_l2_contribution": 0.18722832388588284,
+        "k_squared_signed_delta": 0.047084246212817184,
+        "k_times_stationary_mass": 0.07434079085677951,
+        "l2_contribution": 0.00029956531821741255,
+        "orbit_count": 10,
+        "signed_delta": 0.0018833698485126874,
+        "stationary_mass": 0.014868158171355903,
+        "threshold": 3
+      },
+      "complete_kernel": {
+        "actual_BA2_L2": 0.005723732235359412,
+        "actual_two_step_TV": 0.0250454059962216,
+        "k_fourth_actual_BA2_L2": 3.5773326470996327,
+        "k_squared_actual_two_step_TV": 0.6261351499055401,
+        "orbit_count": 213,
+        "signed_delta_sum": -1.9971004017182992e-16,
+        "stationary_mass_sum": 1.0,
+        "summed_BA2_L2": 0.005723732235359411,
+        "summed_two_step_TV": 0.025045405996221605
+      },
+      "k": 5,
+      "n": 15,
+      "source_command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/rare_orbit_diagnostic.py --k 5 --top 20 --include-all --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k5.json",
+      "source_file": "all_target_scores_k5.json",
+      "source_sha256": "8e398224c0a0132a0172990ba3dd1aacd383ce8c5e0e3039fadde2f395d7c7e3",
+      "source_status": "finite_floating_falsification_diagnostic_only"
+    },
+    {
+      "central_event": {
+        "cauchy_partition_lower_bound": 7.440222138665976e-05,
+        "definition": "double target with every support gap >= (k+1)/2",
+        "k_fourth_cauchy_partition_lower_bound": 0.1786397335493701,
+        "k_fourth_l2_contribution": 0.25057288474857115,
+        "k_squared_signed_delta": 0.043205908734354224,
+        "k_times_stationary_mass": 0.07314864161123522,
+        "l2_contribution": 0.0001043618845266852,
+        "orbit_count": 28,
+        "signed_delta": 0.0008817532394766168,
+        "stationary_mass": 0.010449805944462175,
+        "threshold": 4
+      },
+      "complete_kernel": {
+        "actual_BA2_L2": 0.0017896650964671992,
+        "actual_two_step_TV": 0.012697989586985085,
+        "k_fourth_actual_BA2_L2": 4.296985896617746,
+        "k_squared_actual_two_step_TV": 0.6222014897622692,
+        "orbit_count": 634,
+        "signed_delta_sum": 1.0869126779167182e-17,
+        "stationary_mass_sum": 1.0,
+        "summed_BA2_L2": 0.0017896650964671992,
+        "summed_two_step_TV": 0.012697989586985085
+      },
+      "k": 7,
+      "n": 21,
+      "source_command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/rare_orbit_diagnostic.py --k 7 --top 40 --include-all --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k7.json",
+      "source_file": "all_target_scores_k7.json",
+      "source_sha256": "936eb5d2ceb5e2a1f11ab62fcc5167fb073dfd8595e43cccea933465d9501ca7",
+      "source_status": "finite_floating_falsification_diagnostic_only"
+    },
+    {
+      "central_event": {
+        "cauchy_partition_lower_bound": 3.376068557612344e-05,
+        "definition": "double target with every support gap >= (k+1)/2",
+        "k_fourth_cauchy_partition_lower_bound": 0.2215038580649459,
+        "k_fourth_l2_contribution": 0.33528647058782396,
+        "k_squared_signed_delta": 0.04216566592865653,
+        "k_times_stationary_mass": 0.07224023359526267,
+        "l2_contribution": 5.11029523834513e-05,
+        "orbit_count": 60,
+        "signed_delta": 0.0005205637768969943,
+        "stationary_mass": 0.008026692621695853,
+        "threshold": 5
+      },
+      "complete_kernel": {
+        "actual_BA2_L2": 0.0009140983770133943,
+        "actual_two_step_TV": 0.008465385599704606,
+        "k_fourth_actual_BA2_L2": 5.997399451584879,
+        "k_squared_actual_two_step_TV": 0.6856962335760731,
+        "orbit_count": 1409,
+        "signed_delta_sum": 5.542305980474338e-17,
+        "stationary_mass_sum": 1.0,
+        "summed_BA2_L2": 0.0009140983770133943,
+        "summed_two_step_TV": 0.008465385599704606
+      },
+      "k": 9,
+      "n": 27,
+      "source_command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/rare_orbit_diagnostic.py --k 9 --top 40 --include-all --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k9.json",
+      "source_file": "all_target_scores_k9.json",
+      "source_sha256": "f0a0caeb955584dedf0d439565fa61c64d1c951d516ac0ac490f84a2cde363a5",
+      "source_status": "finite_floating_falsification_diagnostic_only"
+    },
+    {
+      "central_event": {
+        "cauchy_partition_lower_bound": 1.8552303568027826e-05,
+        "definition": "double target with every support gap >= (k+1)/2",
+        "k_fourth_cauchy_partition_lower_bound": 0.2716242765394954,
+        "k_fourth_l2_contribution": 0.43648078875140783,
+        "k_squared_signed_delta": 0.04203974431667411,
+        "k_times_stationary_mass": 0.07157217820144987,
+        "l2_contribution": 2.9812225172557055e-05,
+        "orbit_count": 110,
+        "signed_delta": 0.0003474359034435877,
+        "stationary_mass": 0.006506561654677261,
+        "threshold": 6
+      },
+      "complete_kernel": {
+        "actual_BA2_L2": 0.000595352587735076,
+        "actual_two_step_TV": 0.006656536373447959,
+        "k_fourth_actual_BA2_L2": 8.716557237029248,
+        "k_squared_actual_two_step_TV": 0.8054409011872031,
+        "orbit_count": 2646,
+        "signed_delta_sum": -1.0815255483721808e-16,
+        "stationary_mass_sum": 1.0,
+        "summed_BA2_L2": 0.000595352587735076,
+        "summed_two_step_TV": 0.006656536373447959
+      },
+      "k": 11,
+      "n": 33,
+      "source_command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/rare_orbit_diagnostic.py --k 11 --top 20 --include-all --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/all_target_scores_k11.json",
+      "source_file": "all_target_scores_k11.json",
+      "source_sha256": "acb3a35c13b7649198ef1b12e777e4fb02991f17fb73e658a8869bb531d11874",
+      "source_status": "finite_floating_falsification_diagnostic_only"
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_falsification_diagnostic_only"
+}

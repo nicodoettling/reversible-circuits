@@ -1,0 +1,208 @@
+{
+  "claim_tested": "Every UST basis exchange becomes one contiguous Hurwitz bubble modulo simultaneous endpoint conjugation; failing that, deterministic quotient shortest paths have small finite stationary-flow congestion.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/quotient_basis_exchange.py --n 5 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/quotient_basis_exchange_n5.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "parameters": [
+    5
+  ],
+  "python": "3.12.3",
+  "results": [
+    {
+      "first_one_bubble_failure": {
+        "added_edge": [
+          0,
+          4
+        ],
+        "removed_edge": [
+          0,
+          1
+        ],
+        "source_tree": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "source_word": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "target_tree": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "target_word": [
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "ideal_micro_directed_edges": 1860,
+      "ideal_micro_edges_reachable_by_one_contiguous_Hurwitz_bubble_mod_U": 950,
+      "lexicographic_recovery_metadata_audit": {
+        "distinct_metadata_keys": 3700,
+        "duplicate_metadata_key_groups": 29,
+        "first_micro_collision": {
+          "distinct_micro_source_count": 2,
+          "distinct_micro_sources": [
+            {
+              "source_orbit": 3,
+              "source_word": [
+                4,
+                8,
+                7,
+                3
+              ],
+              "target_orbit": 1,
+              "target_word": [
+                7,
+                9,
+                6,
+                3
+              ]
+            },
+            {
+              "source_orbit": 8,
+              "source_word": [
+                4,
+                9,
+                8,
+                3
+              ],
+              "target_orbit": 17,
+              "target_word": [
+                8,
+                7,
+                6,
+                3
+              ]
+            }
+          ],
+          "metadata": {
+            "added_Stanley_tree_edge": [
+              3,
+              4
+            ],
+            "path_time_zero_based": 1,
+            "removed_Stanley_tree_edge": [
+              1,
+              4
+            ],
+            "root_away_subtree_minmax": [
+              1,
+              3
+            ],
+            "source_U_phase": 4,
+            "used_directed_quotient_L_edge": [
+              0,
+              1
+            ]
+          }
+        },
+        "first_quotient_collision": {
+          "distinct_quotient_source_count": 2,
+          "distinct_quotient_sources": [
+            {
+              "source_orbit": 3,
+              "target_orbit": 1
+            },
+            {
+              "source_orbit": 8,
+              "target_orbit": 17
+            }
+          ],
+          "metadata": {
+            "added_Stanley_tree_edge": [
+              3,
+              4
+            ],
+            "path_time_zero_based": 1,
+            "removed_Stanley_tree_edge": [
+              1,
+              4
+            ],
+            "root_away_subtree_minmax": [
+              1,
+              3
+            ],
+            "source_U_phase": 4,
+            "used_directed_quotient_L_edge": [
+              0,
+              1
+            ]
+          }
+        },
+        "maximum_distinct_micro_sources_per_key": 3,
+        "maximum_distinct_quotient_sources_per_key": 3,
+        "metadata_definition": "used directed quotient-L edge; removed and added Stanley-tree edges; source U-orbit phase; zero-based path time; min/max labels of the root-away component after deleting the Stanley-tree edge",
+        "micro_source_collision_groups": 29,
+        "micro_source_recovery_is_unique": false,
+        "path_use_records": 3730,
+        "quotient_source_collision_groups": 29,
+        "quotient_source_recovery_is_unique": false
+      },
+      "lexicographic_shortest_path_comparison_congestion": "333/20",
+      "lexicographic_shortest_path_comparison_congestion_float": 16.65,
+      "local_fiber_sizes": [
+        2,
+        3
+      ],
+      "maximum_congestion_edge": {
+        "capacity": "1/9",
+        "edge": [
+          0,
+          3
+        ],
+        "load": "37/20",
+        "ratio": "333/20",
+        "ratio_float": 16.65
+      },
+      "maximum_shortest_path_length": 4,
+      "n": 5,
+      "one_bubble_coverage_fraction": 0.510752688172043,
+      "quotient_L_off_diagonal_directed_edges": 120,
+      "quotient_UST_off_diagonal_directed_edges": 510,
+      "quotient_states": 25,
+      "shortest_quotient_L_path_length_histogram_for_UST_edges": {
+        "1": 118,
+        "2": 202,
+        "3": 168,
+        "4": 22
+      },
+      "states": 125
+    }
+  ],
+  "scope_warning": "One-bubble failure is an exact structural refutation.  Finite path lengths and congestion do not prove an asymptotic comparison.",
+  "seed": null
+}

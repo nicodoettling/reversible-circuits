@@ -1,0 +1,65 @@
+{
+  "asymptotic": "F(delta)=-C delta^(-3/2)+O(delta^(-1/2)), C>0",
+  "cell": {
+    "intermediate_color": "S",
+    "s": [
+      "1/10",
+      "1/9",
+      "24/25",
+      "24/25+delta"
+    ],
+    "t": [
+      "1/7",
+      "9/20",
+      "5/7",
+      "15/16"
+    ]
+  },
+  "claim": "naive channel-combined double/double bulk integrand is nonintegrable",
+  "coefficient": {
+    "floating_value": -8990.626343656686,
+    "form": "(source_base_B^(3/2)-source_base_A^(3/2))*intermediate_base^(3/2)*(joint_base_SS^(3/2)+joint_base_SN^(3/2))",
+    "intermediate_base": "89/8100",
+    "joint_base_SN": "1317120000/398453",
+    "joint_base_SS": "284497920/99373",
+    "source_base_A": "2700/29",
+    "source_base_B": "5400/59",
+    "source_base_B_less_than_A": true,
+    "strictly_negative": true
+  },
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-21/mission-M102-central-double-bulk-defect/collision_face_symbolic.py --output experiments/20260811-polynomial-mixing-resolution/cycle-21/mission-M102-central-double-bulk-defect/collision_face_symbolic.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "integrability": "integral_0^epsilon F(delta) ddelta diverges to -infinity",
+  "intermediate_residual_lengths_after_removing_delta": [
+    "1/90",
+    "89/90"
+  ],
+  "joint_SN_residual_lengths_after_removing_delta": [
+    "1/90",
+    "979/5040",
+    "37/140",
+    "297/560"
+  ],
+  "joint_SS_residual_lengths_after_removing_delta": [
+    "1/90",
+    "25/112",
+    "43/140",
+    "2311/5040"
+  ],
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "source_A_residual_lengths_after_removing_delta": [
+    "1/90",
+    "29/90",
+    "1/3",
+    "1/3"
+  ],
+  "source_B_positive_residual_lengths_after_removing_delta_and_singleton": [
+    "1/90",
+    "1/3",
+    "59/90"
+  ],
+  "status": "exact_symbolic_collision_face_certificate"
+}

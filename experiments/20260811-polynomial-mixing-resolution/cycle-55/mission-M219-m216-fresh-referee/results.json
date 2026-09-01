@@ -1,0 +1,102 @@
+{
+  "actual_kernel": {
+    "T1": "100831060869578347854833692341308821/459142800034351572282356269056000000",
+    "contraction_counterexample": false,
+    "positive_contraction_slack": "152250599938846145694280798538691179/459142800034351572282356269056000000"
+  },
+  "all_checks_pass": true,
+  "basis_and_necessary_condition": {
+    "bernstein_basis_determinant": "162000",
+    "coefficient_matrix_symmetric": true,
+    "kernel_psd_iff_coefficient_matrix_psd": true,
+    "seven_point_evaluation_determinant": "3125/17006112"
+  },
+  "bernstein_algebra": {
+    "degree_elevation_checks": 28,
+    "envelope_psd_reason": "s*diag(e)-ee^T=sum_(i<j)e_i e_j(unit_i-unit_j)(unit_i-unit_j)^T",
+    "example_b_5_2_to_degree_6": [
+      "0",
+      "0",
+      "2/3",
+      "1/2",
+      "0",
+      "0",
+      "0"
+    ],
+    "example_raw_offdiagonal_2_3": "1/3",
+    "product_checks": 182,
+    "saturated_exact_closure_checks": 77,
+    "unsaturated_cases_with_nondiagonal_outer_product": 105,
+    "unsaturated_product_checks": 105
+  },
+  "dual_certificate": {
+    "budget": "144495/262144",
+    "diagonal_remainders": [
+      "633/254800",
+      "18427/17517500",
+      "39213/17517500",
+      "6757/7507500",
+      "39213/17517500",
+      "18427/17517500",
+      "633/254800"
+    ],
+    "dual_psd_reason": "X=vv^T+diag(strictly positive remainders)",
+    "objective": "27574523089250503170656957870808157889213/48209994003606915089647408250880000000000",
+    "positive_excess": "1000948704365931347999936328408157889213/48209994003606915089647408250880000000000",
+    "q": "117649/262144",
+    "radii": [
+      "1/5",
+      "4/25",
+      "17/100",
+      "9/50",
+      "17/100",
+      "4/25",
+      "1/5"
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weights": [
+      "433/10192",
+      "747/28028",
+      "3491/112112",
+      "100/3003",
+      "3491/112112",
+      "747/28028",
+      "433/10192"
+    ]
+  },
+  "method": "single exact row; literal ordered compositions; exact matrix inversion; no predecessor import or data read",
+  "python": "3.12.3",
+  "recursion": {
+    "all_attachment_laws_sum_to_one": true,
+    "bernstein_coefficient_sha256": "d1dd37fe74b894523b4b049099d194ed34fb64fb36d144b48ff3746a34e1ccae",
+    "branch_scalar": "eta/pi_a",
+    "eta_over_pi_sequence_sha256": "4a5a2e5da5e5df076b9d182639c934e66decfa399771a9d2abb466688c2759b8",
+    "kernel_sha256": "d2ee4261fd89e712d0649d9cea3c30952256bff82c99134a59fce7b151505152",
+    "killed_a_equals_d_omissions": 51,
+    "live_root_rows": 51,
+    "retained_observations": 108,
+    "top_kernel_terms": 49,
+    "unique_recursive_states": 32
+  },
+  "schema": "M219-independent-M216-referee-v1",
+  "seed": null,
+  "source_independence": {
+    "parameter_scan": false,
+    "predecessor_files_read_by_checker": false,
+    "project_imports": false
+  },
+  "state_B_L_kappa_D": [
+    1,
+    6,
+    2,
+    1
+  ]
+}

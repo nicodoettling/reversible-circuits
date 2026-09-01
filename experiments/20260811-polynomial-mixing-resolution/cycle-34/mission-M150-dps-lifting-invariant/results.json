@@ -1,0 +1,307 @@
+{
+  "clifford_identity_audit": {
+    "d3_scaled_braid_identity": true,
+    "disjoint_scaled_roots_anticommute": true,
+    "localized_commutator": "-1"
+  },
+  "d3_split_cover_and_matching_audit": {
+    "matchings": [
+      {
+        "adjacent_index": 1,
+        "color": 0,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 1,
+        "color": 1,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 1,
+        "color": 2,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 2,
+        "color": 0,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 2,
+        "color": 1,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 2,
+        "color": 2,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 3,
+        "color": 0,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 3,
+        "color": 1,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      },
+      {
+        "adjacent_index": 3,
+        "color": 2,
+        "matching_edges": 4,
+        "subfamilies_by_width": {
+          "1": {
+            "checked": 4,
+            "equal": 4
+          },
+          "2": {
+            "checked": 6,
+            "equal": 6
+          },
+          "3": {
+            "checked": 4,
+            "equal": 4
+          },
+          "4": {
+            "checked": 1,
+            "equal": 1
+          }
+        }
+      }
+    ],
+    "physical_words": 24,
+    "subfamilies_checked": 135,
+    "unequal_residual_vectors": [],
+    "word_spin_histogram": {
+      "1": 24
+    }
+  },
+  "d5_dps_representative_audit": {
+    "adjacent_edits_checked": 7,
+    "all_connected": true,
+    "all_identity": true,
+    "d": 5,
+    "reduced_kernel_rank": 0,
+    "reduced_lift_value_source_and_targets": "unique",
+    "source_word": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "d5_localized_centralizer_audit": [
+    {
+      "d": 5,
+      "failures": [],
+      "localized_coordinate_witnesses_checked": 10,
+      "transposition_tuples_checked": 10,
+      "width": 1
+    },
+    {
+      "d": 5,
+      "failures": [],
+      "localized_coordinate_witnesses_checked": 200,
+      "transposition_tuples_checked": 100,
+      "width": 2
+    },
+    {
+      "d": 5,
+      "failures": [],
+      "localized_coordinate_witnesses_checked": 3000,
+      "transposition_tuples_checked": 1000,
+      "width": 3
+    }
+  ],
+  "metadata": {
+    "caps": {
+      "d3": "all 24 connected minimal words; all 9 accepted matchings and 135 nonempty subfamilies",
+      "d5": "all transposition tuples through width 3; one DPS representative and all 7 adjacent edits"
+    },
+    "command": "python3 -B lifting_invariant_audit.py",
+    "dependencies": {},
+    "frozen_m137_checker": "experiments/20260811-polynomial-mixing-resolution/cycle-31/mission-M137-m135-fresh-referee/independent_referee.py",
+    "frozen_m137_checker_sha256": "bb62d449c7cad72a448389f9f7dd7ee76618e8c71b68189db20e19f4e2244341",
+    "mission": "M150",
+    "python": "3.12.3",
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+    "seed": null,
+    "status_labels": {
+      "finite_rows": "exact bounded diagnostics",
+      "universal_theorem": "proved in lifting_invariant_theorem.md"
+    }
+  }
+}

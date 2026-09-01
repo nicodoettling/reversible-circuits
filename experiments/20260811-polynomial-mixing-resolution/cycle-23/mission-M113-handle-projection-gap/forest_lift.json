@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "admissible_size_c_sets": 1,
+      "basis_exchange_checks_before_stop": 0,
+      "basis_exchange_holds_exhaustively": true,
+      "basis_exchange_witness": null,
+      "cycle_atom_count": 2,
+      "ground_size": 2
+    },
+    {
+      "admissible_size_c_sets": 18,
+      "basis_exchange_checks_before_stop": 486,
+      "basis_exchange_holds_exhaustively": true,
+      "basis_exchange_witness": null,
+      "cycle_atom_count": 3,
+      "ground_size": 6
+    },
+    {
+      "admissible_size_c_sets": 378,
+      "basis_exchange_checks_before_stop": 381024,
+      "basis_exchange_holds_exhaustively": true,
+      "basis_exchange_witness": null,
+      "cycle_atom_count": 4,
+      "ground_size": 12
+    }
+  ],
+  "claim_scope": "finite exhaustive falsification of the named matroid-basis lift",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "seed": null
+}

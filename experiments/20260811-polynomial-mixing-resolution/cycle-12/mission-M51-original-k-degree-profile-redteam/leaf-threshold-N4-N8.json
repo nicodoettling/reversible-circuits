@@ -1,0 +1,430 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M51-original-k-degree-profile-redteam/leaf_threshold_audit.py",
+    "--source-dir",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M51-original-k-degree-profile-redteam/leaf-threshold-N4-N8.json"
+  ],
+  "claims_tested": [
+    "For every leaf threshold, J_N(q)<=N*binom(2N-2,2)*(N-1)^2*J_(N-1)(q-1), and the certified insertion reservoir is nonempty.",
+    "The analogous maximum-degree threshold inequality and one-attachment reservoir hold."
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); imported layers count literal ordered words",
+  "maximum_degree_rows": [
+    {
+      "D_N_minus_1_q_minus_1": 24,
+      "D_N_q": 2880,
+      "N": 4,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 12960,
+      "insertion_source_lower": 120,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 24,
+      "D_N_q": 744,
+      "N": 4,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 12960,
+      "insertion_source_lower": 120,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 2880,
+      "D_N_q": 1008000,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6451200,
+      "insertion_source_lower": 20160,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 2880,
+      "D_N_q": 539520,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6451200,
+      "insertion_source_lower": 20160,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 744,
+      "D_N_q": 44280,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 1666560,
+      "insertion_source_lower": 5208,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 1008000,
+      "D_N_q": 783820800,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6804000000,
+      "insertion_source_lower": 9072000,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 1008000,
+      "D_N_q": 579104640,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6804000000,
+      "insertion_source_lower": 9072000,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 539520,
+      "D_N_q": 83603520,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 3641760000,
+      "insertion_source_lower": 4855680,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 44280,
+      "D_N_q": 4330800,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 298890000,
+      "insertion_source_lower": 398520,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 783820800,
+      "D_N_q": 1150082841600,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 13036507545600,
+      "insertion_source_lower": 8622028800,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 783820800,
+      "D_N_q": 993723696000,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 13036507545600,
+      "insertion_source_lower": 8622028800,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 579104640,
+      "D_N_q": 205350143040,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 9631668372480,
+      "insertion_source_lower": 6370151040,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 83603520,
+      "D_N_q": 17761766400,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 1390493744640,
+      "insertion_source_lower": 919638720,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 4330800,
+      "D_N_q": 632399040,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 72029865600,
+      "insertion_source_lower": 47638800,
+      "q": 6,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 1150082841600,
+      "D_N_q": 2856658246041600,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 41025755125555200,
+      "insertion_source_lower": 14951076940800,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 1150082841600,
+      "D_N_q": 2665671036860160,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 41025755125555200,
+      "insertion_source_lower": 14951076940800,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 993723696000,
+      "D_N_q": 722360013379200,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 35448111683712000,
+      "insertion_source_lower": 12918408048000,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 205350143040,
+      "D_N_q": 81296209048320,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 7325250302522880,
+      "insertion_source_lower": 2669551859520,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 17761766400,
+      "D_N_q": 4976004458880,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 633597731020800,
+      "insertion_source_lower": 230902963200,
+      "q": 6,
+      "source_positive": true
+    },
+    {
+      "D_N_minus_1_q_minus_1": 632399040,
+      "D_N_q": 129187054080,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 22558938554880,
+      "insertion_source_lower": 8221187520,
+      "q": 7,
+      "source_positive": true
+    }
+  ],
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "J_N_minus_1_q_minus_1": 24,
+      "J_N_q": 2880,
+      "N": 4,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 12960,
+      "insertion_source_lower": 240,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 24,
+      "J_N_q": 744,
+      "N": 4,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 12960,
+      "insertion_source_lower": 120,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 2880,
+      "J_N_q": 1008000,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6451200,
+      "insertion_source_lower": 60480,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 2880,
+      "J_N_q": 539520,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6451200,
+      "insertion_source_lower": 40320,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 744,
+      "J_N_q": 44280,
+      "N": 5,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 1666560,
+      "insertion_source_lower": 5208,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 1008000,
+      "J_N_q": 783820800,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6804000000,
+      "insertion_source_lower": 36288000,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 1008000,
+      "J_N_q": 579104640,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 6804000000,
+      "insertion_source_lower": 27216000,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 539520,
+      "J_N_q": 141468480,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 3641760000,
+      "insertion_source_lower": 9711360,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 44280,
+      "J_N_q": 4330800,
+      "N": 6,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 298890000,
+      "insertion_source_lower": 398520,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 783820800,
+      "J_N_q": 1150082841600,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 13036507545600,
+      "insertion_source_lower": 43110144000,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 783820800,
+      "J_N_q": 993723696000,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 13036507545600,
+      "insertion_source_lower": 34488115200,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 579104640,
+      "J_N_q": 430685584560,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 9631668372480,
+      "insertion_source_lower": 19110453120,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 141468480,
+      "J_N_q": 50478382080,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 2352903759360,
+      "insertion_source_lower": 3112306560,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 4330800,
+      "J_N_q": 632399040,
+      "N": 7,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 72029865600,
+      "insertion_source_lower": 47638800,
+      "q": 6,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 1150082841600,
+      "J_N_q": 2856658246041600,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 41025755125555200,
+      "insertion_source_lower": 89706461644800,
+      "q": 2,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 1150082841600,
+      "J_N_q": 2665671036860160,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 41025755125555200,
+      "insertion_source_lower": 74755384704000,
+      "q": 3,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 993723696000,
+      "J_N_q": 1623533065378560,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 35448111683712000,
+      "insertion_source_lower": 51673632192000,
+      "q": 4,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 430685584560,
+      "J_N_q": 395445003770880,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 15363416172424320,
+      "insertion_source_lower": 16796737797840,
+      "q": 5,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 50478382080,
+      "J_N_q": 23844186656640,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 1800664845557760,
+      "insertion_source_lower": 1312437934080,
+      "q": 6,
+      "source_positive": true
+    },
+    {
+      "J_N_minus_1_q_minus_1": 632399040,
+      "J_N_q": 129187054080,
+      "N": 8,
+      "deletion_inequality_holds": true,
+      "deletion_upper": 22558938554880,
+      "insertion_source_lower": 8221187520,
+      "q": 7,
+      "source_positive": true
+    }
+  ],
+  "scope_warning": "Exact N<=8 passes can falsify but cannot prove the universal theorem.",
+  "seed": null,
+  "source_artifacts": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N4.json",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N5.json",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N6.json",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N7.json",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N8.json"
+  ]
+}

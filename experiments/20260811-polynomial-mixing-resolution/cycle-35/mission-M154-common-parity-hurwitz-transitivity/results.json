@@ -1,0 +1,245 @@
+{
+  "command": "python3 -B hurwitz_framing_audit.py --output results.json",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "d3": {
+    "action_image_order": 216,
+    "explicit_inner_conjugation_formula_failures": [],
+    "generating_ordered_pair_orbit_count": 2,
+    "generating_ordered_pair_orbit_sizes": [
+      216,
+      216
+    ],
+    "generating_ordered_pair_states": 432,
+    "global_conjugacy_orbits": 4,
+    "global_orbit_sizes": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 6
+    },
+    "parity_voltage_weight_histogram": {
+      "0": 3,
+      "2": 18,
+      "4": 3
+    },
+    "physical_words": 24,
+    "quotient_action_image_order": 12,
+    "quotient_voltage_fiber_size_histogram": {
+      "2": 12
+    },
+    "representative_conjugation_reachability": {
+      "even_even": {
+        "reachable_by_literal_braid": true,
+        "target": [
+          0,
+          2
+        ]
+      },
+      "even_odd": {
+        "reachable_by_literal_braid": false,
+        "target": [
+          0,
+          9
+        ]
+      },
+      "odd_even": {
+        "reachable_by_literal_braid": false,
+        "target": [
+          11,
+          2
+        ]
+      },
+      "odd_odd": {
+        "reachable_by_literal_braid": true,
+        "target": [
+          11,
+          9
+        ]
+      }
+    },
+    "signed_hurwitz_generators": 6
+  },
+  "dependencies": {
+    "sympy": "1.12"
+  },
+  "experiment": "M154 literal/inner Hurwitz framing audit",
+  "hurwitz_convention": "R_j(a,b)=(b,b^-1 a b), with inverse also included",
+  "predecessor_files_read_only": {
+    "M137_report_sha256": "32880a3f605cdeec8b7cf1e8e2328dac74eceb9184708b727af783107cef60ae",
+    "M150_report_sha256": "4c80fa05b6ef015f458a2f96fdf8a5c39e3f3e218fb16ac859e6c1f368ce3ad5"
+  },
+  "python": "3.12.3",
+  "quotient_components": [
+    {
+      "accepted_DPS_quotient_size": 4,
+      "all_positive_generators_even": true,
+      "component_exhausts_quotient_using_accepted_DPS_count": true,
+      "component_size": 4,
+      "d": 3,
+      "m": 4,
+      "positive_generator_rows": [
+        {
+          "cycle_histogram": {
+            "1": 1,
+            "3": 1
+          },
+          "parity": 0,
+          "slot": 1
+        },
+        {
+          "cycle_histogram": {
+            "1": 1,
+            "3": 1
+          },
+          "parity": 0,
+          "slot": 2
+        },
+        {
+          "cycle_histogram": {
+            "1": 1,
+            "3": 1
+          },
+          "parity": 0,
+          "slot": 3
+        }
+      ],
+      "primitive": true,
+      "transitive": true
+    },
+    {
+      "accepted_DPS_quotient_size": 120,
+      "all_positive_generators_even": true,
+      "component_exhausts_quotient_using_accepted_DPS_count": true,
+      "component_size": 120,
+      "d": 4,
+      "m": 6,
+      "positive_generator_rows": [
+        {
+          "cycle_histogram": {
+            "1": 15,
+            "2": 12,
+            "3": 27
+          },
+          "parity": 0,
+          "slot": 1
+        },
+        {
+          "cycle_histogram": {
+            "1": 15,
+            "2": 12,
+            "3": 27
+          },
+          "parity": 0,
+          "slot": 2
+        },
+        {
+          "cycle_histogram": {
+            "1": 15,
+            "2": 12,
+            "3": 27
+          },
+          "parity": 0,
+          "slot": 3
+        },
+        {
+          "cycle_histogram": {
+            "1": 15,
+            "2": 12,
+            "3": 27
+          },
+          "parity": 0,
+          "slot": 4
+        },
+        {
+          "cycle_histogram": {
+            "1": 15,
+            "2": 12,
+            "3": 27
+          },
+          "parity": 0,
+          "slot": 5
+        }
+      ],
+      "primitive": false,
+      "transitive": true
+    },
+    {
+      "accepted_DPS_quotient_size": 8400,
+      "all_positive_generators_even": true,
+      "component_exhausts_quotient_using_accepted_DPS_count": true,
+      "component_size": 8400,
+      "d": 5,
+      "m": 8,
+      "positive_generator_rows": [
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 1
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 2
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 3
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 4
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 5
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 6
+        },
+        {
+          "cycle_histogram": {
+            "1": 660,
+            "2": 1440,
+            "3": 1620
+          },
+          "parity": 0,
+          "slot": 7
+        }
+      ],
+      "primitive": true,
+      "transitive": true
+    }
+  ],
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "target": "Hurwitz orbits of product-one generating C_(d,s)-factorizations; not a sampler"
+}

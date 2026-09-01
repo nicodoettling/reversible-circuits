@@ -1,0 +1,1474 @@
+{
+  "abstract_face_collision": {
+    "all_four_rows_have_same_interval_maps": true,
+    "chronological_edges": [
+      "AD",
+      "AB",
+      "BC",
+      "CD"
+    ],
+    "collision_rows": [
+      {
+        "order": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "outputs": [
+          "AB",
+          "BC",
+          "CD",
+          "CD"
+        ]
+      },
+      {
+        "order": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "outputs": [
+          "AB",
+          "BC",
+          "CD",
+          "CD"
+        ]
+      },
+      {
+        "order": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "outputs": [
+          "BC",
+          "AC",
+          "CD",
+          "CD"
+        ]
+      },
+      {
+        "order": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "outputs": [
+          "BC",
+          "AC",
+          "CD",
+          "CD"
+        ]
+      }
+    ],
+    "endpoint_maps_on_intervals_I0_through_I4": [
+      [
+        "CABD",
+        "DABC",
+        "ADBC",
+        "ABDC",
+        "ABCD"
+      ],
+      [
+        "CABD",
+        "DABC",
+        "ADBC",
+        "ABDC",
+        "ABCD"
+      ],
+      [
+        "CABD",
+        "DABC",
+        "ADBC",
+        "ABDC",
+        "ABCD"
+      ],
+      [
+        "CABD",
+        "DABC",
+        "ADBC",
+        "ABDC",
+        "ABCD"
+      ]
+    ]
+  },
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M81-m78-referee-voltage/independent_audit.py",
+    "--m78-dir",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M81-m78-referee-voltage/independent-results.json"
+  ],
+  "base_four_cycles": {
+    "all_nonzero_vectors_nonzero_mod_every_L_ge_2": true,
+    "facial_index_sets": [
+      [
+        0,
+        1,
+        5,
+        8
+      ],
+      [
+        0,
+        2,
+        4,
+        9
+      ],
+      [
+        1,
+        6,
+        7,
+        13
+      ],
+      [
+        2,
+        3,
+        7,
+        11
+      ],
+      [
+        3,
+        8,
+        12,
+        14
+      ],
+      [
+        4,
+        10,
+        13,
+        14
+      ],
+      [
+        5,
+        10,
+        11,
+        15
+      ],
+      [
+        6,
+        9,
+        12,
+        15
+      ]
+    ],
+    "rows": [
+      {
+        "index_set": [
+          2,
+          5,
+          8,
+          10
+        ],
+        "indices": [
+          5,
+          10,
+          2,
+          8
+        ],
+        "integer_voltage": [
+          -1,
+          0
+        ],
+        "vertices": [
+          0,
+          4,
+          1,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          4,
+          5,
+          10,
+          12
+        ],
+        "indices": [
+          5,
+          10,
+          4,
+          12
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          1,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          5,
+          10,
+          11,
+          15
+        ],
+        "indices": [
+          5,
+          10,
+          11,
+          15
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          0,
+          4,
+          1,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          2,
+          4,
+          8,
+          12
+        ],
+        "indices": [
+          8,
+          2,
+          4,
+          12
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          5,
+          1,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          2,
+          8,
+          11,
+          15
+        ],
+        "indices": [
+          8,
+          2,
+          11,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          0,
+          5,
+          1,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          4,
+          11,
+          12,
+          15
+        ],
+        "indices": [
+          12,
+          4,
+          11,
+          15
+        ],
+        "integer_voltage": [
+          0,
+          -1
+        ],
+        "vertices": [
+          0,
+          6,
+          1,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          3,
+          5,
+          8,
+          13
+        ],
+        "indices": [
+          5,
+          13,
+          3,
+          8
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          5,
+          12,
+          13,
+          14
+        ],
+        "indices": [
+          5,
+          13,
+          14,
+          12
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          2,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          5,
+          7,
+          13,
+          15
+        ],
+        "indices": [
+          5,
+          13,
+          7,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          3,
+          8,
+          12,
+          14
+        ],
+        "indices": [
+          8,
+          3,
+          14,
+          12
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          0,
+          5,
+          2,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          3,
+          7,
+          8,
+          15
+        ],
+        "indices": [
+          8,
+          3,
+          7,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          0,
+          5,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          7,
+          12,
+          14,
+          15
+        ],
+        "indices": [
+          12,
+          14,
+          7,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          0,
+          6,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "indices": [
+          5,
+          1,
+          0,
+          8
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          0,
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          5,
+          9,
+          12
+        ],
+        "indices": [
+          5,
+          1,
+          9,
+          12
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          5,
+          6,
+          15
+        ],
+        "indices": [
+          5,
+          1,
+          6,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          4,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          8,
+          9,
+          12
+        ],
+        "indices": [
+          8,
+          0,
+          9,
+          12
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          5,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          6,
+          8,
+          15
+        ],
+        "indices": [
+          8,
+          0,
+          6,
+          15
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          0,
+          5,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          6,
+          9,
+          12,
+          15
+        ],
+        "indices": [
+          12,
+          9,
+          6,
+          15
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          0,
+          6,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          2,
+          3,
+          10,
+          13
+        ],
+        "indices": [
+          10,
+          13,
+          3,
+          2
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          1,
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          4,
+          10,
+          13,
+          14
+        ],
+        "indices": [
+          10,
+          13,
+          14,
+          4
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          1,
+          4,
+          2,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          7,
+          10,
+          11,
+          13
+        ],
+        "indices": [
+          10,
+          13,
+          7,
+          11
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          1,
+          4,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          2,
+          3,
+          4,
+          14
+        ],
+        "indices": [
+          2,
+          3,
+          14,
+          4
+        ],
+        "integer_voltage": [
+          -1,
+          -1
+        ],
+        "vertices": [
+          1,
+          5,
+          2,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          2,
+          3,
+          7,
+          11
+        ],
+        "indices": [
+          2,
+          3,
+          7,
+          11
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          1,
+          5,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          4,
+          7,
+          11,
+          14
+        ],
+        "indices": [
+          4,
+          14,
+          7,
+          11
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          1,
+          6,
+          2,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "indices": [
+          10,
+          1,
+          0,
+          2
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          1,
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          4,
+          9,
+          10
+        ],
+        "indices": [
+          10,
+          1,
+          9,
+          4
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          1,
+          4,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          6,
+          10,
+          11
+        ],
+        "indices": [
+          10,
+          1,
+          6,
+          11
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          1,
+          4,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          2,
+          4,
+          9
+        ],
+        "indices": [
+          2,
+          0,
+          9,
+          4
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          1,
+          5,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          2,
+          6,
+          11
+        ],
+        "indices": [
+          2,
+          0,
+          6,
+          11
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          1,
+          5,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          4,
+          6,
+          9,
+          11
+        ],
+        "indices": [
+          4,
+          9,
+          6,
+          11
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          1,
+          6,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          1,
+          3,
+          13
+        ],
+        "indices": [
+          13,
+          1,
+          0,
+          3
+        ],
+        "integer_voltage": [
+          0,
+          -1
+        ],
+        "vertices": [
+          2,
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          9,
+          13,
+          14
+        ],
+        "indices": [
+          13,
+          1,
+          9,
+          14
+        ],
+        "integer_voltage": [
+          1,
+          0
+        ],
+        "vertices": [
+          2,
+          4,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          1,
+          6,
+          7,
+          13
+        ],
+        "indices": [
+          13,
+          1,
+          6,
+          7
+        ],
+        "integer_voltage": [
+          0,
+          0
+        ],
+        "vertices": [
+          2,
+          4,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          3,
+          9,
+          14
+        ],
+        "indices": [
+          3,
+          0,
+          9,
+          14
+        ],
+        "integer_voltage": [
+          1,
+          1
+        ],
+        "vertices": [
+          2,
+          5,
+          3,
+          6
+        ]
+      },
+      {
+        "index_set": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "indices": [
+          3,
+          0,
+          6,
+          7
+        ],
+        "integer_voltage": [
+          0,
+          1
+        ],
+        "vertices": [
+          2,
+          5,
+          3,
+          7
+        ]
+      },
+      {
+        "index_set": [
+          6,
+          7,
+          9,
+          14
+        ],
+        "indices": [
+          14,
+          9,
+          6,
+          7
+        ],
+        "integer_voltage": [
+          -1,
+          0
+        ],
+        "vertices": [
+          2,
+          6,
+          3,
+          7
+        ]
+      }
+    ],
+    "voltage_distribution": {
+      "(-1, -1)": 1,
+      "(-1, 0)": 2,
+      "(0, -1)": 2,
+      "(0, 0)": 8,
+      "(0, 1)": 6,
+      "(1, 0)": 6,
+      "(1, 1)": 11
+    },
+    "zero_cycle_index_sets": [
+      [
+        0,
+        1,
+        5,
+        8
+      ],
+      [
+        0,
+        2,
+        4,
+        9
+      ],
+      [
+        1,
+        6,
+        7,
+        13
+      ],
+      [
+        2,
+        3,
+        7,
+        11
+      ],
+      [
+        3,
+        8,
+        12,
+        14
+      ],
+      [
+        4,
+        10,
+        13,
+        14
+      ],
+      [
+        5,
+        10,
+        11,
+        15
+      ],
+      [
+        6,
+        9,
+        12,
+        15
+      ]
+    ],
+    "zero_cycles_equal_faces": true
+  },
+  "base_token_trajectories": [
+    {
+      "final_base_vertex": 0,
+      "signed_indices_one_based": [
+        6,
+        -11,
+        12,
+        -16
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 0
+    },
+    {
+      "final_base_vertex": 1,
+      "signed_indices_one_based": [
+        3,
+        -4,
+        8,
+        -12
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 1
+    },
+    {
+      "final_base_vertex": 2,
+      "signed_indices_one_based": [
+        4,
+        -9,
+        13,
+        -15
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 2
+    },
+    {
+      "final_base_vertex": 3,
+      "signed_indices_one_based": [
+        1,
+        -3,
+        5,
+        -10
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 3
+    },
+    {
+      "final_base_vertex": 4,
+      "signed_indices_one_based": [
+        -2,
+        7,
+        -8,
+        14
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 4
+    },
+    {
+      "final_base_vertex": 5,
+      "signed_indices_one_based": [
+        -1,
+        2,
+        -6,
+        9
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 5
+    },
+    {
+      "final_base_vertex": 6,
+      "signed_indices_one_based": [
+        -5,
+        11,
+        -14,
+        15
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 6
+    },
+    {
+      "final_base_vertex": 7,
+      "signed_indices_one_based": [
+        -7,
+        10,
+        -13,
+        16
+      ],
+      "signed_voltage_sum": [
+        0,
+        0
+      ],
+      "token": 7
+    }
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple factors left-to-right; R(a,b)=(b,bab); elimination conjugates residual factors to the left",
+  "elapsed_seconds": 17.944471712922677,
+  "finite_candidates": {
+    "k44": {
+      "connected": true,
+      "depth_counts": [
+        0,
+        0,
+        76
+      ],
+      "distinct": true,
+      "exact_support": true,
+      "face_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "faces": [
+        [
+          0,
+          2,
+          4,
+          9
+        ],
+        [
+          0,
+          1,
+          5,
+          8
+        ],
+        [
+          1,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          3,
+          7,
+          11
+        ],
+        [
+          3,
+          8,
+          12,
+          14
+        ],
+        [
+          4,
+          10,
+          13,
+          14
+        ],
+        [
+          5,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          9,
+          12,
+          15
+        ]
+      ],
+      "facial_collision_orders": 32,
+      "facial_isolated_histogram": {
+        "(0,)": 4,
+        "(1,)": 4,
+        "(2,)": 4,
+        "(3,)": 4,
+        "(4,)": 4,
+        "(5,)": 4,
+        "(6,)": 4,
+        "(7,)": 4
+      },
+      "facial_safe_orders": 0,
+      "identity": true
+    },
+    "n5": {
+      "cache": {
+        "currsize": 119902,
+        "hits": 226779,
+        "maxsize": null,
+        "misses": 119902
+      },
+      "connected": true,
+      "depth_counts": [
+        0,
+        14
+      ],
+      "distinct": true,
+      "full_hit_count": 1569216,
+      "full_order_count": 3628800,
+      "identity": true,
+      "reduced_probability": [
+        227,
+        525
+      ]
+    }
+  },
+  "lifted_checks": [
+    {
+      "L": 2,
+      "all_four_cycles_project_to_zero_base_face": true,
+      "bipartite": true,
+      "collision_orders": 128,
+      "connected": true,
+      "degree_histogram": {
+        "4": 32
+      },
+      "four_cycle_count": 32,
+      "identity": true,
+      "isolated_vertex_count_histogram": {
+        "1": 128
+      },
+      "length": 64,
+      "lifts_per_zero_base_face": {
+        "4": 8
+      },
+      "n": 32,
+      "safe_orders": 0,
+      "simple": true
+    },
+    {
+      "L": 3,
+      "all_four_cycles_project_to_zero_base_face": true,
+      "bipartite": true,
+      "collision_orders": 288,
+      "connected": true,
+      "degree_histogram": {
+        "4": 72
+      },
+      "four_cycle_count": 72,
+      "identity": true,
+      "isolated_vertex_count_histogram": {
+        "1": 288
+      },
+      "length": 144,
+      "lifts_per_zero_base_face": {
+        "9": 8
+      },
+      "n": 72,
+      "safe_orders": 0,
+      "simple": true
+    },
+    {
+      "L": 4,
+      "all_four_cycles_project_to_zero_base_face": true,
+      "bipartite": true,
+      "collision_orders": 512,
+      "connected": true,
+      "degree_histogram": {
+        "4": 128
+      },
+      "four_cycle_count": 128,
+      "identity": true,
+      "isolated_vertex_count_histogram": {
+        "1": 512
+      },
+      "length": 256,
+      "lifts_per_zero_base_face": {
+        "16": 8
+      },
+      "n": 128,
+      "safe_orders": 0,
+      "simple": true
+    }
+  ],
+  "literal_cycle_collision_calibration": [
+    {
+      "collision_orders": 2,
+      "conditional_probability": [
+        2,
+        6
+      ],
+      "cycle_length": 3,
+      "formula_2_times_r_minus_2_factorial": 2
+    },
+    {
+      "collision_orders": 4,
+      "conditional_probability": [
+        4,
+        24
+      ],
+      "cycle_length": 4,
+      "formula_2_times_r_minus_2_factorial": 4
+    },
+    {
+      "collision_orders": 12,
+      "conditional_probability": [
+        12,
+        120
+      ],
+      "cycle_length": 5,
+      "formula_2_times_r_minus_2_factorial": 12
+    },
+    {
+      "collision_orders": 48,
+      "conditional_probability": [
+        48,
+        720
+      ],
+      "cycle_length": 6,
+      "formula_2_times_r_minus_2_factorial": 48
+    },
+    {
+      "collision_orders": 240,
+      "conditional_probability": [
+        240,
+        5040
+      ],
+      "cycle_length": 7,
+      "formula_2_times_r_minus_2_factorial": 240
+    },
+    {
+      "collision_orders": 1440,
+      "conditional_probability": [
+        1440,
+        40320
+      ],
+      "cycle_length": 8,
+      "formula_2_times_r_minus_2_factorial": 1440
+    },
+    {
+      "collision_orders": 10080,
+      "conditional_probability": [
+        10080,
+        362880
+      ],
+      "cycle_length": 9,
+      "formula_2_times_r_minus_2_factorial": 10080
+    }
+  ],
+  "m78_artifact_sha256": {
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/checkpoint.md": "25331d5b511c5a4744aa4239e9c3708d6fdfedee6d13842270f88dbf98476c97",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/exact-results.json": "d854a949f569bada68f926747aaf2971e3f7db44d85ec12411d4ecbcbdfdc007",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/exact_elimination_audit.py": "18860de073bafca95316b0f82e0130a3ae70d289420068fde89702944853980a",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/monte-carlo-prefix-results.json": "36e85925f9e5c5ef51db0c8c3aae71946024889846825aca69e53c04c05d224c",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/plan.md": "5762b712a6a56c93634b0545e3d3ae4e09a6f87e0570c9b4c50f815b796b85ab",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/report.md": "c6b0e36ef09608e3fe962e0d85ad572db02b756726a8128548738473855576e1",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/voltage-results.json": "e69170a8a22eb50626000ca1cae9dc1d5d6c12d5e2c1890b3586abccd97c148e",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/voltage_lift_audit.py": "9de5e1d7b44b1cd9d4a6dffb5a38a8624d23feb96a142df1dca1b642bff2e1c4"
+  },
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope": "Fresh audit of M78's canonical positive-braid voltage family; not a stationary-flow or spectral-gap claim for the heat-bath chain.",
+  "seed": null,
+  "small_exhaustive": [
+    {
+      "connected_identity_word_count": 240,
+      "first_safe_depth_histogram": {
+        "0": 240
+      },
+      "length": 6,
+      "n": 3
+    },
+    {
+      "connected_identity_word_count": 131040,
+      "first_safe_depth_histogram": {
+        "0": 130992,
+        "1": 48
+      },
+      "length": 8,
+      "n": 4
+    }
+  ]
+}

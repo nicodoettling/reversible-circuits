@@ -1,0 +1,23 @@
+{
+  "claim_tested": "M10 endpoint-tilt density/maximal-correlation bound, exact two-projection angle formula, and affine recursion arithmetic. A finite violation refutes the corresponding universal claim; finite survival proves none of them.",
+  "seed": 20260811,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "tilt_audit": {
+    "samples": 20000,
+    "epsilon": 0.0625,
+    "claimed_safe_bound": 0.29333333333333333,
+    "sharp_density_bound": 0.28444444444444444,
+    "max_density_deviation": 0.2730406726241401,
+    "max_maximal_correlation": 0.06246958668357321,
+    "max_projection_formula_error": 7.216449660063518e-16,
+    "failures": []
+  },
+  "recursion_audit": {
+    "cases": 399920,
+    "max_sstar": 80,
+    "max_excess": 5000,
+    "max_levels_slack": 1,
+    "failures": []
+  }
+}

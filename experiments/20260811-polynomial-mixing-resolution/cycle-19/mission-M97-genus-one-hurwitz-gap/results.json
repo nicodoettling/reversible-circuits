@@ -1,0 +1,193 @@
+{
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M97-genus-one-hurwitz-gap/results.json"
+  },
+  "cases": [
+    {
+      "candidate_words": 1,
+      "d": 2,
+      "first_marked_word_refuting_handle_pair_square": null,
+      "handle_histogram": {
+        "3": 1
+      },
+      "handle_projection_is_strong_lump": true,
+      "mark_count_histogram": {
+        "3": 1
+      },
+      "max_handle_displacement_one_move": 0,
+      "number_of_distinct_row_signatures_by_handle": {
+        "3": 1
+      },
+      "oriented_handle_pair_histogram": {
+        "3,2": 1
+      },
+      "states": 1
+    },
+    {
+      "candidate_words": 729,
+      "d": 3,
+      "first_marked_word_refuting_handle_pair_square": {
+        "left_handle": 4,
+        "marks": [
+          1,
+          4
+        ],
+        "right_handle": 2,
+        "word": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      "handle_histogram": {
+        "3": 24,
+        "4": 144,
+        "5": 72
+      },
+      "handle_projection_is_strong_lump": false,
+      "mark_count_histogram": {
+        "0": 24,
+        "1": 96,
+        "2": 96,
+        "3": 24
+      },
+      "max_handle_displacement_one_move": 1,
+      "number_of_distinct_row_signatures_by_handle": {
+        "3": 2,
+        "4": 4,
+        "5": 2
+      },
+      "oriented_handle_pair_histogram": {
+        "3,2": 24,
+        "4,2": 36,
+        "4,3": 108,
+        "5,2": 12,
+        "5,3": 36,
+        "5,4": 24
+      },
+      "states": 240
+    },
+    {
+      "candidate_words": 1679616,
+      "d": 4,
+      "first_marked_word_refuting_handle_pair_square": {
+        "left_handle": 4,
+        "marks": [
+          1,
+          4
+        ],
+        "right_handle": 2,
+        "word": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      "handle_histogram": {
+        "3": 2880,
+        "4": 17280,
+        "5": 53280,
+        "6": 40320,
+        "7": 17280
+      },
+      "handle_projection_is_strong_lump": false,
+      "mark_count_histogram": {
+        "0": 41472,
+        "1": 61272,
+        "2": 25272,
+        "3": 2952,
+        "4": 72
+      },
+      "max_handle_displacement_one_move": 1,
+      "number_of_distinct_row_signatures_by_handle": {
+        "3": 2,
+        "4": 8,
+        "5": 9,
+        "6": 8,
+        "7": 2
+      },
+      "oriented_handle_pair_histogram": {
+        "3,2": 2880,
+        "4,2": 4464,
+        "4,3": 12816,
+        "5,2": 5616,
+        "5,3": 15600,
+        "5,4": 32064,
+        "6,2": 3168,
+        "6,3": 8736,
+        "6,4": 15600,
+        "6,5": 12816,
+        "7,2": 1152,
+        "7,3": 3168,
+        "7,4": 5616,
+        "7,5": 4464,
+        "7,6": 2880
+      },
+      "states": 131040
+    }
+  ],
+  "claim_tested": "Prefix genus has one handle jump, one Hurwitz move moves it at most one; falsify strong lumping and handle-pair mark shortcuts.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "dependencies": {},
+  "elapsed_seconds": 58.16504240036011,
+  "kernel_proposals": "both signed R_i and R_i^-1; laziness omitted from counts",
+  "python": "3.12.3",
+  "scope_warning": "Exact finite enumeration only. Positive finite behavior is not evidence for an asymptotic spectral gap.",
+  "seed": null
+}

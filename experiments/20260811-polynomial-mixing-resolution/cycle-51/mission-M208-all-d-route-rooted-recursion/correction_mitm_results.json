@@ -1,0 +1,101 @@
+{
+  "elapsed_seconds": 0.3387201458681375,
+  "experiment": "M208 targeted synchronized correction MITM",
+  "miss_interpretation": "none; a radius miss is not a negative result",
+  "positive_count": 5,
+  "radius_each_side": 4,
+  "rows": [
+    {
+      "backward_states": 3091,
+      "edit": 1,
+      "exact_endpoint_replay": false,
+      "forward_states": 3087,
+      "route": null,
+      "route_length": null
+    },
+    {
+      "backward_states": 3127,
+      "edit": 2,
+      "exact_endpoint_replay": true,
+      "forward_states": 3127,
+      "route": [],
+      "route_length": 0
+    },
+    {
+      "backward_states": 2548,
+      "edit": 3,
+      "exact_endpoint_replay": false,
+      "forward_states": 2391,
+      "route": null,
+      "route_length": null
+    },
+    {
+      "backward_states": 3421,
+      "edit": 4,
+      "exact_endpoint_replay": true,
+      "forward_states": 3421,
+      "route": [],
+      "route_length": 0
+    },
+    {
+      "backward_states": 3788,
+      "edit": 5,
+      "exact_endpoint_replay": true,
+      "forward_states": 4157,
+      "route": [
+        [
+          6,
+          -1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "route_length": 5
+    },
+    {
+      "backward_states": 3267,
+      "edit": 6,
+      "exact_endpoint_replay": true,
+      "forward_states": 2374,
+      "route": [
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "route_length": 2
+    },
+    {
+      "backward_states": 2989,
+      "edit": 7,
+      "exact_endpoint_replay": true,
+      "forward_states": 2097,
+      "route": [
+        [
+          8,
+          -1
+        ]
+      ],
+      "route_length": 1
+    }
+  ],
+  "scope": "seven named d5->d6 pattern pairs; exact physical endpoints"
+}

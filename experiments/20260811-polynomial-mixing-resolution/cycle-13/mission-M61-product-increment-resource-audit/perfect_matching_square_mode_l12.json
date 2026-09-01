@@ -1,0 +1,122 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "formula": "N! [h]W^r=sum_lambda d_lambda chi_lambda(h)c_lambda^(2r)",
+  "claim_falsifier": "If l times the additive Gram Rayleigh quotient diverges, then the universal mu_l(h)<=A/l claim is false.",
+  "scope_warning": "Exact finite character values can refute, but cannot prove, a uniform asymptotic correlation bound.",
+  "records": [
+    {
+      "N": 8,
+      "length": 4,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition_count": 22,
+      "square_probability": "185/5163",
+      "square_pair_probability": "7/5163",
+      "square_correlation": "958/460465",
+      "square_correlation_decimal": 0.0020805055758852465,
+      "additive_gram_rayleigh": "463339/1841860",
+      "additive_gram_rayleigh_decimal": 0.25156037918191393,
+      "length_times_rayleigh_decimal": 1.0062415167276557
+    },
+    {
+      "N": 12,
+      "length": 6,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition_count": 77,
+      "square_probability": "2003841/104499616",
+      "square_pair_probability": "42273/104499616",
+      "square_correlation": "6383071649/3260083115425",
+      "square_correlation_decimal": 0.0019579475194355196,
+      "additive_gram_rayleigh": "329199847367/1956049869255",
+      "additive_gram_rayleigh_decimal": 0.1682982895995296,
+      "length_times_rayleigh_decimal": 1.0097897375971776
+    },
+    {
+      "N": 16,
+      "length": 8,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition_count": 231,
+      "square_probability": "810382400/64545027577",
+      "square_pair_probability": "145925100/839085358501",
+      "square_correlation": "8813843586896027/6714426513819139024",
+      "square_correlation_decimal": 0.0013126725817545284,
+      "additive_gram_rayleigh": "968017631275344459/7673630301507587456",
+      "additive_gram_rayleigh_decimal": 0.1261485885090352,
+      "length_times_rayleigh_decimal": 1.0091887080722817
+    },
+    {
+      "N": 20,
+      "length": 10,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition_count": 627,
+      "square_probability": "2616490720723/286779510208702",
+      "square_pair_probability": "446146902575/4875251673547934",
+      "square_correlation": "350405680117739437069129/383020253402113429044233633",
+      "square_correlation_decimal": 0.0009148489590441223,
+      "additive_gram_rayleigh": "193086952261586541988927897/1915101267010567145221168165",
+      "additive_gram_rayleigh_decimal": 0.10082336406313971,
+      "length_times_rayleigh_decimal": 1.0082336406313972
+    },
+    {
+      "N": 24,
+      "length": 12,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "partition_count": 1575,
+      "square_probability": "197401037702297611/27947015434723141180",
+      "square_pair_probability": "1525660617903513/27947015434723141180",
+      "square_correlation": "40335067590712084308382078029209/60195633822093759652025549546301249",
+      "square_correlation_decimal": 0.0006700663325503153,
+      "additive_gram_rayleigh": "1378166353763445285895858009195967/16416991042389207177825149876263977",
+      "additive_gram_rayleigh_decimal": 0.08394756080483778,
+      "length_times_rayleigh_decimal": 1.0073707296580534
+    }
+  ]
+}

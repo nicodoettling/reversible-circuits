@@ -1,0 +1,16 @@
+{
+  "all_claim_bearing_data_match": true,
+  "comparison": "M188 independent output against frozen M187 JSON",
+  "interpretation": "M187 deterministically computes routes but archives only their count and lengths; M188 archives and directly rechecks all 14 paths.",
+  "m187_archives_explicit_route_sequences": false,
+  "m187_code_imported": false,
+  "source_match": true,
+  "summary_match": {
+    "eligible_distinct_target_count": true,
+    "positive_path_lengths": true,
+    "positive_target_count": true,
+    "visited_states": true
+  },
+  "target_row_failures": [],
+  "target_rows_compared": 70
+}

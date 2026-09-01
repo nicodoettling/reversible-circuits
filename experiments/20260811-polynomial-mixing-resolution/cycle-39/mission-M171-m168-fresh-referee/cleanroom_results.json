@@ -1,0 +1,100 @@
+{
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "frozen_m168_comparisons": [
+    {
+      "k": 3,
+      "signed_sum_exact_match": true
+    },
+    {
+      "k": 5,
+      "signed_sum_exact_match": true
+    }
+  ],
+  "imports_m168_code": false,
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "raw_pair_reconstruction": true,
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "all_IS_IN_X_retained": true,
+      "colored_appearances_per_physical_orbit": 2,
+      "completion_support_checks": 18144,
+      "component_pair_count_checks": 2016,
+      "direct_phase_sum_equals_component_moment_for_every_state": true,
+      "distinct_physical_cell_orbits": 3,
+      "generic_edge_iff_checks": 3024,
+      "k": 3,
+      "k_times_signed_sum_exact": "22035419749493793/7061881225000000",
+      "k_times_signed_sum_float": 3.120332818893282,
+      "n": 9,
+      "nonzero_completion_size_checks": 5670,
+      "ordered_disjoint_pair_checks": 18144,
+      "pcs_normalization_exact": true,
+      "physical_event_delta_exact": "10075637745539/306307575000000",
+      "physical_event_delta_float": 0.03289385757286283,
+      "physical_factor_one_half_exact": true,
+      "rank_two_stationary_normalization_exact": true,
+      "raw_ordered_distinct_transposition_pairs": 1260,
+      "raw_rank_two_products": 546,
+      "signed_sum_exact": "7345139916497931/7061881225000000",
+      "signed_sum_float": 1.040110939631094,
+      "source_rows_normalize_exact": true,
+      "supported_lift_histogram": {
+        "2": 252,
+        "3": 84
+      },
+      "supported_states": 336,
+      "target_cell_mass_exact": "33614/531441",
+      "topology_nonzero_counts": {
+        "IN": 420,
+        "IS": 1470,
+        "X": 3780
+      }
+    },
+    {
+      "all_IS_IN_X_retained": true,
+      "colored_appearances_per_physical_orbit": 2,
+      "completion_support_checks": 573300,
+      "component_pair_count_checks": 19110,
+      "direct_phase_sum_equals_component_moment_for_every_state": true,
+      "distinct_physical_cell_orbits": 6,
+      "generic_edge_iff_checks": 47775,
+      "k": 5,
+      "k_times_signed_sum_exact": "73077925347453973355779108467047756359425607682995598110051/30044718653088080235363192771752306220316833689980385624064",
+      "k_times_signed_sum_float": 2.432305197836919,
+      "n": 15,
+      "nonzero_completion_size_checks": 308880,
+      "ordered_disjoint_pair_checks": 573300,
+      "pcs_normalization_exact": true,
+      "physical_event_delta_exact": "73077925347453973355779108467047756359425607682995598110051/10875678960328172710976155821460639902556381186560000000000000",
+      "physical_event_delta_float": 0.006719389714796147,
+      "physical_factor_one_half_exact": true,
+      "rank_two_stationary_normalization_exact": true,
+      "raw_ordered_distinct_transposition_pairs": 10920,
+      "raw_rank_two_products": 5005,
+      "signed_sum_exact": "73077925347453973355779108467047756359425607682995598110051/150223593265440401176815963858761531101584168449901928120320",
+      "signed_sum_float": 0.4864610395673838,
+      "source_rows_normalize_exact": true,
+      "supported_lift_histogram": {
+        "2": 2730,
+        "3": 455
+      },
+      "supported_states": 3185,
+      "target_cell_mass_exact": "3584320788074/129746337890625",
+      "topology_nonzero_counts": {
+        "IN": 17160,
+        "IS": 111540,
+        "X": 180180
+      }
+    }
+  ],
+  "scope_cap": [
+    3,
+    5
+  ],
+  "seed": null,
+  "status": "fresh exact finite referee; no asymptotic inference",
+  "target": "M168 fixed first physical cell of the M73 nonlazy cyclic rank-two quotient"
+}

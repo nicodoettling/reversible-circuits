@@ -1,0 +1,138 @@
+{
+  "elapsed_seconds": 1.8017064600717276,
+  "experiment": "M208 targeted synchronized correction MITM",
+  "miss_interpretation": "none; a radius miss is not a negative result",
+  "positive_count": 6,
+  "radius_each_side": 5,
+  "rows": [
+    {
+      "backward_states": 14604,
+      "edit": 1,
+      "exact_endpoint_replay": false,
+      "forward_states": 14661,
+      "route": null,
+      "route_length": null
+    },
+    {
+      "backward_states": 14425,
+      "edit": 2,
+      "exact_endpoint_replay": true,
+      "forward_states": 14425,
+      "route": [],
+      "route_length": 0
+    },
+    {
+      "backward_states": 11264,
+      "edit": 3,
+      "exact_endpoint_replay": true,
+      "forward_states": 10477,
+      "route": [
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      "route_length": 9
+    },
+    {
+      "backward_states": 15985,
+      "edit": 4,
+      "exact_endpoint_replay": true,
+      "forward_states": 15985,
+      "route": [],
+      "route_length": 0
+    },
+    {
+      "backward_states": 18134,
+      "edit": 5,
+      "exact_endpoint_replay": true,
+      "forward_states": 19680,
+      "route": [
+        [
+          6,
+          -1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "route_length": 5
+    },
+    {
+      "backward_states": 15146,
+      "edit": 6,
+      "exact_endpoint_replay": true,
+      "forward_states": 10351,
+      "route": [
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "route_length": 2
+    },
+    {
+      "backward_states": 13708,
+      "edit": 7,
+      "exact_endpoint_replay": true,
+      "forward_states": 9653,
+      "route": [
+        [
+          8,
+          -1
+        ]
+      ],
+      "route_length": 1
+    }
+  ],
+  "scope": "seven named d5->d6 pattern pairs; exact physical endpoints"
+}

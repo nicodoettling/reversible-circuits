@@ -1,0 +1,29 @@
+{
+  "mission": "M229",
+  "verdict": "ACCEPT with one nonmaterial domain qualification",
+  "m226_sha256sums_digest": "a40efdff6338c6342d12c92522c940d03d4b4e31efa18bbd492a2a2e2fe0a78a",
+  "material_objections": [],
+  "nonmaterial_objections": [
+    "Restrict G_k(x) in (2.1) to 1<=x<=(3k-3)/2, the complete argument range used by (2.2)-(2.3)."
+  ],
+  "checks": {
+    "k": [3, 5],
+    "closed_B_coefficients": true,
+    "closed_A_coefficients": true,
+    "literal_X_minus_Y_two_run_identity": true,
+    "imports_M226": false,
+    "universal_inference": false
+  },
+  "shortcut_witness": {
+    "k": 5,
+    "side": "B",
+    "first_edge": [3, 10],
+    "parent": [1, 2, 10, 11, 12, 13, 14],
+    "child_size": 1,
+    "ell": 7,
+    "qualifying_count": 5,
+    "claimed_bound": 4
+  },
+  "open": ["YCM", "TCM", "WBE", "DE"]
+}
+

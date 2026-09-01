@@ -1,0 +1,48 @@
+{
+  "claim_scope": "gap stationary formulas, orbit sizes, and four-schema row identity",
+  "command": "python3 -B gap_schema_verifier.py --n 5 7",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right; theta(g)=h^-1 g h",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "all_checks_passed": true,
+      "collapsed_kind_checks": 20,
+      "complement_gap_checks": 20,
+      "four_schema_row_entry_checks": 400,
+      "kind_state_counts": {
+        "3": 10,
+        "D": 10
+      },
+      "kind_stationary_masses": {
+        "3": "3/5",
+        "D": "2/5"
+      },
+      "n": 5,
+      "orbit_count": 4,
+      "short_balanced_three_orbits": 0,
+      "stationary_gap_weight_checks": 20,
+      "support_size": 20
+    },
+    {
+      "all_checks_passed": true,
+      "collapsed_kind_checks": 105,
+      "complement_gap_checks": 105,
+      "four_schema_row_entry_checks": 11025,
+      "kind_state_counts": {
+        "3": 35,
+        "D": 70
+      },
+      "kind_stationary_masses": {
+        "3": "3/7",
+        "D": "4/7"
+      },
+      "n": 7,
+      "orbit_count": 15,
+      "short_balanced_three_orbits": 0,
+      "stationary_gap_weight_checks": 105,
+      "support_size": 105
+    }
+  ],
+  "status": "exact_finite_falsification_only"
+}

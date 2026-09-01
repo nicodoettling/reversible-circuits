@@ -1,0 +1,97 @@
+{
+  "command": "python3 -B moment_scaling_diagnostic.py --input experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_coordinate_correlation_scaling_n21.json --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/moment_scaling_n21.json",
+  "deterministic": true,
+  "input": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_coordinate_correlation_scaling_n21.json",
+  "l_fourth_trace_four": [
+    5.740399840045228,
+    3.1122034373893093,
+    2.2765648851717737,
+    1.8848847786283638,
+    1.6679783722397512,
+    1.5386156672266817,
+    1.46079599517403,
+    1.4170252297605157
+  ],
+  "l_squared_trace_two": [
+    6.1203698526234565,
+    5.283439490499962,
+    5.039664159783779,
+    4.993887164887076,
+    5.04833359423184,
+    5.150410413212159,
+    5.280683048680022,
+    5.432069863255032
+  ],
+  "n": [
+    7,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21
+  ],
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "scope_warning": "Model fits do not prove boundedness, convergence, or divergence; they only prioritize analytic proof routes.",
+  "seed": null,
+  "status": "finite_numeric_diagnostic_only",
+  "trace_four_fits": {
+    "constant_plus_1_over_n_plus_1_over_n_squared": {
+      "coefficients_numeric": [
+        2.836380102723435,
+        -52.32872351061026,
+        505.9044825992279
+      ],
+      "max_absolute_residual_numeric": 0.15560840612098437,
+      "root_mean_square_residual_numeric": 0.07589476579309953
+    },
+    "constant_plus_log_n": {
+      "coefficients_numeric": [
+        11.243425774471643,
+        -3.4332349542564344
+      ],
+      "max_absolute_residual_numeric": 1.1777408071526354,
+      "root_mean_square_residual_numeric": 0.6278158156386646
+    },
+    "constant_plus_log_n_over_n_plus_1_over_n": {
+      "coefficients_numeric": [
+        6.46386492678892,
+        -89.06588215159937,
+        167.58456657476935
+      ],
+      "max_absolute_residual_numeric": 0.2279749681933798,
+      "root_mean_square_residual_numeric": 0.11251872095301095
+    }
+  },
+  "trace_two_fits": {
+    "constant_plus_1_over_n_plus_1_over_n_squared": {
+      "coefficients_numeric": [
+        7.1516416711026585,
+        -52.02172165343725,
+        314.3392519616251
+      ],
+      "max_absolute_residual_numeric": 0.044865613378127556,
+      "root_mean_square_residual_numeric": 0.026752880644253886
+    },
+    "constant_plus_log_n": {
+      "coefficients_numeric": [
+        6.512215985738728,
+        -0.47241586428287446
+      ],
+      "max_absolute_residual_numeric": 0.527432691767511,
+      "root_mean_square_residual_numeric": 0.29839400940057526
+    },
+    "constant_plus_log_n_over_n_plus_1_over_n": {
+      "coefficients_numeric": [
+        9.516917127164218,
+        -56.65847014915287,
+        86.46916761291814
+      ],
+      "max_absolute_residual_numeric": 0.01292068004893654,
+      "root_mean_square_residual_numeric": 0.008466117058931454
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped formulas",
+  "claim_tested": "exact witnesses rejecting direct variance/Bernoulli shortcuts",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "python": "3.12.3",
+  "seed": null,
+  "witnesses": {
+    "nonright_contextual_statistic_not_probability_valued": {
+      "context": [
+        12,
+        32,
+        5,
+        4
+      ],
+      "contextual_value": {
+        "decimal": 2.3387772799537507,
+        "denominator": "6919",
+        "numerator": "16182"
+      },
+      "excess_over_one": {
+        "decimal": 1.3387772799537505,
+        "denominator": "6919",
+        "numerator": "9263"
+      },
+      "root_group": {
+        "k": 6,
+        "t": 4
+      }
+    },
+    "raw_unweighted_reset_energy_exceeds_root_mean_variance": {
+      "A0": {
+        "decimal": 0.03734462540109745,
+        "denominator": "1388402247456518380487942980239360000000",
+        "numerator": "51849361837305490892364589366228377131"
+      },
+      "context": [
+        11,
+        1,
+        0,
+        4
+      ],
+      "difference": {
+        "decimal": 0.0026899715165006645,
+        "denominator": "297616352142664376197327691235914321756160000000",
+        "numerator": "800579510108598719031951795711500489622374219"
+      },
+      "ratio": {
+        "decimal": 1.0776222300606009,
+        "denominator": "10313791673900310363811013024857713622624776192",
+        "numerator": "11114371184008909082842964820569214112247150411"
+      },
+      "variance_of_root_mean": {
+        "decimal": 0.03465465388459679,
+        "denominator": "2976964850540532253986017280000000",
+        "numerator": "103165686522092559971799730514261"
+      }
+    },
+    "unweighted_resolvent_exceeds_contextual_variance": {
+      "context": [
+        8,
+        1,
+        0,
+        3
+      ],
+      "contextual_variance": {
+        "decimal": 0.07178140235118025,
+        "denominator": "43046721",
+        "numerator": "3089954"
+      },
+      "difference": {
+        "decimal": 0.0014441122776489316,
+        "denominator": "3468535372911177205414609888582041600000",
+        "numerator": "5008954517480646295949096911844732399"
+      },
+      "q": {
+        "decimal": 0.13656454808718183,
+        "denominator": "6561",
+        "numerator": "896"
+      },
+      "ratio": {
+        "decimal": 1.0201181953869307,
+        "denominator": "248976333172238221131400356456038400000",
+        "numerator": "253985287689718867427349453367883132399"
+      },
+      "transformed_unweighted_resolvent": {
+        "decimal": 0.07322551462882917,
+        "denominator": "3468535372911177205414609888582041600000",
+        "numerator": "253985287689718867427349453367883132399"
+      }
+    }
+  }
+}

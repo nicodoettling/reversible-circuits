@@ -1,0 +1,78 @@
+{
+  "composition": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "imports_M186": false,
+  "method": "self-contained literal completion rows and separately derived component-prefix laws",
+  "mission": "M189",
+  "parameters": {
+    "k": [
+      3,
+      5
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "J1_face_law_and_tail_exact": true,
+      "channel_masses": {
+        "0": "1/15",
+        "1": "8/15",
+        "2": "2/5"
+      },
+      "combined_CB_signs_exact": true,
+      "component_Abel_identity_exact": true,
+      "eta_W": "-424/1125",
+      "k": 3,
+      "k_times_J1_weighted_sum_float": 1.9387174603174604,
+      "lambda_and_Lambda_closed_normalizations_exact": true,
+      "n": 9,
+      "signed_SBP_polynomial_exact": true,
+      "singleton_pointwise_and_signed_identity_exact": true,
+      "small_charge_polynomial_1_E": [
+        "-9656/5625",
+        "53243/67500"
+      ],
+      "source_accessible_states": 64,
+      "triangle_probabilities_by_side_channel": {
+        "A0": "1",
+        "A1": "0",
+        "A2": "1/3",
+        "B0": "1",
+        "B1": "0",
+        "B2": "3/5"
+      }
+    },
+    {
+      "J1_face_law_and_tail_exact": true,
+      "channel_masses": {
+        "0": "1/11",
+        "1": "16/33",
+        "2": "14/33"
+      },
+      "combined_CB_signs_exact": true,
+      "component_Abel_identity_exact": true,
+      "eta_W": "-306936064/1793613375",
+      "k": 5,
+      "k_times_J1_weighted_sum_float": 1.4671070191806255,
+      "lambda_and_Lambda_closed_normalizations_exact": true,
+      "n": 15,
+      "signed_SBP_polynomial_exact": true,
+      "singleton_pointwise_and_signed_identity_exact": true,
+      "small_charge_polynomial_1_E": [
+        "-4330352318516/2466218390625",
+        "2429159918325792866/3357428331789984375"
+      ],
+      "source_accessible_states": 810,
+      "triangle_probabilities_by_side_channel": {
+        "A0": "3/5",
+        "A1": "0",
+        "A2": "9/35",
+        "B0": "3/5",
+        "B1": "0",
+        "B2": "1/3"
+      }
+    }
+  ],
+  "standard_library_only": true,
+  "status": "all clean-room exact k=3,5 referee assertions passed; no PCR or asymptotic inference"
+}

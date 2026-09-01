@@ -1,0 +1,81 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "claim_tested": "Exact bounded eliminated reset substochasticity and W=(1-q)K/(R+1) superharmonicity",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "finite_scope_warning": "No bounded scan proves a universal inequality.",
+  "parameters": {
+    "k_max": 13,
+    "s_max": 3
+  },
+  "python": "3.12.3",
+  "result": {
+    "contexts": 395,
+    "failure_counts": {
+      "eliminated_W_over_W": 0,
+      "right_heavy_unweighted_eliminated_row": 0,
+      "row_over_u_one_minus_q": 0,
+      "unweighted_eliminated_row": 0
+    },
+    "first_failures": {
+      "eliminated_W_over_W": [],
+      "right_heavy_unweighted_eliminated_row": [],
+      "row_over_u_one_minus_q": [],
+      "unweighted_eliminated_row": []
+    },
+    "maxima": {
+      "eliminated_W_over_W": {
+        "context": [
+          3,
+          1,
+          0,
+          3
+        ],
+        "decimal": 0.11160714285714286,
+        "exact": "25/224"
+      },
+      "right_heavy_unweighted_eliminated_row": {
+        "context": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "decimal": 0.16015625,
+        "exact": "41/256"
+      },
+      "row_over_u_one_minus_q": {
+        "context": [
+          3,
+          1,
+          0,
+          3
+        ],
+        "decimal": 0.33482142857142855,
+        "exact": "75/224"
+      },
+      "unweighted_eliminated_row": {
+        "context": [
+          3,
+          13,
+          1,
+          2
+        ],
+        "decimal": 0.5109215561224489,
+        "exact": "6409/12544"
+      }
+    },
+    "raw_constant_first_failure": {
+      "context": [
+        3,
+        13,
+        12,
+        2
+      ],
+      "deep_row": "13/14",
+      "raw_row": "12601/12544",
+      "reset_row": "953/12544"
+    },
+    "reachable_closure": "(K,R)=(1,0) or K>R>=1"
+  },
+  "seed": null
+}

@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "N": 3,
+      "alphabet_E_size": 9,
+      "feasible_global_endpoint_count": 3,
+      "max_components_per_endpoint": 1,
+      "micro_length_n": 2,
+      "one_site_endpoint_count": 3,
+      "regular_representation_delta_basis_exact": true,
+      "states_E_power_n": 81,
+      "transpositions_M": 3,
+      "two_site_projector_formula_exact": true,
+      "two_site_projector_rank": 3
+    },
+    {
+      "N": 3,
+      "alphabet_E_size": 9,
+      "feasible_global_endpoint_count": 3,
+      "max_components_per_endpoint": 1,
+      "micro_length_n": 3,
+      "one_site_endpoint_count": 3,
+      "regular_representation_delta_basis_exact": true,
+      "states_E_power_n": 729,
+      "transpositions_M": 3,
+      "two_site_projector_formula_exact": true,
+      "two_site_projector_rank": 3
+    },
+    {
+      "N": 4,
+      "alphabet_E_size": 36,
+      "feasible_global_endpoint_count": 12,
+      "max_components_per_endpoint": 1,
+      "micro_length_n": 2,
+      "one_site_endpoint_count": 12,
+      "regular_representation_delta_basis_exact": true,
+      "states_E_power_n": 1296,
+      "transpositions_M": 6,
+      "two_site_projector_formula_exact": true,
+      "two_site_projector_rank": 12
+    },
+    {
+      "N": 4,
+      "alphabet_E_size": 36,
+      "feasible_global_endpoint_count": 12,
+      "max_components_per_endpoint": 1,
+      "micro_length_n": 3,
+      "one_site_endpoint_count": 12,
+      "regular_representation_delta_basis_exact": true,
+      "states_E_power_n": 46656,
+      "transpositions_M": 6,
+      "two_site_projector_formula_exact": true,
+      "two_site_projector_rank": 12
+    }
+  ],
+  "claim_scope": "finite falsification only",
+  "composition": "(pq)(x)=p(q(x))",
+  "deterministic": true,
+  "python": "3.12.3",
+  "status": "pass"
+}

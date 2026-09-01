@@ -1,0 +1,167 @@
+{
+  "claim_tested": "Every distinct plane-tree leaf-replanting neighbor lies in the same full-Pbar component, and bounded instances have the reported exact support distance.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/replant_full_distance.py --n-max 8 --output experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/replant_full_distance_n8.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 2,
+      "directed_replant_edges_already_actual": 2,
+      "macro_count": 2,
+      "maximum_distance_witness": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "maximum_shortest_actual_distance": 1,
+      "n": 3,
+      "r": 2,
+      "raw_factorization_count": 3
+    },
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 16,
+      "directed_replant_edges_already_actual": 12,
+      "macro_count": 5,
+      "maximum_distance_witness": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "maximum_shortest_actual_distance": 2,
+      "n": 4,
+      "r": 3,
+      "raw_factorization_count": 16
+    },
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 94,
+      "directed_replant_edges_already_actual": 50,
+      "macro_count": 14,
+      "maximum_distance_witness": [
+        [
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          3
+        ]
+      ],
+      "maximum_shortest_actual_distance": 3,
+      "n": 5,
+      "r": 4,
+      "raw_factorization_count": 125
+    },
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 480,
+      "directed_replant_edges_already_actual": 196,
+      "macro_count": 42,
+      "maximum_distance_witness": [
+        [
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          4
+        ]
+      ],
+      "maximum_shortest_actual_distance": 4,
+      "n": 6,
+      "r": 5,
+      "raw_factorization_count": 1296
+    },
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 2282,
+      "directed_replant_edges_already_actual": 758,
+      "macro_count": 132,
+      "maximum_distance_witness": [
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          3,
+          5
+        ]
+      ],
+      "maximum_shortest_actual_distance": 5,
+      "n": 7,
+      "r": 6,
+      "raw_factorization_count": 16807
+    },
+    {
+      "actual_component_failures": [],
+      "asymmetric_replant_support_failures": [],
+      "directed_distinct_replant_edges": 10414,
+      "directed_replant_edges_already_actual": 2924,
+      "macro_count": 429,
+      "maximum_distance_witness": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          6
+        ]
+      ],
+      "maximum_shortest_actual_distance": 6,
+      "n": 8,
+      "r": 7,
+      "raw_factorization_count": 262144
+    }
+  ],
+  "seed": null,
+  "universal_scope": "A missing path refutes connectivity/comparison. Finite paths do not prove polynomial congestion or a universal diameter."
+}

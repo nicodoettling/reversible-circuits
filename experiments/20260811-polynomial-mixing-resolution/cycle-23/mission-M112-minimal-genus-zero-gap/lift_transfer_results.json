@@ -1,0 +1,122 @@
+{
+  "argv": [
+    "lift_transfer_audit.py",
+    "--base-q",
+    "1",
+    "2",
+    "3",
+    "4",
+    "--output",
+    "lift_transfer_results.json"
+  ],
+  "claim_tested": "The insertion-coordinate transfer recurrence exactly counts each fixed missing-label marked-leaf fiber.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "elapsed_seconds": 0.4129119119606912,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "base_q": 1,
+      "base_states": 1,
+      "direct_check": {
+        "direct_histogram": {
+          "1": 2
+        },
+        "fibers": 2,
+        "mismatch_count_recorded": 0,
+        "mismatch_examples": []
+      },
+      "elapsed_seconds": 8.137105032801628e-05,
+      "fiber_count_histogram_per_missing_label": {
+        "1": 1
+      },
+      "fiber_max": 1,
+      "fiber_max_over_min": 1.0,
+      "fiber_min": 1,
+      "maximum_row_support": 0,
+      "maximum_transfer_entry": 0,
+      "q3_square_correlation": {},
+      "upstairs_d": 2
+    },
+    {
+      "base_q": 2,
+      "base_states": 1,
+      "direct_check": {
+        "direct_histogram": {
+          "16": 3
+        },
+        "fibers": 3,
+        "mismatch_count_recorded": 0,
+        "mismatch_examples": []
+      },
+      "elapsed_seconds": 0.0006141769699752331,
+      "fiber_count_histogram_per_missing_label": {
+        "16": 1
+      },
+      "fiber_max": 16,
+      "fiber_max_over_min": 1.0,
+      "fiber_min": 16,
+      "maximum_row_support": 2,
+      "maximum_transfer_entry": 1,
+      "q3_square_correlation": {},
+      "upstairs_d": 3
+    },
+    {
+      "base_q": 3,
+      "base_states": 24,
+      "direct_check": {
+        "direct_histogram": {
+          "67": 24,
+          "68": 72
+        },
+        "fibers": 96,
+        "mismatch_count_recorded": 0,
+        "mismatch_examples": []
+      },
+      "elapsed_seconds": 0.11261103814467788,
+      "fiber_count_histogram_per_missing_label": {
+        "67": 6,
+        "68": 18
+      },
+      "fiber_max": 68,
+      "fiber_max_over_min": 1.0149253731343284,
+      "fiber_min": 67,
+      "maximum_row_support": 3,
+      "maximum_transfer_entry": 1,
+      "q3_square_correlation": {
+        "(False, 68)": 18,
+        "(True, 67)": 6
+      },
+      "upstairs_d": 4
+    },
+    {
+      "base_q": 4,
+      "base_states": 2880,
+      "direct_check": null,
+      "elapsed_seconds": 0.29697089409455657,
+      "fiber_count_histogram_per_missing_label": {
+        "170": 48,
+        "171": 72,
+        "174": 24,
+        "175": 144,
+        "176": 216,
+        "177": 528,
+        "179": 48,
+        "180": 432,
+        "182": 384,
+        "184": 72,
+        "185": 768,
+        "188": 144
+      },
+      "fiber_max": 188,
+      "fiber_max_over_min": 1.1058823529411765,
+      "fiber_min": 170,
+      "maximum_row_support": 4,
+      "maximum_transfer_entry": 1,
+      "q3_square_correlation": {},
+      "upstairs_d": 5
+    }
+  ],
+  "scope_warning": "Exact agreement through d=4 and evaluation over Z_4 are finite; the recurrence's universal validity requires its separate bijective proof.",
+  "seed": null
+}

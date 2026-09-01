@@ -1,0 +1,134 @@
+{
+  "carrier_checks": 1680,
+  "environment": {
+    "command": "python3 -B independent_referee.py",
+    "dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "full": {
+    "distinct_words": 22,
+    "failures": 0,
+    "length_histogram": {
+      "0": 8158,
+      "1": 1296,
+      "13": 672,
+      "17": 540,
+      "2": 1296,
+      "21": 432,
+      "5": 1029,
+      "9": 833
+    },
+    "passes": 14256,
+    "rows": 14256
+  },
+  "independence": {
+    "descriptor_assigned_before_endpoints": true,
+    "endpoint_lookup": false,
+    "formula_assigned_before_endpoints": true,
+    "imports_m236_code_or_data": false,
+    "reads_input_files": false,
+    "route_search": false
+  },
+  "initial_run_sign_checks": 28,
+  "m236_compatibility_digests": {
+    "all_match": true,
+    "independent_table_fixed_before_serializer_inspection": true,
+    "observed": {
+      "full_rows": "114a70ed4fb006b25658a0cf7d49675b20b223b2504b8cca9ec462c31c05acf4",
+      "full_words": "d6fdf8d908fee98bc866ab6201f585f187f3fee8771512ba2e2aa9cf208a821c",
+      "primary_rows": "f1256098c2b86bf85504979ddb04a9f2c5afb0008c36233051a7e0a0859fdf53",
+      "primary_words": "3bca6bd6407aa38e3cdc82c16f527f91fa5bda9ce6c75008bcdf89c3bb810608",
+      "secondary_rows": "f7efdc9be6321543b784c71bffd18af2c2d7ec79adbcf7150867c5cbed5d1868",
+      "tree_universe": "4bedab1e9da7ba6dc4c657b1da435da53dc0e3d5114d5678209579774a476ed9",
+      "z2_classes": "30adb20d0458fae1829670233e6c0cdfdf599e76b5f39bf4a8f8b71c987bfaa1"
+    },
+    "published": {
+      "full_rows": "114a70ed4fb006b25658a0cf7d49675b20b223b2504b8cca9ec462c31c05acf4",
+      "full_words": "d6fdf8d908fee98bc866ab6201f585f187f3fee8771512ba2e2aa9cf208a821c",
+      "primary_rows": "f1256098c2b86bf85504979ddb04a9f2c5afb0008c36233051a7e0a0859fdf53",
+      "primary_words": "3bca6bd6407aa38e3cdc82c16f527f91fa5bda9ce6c75008bcdf89c3bb810608",
+      "secondary_rows": "f7efdc9be6321543b784c71bffd18af2c2d7ec79adbcf7150867c5cbed5d1868",
+      "tree_universe": "4bedab1e9da7ba6dc4c657b1da435da53dc0e3d5114d5678209579774a476ed9",
+      "z2_classes": "30adb20d0458fae1829670233e6c0cdfdf599e76b5f39bf4a8f8b71c987bfaa1"
+    },
+    "runtime_m236_reads": false
+  },
+  "mission": "M237",
+  "native_digests": {
+    "full_rows": "98ccb3348ca315ab143ba6e3cb932089854516afb43e685b1089c379f2f72204",
+    "full_words": "66f69d75e579754182c0dc5e5c19ed4dad5fea633b7a62131c2a83b7c09edaa1",
+    "primary_rows": "ef5bbc2e29e552bab0734f1ab8383123c2524a77eaa3b08c1281f868f6dcd714",
+    "primary_words": "64b1027f55b3252a4f41773b6ef450793c21f960c77e6debbbce589672776191",
+    "secondary_rows": "037a2783f128876f09ee4d31c1e5671359f7ceb2ca3d652416b5dbeb3078fa9e",
+    "tree_universe": "6fc1701517198e0121d8100947a43c572bb23448d43915d9c36504596dd8b49c",
+    "z2_classes": "8efe553652daa54170615ad101633af35e24238d9227a579e3372e6657826905"
+  },
+  "primary": {
+    "closed_rows": 2974,
+    "closed_rows_by_edit": [
+      864,
+      756,
+      624,
+      463,
+      267
+    ],
+    "distinct_words": 20,
+    "edits": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "failures": 0,
+    "first_failure": null,
+    "first_same_z2_behavior_collision": null,
+    "length_histogram": {
+      "0": 2974,
+      "13": 672,
+      "17": 540,
+      "21": 432,
+      "5": 1029,
+      "9": 833
+    },
+    "max_route_length": 21,
+    "open_rows": 3506,
+    "open_rows_by_edit": [
+      432,
+      540,
+      672,
+      833,
+      1029
+    ],
+    "passes": 6480,
+    "rows": 6480,
+    "z2_classes_by_edit": [
+      9,
+      6,
+      4,
+      3,
+      2
+    ],
+    "z2_classes_global": 20
+  },
+  "scope": "complete d=7 -> 8 one-leaf template only",
+  "secondary": {
+    "edits": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      11
+    ],
+    "failures": 0,
+    "first_failure": null,
+    "passes": 7776,
+    "rows": 7776
+  },
+  "source_extension_identity_checks": 1296,
+  "target": "fresh immutable referee of frozen finite M236",
+  "tree_constructions_equal": true,
+  "tree_count": 1296
+}

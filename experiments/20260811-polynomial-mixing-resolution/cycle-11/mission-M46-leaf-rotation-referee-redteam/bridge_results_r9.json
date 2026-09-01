@@ -1,0 +1,878 @@
+[
+  {
+    "bridges": 1,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 2,
+    "edges": 1,
+    "minimum_bridge": {
+      "capacity_numerator": 2,
+      "component_weight": 1,
+      "edge": [
+        0,
+        1
+      ],
+      "phi_denominator": 3,
+      "phi_float": 0.6666666666666666,
+      "phi_numerator": 2,
+      "smaller_weight": 1,
+      "states": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "r": 2,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 2,
+        "inside_weight": 1,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 2,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 2,
+        "inside_weight": 2,
+        "name": "leaf_count_le_1",
+        "outside_weight": 1,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      }
+    ],
+    "states": 2,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 4,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 5,
+    "edges": 4,
+    "minimum_bridge": {
+      "capacity_numerator": 3,
+      "component_weight": 4,
+      "edge": [
+        2,
+        4
+      ],
+      "phi_denominator": 12,
+      "phi_float": 0.08333333333333333,
+      "phi_numerator": 1,
+      "smaller_weight": 4,
+      "states": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    "r": 3,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 6,
+        "inside_weight": 7,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 9,
+        "phi_denominator": 21,
+        "phi_float": 0.09523809523809523,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 12,
+        "inside_weight": 6,
+        "name": "leaf_count_le_1",
+        "outside_weight": 10,
+        "phi_denominator": 9,
+        "phi_float": 0.2222222222222222,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 9,
+        "inside_weight": 4,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 12,
+        "phi_denominator": 4,
+        "phi_float": 0.25,
+        "phi_numerator": 1
+      },
+      {
+        "boundary_capacity_numerator": 6,
+        "inside_weight": 15,
+        "name": "leaf_count_le_2",
+        "outside_weight": 1,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      }
+    ],
+    "states": 5,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 7,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 14,
+    "edges": 15,
+    "minimum_bridge": {
+      "capacity_numerator": 4,
+      "component_weight": 22,
+      "edge": [
+        11,
+        13
+      ],
+      "phi_denominator": 99,
+      "phi_float": 0.010101010101010102,
+      "phi_numerator": 1,
+      "smaller_weight": 22,
+      "states": [
+        [
+          3,
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "r": 4,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 36,
+        "inside_weight": 61,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 64,
+        "phi_denominator": 61,
+        "phi_float": 0.03278688524590164,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 48,
+        "inside_weight": 43,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 82,
+        "phi_denominator": 129,
+        "phi_float": 0.06201550387596899,
+        "phi_numerator": 8
+      },
+      {
+        "boundary_capacity_numerator": 64,
+        "inside_weight": 27,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 98,
+        "phi_denominator": 243,
+        "phi_float": 0.13168724279835392,
+        "phi_numerator": 32
+      },
+      {
+        "boundary_capacity_numerator": 72,
+        "inside_weight": 24,
+        "name": "leaf_count_le_1",
+        "outside_weight": 101,
+        "phi_denominator": 6,
+        "phi_float": 0.16666666666666666,
+        "phi_numerator": 1
+      },
+      {
+        "boundary_capacity_numerator": 108,
+        "inside_weight": 96,
+        "name": "leaf_count_le_2",
+        "outside_weight": 29,
+        "phi_denominator": 29,
+        "phi_float": 0.20689655172413793,
+        "phi_numerator": 6
+      },
+      {
+        "boundary_capacity_numerator": 12,
+        "inside_weight": 124,
+        "name": "leaf_count_le_3",
+        "outside_weight": 1,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      }
+    ],
+    "states": 14,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 8,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 42,
+    "edges": 56,
+    "minimum_bridge": {
+      "capacity_numerator": 20,
+      "component_weight": 190,
+      "edge": [
+        31,
+        38
+      ],
+      "phi_denominator": 285,
+      "phi_float": 0.0035087719298245615,
+      "phi_numerator": 1,
+      "smaller_weight": 190,
+      "states": [
+        [
+          3,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "r": 5,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 320,
+        "inside_weight": 671,
+        "name": "first_root_subtree_size_le_4",
+        "outside_weight": 625,
+        "phi_denominator": 1875,
+        "phi_float": 0.017066666666666667,
+        "phi_numerator": 32
+      },
+      {
+        "boundary_capacity_numerator": 410,
+        "inside_weight": 511,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 785,
+        "phi_denominator": 1533,
+        "phi_float": 0.02674494455316373,
+        "phi_numerator": 41
+      },
+      {
+        "boundary_capacity_numerator": 490,
+        "inside_weight": 391,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 905,
+        "phi_denominator": 1173,
+        "phi_float": 0.041773231031543054,
+        "phi_numerator": 49
+      },
+      {
+        "boundary_capacity_numerator": 625,
+        "inside_weight": 256,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 1040,
+        "phi_denominator": 1536,
+        "phi_float": 0.08138020833333333,
+        "phi_numerator": 125
+      },
+      {
+        "boundary_capacity_numerator": 1440,
+        "inside_weight": 720,
+        "name": "leaf_count_le_2",
+        "outside_weight": 576,
+        "phi_denominator": 12,
+        "phi_float": 0.08333333333333333,
+        "phi_numerator": 1
+      },
+      {
+        "boundary_capacity_numerator": 480,
+        "inside_weight": 120,
+        "name": "leaf_count_le_1",
+        "outside_weight": 1176,
+        "phi_denominator": 15,
+        "phi_float": 0.13333333333333333,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 560,
+        "inside_weight": 1220,
+        "name": "leaf_count_le_3",
+        "outside_weight": 76,
+        "phi_denominator": 57,
+        "phi_float": 0.24561403508771928,
+        "phi_numerator": 14
+      },
+      {
+        "boundary_capacity_numerator": 20,
+        "inside_weight": 1295,
+        "name": "leaf_count_le_4",
+        "outside_weight": 1,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      }
+    ],
+    "states": 42,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 8,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 132,
+    "edges": 210,
+    "minimum_bridge": {
+      "capacity_numerator": 120,
+      "component_weight": 1140,
+      "edge": [
+        31,
+        38
+      ],
+      "phi_denominator": 855,
+      "phi_float": 0.0023391812865497076,
+      "phi_numerator": 2,
+      "smaller_weight": 1140,
+      "states": [
+        [
+          1,
+          3,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    "r": 6,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 3750,
+        "inside_weight": 9031,
+        "name": "first_root_subtree_size_le_5",
+        "outside_weight": 7776,
+        "phi_denominator": 11664,
+        "phi_float": 0.010716735253772291,
+        "phi_numerator": 125
+      },
+      {
+        "boundary_capacity_numerator": 4710,
+        "inside_weight": 7156,
+        "name": "first_root_subtree_size_le_4",
+        "outside_weight": 9651,
+        "phi_denominator": 10734,
+        "phi_float": 0.014626420719209988,
+        "phi_numerator": 157
+      },
+      {
+        "boundary_capacity_numerator": 5430,
+        "inside_weight": 5876,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 10931,
+        "phi_denominator": 8814,
+        "phi_float": 0.020535511685954164,
+        "phi_numerator": 181
+      },
+      {
+        "boundary_capacity_numerator": 6240,
+        "inside_weight": 4661,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 12146,
+        "phi_denominator": 13983,
+        "phi_float": 0.029750411213616535,
+        "phi_numerator": 416
+      },
+      {
+        "boundary_capacity_numerator": 7776,
+        "inside_weight": 3125,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 13682,
+        "phi_denominator": 15625,
+        "phi_float": 0.055296,
+        "phi_numerator": 864
+      },
+      {
+        "boundary_capacity_numerator": 18000,
+        "inside_weight": 6120,
+        "name": "leaf_count_le_2",
+        "outside_weight": 10687,
+        "phi_denominator": 153,
+        "phi_float": 0.06535947712418301,
+        "phi_numerator": 10
+      },
+      {
+        "boundary_capacity_numerator": 3600,
+        "inside_weight": 720,
+        "name": "leaf_count_le_1",
+        "outside_weight": 16087,
+        "phi_denominator": 9,
+        "phi_float": 0.1111111111111111,
+        "phi_numerator": 1
+      },
+      {
+        "boundary_capacity_numerator": 15000,
+        "inside_weight": 13920,
+        "name": "leaf_count_le_3",
+        "outside_weight": 2887,
+        "phi_denominator": 8661,
+        "phi_float": 0.11546010853250202,
+        "phi_numerator": 1000
+      },
+      {
+        "boundary_capacity_numerator": 2250,
+        "inside_weight": 16620,
+        "name": "leaf_count_le_4",
+        "outside_weight": 187,
+        "phi_denominator": 187,
+        "phi_float": 0.26737967914438504,
+        "phi_numerator": 50
+      },
+      {
+        "boundary_capacity_numerator": 30,
+        "inside_weight": 16806,
+        "name": "leaf_count_le_5",
+        "outside_weight": 1,
+        "phi_denominator": 3,
+        "phi_float": 0.6666666666666666,
+        "phi_numerator": 2
+      }
+    ],
+    "states": 132,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 8,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 429,
+    "edges": 792,
+    "minimum_bridge": {
+      "capacity_numerator": 420,
+      "component_weight": 3990,
+      "edge": [
+        251,
+        260
+      ],
+      "phi_denominator": 1197,
+      "phi_float": 0.001670843776106934,
+      "phi_numerator": 2,
+      "smaller_weight": 3990,
+      "states": [
+        [
+          2,
+          3,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "r": 7,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 54432,
+        "inside_weight": 144495,
+        "name": "first_root_subtree_size_le_6",
+        "outside_weight": 117649,
+        "phi_denominator": 117649,
+        "phi_float": 0.007343878825999371,
+        "phi_numerator": 864
+      },
+      {
+        "boundary_capacity_numerator": 67557,
+        "inside_weight": 117279,
+        "name": "first_root_subtree_size_le_5",
+        "outside_weight": 144865,
+        "phi_denominator": 351837,
+        "phi_float": 0.009143438580933784,
+        "phi_numerator": 3217
+      },
+      {
+        "boundary_capacity_numerator": 76517,
+        "inside_weight": 99779,
+        "name": "first_root_subtree_size_le_4",
+        "outside_weight": 162365,
+        "phi_denominator": 898011,
+        "phi_float": 0.012172456684829028,
+        "phi_numerator": 10931
+      },
+      {
+        "boundary_capacity_numerator": 85022,
+        "inside_weight": 84659,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 177485,
+        "phi_denominator": 761931,
+        "phi_float": 0.015941076029194246,
+        "phi_numerator": 12146
+      },
+      {
+        "boundary_capacity_numerator": 95774,
+        "inside_weight": 68531,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 193613,
+        "phi_denominator": 616779,
+        "phi_float": 0.022182986126311043,
+        "phi_numerator": 13682
+      },
+      {
+        "boundary_capacity_numerator": 117649,
+        "inside_weight": 46656,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 215488,
+        "phi_denominator": 419904,
+        "phi_float": 0.04002581542447797,
+        "phi_numerator": 16807
+      },
+      {
+        "boundary_capacity_numerator": 327600,
+        "inside_weight": 175560,
+        "name": "leaf_count_le_3",
+        "outside_weight": 86584,
+        "phi_denominator": 10823,
+        "phi_float": 0.060057285410699435,
+        "phi_numerator": 650
+      },
+      {
+        "boundary_capacity_numerator": 226800,
+        "inside_weight": 57960,
+        "name": "leaf_count_le_2",
+        "outside_weight": 204184,
+        "phi_denominator": 161,
+        "phi_float": 0.062111801242236024,
+        "phi_numerator": 10
+      },
+      {
+        "boundary_capacity_numerator": 30240,
+        "inside_weight": 5040,
+        "name": "leaf_count_le_1",
+        "outside_weight": 257104,
+        "phi_denominator": 21,
+        "phi_float": 0.09523809523809523,
+        "phi_numerator": 2
+      },
+      {
+        "boundary_capacity_numerator": 113400,
+        "inside_weight": 249060,
+        "name": "leaf_count_le_4",
+        "outside_weight": 13084,
+        "phi_denominator": 3271,
+        "phi_float": 0.1375726077652094,
+        "phi_numerator": 450
+      }
+    ],
+    "states": 429,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 8,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 1430,
+    "edges": 3003,
+    "minimum_bridge": {
+      "capacity_numerator": 3360,
+      "component_weight": 31920,
+      "edge": [
+        251,
+        260
+      ],
+      "phi_denominator": 798,
+      "phi_float": 0.0012531328320802004,
+      "phi_numerator": 1,
+      "smaller_weight": 31920,
+      "states": [
+        [
+          1,
+          2,
+          3,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          4,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "r": 8,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 941192,
+        "inside_weight": 2685817,
+        "name": "first_root_subtree_size_le_7",
+        "outside_weight": 2097152,
+        "phi_denominator": 3145728,
+        "phi_float": 0.005342801411946614,
+        "phi_numerator": 16807
+      },
+      {
+        "boundary_capacity_numerator": 1158920,
+        "inside_weight": 2215221,
+        "name": "first_root_subtree_size_le_6",
+        "outside_weight": 2567748,
+        "phi_denominator": 6645663,
+        "phi_float": 0.006228122009797969,
+        "phi_numerator": 41390
+      },
+      {
+        "boundary_capacity_numerator": 1298920,
+        "inside_weight": 1924917,
+        "name": "first_root_subtree_size_le_5",
+        "outside_weight": 2858052,
+        "phi_denominator": 5774751,
+        "phi_float": 0.008033246801463821,
+        "phi_numerator": 46390
+      },
+      {
+        "boundary_capacity_numerator": 1419880,
+        "inside_weight": 1688667,
+        "name": "first_root_subtree_size_le_4",
+        "outside_weight": 3094302,
+        "phi_denominator": 5066001,
+        "phi_float": 0.010009867743808184,
+        "phi_numerator": 50710
+      },
+      {
+        "boundary_capacity_numerator": 1548904,
+        "inside_weight": 1459291,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 3323678,
+        "phi_denominator": 4377873,
+        "phi_float": 0.012635816525513646,
+        "phi_numerator": 55318
+      },
+      {
+        "boundary_capacity_numerator": 1723904,
+        "inside_weight": 1196791,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 3586178,
+        "phi_denominator": 3590373,
+        "phi_float": 0.017148079043597976,
+        "phi_numerator": 61568
+      },
+      {
+        "boundary_capacity_numerator": 2097152,
+        "inside_weight": 823543,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 3959426,
+        "phi_denominator": 17294403,
+        "phi_float": 0.030315472583818014,
+        "phi_numerator": 524288
+      },
+      {
+        "boundary_capacity_numerator": 6585600,
+        "inside_weight": 2392320,
+        "name": "leaf_count_le_3",
+        "outside_weight": 2390649,
+        "phi_denominator": 2390649,
+        "phi_float": 0.032794442011353404,
+        "phi_numerator": 78400
+      },
+      {
+        "boundary_capacity_numerator": 2963520,
+        "inside_weight": 604800,
+        "name": "leaf_count_le_2",
+        "outside_weight": 4178169,
+        "phi_denominator": 120,
+        "phi_float": 0.058333333333333334,
+        "phi_numerator": 7
+      },
+      {
+        "boundary_capacity_numerator": 4116000,
+        "inside_weight": 4156320,
+        "name": "leaf_count_le_4",
+        "outside_weight": 626649,
+        "phi_denominator": 626649,
+        "phi_float": 0.07819369375838787,
+        "phi_numerator": 49000
+      }
+    ],
+    "states": 1430,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  },
+  {
+    "bridges": 8,
+    "claim_scope": "finite falsification only; no asymptotic inference",
+    "connected": true,
+    "connected_states": 4862,
+    "edges": 11440,
+    "minimum_bridge": {
+      "capacity_numerator": 15120,
+      "component_weight": 143640,
+      "edge": [
+        2570,
+        2581
+      ],
+      "phi_denominator": 1026,
+      "phi_float": 0.0009746588693957114,
+      "phi_numerator": 1,
+      "smaller_weight": 143640,
+      "states": [
+        [
+          2,
+          2,
+          3,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          4,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "r": 9,
+    "rate_normalization": "edge Q numerator times 2/[3r(r-1)(r+1)^(r-1)]",
+    "smallest_candidate_cuts": [
+      {
+        "boundary_capacity_numerator": 18874368,
+        "inside_weight": 56953279,
+        "name": "first_root_subtree_size_le_8",
+        "outside_weight": 43046721,
+        "phi_denominator": 129140163,
+        "phi_float": 0.004059836907593186,
+        "phi_numerator": 524288
+      },
+      {
+        "boundary_capacity_numerator": 23109732,
+        "inside_weight": 47516095,
+        "name": "first_root_subtree_size_le_7",
+        "outside_weight": 52483905,
+        "phi_denominator": 47516095,
+        "phi_float": 0.0045032951466234756,
+        "phi_numerator": 213979
+      },
+      {
+        "boundary_capacity_numerator": 25722468,
+        "inside_weight": 41868943,
+        "name": "first_root_subtree_size_le_6",
+        "outside_weight": 58131057,
+        "phi_denominator": 41868943,
+        "phi_float": 0.0056884884817846966,
+        "phi_numerator": 238171
+      },
+      {
+        "boundary_capacity_numerator": 27848718,
+        "inside_weight": 37459951,
+        "name": "first_root_subtree_size_le_5",
+        "outside_weight": 62540049,
+        "phi_denominator": 74919902,
+        "phi_float": 0.006883578144562976,
+        "phi_numerator": 515717
+      },
+      {
+        "boundary_capacity_numerator": 29913102,
+        "inside_weight": 33427951,
+        "name": "first_root_subtree_size_le_4",
+        "outside_weight": 66572049,
+        "phi_denominator": 200567706,
+        "phi_float": 0.008285675860499695,
+        "phi_numerator": 1661839
+      },
+      {
+        "boundary_capacity_numerator": 32275602,
+        "inside_weight": 29227951,
+        "name": "first_root_subtree_size_le_3",
+        "outside_weight": 70772049,
+        "phi_denominator": 175367706,
+        "phi_float": 0.010224738869538499,
+        "phi_numerator": 1793089
+      },
+      {
+        "boundary_capacity_numerator": 35634834,
+        "inside_weight": 24189103,
+        "name": "first_root_subtree_size_le_2",
+        "outside_weight": 75810897,
+        "phi_denominator": 145134618,
+        "phi_float": 0.013640529236105476,
+        "phi_numerator": 1979713
+      },
+      {
+        "boundary_capacity_numerator": 43046721,
+        "inside_weight": 16777216,
+        "name": "first_root_subtree_size_le_1",
+        "outside_weight": 83222784,
+        "phi_denominator": 67108864,
+        "phi_float": 0.023757264018058777,
+        "phi_numerator": 1594323
+      },
+      {
+        "boundary_capacity_numerator": 128701440,
+        "inside_weight": 34836480,
+        "name": "leaf_count_le_3",
+        "outside_weight": 65163520,
+        "phi_denominator": 3888,
+        "phi_float": 0.03420781893004115,
+        "phi_numerator": 133
+      },
+      {
+        "boundary_capacity_numerator": 127008000,
+        "inside_weight": 74844000,
+        "name": "leaf_count_le_4",
+        "outside_weight": 25156000,
+        "phi_denominator": 6289,
+        "phi_float": 0.04674829066624265,
+        "phi_numerator": 294
+      }
+    ],
+    "states": 4862,
+    "stationary_weight": "orbit(d)=r!/prod_i d_i!, total=(r+1)^(r-1)"
+  }
+]

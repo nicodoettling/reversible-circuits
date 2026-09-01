@@ -1,0 +1,47 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley coefficients",
+  "claim_tested": "right-heavy K_reset W <= W",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 0.040416717529296875,
+  "normalization": "g=q*(I-D)^-1*J_can*W; Dhat=rho*nu over every j>=1; reset term=(theta^2/Q)*(1-q_child)",
+  "parameters": {
+    "K_values": [
+      1
+    ],
+    "include_infinite": false,
+    "s_values": [
+      11
+    ]
+  },
+  "python": "3.12.3",
+  "result": {
+    "core_diagnostics": {
+      "max_contextual_mean_error": 0.0,
+      "max_group_mass_error": 4.440892098500626e-15,
+      "max_negative_roundoff": 0.0
+    },
+    "memoized_weighted_contexts": 627,
+    "overall_worst": {
+      "B": 5,
+      "K": 1,
+      "R": 0,
+      "q": 0.07837900257580542,
+      "ratio": 0.5391499615007597,
+      "s": 11,
+      "transformed_value": 0.038945893491382465
+    },
+    "rank_worst_rows": [
+      {
+        "B": 5,
+        "K": 1,
+        "R": 0,
+        "q": 0.07837900257580542,
+        "ratio": 0.5391499615007597,
+        "s": 11,
+        "transformed_value": 0.038945893491382465
+      }
+    ]
+  },
+  "seed": null,
+  "status_rule": "binary64 is discovery only; any candidate violation requires independent exact certification; survival proves no theorem"
+}

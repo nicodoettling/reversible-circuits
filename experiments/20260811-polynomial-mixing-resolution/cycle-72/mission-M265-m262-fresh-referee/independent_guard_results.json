@@ -1,0 +1,203 @@
+{
+  "checks": [
+    {
+      "distance_three_label": 5,
+      "edge_count": 7,
+      "exposed": [
+        6
+      ],
+      "label_six_rows": [
+        {
+          "black": 6,
+          "distance": 1,
+          "label": 6,
+          "white": 6
+        }
+      ],
+      "left_distance_one_labels": [
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "modulus": 14,
+      "rank": 8,
+      "residual": [
+        "S",
+        "S",
+        [
+          "B",
+          4,
+          9
+        ],
+        [
+          "B",
+          4,
+          8
+        ],
+        [
+          "B",
+          4,
+          7
+        ],
+        "S",
+        [
+          "W",
+          4,
+          7
+        ],
+        [
+          "W",
+          4,
+          8
+        ],
+        [
+          "W",
+          4,
+          9
+        ],
+        [
+          "W",
+          4,
+          10
+        ],
+        "S",
+        "S"
+      ],
+      "right_distance_one_prefix": [
+        8,
+        7,
+        6
+      ],
+      "right_distance_one_tail": [
+        4,
+        3,
+        2,
+        1,
+        14,
+        13,
+        12,
+        11
+      ],
+      "root": 8,
+      "stopped_path_prefix": [
+        4,
+        6,
+        1
+      ]
+    },
+    {
+      "distance_three_label": 5,
+      "edge_count": 8,
+      "exposed": [
+        6
+      ],
+      "label_six_rows": [
+        {
+          "black": 6,
+          "distance": 1,
+          "label": 6,
+          "white": 6
+        }
+      ],
+      "left_distance_one_labels": [
+        4,
+        3,
+        2,
+        1,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "modulus": 16,
+      "rank": 9,
+      "residual": [
+        "S",
+        "S",
+        [
+          "B",
+          4,
+          9
+        ],
+        [
+          "B",
+          4,
+          8
+        ],
+        [
+          "B",
+          4,
+          7
+        ],
+        "S",
+        [
+          "W",
+          4,
+          7
+        ],
+        [
+          "W",
+          4,
+          8
+        ],
+        [
+          "W",
+          4,
+          9
+        ],
+        [
+          "W",
+          4,
+          10
+        ],
+        "S",
+        "S"
+      ],
+      "right_distance_one_prefix": [
+        8,
+        7,
+        6
+      ],
+      "right_distance_one_tail": [
+        4,
+        3,
+        2,
+        1,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11
+      ],
+      "root": 9,
+      "stopped_path_prefix": [
+        4,
+        6,
+        1
+      ]
+    }
+  ],
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "holds": true,
+  "mission": "M265 independent rho=8,9 guard",
+  "rank_extension_added_labels": [
+    15,
+    16
+  ],
+  "rank_extension_residual_unchanged": true,
+  "scope": "finite guard only; universal claim audited analytically"
+}

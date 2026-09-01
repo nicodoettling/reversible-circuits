@@ -1,0 +1,39 @@
+{
+  "mission": "M189",
+  "verdict": "ACCEPT M186 strict reduction",
+  "material_objections": 0,
+  "nonmaterial_qualifications": [
+    "handle a=1 separately in M186 (4.10), where b_0 is otherwise undefined",
+    "explicitly cite summability of the critical-Borel masses in the low-face sum"
+  ],
+  "independently_verified": [
+    "lambda/Lambda closed normalization",
+    "fully combined CB signs and component Borel-Abel identity",
+    "J=1 rho_A/rho_B same-run and cross-run counts and exact tail",
+    "both J=1 weighted O(1/k) estimates",
+    "full combined singleton M_1(1)=O(1/n)",
+    "signed summation by parts and PCR/WPCR sufficiency"
+  ],
+  "exact_calibration": {
+    "k": [3, 5],
+    "source_accessible_states": [64, 810],
+    "all_assertions_passed": true,
+    "imports_M186_code_or_data": false,
+    "finite_asymptotic_or_sign_inference": false,
+    "seed": null
+  },
+  "unresolved": [
+    "PCR",
+    "WPCR",
+    "SCBR",
+    "BIR",
+    "BR",
+    "PCS-bound",
+    "FD-bound",
+    "FCL1",
+    "direct-L1",
+    "H0/gap",
+    "mixing",
+    "Terminals"
+  ]
+}

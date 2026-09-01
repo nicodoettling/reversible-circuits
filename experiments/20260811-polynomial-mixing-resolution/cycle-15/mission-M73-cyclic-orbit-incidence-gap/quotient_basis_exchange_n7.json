@@ -1,0 +1,268 @@
+{
+  "claim_tested": "Every UST basis exchange becomes one contiguous Hurwitz bubble modulo simultaneous endpoint conjugation; failing that, deterministic quotient shortest paths have small finite stationary-flow congestion.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/quotient_basis_exchange.py --n 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/quotient_basis_exchange_n7.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "parameters": [
+    7
+  ],
+  "python": "3.12.3",
+  "results": [
+    {
+      "first_one_bubble_failure": {
+        "added_edge": [
+          0,
+          4
+        ],
+        "removed_edge": [
+          0,
+          1
+        ],
+        "source_tree": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "source_word": [
+          0,
+          6,
+          11,
+          15,
+          18,
+          20
+        ],
+        "target_tree": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "target_word": [
+          20,
+          19,
+          10,
+          5,
+          6,
+          11
+        ]
+      },
+      "ideal_micro_directed_edges": 730170,
+      "ideal_micro_edges_reachable_by_one_contiguous_Hurwitz_bubble_mod_U": 68168,
+      "lexicographic_recovery_metadata_audit": {
+        "distinct_metadata_keys": 3662673,
+        "duplicate_metadata_key_groups": 142270,
+        "first_micro_collision": {
+          "distinct_micro_source_count": 4,
+          "distinct_micro_sources": [
+            {
+              "source_orbit": 141,
+              "source_word": [
+                0,
+                7,
+                15,
+                6,
+                18,
+                20
+              ],
+              "target_orbit": 5,
+              "target_word": [
+                6,
+                11,
+                15,
+                3,
+                18,
+                20
+              ]
+            },
+            {
+              "source_orbit": 189,
+              "source_word": [
+                0,
+                8,
+                6,
+                11,
+                18,
+                20
+              ],
+              "target_orbit": 39,
+              "target_word": [
+                11,
+                15,
+                8,
+                3,
+                18,
+                20
+              ]
+            },
+            {
+              "source_orbit": 448,
+              "source_word": [
+                0,
+                11,
+                8,
+                7,
+                18,
+                20
+              ],
+              "target_orbit": 1301,
+              "target_word": [
+                7,
+                6,
+                15,
+                3,
+                18,
+                20
+              ]
+            }
+          ],
+          "metadata": {
+            "added_Stanley_tree_edge": [
+              0,
+              4
+            ],
+            "path_time_zero_based": 2,
+            "removed_Stanley_tree_edge": [
+              0,
+              1
+            ],
+            "root_away_subtree_minmax": [
+              1,
+              6
+            ],
+            "source_U_phase": 0,
+            "used_directed_quotient_L_edge": [
+              0,
+              1
+            ]
+          }
+        },
+        "first_quotient_collision": {
+          "distinct_quotient_source_count": 4,
+          "distinct_quotient_sources": [
+            {
+              "source_orbit": 141,
+              "target_orbit": 5
+            },
+            {
+              "source_orbit": 189,
+              "target_orbit": 39
+            },
+            {
+              "source_orbit": 448,
+              "target_orbit": 1301
+            }
+          ],
+          "metadata": {
+            "added_Stanley_tree_edge": [
+              0,
+              4
+            ],
+            "path_time_zero_based": 2,
+            "removed_Stanley_tree_edge": [
+              0,
+              1
+            ],
+            "root_away_subtree_minmax": [
+              1,
+              6
+            ],
+            "source_U_phase": 0,
+            "used_directed_quotient_L_edge": [
+              0,
+              1
+            ]
+          }
+        },
+        "maximum_distinct_micro_sources_per_key": 13,
+        "maximum_distinct_quotient_sources_per_key": 13,
+        "metadata_definition": "used directed quotient-L edge; removed and added Stanley-tree edges; source U-orbit phase; zero-based path time; min/max labels of the root-away component after deleting the Stanley-tree edge",
+        "micro_source_collision_groups": 142270,
+        "micro_source_recovery_is_unique": false,
+        "path_use_records": 3820392,
+        "quotient_source_collision_groups": 142270,
+        "quotient_source_recovery_is_unique": false
+      },
+      "lexicographic_shortest_path_comparison_congestion": "81887/168",
+      "lexicographic_shortest_path_comparison_congestion_float": 487.42261904761904,
+      "local_fiber_sizes": [
+        2,
+        3
+      ],
+      "maximum_congestion_edge": {
+        "capacity": "1/15",
+        "edge": [
+          25,
+          3
+        ],
+        "load": "81887/2520",
+        "ratio": "81887/168",
+        "ratio_float": 487.42261904761904
+      },
+      "maximum_shortest_path_length": 12,
+      "n": 7,
+      "one_bubble_coverage_fraction": 0.09335908076201432,
+      "quotient_L_off_diagonal_directed_edges": 17150,
+      "quotient_UST_off_diagonal_directed_edges": 303954,
+      "quotient_states": 2401,
+      "shortest_quotient_L_path_length_histogram_for_UST_edges": {
+        "1": 12552,
+        "10": 1262,
+        "11": 134,
+        "12": 2,
+        "2": 10438,
+        "3": 24222,
+        "4": 33676,
+        "5": 54828,
+        "6": 61570,
+        "7": 59012,
+        "8": 35028,
+        "9": 11230
+      },
+      "states": 16807
+    }
+  ],
+  "scope_warning": "One-bubble failure is an exact structural refutation.  Finite path lengths and congestion do not prove an asymptotic comparison.",
+  "seed": null
+}

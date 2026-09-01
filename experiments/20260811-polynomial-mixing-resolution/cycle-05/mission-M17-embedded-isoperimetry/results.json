@@ -1,0 +1,288 @@
+{
+  "N3_certificate": {
+    "all_certificates_valid": true,
+    "equal_midpoint_pair": 0,
+    "states_checked": 6,
+    "unequal_midpoint_pair": 6
+  },
+  "N3_full_K_flow": {
+    "A_count": 6,
+    "flow": {
+      "decimal": 0.08641975308641975,
+      "fraction": "7/81"
+    },
+    "flow_by_block_length": {
+      "3": {
+        "decimal": 0.043209876543209874,
+        "fraction": "7/162"
+      },
+      "4": {
+        "decimal": 0.043209876543209874,
+        "fraction": "7/162"
+      }
+    },
+    "omega_size": 27,
+    "outward_conductance": {
+      "decimal": 0.3888888888888889,
+      "fraction": "7/18"
+    },
+    "pi_A": {
+      "decimal": 0.2222222222222222,
+      "fraction": "2/9"
+    },
+    "reverse_flow": {
+      "decimal": 0.08641975308641975,
+      "fraction": "7/81"
+    },
+    "smaller_side_conductance": {
+      "decimal": 0.3888888888888889,
+      "fraction": "7/18"
+    }
+  },
+  "N5_certificate": {
+    "all_certificates_valid": true,
+    "equal_midpoint_pair": 0,
+    "states_checked": 17280,
+    "unequal_midpoint_pair": 17280
+  },
+  "asymptotic_target": {
+    "expression": "|A|/|F| ~ (8 sqrt(2) e / s) 16^(-s)",
+    "limit_constant": 30.753848225272936
+  },
+  "calibration_counts": {
+    "S3_m4": 27,
+    "S4_m4": 120,
+    "S4_m6": 3936
+  },
+  "claim_tested": "For every s>=1, the balanced two-lobe midpoint-pinch cut has the stated exact count and every state has one exact H3 exit. A failed count, product, midpoint, or small-case full-flow check would refute the universal construction; finite survival alone does not prove it.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-05/mission-M17-embedded-isoperimetry/two_lobe_check.py --output experiments/20260811-polynomial-mixing-resolution/cycle-05/mission-M17-embedded-isoperimetry/results.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word=t1...tm",
+  "elapsed_seconds": 0.3393639689311385,
+  "formula_cases": [
+    {
+      "N": 3,
+      "conditional_mass_in_F": {
+        "decimal": 0.25,
+        "fraction": "1/4"
+      },
+      "connected_half_count": 1,
+      "cut_count": 6,
+      "full_macro_count": 24,
+      "global_pi_A": {
+        "decimal": 0.2222222222222222,
+        "fraction": "2/9"
+      },
+      "m": 4,
+      "omega_count": 27,
+      "proved_conductance_lower": {
+        "decimal": 0.013888888888888888,
+        "fraction": "1/72"
+      },
+      "s": 1,
+      "scaled_conditional_mass_s_times_16_power_s": 4.0
+    },
+    {
+      "N": 5,
+      "conditional_mass_in_F": {
+        "decimal": 0.017142857142857144,
+        "fraction": "3/175"
+      },
+      "connected_half_count": 24,
+      "cut_count": 17280,
+      "full_macro_count": 1008000,
+      "global_pi_A": {
+        "decimal": 0.009757529899375473,
+        "fraction": "864/88547"
+      },
+      "m": 8,
+      "omega_count": 1770940,
+      "proved_conductance_lower": {
+        "decimal": 0.0002777777777777778,
+        "fraction": "1/3600"
+      },
+      "s": 2,
+      "scaled_conditional_mass_s_times_16_power_s": 8.777142857142858
+    },
+    {
+      "N": 7,
+      "conditional_mass_in_F": {
+        "decimal": 0.0010096803099718553,
+        "fraction": "80/79233"
+      },
+      "connected_half_count": 2880,
+      "cut_count": 1161216000,
+      "full_macro_count": 1150082841600,
+      "global_pi_A": {
+        "decimal": 0.0003094707341689116,
+        "fraction": "55296000/178679254271"
+      },
+      "m": 12,
+      "omega_count": 3752264339691,
+      "proved_conductance_lower": {
+        "decimal": 3.779289493575208e-05,
+        "fraction": "1/26460"
+      },
+      "s": 3,
+      "scaled_conditional_mass_s_times_16_power_s": 12.406951648934156
+    },
+    {
+      "N": 9,
+      "conditional_mass_in_F": {
+        "decimal": 5.7568771687554395e-05,
+        "fraction": "4375/75996063"
+      },
+      "connected_half_count": 1008000,
+      "cut_count": 640120320000000,
+      "full_macro_count": 11119228380868608000,
+      "global_pi_A": {
+        "decimal": 8.506064701195732e-06,
+        "fraction": "592704000000/69680165954613673"
+      },
+      "m": 16,
+      "omega_count": 75254579230982766840,
+      "proved_conductance_lower": {
+        "decimal": 9.185773074661964e-06,
+        "fraction": "1/108864"
+      },
+      "s": 4,
+      "scaled_conditional_mass_s_times_16_power_s": 15.09130808526226
+    },
+    {
+      "N": 11,
+      "conditional_mass_in_F": {
+        "decimal": 3.2655827693667904e-06,
+        "fraction": "2939328/900092941319"
+      },
+      "connected_half_count": 783820800,
+      "cut_count": 1703047628933038080000,
+      "full_macro_count": 521514152055397400739840000,
+      "global_pi_A": {
+        "decimal": 2.13467887954113e-07,
+        "fraction": "30964502344237056000/145054615197641235485448421"
+      },
+      "m": 20,
+      "omega_count": 7978003835870267951699663155,
+      "proved_conductance_lower": {
+        "decimal": 3.060912151821243e-06,
+        "fraction": "1/326700"
+      },
+      "s": 5,
+      "scaled_conditional_mass_s_times_16_power_s": 17.121058589857757
+    },
+    {
+      "N": 13,
+      "conditional_mass_in_F": {
+        "decimal": 1.857523764060348e-07,
+        "fraction": "190238433/1024150735946221"
+      },
+      "connected_half_count": 1150082841600,
+      "cut_count": 15888158797023281055006720000,
+      "full_macro_count": 85534080933066866723375889776640000,
+      "global_pi_A": {
+        "decimal": 4.995565946512208e-09,
+        "fraction": "101847171775790263173120000/20387514220865739504011750406840427"
+      },
+      "m": 24,
+      "omega_count": 3180452218455055362625833063467106612,
+      "proved_conductance_lower": {
+        "decimal": 1.2451935528858606e-06,
+        "fraction": "1/803088"
+      },
+      "s": 6,
+      "scaled_conditional_mass_s_times_16_power_s": 18.698446448864097
+    },
+    {
+      "N": 15,
+      "conditional_mass_in_F": {
+        "decimal": 1.0619869531025321e-08,
+        "fraction": "153545080832/14458283162841796875"
+      },
+      "connected_half_count": 2856658246041600,
+      "cut_count": 420102351309196180416908545228800000,
+      "full_macro_count": 39558146178904742612006784000000000000000000,
+      "global_pi_A": {
+        "decimal": 1.1023517066852246e-10,
+        "fraction": "1333658258124432318783836651520000/12098300842067431109675291058111356666927033"
+      },
+      "m": 28,
+      "omega_count": 3810964765251240799547716683305077350082015395,
+      "proved_conductance_lower": {
+        "decimal": 5.814291528577243e-07,
+        "fraction": "1/1719900"
+      },
+      "s": 7,
+      "scaled_conditional_mass_s_times_16_power_s": 19.955246641549017
+    },
+    {
+      "N": 17,
+      "conditional_mass_in_F": {
+        "decimal": 6.1054843552247e-10,
+        "fraction": "40387423716783/66149418075605927169727"
+      },
+      "connected_half_count": 11119228380868608000,
+      "cut_count": 27050591692760107836753128251258306560000000,
+      "full_macro_count": 44305398423651457389077257532373645507837296640000000,
+      "global_pi_A": {
+        "decimal": 2.3097887070415483e-12,
+        "fraction": "99450704752794514105710030335508480000000/43056191438468924660926909607534137986463557200970143"
+      },
+      "m": 32,
+      "omega_count": 11711284071263547507772119413249285532318087558663878896,
+      "proved_conductance_lower": {
+        "decimal": 3.0036524413687045e-07,
+        "fraction": "1/3329280"
+      },
+      "s": 8,
+      "scaled_conditional_mass_s_times_16_power_s": 20.978284505543787
+    },
+    {
+      "N": 19,
+      "conditional_mass_in_F": {
+        "decimal": 3.529050163166173e-11,
+        "fraction": "4420000000000000/125246165275091760566940777"
+      },
+      "connected_half_count": 64023737057280000000000,
+      "cut_count": 3786610161304977421907842301952000000000000000000000,
+      "full_macro_count": 107298281017001147818913591525676503228578292439397171200000000,
+      "global_pi_A": {
+        "decimal": 4.618201365781991e-14,
+        "fraction": "1173809651309776426814668800000000000000000000/25417030535025566594737616348487965388761185406591890546961"
+      },
+      "m": 36,
+      "omega_count": 81993180058397000661462997642832554867085539420905878593799694315,
+      "proved_conductance_lower": {
+        "decimal": 1.6763998441618705e-07,
+        "fraction": "1/5965164"
+      },
+      "s": 9,
+      "scaled_conditional_mass_s_times_16_power_s": 21.826303252908733
+    },
+    {
+      "N": 21,
+      "conditional_mass_in_F": {
+        "decimal": 2.0500179736710893e-12,
+        "fraction": "14841762745933808003/7239820790134722290249607802335"
+      },
+      "connected_half_count": 521514152055397400739840000,
+      "cut_count": 1055237076731614960997922924553528279259182274288025600000000,
+      "full_macro_count": 514745280424024318836054314262237142175947536399003411485294592000000000,
+      "global_pi_A": {
+        "decimal": 8.843825358919018e-16,
+        "fraction": "279163247812596550528551038241674147952164622827520000000/315658933191234696536127047660472562189480866063950618058896989028894267"
+      },
+      "m": 40,
+      "omega_count": 1193190767462867152906560240156586285076237673721733336262630618529220329260,
+      "proved_conductance_lower": {
+        "decimal": 9.945498667303179e-08,
+        "fraction": "1/10054800"
+      },
+      "s": 10,
+      "scaled_conditional_mass_s_times_16_power_s": 22.540185992011565
+    }
+  ],
+  "kernel": "K=I/2 plus total mass 1/2 split uniformly over R_m, legal windows, and exact same-product conditional blocks",
+  "python": "3.12.3",
+  "seed": null,
+  "target": "global uniform identity bridge law"
+}

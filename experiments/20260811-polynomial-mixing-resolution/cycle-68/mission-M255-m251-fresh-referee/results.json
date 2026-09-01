@@ -1,0 +1,29 @@
+{
+  "mission": "M255",
+  "source": "M251 immutable",
+  "source_sha256sums_digest": "c4cee2dc9596bb54503f85a7b32b91b360fe22d1aa981eb0dce7e3d7657c04fd",
+  "source_entries_verified": 11,
+  "verdict": "ACCEPT",
+  "accepted": {
+    "paired_domain_identity": "proved",
+    "borel_global_increment": "3/R",
+    "borel_far_remainder": "120 sqrt(t)/(R r)",
+    "head_response": "2300 sqrt(t)",
+    "seam_profile_variation": "8 sqrt(ell)",
+    "Y_DV": "18400 sqrt(ell)"
+  },
+  "unresolved": ["TAV", "X_DV", "full_DV"],
+  "downstream_inference": false,
+  "certificate": {
+    "script": "cleanroom_check.py",
+    "bounded_k": [3, 5, 7],
+    "assertions": 952,
+    "status": "pass",
+    "imports": 0,
+    "finite_only": true,
+    "universal_inference": false
+  },
+  "material_objections": 0,
+  "nonmaterial_qualifications": 2
+}
+

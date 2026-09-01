@@ -1,0 +1,176 @@
+{
+  "M152_local_polarization": {
+    "positive_budget_margin": {
+      "decimal": 0.025580170561869287,
+      "denominator": "223395363274892426079078092636160000000000000000000",
+      "numerator": "5714491495302498676679596453643417785239504603683"
+    },
+    "state_s_kappa_D_B": [
+      9,
+      2,
+      1,
+      3
+    ],
+    "value": {
+      "decimal": 0.8985192505618693,
+      "denominator": "223395363274892426079078092636160000000000000000000",
+      "numerator": "200725034388752880197118033887607702918039504603683"
+    }
+  },
+  "claim": "fresh exact audit of frozen M157 two-beta representation",
+  "d1_state_dependent_coefficients": [
+    {
+      "decimal": 2.0,
+      "denominator": "1",
+      "numerator": "2"
+    },
+    {
+      "decimal": 1.5,
+      "denominator": "2",
+      "numerator": "3"
+    }
+  ],
+  "diagonal_trace": {
+    "all_trace_inequalities_valid": true,
+    "checked_rows": 21,
+    "first_failure_positive_budget_margin": {
+      "decimal": 0.010473212954822111,
+      "denominator": "12663621893778357952841743000389707366400000",
+      "numerator": "132628808872888410508233058471582685297059"
+    },
+    "first_failure_state_s_kappa_D_B": [
+      8,
+      2,
+      1,
+      2
+    ],
+    "first_failure_trace": {
+      "decimal": 0.8136933467252898,
+      "denominator": "12663621893778357952841743000389707366400000",
+      "numerator": "10304304880412164262179965176912695056497059"
+    }
+  },
+  "exact_equality_rows": [
+    {
+      "direct_H_over_q": {
+        "decimal": 0.058521412037037035,
+        "denominator": "13824",
+        "numerator": "809"
+      },
+      "kernel_coefficient_sha256": "ece54869fea96a4421c21946192d71434ce49072a748fae4c2e822e290f5a553",
+      "kernel_terms": 9,
+      "represented_H_over_q": {
+        "decimal": 0.058521412037037035,
+        "denominator": "13824",
+        "numerator": "809"
+      },
+      "reset_direct": {
+        "decimal": 0.058521412037037035,
+        "denominator": "13824",
+        "numerator": "809"
+      },
+      "reset_two_copy": {
+        "decimal": 0.058521412037037035,
+        "denominator": "13824",
+        "numerator": "809"
+      },
+      "state_s_kappa_D_B": [
+        3,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "direct_H_over_q": {
+        "decimal": 0.4386703515133891,
+        "denominator": "354227185839954068610957846164747059200000",
+        "numerator": "155388964128011262503320903402940849315591"
+      },
+      "kernel_coefficient_sha256": "88e6e6de44492c881353ebd5ab94e280d1b683f5af728be6b16214172ef5aef0",
+      "kernel_terms": 49,
+      "represented_H_over_q": {
+        "decimal": 0.4386703515133891,
+        "denominator": "354227185839954068610957846164747059200000",
+        "numerator": "155388964128011262503320903402940849315591"
+      },
+      "reset_direct": {
+        "decimal": 0.33425033418976596,
+        "denominator": "1004990091356065556320145280000",
+        "numerator": "335918273893168364817679980313"
+      },
+      "reset_two_copy": {
+        "decimal": 0.33425033418976596,
+        "denominator": "1004990091356065556320145280000",
+        "numerator": "335918273893168364817679980313"
+      },
+      "state_s_kappa_D_B": [
+        8,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "direct_H_over_q": {
+        "decimal": 0.5663747546876134,
+        "denominator": "1562205337586660322231315333120000000000000000000",
+        "numerator": "884793664847325174104678035065147237189087444781"
+      },
+      "kernel_coefficient_sha256": "771567a049b76b2a546874b32de3170b8d1be32b3c7293c1a36cd9d84dec28f4",
+      "kernel_terms": 49,
+      "represented_H_over_q": {
+        "decimal": 0.5663747546876134,
+        "denominator": "1562205337586660322231315333120000000000000000000",
+        "numerator": "884793664847325174104678035065147237189087444781"
+      },
+      "reset_direct": {
+        "decimal": 0.3843167145391771,
+        "denominator": "152536634460000000000000000000",
+        "numerator": "58622378202530621387204787973"
+      },
+      "reset_two_copy": {
+        "decimal": 0.3843167145391771,
+        "denominator": "152536634460000000000000000000",
+        "numerator": "58622378202530621387204787973"
+      },
+      "state_s_kappa_D_B": [
+        9,
+        2,
+        1,
+        3
+      ]
+    }
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "posterior_RN_rows": 504,
+  "python": "3.12.3",
+  "retained_killed_mass_rows": 16,
+  "scope": "auxiliary normalized full unweighted reset excursion only",
+  "seed": null,
+  "smallest_sign_witness": {
+    "all_retained_likelihood_products_vanish": true,
+    "full_value": {
+      "decimal": -0.322265625,
+      "denominator": "512",
+      "numerator": "-165"
+    },
+    "lower_rank_reset_kernels_zero": true,
+    "point": [
+      "0",
+      "1"
+    ],
+    "reset_value": {
+      "decimal": -0.322265625,
+      "denominator": "512",
+      "numerator": "-165"
+    },
+    "state_s_kappa_D_B": [
+      3,
+      2,
+      1,
+      1
+    ]
+  }
+}

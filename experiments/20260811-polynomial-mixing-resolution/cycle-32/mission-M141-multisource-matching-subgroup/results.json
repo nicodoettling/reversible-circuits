@@ -1,0 +1,1543 @@
+{
+  "abstract_d3_pairwise_full_counterexample": {
+    "common_parity_group_order": 54,
+    "common_parity_pair_order": 18,
+    "d": 3,
+    "description": "kernel x1*x2*x3=id in A3^3, extended by one simultaneous odd tuple",
+    "pair_projection_orders": {
+      "1,2": 18,
+      "1,3": 18,
+      "2,3": 18
+    },
+    "proper_with_all_pair_projections_full": true,
+    "r": 3,
+    "smallest_possible_arity": 3,
+    "subgroup_order": 18
+  },
+  "actual_d3_matching_rows": [
+    {
+      "adjacent_index": 1,
+      "global_orbits": 4,
+      "matching_colors": [
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 0,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  2,
+                  3
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  2,
+                  4
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  3,
+                  4
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  2,
+                  3,
+                  4
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  5,
+                  1,
+                  6
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  5,
+                  1,
+                  7
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  5,
+                  6,
+                  7
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  1,
+                  6,
+                  7
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  5,
+                  1,
+                  6,
+                  7
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 1,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 1,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  9,
+                  10
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  9,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  10,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  9,
+                  10,
+                  11
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  19,
+                  20,
+                  21
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  19,
+                  20,
+                  12
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  19,
+                  21,
+                  12
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  20,
+                  21,
+                  12
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  19,
+                  20,
+                  21,
+                  12
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 1,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 2,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  12,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  12,
+                  14,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  13,
+                  14,
+                  15
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  12,
+                  13,
+                  14,
+                  15
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  16,
+                  17
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  16,
+                  18
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  17,
+                  18
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  16,
+                  17,
+                  18
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  16,
+                  17,
+                  18
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "adjacent_index": 2,
+      "global_orbits": 4,
+      "matching_colors": [
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 0,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  3,
+                  4,
+                  9
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  3,
+                  4,
+                  12
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  3,
+                  9,
+                  12
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  4,
+                  9,
+                  12
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  3,
+                  4,
+                  9,
+                  12
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  20,
+                  5,
+                  1
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  20,
+                  5,
+                  13
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  20,
+                  1,
+                  13
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  5,
+                  1,
+                  13
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  20,
+                  5,
+                  1,
+                  13
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 1,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  10
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  10,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  10,
+                  14
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  10,
+                  14
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  18,
+                  10,
+                  8
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  18,
+                  10,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  18,
+                  8,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  10,
+                  8,
+                  11
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  18,
+                  10,
+                  8,
+                  11
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 1,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 2,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  11,
+                  13
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  11,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  11,
+                  13,
+                  15
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  6,
+                  14,
+                  12
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  6,
+                  14,
+                  7
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  6,
+                  12,
+                  7
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  14,
+                  12,
+                  7
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  6,
+                  14,
+                  12,
+                  7
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "adjacent_index": 3,
+      "global_orbits": 4,
+      "matching_colors": [
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 0,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  3,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  4,
+                  11
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  3,
+                  4,
+                  11
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  2,
+                  3,
+                  4,
+                  11
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  4,
+                  3
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  4,
+                  2
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  3,
+                  2
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  4,
+                  3,
+                  2
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  11,
+                  4,
+                  3,
+                  2
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 1,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  10
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  10,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  8,
+                  10,
+                  14
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  0,
+                  8,
+                  10,
+                  14
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  23,
+                  13,
+                  9
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  23,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  23,
+                  9,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  13,
+                  9,
+                  15
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  23,
+                  13,
+                  9,
+                  15
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        },
+        {
+          "aligned_source_target_comparison_by_width": {
+            "1": {
+              "equal_literal_subgroups": 4,
+              "order_pair_histogram": {
+                "6,6": 4
+              },
+              "subsets": 4
+            },
+            "2": {
+              "equal_literal_subgroups": 6,
+              "order_pair_histogram": {
+                "18,18": 6
+              },
+              "subsets": 6
+            },
+            "3": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 4
+              },
+              "subsets": 4
+            },
+            "4": {
+              "equal_literal_subgroups": 0,
+              "order_pair_histogram": {
+                "18,18": 1
+              },
+              "subsets": 1
+            }
+          },
+          "color": 2,
+          "distinct_source_global_orbits": 4,
+          "distinct_target_global_orbits": 4,
+          "edges": 4,
+          "source": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  9,
+                  12,
+                  13
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  9,
+                  12,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  9,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  12,
+                  13,
+                  15
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  9,
+                  12,
+                  13,
+                  15
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          },
+          "target": {
+            "all_nonempty_subsets_checked": 15,
+            "common_parity_group_failures": [
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  10,
+                  1,
+                  8
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  10,
+                  1,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  10,
+                  8,
+                  14
+                ]
+              },
+              {
+                "expected_order": 54,
+                "observed_order": 18,
+                "subset": [
+                  1,
+                  8,
+                  14
+                ]
+              },
+              {
+                "expected_order": 162,
+                "observed_order": 18,
+                "subset": [
+                  10,
+                  1,
+                  8,
+                  14
+                ]
+              }
+            ],
+            "order_histogram_by_width": {
+              "1": {
+                "6": 4
+              },
+              "2": {
+                "18": 6
+              },
+              "3": {
+                "18": 4
+              },
+              "4": {
+                "18": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "command": "python3 -B multisource_subgroup_audit.py",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "dependencies": {},
+  "experiment": "M141 multisource matching subgroup exceptional-rank audit",
+  "frozen_read_only_dependency": {
+    "path": "experiments/20260811-polynomial-mixing-resolution/cycle-31/mission-M137-m135-fresh-referee/independent_referee.py",
+    "sha256": "bb62d449c7cad72a448389f9f7dd7ee76618e8c71b68189db20e19f4e2244341"
+  },
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "universal_claim": "proved separately for d>=5; finite data are exception audits only"
+}

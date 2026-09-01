@@ -1,0 +1,122 @@
+{
+  "N": 3,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M68-intermediate-exterior-layer-action/colored_handle_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M74-m68-fresh-referee/colored-handle-rerun.json"
+  ],
+  "claim_tested": "Transporting only two marked branch-point colors preserves the property that adjacent marks form a canceling equal square.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab); colors swap with branch points",
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "marked_edges": [
+    0,
+    1
+  ],
+  "marked_edges_equal": false,
+  "marked_positions_zero_based": [
+    1,
+    2
+  ],
+  "nonstandard_dependencies": {},
+  "orbit_states_discovered_before_witness": 32,
+  "path_length": 2,
+  "path_zero_based_generator_and_sign": [
+    [
+      1,
+      -1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "python": "3.12.3",
+  "scope_warning": "One exact orbit witness refutes the colors-only invariant; it does not refute an enriched arc/history state space.",
+  "seed": null,
+  "start": [
+    [
+      1,
+      true
+    ],
+    [
+      1,
+      true
+    ],
+    [
+      0,
+      false
+    ],
+    [
+      0,
+      false
+    ],
+    [
+      2,
+      false
+    ],
+    [
+      2,
+      false
+    ]
+  ],
+  "start_deleted_product": [
+    0,
+    1,
+    2
+  ],
+  "start_product": [
+    0,
+    1,
+    2
+  ],
+  "witness": [
+    [
+      2,
+      false
+    ],
+    [
+      0,
+      true
+    ],
+    [
+      1,
+      true
+    ],
+    [
+      0,
+      false
+    ],
+    [
+      2,
+      false
+    ],
+    [
+      2,
+      false
+    ]
+  ],
+  "witness_deleted_product": [
+    2,
+    0,
+    1
+  ],
+  "witness_product": [
+    0,
+    1,
+    2
+  ]
+}

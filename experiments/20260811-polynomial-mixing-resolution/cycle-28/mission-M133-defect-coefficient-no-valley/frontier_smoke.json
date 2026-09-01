@@ -1,0 +1,37 @@
+{
+  "arguments": {
+    "case": [
+      "8:2"
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-28/mission-M133-defect-coefficient-no-valley/frontier_smoke.json"
+  },
+  "claim_scope": "exact finite falsification only; no asymptotic inference",
+  "elapsed_seconds": 0.015266895294189453,
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "m125_core": "experiments/20260811-polynomial-mixing-resolution/cycle-26/mission-M125-defect-mass-no-valley/defect_species.py",
+  "m125_core_sha256": "74cd0159ac62404db172ff3830a1ef58f9f7a105eb2f595b438af66c24c3dde9",
+  "python": "3.12.3",
+  "records": [
+    {
+      "center_defect": 2,
+      "cycle_type_counts_by_defect": {
+        "1": 1,
+        "2": 2,
+        "3": 3
+      },
+      "d": 8,
+      "elapsed_seconds": 0.011949300765991211,
+      "lc_margin": 1294163930501790204606490121601024000,
+      "lc_ratio_denominator": 3065556385593140803488,
+      "lc_ratio_float": 1.4600344727920804,
+      "lc_ratio_numerator": 4475818001253877050125,
+      "masses_by_defect": {
+        "1": 817445595926937600,
+        "2": 2026660543020288000,
+        "3": 3441438843331829760
+      }
+    }
+  ],
+  "seed": null,
+  "target": "H[d,d-r]=M[d,r] for the accepted M125/M129 recurrence"
+}

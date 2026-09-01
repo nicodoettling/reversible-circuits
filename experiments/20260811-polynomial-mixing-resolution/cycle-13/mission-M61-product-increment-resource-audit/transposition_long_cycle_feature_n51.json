@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "scope_warning": "Exact counts but floating cyclotomic sums; finite values are not asymptotic proof.",
+  "records": [
+    {
+      "n": 31,
+      "bridge_length": 30,
+      "variance": 2.0658662987450187,
+      "covariance_real": 0.3230669901385979,
+      "covariance_imag": 0.06639195420738457,
+      "kappa_real": 0.15638330047537735,
+      "kappa_imag": 0.03213758520951556,
+      "kappa_abs": 0.15965137346941627,
+      "sqrt_n_times_kappa_abs": 0.8889012276798822,
+      "feasible_ordered_first_pairs": 139345
+    },
+    {
+      "n": 41,
+      "bridge_length": 40,
+      "variance": 1.7861053588723153,
+      "covariance_real": 0.24956820537238242,
+      "covariance_imag": 0.03854817620302757,
+      "kappa_real": 0.13972759453000638,
+      "kappa_imag": 0.021582252139574536,
+      "kappa_abs": 0.14138456167686075,
+      "sqrt_n_times_kappa_abs": 0.9053029136719265,
+      "feasible_ordered_first_pairs": 437060
+    },
+    {
+      "n": 51,
+      "bridge_length": 50,
+      "variance": 1.5959473160581157,
+      "covariance_real": 0.20357519201185667,
+      "covariance_imag": 0.025208071703744034,
+      "kappa_real": 0.12755758912811355,
+      "kappa_imag": 0.01579505253720173,
+      "kappa_abs": 0.12853179462230188,
+      "sqrt_n_times_kappa_abs": 0.9179006120873378,
+      "feasible_ordered_first_pairs": 1062075
+    }
+  ]
+}

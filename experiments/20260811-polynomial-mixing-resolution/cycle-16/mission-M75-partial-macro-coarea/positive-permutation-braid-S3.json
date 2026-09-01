@@ -1,0 +1,197 @@
+{
+  "N": 3,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/positive_permutation_braid_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/positive-permutation-braid-S3.json"
+  ],
+  "claim_tested": "Every connected genus-one S_3 length-six identity word has inverse-polynomial marked endpoint probability under a uniform positive permutation braid.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "component_length": 6,
+  "connected_identity_word_count": 240,
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab); canonical positive permutation braid",
+  "edge_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "elapsed_seconds": 1.555372531991452,
+  "endpoint_checks": 172800,
+  "hit_count_histogram": {
+    "608": 18,
+    "624": 18,
+    "628": 24,
+    "632": 48,
+    "636": 24,
+    "640": 6,
+    "648": 24,
+    "672": 60,
+    "720": 18
+  },
+  "maximum_positive_braid_length": 15,
+  "minimum_marked_endpoint_count": 608,
+  "minimum_marked_endpoint_probability": [
+    608,
+    720
+  ],
+  "minimum_words_edge_indices": [
+    [
+      0,
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      2,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      2,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      2,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      1,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      0,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      2,
+      1,
+      0,
+      2
+    ]
+  ],
+  "nonstandard_dependencies": {},
+  "permutation_count": 720,
+  "python": "3.12.3",
+  "scope_warning": "A finite S_3 result can refute this named universal statement if the minimum is zero, but positive survival cannot prove an asymptotic cover.",
+  "seed": null
+}

@@ -1,0 +1,262 @@
+{
+  "L1": {
+    "R_1": {
+      "denominator": 2,
+      "numerator": 1
+    },
+    "eta": {
+      "denominator": 1,
+      "numerator": 1
+    }
+  },
+  "R_bases": [
+    {
+      "R_d": {
+        "denominator": 4,
+        "numerator": 3
+      },
+      "degree": 2,
+      "linear_slack": {
+        "denominator": 1,
+        "numerator": 0
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 700,
+        "numerator": 649
+      },
+      "degree": 3,
+      "linear_slack": {
+        "denominator": 1400,
+        "numerator": 277
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 105,
+        "numerator": 113
+      },
+      "degree": 4,
+      "linear_slack": {
+        "denominator": 210,
+        "numerator": 89
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 3234,
+        "numerator": 3919
+      },
+      "degree": 5,
+      "linear_slack": {
+        "denominator": 12936,
+        "numerator": 8579
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 3696,
+        "numerator": 4951
+      },
+      "degree": 6,
+      "linear_slack": {
+        "denominator": 3696,
+        "numerator": 3365
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 154440,
+        "numerator": 225763
+      },
+      "degree": 7,
+      "linear_slack": {
+        "denominator": 77220,
+        "numerator": 89821
+      }
+    }
+  ],
+  "aggregate_rows": [
+    {
+      "aggregate": {
+        "denominator": 4,
+        "numerator": 1
+      },
+      "first_moment": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 1
+    },
+    {
+      "aggregate": {
+        "denominator": 700,
+        "numerator": 139
+      },
+      "first_moment": {
+        "denominator": 16,
+        "numerator": 9
+      },
+      "n": 2
+    },
+    {
+      "aggregate": {
+        "denominator": 20956320,
+        "numerator": 3420377
+      },
+      "first_moment": {
+        "denominator": 1296,
+        "numerator": 625
+      },
+      "n": 4
+    },
+    {
+      "aggregate": {
+        "denominator": 17782765000000000,
+        "numerator": 2525050317576583
+      },
+      "first_moment": {
+        "denominator": 100000000,
+        "numerator": 43046721
+      },
+      "n": 8
+    }
+  ],
+  "amv": {
+    "T1": {
+      "denominator": 240240,
+      "numerator": 107209
+    },
+    "degree": 3,
+    "first_mode": {
+      "denominator": 212520,
+      "numerator": 23993
+    },
+    "observation": 1,
+    "parent_beta": [
+      2,
+      3
+    ],
+    "pi": {
+      "denominator": 35,
+      "numerator": 12
+    },
+    "six_terms": [
+      {
+        "denominator": 96,
+        "numerator": 89
+      },
+      {
+        "denominator": 176,
+        "numerator": 9
+      },
+      {
+        "denominator": 1064800,
+        "numerator": 207829
+      },
+      {
+        "denominator": 3432,
+        "numerator": -5
+      },
+      {
+        "denominator": 3460600,
+        "numerator": -29871
+      },
+      {
+        "denominator": 20763600,
+        "numerator": 121073
+      }
+    ],
+    "trace": {
+      "denominator": 4784,
+      "numerator": 2675
+    }
+  },
+  "claim": "independent audit of M173 AMV algebra and fresh h=1 terminal sector",
+  "environment": {
+    "dependencies": "Python standard library only",
+    "python": "3.12.3",
+    "seed": null
+  },
+  "exterior_rows": [
+    {
+      "B": 2,
+      "L": 2,
+      "eta": {
+        "denominator": 3,
+        "numerator": 1
+      },
+      "r": 1,
+      "r_equals_n": true
+    },
+    {
+      "B": 3,
+      "L": 4,
+      "eta": {
+        "denominator": 125,
+        "numerator": 18
+      },
+      "r": 1,
+      "r_equals_n": false
+    },
+    {
+      "B": 3,
+      "L": 4,
+      "eta": {
+        "denominator": 125,
+        "numerator": 1
+      },
+      "r": 3,
+      "r_equals_n": true
+    },
+    {
+      "B": 5,
+      "L": 5,
+      "eta": {
+        "denominator": 81,
+        "numerator": 5
+      },
+      "r": 2,
+      "r_equals_n": false
+    },
+    {
+      "B": 5,
+      "L": 5,
+      "eta": {
+        "denominator": 1296,
+        "numerator": 1
+      },
+      "r": 4,
+      "r_equals_n": true
+    }
+  ],
+  "failures": [],
+  "operator_witnesses": [
+    {
+      "charge": {
+        "denominator": 35,
+        "numerator": 18
+      },
+      "degree": 2
+    },
+    {
+      "charge": {
+        "denominator": 63,
+        "numerator": 32
+      },
+      "degree": 3
+    }
+  ],
+  "status": "pass",
+  "varying_norm_max_domination": {
+    "charge": {
+      "denominator": 1225,
+      "numerator": 683
+    },
+    "max_bound": {
+      "denominator": 525,
+      "numerator": 452
+    }
+  }
+}

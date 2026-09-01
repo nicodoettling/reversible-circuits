@@ -1,0 +1,71 @@
+{
+  "claim_tested": "For every contextual suffix observable, E[phi|C] is exactly the stated K,R,k,t,B two-chain-shuffle formula.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/closed_mean_formula.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/closed_mean_formula_r7.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "One mismatch refutes the universal formula. Empty finite failure lists prove no universal statement.",
+  "formula": {
+    "last_equal_B": "K*binom(k+K-R-2,K-R-1)/binom(k+K-1,K-1)",
+    "last_greater_B": "w(t-B)w(B)/w(t) * [1-binom(K,R+1)/binom(K+k,R+1)]",
+    "last_less_B": "0",
+    "w(t)": "t^(t-1)/t!"
+  },
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "ambient_r": 2,
+      "composition_count": 1,
+      "context_count": 1,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 2,
+      "raw_factorization_count": 3
+    },
+    {
+      "ambient_r": 3,
+      "composition_count": 6,
+      "context_count": 4,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 5,
+      "raw_factorization_count": 16
+    },
+    {
+      "ambient_r": 4,
+      "composition_count": 25,
+      "context_count": 12,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 14,
+      "raw_factorization_count": 125
+    },
+    {
+      "ambient_r": 5,
+      "composition_count": 88,
+      "context_count": 32,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 42,
+      "raw_factorization_count": 1296
+    },
+    {
+      "ambient_r": 6,
+      "composition_count": 280,
+      "context_count": 80,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 132,
+      "raw_factorization_count": 16807
+    },
+    {
+      "ambient_r": 7,
+      "composition_count": 832,
+      "context_count": 192,
+      "failure_count": 0,
+      "failure_rows": [],
+      "macro_count": 429,
+      "raw_factorization_count": 262144
+    }
+  ],
+  "seed": null
+}

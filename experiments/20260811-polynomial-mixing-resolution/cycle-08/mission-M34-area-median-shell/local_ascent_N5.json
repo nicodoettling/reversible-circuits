@@ -1,0 +1,127 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M34-area-median-shell/exact_local_area_ascent.py",
+    "--N",
+    "5",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M34-area-median-shell/local_ascent_N5.json"
+  ],
+  "claim_tested": "Every nonmaximum-area state of F_N has a strictly area-increasing same-product heat-bath outcome in some r=3,4,5 window.",
+  "composition": "(pq)(x)=p(q(x)); word products left-to-right",
+  "purpose": "Complete finite falsifier only; no finite-to-universal inference.",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "result": {
+    "N": 5,
+    "adjacent_pair_zero_gain_counts_by_area": {
+      "16": 375000
+    },
+    "admissible_quarter_to_half_quantiles": [
+      {
+        "conditional_mass": [
+          427440,
+          1008000
+        ],
+        "lower_tail_count": 427440,
+        "q": 12
+      }
+    ],
+    "area_counts": {
+      "4": 3000,
+      "6": 23400,
+      "8": 60600,
+      "10": 132840,
+      "12": 207600,
+      "14": 205560,
+      "16": 375000
+    },
+    "dyck_path_counts": {
+      "UDUDUDUD": 3000,
+      "UDUDUUDD": 7800,
+      "UDUUDDUD": 7800,
+      "UDUUDUDD": 20160,
+      "UDUUUDDD": 40440,
+      "UUDDUDUD": 7800,
+      "UUDDUUDD": 20280,
+      "UUDUDDUD": 20160,
+      "UUDUDUDD": 51960,
+      "UUDUUDDD": 103800,
+      "UUUDDDUD": 40440,
+      "UUUDDUDD": 103800,
+      "UUUDUDDD": 205560,
+      "UUUUDDDD": 375000
+    },
+    "elapsed_seconds": 49.904231548309326,
+    "expected_orbit_size": 1008000,
+    "first_nonmaximum_adjacent_pair_zero_gain_witness": null,
+    "first_nonmaximum_zero_gain_witness": null,
+    "first_zero_gain_witness": {
+      "area": 16,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "heights": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "maximum_possible_area": 16
+    },
+    "m": 8,
+    "maximum_adjacent_pair_gain_counts": {
+      "0": 375000,
+      "2": 633000
+    },
+    "maximum_one_window_gain_counts": {
+      "0": 375000,
+      "2": 205560,
+      "4": 215400,
+      "6": 135840,
+      "8": 60600,
+      "10": 15600
+    },
+    "maximum_possible_area": 16,
+    "orbit_size": 1008000,
+    "zero_gain_counts_by_area": {
+      "16": 375000
+    }
+  },
+  "seed": null
+}

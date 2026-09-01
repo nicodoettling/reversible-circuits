@@ -1,0 +1,121 @@
+{
+  "all_checks_pass": true,
+  "boundary_checks": {
+    "d2_one_state": true,
+    "d4_ordinary_log_concavity_margin": 1612549,
+    "d4_primitive": [
+      627,
+      1520,
+      1113
+    ],
+    "d4_ulc_cleared_margin": -481004,
+    "d4_ulc_refuted": true
+  },
+  "claim_scope": "exact finite audit of the recurrence and boundary handling; not a universal no-valley or mixing proof",
+  "colour_symmetry_tests": 204,
+  "direct_cycle_type_cases": 13,
+  "direct_partition_pair_tests": 3278,
+  "elapsed_seconds": 0.029865026473999023,
+  "failure_count": 0,
+  "failures": [],
+  "frozen_checks": [
+    {
+      "d": 2,
+      "expected": [
+        1
+      ],
+      "observed": [
+        1
+      ],
+      "ok": true
+    },
+    {
+      "d": 3,
+      "expected": [
+        144,
+        192
+      ],
+      "observed": [
+        144,
+        192
+      ],
+      "ok": true
+    },
+    {
+      "d": 4,
+      "expected": [
+        45144,
+        109440,
+        80136
+      ],
+      "observed": [
+        45144,
+        109440,
+        80136
+      ],
+      "ok": true
+    },
+    {
+      "d": 5,
+      "expected": [
+        28454400,
+        91680000,
+        125280000,
+        65049600
+      ],
+      "observed": [
+        28454400,
+        91680000,
+        125280000,
+        65049600
+      ],
+      "ok": true
+    }
+  ],
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "method": "direct pairs of set partitions for all cycle types d<=5, frozen M124 row comparison, and primitive d=6,7 stress rows",
+  "python": "3.12.3",
+  "seed": null,
+  "stress_checks": [
+    {
+      "d": 6,
+      "expected": [
+        9139662,
+        33979680,
+        63794575,
+        62828640,
+        25565795
+      ],
+      "gcd": 3600,
+      "observed": [
+        9139662,
+        33979680,
+        63794575,
+        62828640,
+        25565795
+      ],
+      "ok": true
+    },
+    {
+      "d": 7,
+      "expected": [
+        38271780,
+        151229400,
+        340051475,
+        470006334,
+        366720025,
+        123380706
+      ],
+      "gcd": 1693440,
+      "observed": [
+        38271780,
+        151229400,
+        340051475,
+        470006334,
+        366720025,
+        123380706
+      ],
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "certificate": {
+    "assertions": 442,
+    "maxima": {
+      "head_tv_fraction_of_bound": 0.5147646586100261,
+      "normalized_spike_response_over_sqrt_t": 0.190535741201008,
+      "q_variation_over_sqrt_ell": 1.3675051907176183,
+      "raw_spike_response_over_sqrt_t": 0.11195885831993399,
+      "spike_mass_over_sqrt_t_over_k": 0.1926609640736515,
+      "tav_over_sqrt_ell": 0.33891273502414476
+    },
+    "rows": [
+      {
+        "ell": 2,
+        "k": 3,
+        "tav_over_sqrt_ell": 0.21213203435596423
+      },
+      {
+        "ell": 3,
+        "k": 3,
+        "tav_over_sqrt_ell": 0.17320508075688773
+      },
+      {
+        "ell": 4,
+        "k": 3,
+        "tav_over_sqrt_ell": 0.075
+      },
+      {
+        "ell": 2,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.14782024071949507
+      },
+      {
+        "ell": 3,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.20384461235583806
+      },
+      {
+        "ell": 4,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.3201877317337497
+      },
+      {
+        "ell": 5,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.33891273502414476
+      },
+      {
+        "ell": 6,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.2559083538542717
+      },
+      {
+        "ell": 7,
+        "k": 5,
+        "tav_over_sqrt_ell": 0.1997706362399664
+      }
+    ],
+    "status": "pass"
+  },
+  "metadata": {
+    "command": "python3 cleanroom_tav_referee.py --output cleanroom_results.json",
+    "python": "3.12.3",
+    "scope": "bounded exact falsification only; no M258 imports or data reads",
+    "seed": null,
+    "tested_k": [
+      3,
+      5
+    ]
+  }
+}

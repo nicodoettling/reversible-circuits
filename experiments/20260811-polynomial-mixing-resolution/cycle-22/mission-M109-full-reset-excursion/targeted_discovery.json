@@ -1,0 +1,30 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley recurrence",
+  "claim_tested": "targeted fresh full-excursion stress near the prior B approximately s/3 ridge",
+  "command_summary": "instantiate frozen M90 WeightedScanner(70); for each requested s scan B from floor(s/3)-2 through floor(s/3)+3; compute weighted and unweighted complete all-j ratios",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "finite_scope_warning": "Discovery only. Survival proves no universal inequality.",
+  "interrupted": true,
+  "normalization": "weighted G/[q(1-q)]; unweighted H/[q(1-q)]; fresh K=1,R=0; all j>=1 retained",
+  "parameters_requested": {
+    "s_values": [35, 40, 45, 50, 55, 60],
+    "B_window": "floor(s/3)-2 through floor(s/3)+3"
+  },
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "retained_completed_rows": [
+    {
+      "B": 9,
+      "s": 35,
+      "unweighted_ratio": 0.8395444045341998,
+      "weighted_ratio": 0.750280448481104
+    },
+    {
+      "B": 11,
+      "s": 40,
+      "unweighted_ratio": 0.8474765621849129,
+      "weighted_ratio": 0.7649862013932853
+    }
+  ],
+  "seed": null,
+  "status": "interrupted after s=40 once the analytic suffix-boundary route became decisive"
+}

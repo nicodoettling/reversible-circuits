@@ -1,0 +1,85 @@
+{
+  "claim_tested": "Every shape-level leaf replant through r_max has a rotation path whose minimum stationary density is at least the lower endpoint density; this is a bounded falsifier, not a universal proof.",
+  "deterministic": true,
+  "python": "3.12.3",
+  "records": [
+    {
+      "max_minimax_denominator_factor": 1.0,
+      "r": 2,
+      "states": 2,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 2,
+        "source": "UDUD",
+        "target": "UUDD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 3.0,
+      "r": 3,
+      "states": 5,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 6,
+        "source": "UDUUDD",
+        "target": "UUDDUD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 12.0,
+      "r": 4,
+      "states": 14,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 24,
+        "source": "UDUUUDDD",
+        "target": "UUUDDDUD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 12.0,
+      "r": 5,
+      "states": 42,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 24,
+        "source": "UDUUUUDDDD",
+        "target": "UUUUDDDDUD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 60.0,
+      "r": 6,
+      "states": 132,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 120,
+        "source": "UDUUUUUDDDDD",
+        "target": "UUUUUDDDDDUD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 60.0,
+      "r": 7,
+      "states": 429,
+      "witness": {
+        "endpoint_max_denominator": 2,
+        "path_max_denominator": 120,
+        "source": "UDUUUUUUDDDDDD",
+        "target": "UUUUUUDDDDDDUD"
+      }
+    },
+    {
+      "max_minimax_denominator_factor": 60.0,
+      "r": 8,
+      "states": 1430,
+      "witness": {
+        "endpoint_max_denominator": 4,
+        "path_max_denominator": 240,
+        "source": "UDUUUUUUDDDDDUDD",
+        "target": "UUUUUUDDDDDUDDUD"
+      }
+    }
+  ],
+  "seed": null
+}

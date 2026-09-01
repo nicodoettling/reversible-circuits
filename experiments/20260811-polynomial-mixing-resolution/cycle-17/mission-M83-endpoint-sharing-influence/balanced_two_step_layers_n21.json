@@ -1,0 +1,376 @@
+{
+  "claim_tested": "boundary-tail smoothing after the second K step",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_two_step_layers.py --n 9 15 21 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_two_step_layers_n21.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "direct_TV_after_K": 0.09046061580464994,
+      "full_difference": {
+        "TV_after_K": 0.09046061580464994,
+        "TV_before_K": 0.5681777777777778,
+        "n_squared_times_TV_after_K": 7.327309880176645,
+        "signed_mass": -1.3877787807814457e-17
+      },
+      "groups": {
+        "boundary_complement": {
+          "TV_after_K": 0.18867607883381926,
+          "TV_before_K": 0.36302222222222225,
+          "n_squared_times_TV_after_K": 15.28276238553936,
+          "signed_mass": -0.36479999999999996
+        },
+        "boundary_tail_u_le_k_minus_1": {
+          "TV_after_K": 0.1824,
+          "TV_before_K": 0.20515555555555554,
+          "n_squared_times_TV_after_K": 14.7744,
+          "signed_mass": 0.3648
+        },
+        "double_targets": {
+          "TV_after_K": 0.06977059120575779,
+          "TV_before_K": 0.4103111111111111,
+          "n_squared_times_TV_after_K": 5.651417887666382,
+          "signed_mass": 0.10666666666666663
+        },
+        "singleton_residual_double": {
+          "TV_after_K": 0.08668119262078865,
+          "TV_before_K": 0.3015111111111111,
+          "n_squared_times_TV_after_K": 7.02117660228388,
+          "signed_mass": 0.17208888888888882
+        },
+        "three_targets": {
+          "TV_after_K": 0.06430990078393262,
+          "TV_before_K": 0.15786666666666666,
+          "n_squared_times_TV_after_K": 5.209101963498542,
+          "signed_mass": -0.10666666666666666
+        }
+      },
+      "k": 3,
+      "n": 9,
+      "singleton_abel_partial_sums": [
+        {
+          "TV_after_K": 0.09031111111111112,
+          "TV_before_K": 0.09031111111111112,
+          "n_squared_times_TV_after_K": 7.315200000000001,
+          "signed_mass": 0.18062222222222224,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.1824,
+          "TV_before_K": 0.20515555555555554,
+          "n_squared_times_TV_after_K": 14.7744,
+          "signed_mass": 0.3648,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.12124444444444442,
+          "TV_before_K": 0.2663111111111111,
+          "n_squared_times_TV_after_K": 9.820799999999998,
+          "signed_mass": 0.24248888888888886,
+          "u": 3
+        }
+      ],
+      "singleton_u_layers": [
+        {
+          "TV_after_K": 0.09031111111111112,
+          "TV_before_K": 0.09031111111111112,
+          "n_squared_times_TV_after_K": 7.315200000000001,
+          "signed_mass": 0.18062222222222224,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.0920888888888889,
+          "TV_before_K": 0.11484444444444444,
+          "n_squared_times_TV_after_K": 7.459200000000001,
+          "signed_mass": 0.18417777777777777,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.06115555555555556,
+          "TV_before_K": 0.06115555555555555,
+          "n_squared_times_TV_after_K": 4.953600000000001,
+          "signed_mass": -0.1223111111111111,
+          "u": 3
+        }
+      ],
+      "source_orbits": [
+        35,
+        30
+      ]
+    },
+    {
+      "direct_TV_after_K": 0.02504540599622167,
+      "full_difference": {
+        "TV_after_K": 0.02504540599622167,
+        "TV_before_K": 0.37028577771677856,
+        "n_squared_times_TV_after_K": 5.635216349149876,
+        "signed_mass": 8.326672684688674e-17
+      },
+      "groups": {
+        "boundary_complement": {
+          "TV_after_K": 0.10770432439498018,
+          "TV_before_K": 0.2545486667832799,
+          "n_squared_times_TV_after_K": 24.23347298887054,
+          "signed_mass": -0.21314345839047338
+        },
+        "boundary_tail_u_le_k_minus_1": {
+          "TV_after_K": 0.10657172919523673,
+          "TV_before_K": 0.11573711093349864,
+          "n_squared_times_TV_after_K": 23.978639068928263,
+          "signed_mass": 0.2131434583904735
+        },
+        "double_targets": {
+          "TV_after_K": 0.023056188834178478,
+          "TV_before_K": 0.30516049294453396,
+          "n_squared_times_TV_after_K": 5.187642487690158,
+          "signed_mass": 0.03232323232323238
+        },
+        "singleton_residual_double": {
+          "TV_after_K": 0.04277068620157276,
+          "TV_before_K": 0.17954427095557624,
+          "n_squared_times_TV_after_K": 9.623404395353871,
+          "signed_mass": 0.08552913834631834
+        },
+        "three_targets": {
+          "TV_after_K": 0.017587241498613126,
+          "TV_before_K": 0.06512528477224465,
+          "n_squared_times_TV_after_K": 3.9571293371879532,
+          "signed_mass": -0.0323232323232323
+        }
+      },
+      "k": 5,
+      "n": 15,
+      "singleton_abel_partial_sums": [
+        {
+          "TV_after_K": 0.03694422253290791,
+          "TV_before_K": 0.03694422253290791,
+          "n_squared_times_TV_after_K": 8.31245006990428,
+          "signed_mass": 0.07388844506581582,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.0642258032614293,
+          "TV_before_K": 0.0642258032614293,
+          "n_squared_times_TV_after_K": 14.450805733821595,
+          "signed_mass": 0.1284516065228586,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.08783345724427273,
+          "TV_before_K": 0.08783345724427276,
+          "n_squared_times_TV_after_K": 19.762527879961365,
+          "signed_mass": 0.17566691448854552,
+          "u": 3
+        },
+        {
+          "TV_after_K": 0.10657172919523673,
+          "TV_before_K": 0.11573711093349864,
+          "n_squared_times_TV_after_K": 23.978639068928263,
+          "signed_mass": 0.2131434583904735,
+          "u": 4
+        },
+        {
+          "TV_after_K": 0.08432827492187134,
+          "TV_before_K": 0.13798056520686403,
+          "n_squared_times_TV_after_K": 18.973861857421053,
+          "signed_mass": 0.16865654984374268,
+          "u": 5
+        }
+      ],
+      "singleton_u_layers": [
+        {
+          "TV_after_K": 0.03694422253290791,
+          "TV_before_K": 0.03694422253290791,
+          "n_squared_times_TV_after_K": 8.31245006990428,
+          "signed_mass": 0.07388844506581582,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.02728158072852139,
+          "TV_before_K": 0.02728158072852139,
+          "n_squared_times_TV_after_K": 6.138355663917313,
+          "signed_mass": 0.05456316145704278,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.023607653982843438,
+          "TV_before_K": 0.02360765398284344,
+          "n_squared_times_TV_after_K": 5.311722146139774,
+          "signed_mass": 0.04721530796568688,
+          "u": 3
+        },
+        {
+          "TV_after_K": 0.018749851907437925,
+          "TV_before_K": 0.027903653689225885,
+          "n_squared_times_TV_after_K": 4.218716679173533,
+          "signed_mass": 0.03747654390192799,
+          "u": 4
+        },
+        {
+          "TV_after_K": 0.0222434542733654,
+          "TV_before_K": 0.022243454273365403,
+          "n_squared_times_TV_after_K": 5.004777211507215,
+          "signed_mass": -0.044486908546730805,
+          "u": 5
+        }
+      ],
+      "source_orbits": [
+        202,
+        187
+      ]
+    },
+    {
+      "direct_TV_after_K": 0.012697989586985023,
+      "full_difference": {
+        "TV_after_K": 0.012697989586985023,
+        "TV_before_K": 0.29386751388650223,
+        "n_squared_times_TV_after_K": 5.599813407860395,
+        "signed_mass": 4.163336342344337e-17
+      },
+      "groups": {
+        "boundary_complement": {
+          "TV_after_K": 0.08141263810092071,
+          "TV_before_K": 0.2075340481795701,
+          "n_squared_times_TV_after_K": 35.902973402506035,
+          "signed_mass": -0.16198201664162815
+        },
+        "boundary_tail_u_le_k_minus_1": {
+          "TV_after_K": 0.0809910083208141,
+          "TV_before_K": 0.08633346570693214,
+          "n_squared_times_TV_after_K": 35.71703466947902,
+          "signed_mass": 0.1619820166416282
+        },
+        "double_targets": {
+          "TV_after_K": 0.012997465450089646,
+          "TV_before_K": 0.25662569036177996,
+          "n_squared_times_TV_after_K": 5.731882263489534,
+          "signed_mass": 0.015513897866839071
+        },
+        "singleton_residual_double": {
+          "TV_after_K": 0.029514453939729457,
+          "TV_before_K": 0.13781093908797656,
+          "n_squared_times_TV_after_K": 13.01587418742069,
+          "signed_mass": 0.05902706987953938
+        },
+        "three_targets": {
+          "TV_after_K": 0.008139213166660659,
+          "TV_before_K": 0.03724182352472227,
+          "n_squared_times_TV_after_K": 3.5893930064973505,
+          "signed_mass": -0.015513897866839044
+        }
+      },
+      "k": 7,
+      "n": 21,
+      "singleton_abel_partial_sums": [
+        {
+          "TV_after_K": 0.022653552809046552,
+          "TV_before_K": 0.02265355280904655,
+          "n_squared_times_TV_after_K": 9.99021678878953,
+          "signed_mass": 0.0453071056180931,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.037836619904072374,
+          "TV_before_K": 0.03783661990407238,
+          "n_squared_times_TV_after_K": 16.685949377695916,
+          "signed_mass": 0.07567323980814476,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.04928679093514955,
+          "TV_before_K": 0.04928679093514955,
+          "n_squared_times_TV_after_K": 21.73547480240095,
+          "signed_mass": 0.0985735818702991,
+          "u": 3
+        },
+        {
+          "TV_after_K": 0.05993821046190606,
+          "TV_before_K": 0.05993821046190606,
+          "n_squared_times_TV_after_K": 26.432750813700572,
+          "signed_mass": 0.11987642092381212,
+          "u": 4
+        },
+        {
+          "TV_after_K": 0.07188657639611105,
+          "TV_before_K": 0.07188657639611105,
+          "n_squared_times_TV_after_K": 31.701980190684974,
+          "signed_mass": 0.1437731527922221,
+          "u": 5
+        },
+        {
+          "TV_after_K": 0.0809910083208141,
+          "TV_before_K": 0.08633346570693214,
+          "n_squared_times_TV_after_K": 35.71703466947902,
+          "signed_mass": 0.1619820166416282,
+          "u": 6
+        },
+        {
+          "TV_after_K": 0.06846830288928762,
+          "TV_before_K": 0.0988561711384586,
+          "n_squared_times_TV_after_K": 30.19452157417584,
+          "signed_mass": 0.13693660577857525,
+          "u": 7
+        }
+      ],
+      "singleton_u_layers": [
+        {
+          "TV_after_K": 0.022653552809046552,
+          "TV_before_K": 0.02265355280904655,
+          "n_squared_times_TV_after_K": 9.99021678878953,
+          "signed_mass": 0.0453071056180931,
+          "u": 1
+        },
+        {
+          "TV_after_K": 0.015183067095025822,
+          "TV_before_K": 0.015183067095025824,
+          "n_squared_times_TV_after_K": 6.695732588906387,
+          "signed_mass": 0.030366134190051648,
+          "u": 2
+        },
+        {
+          "TV_after_K": 0.011450171031077174,
+          "TV_before_K": 0.011450171031077178,
+          "n_squared_times_TV_after_K": 5.049525424705034,
+          "signed_mass": 0.022900342062154355,
+          "u": 3
+        },
+        {
+          "TV_after_K": 0.010651419526756514,
+          "TV_before_K": 0.010651419526756516,
+          "n_squared_times_TV_after_K": 4.697276011299623,
+          "signed_mass": 0.02130283905351303,
+          "u": 4
+        },
+        {
+          "TV_after_K": 0.011948365934204997,
+          "TV_before_K": 0.011948365934204997,
+          "n_squared_times_TV_after_K": 5.269229376984404,
+          "signed_mass": 0.023896731868409994,
+          "u": 5
+        },
+        {
+          "TV_after_K": 0.009108341949037294,
+          "TV_before_K": 0.014446889310821073,
+          "n_squared_times_TV_after_K": 4.016778799525446,
+          "signed_mass": 0.018208863849406065,
+          "u": 6
+        },
+        {
+          "TV_after_K": 0.012522705431526466,
+          "TV_before_K": 0.012522705431526466,
+          "n_squared_times_TV_after_K": 5.522513095303172,
+          "signed_mass": -0.025045410863052932,
+          "u": 7
+        }
+      ],
+      "source_orbits": [
+        605,
+        576
+      ]
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_signed_diagnostic_only"
+}

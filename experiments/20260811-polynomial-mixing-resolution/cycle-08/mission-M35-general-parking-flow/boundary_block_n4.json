@@ -1,0 +1,169 @@
+{
+  "boundary_failures": [],
+  "claim_tested": "Every canonical borrow-route edge has a prefix or suffix duplicate pair for which all compatible parking words are favorable.",
+  "distinct_oriented_route_edges": 4,
+  "n": 4,
+  "no_fixed_pair_position": [],
+  "r": 3,
+  "records": [
+    {
+      "duplicate": 0,
+      "good_fixed_pair_positions": [
+        1
+      ],
+      "orbit": 1,
+      "positions": [
+        {
+          "all_favorable": false,
+          "candidates": 1,
+          "first_bad": [
+            0,
+            0,
+            0
+          ],
+          "orbit_fraction": "1/1",
+          "position": 0
+        },
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/1",
+          "position": 1
+        }
+      ],
+      "prefix_all_favorable": false,
+      "raised": 1,
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "stage_first_seen": "middle",
+      "suffix_all_favorable": true,
+      "target": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "duplicate": 0,
+      "good_fixed_pair_positions": [
+        0
+      ],
+      "orbit": 3,
+      "positions": [
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/3",
+          "position": 0
+        },
+        {
+          "all_favorable": false,
+          "candidates": 1,
+          "first_bad": [
+            1,
+            0,
+            0
+          ],
+          "orbit_fraction": "1/3",
+          "position": 1
+        }
+      ],
+      "prefix_all_favorable": true,
+      "raised": 1,
+      "source": [
+        0,
+        0,
+        1
+      ],
+      "stage_first_seen": "middle",
+      "suffix_all_favorable": false,
+      "target": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "duplicate": 1,
+      "good_fixed_pair_positions": [
+        0,
+        1
+      ],
+      "orbit": 3,
+      "positions": [
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/3",
+          "position": 0
+        },
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/3",
+          "position": 1
+        }
+      ],
+      "prefix_all_favorable": true,
+      "raised": 2,
+      "source": [
+        0,
+        1,
+        1
+      ],
+      "stage_first_seen": "middle",
+      "suffix_all_favorable": true,
+      "target": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "duplicate": 0,
+      "good_fixed_pair_positions": [
+        0,
+        1
+      ],
+      "orbit": 3,
+      "positions": [
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/3",
+          "position": 0
+        },
+        {
+          "all_favorable": true,
+          "candidates": 1,
+          "first_bad": null,
+          "orbit_fraction": "1/3",
+          "position": 1
+        }
+      ],
+      "prefix_all_favorable": true,
+      "raised": 1,
+      "source": [
+        0,
+        0,
+        2
+      ],
+      "stage_first_seen": "third-reversed",
+      "suffix_all_favorable": true,
+      "target": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "universal_scope_warning": "Finite enumeration is a falsifier only."
+}

@@ -1,0 +1,276 @@
+{
+  "boundary_scan": {
+    "generalized_Z": {
+      "M": 61,
+      "k": 31,
+      "r": 60,
+      "scaled_tv": 10.193688484097107
+    },
+    "generalized_Z_boundary_rows": [
+      {
+        "M": 3,
+        "R_tv": 8.735758882342886,
+        "k": 3,
+        "r": 1
+      },
+      {
+        "M": 3,
+        "R_tv": 9.471517764685768,
+        "k": 3,
+        "r": 2
+      },
+      {
+        "M": 5,
+        "R_tv": 8.735758882342886,
+        "k": 3,
+        "r": 1
+      },
+      {
+        "M": 5,
+        "R_tv": 9.471517764685768,
+        "k": 3,
+        "r": 2
+      },
+      {
+        "M": 5,
+        "R_tv": 4.943035529371539,
+        "k": 3,
+        "r": 4
+      },
+      {
+        "M": 5,
+        "R_tv": 8.735758882342884,
+        "k": 5,
+        "r": 1
+      },
+      {
+        "M": 5,
+        "R_tv": 9.47151776468577,
+        "k": 5,
+        "r": 2
+      },
+      {
+        "M": 5,
+        "R_tv": 4.943035529371539,
+        "k": 5,
+        "r": 4
+      },
+      {
+        "M": 9,
+        "R_tv": 8.735758882342884,
+        "k": 5,
+        "r": 1
+      },
+      {
+        "M": 9,
+        "R_tv": 9.47151776468577,
+        "k": 5,
+        "r": 2
+      },
+      {
+        "M": 9,
+        "R_tv": 8.787678750662295,
+        "k": 5,
+        "r": 8
+      }
+    ],
+    "lemma1_actual_profile": [
+      {
+        "a_tv": 0.5,
+        "k": 3,
+        "k_tv": 1.4
+      },
+      {
+        "a_tv": 0.5191836734693878,
+        "k": 5,
+        "k_tv": 3.580952380952381
+      },
+      {
+        "a_tv": 0.5540666595530099,
+        "k": 7,
+        "k_tv": 3.3840191083763838
+      },
+      {
+        "a_tv": 0.5562811036086903,
+        "k": 9,
+        "k_tv": 3.2656659720726355
+      },
+      {
+        "a_tv": 0.5836285263684275,
+        "k": 15,
+        "k_tv": 3.2496590404710886
+      },
+      {
+        "a_tv": 0.615614424508253,
+        "k": 31,
+        "k_tv": 3.2004057892194737
+      },
+      {
+        "a_tv": 0.6444006612117658,
+        "k": 63,
+        "k_tv": 3.1388050974165855
+      }
+    ],
+    "lemma1_tail_and_constant_profiles": [
+      {
+        "k": 3,
+        "k_borel_comparison_tv": 1.060563562110755,
+        "k_borel_tail_embedding_tv": 0.32480467976787053,
+        "k_constant_comparison_tv": 11.733333333333333
+      },
+      {
+        "k": 5,
+        "k_borel_comparison_tv": 2.4278017061806745,
+        "k_borel_tail_embedding_tv": 0.42119466749601814,
+        "k_constant_comparison_tv": 6.857142857142857
+      },
+      {
+        "k": 7,
+        "k_borel_comparison_tv": 2.5448370283360497,
+        "k_borel_tail_embedding_tv": 0.5119853911468739,
+        "k_constant_comparison_tv": 5.706293706293707
+      },
+      {
+        "k": 9,
+        "k_borel_comparison_tv": 2.602930448735539,
+        "k_borel_tail_embedding_tv": 0.5452245322754029,
+        "k_constant_comparison_tv": 5.207843137254902
+      },
+      {
+        "k": 15,
+        "k_borel_comparison_tv": 2.6848077614487953,
+        "k_borel_tail_embedding_tv": 0.5470868712788892,
+        "k_constant_comparison_tv": 4.638569604086846
+      },
+      {
+        "k": 31,
+        "k_borel_comparison_tv": 2.7611425073631355,
+        "k_borel_tail_embedding_tv": 0.46574077826069127,
+        "k_constant_comparison_tv": 4.281189219227564
+      },
+      {
+        "k": 63,
+        "k_borel_comparison_tv": 2.8125081853419394,
+        "k_borel_tail_embedding_tv": 0.3603848614571881,
+        "k_constant_comparison_tv": 4.132422764227642
+      }
+    ],
+    "triangular_cross": {
+      "exact": "16/3",
+      "k": 3,
+      "scaled_tv": 5.333333333333333
+    },
+    "untouched": {
+      "k": 3,
+      "scaled_tv": 1.792723352971347
+    }
+  },
+  "composition": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "exact_direct_enumeration": [
+    {
+      "cebv_l1": "148/135",
+      "full_circular_tv": "44/27",
+      "k": 3,
+      "rows": [
+        {
+          "A_atoms": 18,
+          "A_raw_collision_mass": "8",
+          "B_atoms": 15,
+          "B_raw_collision_mass": "6",
+          "X_mass": "16/3",
+          "a_F": "2/3",
+          "a_L": "1/2",
+          "s": 1
+        }
+      ]
+    },
+    {
+      "cebv_l1": "1411115143/1382976000",
+      "full_circular_tv": "481672619/338688000",
+      "k": 5,
+      "rows": [
+        {
+          "A_atoms": 130,
+          "A_raw_collision_mass": "66/7",
+          "B_atoms": 189,
+          "B_raw_collision_mass": "9",
+          "X_mass": "32/7",
+          "a_F": "11/14",
+          "a_L": "3/4",
+          "s": 1
+        },
+        {
+          "A_atoms": 110,
+          "A_raw_collision_mass": "8",
+          "B_atoms": 135,
+          "B_raw_collision_mass": "360/49",
+          "X_mass": "32/7",
+          "a_F": "2/3",
+          "a_L": "30/49",
+          "s": 2
+        }
+      ]
+    }
+  ],
+  "formula_scan": [
+    {
+      "cebv_l1_exact": "148/135",
+      "full_tv_exact": "44/27",
+      "k": 3,
+      "k2_times_normalizer_tv": 9.0,
+      "k_times_cebv": 3.2888888888888888,
+      "k_times_full_tv": 4.888888888888889
+    },
+    {
+      "cebv_l1_exact": "1411115143/1382976000",
+      "full_tv_exact": "481672619/338688000",
+      "k": 5,
+      "k2_times_normalizer_tv": 4.405942705337108,
+      "k_times_cebv": 5.10173402503008,
+      "k_times_full_tv": 7.110860423162321
+    },
+    {
+      "cebv_l1_exact": null,
+      "full_tv_exact": null,
+      "k": 7,
+      "k2_times_normalizer_tv": 3.5015229813893907,
+      "k_times_cebv": 4.593722697152248,
+      "k_times_full_tv": 6.653999646349908
+    },
+    {
+      "cebv_l1_exact": null,
+      "full_tv_exact": null,
+      "k": 9,
+      "k2_times_normalizer_tv": 3.0402699137235256,
+      "k_times_cebv": 4.617378392077163,
+      "k_times_full_tv": 6.71843415994641
+    },
+    {
+      "cebv_l1_exact": null,
+      "full_tv_exact": null,
+      "k": 15,
+      "k2_times_normalizer_tv": 2.4295576387492948,
+      "k_times_cebv": 4.506891749237464,
+      "k_times_full_tv": 6.626413316511802
+    },
+    {
+      "cebv_l1_exact": null,
+      "full_tv_exact": null,
+      "k": 31,
+      "k2_times_normalizer_tv": 1.974951586888313,
+      "k_times_cebv": 4.47368004166166,
+      "k_times_full_tv": 6.568562242510677
+    },
+    {
+      "cebv_l1_exact": null,
+      "full_tv_exact": null,
+      "k": 63,
+      "k2_times_normalizer_tv": 1.7564858025357923,
+      "k_times_cebv": 4.49186934326333,
+      "k_times_full_tv": 6.561493548715995
+    }
+  ],
+  "limitations": "Finite checks are convention/boundary falsifiers, not the asymptotic proof.",
+  "status": "all assertions passed",
+  "target": "CEBV for the auxiliary fixed-cell disjoint channel-two law only"
+}

@@ -1,0 +1,307 @@
+{
+  "centralizer_parity_audit": [
+    {
+      "cycle_types": 2,
+      "d": 2,
+      "failures": []
+    },
+    {
+      "cycle_types": 3,
+      "d": 3,
+      "failures": []
+    },
+    {
+      "cycle_types": 5,
+      "d": 4,
+      "failures": []
+    },
+    {
+      "cycle_types": 7,
+      "d": 5,
+      "failures": []
+    },
+    {
+      "cycle_types": 11,
+      "d": 6,
+      "failures": []
+    }
+  ],
+  "command": "python3 -B independent_referee.py",
+  "common_parity_class_splitting_audit": [
+    {
+      "P_order": 2,
+      "ambient_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 1
+    },
+    {
+      "P_order": 2,
+      "ambient_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 2
+    },
+    {
+      "P_order": 2,
+      "ambient_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 3
+    },
+    {
+      "P_order": 6,
+      "ambient_classes": 3,
+      "d": 3,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 1
+    },
+    {
+      "P_order": 18,
+      "ambient_classes": 5,
+      "d": 3,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 2
+    },
+    {
+      "P_order": 54,
+      "ambient_classes": 9,
+      "d": 3,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 3
+    },
+    {
+      "P_order": 24,
+      "ambient_classes": 5,
+      "d": 4,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 1
+    },
+    {
+      "P_order": 288,
+      "ambient_classes": 13,
+      "d": 4,
+      "formula_failures": [],
+      "transposition_tuple_classes": 1,
+      "width": 2
+    }
+  ],
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "d3_matching_calibration": {
+    "aggregate_by_width": {
+      "1": {
+        "class_multiset_equal": 36
+      },
+      "2": {
+        "class_multiset_equal": 54
+      },
+      "3": {
+        "class_multiset_equal": 3,
+        "literal_group_changed": 33
+      },
+      "4": {
+        "literal_group_changed": 9
+      }
+    },
+    "class_multiset_changes_when_literal_group_equal": 0,
+    "matchings": 9,
+    "root_fiber_histogram": {
+      "3": 24
+    },
+    "rooted_coordinates": 72,
+    "rows": [
+      {
+        "adjacent": 1,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 0
+      },
+      {
+        "adjacent": 1,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "class_multiset_equal": 1,
+            "literal_group_changed": 3
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 1
+      },
+      {
+        "adjacent": 1,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "class_multiset_equal": 1,
+            "literal_group_changed": 3
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 2
+      },
+      {
+        "adjacent": 2,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 0
+      },
+      {
+        "adjacent": 2,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 1
+      },
+      {
+        "adjacent": 2,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "class_multiset_equal": 1,
+            "literal_group_changed": 3
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 2
+      },
+      {
+        "adjacent": 3,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 0
+      },
+      {
+        "adjacent": 3,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 1
+      },
+      {
+        "adjacent": 3,
+        "by_width": {
+          "1": {
+            "class_multiset_equal": 4
+          },
+          "2": {
+            "class_multiset_equal": 6
+          },
+          "3": {
+            "literal_group_changed": 4
+          },
+          "4": {
+            "literal_group_changed": 1
+          }
+        },
+        "color": 2
+      }
+    ],
+    "target_words": 24
+  },
+  "dependencies": {},
+  "experiment": "M148 clean-room fresh referee checks for frozen M146",
+  "finite_caps": {
+    "centralizer_cycle_types": "all cycle types for 2<=d<=6",
+    "class_splitting": "(d,s)=(2,1..3),(3,1..3),(4,1..2)",
+    "d3_DPS": "all 9 deterministic matchings and all 15 nonempty subfamilies"
+  },
+  "frozen_hashes_verified": {
+    "SHA256SUMS": "59689cf9e0174436941ed910ab94f121acf8a27ac2af1d1f5115b3e453e63f16",
+    "freeze_manifest.md": "454fd2de1b73cf7edf0b8b6f6873ef233408e03e947061f84a33f4be2dea4863",
+    "report.md": "160bf329699cb4548e6e42652afc1616bb228f8bcf3711c6eae2d0902d2941a1",
+    "results.json": "7c49849f8ddae03922223c91f7f3414b531f0785d80ff48374bc0dfe3ff8a5aa",
+    "tuple_conjugacy_audit.py": "2332ea72539a3bc7feefcbd9722fd384a2c67d0ef1acd50bab3f0ecaacb88730",
+    "tuple_conjugacy_theorem.md": "29b2af120b10d72c678cb5a5fbbc4119be6450d37066103be4822057ae5d2228"
+  },
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "universal_claim_note": "The universal result is decided by proof audit, not finite extrapolation."
+}

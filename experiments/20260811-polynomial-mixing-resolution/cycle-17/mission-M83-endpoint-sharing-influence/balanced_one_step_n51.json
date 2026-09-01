@@ -1,0 +1,45 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_one_step_family.py --n 39 45 51 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_one_step_n51.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "family": "n=3k odd: [k,k,k]_3 versus [1,k-1,k,k]_S",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "TV_K": 0.20267105910646918,
+      "k": 13,
+      "n": 39,
+      "n_times_TV_K": 7.904171305152298,
+      "quotient_orbits": 4453,
+      "raw_rank_two_targets": 173641,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.2656803584531835
+    },
+    {
+      "TV_K": 0.18727633505000874,
+      "k": 15,
+      "n": 45,
+      "n_times_TV_K": 8.427435077250394,
+      "quotient_orbits": 6938,
+      "raw_rank_two_targets": 312180,
+      "row_sum_balanced": 0.9999999999999998,
+      "row_sum_singleton_double": 1.0,
+      "sqrt_n_times_TV_K": 1.2562878472465382
+    },
+    {
+      "TV_K": 0.1750349398831397,
+      "k": 17,
+      "n": 51,
+      "n_times_TV_K": 8.926781934040125,
+      "quotient_orbits": 10209,
+      "raw_rank_two_targets": 520625,
+      "row_sum_balanced": 1.0,
+      "row_sum_singleton_double": 0.9999999999999999,
+      "sqrt_n_times_TV_K": 1.2499994956697427
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_diagnostic_only"
+}

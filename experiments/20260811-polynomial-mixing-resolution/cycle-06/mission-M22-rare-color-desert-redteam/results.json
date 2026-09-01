@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+    "python": "3.12.3",
+    "command": "python3 exact_desert_audit.py --output results.json",
+    "random_seed": null,
+    "enumeration": "deterministic exhaustive local fibers",
+    "composition_convention": "(pq)(x)=p(q(x)); ordered word t1...tm"
+  },
+  "calibration_identity_counts": {
+    "S3_m4": 27,
+    "S4_m4": 120,
+    "S4_m6": 3936
+  },
+  "representative": {
+    "N": 5,
+    "m": 24,
+    "M": 10,
+    "separation": 5,
+    "colors": "ABBBBBABBBBBABBBBBABBBBB",
+    "rare_internal": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "big_internal_edge_repeated": [
+      3,
+      4
+    ]
+  },
+  "fiber_statistics": {
+    "3": {
+      "number_of_products": 60,
+      "total_words": 1000,
+      "min_fiber": 9,
+      "max_fiber": 34
+    },
+    "4": {
+      "number_of_products": 60,
+      "total_words": 10000,
+      "min_fiber": 125,
+      "max_fiber": 340
+    },
+    "5": {
+      "number_of_products": 60,
+      "total_words": 100000,
+      "min_fiber": 1461,
+      "max_fiber": 2086
+    }
+  },
+  "window_rare_factor_counts": {
+    "3": {
+      "0": 12,
+      "1": 10
+    },
+    "4": {
+      "0": 8,
+      "1": 13
+    },
+    "5": {
+      "0": 4,
+      "1": 16
+    }
+  },
+  "full_K_update_classification_by_r": {
+    "3": {
+      "macro_change": {
+        "numerator": 353,
+        "denominator": 2244,
+        "decimal": 0.1573083778966132
+      },
+      "same_target_macro_non_desert": {
+        "numerator": 1,
+        "denominator": 264,
+        "decimal": 0.003787878787878788
+      },
+      "stays_in_cut": {
+        "numerator": 25,
+        "denominator": 4488,
+        "decimal": 0.005570409982174688
+      },
+      "macro_change_breakdown": {
+        "merge_to_full_support": {
+          "numerator": 127,
+          "denominator": 1122,
+          "decimal": 0.11319073083778966
+        },
+        "split_to_three_or_more_components": {
+          "numerator": 0,
+          "denominator": 1,
+          "decimal": 0.0
+        },
+        "two_component_repartition_or_weight_change": {
+          "numerator": 3,
+          "denominator": 68,
+          "decimal": 0.04411764705882353
+        }
+      }
+    },
+    "4": {
+      "macro_change": {
+        "numerator": 73781,
+        "denominator": 449820,
+        "decimal": 0.16402338713263084
+      },
+      "same_target_macro_non_desert": {
+        "numerator": 11,
+        "denominator": 7056,
+        "decimal": 0.0015589569160997733
+      },
+      "stays_in_cut": {
+        "numerator": 1951,
+        "denominator": 1799280,
+        "decimal": 0.0010843226179360634
+      },
+      "macro_change_breakdown": {
+        "merge_to_full_support": {
+          "numerator": 15014,
+          "denominator": 112455,
+          "decimal": 0.13351118225067804
+        },
+        "split_to_three_or_more_components": {
+          "numerator": 0,
+          "denominator": 1,
+          "decimal": 0.0
+        },
+        "two_component_repartition_or_weight_change": {
+          "numerator": 305,
+          "denominator": 9996,
+          "decimal": 0.030512204881952783
+        }
+      }
+    },
+    "5": {
+      "macro_change": {
+        "numerator": 1487,
+        "denominator": 8940,
+        "decimal": 0.166331096196868
+      },
+      "same_target_macro_non_desert": {
+        "numerator": 9,
+        "denominator": 41720,
+        "decimal": 0.00021572387344199424
+      },
+      "stays_in_cut": {
+        "numerator": 1,
+        "denominator": 8344,
+        "decimal": 0.00011984659635666346
+      },
+      "macro_change_breakdown": {
+        "merge_to_full_support": {
+          "numerator": 478,
+          "denominator": 3129,
+          "decimal": 0.1527644614892937
+        },
+        "split_to_three_or_more_components": {
+          "numerator": 0,
+          "denominator": 1,
+          "decimal": 0.0
+        },
+        "two_component_repartition_or_weight_change": {
+          "numerator": 283,
+          "denominator": 20860,
+          "decimal": 0.013566634707574306
+        }
+      }
+    }
+  },
+  "total_exit_probability_from_representative": {
+    "numerator": 1454531591,
+    "denominator": 2949019920,
+    "decimal": 0.4932254208035326
+  },
+  "specified_H3_swap": {
+    "fiber_size": 34,
+    "exact_full_K_probability": {
+      "numerator": 1,
+      "denominator": 4488,
+      "decimal": 0.0002228163992869875
+    },
+    "M_squared_lower_bound": {
+      "numerator": 1,
+      "denominator": 13200,
+      "decimal": 7.575757575757576e-05
+    }
+  }
+}

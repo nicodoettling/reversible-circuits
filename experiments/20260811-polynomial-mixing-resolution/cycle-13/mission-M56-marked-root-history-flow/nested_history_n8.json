@@ -1,0 +1,563 @@
+{
+  "claims_tested": [
+    "The detailed-balance nested-history partition equals the canonical endpoint density.",
+    "Its stationary first moments equal (s+1)! p_(s+1)/p_1.",
+    "Every canonical individual reverse first-split rate is at most alpha.",
+    "The total canonical first-split propensity is at most a literal harmonic number."
+  ],
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/nested_history_probe.py --n-max 8 --output experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/nested_history_n8.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "A mismatch refutes an exact identity or bound. Finite agreement does not prove a universal inequality or polynomial congestion.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "first_local_harmonic_failure": null,
+      "first_unary_global_harmonic_failure": null,
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 1
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 2,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "1",
+        "macro": [
+          0,
+          1
+        ],
+        "partition": "3/2"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "3/2",
+        "H_r": "3/2",
+        "composition": [
+          2
+        ],
+        "macro": [
+          0,
+          1
+        ],
+        "total_rate_over_alpha": "1"
+      },
+      "minimum_endpoint_density": {
+        "density": "1",
+        "macro": [
+          0,
+          1
+        ],
+        "partition": "3/2"
+      },
+      "n": 3,
+      "r": 2,
+      "raw_factorization_count": 3
+    },
+    {
+      "first_local_harmonic_failure": null,
+      "first_unary_global_harmonic_failure": null,
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "4/3",
+          "observed": "4/3",
+          "steps": 1
+        },
+        {
+          "expected": "2/3",
+          "observed": "2/3",
+          "steps": 2
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 5,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1,
+          2
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "33/32",
+        "macro": [
+          0,
+          1,
+          2
+        ],
+        "partition": "11/6"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "11/6",
+        "H_r": "11/6",
+        "composition": [
+          3
+        ],
+        "macro": [
+          0,
+          1,
+          2
+        ],
+        "total_rate_over_alpha": "3/2"
+      },
+      "minimum_endpoint_density": {
+        "density": "15/16",
+        "macro": [
+          0,
+          1,
+          1
+        ],
+        "partition": "5/3"
+      },
+      "n": 4,
+      "r": 3,
+      "raw_factorization_count": 16
+    },
+    {
+      "first_local_harmonic_failure": null,
+      "first_unary_global_harmonic_failure": null,
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "3/2",
+          "observed": "3/2",
+          "steps": 1
+        },
+        {
+          "expected": "9/8",
+          "observed": "9/8",
+          "steps": 2
+        },
+        {
+          "expected": "3/8",
+          "observed": "3/8",
+          "steps": 3
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 14,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "3632/3375",
+        "macro": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "partition": "227/108"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "25/12",
+        "H_r": "25/12",
+        "composition": [
+          4
+        ],
+        "macro": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "total_rate_over_alpha": "11/6"
+      },
+      "minimum_endpoint_density": {
+        "density": "944/1125",
+        "macro": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "partition": "59/36"
+      },
+      "n": 5,
+      "r": 4,
+      "raw_factorization_count": 125
+    },
+    {
+      "first_local_harmonic_failure": {
+        "H_first_branch_size": "25/12",
+        "H_r": "137/60",
+        "composition": [
+          4,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "total_rate_over_alpha": "13/6"
+      },
+      "first_unary_global_harmonic_failure": null,
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "8/5",
+          "observed": "8/5",
+          "steps": 1
+        },
+        {
+          "expected": "36/25",
+          "observed": "36/25",
+          "steps": 2
+        },
+        {
+          "expected": "96/125",
+          "observed": "96/125",
+          "steps": 3
+        },
+        {
+          "expected": "24/125",
+          "observed": "24/125",
+          "steps": 4
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 42,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "873125/746496",
+        "macro": [
+          0,
+          1,
+          1,
+          3,
+          4
+        ],
+        "partition": "1397/576"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "25/12",
+        "H_r": "137/60",
+        "composition": [
+          4,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "total_rate_over_alpha": "13/6"
+      },
+      "minimum_endpoint_density": {
+        "density": "47875/62208",
+        "macro": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "partition": "383/240"
+      },
+      "n": 6,
+      "r": 5,
+      "raw_factorization_count": 1296
+    },
+    {
+      "first_local_harmonic_failure": {
+        "H_first_branch_size": "25/12",
+        "H_r": "49/20",
+        "composition": [
+          4,
+          1,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "total_rate_over_alpha": "47/20"
+      },
+      "first_unary_global_harmonic_failure": null,
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "5/3",
+          "observed": "5/3",
+          "steps": 1
+        },
+        {
+          "expected": "5/3",
+          "observed": "5/3",
+          "steps": 2
+        },
+        {
+          "expected": "10/9",
+          "observed": "10/9",
+          "steps": 3
+        },
+        {
+          "expected": "25/54",
+          "observed": "25/54",
+          "steps": 4
+        },
+        {
+          "expected": "5/54",
+          "observed": "5/54",
+          "steps": 5
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 132,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "18792999/15006250",
+        "macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5
+        ],
+        "partition": "4872259/1800000"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "137/60",
+        "H_r": "49/20",
+        "composition": [
+          5,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "total_rate_over_alpha": "77/30"
+      },
+      "minimum_endpoint_density": {
+        "density": "7640568/10504375",
+        "macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "partition": "11791/7500"
+      },
+      "n": 7,
+      "r": 6,
+      "raw_factorization_count": 16807
+    },
+    {
+      "first_local_harmonic_failure": {
+        "H_first_branch_size": "25/12",
+        "H_r": "363/140",
+        "composition": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "total_rate_over_alpha": "37/15"
+      },
+      "first_unary_global_harmonic_failure": {
+        "H_first_branch_size": "363/140",
+        "H_r": "363/140",
+        "composition": [
+          7
+        ],
+        "macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "total_rate_over_alpha": "157/60"
+      },
+      "history_first_moment_failures": [],
+      "history_first_moments": [
+        {
+          "expected": "1",
+          "observed": "1",
+          "steps": 0
+        },
+        {
+          "expected": "12/7",
+          "observed": "12/7",
+          "steps": 1
+        },
+        {
+          "expected": "90/49",
+          "observed": "90/49",
+          "steps": 2
+        },
+        {
+          "expected": "480/343",
+          "observed": "480/343",
+          "steps": 3
+        },
+        {
+          "expected": "1800/2401",
+          "observed": "1800/2401",
+          "steps": 4
+        },
+        {
+          "expected": "4320/16807",
+          "observed": "4320/16807",
+          "steps": 5
+        },
+        {
+          "expected": "720/16807",
+          "observed": "720/16807",
+          "steps": 6
+        }
+      ],
+      "history_partition_endpoint_failures": [],
+      "macro_count": 429,
+      "maximum_canonical_individual_split_rate_over_alpha": {
+        "coarse": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "value": "1"
+      },
+      "maximum_endpoint_density": {
+        "density": "50690592733921/38220595200000",
+        "macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "partition": "430862929/145800000"
+      },
+      "maximum_first_split_propensity": {
+        "H_first_branch_size": "49/20",
+        "H_r": "363/140",
+        "composition": [
+          6,
+          1
+        ],
+        "macro": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "total_rate_over_alpha": "29/10"
+      },
+      "minimum_endpoint_density": {
+        "density": "7425685547/10616832000",
+        "macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "partition": "441821/283500"
+      },
+      "n": 8,
+      "r": 7,
+      "raw_factorization_count": 262144
+    }
+  ],
+  "seed": null
+}

@@ -1,0 +1,337 @@
+{
+  "boundary_scope": "Every r=3,4,5 contribution is enumerated; for m=4 the r=4 term is the whole-word heat bath.",
+  "cases": [
+    {
+      "M": 3,
+      "N": 3,
+      "R_m": [
+        3,
+        4
+      ],
+      "character_sum_omega_size": 27,
+      "conditional_fiber_size_ranges": {
+        "3": [
+          9,
+          9
+        ],
+        "4": [
+          27,
+          27
+        ]
+      },
+      "elapsed_seconds": 0.002100396901369095,
+      "elapsed_seconds_before_minimal_cut": 0.001488219015300274,
+      "m": 4,
+      "minimal_full_support_cut": {
+        "A_count": 24,
+        "certificate_probability": {
+          "decimal": 0.5,
+          "fraction": "1/2"
+        },
+        "connected_count_formula": 24,
+        "exact_certificate_flow_lower_per_pi_A": {
+          "decimal": 0.006944444444444444,
+          "fraction": "1/144"
+        },
+        "expected_marked_leaf_squares": {
+          "decimal": 0.75,
+          "fraction": "3/4"
+        },
+        "flow_A_to_Ac": {
+          "decimal": 0.04938271604938271,
+          "fraction": "4/81"
+        },
+        "flow_Ac_to_A": {
+          "decimal": 0.04938271604938271,
+          "fraction": "4/81"
+        },
+        "flow_by_block_length": {
+          "3": {
+            "decimal": 0.024691358024691357,
+            "fraction": "2/81"
+          },
+          "4": {
+            "decimal": 0.024691358024691357,
+            "fraction": "2/81"
+          }
+        },
+        "mark_histogram": {
+          "0": 12,
+          "1": 6,
+          "2": 6
+        },
+        "marked_leaf_square_formula": "N(N-1)(2N-3)|F_(N-1)|",
+        "marked_leaf_square_total": 18,
+        "max_marks_in_case": 2,
+        "name": "minimal full-support macro",
+        "outward_conductance": {
+          "decimal": 0.05555555555555555,
+          "fraction": "1/18"
+        },
+        "pi_A": {
+          "decimal": 0.8888888888888888,
+          "fraction": "8/9"
+        },
+        "proved_crude_lower_per_pi_A": {
+          "decimal": 0.0005787037037037037,
+          "fraction": "1/1728"
+        },
+        "smaller_side_conductance": {
+          "decimal": 0.4444444444444444,
+          "fraction": "4/9"
+        },
+        "state_count": 27,
+        "states_with_certificate": 12,
+        "stationary_mass_formula": "(2N-2)! N^(N-3) / |Omega(N,2N-2)|"
+      },
+      "omega_size": 27,
+      "star_cut": {
+        "A_count": 18,
+        "flow_A_to_Ac": {
+          "decimal": 0.08333333333333333,
+          "fraction": "1/12"
+        },
+        "flow_Ac_to_A": {
+          "decimal": 0.08333333333333333,
+          "fraction": "1/12"
+        },
+        "flow_by_block_length": {
+          "3": {
+            "decimal": 0.027777777777777776,
+            "fraction": "1/36"
+          },
+          "4": {
+            "decimal": 0.05555555555555555,
+            "fraction": "1/18"
+          }
+        },
+        "name": "first-join star cut",
+        "outward_conductance": {
+          "decimal": 0.125,
+          "fraction": "1/8"
+        },
+        "pi_A": {
+          "decimal": 0.6666666666666666,
+          "fraction": "2/3"
+        },
+        "proved_one_outcome_lower_bound": {
+          "decimal": 0.013888888888888888,
+          "fraction": "1/72"
+        },
+        "smaller_side_conductance": {
+          "decimal": 0.25,
+          "fraction": "1/4"
+        },
+        "state_count": 27
+      }
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "R_m": [
+        3,
+        4
+      ],
+      "character_sum_omega_size": 120,
+      "conditional_fiber_size_ranges": {
+        "3": [
+          16,
+          20
+        ],
+        "4": [
+          104,
+          120
+        ]
+      },
+      "elapsed_seconds": 0.009153088787570596,
+      "elapsed_seconds_before_minimal_cut": 0.009152138838544488,
+      "m": 4,
+      "omega_size": 120,
+      "star_cut": {
+        "A_count": 60,
+        "flow_A_to_Ac": {
+          "decimal": 0.0925,
+          "fraction": "37/400"
+        },
+        "flow_Ac_to_A": {
+          "decimal": 0.0925,
+          "fraction": "37/400"
+        },
+        "flow_by_block_length": {
+          "3": {
+            "decimal": 0.03,
+            "fraction": "3/100"
+          },
+          "4": {
+            "decimal": 0.0625,
+            "fraction": "1/16"
+          }
+        },
+        "name": "first-join star cut",
+        "outward_conductance": {
+          "decimal": 0.185,
+          "fraction": "37/200"
+        },
+        "pi_A": {
+          "decimal": 0.5,
+          "fraction": "1/2"
+        },
+        "proved_one_outcome_lower_bound": {
+          "decimal": 0.003472222222222222,
+          "fraction": "1/288"
+        },
+        "smaller_side_conductance": {
+          "decimal": 0.185,
+          "fraction": "37/200"
+        },
+        "state_count": 120
+      }
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "R_m": [
+        3,
+        4,
+        5
+      ],
+      "character_sum_omega_size": 3936,
+      "conditional_fiber_size_ranges": {
+        "3": [
+          16,
+          20
+        ],
+        "4": [
+          104,
+          120
+        ],
+        "5": [
+          640,
+          656
+        ]
+      },
+      "elapsed_seconds": 2.3654527720063925,
+      "elapsed_seconds_before_minimal_cut": 1.2344384680036455,
+      "m": 6,
+      "minimal_full_support_cut": {
+        "A_count": 2880,
+        "certificate_probability": {
+          "decimal": 0.4083333333333333,
+          "fraction": "49/120"
+        },
+        "connected_count_formula": 2880,
+        "exact_certificate_flow_lower_per_pi_A": {
+          "decimal": 0.000472608024691358,
+          "fraction": "49/103680"
+        },
+        "expected_marked_leaf_squares": {
+          "decimal": 0.5,
+          "fraction": "1/2"
+        },
+        "flow_A_to_Ac": {
+          "decimal": 0.08535698759895667,
+          "fraction": "298449/3496480"
+        },
+        "flow_Ac_to_A": {
+          "decimal": 0.08535698759895667,
+          "fraction": "298449/3496480"
+        },
+        "flow_by_block_length": {
+          "3": {
+            "decimal": 0.022560975609756097,
+            "fraction": "37/1640"
+          },
+          "4": {
+            "decimal": 0.03007739212007505,
+            "fraction": "513/17056"
+          },
+          "5": {
+            "decimal": 0.03271861986912552,
+            "fraction": "55/1681"
+          }
+        },
+        "mark_histogram": {
+          "0": 1704,
+          "1": 936,
+          "2": 216,
+          "3": 24
+        },
+        "marked_leaf_square_formula": "N(N-1)(2N-3)|F_(N-1)|",
+        "marked_leaf_square_total": 1440,
+        "max_marks_in_case": 3,
+        "name": "minimal full-support macro",
+        "outward_conductance": {
+          "decimal": 0.11665454971857411,
+          "fraction": "99483/852800"
+        },
+        "pi_A": {
+          "decimal": 0.7317073170731707,
+          "fraction": "30/41"
+        },
+        "proved_crude_lower_per_pi_A": {
+          "decimal": 3.616898148148148e-05,
+          "fraction": "1/27648"
+        },
+        "smaller_side_conductance": {
+          "decimal": 0.31814877195974756,
+          "fraction": "298449/938080"
+        },
+        "state_count": 3936,
+        "states_with_certificate": 1176,
+        "stationary_mass_formula": "(2N-2)! N^(N-3) / |Omega(N,2N-2)|"
+      },
+      "omega_size": 3936,
+      "star_cut": {
+        "A_count": 1968,
+        "flow_A_to_Ac": {
+          "decimal": 0.04483479116633985,
+          "fraction": "24419/544644"
+        },
+        "flow_Ac_to_A": {
+          "decimal": 0.04483479116633985,
+          "fraction": "24419/544644"
+        },
+        "flow_by_block_length": {
+          "3": {
+            "decimal": 0.01016260162601626,
+            "fraction": "5/492"
+          },
+          "4": {
+            "decimal": 0.013851249623607348,
+            "fraction": "46/3321"
+          },
+          "5": {
+            "decimal": 0.02082093991671624,
+            "fraction": "35/1681"
+          }
+        },
+        "name": "first-join star cut",
+        "outward_conductance": {
+          "decimal": 0.0896695823326797,
+          "fraction": "24419/272322"
+        },
+        "pi_A": {
+          "decimal": 0.5,
+          "fraction": "1/2"
+        },
+        "proved_one_outcome_lower_bound": {
+          "decimal": 0.0011574074074074073,
+          "fraction": "1/864"
+        },
+        "smaller_side_conductance": {
+          "decimal": 0.0896695823326797,
+          "fraction": "24419/272322"
+        },
+        "state_count": 3936
+      }
+    }
+  ],
+  "claim_tested": "The first-join star cut, and at m=2(N-1) the minimal full-support macro cut, have inverse-polynomial original-K boundary. A failed exact mass, leaf-square incidence, reversibility, or lower-bound check would refute the corresponding analytic accounting; finite survival proves no universal statement.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-05/mission-M13-nonnormal-schreier-redteam/exact_cut_check.py --output experiments/20260811-polynomial-mixing-resolution/cycle-05/mission-M13-nonnormal-schreier-redteam/results.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word=t1...tm",
+  "kernel": "K=I/2 plus, with total mass 1/2, uniform block size in R_m, uniform legal window, and uniform exact same-product block",
+  "python": "3.12.3",
+  "seed": null,
+  "target": "uniform global identity bridge law"
+}

@@ -1,0 +1,675 @@
+{
+  "composition": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "method": "literal source rows versus separate critical-Borel chord/Abel reconstruction",
+  "mission": "M186",
+  "parameters": {
+    "k": [
+      3,
+      5
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "abel_identity_exact": true,
+      "channel_1_face_collapse_exact": true,
+      "channel_1_face_formula": {
+        "k_times_weighted_face_defect_sum_float": 1.9387174603174604,
+        "rho_A_mass": "1",
+        "rho_B_mass": "1",
+        "weighted_face_defect_one": "1721/3750",
+        "weighted_face_defect_two": "44251/236250"
+      },
+      "channel_masses": {
+        "0": "1/15",
+        "1": "8/15",
+        "2": "2/5"
+      },
+      "conditional_channel_1_coefficients": [
+        {
+          "mass": "-106/375",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "-2/15",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "18/125",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "18/125",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "16/125",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "16/375",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "2/15",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "18/125",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "58/1125",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "-206/1125",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "-212/1125",
+          "run_type": 2,
+          "size": 7
+        }
+      ],
+      "conditional_channel_2_coefficients": [
+        {
+          "mass": "-134/225",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "4/1125",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "32/125",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "58/125",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "32/125",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "18/125",
+          "run_type": 1,
+          "size": 6
+        },
+        {
+          "mass": "-98/375",
+          "run_type": 1,
+          "size": 7
+        },
+        {
+          "mass": "8/125",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "2/25",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "6/125",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "-142/3375",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "-146/675",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "-676/3375",
+          "run_type": 2,
+          "size": 7
+        }
+      ],
+      "critical_borel_chord_formula_exact": true,
+      "fully_combined_coefficients": [
+        {
+          "mass": "-2188/5625",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "-392/5625",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "112/625",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "164/625",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "64/375",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "36/625",
+          "run_type": 1,
+          "size": 6
+        },
+        {
+          "mass": "-196/1875",
+          "run_type": 1,
+          "size": 7
+        },
+        {
+          "mass": "272/5625",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "116/1125",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "12/125",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "4/375",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "-1036/5625",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "-1016/5625",
+          "run_type": 2,
+          "size": 7
+        }
+      ],
+      "k": 3,
+      "n": 9,
+      "prefix_diagnostics_finite_only": [
+        {
+          "D": 2,
+          "all_types_prefix": "-8/375",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 0.44349737316020255,
+          "one_run_prefix": "-392/5625"
+        },
+        {
+          "D": 3,
+          "all_types_prefix": "1468/5625",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 1.3560803122725928,
+          "one_run_prefix": "616/5625"
+        },
+        {
+          "D": 4,
+          "all_types_prefix": "3484/5625",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 2.7872000000000003,
+          "one_run_prefix": "2092/5625"
+        }
+      ],
+      "signed_summation_by_parts_exact": true,
+      "small_charge_polynomial_1_E": [
+        "-9656/5625",
+        "53243/67500"
+      ]
+    },
+    {
+      "abel_identity_exact": true,
+      "channel_1_face_collapse_exact": true,
+      "channel_1_face_formula": {
+        "k_times_weighted_face_defect_sum_float": 1.4671070191806255,
+        "rho_A_mass": "1",
+        "rho_B_mass": "1",
+        "weighted_face_defect_one": "188146289/860934420",
+        "weighted_face_defect_two": "50417787050287/673277620640625"
+      },
+      "channel_masses": {
+        "0": "1/11",
+        "1": "16/33",
+        "2": "14/33"
+      },
+      "conditional_channel_1_coefficients": [
+        {
+          "mass": "-76734016/597871125",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "-7613846/199290375",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "-26063192/597871125",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "-37159504/597871125",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "280000/4782969",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "280000/4782969",
+          "run_type": 1,
+          "size": 6
+        },
+        {
+          "mass": "112/2187",
+          "run_type": 1,
+          "size": 7
+        },
+        {
+          "mass": "235298/4782969",
+          "run_type": 1,
+          "size": 8
+        },
+        {
+          "mass": "262144/4782969",
+          "run_type": 1,
+          "size": 9
+        },
+        {
+          "mass": "4194304/597871125",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "1696672/119574225",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "1692484/66430125",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "32019254/597871125",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "231056/4428675",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "2939999936/74733890625",
+          "run_type": 2,
+          "size": 7
+        },
+        {
+          "mass": "699705952/24911296875",
+          "run_type": 2,
+          "size": 8
+        },
+        {
+          "mass": "402091328/74733890625",
+          "run_type": 2,
+          "size": 9
+        },
+        {
+          "mass": "-944161276/14946778125",
+          "run_type": 2,
+          "size": 10
+        },
+        {
+          "mass": "-3665978102/74733890625",
+          "run_type": 2,
+          "size": 11
+        },
+        {
+          "mass": "-1177892288/24911296875",
+          "run_type": 2,
+          "size": 12
+        },
+        {
+          "mass": "-4910977024/74733890625",
+          "run_type": 2,
+          "size": 13
+        }
+      ],
+      "conditional_channel_2_coefficients": [
+        {
+          "mass": "-125781472/465010875",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "-13156856/279006525",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "-62149954/1395032625",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "-57003344/1395032625",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "128000/1594323",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "296608/1594323",
+          "run_type": 1,
+          "size": 6
+        },
+        {
+          "mass": "215872/1594323",
+          "run_type": 1,
+          "size": 7
+        },
+        {
+          "mass": "169694/1594323",
+          "run_type": 1,
+          "size": 8
+        },
+        {
+          "mass": "128000/1594323",
+          "run_type": 1,
+          "size": 9
+        },
+        {
+          "mass": "100000/1594323",
+          "run_type": 1,
+          "size": 10
+        },
+        {
+          "mass": "-23002352/279006525",
+          "run_type": 1,
+          "size": 11
+        },
+        {
+          "mass": "-69210758/1395032625",
+          "run_type": 1,
+          "size": 12
+        },
+        {
+          "mass": "-55609538/1395032625",
+          "run_type": 1,
+          "size": 13
+        },
+        {
+          "mass": "-13698128/1395032625",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "-2053628/1395032625",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "71480/1594323",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "72820/1594323",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "68236/1594323",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "23162395994/523137234375",
+          "run_type": 2,
+          "size": 7
+        },
+        {
+          "mass": "18427070674/523137234375",
+          "run_type": 2,
+          "size": 8
+        },
+        {
+          "mass": "-797282632/58126359375",
+          "run_type": 2,
+          "size": 9
+        },
+        {
+          "mass": "-2294821868/34875815625",
+          "run_type": 2,
+          "size": 10
+        },
+        {
+          "mass": "-2454379712/58126359375",
+          "run_type": 2,
+          "size": 11
+        },
+        {
+          "mass": "-29767014206/523137234375",
+          "run_type": 2,
+          "size": 12
+        },
+        {
+          "mass": "-51824704846/523137234375",
+          "run_type": 2,
+          "size": 13
+        }
+      ],
+      "critical_borel_chord_formula_exact": true,
+      "fully_combined_coefficients": [
+        {
+          "mass": "-3491810752/19729747125",
+          "run_type": 1,
+          "size": 1
+        },
+        {
+          "mass": "-253390096/6576582375",
+          "run_type": 1,
+          "size": 2
+        },
+        {
+          "mass": "-789910796/19729747125",
+          "run_type": 1,
+          "size": 3
+        },
+        {
+          "mass": "-936572128/19729747125",
+          "run_type": 1,
+          "size": 4
+        },
+        {
+          "mass": "896000/14348907",
+          "run_type": 1,
+          "size": 5
+        },
+        {
+          "mass": "1539776/14348907",
+          "run_type": 1,
+          "size": 6
+        },
+        {
+          "mass": "4328576/52612659",
+          "run_type": 1,
+          "size": 7
+        },
+        {
+          "mass": "10891916/157837977",
+          "run_type": 1,
+          "size": 8
+        },
+        {
+          "mass": "9570304/157837977",
+          "run_type": 1,
+          "size": 9
+        },
+        {
+          "mass": "1400000/52612659",
+          "run_type": 1,
+          "size": 10
+        },
+        {
+          "mass": "-46004704/1315316475",
+          "run_type": 1,
+          "size": 11
+        },
+        {
+          "mass": "-138421516/6576582375",
+          "run_type": 1,
+          "size": 12
+        },
+        {
+          "mass": "-111219076/6576582375",
+          "run_type": 1,
+          "size": 13
+        },
+        {
+          "mass": "-15079904/19729747125",
+          "run_type": 2,
+          "size": 2
+        },
+        {
+          "mass": "11219272/1793613375",
+          "run_type": 2,
+          "size": 3
+        },
+        {
+          "mass": "206329232/6576582375",
+          "run_type": 2,
+          "size": 4
+        },
+        {
+          "mass": "894613064/19729747125",
+          "run_type": 2,
+          "size": 5
+        },
+        {
+          "mass": "57154664/1315316475",
+          "run_type": 2,
+          "size": 6
+        },
+        {
+          "mass": "31121596988/822072796875",
+          "run_type": 2,
+          "size": 7
+        },
+        {
+          "mass": "70440027044/2466218390625",
+          "run_type": 2,
+          "size": 8
+        },
+        {
+          "mass": "-7917626128/2466218390625",
+          "run_type": 2,
+          "size": 9
+        },
+        {
+          "mass": "-28875511624/493243678125",
+          "run_type": 2,
+          "size": 10
+        },
+        {
+          "mass": "-102834484448/2466218390625",
+          "run_type": 2,
+          "size": 11
+        },
+        {
+          "mass": "-116072858236/2466218390625",
+          "run_type": 2,
+          "size": 12
+        },
+        {
+          "mass": "-5521970972/74733890625",
+          "run_type": 2,
+          "size": 13
+        }
+      ],
+      "k": 5,
+      "n": 15,
+      "prefix_diagnostics_finite_only": [
+        {
+          "D": 2,
+          "all_types_prefix": "-775250192/19729747125",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 0.4167701677114421,
+          "one_run_prefix": "-253390096/6576582375"
+        },
+        {
+          "D": 3,
+          "all_types_prefix": "-1441748996/19729747125",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 0.6803987847207243,
+          "one_run_prefix": "-1550081084/19729747125"
+        },
+        {
+          "D": 4,
+          "all_types_prefix": "-195481492/2192194125",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 0.9452680245642022,
+          "one_run_prefix": "-828884404/6576582375"
+        },
+        {
+          "D": 5,
+          "all_types_prefix": "367279636/19729747125",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 0.4265878096327281,
+          "one_run_prefix": "-1254653212/19729747125"
+        },
+        {
+          "D": 6,
+          "all_types_prefix": "101266412/597871125",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 1.037226197712991,
+          "one_run_prefix": "862538788/19729747125"
+        },
+        {
+          "D": 7,
+          "all_types_prefix": "79332304496/274024265625",
+          "diagnostic_n_over_sqrtD_times_max_abs_float": 1.6413578881261632,
+          "one_run_prefix": "225977708/1793613375"
+        }
+      ],
+      "signed_summation_by_parts_exact": true,
+      "small_charge_polynomial_1_E": [
+        "-4330352318516/2466218390625",
+        "2429159918325792866/3357428331789984375"
+      ]
+    }
+  ],
+  "standard_library_only": true,
+  "status": "all exact k=3,5 coefficient assertions passed; no asymptotic inference"
+}

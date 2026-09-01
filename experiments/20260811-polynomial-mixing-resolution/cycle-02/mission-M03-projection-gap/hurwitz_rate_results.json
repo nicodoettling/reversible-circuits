@@ -1,0 +1,187 @@
+{
+  "cases": [
+    {
+      "M12_ratio_floor": "3/2",
+      "all_tested_increments_positive": true,
+      "all_tested_rho_at_least_M12_ratio_floor": true,
+      "all_tested_ultra_log_concavity_inequalities_hold": true,
+      "connected_counts": {
+        "10": 1,
+        "12": 1,
+        "14": 1,
+        "2": 1,
+        "4": 1,
+        "6": 1,
+        "8": 1
+      },
+      "final_dynamic_program_state_count": 1,
+      "first_tested_ultra_log_concavity_failure": null,
+      "max_g": 6,
+      "minimum_tested_increment": "18",
+      "rho": {
+        "1": "12",
+        "2": "30",
+        "3": "56",
+        "4": "90",
+        "5": "132",
+        "6": "182"
+      },
+      "rho_increments": {
+        "1": "18",
+        "2": "26",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      },
+      "ultra_log_concavity_margins": {
+        "1": "6",
+        "2": "22",
+        "3": "46",
+        "4": "78",
+        "5": "118"
+      },
+      "v": 2
+    },
+    {
+      "M12_ratio_floor": "4/9",
+      "all_tested_increments_positive": true,
+      "all_tested_rho_at_least_M12_ratio_floor": true,
+      "all_tested_ultra_log_concavity_inequalities_hold": true,
+      "connected_counts": {
+        "10": 19680,
+        "12": 177144,
+        "14": 1594320,
+        "16": 14348904,
+        "4": 24,
+        "6": 240,
+        "8": 2184
+      },
+      "final_dynamic_program_state_count": 15,
+      "first_tested_ultra_log_concavity_failure": null,
+      "max_g": 6,
+      "minimum_tested_increment": "41/13",
+      "rho": {
+        "1": "3",
+        "2": "80/13",
+        "3": "819/82",
+        "4": "9840/671",
+        "5": "7381/365",
+        "6": "15943200/597871"
+      },
+      "rho_increments": {
+        "1": "41/13",
+        "2": "4087/1066",
+        "3": "257331/55022",
+        "4": "1361051/244915",
+        "5": "1406382149/218222915"
+      },
+      "ultra_log_concavity_margins": {
+        "1": "2/13",
+        "2": "807/533",
+        "3": "111222/27511",
+        "4": "1852604/244915",
+        "5": "2619024894/218222915"
+      },
+      "v": 3
+    },
+    {
+      "M12_ratio_floor": "3/16",
+      "all_tested_increments_positive": true,
+      "all_tested_rho_at_least_M12_ratio_floor": true,
+      "all_tested_ultra_log_concavity_inequalities_hold": false,
+      "connected_counts": {
+        "10": 4959360,
+        "12": 180686880,
+        "14": 6523957440,
+        "16": 235035047520,
+        "18": 8462812965120,
+        "6": 2880,
+        "8": 131040
+      },
+      "final_dynamic_program_state_count": 516,
+      "first_tested_ultra_log_concavity_failure": {
+        "g": 1,
+        "margin": "-89/1066"
+      },
+      "max_g": 6,
+      "minimum_tested_increment": "1223/1066",
+      "rho": {
+        "1": "16/13",
+        "2": "195/82",
+        "3": "41328/11407",
+        "4": "11407/2263",
+        "5": "3982880/597871",
+        "6": "1468969047/172851572"
+      },
+      "rho_increments": {
+        "1": "1223/1066",
+        "2": "1164531/935374",
+        "3": "36594385/25814041",
+        "4": "2193342943/1352982073",
+        "5": "189806924011577/103342942203212"
+      },
+      "ultra_log_concavity_margins": {
+        "1": "-89/1066",
+        "2": "104697/935374",
+        "3": "16257891/25814041",
+        "4": "1953457275/1352982073",
+        "5": "260587550970525/103342942203212"
+      },
+      "v": 4
+    },
+    {
+      "M12_ratio_floor": "12/125",
+      "all_tested_increments_positive": true,
+      "all_tested_rho_at_least_M12_ratio_floor": true,
+      "all_tested_ultra_log_concavity_inequalities_hold": false,
+      "connected_counts": {
+        "10": 142732800,
+        "12": 15800400000,
+        "14": 1635227193600,
+        "16": 165525023664000,
+        "18": 16625255323622400,
+        "20": 1665166889368080000,
+        "8": 1008000
+      },
+      "final_dynamic_program_state_count": 46360,
+      "first_tested_ultra_log_concavity_failure": {
+        "g": 1,
+        "margin": "-11037/140125"
+      },
+      "max_g": 6,
+      "minimum_tested_increment": "156051/280250",
+      "rho": {
+        "1": "75/118",
+        "2": "2832/2375",
+        "3": "49875/28361",
+        "4": "907552/382777",
+        "5": "189474615/62191964",
+        "6": "19403892768/5114400245"
+      },
+      "rho_increments": {
+        "1": "156051/280250",
+        "2": "38134773/67357375",
+        "3": "6648079397/10855938497",
+        "4": "16084083393727/23805653404028",
+        "5": "237717183110035677/318074595918631180"
+      },
+      "ultra_log_concavity_margins": {
+        "1": "-11037/140125",
+        "2": "-4048806/67357375",
+        "3": "853235316/10855938497",
+        "4": "1973473065695/5951413351007",
+        "5": "21953689817289771/31807459591863118"
+      },
+      "v": 5
+    }
+  ],
+  "claims_tested": [
+    "rho_v(g+1)>rho_v(g) for connected identity factorizations",
+    "ultra-log-concavity: g*rho_v(g+1)>=(g+1)*rho_v(g)",
+    "M12 proved floor rho_v(g)>=12/v^3"
+  ],
+  "composition": "compose(p,q)[x]=p[q[x]]; word product t1...tk",
+  "python": "3.12.3",
+  "randomness": "none",
+  "scope_warning": "finite falsification only; passing does not prove uniform monotonicity or the all-genus ratio floor"
+}

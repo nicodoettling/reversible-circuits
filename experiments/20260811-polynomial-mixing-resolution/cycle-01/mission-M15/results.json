@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "N": 3,
+      "aligned_zero_based_window_starts": [0],
+      "component_count": 1,
+      "component_sizes_descending": [27],
+      "identity_word_count": 27,
+      "irreducible": true,
+      "m": 4
+    },
+    {
+      "N": 4,
+      "aligned_zero_based_window_starts": [0],
+      "component_count": 1,
+      "component_sizes_descending": [120],
+      "identity_word_count": 120,
+      "irreducible": true,
+      "m": 4
+    },
+    {
+      "N": 4,
+      "aligned_zero_based_window_starts": [0, 2],
+      "component_count": 1,
+      "component_sizes_descending": [3936],
+      "identity_word_count": 3936,
+      "irreducible": true,
+      "m": 6
+    }
+  ],
+  "deterministic": true,
+  "permutation_convention": "(pq)(x)=p(q(x)); displayed word order",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "tested_claim": "The aligned r=4 same-product heat-bath subchain is irreducible for every N>=3 and even m>=4."
+}

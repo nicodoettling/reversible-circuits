@@ -1,0 +1,1131 @@
+{
+  "cases": [
+    {
+      "M": 3,
+      "N": 3,
+      "candidate_cut_flows": [
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.041666666666666664,
+            "exact": "1/24"
+          },
+          "boundary_sources_in_A": 6,
+          "conductance_using_smaller_side": {
+            "decimal": 0.16666666666666666,
+            "exact": "1/6"
+          },
+          "cut": "dyck_area_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2222222222222222,
+            "exact": "2/9"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 2,
+          "oriented_generator_crossings_A_to_Ac": 12,
+          "oriented_generator_crossings_Ac_to_A": 12,
+          "pi_A": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          },
+          "size_A": 6,
+          "size_Ac": 18
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.041666666666666664,
+            "exact": "1/24"
+          },
+          "boundary_sources_in_A": 6,
+          "conductance_using_smaller_side": {
+            "decimal": 0.16666666666666666,
+            "exact": "1/6"
+          },
+          "cut": "dyck_max_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2222222222222222,
+            "exact": "2/9"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 2,
+          "oriented_generator_crossings_A_to_Ac": 12,
+          "oriented_generator_crossings_Ac_to_A": 12,
+          "pi_A": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          },
+          "size_A": 6,
+          "size_Ac": 18
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.041666666666666664,
+            "exact": "1/24"
+          },
+          "boundary_sources_in_A": 12,
+          "conductance_using_smaller_side": {
+            "decimal": 0.16666666666666666,
+            "exact": "1/6"
+          },
+          "cut": "dyck_peaks_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2222222222222222,
+            "exact": "2/9"
+          },
+          "maximum_outward_generator_count_over_A": 1,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 12,
+          "oriented_generator_crossings_Ac_to_A": 12,
+          "pi_A": {
+            "decimal": 0.75,
+            "exact": "3/4"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          },
+          "size_A": 18,
+          "size_Ac": 6
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.06944444444444445,
+            "exact": "5/72"
+          },
+          "boundary_sources_in_A": 14,
+          "conductance_using_smaller_side": {
+            "decimal": 0.20833333333333334,
+            "exact": "5/24"
+          },
+          "cut": "fixed_join_edge_12",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.3125,
+            "exact": "5/16"
+          },
+          "maximum_outward_generator_count_over_A": 3,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 20,
+          "oriented_generator_crossings_Ac_to_A": 20,
+          "pi_A": {
+            "decimal": 0.6666666666666666,
+            "exact": "2/3"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          },
+          "size_A": 16,
+          "size_Ac": 8
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.06944444444444445,
+            "exact": "5/72"
+          },
+          "boundary_sources_in_A": 8,
+          "conductance_using_smaller_side": {
+            "decimal": 0.20833333333333334,
+            "exact": "5/24"
+          },
+          "cut": "prufer_first_in_first_half",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.3125,
+            "exact": "5/16"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 1,
+          "oriented_generator_crossings_A_to_Ac": 20,
+          "oriented_generator_crossings_Ac_to_A": 20,
+          "pi_A": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          },
+          "size_A": 8,
+          "size_Ac": 16
+        }
+      ],
+      "dyck_word_distribution": {
+        "JCJC": 6,
+        "JJCC": 18
+      },
+      "identity_words": 27,
+      "join_tree_check": {
+        "all_join_sets_are_spanning_trees": true,
+        "cayley_tree_count": 3,
+        "counts": {
+          "1-2 1-3": 8,
+          "1-2 2-3": 8,
+          "1-3 2-3": 8
+        },
+        "maximum_words_per_labeled_tree": 8,
+        "minimum_words_per_labeled_tree": 8,
+        "number_distinct_labeled_trees": 3,
+        "uniform_labeled_join_tree_in_this_case": true
+      },
+      "kernel": {
+        "holding_coefficient": "1/2",
+        "oriented_generator_probability": "1/12",
+        "oriented_generators_per_state": 6
+      },
+      "local_move_check": {
+        "explicit_peak_valley_witness": {
+          "direction": "R",
+          "middle_height_change": 2,
+          "new_dyck_word": "JJCC",
+          "new_join_tree": "1-2 1-3",
+          "new_word_edge_indices": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "new_word_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_dyck_word": "JCJC",
+          "old_join_tree": "1-2 1-3",
+          "old_word_edge_indices": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "old_word_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "position_1_based": 2
+        },
+        "full_support_fiber_violations": 0,
+        "height_locality_violations": 0,
+        "identity_violations": 0,
+        "inverse_violations": 0,
+        "maximum_join_tree_symmetric_difference": 2,
+        "middle_height_change_counts": {
+          "-2": 12,
+          "0": 120,
+          "2": 12
+        },
+        "one_tree_edge_exchange_violations": 0
+      },
+      "lumpability_tests": {
+        "dyck_word": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "'JCJC'",
+                1
+              ],
+              [
+                "'JJCC'",
+                5
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "'JJCC'",
+                6
+              ]
+            ],
+            "source_statistic": "'JJCC'",
+            "word_1_edge_indices": [
+              0,
+              1,
+              0,
+              2
+            ],
+            "word_2_edge_indices": [
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        },
+        "join_degree_profile": {
+          "counterexample": null,
+          "is_exact_markov_lumping_in_this_case": true
+        },
+        "join_tree": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "(0, 1)",
+                5
+              ],
+              [
+                "(0, 2)",
+                1
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "(0, 1)",
+                2
+              ],
+              [
+                "(0, 2)",
+                3
+              ],
+              [
+                "(1, 2)",
+                1
+              ]
+            ],
+            "source_statistic": "(0, 1)",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "word_2_edge_indices": [
+              0,
+              1,
+              0,
+              2
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        },
+        "prufer_first": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "0",
+                5
+              ],
+              [
+                "1",
+                1
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "0",
+                2
+              ],
+              [
+                "1",
+                3
+              ],
+              [
+                "2",
+                1
+              ]
+            ],
+            "source_statistic": "0",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "word_2_edge_indices": [
+              0,
+              1,
+              0,
+              2
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        }
+      },
+      "m": 4,
+      "minimal_full_support_words": 24,
+      "prufer_first_distribution": {
+        "1": 8,
+        "2": 8,
+        "3": 8
+      },
+      "tree_shape_distribution": {
+        "(2, 1, 1)": 24
+      }
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "identity_words": 120,
+      "m": 4,
+      "minimal_full_support_words": 0,
+      "note": "Full support is infeasible because m<2(N-1)."
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "candidate_cut_flows": [
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.006666666666666667,
+            "exact": "1/150"
+          },
+          "boundary_sources_in_A": 96,
+          "conductance_using_smaller_side": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          },
+          "cut": "dyck_area_le_3",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.20689655172413793,
+            "exact": "6/29"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 4,
+          "oriented_generator_crossings_A_to_Ac": 384,
+          "oriented_generator_crossings_Ac_to_A": 384,
+          "pi_A": {
+            "decimal": 0.03333333333333333,
+            "exact": "1/30"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 96,
+          "size_Ac": 2784
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.018333333333333333,
+            "exact": "11/600"
+          },
+          "boundary_sources_in_A": 528,
+          "conductance_using_smaller_side": {
+            "decimal": 0.08461538461538462,
+            "exact": "11/130"
+          },
+          "cut": "dyck_area_le_5",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.10801963993453355,
+            "exact": "66/611"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1056,
+          "oriented_generator_crossings_Ac_to_A": 1056,
+          "pi_A": {
+            "decimal": 0.21666666666666667,
+            "exact": "13/60"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 624,
+          "size_Ac": 2256
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.025,
+            "exact": "1/40"
+          },
+          "boundary_sources_in_A": 720,
+          "conductance_using_smaller_side": {
+            "decimal": 0.05357142857142857,
+            "exact": "3/56"
+          },
+          "cut": "dyck_area_le_7",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.10044642857142858,
+            "exact": "45/448"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1440,
+          "oriented_generator_crossings_Ac_to_A": 1440,
+          "pi_A": {
+            "decimal": 0.4666666666666667,
+            "exact": "7/15"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 1344,
+          "size_Ac": 1536
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.006666666666666667,
+            "exact": "1/150"
+          },
+          "boundary_sources_in_A": 96,
+          "conductance_using_smaller_side": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          },
+          "cut": "dyck_max_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.20689655172413793,
+            "exact": "6/29"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 4,
+          "oriented_generator_crossings_A_to_Ac": 384,
+          "oriented_generator_crossings_Ac_to_A": 384,
+          "pi_A": {
+            "decimal": 0.03333333333333333,
+            "exact": "1/30"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 96,
+          "size_Ac": 2784
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.025,
+            "exact": "1/40"
+          },
+          "boundary_sources_in_A": 720,
+          "conductance_using_smaller_side": {
+            "decimal": 0.05357142857142857,
+            "exact": "3/56"
+          },
+          "cut": "dyck_max_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.10044642857142858,
+            "exact": "45/448"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1440,
+          "oriented_generator_crossings_Ac_to_A": 1440,
+          "pi_A": {
+            "decimal": 0.4666666666666667,
+            "exact": "7/15"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 1344,
+          "size_Ac": 1536
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.025,
+            "exact": "1/40"
+          },
+          "boundary_sources_in_A": 1224,
+          "conductance_using_smaller_side": {
+            "decimal": 0.05357142857142857,
+            "exact": "3/56"
+          },
+          "cut": "dyck_peaks_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.10044642857142858,
+            "exact": "45/448"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1440,
+          "oriented_generator_crossings_Ac_to_A": 1440,
+          "pi_A": {
+            "decimal": 0.5333333333333333,
+            "exact": "8/15"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 1536,
+          "size_Ac": 1344
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.006666666666666667,
+            "exact": "1/150"
+          },
+          "boundary_sources_in_A": 336,
+          "conductance_using_smaller_side": {
+            "decimal": 0.2,
+            "exact": "1/5"
+          },
+          "cut": "dyck_peaks_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.20689655172413793,
+            "exact": "6/29"
+          },
+          "maximum_outward_generator_count_over_A": 2,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 384,
+          "oriented_generator_crossings_Ac_to_A": 384,
+          "pi_A": {
+            "decimal": 0.9666666666666667,
+            "exact": "29/30"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 2784,
+          "size_Ac": 96
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.0575,
+            "exact": "23/400"
+          },
+          "boundary_sources_in_A": 1920,
+          "conductance_using_smaller_side": {
+            "decimal": 0.22258064516129034,
+            "exact": "69/310"
+          },
+          "cut": "join_max_degree_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.30010873504893076,
+            "exact": "828/2759"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 3312,
+          "oriented_generator_crossings_Ac_to_A": 3312,
+          "pi_A": {
+            "decimal": 0.7416666666666667,
+            "exact": "89/120"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 2136,
+          "size_Ac": 744
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.0575,
+            "exact": "23/400"
+          },
+          "boundary_sources_in_A": 1920,
+          "conductance_using_smaller_side": {
+            "decimal": 0.22258064516129034,
+            "exact": "69/310"
+          },
+          "cut": "join_leaves_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.30010873504893076,
+            "exact": "828/2759"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 3312,
+          "oriented_generator_crossings_Ac_to_A": 3312,
+          "pi_A": {
+            "decimal": 0.7416666666666667,
+            "exact": "89/120"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 2136,
+          "size_Ac": 744
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.0575,
+            "exact": "23/400"
+          },
+          "boundary_sources_in_A": 744,
+          "conductance_using_smaller_side": {
+            "decimal": 0.22258064516129034,
+            "exact": "69/310"
+          },
+          "cut": "join_tree_star",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.30010873504893076,
+            "exact": "828/2759"
+          },
+          "maximum_outward_generator_count_over_A": 6,
+          "minimum_outward_generator_count_over_A": 2,
+          "oriented_generator_crossings_A_to_Ac": 3312,
+          "oriented_generator_crossings_Ac_to_A": 3312,
+          "pi_A": {
+            "decimal": 0.25833333333333336,
+            "exact": "31/120"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 744,
+          "size_Ac": 2136
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.0575,
+            "exact": "23/400"
+          },
+          "boundary_sources_in_A": 1920,
+          "conductance_using_smaller_side": {
+            "decimal": 0.22258064516129034,
+            "exact": "69/310"
+          },
+          "cut": "join_tree_path",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.30010873504893076,
+            "exact": "828/2759"
+          },
+          "maximum_outward_generator_count_over_A": 4,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 3312,
+          "oriented_generator_crossings_Ac_to_A": 3312,
+          "pi_A": {
+            "decimal": 0.7416666666666667,
+            "exact": "89/120"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 2136,
+          "size_Ac": 744
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.03138888888888889,
+            "exact": "113/3600"
+          },
+          "boundary_sources_in_A": 1188,
+          "conductance_using_smaller_side": {
+            "decimal": 0.06277777777777778,
+            "exact": "113/1800"
+          },
+          "cut": "fixed_join_edge_12",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.12555555555555556,
+            "exact": "113/900"
+          },
+          "maximum_outward_generator_count_over_A": 3,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1808,
+          "oriented_generator_crossings_Ac_to_A": 1808,
+          "pi_A": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 1440,
+          "size_Ac": 1440
+        },
+        {
+          "P_H_stationary_boundary_flow": {
+            "decimal": 0.03138888888888889,
+            "exact": "113/3600"
+          },
+          "boundary_sources_in_A": 1188,
+          "conductance_using_smaller_side": {
+            "decimal": 0.06277777777777778,
+            "exact": "113/1800"
+          },
+          "cut": "prufer_first_in_first_half",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.12555555555555556,
+            "exact": "113/900"
+          },
+          "maximum_outward_generator_count_over_A": 3,
+          "minimum_outward_generator_count_over_A": 0,
+          "oriented_generator_crossings_A_to_Ac": 1808,
+          "oriented_generator_crossings_Ac_to_A": 1808,
+          "pi_A": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "single_oriented_generator_probability": {
+            "decimal": 0.05,
+            "exact": "1/20"
+          },
+          "size_A": 1440,
+          "size_Ac": 1440
+        }
+      ],
+      "dyck_word_distribution": {
+        "JCJCJC": 96,
+        "JCJJCC": 264,
+        "JJCCJC": 264,
+        "JJCJCC": 720,
+        "JJJCCC": 1536
+      },
+      "identity_words": 3936,
+      "join_tree_check": {
+        "all_join_sets_are_spanning_trees": true,
+        "cayley_tree_count": 16,
+        "counts": {
+          "1-2 1-3 1-4": 186,
+          "1-2 1-3 2-4": 178,
+          "1-2 1-3 3-4": 178,
+          "1-2 1-4 2-3": 178,
+          "1-2 1-4 3-4": 178,
+          "1-2 2-3 2-4": 186,
+          "1-2 2-3 3-4": 178,
+          "1-2 2-4 3-4": 178,
+          "1-3 1-4 2-3": 178,
+          "1-3 1-4 2-4": 178,
+          "1-3 2-3 2-4": 178,
+          "1-3 2-3 3-4": 186,
+          "1-3 2-4 3-4": 178,
+          "1-4 2-3 2-4": 178,
+          "1-4 2-3 3-4": 178,
+          "1-4 2-4 3-4": 186
+        },
+        "maximum_words_per_labeled_tree": 186,
+        "minimum_words_per_labeled_tree": 178,
+        "number_distinct_labeled_trees": 16,
+        "uniform_labeled_join_tree_in_this_case": false
+      },
+      "kernel": {
+        "holding_coefficient": "1/2",
+        "oriented_generator_probability": "1/20",
+        "oriented_generators_per_state": 10
+      },
+      "local_move_check": {
+        "explicit_peak_valley_witness": {
+          "direction": "R",
+          "middle_height_change": 2,
+          "new_dyck_word": "JJCCJC",
+          "new_join_tree": "1-2 1-3 1-4",
+          "new_word_edge_indices": [
+            0,
+            1,
+            3,
+            1,
+            2,
+            2
+          ],
+          "new_word_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_dyck_word": "JCJCJC",
+          "old_join_tree": "1-2 1-3 1-4",
+          "old_word_edge_indices": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "old_word_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "position_1_based": 2
+        },
+        "full_support_fiber_violations": 0,
+        "height_locality_violations": 0,
+        "identity_violations": 0,
+        "inverse_violations": 0,
+        "maximum_join_tree_symmetric_difference": 2,
+        "middle_height_change_counts": {
+          "-2": 2880,
+          "0": 23040,
+          "2": 2880
+        },
+        "one_tree_edge_exchange_violations": 0
+      },
+      "lumpability_tests": {
+        "dyck_word": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "'JCJCJC'",
+                1
+              ],
+              [
+                "'JCJJCC'",
+                7
+              ],
+              [
+                "'JJCJCC'",
+                2
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "'JCJJCC'",
+                8
+              ],
+              [
+                "'JJCJCC'",
+                2
+              ]
+            ],
+            "source_statistic": "'JCJJCC'",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              2,
+              1,
+              5
+            ],
+            "word_2_edge_indices": [
+              0,
+              0,
+              1,
+              2,
+              2,
+              1
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        },
+        "join_degree_profile": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "(2, 2, 1, 1)",
+                2
+              ],
+              [
+                "(3, 1, 1, 1)",
+                8
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "(2, 2, 1, 1)",
+                5
+              ],
+              [
+                "(3, 1, 1, 1)",
+                5
+              ]
+            ],
+            "source_statistic": "(3, 1, 1, 1)",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              1,
+              2,
+              2
+            ],
+            "word_2_edge_indices": [
+              0,
+              0,
+              1,
+              2,
+              1,
+              5
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        },
+        "join_tree": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "(0, 1, 2)",
+                8
+              ],
+              [
+                "(0, 1, 5)",
+                1
+              ],
+              [
+                "(0, 2, 3)",
+                1
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "(0, 1, 2)",
+                5
+              ],
+              [
+                "(0, 1, 5)",
+                3
+              ],
+              [
+                "(0, 2, 3)",
+                1
+              ],
+              [
+                "(0, 2, 5)",
+                1
+              ]
+            ],
+            "source_statistic": "(0, 1, 2)",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              1,
+              2,
+              2
+            ],
+            "word_2_edge_indices": [
+              0,
+              0,
+              1,
+              2,
+              1,
+              5
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        },
+        "prufer_first": {
+          "counterexample": {
+            "generator_destination_counts_1": [
+              [
+                "0",
+                9
+              ],
+              [
+                "1",
+                1
+              ]
+            ],
+            "generator_destination_counts_2": [
+              [
+                "0",
+                10
+              ]
+            ],
+            "source_statistic": "0",
+            "word_1_edge_indices": [
+              0,
+              0,
+              1,
+              1,
+              2,
+              2
+            ],
+            "word_2_edge_indices": [
+              0,
+              0,
+              2,
+              1,
+              1,
+              2
+            ]
+          },
+          "is_exact_markov_lumping_in_this_case": false
+        }
+      },
+      "m": 6,
+      "minimal_full_support_words": 2880,
+      "prufer_first_distribution": {
+        "1": 720,
+        "2": 720,
+        "3": 720,
+        "4": 720
+      },
+      "tree_shape_distribution": {
+        "(2, 2, 1, 1)": 2136,
+        "(3, 1, 1, 1)": 744
+      }
+    }
+  ],
+  "claim_map": {
+    "candidate_cut_flows": "Audits every P_H coefficient and full boundary in calibration cases only; it proves no asymptotic conductance bound.",
+    "join_tree_check": "Could falsify the universal join-edge spanning-tree lemma and the conjecture that the labeled join tree is uniform.",
+    "local_move_check": "Could falsify the universal one-middle-height and one-tree-edge locality lemmas.",
+    "lumpability_tests": "A displayed counterexample rigorously refutes exact Markov lumpability for that statistic in the stated finite case."
+  },
+  "kernel": "P_H=I/2+[1/(4(m-1))]sum_i(R_i+R_i^{-1})",
+  "nonstandard_dependencies": [],
+  "permutation_convention": "pq=p after q; word=t_1...t_m",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "purpose": "Exact finite falsification of named minimal Hurwitz join-tree/Dyck claims; never an asymptotic gap inference.",
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "reproduction_command": "python3 exact_hurwitz_audit.py --output results.json --seed 130113",
+  "seed": 130113,
+  "stochastic": false,
+  "target": "uniform minimal full-support identity-transposition Hurwitz orbit"
+}

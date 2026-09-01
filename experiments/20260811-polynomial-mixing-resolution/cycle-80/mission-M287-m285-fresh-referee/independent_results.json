@@ -1,0 +1,96 @@
+{
+  "OCI_inference": false,
+  "all_admissible_k3_entries_positive": true,
+  "alpha": {
+    "0": "1/15",
+    "1": "8/15",
+    "2": "2/5"
+  },
+  "channel_2_quadratic_witness": {
+    "negative": true,
+    "value": "-310962953715709/12252303000000",
+    "vector": [10, 8, 2, -5, -9, -9, -5, 2, 8]
+  },
+  "conditional_beta_matches_explicit_beta": true,
+  "convention": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "delta_log_convexity_exact_proof_required_beyond_finite_guard": true,
+  "distinct_composition_states": {
+    "double": 252,
+    "triangle": 84
+  },
+  "eta_triangle": {
+    "1": "0",
+    "2": "4/15"
+  },
+  "finite_delta_guard_through_d": 80,
+  "gap_mixing_terminal_inference": false,
+  "imports_predecessor_code_or_data": false,
+  "literal_sequences": {
+    "1": [
+      "2155232441/6126151500",
+      "19270131107/218791125000",
+      "628141943897/8168202000000",
+      "120685667401/2042050500000",
+      "1653138745301/24504606000000",
+      "1653138745301/24504606000000",
+      "120685667401/2042050500000",
+      "628141943897/8168202000000",
+      "19270131107/218791125000"
+    ],
+    "2": [
+      "276628994563/459461362500",
+      "694139254559/2297306812500",
+      "131857751173/680683500000",
+      "769552112923/2722734000000",
+      "3571902519103/7351381800000",
+      "3571902519103/7351381800000",
+      "769552112923/2722734000000",
+      "131857751173/680683500000",
+      "694139254559/2297306812500"
+    ]
+  },
+  "nonstandard_dependencies": null,
+  "normalizations": {
+    "F_r_F": "54",
+    "F_r_L": "125",
+    "h1_A_mass": "1",
+    "h1_B_mass": "1",
+    "h2_A_mass": "1",
+    "h2_B_mass": "1"
+  },
+  "owner_interval_formula_exact": true,
+  "owner_records_checked": 1260,
+  "positive_composition_multiplicity": {
+    "double": 4,
+    "triangle": 3
+  },
+  "python": "3.12.3",
+  "repaired_sequences": {
+    "1": [
+      "1338412241/6126151500",
+      "19270131107/218791125000",
+      "628141943897/8168202000000",
+      "120685667401/2042050500000",
+      "1653138745301/24504606000000",
+      "1653138745301/24504606000000",
+      "120685667401/2042050500000",
+      "628141943897/8168202000000",
+      "19270131107/218791125000"
+    ],
+    "2": [
+      "278262634963/459461362500",
+      "694139254559/2297306812500",
+      "131857751173/680683500000",
+      "769552112923/2722734000000",
+      "3571902519103/7351381800000",
+      "3571902519103/7351381800000",
+      "769552112923/2722734000000",
+      "131857751173/680683500000",
+      "694139254559/2297306812500"
+    ]
+  },
+  "scope": "k=3, n=9 only; no all-rank positivity inference",
+  "size_two_deletion_changes_only_lag_zero": true,
+  "status": "clean-room exact convention and falsification audit"
+}
+

@@ -1,0 +1,214 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the centralizer-invariant quotient mu grows without bound, then universal product-increment O(1/l) is false.",
+  "scope_warning": "The quotient gives a rigorous lower bound after exact counting, but finite lengths cannot establish an asymptotic trend and it does not include nontrivial centralizer representations.",
+  "records": [
+    {
+      "N": 8,
+      "length": 4,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "product_support_size": 323,
+      "centralizer_orbit_count": 8,
+      "completion_cycle_type_count": 18,
+      "detailed_balance_error": 1.3877787807814457e-17,
+      "whitened_self_adjoint_error": 1.1102230246251565e-16,
+      "quotient_kappa_eigenvalues": [
+        -0.20756463538289507,
+        -0.061387087127749776,
+        -0.0017224066407753042,
+        0.011843647809607543,
+        0.042807649514326244,
+        0.13869300585430172,
+        0.24414770960898155,
+        0.9999999999999998
+      ],
+      "quotient_mu_lower_bound": 0.43311078220673616,
+      "length_times_quotient_mu": 1.7324431288269446,
+      "orbits": [
+        {
+          "index": 0,
+          "canonical_key": [],
+          "size": 1,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "raw_lift_weight": 28
+        },
+        {
+          "index": 1,
+          "canonical_key": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            5
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 2,
+          "canonical_key": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "size": 6,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 3,
+          "canonical_key": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "size": 12,
+          "representative": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            4,
+            5
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 4,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            3,
+            5,
+            4
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            7,
+            6
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 5,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            4,
+            3,
+            5
+          ],
+          "size": 96,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            3,
+            6,
+            5,
+            7
+          ],
+          "raw_lift_weight": 2
+        },
+        {
+          "index": 6,
+          "canonical_key": [
+            0,
+            2,
+            4,
+            3,
+            1,
+            5
+          ],
+          "size": 64,
+          "representative": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            5,
+            3,
+            7
+          ],
+          "raw_lift_weight": 3
+        },
+        {
+          "index": 7,
+          "canonical_key": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          "size": 48,
+          "representative": [
+            0,
+            2,
+            1,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          "raw_lift_weight": 2
+        }
+      ]
+    }
+  ]
+}

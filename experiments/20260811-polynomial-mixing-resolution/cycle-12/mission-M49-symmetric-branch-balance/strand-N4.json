@@ -1,0 +1,56 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M49-symmetric-branch-balance/strand_deletion_falsifier.py",
+    "--N",
+    "4",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M49-symmetric-branch-balance/strand-N4.json"
+  ],
+  "claims_tested": [
+    "Canonical deletion at every prefix-join-tree leaf has exactly two null increments and output join tree T-v.",
+    "For fixed v, output word, and null positions, the leaf-deletion fiber is at most (N-1)^2.",
+    "Every q<N/2 balanced-edge threshold tree has a threshold-preserving leaf; the even endpoint deletes to q-1.",
+    "Maximum smaller edge side equals minimum largest centroid branch."
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); right-appending a transposition swaps domain entries",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "result": {
+    "N": 4,
+    "base_edge_balance_layers": {
+      "1": 24
+    },
+    "deletion_pairs": 6504,
+    "distinct_fixed_position_fibers": 1440,
+    "edge_balance_layers": {
+      "1": 744,
+      "2": 2136
+    },
+    "elapsed_seconds": 0.14998364448547363,
+    "endpoint_leaf_failures": 0,
+    "m": 6,
+    "max_fixed_position_fiber": 8,
+    "orbit_size": 2880,
+    "preserving_leaf_failures": 0,
+    "proved_upper_bound_tested": 9,
+    "tail_count_checks": {
+      "1": {
+        "H_N": 2880,
+        "H_N_minus_1": 24,
+        "base_threshold": 1,
+        "inequality_holds": true,
+        "upper_bound": 12960
+      },
+      "2": {
+        "H_N": 2136,
+        "H_N_minus_1": 24,
+        "base_threshold": 1,
+        "inequality_holds": true,
+        "upper_bound": 12960
+      }
+    }
+  },
+  "scope_warning": "Finite passes can falsify these universal lemmas but cannot prove them.",
+  "seed": null
+}

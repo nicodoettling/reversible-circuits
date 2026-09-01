@@ -1,0 +1,36 @@
+{
+  "claim_tested": "constructive adjacent-triangle two-hop support path",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/doeblin_path_certificate.py --n 9 11 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/doeblin_path_n11.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "construction_failures": [],
+      "finite_check_exceeds_formula_bound": true,
+      "maximum_rotations_to_safe_target": 1,
+      "minimum_first_quotient_hop_exact": "18/625",
+      "minimum_selected_raw_second_hop_exact": "72/16807",
+      "minimum_selected_two_hop_product_exact": "1296/10504375",
+      "n": 9,
+      "proved_formula_lower_bound": "32/205891132094649",
+      "quotient_states": 38,
+      "source_target_checks": 1444
+    },
+    {
+      "construction_failures": [],
+      "finite_check_exceeds_formula_bound": true,
+      "maximum_rotations_to_safe_target": 1,
+      "minimum_first_quotient_hop_exact": "16875/470596",
+      "minimum_selected_raw_second_hop_exact": "20/19683",
+      "minimum_selected_two_hop_product_exact": "3125/85766121",
+      "n": 11,
+      "proved_formula_lower_bound": "32/3417748502249169",
+      "quotient_states": 75,
+      "source_target_checks": 5625
+    }
+  ],
+  "seed": null,
+  "status": "exact_finite_certificate_only"
+}

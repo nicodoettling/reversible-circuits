@@ -1,0 +1,234 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/midpoint_shell_audit.py",
+    "--max-n",
+    "8",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/midpoint-shell-N3-N8.json"
+  ],
+  "claim_tested": "The exact midpoint transposition-length bridge law has a quartile threshold with a polynomially visible boundary layer; failure or a tiny layer would falsify the proposed thick-shell anti-bottleneck route in that bounded N.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); appending t swaps domain entries of p",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "N": 3,
+      "bridge_count_from_square_sum": 27,
+      "halfword_count": 9,
+      "layers": [
+        {
+          "cdf": "1/3",
+          "layer_over_cdf": "1/1",
+          "length": 0,
+          "mass": "1/3",
+          "weight": 9
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "2/3",
+          "length": 2,
+          "mass": "2/3",
+          "weight": 18
+        }
+      ],
+      "m": 4,
+      "midpoint_j": 2,
+      "quartile_candidates": [
+        {
+          "cdf": "1/3",
+          "layer_over_cdf": "1/1",
+          "length": 0,
+          "mass": "1/3",
+          "weight": 9
+        }
+      ],
+      "reachable_endpoint_count": 3
+    },
+    {
+      "N": 4,
+      "bridge_count_from_square_sum": 3936,
+      "halfword_count": 216,
+      "layers": [
+        {
+          "cdf": "25/41",
+          "layer_over_cdf": "1/1",
+          "length": 1,
+          "mass": "25/41",
+          "weight": 2400
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "16/41",
+          "length": 3,
+          "mass": "16/41",
+          "weight": 1536
+        }
+      ],
+      "m": 6,
+      "midpoint_j": 3,
+      "quartile_candidates": [],
+      "reachable_endpoint_count": 12
+    },
+    {
+      "N": 5,
+      "bridge_count_from_square_sum": 1770940,
+      "halfword_count": 10000,
+      "layers": [
+        {
+          "cdf": "5780/88547",
+          "layer_over_cdf": "1/1",
+          "length": 0,
+          "mass": "5780/88547",
+          "weight": 115600
+        },
+        {
+          "cdf": "69797/88547",
+          "layer_over_cdf": "64017/69797",
+          "length": 2,
+          "mass": "64017/88547",
+          "weight": 1280340
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "18750/88547",
+          "length": 4,
+          "mass": "18750/88547",
+          "weight": 375000
+        }
+      ],
+      "m": 8,
+      "midpoint_j": 4,
+      "quartile_candidates": [],
+      "reachable_endpoint_count": 60
+    },
+    {
+      "N": 6,
+      "bridge_count_from_square_sum": 1846162215,
+      "halfword_count": 759375,
+      "layers": [
+        {
+          "cdf": "7747347/41025827",
+          "layer_over_cdf": "1/1",
+          "length": 1,
+          "mass": "7747347/41025827",
+          "weight": 348630615
+        },
+        {
+          "cdf": "36546851/41025827",
+          "layer_over_cdf": "28799504/36546851",
+          "length": 3,
+          "mass": "28799504/41025827",
+          "weight": 1295977680
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "4478976/41025827",
+          "length": 5,
+          "mass": "4478976/41025827",
+          "weight": 201553920
+        }
+      ],
+      "m": 10,
+      "midpoint_j": 5,
+      "quartile_candidates": [],
+      "reachable_endpoint_count": 360
+    },
+    {
+      "N": 7,
+      "bridge_count_from_square_sum": 3752264339691,
+      "halfword_count": 85766121,
+      "layers": [
+        {
+          "cdf": "265136403/25525607753",
+          "layer_over_cdf": "1/1",
+          "length": 0,
+          "mass": "265136403/25525607753",
+          "weight": 38975051241
+        },
+        {
+          "cdf": "60868852871/178679254271",
+          "layer_over_cdf": "59012898050/60868852871",
+          "length": 2,
+          "mass": "59012898050/178679254271",
+          "weight": 1239270859050
+        },
+        {
+          "cdf": "24142055513/25525607753",
+          "layer_over_cdf": "108125535720/168994388591",
+          "length": 4,
+          "mass": "108125535720/178679254271",
+          "weight": 2270636250120
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "1383552240/25525607753",
+          "length": 6,
+          "mass": "1383552240/25525607753",
+          "weight": 203382179280
+        }
+      ],
+      "m": 12,
+      "midpoint_j": 6,
+      "quartile_candidates": [
+        {
+          "cdf": "60868852871/178679254271",
+          "layer_over_cdf": "59012898050/60868852871",
+          "length": 2,
+          "mass": "59012898050/178679254271",
+          "weight": 1239270859050
+        }
+      ],
+      "reachable_endpoint_count": 2520
+    },
+    {
+      "N": 8,
+      "bridge_count_from_square_sum": 13265564100499648,
+      "halfword_count": 13492928512,
+      "layers": [
+        {
+          "cdf": "1243483693456/29610634152901",
+          "layer_over_cdf": "1/1",
+          "length": 1,
+          "mass": "1243483693456/29610634152901",
+          "weight": 557080694668288
+        },
+        {
+          "cdf": "14606640507946/29610634152901",
+          "layer_over_cdf": "6681578407245/7303320253973",
+          "length": 3,
+          "mass": "13363156814490/29610634152901",
+          "weight": 5986694252891520
+        },
+        {
+          "cdf": "28837540039621/29610634152901",
+          "layer_over_cdf": "14230899531675/28837540039621",
+          "length": 5,
+          "mass": "14230899531675/29610634152901",
+          "weight": 6375442990190400
+        },
+        {
+          "cdf": "1/1",
+          "layer_over_cdf": "773094113280/29610634152901",
+          "length": 7,
+          "mass": "773094113280/29610634152901",
+          "weight": 346346162749440
+        }
+      ],
+      "m": 14,
+      "midpoint_j": 7,
+      "quartile_candidates": [
+        {
+          "cdf": "14606640507946/29610634152901",
+          "layer_over_cdf": "6681578407245/7303320253973",
+          "length": 3,
+          "mass": "13363156814490/29610634152901",
+          "weight": 5986694252891520
+        }
+      ],
+      "reachable_endpoint_count": 20160
+    }
+  ],
+  "scope_warning": "These finite endpoint weights can refute a universal finite-N formulation but cannot prove asymptotic shell expansion.",
+  "seed": null
+}

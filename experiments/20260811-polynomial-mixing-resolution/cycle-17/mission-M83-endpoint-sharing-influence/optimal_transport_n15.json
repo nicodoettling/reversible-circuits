@@ -1,0 +1,3773 @@
+{
+  "claim_tested": "coupling the Jordan parts of K_A-K_B before the second K step",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/optimal_transport_diagnostic.py --n 9 15 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/optimal_transport_n15.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "Jordan_mass": 0.5681777777777778,
+      "Lambda_edge_transport_mass_fraction": 0.5331664580725908,
+      "coupling_over_direct_ratio": 1.8604574780674168,
+      "direct_TV_eta_K": 0.09046061580464994,
+      "n": 9,
+      "n_squared_times_optimal_bound": 13.632148460691907,
+      "negative_support": 24,
+      "optimal_coupling_upper_bound": 0.16829812914434453,
+      "positive_support": 9,
+      "positive_transport_arcs": 32,
+      "quotient_states": 38,
+      "top_transport_arcs": [
+        {
+          "cost_TV_K_rows": 0.3681970164609053,
+          "is_Lambda_edge": false,
+          "mass": 0.05333333333333334,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  4,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                4,
+                4,
+                1
+              ],
+              "support_gaps": [
+                1,
+                4,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            8,
+            17
+          ],
+          "weighted_cost": 0.019637174211248283
+        },
+        {
+          "cost_TV_K_rows": 0.2862757766274634,
+          "is_Lambda_edge": false,
+          "mass": 0.0384,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  5,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            1,
+            7
+          ],
+          "weighted_cost": 0.010992989822494593
+        },
+        {
+          "cost_TV_K_rows": 0.3103880658436213,
+          "is_Lambda_edge": false,
+          "mass": 0.03484444444444444,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  8
+                ],
+                [
+                  5,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            15,
+            13
+          ],
+          "weighted_cost": 0.010815299716506625
+        },
+        {
+          "cost_TV_K_rows": 0.30982510288065845,
+          "is_Lambda_edge": false,
+          "mass": 0.03057777777777778,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                2,
+                1,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                2,
+                2,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            18,
+            25
+          ],
+          "weighted_cost": 0.009473763145861912
+        },
+        {
+          "cost_TV_K_rows": 0.2729396140744928,
+          "is_Lambda_edge": true,
+          "mass": 0.032,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  5
+                ]
+              ],
+              "harmonic_residual_sum": 1.5,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                4,
+                4,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            5,
+            26
+          ],
+          "weighted_cost": 0.00873406765038377
+        },
+        {
+          "cost_TV_K_rows": 0.4200222222222223,
+          "is_Lambda_edge": true,
+          "mass": 0.0192,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  5,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "3",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                2,
+                3,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            19,
+            20
+          ],
+          "weighted_cost": 0.008064426666666668
+        },
+        {
+          "cost_TV_K_rows": 0.3461333333333334,
+          "is_Lambda_edge": true,
+          "mass": 0.022755555555555557,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                2,
+                2,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            19,
+            31
+          ],
+          "weighted_cost": 0.007876456296296299
+        },
+        {
+          "cost_TV_K_rows": 0.27177547859522816,
+          "is_Lambda_edge": true,
+          "mass": 0.0256,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ]
+              ],
+              "harmonic_residual_sum": 1.5,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                4,
+                4,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            5,
+            24
+          ],
+          "weighted_cost": 0.006957452252037841
+        },
+        {
+          "cost_TV_K_rows": 0.28046489624032317,
+          "is_Lambda_edge": true,
+          "mass": 0.0241777777777778,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                3,
+                2,
+                1,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            14,
+            33
+          ],
+          "weighted_cost": 0.006781017935766042
+        },
+        {
+          "cost_TV_K_rows": 0.32160000000000005,
+          "is_Lambda_edge": false,
+          "mass": 0.0192,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "3",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                2,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            19,
+            9
+          ],
+          "weighted_cost": 0.006174720000000001
+        },
+        {
+          "cost_TV_K_rows": 0.20933226798259888,
+          "is_Lambda_edge": true,
+          "mass": 0.0288,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            2
+          ],
+          "weighted_cost": 0.006028769317898848
+        },
+        {
+          "cost_TV_K_rows": 0.2507734475714484,
+          "is_Lambda_edge": true,
+          "mass": 0.022755555555555557,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  8
+                ],
+                [
+                  6,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                1,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            11
+          ],
+          "weighted_cost": 0.0057064891180702935
+        },
+        {
+          "cost_TV_K_rows": 0.27751135439598573,
+          "is_Lambda_edge": true,
+          "mass": 0.019911111111111095,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            5,
+            12
+          ],
+          "weighted_cost": 0.0055255594119734
+        },
+        {
+          "cost_TV_K_rows": 0.30184567901234577,
+          "is_Lambda_edge": false,
+          "mass": 0.017066666666666674,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            6,
+            10
+          ],
+          "weighted_cost": 0.0051514995884773705
+        },
+        {
+          "cost_TV_K_rows": 0.4021090534979424,
+          "is_Lambda_edge": true,
+          "mass": 0.012800000000000006,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  8
+                ],
+                [
+                  4,
+                  6
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                2,
+                2,
+                2,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            15,
+            36
+          ],
+          "weighted_cost": 0.0051469958847736655
+        },
+        {
+          "cost_TV_K_rows": 0.4437124412447195,
+          "is_Lambda_edge": false,
+          "mass": 0.00995555555555554,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            14,
+            28
+          ],
+          "weighted_cost": 0.004417403859502979
+        },
+        {
+          "cost_TV_K_rows": 0.17901953820436858,
+          "is_Lambda_edge": false,
+          "mass": 0.022755555555555557,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                2,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            29
+          ],
+          "weighted_cost": 0.00407368904713941
+        },
+        {
+          "cost_TV_K_rows": 0.3163222222222222,
+          "is_Lambda_edge": true,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                3,
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            19,
+            34
+          ],
+          "weighted_cost": 0.0040489244444444445
+        },
+        {
+          "cost_TV_K_rows": 0.30982510288065845,
+          "is_Lambda_edge": false,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  6
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                1,
+                2,
+                2,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            15,
+            27
+          ],
+          "weighted_cost": 0.003965761316872428
+        },
+        {
+          "cost_TV_K_rows": 0.2507734475714484,
+          "is_Lambda_edge": true,
+          "mass": 0.01564444444444446,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  8
+                ],
+                [
+                  5,
+                  6
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            12
+          ],
+          "weighted_cost": 0.00392321126867333
+        },
+        {
+          "cost_TV_K_rows": 0.23045267489711932,
+          "is_Lambda_edge": false,
+          "mass": 0.015644444444444433,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            15,
+            3
+          ],
+          "weighted_cost": 0.0036053040695015973
+        },
+        {
+          "cost_TV_K_rows": 0.28046489624032317,
+          "is_Lambda_edge": true,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                3,
+                3
+              ]
+            }
+          ],
+          "source_orbits": [
+            14,
+            30
+          ],
+          "weighted_cost": 0.003589950671876137
+        },
+        {
+          "cost_TV_K_rows": 0.27293961407449285,
+          "is_Lambda_edge": true,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  6,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.5,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                4,
+                4,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            5,
+            23
+          ],
+          "weighted_cost": 0.0034936270601535085
+        },
+        {
+          "cost_TV_K_rows": 0.2676078189300412,
+          "is_Lambda_edge": true,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            6,
+            16
+          ],
+          "weighted_cost": 0.0034253800823045278
+        },
+        {
+          "cost_TV_K_rows": 0.26760781893004115,
+          "is_Lambda_edge": true,
+          "mass": 0.0128,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                1,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            8,
+            21
+          ],
+          "weighted_cost": 0.003425380082304527
+        },
+        {
+          "cost_TV_K_rows": 0.20933226798259888,
+          "is_Lambda_edge": true,
+          "mass": 0.013155555555555566,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            3
+          ],
+          "weighted_cost": 0.002753882281015525
+        },
+        {
+          "cost_TV_K_rows": 0.3681970164609053,
+          "is_Lambda_edge": false,
+          "mass": 0.004266666666666662,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.6666666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                6,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  4,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                4,
+                4,
+                1
+              ],
+              "support_gaps": [
+                1,
+                4,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            6,
+            17
+          ],
+          "weighted_cost": 0.0015709739368998607
+        },
+        {
+          "cost_TV_K_rows": 0.42174689117629555,
+          "is_Lambda_edge": false,
+          "mass": 0.00284444444444446,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  4,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            1,
+            28
+          ],
+          "weighted_cost": 0.0011996356015681361
+        },
+        {
+          "cost_TV_K_rows": 0.28627577662746334,
+          "is_Lambda_edge": false,
+          "mass": 0.002133333333333322,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 2.142857142857143,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.5333333333333332,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                5,
+                3,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            1,
+            10
+          ],
+          "weighted_cost": 0.000610721656805252
+        },
+        {
+          "cost_TV_K_rows": 0.36458888888888896,
+          "is_Lambda_edge": true,
+          "mass": 0.0014222222222222206,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  3,
+                  5
+                ],
+                [
+                  6,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                5,
+                2,
+                2
+              ],
+              "support_gaps": [
+                2,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  8
+                ],
+                [
+                  5,
+                  7
+                ]
+              ],
+              "harmonic_residual_sum": 1.0833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                4,
+                3,
+                2
+              ],
+              "support_gaps": [
+                2,
+                2,
+                1,
+                4
+              ]
+            }
+          ],
+          "source_orbits": [
+            19,
+            25
+          ],
+          "weighted_cost": 0.000518526419753086
+        }
+      ]
+    },
+    {
+      "Jordan_mass": 0.37028577771677856,
+      "Lambda_edge_transport_mass_fraction": 0.3513903059793333,
+      "coupling_over_direct_ratio": 2.2698182163244702,
+      "direct_TV_eta_K": 0.02504540599622167,
+      "n": 15,
+      "n_squared_times_optimal_bound": 12.790916722229865,
+      "negative_support": 139,
+      "optimal_coupling_upper_bound": 0.056848518765466066,
+      "positive_support": 69,
+      "positive_transport_arcs": 207,
+      "quotient_states": 213,
+      "top_transport_arcs": [
+        {
+          "cost_TV_K_rows": 0.19448559324726925,
+          "is_Lambda_edge": false,
+          "mass": 0.006358743600166637,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  8
+                ],
+                [
+                  12,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                4,
+                2,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  7,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2857142857142856,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                7,
+                1
+              ],
+              "support_gaps": [
+                1,
+                7,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            56,
+            97
+          ],
+          "weighted_cost": 0.001236684021385685
+        },
+        {
+          "cost_TV_K_rows": 0.22153019717642836,
+          "is_Lambda_edge": true,
+          "mass": 0.004096509893205234,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  9
+                ],
+                [
+                  10,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.6428571428571428,
+              "kind": "D",
+              "minimum_residual_size": 4,
+              "residual_sizes": [
+                7,
+                4,
+                4
+              ],
+              "support_gaps": [
+                4,
+                1,
+                4,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  9,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 0.8611111111111112,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                9,
+                4,
+                2
+              ],
+              "support_gaps": [
+                1,
+                4,
+                1,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            158,
+            54
+          ],
+          "weighted_cost": 0.0009075006443769449
+        },
+        {
+          "cost_TV_K_rows": 0.14512959166153522,
+          "is_Lambda_edge": false,
+          "mass": 0.0057959181775372095,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                4,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  8,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                6,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            30,
+            143
+          ],
+          "weighted_cost": 0.0008411592384096446
+        },
+        {
+          "cost_TV_K_rows": 0.13754152487970897,
+          "is_Lambda_edge": false,
+          "mass": 0.005885503714989961,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                4,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  12
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                6,
+                1,
+                1,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            30,
+            116
+          ],
+          "weighted_cost": 0.0008095011556449113
+        },
+        {
+          "cost_TV_K_rows": 0.14861595595524404,
+          "is_Lambda_edge": false,
+          "mass": 0.004821837832855666,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  10
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                3,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                6,
+                1,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            35,
+            75
+          ],
+          "weighted_cost": 0.000716602038991007
+        },
+        {
+          "cost_TV_K_rows": 0.13079232877976088,
+          "is_Lambda_edge": false,
+          "mass": 0.005217951519994456,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  12,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                13
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  11,
+                  12
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                2,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            46
+          ],
+          "weighted_cost": 0.0006824680307599679
+        },
+        {
+          "cost_TV_K_rows": 0.13079232877976088,
+          "is_Lambda_edge": false,
+          "mass": 0.005217951519994456,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  12,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                13
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  10,
+                  11
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                3,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            48
+          ],
+          "weighted_cost": 0.0006824680307599679
+        },
+        {
+          "cost_TV_K_rows": 0.1883082707021771,
+          "is_Lambda_edge": true,
+          "mass": 0.003361351309159261,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  11,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.7777777777777777,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                9,
+                3,
+                3
+              ],
+              "support_gaps": [
+                3,
+                2,
+                3,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  9,
+                  12
+                ]
+              ],
+              "harmonic_residual_sum": 0.7777777777777777,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                9,
+                3,
+                3
+              ],
+              "support_gaps": [
+                1,
+                3,
+                2,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            106,
+            53
+          ],
+          "weighted_cost": 0.0006329702522502794
+        },
+        {
+          "cost_TV_K_rows": 0.1520713300675421,
+          "is_Lambda_edge": false,
+          "mass": 0.004140796045808402,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.4242424242424243,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                11,
+                3,
+                1
+              ],
+              "support_gaps": [
+                3,
+                2,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                6,
+                1,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            39,
+            75
+          ],
+          "weighted_cost": 0.0006296963622245026
+        },
+        {
+          "cost_TV_K_rows": 0.12085321900123353,
+          "is_Lambda_edge": false,
+          "mass": 0.00519772946659092,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  9,
+                  10
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                1,
+                10
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  14
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 1.2857142857142856,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                7,
+                1
+              ],
+              "support_gaps": [
+                6,
+                1,
+                1,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            14,
+            118
+          ],
+          "weighted_cost": 0.0006281623375350772
+        },
+        {
+          "cost_TV_K_rows": 0.1341268684138895,
+          "is_Lambda_edge": true,
+          "mass": 0.004520110847594049,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  8
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                5,
+                1,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  14
+                ],
+                [
+                  8,
+                  9
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                5,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            55,
+            86
+          ],
+          "weighted_cost": 0.0006062683128714414
+        },
+        {
+          "cost_TV_K_rows": 0.14861595595524404,
+          "is_Lambda_edge": false,
+          "mass": 0.004047768084914069,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  12,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                3,
+                2,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  8,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                1,
+                6,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            31,
+            60
+          ],
+          "weighted_cost": 0.0006015629234246318
+        },
+        {
+          "cost_TV_K_rows": 0.11512865699140795,
+          "is_Lambda_edge": false,
+          "mass": 0.005217951519994456,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  12
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.35,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                10,
+                4,
+                1
+              ],
+              "support_gaps": [
+                4,
+                1,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                4,
+                1,
+                1,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            42,
+            45
+          ],
+          "weighted_cost": 0.0006007357507432375
+        },
+        {
+          "cost_TV_K_rows": 0.12773243881165885,
+          "is_Lambda_edge": false,
+          "mass": 0.0045576693624247355,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  11,
+                  12
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                1,
+                12
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  14
+                ],
+                [
+                  9,
+                  10
+                ]
+              ],
+              "harmonic_residual_sum": 1.2857142857142856,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                7,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                4,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            1,
+            124
+          ],
+          "weighted_cost": 0.0005821622229596898
+        },
+        {
+          "cost_TV_K_rows": 0.14570358191739952,
+          "is_Lambda_edge": true,
+          "mass": 0.003927965872294483,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                6,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                6,
+                2,
+                1,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            91,
+            164
+          ],
+          "weighted_cost": 0.0005723186972426087
+        },
+        {
+          "cost_TV_K_rows": 0.14772091970150236,
+          "is_Lambda_edge": true,
+          "mass": 0.003843370901795073,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  11,
+                  12,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                12
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  9,
+                  11
+                ]
+              ],
+              "harmonic_residual_sum": 0.8611111111111112,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                9,
+                4,
+                2
+              ],
+              "support_gaps": [
+                1,
+                2,
+                3,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            2,
+            52
+          ],
+          "weighted_cost": 0.0005677462843671607
+        },
+        {
+          "cost_TV_K_rows": 0.15207133006754212,
+          "is_Lambda_edge": false,
+          "mass": 0.0037029519618843078,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  11,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.4242424242424243,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                11,
+                3,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                3,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  8,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                1,
+                6,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            32,
+            60
+          ],
+          "weighted_cost": 0.0005631128300199612
+        },
+        {
+          "cost_TV_K_rows": 0.1240616951256138,
+          "is_Lambda_edge": false,
+          "mass": 0.004426219528447204,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  10,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                2,
+                1,
+                11
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  14
+                ],
+                [
+                  7,
+                  8
+                ]
+              ],
+              "harmonic_residual_sum": 1.2857142857142856,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                7,
+                7,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                6,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            5,
+            133
+          ],
+          "weighted_cost": 0.0005491242976972551
+        },
+        {
+          "cost_TV_K_rows": 0.11512865699140794,
+          "is_Lambda_edge": false,
+          "mass": 0.004612381887687271,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  9
+                ],
+                [
+                  10,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.35,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                10,
+                4,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                4,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  9,
+                  10
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                4,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            33,
+            51
+          ],
+          "weighted_cost": 0.0005310173322609305
+        },
+        {
+          "cost_TV_K_rows": 0.19497062062080217,
+          "is_Lambda_edge": false,
+          "mass": 0.0027099181586697605,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  12,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                13
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  14
+                ],
+                [
+                  7,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 0.8095238095238095,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                7,
+                6,
+                2
+              ],
+              "support_gaps": [
+                1,
+                6,
+                1,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            0,
+            138
+          ],
+          "weighted_cost": 0.0005283544252274246
+        },
+        {
+          "cost_TV_K_rows": 0.1606867155346903,
+          "is_Lambda_edge": false,
+          "mass": 0.00326644066017142,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  11,
+                  14
+                ],
+                [
+                  12,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                1,
+                12
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  14
+                ],
+                [
+                  8,
+                  9
+                ]
+              ],
+              "harmonic_residual_sum": 1.2916666666666667,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                8,
+                6,
+                1
+              ],
+              "support_gaps": [
+                3,
+                1,
+                5,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            4,
+            173
+          ],
+          "weighted_cost": 0.0005248736211719109
+        },
+        {
+          "cost_TV_K_rows": 0.1577518929496432,
+          "is_Lambda_edge": false,
+          "mass": 0.0032949426226363794,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  10,
+                  11
+                ],
+                [
+                  12,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                1,
+                2,
+                11
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  9,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                1,
+                5,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            6,
+            34
+          ],
+          "weighted_cost": 0.0005197834358813508
+        },
+        {
+          "cost_TV_K_rows": 0.20468708499620858,
+          "is_Lambda_edge": false,
+          "mass": 0.0025218335844230952,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  9
+                ],
+                [
+                  10,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.7083333333333333,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                8,
+                4,
+                3
+              ],
+              "support_gaps": [
+                3,
+                1,
+                4,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  8,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.6666666666666666,
+              "kind": "3",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                6,
+                6,
+                3
+              ],
+              "support_gaps": [
+                3,
+                6,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            107,
+            154
+          ],
+          "weighted_cost": 0.0005161867652411034
+        },
+        {
+          "cost_TV_K_rows": 0.163755324333842,
+          "is_Lambda_edge": true,
+          "mass": 0.0031218729457486638,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  8
+                ],
+                [
+                  11,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.9333333333333333,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                10,
+                3,
+                2
+              ],
+              "support_gaps": [
+                2,
+                3,
+                3,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  14
+                ],
+                [
+                  9,
+                  11
+                ]
+              ],
+              "harmonic_residual_sum": 0.8095238095238095,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                7,
+                6,
+                2
+              ],
+              "support_gaps": [
+                3,
+                2,
+                3,
+                7
+              ]
+            }
+          ],
+          "source_orbits": [
+            100,
+            125
+          ],
+          "weighted_cost": 0.0005112233167601191
+        },
+        {
+          "cost_TV_K_rows": 0.14772091970150233,
+          "is_Lambda_edge": true,
+          "mass": 0.0033324672426585903,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  11,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                12
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  14
+                ],
+                [
+                  11,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 0.8611111111111112,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                9,
+                4,
+                2
+              ],
+              "support_gaps": [
+                3,
+                2,
+                1,
+                9
+              ]
+            }
+          ],
+          "source_orbits": [
+            3,
+            47
+          ],
+          "weighted_cost": 0.0004922751259606565
+        },
+        {
+          "cost_TV_K_rows": 0.14766852332764832,
+          "is_Lambda_edge": false,
+          "mass": 0.003317757260712992,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  11,
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "3",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                2,
+                1,
+                12
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  14
+                ],
+                [
+                  9,
+                  11
+                ]
+              ],
+              "harmonic_residual_sum": 0.8095238095238095,
+              "kind": "D",
+              "minimum_residual_size": 2,
+              "residual_sizes": [
+                7,
+                6,
+                2
+              ],
+              "support_gaps": [
+                4,
+                2,
+                3,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            3,
+            170
+          ],
+          "weighted_cost": 0.0004899283154490711
+        },
+        {
+          "cost_TV_K_rows": 0.24527157991452608,
+          "is_Lambda_edge": false,
+          "mass": 0.0019957174185018856,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  12,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.5833333333333333,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                12,
+                2,
+                1
+              ],
+              "support_gaps": [
+                1,
+                6,
+                2,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  14
+                ],
+                [
+                  7,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 0.6666666666666666,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                6,
+                6,
+                3
+              ],
+              "support_gaps": [
+                2,
+                6,
+                1,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            139,
+            182
+          ],
+          "weighted_cost": 0.000489492764298897
+        },
+        {
+          "cost_TV_K_rows": 0.20266124199482557,
+          "is_Lambda_edge": true,
+          "mass": 0.002401247197941469,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  10,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 0.7083333333333333,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                8,
+                4,
+                3
+              ],
+              "support_gaps": [
+                3,
+                2,
+                4,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  14
+                ],
+                [
+                  9,
+                  12
+                ]
+              ],
+              "harmonic_residual_sum": 0.6666666666666666,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                6,
+                6,
+                3
+              ],
+              "support_gaps": [
+                4,
+                3,
+                2,
+                6
+              ]
+            }
+          ],
+          "source_orbits": [
+            152,
+            171
+          ],
+          "weighted_cost": 0.00048663973947141284
+        },
+        {
+          "cost_TV_K_rows": 0.13170128707214784,
+          "is_Lambda_edge": false,
+          "mass": 0.003633092687192766,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  7
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 2.076923076923077,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                13,
+                1,
+                1
+              ],
+              "support_gaps": [
+                1,
+                6,
+                1,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  9
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.3111111111111111,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                9,
+                5,
+                1
+              ],
+              "support_gaps": [
+                5,
+                4,
+                1,
+                5
+              ]
+            }
+          ],
+          "source_orbits": [
+            91,
+            198
+          ],
+          "weighted_cost": 0.0004784829829556955
+        },
+        {
+          "cost_TV_K_rows": 0.16879505137341738,
+          "is_Lambda_edge": false,
+          "mass": 0.002819759607030442,
+          "source_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  11
+                ],
+                [
+                  13,
+                  14
+                ]
+              ],
+              "harmonic_residual_sum": 1.35,
+              "kind": "D",
+              "minimum_residual_size": 1,
+              "residual_sizes": [
+                10,
+                4,
+                1
+              ],
+              "support_gaps": [
+                4,
+                2,
+                1,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  14
+                ],
+                [
+                  9,
+                  13
+                ]
+              ],
+              "harmonic_residual_sum": 0.7083333333333333,
+              "kind": "D",
+              "minimum_residual_size": 3,
+              "residual_sizes": [
+                8,
+                4,
+                3
+              ],
+              "support_gaps": [
+                2,
+                4,
+                1,
+                8
+              ]
+            }
+          ],
+          "source_orbits": [
+            70,
+            85
+          ],
+          "weighted_cost": 0.0004759614677293907
+        }
+      ]
+    }
+  ],
+  "scipy": "1.11.4",
+  "seed": null,
+  "status": "finite_floating_optimal_transport_only",
+  "tolerance": 1e-11
+}

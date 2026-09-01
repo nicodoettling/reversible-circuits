@@ -1,0 +1,250 @@
+{
+  "claim_scope": "finite upper-bound/falsification audit for the >1/3 three-coordinate threshold",
+  "deterministic": true,
+  "endpoint": "one representative of every S_N conjugacy type in A_N",
+  "normalization": "complete heat bath (P_12+P_13+P_23)/3",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "records": [
+    {
+      "N": 3,
+      "endpoint_cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "endpoint_cycles": "e",
+      "group_function_gap": 0.6666666666666667,
+      "group_size": 3,
+      "group_state_count": 9,
+      "lambda2": 0.3333333333333333,
+      "lambda_top": 1.0,
+      "support_size": 3,
+      "symmetry_error": 0.0
+    },
+    {
+      "N": 3,
+      "endpoint_cycle_type": [
+        3
+      ],
+      "endpoint_cycles": "(1 2 3)",
+      "group_function_gap": 0.6666666666666666,
+      "group_size": 3,
+      "group_state_count": 9,
+      "lambda2": 0.33333333333333337,
+      "lambda_top": 1.0000000000000002,
+      "support_size": 3,
+      "symmetry_error": 0.0
+    },
+    {
+      "N": 4,
+      "endpoint_cycle_type": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "endpoint_cycles": "e",
+      "group_function_gap": 0.5606837606837614,
+      "group_size": 12,
+      "group_state_count": 144,
+      "lambda2": 0.4393162393162387,
+      "lambda_top": 1.0,
+      "support_size": 12,
+      "symmetry_error": 3.469446951953614e-18
+    },
+    {
+      "N": 4,
+      "endpoint_cycle_type": [
+        3,
+        1
+      ],
+      "endpoint_cycles": "(2 3 4)",
+      "group_function_gap": 0.5769230769230771,
+      "group_size": 12,
+      "group_state_count": 144,
+      "lambda2": 0.4230769230769229,
+      "lambda_top": 0.9999999999999998,
+      "support_size": 12,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 4,
+      "endpoint_cycle_type": [
+        2,
+        2
+      ],
+      "endpoint_cycles": "(1 2)(3 4)",
+      "group_function_gap": 0.5925925925925926,
+      "group_size": 12,
+      "group_state_count": 144,
+      "lambda2": 0.4074074074074075,
+      "lambda_top": 0.9999999999999996,
+      "support_size": 12,
+      "symmetry_error": 1.0408340855860843e-17
+    },
+    {
+      "N": 5,
+      "endpoint_cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "endpoint_cycles": "e",
+      "group_function_gap": 0.43915657926680174,
+      "group_size": 60,
+      "group_state_count": 816,
+      "lambda2": 0.5608434207331983,
+      "lambda_top": 1.0000000000000004,
+      "support_size": 36,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 5,
+      "endpoint_cycle_type": [
+        3,
+        1,
+        1
+      ],
+      "endpoint_cycles": "(3 4 5)",
+      "group_function_gap": 0.43508128597288753,
+      "group_size": 60,
+      "group_state_count": 792,
+      "lambda2": 0.5649187140271125,
+      "lambda_top": 0.999999999999999,
+      "support_size": 36,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 5,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        1
+      ],
+      "endpoint_cycles": "(2 3)(4 5)",
+      "group_function_gap": 0.4386715822824363,
+      "group_size": 60,
+      "group_state_count": 784,
+      "lambda2": 0.5613284177175637,
+      "lambda_top": 1.0000000000000002,
+      "support_size": 36,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 5,
+      "endpoint_cycle_type": [
+        5
+      ],
+      "endpoint_cycles": "(1 2 3 4 5)",
+      "group_function_gap": 0.5070919926020045,
+      "group_size": 60,
+      "group_state_count": 760,
+      "lambda2": 0.4929080073979954,
+      "lambda_top": 1.0000000000000002,
+      "support_size": 36,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "endpoint_cycles": "e",
+      "group_function_gap": 0.3903902799818635,
+      "group_size": 360,
+      "group_state_count": 2996,
+      "lambda2": 0.6096097200181365,
+      "lambda_top": 0.9999999999999998,
+      "support_size": 86,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "endpoint_cycles": "(4 5 6)",
+      "group_function_gap": 0.3117798704272484,
+      "group_size": 360,
+      "group_state_count": 2256,
+      "lambda2": 0.6882201295727516,
+      "lambda_top": 0.9999999999999992,
+      "support_size": 86,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "endpoint_cycles": "(3 4)(5 6)",
+      "group_function_gap": 0.28416131772355324,
+      "group_size": 360,
+      "group_state_count": 2020,
+      "lambda2": 0.7158386822764468,
+      "lambda_top": 1.0000000000000004,
+      "support_size": 86,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        5,
+        1
+      ],
+      "endpoint_cycles": "(2 3 4 5 6)",
+      "group_function_gap": 0.293606734283658,
+      "group_size": 360,
+      "group_state_count": 1760,
+      "lambda2": 0.706393265716342,
+      "lambda_top": 0.9999999999999998,
+      "support_size": 86,
+      "symmetry_error": 6.938893903907228e-18
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        4,
+        2
+      ],
+      "endpoint_cycles": "(1 2)(3 4 5 6)",
+      "group_function_gap": 0.321311981626783,
+      "group_size": 360,
+      "group_state_count": 1528,
+      "lambda2": 0.678688018373217,
+      "lambda_top": 1.0,
+      "support_size": 86,
+      "symmetry_error": 1.0408340855860843e-17
+    },
+    {
+      "N": 6,
+      "endpoint_cycle_type": [
+        3,
+        3
+      ],
+      "endpoint_cycles": "(1 2 3)(4 5 6)",
+      "group_function_gap": 0.3506844524705348,
+      "group_size": 360,
+      "group_state_count": 1524,
+      "lambda2": 0.6493155475294652,
+      "lambda_top": 0.9999999999999987,
+      "support_size": 86,
+      "symmetry_error": 1.3877787807814457e-17
+    }
+  ],
+  "status": "complete"
+}

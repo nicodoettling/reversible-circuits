@@ -1,0 +1,61 @@
+{
+  "status": "single authorized exact-symbolic falsifier",
+  "scope": "k=9, n=27 only; no all-rank DSR, DTR, BODT, or DOR inference",
+  "convention": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "python": "3.12.3",
+  "nonstandard_dependencies": null,
+  "imports_predecessor_code_or_data": false,
+  "source_mass_exact": {
+    "A": "1",
+    "B": "1"
+  },
+  "raw_ordered_pairs": {
+    "A": 10044,
+    "B": 22108
+  },
+  "accessible_supported_products": 11388,
+  "channel_kind_signed_mass": {
+    "J0_D": "0",
+    "J0_T": "0",
+    "J1_D": "0",
+    "J1_T": "0",
+    "J2_D": "-32/3519",
+    "J2_T": "32/3519"
+  },
+  "all_channel_kind_rows_summed_before_sign": true,
+  "owner_sizes_phases_seams_used_literally": true,
+  "same_cross_and_collision_decoration_combined_before_sign": true,
+  "reflection_exact_symbolic": true,
+  "central_derivative_zero_exact_symbolic": true,
+  "lower_half_signs": {
+    "2": -1,
+    "3": -1,
+    "4": -1,
+    "5": -1,
+    "6": -1,
+    "7": -1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 0
+  },
+  "DSR_k9_survives": true,
+  "DOR_symbolic_under_certified_signs": {
+    "e2": "4713928057572476330206231687608384294451927028345863381312562721851214132922474916615354320050610044411343721779899210919386830889033118924875176526685589290259324131176688548597550220608878644227367532472753517656525665699079/73269930582866626865841549139830555186105933137273170960146584012809591486942292541199275224521983620350397064953874474362666358443640623708560123736472363378946223499434101970042880000000000000000000000000000000000000000000000",
+    "constant": "-20676089777412835885438832/104963418855302533024492197"
+  },
+  "DOR_equals_DTR_at_k9": true,
+  "DOR_enclosure_float": [
+    0.2784019538957808,
+    0.2784019538957808
+  ],
+  "k_times_DOR_enclosure_float": [
+    2.5056175850620277,
+    2.5056175850620277
+  ],
+  "BODT_inference": false,
+  "DOR_inference": false,
+  "downstream_inference": false
+}

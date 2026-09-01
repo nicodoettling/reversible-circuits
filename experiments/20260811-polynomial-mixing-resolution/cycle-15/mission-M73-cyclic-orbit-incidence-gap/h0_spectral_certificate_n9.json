@@ -1,0 +1,213 @@
+{
+  "claim": "The displayed rational intervals rigorously isolate the extremal mean-zero roots of the exact H0 kernel at the listed finite n.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_spectral_certificate.py --input experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_coordinate_correlation_n9.json --n 5 --n 7 --n 9 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_spectral_certificate_n9.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "deterministic": true,
+  "input": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/h0_coordinate_correlation_n9.json",
+  "python": "3.12.3",
+  "records": [
+    {
+      "all_roots_isolated_exactly": true,
+      "bottom_mean_zero_root_interval": {
+        "left_exact": "-1",
+        "midpoint_numeric": -1.0,
+        "multiplicity": 1,
+        "right_exact": "-1"
+      },
+      "centered_trace_fourth_exact": "3",
+      "centered_trace_second_exact": "3",
+      "characteristic_polynomial_denominator_cleared": "1",
+      "constant_root_removed_copies": 1,
+      "dimension": 4,
+      "l": 2,
+      "l_fourth_centered_trace_fourth_numeric": 48.0,
+      "l_squared_centered_trace_second_numeric": 12.0,
+      "l_squared_max_centered_K_squared_row_L1_numeric": 6.72,
+      "max_centered_K_squared_row_L1_exact": "42/25",
+      "max_centered_K_squared_row_L1_source_orbit": 3,
+      "n": 5,
+      "primitive_integer_characteristic_factors": [
+        {
+          "coefficients_descending": [
+            "1",
+            "-1"
+          ],
+          "degree": 1,
+          "exponent": 3
+        },
+        {
+          "coefficients_descending": [
+            "1",
+            "1"
+          ],
+          "degree": 1,
+          "exponent": 1
+        }
+      ],
+      "top_mean_zero_root_interval": {
+        "left_exact": "1",
+        "midpoint_numeric": 1.0,
+        "multiplicity": 3,
+        "right_exact": "1"
+      }
+    },
+    {
+      "all_roots_isolated_exactly": true,
+      "bottom_mean_zero_root_interval": {
+        "left_exact": "-463679/1100235",
+        "midpoint_numeric": -0.42143632951098536,
+        "multiplicity": 1,
+        "right_exact": "-438070/1039469"
+      },
+      "centered_trace_fourth_exact": "9641667417737415673/136048896000000000000",
+      "centered_trace_second_exact": "7931999329/11664000000",
+      "characteristic_polynomial_denominator_cleared": "53496602689536000000000",
+      "constant_root_removed_copies": 1,
+      "dimension": 15,
+      "l": 3,
+      "l_fourth_centered_trace_fourth_numeric": 5.740399840045234,
+      "l_squared_centered_trace_second_numeric": 6.1203698526234565,
+      "l_squared_max_centered_K_squared_row_L1_numeric": 3.2877834852761967,
+      "max_centered_K_squared_row_L1_exact": "10656857/29172150",
+      "max_centered_K_squared_row_L1_source_orbit": 14,
+      "n": 7,
+      "primitive_integer_characteristic_factors": [
+        {
+          "coefficients_descending": [
+            "1",
+            "-1"
+          ],
+          "degree": 1,
+          "exponent": 1
+        },
+        {
+          "coefficients_descending": [
+            "55296",
+            "-1728",
+            "-2212",
+            "171"
+          ],
+          "degree": 3,
+          "exponent": 1
+        },
+        {
+          "coefficients_descending": [
+            "967458816000000000",
+            "-175844597760000000",
+            "-273801640255488000",
+            "83779017473389824",
+            "16404115752497376",
+            "-9732815981103276",
+            "932862924466806",
+            "181720502588362",
+            "-51709930559163",
+            "5098816913564",
+            "-234554025930",
+            "4211777448"
+          ],
+          "degree": 11,
+          "exponent": 1
+        }
+      ],
+      "top_mean_zero_root_interval": {
+        "left_exact": "1106541/3898405",
+        "midpoint_numeric": 0.28384454668001974,
+        "multiplicity": 1,
+        "right_exact": "1161019/4090334"
+      }
+    },
+    {
+      "all_roots_isolated_exactly": true,
+      "bottom_mean_zero_root_interval": {
+        "left_exact": "-424813/1634199",
+        "midpoint_numeric": -0.2599518173732561,
+        "multiplicity": 1,
+        "right_exact": "-293927/1130698"
+      },
+      "centered_trace_fourth_exact": "2216633222322833415970680638682183983299777409/182333229922354166914873033359360000000000000000",
+      "centered_trace_second_exact": "9400228464753737917807/28466996869463040000000",
+      "characteristic_polynomial_denominator_cleared": "1470926514820616454614518683778584864140593813267383582720000000000000000000000000000000000000000000000000000000000000",
+      "constant_root_removed_copies": 1,
+      "dimension": 38,
+      "l": 4,
+      "l_fourth_centered_trace_fourth_numeric": 3.112203437389306,
+      "l_squared_centered_trace_second_numeric": 5.283439490499962,
+      "l_squared_max_centered_K_squared_row_L1_numeric": 3.229885267688491,
+      "max_centered_K_squared_row_L1_exact": "804941560384/3987468253125",
+      "max_centered_K_squared_row_L1_source_orbit": 35,
+      "n": 9,
+      "primitive_integer_characteristic_factors": [
+        {
+          "coefficients_descending": [
+            "1",
+            "-1"
+          ],
+          "degree": 1,
+          "exponent": 1
+        },
+        {
+          "coefficients_descending": [
+            "1606710251980800000000000000000000",
+            "52565211947520000000000000000000",
+            "-34757832397641865632000000000000",
+            "-224832321148099730400000000000",
+            "284214200725115328608280000000",
+            "-5158890089141985881496000000",
+            "-954183092520753146427746400",
+            "39705775425716312154040320",
+            "660379890106129157694904",
+            "-69724854218255665054646",
+            "1502007886524050973687",
+            "-10796258529348356160"
+          ],
+          "degree": 11,
+          "exponent": 1
+        },
+        {
+          "coefficients_descending": [
+            "915489593103183768570426606162675468494438400000000000000000000000000000000000000000",
+            "28449356962909603287290568892153618484666695680000000000000000000000000000000000000",
+            "-130417488953638649171100276813425148642293859680256000000000000000000000000000000000",
+            "7127061024595198522608170848506977866348391166009753600000000000000000000000000000",
+            "6924177526628288320741852660489964559092581734924701368320000000000000000000000000",
+            "-946793880068920047663884912678947639402704059089496728276992000000000000000000000",
+            "-122642223952072703475627229213479240669848171783929721787646771200000000000000000",
+            "34459007600342138938884648484405734582445545713627829230304028262400000000000000",
+            "-1139454010764747598821841696230607760413559091710373690308562849792000000000000",
+            "-372154036908311245595307386618697930334770037646137182861029148673689600000000",
+            "44615422863369913947283001782590204403291214814158354200147269533675520000000",
+            "-378196458935328163471861723470220803545435548325045374124302532706696000000",
+            "-289126572256356514135631859283965042681924564342922052346686649126037200000",
+            "23622226908142604788885306580190153956517419328159576321159359880215430000",
+            "-283365253915952328344606276592319440490424287373219893211553377417775000",
+            "-74316465344870425660503673180366487464578601894733169192639559461550800",
+            "5765583493656269872595826704462999934774689118992810826608470939111190",
+            "-161566404331474047587825402707013572633266593307076962659806372414901",
+            "-2917136277415786291278961332187366648384458323055747787717912662797",
+            "454382834502671653552431382508700331615293392770493322454493705225",
+            "-20868244059630085151346062815878381678569720647374967762319840635",
+            "586264962508547243010561513681850236973367269341808475585033410",
+            "-11173091534980603512755768381966860898228156023576370649950460",
+            "146189210043592533573418863315394557292045505642626860665064",
+            "-1266475161838157906059629870566648608836452006725991265612",
+            "6573603141825068686038407847847436556351927720187692000",
+            "-15522797085798410344308594287034691561181527884495648"
+          ],
+          "degree": 26,
+          "exponent": 1
+        }
+      ],
+      "top_mean_zero_root_interval": {
+        "left_exact": "194755/1145256",
+        "midpoint_numeric": 0.1700536823210433,
+        "multiplicity": 1,
+        "right_exact": "316366/1860389"
+      }
+    }
+  ],
+  "scope_warning": "Finite exact spectra do not prove an asymptotic bound.",
+  "seed": null,
+  "status": "complete",
+  "sympy": "1.12",
+  "tolerance_power": 12
+}

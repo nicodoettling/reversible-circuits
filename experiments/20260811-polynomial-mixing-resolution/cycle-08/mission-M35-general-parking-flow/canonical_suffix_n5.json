@@ -1,0 +1,152 @@
+{
+  "claim_tested": "Canonical borrow-route edges contain the stated suffix witness families, which have inverse-cubic orbit fraction.",
+  "failures": [
+    {
+      "h": 0,
+      "i": 2,
+      "kind": "first_hhi",
+      "labels": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "reason": "suffix word is not a two-outcome witness",
+      "source": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "suffix": [
+        0,
+        0,
+        2
+      ],
+      "target": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "x": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "h": 0,
+      "i": 2,
+      "kind": "third_hh",
+      "labels": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "reason": "suffix word is not a two-outcome witness",
+      "source": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "suffix": [
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "x": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "h": 0,
+      "i": 2,
+      "kind": "third_hh",
+      "labels": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "reason": "suffix word is not a two-outcome witness",
+      "source": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "suffix": [
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "x": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "h": 0,
+      "i": 0,
+      "kind": "middle_ii_next",
+      "labels": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "reason": "suffix word is not a two-outcome witness",
+      "source": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "suffix": [
+        0,
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "x": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "n": 5,
+  "r": 4,
+  "tests_by_kind": {
+    "first_hhi": 6,
+    "middle_ii": 24,
+    "middle_ii_next": 6,
+    "third_hh": 11
+  },
+  "universal_scope_warning": "Finite enumeration is a falsifier only."
+}

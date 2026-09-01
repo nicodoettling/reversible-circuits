@@ -1,0 +1,106 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "scope_warning": "Exact counts but floating cyclotomic sums; finite values are not asymptotic proof.",
+  "records": [
+    {
+      "n": 7,
+      "bridge_length": 6,
+      "variance": 4.751998217803873,
+      "covariance_real": 0.9852616636898435,
+      "covariance_imag": 1.2354790484866347,
+      "kappa_real": 0.20733628644860483,
+      "kappa_imag": 0.25999147976482384,
+      "kappa_abs": 0.33254158420955526,
+      "sqrt_n_times_kappa_abs": 0.8798223324059269,
+      "feasible_ordered_first_pairs": 245
+    },
+    {
+      "n": 9,
+      "bridge_length": 8,
+      "variance": 4.077686967232825,
+      "covariance_real": 0.8894257665460705,
+      "covariance_imag": 0.7463168326683739,
+      "kappa_real": 0.21812016804949771,
+      "kappa_imag": 0.183024552562659,
+      "kappa_abs": 0.28473565732219536,
+      "sqrt_n_times_kappa_abs": 0.8542069719665861,
+      "feasible_ordered_first_pairs": 756
+    },
+    {
+      "n": 11,
+      "bridge_length": 10,
+      "variance": 3.627721985979041,
+      "covariance_real": 0.7805205600052475,
+      "covariance_imag": 0.5016101057929441,
+      "kappa_real": 0.21515445864427302,
+      "kappa_imag": 0.1382713746344514,
+      "kappa_abs": 0.25575459745195395,
+      "sqrt_n_times_kappa_abs": 0.8482420381565164,
+      "feasible_ordered_first_pairs": 1815
+    },
+    {
+      "n": 13,
+      "bridge_length": 12,
+      "variance": 3.300052650201263,
+      "covariance_real": 0.6881684267166631,
+      "covariance_imag": 0.3611786524669147,
+      "kappa_real": 0.2085325598289146,
+      "kappa_imag": 0.10944633033199856,
+      "kappa_abs": 0.23550865744583743,
+      "sqrt_n_times_kappa_abs": 0.8491385402366508,
+      "feasible_ordered_first_pairs": 3718
+    },
+    {
+      "n": 15,
+      "bridge_length": 14,
+      "variance": 3.047703162905949,
+      "covariance_real": 0.6129955194443406,
+      "covariance_imag": 0.27292318922222947,
+      "kappa_real": 0.20113360346414336,
+      "kappa_imag": 0.08955044984170979,
+      "kappa_abs": 0.22016813917850112,
+      "sqrt_n_times_kappa_abs": 0.8527075364038116,
+      "feasible_ordered_first_pairs": 6825
+    },
+    {
+      "n": 17,
+      "bridge_length": 16,
+      "variance": 2.845622145755459,
+      "covariance_real": 0.5517315586635726,
+      "covariance_imag": 0.21374194453702355,
+      "kappa_real": 0.1938878496171874,
+      "kappa_imag": 0.07511255310401695,
+      "kappa_abs": 0.2079288192218213,
+      "sqrt_n_times_kappa_abs": 0.857312484261529,
+      "feasible_ordered_first_pairs": 11560
+    },
+    {
+      "n": 19,
+      "bridge_length": 18,
+      "variance": 2.679063274524849,
+      "covariance_real": 0.5012384088919397,
+      "covariance_imag": 0.17207536312149854,
+      "kappa_real": 0.1870946512007403,
+      "kappa_imag": 0.0642296748859048,
+      "kappa_abs": 0.1978126882782692,
+      "sqrt_n_times_kappa_abs": 0.8622455179550883,
+      "feasible_ordered_first_pairs": 18411
+    },
+    {
+      "n": 21,
+      "bridge_length": 20,
+      "variance": 2.538704503213968,
+      "covariance_real": 0.45906828262915383,
+      "covariance_imag": 0.14160381175932935,
+      "kappa_real": 0.18082777339701378,
+      "kappa_imag": 0.055777981084470726,
+      "kappa_abs": 0.1892349513318862,
+      "sqrt_n_times_kappa_abs": 0.8671834886096529,
+      "feasible_ordered_first_pairs": 27930
+    }
+  ]
+}

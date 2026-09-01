@@ -1,0 +1,194 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the exact minimal-long-cycle product mu diverges, then the universal product-increment O(1/l) claim is false.",
+  "scope_warning": "Exact integer completion counts with final floating spectra can falsify a proposed bound at the recorded lengths, but finite values cannot prove an asymptotic theorem.",
+  "records": [
+    {
+      "N": 15,
+      "length": 7,
+      "endpoint_cycle_type": [
+        15
+      ],
+      "product_support_size": 5006,
+      "active_product_count": 3185,
+      "cyclic_orbit_count": 213,
+      "orbit_size_histogram": {
+        "5": 1,
+        "15": 212
+      },
+      "completion_cycle_type_count": 70,
+      "maximum_normality_error": 1.3877787807814457e-17,
+      "maximum_twist_relation_error": 1.4590396702804712e-16,
+      "mu_product": 0.4811280030535031,
+      "length_times_mu_product": 3.3678960213745217,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.36817432555296264,
+        "kappa_imag": 0.16392177093030252,
+        "kappa_abs": 0.40301697356476873,
+        "gram_mu": 0.4811280030535031
+      },
+      "block_dimensions": [
+        213,
+        212,
+        212,
+        213,
+        212,
+        212,
+        213,
+        212,
+        212,
+        213,
+        212,
+        212,
+        213,
+        212,
+        212
+      ]
+    },
+    {
+      "N": 17,
+      "length": 8,
+      "endpoint_cycle_type": [
+        17
+      ],
+      "product_support_size": 8501,
+      "active_product_count": 5440,
+      "cyclic_orbit_count": 320,
+      "orbit_size_histogram": {
+        "17": 320
+      },
+      "completion_cycle_type_count": 97,
+      "maximum_normality_error": 1.0408340855860843e-17,
+      "maximum_twist_relation_error": 1.488429134743385e-16,
+      "mu_product": 0.45252742547849595,
+      "length_times_mu_product": 3.6202194038279676,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.3550731654703069,
+        "kappa_imag": 0.13755607713355156,
+        "kappa_abs": 0.3807868527056515,
+        "gram_mu": 0.45252742547849595
+      },
+      "block_dimensions": [
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320
+      ]
+    },
+    {
+      "N": 19,
+      "length": 9,
+      "endpoint_cycle_type": [
+        19
+      ],
+      "product_support_size": 13567,
+      "active_product_count": 8721,
+      "cyclic_orbit_count": 459,
+      "orbit_size_histogram": {
+        "19": 459
+      },
+      "completion_cycle_type_count": 132,
+      "maximum_normality_error": 6.938893903907228e-18,
+      "maximum_twist_relation_error": 8.941086053199697e-17,
+      "mu_product": 0.4289922317471637,
+      "length_times_mu_product": 3.8609300857244735,
+      "best_mode": {
+        "frequency": 17,
+        "kappa_real": 0.34308299772535267,
+        "kappa_imag": -0.11778054188806125,
+        "kappa_abs": 0.36273709401667165,
+        "gram_mu": 0.4289922317471637
+      },
+      "block_dimensions": [
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459,
+        459
+      ]
+    },
+    {
+      "N": 21,
+      "length": 10,
+      "endpoint_cycle_type": [
+        21
+      ],
+      "product_support_size": 20616,
+      "active_product_count": 13300,
+      "cyclic_orbit_count": 634,
+      "orbit_size_histogram": {
+        "7": 1,
+        "21": 633
+      },
+      "completion_cycle_type_count": 177,
+      "maximum_normality_error": 6.938893903907228e-18,
+      "maximum_twist_relation_error": 1.1297365827257285e-16,
+      "mu_product": 0.4091221961051963,
+      "length_times_mu_product": 4.0912219610519625,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.3321604781964682,
+        "kappa_imag": 0.10245793841178119,
+        "kappa_abs": 0.3476035276278116,
+        "gram_mu": 0.4091221961051963
+      },
+      "block_dimensions": [
+        634,
+        633,
+        633,
+        634,
+        633,
+        633,
+        634,
+        633,
+        633,
+        634,
+        633,
+        633,
+        634,
+        633,
+        633,
+        634,
+        633,
+        633,
+        634,
+        633,
+        633
+      ]
+    }
+  ]
+}

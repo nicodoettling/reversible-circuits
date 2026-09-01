@@ -1,0 +1,683 @@
+{
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "failures": [],
+  "mission": "M273 decorated root-seam four-schema guard",
+  "predecessor_imports": false,
+  "predeclared_cases": 4,
+  "rank_census": false,
+  "rows": [
+    {
+      "d": 7,
+      "exposed_labels": [
+        10
+      ],
+      "low_endpoint_pairs": [
+        [
+          1,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          2,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          3,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          4,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          5,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          6,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          7,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          8,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          9,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          10,
+          [
+            7,
+            8
+          ]
+        ]
+      ],
+      "name": "direct_root_boundary_v_eq_d_minus_1",
+      "new_word_digest": "82cdcd9b4d7975ed6e585036d129d19efbb61fc346d90ba70f5ae061065909e9",
+      "old_word_digest": "9fdf354694460a9387b213e503c605a7a242fa35bd9ecfa92c05b38c52203951",
+      "open": true,
+      "path": [
+        6,
+        1
+      ],
+      "port_checks": [],
+      "root_table_new": {
+        "11": 1,
+        "12": 1,
+        "13": 6,
+        "14": 8
+      },
+      "root_table_old": {
+        "11": 6,
+        "12": 7
+      },
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "v": 6
+    },
+    {
+      "d": 9,
+      "exposed_labels": [
+        8,
+        11,
+        12
+      ],
+      "low_endpoint_pairs": [
+        [
+          1,
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          4,
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          6,
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          7,
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          8,
+          [
+            9,
+            10
+          ]
+        ],
+        [
+          9,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          10,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          11,
+          [
+            9,
+            10
+          ]
+        ],
+        [
+          12,
+          [
+            9,
+            10
+          ]
+        ],
+        [
+          13,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          14,
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "name": "decreasing_lens_persistent_and_crossing_ports",
+      "new_word_digest": "ad585e2f3481c85c3d41e6eaf3a2862f478f5a1b157a48338c96920dbff0507b",
+      "old_word_digest": "96d2ede8783f81c7c97eef7ea6bcd99239a6cc673033c35e854bfa7a86e35244",
+      "open": true,
+      "path": [
+        5,
+        4,
+        2,
+        1
+      ],
+      "port_checks": [
+        {
+          "expected": {
+            "new": [
+              10,
+              10
+            ],
+            "old": [
+              9,
+              9
+            ]
+          },
+          "got": {
+            "new": [
+              10,
+              10
+            ],
+            "old": [
+              9,
+              9
+            ]
+          },
+          "h": 7,
+          "labels": [
+            11,
+            12
+          ]
+        },
+        {
+          "expected": {
+            "new": [
+              2,
+              2
+            ],
+            "old": [
+              2,
+              2
+            ]
+          },
+          "got": {
+            "new": [
+              2,
+              2
+            ],
+            "old": [
+              2,
+              2
+            ]
+          },
+          "h": 3,
+          "labels": [
+            3,
+            4
+          ]
+        }
+      ],
+      "root_table_new": {
+        "15": 1,
+        "16": 1,
+        "17": 5,
+        "18": 10
+      },
+      "root_table_old": {
+        "15": 5,
+        "16": 9
+      },
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "v": 5
+    },
+    {
+      "d": 8,
+      "exposed_labels": [
+        6,
+        7,
+        8
+      ],
+      "low_endpoint_pairs": [
+        [
+          1,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          4,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          5,
+          [
+            6,
+            6
+          ]
+        ],
+        [
+          6,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          7,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          8,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          9,
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          10,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          11,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          12,
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "name": "above_v_lens_expands_at_root",
+      "new_word_digest": "c7eebee951a5f5a819b4f4af939a5e88815db941561aa6efdb3443b766636f77",
+      "old_word_digest": "eaac47692d6d011474538695f940d0754fb16a0b4a996472c68b3cee1b96b5b3",
+      "open": false,
+      "path": [
+        4,
+        6,
+        1
+      ],
+      "port_checks": [
+        {
+          "expected": {
+            "new": [
+              1,
+              1
+            ],
+            "old": [
+              1,
+              1
+            ]
+          },
+          "got": {
+            "new": [
+              1,
+              1
+            ],
+            "old": [
+              1,
+              1
+            ]
+          },
+          "h": 5,
+          "labels": [
+            7,
+            8
+          ]
+        }
+      ],
+      "root_table_new": {
+        "13": 1,
+        "14": 1,
+        "15": 9,
+        "16": 9
+      },
+      "root_table_old": {
+        "13": 8,
+        "14": 8
+      },
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "v": 4
+    },
+    {
+      "d": 8,
+      "exposed_labels": [
+        8
+      ],
+      "low_endpoint_pairs": [
+        [
+          1,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          3,
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          5,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          6,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          7,
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          8,
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          9,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          10,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          11,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          12,
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "name": "canonical_input_sealed_before_root",
+      "new_word_digest": "fec89781e49486af84891317dcb0023e7e88b8bf6510e4eef02fabde9855ca74",
+      "old_word_digest": "aee4c6241930ae8fa912df18a80f93ca5b506f88d2e06a59b1aa673cf20d02fd",
+      "open": false,
+      "path": [
+        5,
+        3,
+        4,
+        1
+      ],
+      "port_checks": [],
+      "root_table_new": {
+        "13": 1,
+        "14": 1,
+        "15": 9,
+        "16": 9
+      },
+      "root_table_old": {
+        "13": 8,
+        "14": 8
+      },
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "v": 5
+    }
+  ],
+  "rows_digest": "922fca4abe3fce67064cb5e5963a69ee222f4fa2fa2c6f89f110a5b0c62e1695",
+  "scope": {
+    "gap_or_mixing": false,
+    "proves_all_rank": false,
+    "proves_idl": false,
+    "proves_route": false
+  },
+  "status": "exact finite calibration only; analytic proof carries all ranks",
+  "tree_census": false
+}

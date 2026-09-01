@@ -1,0 +1,375 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the exact minimal-long-cycle product mu diverges, then the universal product-increment O(1/l) claim is false.",
+  "scope_warning": "Exact integer completion counts with final floating spectra can falsify a proposed bound at the recorded lengths, but finite values cannot prove an asymptotic theorem.",
+  "records": [
+    {
+      "N": 7,
+      "length": 3,
+      "endpoint_cycle_type": [
+        7
+      ],
+      "product_support_size": 176,
+      "active_product_count": 105,
+      "cyclic_orbit_count": 15,
+      "orbit_size_histogram": {
+        "7": 15
+      },
+      "completion_cycle_type_count": 12,
+      "maximum_normality_error": 5.551146463846029e-17,
+      "maximum_twist_relation_error": 2.1138016631127878e-16,
+      "mu_product": 0.7469702580138664,
+      "length_times_mu_product": 2.240910774041599,
+      "best_mode": {
+        "frequency": 5,
+        "kappa_real": 0.40483320995884386,
+        "kappa_imag": -0.5076447886570683,
+        "kappa_abs": 0.6493020555460001,
+        "gram_mu": 0.7469702580138664
+      },
+      "feature_diagnostics": [
+        {
+          "frequency": 0,
+          "feature": "permutation_dirichlet_fourier",
+          "norm2": 2.0957626240116194,
+          "kappa_real": -0.1486948617094269,
+          "kappa_imag": -3.3109159522203395e-18,
+          "kappa_abs": 0.1486948617094269,
+          "relative_eigen_residual": 0.32569882870656786,
+          "gram_mu_from_rayleigh": 0.38289828723647557
+        },
+        {
+          "frequency": 2,
+          "feature": "moved_support_fourier",
+          "norm2": 1.909895833769483,
+          "kappa_real": -0.20933925081512367,
+          "kappa_imag": -0.26250311763818984,
+          "kappa_abs": 0.3357540896275228,
+          "relative_eigen_residual": 0.3709275209315349,
+          "gram_mu_from_rayleigh": 0.49741677591731664
+        },
+        {
+          "frequency": 2,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 8.166856273394083,
+          "kappa_real": 0.39687034743003025,
+          "kappa_imag": 0.49765967487167506,
+          "kappa_abs": 0.6365306156522357,
+          "relative_eigen_residual": 0.0936669953316861,
+          "gram_mu_from_rayleigh": 0.7388342309117243
+        },
+        {
+          "frequency": 5,
+          "feature": "moved_support_fourier",
+          "norm2": 1.909895833769487,
+          "kappa_real": -0.20933925081512345,
+          "kappa_imag": 0.26250311763818995,
+          "kappa_abs": 0.33575408962752273,
+          "relative_eigen_residual": 0.370927520931535,
+          "gram_mu_from_rayleigh": 0.49741677591731653
+        },
+        {
+          "frequency": 5,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 8.166856273394098,
+          "kappa_real": 0.3968703474300299,
+          "kappa_imag": -0.4976596748716754,
+          "kappa_abs": 0.6365306156522358,
+          "relative_eigen_residual": 0.09366699533168599,
+          "gram_mu_from_rayleigh": 0.7388342309117243
+        }
+      ],
+      "block_dimensions": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "N": 9,
+      "length": 4,
+      "endpoint_cycle_type": [
+        9
+      ],
+      "product_support_size": 547,
+      "active_product_count": 336,
+      "cyclic_orbit_count": 38,
+      "orbit_size_histogram": {
+        "3": 1,
+        "9": 37
+      },
+      "completion_cycle_type_count": 21,
+      "maximum_normality_error": 3.469446951953614e-17,
+      "maximum_twist_relation_error": 2.7633878174254497e-16,
+      "mu_product": 0.6334248508476199,
+      "length_times_mu_product": 2.5336994033904796,
+      "best_mode": {
+        "frequency": 7,
+        "kappa_real": 0.4080322036869284,
+        "kappa_imag": -0.34237967162215555,
+        "kappa_abs": 0.5326482129752301,
+        "gram_mu": 0.6334248508476199
+      },
+      "feature_diagnostics": [
+        {
+          "frequency": 0,
+          "feature": "permutation_dirichlet_fourier",
+          "norm2": 2.425932208743191,
+          "kappa_real": -0.11013537232318463,
+          "kappa_imag": -5.363062505595075e-18,
+          "kappa_abs": 0.11013537232318463,
+          "relative_eigen_residual": 0.18792767019686055,
+          "gram_mu_from_rayleigh": 0.27753384308079615
+        },
+        {
+          "frequency": 2,
+          "feature": "moved_support_fourier",
+          "norm2": 2.5069025749625147,
+          "kappa_real": -0.19045671828736305,
+          "kappa_imag": -0.15981216207016138,
+          "kappa_abs": 0.24862358835462797,
+          "relative_eigen_residual": 0.2124679346482012,
+          "gram_mu_from_rayleigh": 0.3546730347502529
+        },
+        {
+          "frequency": 2,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 7.629750597562042,
+          "kappa_real": 0.3964251302328139,
+          "kappa_imag": 0.3326401805677591,
+          "kappa_abs": 0.5174962546804129,
+          "relative_eigen_residual": 0.09512882002900228,
+          "gram_mu_from_rayleigh": 0.6225177695738682
+        },
+        {
+          "frequency": 7,
+          "feature": "moved_support_fourier",
+          "norm2": 2.5069025749625085,
+          "kappa_real": -0.19045671828736263,
+          "kappa_imag": 0.15981216207016172,
+          "kappa_abs": 0.24862358835462786,
+          "relative_eigen_residual": 0.2124679346482013,
+          "gram_mu_from_rayleigh": 0.354673034750253
+        },
+        {
+          "frequency": 7,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 7.629750597562019,
+          "kappa_real": 0.39642513023281334,
+          "kappa_imag": -0.33264018056775985,
+          "kappa_abs": 0.517496254680413,
+          "relative_eigen_residual": 0.0951288200290025,
+          "gram_mu_from_rayleigh": 0.6225177695738677
+        }
+      ],
+      "block_dimensions": [
+        38,
+        37,
+        37,
+        38,
+        37,
+        37,
+        38,
+        37,
+        37
+      ]
+    },
+    {
+      "N": 13,
+      "length": 6,
+      "endpoint_cycle_type": [
+        13
+      ],
+      "product_support_size": 2718,
+      "active_product_count": 1716,
+      "cyclic_orbit_count": 132,
+      "orbit_size_histogram": {
+        "13": 132
+      },
+      "completion_cycle_type_count": 48,
+      "maximum_normality_error": 2.3083069105747755e-17,
+      "maximum_twist_relation_error": 3.187752045048612e-16,
+      "mu_product": 0.517132894215495,
+      "length_times_mu_product": 3.10279736529297,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.3822353345748711,
+        "kappa_imag": 0.20061257928625292,
+        "kappa_abs": 0.4316818944146798,
+        "gram_mu": 0.517132894215495
+      },
+      "feature_diagnostics": [
+        {
+          "frequency": 0,
+          "feature": "permutation_dirichlet_fourier",
+          "norm2": 2.6805837749025403,
+          "kappa_real": -0.0651392326802074,
+          "kappa_imag": 2.2650036991063902e-18,
+          "kappa_abs": 0.0651392326802074,
+          "relative_eigen_residual": 0.10027976978622533,
+          "gram_mu_from_rayleigh": 0.1775232054467014
+        },
+        {
+          "frequency": 2,
+          "feature": "moved_support_fourier",
+          "norm2": 3.361283873065765,
+          "kappa_real": -0.14243380963994237,
+          "kappa_imag": -0.07475503006862651,
+          "kappa_abs": 0.16085926970214864,
+          "relative_eigen_residual": 0.10614008411096312,
+          "gram_mu_from_rayleigh": 0.21666278302445585
+        },
+        {
+          "frequency": 2,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 6.6289098415619225,
+          "kappa_real": 0.36828457943529286,
+          "kappa_imag": 0.1932906581596923,
+          "kappa_abs": 0.41592644780253823,
+          "relative_eigen_residual": 0.08635064463952573,
+          "gram_mu_from_rayleigh": 0.5043416421177175
+        },
+        {
+          "frequency": 11,
+          "feature": "moved_support_fourier",
+          "norm2": 3.361283873065768,
+          "kappa_real": -0.14243380963994132,
+          "kappa_imag": 0.07475503006862771,
+          "kappa_abs": 0.16085926970214826,
+          "relative_eigen_residual": 0.10614008411096339,
+          "gram_mu_from_rayleigh": 0.21666278302445624
+        },
+        {
+          "frequency": 11,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 6.62890984156193,
+          "kappa_real": 0.36828457943529125,
+          "kappa_imag": -0.19329065815969476,
+          "kappa_abs": 0.41592644780253796,
+          "relative_eigen_residual": 0.08635064463952564,
+          "gram_mu_from_rayleigh": 0.5043416421177169
+        }
+      ],
+      "block_dimensions": [
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132
+      ]
+    },
+    {
+      "N": 17,
+      "length": 8,
+      "endpoint_cycle_type": [
+        17
+      ],
+      "product_support_size": 8501,
+      "active_product_count": 5440,
+      "cyclic_orbit_count": 320,
+      "orbit_size_histogram": {
+        "17": 320
+      },
+      "completion_cycle_type_count": 97,
+      "maximum_normality_error": 1.0408340855860843e-17,
+      "maximum_twist_relation_error": 1.488429134743385e-16,
+      "mu_product": 0.45252742547849595,
+      "length_times_mu_product": 3.6202194038279676,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.3550731654703069,
+        "kappa_imag": 0.13755607713355156,
+        "kappa_abs": 0.3807868527056515,
+        "gram_mu": 0.45252742547849595
+      },
+      "feature_diagnostics": [
+        {
+          "frequency": 0,
+          "feature": "permutation_dirichlet_fourier",
+          "norm2": 2.7307842873501023,
+          "kappa_real": -0.041553832684184236,
+          "kappa_imag": 2.223365717330429e-18,
+          "kappa_abs": 0.041553832684184236,
+          "relative_eigen_residual": 0.06925644933324432,
+          "gram_mu_from_rayleigh": 0.13019422908552317
+        },
+        {
+          "frequency": 2,
+          "feature": "moved_support_fourier",
+          "norm2": 3.938194647320352,
+          "kappa_real": -0.110999904201839,
+          "kappa_imag": -0.043001591978884306,
+          "kappa_abs": 0.11903829486991101,
+          "relative_eigen_residual": 0.06777903251452493,
+          "gram_mu_from_rayleigh": 0.15376200335141174
+        },
+        {
+          "frequency": 2,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 5.886324051558474,
+          "kappa_real": 0.34091915946564294,
+          "kappa_imag": 0.13207278599509714,
+          "kappa_abs": 0.36560784194443535,
+          "relative_eigen_residual": 0.07859014832437106,
+          "gram_mu_from_rayleigh": 0.43947145392746534
+        },
+        {
+          "frequency": 15,
+          "feature": "moved_support_fourier",
+          "norm2": 3.938194647320346,
+          "kappa_real": -0.11099990420183836,
+          "kappa_imag": 0.043001591978885076,
+          "kappa_abs": 0.1190382948699107,
+          "relative_eigen_residual": 0.06777903251452512,
+          "gram_mu_from_rayleigh": 0.15376200335141207
+        },
+        {
+          "frequency": 15,
+          "feature": "permutation_matrix_fourier",
+          "norm2": 5.886324051558464,
+          "kappa_real": 0.34091915946564194,
+          "kappa_imag": -0.132072785995099,
+          "kappa_abs": 0.3656078419444351,
+          "relative_eigen_residual": 0.07859014832437104,
+          "gram_mu_from_rayleigh": 0.439471453927465
+        }
+      ],
+      "block_dimensions": [
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320,
+        320
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-74/mission-M272-signed-endpoint-transport/channel_two_collision_probe.py --k 3 5 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-74/mission-M272-signed-endpoint-transport/channel_two_collision_results.json",
+  "convention": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "deterministic": true,
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "collision_DE_scaled_k_float": 3.2888888888888888,
+      "collision_DV_lhs_float": 0.0,
+      "double_mass_difference_endpoint_exact": "-4/15",
+      "k": 3,
+      "n": 9,
+      "scalar_Abel_part": {
+        "k_times_l1_float": 0.96,
+        "l1_exact": "8/25",
+        "l1_float": 0.32
+      },
+      "shared_endpoint_gamma_exact": true,
+      "signed_double": {
+        "k_times_l1_float": 2.328888888888889,
+        "l1_exact": "524/675",
+        "l1_float": 0.7762962962962963
+      },
+      "signed_embedding_part": {
+        "k_times_l1_float": 3.2888888888888888,
+        "l1_exact": "148/135",
+        "l1_float": 1.0962962962962963
+      },
+      "signed_total_channel_two": {
+        "k_times_l1_float": 5.336888888888889,
+        "l1_exact": "6004/3375",
+        "l1_float": 1.7789629629629629
+      },
+      "signed_triangle": {
+        "k_times_l1_float": 3.008,
+        "l1_exact": "376/375",
+        "l1_float": 1.0026666666666666
+      },
+      "triangle_crude_l1_bound_exact": true,
+      "triangle_mass_A_exact": "1/3",
+      "triangle_mass_B_exact": "3/5",
+      "vector_disjoint_Abel_identity_exact": true
+    },
+    {
+      "collision_DE_scaled_k_float": 5.10173402503008,
+      "collision_DV_lhs_float": 6.056287097765863,
+      "double_mass_difference_endpoint_exact": "-8/105",
+      "k": 5,
+      "n": 15,
+      "scalar_Abel_part": {
+        "k_times_l1_float": 0.8542979480422749,
+        "l1_exact": "41858899310941/244990049472000",
+        "l1_float": 0.17085958960845496
+      },
+      "shared_endpoint_gamma_exact": true,
+      "signed_double": {
+        "k_times_l1_float": 4.247436076987805,
+        "l1_exact": "237012476/279006525",
+        "l1_float": 0.849487215397561
+      },
+      "signed_embedding_part": {
+        "k_times_l1_float": 5.10173402503008,
+        "l1_exact": "1411115143/1382976000",
+        "l1_float": 1.020346805006016
+      },
+      "signed_total_channel_two": {
+        "k_times_l1_float": 5.016058531247611,
+        "l1_exact": "279902612/279006525",
+        "l1_float": 1.0032117062495223
+      },
+      "signed_triangle": {
+        "k_times_l1_float": 1.5489757596170914,
+        "l1_exact": "61739192/199290375",
+        "l1_float": 0.3097951519234183
+      },
+      "triangle_crude_l1_bound_exact": true,
+      "triangle_mass_A_exact": "9/35",
+      "triangle_mass_B_exact": "1/3",
+      "vector_disjoint_Abel_identity_exact": true
+    },
+    {
+      "collision_DE_scaled_k_float": 4.593722697152248,
+      "collision_DV_lhs_float": 25.489029061568907,
+      "double_mass_difference_endpoint_exact": "-36/1001",
+      "k": 7,
+      "n": 21,
+      "scalar_Abel_part": {
+        "k_times_l1_float": 0.9642161040135881,
+        "l1_exact": "2862462380392283532568177412935309/20780856676568857990236212097000000",
+        "l1_float": 0.13774515771622686
+      },
+      "shared_endpoint_gamma_exact": true,
+      "signed_double": {
+        "k_times_l1_float": 4.0947462528336365,
+        "l1_exact": "193815593192777860/331329237168378449",
+        "l1_float": 0.5849637504048053
+      },
+      "signed_embedding_part": {
+        "k_times_l1_float": 4.593722697152248,
+        "l1_exact": "77555521393851949244777587/118180544527320427152000000",
+        "l1_float": 0.6562460995931781
+      },
+      "signed_total_channel_two": {
+        "k_times_l1_float": 4.627384099662162,
+        "l1_exact": "219026806260878272/331329237168378449",
+        "l1_float": 0.6610548713803088
+      },
+      "signed_triangle": {
+        "k_times_l1_float": 0.9183327231414056,
+        "l1_exact": "43467211517885940/331329237168378449",
+        "l1_float": 0.1311903890202008
+      },
+      "triangle_crude_l1_bound_exact": true,
+      "triangle_mass_A_exact": "15/77",
+      "triangle_mass_B_exact": "3/13",
+      "vector_disjoint_Abel_identity_exact": true
+    }
+  ],
+  "seed": null,
+  "status": "exact finite channel-two collision reduction only; no CDV/CDE/SET/PBV inference",
+  "target": "conditional J=2 signed collision derivative lag-l1"
+}

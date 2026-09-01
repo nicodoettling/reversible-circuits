@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "N": 3,
+      "connected_conductance": [
+        7,
+        18
+      ],
+      "connected_min_exit": [
+        7,
+        18
+      ],
+      "connected_prefix_renewal_count": 6,
+      "connected_prefix_renewal_mass": [
+        6,
+        27
+      ],
+      "exit_certificate_all_words": true,
+      "exit_certificate_case_counts": {
+        "hurwitz_distinct": 6,
+        "square_refresh_equal": 3
+      },
+      "half_return_count": 3,
+      "identity_word_count": 27,
+      "m": 4,
+      "mobius_connected_pair_count": 6,
+      "mobius_matches_enumeration": true,
+      "prefix_renewal_count": 9,
+      "prefix_renewal_mass": [
+        9,
+        27
+      ],
+      "relaxed_conductance": [
+        1,
+        3
+      ],
+      "relaxed_min_exit": [
+        1,
+        3
+      ],
+      "runtime_seconds": 0.001762250903993845
+    },
+    {
+      "N": 4,
+      "connected_prefix_renewal_count": 0,
+      "connected_prefix_renewal_mass": [
+        0,
+        120
+      ],
+      "exit_certificate_all_words": true,
+      "exit_certificate_case_counts": {
+        "hurwitz_distinct": 30,
+        "square_refresh_equal": 6
+      },
+      "half_return_count": 6,
+      "identity_word_count": 120,
+      "m": 4,
+      "mobius_connected_pair_count": 0,
+      "mobius_matches_enumeration": true,
+      "prefix_renewal_count": 36,
+      "prefix_renewal_mass": [
+        36,
+        120
+      ],
+      "relaxed_conductance": [
+        7,
+        20
+      ],
+      "relaxed_min_exit": [
+        7,
+        20
+      ],
+      "runtime_seconds": 0.012628094060346484
+    },
+    {
+      "N": 4,
+      "connected_prefix_renewal_count": 0,
+      "connected_prefix_renewal_mass": [
+        0,
+        3936
+      ],
+      "identity_word_count": 3936,
+      "m": 6,
+      "prefix_renewal_count": 0,
+      "prefix_renewal_mass": [
+        0,
+        3936
+      ],
+      "runtime_seconds": 0.12648317497223616
+    }
+  ],
+  "claim_scope": "finite falsification of exact count, mass, crossing-window, and one-step-exit identities",
+  "composition": "(pq)(x)=p(q(x))",
+  "crossing_window_formula": {
+    "r3": 2,
+    "r4": 3,
+    "r5": 4,
+    "total": 9
+  },
+  "deterministic": true,
+  "mobius_positive_cases": [
+    {
+      "N": 4,
+      "connected_pair_count": 15252840,
+      "half_length": 6,
+      "half_return_count": 3936,
+      "positive": true
+    },
+    {
+      "N": 5,
+      "connected_pair_count": 3036897974880,
+      "half_length": 8,
+      "half_return_count": 1770940,
+      "positive": true
+    }
+  ],
+  "python": "3.12.3",
+  "status": "complete",
+  "target": "global uniform identity bridge and original lazy r={3,4,5} K"
+}

@@ -1,0 +1,36 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "The span of 1 and chi_std(X_j), 1<=j<=m-1, is invariant under the exact lazy {3,4,5} heat-bath K. One exact finite failure refutes the universal closure lemma but says nothing by itself about asymptotic mixing.",
+  "convention": "(pq)(x)=p(q(x)); word=t_1...t_m",
+  "parameters": {
+    "N": 3,
+    "m": 6,
+    "R_m": [
+      3,
+      4,
+      5
+    ]
+  },
+  "deterministic": true,
+  "random_seed": null,
+  "environment": {
+    "python": "3.12.3",
+    "sympy": "1.12"
+  },
+  "state_count": 243,
+  "feature_column_count": 6,
+  "feature_rank": 3,
+  "fiber_sizes": {
+    "r=3,type=(0, 2, 1)": 9,
+    "r=3,type=(1, 0, 2)": 9,
+    "r=3,type=(2, 1, 0)": 9,
+    "r=4,type=(0, 1, 2)": 27,
+    "r=4,type=(1, 2, 0)": 27,
+    "r=4,type=(2, 0, 1)": 27,
+    "r=5,type=(0, 2, 1)": 81,
+    "r=5,type=(1, 0, 2)": 81,
+    "r=5,type=(2, 1, 0)": 81
+  },
+  "closure_failure_count": 0,
+  "failures": []
+}

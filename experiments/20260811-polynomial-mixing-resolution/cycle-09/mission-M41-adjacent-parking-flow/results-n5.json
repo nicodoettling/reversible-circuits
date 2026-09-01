@@ -1,0 +1,154 @@
+{
+  "claim_tested": "Deterministically chosen capacity-maximizing paths for every adjacent-value ideal edge have polynomial simultaneous load.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "finite_scope_warning": "A large exact load can refute this named routing rule. Finite polynomial-looking load cannot prove a universal flow theorem.",
+  "python": "3.12.3",
+  "records": [
+    {
+      "actual_directed_edge_count": 2,
+      "adjacent_ideal_directed_edge_count": 2,
+      "deterministic_widest_path_total_congestion": "3/4",
+      "macro_count": 2,
+      "maximum_widest_path_length": 1,
+      "minimum_individual_widest_capacity_ratio": "4/3",
+      "n": 3,
+      "r": 2,
+      "raw_factorization_count": 3,
+      "warning_family_records": [],
+      "worst_loaded_directed_edge": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "actual_directed_edge_count": 12,
+      "adjacent_ideal_directed_edge_count": 10,
+      "deterministic_widest_path_total_congestion": "3",
+      "macro_count": 5,
+      "maximum_widest_path_length": 2,
+      "minimum_individual_widest_capacity_ratio": "1/2",
+      "n": 4,
+      "r": 3,
+      "raw_factorization_count": 16,
+      "warning_family_records": [],
+      "worst_loaded_directed_edge": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "actual_directed_edge_count": 56,
+      "adjacent_ideal_directed_edge_count": 42,
+      "deterministic_widest_path_total_congestion": "243/8",
+      "macro_count": 14,
+      "maximum_widest_path_length": 7,
+      "minimum_individual_widest_capacity_ratio": "1/3",
+      "n": 5,
+      "r": 4,
+      "raw_factorization_count": 125,
+      "warning_family_records": [
+        {
+          "a": 2,
+          "b": 1,
+          "bottleneck_over_ideal_flow": "8/9",
+          "ideal_flow_scaled": "3/4",
+          "ideal_rate": "1/16",
+          "path": [
+            [
+              0,
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              1,
+              1,
+              2
+            ],
+            [
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              3
+            ],
+            [
+              0,
+              0,
+              1,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              0,
+              2,
+              2
+            ]
+          ],
+          "path_length": 7,
+          "source": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "target": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      ],
+      "worst_loaded_directed_edge": [
+        [
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "stationary_scale": "all capacities omit the common factor (r+1)^(-(r-1))"
+}

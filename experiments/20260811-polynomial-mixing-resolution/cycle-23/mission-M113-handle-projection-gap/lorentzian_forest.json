@@ -1,0 +1,1286 @@
+{
+  "cases": [
+    {
+      "basis_count": 1,
+      "cycle_atom_count": 2,
+      "ground_size": 2,
+      "include_cut_factorials": false,
+      "lorentzian_signature_witness": null,
+      "maximum_second_eigenvalue_seen": -0.25,
+      "passes_checked_quadratic_signatures": true,
+      "quadratic_derivatives_checked_before_stop": 1
+    },
+    {
+      "basis_count": 1,
+      "cycle_atom_count": 2,
+      "ground_size": 2,
+      "include_cut_factorials": true,
+      "lorentzian_signature_witness": null,
+      "maximum_second_eigenvalue_seen": -1.0,
+      "passes_checked_quadratic_signatures": true,
+      "quadratic_derivatives_checked_before_stop": 1
+    },
+    {
+      "basis_count": 18,
+      "cycle_atom_count": 3,
+      "ground_size": 6,
+      "include_cut_factorials": false,
+      "lorentzian_signature_witness": null,
+      "maximum_second_eigenvalue_seen": -4.3625584915385485e-17,
+      "passes_checked_quadratic_signatures": true,
+      "quadratic_derivatives_checked_before_stop": 6
+    },
+    {
+      "basis_count": 18,
+      "cycle_atom_count": 3,
+      "ground_size": 6,
+      "include_cut_factorials": true,
+      "lorentzian_signature_witness": null,
+      "maximum_second_eigenvalue_seen": 2.7096008000260935e-15,
+      "passes_checked_quadratic_signatures": true,
+      "quadratic_derivatives_checked_before_stop": 6
+    },
+    {
+      "basis_count": 378,
+      "cycle_atom_count": 4,
+      "ground_size": 12,
+      "include_cut_factorials": false,
+      "lorentzian_signature_witness": {
+        "derivative": [
+          [
+            "red",
+            0,
+            1
+          ],
+          [
+            "red",
+            0,
+            2
+          ]
+        ],
+        "eigenvalues": [
+          -0.38304367235517767,
+          -0.18147202821273004,
+          -0.11766855493054978,
+          -0.1176685549305496,
+          -9.843972422828537e-17,
+          -8.310672067375895e-17,
+          6.134918109173843e-17,
+          0.006557443819438502,
+          0.006557443819438684,
+          0.7867379227901301
+        ],
+        "exact_positive_determinant_principal_minor": {
+          "determinant_denominator": 82944,
+          "determinant_numerator": 1,
+          "matrix": [
+            [
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 8,
+                "numerator": 1
+              },
+              {
+                "denominator": 8,
+                "numerator": 1
+              },
+              {
+                "denominator": 8,
+                "numerator": 1
+              }
+            ],
+            [
+              {
+                "denominator": 8,
+                "numerator": 1
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 9,
+                "numerator": 1
+              }
+            ],
+            [
+              {
+                "denominator": 8,
+                "numerator": 1
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 12,
+                "numerator": 1
+              }
+            ],
+            [
+              {
+                "denominator": 8,
+                "numerator": 1
+              },
+              {
+                "denominator": 9,
+                "numerator": 1
+              },
+              {
+                "denominator": 12,
+                "numerator": 1
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              }
+            ]
+          ],
+          "variables": [
+            [
+              "red",
+              0,
+              3
+            ],
+            [
+              "blue",
+              0,
+              1
+            ],
+            [
+              "blue",
+              0,
+              2
+            ],
+            [
+              "blue",
+              1,
+              3
+            ]
+          ]
+        },
+        "nonzero_quadratic_coefficients": [
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 8,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 12,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 12,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 12,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                2
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                2
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          },
+          {
+            "denominator": 9,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 1
+          }
+        ],
+        "positive_eigenvalues": 3
+      },
+      "maximum_second_eigenvalue_seen": 0.006557443819438684,
+      "passes_checked_quadratic_signatures": false,
+      "quadratic_derivatives_checked_before_stop": 1
+    },
+    {
+      "basis_count": 378,
+      "cycle_atom_count": 4,
+      "ground_size": 12,
+      "include_cut_factorials": true,
+      "lorentzian_signature_witness": {
+        "derivative": [
+          [
+            "red",
+            0,
+            1
+          ],
+          [
+            "red",
+            0,
+            2
+          ]
+        ],
+        "eigenvalues": [
+          -656.2338125999022,
+          -111.16325761876864,
+          -67.77708763999661,
+          -67.77708763999648,
+          -2.6441335231254753e-14,
+          -5.192648175956533e-16,
+          3.943773324868283e-14,
+          3.777087639996584,
+          3.7770876399968465,
+          895.3970702186706
+        ],
+        "exact_positive_determinant_principal_minor": {
+          "determinant_denominator": 1,
+          "determinant_numerator": 8294400,
+          "matrix": [
+            [
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 180
+              },
+              {
+                "denominator": 1,
+                "numerator": 180
+              },
+              {
+                "denominator": 1,
+                "numerator": 180
+              }
+            ],
+            [
+              {
+                "denominator": 1,
+                "numerator": 180
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 64
+              }
+            ],
+            [
+              {
+                "denominator": 1,
+                "numerator": 180
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              },
+              {
+                "denominator": 1,
+                "numerator": 48
+              }
+            ],
+            [
+              {
+                "denominator": 1,
+                "numerator": 180
+              },
+              {
+                "denominator": 1,
+                "numerator": 64
+              },
+              {
+                "denominator": 1,
+                "numerator": 48
+              },
+              {
+                "denominator": 1,
+                "numerator": 0
+              }
+            ]
+          ],
+          "variables": [
+            [
+              "red",
+              0,
+              3
+            ],
+            [
+              "blue",
+              0,
+              1
+            ],
+            [
+              "blue",
+              0,
+              2
+            ],
+            [
+              "blue",
+              1,
+              3
+            ]
+          ]
+        },
+        "nonzero_quadratic_coefficients": [
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                0,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                1,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                1
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "red",
+                2,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 180
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                1
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 48
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                0,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 48
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                2
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                2
+              ]
+            ],
+            "numerator": 48
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                0,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                2
+              ],
+              [
+                "blue",
+                1,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                2
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 64
+          },
+          {
+            "denominator": 1,
+            "edge_pair": [
+              [
+                "blue",
+                1,
+                3
+              ],
+              [
+                "blue",
+                2,
+                3
+              ]
+            ],
+            "numerator": 64
+          }
+        ],
+        "positive_eigenvalues": 3
+      },
+      "maximum_second_eigenvalue_seen": 3.7770876399968465,
+      "passes_checked_quadratic_signatures": false,
+      "quadratic_derivatives_checked_before_stop": 1
+    }
+  ],
+  "claim_tested": "The natural colored-Higgs-basis augmentation with reciprocal component-size tilt and exact cut factorials is Lorentzian.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "logical_scope": "An explicit quadratic derivative with two positive Hessian eigenvalues refutes the named Lorentzian claim.",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "seed": null
+}

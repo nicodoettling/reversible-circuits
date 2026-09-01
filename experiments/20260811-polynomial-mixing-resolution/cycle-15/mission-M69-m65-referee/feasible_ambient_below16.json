@@ -1,0 +1,213 @@
+{
+  "best_below_16": {
+    "B": 1,
+    "K": 13,
+    "R": 12,
+    "ambient_r": 15,
+    "ratio": 0.9603174603174645,
+    "s": 2
+  },
+  "claim_tested": "No feasible contextual absorption failure has ambient r<16",
+  "context_count": 2275,
+  "failure_count": 0,
+  "failures": [],
+  "finite_numerical_warning": "This exhaustive finite solve is numerical. The exact exhibited rank-two failure at r=16 is certified separately.",
+  "rank_rows": [
+    {
+      "best": {
+        "B": 1,
+        "K": 13,
+        "R": 12,
+        "ambient_r": 15,
+        "ratio": 0.9603174603174645,
+        "s": 2
+      },
+      "cg_max_iterations": 2,
+      "cg_max_relative_residual": 2.633125101432526e-16,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 2,
+      "state_count": 2
+    },
+    {
+      "best": {
+        "B": 2,
+        "K": 12,
+        "R": 11,
+        "ambient_r": 15,
+        "ratio": 0.9215244391025617,
+        "s": 3
+      },
+      "cg_max_iterations": 4,
+      "cg_max_relative_residual": 3.262416500027023e-16,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 3,
+      "state_count": 4
+    },
+    {
+      "best": {
+        "B": 3,
+        "K": 11,
+        "R": 10,
+        "ambient_r": 15,
+        "ratio": 0.8437391144859803,
+        "s": 4
+      },
+      "cg_max_iterations": 8,
+      "cg_max_relative_residual": 4.935283595764372e-16,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 4,
+      "state_count": 8
+    },
+    {
+      "best": {
+        "B": 4,
+        "K": 10,
+        "R": 9,
+        "ambient_r": 15,
+        "ratio": 0.7627677360627894,
+        "s": 5
+      },
+      "cg_max_iterations": 15,
+      "cg_max_relative_residual": 1.6065043587908227e-14,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 5,
+      "state_count": 16
+    },
+    {
+      "best": {
+        "B": 5,
+        "K": 9,
+        "R": 8,
+        "ambient_r": 15,
+        "ratio": 0.6825572799899611,
+        "s": 6
+      },
+      "cg_max_iterations": 22,
+      "cg_max_relative_residual": 5.215914500731663e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 6,
+      "state_count": 32
+    },
+    {
+      "best": {
+        "B": 6,
+        "K": 8,
+        "R": 7,
+        "ambient_r": 15,
+        "ratio": 0.6040080194219031,
+        "s": 7
+      },
+      "cg_max_iterations": 27,
+      "cg_max_relative_residual": 9.195201962370914e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 7,
+      "state_count": 64
+    },
+    {
+      "best": {
+        "B": 3,
+        "K": 7,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.5597984872805527,
+        "s": 8
+      },
+      "cg_max_iterations": 29,
+      "cg_max_relative_residual": 9.883761954972247e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 8,
+      "state_count": 128
+    },
+    {
+      "best": {
+        "B": 3,
+        "K": 6,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.549383232350436,
+        "s": 9
+      },
+      "cg_max_iterations": 32,
+      "cg_max_relative_residual": 9.39442826594232e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 9,
+      "state_count": 256
+    },
+    {
+      "best": {
+        "B": 3,
+        "K": 5,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.5316258539904793,
+        "s": 10
+      },
+      "cg_max_iterations": 33,
+      "cg_max_relative_residual": 9.741668840551982e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 10,
+      "state_count": 512
+    },
+    {
+      "best": {
+        "B": 4,
+        "K": 4,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.5065177777240683,
+        "s": 11
+      },
+      "cg_max_iterations": 35,
+      "cg_max_relative_residual": 9.903693458764428e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 11,
+      "state_count": 1024
+    },
+    {
+      "best": {
+        "B": 5,
+        "K": 3,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.4689775146018875,
+        "s": 12
+      },
+      "cg_max_iterations": 36,
+      "cg_max_relative_residual": 9.881054553293182e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 12,
+      "state_count": 2048
+    },
+    {
+      "best": {
+        "B": 6,
+        "K": 2,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.412070187115023,
+        "s": 13
+      },
+      "cg_max_iterations": 37,
+      "cg_max_relative_residual": 9.98161185279314e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 13,
+      "state_count": 4096
+    },
+    {
+      "best": {
+        "B": 7,
+        "K": 1,
+        "R": 0,
+        "ambient_r": 15,
+        "ratio": 0.31964677582526846,
+        "s": 14
+      },
+      "cg_max_iterations": 38,
+      "cg_max_relative_residual": 9.953488250949227e-13,
+      "laplacian_max_asymmetry": 0.0,
+      "s": 14,
+      "state_count": 8192
+    }
+  ],
+  "source": "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/absorption_scan.py"
+}

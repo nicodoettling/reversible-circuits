@@ -1,0 +1,119 @@
+{
+  "certificate": {
+    "assertions": 4960,
+    "max_ratios": {
+      "q_weighted_variation_over_sqrt_ell": 1.8055117468132318,
+      "reflected_head_response_over_sqrt_u": 0.6710834993711993,
+      "spike_mass_over_sqrt_t_over_k": 0.23588840700016273,
+      "spike_response_over_sqrt_t": 0.190535741201008,
+      "tav_over_sqrt_ell": 0.3682606699989521
+    },
+    "rows": [
+      {
+        "ell": 2,
+        "k": 3,
+        "tav_ratio": 0.21213203435596423
+      },
+      {
+        "ell": 3,
+        "k": 3,
+        "tav_ratio": 0.17320508075688773
+      },
+      {
+        "ell": 4,
+        "k": 3,
+        "tav_ratio": 0.075
+      },
+      {
+        "ell": 2,
+        "k": 5,
+        "tav_ratio": 0.14782024071949507
+      },
+      {
+        "ell": 3,
+        "k": 5,
+        "tav_ratio": 0.20384461235583806
+      },
+      {
+        "ell": 4,
+        "k": 5,
+        "tav_ratio": 0.3201877317337497
+      },
+      {
+        "ell": 5,
+        "k": 5,
+        "tav_ratio": 0.33891273502414476
+      },
+      {
+        "ell": 6,
+        "k": 5,
+        "tav_ratio": 0.2559083538542717
+      },
+      {
+        "ell": 7,
+        "k": 5,
+        "tav_ratio": 0.1997706362399664
+      },
+      {
+        "ell": 2,
+        "k": 7,
+        "tav_ratio": 0.09992422684922624
+      },
+      {
+        "ell": 3,
+        "k": 7,
+        "tav_ratio": 0.18086116128930635
+      },
+      {
+        "ell": 4,
+        "k": 7,
+        "tav_ratio": 0.22286564893395686
+      },
+      {
+        "ell": 5,
+        "k": 7,
+        "tav_ratio": 0.23204781817216888
+      },
+      {
+        "ell": 6,
+        "k": 7,
+        "tav_ratio": 0.3228263014698677
+      },
+      {
+        "ell": 7,
+        "k": 7,
+        "tav_ratio": 0.3682606699989521
+      },
+      {
+        "ell": 8,
+        "k": 7,
+        "tav_ratio": 0.30986741287812664
+      },
+      {
+        "ell": 9,
+        "k": 7,
+        "tav_ratio": 0.26079844213824116
+      },
+      {
+        "ell": 10,
+        "k": 7,
+        "tav_ratio": 0.2260890958174674
+      }
+    ],
+    "scope": "finite falsification only; k=3,5,7",
+    "status": "pass"
+  },
+  "metadata": {
+    "command": "python3 tav_exact_check.py --output tav_exact_results.json",
+    "dependencies": "Python standard library only",
+    "parameters": {
+      "k": [
+        3,
+        5,
+        7
+      ]
+    },
+    "python": "3.12.3",
+    "seed": null
+  }
+}

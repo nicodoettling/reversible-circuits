@@ -1,0 +1,59 @@
+{
+  "all_expected_checks_pass": true,
+  "checks": {
+    "direct_child_equalization": 5040,
+    "disjoint_square_both_signs": 10080,
+    "generic_fixed_boundary_counterexample": {
+      "a": [
+        0,
+        1
+      ],
+      "actual": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "b": [
+        2,
+        3
+      ],
+      "claimed": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "length_and_epsilon_checks": 1009,
+    "negative_square": 441,
+    "positive_square": 441,
+    "synthetic_idl_routes": 1009,
+    "terminal_carrier": 840,
+    "valid_overlap_fixed_boundary": 210
+  },
+  "environment": {
+    "dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "experiment": "M242 clean-room audit of M240 algebra after IDL",
+  "normalized_digest": "afe5f7135bcfee3f109b97411e4dbeeaf3f78b1100290ce174dceaf79b27c11b",
+  "scope": "Synthetic IDL words only; no DPS endpoints; IDL remains unresolved."
+}

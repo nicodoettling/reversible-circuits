@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "checker_role": "finite exact falsification only",
+  "imports": 0,
+  "constant_checks": 4,
+  "odd_rank_rows": 1000,
+  "cutoff_rows": 1501500,
+  "hardy_rows": 45147,
+  "sbp_rows": 100,
+  "response_scaling_rows": 1000,
+  "target_mass_rows": 50,
+  "k3": {
+    "n": 9,
+    "m": 4,
+    "ranks": [1],
+    "cutoffs": [2, 3, 4],
+    "channel_masses": ["1/15", "8/15", "2/5"],
+    "H": ["1/2", "2/9"],
+    "disjoint_endpoint": "-4/15"
+  },
+  "scope_stop": "FD-bound or minority-sign; no PCR/FCL1/gap/mixing/Terminal"
+}
+

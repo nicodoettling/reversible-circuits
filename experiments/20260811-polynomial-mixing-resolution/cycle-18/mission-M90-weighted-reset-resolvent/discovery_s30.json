@@ -1,0 +1,70 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley coefficients",
+  "claim_tested": "right-heavy K_reset W <= W",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 345.38106203079224,
+  "normalization": "g=q*(I-D)^-1*J_can*W; Dhat=rho*nu over every j>=1; reset term=(theta^2/Q)*(1-q_child)",
+  "parameters": {
+    "K_values": [
+      1,
+      2,
+      4,
+      16
+    ],
+    "include_infinite": false,
+    "s_values": [
+      24,
+      28,
+      30
+    ]
+  },
+  "python": "3.12.3",
+  "result": {
+    "core_diagnostics": {
+      "max_contextual_mean_error": 0.0,
+      "max_group_mass_error": 1.5432100042289676e-14,
+      "max_negative_roundoff": 0.0
+    },
+    "memoized_weighted_contexts": 79012,
+    "overall_worst": {
+      "B": 10,
+      "K": 1,
+      "R": 0,
+      "q": 0.022410415256501177,
+      "ratio": 0.7372496452184516,
+      "s": 30,
+      "transformed_value": 0.016151804231835425
+    },
+    "rank_worst_rows": [
+      {
+        "B": 9,
+        "K": 1,
+        "R": 0,
+        "q": 0.02853925680528722,
+        "ratio": 0.7076960352612462,
+        "s": 24,
+        "transformed_value": 0.01962070812766414
+      },
+      {
+        "B": 10,
+        "K": 1,
+        "R": 0,
+        "q": 0.02355602692720577,
+        "ratio": 0.7289273972425159,
+        "s": 28,
+        "transformed_value": 0.016766161494755853
+      },
+      {
+        "B": 10,
+        "K": 1,
+        "R": 0,
+        "q": 0.022410415256501177,
+        "ratio": 0.7372496452184516,
+        "s": 30,
+        "transformed_value": 0.016151804231835425
+      }
+    ]
+  },
+  "seed": null,
+  "status_rule": "binary64 is discovery only; any candidate violation requires independent exact certification; survival proves no theorem"
+}

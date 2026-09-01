@@ -1,0 +1,197 @@
+{
+  "claim_tested": "There is a bounded positive marked-context potential W with a_x+sum_y w_xy W_y <=(1-c/s^C)W_x.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_certificate_probe.py --s-max 11 --K-max 16 --certificate 1.0,1.0 --rtol 1e-11 --maxiter 20000 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_c1_s11_k16.json",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 33.40595626831055,
+  "finite_scope_warning": "The dynamic program solves only the finite scanned context closure. A bounded finite W neither proves a universal formula nor solves actual-edge history collisions.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "normalization": "The child weights and base costs are the exact normalized marked separated-capacity recurrence from marked_resolvent_probe.",
+  "numpy": "1.26.4",
+  "parameters": {
+    "K_max": 16,
+    "certificates": [
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "maxiter": 20000,
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_c1_s11_k16.json",
+    "rtol": 1e-11,
+    "s_max": 11
+  },
+  "python": "3.12.3",
+  "records": [
+    {
+      "by_rank": [
+        {
+          "s": 2,
+          "scanned_context_count": 342,
+          "worst": {
+            "B": 1,
+            "K": 1,
+            "R": 0,
+            "W": 1.0,
+            "constraint_slack": 0.47222222222222215,
+            "s": 2,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.3333333333333333
+          }
+        },
+        {
+          "s": 3,
+          "scanned_context_count": 513,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7922824110989537,
+            "constraint_slack": 0.0,
+            "s": 3,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.6666666666666666,
+            "unpassed_attachment_fraction": 0.00024396194193705782
+          }
+        },
+        {
+          "s": 4,
+          "scanned_context_count": 684,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.196638748064754,
+            "constraint_slack": 0.0,
+            "s": 4,
+            "suffix_excess": 2,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.00024390243902439024
+          }
+        },
+        {
+          "s": 5,
+          "scanned_context_count": 855,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.3993204842255356,
+            "constraint_slack": 0.0,
+            "s": 5,
+            "suffix_excess": 3,
+            "suffix_fraction": 0.4,
+            "unpassed_attachment_fraction": 0.000243842965130456
+          }
+        },
+        {
+          "s": 6,
+          "scanned_context_count": 1026,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.49312308601601,
+            "constraint_slack": 0.0,
+            "s": 6,
+            "suffix_excess": 4,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.00024378352023403217
+          }
+        },
+        {
+          "s": 7,
+          "scanned_context_count": 1197,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.528967407964252,
+            "constraint_slack": 0.0,
+            "s": 7,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.2857142857142857,
+            "unpassed_attachment_fraction": 0.00024372410431391665
+          }
+        },
+        {
+          "s": 8,
+          "scanned_context_count": 1368,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5338269961138495,
+            "constraint_slack": 0.0,
+            "s": 8,
+            "suffix_excess": 6,
+            "suffix_fraction": 0.25,
+            "unpassed_attachment_fraction": 0.00024366471734892786
+          }
+        },
+        {
+          "s": 9,
+          "scanned_context_count": 1539,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5223438081033875,
+            "constraint_slack": 0.0,
+            "s": 9,
+            "suffix_excess": 7,
+            "suffix_fraction": 0.2222222222222222,
+            "unpassed_attachment_fraction": 0.000243605359317905
+          }
+        },
+        {
+          "s": 10,
+          "scanned_context_count": 1710,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5025633117389314,
+            "constraint_slack": 0.0,
+            "s": 10,
+            "suffix_excess": 8,
+            "suffix_fraction": 0.2,
+            "unpassed_attachment_fraction": 0.00024354603019970775
+          }
+        },
+        {
+          "s": 11,
+          "scanned_context_count": 1881,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.478948520174049,
+            "constraint_slack": 0.0,
+            "s": 11,
+            "suffix_excess": 9,
+            "suffix_fraction": 0.18181818181818182,
+            "unpassed_attachment_fraction": 0.00024348672997321646
+          }
+        }
+      ],
+      "constant_c": 1.0,
+      "exponent_C": 1.0,
+      "global_worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 4095,
+        "W": 2.5338269961138495,
+        "constraint_slack": 0.0,
+        "s": 8,
+        "suffix_excess": 6,
+        "suffix_fraction": 0.25,
+        "unpassed_attachment_fraction": 0.00024366471734892786
+      },
+      "memoized_contexts": 33525,
+      "minimum_constraint_slack": -4.440892098500626e-16
+    }
+  ],
+  "scipy": "1.11.4",
+  "seed": null
+}

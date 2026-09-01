@@ -1,0 +1,147 @@
+{
+  "schema": "m86-family-audit-v1",
+  "claim_status": "exact finite falsification checks plus symbolic counts",
+  "scope_warning": "Classification-H supplies beta_L universally; this audit checks its source/target hypotheses and the phase/interleaving wrapper, not the internal normalizer implementation.",
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab)",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "dependencies": {},
+  "seed": 860086,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M86-voltage-signed-bypass/family_audit.py",
+    "--L",
+    "1",
+    "2",
+    "3",
+    "--seed",
+    "860086",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M86-voltage-signed-bypass/family-audit-results.json"
+  ],
+  "elapsed_seconds": 0.12082338333129883,
+  "records": [
+    {
+      "L": 1,
+      "d": 8,
+      "k": 16,
+      "W_identity_connected": true,
+      "canonical_identity_connected": true,
+      "canonical_marked_last_pair": true,
+      "phase_checks": [
+        {
+          "q": 0,
+          "forward_length": 0,
+          "ok": true
+        },
+        {
+          "q": 1,
+          "forward_length": 15,
+          "ok": true
+        },
+        {
+          "q": 8,
+          "forward_length": 120,
+          "ok": true
+        },
+        {
+          "q": 15,
+          "forward_length": 225,
+          "ok": true
+        }
+      ],
+      "interleavings_total": 153,
+      "interleavings_checked": 153,
+      "stable_sort_length_min_checked": 0,
+      "stable_sort_length_max_checked": 32,
+      "stable_sort_exact_mean_all": 16.0,
+      "relabel_generator_checks_each_sign_mixed": 64,
+      "indexed_family_size": 2448,
+      "eta_lower_bound": "1/2448",
+      "beta_length_bound": 1638400,
+      "mean_length_bound": 1638528.5,
+      "maximum_length_bound": 1638657
+    },
+    {
+      "L": 2,
+      "d": 32,
+      "k": 64,
+      "W_identity_connected": true,
+      "canonical_identity_connected": true,
+      "canonical_marked_last_pair": true,
+      "phase_checks": [
+        {
+          "q": 0,
+          "forward_length": 0,
+          "ok": true
+        },
+        {
+          "q": 1,
+          "forward_length": 63,
+          "ok": true
+        },
+        {
+          "q": 32,
+          "forward_length": 2016,
+          "ok": true
+        },
+        {
+          "q": 63,
+          "forward_length": 3969,
+          "ok": true
+        }
+      ],
+      "interleavings_total": 2145,
+      "interleavings_checked": 2145,
+      "stable_sort_length_min_checked": 0,
+      "stable_sort_length_max_checked": 128,
+      "stable_sort_exact_mean_all": 64.0,
+      "relabel_generator_checks_each_sign_mixed": 100,
+      "indexed_family_size": 137280,
+      "eta_lower_bound": "1/137280",
+      "beta_length_bound": 419430400,
+      "mean_length_bound": 419432448.5,
+      "maximum_length_bound": 419434497
+    },
+    {
+      "L": 3,
+      "d": 72,
+      "k": 144,
+      "W_identity_connected": true,
+      "canonical_identity_connected": true,
+      "canonical_marked_last_pair": true,
+      "phase_checks": [
+        {
+          "q": 0,
+          "forward_length": 0,
+          "ok": true
+        },
+        {
+          "q": 1,
+          "forward_length": 143,
+          "ok": true
+        },
+        {
+          "q": 72,
+          "forward_length": 10296,
+          "ok": true
+        },
+        {
+          "q": 143,
+          "forward_length": 20449,
+          "ok": true
+        }
+      ],
+      "interleavings_total": 10585,
+      "interleavings_checked": 5,
+      "stable_sort_length_min_checked": 0,
+      "stable_sort_length_max_checked": 288,
+      "stable_sort_exact_mean_all": 144.0,
+      "relabel_generator_checks_each_sign_mixed": 100,
+      "indexed_family_size": 1524240,
+      "eta_lower_bound": "1/1524240",
+      "beta_length_bound": 10749542400,
+      "mean_length_bound": 10749552768.5,
+      "maximum_length_bound": 10749563137
+    }
+  ]
+}

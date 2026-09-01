@@ -1,0 +1,144 @@
+{
+  "N": 5,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact_n5_midpoint_conductance.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact-n5-midpoint-conductance.json"
+  ],
+  "claim_tested": "At N=5, the thick midpoint transposition-length shells have exactly the reported global mass and full H3/H4/H5 conductance, and only midpoint-crossing windows contribute.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); midpoint prefix has four factors",
+  "kernel": "literal lazy K via outside-window conditional-fiber cliques",
+  "m": 8,
+  "nonstandard_dependencies": {},
+  "omega": 1770940,
+  "python": "3.12.3",
+  "results": [
+    {
+      "boundary_by_crossing_window": [
+        {
+          "i_zero_based": 2,
+          "r": 3,
+          "value": "275945/108"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 3,
+          "value": "275945/108"
+        },
+        {
+          "i_zero_based": 1,
+          "r": 4,
+          "value": "23191961/7245"
+        },
+        {
+          "i_zero_based": 2,
+          "r": 4,
+          "value": "60610492/17595"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 4,
+          "value": "23191961/7245"
+        },
+        {
+          "i_zero_based": 0,
+          "r": 5,
+          "value": "4204950/1043"
+        },
+        {
+          "i_zero_based": 1,
+          "r": 5,
+          "value": "2790160324555/633910368"
+        },
+        {
+          "i_zero_based": 2,
+          "r": 5,
+          "value": "2790160324555/633910368"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 5,
+          "value": "4204950/1043"
+        }
+      ],
+      "boundary_by_r": {
+        "3": "275945/54",
+        "4": "404266706/41055",
+        "5": "5345828015755/316955184"
+      },
+      "boundary_unnormalized_sum": "177472698469861441/5576826462480",
+      "complement_size": 1655340,
+      "conductance": "177472698469861441/644681139062688000",
+      "conductance_float": 0.27528756111570407,
+      "cut_size": 115600,
+      "q": 0,
+      "smaller_side": "cut",
+      "stationary_mass": "5780/88547"
+    },
+    {
+      "boundary_by_crossing_window": [
+        {
+          "i_zero_based": 2,
+          "r": 3,
+          "value": "5057095/918"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 3,
+          "value": "5057095/918"
+        },
+        {
+          "i_zero_based": 1,
+          "r": 4,
+          "value": "153943171/20125"
+        },
+        {
+          "i_zero_based": 2,
+          "r": 4,
+          "value": "1790165842/205275"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 4,
+          "value": "153943171/20125"
+        },
+        {
+          "i_zero_based": 0,
+          "r": 5,
+          "value": "123234375/12662"
+        },
+        {
+          "i_zero_based": 1,
+          "r": 5,
+          "value": "7427284558285/633910368"
+        },
+        {
+          "i_zero_based": 2,
+          "r": 5,
+          "value": "7427284558285/633910368"
+        },
+        {
+          "i_zero_based": 3,
+          "r": 5,
+          "value": "123234375/12662"
+        }
+      ],
+      "boundary_by_r": {
+        "3": "5057095/459",
+        "4": "24653032652/1026375",
+        "5": "13596890308285/316955184"
+      },
+      "boundary_unnormalized_sum": "10865835318999360647/139420661562000",
+      "complement_size": 375000,
+      "conductance": "10865835318999360647/52282748085750000000",
+      "conductance_float": 0.20782831271948604,
+      "cut_size": 1395940,
+      "q": 2,
+      "smaller_side": "complement",
+      "stationary_mass": "69797/88547"
+    }
+  ],
+  "scope_warning": "Finite N=5 conductance can falsify a universal local formula but cannot prove asymptotic shell expansion.",
+  "seed": null
+}

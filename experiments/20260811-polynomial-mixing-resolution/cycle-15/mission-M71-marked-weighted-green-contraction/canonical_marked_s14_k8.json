@@ -1,0 +1,216 @@
+{
+  "claim_tested": "The exact marked recurrence built with first-boundary canonical hub currents has polynomial resolvent and only right-heavy quotient residual marks.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/canonical_marked_probe.py --s-max 14 --K-max 8 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/canonical_marked_s14_k8.json",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "deep_mass_identity_max_abs_error": 1.19250657525799e-11,
+  "elapsed_seconds": 52.69927191734314,
+  "finite_scope_warning": "Finite values prove no universal bound or actual-edge source recovery theorem.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "normalization": "G_s=R_s/alpha_s; canonical current is total rho(H-EH) charge of the M41 first-merge basin; energy=current^2/[rho(refined)k].",
+  "numpy": "1.26.4",
+  "parameters": {
+    "K_max": 8,
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/canonical_marked_s14_k8.json",
+    "s_max": 14
+  },
+  "python": "3.12.3",
+  "records": [
+    {
+      "s": 2,
+      "scanned_context_count": 142,
+      "worst": {
+        "B": 1,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 0.4441190626375891,
+        "child_context_count": 0,
+        "deep_fraction": 0.00024408103732876394,
+        "resolvent_value": 0.4441190626375891,
+        "s": 2,
+        "total_child_weight": 0
+      }
+    },
+    {
+      "s": 3,
+      "scanned_context_count": 213,
+      "worst": {
+        "B": 1,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 1.1154487178447292,
+        "child_context_count": 3,
+        "deep_fraction": 0.0003254016733421086,
+        "resolvent_value": 1.144787310960756,
+        "s": 3,
+        "total_child_weight": 0.8958236324010895
+      }
+    },
+    {
+      "s": 4,
+      "scanned_context_count": 284,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 1.4876293679101527,
+        "child_context_count": 8,
+        "deep_fraction": 0.00032540167334193284,
+        "resolvent_value": 1.7638136330685956,
+        "s": 4,
+        "total_child_weight": 1.2152674840686903
+      }
+    },
+    {
+      "s": 5,
+      "scanned_context_count": 355,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 2.0013832016038187,
+        "child_context_count": 19,
+        "deep_fraction": 0.00036605455235559495,
+        "resolvent_value": 2.533345048213481,
+        "s": 5,
+        "total_child_weight": 1.9446390321003366
+      }
+    },
+    {
+      "s": 6,
+      "scanned_context_count": 426,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 2.354052595947442,
+        "child_context_count": 38,
+        "deep_fraction": 0.000390443899837523,
+        "resolvent_value": 3.1569592060193408,
+        "s": 6,
+        "total_child_weight": 2.316926113883813
+      }
+    },
+    {
+      "s": 7,
+      "scanned_context_count": 497,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 2.6077229136439755,
+        "child_context_count": 67,
+        "deep_fraction": 0.00040670247333394354,
+        "resolvent_value": 3.6761054986859465,
+        "s": 7,
+        "total_child_weight": 2.5780875195109565
+      }
+    },
+    {
+      "s": 8,
+      "scanned_context_count": 568,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 2.7321871445880124,
+        "child_context_count": 88,
+        "deep_fraction": 0.00040670247333428073,
+        "resolvent_value": 4.155269518346918,
+        "s": 8,
+        "total_child_weight": 2.702102075492591
+      }
+    },
+    {
+      "s": 9,
+      "scanned_context_count": 639,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 2.924219658504023,
+        "child_context_count": 136,
+        "deep_fraction": 0.0004183152545367753,
+        "resolvent_value": 4.653811697994028,
+        "s": 9,
+        "total_child_weight": 2.898166074637834
+      }
+    },
+    {
+      "s": 10,
+      "scanned_context_count": 710,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 3.07302017562958,
+        "child_context_count": 199,
+        "deep_fraction": 0.00042702457490540016,
+        "resolvent_value": 5.08340716774928,
+        "s": 10,
+        "total_child_weight": 3.049440747756137
+      }
+    },
+    {
+      "s": 11,
+      "scanned_context_count": 781,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 3.1915657320918416,
+        "child_context_count": 279,
+        "deep_fraction": 0.0004337983334027708,
+        "resolvent_value": 5.457831027933413,
+        "s": 11,
+        "total_child_weight": 3.169657439838664
+      }
+    },
+    {
+      "s": 12,
+      "scanned_context_count": 852,
+      "worst": {
+        "B": 4,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 3.2484342900739693,
+        "child_context_count": 334,
+        "deep_fraction": 0.00043379833340244145,
+        "resolvent_value": 5.802674783367215,
+        "s": 12,
+        "total_child_weight": 3.22640269089633
+      }
+    },
+    {
+      "s": 13,
+      "scanned_context_count": 923,
+      "worst": {
+        "B": 4,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 3.3451168487848237,
+        "child_context_count": 444,
+        "deep_fraction": 0.0004392172410774315,
+        "resolvent_value": 6.152707689956175,
+        "s": 13,
+        "total_child_weight": 3.3242999767915644
+      }
+    },
+    {
+      "s": 14,
+      "scanned_context_count": 994,
+      "worst": {
+        "B": 4,
+        "K": 4096,
+        "R": 0,
+        "base_canonical_energy": 3.425349847297177,
+        "child_context_count": 576,
+        "deep_fraction": 0.0004436508272774699,
+        "resolvent_value": 6.46334954479553,
+        "s": 14,
+        "total_child_weight": 3.4054487974622543
+      }
+    }
+  ],
+  "scipy": "1.11.4",
+  "seed": null
+}

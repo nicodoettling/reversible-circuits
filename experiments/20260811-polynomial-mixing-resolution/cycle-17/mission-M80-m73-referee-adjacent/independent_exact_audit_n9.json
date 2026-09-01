@@ -1,0 +1,62 @@
+{
+  "claim_scope": "fresh exact audit of M73 quotient kernel and shared-factor graph",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/independent_exact_audit.py --n 5 7 9 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/independent_exact_audit_n9.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "conditioned_borel_entries_checked": 10,
+      "constructive_chord_pairs_checked": 100,
+      "constructive_chord_placement_failures": 0,
+      "exact_normalization": true,
+      "exact_reversibility": true,
+      "maximum_adjacent_K2_TV_exact": "1",
+      "maximum_adjacent_K2_TV_witness_orbits": [
+        0,
+        1
+      ],
+      "n": 5,
+      "product_support": 20,
+      "quotient_states": 4,
+      "shared_factor_edges": 6,
+      "shared_factor_graph_diameter": 1
+    },
+    {
+      "conditioned_borel_entries_checked": 21,
+      "constructive_chord_pairs_checked": 441,
+      "constructive_chord_placement_failures": 0,
+      "exact_normalization": true,
+      "exact_reversibility": true,
+      "maximum_adjacent_K2_TV_exact": "7185517/30375000",
+      "maximum_adjacent_K2_TV_witness_orbits": [
+        5,
+        7
+      ],
+      "n": 7,
+      "product_support": 105,
+      "quotient_states": 15,
+      "shared_factor_edges": 95,
+      "shared_factor_graph_diameter": 2
+    },
+    {
+      "conditioned_borel_entries_checked": 36,
+      "constructive_chord_pairs_checked": 1296,
+      "constructive_chord_placement_failures": 0,
+      "exact_normalization": true,
+      "exact_reversibility": true,
+      "maximum_adjacent_K2_TV_exact": "2094407996609/19603684800000",
+      "maximum_adjacent_K2_TV_witness_orbits": [
+        35,
+        36
+      ],
+      "n": 9,
+      "product_support": 336,
+      "quotient_states": 38,
+      "shared_factor_edges": 553,
+      "shared_factor_graph_diameter": 2
+    }
+  ],
+  "seed": null
+}

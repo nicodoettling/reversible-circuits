@@ -1,0 +1,198 @@
+{
+  "abel_finite_diagnostics": [
+    {
+      "boundary_D": -0.01964387917930798,
+      "boundary_prediction": -0.018736132589258617,
+      "boundary_ratio": 1.0484489841073057,
+      "boundary_u": 10,
+      "bulk": {
+        "0.25": {
+          "integral_limit": -0.3581439798241955,
+          "sqrt_k_D": -0.35635461666785784
+        },
+        "0.75": {
+          "integral_limit": -0.29134624817045307,
+          "sqrt_k_D": -0.291595855925277
+        }
+      },
+      "endpoint_D": -7.84151389654486e-14,
+      "k": 101,
+      "maximum_positive_D": -7.84151389654486e-14
+    },
+    {
+      "boundary_D": -0.006802868139350644,
+      "boundary_prediction": -0.006673780983115106,
+      "boundary_ratio": 1.0193424322077895,
+      "boundary_u": 20,
+      "bulk": {
+        "0.25": {
+          "integral_limit": -0.3581439798241955,
+          "sqrt_k_D": -0.3576901477162735
+        },
+        "0.75": {
+          "integral_limit": -0.29134624817045307,
+          "sqrt_k_D": -0.29140989710149207
+        }
+      },
+      "endpoint_D": -5.410260184735699e-13,
+      "k": 401,
+      "maximum_positive_D": -5.410260184735699e-13
+    },
+    {
+      "boundary_D": -0.0023839924613460704,
+      "boundary_prediction": -0.002363959264853367,
+      "boundary_ratio": 1.0084744254228704,
+      "boundary_u": 40,
+      "bulk": {
+        "0.25": {
+          "integral_limit": -0.3581439798241955,
+          "sqrt_k_D": -0.35803011085319014
+        },
+        "0.75": {
+          "integral_limit": -0.29134624817045307,
+          "sqrt_k_D": -0.2913622391554822
+        }
+      },
+      "endpoint_D": -4.665064517951796e-13,
+      "k": 1601,
+      "maximum_positive_D": -4.665064517951796e-13
+    }
+  ],
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-20/mission-M100-m94-fresh-referee/independent_bulk_audit.py --k 3 5 --compact experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/bulk_event_float_k11.json --output experiments/20260811-polynomial-mixing-resolution/cycle-20/mission-M100-m94-fresh-referee/independent_bulk_audit_k5.json",
+  "compact_check": {
+    "path": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/bulk_event_float_k11.json",
+    "rows": [
+      {
+        "compact_arithmetic_consistent": true,
+        "event_mass_formula": "643029691304/43248779296875",
+        "event_mass_formula_float": 0.014868158171355903,
+        "event_orbit_count_formula": 10,
+        "k": 5,
+        "source_file_retained": false,
+        "source_sha256_recorded": "8e398224c0a0132a0172990ba3dd1aacd383ce8c5e0e3039fadde2f395d7c7e3"
+      },
+      {
+        "compact_arithmetic_consistent": true,
+        "event_mass_formula": "732509094959356062400/70097865821857281087729",
+        "event_mass_formula_float": 0.010449805944462175,
+        "event_orbit_count_formula": 28,
+        "k": 7,
+        "source_file_retained": false,
+        "source_sha256_recorded": "936eb5d2ceb5e2a1f11ab62fcc5167fb073dfd8595e43cccea933465d9501ca7"
+      },
+      {
+        "compact_arithmetic_consistent": true,
+        "event_mass_formula": "180828538405979485951504374510832/22528399544939174411840147874772641",
+        "event_mass_formula_float": 0.008026692621695853,
+        "event_orbit_count_formula": 60,
+        "k": 9,
+        "source_file_retained": false,
+        "source_sha256_recorded": "f0a0caeb955584dedf0d439565fa61c64d1c951d516ac0ac490f84a2cde363a5"
+      },
+      {
+        "compact_arithmetic_consistent": true,
+        "event_mass_formula": "7791991875308363374934707892425924553181100/1197559062505319752526328759910069803075170283",
+        "event_mass_formula_float": 0.006506561654677261,
+        "event_orbit_count_formula": 110,
+        "k": 11,
+        "source_file_retained": false,
+        "source_sha256_recorded": "acb3a35c13b7649198ef1b12e777e4fb02991f17fb73e658a8869bb531d11874"
+      }
+    ],
+    "sha256": "4d1ce5eae2314b03e2e668d81a63487c424e497144db5cc72e61edb78aacd373"
+  },
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "exact_results": [
+    {
+      "actual_BA2_L2": "178781886299782114417896659444221937/2768777872598757600000000000000000000",
+      "actual_two_step_TV": "27708771860129/306307575000000",
+      "borel_raw_kernel_entries_checked": 2036,
+      "checks": {
+        "event_composition_mass": true,
+        "event_convolution": true,
+        "orbit_aware_score_convolution": true,
+        "quotient_rows_and_detailed_balance": true,
+        "raw_Borel_kernel": true,
+        "short_A_orbit_and_double_orbits": true,
+        "stationary_Cauchy": true
+      },
+      "convolution_target_orbits_checked": 38,
+      "event_BA2_contribution": "153680387469139785258527861/71501547403125000000000000000",
+      "event_orbits": 2,
+      "event_partition_BA2_lower_bound": "831235411683835792726573/405175435284375000000000000",
+      "event_signed_two_step_difference": "3287257268893/459461362500000",
+      "event_stationary_mass": "4420/177147",
+      "k": 3,
+      "n": 9,
+      "quotient_states": 38,
+      "raw_states": 336,
+      "scaled_float": {
+        "k2_Delta_E": 0.06439130215228271,
+        "k2_TV": 0.8141455422418495,
+        "k4_BA2": 5.2302255567689375,
+        "k4_event_Cauchy": 0.16617509968030184,
+        "k4_event_L2": 0.17409569215080056,
+        "k_pi_E": 0.07485308811326187
+      },
+      "shell_stationary_mass": {
+        "1": "16243/19683",
+        "2": "3170/19683",
+        "3": "10/729"
+      },
+      "source_orbit_sizes_A_B": [
+        3,
+        9
+      ]
+    },
+    {
+      "actual_BA2_L2": "7516689770913343128339440985957220252462910738757642021532892167815426734380776928221472604036148017421747987282188045907775488248095691249562700708963792351573/1313249722703236640290229375059302092089463236599232765653625999312749133190403902599917084417273166114433500834134581478004510326018539520000000000000000000000000",
+      "actual_two_step_TV": "17460627887563154058292031649502542024583831093079081482841/697158907713344404549753578298758968112588537600000000000000",
+      "borel_raw_kernel_entries_checked": 147387,
+      "checks": {
+        "event_composition_mass": true,
+        "event_convolution": true,
+        "orbit_aware_score_convolution": true,
+        "quotient_rows_and_detailed_balance": true,
+        "raw_Borel_kernel": true,
+        "short_A_orbit_and_double_orbits": true,
+        "stationary_Cauchy": true
+      },
+      "convolution_target_orbits_checked": 6,
+      "event_BA2_contribution": "2658758218362998962239211730096978125121793983426560800053458316731321115462210633463821829377623341068723369379653106488932244791/8875387291773819070544336162232096631350609122090127390309592586278591620185268618500761613644157370659754108518400000000000000000000",
+      "event_orbits": 10,
+      "event_partition_BA2_lower_bound": "291354340835068214100500307321549536302107567303839888439189160789564891117634344939435181591496674884633800351021169/1221258048219468193678476288298522478457862888529890057228724198914460671372547330859260806077567656263680000000000000000",
+      "event_signed_two_step_difference": "17069104863321574137000979574917080158815308595922449183513/9063065800273477259146796517883866585463650988800000000000000",
+      "event_stationary_mass": "643029691304/43248779296875",
+      "k": 5,
+      "n": 15,
+      "quotient_states": 213,
+      "raw_states": 3185,
+      "scaled_float": {
+        "k2_Delta_E": 0.04708424621281718,
+        "k2_TV": 0.6261351499055421,
+        "k4_BA2": 3.577332647099641,
+        "k4_event_Cauchy": 0.14910564011218183,
+        "k4_event_L2": 0.18722832388588254,
+        "k_pi_E": 0.07434079085677951
+      },
+      "shell_stationary_mass": {
+        "1": "2102323315097/2883251953125",
+        "2": "503779322596/2883251953125",
+        "3": "2410193302/35595703125",
+        "4": "14880825344/576650390625",
+        "5": "154/59049"
+      },
+      "source_orbit_sizes_A_B": [
+        5,
+        15
+      ]
+    }
+  ],
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "status": "fresh_exact_finite_and_formula_audit_not_asymptotic_evidence",
+  "target": "M94 central-double obstruction reduction for balanced BA2"
+}

@@ -1,0 +1,40 @@
+{
+  "N": 5,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M68-intermediate-exterior-layer-action/exact_n5_pointwise_exit_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M74-m68-fresh-referee/pointwise-exit-rerun.json"
+  ],
+  "claim_tested": "Every exterior state has positive one-step K flow to F_N minus A.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); literal lazy K with r=3,4,5",
+  "elapsed_seconds": 16.4970083150547,
+  "exterior_size": 762940,
+  "m": 8,
+  "minimum_probability": "0/1",
+  "minimum_probability_float": 0.0,
+  "minimum_word_edge_indices": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "safe_target_size": 1004096,
+  "scope_warning": "A zero refutes the named pointwise lemma only; finite positive values cannot prove asymptotic expansion.",
+  "seed": null,
+  "total_by_component_count": {
+    "2": 739200,
+    "3": 23730,
+    "4": 10
+  },
+  "zero_by_component_count": {
+    "3": 90,
+    "4": 10
+  }
+}

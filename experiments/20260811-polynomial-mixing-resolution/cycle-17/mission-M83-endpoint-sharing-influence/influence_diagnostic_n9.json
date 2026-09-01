@@ -1,0 +1,424 @@
+{
+  "claim_tested": "Endpoint-sharing K^2 influence and signed layer cancellation",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/influence_diagnostic.py --n 7 9 --exact-through 9 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/influence_diagnostic_n9.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "arithmetic": "exact_rational",
+      "disjoint_positive_row_ratio_distinct_exact": 0,
+      "edge_K_maximizing_orbits": [
+        9,
+        13
+      ],
+      "first_step_TV_by_target_kind": {
+        "3": "148/375",
+        "D": "98/375"
+      },
+      "intermediate_layer_triangle_TV": "1417264/3796875",
+      "intermediate_layers": [
+        {
+          "TV_seminorm": "2248/15625",
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": "64/375"
+        },
+        {
+          "TV_seminorm": "6/125",
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": "12/125"
+        },
+        {
+          "TV_seminorm": "514/3375",
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": "-1028/3375"
+        },
+        {
+          "TV_seminorm": "884/30375",
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": "128/3375"
+        }
+      ],
+      "localized_edges": 75,
+      "maxima_by_source_kind": {
+        "33": {
+          "TV_K2": "6469909/30375000",
+          "orbits": [
+            0,
+            7
+          ]
+        },
+        "3D": {
+          "TV_K2": "7185517/30375000",
+          "orbits": [
+            5,
+            7
+          ]
+        },
+        "DD": {
+          "TV_K2": "129391/777600",
+          "orbits": [
+            8,
+            12
+          ]
+        }
+      },
+      "maximum_edge_TV_K": "3/4",
+      "maximum_edge_TV_K2": "7185517/30375000",
+      "maximum_unit_slide_TV_K": "85/144",
+      "maximum_unit_slide_TV_K2": "3196577/15552000",
+      "n": 7,
+      "n_squared_times_corresponding_unit_slide_TV_K2": "156632273/15552000",
+      "n_squared_times_maximum_edge_TV_K2": "352090333/30375000",
+      "n_squared_times_maximum_unit_slide_TV_K": "4165/144",
+      "n_times_maximum_edge_TV_K": "21/4",
+      "noninvariant_representative_support_split": [
+        {
+          "TV_contribution": "9/125",
+          "intersects_perturbed_source_support": false,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": "121/375",
+          "intersects_perturbed_source_support": true,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": "98/375",
+          "intersects_perturbed_source_support": true,
+          "target_kind": "D"
+        }
+      ],
+      "one_to_two_step_contraction_ratio": "7185517/19926000",
+      "quotient_states": 15,
+      "representative_disjoint_positive_row_ratio_maximum": null,
+      "representative_disjoint_positive_row_ratio_minimum": null,
+      "target_layers": [
+        {
+          "absolute_mass": "21761/101250",
+          "signed_mass": "-124588/1265625",
+          "target_kind": "3",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": "3937/93750",
+          "signed_mass": "-3937/93750",
+          "target_kind": "3",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": "3033643/15187500",
+          "signed_mass": "186901/1265625",
+          "target_kind": "D",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": "2777/168750",
+          "signed_mass": "-6109/843750",
+          "target_kind": "D",
+          "target_minimum_residual_size": 2
+        }
+      ],
+      "triangle_loss_over_actual_TV": "11338112/7185517",
+      "unit_slide_K_maximizing_orbits": [
+        6,
+        7
+      ],
+      "unit_slide_edges": 28,
+      "witness_descriptors": [
+        {
+          "cycles": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "harmonic_residual_sum": 2.2,
+          "kind": "D",
+          "minimum_residual_size": 1,
+          "residual_sizes": [
+            5,
+            1,
+            1
+          ],
+          "support_gaps": [
+            1,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "cycles": [
+            [
+              2,
+              3,
+              6
+            ]
+          ],
+          "harmonic_residual_sum": 1.6666666666666665,
+          "kind": "3",
+          "minimum_residual_size": 1,
+          "residual_sizes": [
+            3,
+            3,
+            1
+          ],
+          "support_gaps": [
+            1,
+            3,
+            3
+          ]
+        }
+      ],
+      "witness_lift": {
+        "common_chord": [
+          0,
+          1
+        ],
+        "common_coordinate": 0,
+        "differing_chords": [
+          [
+            4,
+            5
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "witness_orbits": [
+        5,
+        7
+      ]
+    },
+    {
+      "arithmetic": "exact_rational",
+      "disjoint_positive_row_ratio_distinct_exact": 0,
+      "edge_K_maximizing_orbits": [
+        30,
+        35
+      ],
+      "first_step_TV_by_target_kind": {
+        "3": "2993/15000",
+        "D": "29411/90000"
+      },
+      "intermediate_layer_triangle_TV": "51387236321233/367569090000000",
+      "intermediate_layers": [
+        {
+          "TV_seminorm": "27160648499/607753125000",
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": "113/7500"
+        },
+        {
+          "TV_seminorm": "12/625",
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": "-24/625"
+        },
+        {
+          "TV_seminorm": "0",
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": "0"
+        },
+        {
+          "TV_seminorm": "80610759182189/1837845450000000",
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": "49/5000"
+        },
+        {
+          "TV_seminorm": "10103/450000",
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": "491/15000"
+        },
+        {
+          "TV_seminorm": "6/625",
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": "-12/625"
+        }
+      ],
+      "localized_edges": 323,
+      "maxima_by_source_kind": {
+        "33": {
+          "TV_K2": "6378281615114551/73217584540800000",
+          "orbits": [
+            0,
+            17
+          ]
+        },
+        "3D": {
+          "TV_K2": "181404916158397/1837845450000000",
+          "orbits": [
+            20,
+            31
+          ]
+        },
+        "DD": {
+          "TV_K2": "371144395521899/4900921200000000",
+          "orbits": [
+            21,
+            36
+          ]
+        }
+      },
+      "maximum_edge_TV_K": "3196/5625",
+      "maximum_edge_TV_K2": "181404916158397/1837845450000000",
+      "maximum_unit_slide_TV_K": "37/80",
+      "maximum_unit_slide_TV_K2": "5702152274929/67212633600000",
+      "n": 9,
+      "n_squared_times_corresponding_unit_slide_TV_K2": "5702152274929/829785600000",
+      "n_squared_times_maximum_edge_TV_K2": "181404916158397/22689450000000",
+      "n_squared_times_maximum_unit_slide_TV_K": "2997/80",
+      "n_times_maximum_edge_TV_K": "3196/625",
+      "noninvariant_representative_support_split": [
+        {
+          "TV_contribution": "2993/15000",
+          "intersects_perturbed_source_support": true,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": "29411/90000",
+          "intersects_perturbed_source_support": true,
+          "target_kind": "D"
+        }
+      ],
+      "one_to_two_step_contraction_ratio": "181404916158397/967298901345000",
+      "quotient_states": 38,
+      "representative_disjoint_positive_row_ratio_maximum": null,
+      "representative_disjoint_positive_row_ratio_minimum": null,
+      "target_layers": [
+        {
+          "absolute_mass": "4482530505829/68068350000000",
+          "signed_mass": "224189645489/87516450000000",
+          "target_kind": "3",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": "15262978371577/612615150000000",
+          "signed_mass": "15262978371577/612615150000000",
+          "target_kind": "3",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": "622395101/136136700000",
+          "signed_mass": "622395101/136136700000",
+          "target_kind": "3",
+          "target_minimum_residual_size": 3
+        },
+        {
+          "absolute_mass": "134294530774499/1837845450000000",
+          "signed_mass": "-2322231664693/612615150000000",
+          "target_kind": "D",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": "3487310016373/122523030000000",
+          "signed_mass": "-3396433191889/122523030000000",
+          "target_kind": "D",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": "54781036727/102102525000000",
+          "signed_mass": "-54781036727/102102525000000",
+          "target_kind": "D",
+          "target_minimum_residual_size": 3
+        }
+      ],
+      "triangle_loss_over_actual_TV": "256936181606165/181404916158397",
+      "unit_slide_K_maximizing_orbits": [
+        32,
+        35
+      ],
+      "unit_slide_edges": 97,
+      "witness_descriptors": [
+        {
+          "cycles": [
+            [
+              3,
+              5,
+              8
+            ]
+          ],
+          "harmonic_residual_sum": 1.0833333333333333,
+          "kind": "3",
+          "minimum_residual_size": 2,
+          "residual_sizes": [
+            4,
+            3,
+            2
+          ],
+          "support_gaps": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "cycles": [
+            [
+              2,
+              4
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "harmonic_residual_sum": 1.2,
+          "kind": "D",
+          "minimum_residual_size": 2,
+          "residual_sizes": [
+            5,
+            2,
+            2
+          ],
+          "support_gaps": [
+            2,
+            2,
+            2,
+            3
+          ]
+        }
+      ],
+      "witness_lift": {
+        "common_chord": [
+          1,
+          3
+        ],
+        "common_coordinate": 1,
+        "differing_chords": [
+          [
+            6,
+            8
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "witness_orbits": [
+        20,
+        31
+      ]
+    }
+  ],
+  "seed": null,
+  "status": "finite_diagnostic_only"
+}

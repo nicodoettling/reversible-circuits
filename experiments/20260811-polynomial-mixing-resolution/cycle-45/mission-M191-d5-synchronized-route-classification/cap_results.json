@@ -1,0 +1,33 @@
+{
+  "classification_status": "inconclusive",
+  "exact_completed": {
+    "action_sha256": "160bcae167e754af4ff55356a2ab25526bf53d03ebc23bd974938fb8370c67ae",
+    "all_signed_generators_bijective": true,
+    "all_signed_inverse_pairs_checked": true,
+    "named_target_count": 54,
+    "physical_z5_count": 1008000,
+    "q5_orbit_size": 8400,
+    "q5_size_formula": "5^(5-3)*8!/5! = 8400",
+    "rooted_descriptor_count": 10,
+    "source_ids": [16, 0]
+  },
+  "exact_criterion": "(v',u') is reachable from (v,u) iff u' acted by alpha(v')^{-1} lies in Orb_Stab(v)(u), for any fixed source-to-v' word alpha(v')",
+  "magma_attempt": {
+    "command": "magma -n classify_q5.m",
+    "elapsed_at_termination": "approximately 6 minutes 44 seconds",
+    "magma_version": "V2.29-4",
+    "maximum_observed_rss_bytes_approx": 604868608,
+    "output_certificate_created": false,
+    "stage": "exact point stabilizer/orbit construction",
+    "termination_reason": "coordinator six-minute computation cap"
+  },
+  "not_inferred": [
+    "membership or nonmembership of any target beyond M188's 14 explicit positive routes",
+    "negative conclusion from radius-five misses",
+    "all-d theorem",
+    "every-color conclusion",
+    "polynomial route length",
+    "spectral gap, mixing, or Terminal claim"
+  ],
+  "repository_base_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993"
+}

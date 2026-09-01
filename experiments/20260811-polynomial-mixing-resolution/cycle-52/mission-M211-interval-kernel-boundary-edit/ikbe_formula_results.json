@@ -1,0 +1,73 @@
+{
+  "finite_only": true,
+  "method": "exact closed Y-profile formulas only",
+  "mission": "M211",
+  "parameters": {
+    "k": [
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "k": 3,
+      "max_k_abs_defect_over_sqrt_l": 0.565685424949238,
+      "maximizer": {
+        "defect": "-4/15",
+        "l": 2,
+        "s": 1
+      }
+    },
+    {
+      "k": 5,
+      "max_k_abs_defect_over_sqrt_l": 0.6814216298764404,
+      "maximizer": {
+        "defect": "-245414/900375",
+        "l": 4,
+        "s": 2
+      }
+    },
+    {
+      "k": 7,
+      "max_k_abs_defect_over_sqrt_l": 0.7471959567121269,
+      "maximizer": {
+        "defect": "-825778833362657/3158287405000000",
+        "l": 6,
+        "s": 3
+      }
+    },
+    {
+      "k": 9,
+      "max_k_abs_defect_over_sqrt_l": 0.8225613064065403,
+      "maximizer": {
+        "defect": "-4627454412430899682589/22642865142203845845540",
+        "l": 5,
+        "s": 4
+      }
+    },
+    {
+      "k": 11,
+      "max_k_abs_defect_over_sqrt_l": 0.9214395569209912,
+      "maximizer": {
+        "defect": "-4656977494227640224551800640369/22696262550416544075774060134400",
+        "l": 6,
+        "s": 5
+      },
+      "q1_witness": {
+        "decimal": 0.09224121091748724,
+        "defect": "104471482590350570060124893845175/1132590103178542342287340498771968",
+        "l": 4,
+        "s": 3,
+        "target_limit": "7/64"
+      }
+    }
+  ],
+  "standard_library_only": true,
+  "status": "formula checks passed; asymptotic refutation is analytic",
+  "universal_inference": false
+}

@@ -1,0 +1,35 @@
+{
+  "mission": "M199",
+  "verdict": "STRICT_EXACT_PROFILE_REDUCTION",
+  "proved": [
+    "per-placement kernel denominator R_*=2k-3",
+    "literal B disjoint double profile formula",
+    "literal A disjoint double profile formula including untouched k-cycle",
+    "four-part adjacent-split deletion/merge decomposition",
+    "IKBE-a implies DV and pointwise IKBE-b implies DE"
+  ],
+  "open": [
+    "IKBE-a",
+    "IKBE-b",
+    "DV",
+    "DE",
+    "conditional J=2 prefix estimate",
+    "PCR",
+    "WPCR",
+    "SCBR",
+    "all downstream claims"
+  ],
+  "diagnostics": {
+    "k": [3, 5, 7, 9],
+    "finite_only": true,
+    "all_exact_assertions_passed": true,
+    "universal_inference": false
+  },
+  "fresh_audit_request": [
+    "R_*=2k-3 normalization",
+    "B complementary-face orientation",
+    "A untouched-cycle coefficient",
+    "literal collision retention",
+    "exact IKBE implication"
+  ]
+}

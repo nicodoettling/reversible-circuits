@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "GG1_172": true,
+    "GG2_70": true,
+    "SG_128": true,
+    "YCM_7000": true,
+    "coefficient_envelopes": true,
+    "q_normalization": true
+  },
+  "odd_k": [3, 5, 7, 9, 11, 13, 15, 17, 19, 21],
+  "role": "falsification only",
+  "rows": [
+    {"k": 3, "q_sum_error": 2.220446049250313e-16, "max_sg_constant": 0.0, "max_gg1_constant": 2.378496599901665, "max_gg2_constant": 5.250000000000002, "max_envelope_fraction": 0.004166666666666667, "max_ycm_scaled_prefix": 0.5185449728701349, "formula_domain": {"G_min": 1, "G_max": 3, "ell_max": 4}},
+    {"k": 5, "q_sum_error": 0.0, "max_sg_constant": 0.7435061018387928, "max_gg1_constant": 2.66914342135191, "max_gg2_constant": 4.7786142180482605, "max_envelope_fraction": 0.0039131409083344865, "max_ycm_scaled_prefix": 0.40905534933388776, "formula_domain": {"G_min": 1, "G_max": 6, "ell_max": 7}},
+    {"k": 7, "q_sum_error": 0.0, "max_sg_constant": 0.805257575175918, "max_gg1_constant": 2.8070405873215227, "max_gg2_constant": 4.6403906767045076, "max_envelope_fraction": 0.003949294825901616, "max_ycm_scaled_prefix": 0.40027246946018896, "formula_domain": {"G_min": 1, "G_max": 9, "ell_max": 10}},
+    {"k": 9, "q_sum_error": 1.1102230246251565e-16, "max_sg_constant": 1.0297315979975965, "max_gg1_constant": 2.889976766986313, "max_gg2_constant": 4.580357134566622, "max_envelope_fraction": 0.003960641615711368, "max_ycm_scaled_prefix": 0.4034303283360126, "formula_domain": {"G_min": 1, "G_max": 12, "ell_max": 13}},
+    {"k": 11, "q_sum_error": 1.1102230246251565e-16, "max_sg_constant": 1.0278791405767567, "max_gg1_constant": 2.945827129661321, "max_gg2_constant": 4.548689536445554, "max_envelope_fraction": 0.003965239796237171, "max_ycm_scaled_prefix": 0.4086103862409613, "formula_domain": {"G_min": 1, "G_max": 15, "ell_max": 16}},
+    {"k": 13, "q_sum_error": 0.0, "max_sg_constant": 1.1786461706799953, "max_gg1_constant": 2.9861808489312716, "max_gg2_constant": 4.529947020055395, "max_envelope_fraction": 0.003970708263809702, "max_ycm_scaled_prefix": 0.4138286141214299, "formula_domain": {"G_min": 1, "G_max": 18, "ell_max": 19}},
+    {"k": 15, "q_sum_error": 0.0, "max_sg_constant": 1.1615313362156643, "max_gg1_constant": 3.016795292429661, "max_gg2_constant": 4.5179848625171, "max_envelope_fraction": 0.004165852896348886, "max_ycm_scaled_prefix": 0.41862652336689987, "formula_domain": {"G_min": 1, "G_max": 21, "ell_max": 22}},
+    {"k": 17, "q_sum_error": 1.1102230246251565e-16, "max_sg_constant": 1.2702825876824742, "max_gg1_constant": 3.040871882272401, "max_gg2_constant": 4.5099380766201875, "max_envelope_fraction": 0.00432500887133409, "max_ycm_scaled_prefix": 0.42292892181175945, "formula_domain": {"G_min": 1, "G_max": 24, "ell_max": 25}},
+    {"k": 19, "q_sum_error": 2.220446049250313e-16, "max_sg_constant": 1.2489203335957593, "max_gg1_constant": 3.060338509205004, "max_gg2_constant": 4.504315362176472, "max_envelope_fraction": 0.004456661176830105, "max_ycm_scaled_prefix": 0.42676569168172196, "formula_domain": {"G_min": 1, "G_max": 27, "ell_max": 28}},
+    {"k": 21, "q_sum_error": 0.0, "max_sg_constant": 1.3324287167307676, "max_gg1_constant": 3.0764278909276297, "max_gg2_constant": 4.500274757296102, "max_envelope_fraction": 0.00456707471587407, "max_ycm_scaled_prefix": 0.43019209189047986, "formula_domain": {"G_min": 1, "G_max": 30, "ell_max": 31}}
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,562 @@
+{
+  "claim_tested": "Endpoint-slide refinement of shared-factor adjacency has a polynomial diameter and a sharper per-edge K^2 influence.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/localized_source_metric.py --n 13 17 21 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/localized_source_metric_described_n21.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "metrics": [
+        {
+          "connected": true,
+          "diameter": 2,
+          "diameter_times_maximum": 0.07998045473334686,
+          "edges": 5251,
+          "maximum_edge_TV_K2": 0.03999022736667343,
+          "metric": "arbitrary_replacement",
+          "n_cubed_times_maximum": 87.85852952458153,
+          "n_squared_times_diameter_times_maximum": 13.51669684993562,
+          "n_squared_times_maximum": 6.75834842496781,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  8,
+                  12
+                ]
+              ],
+              "residual_sizes": [
+                5,
+                4,
+                4
+              ],
+              "support_gaps": [
+                4,
+                4,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  12
+                ],
+                [
+                  6,
+                  9
+                ]
+              ],
+              "residual_sizes": [
+                6,
+                4,
+                3
+              ],
+              "support_gaps": [
+                3,
+                3,
+                3,
+                4
+              ]
+            }
+          ],
+          "witness_orbits": [
+            106,
+            130
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 3,
+          "diameter_times_maximum": 0.1047193251701661,
+          "edges": 1994,
+          "maximum_edge_TV_K2": 0.0349064417233887,
+          "metric": "differing_chords_share_endpoint",
+          "n_cubed_times_maximum": 76.68945246628498,
+          "n_squared_times_diameter_times_maximum": 17.69756595375807,
+          "n_squared_times_maximum": 5.8991886512526905,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  4,
+                  8,
+                  12
+                ]
+              ],
+              "residual_sizes": [
+                5,
+                4,
+                4
+              ],
+              "support_gaps": [
+                4,
+                4,
+                5
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  3,
+                  7
+                ],
+                [
+                  10,
+                  12
+                ]
+              ],
+              "residual_sizes": [
+                7,
+                4,
+                2
+              ],
+              "support_gaps": [
+                4,
+                3,
+                2,
+                4
+              ]
+            }
+          ],
+          "witness_orbits": [
+            106,
+            127
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 10,
+          "diameter_times_maximum": 0.31553406606010603,
+          "edges": 481,
+          "maximum_edge_TV_K2": 0.0315534066060106,
+          "metric": "unit_endpoint_slide",
+          "n_cubed_times_maximum": 69.3228343134053,
+          "n_squared_times_diameter_times_maximum": 53.32525716415792,
+          "n_squared_times_maximum": 5.332525716415792,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  10,
+                  12
+                ]
+              ],
+              "residual_sizes": [
+                6,
+                5,
+                2
+              ],
+              "support_gaps": [
+                5,
+                2,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  12
+                ],
+                [
+                  6,
+                  11
+                ]
+              ],
+              "residual_sizes": [
+                5,
+                5,
+                3
+              ],
+              "support_gaps": [
+                2,
+                5,
+                1,
+                5
+              ]
+            }
+          ],
+          "witness_orbits": [
+            74,
+            119
+          ]
+        }
+      ],
+      "n": 13,
+      "quotient_states": 132
+    },
+    {
+      "metrics": [
+        {
+          "connected": true,
+          "diameter": 2,
+          "diameter_times_maximum": 0.04814109307797564,
+          "edges": 24472,
+          "maximum_edge_TV_K2": 0.02407054653898782,
+          "metric": "arbitrary_replacement",
+          "n_cubed_times_maximum": 118.25859514604717,
+          "n_squared_times_diameter_times_maximum": 13.91277589953496,
+          "n_squared_times_maximum": 6.95638794976748,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  10,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                6,
+                6,
+                5
+              ],
+              "support_gaps": [
+                5,
+                6,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  4,
+                  16
+                ],
+                [
+                  8,
+                  13
+                ]
+              ],
+              "residual_sizes": [
+                7,
+                5,
+                5
+              ],
+              "support_gaps": [
+                4,
+                5,
+                3,
+                5
+              ]
+            }
+          ],
+          "witness_orbits": [
+            288,
+            319
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 3,
+          "diameter_times_maximum": 0.05986032182462778,
+          "edges": 6856,
+          "maximum_edge_TV_K2": 0.01995344060820926,
+          "metric": "differing_chords_share_endpoint",
+          "n_cubed_times_maximum": 98.0312537081321,
+          "n_squared_times_diameter_times_maximum": 17.29963300731743,
+          "n_squared_times_maximum": 5.766544335772476,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  5,
+                  10
+                ],
+                [
+                  15,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                11,
+                5,
+                1
+              ],
+              "support_gaps": [
+                5,
+                5,
+                1,
+                6
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  5,
+                  10,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                6,
+                6,
+                5
+              ],
+              "support_gaps": [
+                5,
+                6,
+                6
+              ]
+            }
+          ],
+          "witness_orbits": [
+            283,
+            288
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 14,
+          "diameter_times_maximum": 0.2269634150228363,
+          "edges": 1207,
+          "maximum_edge_TV_K2": 0.016211672501631164,
+          "metric": "unit_endpoint_slide",
+          "n_cubed_times_maximum": 79.64794700051391,
+          "n_squared_times_diameter_times_maximum": 65.59242694159968,
+          "n_squared_times_maximum": 4.685173352971407,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  14,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                2
+              ],
+              "support_gaps": [
+                7,
+                2,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  16
+                ],
+                [
+                  8,
+                  15
+                ]
+              ],
+              "residual_sizes": [
+                7,
+                7,
+                3
+              ],
+              "support_gaps": [
+                2,
+                7,
+                1,
+                7
+              ]
+            }
+          ],
+          "witness_orbits": [
+            174,
+            262
+          ]
+        }
+      ],
+      "n": 17,
+      "quotient_states": 320
+    },
+    {
+      "metrics": [
+        {
+          "connected": true,
+          "diameter": 2,
+          "diameter_times_maximum": 0.033364482514320455,
+          "edges": 78912,
+          "maximum_edge_TV_K2": 0.016682241257160228,
+          "metric": "arbitrary_replacement",
+          "n_cubed_times_maximum": 154.49423628256088,
+          "n_squared_times_diameter_times_maximum": 14.713736788815321,
+          "n_squared_times_maximum": 7.356868394407661,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  13,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                7,
+                7,
+                7
+              ],
+              "support_gaps": [
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  20
+                ],
+                [
+                  10,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                6
+              ],
+              "support_gaps": [
+                4,
+                6,
+                4,
+                7
+              ]
+            }
+          ],
+          "witness_orbits": [
+            605,
+            619
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 3,
+          "diameter_times_maximum": 0.03886854459102271,
+          "edges": 17517,
+          "maximum_edge_TV_K2": 0.012956181530340904,
+          "metric": "differing_chords_share_endpoint",
+          "n_cubed_times_maximum": 119.98719715248711,
+          "n_squared_times_diameter_times_maximum": 17.141028164641014,
+          "n_squared_times_maximum": 5.713676054880339,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  14,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                6
+              ],
+              "support_gaps": [
+                7,
+                6,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  20
+                ],
+                [
+                  12,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                10,
+                7,
+                4
+              ],
+              "support_gaps": [
+                6,
+                4,
+                4,
+                7
+              ]
+            }
+          ],
+          "witness_orbits": [
+            532,
+            608
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 18,
+          "diameter_times_maximum": 0.17960193577716912,
+          "edges": 2431,
+          "maximum_edge_TV_K2": 0.00997788532095384,
+          "metric": "unit_endpoint_slide",
+          "n_cubed_times_maximum": 92.40519595735351,
+          "n_squared_times_diameter_times_maximum": 79.20445367773159,
+          "n_squared_times_maximum": 4.400247426540644,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  9,
+                  11,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                10,
+                9,
+                2
+              ],
+              "support_gaps": [
+                2,
+                9,
+                10
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  20
+                ],
+                [
+                  10,
+                  19
+                ]
+              ],
+              "residual_sizes": [
+                9,
+                9,
+                3
+              ],
+              "support_gaps": [
+                2,
+                9,
+                1,
+                9
+              ]
+            }
+          ],
+          "witness_orbits": [
+            303,
+            481
+          ]
+        }
+      ],
+      "n": 21,
+      "quotient_states": 634
+    }
+  ],
+  "seed": null,
+  "status": "finite_numeric_diagnostic_only"
+}

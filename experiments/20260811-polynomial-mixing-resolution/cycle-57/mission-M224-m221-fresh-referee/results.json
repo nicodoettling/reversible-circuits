@@ -1,0 +1,183 @@
+{
+  "actual_kernel": {
+    "T1": "100831060869578347854833692341308821/459142800034351572282356269056000000",
+    "contraction_counterexample": false,
+    "positive_contraction_slack": "152250599938846145694280798538691179/459142800034351572282356269056000000"
+  },
+  "all_checks_pass": true,
+  "basis_and_necessary_condition": {
+    "bernstein_basis_determinant": "162000",
+    "coefficient_matrix_symmetric": true,
+    "kernel_psd_iff_coefficient_matrix_psd": true,
+    "seven_point_evaluation_determinant": "3125/17006112"
+  },
+  "bernstein_algebra": {
+    "degree_elevation_checks": 28,
+    "envelope_psd_reason": "s*diag(e)-ee^T=sum_(i<j)e_i e_j(unit_i-unit_j)(unit_i-unit_j)^T",
+    "example_b_5_2_to_degree_6": [
+      "0",
+      "0",
+      "2/3",
+      "1/2",
+      "0",
+      "0",
+      "0"
+    ],
+    "example_raw_offdiagonal_2_3": "1/3",
+    "product_checks": 182,
+    "saturated_exact_closure_checks": 77,
+    "unsaturated_cases_with_nondiagonal_outer_product": 105,
+    "unsaturated_product_checks": 105
+  },
+  "charge_matrix": {
+    "construction": "uniform Bernstein Gram minus first-Jacobi rank one",
+    "sha256": "9bd460a8da3fbf2a7f3dd8698eae88116bb1608dc2b1db9746ddfd9b1b2f5c0c",
+    "symmetric": true
+  },
+  "least_feasible_bandwidth": 1,
+  "lift_audit": {
+    "cost_controlled_recursive_envelope": "unresolved",
+    "counterexample_child_vector": [
+      "1",
+      "1"
+    ],
+    "counterexample_combined_degree_vector": [
+      "1",
+      "1/2",
+      "0"
+    ],
+    "counterexample_elevated_vector": [
+      "1",
+      "5/6",
+      "2/3",
+      "1/2",
+      "1/3",
+      "1/6",
+      "0"
+    ],
+    "counterexample_likelihood_d_a": [
+      1,
+      0
+    ],
+    "counterexample_output_bandwidth": 5,
+    "general_bound": "min(L,w+(L-n))",
+    "raw_width_one_closed": false,
+    "saturated_preserves_bandwidth_checks": 287,
+    "unsaturated_upper_bound_checks": 287
+  },
+  "method": "single exact row; literal ordered compositions; exact matrix inversion; no M221 import or data read",
+  "python": "3.12.3",
+  "recursion": {
+    "all_attachment_laws_sum_to_one": true,
+    "bernstein_coefficient_sha256": "d1dd37fe74b894523b4b049099d194ed34fb64fb36d144b48ff3746a34e1ccae",
+    "branch_scalar": "eta/pi_a",
+    "eta_over_pi_sequence_sha256": "4a5a2e5da5e5df076b9d182639c934e66decfa399771a9d2abb466688c2759b8",
+    "kernel_sha256": "d2ee4261fd89e712d0649d9cea3c30952256bff82c99134a59fce7b151505152",
+    "killed_a_equals_d_omissions": 51,
+    "live_root_rows": 51,
+    "retained_observations": 108,
+    "top_kernel_terms": 49,
+    "unique_recursive_states": 32
+  },
+  "schema": "M224-independent-M221-referee-v1",
+  "seed": null,
+  "source_independence": {
+    "parameter_scan": false,
+    "predecessor_files_read_by_checker": false,
+    "project_imports": false
+  },
+  "state_B_L_kappa_D": [
+    1,
+    6,
+    2,
+    1
+  ],
+  "width_one_primal_certificate": {
+    "C_margins": [
+      "253/150",
+      "193/300",
+      "16/75",
+      "143/300",
+      "19/25",
+      "1/200",
+      "113/40"
+    ],
+    "C_minus_A_margins": [
+      "260320697099383109737650392531/42810517485720426320033218560000",
+      "732473570171065182244302170489/77058931474296767376059793408000",
+      "22066085580152050340437577895121/9632366434287095922007474176000000",
+      "1509226832311692335786724342497/214052587428602131600166092800000",
+      "7067441003517689910864640423799/1070262937143010658000830464000000",
+      "855769982930667113675511847409/42810517485720426320033218560000",
+      "21088769888592000787/5613145673139486720000"
+    ],
+    "C_minus_A_sha256": "9f5b386200f2921b8a8f63161cc9ca9af94e28efb39962d265a08da3aff3ba64",
+    "adjacent_offdiagonal": [
+      "1/3",
+      "2/15",
+      "1/12",
+      "1/5",
+      "3/5",
+      "11/8"
+    ],
+    "bandwidth": 1,
+    "charge": "4937603/9172800",
+    "diagonal": [
+      "101/50",
+      "111/100",
+      "43/100",
+      "19/25",
+      "39/25",
+      "99/50",
+      "21/5"
+    ],
+    "matrix_sha256": "d0df5f5c2cd436116d711a62b449abff74bcbd7491907590218e96d6b9426dbb",
+    "minimum_C_margin": "1/200",
+    "minimum_C_minus_A_margin": "22066085580152050340437577895121/9632366434287095922007474176000000",
+    "positive_budget_slack": "485323987/37571788800",
+    "psd_reason": "symmetric strict signed diagonal dominance with positive diagonal"
+  },
+  "width_zero_dual_certificate": {
+    "budget": "144495/262144",
+    "diagonal_remainders": [
+      "633/254800",
+      "18427/17517500",
+      "39213/17517500",
+      "6757/7507500",
+      "39213/17517500",
+      "18427/17517500",
+      "633/254800"
+    ],
+    "dual_psd_reason": "X=vv^T+diag(strictly positive remainders)",
+    "objective": "27574523089250503170656957870808157889213/48209994003606915089647408250880000000000",
+    "positive_excess": "1000948704365931347999936328408157889213/48209994003606915089647408250880000000000",
+    "q": "117649/262144",
+    "radii": [
+      "1/5",
+      "4/25",
+      "17/100",
+      "9/50",
+      "17/100",
+      "4/25",
+      "1/5"
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weights": [
+      "433/10192",
+      "747/28028",
+      "3491/112112",
+      "100/3003",
+      "3491/112112",
+      "747/28028",
+      "433/10192"
+    ]
+  }
+}

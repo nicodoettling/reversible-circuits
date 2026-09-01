@@ -1,0 +1,79 @@
+{
+  "broad_scan": false,
+  "claim": "fresh clean-room referee audit of frozen M152",
+  "context_checks": 280,
+  "doob_checks": 21,
+  "failure_count": 0,
+  "failures": [],
+  "immutable_hashes": {
+    "SHA256SUMS": "141a6d131e4d1c36e6d5d2716d249ee157544084269e28ac78c279ba02fc94c6",
+    "beta_jensen_obstruction.md": "dfebb6c250f6c4fcf0eaf44da961d0887613ad28012689b52b6a40c441023b6d",
+    "beta_potential.json": "b4880001fb4b8b706c40ee58ca14dd90649efc204dbdf2a31c551c0c597eb6fa",
+    "beta_potential.py": "5c9cd1a4693859147d0f356f30e997e2d3e8c1c04f6ead4c8d4ff4740edf4388",
+    "freeze_manifest.md": "0c444c254bd49c008cd4836f14d16ecc43aa8aace628e5177278e2457304db51",
+    "report.md": "f1dafebd7f6722a16abedbf5382ad433e729f5294295f06b23fb6d82eb97bd70"
+  },
+  "predecessor_imports": false,
+  "python": "3.12.3",
+  "seed": null,
+  "witness": {
+    "bellman_degree": 12,
+    "beta_jensen_value": {
+      "decimal": 0.8985192505618693,
+      "denominator": "223395363274892426079078092636160000000000000000000",
+      "numerator": "200725034388752880197118033887607702918039504603683"
+    },
+    "budget": {
+      "decimal": 0.87293908,
+      "denominator": "25000000",
+      "numerator": "21823477"
+    },
+    "discrete_majorant": {
+      "decimal": 0.8985192505618693,
+      "denominator": "223395363274892426079078092636160000000000000000000",
+      "numerator": "200725034388752880197118033887607702918039504603683"
+    },
+    "exact_H_over_q": {
+      "decimal": 0.5663747546876134,
+      "denominator": "1562205337586660322231315333120000000000000000000",
+      "numerator": "884793664847325174104678035065147237189087444781"
+    },
+    "exact_budget_slack": {
+      "decimal": 0.3065643253123865,
+      "denominator": "1562205337586660322231315333120000000000000000000",
+      "numerator": "478916425316663507856429919018519092410912555219"
+    },
+    "exact_descendant_over_q": {
+      "decimal": 0.18205804014843643,
+      "denominator": "51190344502039685438875740835676160000",
+      "numerator": "9319613794564632698601357521105736737"
+    },
+    "exact_reset_over_q": {
+      "decimal": 0.3843167145391771,
+      "denominator": "152536634460000000000000000000",
+      "numerator": "58622378202530621387204787973"
+    },
+    "jensen_reset": {
+      "decimal": 0.6566316281182748,
+      "denominator": "458067513283380000000000000000000",
+      "numerator": "300781617035355289748188087657919"
+    },
+    "positive_margin": {
+      "decimal": 0.025580170561869287,
+      "denominator": "223395363274892426079078092636160000000000000000000",
+      "numerator": "5714491495302498676679596453643417785239504603683"
+    },
+    "q": {
+      "decimal": 0.12706092,
+      "denominator": "25000000",
+      "numerator": "3176523"
+    },
+    "state_s_kappa_D_B": [
+      9,
+      2,
+      1,
+      3
+    ],
+    "suffix_excess": 6
+  }
+}

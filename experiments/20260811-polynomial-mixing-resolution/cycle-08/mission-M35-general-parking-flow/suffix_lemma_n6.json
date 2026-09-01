@@ -1,0 +1,589 @@
+{
+  "claim_tested": "If a parking word ends h,h,j with h<j, the rank-two heat bath at the two h coordinates has exactly two outcomes replacing h by j.",
+  "failures": [
+    {
+      "expected": [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "h": 0,
+      "j": 2,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        0,
+        3,
+        3
+      ],
+      "h": 0,
+      "j": 3,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "h": 0,
+      "j": 4,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        1,
+        3,
+        3
+      ],
+      "h": 1,
+      "j": 3,
+      "labels": [
+        0,
+        0,
+        1,
+        1,
+        3
+      ],
+      "source_pair": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        1,
+        4,
+        4
+      ],
+      "h": 1,
+      "j": 4,
+      "labels": [
+        0,
+        0,
+        1,
+        1,
+        4
+      ],
+      "source_pair": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        2,
+        4,
+        4
+      ],
+      "h": 2,
+      "j": 4,
+      "labels": [
+        0,
+        0,
+        2,
+        2,
+        4
+      ],
+      "source_pair": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "h": 0,
+      "j": 1,
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "source_pair": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        1,
+        3,
+        3
+      ],
+      "h": 0,
+      "j": 3,
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      "source_pair": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        1,
+        4,
+        4
+      ],
+      "h": 0,
+      "j": 4,
+      "labels": [
+        0,
+        1,
+        0,
+        0,
+        4
+      ],
+      "source_pair": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        1,
+        1,
+        3,
+        3
+      ],
+      "h": 1,
+      "j": 3,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        3
+      ],
+      "source_pair": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        1,
+        1,
+        4,
+        4
+      ],
+      "h": 1,
+      "j": 4,
+      "labels": [
+        0,
+        1,
+        1,
+        1,
+        4
+      ],
+      "source_pair": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        1,
+        2,
+        4,
+        4
+      ],
+      "h": 2,
+      "j": 4,
+      "labels": [
+        0,
+        1,
+        2,
+        2,
+        4
+      ],
+      "source_pair": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "h": 0,
+      "j": 2,
+      "labels": [
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "source_pair": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        2,
+        3,
+        3
+      ],
+      "h": 0,
+      "j": 3,
+      "labels": [
+        0,
+        2,
+        0,
+        0,
+        3
+      ],
+      "source_pair": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        2,
+        4,
+        4
+      ],
+      "h": 0,
+      "j": 4,
+      "labels": [
+        0,
+        2,
+        0,
+        0,
+        4
+      ],
+      "source_pair": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        1,
+        2,
+        2,
+        2
+      ],
+      "h": 1,
+      "j": 2,
+      "labels": [
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "source_pair": [
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        1,
+        2,
+        4,
+        4
+      ],
+      "h": 1,
+      "j": 4,
+      "labels": [
+        0,
+        2,
+        1,
+        1,
+        4
+      ],
+      "source_pair": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        2,
+        2,
+        3
+      ],
+      "h": 0,
+      "j": 2,
+      "labels": [
+        0,
+        3,
+        0,
+        0,
+        2
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "h": 0,
+      "j": 3,
+      "labels": [
+        0,
+        3,
+        0,
+        0,
+        3
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    },
+    {
+      "expected": [
+        0,
+        0,
+        3,
+        4,
+        4
+      ],
+      "h": 0,
+      "j": 4,
+      "labels": [
+        0,
+        3,
+        0,
+        0,
+        4
+      ],
+      "source_pair": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "target_outcomes": []
+    }
+  ],
+  "n": 6,
+  "r": 5,
+  "tested_words": 29,
+  "universal_scope_warning": "Finite enumeration is a falsifier only."
+}

@@ -1,0 +1,57 @@
+{
+  "N": 3,
+  "all_connected": true,
+  "cases": [
+    {
+      "connected": true,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "endpoint_cycle_type": [
+        1,
+        1,
+        1
+      ],
+      "fiber_size": 2187,
+      "micro_components": 1
+    },
+    {
+      "connected": true,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "endpoint_cycle_type": [
+        3
+      ],
+      "fiber_size": 2187,
+      "micro_components": 1
+    },
+    {
+      "connected": true,
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "endpoint_cycle_type": [
+        3
+      ],
+      "fiber_size": 2187,
+      "micro_components": 1
+    }
+  ],
+  "claim_tested": "At N=3, every exact length-eight endpoint fiber is connected under the three aligned four-factor same-product heat-bath support graphs.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-l4-referee/micro_crosscheck.py --output experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-l4-referee/micro_crosscheck_N3.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; displayed word product t1...t8",
+  "kernel_support": "aligned windows start at zero-based positions 0,2,4",
+  "python": "3.12.3",
+  "scope_warning": "Finite survival is calibration only, not a universal proof.",
+  "seed": null,
+  "total_words": 6561,
+  "transpositions": 3
+}

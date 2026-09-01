@@ -1,0 +1,175 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-22/mission-M105-m102-fresh-referee/independent_finite_probe.py --k 7 9 --output experiments/20260811-polynomial-mixing-resolution/cycle-22/mission-M105-m102-fresh-referee/independent_finite_probe_k9.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "checks": {
+        "all_double_orbits_have_size_n": true,
+        "event_orbit_formula": true,
+        "exact_event_mass_formula": true,
+        "quotient_rows_normalized": true,
+        "source_orbit_sizes": true,
+        "stationary_normalized": true
+      },
+      "event_mass": 0.010449805944462176,
+      "event_mass_exact": "732509094959356062400/70097865821857281087729",
+      "event_orbits": 28,
+      "event_signed": 0.000881753239476615,
+      "k": 7,
+      "k_squared_signed": 0.043205908734354134,
+      "k_times_mass": 0.07314864161123523,
+      "k_times_mean_score": 0.5906590714832624,
+      "maximum_k_times_score": 1.2189807794674343,
+      "minimum_k_times_score": -0.27609412725156635,
+      "n": 21,
+      "negative_event_orbits": 3,
+      "negative_rows": [
+        {
+          "color": "S",
+          "gaps": [
+            4,
+            4,
+            4,
+            9
+          ],
+          "k_times_score": -0.27609412725156635,
+          "orbit": 412
+        },
+        {
+          "color": "S",
+          "gaps": [
+            4,
+            4,
+            5,
+            8
+          ],
+          "k_times_score": -0.049572023655831556,
+          "orbit": 508
+        },
+        {
+          "color": "S",
+          "gaps": [
+            5,
+            4,
+            4,
+            8
+          ],
+          "k_times_score": -0.05155725501991465,
+          "orbit": 515
+        }
+      ],
+      "quotient_states": 634,
+      "raw_states": 13300
+    },
+    {
+      "checks": {
+        "all_double_orbits_have_size_n": true,
+        "event_orbit_formula": true,
+        "exact_event_mass_formula": true,
+        "quotient_rows_normalized": true,
+        "source_orbit_sizes": true,
+        "stationary_normalized": true
+      },
+      "event_mass": 0.008026692621695855,
+      "event_mass_exact": "180828538405979485951504374510832/22528399544939174411840147874772641",
+      "event_orbits": 60,
+      "event_signed": 0.0005205637768969944,
+      "k": 9,
+      "k_squared_signed": 0.042165665928656546,
+      "k_times_mass": 0.07224023359526269,
+      "k_times_mean_score": 0.5836867328654602,
+      "maximum_k_times_score": 1.3502492112483708,
+      "minimum_k_times_score": -0.4101590414701274,
+      "n": 27,
+      "negative_event_orbits": 7,
+      "negative_rows": [
+        {
+          "color": "S",
+          "gaps": [
+            5,
+            5,
+            5,
+            12
+          ],
+          "k_times_score": -0.4101590414701274,
+          "orbit": 867
+        },
+        {
+          "color": "S",
+          "gaps": [
+            5,
+            6,
+            5,
+            11
+          ],
+          "k_times_score": -0.06879301211982707,
+          "orbit": 1037
+        },
+        {
+          "color": "S",
+          "gaps": [
+            5,
+            5,
+            6,
+            11
+          ],
+          "k_times_score": -0.2994085843773091,
+          "orbit": 1038
+        },
+        {
+          "color": "S",
+          "gaps": [
+            6,
+            5,
+            5,
+            11
+          ],
+          "k_times_score": -0.29743281539715055,
+          "orbit": 1048
+        },
+        {
+          "color": "S",
+          "gaps": [
+            5,
+            5,
+            7,
+            10
+          ],
+          "k_times_score": -0.05892918327386892,
+          "orbit": 1194
+        },
+        {
+          "color": "S",
+          "gaps": [
+            6,
+            5,
+            6,
+            10
+          ],
+          "k_times_score": -0.06433298583862597,
+          "orbit": 1202
+        },
+        {
+          "color": "S",
+          "gaps": [
+            7,
+            5,
+            5,
+            10
+          ],
+          "k_times_score": -0.06103821382921857,
+          "orbit": 1211
+        }
+      ],
+      "quotient_states": 1409,
+      "raw_states": 38025
+    }
+  ],
+  "seed": null,
+  "status": "independent_deterministic_floating_finite_check_only",
+  "target": "M102 k=7,9 central-double event and pointwise scores"
+}

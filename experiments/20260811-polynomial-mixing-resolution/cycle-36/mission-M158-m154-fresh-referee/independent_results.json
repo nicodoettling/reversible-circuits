@@ -1,0 +1,253 @@
+{
+  "command": "python3 -B independent_referee.py",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "d3_framing": {
+    "conclusion": "exactly two literal framed orbits, indexed by F2^2/Delta",
+    "fixed_absolute_pair_conjugates": 36,
+    "free_global_classes": 4,
+    "generating_ordered_pair_states": 432,
+    "global_class_sizes": {
+      "6": 4
+    },
+    "literal_action_image_order": 216,
+    "literal_pair_orbit_sizes": [
+      216,
+      216
+    ],
+    "physical_words": 24,
+    "quotient_action_image_order": 12,
+    "quotient_image_identification": "A4: order 12 and all degree-4 generators even",
+    "quotient_ordered_distinct_pair_orbit": 12,
+    "relative_parity_reachability": {
+      "00": {
+        "reachable": 9,
+        "total": 9
+      },
+      "01": {
+        "reachable": 0,
+        "total": 9
+      },
+      "10": {
+        "reachable": 0,
+        "total": 9
+      },
+      "11": {
+        "reachable": 9,
+        "total": 9
+      }
+    }
+  },
+  "d4_exceptional_block": {
+    "absolute_quotient_degree": 120,
+    "accepted_rank4_witness": {
+      "all_four_words_valid": true,
+      "dps_tau1_endpoint_check": {
+        "all_declared_endpoints_verified": true,
+        "rows": [
+          {
+            "root_independent_tau1_images": 1,
+            "source_preimages": 4,
+            "tau1_equals_declared_target": true
+          },
+          {
+            "root_independent_tau1_images": 1,
+            "source_preimages": 4,
+            "tau1_equals_declared_target": true
+          }
+        ]
+      },
+      "global_conjugacy": {
+        "source_pair_globally_conjugate": false,
+        "target_pair_globally_conjugate": false
+      },
+      "paired_subgroup_orders": {
+        "source": 96,
+        "target": 288
+      },
+      "source_same_phi_fiber": true,
+      "target_same_phi_fiber": false,
+      "therefore_common_literal_braid_obstructed": true
+    },
+    "connectedness_reason": "a single projected edge-label would lift to one disjoint S4 edge-pair, contradicting connected support",
+    "exceptional_homomorphism": {
+      "homomorphism_failures_over_S4_squared": 0,
+      "image_order": 6,
+      "kernel_cycle_types": [
+        {
+          "1": 4
+        },
+        {
+          "2": 2
+        },
+        {
+          "2": 2
+        },
+        {
+          "2": 2
+        }
+      ],
+      "kernel_order": 4,
+      "transposition_preimage_multiplicities": {
+        "(0, 1)": 2,
+        "(0, 2)": 2,
+        "(1, 2)": 2
+      }
+    },
+    "phi_fiber_size_histogram": {
+      "3": 40
+    },
+    "physical_words": 2880,
+    "projected_absolute_classes": 40,
+    "projected_connectedness_failures": 0,
+    "projected_product_failures": 0,
+    "quotient_action": {
+      "generator_block_mapping_failures": 0,
+      "minimal_block_histogram": {
+        "3": 40
+      },
+      "order": 20652142670561646642588549120,
+      "order_factorization": {
+        "2": 22,
+        "3": 44,
+        "5": 1
+      },
+      "primitive": false,
+      "subdegrees": [
+        1,
+        2,
+        36,
+        81
+      ],
+      "sympy_minimal_blocks_equal_phi_fibers": true,
+      "transitive": true
+    }
+  },
+  "d5_capped_quotient": {
+    "accepted_DPS_quotient_count": 8400,
+    "component_size": 8400,
+    "group_order_computed": false,
+    "positive_generator_rows": [
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 1
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 2
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 3
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 4
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 5
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 6
+      },
+      {
+        "cycle_histogram": {
+          "1": 660,
+          "2": 1440,
+          "3": 1620
+        },
+        "parity": 0,
+        "slot": 7
+      }
+    ],
+    "positive_generators": 7,
+    "primitive": true,
+    "scope": "exact finite orbit/primitivity check only; no alternating-image or asymptotic inference",
+    "transitive": true
+  },
+  "dependencies": {
+    "sympy": "1.12"
+  },
+  "experiment": "M158 clean-room referee of frozen M154",
+  "frozen_hashes_verified": {
+    "SHA256SUMS": "b5c7273819a6d247836dc596723efb438cb91ae310ced670ad57738a3bb0ba04",
+    "d4_exceptional_block_audit.py": "e5cf3ff0d660b5a5e62325c87c8a7c40f4b3a1639d95dd787435f97353947a68",
+    "d4_results.json": "9d55fb82af30ccfcfc0a39e63c41a77c05518cc79888249678ffbed8183e3cfa",
+    "freeze_manifest.md": "7adf2270a89ab870335417305ba5db6fb577ded29721a30dc38234eea07b07fa",
+    "hurwitz_framing_audit.py": "0292268cbad8c0c322c440f4ca6596ebfcc3fd3e5b94c500f616859c208dccfc",
+    "inner_nielsen_voltage_reduction.md": "e689fec00762b773d56030640aff7af21053cb63901c47571e3c9b33ce48d958",
+    "report.md": "6421f55bccf2c6750f21a7cf9a236f8811c06f5759170d4ca3acae79c9b5d806",
+    "results.json": "13ee821c42f01cc040f4c9a335b6e2acbf38522834e83195dca17a895246f1be"
+  },
+  "hurwitz_convention": "R_j(a,b)=(b,b^-1*a*b), chronological order",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "target": "literal/inner/absolute Hurwitz orbit reductions; not a sampler or gap claim",
+  "universal_claim_note": "Universal claims are decided by proof audit; finite rows calibrate conventions and exceptions only.",
+  "universal_inner_conjugation": {
+    "chronological_sequence": "R_(m-1),...,R_1,R_1,...,R_(m-1), after inverse-Hurwitz transport",
+    "claimed_per_generator_bound": "4m-4",
+    "d3_factor_checks": 96,
+    "failures": [],
+    "last_factor_loop_length": 6,
+    "noninvolutive_group_check": "S4 product-one tuple containing a 3-cycle",
+    "per_factor_length_rows": [
+      {
+        "at_most_4m_minus_4": true,
+        "factor_slot": 1,
+        "formula": 12,
+        "observed_length": 12
+      },
+      {
+        "at_most_4m_minus_4": true,
+        "factor_slot": 2,
+        "formula": 10,
+        "observed_length": 10
+      },
+      {
+        "at_most_4m_minus_4": true,
+        "factor_slot": 3,
+        "formula": 8,
+        "observed_length": 8
+      },
+      {
+        "at_most_4m_minus_4": true,
+        "factor_slot": 4,
+        "formula": 6,
+        "observed_length": 6
+      }
+    ]
+  }
+}

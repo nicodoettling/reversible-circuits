@@ -1,0 +1,654 @@
+{
+  "census": {
+    "closed": 207,
+    "digest": "376cb40fb0841155aabdf001a275fe742f7d08958f20856b2db900e7b9fae3b3",
+    "open": 341,
+    "ranks": [
+      5,
+      6
+    ],
+    "root_input_counts": {
+      "C": 71,
+      "F_contraction": 117,
+      "F_expansion": 136,
+      "direct_root_reversed_base": 224
+    },
+    "rows": 548,
+    "trees": {
+      "5": 16,
+      "6": 125
+    }
+  },
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3"
+  },
+  "failures": [],
+  "m273_imports": false,
+  "mission": "M275 independent decorated-root-seam referee guard",
+  "predecessor_imports": false,
+  "scope": {
+    "every_color": false,
+    "fixed_edits": false,
+    "gap_or_mixing": false,
+    "proves_all_rank": false,
+    "proves_idl_without_the_analytic_chain": false
+  },
+  "seed": null,
+  "status": "exact finite calibration only",
+  "targeted": [
+    {
+      "d": 7,
+      "endpoint_pairs": [
+        [
+          1,
+          6,
+          6
+        ],
+        [
+          2,
+          6,
+          6
+        ],
+        [
+          3,
+          6,
+          6
+        ],
+        [
+          4,
+          6,
+          6
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          6
+        ],
+        [
+          7,
+          6,
+          6
+        ],
+        [
+          8,
+          6,
+          6
+        ],
+        [
+          9,
+          1,
+          1
+        ],
+        [
+          10,
+          7,
+          8
+        ]
+      ],
+      "exposed": [
+        10
+      ],
+      "inverse_ok": true,
+      "name": "direct_boundary",
+      "new_word_hash": "eefa34bece353b0486e51fb7719db54351464ece1a041f921e8dbb4b3932d489",
+      "old_word_hash": "b175816b1ffcd6d6209c909b599416d69ce3ccfa78107e502a64549b094b6d15",
+      "open": true,
+      "path": [
+        6,
+        1
+      ],
+      "port_rows": [],
+      "root_input": "direct_root_reversed_base",
+      "seam_order": [
+        72,
+        73
+      ],
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "v": 6
+    },
+    {
+      "d": 8,
+      "endpoint_pairs": [
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          1
+        ],
+        [
+          6,
+          8,
+          9
+        ],
+        [
+          7,
+          8,
+          9
+        ],
+        [
+          8,
+          8,
+          9
+        ],
+        [
+          9,
+          1,
+          1
+        ],
+        [
+          10,
+          1,
+          1
+        ],
+        [
+          11,
+          1,
+          1
+        ],
+        [
+          12,
+          1,
+          1
+        ]
+      ],
+      "exposed": [
+        6,
+        7,
+        8
+      ],
+      "inverse_ok": true,
+      "name": "direct_with_both_port_sides",
+      "new_word_hash": "4e42950cfec42848ee331804b35d1507bf511627b6a516f5f6c88f2166a39518",
+      "old_word_hash": "30004e24c8acd103337540915bd6e06d8a9462b8433081ae3de694cd610a3637",
+      "open": true,
+      "path": [
+        4,
+        1
+      ],
+      "port_rows": [
+        [
+          5,
+          "persistent",
+          8,
+          9
+        ],
+        [
+          3,
+          "discharged",
+          1
+        ]
+      ],
+      "root_input": "direct_root_reversed_base",
+      "seam_order": [
+        98,
+        99
+      ],
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "v": 4
+    },
+    {
+      "d": 9,
+      "endpoint_pairs": [
+        [
+          1,
+          6,
+          6
+        ],
+        [
+          2,
+          6,
+          6
+        ],
+        [
+          3,
+          6,
+          6
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          3,
+          3
+        ],
+        [
+          6,
+          3,
+          3
+        ],
+        [
+          7,
+          6,
+          6
+        ],
+        [
+          8,
+          3,
+          3
+        ],
+        [
+          9,
+          5,
+          5
+        ],
+        [
+          10,
+          9,
+          10
+        ],
+        [
+          11,
+          9,
+          10
+        ],
+        [
+          12,
+          9,
+          10
+        ],
+        [
+          13,
+          1,
+          1
+        ],
+        [
+          14,
+          1,
+          1
+        ]
+      ],
+      "exposed": [
+        10,
+        11,
+        12
+      ],
+      "inverse_ok": true,
+      "name": "root_contraction_and_nonroot_port_crossing",
+      "new_word_hash": "c113afc9cf4a458d0c0a8ce1ea799b270400dd35a6f0d75888ddf9038b38ef13",
+      "old_word_hash": "3c4f73145674bc40b73b0ff86cfad27aa0e752a7d49f3f43048adf69e3a4f0a5",
+      "open": true,
+      "path": [
+        6,
+        5,
+        3,
+        1
+      ],
+      "port_rows": [
+        [
+          7,
+          "persistent",
+          9,
+          10
+        ],
+        [
+          4,
+          "discharged",
+          3
+        ]
+      ],
+      "root_input": "F_contraction",
+      "seam_order": [
+        128,
+        129
+      ],
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "v": 6
+    },
+    {
+      "d": 8,
+      "endpoint_pairs": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          4,
+          1,
+          1
+        ],
+        [
+          5,
+          6,
+          6
+        ],
+        [
+          6,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          1
+        ],
+        [
+          8,
+          1,
+          1
+        ],
+        [
+          9,
+          4,
+          4
+        ],
+        [
+          10,
+          1,
+          1
+        ],
+        [
+          11,
+          1,
+          1
+        ],
+        [
+          12,
+          1,
+          1
+        ]
+      ],
+      "exposed": [
+        6,
+        7,
+        8
+      ],
+      "inverse_ok": true,
+      "name": "root_expansion",
+      "new_word_hash": "eacb495bc0d17360a7b6165da8e9751c19cc7bdfff8df6979fe45d0fc53e86ce",
+      "old_word_hash": "37a1bf16ae2fb403bf9a8189bd8d45513629c9c0f7671dc9b3ed0d0b2e4331ab",
+      "open": false,
+      "path": [
+        4,
+        6,
+        1
+      ],
+      "port_rows": [
+        [
+          5,
+          "discharged",
+          1
+        ]
+      ],
+      "root_input": "F_expansion",
+      "seam_order": [
+        98,
+        99
+      ],
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "v": 4
+    },
+    {
+      "d": 8,
+      "endpoint_pairs": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          4,
+          5,
+          5
+        ],
+        [
+          5,
+          3,
+          3
+        ],
+        [
+          6,
+          2,
+          2
+        ],
+        [
+          7,
+          4,
+          4
+        ],
+        [
+          8,
+          2,
+          2
+        ],
+        [
+          9,
+          1,
+          1
+        ],
+        [
+          10,
+          1,
+          1
+        ],
+        [
+          11,
+          1,
+          1
+        ],
+        [
+          12,
+          1,
+          1
+        ]
+      ],
+      "exposed": [
+        6
+      ],
+      "inverse_ok": true,
+      "name": "already_sealed_C",
+      "new_word_hash": "3f4c5a2720ff35babbcb6422a2f4fc87c737dca672220d3691c32c58b9d13054",
+      "old_word_hash": "da4e3049ae36085bd05f18222c295ecb1c61c3d4c8311d6a27326afac988480d",
+      "open": false,
+      "path": [
+        4,
+        3,
+        5,
+        2,
+        1
+      ],
+      "port_rows": [],
+      "root_input": "C",
+      "seam_order": [
+        98,
+        99
+      ],
+      "tree": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "v": 4
+    }
+  ],
+  "targeted_digest": "567028761cbca5b5dc65fb41b3e32e29ae837ac6a599bd40f0bb6e6d957d4ae4"
+}

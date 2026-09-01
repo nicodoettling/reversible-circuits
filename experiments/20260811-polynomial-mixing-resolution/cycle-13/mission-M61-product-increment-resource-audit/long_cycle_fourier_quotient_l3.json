@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the exact minimal-long-cycle product mu diverges, then the universal product-increment O(1/l) claim is false.",
+  "scope_warning": "Exact integer completion counts with final floating spectra can falsify a proposed bound at the recorded lengths, but finite values cannot prove an asymptotic theorem.",
+  "records": [
+    {
+      "N": 7,
+      "length": 3,
+      "endpoint_cycle_type": [
+        7
+      ],
+      "product_support_size": 176,
+      "active_product_count": 105,
+      "cyclic_orbit_count": 15,
+      "all_orbit_sizes": [
+        7
+      ],
+      "completion_cycle_type_count": 12,
+      "maximum_normality_error": 5.551146463846029e-17,
+      "maximum_twist_relation_error": 2.1138016631127878e-16,
+      "mu_product": 0.7469702580138664,
+      "length_times_mu_product": 2.240910774041599,
+      "best_mode": {
+        "frequency": 5,
+        "kappa_real": 0.40483320995884386,
+        "kappa_imag": -0.5076447886570683,
+        "kappa_abs": 0.6493020555460001,
+        "gram_mu": 0.7469702580138664
+      },
+      "block_dimensions": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    }
+  ]
+}

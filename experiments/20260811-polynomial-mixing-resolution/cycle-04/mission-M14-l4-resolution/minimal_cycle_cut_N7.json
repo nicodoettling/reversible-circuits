@@ -1,0 +1,139 @@
+{
+  "claim_tested": "Two bounded claims for the first nontrivial odd-N minimal full-cycle bridge: (i) its raw factorization graph is uniform over Cayley trees; (ii) the balanced label-crossing threshold is invariant or has zero boundary. Failure of (i) or positive flow in (ii) refutes only those bounded shortcuts, not an asymptotic bottleneck or another cut.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-l4-resolution/minimal_cycle_cut.py --N 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-l4-resolution/minimal_cycle_cut_N7.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word=t1...t6",
+  "kernel": "nonlazy aligned B_3: choose starts 1 or 3 with probability 1/2, then uniformly resample the exact same-product four-factor fiber",
+  "python": "3.12.3",
+  "result": {
+    "A_size": 6960,
+    "A_stationary_mass": {
+      "denominator": 16807,
+      "float": 0.4141131671327423,
+      "numerator": 6960
+    },
+    "N": 7,
+    "balanced_label_cut": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    "boundary_state_count_in_A": 6592,
+    "boundary_state_count_in_complement": 6678,
+    "checks": {
+      "boundary_flow_positive": true,
+      "forward_flow_equals_reverse_flow": true,
+      "hurwitz_orbit_equals_Denes_count": true,
+      "raw_factorization_graph_is_uniform_Cayley_tree": false
+    },
+    "conductance_of_A": {
+      "denominator": 108750,
+      "float": 0.26272183908045976,
+      "numerator": 28571
+    },
+    "crossing_count_histogram": {
+      "1": 2880,
+      "2": 4080,
+      "3": 4700,
+      "4": 3345,
+      "5": 1500,
+      "6": 302
+    },
+    "distinct_outside_over_fiber_ratios": [
+      {
+        "fiber_size": 64,
+        "instances": 1680,
+        "outside": 4
+      },
+      {
+        "fiber_size": 36,
+        "instances": 288,
+        "outside": 12
+      },
+      {
+        "fiber_size": 125,
+        "instances": 672,
+        "outside": 13
+      },
+      {
+        "fiber_size": 64,
+        "instances": 768,
+        "outside": 16
+      },
+      {
+        "fiber_size": 54,
+        "instances": 432,
+        "outside": 18
+      },
+      {
+        "fiber_size": 64,
+        "instances": 1296,
+        "outside": 28
+      },
+      {
+        "fiber_size": 64,
+        "instances": 384,
+        "outside": 40
+      },
+      {
+        "fiber_size": 125,
+        "instances": 3120,
+        "outside": 47
+      },
+      {
+        "fiber_size": 125,
+        "instances": 512,
+        "outside": 61
+      },
+      {
+        "fiber_size": 125,
+        "instances": 1152,
+        "outside": 89
+      }
+    ],
+    "elapsed_seconds": 0.8094255090691149,
+    "endpoint": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      0
+    ],
+    "four_step_boundary_band_count": 6960,
+    "matrix_tree_histogram": {
+      "1": 576,
+      "2": 2832,
+      "3": 5452,
+      "4": 5139,
+      "5": 2376,
+      "6": 432
+    },
+    "microfactor_length": 6,
+    "pair_length": 3,
+    "reverse_stationary_boundary_flow": {
+      "denominator": 2100875,
+      "float": 0.10879657285654787,
+      "numerator": 228568
+    },
+    "states": 16807,
+    "stationary_boundary_flow": {
+      "denominator": 2100875,
+      "float": 0.10879657285654787,
+      "numerator": 228568
+    },
+    "threshold_A_is_X_at_most": 2,
+    "transpositions": 21
+  },
+  "seed": null,
+  "target_distribution": "uniform fixed-product length-six transposition bridge"
+}

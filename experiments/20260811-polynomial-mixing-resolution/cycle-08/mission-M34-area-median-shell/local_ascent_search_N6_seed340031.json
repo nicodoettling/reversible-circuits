@@ -1,0 +1,171 @@
+{
+  "N": 6,
+  "claim_tested": "Every nonmaximum-area state in F_N has a positive one-step same-product r<=5 area gain.",
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab)",
+  "m": 10,
+  "purpose": "Exact witness search; nonfinding is empirical only.",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "result": {
+    "checked_states": 100001,
+    "first_by_gain": {
+      "0": {
+        "area": 25,
+        "best": null,
+        "heights": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "step": 95
+      },
+      "10": {
+        "area": 7,
+        "best": {
+          "gain": 10,
+          "r": 5,
+          "window_start_zero_based": 2
+        },
+        "heights": [
+          0,
+          1,
+          2,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "step": 5
+      },
+      "12": {
+        "area": 13,
+        "best": {
+          "gain": 12,
+          "r": 5,
+          "window_start_zero_based": 2
+        },
+        "heights": [
+          0,
+          1,
+          2,
+          1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          0
+        ],
+        "step": 30
+      },
+      "2": {
+        "area": 23,
+        "best": {
+          "gain": 2,
+          "r": 3,
+          "window_start_zero_based": 3
+        },
+        "heights": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          3,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "step": 90
+      },
+      "4": {
+        "area": 15,
+        "best": {
+          "gain": 4,
+          "r": 3,
+          "window_start_zero_based": 2
+        },
+        "heights": [
+          0,
+          1,
+          2,
+          1,
+          2,
+          3,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "step": 45
+      },
+      "6": {
+        "area": 5,
+        "best": {
+          "gain": 6,
+          "r": 4,
+          "window_start_zero_based": 1
+        },
+        "heights": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "step": 0
+      },
+      "8": {
+        "area": 11,
+        "best": {
+          "gain": 8,
+          "r": 4,
+          "window_start_zero_based": 2
+        },
+        "heights": [
+          0,
+          1,
+          2,
+          1,
+          0,
+          1,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "step": 10
+      }
+    },
+    "found": false,
+    "minimum_positive_gain_seen": 2,
+    "steps": 500000,
+    "stride": 5
+  },
+  "seed": 340031,
+  "steps": 500000,
+  "stride": 5
+}

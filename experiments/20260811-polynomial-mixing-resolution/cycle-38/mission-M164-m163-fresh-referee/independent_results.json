@@ -1,0 +1,125 @@
+{
+  "command": "python3 -B independent_referee.py",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors left-to-right; R_j(a,b)=(b,b^-1*a*b)",
+  "d3": {
+    "action_checks": {
+      "inverse_edge_failures": 0,
+      "two_generator_cocycle_failures": 0
+    },
+    "all_tuple_rows": [
+      {
+        "quotient_orbit_size_histogram": {
+          "4": 4
+        },
+        "tuples_exhausted": 4,
+        "vstab_histogram": {
+          "(0,)": 4
+        },
+        "width": 1
+      },
+      {
+        "quotient_orbit_size_histogram": {
+          "12": 12,
+          "4": 4
+        },
+        "tuples_exhausted": 16,
+        "vstab_histogram": {
+          "(0,)": 16
+        },
+        "width": 2
+      },
+      {
+        "quotient_orbit_size_histogram": {
+          "12": 60,
+          "4": 4
+        },
+        "tuples_exhausted": 64,
+        "vstab_histogram": {
+          "(0,)": 64
+        },
+        "width": 3
+      },
+      {
+        "quotient_orbit_size_histogram": {
+          "12": 252,
+          "4": 4
+        },
+        "tuples_exhausted": 256,
+        "vstab_histogram": {
+          "(0,)": 256
+        },
+        "width": 4
+      }
+    ],
+    "conclusion": "every d=3 quotient tuple of width 1..4 has V_stab={0}",
+    "global_action_free": true,
+    "physical_Z3_size": 24,
+    "positive_generators_even": true,
+    "quotient_Q3_size": 4,
+    "quotient_positive_image_order": 12,
+    "signed_generator_count": 6
+  },
+  "d4": {
+    "S4_over_V4_block": {
+      "fiber_count": 40,
+      "fiber_sizes": [
+        [
+          3,
+          40
+        ]
+      ],
+      "signed_action_block_failures": 0
+    },
+    "accepted_witness": {
+      "clean_room_lexicographic_source_indices": [
+        28,
+        35
+      ],
+      "clean_room_lexicographic_target_indices": [
+        56,
+        62
+      ],
+      "paired_subgroup_orders": {
+        "source": 96,
+        "target": 288
+      },
+      "source_augmented_orbit_size": 240,
+      "source_quotient_orbit_size": 240,
+      "source_same_block": true,
+      "source_to_target_voltage_masks": [],
+      "source_vstab_masks": [
+        0
+      ],
+      "target_augmented_orbit_size": 9720,
+      "target_quotient_orbit_size": 9720,
+      "target_same_block": false,
+      "target_vstab_masks": [
+        0
+      ]
+    },
+    "action_checks": {
+      "inverse_edge_failures": 0,
+      "two_generator_cocycle_failures": 0
+    },
+    "conclusion": "both accepted d=4 endpoint stabilizer voltages are trivial; the endpoints are in different quotient-tuple orbits by the S4/V4 block invariant",
+    "global_action_free": true,
+    "physical_Z4_size": 2880,
+    "quotient_Q4_size": 120,
+    "signed_generator_count": 10
+  },
+  "experiment": "M164 fresh immutable referee of M163",
+  "frozen_m163_hashes": {
+    "SHA256SUMS": "7a235dd5246182375166fc63ab067728c8129191e86640a411156709f55de62a",
+    "freeze_manifest.md": "128dc9a5ad79764c0556b4928586f8f896bfca9ac6a8e23253ee18b44ac8b95e",
+    "proof.md": "c151e4b4d986472f46b2a5b32598b665d30496fc7e8df31764b6b2695269b79e",
+    "report.md": "ff5f33859a3ff57d6e60bac3a1efaf535c2420839400bea4061916de812e3a7a",
+    "results.json": "01026b59612f1ec27394a5c068aded3ad35456b548af8d8a445b98b5f6fbab2e",
+    "stabilizer_voltage_audit.py": "ebae09e2065627687468e89388b5768d1bc3320fb927a4936755c406be746614"
+  },
+  "imports_or_executes_predecessor_code": false,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "scope": "exact d=3 and accepted d=4 witness/block only; no d>=5 inference",
+  "seed": null,
+  "target": "quotient stabilizer-voltage lifting criterion; not a sampler or gap"
+}

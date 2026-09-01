@@ -1,0 +1,196 @@
+{
+  "B2_suffix_zero_structure": {
+    "active_reset_endpoints": 0,
+    "compositions": [
+      [
+        1,
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "live_root_groups": 0,
+    "parameter_independent": true
+  },
+  "arithmetic": "standard-library Fraction",
+  "guards": {
+    "all_within_branch_Gram_cross_terms_retained": true,
+    "killed_a_equals_d_excluded": true,
+    "no_additional_rows_or_scan": true,
+    "orthogonal_sector_additivity_checked": true,
+    "parent_covariance_subtraction_retained": true
+  },
+  "predecessor_imports": false,
+  "root_representation": "grouped Cayley masses",
+  "rows": {
+    "B2_L4": {
+      "Delta": {
+        "decimal": 0.3102297926128663,
+        "exact": "293289307/945393750"
+      },
+      "S": {
+        "h1": {
+          "decimal": 0.05864888888888889,
+          "exact": "3299/56250"
+        },
+        "h2": {
+          "decimal": 0.17786730158730157,
+          "exact": "280141/1575000"
+        },
+        "h3": {
+          "decimal": 0.19275229666666666,
+          "exact": "57825689/300000000"
+        }
+      },
+      "S1_minus_X": {
+        "decimal": 0.0010916118914336972,
+        "exact": "9103978211751469889/8339940489100500000000"
+      },
+      "S1_plus_S2_minus_X": {
+        "decimal": 0.17895891347873527,
+        "exact": "1492506688406737609889/8339940489100500000000"
+      },
+      "T": {
+        "h1": {
+          "decimal": 0.0,
+          "exact": "0"
+        },
+        "h2": {
+          "decimal": 0.014132698412698413,
+          "exact": "22259/1575000"
+        },
+        "h3": {
+          "decimal": 0.023247703333333335,
+          "exact": "6974311/300000000"
+        },
+        "h4": {
+          "decimal": 0.05877896933865095,
+          "exact": "1735419680239/29524500000000"
+        },
+        "reset": {
+          "decimal": 0.3090081002716706,
+          "exact": "6628367198857337/21450464220937500"
+        }
+      },
+      "U": {
+        "h1": {
+          "decimal": 0.05864888888888889,
+          "exact": "3299/56250"
+        },
+        "h2": {
+          "decimal": 0.192,
+          "exact": "24/125"
+        },
+        "h3": {
+          "decimal": 0.216,
+          "exact": "27/125"
+        }
+      },
+      "X": {
+        "decimal": 0.05755727699745519,
+        "exact": "480024264873449410111/8339940489100500000000"
+      },
+      "accounting_identity_exact": true,
+      "orthogonal_sum_equals_assembled_T1": true,
+      "q": {
+        "decimal": 0.2231213184982448,
+        "exact": "3750/16807"
+      },
+      "true_slack": {
+        "decimal": 0.3717112101454019,
+        "exact": "387506171468022785713/1042492561137562500000"
+      }
+    },
+    "B3_L4": {
+      "Delta": {
+        "decimal": 0.36481962849934896,
+        "exact": "896580719/2457600000"
+      },
+      "S": {
+        "h1": {
+          "decimal": 0.05120322916666667,
+          "exact": "491551/9600000"
+        },
+        "h2": {
+          "decimal": 0.16428477046349207,
+          "exact": "6468712837/39375000000"
+        },
+        "h3": {
+          "decimal": 0.17769928059294532,
+          "exact": "503777460481/2835000000000"
+        }
+      },
+      "S1_minus_X": {
+        "decimal": -0.039924011008339005,
+        "exact": "-58850574391835735352420545363/1474064677007114895360000000000"
+      },
+      "S1_plus_S2_minus_X": {
+        "decimal": 0.12436075945515306,
+        "exact": "183315802718619702462160882861/1474064677007114895360000000000"
+      },
+      "T": {
+        "h1": {
+          "decimal": 0.0257734375,
+          "exact": "3299/128000"
+        },
+        "h2": {
+          "decimal": 0.027715229536507936,
+          "exact": "1091287163/39375000000"
+        },
+        "h3": {
+          "decimal": 0.03830071940705467,
+          "exact": "108582539519/2835000000000"
+        },
+        "h4": {
+          "decimal": 0.0981523754311093,
+          "exact": "16843312139080279639/171603713767500000000"
+        },
+        "reset": {
+          "decimal": 0.3577944932432453,
+          "exact": "174263554388922831263/487049291366400000000"
+        }
+      },
+      "U": {
+        "h1": {
+          "decimal": 0.07697666666666667,
+          "exact": "23093/300000"
+        },
+        "h2": {
+          "decimal": 0.192,
+          "exact": "24/125"
+        },
+        "h3": {
+          "decimal": 0.216,
+          "exact": "27/125"
+        }
+      },
+      "X": {
+        "decimal": 0.09112724017500567,
+        "exact": "134327445855119520136702145363/1474064677007114895360000000000"
+      },
+      "accounting_identity_exact": true,
+      "orthogonal_sum_equals_assembled_T1": true,
+      "q": {
+        "decimal": 0.15020370483398438,
+        "exact": "39375/262144"
+      },
+      "true_slack": {
+        "decimal": 0.3020600400480984,
+        "exact": "445256035370256335108738960557/1474064677007114895360000000000"
+      }
+    }
+  },
+  "rows_evaluated": [
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "schema": "M209-independent-referee-v1",
+  "seed": null
+}

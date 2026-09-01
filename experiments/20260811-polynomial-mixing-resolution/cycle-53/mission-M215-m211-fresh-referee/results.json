@@ -1,0 +1,34 @@
+{
+  "mission": "M215",
+  "verdict": "ACCEPT M211 pointwise IKBE-b refutation",
+  "material_objections": [],
+  "nonmaterial_qualifications": [
+    "state c<r/2 explicitly in the complementary-small-child tail",
+    "cite T=ze^T at z=e^-1 for self-contained Borel normalization"
+  ],
+  "accepted": [
+    "exact witness k=12q-1,s=3q,l=4q,Z=Y_l",
+    "uniform critical-Borel two-range tail lemma",
+    "beta=1-e^-1",
+    "fragmentation limits cancel",
+    "surviving-face difference 49/64-42/64=7/64",
+    "sqrt(l)/k tends to zero",
+    "pointwise IKBE-b and the two-clause IKBE conjunction are refuted"
+  ],
+  "open": [
+    "IKBE-a/DV",
+    "signed averaged DE",
+    "conditional J=2",
+    "all downstream claims"
+  ],
+  "calibration": {
+    "q": 1,
+    "k": 11,
+    "s": 3,
+    "l": 4,
+    "Phi_minus_Psi_decimal": 0.09224121091748724,
+    "finite_only": true,
+    "universal_inference": false
+  },
+  "m211_sha256sums_digest": "79f3e0f614a6cde4e3e4bd36ce55e217b35416f68470c6deab93598877874225"
+}

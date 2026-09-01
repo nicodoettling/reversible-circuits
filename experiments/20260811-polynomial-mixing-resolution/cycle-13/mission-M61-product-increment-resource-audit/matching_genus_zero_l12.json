@@ -1,0 +1,64 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "genus_zero_formula": "F_k=(3k-2)! (2k)^(k-3) 4^k; B(z)=sum_k F_k/(3k-2)! z^k/k!",
+  "tree_function_identity": "B(z)=(1/8)(T-3T^2/4+T^3/6), T=8z exp(T)",
+  "critical_values": {
+    "rho": "1/(8e)",
+    "B(rho)": "5/96",
+    "rho_B_prime(rho)": "1/16",
+    "critical_mean": "6/5",
+    "conditioned_mean_for_l_over_2_components": "2"
+  },
+  "scope_warning": "The critical-mean calculation is universal for the genus-zero sector. Finite masses do not prove its full-bridge asymptotic mass, condensation, or any spectral conclusion.",
+  "records": [
+    {
+      "N": 8,
+      "length": 4,
+      "genus_zero_component_count": 2,
+      "genus_zero_word_count": "12257280",
+      "total_word_count": "13878144",
+      "genus_zero_mass": "1520/1721",
+      "genus_zero_mass_decimal": 0.8832074375363161
+    },
+    {
+      "N": 12,
+      "length": 6,
+      "genus_zero_component_count": 3,
+      "genus_zero_word_count": "22532235264000",
+      "total_word_count": "26484382679040",
+      "genus_zero_mass": "2778300/3265613",
+      "genus_zero_mass_decimal": 0.8507744181567136
+    },
+    {
+      "N": 16,
+      "length": 8,
+      "genus_zero_component_count": 4,
+      "genus_zero_word_count": "234522714942996480000",
+      "total_word_count": "285812074139415183360",
+      "genus_zero_mass": "52962336000/64545027577",
+      "genus_zero_mass_decimal": 0.8205486617356814
+    },
+    {
+      "N": 20,
+      "length": 10,
+      "genus_zero_component_count": 5,
+      "genus_zero_word_count": "8850226414056680875622400000",
+      "total_word_count": "11186571208764860150022144000",
+      "genus_zero_mass": "16206061132800/20484250729193",
+      "genus_zero_mass_decimal": 0.7911473720493001
+    },
+    {
+      "N": 24,
+      "length": 12,
+      "genus_zero_component_count": 6,
+      "genus_zero_word_count": "931230850979828420231441342791680000",
+      "total_word_count": "1222035887194861346904940977586176000",
+      "genus_zero_mass": "1064826460430853120/1397350771736157059",
+      "genus_zero_mass_decimal": 0.7620323271499291
+    }
+  ]
+}

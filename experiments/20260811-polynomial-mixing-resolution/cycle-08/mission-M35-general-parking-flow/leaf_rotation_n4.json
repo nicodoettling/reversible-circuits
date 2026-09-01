@@ -1,0 +1,370 @@
+{
+  "all_have_single_coordinate_characterization": true,
+  "claim_tested": "Every preorder leaf rotation is an actual macro edge with raw favorable-outcome count 2*m_parent*|O_m|/r.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "count_failures": [],
+  "leaf_rotations": 4,
+  "macros": 5,
+  "n": 4,
+  "parking_words": 16,
+  "r": 3,
+  "records": [
+    {
+      "degrees": [
+        3,
+        0,
+        0
+      ],
+      "expected_raw_outcomes": 2,
+      "leaf": 1,
+      "matching_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "orbit": 1,
+      "parent": 0,
+      "raw_outcomes": 2,
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        1
+      ],
+      "witness_sources": 1,
+      "witnesses": [
+        {
+          "labels": [
+            0,
+            0,
+            0
+          ],
+          "position": 1,
+          "source_pair": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                0,
+                2
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "degrees": [
+        3,
+        0,
+        0
+      ],
+      "expected_raw_outcomes": 2,
+      "leaf": 2,
+      "matching_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "orbit": 1,
+      "parent": 0,
+      "raw_outcomes": 2,
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        2
+      ],
+      "witness_sources": 1,
+      "witnesses": [
+        {
+          "labels": [
+            0,
+            0,
+            0
+          ],
+          "position": 0,
+          "source_pair": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                2,
+                3
+              ],
+              [
+                0,
+                3
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "degrees": [
+        2,
+        0,
+        1
+      ],
+      "expected_raw_outcomes": 4,
+      "leaf": 1,
+      "matching_coordinates": [
+        1
+      ],
+      "orbit": 3,
+      "parent": 0,
+      "raw_outcomes": 4,
+      "source": [
+        0,
+        0,
+        2
+      ],
+      "target": [
+        0,
+        1,
+        2
+      ],
+      "witness_sources": 2,
+      "witnesses": [
+        {
+          "labels": [
+            0,
+            0,
+            2
+          ],
+          "position": 0,
+          "source_pair": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                0,
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "labels": [
+            2,
+            0,
+            0
+          ],
+          "position": 1,
+          "source_pair": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                3
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "degrees": [
+        1,
+        2,
+        0
+      ],
+      "expected_raw_outcomes": 4,
+      "leaf": 2,
+      "matching_coordinates": [
+        1
+      ],
+      "orbit": 3,
+      "parent": 1,
+      "raw_outcomes": 4,
+      "source": [
+        0,
+        1,
+        1
+      ],
+      "target": [
+        0,
+        1,
+        2
+      ],
+      "witness_sources": 2,
+      "witnesses": [
+        {
+          "labels": [
+            0,
+            1,
+            1
+          ],
+          "position": 1,
+          "source_pair": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ]
+        },
+        {
+          "labels": [
+            1,
+            1,
+            0
+          ],
+          "position": 0,
+          "source_pair": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "target_pairs": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "universal_scope_warning": "Enumeration can refute but cannot prove the universal count or gap."
+}

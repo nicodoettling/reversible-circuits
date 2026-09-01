@@ -1,0 +1,387 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "HURWITZ-RATE-CURVATURE: rho_v(g+1)-rho_v(g) is positive and inverse-polynomial uniformly. A finite negative exact increment refutes positivity; positive finite data proves neither positivity nor an asymptotic polynomial lower bound.",
+  "normalization": "DYZ h_{g,v}=H_{g,v}/(2g+2v-2)!; fixed-labeled a_v=v!*h, so rho ratios agree",
+  "deterministic": true,
+  "random_seed": null,
+  "parameters": {
+    "v_max": 6,
+    "g_max": 12
+  },
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "nonstandard_dependencies": []
+  },
+  "elapsed_seconds": 0.001199974911287427,
+  "failure_count": 0,
+  "first_failures": [],
+  "calibration": {
+    "rho_4_1_expected": "16/13",
+    "rho_4_2_expected": "195/82",
+    "rho_4_1_observed": "16/13",
+    "rho_4_2_observed": "195/82"
+  },
+  "cases": [
+    {
+      "v": 2,
+      "gamma_degree": 1,
+      "gamma_nonzero_coefficients": 1,
+      "g_max": 12,
+      "failure_count": 0,
+      "first_failures": [],
+      "minimum_increment": {
+        "g": 0,
+        "exact": "12",
+        "float": 12.0
+      },
+      "minimum_scaled_increment_by_exponent": {
+        "1": {
+          "g": 0,
+          "exact": "36",
+          "float": 36.0
+        },
+        "2": {
+          "g": 0,
+          "exact": "108",
+          "float": 108.0
+        },
+        "3": {
+          "g": 0,
+          "exact": "324",
+          "float": 324.0
+        },
+        "4": {
+          "g": 0,
+          "exact": "972",
+          "float": 972.0
+        },
+        "5": {
+          "g": 0,
+          "exact": "2916",
+          "float": 2916.0
+        },
+        "6": {
+          "g": 0,
+          "exact": "8748",
+          "float": 8748.0
+        }
+      },
+      "selected": {
+        "0": {
+          "rho": "0",
+          "increment": "12",
+          "increment_float": 12.0
+        },
+        "1": {
+          "rho": "12",
+          "increment": "18",
+          "increment_float": 18.0
+        },
+        "2": {
+          "rho": "30",
+          "increment": "26",
+          "increment_float": 26.0
+        },
+        "5": {
+          "rho": "132",
+          "increment": "50",
+          "increment_float": 50.0
+        },
+        "12": {
+          "rho": "650",
+          "increment": "106",
+          "increment_float": 106.0
+        }
+      }
+    },
+    {
+      "v": 3,
+      "gamma_degree": 3,
+      "gamma_nonzero_coefficients": 2,
+      "g_max": 12,
+      "failure_count": 0,
+      "first_failures": [],
+      "minimum_increment": {
+        "g": 0,
+        "exact": "3",
+        "float": 3.0
+      },
+      "minimum_scaled_increment_by_exponent": {
+        "1": {
+          "g": 0,
+          "exact": "12",
+          "float": 12.0
+        },
+        "2": {
+          "g": 0,
+          "exact": "48",
+          "float": 48.0
+        },
+        "3": {
+          "g": 0,
+          "exact": "192",
+          "float": 192.0
+        },
+        "4": {
+          "g": 0,
+          "exact": "768",
+          "float": 768.0
+        },
+        "5": {
+          "g": 0,
+          "exact": "3072",
+          "float": 3072.0
+        },
+        "6": {
+          "g": 0,
+          "exact": "12288",
+          "float": 12288.0
+        }
+      },
+      "selected": {
+        "0": {
+          "rho": "0",
+          "increment": "3",
+          "increment_float": 3.0
+        },
+        "1": {
+          "rho": "3",
+          "increment": "41/13",
+          "increment_float": 3.1538461538461537
+        },
+        "2": {
+          "rho": "80/13",
+          "increment": "4087/1066",
+          "increment_float": 3.8339587242026267
+        },
+        "5": {
+          "rho": "7381/365",
+          "increment": "1406382149/218222915",
+          "increment_float": 6.444704255737762
+        },
+        "12": {
+          "rho": "26689591197360/317733228541",
+          "increment": "39685524535825769469963/3133067726455530228023",
+          "increment_float": 12.666666666897235
+        }
+      }
+    },
+    {
+      "v": 4,
+      "gamma_degree": 6,
+      "gamma_nonzero_coefficients": 4,
+      "g_max": 12,
+      "failure_count": 0,
+      "first_failures": [],
+      "minimum_increment": {
+        "g": 1,
+        "exact": "1223/1066",
+        "float": 1.1472795497185742
+      },
+      "minimum_scaled_increment_by_exponent": {
+        "1": {
+          "g": 0,
+          "exact": "80/13",
+          "float": 6.153846153846154
+        },
+        "2": {
+          "g": 0,
+          "exact": "400/13",
+          "float": 30.76923076923077
+        },
+        "3": {
+          "g": 0,
+          "exact": "2000/13",
+          "float": 153.84615384615384
+        },
+        "4": {
+          "g": 0,
+          "exact": "10000/13",
+          "float": 769.2307692307693
+        },
+        "5": {
+          "g": 0,
+          "exact": "50000/13",
+          "float": 3846.153846153846
+        },
+        "6": {
+          "g": 0,
+          "exact": "250000/13",
+          "float": 19230.76923076923
+        }
+      },
+      "selected": {
+        "0": {
+          "rho": "0",
+          "increment": "16/13",
+          "increment_float": 1.2307692307692308
+        },
+        "1": {
+          "rho": "16/13",
+          "increment": "1223/1066",
+          "increment_float": 1.1472795497185742
+        },
+        "2": {
+          "rho": "195/82",
+          "increment": "1164531/935374",
+          "increment_float": 1.2449897046528982
+        },
+        "5": {
+          "rho": "3982880/597871",
+          "increment": "189806924011577/103342942203212",
+          "increment_float": 1.8366704098509556
+        },
+        "12": {
+          "rho": "5330678687876493315/220579817634963263",
+          "increment": "382965615799090395175398407675774521/113006221528976460639726828061664659",
+          "increment_float": 3.3888896612731396
+        }
+      }
+    },
+    {
+      "v": 5,
+      "gamma_degree": 10,
+      "gamma_nonzero_coefficients": 7,
+      "g_max": 12,
+      "failure_count": 0,
+      "first_failures": [],
+      "minimum_increment": {
+        "g": 1,
+        "exact": "156051/280250",
+        "float": 0.5568278322925959
+      },
+      "minimum_scaled_increment_by_exponent": {
+        "1": {
+          "g": 0,
+          "exact": "225/59",
+          "float": 3.8135593220338984
+        },
+        "2": {
+          "g": 0,
+          "exact": "1350/59",
+          "float": 22.88135593220339
+        },
+        "3": {
+          "g": 0,
+          "exact": "8100/59",
+          "float": 137.28813559322035
+        },
+        "4": {
+          "g": 0,
+          "exact": "48600/59",
+          "float": 823.728813559322
+        },
+        "5": {
+          "g": 0,
+          "exact": "291600/59",
+          "float": 4942.372881355932
+        },
+        "6": {
+          "g": 0,
+          "exact": "1749600/59",
+          "float": 29654.237288135595
+        }
+      },
+      "selected": {
+        "0": {
+          "rho": "0",
+          "increment": "75/118",
+          "increment_float": 0.635593220338983
+        },
+        "1": {
+          "rho": "75/118",
+          "increment": "156051/280250",
+          "increment_float": 0.5568278322925959
+        },
+        "2": {
+          "rho": "2832/2375",
+          "increment": "38134773/67357375",
+          "increment_float": 0.5661558663769186
+        },
+        "5": {
+          "rho": "189474615/62191964",
+          "increment": "237717183110035677/318074595918631180",
+          "increment_float": 0.7473629964803845
+        },
+        "12": {
+          "rho": "91223726321652835445184/9195972579408976242475",
+          "increment": "9798358049474641664550422618433082671343417/7537078353967892035123497449998341187472200",
+          "increment_float": 1.3000207227932425
+        }
+      }
+    },
+    {
+      "v": 6,
+      "gamma_degree": 15,
+      "gamma_nonzero_coefficients": 11,
+      "g_max": 12,
+      "failure_count": 0,
+      "first_failures": [],
+      "minimum_increment": {
+        "g": 2,
+        "exact": "142918978/463028665",
+        "float": 0.3086611883953232
+      },
+      "minimum_scaled_increment_by_exponent": {
+        "1": {
+          "g": 1,
+          "exact": "2419792/955075",
+          "float": 2.533614637593906
+        },
+        "2": {
+          "g": 0,
+          "exact": "10584/575",
+          "float": 18.40695652173913
+        },
+        "3": {
+          "g": 0,
+          "exact": "74088/575",
+          "float": 128.84869565217392
+        },
+        "4": {
+          "g": 0,
+          "exact": "518616/575",
+          "float": 901.9408695652174
+        },
+        "5": {
+          "g": 0,
+          "exact": "3630312/575",
+          "float": 6313.586086956521
+        },
+        "6": {
+          "g": 0,
+          "exact": "25412184/575",
+          "float": 44195.102608695655
+        }
+      },
+      "selected": {
+        "0": {
+          "rho": "0",
+          "increment": "216/575",
+          "increment_float": 0.37565217391304345
+        },
+        "1": {
+          "rho": "216/575",
+          "increment": "302474/955075",
+          "increment_float": 0.31670182969923827
+        },
+        "2": {
+          "rho": "1150/1661",
+          "increment": "142918978/463028665",
+          "increment_float": 0.3086611883953232
+        },
+        "5": {
+          "rho": "1668756496/1000266785",
+          "increment": "499925795136692901946/1337598618869366831215",
+          "increment_float": 0.3737487375392669
+        },
+        "12": {
+          "rho": "417423614435529840349575/83711718553310532862558",
+          "increment": "8511818256905811918809551795214120274838914410907/13875430140315943645234639533125054029195210565690",
+          "increment_float": 0.6134453613927386
+        }
+      }
+    }
+  ]
+}

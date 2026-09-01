@@ -1,0 +1,903 @@
+{
+  "claim_tested": "For the leaf--chain root-child swap, compute a path minimizing the maximum factorial weight denominator through r_max.",
+  "deterministic": true,
+  "records": [
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 2,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUD"
+        }
+      ],
+      "path_length_at_minimax": 0,
+      "r": 2
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 6,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUDDUD"
+        }
+      ],
+      "path_length_at_minimax": 2,
+      "r": 3
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 24,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUUDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUUDD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUDUD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUDDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUUDDDUD"
+        }
+      ],
+      "path_length_at_minimax": 4,
+      "r": 4
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 24,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUUUDDD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUDDUUUDDD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUDDUDUUDD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUDDUDUDUD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUDDUUDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUUUDDDDUD"
+        }
+      ],
+      "path_length_at_minimax": 8,
+      "r": 5
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 120,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUUUUDDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUDDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUDDUDUUUDDD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUDDUDUDUUDD"
+        },
+        {
+          "degrees": [
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UUDDUDUDUDUD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUDDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UDUDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUUUDDDDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUUUUDDDDDUD"
+        }
+      ],
+      "path_length_at_minimax": 10,
+      "r": 6
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 120,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUUUUUDDDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUUUUUDDDDD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUDDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUUDDUDUUUDDD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUUDDDUDUUUDDD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUDUDUUDD"
+        },
+        {
+          "degrees": [
+            5,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UUUDDDUDUDUDUD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UDUUDDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUUDDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UDUDUDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUUUUDDDDUD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUUUUDDDDDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUUUUUDDDDDDUD"
+        }
+      ],
+      "path_length_at_minimax": 14,
+      "r": 7
+    },
+    {
+      "endpoint_denominator": 2,
+      "minimax_denominator": 120,
+      "path": [
+        {
+          "degrees": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UDUUUUUUUDDDDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUDUUUUUUDDDDDD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUDUUUUUDDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUDDUUUUUDDDDD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUUDDUDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUUDDDUDUUUUDDDD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUDUDUUUDDD"
+        },
+        {
+          "degrees": [
+            3,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UUUDDDUUDDUUUDDD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUUDDUDUUDD"
+        },
+        {
+          "degrees": [
+            5,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UUUDDDUUDDUDUDUD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUUDDUUDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UUUDDDUDUDUUDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UUUDDDUDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UDUUDDUDUUUDDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUUDDUUUUDDDDUD"
+        },
+        {
+          "degrees": [
+            5,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 120,
+          "dyck": "UDUDUDUUUUDDDDUD"
+        },
+        {
+          "degrees": [
+            4,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 24,
+          "dyck": "UDUDUUUUUDDDDDUD"
+        },
+        {
+          "degrees": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 6,
+          "dyck": "UDUUUUUUDDDDDDUD"
+        },
+        {
+          "degrees": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "denominator": 2,
+          "dyck": "UUUUUUUDDDDDDDUD"
+        }
+      ],
+      "path_length_at_minimax": 18,
+      "r": 8
+    }
+  ],
+  "seed": null
+}

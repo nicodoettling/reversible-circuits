@@ -1,0 +1,979 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/exact_elimination_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/exact-results.json"
+  ],
+  "candidates": {
+    "K44_N8": {
+      "all_factors_distinct": true,
+      "component_length": 16,
+      "component_vertex_count": 8,
+      "face_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "facial_collision_order_count": 32,
+      "facial_collision_orders": {
+        "[0, 1, 5, 8]": [
+          [
+            1,
+            5,
+            0,
+            8
+          ],
+          [
+            1,
+            5,
+            8,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            8
+          ],
+          [
+            5,
+            1,
+            8,
+            0
+          ]
+        ],
+        "[0, 2, 4, 9]": [
+          [
+            2,
+            4,
+            0,
+            9
+          ],
+          [
+            2,
+            4,
+            9,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            9
+          ],
+          [
+            4,
+            2,
+            9,
+            0
+          ]
+        ],
+        "[1, 6, 7, 13]": [
+          [
+            6,
+            7,
+            1,
+            13
+          ],
+          [
+            6,
+            7,
+            13,
+            1
+          ],
+          [
+            7,
+            6,
+            1,
+            13
+          ],
+          [
+            7,
+            6,
+            13,
+            1
+          ]
+        ],
+        "[2, 3, 7, 11]": [
+          [
+            3,
+            7,
+            2,
+            11
+          ],
+          [
+            3,
+            7,
+            11,
+            2
+          ],
+          [
+            7,
+            3,
+            2,
+            11
+          ],
+          [
+            7,
+            3,
+            11,
+            2
+          ]
+        ],
+        "[3, 8, 12, 14]": [
+          [
+            8,
+            12,
+            3,
+            14
+          ],
+          [
+            8,
+            12,
+            14,
+            3
+          ],
+          [
+            12,
+            8,
+            3,
+            14
+          ],
+          [
+            12,
+            8,
+            14,
+            3
+          ]
+        ],
+        "[4, 10, 13, 14]": [
+          [
+            10,
+            13,
+            4,
+            14
+          ],
+          [
+            10,
+            13,
+            14,
+            4
+          ],
+          [
+            13,
+            10,
+            4,
+            14
+          ],
+          [
+            13,
+            10,
+            14,
+            4
+          ]
+        ],
+        "[5, 10, 11, 15]": [
+          [
+            10,
+            11,
+            5,
+            15
+          ],
+          [
+            10,
+            11,
+            15,
+            5
+          ],
+          [
+            11,
+            10,
+            5,
+            15
+          ],
+          [
+            11,
+            10,
+            15,
+            5
+          ]
+        ],
+        "[6, 9, 12, 15]": [
+          [
+            9,
+            12,
+            6,
+            15
+          ],
+          [
+            9,
+            12,
+            15,
+            6
+          ],
+          [
+            12,
+            9,
+            6,
+            15
+          ],
+          [
+            12,
+            9,
+            15,
+            6
+          ]
+        ]
+      },
+      "facial_safe_order_count": 0,
+      "facial_safe_orders": {
+        "[0, 1, 5, 8]": [],
+        "[0, 2, 4, 9]": [],
+        "[1, 6, 7, 13]": [],
+        "[2, 3, 7, 11]": [],
+        "[3, 8, 12, 14]": [],
+        "[4, 10, 13, 14]": [],
+        "[5, 10, 11, 15]": [],
+        "[6, 9, 12, 15]": []
+      },
+      "product_is_identity": true,
+      "rotation_system_faces": [
+        [
+          0,
+          2,
+          4,
+          9
+        ],
+        [
+          0,
+          1,
+          5,
+          8
+        ],
+        [
+          1,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          3,
+          7,
+          11
+        ],
+        [
+          3,
+          8,
+          12,
+          14
+        ],
+        [
+          4,
+          10,
+          13,
+          14
+        ],
+        [
+          5,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          9,
+          12,
+          15
+        ]
+      ],
+      "special_prefixes": {
+        "facial_collision_but_disconnected": {
+          "current_output_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "last_two_equal": true,
+          "original_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "original_label_order": [
+            2,
+            4,
+            0,
+            9
+          ],
+          "residual_connected_after_deletion": false,
+          "residual_positions_at_selection": [
+            2,
+            3,
+            0,
+            6
+          ]
+        },
+        "nonfacial_safe_cycle": {
+          "current_output_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "last_two_equal": true,
+          "original_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "original_label_order": [
+            1,
+            2,
+            0,
+            10
+          ],
+          "residual_connected_after_deletion": true,
+          "residual_positions_at_selection": [
+            1,
+            1,
+            0,
+            7
+          ]
+        }
+      },
+      "successful_prefix_counts_by_depth": [
+        0,
+        0,
+        76
+      ],
+      "successful_prefix_examples": [
+        {
+          "current_output_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            1,
+            2,
+            0,
+            10
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            1,
+            2,
+            10,
+            0
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            1,
+            3,
+            0,
+            13
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            1,
+            3,
+            13,
+            0
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            2,
+            1,
+            0,
+            10
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            2,
+            1,
+            10,
+            0
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            2,
+            6,
+            0,
+            11
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              7
+            ]
+          ],
+          "depth": 2,
+          "original_label_order": [
+            2,
+            6,
+            11,
+            0
+          ]
+        }
+      ],
+      "support_connected": true,
+      "support_is_exactly_K44": true,
+      "word_edges": [
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    "all_distinct_N5": {
+      "all_factors_distinct": true,
+      "component_length": 10,
+      "component_vertex_count": 5,
+      "dynamic_program_cache": {
+        "currsize": 119902,
+        "hits": 226779,
+        "maxsize": null,
+        "misses": 119902
+      },
+      "full_order_count": 3628800,
+      "full_prefix_hit_count": 1569216,
+      "full_prefix_hit_probability": [
+        1569216,
+        3628800
+      ],
+      "product_is_identity": true,
+      "successful_prefix_counts_by_depth": [
+        0,
+        14
+      ],
+      "successful_prefix_examples": [
+        {
+          "current_output_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            2,
+            0,
+            8
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            2,
+            8,
+            0
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            4,
+            0,
+            6
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            4,
+            3,
+            5
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            4,
+            5,
+            3
+          ]
+        },
+        {
+          "current_output_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "depth": 1,
+          "original_label_order": [
+            4,
+            6,
+            0
+          ]
+        }
+      ],
+      "support_connected": true,
+      "word_edge_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        3,
+        7,
+        5,
+        9
+      ],
+      "word_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  "claim_tested": "Bounded-depth canonical positive elimination creates a connected two-deletion certificate in connected genus-one identity words.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right; R_i(a,b)=(b,bab); canonical positive lift bubbles each requested original label left",
+  "depth_definition": "Depth q means q preliminary selected/output factors followed by two equal current outputs; deleting those two leaves the prior q outputs plus current residual tuple connected.",
+  "elapsed_seconds": 5.05210565100424,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "Exact finite data can refute a proposed fixed-depth lemma but cannot prove an asymptotic row-probability lower bound.",
+  "seed": null,
+  "small_exhaustive": [
+    {
+      "component_length": 6,
+      "component_vertex_count": 3,
+      "connected_genus_one_identity_word_count": 240,
+      "enumeration_complete": true,
+      "minimum_success_depth_histogram": {
+        "0": 240
+      }
+    },
+    {
+      "component_length": 8,
+      "component_vertex_count": 4,
+      "connected_genus_one_identity_word_count": 131040,
+      "enumeration_complete": true,
+      "minimum_success_depth_histogram": {
+        "0": 130992,
+        "1": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "A_size": 3904,
+  "N": 5,
+  "all_layer_sizes_computed": [
+    314771,
+    448169
+  ],
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact_n5_signature_closure.py",
+    "--max-radius",
+    "20",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M64-multistep-minimal-exterior-closure-redteam/exact-n5-signature-closure.json"
+  ],
+  "claim_tested": "The exact N=5 exterior closure layers and two-term full H3/H4/H5 boundary identity; this can falsify pointwise expansion, immediate saturation, or omitted-flow claims.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); base-10 little-endian word codes",
+  "core_distribution": [
+    {
+      "core_word": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "count": 842,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "count": 1068,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        1,
+        2
+      ],
+      "count": 997,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "count": 997,
+      "selected": true
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "count": 997,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "count": 997,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "count": 1068,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "count": 842,
+      "selected": false
+    }
+  ],
+  "elapsed_seconds_before_write": 16.927727555157617,
+  "exterior_total_size": 762940,
+  "full_minimal_size": 1008000,
+  "kernel": "literal lazy K; clique pair weight 1/[6(m-r+1)|fiber|]",
+  "m": 8,
+  "method": "Meet-in-the-middle identity enumeration plus exact outside-window conditional-fiber cliques.",
+  "nonstandard_dependencies": {},
+  "omega": 1770940,
+  "python": "3.12.3",
+  "radii": [
+    {
+      "boundary_by_r": {
+        "3": "181113137/9792",
+        "4": "22674941361421/738990000",
+        "5": "160708088165039/4346813952"
+      },
+      "boundary_to_FminusA_sum": "655463841057730438859/11153652924960000",
+      "boundary_to_next_exterior_sum": "8144976773139584893/297430744665600",
+      "boundary_unnormalized_sum": "113047114123584102629/1312194461760000",
+      "complement_size": 1452265,
+      "conductance": "113047114123584102629/418163570101368000000",
+      "conductance_float": 0.27034185234304386,
+      "cut_size": 318675,
+      "exterior_cumulative_size": 314771,
+      "exterior_remaining_size": 448169,
+      "layer_size": 314771,
+      "next_layer_size": 448169,
+      "radius": 0,
+      "smaller_side": "cut",
+      "stationary_mass": "63735/354188",
+      "to_FminusA_by_r": {
+        "3": "4741472/459",
+        "4": "36398255778/1710625",
+        "5": "413192687027023/15213848832"
+      },
+      "to_next_exterior_by_r": {
+        "3": "239885203/29376",
+        "4": "278035794613/29559600",
+        "5": "33174582566803/3380855296"
+      }
+    },
+    {
+      "boundary_by_r": {
+        "3": "44994065/1836",
+        "4": "1501926927229/30791250",
+        "5": "960824021617231/15213848832"
+      },
+      "boundary_to_FminusA_sum": "1521791645588931368459/11153652924960000",
+      "boundary_to_next_exterior_sum": "0/1",
+      "boundary_unnormalized_sum": "1521791645588931368459/11153652924960000",
+      "complement_size": 1004096,
+      "conductance": "1521791645588931368459/8553111823588026240000",
+      "conductance_float": 0.17792257098663075,
+      "cut_size": 766844,
+      "exterior_cumulative_size": 762940,
+      "exterior_remaining_size": 0,
+      "layer_size": 448169,
+      "next_layer_size": 0,
+      "radius": 1,
+      "smaller_side": "cut",
+      "stationary_mass": "191711/442735",
+      "to_FminusA_by_r": {
+        "3": "44994065/1836",
+        "4": "1501926927229/30791250",
+        "5": "960824021617231/15213848832"
+      },
+      "to_next_exterior_by_r": {
+        "3": "0/1",
+        "4": "0/1",
+        "5": "0/1"
+      }
+    }
+  ],
+  "scope_warning": "Finite N=5 closure and conductance cannot prove an asymptotic bound.",
+  "seed": null,
+  "unreached_exterior_after_computed_layers": 0
+}

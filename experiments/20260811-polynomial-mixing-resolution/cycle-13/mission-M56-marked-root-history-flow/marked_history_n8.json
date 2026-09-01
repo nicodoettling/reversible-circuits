@@ -1,0 +1,1204 @@
+{
+  "claim_tested": "Canonical or uniform-boundary marked root coalescence sends the stationary plane-tree law exactly to the stationary conditional law in the unary-root fiber.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/marked_history_audit.py --n-max 8 --output experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/marked_history_n8.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "0",
+        "density_second_moment": "1",
+        "equal": true,
+        "maximum_density": "1",
+        "maximum_macro": [
+          0,
+          1
+        ],
+        "minimum_density": "1",
+        "minimum_macro": [
+          0,
+          1
+        ],
+        "total_variation": "0"
+      },
+      "first_one_step_normalization_failure": null,
+      "macro_count": 2,
+      "n": 3,
+      "r": 2,
+      "raw_factorization_count": 3,
+      "uniform_boundary_endpoint": {
+        "chi_square": "0",
+        "density_second_moment": "1",
+        "equal": true,
+        "maximum_density": "1",
+        "maximum_macro": [
+          0,
+          1
+        ],
+        "minimum_density": "1",
+        "minimum_macro": [
+          0,
+          1
+        ],
+        "total_variation": "0"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            1
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "0"
+        }
+      ]
+    },
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "1/512",
+        "density_second_moment": "513/512",
+        "equal": false,
+        "maximum_density": "33/32",
+        "maximum_macro": [
+          0,
+          1,
+          2
+        ],
+        "minimum_density": "15/16",
+        "minimum_macro": [
+          0,
+          1,
+          1
+        ],
+        "total_variation": "1/48"
+      },
+      "first_one_step_normalization_failure": {
+        "density": [
+          {
+            "macro": [
+              0,
+              1,
+              1
+            ],
+            "ratio": "0"
+          },
+          {
+            "macro": [
+              0,
+              1,
+              2
+            ],
+            "ratio": "3/2"
+          }
+        ],
+        "output": [
+          {
+            "macro": [
+              0,
+              1,
+              1
+            ],
+            "mass": "0"
+          },
+          {
+            "macro": [
+              0,
+              1,
+              2
+            ],
+            "mass": "1"
+          }
+        ],
+        "source_composition": [
+          1,
+          2
+        ],
+        "stationary_conditional": [
+          {
+            "macro": [
+              0,
+              1,
+              1
+            ],
+            "mass": "1/3"
+          },
+          {
+            "macro": [
+              0,
+              1,
+              2
+            ],
+            "mass": "2/3"
+          }
+        ],
+        "target_composition": [
+          3
+        ]
+      },
+      "macro_count": 5,
+      "n": 4,
+      "r": 3,
+      "raw_factorization_count": 16,
+      "uniform_boundary_endpoint": {
+        "chi_square": "49/8192",
+        "density_second_moment": "8241/8192",
+        "equal": false,
+        "maximum_density": "135/128",
+        "maximum_macro": [
+          0,
+          1,
+          2
+        ],
+        "minimum_density": "57/64",
+        "minimum_macro": [
+          0,
+          1,
+          1
+        ],
+        "total_variation": "7/192"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "1/32",
+          "density_second_moment": "33/32",
+          "equal": false,
+          "maximum_density": "9/8",
+          "maximum_macro": [
+            0,
+            1,
+            2
+          ],
+          "minimum_density": "3/4",
+          "minimum_macro": [
+            0,
+            1,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "1/12"
+        },
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            0,
+            2
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            0,
+            1
+          ],
+          "source_root_degree": 3,
+          "total_variation": "0"
+        }
+      ]
+    },
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "28453/3796875",
+        "density_second_moment": "3825328/3796875",
+        "equal": false,
+        "maximum_density": "3632/3375",
+        "maximum_macro": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "minimum_density": "944/1125",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "151/3600"
+      },
+      "first_one_step_normalization_failure": {
+        "density": [
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "ratio": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "ratio": "3/2"
+          }
+        ],
+        "output": [
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "1"
+          }
+        ],
+        "source_composition": [
+          1,
+          2,
+          1
+        ],
+        "stationary_conditional": [
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "1/3"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "2/3"
+          }
+        ],
+        "target_composition": [
+          3,
+          1
+        ]
+      },
+      "macro_count": 14,
+      "n": 5,
+      "r": 4,
+      "raw_factorization_count": 125,
+      "uniform_boundary_endpoint": {
+        "chi_square": "449047/34171875",
+        "density_second_moment": "34620922/34171875",
+        "equal": false,
+        "maximum_density": "11288/10125",
+        "maximum_macro": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "minimum_density": "2696/3375",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "2849/54000"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "11/216",
+          "density_second_moment": "227/216",
+          "equal": false,
+          "maximum_density": "11/9",
+          "maximum_macro": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "minimum_density": "2/3",
+          "minimum_macro": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "5/48"
+        },
+        {
+          "chi_square": "2/27",
+          "density_second_moment": "29/27",
+          "equal": false,
+          "maximum_density": "4/3",
+          "maximum_macro": [
+            0,
+            0,
+            1,
+            3
+          ],
+          "minimum_density": "4/9",
+          "minimum_macro": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_root_degree": 3,
+          "total_variation": "1/9"
+        },
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "source_root_degree": 4,
+          "total_variation": "0"
+        }
+      ]
+    },
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "3675278617/278628139008",
+        "density_second_moment": "282303417625/278628139008",
+        "equal": false,
+        "maximum_density": "873125/746496",
+        "maximum_macro": [
+          0,
+          1,
+          1,
+          3,
+          4
+        ],
+        "minimum_density": "47875/62208",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "285641/5832000"
+      },
+      "first_one_step_normalization_failure": {
+        "density": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "ratio": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "ratio": "3/2"
+          }
+        ],
+        "output": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "1"
+          }
+        ],
+        "source_composition": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "stationary_conditional": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "1/3"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "2/3"
+          }
+        ],
+        "target_composition": [
+          3,
+          1,
+          1
+        ]
+      },
+      "macro_count": 42,
+      "n": 6,
+      "r": 5,
+      "raw_factorization_count": 1296,
+      "uniform_boundary_endpoint": {
+        "chi_square": "1399419270577/71328803586048",
+        "density_second_moment": "72728222856625/71328803586048",
+        "equal": false,
+        "maximum_density": "84060125/71663616",
+        "maximum_macro": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "minimum_density": "740875/995328",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "1378447/23328000"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "1/16",
+          "density_second_moment": "17/16",
+          "equal": false,
+          "maximum_density": "125/96",
+          "maximum_macro": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "minimum_density": "5/8",
+          "minimum_macro": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "107/1000"
+        },
+        {
+          "chi_square": "49/486",
+          "density_second_moment": "535/486",
+          "equal": false,
+          "maximum_density": "40/27",
+          "maximum_macro": [
+            0,
+            0,
+            1,
+            2,
+            4
+          ],
+          "minimum_density": "5/18",
+          "minimum_macro": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 3,
+          "total_variation": "41/300"
+        },
+        {
+          "chi_square": "19/256",
+          "density_second_moment": "275/256",
+          "equal": false,
+          "maximum_density": "5/4",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            2,
+            4
+          ],
+          "minimum_density": "5/16",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_root_degree": 4,
+          "total_variation": "9/80"
+        },
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "source_root_degree": 5,
+          "total_variation": "0"
+        }
+      ]
+    },
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "968985675883781/52964109187500000",
+        "density_second_moment": "53933094863383781/52964109187500000",
+        "equal": false,
+        "maximum_density": "18792999/15006250",
+        "maximum_macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5
+        ],
+        "minimum_density": "7640568/10504375",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "38851327/680683500"
+      },
+      "first_one_step_normalization_failure": {
+        "density": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "ratio": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "ratio": "3/2"
+          }
+        ],
+        "output": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "1"
+          }
+        ],
+        "source_composition": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ],
+        "stationary_conditional": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "1/3"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "2/3"
+          }
+        ],
+        "target_composition": [
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      "macro_count": 132,
+      "n": 7,
+      "r": 6,
+      "raw_factorization_count": 16807,
+      "uniform_boundary_endpoint": {
+        "chi_square": "1421243123156276949/56495049800000000000",
+        "density_second_moment": "57916292923156276949/56495049800000000000",
+        "equal": false,
+        "maximum_density": "10607433771/8403500000",
+        "maximum_macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5
+        ],
+        "minimum_density": "74561337/105043750",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "14436330361/217818720000"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "1891/27000",
+          "density_second_moment": "28891/27000",
+          "equal": false,
+          "maximum_density": "143/100",
+          "maximum_macro": [
+            0,
+            1,
+            1,
+            3,
+            4,
+            5
+          ],
+          "minimum_density": "3/5",
+          "minimum_macro": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "89/810"
+        },
+        {
+          "chi_square": "2479/21600",
+          "density_second_moment": "24079/21600",
+          "equal": false,
+          "maximum_density": "19/12",
+          "maximum_macro": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "minimum_density": "1/5",
+          "minimum_macro": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 3,
+          "total_variation": "61/432"
+        },
+        {
+          "chi_square": "287/2880",
+          "density_second_moment": "3167/2880",
+          "equal": false,
+          "maximum_density": "3/2",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            1,
+            3,
+            5
+          ],
+          "minimum_density": "3/20",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 4,
+          "total_variation": "97/720"
+        },
+        {
+          "chi_square": "17/250",
+          "density_second_moment": "267/250",
+          "equal": false,
+          "maximum_density": "6/5",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            5
+          ],
+          "minimum_density": "6/25",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_root_degree": 5,
+          "total_variation": "8/75"
+        },
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "source_root_degree": 6,
+          "total_variation": "0"
+        }
+      ]
+    },
+    {
+      "canonical_first_boundary_endpoint": {
+        "chi_square": "61444132440067235367619/2705210921189376000000000",
+        "density_second_moment": "2766655053629443235367619/2705210921189376000000000",
+        "equal": false,
+        "maximum_density": "50690592733921/38220595200000",
+        "maximum_macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "minimum_density": "7425685547/10616832000",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "10685591954417/169940090880000"
+      },
+      "first_one_step_normalization_failure": {
+        "density": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "ratio": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "ratio": "3/2"
+          }
+        ],
+        "output": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "1"
+          }
+        ],
+        "source_composition": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        "stationary_conditional": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "mass": "1/3"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ],
+            "mass": "2/3"
+          }
+        ],
+        "target_composition": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "macro_count": 429,
+      "n": 8,
+      "r": 7,
+      "raw_factorization_count": 262144,
+      "uniform_boundary_endpoint": {
+        "chi_square": "1339056637613729621359922091851/44876202929426320588800000000000",
+        "density_second_moment": "46215259567040050210159922091851/44876202929426320588800000000000",
+        "equal": false,
+        "maximum_density": "24603884488639463/18345885696000000",
+        "maximum_macro": [
+          0,
+          1,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "minimum_density": "20971469099161/30576476160000",
+        "minimum_macro": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "total_variation": "372521815734647797/5138988348211200000"
+      },
+      "uniform_boundary_layer_transfers": [
+        {
+          "chi_square": "27901/370440",
+          "density_second_moment": "398341/370440",
+          "equal": false,
+          "maximum_density": "1099/720",
+          "maximum_macro": [
+            0,
+            1,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "minimum_density": "7/12",
+          "minimum_macro": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 2,
+          "total_variation": "5774/50421"
+        },
+        {
+          "chi_square": "61204/496125",
+          "density_second_moment": "557329/496125",
+          "equal": false,
+          "maximum_density": "749/450",
+          "maximum_macro": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "minimum_density": "7/45",
+          "minimum_macro": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 3,
+          "total_variation": "31513/216090"
+        },
+        {
+          "chi_square": "10089/89600",
+          "density_second_moment": "99689/89600",
+          "equal": false,
+          "maximum_density": "105/64",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "minimum_density": "7/80",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 4,
+          "total_variation": "2269/16464"
+        },
+        {
+          "chi_square": "307/3375",
+          "density_second_moment": "3682/3375",
+          "equal": false,
+          "maximum_density": "7/5",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            4,
+            6
+          ],
+          "minimum_density": "7/75",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "source_root_degree": 5,
+          "total_variation": "37/294"
+        },
+        {
+          "chi_square": "53/864",
+          "density_second_moment": "917/864",
+          "equal": false,
+          "maximum_density": "7/6",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            6
+          ],
+          "minimum_density": "7/36",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_root_degree": 6,
+          "total_variation": "25/252"
+        },
+        {
+          "chi_square": "0",
+          "density_second_moment": "1",
+          "equal": true,
+          "maximum_density": "1",
+          "maximum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          "minimum_density": "1",
+          "minimum_macro": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "source_root_degree": 7,
+          "total_variation": "0"
+        }
+      ]
+    }
+  ],
+  "seed": null,
+  "universal_scope": "One exact failure refutes exact normalization. Finite density ratios do not prove a universal polynomial bound."
+}

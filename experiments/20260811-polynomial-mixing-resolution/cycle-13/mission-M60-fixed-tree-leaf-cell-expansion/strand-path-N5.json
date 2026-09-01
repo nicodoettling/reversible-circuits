@@ -1,0 +1,167 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/strand_canonical_path_falsifier.py",
+    "--N",
+    "5",
+    "--shape",
+    "all",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/strand-path-N5.json"
+  ],
+  "claim_tested": "Every leaf deletion cell admits the explicit <=2m-3 H3-supported canonical path preserving Del_v.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "N<=5 exact success is a falsification check; the universal proof is separate.",
+  "seed": null,
+  "summary": {
+    "N": 5,
+    "elapsed_seconds_before_write": 21.42183013795875,
+    "failures": 0,
+    "m": 8,
+    "maximum_path_steps": 7,
+    "shapes": [
+      "star",
+      "path",
+      "tshape"
+    ],
+    "state_leaf_pairs_checked": 75802
+  },
+  "trees": [
+    {
+      "failures": 0,
+      "fiber_size": 8856,
+      "leaves": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "maximum_path_steps": 7,
+      "path_length_distribution": {
+        "1": 744,
+        "2": 1944,
+        "3": 3552,
+        "4": 5328,
+        "5": 6888,
+        "6": 8112,
+        "7": 8856
+      },
+      "shape": "star",
+      "state_leaf_pairs_checked": 35424,
+      "step_type_totals": {
+        "inverse_hurwitz": 17544,
+        "right_hurwitz": 76464,
+        "square_label_refresh": 35424,
+        "square_slide": 52272
+      },
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "failures": 0,
+      "fiber_size": 7808,
+      "leaves": [
+        3,
+        4
+      ],
+      "maximum_path_steps": 7,
+      "path_length_distribution": {
+        "1": 356,
+        "2": 876,
+        "3": 1584,
+        "4": 2406,
+        "5": 3030,
+        "6": 3504,
+        "7": 3860
+      },
+      "shape": "path",
+      "state_leaf_pairs_checked": 15616,
+      "step_type_totals": {
+        "inverse_hurwitz": 6732,
+        "right_hurwitz": 33890,
+        "square_label_refresh": 15616,
+        "square_slide": 23440
+      },
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "failures": 0,
+      "fiber_size": 8254,
+      "leaves": [
+        1,
+        2,
+        4
+      ],
+      "maximum_path_steps": 7,
+      "path_length_distribution": {
+        "1": 542,
+        "2": 1362,
+        "3": 2482,
+        "4": 3762,
+        "5": 4848,
+        "6": 5612,
+        "7": 6154
+      },
+      "shape": "tshape",
+      "state_leaf_pairs_checked": 24762,
+      "step_type_totals": {
+        "inverse_hurwitz": 11476,
+        "right_hurwitz": 53758,
+        "square_label_refresh": 24762,
+        "square_slide": 36754
+      },
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/topology_voltage_audit.py",
+    "--L",
+    "1",
+    "2",
+    "3",
+    "11",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/topology-voltage-results.json"
+  ],
+  "base": {
+    "all_face_voltages_zero": true,
+    "basis_cycle_x_vertices": [
+      0,
+      7,
+      2,
+      6
+    ],
+    "basis_cycle_x_voltage": [
+      -1,
+      0
+    ],
+    "basis_cycle_y_vertices": [
+      0,
+      7,
+      1,
+      6
+    ],
+    "basis_cycle_y_voltage": [
+      0,
+      1
+    ],
+    "basis_voltage_determinant": -1,
+    "coordinate_bound": {
+      "closing_edges": 2,
+      "endpoint_paths": "2 paths * at most 1 matching edge per nonzero block",
+      "x": 10,
+      "y": 10
+    },
+    "edges": 16,
+    "euler_characteristic": 0,
+    "face_integer_voltages": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "face_lengths": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "faces": 8,
+    "genus": 1,
+    "nonzero_x_blocks": [
+      0,
+      1,
+      2,
+      7
+    ],
+    "nonzero_y_blocks": [
+      0,
+      4,
+      5,
+      10
+    ],
+    "vertices": 8
+  },
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "lifts": [
+    {
+      "L": 1,
+      "connected": true,
+      "edges": 16,
+      "euler_characteristic": 0,
+      "expected_faces": 8,
+      "face_length_histogram": {
+        "4": 8
+      },
+      "faces": 8,
+      "genus": 1,
+      "identity": true,
+      "vertices": 8
+    },
+    {
+      "L": 2,
+      "connected": true,
+      "edges": 64,
+      "euler_characteristic": 0,
+      "expected_faces": 32,
+      "face_length_histogram": {
+        "4": 32
+      },
+      "faces": 32,
+      "genus": 1,
+      "identity": true,
+      "vertices": 32
+    },
+    {
+      "L": 3,
+      "connected": true,
+      "edges": 144,
+      "euler_characteristic": 0,
+      "expected_faces": 72,
+      "face_length_histogram": {
+        "4": 72
+      },
+      "faces": 72,
+      "genus": 1,
+      "identity": true,
+      "vertices": 72
+    },
+    {
+      "L": 11,
+      "connected": true,
+      "edges": 1936,
+      "euler_characteristic": 0,
+      "expected_faces": 968,
+      "face_length_histogram": {
+        "4": 968
+      },
+      "faces": 968,
+      "genus": 1,
+      "identity": true,
+      "vertices": 968
+    }
+  ],
+  "local_null_pair_transparency": {
+    "failure_count": 0,
+    "failures": [],
+    "tested_pairs": 100
+  },
+  "method": "Exact dart permutations for chronological ribbon faces, exact integer face/cycle voltages, exact lifted word checks, and exhaustive local null-pair Hurwitz identities in S_5.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "Finite lift checks corroborate but do not replace the symbolic all-L surface-cover and coordinate-bound proof.",
+  "seed": null
+}

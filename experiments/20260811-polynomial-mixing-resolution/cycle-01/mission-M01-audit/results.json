@@ -1,0 +1,163 @@
+{
+  "cases": [
+    {
+      "Hurwitz_component_sizes": [
+        24,
+        1,
+        1,
+        1
+      ],
+      "J_rows_normalized": true,
+      "K_component_sizes": [
+        27
+      ],
+      "K_rows_normalized": true,
+      "M": 3,
+      "N": 3,
+      "claimed_ratio_floor": [
+        1,
+        27
+      ],
+      "expected_square_count_each_position": 9,
+      "m": 4,
+      "m4_H4_each_whole_word_contribution_exact": true,
+      "max_offdiag_J_scan_multiplicity": 1,
+      "min_offdiag_K_over_J": [
+        5,
+        12
+      ],
+      "min_ratio_witness_indices": [
+        0,
+        12,
+        [
+          0
+        ]
+      ],
+      "omega_size": 27,
+      "pointwise_floor_holds": true,
+      "square_bijection_holds": true,
+      "square_counts_by_position": [
+        9,
+        9,
+        9
+      ],
+      "square_labels_uniform_each_position": true,
+      "square_probability_ge_1_over_M": true
+    },
+    {
+      "Hurwitz_component_sizes": [
+        24,
+        24,
+        24,
+        24,
+        6,
+        6,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "J_rows_normalized": true,
+      "K_component_sizes": [
+        120
+      ],
+      "K_rows_normalized": true,
+      "M": 6,
+      "N": 4,
+      "claimed_ratio_floor": [
+        1,
+        108
+      ],
+      "expected_square_count_each_position": 36,
+      "m": 4,
+      "m4_H4_each_whole_word_contribution_exact": true,
+      "max_offdiag_J_scan_multiplicity": 1,
+      "min_offdiag_K_over_J": [
+        1,
+        10
+      ],
+      "min_ratio_witness_indices": [
+        18,
+        100,
+        [
+          0
+        ]
+      ],
+      "omega_size": 120,
+      "pointwise_floor_holds": true,
+      "square_bijection_holds": true,
+      "square_counts_by_position": [
+        36,
+        36,
+        36
+      ],
+      "square_labels_uniform_each_position": true,
+      "square_probability_ge_1_over_M": true
+    },
+    {
+      "Hurwitz_component_sizes": [
+        2880,
+        240,
+        240,
+        240,
+        240,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "J_rows_normalized": true,
+      "K_component_sizes": [
+        3936
+      ],
+      "K_rows_normalized": true,
+      "M": 6,
+      "N": 4,
+      "claimed_ratio_floor": [
+        1,
+        108
+      ],
+      "expected_square_count_each_position": 720,
+      "m": 6,
+      "m4_H4_each_whole_word_contribution_exact": true,
+      "max_offdiag_J_scan_multiplicity": 1,
+      "min_offdiag_K_over_J": [
+        947,
+        17712
+      ],
+      "min_ratio_witness_indices": [
+        18,
+        19,
+        [
+          4
+        ]
+      ],
+      "omega_size": 3936,
+      "pointwise_floor_holds": true,
+      "square_bijection_holds": true,
+      "square_counts_by_position": [
+        720,
+        720,
+        720,
+        720,
+        720
+      ],
+      "square_labels_uniform_each_position": true,
+      "square_probability_ge_1_over_M": true
+    }
+  ],
+  "composition": "pq means p after q; word product t1...tm",
+  "python": "3.12.3",
+  "random_seed": null
+}

@@ -1,0 +1,80 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "fixed-(a,u,v,epsilon,s) source recovery is injective and both shuttle orientations implement the requested internal Hurwitz move",
+  "logical_scope": "a finite collision refutes the universal recovery claim; no collision is calibration only",
+  "composition": "(pq)(x)=p(q(x))",
+  "deterministic": true,
+  "random_seed": null,
+  "environment": {
+    "python": "3.12.3",
+    "nonstandard_dependencies": []
+  },
+  "cases": [
+    {
+      "n": 3,
+      "m": 4,
+      "identity_word_count": 27,
+      "shuttle_path_count": 108,
+      "used_edge_occurrences": 108,
+      "recovery_collision_count": 0,
+      "first_recovery_collisions": [],
+      "path_failure_count": 0,
+      "first_path_failures": [],
+      "ignored_central_self_loop_commodities": 54,
+      "duplicate_orientation_outputs_adjacent": 0,
+      "paths_with_repeated_intervening_colors": 0,
+      "direct_color_duplicate_target_count": 0,
+      "maximum_metadata_occurrences_on_one_directed_physical_edge": 1
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "identity_word_count": 120,
+      "shuttle_path_count": 432,
+      "used_edge_occurrences": 432,
+      "recovery_collision_count": 0,
+      "first_recovery_collisions": [],
+      "path_failure_count": 0,
+      "first_path_failures": [],
+      "ignored_central_self_loop_commodities": 252,
+      "duplicate_orientation_outputs_adjacent": 0,
+      "paths_with_repeated_intervening_colors": 12,
+      "direct_color_duplicate_target_count": 0,
+      "maximum_metadata_occurrences_on_one_directed_physical_edge": 1
+    },
+    {
+      "n": 4,
+      "m": 6,
+      "identity_word_count": 3936,
+      "shuttle_path_count": 31680,
+      "used_edge_occurrences": 31680,
+      "recovery_collision_count": 0,
+      "first_recovery_collisions": [],
+      "path_failure_count": 0,
+      "first_path_failures": [],
+      "ignored_central_self_loop_commodities": 7500,
+      "duplicate_orientation_outputs_adjacent": 2880,
+      "paths_with_repeated_intervening_colors": 108,
+      "direct_color_duplicate_target_count": 0,
+      "maximum_metadata_occurrences_on_one_directed_physical_edge": 2
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "identity_word_count": 20860,
+      "shuttle_path_count": 158400,
+      "used_edge_occurrences": 171360,
+      "recovery_collision_count": 0,
+      "first_recovery_collisions": [],
+      "path_failure_count": 0,
+      "first_path_failures": [],
+      "ignored_central_self_loop_commodities": 42100,
+      "duplicate_orientation_outputs_adjacent": 14400,
+      "paths_with_repeated_intervening_colors": 4860,
+      "direct_color_duplicate_target_count": 0,
+      "maximum_metadata_occurrences_on_one_directed_physical_edge": 4
+    }
+  ],
+  "total_recovery_collisions": 0,
+  "total_path_failures": 0
+}

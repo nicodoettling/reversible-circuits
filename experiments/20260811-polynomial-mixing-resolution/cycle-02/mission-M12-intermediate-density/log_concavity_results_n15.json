@@ -1,0 +1,51 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "Exact component-layer counts W_c(N,m) are log-concave in c on their feasible interval. Finite results can falsify but not prove this universal claim.",
+  "deterministic": true,
+  "random_seed": null,
+  "parameters": {
+    "n_max": 15,
+    "m_max": 120
+  },
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "nonstandard_dependencies": []
+  },
+  "calibration_records": [
+    {
+      "N": 3,
+      "m": 4,
+      "counts_c1_to_N": [
+        "24",
+        "3",
+        "0"
+      ],
+      "total": "27"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "counts_c1_to_N": [
+        "0",
+        "114",
+        "6",
+        "0"
+      ],
+      "total": "120"
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "counts_c1_to_N": [
+        "2880",
+        "1050",
+        "6",
+        "0"
+      ],
+      "total": "3936"
+    }
+  ],
+  "failure_count": 0,
+  "first_failures": []
+}

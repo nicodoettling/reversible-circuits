@@ -1,0 +1,90 @@
+{
+  "claim_tested": "The sharp finite constant in E_G(E[f|root]) <= A_r E_P(f) does not exhibit superpolynomial growth over r <= 7.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/root_mean_lift_exact.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/root_mean_lift_results.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "records": [
+    {
+      "full_Pbar_gap": 1.0,
+      "generalized_zero_residual": 0.0,
+      "macro_count": 2,
+      "n": 3,
+      "r": 2,
+      "root_composition_count": 2,
+      "root_gap_times_r_rminus1": 2.0,
+      "root_quotient_gap": 1.0,
+      "sharp_mean_lift_constant": 1.0,
+      "sharp_mean_lift_constant_over_r": 0.5,
+      "sharp_mean_lift_constant_over_r_squared": 0.25
+    },
+    {
+      "full_Pbar_gap": 0.27434160612194197,
+      "generalized_zero_residual": 1.5491452811364243e-16,
+      "macro_count": 5,
+      "n": 4,
+      "r": 3,
+      "root_composition_count": 4,
+      "root_gap_times_r_rminus1": 1.9008395567277998,
+      "root_quotient_gap": 0.31680659278796663,
+      "sharp_mean_lift_constant": 1.0752688172043006,
+      "sharp_mean_lift_constant_over_r": 0.3584229390681002,
+      "sharp_mean_lift_constant_over_r_squared": 0.11947431302270006
+    },
+    {
+      "full_Pbar_gap": 0.12349042798306975,
+      "generalized_zero_residual": 1.7201076050621956e-16,
+      "macro_count": 14,
+      "n": 5,
+      "r": 4,
+      "root_composition_count": 8,
+      "root_gap_times_r_rminus1": 1.8135784746373709,
+      "root_quotient_gap": 0.15113153955311423,
+      "sharp_mean_lift_constant": 1.1163446695936112,
+      "sharp_mean_lift_constant_over_r": 0.2790861673984028,
+      "sharp_mean_lift_constant_over_r_squared": 0.0697715418496007
+    },
+    {
+      "full_Pbar_gap": 0.06607028108594114,
+      "generalized_zero_residual": 4.851248320749069e-16,
+      "macro_count": 42,
+      "n": 6,
+      "r": 5,
+      "root_composition_count": 16,
+      "root_gap_times_r_rminus1": 1.7441044472494227,
+      "root_quotient_gap": 0.08720522236247114,
+      "sharp_mean_lift_constant": 1.1569971569213835,
+      "sharp_mean_lift_constant_over_r": 0.2313994313842767,
+      "sharp_mean_lift_constant_over_r_squared": 0.046279886276855337
+    },
+    {
+      "full_Pbar_gap": 0.03930174181325468,
+      "generalized_zero_residual": 6.437753965260739e-16,
+      "macro_count": 132,
+      "n": 7,
+      "r": 6,
+      "root_composition_count": 32,
+      "root_gap_times_r_rminus1": 1.6886027578019438,
+      "root_quotient_gap": 0.05628675859339813,
+      "sharp_mean_lift_constant": 1.1984511881380233,
+      "sharp_mean_lift_constant_over_r": 0.19974186468967056,
+      "sharp_mean_lift_constant_over_r_squared": 0.03329031078161176
+    },
+    {
+      "full_Pbar_gap": 0.025253996656237187,
+      "generalized_zero_residual": 9.268866103691599e-16,
+      "macro_count": 429,
+      "n": 8,
+      "r": 7,
+      "root_composition_count": 64,
+      "root_gap_times_r_rminus1": 1.6434162791815996,
+      "root_quotient_gap": 0.03912895902813333,
+      "sharp_mean_lift_constant": 1.2402179165039344,
+      "sharp_mean_lift_constant_over_r": 0.17717398807199064,
+      "sharp_mean_lift_constant_over_r_squared": 0.02531056972457009
+    }
+  ],
+  "seed": null,
+  "universal_scope": "A singularity or anomalously large A_r can refute a proposed bounded-range claim.  Finite numerical values prove no universal polynomial mean-lift inequality."
+}

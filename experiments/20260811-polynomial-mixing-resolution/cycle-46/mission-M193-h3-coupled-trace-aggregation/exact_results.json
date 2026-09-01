@@ -1,0 +1,82 @@
+{
+  "analytic_integer_certificates": {
+    "B1_slack_shifted_ascending": [
+      21689640,
+      20412486,
+      6876399,
+      985826,
+      51529
+    ],
+    "main_slack_shifted_ascending": [
+      5726736,
+      18788964,
+      16784028,
+      6721029,
+      1351327,
+      131535,
+      4829
+    ]
+  },
+  "arithmetic": "standard-library Fraction",
+  "assertions": {
+    "all_named_averages_below_one": true,
+    "direct_average_matches_closed_grid": true,
+    "exterior_identity_and_36over125_bound": true,
+    "individual_over_one_but_average_below_one": true,
+    "killed_a_equals_d_excluded": true,
+    "n0_exact_boundary_checked": true,
+    "r_equals_n_included": true,
+    "shifted_coefficients_positive": true
+  },
+  "exterior_rows": {
+    "n1": "36/125",
+    "n2": "5/24",
+    "n30": "54511233514245172900079150318608779382207377699/635631428707213235911226778833821126439118831616",
+    "n5": "896/6561"
+  },
+  "n0": {
+    "B1_d1_nominal_history": "2957/23040",
+    "eta": "9/16",
+    "loose_charge_bound": "3/8",
+    "rho": "(25+sqrt(415))/70",
+    "rho_lt_2over3_certificate": "9*415 < 65^2"
+  },
+  "named_grid": {
+    "B": [
+      1,
+      2,
+      3,
+      8,
+      16
+    ],
+    "d": "1..30",
+    "summary": {
+      "B1": {
+        "max_average": "312085321/1357171200",
+        "max_d_le_30": 30
+      },
+      "B16": {
+        "max_average": "11966407232511417368953690428117892496009722549805387292845637105247571153204658527417461164684091/13911011269603748242405966385399485181799942990366293074583620820316489927432060190276265624012532",
+        "max_d_le_30": 30
+      },
+      "B2": {
+        "max_average": "37787846741/60588000000",
+        "max_d_le_30": 30
+      },
+      "B3": {
+        "max_average": "46231398599/63617400000",
+        "max_d_le_30": 30
+      },
+      "B8": {
+        "max_average": "8692950795607968748398107175345542673791/10430056976022724102797668085571289062500",
+        "max_d_le_30": 30
+      }
+    }
+  },
+  "schema": "M193-coupled-trace-v1",
+  "seed": null,
+  "trace_obstruction": {
+    "B3_d20_a19": "10249528643/7684875000",
+    "B3_d20_average": "443845801/614790000"
+  }
+}

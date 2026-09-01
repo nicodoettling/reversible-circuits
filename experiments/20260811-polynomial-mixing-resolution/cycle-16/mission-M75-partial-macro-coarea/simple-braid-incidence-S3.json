@@ -1,0 +1,65 @@
+{
+  "N": 3,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/simple_braid_incidence_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/simple-braid-incidence-S3.json"
+  ],
+  "claim_tested": "The simple-positive-braid multigraph is m!-regular on both sides, including stabilizer parallel-edge multiplicity, while marked row sums need not be constant.",
+  "column_indegree_distinct_values": [
+    720
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "component_length": 6,
+  "convention": "(pq)(x)=p(q(x)); canonical simple positive braid beta_pi",
+  "elapsed_seconds": 1.14599320711568,
+  "marked_row_sums_constant": false,
+  "marked_state_count": 216,
+  "marked_state_density": [
+    216,
+    240
+  ],
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "regularity_predicted_marked_incidence": 155520,
+  "row_distinct_output_count_histogram": {
+    "102": 24,
+    "105": 12,
+    "106": 12,
+    "110": 6,
+    "119": 12,
+    "15": 12,
+    "27": 6,
+    "40": 12,
+    "52": 6,
+    "64": 24,
+    "70": 24,
+    "71": 6,
+    "77": 24,
+    "92": 24,
+    "94": 24,
+    "99": 12
+  },
+  "row_marked_hit_count_histogram": {
+    "608": 18,
+    "624": 18,
+    "628": 24,
+    "632": 48,
+    "636": 24,
+    "640": 6,
+    "648": 24,
+    "672": 60,
+    "720": 18
+  },
+  "row_max_parallel_multiplicity_histogram": {
+    "12": 24,
+    "16": 30,
+    "24": 36,
+    "48": 150
+  },
+  "scope_warning": "Finite nonconstant row sums prove only that double regularity does not itself flatten worst-source marked probability.",
+  "seed": null,
+  "simple_braid_count": 720,
+  "source_count": 240,
+  "total_marked_incidence": 155520
+}

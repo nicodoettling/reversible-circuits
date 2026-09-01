@@ -1,0 +1,149 @@
+{
+  "analytic_target_fixed_before_computation": true,
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "m261_dependency": "experiments/20260811-polynomial-mixing-resolution/cycle-71/mission-M261-fixed-cell-fd/pbv_exact.py",
+  "m264_firewall_witness": {
+    "E2_s1_exact": "-625/1296",
+    "E2_s2_exact": "-20/81",
+    "distinct_literal_endpoint_profile": true,
+    "k": 3,
+    "same_size_run_profile_from_M264": "((1,1),(2,1),(6,2))"
+  },
+  "nonstandard_dependencies": null,
+  "pointwise_checks": [
+    {
+      "central_zero_exact": true,
+      "jump_formula_exact": true,
+      "k": 3,
+      "maximum_state_endpoint_l1_exact": "16/3",
+      "maximum_state_endpoint_l1_float": 5.333333333333333,
+      "proved_envelope_float": 166.73306894750687,
+      "reflection_exact": true,
+      "supported_products": 336
+    },
+    {
+      "central_zero_exact": true,
+      "jump_formula_exact": true,
+      "k": 5,
+      "maximum_state_endpoint_l1_exact": "20014594024/2357947691",
+      "maximum_state_endpoint_l1_float": 8.48814165827057,
+      "proved_envelope_float": 166.73306894750687,
+      "reflection_exact": true,
+      "supported_products": 3185
+    }
+  ],
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "source_checks": [
+    {
+      "candidate_nonpositive_before_k_minus_1_nonnegative_after": true,
+      "candidate_status": "exact finite falsification only; never a sign proof",
+      "channel_kind_n_times_l1": {
+        "J0_D": 0.0,
+        "J0_T": 0.0,
+        "J1_D": 0.2511626659058628,
+        "J1_T": 0.0,
+        "J2_D": 0.9882696098610686,
+        "J2_T": 1.1153402728862973
+      },
+      "combined_central_zero_exact": true,
+      "combined_reflection_exact": true,
+      "first_half_sign_changes": 0,
+      "first_half_signs": [
+        1,
+        1
+      ],
+      "k": 3,
+      "n": 9,
+      "n_times_combined_endpoint_l1": 2.013000140670958
+    },
+    {
+      "candidate_nonpositive_before_k_minus_1_nonnegative_after": true,
+      "candidate_status": "exact finite falsification only; never a sign proof",
+      "channel_kind_n_times_l1": {
+        "J0_D": 0.0,
+        "J0_T": 0.0,
+        "J1_D": 0.49836633693924454,
+        "J1_T": 0.0,
+        "J2_D": 1.575852429582524,
+        "J2_T": 0.5845063972430631
+      },
+      "combined_central_zero_exact": true,
+      "combined_reflection_exact": true,
+      "first_half_sign_changes": 1,
+      "first_half_signs": [
+        -1,
+        -1,
+        1,
+        1,
+        1
+      ],
+      "k": 5,
+      "n": 15,
+      "n_times_combined_endpoint_l1": 2.418673898680738
+    },
+    {
+      "candidate_nonpositive_before_k_minus_1_nonnegative_after": true,
+      "candidate_status": "exact finite falsification only; never a sign proof",
+      "channel_kind_n_times_l1": {
+        "J0_D": 0.0,
+        "J0_T": 0.0,
+        "J1_D": 0.3863950186100305,
+        "J1_T": 0.0,
+        "J2_D": 1.4402694855342766,
+        "J2_T": 0.334393670974618
+      },
+      "combined_central_zero_exact": true,
+      "combined_reflection_exact": true,
+      "first_half_sign_changes": 1,
+      "first_half_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "k": 7,
+      "n": 21,
+      "n_times_combined_endpoint_l1": 1.9784127697228797
+    },
+    {
+      "candidate_nonpositive_before_k_minus_1_nonnegative_after": true,
+      "candidate_status": "exact finite falsification only; never a sign proof",
+      "channel_kind_n_times_l1": {
+        "J0_D": 0.0,
+        "J0_T": 0.0,
+        "J1_D": 0.35506492150063546,
+        "J1_T": 0.0,
+        "J2_D": 1.3289273646024413,
+        "J2_T": 0.2249299995207711
+      },
+      "combined_central_zero_exact": true,
+      "combined_reflection_exact": true,
+      "first_half_sign_changes": 1,
+      "first_half_signs": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "k": 9,
+      "n": 27,
+      "n_times_combined_endpoint_l1": 1.737084456638191
+    }
+  ],
+  "status": "exact finite falsification only; no PBV/SET/sign inference",
+  "target": "M267 literal endpoint profile for M261 PBV"
+}

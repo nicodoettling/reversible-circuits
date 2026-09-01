@@ -1,0 +1,178 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M85-m84-fresh-referee/independent_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M85-m84-fresh-referee/independent-results.json"
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "elapsed_seconds": 5.0043911600951105,
+  "method": "Independent standard-library reconstruction; no imports from M84 or predecessor missions.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": {
+    "ambient_L11": {
+      "L": 11,
+      "ambient_N": 970,
+      "ambient_m": 1938,
+      "both_components_nontrivial": true,
+      "component_genera": [
+        1,
+        0
+      ],
+      "genus_one_component_factors": 1936,
+      "genus_one_component_vertices": 968,
+      "genus_zero_component_factors": 2,
+      "genus_zero_component_vertices": 2,
+      "minimal_identity": true
+    },
+    "base": {
+      "basis_cycle_voltages": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "connected": true,
+      "contour_cycle_failure_count": 0,
+      "contour_cycle_failures": [],
+      "duplicate_subset_pairs": 23040,
+      "euler_characteristic": 0,
+      "face_count": 8,
+      "face_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "face_voltages": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "formula_failure_count": 0,
+      "formula_failures": [],
+      "identity": true,
+      "maximum_absolute_contour_voltage": 1,
+      "outside_selection_failure_count": 0,
+      "outside_selection_failures": [],
+      "path_length_histogram": {
+        "(0, 2)": 4096,
+        "(1, 1)": 12160,
+        "(1, 3)": 128,
+        "(2, 0)": 4096,
+        "(2, 2)": 2304,
+        "(3, 1)": 128,
+        "(3, 3)": 128
+      },
+      "prefix_component_failure_count": 0,
+      "prefix_component_failures": [],
+      "reverse_order_failure_count": 0,
+      "reverse_order_failures": [],
+      "safe_homology_failure_count": 0,
+      "safe_homology_failures": [],
+      "safe_subset_pairs": 14592,
+      "subsets_checked": 65536,
+      "voltage_histogram": {
+        "(-1, -1)": 640,
+        "(-1, 0)": 1024,
+        "(0, -1)": 2816,
+        "(0, 0)": 8448,
+        "(0, 1)": 1536,
+        "(1, 0)": 3328,
+        "(1, 1)": 5248
+      }
+    },
+    "coordinate_bound": {
+      "nonzero_x_blocks": 4,
+      "nonzero_y_blocks": 4,
+      "two_endpoint_paths_plus_two_closing_edges": 10
+    },
+    "generic_s3": {
+      "connected_genus_one_identity_words": 240,
+      "contour_cycle_failure_count": 0,
+      "contour_cycle_failures": [],
+      "duplicate_subset_pairs": 18720,
+      "outside_selection_failure_count": 0,
+      "outside_selection_failures": [],
+      "safe_homology_failure_count": 0,
+      "safe_homology_failures": [],
+      "safe_subset_pairs": 17280
+    },
+    "lifts": [
+      {
+        "L": 2,
+        "bipartite": true,
+        "block_matching_failures": 0,
+        "connected": true,
+        "euler_characteristic": 0,
+        "face_lengths": {
+          "4": 32
+        },
+        "faces": 32,
+        "factors": 64,
+        "identity": true,
+        "simple_support": true,
+        "vertices": 32
+      },
+      {
+        "L": 11,
+        "bipartite": true,
+        "block_matching_failures": 0,
+        "connected": true,
+        "euler_characteristic": 0,
+        "face_lengths": {
+          "4": 968
+        },
+        "faces": 968,
+        "factors": 1936,
+        "identity": true,
+        "simple_support": true,
+        "vertices": 968
+      }
+    ],
+    "local_null_pair_transparency": {
+      "cases": 100,
+      "failure_count": 0,
+      "failures": []
+    }
+  },
+  "scope_warning": "Finite exact checks are falsification only and do not replace the all-L proof audit.",
+  "seed": null
+}

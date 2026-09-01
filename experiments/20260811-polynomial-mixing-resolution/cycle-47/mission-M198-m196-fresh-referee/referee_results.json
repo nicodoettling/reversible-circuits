@@ -1,0 +1,97 @@
+{
+  "action_sha256": "160bcae167e754af4ff55356a2ab25526bf53d03ebc23bd974938fb8370c67ae",
+  "certificates": {
+    "adjusted": 41,
+    "adjustment_checks": 54,
+    "direct": 15,
+    "full_length_histogram": {
+      "0": 1,
+      "1": 4,
+      "2": 2,
+      "3": 4,
+      "4": 2,
+      "6": 1,
+      "9": 2,
+      "10": 2,
+      "11": 3,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 1,
+      "16": 2,
+      "17": 2,
+      "18": 2,
+      "19": 2,
+      "20": 4,
+      "21": 3,
+      "22": 2
+    },
+    "full_replays": 54,
+    "max_backward_length": 7,
+    "max_forward_length": 8,
+    "max_full_length": 22,
+    "max_named_tree_length": 9,
+    "max_stabilizer_length": 15,
+    "meeting_checks": 41,
+    "nonempty_backward": 26,
+    "original": 54,
+    "stabilizer_length_histogram": {
+      "0": 1,
+      "2": 2,
+      "3": 4,
+      "4": 1,
+      "5": 1,
+      "6": 2,
+      "7": 4,
+      "9": 1,
+      "10": 3,
+      "11": 2,
+      "12": 6,
+      "13": 5,
+      "14": 6,
+      "15": 3
+    },
+    "stabilizer_replays": 41
+  },
+  "forward_ball": {
+    "level_sizes": [
+      1,
+      6,
+      40,
+      190,
+      795,
+      2976,
+      10416,
+      34256,
+      105713
+    ],
+    "radius": 8,
+    "states": 154393
+  },
+  "m196_manifest_sha256": "7fa987c6c776e55990c00fcfaea85e34c1d7b0e6d3f97d57fdefba8bcb5bd913",
+  "named_targets": {
+    "adjusted_distinct": 41,
+    "distinct_rows": 54,
+    "occurrences": 175,
+    "rooted_descriptors": 10
+  },
+  "numbered_objections": [],
+  "q5": {
+    "action_rows_exact_match": true,
+    "all_generator_bijections": true,
+    "all_signed_inverse_pairs": true,
+    "all_states_identity_connected": true,
+    "all_transversal_words_replayed": true,
+    "reconstructed_states": 8400,
+    "source_ids": [
+      16,
+      0
+    ],
+    "transversal_max_depth": 13,
+    "transversal_size": 8400
+  },
+  "q5_action_file_sha256": "d24bfdf3d7c21c1bc4a4313fa83217e766a3e4186e8b1b2b2340f5dc1d8f043c",
+  "scope": "exact finite d=5 width-two named target list only; no every-color, all-d, polynomial-length, gap, mixing, or Terminal inference",
+  "targeted_results_sha256": "e40c220ea10798b82d7225cbde54daec751f25e581028c926e2a11ba3e33a4b2",
+  "verdict": "ACCEPT"
+}

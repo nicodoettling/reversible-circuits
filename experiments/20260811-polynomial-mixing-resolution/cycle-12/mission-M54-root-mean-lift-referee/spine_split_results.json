@@ -1,0 +1,1706 @@
+{
+  "claim_tested": "A split of one coarse root branch into (A,B) is positive exactly when B is a suffix-subtree size on that branch's rightmost spine, with a unique degree-macro target.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/spine_split_audit.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/spine_split_results.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "macro_count": 2,
+      "maximum_positive_witness": {
+        "branch_index": 0,
+        "composition": [
+          2
+        ],
+        "cut_parent": 1,
+        "cut_parent_degree": 1,
+        "rate": "1/3",
+        "rate_over_alpha": "1",
+        "source": [
+          0,
+          1
+        ],
+        "split": [
+          1,
+          1
+        ],
+        "target": [
+          0,
+          0
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 0,
+        "composition": [
+          2
+        ],
+        "cut_parent": 1,
+        "cut_parent_degree": 1,
+        "rate": "1/3",
+        "rate_over_alpha": "1",
+        "source": [
+          0,
+          1
+        ],
+        "split": [
+          1,
+          1
+        ],
+        "target": [
+          0,
+          0
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1"
+      ],
+      "r": 2,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [],
+      "unique_cut_target_failures": []
+    },
+    {
+      "macro_count": 5,
+      "maximum_positive_witness": {
+        "branch_index": 0,
+        "composition": [
+          2,
+          1
+        ],
+        "cut_parent": 1,
+        "cut_parent_degree": 1,
+        "rate": "1/9",
+        "rate_over_alpha": "1",
+        "source": [
+          0,
+          0,
+          1
+        ],
+        "split": [
+          1,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 0,
+        "composition": [
+          3
+        ],
+        "cut_parent": 2,
+        "cut_parent_degree": 1,
+        "rate": "1/18",
+        "rate_over_alpha": "1/2",
+        "source": [
+          0,
+          1,
+          2
+        ],
+        "split": [
+          2,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          1
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1",
+        "1/2"
+      ],
+      "r": 3,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [],
+      "unique_cut_target_failures": []
+    },
+    {
+      "macro_count": 14,
+      "maximum_positive_witness": {
+        "branch_index": 1,
+        "composition": [
+          1,
+          3
+        ],
+        "cut_parent": 2,
+        "cut_parent_degree": 2,
+        "rate": "2/27",
+        "rate_over_alpha": "4/3",
+        "source": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "split": [
+          2,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 1,
+        "composition": [
+          1,
+          3
+        ],
+        "cut_parent": 3,
+        "cut_parent_degree": 1,
+        "rate": "1/54",
+        "rate_over_alpha": "1/3",
+        "source": [
+          0,
+          0,
+          2,
+          3
+        ],
+        "split": [
+          2,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1",
+        "1/2",
+        "1/3",
+        "2/3",
+        "4/3"
+      ],
+      "r": 4,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 1
+        }
+      ],
+      "unique_cut_target_failures": []
+    },
+    {
+      "macro_count": 42,
+      "maximum_positive_witness": {
+        "branch_index": 2,
+        "composition": [
+          1,
+          1,
+          3
+        ],
+        "cut_parent": 3,
+        "cut_parent_degree": 2,
+        "rate": "1/20",
+        "rate_over_alpha": "3/2",
+        "source": [
+          0,
+          0,
+          0,
+          3,
+          3
+        ],
+        "split": [
+          2,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 1,
+        "composition": [
+          1,
+          4
+        ],
+        "cut_parent": 4,
+        "cut_parent_degree": 1,
+        "rate": "1/180",
+        "rate_over_alpha": "1/6",
+        "source": [
+          0,
+          0,
+          2,
+          3,
+          4
+        ],
+        "split": [
+          3,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          2,
+          3
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1",
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/6",
+        "2/3",
+        "3/2",
+        "3/4",
+        "4/3",
+        "5/12",
+        "5/6"
+      ],
+      "r": 5,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "4/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "2/3",
+            "3/4"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "3/2"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/6",
+            "5/6"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/4"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/4",
+            "2/3",
+            "3/4",
+            "5/12"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "1/6"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 2
+        }
+      ],
+      "unique_cut_target_failures": []
+    },
+    {
+      "macro_count": 132,
+      "maximum_positive_witness": {
+        "branch_index": 2,
+        "composition": [
+          1,
+          1,
+          4
+        ],
+        "cut_parent": 3,
+        "cut_parent_degree": 3,
+        "rate": "1/25",
+        "rate_over_alpha": "9/5",
+        "source": [
+          0,
+          0,
+          0,
+          3,
+          3,
+          3
+        ],
+        "split": [
+          3,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          3
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 2,
+        "composition": [
+          1,
+          1,
+          4
+        ],
+        "cut_parent": 5,
+        "cut_parent_degree": 1,
+        "rate": "1/450",
+        "rate_over_alpha": "1/10",
+        "source": [
+          0,
+          0,
+          0,
+          3,
+          4,
+          5
+        ],
+        "split": [
+          3,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          4
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1",
+        "1/10",
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/5",
+        "1/6",
+        "2/15",
+        "2/3",
+        "2/5",
+        "3/10",
+        "3/2",
+        "3/4",
+        "3/5",
+        "4/3",
+        "4/5",
+        "5/12",
+        "5/6",
+        "6/5",
+        "7/10",
+        "7/15",
+        "7/30",
+        "8/15",
+        "8/5",
+        "9/10",
+        "9/20",
+        "9/5"
+      ],
+      "r": 6,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "2/3",
+            "2/5",
+            "3/2",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/5",
+            "2/3",
+            "2/5",
+            "3/4",
+            "3/5",
+            "4/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "3/10",
+            "3/2",
+            "9/10",
+            "9/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "2/3",
+            "2/5",
+            "3/10",
+            "3/2",
+            "4/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "1/6",
+            "2/5",
+            "3/10",
+            "3/5",
+            "5/6",
+            "7/10",
+            "9/10"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "4/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "2/3",
+            "3/4"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "2/5",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/5",
+            "3/10",
+            "3/2"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "2/5",
+            "3/5",
+            "5/6",
+            "7/30",
+            "9/10"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "3/2"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/3",
+            "1/5",
+            "2/15",
+            "2/3",
+            "4/3",
+            "7/15",
+            "8/15"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/6",
+            "5/6"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/5",
+            "2/3",
+            "3/10",
+            "3/4",
+            "4/5",
+            "5/12",
+            "8/15",
+            "9/20"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/4",
+            "2/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/4"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/2",
+            "1/3",
+            "1/6",
+            "3/5",
+            "7/30"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/4",
+            "2/3",
+            "3/4",
+            "5/12"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "1/6"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/3"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 3
+        }
+      ],
+      "unique_cut_target_failures": []
+    },
+    {
+      "macro_count": 429,
+      "maximum_positive_witness": {
+        "branch_index": 3,
+        "composition": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "cut_parent": 4,
+        "cut_parent_degree": 3,
+        "rate": "2/63",
+        "rate_over_alpha": "2",
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          4,
+          4
+        ],
+        "split": [
+          3,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          4
+        ]
+      },
+      "minimum_positive_witness": {
+        "branch_index": 2,
+        "composition": [
+          1,
+          1,
+          5
+        ],
+        "cut_parent": 6,
+        "cut_parent_degree": 1,
+        "rate": "1/1260",
+        "rate_over_alpha": "1/20",
+        "source": [
+          0,
+          0,
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "split": [
+          4,
+          1
+        ],
+        "target": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      "positive_rate_over_alpha_values": [
+        "1",
+        "1/10",
+        "1/15",
+        "1/2",
+        "1/20",
+        "1/3",
+        "1/4",
+        "1/5",
+        "1/6",
+        "11/15",
+        "11/30",
+        "14/15",
+        "19/20",
+        "19/30",
+        "19/60",
+        "2",
+        "2/15",
+        "2/3",
+        "2/5",
+        "3/10",
+        "3/2",
+        "3/20",
+        "3/4",
+        "3/5",
+        "4/15",
+        "4/3",
+        "4/5",
+        "5/12",
+        "5/3",
+        "5/6",
+        "6/5",
+        "7/10",
+        "7/12",
+        "7/15",
+        "7/30",
+        "8/15",
+        "8/5",
+        "9/10",
+        "9/20",
+        "9/5"
+      ],
+      "r": 7,
+      "right_spine_support_failures": [],
+      "same_coarse_parameters_rate_variation": [
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "2/3",
+            "2/5",
+            "3/2",
+            "4/3",
+            "4/5",
+            "5/3",
+            "6/5",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 3,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/5",
+            "1/6",
+            "2/3",
+            "2/5",
+            "3/4",
+            "3/5",
+            "4/5",
+            "5/6"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/5",
+            "2",
+            "3/10",
+            "3/2",
+            "3/5",
+            "6/5",
+            "9/10",
+            "9/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "2/3",
+            "2/5",
+            "3/10",
+            "3/2",
+            "4/15",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/15",
+            "1/2",
+            "1/3",
+            "1/5",
+            "1/6",
+            "14/15",
+            "2/3",
+            "2/5",
+            "3/10",
+            "3/5",
+            "4/5",
+            "5/6",
+            "7/10",
+            "9/10"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "2/3",
+            "2/5",
+            "3/2",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 4,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/5",
+            "2/3",
+            "2/5",
+            "3/4",
+            "3/5",
+            "4/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/5",
+            "2",
+            "2/5",
+            "4/5",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/5",
+            "3/10",
+            "3/2",
+            "3/20",
+            "9/10",
+            "9/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "1/20",
+            "1/5",
+            "19/20",
+            "2/5",
+            "3/20",
+            "3/5",
+            "4/5",
+            "5/6",
+            "7/10",
+            "7/30",
+            "9/10"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "3/10",
+            "3/2",
+            "9/10",
+            "9/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/2",
+            "1/3",
+            "1/5",
+            "2/15",
+            "2/3",
+            "2/5",
+            "3/10",
+            "3/2",
+            "3/5",
+            "4/3",
+            "7/15",
+            "8/15"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "2/3",
+            "2/5",
+            "3/10",
+            "3/2",
+            "4/3"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "4/3"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "1/6",
+            "2/5",
+            "3/10",
+            "3/5",
+            "5/6",
+            "7/10",
+            "9/10"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 5,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "2/3",
+            "3/4"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 5,
+          "cut_parent_degree": 5,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/3",
+            "5/3"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "2/15",
+            "2/5",
+            "4/15",
+            "8/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/15",
+            "1/2",
+            "1/3",
+            "11/15",
+            "14/15",
+            "19/30",
+            "2/15",
+            "2/3",
+            "3/5",
+            "4/15",
+            "5/6",
+            "7/15",
+            "7/30",
+            "9/10"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "2/5",
+            "8/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "1/5",
+            "3/10",
+            "3/2"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/5",
+            "3/10",
+            "3/2"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/15",
+            "1/3",
+            "1/5",
+            "2/15",
+            "2/3",
+            "4/15",
+            "4/3",
+            "7/15",
+            "8/15"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "3/2"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/10",
+            "1/2",
+            "2/5",
+            "3/5",
+            "5/6",
+            "7/30",
+            "9/10"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/3",
+            "1/5",
+            "2/15",
+            "2/3",
+            "4/3",
+            "7/15",
+            "8/15"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "2/3",
+            "4/3"
+          ],
+          "right_size": 4
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/2",
+            "1/6",
+            "5/6"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 6,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 2,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 4
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 5,
+          "cut_parent_degree": 5,
+          "left_size": 6,
+          "rate_over_alpha_values": [
+            "1",
+            "1/6"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 6,
+          "rate_over_alpha_values": [
+            "1/6",
+            "11/30",
+            "19/60",
+            "2/3",
+            "3/10",
+            "3/4",
+            "4/5",
+            "5/12",
+            "5/6",
+            "7/12",
+            "7/15",
+            "7/30",
+            "8/15",
+            "9/20"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 6,
+          "rate_over_alpha_values": [
+            "1",
+            "1/15",
+            "1/3",
+            "1/5"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 4,
+          "cut_parent_degree": 4,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 6,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/15",
+            "1/2",
+            "1/3",
+            "1/6",
+            "2/15",
+            "2/3",
+            "3/5",
+            "4/15",
+            "7/30"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1/5",
+            "2/3",
+            "3/10",
+            "3/4",
+            "4/5",
+            "5/12",
+            "8/15",
+            "9/20"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 6,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/2",
+            "1/20",
+            "1/4",
+            "2/5",
+            "3/20"
+          ],
+          "right_size": 1
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/4",
+            "2/5"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 3,
+          "cut_parent_degree": 3,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/4"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 5,
+          "rate_over_alpha_values": [
+            "1",
+            "1/10",
+            "1/2",
+            "1/3",
+            "1/6",
+            "3/5",
+            "7/30"
+          ],
+          "right_size": 2
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1/4",
+            "2/3",
+            "3/4",
+            "5/12"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 4,
+          "rate_over_alpha_values": [
+            "1",
+            "1/2",
+            "1/3",
+            "1/6"
+          ],
+          "right_size": 3
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 2,
+          "cut_parent_degree": 2,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1",
+            "1/3"
+          ],
+          "right_size": 4
+        },
+        {
+          "branch_size": 7,
+          "cut_parent_child_count": 1,
+          "cut_parent_degree": 1,
+          "left_size": 3,
+          "rate_over_alpha_values": [
+            "1/3",
+            "2/3"
+          ],
+          "right_size": 4
+        }
+      ],
+      "unique_cut_target_failures": []
+    }
+  ],
+  "seed": null,
+  "universal_scope": "A failure refutes the support/uniqueness statement.  A finite pass does not prove its universal plane-tree surgery proof."
+}

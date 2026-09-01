@@ -1,0 +1,195 @@
+{
+  "claim_tested": "A single spanning-tree basis exchange changes only a bounded number of parking-multiset entries under Stanley's bijection.",
+  "n_max": 7,
+  "python": "3.12.3",
+  "rows": [
+    {
+      "multiset_replacements": 3,
+      "n": 5,
+      "parking_1": [
+        0,
+        1,
+        1,
+        3
+      ],
+      "parking_2": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "tree_1": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tree_2": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "multiset_replacements": 4,
+      "n": 6,
+      "parking_1": [
+        0,
+        1,
+        1,
+        3,
+        3
+      ],
+      "parking_2": [
+        0,
+        2,
+        2,
+        0,
+        4
+      ],
+      "tree_1": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tree_2": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "multiset_replacements": 5,
+      "n": 7,
+      "parking_1": [
+        0,
+        1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "parking_2": [
+        0,
+        2,
+        2,
+        0,
+        4,
+        4
+      ],
+      "tree_1": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "tree_2": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    }
+  ],
+  "seed": null,
+  "universal_implication": "The finite sequence can falsify any specified numerical bound; an asymptotic refutation still requires a proved closed form."
+}

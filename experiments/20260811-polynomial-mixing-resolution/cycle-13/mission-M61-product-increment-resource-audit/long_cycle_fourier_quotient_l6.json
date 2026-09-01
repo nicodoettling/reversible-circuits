@@ -1,0 +1,161 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsifier": "If l times the exact minimal-long-cycle product mu diverges, then the universal product-increment O(1/l) claim is false.",
+  "scope_warning": "Exact integer completion counts with final floating spectra can falsify a proposed bound at the recorded lengths, but finite values cannot prove an asymptotic theorem.",
+  "records": [
+    {
+      "N": 7,
+      "length": 3,
+      "endpoint_cycle_type": [
+        7
+      ],
+      "product_support_size": 176,
+      "active_product_count": 105,
+      "cyclic_orbit_count": 15,
+      "orbit_size_histogram": {
+        "7": 15
+      },
+      "completion_cycle_type_count": 12,
+      "maximum_normality_error": 5.551146463846029e-17,
+      "maximum_twist_relation_error": 2.1138016631127878e-16,
+      "mu_product": 0.7469702580138664,
+      "length_times_mu_product": 2.240910774041599,
+      "best_mode": {
+        "frequency": 5,
+        "kappa_real": 0.40483320995884386,
+        "kappa_imag": -0.5076447886570683,
+        "kappa_abs": 0.6493020555460001,
+        "gram_mu": 0.7469702580138664
+      },
+      "block_dimensions": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "N": 9,
+      "length": 4,
+      "endpoint_cycle_type": [
+        9
+      ],
+      "product_support_size": 547,
+      "active_product_count": 336,
+      "cyclic_orbit_count": 38,
+      "orbit_size_histogram": {
+        "3": 1,
+        "9": 37
+      },
+      "completion_cycle_type_count": 21,
+      "maximum_normality_error": 3.469446951953614e-17,
+      "maximum_twist_relation_error": 2.7633878174254497e-16,
+      "mu_product": 0.6334248508476199,
+      "length_times_mu_product": 2.5336994033904796,
+      "best_mode": {
+        "frequency": 7,
+        "kappa_real": 0.4080322036869284,
+        "kappa_imag": -0.34237967162215555,
+        "kappa_abs": 0.5326482129752301,
+        "gram_mu": 0.6334248508476199
+      },
+      "block_dimensions": [
+        38,
+        37,
+        37,
+        38,
+        37,
+        37,
+        38,
+        37,
+        37
+      ]
+    },
+    {
+      "N": 11,
+      "length": 5,
+      "endpoint_cycle_type": [
+        11
+      ],
+      "product_support_size": 1321,
+      "active_product_count": 825,
+      "cyclic_orbit_count": 75,
+      "orbit_size_histogram": {
+        "11": 75
+      },
+      "completion_cycle_type_count": 32,
+      "maximum_normality_error": 2.0816681711721685e-17,
+      "maximum_twist_relation_error": 1.306006013385063e-16,
+      "mu_product": 0.564851524031324,
+      "length_times_mu_product": 2.82425762015662,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.39648697151177514,
+        "kappa_imag": 0.2548067045462695,
+        "kappa_abs": 0.4713049705448788,
+        "gram_mu": 0.564851524031324
+      },
+      "block_dimensions": [
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
+      ]
+    },
+    {
+      "N": 13,
+      "length": 6,
+      "endpoint_cycle_type": [
+        13
+      ],
+      "product_support_size": 2718,
+      "active_product_count": 1716,
+      "cyclic_orbit_count": 132,
+      "orbit_size_histogram": {
+        "13": 132
+      },
+      "completion_cycle_type_count": 48,
+      "maximum_normality_error": 2.3083069105747755e-17,
+      "maximum_twist_relation_error": 3.187752045048612e-16,
+      "mu_product": 0.517132894215495,
+      "length_times_mu_product": 3.10279736529297,
+      "best_mode": {
+        "frequency": 2,
+        "kappa_real": 0.3822353345748711,
+        "kappa_imag": 0.20061257928625292,
+        "kappa_abs": 0.4316818944146798,
+        "gram_mu": 0.517132894215495
+      },
+      "block_dimensions": [
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132,
+        132
+      ]
+    }
+  ]
+}

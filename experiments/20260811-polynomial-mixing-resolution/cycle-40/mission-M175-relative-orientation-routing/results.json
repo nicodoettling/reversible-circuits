@@ -1,0 +1,202 @@
+{
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "dependencies": {},
+  "experiment": "M175 bounded relative-orientation cycle audit",
+  "hurwitz_convention": "R_j(a,b)=(b,b^{-1}ab)",
+  "python": "3.12.3",
+  "rows": [
+    {
+      "d": 3,
+      "ordered_pair_cycle_space": {
+        "all_pair_stabilizer_voltages_trivial": true,
+        "augmented_bfs_cross_check_all": true,
+        "component_count": 2,
+        "component_size_voltage_rank_histogram": [
+          {
+            "base_size": 4,
+            "count": 1,
+            "rank": 0
+          },
+          {
+            "base_size": 12,
+            "count": 1,
+            "rank": 0
+          }
+        ],
+        "first_nonzero_cycle_certificate": null,
+        "ordered_pairs": 16
+      },
+      "physical_count": 24,
+      "quotient_count": 4,
+      "signed_generator_count": 6,
+      "synchronized_coboundary": {
+        "consistent": false,
+        "equations": 24,
+        "meaning": "edge label is vertex coboundary plus a generator-only bit",
+        "rank_before_contradiction_or_full_rank": 4,
+        "variables": 7
+      }
+    },
+    {
+      "d": 4,
+      "ordered_pair_cycle_space": {
+        "all_pair_stabilizer_voltages_trivial": false,
+        "augmented_bfs_cross_check_all": true,
+        "component_count": 4,
+        "component_size_voltage_rank_histogram": [
+          {
+            "base_size": 120,
+            "count": 1,
+            "rank": 0
+          },
+          {
+            "base_size": 240,
+            "count": 1,
+            "rank": 0
+          },
+          {
+            "base_size": 4320,
+            "count": 1,
+            "rank": 1
+          },
+          {
+            "base_size": 9720,
+            "count": 1,
+            "rank": 0
+          }
+        ],
+        "first_nonzero_cycle_certificate": {
+          "closed_signed_generator_word": [
+            -4,
+            -3,
+            -5,
+            -4
+          ],
+          "component_seed": [
+            0,
+            1
+          ],
+          "direct_replay_endpoint": [
+            0,
+            1
+          ],
+          "direct_replay_voltage": 1,
+          "edge_from": [
+            8,
+            6
+          ],
+          "edge_generator": -3,
+          "edge_to": [
+            4,
+            7
+          ],
+          "relative_voltage": 1
+        },
+        "ordered_pairs": 14400,
+        "short_positive_certificate": {
+          "chronological_positive_word": [
+            4,
+            3,
+            5,
+            4
+          ],
+          "endpoint_quotient_indices": [
+            0,
+            1
+          ],
+          "literal_transporters": [
+            {
+              "permutation_images": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "sign_bit": 1
+            },
+            {
+              "permutation_images": [
+                1,
+                0,
+                3,
+                2
+              ],
+              "sign_bit": 0
+            }
+          ],
+          "relative_voltage": 1,
+          "source_canonical_words": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "source_quotient_indices": [
+            0,
+            1
+          ]
+        }
+      },
+      "physical_count": 2880,
+      "quotient_count": 120,
+      "signed_generator_count": 10,
+      "synchronized_coboundary": {
+        "consistent": false,
+        "equations": 1200,
+        "meaning": "edge label is vertex coboundary plus a generator-only bit",
+        "rank_before_contradiction_or_full_rank": 82,
+        "variables": 125
+      }
+    }
+  ],
+  "scope": "exact d=3,4 only; no d=5 quotient enumeration",
+  "seed": null
+}

@@ -1,0 +1,422 @@
+{
+  "claim_tested": "At r=floor((N-1)/2), neighboring feasible buffer-fiber counts F_r(d')/F_r(d), for d'=p(Y)^(-1)d p(X), are bounded by N^C for a universal C. Four-transposition class adjacency is a necessary superset/equivalent class-level reachability test.",
+  "logical_scope": "Finite exact falsification only; no asymptotic proof.",
+  "python": "3.12.3",
+  "command": "python3 bridge_count_ratio.py --n-min 3 --n-max 20 --output bridge_count_ratios_N3_N20.json",
+  "rows": [
+    {
+      "N": 3,
+      "r": 1,
+      "micro_length": 2,
+      "partition_count": 3,
+      "feasible_type_count": 2,
+      "max_ratio_numerator": "1",
+      "max_ratio_denominator": "1",
+      "max_ratio_float": 1.0,
+      "effective_N_exponent": 0.0,
+      "source_type": null,
+      "target_type": null
+    },
+    {
+      "N": 4,
+      "r": 1,
+      "micro_length": 2,
+      "partition_count": 5,
+      "feasible_type_count": 3,
+      "max_ratio_numerator": "6",
+      "max_ratio_denominator": "2",
+      "max_ratio_float": 3.0,
+      "effective_N_exponent": 0.7924812503605781,
+      "source_type": [
+        2,
+        2
+      ],
+      "target_type": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 5,
+      "r": 2,
+      "micro_length": 4,
+      "partition_count": 7,
+      "feasible_type_count": 4,
+      "max_ratio_numerator": "340",
+      "max_ratio_denominator": "125",
+      "max_ratio_float": 2.72,
+      "effective_N_exponent": 0.6217275438693741,
+      "source_type": [
+        5
+      ],
+      "target_type": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 6,
+      "r": 2,
+      "micro_length": 4,
+      "partition_count": 11,
+      "feasible_type_count": 6,
+      "max_ratio_numerator": "765",
+      "max_ratio_denominator": "54",
+      "max_ratio_float": 14.166666666666666,
+      "effective_N_exponent": 1.4794908763084964,
+      "source_type": [
+        3,
+        3
+      ],
+      "target_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 7,
+      "r": 3,
+      "micro_length": 6,
+      "partition_count": 15,
+      "feasible_type_count": 8,
+      "max_ratio_numerator": "197421",
+      "max_ratio_denominator": "21042",
+      "max_ratio_float": 9.382235528942116,
+      "effective_N_exponent": 1.150524891923004,
+      "source_type": [
+        3,
+        2,
+        2
+      ],
+      "target_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 8,
+      "r": 3,
+      "micro_length": 6,
+      "partition_count": 22,
+      "feasible_type_count": 12,
+      "max_ratio_numerator": "171468",
+      "max_ratio_denominator": "5120",
+      "max_ratio_float": 33.48984375,
+      "effective_N_exponent": 1.6885505799729907,
+      "source_type": [
+        4,
+        4
+      ],
+      "target_type": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 9,
+      "r": 4,
+      "micro_length": 8,
+      "partition_count": 30,
+      "feasible_type_count": 16,
+      "max_ratio_numerator": "137046843",
+      "max_ratio_denominator": "5817420",
+      "max_ratio_float": 23.55801076765989,
+      "effective_N_exponent": 1.4379349089736817,
+      "source_type": [
+        3,
+        3,
+        3
+      ],
+      "target_type": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 10,
+      "r": 4,
+      "micro_length": 8,
+      "partition_count": 42,
+      "feasible_type_count": 22,
+      "max_ratio_numerator": "101959375",
+      "max_ratio_denominator": "1093750",
+      "max_ratio_float": 93.22,
+      "effective_N_exponent": 1.9695090985965666,
+      "source_type": [
+        5,
+        5
+      ],
+      "target_type": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 11,
+      "r": 5,
+      "micro_length": 10,
+      "partition_count": 56,
+      "feasible_type_count": 29,
+      "max_ratio_numerator": "195223268750",
+      "max_ratio_denominator": "3207093750",
+      "max_ratio_float": 60.872329893692694,
+      "effective_N_exponent": 1.7134938147360628,
+      "source_type": [
+        5,
+        3,
+        3
+      ],
+      "target_type": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 12,
+      "r": 5,
+      "micro_length": 10,
+      "partition_count": 77,
+      "feasible_type_count": 40,
+      "max_ratio_numerator": "103980656829",
+      "max_ratio_denominator": "441183750",
+      "max_ratio_float": 235.6856,
+      "effective_N_exponent": 2.1982711961956283,
+      "source_type": [
+        7,
+        5
+      ],
+      "target_type": [
+        7,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 13,
+      "r": 6,
+      "micro_length": 12,
+      "partition_count": 101,
+      "feasible_type_count": 52,
+      "max_ratio_numerator": "413097417641986",
+      "max_ratio_denominator": "2904498276372",
+      "max_ratio_float": 142.22677320985872,
+      "effective_N_exponent": 1.9327565917728422,
+      "source_type": [
+        7,
+        3,
+        3
+      ],
+      "target_type": [
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 14,
+      "r": 6,
+      "micro_length": 12,
+      "partition_count": 135,
+      "feasible_type_count": 69,
+      "max_ratio_numerator": "158749333479198",
+      "max_ratio_denominator": "295946206875",
+      "max_ratio_float": 536.4128,
+      "effective_N_exponent": 2.381495825567395,
+      "source_type": [
+        9,
+        5
+      ],
+      "target_type": [
+        9,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 15,
+      "r": 7,
+      "micro_length": 14,
+      "partition_count": 176,
+      "feasible_type_count": 90,
+      "max_ratio_numerator": "1190692127682982782",
+      "max_ratio_denominator": "3804395592087090",
+      "max_ratio_float": 312.9780010679093,
+      "effective_N_exponent": 2.1218708950089904,
+      "source_type": [
+        9,
+        3,
+        3
+      ],
+      "target_type": [
+        9,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 16,
+      "r": 7,
+      "micro_length": 14,
+      "partition_count": 231,
+      "feasible_type_count": 118,
+      "max_ratio_numerator": "334094182239794977",
+      "max_ratio_denominator": "295038204836375",
+      "max_ratio_float": 1132.376,
+      "effective_N_exponent": 2.536284340581181,
+      "source_type": [
+        11,
+        5
+      ],
+      "target_type": [
+        11,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 17,
+      "r": 8,
+      "micro_length": 16,
+      "partition_count": 297,
+      "feasible_type_count": 151,
+      "max_ratio_numerator": "4421076948588792821758",
+      "max_ratio_denominator": "6759928836671816520",
+      "max_ratio_float": 654.0123506337777,
+      "effective_N_exponent": 2.288259106798621,
+      "source_type": [
+        11,
+        3,
+        3
+      ],
+      "target_type": [
+        11,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 18,
+      "r": 8,
+      "micro_length": 16,
+      "partition_count": 385,
+      "feasible_type_count": 195,
+      "max_ratio_numerator": "916604121796314578146",
+      "max_ratio_denominator": "407716489643417500",
+      "max_ratio_float": 2248.140914285714,
+      "effective_N_exponent": 2.670195926269863,
+      "source_type": [
+        13,
+        5
+      ],
+      "target_type": [
+        13,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 19,
+      "r": 9,
+      "micro_length": 18,
+      "partition_count": 490,
+      "feasible_type_count": 248,
+      "max_ratio_numerator": "20322181090367635345670336",
+      "max_ratio_denominator": "15609877555868763894090",
+      "max_ratio_float": 1301.8795962769875,
+      "effective_N_exponent": 2.4356301466111057,
+      "source_type": [
+        13,
+        3,
+        3
+      ],
+      "target_type": [
+        13,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "N": 20,
+      "r": 9,
+      "micro_length": 18,
+      "partition_count": 627,
+      "feasible_type_count": 317,
+      "max_ratio_numerator": "3150919787077880859375000",
+      "max_ratio_denominator": "744419613647460937500",
+      "max_ratio_float": 4232.72,
+      "effective_N_exponent": 2.7874987912339937,
+      "source_type": [
+        15,
+        5
+      ],
+      "target_type": [
+        15,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

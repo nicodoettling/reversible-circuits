@@ -1,0 +1,222 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/subset_tail_audit.py",
+    "--case",
+    "1",
+    "2",
+    "3",
+    "4",
+    "--case",
+    "2",
+    "2",
+    "3",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/subset-tail-results.json"
+  ],
+  "claim_tested": "Whether a fixed tail level alone supplies a safe-duplicate probability lower bound for W_L.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "method": "Literal enumeration of all selected subsets whose unselected complement has the requested size; exact stable-residual formula; exact duplicate and connectivity predicates.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "L": 1,
+      "k": 16,
+      "n": 8,
+      "tail_levels": [
+        {
+          "elapsed_seconds": 0.0016631889156997204,
+          "examples": [],
+          "one_level_safe_hit_probability_denominator": 120,
+          "one_level_safe_hit_probability_numerator": 0,
+          "safe_pair_histogram": {
+            "0": 120
+          },
+          "safe_pair_total": 0,
+          "safe_subset_count": 0,
+          "selected_count": 14,
+          "subset_count": 120,
+          "unselected_count": 2
+        },
+        {
+          "elapsed_seconds": 0.006876508938148618,
+          "examples": [],
+          "one_level_safe_hit_probability_denominator": 1680,
+          "one_level_safe_hit_probability_numerator": 0,
+          "safe_pair_histogram": {
+            "0": 560
+          },
+          "safe_pair_total": 0,
+          "safe_subset_count": 0,
+          "selected_count": 13,
+          "subset_count": 560,
+          "unselected_count": 3
+        },
+        {
+          "elapsed_seconds": 0.023084094980731606,
+          "examples": [
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  7
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                1,
+                2,
+                7
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  13
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                1,
+                4,
+                13
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  11
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                2,
+                5,
+                11
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  10
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                4,
+                5,
+                10
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  14
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                4,
+                8,
+                14
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  15
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                5,
+                9,
+                15
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  0,
+                  12
+                ]
+              ],
+              "unselected_complement": [
+                0,
+                8,
+                9,
+                12
+              ]
+            },
+            {
+              "safe_pairs": [
+                [
+                  1,
+                  15
+                ]
+              ],
+              "unselected_complement": [
+                1,
+                5,
+                6,
+                15
+              ]
+            }
+          ],
+          "one_level_safe_hit_probability_denominator": 10920,
+          "one_level_safe_hit_probability_numerator": 19,
+          "safe_pair_histogram": {
+            "0": 1801,
+            "1": 19
+          },
+          "safe_pair_total": 19,
+          "safe_subset_count": 19,
+          "selected_count": 12,
+          "subset_count": 1820,
+          "unselected_count": 4
+        }
+      ]
+    },
+    {
+      "L": 2,
+      "k": 64,
+      "n": 32,
+      "tail_levels": [
+        {
+          "elapsed_seconds": 0.1847536179702729,
+          "examples": [],
+          "one_level_safe_hit_probability_denominator": 2016,
+          "one_level_safe_hit_probability_numerator": 0,
+          "safe_pair_histogram": {
+            "0": 2016
+          },
+          "safe_pair_total": 0,
+          "safe_subset_count": 0,
+          "selected_count": 62,
+          "subset_count": 2016,
+          "unselected_count": 2
+        },
+        {
+          "elapsed_seconds": 3.7895054649561644,
+          "examples": [],
+          "one_level_safe_hit_probability_denominator": 124992,
+          "one_level_safe_hit_probability_numerator": 0,
+          "safe_pair_histogram": {
+            "0": 41664
+          },
+          "safe_pair_total": 0,
+          "safe_subset_count": 0,
+          "selected_count": 61,
+          "subset_count": 41664,
+          "unselected_count": 3
+        }
+      ]
+    }
+  ],
+  "seed": null
+}

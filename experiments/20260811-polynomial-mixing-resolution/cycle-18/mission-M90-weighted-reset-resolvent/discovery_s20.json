@@ -1,0 +1,91 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley coefficients",
+  "claim_tested": "right-heavy K_reset W <= W",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 18.527584552764893,
+  "normalization": "g=q*(I-D)^-1*J_can*W; Dhat=rho*nu over every j>=1; reset term=(theta^2/Q)*(1-q_child)",
+  "parameters": {
+    "K_values": [
+      1,
+      2,
+      4,
+      16,
+      256
+    ],
+    "include_infinite": true,
+    "s_values": [
+      8,
+      11,
+      14,
+      18,
+      20
+    ]
+  },
+  "python": "3.12.3",
+  "result": {
+    "core_diagnostics": {
+      "max_contextual_mean_error": 0.0,
+      "max_group_mass_error": 4.440892098500626e-15,
+      "max_negative_roundoff": 0.0
+    },
+    "memoized_weighted_contexts": 25075,
+    "overall_worst": {
+      "B": 7,
+      "K": 1,
+      "R": 0,
+      "q": 0.039027598843827255,
+      "ratio": 0.6781776227304537,
+      "s": 20,
+      "transformed_value": 0.025434675604419088
+    },
+    "rank_worst_rows": [
+      {
+        "B": 4,
+        "K": 1,
+        "R": 0,
+        "q": 0.11708208855211011,
+        "ratio": 0.43715035400213054,
+        "s": 8,
+        "transformed_value": 0.04518992521690784
+      },
+      {
+        "B": 5,
+        "K": 1,
+        "R": 0,
+        "q": 0.07837900257580542,
+        "ratio": 0.5391499615007597,
+        "s": 11,
+        "transformed_value": 0.038945893491382465
+      },
+      {
+        "B": 5,
+        "K": 1,
+        "R": 0,
+        "q": 0.06429211646573516,
+        "ratio": 0.6035680661938515,
+        "s": 14,
+        "transformed_value": 0.03630983414611369
+      },
+      {
+        "B": 7,
+        "K": 1,
+        "R": 0,
+        "q": 0.042300378180866675,
+        "ratio": 0.6588223506164808,
+        "s": 18,
+        "transformed_value": 0.026689589262826854
+      },
+      {
+        "B": 7,
+        "K": 1,
+        "R": 0,
+        "q": 0.039027598843827255,
+        "ratio": 0.6781776227304537,
+        "s": 20,
+        "transformed_value": 0.025434675604419088
+      }
+    ]
+  },
+  "seed": null,
+  "status_rule": "binary64 is discovery only; any candidate violation requires independent exact certification; survival proves no theorem"
+}

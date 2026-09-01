@@ -1,0 +1,745 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/voltage_lift_audit.py",
+    "--L",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M81-m78-referee-voltage/m78-voltage-extra-L4-L8.json"
+  ],
+  "audits": [
+    {
+      "L": 4,
+      "collision_example": {
+        "current_outputs": [
+          [
+            48,
+            76
+          ],
+          [
+            15,
+            76
+          ],
+          [
+            15,
+            95
+          ],
+          [
+            15,
+            95
+          ]
+        ],
+        "original_label_order": [
+          16,
+          95,
+          0,
+          143
+        ],
+        "residual_connected": false
+      },
+      "component_length": 256,
+      "component_vertex_count": 128,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          3
+        ]
+      ],
+      "four_cycle_collision_order_count": 512,
+      "four_cycle_count": 128,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 128
+      },
+      "support_simple": true
+    },
+    {
+      "L": 5,
+      "collision_example": {
+        "current_outputs": [
+          [
+            75,
+            120
+          ],
+          [
+            24,
+            120
+          ],
+          [
+            24,
+            149
+          ],
+          [
+            24,
+            149
+          ]
+        ],
+        "original_label_order": [
+          25,
+          149,
+          0,
+          224
+        ],
+        "residual_connected": false
+      },
+      "component_length": 400,
+      "component_vertex_count": 200,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "four_cycle_collision_order_count": 800,
+      "four_cycle_count": 200,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 200
+      },
+      "support_simple": true
+    },
+    {
+      "L": 6,
+      "collision_example": {
+        "current_outputs": [
+          [
+            108,
+            174
+          ],
+          [
+            35,
+            174
+          ],
+          [
+            35,
+            215
+          ],
+          [
+            35,
+            215
+          ]
+        ],
+        "original_label_order": [
+          36,
+          215,
+          0,
+          323
+        ],
+        "residual_connected": false
+      },
+      "component_length": 576,
+      "component_vertex_count": 288,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "four_cycle_collision_order_count": 1152,
+      "four_cycle_count": 288,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 288
+      },
+      "support_simple": true
+    },
+    {
+      "L": 7,
+      "collision_example": {
+        "current_outputs": [
+          [
+            147,
+            238
+          ],
+          [
+            48,
+            238
+          ],
+          [
+            48,
+            293
+          ],
+          [
+            48,
+            293
+          ]
+        ],
+        "original_label_order": [
+          49,
+          293,
+          0,
+          440
+        ],
+        "residual_connected": false
+      },
+      "component_length": 784,
+      "component_vertex_count": 392,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "four_cycle_collision_order_count": 1568,
+      "four_cycle_count": 392,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 392
+      },
+      "support_simple": true
+    },
+    {
+      "L": 8,
+      "collision_example": {
+        "current_outputs": [
+          [
+            192,
+            312
+          ],
+          [
+            63,
+            312
+          ],
+          [
+            63,
+            383
+          ],
+          [
+            63,
+            383
+          ]
+        ],
+        "original_label_order": [
+          64,
+          383,
+          0,
+          575
+        ],
+        "residual_connected": false
+      },
+      "component_length": 1024,
+      "component_vertex_count": 512,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          7
+        ]
+      ],
+      "four_cycle_collision_order_count": 2048,
+      "four_cycle_count": 512,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 512
+      },
+      "support_simple": true
+    }
+  ],
+  "base_word": [
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "claim_tested": "The explicit Z_L^2 voltage lifts are connected simple genus-one identity words with no safe canonical-elimination prefix through depth two.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); left-to-right products; canonical positive elimination conjugates all residual factors to the left",
+  "elapsed_seconds": 23.847880000947043,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "This exact bounded-depth refutation is not an upper bound on the total full-prefix hit probability.",
+  "seed": null,
+  "voltage_x": [
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "voltage_y": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

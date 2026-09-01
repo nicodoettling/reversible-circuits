@@ -1,0 +1,25 @@
+{
+  "N": 5,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M68-intermediate-exterior-layer-action/exact_n5_square_domination_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M68-intermediate-exterior-layer-action/exact-n5-square-domination.json"
+  ],
+  "claim_tested": "Every exterior state is at literal K graph distance at most one from a deletable-surplus-square state in the same macro.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); literal H3/H4/H5 outside-window adjacency",
+  "dominated_size": 762940,
+  "elapsed_seconds": 15.64171235007234,
+  "exterior_size": 762940,
+  "m": 8,
+  "macro_count": 90,
+  "marked_macro_count": 90,
+  "marked_size": 538510,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "Finite N=5 can refute only the named domination lemma.",
+  "seed": null,
+  "undominated_examples": [],
+  "undominated_macro_count": 0,
+  "undominated_size": 0
+}

@@ -1,0 +1,32 @@
+{
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "computation": {
+    "d5_closure_launched": false,
+    "exact_finite_inference": null,
+    "reason": "The structural theorem met the mission fallback; the requested cap forbids a broad Schreier closure."
+  },
+  "experiment": "M169 white-root monodromy and relative-orientation cover",
+  "frozen_predecessor_sha256sum_lists_verified": [
+    "M135",
+    "M137",
+    "M141",
+    "M143",
+    "M146",
+    "M148",
+    "M154",
+    "M158",
+    "M163",
+    "M164"
+  ],
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "status": {
+    "full_vstab_for_d_ge_5": "unresolved",
+    "gap_or_mixing": "not claimed",
+    "polynomial_braid_length": "unresolved",
+    "root_monodromy_equals_inverse_transporter": "proved",
+    "tuple_monodromy_exact_sequence_for_accepted_d_ge_5_matchings": "proved",
+    "zero_coset_equals_relative_orientation_lift_orbit": "proved"
+  },
+  "target": "qualitative braid-orbit lifting on the minimal connected identity sector; not a sampler or spectral claim"
+}

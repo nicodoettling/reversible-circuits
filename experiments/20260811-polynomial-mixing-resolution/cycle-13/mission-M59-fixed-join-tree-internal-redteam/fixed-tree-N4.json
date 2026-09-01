@@ -1,0 +1,3263 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M59-fixed-join-tree-internal-redteam/fixed_tree_restriction_audit.py",
+    "--N",
+    "4",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M59-fixed-join-tree-internal-redteam/fixed-tree-N4.json"
+  ],
+  "claims_tested": [
+    "Every fixed labeled join-tree fiber at N=4 is connected under rejected-exit r=3,4,5 heat-bath support.",
+    "Join-rank and leaf-null-separation threshold cuts can be trapped after full K exits are included."
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); right-appending swaps domain entries",
+  "kernel": "lazy K; nontrivial mechanisms use 1/[6(m-r+1)|F_r(product)|]",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "N=4 connectivity and positive flow can falsify but cannot prove any universal asymptotic theorem.",
+  "seed": null,
+  "summary": {
+    "N": 4,
+    "all_restrictions_connected": true,
+    "identity_words": 3936,
+    "labeled_tree_fibers": 16,
+    "m": 6,
+    "maximum_support_diameter": 2,
+    "minimal_full_support_words": 2880
+  },
+  "trees": [
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 1,
+      "component_sizes": [
+        186
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2940,
+        "4": 7254,
+        "5": 17220
+      },
+      "fiber_size": 186,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restricted_escape": "600121/107069040",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "61331011/142758720",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "129563/870480",
+            "5": "13103/81344"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "28789/7834320",
+            "5": "523/81344"
+          },
+          "restricted_escape": "2924551/256965696",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388978781/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "804823/5054400",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "323/19200",
+            "4": "12713/1010880",
+            "5": "181/19680"
+          },
+          "restricted_escape": "31993259/828921600",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "394029319/870367680",
+          "full_by_r": {
+            "3": "29/210",
+            "4": "1637131/10614240",
+            "5": "26513/165312"
+          },
+          "restricted_by_r": {
+            "3": "57/4480",
+            "4": "12851/1516320",
+            "5": "1/168"
+          },
+          "restricted_escape": "1152737/42456960",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 84,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "106880305/240387264",
+          "full_by_r": {
+            "3": "597/4640",
+            "4": "1130221/7328880",
+            "5": "36923/228288"
+          },
+          "restricted_by_r": {
+            "3": "151/11136",
+            "4": "4595/488592",
+            "5": "53/7872"
+          },
+          "restricted_escape": "4759175/160258176",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 58,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "413768603/911813760",
+          "full_by_r": {
+            "3": "569/4224",
+            "4": "217033/1389960",
+            "5": "4703/28864"
+          },
+          "restricted_by_r": {
+            "3": "91/5280",
+            "4": "38/3861",
+            "5": "679/86592"
+          },
+          "restricted_escape": "1768829/50656320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 22,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ]
+            ]
+          ],
+          "size": 186
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 62,
+          "2": 62,
+          "3": 62
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 44,
+          "3": 44,
+          "4": 36,
+          "5": 22
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7635
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 2,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "1041421447/2486764800",
+          "full_by_r": {
+            "3": "6643/57600",
+            "4": "138287/947700",
+            "5": "9301/59040"
+          },
+          "restricted_by_r": {
+            "3": "1/800",
+            "4": "9/5200",
+            "5": "313/118080"
+          },
+          "restricted_escape": "43223/7675200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 60,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "250419131/580245120",
+          "full_by_r": {
+            "3": "267/2240",
+            "4": "213163/1415232",
+            "5": "17827/110208"
+          },
+          "restricted_by_r": {
+            "3": "3/2240",
+            "4": "27539/7076160",
+            "5": "719/110208"
+          },
+          "restricted_escape": "6820847/580245120",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 56,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 60,
+          "2": 62,
+          "3": 56
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 1,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 2,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "1041421447/2486764800",
+          "full_by_r": {
+            "3": "6643/57600",
+            "4": "138287/947700",
+            "5": "9301/59040"
+          },
+          "restricted_by_r": {
+            "3": "1/800",
+            "4": "9/5200",
+            "5": "313/118080"
+          },
+          "restricted_escape": "43223/7675200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 60,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "250419131/580245120",
+          "full_by_r": {
+            "3": "267/2240",
+            "4": "213163/1415232",
+            "5": "17827/110208"
+          },
+          "restricted_by_r": {
+            "3": "3/2240",
+            "4": "27539/7076160",
+            "5": "719/110208"
+          },
+          "restricted_escape": "6820847/580245120",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 56,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 60,
+          "2": 62,
+          "3": 56
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 1,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        186
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2940,
+        "4": 7254,
+        "5": 17220
+      },
+      "fiber_size": 186,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restricted_escape": "600121/107069040",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "61331011/142758720",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "129563/870480",
+            "5": "13103/81344"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "28789/7834320",
+            "5": "523/81344"
+          },
+          "restricted_escape": "2924551/256965696",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388978781/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "804823/5054400",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "323/19200",
+            "4": "12713/1010880",
+            "5": "181/19680"
+          },
+          "restricted_escape": "31993259/828921600",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "394029319/870367680",
+          "full_by_r": {
+            "3": "29/210",
+            "4": "1637131/10614240",
+            "5": "26513/165312"
+          },
+          "restricted_by_r": {
+            "3": "57/4480",
+            "4": "12851/1516320",
+            "5": "1/168"
+          },
+          "restricted_escape": "1152737/42456960",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 84,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "106880305/240387264",
+          "full_by_r": {
+            "3": "597/4640",
+            "4": "1130221/7328880",
+            "5": "36923/228288"
+          },
+          "restricted_by_r": {
+            "3": "151/11136",
+            "4": "4595/488592",
+            "5": "53/7872"
+          },
+          "restricted_escape": "4759175/160258176",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 58,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "413768603/911813760",
+          "full_by_r": {
+            "3": "569/4224",
+            "4": "217033/1389960",
+            "5": "4703/28864"
+          },
+          "restricted_by_r": {
+            "3": "91/5280",
+            "4": "38/3861",
+            "5": "679/86592"
+          },
+          "restricted_escape": "1768829/50656320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 22,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "size": 186
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 62,
+          "2": 62,
+          "3": 62
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 44,
+          "3": 44,
+          "4": 36,
+          "5": 22
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7635
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        1
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        2
+      ],
+      "canonical_leaf": 1,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "1041421447/2486764800",
+          "full_by_r": {
+            "3": "6643/57600",
+            "4": "138287/947700",
+            "5": "9301/59040"
+          },
+          "restricted_by_r": {
+            "3": "1/800",
+            "4": "9/5200",
+            "5": "313/118080"
+          },
+          "restricted_escape": "43223/7675200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 60,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "250419131/580245120",
+          "full_by_r": {
+            "3": "267/2240",
+            "4": "213163/1415232",
+            "5": "17827/110208"
+          },
+          "restricted_by_r": {
+            "3": "3/2240",
+            "4": "27539/7076160",
+            "5": "719/110208"
+          },
+          "restricted_escape": "6820847/580245120",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 56,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 60,
+          "2": 62,
+          "3": 56
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        2
+      ],
+      "canonical_leaf": 1,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        2
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        2
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        186
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2940,
+        "4": 7254,
+        "5": 17220
+      },
+      "fiber_size": 186,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restricted_escape": "600121/107069040",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "61331011/142758720",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "129563/870480",
+            "5": "13103/81344"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "28789/7834320",
+            "5": "523/81344"
+          },
+          "restricted_escape": "2924551/256965696",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388978781/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "804823/5054400",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "323/19200",
+            "4": "12713/1010880",
+            "5": "181/19680"
+          },
+          "restricted_escape": "31993259/828921600",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "394029319/870367680",
+          "full_by_r": {
+            "3": "29/210",
+            "4": "1637131/10614240",
+            "5": "26513/165312"
+          },
+          "restricted_by_r": {
+            "3": "57/4480",
+            "4": "12851/1516320",
+            "5": "1/168"
+          },
+          "restricted_escape": "1152737/42456960",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 84,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "106880305/240387264",
+          "full_by_r": {
+            "3": "597/4640",
+            "4": "1130221/7328880",
+            "5": "36923/228288"
+          },
+          "restricted_by_r": {
+            "3": "151/11136",
+            "4": "4595/488592",
+            "5": "53/7872"
+          },
+          "restricted_escape": "4759175/160258176",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 58,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "413768603/911813760",
+          "full_by_r": {
+            "3": "569/4224",
+            "4": "217033/1389960",
+            "5": "4703/28864"
+          },
+          "restricted_by_r": {
+            "3": "91/5280",
+            "4": "38/3861",
+            "5": "679/86592"
+          },
+          "restricted_escape": "1768829/50656320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 22,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 186
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 62,
+          "2": 62,
+          "3": 62
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 44,
+          "3": 44,
+          "4": 36,
+          "5": 22
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7635
+    },
+    {
+      "canonical_edge": [
+        0,
+        2
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        3
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        3
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2912,
+        "4": 6848,
+        "5": 15906
+      },
+      "fiber_size": 178,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "restricted_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restricted_escape": "5089343/815106240",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 59,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "restricted_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restricted_escape": "3792331/280912320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 61,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restricted_escape": "63192947/1657843200",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "restricted_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restricted_escape": "2058041/75523968",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 82,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "restricted_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restricted_escape": "4677199/151968960",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 55,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "restricted_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restricted_escape": "31136393/870367680",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 21,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 178
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 59,
+          "2": 58,
+          "3": 61
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 42,
+          "3": 41,
+          "4": 34,
+          "5": 21
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7031
+    },
+    {
+      "canonical_edge": [
+        0,
+        3
+      ],
+      "canonical_leaf": 0,
+      "component_sizes": [
+        186
+      ],
+      "components": 1,
+      "directed_internal_mechanisms_by_r": {
+        "3": 2940,
+        "4": 7254,
+        "5": 17220
+      },
+      "fiber_size": 186,
+      "named_cut_flows": [
+        {
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restricted_escape": "600121/107069040",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "61331011/142758720",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "129563/870480",
+            "5": "13103/81344"
+          },
+          "restricted_by_r": {
+            "3": "19/14880",
+            "4": "28789/7834320",
+            "5": "523/81344"
+          },
+          "restricted_escape": "2924551/256965696",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 62,
+          "statistic": "join_rank",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "388978781/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "804823/5054400",
+            "5": "1609/9840"
+          },
+          "restricted_by_r": {
+            "3": "323/19200",
+            "4": "12713/1010880",
+            "5": "181/19680"
+          },
+          "restricted_escape": "31993259/828921600",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 40,
+          "statistic": "leaf_null_separation",
+          "threshold": 1
+        },
+        {
+          "full_K_escape": "394029319/870367680",
+          "full_by_r": {
+            "3": "29/210",
+            "4": "1637131/10614240",
+            "5": "26513/165312"
+          },
+          "restricted_by_r": {
+            "3": "57/4480",
+            "4": "12851/1516320",
+            "5": "1/168"
+          },
+          "restricted_escape": "1152737/42456960",
+          "smaller_side_orientation": "le",
+          "smaller_side_size": 84,
+          "statistic": "leaf_null_separation",
+          "threshold": 2
+        },
+        {
+          "full_K_escape": "106880305/240387264",
+          "full_by_r": {
+            "3": "597/4640",
+            "4": "1130221/7328880",
+            "5": "36923/228288"
+          },
+          "restricted_by_r": {
+            "3": "151/11136",
+            "4": "4595/488592",
+            "5": "53/7872"
+          },
+          "restricted_escape": "4759175/160258176",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 58,
+          "statistic": "leaf_null_separation",
+          "threshold": 3
+        },
+        {
+          "full_K_escape": "413768603/911813760",
+          "full_by_r": {
+            "3": "569/4224",
+            "4": "217033/1389960",
+            "5": "4703/28864"
+          },
+          "restricted_by_r": {
+            "3": "91/5280",
+            "4": "38/3861",
+            "5": "679/86592"
+          },
+          "restricted_escape": "1768829/50656320",
+          "smaller_side_orientation": "gt",
+          "smaller_side_size": 22,
+          "statistic": "leaf_null_separation",
+          "threshold": 4
+        }
+      ],
+      "representative_components": [
+        {
+          "join_rank_values": [
+            1,
+            2,
+            3
+          ],
+          "leaf_null_separation_values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "representative_word_edges": [
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "size": 186
+        }
+      ],
+      "statistic_distributions": {
+        "join_rank": {
+          "1": 62,
+          "2": 62,
+          "3": 62
+        },
+        "leaf_null_separation": {
+          "1": 40,
+          "2": 44,
+          "3": 44,
+          "4": 36,
+          "5": 22
+        }
+      },
+      "support_graph_diameter": 2,
+      "tree_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "undirected_internal_support_edges": 7635
+    }
+  ]
+}

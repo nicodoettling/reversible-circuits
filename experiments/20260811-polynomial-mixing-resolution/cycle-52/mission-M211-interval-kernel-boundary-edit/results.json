@@ -1,0 +1,35 @@
+{
+  "mission": "M211",
+  "verdict": "refute pointwise IKBE-b and hence the two-clause IKBE lemma",
+  "status": {
+    "IKBE-b": "refuted",
+    "two_clause_IKBE": "refuted",
+    "IKBE-a_DV": "unresolved",
+    "signed_averaged_DE": "unresolved",
+    "conditional_J2_and_downstream": "unresolved"
+  },
+  "witness": {
+    "k": "12q-1",
+    "s": "3q",
+    "l": "4q",
+    "observable": "Y_l",
+    "limit_Phi_minus_Psi": "7/64",
+    "rhs_scale": "sqrt(l)/k -> 0"
+  },
+  "analytic_certificate": [
+    "exact M199 closed Y-profile formulas",
+    "uniform critical-Borel tail lemma",
+    "exact two-seam cutoff values",
+    "macroscopic surviving-face mismatch 49/64-42/64"
+  ],
+  "corrected_route": "prove the original signed q_hat-averaged DE directly",
+  "diagnostics": {
+    "k": [3, 5, 7, 9, 11],
+    "formula_only": true,
+    "finite_only": true,
+    "universal_inference": false
+  },
+  "material_objections": [
+    "M199's pointwise IKBE-b strengthening is false"
+  ]
+}

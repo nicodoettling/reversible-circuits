@@ -1,0 +1,298 @@
+{
+  "claim_tested": "Exact right-spine support, per-child-boundary rate, and root composition quotient formulas for the full Pbar chain.",
+  "command": "python3 experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M50-full-parking-flow/root_composition_audit.py --n-max 8 --output experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M50-full-parking-flow/root_composition_results.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": null,
+      "internal_product_scaling_failures": [],
+      "macro_count": 2,
+      "maximum_left_merge_basin_parameters": [
+        2,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "3/2",
+      "n": 3,
+      "per_boundary_rate_failures": [],
+      "r": 2,
+      "r2_calibration": {
+        "merge": "2/3",
+        "split": "1/3"
+      },
+      "raw_factorization_count": 3,
+      "root_composition_count": 2,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    },
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": {
+        "coarse_composition": [
+          3
+        ],
+        "refined_composition": [
+          1,
+          2
+        ],
+        "shape_rates": [
+          {
+            "macro": [
+              0,
+              1,
+              1
+            ],
+            "rate": "0"
+          },
+          {
+            "macro": [
+              0,
+              1,
+              2
+            ],
+            "rate": "1/9"
+          }
+        ]
+      },
+      "internal_product_scaling_failures": [],
+      "macro_count": 5,
+      "maximum_left_merge_basin_parameters": [
+        3,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "16/9",
+      "n": 4,
+      "per_boundary_rate_failures": [],
+      "r": 3,
+      "r2_calibration": null,
+      "raw_factorization_count": 16,
+      "root_composition_count": 4,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    },
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": {
+        "coarse_composition": [
+          1,
+          3
+        ],
+        "refined_composition": [
+          1,
+          1,
+          2
+        ],
+        "shape_rates": [
+          {
+            "macro": [
+              0,
+              0,
+              2,
+              2
+            ],
+            "rate": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              2,
+              3
+            ],
+            "rate": "1/18"
+          }
+        ]
+      },
+      "internal_product_scaling_failures": [],
+      "macro_count": 14,
+      "maximum_left_merge_basin_parameters": [
+        4,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "125/64",
+      "n": 5,
+      "per_boundary_rate_failures": [],
+      "r": 4,
+      "r2_calibration": null,
+      "raw_factorization_count": 125,
+      "root_composition_count": 8,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    },
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": {
+        "coarse_composition": [
+          1,
+          1,
+          3
+        ],
+        "refined_composition": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "shape_rates": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              3,
+              3
+            ],
+            "rate": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              3,
+              4
+            ],
+            "rate": "1/30"
+          }
+        ]
+      },
+      "internal_product_scaling_failures": [],
+      "macro_count": 42,
+      "maximum_left_merge_basin_parameters": [
+        5,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "1296/625",
+      "n": 6,
+      "per_boundary_rate_failures": [],
+      "r": 5,
+      "r2_calibration": null,
+      "raw_factorization_count": 1296,
+      "root_composition_count": 16,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    },
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": {
+        "coarse_composition": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "refined_composition": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "shape_rates": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              4,
+              4
+            ],
+            "rate": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              4,
+              5
+            ],
+            "rate": "1/45"
+          }
+        ]
+      },
+      "internal_product_scaling_failures": [],
+      "macro_count": 132,
+      "maximum_left_merge_basin_parameters": [
+        6,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "16807/7776",
+      "n": 7,
+      "per_boundary_rate_failures": [],
+      "r": 6,
+      "r2_calibration": null,
+      "raw_factorization_count": 16807,
+      "root_composition_count": 32,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    },
+    {
+      "basin_ratio_less_than_e": true,
+      "first_reverse_split_nonlumpability_witness": {
+        "coarse_composition": [
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "refined_composition": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "shape_rates": [
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              5
+            ],
+            "rate": "0"
+          },
+          {
+            "macro": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              6
+            ],
+            "rate": "1/63"
+          }
+        ]
+      },
+      "internal_product_scaling_failures": [],
+      "macro_count": 429,
+      "maximum_left_merge_basin_parameters": [
+        7,
+        0
+      ],
+      "maximum_left_merge_basin_ratio": "262144/117649",
+      "n": 8,
+      "per_boundary_rate_failures": [],
+      "r": 7,
+      "r2_calibration": null,
+      "raw_factorization_count": 262144,
+      "root_composition_count": 64,
+      "root_quotient_formula_failures": [],
+      "upward_right_spine_support_failures": []
+    }
+  ],
+  "seed": null,
+  "universal_scope": "Failures refute the named theorem; finite passes do not prove it. The theorem is proved separately in root_composition_projection.md."
+}

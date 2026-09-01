@@ -1,0 +1,81 @@
+{
+  "claim_tested": "balanced common-component cancellation and Borel-Abel identity",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/balanced_abel_audit.py --k 3 --output experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/balanced_abel_exact_k3.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "borel_abel_cumulative": [
+        "-9/25",
+        "0"
+      ],
+      "common_J0_exactly_cancelled": true,
+      "eta_mass": "0",
+      "full_rows_reconstructed_exactly": true,
+      "interleaving_probabilities": {
+        "J0_common_middle_middle": "1/15",
+        "J1_exterior_middle": "8/15",
+        "J2_exterior_exterior": "2/5"
+      },
+      "k": 3,
+      "k_fourth_BA2_L2": "178781886299782114417896659444221937/34182442871589600000000000000000000",
+      "k_squared_two_step_TV": "27708771860129/34034175000000",
+      "merge_defect_identity_exact": true,
+      "n": 9,
+      "one_edge_abel_identity_exact": true,
+      "one_step_TV": "3196/5625",
+      "p_long_cycle_split": {
+        "1": "16/25",
+        "2": "9/25"
+      },
+      "post_K_abel_identity_exact": true,
+      "q_two_k_cycles_split": {
+        "1": "1"
+      },
+      "quotient_states": 38,
+      "residual_component_sizes": {
+        "A": [
+          3,
+          3,
+          3
+        ],
+        "B": [
+          1,
+          3,
+          5
+        ]
+      },
+      "separate_abel_channel_image_TV": {
+        "alpha1_one_edge": "24645475339207/689192043750000",
+        "alpha2_two_edge": "2603764348427/43758225000000",
+        "triangle_sum": "262619055307729/2756768175000000"
+      },
+      "source_orbit_sizes": {
+        "A": 3,
+        "B": 9
+      },
+      "source_orbits": {
+        "A": 35,
+        "B": 30
+      },
+      "two_channel_L2_exact": {
+        "alpha1_squared_channel1": "15027164971353701621218286593718113/1168078165002600862500000000000000000",
+        "alpha2_squared_channel2": "1882237300663017403925047362189722203/74757002560166455200000000000000000000",
+        "channel1_norm_squared": "15027164971353701621218286593718113/332253344711850912000000000000000000",
+        "channel2_norm_squared": "1882237300663017403925047362189722203/11961120409626632832000000000000000000",
+        "correlation_squared": "15362596526871507325785349506812639885314812002961712461265960974236041/28284690432298640592187870430063750144544354798781650078713472359362939",
+        "cross_inner_product": "123945941954028923850012006300394429/1993520068271105472000000000000000000",
+        "cross_positive": true,
+        "reconstructed": "178781886299782114417896659444221937/2768777872598757600000000000000000000",
+        "twice_alpha1_alpha2_cross": "123945941954028923850012006300394429/4672312660010403450000000000000000000"
+      },
+      "two_edge_abel_identity_exact": true,
+      "two_step_TV": "27708771860129/306307575000000"
+    }
+  ],
+  "seed": null,
+  "status": "exact_finite_identity_falsifier_not_asymptotic_evidence",
+  "target": "uniform minimal long-cycle H0 pair-product quotient"
+}

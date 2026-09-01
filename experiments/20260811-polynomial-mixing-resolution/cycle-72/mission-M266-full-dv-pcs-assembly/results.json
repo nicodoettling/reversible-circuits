@@ -1,0 +1,45 @@
+{
+  "constants": {
+    "C_W": "18*K_1+9*K_2+340200*K_E+129330",
+    "DE": 7164,
+    "K_J": "18900*K_E+7185",
+    "TAV": 500,
+    "Y_DV": 18400,
+    "channel_two_additive": 7185,
+    "full_DV": 18900
+  },
+  "domain": {
+    "cutoff_instances": 1501500,
+    "k3": {
+      "adjacent_ranks": [
+        1
+      ],
+      "cutoffs": [
+        2,
+        3,
+        4
+      ],
+      "m": 4,
+      "n": 9
+    },
+    "k3_channel_masses": [
+      "1/15",
+      "8/15",
+      "2/5"
+    ],
+    "odd_k_max_checked": 2001,
+    "odd_k_min": 3,
+    "rank_instances": 1000
+  },
+  "proof_role": "finite arithmetic and domain falsifier only",
+  "scope_guards": {
+    "FCL1": false,
+    "PCR": false,
+    "bridge_gap": false,
+    "polynomial_mixing": false,
+    "remaining_stop": "FD-bound or minority-sign",
+    "terminal": false
+  },
+  "status": "pass"
+}
+

@@ -1,0 +1,750 @@
+{
+  "all_checks_pass": true,
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-25/mission-M124-m120-fresh-referee/results.json"
+  },
+  "cases": [
+    {
+      "binomial_pmf_check": {
+        "failures": [],
+        "minimum_ratio_over_4_over_d": {
+          "denominator": 1,
+          "float": 2.0,
+          "numerator": 2
+        },
+        "tested_pairs": 1
+      },
+      "components": 1,
+      "d": 2,
+      "d2_exception_ok": true,
+      "defect_projection": [
+        {
+          "down": null,
+          "r": 0,
+          "up": null,
+          "weight": 1
+        }
+      ],
+      "elapsed_seconds": 0.0001404285430908203,
+      "failure_count": 0,
+      "failures": {
+        "edge_defect": [],
+        "identity_reverse": [],
+        "join_formula": [],
+        "projection": [],
+        "row": [],
+        "singleton_formula": [],
+        "state_bounds": {
+          "downward_rate": [],
+          "nonidentity_split_construction_missing": [],
+          "nontop_join_construction_missing": [],
+          "singleton_aggregate": [],
+          "upward_rate": []
+        }
+      },
+      "finite_defect_mass_log_concave": true,
+      "finite_defect_mass_unimodal": true,
+      "identity_keys": 1,
+      "identity_reverse_formula_tests": 0,
+      "join_formula_tests": 0,
+      "keys": 1,
+      "maximum_off_diagonal_rate": {
+        "denominator": 1,
+        "float": 0.0,
+        "numerator": 0
+      },
+      "minimum_downward_rate_nonbottom": null,
+      "minimum_identity_reverse_rate": null,
+      "minimum_join_formula_rate": null,
+      "minimum_singleton_aggregate_rate": {
+        "denominator": 1,
+        "float": 0.0,
+        "numerator": 0
+      },
+      "minimum_singleton_formula_rate": null,
+      "minimum_upward_rate_nontop": null,
+      "observed_defect_levels": [
+        0
+      ],
+      "singleton_formula_tests": 0,
+      "singleton_skeleton_components": 1,
+      "singleton_skeleton_edges": 0,
+      "total_stationary_weight": 1,
+      "undirected_edges": 0
+    },
+    {
+      "binomial_pmf_check": {
+        "failures": [],
+        "minimum_ratio_over_4_over_d": {
+          "denominator": 32,
+          "float": 2.53125,
+          "numerator": 81
+        },
+        "tested_pairs": 3
+      },
+      "components": 1,
+      "d": 3,
+      "d2_exception_ok": null,
+      "defect_projection": [
+        {
+          "down": null,
+          "r": 0,
+          "up": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "weight": 144
+        },
+        {
+          "down": {
+            "denominator": 4,
+            "float": 0.25,
+            "numerator": 1
+          },
+          "r": 1,
+          "up": null,
+          "weight": 192
+        }
+      ],
+      "elapsed_seconds": 0.0011043548583984375,
+      "failure_count": 0,
+      "failures": {
+        "edge_defect": [],
+        "identity_reverse": [],
+        "join_formula": [],
+        "projection": [],
+        "row": [],
+        "singleton_formula": [],
+        "state_bounds": {
+          "downward_rate": [],
+          "nonidentity_split_construction_missing": [],
+          "nontop_join_construction_missing": [],
+          "singleton_aggregate": [],
+          "upward_rate": []
+        }
+      },
+      "finite_defect_mass_log_concave": true,
+      "finite_defect_mass_unimodal": true,
+      "identity_keys": 6,
+      "identity_reverse_formula_tests": 12,
+      "join_formula_tests": 12,
+      "keys": 9,
+      "maximum_off_diagonal_rate": {
+        "denominator": 3,
+        "float": 0.3333333333333333,
+        "numerator": 1
+      },
+      "minimum_downward_rate_nonbottom": {
+        "denominator": 4,
+        "float": 0.25,
+        "numerator": 1
+      },
+      "minimum_identity_reverse_rate": {
+        "denominator": 6,
+        "float": 0.16666666666666666,
+        "numerator": 1
+      },
+      "minimum_join_formula_rate": {
+        "denominator": 6,
+        "float": 0.16666666666666666,
+        "numerator": 1
+      },
+      "minimum_singleton_aggregate_rate": {
+        "denominator": 4,
+        "float": 0.25,
+        "numerator": 1
+      },
+      "minimum_singleton_formula_rate": {
+        "denominator": 16,
+        "float": 0.0625,
+        "numerator": 1
+      },
+      "minimum_upward_rate_nontop": {
+        "denominator": 3,
+        "float": 0.3333333333333333,
+        "numerator": 1
+      },
+      "observed_defect_levels": [
+        0,
+        1
+      ],
+      "singleton_formula_tests": 6,
+      "singleton_skeleton_components": 1,
+      "singleton_skeleton_edges": 12,
+      "total_stationary_weight": 336,
+      "undirected_edges": 12
+    },
+    {
+      "binomial_pmf_check": {
+        "failures": [],
+        "minimum_ratio_over_4_over_d": {
+          "denominator": 3,
+          "float": 2.6666666666666665,
+          "numerator": 8
+        },
+        "tested_pairs": 6
+      },
+      "components": 1,
+      "d": 4,
+      "d2_exception_ok": null,
+      "defect_projection": [
+        {
+          "down": null,
+          "r": 0,
+          "up": {
+            "denominator": 627,
+            "float": 0.4704944178628389,
+            "numerator": 295
+          },
+          "weight": 45144
+        },
+        {
+          "down": {
+            "denominator": 304,
+            "float": 0.19407894736842105,
+            "numerator": 59
+          },
+          "r": 1,
+          "up": {
+            "denominator": 304,
+            "float": 0.27960526315789475,
+            "numerator": 85
+          },
+          "weight": 109440
+        },
+        {
+          "down": {
+            "denominator": 1113,
+            "float": 0.38185085354896675,
+            "numerator": 425
+          },
+          "r": 2,
+          "up": null,
+          "weight": 80136
+        }
+      ],
+      "elapsed_seconds": 0.02107095718383789,
+      "failure_count": 0,
+      "failures": {
+        "edge_defect": [],
+        "identity_reverse": [],
+        "join_formula": [],
+        "projection": [],
+        "row": [],
+        "singleton_formula": [],
+        "state_bounds": {
+          "downward_rate": [],
+          "nonidentity_split_construction_missing": [],
+          "nontop_join_construction_missing": [],
+          "singleton_aggregate": [],
+          "upward_rate": []
+        }
+      },
+      "finite_defect_mass_log_concave": true,
+      "finite_defect_mass_unimodal": true,
+      "identity_keys": 54,
+      "identity_reverse_formula_tests": 204,
+      "join_formula_tests": 276,
+      "keys": 101,
+      "maximum_off_diagonal_rate": {
+        "denominator": 1,
+        "float": 1.0,
+        "numerator": 1
+      },
+      "minimum_downward_rate_nonbottom": {
+        "denominator": 16,
+        "float": 0.1875,
+        "numerator": 3
+      },
+      "minimum_identity_reverse_rate": {
+        "denominator": 12,
+        "float": 0.08333333333333333,
+        "numerator": 1
+      },
+      "minimum_join_formula_rate": {
+        "denominator": 12,
+        "float": 0.08333333333333333,
+        "numerator": 1
+      },
+      "minimum_singleton_aggregate_rate": {
+        "denominator": 3,
+        "float": 0.3333333333333333,
+        "numerator": 1
+      },
+      "minimum_singleton_formula_rate": {
+        "denominator": 40,
+        "float": 0.025,
+        "numerator": 1
+      },
+      "minimum_upward_rate_nontop": {
+        "denominator": 160,
+        "float": 0.26875,
+        "numerator": 43
+      },
+      "observed_defect_levels": [
+        0,
+        1,
+        2
+      ],
+      "singleton_formula_tests": 108,
+      "singleton_skeleton_components": 1,
+      "singleton_skeleton_edges": 324,
+      "total_stationary_weight": 234720,
+      "undirected_edges": 324
+    },
+    {
+      "binomial_pmf_check": {
+        "failures": [],
+        "minimum_ratio_over_4_over_d": {
+          "denominator": 5184,
+          "float": 3.014081790123457,
+          "numerator": 15625
+        },
+        "tested_pairs": 10
+      },
+      "components": 1,
+      "d": 5,
+      "d2_exception_ok": null,
+      "defect_projection": [
+        {
+          "down": null,
+          "r": 0,
+          "up": {
+            "denominator": 3952,
+            "float": 0.5301113360323887,
+            "numerator": 2095
+          },
+          "weight": 28454400
+        },
+        {
+          "down": {
+            "denominator": 7640,
+            "float": 0.16452879581151833,
+            "numerator": 1257
+          },
+          "r": 1,
+          "up": {
+            "denominator": 7640,
+            "float": 0.42028795811518327,
+            "numerator": 3211
+          },
+          "weight": 91680000
+        },
+        {
+          "down": {
+            "denominator": 10440,
+            "float": 0.30756704980842914,
+            "numerator": 3211
+          },
+          "r": 2,
+          "up": {
+            "denominator": 13050,
+            "float": 0.24145593869731802,
+            "numerator": 3151
+          },
+          "weight": 125280000
+        },
+        {
+          "down": {
+            "denominator": 6776,
+            "float": 0.4650236127508855,
+            "numerator": 3151
+          },
+          "r": 3,
+          "up": null,
+          "weight": 65049600
+        }
+      ],
+      "elapsed_seconds": 0.7256865501403809,
+      "failure_count": 0,
+      "failures": {
+        "edge_defect": [],
+        "identity_reverse": [],
+        "join_formula": [],
+        "projection": [],
+        "row": [],
+        "singleton_formula": [],
+        "state_bounds": {
+          "downward_rate": [],
+          "nonidentity_split_construction_missing": [],
+          "nontop_join_construction_missing": [],
+          "singleton_aggregate": [],
+          "upward_rate": []
+        }
+      },
+      "finite_defect_mass_log_concave": true,
+      "finite_defect_mass_unimodal": true,
+      "identity_keys": 620,
+      "identity_reverse_formula_tests": 3420,
+      "join_formula_tests": 5880,
+      "keys": 1420,
+      "maximum_off_diagonal_rate": {
+        "denominator": 1,
+        "float": 1.0,
+        "numerator": 1
+      },
+      "minimum_downward_rate_nonbottom": {
+        "denominator": 8,
+        "float": 0.125,
+        "numerator": 1
+      },
+      "minimum_identity_reverse_rate": {
+        "denominator": 20,
+        "float": 0.05,
+        "numerator": 1
+      },
+      "minimum_join_formula_rate": {
+        "denominator": 45,
+        "float": 0.044444444444444446,
+        "numerator": 2
+      },
+      "minimum_singleton_aggregate_rate": {
+        "denominator": 256,
+        "float": 0.38671875,
+        "numerator": 99
+      },
+      "minimum_singleton_formula_rate": {
+        "denominator": 70,
+        "float": 0.014285714285714285,
+        "numerator": 1
+      },
+      "minimum_upward_rate_nontop": {
+        "denominator": 405,
+        "float": 0.22469135802469137,
+        "numerator": 91
+      },
+      "observed_defect_levels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "singleton_formula_tests": 2020,
+      "singleton_skeleton_components": 1,
+      "singleton_skeleton_edges": 7280,
+      "total_stationary_weight": 310464000,
+      "undirected_edges": 7520
+    }
+  ],
+  "convention": "(p q)(x)=p(q(x)); factors multiply left-to-right",
+  "elapsed_seconds": 0.7529299259185791,
+  "exponential_valley": {
+    "all_checks_pass": true,
+    "cases": [
+      {
+        "L": 1,
+        "conductance_over_(2delta)^L": {
+          "denominator": 2,
+          "float": 0.5,
+          "numerator": 1
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 4,
+          "float": 0.25,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 2,
+        "conductance_over_(2delta)^L": {
+          "denominator": 5,
+          "float": 0.4,
+          "numerator": 2
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 40,
+          "float": 0.025,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 16,
+          "float": 0.0625,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 3,
+        "conductance_over_(2delta)^L": {
+          "denominator": 21,
+          "float": 0.38095238095238093,
+          "numerator": 8
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 168,
+          "float": 0.005952380952380952,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 64,
+          "float": 0.015625,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 4,
+        "conductance_over_(2delta)^L": {
+          "denominator": 85,
+          "float": 0.3764705882352941,
+          "numerator": 32
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 680,
+          "float": 0.0014705882352941176,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 256,
+          "float": 0.00390625,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 5,
+        "conductance_over_(2delta)^L": {
+          "denominator": 341,
+          "float": 0.375366568914956,
+          "numerator": 128
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 2728,
+          "float": 0.00036656891495601173,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 1024,
+          "float": 0.0009765625,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 6,
+        "conductance_over_(2delta)^L": {
+          "denominator": 1365,
+          "float": 0.3750915750915751,
+          "numerator": 512
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 10920,
+          "float": 9.157509157509158e-05,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 4096,
+          "float": 0.000244140625,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 7,
+        "conductance_over_(2delta)^L": {
+          "denominator": 5461,
+          "float": 0.3750228895806629,
+          "numerator": 2048
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 43688,
+          "float": 2.2889580662882256e-05,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 16384,
+          "float": 6.103515625e-05,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 8,
+        "conductance_over_(2delta)^L": {
+          "denominator": 21845,
+          "float": 0.37500572213321126,
+          "numerator": 8192
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 174760,
+          "float": 5.722133211261158e-06,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 65536,
+          "float": 1.52587890625e-05,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 9,
+        "conductance_over_(2delta)^L": {
+          "denominator": 87381,
+          "float": 0.3750014305169316,
+          "numerator": 32768
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 699048,
+          "float": 1.4305169315984023e-06,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 262144,
+          "float": 3.814697265625e-06,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      },
+      {
+        "L": 10,
+        "conductance_over_(2delta)^L": {
+          "denominator": 349525,
+          "float": 0.3750003576282097,
+          "numerator": 131072
+        },
+        "detailed_balance_ok": true,
+        "geometric_shape_ok": true,
+        "middle_cut_conductance": {
+          "denominator": 2796200,
+          "float": 3.576282097131822e-07,
+          "numerator": 1
+        },
+        "middle_weight_relative_to_endpoint": {
+          "denominator": 1048576,
+          "float": 9.5367431640625e-07,
+          "numerator": 1
+        },
+        "nonnegative_holding_ok": true,
+        "rate_floor": {
+          "denominator": 8,
+          "float": 0.125,
+          "numerator": 1
+        }
+      }
+    ],
+    "delta": {
+      "denominator": 8,
+      "float": 0.125,
+      "numerator": 1
+    },
+    "geometric_ratio_2delta": {
+      "denominator": 4,
+      "float": 0.25,
+      "numerator": 1
+    }
+  },
+  "frozen_integrity": {
+    "all_match": true,
+    "files": {
+      "checkpoint.md": {
+        "expected": "a5bff43d77a568255537b4db4f2faf33c6ee6ed538cf65f647398e59671d8580",
+        "match": true,
+        "observed": "a5bff43d77a568255537b4db4f2faf33c6ee6ed538cf65f647398e59671d8580"
+      },
+      "freeze_manifest.md": {
+        "expected": "9e70cb1f3db32ae602f99c7ff78e5800e66069ce893b546e7c3f46212a8f515b",
+        "match": true,
+        "observed": "9e70cb1f3db32ae602f99c7ff78e5800e66069ce893b546e7c3f46212a8f515b"
+      },
+      "incidence_gap_audit.py": {
+        "expected": "2649acb303c910f1d526f446572eb6fd674aa17c26c78bc175843fc76b94f368",
+        "match": true,
+        "observed": "2649acb303c910f1d526f446572eb6fd674aa17c26c78bc175843fc76b94f368"
+      },
+      "report.md": {
+        "expected": "9f1cdd5f137b32b3ded80d951b6067565edac2ade9032d18cb0251e7c92803db",
+        "match": true,
+        "observed": "9f1cdd5f137b32b3ded80d951b6067565edac2ade9032d18cb0251e7c92803db"
+      },
+      "results.json": {
+        "expected": "9285dc8958a59cd62fccd2cd8cdc95053dd1ecb033c6a3562925962bc1af28f9",
+        "match": true,
+        "observed": "9285dc8958a59cd62fccd2cd8cdc95053dd1ecb033c6a3562925962bc1af28f9"
+      }
+    }
+  },
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "independence": "imports no M120/M118/M113 code and enumerates no transposition words",
+  "kernel": "Q_A(kappa,lambda)=|C_kappa intersect C_lambda|/(2 Z_inc), unused row mass held",
+  "python": "3.12.3",
+  "scope": "exact finite referee reconstruction and universal-formula falsification; no spectral-gap inference",
+  "seed": null,
+  "target": "rho(kappa)=|C_kappa|/Z_inc on realizable connected-unicyclic keys"
+}

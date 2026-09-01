@@ -1,0 +1,566 @@
+{
+  "claim_tested": "balanced posterior-cancellation and cyclic phase formulas",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/posterior_score_audit.py --n 15 --output experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/posterior_score_float_n15.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "eta_mass": -8.326672684688674e-17,
+      "exact": false,
+      "k": 5,
+      "k_squared_two_step_TV": 0.6261351499055401,
+      "largest_target_discrepancies": [
+        {
+          "delta": 0.0014366315409691625,
+          "lift_multiplicity": 2,
+          "orbit": 91,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              6,
+              1,
+              7
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999999,
+          "posterior_score": -0.4776999486117687,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.05200362700769057
+        },
+        {
+          "delta": 0.001404305116004985,
+          "lift_multiplicity": 3,
+          "orbit": 0,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              1,
+              13
+            ]
+          },
+          "phase_triangle_ratio": 1.0000000000000009,
+          "posterior_score": -0.40810883522743385,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.033888976806794126
+        },
+        {
+          "delta": 0.0013231734423443421,
+          "lift_multiplicity": 2,
+          "orbit": 55,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              5,
+              1,
+              8
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": -0.3545748458619659,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.047896636124067624
+        },
+        {
+          "delta": 0.0012009489767267588,
+          "lift_multiplicity": 2,
+          "orbit": 1,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              1,
+              1,
+              12
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999998,
+          "posterior_score": -0.49312343399288583,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.04347231761237478
+        },
+        {
+          "delta": 0.0010753204425670744,
+          "lift_multiplicity": 2,
+          "orbit": 5,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              2,
+              1,
+              11
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": -0.47021231065543145,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.03892477758860869
+        },
+        {
+          "delta": 0.0009753012903814251,
+          "lift_multiplicity": 2,
+          "orbit": 30,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              4,
+              1,
+              9
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": -0.5396504823355939,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.035304253790014756
+        },
+        {
+          "delta": -0.0008529236956937635,
+          "lift_multiplicity": 3,
+          "orbit": 163,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              4,
+              6,
+              5
+            ]
+          },
+          "phase_triangle_ratio": null,
+          "posterior_score": 0.0,
+          "residual_sizes": [
+            6,
+            5,
+            4
+          ],
+          "smoothed_score": -0.5133999367592174
+        },
+        {
+          "delta": -0.0008524256771573696,
+          "lift_multiplicity": 3,
+          "orbit": 159,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              4,
+              5,
+              6
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 0.8200746291530678,
+          "residual_sizes": [
+            6,
+            5,
+            4
+          ],
+          "smoothed_score": -0.5131001647088211
+        },
+        {
+          "delta": 0.0007080140218073717,
+          "lift_multiplicity": 2,
+          "orbit": 14,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "S",
+            "cyclic_composition": [
+              1,
+              3,
+              1,
+              10
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": -0.33937546521507006,
+          "residual_sizes": [
+            13,
+            1,
+            1
+          ],
+          "smoothed_score": 0.02562890766093497
+        },
+        {
+          "delta": -0.0006765958595883201,
+          "lift_multiplicity": 3,
+          "orbit": 34,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              5,
+              9
+            ]
+          },
+          "phase_triangle_ratio": 1.0000000000000002,
+          "posterior_score": 0.7963955280217028,
+          "residual_sizes": [
+            9,
+            5,
+            1
+          ],
+          "smoothed_score": -0.09887589137736184
+        },
+        {
+          "delta": -0.0006457704788497718,
+          "lift_multiplicity": 3,
+          "orbit": 44,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              9,
+              5
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 0.5972966460162771,
+          "residual_sizes": [
+            9,
+            5,
+            1
+          ],
+          "smoothed_score": -0.09437115349820122
+        },
+        {
+          "delta": -0.0006413022298445814,
+          "lift_multiplicity": 3,
+          "orbit": 154,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              3,
+              6,
+              6
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999999,
+          "posterior_score": 1.5448575039203178,
+          "residual_sizes": [
+            6,
+            6,
+            3
+          ],
+          "smoothed_score": -0.33094884505240013
+        },
+        {
+          "delta": -0.0006105336127383682,
+          "lift_multiplicity": 3,
+          "orbit": 115,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              3,
+              7,
+              5
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999999,
+          "posterior_score": 0.3794193084009196,
+          "residual_sizes": [
+            7,
+            5,
+            3
+          ],
+          "smoothed_score": -0.3022725673854489
+        },
+        {
+          "delta": -0.0006015057521738909,
+          "lift_multiplicity": 3,
+          "orbit": 108,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              3,
+              5,
+              7
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999999,
+          "posterior_score": 0.7588386168018392,
+          "residual_sizes": [
+            7,
+            5,
+            3
+          ],
+          "smoothed_score": -0.29780291242479423
+        },
+        {
+          "delta": -0.0005399101996853084,
+          "lift_multiplicity": 3,
+          "orbit": 74,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              2,
+              8,
+              5
+            ]
+          },
+          "phase_triangle_ratio": 0.9999999999999998,
+          "posterior_score": 0.5108448281943487,
+          "residual_sizes": [
+            8,
+            5,
+            2
+          ],
+          "smoothed_score": -0.1799493428727091
+        },
+        {
+          "delta": -0.0005320235001077273,
+          "lift_multiplicity": 3,
+          "orbit": 65,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              2,
+              5,
+              8
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 0.7662672422915231,
+          "residual_sizes": [
+            8,
+            5,
+            2
+          ],
+          "smoothed_score": -0.17732074573331927
+        },
+        {
+          "delta": -0.0005318985781887602,
+          "lift_multiplicity": 3,
+          "orbit": 60,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              6,
+              8
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 1.4405867130602554,
+          "residual_sizes": [
+            8,
+            6,
+            1
+          ],
+          "smoothed_score": -0.08549339790153052
+        },
+        {
+          "delta": -0.0005274939719926075,
+          "lift_multiplicity": 3,
+          "orbit": 75,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              8,
+              6
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 1.4405867130602554,
+          "residual_sizes": [
+            8,
+            6,
+            1
+          ],
+          "smoothed_score": -0.08478543445592512
+        },
+        {
+          "delta": 0.0005256851492552138,
+          "lift_multiplicity": 3,
+          "orbit": 10,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              1,
+              11,
+              3
+            ]
+          },
+          "phase_triangle_ratio": 0.47391256997536924,
+          "posterior_score": -0.6906671937310941,
+          "residual_sizes": [
+            11,
+            3,
+            1
+          ],
+          "smoothed_score": 0.04869677556127611
+        },
+        {
+          "delta": -0.0005181792161683453,
+          "lift_multiplicity": 3,
+          "orbit": 112,
+          "orbit_size": 15,
+          "parameter": {
+            "color": "3",
+            "cyclic_composition": [
+              4,
+              4,
+              7
+            ]
+          },
+          "phase_triangle_ratio": 1.0,
+          "posterior_score": 0.4168425019053072,
+          "residual_sizes": [
+            7,
+            4,
+            4
+          ],
+          "smoothed_score": -0.2818523832432136
+        }
+      ],
+      "n": 15,
+      "phase_identity_exact_or_close": true,
+      "posterior_identity_exact_or_close": true,
+      "posterior_stationary_mean": -9.120574039817989e-17,
+      "quotient_states": 213,
+      "smoothed_identity_exact_or_close": true,
+      "source_completion_counts": {
+        "A": "67675781250",
+        "B": "295946206875"
+      },
+      "source_orbit_sizes": {
+        "A": 5,
+        "B": 15
+      },
+      "source_orbits": {
+        "A": 202,
+        "B": 187
+      },
+      "target_groups": [
+        {
+          "absolute_delta": 0.005982357465546703,
+          "color": "3",
+          "minimum_gap": 1,
+          "signed_delta": 0.0005291122961117679,
+          "states": 12
+        },
+        {
+          "absolute_delta": 0.002935688151514174,
+          "color": "3",
+          "minimum_gap": 2,
+          "signed_delta": -0.0021204770786605607,
+          "states": 9
+        },
+        {
+          "absolute_delta": 0.002681237157354535,
+          "color": "3",
+          "minimum_gap": 3,
+          "signed_delta": -0.002681237157354535,
+          "states": 6
+        },
+        {
+          "absolute_delta": 0.0022235285890194784,
+          "color": "3",
+          "minimum_gap": 4,
+          "signed_delta": -0.0022235285890194784,
+          "states": 3
+        },
+        {
+          "absolute_delta": 0.00042728666005989186,
+          "color": "3",
+          "minimum_gap": 5,
+          "signed_delta": -0.00042728666005989186,
+          "states": 1
+        },
+        {
+          "absolute_delta": 0.009918754020785178,
+          "color": "N",
+          "minimum_gap": 1,
+          "signed_delta": -0.004658371081886713,
+          "states": 61
+        },
+        {
+          "absolute_delta": 0.003444872738572805,
+          "color": "N",
+          "minimum_gap": 2,
+          "signed_delta": 0.0003632095611933395,
+          "states": 25
+        },
+        {
+          "absolute_delta": 0.001015522531219931,
+          "color": "N",
+          "minimum_gap": 3,
+          "signed_delta": 0.001015522531219931,
+          "states": 5
+        },
+        {
+          "absolute_delta": 0.016850228997108026,
+          "color": "S",
+          "minimum_gap": 1,
+          "signed_delta": 0.00869388208740473,
+          "states": 61
+        },
+        {
+          "absolute_delta": 0.0037205674827191886,
+          "color": "S",
+          "minimum_gap": 2,
+          "signed_delta": 0.000641326773758459,
+          "states": 25
+        },
+        {
+          "absolute_delta": 0.000890768198543293,
+          "color": "S",
+          "minimum_gap": 3,
+          "signed_delta": 0.0008678473172927565,
+          "states": 5
+        }
+      ],
+      "two_step_TV": 0.0250454059962216
+    }
+  ],
+  "seed": null,
+  "status": "exact_identity_falsifier_not_asymptotic_evidence",
+  "target": "uniform minimal long-cycle H0 pair-product quotient"
+}

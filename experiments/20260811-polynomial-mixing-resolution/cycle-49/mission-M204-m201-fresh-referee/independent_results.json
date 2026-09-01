@@ -1,0 +1,167 @@
+{
+  "actual_T1": {
+    "h1": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "h2": {
+      "decimal": 0.014132698412698413,
+      "exact": "22259/1575000"
+    },
+    "h3": {
+      "decimal": 0.023247703333333335,
+      "exact": "6974311/300000000"
+    },
+    "h4": {
+      "decimal": 0.05877896933865095,
+      "exact": "1735419680239/29524500000000"
+    },
+    "reset": {
+      "decimal": 0.3090081002716706,
+      "exact": "6628367198857337/21450464220937500"
+    },
+    "total": {
+      "decimal": 0.4051674713563533,
+      "exact": "422384074903914714287/1042492561137562500000"
+    },
+    "true_contraction_slack": {
+      "decimal": 0.3717112101454019,
+      "exact": "387506171468022785713/1042492561137562500000"
+    }
+  },
+  "compatible_reservations": {
+    "A1": {
+      "decimal": 0.17594666666666667,
+      "exact": "3299/18750"
+    },
+    "Delta": {
+      "decimal": 0.3102297926128663,
+      "exact": "293289307/945393750"
+    },
+    "M2": {
+      "decimal": 0.288,
+      "exact": "36/125"
+    },
+    "M3": {
+      "decimal": 0.288,
+      "exact": "36/125"
+    },
+    "U1": {
+      "decimal": 0.05864888888888889,
+      "exact": "3299/56250"
+    },
+    "U2": {
+      "decimal": 0.192,
+      "exact": "24/125"
+    },
+    "U3": {
+      "decimal": 0.216,
+      "exact": "27/125"
+    },
+    "h1_rows_r_eta_R": [
+      {
+        "R": {
+          "decimal": 0.75,
+          "exact": "3/4"
+        },
+        "eta": {
+          "decimal": 0.144,
+          "exact": "18/125"
+        },
+        "r": 1
+      },
+      {
+        "R": {
+          "decimal": 0.9271428571428572,
+          "exact": "649/700"
+        },
+        "eta": {
+          "decimal": 0.064,
+          "exact": "8/125"
+        },
+        "r": 2
+      },
+      {
+        "R": {
+          "decimal": 1.0761904761904761,
+          "exact": "113/105"
+        },
+        "eta": {
+          "decimal": 0.008,
+          "exact": "1/125"
+        },
+        "r": 3
+      }
+    ]
+  },
+  "implementation_guards": {
+    "full_bivariate_Gram_cross_terms_retained": true,
+    "killed_observation_a_equals_d_deleted": true,
+    "linear_mode_covariance_subtracted": true,
+    "literal_root_mass_normalized": true,
+    "only_named_B2_L4_state": true
+  },
+  "imports_from_m201": false,
+  "logic": {
+    "not_refuted": [
+      "true parent contraction inequality",
+      "accepted h1 theorem",
+      "accepted h2 theorem",
+      "accepted h3 theorem"
+    ],
+    "refuted": "independent addition/reservation route only"
+  },
+  "method": "literal ordered-composition root expansion; exact Gram history",
+  "parent": {
+    "q": {
+      "decimal": 0.2231213184982448,
+      "exact": "3750/16807"
+    },
+    "q0": {
+      "decimal": 0.6666666666666666,
+      "exact": "2/3"
+    },
+    "true_budget": {
+      "decimal": 0.7768786815017552,
+      "exact": "13057/16807"
+    }
+  },
+  "root_mass_checks": {
+    "2": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "3": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "4": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "5": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "6": {
+      "decimal": 1.0,
+      "exact": "1"
+    }
+  },
+  "route_obstruction": {
+    "reset_plus_h4_minus_Delta": {
+      "decimal": 0.05755727699745519,
+      "exact": "480024264873449410111/8339940489100500000000"
+    },
+    "strictly_positive": true
+  },
+  "schema": "M204-independent-referee-v1",
+  "seed": null,
+  "state": {
+    "B": 2,
+    "D": 1,
+    "L": 4,
+    "kappa": 2,
+    "s": 6
+  }
+}

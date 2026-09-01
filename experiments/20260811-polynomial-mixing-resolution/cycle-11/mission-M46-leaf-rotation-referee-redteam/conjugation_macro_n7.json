@@ -1,0 +1,4665 @@
+{
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right; conjugation t -> c t c^-1",
+  "claim_tested": "long-cycle conjugation is deterministic on the parking degree vector, or at least its degree histogram",
+  "scope": "finite exact falsifier; a mismatch refutes lumpability, finite agreement proves no universal formula",
+  "rows": [
+    {
+      "n": 3,
+      "r": 2,
+      "factorizations": 3,
+      "source_macros": 2,
+      "nondeterministic_source_macros": 1,
+      "histogram_nondeterministic_source_macros": 1,
+      "histogram_orbit_nonexchangeable_source_macros": 0,
+      "first_macro_mismatch": {
+        "source": [
+          1,
+          1
+        ],
+        "targets": [
+          {
+            "target": [
+              1,
+              1
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                0,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              0
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  2
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "first_histogram_mismatch": {
+        "source": [
+          1,
+          1
+        ],
+        "target_histograms": [
+          {
+            "histogram": [
+              0,
+              2
+            ],
+            "example_target": [
+              2,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              1,
+              1
+            ],
+            "example_target": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "first_histogram_orbit_count_mismatch": null
+    },
+    {
+      "n": 4,
+      "r": 3,
+      "factorizations": 16,
+      "source_macros": 5,
+      "nondeterministic_source_macros": 3,
+      "histogram_nondeterministic_source_macros": 2,
+      "histogram_orbit_nonexchangeable_source_macros": 2,
+      "first_macro_mismatch": {
+        "source": [
+          1,
+          1,
+          1
+        ],
+        "targets": [
+          {
+            "target": [
+              1,
+              1,
+              1
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              0,
+              1
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  3
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              0
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  1,
+                  3
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              0
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  0,
+                  3
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "first_histogram_mismatch": {
+        "source": [
+          1,
+          1,
+          1
+        ],
+        "target_histograms": [
+          {
+            "histogram": [
+              0,
+              0,
+              3
+            ],
+            "example_target": [
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              1,
+              2
+            ],
+            "example_target": [
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              1,
+              1,
+              1
+            ],
+            "example_target": [
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "first_histogram_orbit_count_mismatch": {
+        "source": [
+          1,
+          1,
+          1
+        ],
+        "target_histogram": [
+          0,
+          1,
+          2
+        ],
+        "target_counts": [
+          {
+            "target": [
+              2,
+              0,
+              1
+            ],
+            "count": 1
+          },
+          {
+            "target": [
+              2,
+              1,
+              0
+            ],
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "r": 4,
+      "factorizations": 125,
+      "source_macros": 14,
+      "nondeterministic_source_macros": 9,
+      "histogram_nondeterministic_source_macros": 7,
+      "histogram_orbit_nonexchangeable_source_macros": 5,
+      "first_macro_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "targets": [
+          {
+            "target": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              0,
+              1,
+              1
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                3,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                3,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              0
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                3,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              0,
+              1
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                2,
+                3,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                1,
+                3,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                0,
+                3,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              0
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  0,
+                  4
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "first_histogram_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histograms": [
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              4
+            ],
+            "example_target": [
+              4,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              1,
+              3
+            ],
+            "example_target": [
+              3,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              1,
+              1,
+              2
+            ],
+            "example_target": [
+              2,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "example_target": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "first_histogram_orbit_count_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histogram": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "target_counts": [
+          {
+            "target": [
+              3,
+              0,
+              0,
+              1
+            ],
+            "count": 1
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              0
+            ],
+            "count": 2
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              0
+            ],
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "r": 5,
+      "factorizations": 1296,
+      "source_macros": 42,
+      "nondeterministic_source_macros": 28,
+      "histogram_nondeterministic_source_macros": 23,
+      "histogram_orbit_nonexchangeable_source_macros": 16,
+      "first_macro_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "targets": [
+          {
+            "target": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 24,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                3,
+                4,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 8,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                3,
+                4,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 12,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                3,
+                4,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 24,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                4,
+                3
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                2,
+                3,
+                4,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                1,
+                3,
+                4,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                4,
+                3,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 4,
+            "witness": {
+              "parking_labels": [
+                0,
+                3,
+                4,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 8,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                4,
+                3,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 12,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                4,
+                3,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                3,
+                4,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                2,
+                4,
+                3,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                1,
+                4,
+                3,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 4,
+            "witness": {
+              "parking_labels": [
+                0,
+                4,
+                3,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                4,
+                3,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  3,
+                  5
+                ],
+                [
+                  2,
+                  5
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  0,
+                  5
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "first_histogram_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histograms": [
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              0,
+              5
+            ],
+            "example_target": [
+              5,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              1,
+              4
+            ],
+            "example_target": [
+              4,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              1,
+              1,
+              3
+            ],
+            "example_target": [
+              3,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              1,
+              1,
+              1,
+              2
+            ],
+            "example_target": [
+              2,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "example_target": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "first_histogram_orbit_count_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histogram": [
+          0,
+          0,
+          0,
+          1,
+          4
+        ],
+        "target_counts": [
+          {
+            "target": [
+              4,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 1
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2
+          },
+          {
+            "target": [
+              4,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3
+          },
+          {
+            "target": [
+              4,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 4
+          }
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "r": 6,
+      "factorizations": 16807,
+      "source_macros": 132,
+      "nondeterministic_source_macros": 90,
+      "histogram_nondeterministic_source_macros": 76,
+      "histogram_orbit_nonexchangeable_source_macros": 53,
+      "first_macro_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "targets": [
+          {
+            "target": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 120,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 24,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 30,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 40,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                3,
+                4,
+                5,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 60,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                4,
+                5,
+                3
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 120,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                2,
+                3,
+                4,
+                5,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 8,
+            "witness": {
+              "parking_labels": [
+                1,
+                3,
+                4,
+                5,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 12,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                4,
+                5,
+                3,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 24,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                3,
+                5,
+                4,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 10,
+            "witness": {
+              "parking_labels": [
+                0,
+                3,
+                4,
+                5,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 15,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                4,
+                5,
+                3,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 30,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                3,
+                5,
+                4,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 20,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                4,
+                5,
+                3,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 40,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                3,
+                5,
+                4,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              3,
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 60,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                2,
+                5,
+                4,
+                3
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                3,
+                4,
+                5,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                2,
+                4,
+                5,
+                3,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 6,
+            "witness": {
+              "parking_labels": [
+                2,
+                3,
+                5,
+                4,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 4,
+            "witness": {
+              "parking_labels": [
+                1,
+                4,
+                5,
+                3,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 8,
+            "witness": {
+              "parking_labels": [
+                1,
+                3,
+                5,
+                4,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 12,
+            "witness": {
+              "parking_labels": [
+                1,
+                2,
+                5,
+                4,
+                3,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 5,
+            "witness": {
+              "parking_labels": [
+                0,
+                4,
+                5,
+                3,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 10,
+            "witness": {
+              "parking_labels": [
+                0,
+                3,
+                5,
+                4,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 15,
+            "witness": {
+              "parking_labels": [
+                0,
+                2,
+                5,
+                4,
+                3,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              4,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 20,
+            "witness": {
+              "parking_labels": [
+                0,
+                1,
+                5,
+                4,
+                3,
+                2
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                4,
+                5,
+                3,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2,
+            "witness": {
+              "parking_labels": [
+                3,
+                5,
+                4,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  4,
+                  5
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "witness": {
+              "parking_labels": [
+                2,
+                5,
+                4,
+                3,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 4,
+            "witness": {
+              "parking_labels": [
+                1,
+                5,
+                4,
+                3,
+                2,
+                0
+              ],
+              "factor_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              5,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 5,
+            "witness": {
+              "parking_labels": [
+                0,
+                5,
+                4,
+                3,
+                2,
+                1
+              ],
+              "factor_edges": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ]
+              ]
+            }
+          },
+          {
+            "target": [
+              6,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 1,
+            "witness": {
+              "parking_labels": [
+                5,
+                4,
+                3,
+                2,
+                1,
+                0
+              ],
+              "factor_edges": [
+                [
+                  5,
+                  6
+                ],
+                [
+                  4,
+                  6
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  6
+                ],
+                [
+                  1,
+                  6
+                ],
+                [
+                  0,
+                  6
+                ]
+              ],
+              "conjugated_edges": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  0,
+                  5
+                ],
+                [
+                  0,
+                  4
+                ],
+                [
+                  0,
+                  3
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "first_histogram_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histograms": [
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              6
+            ],
+            "example_target": [
+              6,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              0,
+              1,
+              5
+            ],
+            "example_target": [
+              5,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              4
+            ],
+            "example_target": [
+              4,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              3
+            ],
+            "example_target": [
+              3,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              0,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "example_target": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          {
+            "histogram": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "example_target": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      "first_histogram_orbit_count_mismatch": {
+        "source": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_histogram": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          5
+        ],
+        "target_counts": [
+          {
+            "target": [
+              5,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 1
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2
+          },
+          {
+            "target": [
+              5,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3
+          },
+          {
+            "target": [
+              5,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 4
+          },
+          {
+            "target": [
+              5,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 5
+          }
+        ]
+      }
+    }
+  ]
+}

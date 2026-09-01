@@ -1,0 +1,351 @@
+{
+  "arithmetic": "fractions.Fraction; exact Gaussian determinants and Rayleigh quotient",
+  "claim_tested": "the canonical-basin analysis frame has operator at most the identity",
+  "convention": "(pq)(x)=p(q(x)); factors displayed left-to-right",
+  "exact_certificate": {
+    "C_minus_O": [
+      [
+        {
+          "decimal": 0.046296296296296294,
+          "denominator": "108",
+          "numerator": "5"
+        },
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": -0.023148148148148147,
+          "denominator": "216",
+          "numerator": "-5"
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": 0.02700617283950617,
+          "denominator": "1296",
+          "numerator": "35"
+        },
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": -0.019290123456790122,
+          "denominator": "1296",
+          "numerator": "-25"
+        }
+      ],
+      [
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        },
+        {
+          "decimal": 0.03780864197530864,
+          "denominator": "1296",
+          "numerator": "49"
+        },
+        {
+          "decimal": -0.031635802469135804,
+          "denominator": "1296",
+          "numerator": "-41"
+        }
+      ],
+      [
+        {
+          "decimal": -0.023148148148148147,
+          "denominator": "216",
+          "numerator": "-5"
+        },
+        {
+          "decimal": -0.019290123456790122,
+          "denominator": "1296",
+          "numerator": "-25"
+        },
+        {
+          "decimal": -0.031635802469135804,
+          "denominator": "1296",
+          "numerator": "-41"
+        },
+        {
+          "decimal": 0.04938271604938271,
+          "denominator": "81",
+          "numerator": "4"
+        }
+      ]
+    ],
+    "capacities": [
+      {
+        "decimal": 0.06944444444444445,
+        "denominator": "72",
+        "numerator": "5"
+      },
+      {
+        "decimal": 0.046296296296296294,
+        "denominator": "108",
+        "numerator": "5"
+      },
+      {
+        "decimal": 0.06944444444444445,
+        "denominator": "72",
+        "numerator": "5"
+      },
+      {
+        "decimal": 0.24691358024691357,
+        "denominator": "81",
+        "numerator": "20"
+      }
+    ],
+    "conclusion": "C-O is not positive semidefinite, hence the basin Gram matrix has an eigenvalue strictly greater than one",
+    "determinant_C_minus_O": {
+      "decimal": -1.1538012012212847e-07,
+      "denominator": "235092492288",
+      "numerator": "-27125"
+    },
+    "exact_gram_rayleigh_quotient": {
+      "decimal": 1.0072531413168822,
+      "denominator": "418853",
+      "numerator": "421891"
+    },
+    "indices_in_full_active_order": [
+      2,
+      6,
+      8,
+      10
+    ],
+    "rational_test_vector": [
+      {
+        "decimal": 0.5,
+        "denominator": "2",
+        "numerator": "1"
+      },
+      {
+        "decimal": 0.7142857142857143,
+        "denominator": "7",
+        "numerator": "5"
+      },
+      {
+        "decimal": 0.8367346938775511,
+        "denominator": "49",
+        "numerator": "41"
+      },
+      {
+        "decimal": 1.0,
+        "denominator": "1",
+        "numerator": "1"
+      }
+    ],
+    "s": 5,
+    "selected_endpoints": [
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "xT_C_minus_O_x": {
+      "decimal": -0.0024407911312673215,
+      "denominator": "63504",
+      "numerator": "-155"
+    },
+    "xT_C_x": {
+      "decimal": 0.3365150387441447,
+      "denominator": "6223392",
+      "numerator": "2094265"
+    },
+    "xT_O_x": {
+      "decimal": 0.338955829875412,
+      "denominator": "6223392",
+      "numerator": "2109455"
+    }
+  },
+  "first_exact_failure_rank": 5,
+  "marked_pullback_audit": {
+    "different_operator_not_decided": "A success-weighted pullback has overlaps sum_C rho(C) h(C) 1_Be(C)1_Bf(C), not O_(e,f); that operator is not computed here and does not reproduce the same Bessel identity without extra work.",
+    "natural_full_space_consequence": "Any complete marked frame satisfying that full-space normalization and containing the root reset coordinates inherits the s=5 failure.",
+    "proved_abstract_lemma": "If kappa_*mu=rho and marked vectors are v_e composed with kappa with unchanged capacities c_e, pullback is an isometry and the Gram matrix is exactly unchanged.",
+    "qualification": "The existing success_history_stats recursion aggregates only the success submeasure of mass q.  It does not construct a full success/failure probability space or compute cross-prefix Gram entries."
+  },
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "rows": [
+    {
+      "active_coordinate_count": 0,
+      "active_endpoints": [],
+      "atom_count": 2,
+      "largest_gram_eigenvalue_float_calibration": 0.0,
+      "principal_minor_audit": {
+        "checked": 0,
+        "first_negative": null,
+        "maximum_size": 0,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "s": 2
+    },
+    {
+      "active_coordinate_count": 2,
+      "active_endpoints": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "atom_count": 4,
+      "largest_gram_eigenvalue_float_calibration": 0.6666666666666666,
+      "principal_minor_audit": {
+        "checked": 3,
+        "first_negative": null,
+        "maximum_size": 2,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "s": 3
+    },
+    {
+      "active_coordinate_count": 5,
+      "active_endpoints": [
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "atom_count": 8,
+      "largest_gram_eigenvalue_float_calibration": 0.9260843270255161,
+      "principal_minor_audit": {
+        "checked": 31,
+        "first_negative": null,
+        "maximum_size": 5,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "s": 4
+    },
+    {
+      "active_coordinate_count": 11,
+      "active_endpoints": [
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "atom_count": 16,
+      "largest_gram_eigenvalue_float_calibration": 1.0395330915119063,
+      "principal_minor_audit": {
+        "checked": 231,
+        "first_negative": null,
+        "maximum_size": 3,
+        "negative_count": 0,
+        "zero_count": 0
+      },
+      "s": 5
+    }
+  ],
+  "scope_warning": "This refutes the natural universal Bessel/frame shortcut only.  It does not refute H<=q(1-q), any all-L contraction, a Pbar gap, ROOT-MEAN LIFT, the original heat-bath gap, or either terminal outcome.",
+  "seed": null,
+  "status": "refuted"
+}

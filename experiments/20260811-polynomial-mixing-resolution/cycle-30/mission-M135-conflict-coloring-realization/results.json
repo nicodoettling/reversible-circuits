@@ -1,0 +1,411 @@
+{
+  "claims": {
+    "all_rank_conflict_coloring": "proved in orbit_incidence_reduction.md, not inferred from these finite rows",
+    "d3_calibration": "exact finite",
+    "d4_exception": "exact finite symbolic witness",
+    "simultaneous_realization": "unresolved"
+  },
+  "command": "python3 -B conflict_coloring_audit.py --d 3 4 --output results.json",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "dependencies": {},
+  "elapsed_seconds": 5.167577822925523,
+  "experiment": "M135 conflict coloring and simultaneous realization",
+  "kernel_context": "signed adjacent Hurwitz generators; this script does not estimate a kernel",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "rows": [
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "color_physical_size_histogram": {
+            "8": 3
+          },
+          "edge_colors": 3,
+          "exact_color_pair_conflicts": 0,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "maximum_target_orbit_split": 3,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "2": 3,
+            "3": 1
+          }
+        },
+        {
+          "adjacent_index": 2,
+          "color_physical_size_histogram": {
+            "8": 3
+          },
+          "edge_colors": 3,
+          "exact_color_pair_conflicts": 0,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "maximum_target_orbit_split": 3,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "2": 3,
+            "3": 1
+          }
+        },
+        {
+          "adjacent_index": 3,
+          "color_physical_size_histogram": {
+            "8": 3
+          },
+          "edge_colors": 3,
+          "exact_color_pair_conflicts": 0,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "maximum_target_orbit_split": 3,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "2": 3,
+            "3": 1
+          }
+        }
+      ],
+      "complete_action_cover": [
+        {
+          "action_image_order": 216,
+          "adjacent_index": 1,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        },
+        {
+          "action_image_order": 216,
+          "adjacent_index": 2,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        },
+        {
+          "action_image_order": 216,
+          "adjacent_index": 3,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        }
+      ],
+      "d": 3,
+      "dps_root_fiber_histogram": {
+        "3": 24
+      },
+      "global_conjugacy_orbits": 4,
+      "global_orbit_size_histogram": {
+        "6": 4
+      },
+      "m": 4,
+      "root_stabilizer_orbit_size_histogram": {
+        "2": 12
+      },
+      "root_stabilizer_orbits": 12,
+      "rooted_coordinate_count": 72,
+      "z_size": 24
+    },
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "color_physical_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "maximum_target_orbit_split": 4,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "1": 24,
+            "2": 15,
+            "3": 67,
+            "4": 14
+          }
+        },
+        {
+          "adjacent_index": 2,
+          "color_physical_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "maximum_target_orbit_split": 4,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "1": 24,
+            "2": 15,
+            "3": 67,
+            "4": 14
+          }
+        },
+        {
+          "adjacent_index": 3,
+          "color_physical_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "maximum_target_orbit_split": 4,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "1": 24,
+            "2": 15,
+            "3": 67,
+            "4": 14
+          }
+        },
+        {
+          "adjacent_index": 4,
+          "color_physical_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "maximum_target_orbit_split": 4,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "1": 24,
+            "2": 15,
+            "3": 67,
+            "4": 14
+          }
+        },
+        {
+          "adjacent_index": 5,
+          "color_physical_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "maximum_target_orbit_split": 4,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0,
+          "target_global_orbit_split_histogram_per_source_global_orbit": {
+            "1": 24,
+            "2": 15,
+            "3": 67,
+            "4": 14
+          }
+        }
+      ],
+      "d": 4,
+      "dps_root_fiber_histogram": {
+        "4": 2880
+      },
+      "global_conjugacy_orbits": 120,
+      "global_orbit_size_histogram": {
+        "24": 120
+      },
+      "m": 6,
+      "rank_four_exception_witness": {
+        "all_in_Z4": true,
+        "interpretation": "Rank four has the extra V4 Goursat quotient: nonconjugate pairs can change 96 to 288, so the d-color proof deliberately excludes d=4.",
+        "source_pair_subgroup_order": 96,
+        "sources": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "sources_globally_conjugate": false,
+        "target_pair_subgroup_order": 288,
+        "targets": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "targets_globally_conjugate": false,
+        "tau1_endpoints_match": true
+      },
+      "root_stabilizer_orbit_size_histogram": {
+        "6": 480
+      },
+      "root_stabilizer_orbits": 480,
+      "rooted_coordinate_count": 11520,
+      "z_size": 2880
+    }
+  ],
+  "seed": null,
+  "target": "uniform physical Z_d; no Markov-gap claim"
+}

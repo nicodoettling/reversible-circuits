@@ -1,0 +1,25 @@
+# M212 immutable M208 gate
+
+Before reading M208's substantive conclusions,
+`sha256sum -c SHA256SUMS` returned `OK` for all twelve frozen payloads.
+
+```text
+93bd11a33ba53ed5f16f64c9901c12e61a0dd8ff47887258857ad8ba4f7ba3fa  plan.md
+0950443d177a8b617393e9b902a7f19cbde1afe8b89766e3262292a9742c2241  checkpoint.md
+d427e4c9431770a1915fcbf61f10907eeea7be620f04979ffd5b95409fc3c3cc  immutable_gate.md
+45afdd473203bf9813102082fc7f7590a1a07c2b6d67bcbf35e39c913b8ee82e  halfway_checkpoint.md
+7f4aa0caeb5be7dd6010c38c3508e3a92fac75a682105dc6f64da98ce5b517e6  correction_mitm_probe.py
+b3df248180fb2409957aa5d44b43e5affa00b442be74316074d864e1e8e7eb5c  correction_mitm_results.json
+b3563c9ea44377743b4193611105fc2c2877b2d0d21367c23ae2277396eb9425  correction_mitm_r5_results.json
+43e7f05c874fc1875e4030e883b433cab9ad39564cbd6e599f75a071f8f4f365  rooted_extension_audit.py
+5f9cf1f7ea6366b3862fadc45a82c86b7f3dac2c2294ca7cf068d0cd7f20652f  rooted_extension_results.json
+bfce532b0434fc80970891fa819cc2fe30849ff7fd0ecac7ebf3451d1c1ab83d  rooted_recursion.md
+1ada73d50e02667ee3da23ffa5df1cbf90b6b31511d27ef5ffc68152a634c306  report.md
+c9697145f2f0cd713b5d807e9976f69c724c04595c0fd24eb09ad898a1a7ce09  freeze_manifest.md
+```
+
+M208 `SHA256SUMS` digest:
+`cda9c3aba4aa058d39576f1656f3ba4158be736684dad4dd64d3c61738a657b8`.
+
+Gate status: **PASS**. M208 remains untouched.
+

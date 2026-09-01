@@ -1,0 +1,68 @@
+{
+  "actual_kernel": {
+    "T1": "100831060869578347854833692341308821/459142800034351572282356269056000000",
+    "contraction_counterexample": false,
+    "positive_budget_slack": "152250599938846145694280798538691179/459142800034351572282356269056000000"
+  },
+  "all_checks_pass": true,
+  "dual_certificate": {
+    "budget": "144495/262144",
+    "diagonal_remainders": [
+      "633/254800",
+      "18427/17517500",
+      "39213/17517500",
+      "6757/7507500",
+      "39213/17517500",
+      "18427/17517500",
+      "633/254800"
+    ],
+    "objective": "27574523089250503170656957870808157889213/48209994003606915089647408250880000000000",
+    "positive_excess": "1000948704365931347999936328408157889213/48209994003606915089647408250880000000000",
+    "psd_reason": "X=vv^T+diag(nonnegative remainders)",
+    "q": "117649/262144",
+    "radii": [
+      "1/5",
+      "4/25",
+      "17/100",
+      "9/50",
+      "17/100",
+      "4/25",
+      "1/5"
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weights": [
+      "433/10192",
+      "747/28028",
+      "3491/112112",
+      "100/3003",
+      "3491/112112",
+      "747/28028",
+      "433/10192"
+    ]
+  },
+  "exact_recursion": {
+    "bernstein_coefficient_sha256": "d1dd37fe74b894523b4b049099d194ed34fb64fb36d144b48ff3746a34e1ccae",
+    "eta_over_pi": true,
+    "kernel_sha256": "d2ee4261fd89e712d0649d9cea3c30952256bff82c99134a59fce7b151505152",
+    "kernel_terms": 49,
+    "killed_a_equals_d_absent": true
+  },
+  "method": "one exact Fraction row; no scan; no predecessor import",
+  "python": "3.12.3",
+  "schema": "M216-Bernstein-envelope-obstruction-v1",
+  "seed": null,
+  "state_B_L_kappa_D": [
+    1,
+    6,
+    2,
+    1
+  ]
+}

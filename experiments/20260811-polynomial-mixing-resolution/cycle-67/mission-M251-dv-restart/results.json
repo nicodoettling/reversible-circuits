@@ -1,0 +1,34 @@
+{
+  "mission": "M251",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "status": {
+    "paired_difference_identity": "proved",
+    "Y_DV": "proved with constant 18400",
+    "TAV": "unresolved",
+    "X_DV": "unresolved"
+  },
+  "parameters": {
+    "k": "odd integers >= 3",
+    "ell": "2 <= ell <= (3k-1)/2",
+    "split_weight": "sqrt(s), no q or qhat"
+  },
+  "proved_constants": {
+    "borel_global_increment": 3,
+    "borel_far_remainder": 120,
+    "head_response_variation": 2300,
+    "seam_cutoff_variation": 8,
+    "Y_DV": 18400
+  },
+  "diagnostic": {
+    "method": "closed exact Y formula evaluated in floating point",
+    "finite_only": true,
+    "max_k": 201,
+    "max_recorded_Y_DV_ratio": 1.6905277090804827,
+    "argmax": {"k": 201, "ell": 2},
+    "universal_inference": false,
+    "seed": null
+  },
+  "downstream_inference": false
+}

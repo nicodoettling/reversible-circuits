@@ -1,0 +1,74 @@
+{
+  "claim_tested": "M104 literal fixed-seam product, side handle dependence, 1/ell identity, internal/seam classification, RN bounds, and the d=4 same-size circular cell",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "d4_circular": {
+    "cartesian_cell_size": 2880,
+    "cell": "kappa_e with e=(0,1)",
+    "d": 4,
+    "ell_histogram": {
+      "1": 480,
+      "2": 744,
+      "3": 936,
+      "4": 528,
+      "5": 192
+    },
+    "failures": {},
+    "integral_checks": 2880,
+    "internal_proposals": 34560,
+    "left_words": 2880,
+    "right_words": 1,
+    "scan_identity": {
+      "D": 7,
+      "P0_weight": "5/7",
+      "active_left_positions": 5,
+      "held_right_or_seam_positions": 2,
+      "identity_weight": "2/7"
+    },
+    "seam_proposals": 5760
+  },
+  "dependencies": {},
+  "elapsed_seconds": 3.975182056427002,
+  "full_cases": [
+    {
+      "cells": 1,
+      "d": 2,
+      "density_ratio_range": [
+        "1",
+        "1"
+      ],
+      "failures": {},
+      "flow_ratio_range": [
+        "None",
+        "None"
+      ],
+      "integral_checks": 1,
+      "internal_proposals": 4,
+      "lifted_states": 1,
+      "seam_proposals": 2,
+      "states": 1
+    },
+    {
+      "cells": 9,
+      "d": 3,
+      "density_ratio_range": [
+        "16/37",
+        "36/23"
+      ],
+      "failures": {},
+      "flow_ratio_range": [
+        "8/37",
+        "36/23"
+      ],
+      "integral_checks": 336,
+      "internal_proposals": 2688,
+      "lifted_states": 336,
+      "seam_proposals": 672,
+      "states": 240
+    }
+  ],
+  "python": "3.12.3",
+  "scope_warning": "Full exact d=2,3 and the decisive d=4 circular cell only; finite success is not an asymptotic gap proof.",
+  "seed": null,
+  "target": "uniform connected identity words of length 2d"
+}

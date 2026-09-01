@@ -1,0 +1,83 @@
+{
+  "claim_tested": "Every contextual suffix-cut function recursively depends only on the last root branch; at equality it is constant on the fixed root-composition fiber, and below support it vanishes.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/recursive_contextual_locality.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/recursive_contextual_locality_r7.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "One listed failure refutes its named universal statement. Finite empty failure lists prove no universal theorem.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "context_count": 1,
+      "deep_group_count": 0,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 2,
+      "r": 2,
+      "raw_factorization_count": 3,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 1
+    },
+    {
+      "context_count": 4,
+      "deep_group_count": 1,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 5,
+      "r": 3,
+      "raw_factorization_count": 16,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 4
+    },
+    {
+      "context_count": 12,
+      "deep_group_count": 7,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 14,
+      "r": 4,
+      "raw_factorization_count": 125,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 13
+    },
+    {
+      "context_count": 32,
+      "deep_group_count": 36,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 42,
+      "r": 5,
+      "raw_factorization_count": 1296,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 38
+    },
+    {
+      "context_count": 80,
+      "deep_group_count": 162,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 132,
+      "r": 6,
+      "raw_factorization_count": 16807,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 104
+    },
+    {
+      "context_count": 192,
+      "deep_group_count": 679,
+      "deep_last_branch_locality_failures": [],
+      "initial_contextual_locality_failures": [],
+      "macro_count": 429,
+      "r": 7,
+      "raw_factorization_count": 262144,
+      "too_small_suffix_support_failures": [],
+      "top_cut_constancy_failures": [],
+      "top_group_count": 272
+    }
+  ],
+  "seed": null
+}

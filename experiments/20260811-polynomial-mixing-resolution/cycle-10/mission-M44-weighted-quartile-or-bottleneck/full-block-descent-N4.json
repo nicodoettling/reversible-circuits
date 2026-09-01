@@ -1,0 +1,55 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-10/mission-M44-weighted-quartile-or-bottleneck/full_block_descent_falsifier.py",
+    "--N",
+    "4",
+    "--within-connected",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-10/mission-M44-weighted-quartile-or-bottleneck/full-block-descent-N4.json"
+  ],
+  "claim_tested": "Every nonminimum F_N word has a smaller-area same-product outcome in some r=3,4,5 window, even if targets outside F_N are allowed.",
+  "composition": "(pq)(x)=p(q(x)); word products left-to-right",
+  "deterministic": true,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "purpose": "Complete finite falsifier; no finite-to-universal inference.",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "result": {
+    "N": 4,
+    "area_counts": {
+      "3": 96,
+      "5": 528,
+      "7": 720,
+      "9": 1536
+    },
+    "connected_target_check_enabled": true,
+    "connected_target_zero_decrease_counts_by_area": {
+      "3": 96
+    },
+    "elapsed_seconds": 0.8291020393371582,
+    "expected_orbit_size": 2880,
+    "first_nonminimum_connected_target_zero_decrease_witness": null,
+    "first_nonminimum_zero_decrease_witness": null,
+    "m": 6,
+    "maximum_connected_target_decrease_counts": {
+      "0": 96,
+      "2": 528,
+      "4": 720,
+      "6": 1536
+    },
+    "maximum_one_window_decrease_counts": {
+      "0": 96,
+      "2": 528,
+      "4": 720,
+      "6": 1536
+    },
+    "minimum_area": 3,
+    "orbit_size": 2880,
+    "universal_claim_refuted": false,
+    "within_F_claim_refuted": false,
+    "zero_decrease_counts_by_area": {
+      "3": 96
+    }
+  },
+  "seed": null
+}

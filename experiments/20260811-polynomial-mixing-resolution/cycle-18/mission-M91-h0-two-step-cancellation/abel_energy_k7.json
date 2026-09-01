@@ -1,0 +1,190 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/abel_energy_diagnostic.py --k 3 5 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-18/mission-M91-h0-two-step-cancellation/abel_energy_k7.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "actual_BA2_L2": 0.06457068588603626,
+      "actual_two_step_TV": 0.09046061580464994,
+      "embedding_energy": 0.04247172280521998,
+      "embedding_rows": [
+        {
+          "image_L2_squared": 0.04247172280521998,
+          "q": "1",
+          "split": 1,
+          "weighted_contribution": 0.04247172280521998
+        }
+      ],
+      "gradient_energy": 0.01780458083901983,
+      "gradient_rows": [
+        {
+          "D": "-9/25",
+          "image_L2_squared": 0.049457168997277305,
+          "split": 1,
+          "weighted_contribution": 0.01780458083901983
+        }
+      ],
+      "k": 3,
+      "k_fourth_actual_BA2_L2": 5.2302255567689375,
+      "k_fourth_embedding_energy": 3.440209547222818,
+      "k_fourth_weighted_Cauchy_bound": 7.918782248977273,
+      "k_squared_actual_two_step_TV": 0.8141455422418494,
+      "k_to_9_over_2_gradient_energy": 2.497913528272622,
+      "n": 9,
+      "quotient_states": 38,
+      "sum_abs_D": 0.36,
+      "sum_abs_D_over_sqrt_k": 0.20784609690826528,
+      "two_channel_L2": {
+        "alpha1_squared_channel1": 0.012864862490876407,
+        "alpha2_squared_channel2": 0.02517807344065384,
+        "correlation": 0.7369815190688904,
+        "reconstructed": 0.06457068588603627,
+        "twice_alpha1_alpha2_cross": 0.02652774995450603,
+        "unweighted_cross": 0.0621744139558735
+      },
+      "weighted_Cauchy_bound": 0.09776274381453423
+    },
+    {
+      "actual_BA2_L2": 0.005723732235359428,
+      "actual_two_step_TV": 0.02504540599622167,
+      "embedding_energy": 0.00580126185811927,
+      "embedding_rows": [
+        {
+          "image_L2_squared": 0.004707372421781911,
+          "q": "16/25",
+          "split": 1,
+          "weighted_contribution": 0.003012718349940423
+        },
+        {
+          "image_L2_squared": 0.007745954189385688,
+          "q": "9/25",
+          "split": 2,
+          "weighted_contribution": 0.0027885435081788476
+        }
+      ],
+      "gradient_energy": 0.009437871933746064,
+      "gradient_rows": [
+        {
+          "D": "-1949456/13286025",
+          "image_L2_squared": 0.01683522061116935,
+          "split": 1,
+          "weighted_contribution": 0.0024702288180074744
+        },
+        {
+          "D": "-151648/531441",
+          "image_L2_squared": 0.011895022984275682,
+          "split": 2,
+          "weighted_contribution": 0.003394274144297182
+        },
+        {
+          "D": "-70000/531441",
+          "image_L2_squared": 0.027129068279311327,
+          "split": 3,
+          "weighted_contribution": 0.003573368971441407
+        }
+      ],
+      "k": 5,
+      "k_fourth_actual_BA2_L2": 3.5773326470996425,
+      "k_fourth_embedding_energy": 3.625788661324544,
+      "k_fourth_weighted_Cauchy_bound": 13.902913221436211,
+      "k_squared_actual_two_step_TV": 0.6261351499055418,
+      "k_to_9_over_2_gradient_energy": 13.189827004245993,
+      "n": 15,
+      "quotient_states": 213,
+      "sum_abs_D": 0.5637996315677564,
+      "sum_abs_D_over_sqrt_k": 0.2521388603749679,
+      "two_channel_L2": {
+        "alpha1_squared_channel1": 0.0011259993237472045,
+        "alpha2_squared_channel2": 0.002278297481363906,
+        "correlation": 0.7240657608903911,
+        "reconstructed": 0.005723732235359427,
+        "twice_alpha1_alpha2_cross": 0.0023194354302483156,
+        "unweighted_cross": 0.00563809192754557
+      },
+      "weighted_Cauchy_bound": 0.022244661154297938
+    },
+    {
+      "actual_BA2_L2": 0.0017896650964671955,
+      "actual_two_step_TV": 0.012697989586985023,
+      "embedding_energy": 0.002613278477876865,
+      "embedding_rows": [
+        {
+          "image_L2_squared": 0.0013237035314634029,
+          "q": "1296/2401",
+          "split": 1,
+          "weighted_contribution": 0.0007145021977411788
+        },
+        {
+          "image_L2_squared": 0.003947779962073305,
+          "q": "625/2401",
+          "split": 2,
+          "weighted_contribution": 0.0010276395153252043
+        },
+        {
+          "image_L2_squared": 0.004357498692312431,
+          "q": "480/2401",
+          "split": 3,
+          "weighted_contribution": 0.0008711367648104819
+        }
+      ],
+      "gradient_energy": 0.007180984422441555,
+      "gradient_rows": [
+        {
+          "D": "-30001013934480/330998238929449",
+          "image_L2_squared": 0.008863694324961854,
+          "split": 1,
+          "weighted_contribution": 0.000803387407178416
+        },
+        {
+          "D": "-53886814873104/330998238929449",
+          "image_L2_squared": 0.00954553968889881,
+          "split": 2,
+          "weighted_contribution": 0.001554022558377402
+        },
+        {
+          "D": "-33503703024/137858491849",
+          "image_L2_squared": 0.0061541960546293555,
+          "split": 3,
+          "weighted_contribution": 0.0014956522024890415
+        },
+        {
+          "D": "-20876664864/137858491849",
+          "image_L2_squared": 0.01323283536506557,
+          "split": 4,
+          "weighted_contribution": 0.0020039205812548205
+        },
+        {
+          "D": "-10063224864/137858491849",
+          "image_L2_squared": 0.01813781132108583,
+          "split": 5,
+          "weighted_contribution": 0.0013240016731418754
+        }
+      ],
+      "k": 7,
+      "k_fourth_actual_BA2_L2": 4.296985896617737,
+      "k_fourth_embedding_energy": 6.274481625382353,
+      "k_fourth_weighted_Cauchy_bound": 37.40784837247487,
+      "k_squared_actual_two_step_TV": 0.6222014897622661,
+      "k_to_9_over_2_gradient_energy": 45.61683657993236,
+      "n": 21,
+      "quotient_states": 634,
+      "sum_abs_D": 0.7209007992818847,
+      "sum_abs_D_over_sqrt_k": 0.27247489069250824,
+      "two_channel_L2": {
+        "alpha1_squared_channel1": 0.0004020720702499457,
+        "alpha2_squared_channel2": 0.0006319855877898142,
+        "correlation": 0.7494811054097781,
+        "reconstructed": 0.001789665096467196,
+        "twice_alpha1_alpha2_cross": 0.000755607438427436,
+        "unweighted_cross": 0.0018611126395357584
+      },
+      "weighted_Cauchy_bound": 0.01558011177529149
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_falsification_diagnostic_only",
+  "target": "balanced Abel collision BA2 and weighted Fisher sufficient route"
+}

@@ -1,0 +1,1290 @@
+{
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-25/mission-M120-local-unicycle-incidence-gap/results.json"
+  },
+  "cases": [
+    {
+      "canonical_edge_formula_failures": [],
+      "canonical_join_formula_failures": [],
+      "components": 1,
+      "d": 2,
+      "defect_projection": {
+        "levels": [
+          {
+            "defect": 0,
+            "down_probability": null,
+            "stationary_mass": {
+              "denominator": 1,
+              "float": 1.0,
+              "numerator": 1
+            },
+            "up_probability": null
+          }
+        ],
+        "log_concave_finite_check": true,
+        "unimodal_finite_check": true
+      },
+      "elapsed_seconds": 0.0006763935089111328,
+      "exact_row_failures": [],
+      "gap_A_numeric": 1.0,
+      "keys": 1,
+      "largest_eigenvalues": [
+        1.0
+      ],
+      "minimum_all_move_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 1,
+          "float": 0.0,
+          "numerator": 0
+        }
+      },
+      "minimum_canonical_edge_rate": null,
+      "minimum_canonical_join_rate": null,
+      "minimum_singleton_rate_identity": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 1,
+          "float": 0.0,
+          "numerator": 0
+        }
+      },
+      "minimum_singleton_rate_nonidentity": null,
+      "minimum_singleton_split_or_reverse_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 1,
+          "float": 0.0,
+          "numerator": 0
+        }
+      },
+      "proved_coarse_bound_checked": null,
+      "singleton_skeleton": {
+        "components": 1,
+        "gap_numeric": 1.0,
+        "largest_eigenvalues": [
+          1.0
+        ],
+        "stationary_eigenvector_residual": 0.0,
+        "undirected_edges": 0
+      },
+      "spectral_components": 1,
+      "stationary_eigenvector_residual": 0.0,
+      "stationary_weight_total": 1,
+      "threshold_cut_scans": {
+        "core_edges": null,
+        "cut_imbalance": null,
+        "cycles": null,
+        "identity": null,
+        "j": null,
+        "leaf_vertices": null,
+        "left_blocks": null,
+        "max_cycle": null,
+        "max_incidence_degree": null,
+        "max_label_block": null,
+        "right_blocks": null
+      },
+      "undirected_edges": 0
+    },
+    {
+      "canonical_edge_formula_failures": [],
+      "canonical_join_formula_failures": [],
+      "components": 1,
+      "d": 3,
+      "defect_projection": {
+        "levels": [
+          {
+            "defect": 0,
+            "down_probability": null,
+            "stationary_mass": {
+              "denominator": 7,
+              "float": 0.42857142857142855,
+              "numerator": 3
+            },
+            "up_probability": {
+              "denominator": 3,
+              "float": 0.3333333333333333,
+              "numerator": 1
+            }
+          },
+          {
+            "defect": 1,
+            "down_probability": {
+              "denominator": 4,
+              "float": 0.25,
+              "numerator": 1
+            },
+            "stationary_mass": {
+              "denominator": 7,
+              "float": 0.5714285714285714,
+              "numerator": 4
+            },
+            "up_probability": null
+          }
+        ],
+        "log_concave_finite_check": true,
+        "unimodal_finite_check": true
+      },
+      "elapsed_seconds": 0.001968860626220703,
+      "exact_row_failures": [],
+      "gap_A_numeric": 0.14143536352233366,
+      "keys": 9,
+      "largest_eigenvalues": [
+        0.6666666666666664,
+        0.6666666666666666,
+        0.6666666666666666,
+        0.8585646364776662,
+        0.8585646364776663,
+        0.9999999999999998
+      ],
+      "minimum_all_move_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "j": 3,
+          "p": [
+            0,
+            2,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 4,
+          "float": 0.25,
+          "numerator": 1
+        }
+      },
+      "minimum_canonical_edge_rate": {
+        "denominator": 16,
+        "float": 0.0625,
+        "numerator": 1
+      },
+      "minimum_canonical_join_rate": {
+        "denominator": 6,
+        "float": 0.16666666666666666,
+        "numerator": 1
+      },
+      "minimum_singleton_rate_identity": {
+        "key": {
+          "Q_L": [
+            [
+              0
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1,
+            2
+          ]
+        },
+        "value": {
+          "denominator": 3,
+          "float": 0.3333333333333333,
+          "numerator": 1
+        }
+      },
+      "minimum_singleton_rate_nonidentity": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "j": 3,
+          "p": [
+            0,
+            2,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 4,
+          "float": 0.25,
+          "numerator": 1
+        }
+      },
+      "minimum_singleton_split_or_reverse_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "j": 3,
+          "p": [
+            0,
+            2,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 4,
+          "float": 0.25,
+          "numerator": 1
+        }
+      },
+      "proved_coarse_bound_checked": {
+        "all_canonical_rates_meet_bound": true,
+        "all_join_rates_meet_d_cubed_bound": true,
+        "all_singleton_rates_meet_bound": true,
+        "bound": {
+          "denominator": 576,
+          "float": 0.001736111111111111,
+          "numerator": 1
+        }
+      },
+      "singleton_skeleton": {
+        "components": 1,
+        "gap_numeric": 0.14143536352233366,
+        "largest_eigenvalues": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666667,
+          0.8585646364776659,
+          0.8585646364776663,
+          1.0
+        ],
+        "stationary_eigenvector_residual": 0.0,
+        "undirected_edges": 12
+      },
+      "spectral_components": 1,
+      "stationary_eigenvector_residual": 0.0,
+      "stationary_weight_total": 336,
+      "threshold_cut_scans": {
+        "core_edges": null,
+        "cut_imbalance": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "cycles": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "identity": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "j": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 14,
+            "float": 0.21428571428571427,
+            "numerator": 3
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "leaf_vertices": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "left_blocks": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 14,
+            "float": 0.7857142857142857,
+            "numerator": 11
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "max_cycle": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.42857142857142855,
+            "numerator": 3
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "max_incidence_degree": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "max_label_block": null,
+        "right_blocks": {
+          "conductance": {
+            "denominator": 3,
+            "float": 0.3333333333333333,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 14,
+            "float": 0.7857142857142857,
+            "numerator": 11
+          },
+          "threshold_for_stat_leq": 1
+        }
+      },
+      "undirected_edges": 12
+    },
+    {
+      "canonical_edge_formula_failures": [],
+      "canonical_join_formula_failures": [],
+      "components": 1,
+      "d": 4,
+      "defect_projection": {
+        "levels": [
+          {
+            "defect": 0,
+            "down_probability": null,
+            "stationary_mass": {
+              "denominator": 3260,
+              "float": 0.19233128834355828,
+              "numerator": 627
+            },
+            "up_probability": {
+              "denominator": 627,
+              "float": 0.4704944178628389,
+              "numerator": 295
+            }
+          },
+          {
+            "defect": 1,
+            "down_probability": {
+              "denominator": 304,
+              "float": 0.19407894736842105,
+              "numerator": 59
+            },
+            "stationary_mass": {
+              "denominator": 163,
+              "float": 0.4662576687116564,
+              "numerator": 76
+            },
+            "up_probability": {
+              "denominator": 304,
+              "float": 0.27960526315789475,
+              "numerator": 85
+            }
+          },
+          {
+            "defect": 2,
+            "down_probability": {
+              "denominator": 1113,
+              "float": 0.38185085354896675,
+              "numerator": 425
+            },
+            "stationary_mass": {
+              "denominator": 3260,
+              "float": 0.3414110429447853,
+              "numerator": 1113
+            },
+            "up_probability": null
+          }
+        ],
+        "log_concave_finite_check": true,
+        "unimodal_finite_check": true
+      },
+      "elapsed_seconds": 0.019667863845825195,
+      "exact_row_failures": [],
+      "gap_A_numeric": 0.12541630835685724,
+      "keys": 101,
+      "largest_eigenvalues": [
+        0.8262476342518967,
+        0.8262476342518981,
+        0.8745836916431406,
+        0.8745836916431425,
+        0.8745836916431428,
+        0.9999999999999988
+      ],
+      "minimum_all_move_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "j": 4,
+          "p": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "value": {
+          "denominator": 3,
+          "float": 0.3333333333333333,
+          "numerator": 1
+        }
+      },
+      "minimum_canonical_edge_rate": {
+        "denominator": 40,
+        "float": 0.025,
+        "numerator": 1
+      },
+      "minimum_canonical_join_rate": {
+        "denominator": 12,
+        "float": 0.08333333333333333,
+        "numerator": 1
+      },
+      "minimum_singleton_rate_identity": {
+        "key": {
+          "Q_L": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "value": {
+          "denominator": 12,
+          "float": 0.4166666666666667,
+          "numerator": 5
+        }
+      },
+      "minimum_singleton_rate_nonidentity": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "j": 4,
+          "p": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "value": {
+          "denominator": 3,
+          "float": 0.3333333333333333,
+          "numerator": 1
+        }
+      },
+      "minimum_singleton_split_or_reverse_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "j": 4,
+          "p": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        "value": {
+          "denominator": 3,
+          "float": 0.3333333333333333,
+          "numerator": 1
+        }
+      },
+      "proved_coarse_bound_checked": {
+        "all_canonical_rates_meet_bound": true,
+        "all_join_rates_meet_d_cubed_bound": true,
+        "all_singleton_rates_meet_bound": true,
+        "bound": {
+          "denominator": 1024,
+          "float": 0.0009765625,
+          "numerator": 1
+        }
+      },
+      "singleton_skeleton": {
+        "components": 1,
+        "gap_numeric": 0.1254163083568577,
+        "largest_eigenvalues": [
+          0.8262476342518945,
+          0.8262476342518985,
+          0.8745836916431413,
+          0.8745836916431416,
+          0.8745836916431423,
+          0.9999999999999972
+        ],
+        "stationary_eigenvector_residual": 7.105427357601002e-15,
+        "undirected_edges": 324
+      },
+      "spectral_components": 1,
+      "stationary_eigenvector_residual": 7.105427357601002e-15,
+      "stationary_weight_total": 234720,
+      "threshold_cut_scans": {
+        "core_edges": {
+          "conductance": {
+            "denominator": 1,
+            "float": 1.0,
+            "numerator": 1
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.999079754601227,
+            "numerator": 3257
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "cut_imbalance": {
+          "conductance": {
+            "denominator": 63,
+            "float": 0.4126984126984127,
+            "numerator": 26
+          },
+          "mass": {
+            "denominator": 163,
+            "float": 0.38650306748466257,
+            "numerator": 63
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "cycles": {
+          "conductance": {
+            "denominator": 1113,
+            "float": 0.38185085354896675,
+            "numerator": 425
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.3414110429447853,
+            "numerator": 1113
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "identity": {
+          "conductance": {
+            "denominator": 627,
+            "float": 0.4704944178628389,
+            "numerator": 295
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.8076687116564417,
+            "numerator": 2633
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "j": {
+          "conductance": {
+            "denominator": 50,
+            "float": 0.26,
+            "numerator": 13
+          },
+          "mass": {
+            "denominator": 163,
+            "float": 0.3067484662576687,
+            "numerator": 50
+          },
+          "threshold_for_stat_leq": 3
+        },
+        "leaf_vertices": {
+          "conductance": {
+            "denominator": 279,
+            "float": 0.3835125448028674,
+            "numerator": 107
+          },
+          "mass": {
+            "denominator": 815,
+            "float": 0.3423312883435583,
+            "numerator": 279
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "left_blocks": {
+          "conductance": {
+            "denominator": 1147,
+            "float": 0.22667829119442023,
+            "numerator": 260
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.648159509202454,
+            "numerator": 2113
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "max_cycle": {
+          "conductance": {
+            "denominator": 27,
+            "float": 0.4074074074074074,
+            "numerator": 11
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.7763803680981595,
+            "numerator": 2531
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "max_incidence_degree": {
+          "conductance": {
+            "denominator": 279,
+            "float": 0.3835125448028674,
+            "numerator": 107
+          },
+          "mass": {
+            "denominator": 815,
+            "float": 0.3423312883435583,
+            "numerator": 279
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "max_label_block": {
+          "conductance": {
+            "denominator": 147,
+            "float": 0.6462585034013606,
+            "numerator": 95
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.045092024539877304,
+            "numerator": 147
+          },
+          "threshold_for_stat_leq": 3
+        },
+        "right_blocks": {
+          "conductance": {
+            "denominator": 1147,
+            "float": 0.22667829119442023,
+            "numerator": 260
+          },
+          "mass": {
+            "denominator": 3260,
+            "float": 0.648159509202454,
+            "numerator": 2113
+          },
+          "threshold_for_stat_leq": 1
+        }
+      },
+      "undirected_edges": 324
+    },
+    {
+      "canonical_edge_formula_failures": [],
+      "canonical_join_formula_failures": [],
+      "components": 1,
+      "d": 5,
+      "defect_projection": {
+        "levels": [
+          {
+            "defect": 0,
+            "down_probability": null,
+            "stationary_mass": {
+              "denominator": 2695,
+              "float": 0.09165120593692022,
+              "numerator": 247
+            },
+            "up_probability": {
+              "denominator": 3952,
+              "float": 0.5301113360323887,
+              "numerator": 2095
+            }
+          },
+          {
+            "defect": 1,
+            "down_probability": {
+              "denominator": 7640,
+              "float": 0.16452879581151833,
+              "numerator": 1257
+            },
+            "stationary_mass": {
+              "denominator": 3234,
+              "float": 0.295299938157081,
+              "numerator": 955
+            },
+            "up_probability": {
+              "denominator": 7640,
+              "float": 0.42028795811518327,
+              "numerator": 3211
+            }
+          },
+          {
+            "defect": 2,
+            "down_probability": {
+              "denominator": 10440,
+              "float": 0.30756704980842914,
+              "numerator": 3211
+            },
+            "stationary_mass": {
+              "denominator": 1078,
+              "float": 0.4035250463821892,
+              "numerator": 435
+            },
+            "up_probability": {
+              "denominator": 13050,
+              "float": 0.24145593869731802,
+              "numerator": 3151
+            }
+          },
+          {
+            "defect": 3,
+            "down_probability": {
+              "denominator": 6776,
+              "float": 0.4650236127508855,
+              "numerator": 3151
+            },
+            "stationary_mass": {
+              "denominator": 105,
+              "float": 0.20952380952380953,
+              "numerator": 22
+            },
+            "up_probability": null
+          }
+        ],
+        "log_concave_finite_check": true,
+        "unimodal_finite_check": true
+      },
+      "elapsed_seconds": 1.0685172080993652,
+      "exact_row_failures": [],
+      "gap_A_numeric": 0.11215806187121391,
+      "keys": 1420,
+      "largest_eigenvalues": [
+        0.8353389846325988,
+        0.8563654921998529,
+        0.887841938128784,
+        0.8878419381287851,
+        0.8878419381287861,
+        1.0000000000000004
+      ],
+      "minimum_all_move_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "j": 5,
+          "p": [
+            1,
+            0,
+            3,
+            4,
+            2
+          ]
+        },
+        "value": {
+          "denominator": 216,
+          "float": 0.4212962962962963,
+          "numerator": 91
+        }
+      },
+      "minimum_canonical_edge_rate": {
+        "denominator": 70,
+        "float": 0.014285714285714285,
+        "numerator": 1
+      },
+      "minimum_canonical_join_rate": {
+        "denominator": 45,
+        "float": 0.044444444444444446,
+        "numerator": 2
+      },
+      "minimum_singleton_rate_identity": {
+        "key": {
+          "Q_L": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "value": {
+          "denominator": 20,
+          "float": 0.45,
+          "numerator": 9
+        }
+      },
+      "minimum_singleton_rate_nonidentity": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "j": 5,
+          "p": [
+            0,
+            2,
+            3,
+            4,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 256,
+          "float": 0.38671875,
+          "numerator": 99
+        }
+      },
+      "minimum_singleton_split_or_reverse_rate": {
+        "key": {
+          "Q_L": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "j": 5,
+          "p": [
+            0,
+            2,
+            3,
+            4,
+            1
+          ]
+        },
+        "value": {
+          "denominator": 256,
+          "float": 0.38671875,
+          "numerator": 99
+        }
+      },
+      "proved_coarse_bound_checked": {
+        "all_canonical_rates_meet_bound": true,
+        "all_join_rates_meet_d_cubed_bound": true,
+        "all_singleton_rates_meet_bound": true,
+        "bound": {
+          "denominator": 1600,
+          "float": 0.000625,
+          "numerator": 1
+        }
+      },
+      "singleton_skeleton": {
+        "components": 1,
+        "gap_numeric": 0.10590800049237348,
+        "largest_eigenvalues": [
+          0.850201850933455,
+          0.8660332031565727,
+          0.8940919995076236,
+          0.894091999507626,
+          0.8940919995076265,
+          0.999999999999999
+        ],
+        "stationary_eigenvector_residual": 5.684341886080801e-13,
+        "undirected_edges": 7280
+      },
+      "spectral_components": 1,
+      "stationary_eigenvector_residual": 5.684341886080801e-13,
+      "stationary_weight_total": 310464000,
+      "threshold_cut_scans": {
+        "core_edges": {
+          "conductance": {
+            "denominator": 67,
+            "float": 0.8208955223880597,
+            "numerator": 55
+          },
+          "mass": {
+            "denominator": 32340,
+            "float": 0.9979282622139765,
+            "numerator": 32273
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "cut_imbalance": {
+          "conductance": {
+            "denominator": 3010,
+            "float": 0.3179401993355482,
+            "numerator": 957
+          },
+          "mass": {
+            "denominator": 154,
+            "float": 0.7207792207792207,
+            "numerator": 111
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "cycles": {
+          "conductance": {
+            "denominator": 50056,
+            "float": 0.3207407703372223,
+            "numerator": 16055
+          },
+          "mass": {
+            "denominator": 16170,
+            "float": 0.6130488559059988,
+            "numerator": 9913
+          },
+          "threshold_for_stat_leq": 3
+        },
+        "identity": {
+          "conductance": {
+            "denominator": 3952,
+            "float": 0.5301113360323887,
+            "numerator": 2095
+          },
+          "mass": {
+            "denominator": 2695,
+            "float": 0.9083487940630798,
+            "numerator": 2448
+          },
+          "threshold_for_stat_leq": 0
+        },
+        "j": {
+          "conductance": {
+            "denominator": 956,
+            "float": 0.21443514644351463,
+            "numerator": 205
+          },
+          "mass": {
+            "denominator": 2695,
+            "float": 0.3547309833024119,
+            "numerator": 956
+          },
+          "threshold_for_stat_leq": 4
+        },
+        "leaf_vertices": {
+          "conductance": {
+            "denominator": 3880,
+            "float": 0.3188144329896907,
+            "numerator": 1237
+          },
+          "mass": {
+            "denominator": 539,
+            "float": 0.640074211502783,
+            "numerator": 345
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "left_blocks": {
+          "conductance": {
+            "denominator": 116192,
+            "float": 0.1665605205177637,
+            "numerator": 19353
+          },
+          "mass": {
+            "denominator": 8085,
+            "float": 0.5508967223252937,
+            "numerator": 4454
+          },
+          "threshold_for_stat_leq": 1
+        },
+        "max_cycle": {
+          "conductance": {
+            "denominator": 281320,
+            "float": 0.27158751599601877,
+            "numerator": 76403
+          },
+          "mass": {
+            "denominator": 16170,
+            "float": 0.5650587507730365,
+            "numerator": 9137
+          },
+          "threshold_for_stat_leq": 2
+        },
+        "max_incidence_degree": {
+          "conductance": {
+            "denominator": 3226,
+            "float": 0.3040917544947303,
+            "numerator": 981
+          },
+          "mass": {
+            "denominator": 5390,
+            "float": 0.7007421150278293,
+            "numerator": 3777
+          },
+          "threshold_for_stat_leq": 3
+        },
+        "max_label_block": {
+          "conductance": {
+            "denominator": 13936,
+            "float": 0.4842853042479908,
+            "numerator": 6749
+          },
+          "mass": {
+            "denominator": 8085,
+            "float": 0.10773036487322202,
+            "numerator": 871
+          },
+          "threshold_for_stat_leq": 4
+        },
+        "right_blocks": {
+          "conductance": {
+            "denominator": 116192,
+            "float": 0.1665605205177637,
+            "numerator": 19353
+          },
+          "mass": {
+            "denominator": 8085,
+            "float": 0.5508967223252937,
+            "numerator": 4454
+          },
+          "threshold_for_stat_leq": 1
+        }
+      },
+      "undirected_edges": 7520
+    }
+  ],
+  "claim_scope": "exact finite combinatorics; numerical spectra are finite diagnostics only",
+  "convention": "(p q)(x)=p(q(x)); factors multiply left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "kernel": "A_d with Q_A(kappa,lambda)=|C_kappa intersect C_lambda|/(2 Z_inc) and unused row mass held",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "scipy": "1.11.4",
+  "seed": null,
+  "target": "rho(kappa)=|C_kappa|/sum_lambda |C_lambda| on realizable connected-unicycle keys"
+}

@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "H4_conditional_fiber_max": 27,
+      "H4_conditional_fiber_min": 27,
+      "N": 3,
+      "Q_support_size": 3,
+      "all_endpoint_types_connected": true,
+      "eight_word_class_mass_check": 6561,
+      "elapsed_seconds": 0.00035092420876026154,
+      "endpoint_cycle_types_tested": 2,
+      "endpoints": [
+        {
+          "component_microfactorized_sizes": [
+            2187
+          ],
+          "component_product_path_sizes": [
+            27
+          ],
+          "components": 1,
+          "connected": true,
+          "cycle_type": [
+            3
+          ],
+          "microfactorized_fiber_size": 2187,
+          "product_paths": 27,
+          "representative_words_by_component": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "symmetric_group_class_size": 2,
+          "transposition_defect": 2
+        },
+        {
+          "component_microfactorized_sizes": [
+            2187
+          ],
+          "component_product_path_sizes": [
+            27
+          ],
+          "components": 1,
+          "connected": true,
+          "cycle_type": [
+            1,
+            1,
+            1
+          ],
+          "microfactorized_fiber_size": 2187,
+          "product_paths": 27,
+          "representative_words_by_component": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "symmetric_group_class_size": 1,
+          "transposition_defect": 0
+        }
+      ],
+      "naive_eight_word_count": 6561,
+      "ordered_micro_pairs": 9,
+      "transpositions": 3
+    }
+  ],
+  "claim_tested": "For every N>=3 and every feasible endpoint h, the pair-length-four microfactorized Q bridge is connected under its three aligned H4 heat baths. A finite disconnected endpoint refutes this l=4 subclaim and the broader base-connectivity proposition; finite survival proves no universal claim or gap.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-base-falsification/l4_product_path.py --N 3 --output experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-l4-referee/l4_product_path_N3.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word=t1...t8; Q=P_transposition^2",
+  "kernel_normalization": "The nonlazy aligned chain chooses one of three H4 windows with probability 1/3 and then samples uniformly from its exact four-factor same-product fiber.",
+  "microfactor_quotient_lemma": "Projection to Q-increment products preserves connectivity: every H4 move projects to adjacent-pair product resampling, while arbitrary ordered microfactor labels can be refreshed by an H4 outcome that retains both increment products. Thus components equal components of the product-path chain.",
+  "python": "3.12.3",
+  "seed": null
+}

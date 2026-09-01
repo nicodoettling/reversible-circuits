@@ -1,0 +1,83 @@
+{
+  "aoec": {
+    "first_lexicographic_negative": {
+      "T": "5665610708886866/30120839742579859",
+      "active_type": "S_14",
+      "block_index": 0,
+      "delta": "-20633990196069360/30120839742579859",
+      "ell": 2,
+      "endpoint_b": 3,
+      "negative_internal_mass": "11343430713381552/30120839742579859",
+      "negative_seam_mass": "5184/16807",
+      "positive_cross_mass": "0",
+      "u": 1
+    },
+    "minimum": {
+      "delta": "-207274081831549056/30120839742579859",
+      "witness": {
+        "T": "5665610708886866/30120839742579859",
+        "active_type": "S_19",
+        "block_index": 0,
+        "delta": "-207274081831549056/30120839742579859",
+        "ell": 10,
+        "endpoint_b": 3,
+        "negative_internal_mass": "107400567392655120/30120839742579859",
+        "negative_seam_mass": "55728/16807",
+        "positive_cross_mass": "0",
+        "u": 1
+      }
+    },
+    "negative_prefix_instances": 2920,
+    "nonzero_prefix_instances": 7364
+  },
+  "checks": {
+    "lag_reflection": true,
+    "prefix_aoti_reconstructions": 162,
+    "statewise_aoti_reconstructions": 31752,
+    "terminal_signed_law_reconstruction": true
+  },
+  "normalization": {
+    "negative_mass": "656493830500/1792160394037",
+    "positive_mass": "656493830500/1792160394037",
+    "transport_mass": "656493830500/1792160394037"
+  },
+  "scope": {
+    "blocks": 3,
+    "k": 7,
+    "lags": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "n": 21,
+    "new_grouping_transport_or_search": false,
+    "other_ranks": false,
+    "rows": 54,
+    "u_values": [
+      1,
+      2,
+      3
+    ]
+  },
+  "source": {
+    "m311_path": "../../cycle-91/mission-M311-multicell-hahn-quantile/qbp_k11.py",
+    "m311_sha256": "703f4d8db29c60ee3f1d3f1cd7418aa11782f9a309a310c2a259d8d30d09eb94",
+    "m334_code_or_results_imported": false
+  },
+  "status": "independent exact audit; fixed k=7 AOEC guard only"
+}

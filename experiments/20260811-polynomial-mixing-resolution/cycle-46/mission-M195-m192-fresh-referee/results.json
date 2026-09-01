@@ -1,0 +1,40 @@
+{
+  "mission": "M195",
+  "audited_mission": "M192",
+  "verdict": "ACCEPT",
+  "material_objections": [],
+  "nonmaterial_qualifications": [],
+  "immutable_gate": {
+    "all_manifest_entries_passed": true,
+    "m192_sha256sums_digest": "4c6cd295cd2a8259d396f8f9218e7f98746e7d005a255cfb4f14dc2d96336c60",
+    "m192_edited": false
+  },
+  "accepted_claims": [
+    "Cayley tau convolution",
+    "exact gamma_L and gamma_F",
+    "exact triangle masses and complete O(1/k) shared-prefix bound",
+    "exact unnormalized disjoint Abel identity and negative endpoint",
+    "universal |E_u| <= C sqrt(u)/k",
+    "DV plus DE suffice for the conditional J=2 prefix estimate"
+  ],
+  "open_claims": [
+    "DV",
+    "DE",
+    "conditional J=2 prefix estimate",
+    "PCR",
+    "WPCR",
+    "SCBR",
+    "BIR",
+    "BR",
+    "PCS-bound",
+    "all downstream claims"
+  ],
+  "cleanroom": {
+    "k": [3, 5],
+    "standard_library_only": true,
+    "imports_m192_code_or_data": false,
+    "all_assertions_passed": true,
+    "finite_only": true,
+    "disjoint_collision_events": {"3": 14, "5": 132}
+  }
+}

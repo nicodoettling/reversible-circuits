@@ -1,0 +1,213 @@
+{
+  "R_base_rows": [
+    {
+      "R_d": {
+        "denominator": 4,
+        "numerator": 3
+      },
+      "degree": 2,
+      "slack": {
+        "denominator": 1,
+        "numerator": 0
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 700,
+        "numerator": 649
+      },
+      "degree": 3,
+      "slack": {
+        "denominator": 1400,
+        "numerator": 277
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 105,
+        "numerator": 113
+      },
+      "degree": 4,
+      "slack": {
+        "denominator": 210,
+        "numerator": 89
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 3234,
+        "numerator": 3919
+      },
+      "degree": 5,
+      "slack": {
+        "denominator": 12936,
+        "numerator": 8579
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 3696,
+        "numerator": 4951
+      },
+      "degree": 6,
+      "slack": {
+        "denominator": 3696,
+        "numerator": 3365
+      }
+    },
+    {
+      "R_d": {
+        "denominator": 154440,
+        "numerator": 225763
+      },
+      "degree": 7,
+      "slack": {
+        "denominator": 77220,
+        "numerator": 89821
+      }
+    }
+  ],
+  "aggregate_rows": [
+    {
+      "aggregate": {
+        "denominator": 4,
+        "numerator": 1
+      },
+      "eta_first_moment": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 1,
+      "quarter_slack": {
+        "denominator": 1,
+        "numerator": 0
+      }
+    },
+    {
+      "aggregate": {
+        "denominator": 700,
+        "numerator": 139
+      },
+      "eta_first_moment": {
+        "denominator": 16,
+        "numerator": 9
+      },
+      "n": 2,
+      "quarter_slack": {
+        "denominator": 175,
+        "numerator": 9
+      }
+    },
+    {
+      "aggregate": {
+        "denominator": 18750,
+        "numerator": 3299
+      },
+      "eta_first_moment": {
+        "denominator": 125,
+        "numerator": 64
+      },
+      "n": 3,
+      "quarter_slack": {
+        "denominator": 37500,
+        "numerator": 2777
+      }
+    },
+    {
+      "aggregate": {
+        "denominator": 39530064,
+        "numerator": 6129215
+      },
+      "eta_first_moment": {
+        "denominator": 16807,
+        "numerator": 7776
+      },
+      "n": 5,
+      "quarter_slack": {
+        "denominator": 39530064,
+        "numerator": 3753301
+      }
+    },
+    {
+      "aggregate": {
+        "denominator": 52965258532226040,
+        "numerator": 7386620129412149
+      },
+      "eta_first_moment": {
+        "denominator": 2357947691,
+        "numerator": 1000000000
+      },
+      "n": 9,
+      "quarter_slack": {
+        "denominator": 52965258532226040,
+        "numerator": 5854694503644361
+      }
+    }
+  ],
+  "amv_audit": {
+    "branch_T1": {
+      "denominator": 981552,
+      "numerator": 676967
+    },
+    "degree": 3,
+    "exterior": {
+      "denominator": 13,
+      "numerator": 7
+    },
+    "first_mode": {
+      "denominator": 75504,
+      "numerator": 7417
+    },
+    "parent": [
+      5,
+      2
+    ],
+    "pi": {
+      "denominator": 35,
+      "numerator": 12
+    },
+    "retained_observation": 1,
+    "trace": {
+      "denominator": 7436,
+      "numerator": 5859
+    }
+  },
+  "claim": "exact AMV branch identity, finite-summary obstruction, and terminal fresh-sector quarter bound",
+  "counts": {
+    "R_base_rows": 6,
+    "operator_witnesses": 2,
+    "selected_aggregate_rows": 5,
+    "six_term_vector_identities": 3
+  },
+  "environment": {
+    "dependencies": "Python standard library only",
+    "python": "3.12.3",
+    "seed": null
+  },
+  "failures": [],
+  "operator_witnesses": [
+    {
+      "charge": {
+        "denominator": 35,
+        "numerator": 18
+      },
+      "degree": 2,
+      "norm_before_unit_scaling": {
+        "denominator": 300,
+        "numerator": 1
+      }
+    },
+    {
+      "charge": {
+        "denominator": 63,
+        "numerator": 32
+      },
+      "degree": 3,
+      "norm_before_unit_scaling": {
+        "denominator": 4900,
+        "numerator": 1
+      }
+    }
+  ],
+  "status": "pass"
+}

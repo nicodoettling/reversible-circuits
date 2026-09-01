@@ -1,0 +1,111 @@
+{
+  "checks": {
+    "V_D": [
+      {
+        "D": 6,
+        "length": 10,
+        "support_edges": 6
+      },
+      {
+        "D": 7,
+        "length": 12,
+        "support_edges": 7
+      },
+      {
+        "D": 8,
+        "length": 14,
+        "support_edges": 8
+      },
+      {
+        "D": 9,
+        "length": 16,
+        "support_edges": 9
+      },
+      {
+        "D": 10,
+        "length": 18,
+        "support_edges": 10
+      },
+      {
+        "D": 11,
+        "length": 20,
+        "support_edges": 11
+      },
+      {
+        "D": 12,
+        "length": 22,
+        "support_edges": 12
+      }
+    ],
+    "all_negative_scan_and_carrier": "passed for d=5..12",
+    "cross_seam_rows": 52,
+    "edit_partitions": [
+      {
+        "d": 5,
+        "edits": 7,
+        "max_length": 13
+      },
+      {
+        "d": 6,
+        "edits": 9,
+        "max_length": 17
+      },
+      {
+        "d": 7,
+        "edits": 11,
+        "max_length": 21
+      },
+      {
+        "d": 8,
+        "edits": 13,
+        "max_length": 25
+      },
+      {
+        "d": 9,
+        "edits": 15,
+        "max_length": 29
+      },
+      {
+        "d": 10,
+        "edits": 17,
+        "max_length": 33
+      },
+      {
+        "d": 11,
+        "edits": 19,
+        "max_length": 37
+      },
+      {
+        "d": 12,
+        "edits": 21,
+        "max_length": 41
+      }
+    ],
+    "prefix_embeddings": [
+      {
+        "beta_length": 4,
+        "d": 5,
+        "lower_length": 8
+      },
+      {
+        "beta_length": 4,
+        "d": 6,
+        "lower_length": 10
+      },
+      {
+        "beta_length": 4,
+        "d": 7,
+        "lower_length": 12
+      },
+      {
+        "beta_length": 4,
+        "d": 8,
+        "lower_length": 14
+      }
+    ]
+  },
+  "dependencies": {},
+  "normalized_sha256": "adcfb4cc7134cedeca1ec5241598dc8ab695cd513aec565fe577944608afe0f8",
+  "python": "3.12.3",
+  "seed": null
+}

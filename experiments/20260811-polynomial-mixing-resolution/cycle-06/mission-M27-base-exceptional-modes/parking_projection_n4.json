@@ -1,0 +1,28 @@
+{
+  "claim_tested": "Every feasible one-entry replacement between sorted parking multisets is one stationary-flow projection edge of the local rank-two heat-bath.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "factorizations": 16,
+  "feasible_one_entry_edges": 7,
+  "first_missing_edges": [
+    [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ]
+  ],
+  "missing_edges": 1,
+  "n": 4,
+  "parking_multisets": 5,
+  "projection_edges": 6,
+  "python": "3.12.3",
+  "r": 3,
+  "seed": null,
+  "universal_implication": "A missing edge refutes direct one-step domination of a full single-entry heat-bath; it leaves polynomial path comparison open."
+}

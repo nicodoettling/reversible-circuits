@@ -1,0 +1,799 @@
+{
+  "argv": [
+    "marked_leaf_audit.py",
+    "--d",
+    "2",
+    "3",
+    "4",
+    "--output",
+    "marked_leaf_results.json"
+  ],
+  "claims_tested": {
+    "A": "Every fixed (v,Del_v(w)) marked-leaf fiber is connected by literal signed adjacent-Hurwitz moves preserving that key.",
+    "B": "Every physical proposal retaining v deletes to a self-loop or one signed adjacent-Hurwitz proposal.",
+    "C": "Every nontrivial oriented base proposal has a one-step physical lift from every state in every marked fiber."
+  },
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "elapsed_seconds": 1.0861483078915626,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "bad_equivariance_examples": [],
+      "d": 2,
+      "deletion_image_classes": {
+        "identity": 4
+      },
+      "disconnected_examples": [],
+      "elapsed_seconds": 0.00011396105401217937,
+      "fiber_component_count_histogram": {
+        "1": 2
+      },
+      "fiber_size_histogram": {
+        "1": 2
+      },
+      "fiber_size_max": 1,
+      "fiber_size_min": 1,
+      "fibers": 2,
+      "internal_directed_nonself_edges": 0,
+      "leaf_count_histogram": {
+        "2": 1
+      },
+      "length": 2,
+      "marked_incidences": 2,
+      "null_separation_histogram": {
+        "1": 2
+      },
+      "states": 1,
+      "strong_one_step_lift_failure_count": 0,
+      "strong_one_step_lift_failures_recorded": [],
+      "strong_one_step_lift_tests": 0
+    },
+    {
+      "bad_equivariance_examples": [],
+      "d": 3,
+      "deletion_image_classes": {
+        "identity": 228,
+        "mark_lost": 60
+      },
+      "disconnected_examples": [],
+      "elapsed_seconds": 0.0034071612171828747,
+      "fiber_component_count_histogram": {
+        "1": 3
+      },
+      "fiber_size_histogram": {
+        "16": 3
+      },
+      "fiber_size_max": 16,
+      "fiber_size_min": 16,
+      "fibers": 3,
+      "internal_directed_nonself_edges": 156,
+      "leaf_count_histogram": {
+        "2": 24
+      },
+      "length": 4,
+      "marked_incidences": 48,
+      "null_separation_histogram": {
+        "1": 18,
+        "2": 18,
+        "3": 12
+      },
+      "states": 24,
+      "strong_one_step_lift_failure_count": 0,
+      "strong_one_step_lift_failures_recorded": [],
+      "strong_one_step_lift_tests": 0
+    },
+    {
+      "bad_equivariance_examples": [],
+      "d": 4,
+      "deletion_image_classes": {
+        "identity": 38352,
+        "mark_lost": 7632,
+        "one_base_move": 19056
+      },
+      "disconnected_examples": [],
+      "elapsed_seconds": 1.0792175349779427,
+      "fiber_component_count_histogram": {
+        "1": 96
+      },
+      "fiber_size_histogram": {
+        "67": 24,
+        "68": 72
+      },
+      "fiber_size_max": 68,
+      "fiber_size_min": 67,
+      "fibers": 96,
+      "internal_directed_nonself_edges": 30192,
+      "leaf_count_histogram": {
+        "2": 2136,
+        "3": 744
+      },
+      "length": 6,
+      "marked_incidences": 6504,
+      "null_separation_histogram": {
+        "1": 1440,
+        "2": 1536,
+        "3": 1512,
+        "4": 1248,
+        "5": 768
+      },
+      "states": 2880,
+      "strong_one_step_lift_failure_count": 10992,
+      "strong_one_step_lift_failures_recorded": [
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": 1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": 1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": 1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": -1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "base_orientation": 1,
+          "base_site": 1,
+          "base_target": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "v": 1,
+          "w": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "z": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ]
+        }
+      ],
+      "strong_one_step_lift_tests": 29328
+    }
+  ],
+  "scope_warning": "Finite passes are falsification checks only; any failure is an exact counterexample.",
+  "seed": null
+}

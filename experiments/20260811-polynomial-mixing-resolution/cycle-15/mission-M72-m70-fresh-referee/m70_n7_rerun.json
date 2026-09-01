@@ -1,0 +1,67 @@
+{
+  "N": 7,
+  "claim_tested": "At N=7, the M67 feature belongs to a nontrivial invariant cyclic sector; its exact-kernel Krylov closures for C, B, raw adjacent L, and fixed-endpoint local K_h have positive gaps and respect the M70 scan normalizations.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "cyclic_character_imag": 0.9749279121818237,
+  "cyclic_character_real": -0.22252093395631428,
+  "deterministic": true,
+  "elapsed_seconds": 1.1096451291814446,
+  "endpoint": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    0
+  ],
+  "feature_frequency_projection_relative_residual": 6.287053262681422e-16,
+  "feature_mean_abs": 1.1078726770428122e-16,
+  "feature_norm2": 898488.3348002391,
+  "full_state_padding_directed_edges_checked": 120050,
+  "full_twist_checked_all_states": true,
+  "minimum_exact_B_over_Mminus4_L_ratio": {
+    "decimal": 7779.24,
+    "denominator": 25,
+    "numerator": 194481
+  },
+  "numpy": "1.26.4",
+  "pair_length": 3,
+  "python": "3.12.3",
+  "raw_length": 6,
+  "records": {
+    "B": {
+      "eigensolver_residual": 3.67551748999114e-14,
+      "feature_dirichlet_rayleigh": 0.20820744800456026,
+      "feature_transition_rayleigh": 0.7917925519954397,
+      "krylov_gap": 0.17534897222700052,
+      "krylov_top_transition_eigenvalue": 0.8246510277729995
+    },
+    "C": {
+      "eigensolver_residual": 5.05277817639171e-15,
+      "feature_dirichlet_rayleigh": 0.27157842179475855,
+      "feature_transition_rayleigh": 0.7284215782052414,
+      "krylov_gap": 0.2530297419861339,
+      "krylov_top_transition_eigenvalue": 0.7469702580138661
+    },
+    "K_h": {
+      "eigensolver_residual": 1.0780513677902823e-15,
+      "feature_dirichlet_rayleigh": 0.16129540470355386,
+      "feature_transition_rayleigh": 0.8387045952964461,
+      "krylov_gap": 0.10229829531155932,
+      "krylov_top_transition_eigenvalue": 0.8977017046884407
+    },
+    "L": {
+      "eigensolver_residual": 8.397986322762105e-13,
+      "feature_dirichlet_rayleigh": 0.034132235878926886,
+      "feature_transition_rayleigh": 0.9658677641210731,
+      "krylov_gap": 0.015491894342543833,
+      "krylov_top_transition_eigenvalue": 0.9845081056574562
+    }
+  },
+  "scipy": "1.11.4",
+  "scope_warning": "Exact finite state/kernel construction plus floating ARPACK can falsify the sector formulas but cannot prove an asymptotic spectral bound or Terminal B.",
+  "seed": null,
+  "states": 16807
+}

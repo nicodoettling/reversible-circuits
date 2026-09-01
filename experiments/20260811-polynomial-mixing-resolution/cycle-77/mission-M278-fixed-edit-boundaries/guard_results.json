@@ -1,0 +1,56 @@
+{
+  "mission": "M278",
+  "pass": true,
+  "predecessor_imports": [],
+  "purpose": "post-analytic-lock transcription and boundary guard",
+  "python": "3.12.3",
+  "ranks": [
+    {
+      "cross_boundary_counts": {
+        "parent_not_one": 8,
+        "parent_one": 8
+      },
+      "cross_boundary_rows": 16,
+      "d": 5,
+      "incidence_counts": {
+        "common_parent": 8,
+        "disjoint": 8,
+        "next_child": 8,
+        "previous_child": 8
+      },
+      "internal_rows": 32,
+      "last_edit_rows": 16,
+      "pass": true,
+      "tree_count": 16
+    },
+    {
+      "cross_boundary_counts": {
+        "parent_not_one": 75,
+        "parent_one": 50
+      },
+      "cross_boundary_rows": 125,
+      "d": 6,
+      "incidence_counts": {
+        "common_parent": 75,
+        "disjoint": 150,
+        "next_child": 75,
+        "previous_child": 75
+      },
+      "internal_rows": 375,
+      "last_edit_rows": 125,
+      "pass": true,
+      "tree_count": 125
+    }
+  ],
+  "searched_routes": false,
+  "tested_ranks": [
+    5,
+    6
+  ],
+  "totals": {
+    "cross_boundary_rows": 141,
+    "internal_rows": 407,
+    "last_edit_rows": 141,
+    "trees": 141
+  }
+}

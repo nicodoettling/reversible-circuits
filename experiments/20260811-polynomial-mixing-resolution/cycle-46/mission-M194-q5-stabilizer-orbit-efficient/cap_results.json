@@ -1,0 +1,30 @@
+{
+  "classification_status": "inconclusive",
+  "command": "python3 -B schreier_orbit_fast.py --input ../../cycle-45/mission-M191-d5-synchronized-route-classification/q5_action.json --output exact_results.json --cap-seconds 300",
+  "completed_checks": {
+    "action_digest": "160bcae167e754af4ff55356a2ab25526bf53d03ebc23bd974938fb8370c67ae",
+    "action_size": 8400,
+    "all_14_action_rows_bijective": true,
+    "all_7_signed_pairs_inverse": true,
+    "bfs_transversal_size": 8400,
+    "every_transversal_word_replayed": true,
+    "immutable_m191_manifest_verified": true,
+    "source_ids": [16, 0]
+  },
+  "resource_cap": {
+    "cap_seconds": 300,
+    "exception": "TimeoutError",
+    "observed_rss_kib_approx": 26272,
+    "output_created": false,
+    "stage": "streamed Schreier-generator orbit closure"
+  },
+  "not_claimed": [
+    "complete stabilizer orbit",
+    "classification of any target beyond immutable M188 positives",
+    "any new positive route",
+    "any negative orbit obstruction",
+    "all-d or every-color theorem",
+    "polynomial route length, gap, mixing, or Terminal conclusion"
+  ],
+  "repository_base_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993"
+}

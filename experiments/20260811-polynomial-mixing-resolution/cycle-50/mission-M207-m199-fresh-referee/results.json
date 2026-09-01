@@ -1,0 +1,33 @@
+{
+  "mission": "M207",
+  "verdict": "ACCEPT M199 strict exact literal-profile reduction",
+  "material_objections": [],
+  "nonmaterial_qualifications": [
+    "spell out T_r pairing domains and that the seam edit includes the complementary X face",
+    "IKBE implies conditional J2 only together with the accepted M192 Abel/EW/endpoint/shared-endpoint inputs"
+  ],
+  "proved_in_audit": [
+    "post-first per-placement denominator R_*=2k-3",
+    "literal B tuple bijection and complementary-face orientation",
+    "two-seam incidence atoms",
+    "A untouched-cycle mass (k-1)/(2k-3)",
+    "complete shared-endpoint deletion and collision retention",
+    "four-part adjacent-split domain map",
+    "IKBE-a equals DV and IKBE-b implies DE"
+  ],
+  "open": [
+    "IKBE",
+    "DV",
+    "DE",
+    "conditional J=2 prefix estimate",
+    "PCR/WPCR",
+    "SCBR/BIR/BR/PCS and downstream"
+  ],
+  "cleanroom": {
+    "k": [3, 5],
+    "assertions": 649,
+    "finite_only": true,
+    "universal_inference": false
+  },
+  "m199_sha256sums_digest": "1de555bba9affef15b7f2b9585de7955f9d9bd23fc838c76508186d7438c25ed"
+}

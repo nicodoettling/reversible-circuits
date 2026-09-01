@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/generic_contour_falsification.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/generic-contour-results.json"
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "method": "Exhaust all connected identity words in S_3 of genus one, all selected subsets, and all duplicate pairs; compute contour mod-2 homology in the literal chronological cell complex.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "result": {
+    "connected_identity_words": 240,
+    "contour_not_cycle_count": 0,
+    "contour_not_cycle_examples": [],
+    "duplicate_subset_pairs": 18720,
+    "elapsed_seconds": 0.19761701812967658,
+    "face_length_histogram": {
+      "(2, 4, 6)": 54,
+      "(2, 5, 5)": 36,
+      "(3, 3, 6)": 6,
+      "(3, 4, 5)": 108,
+      "(4, 4, 4)": 36
+    },
+    "length": 6,
+    "n": 3,
+    "safe_iff_nonzero_mod2_homology_failure_count": 0,
+    "safe_iff_nonzero_mod2_homology_failures": [],
+    "safe_subset_pairs": 17280
+  },
+  "scope_warning": "Finite falsification only; not the general proof.",
+  "seed": null
+}

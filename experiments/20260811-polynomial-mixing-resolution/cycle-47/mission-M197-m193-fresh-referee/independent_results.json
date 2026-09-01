@@ -1,0 +1,82 @@
+{
+  "B1_average": "(17591*d**4 + 187970*d**3 + 679425*d**2 + 1233430*d + 1075144)/(69120*(d + 2)*(d + 3)*(d + 4)*(d + 5))",
+  "B1_slack_numerator": "51529*d**4 + 779710*d**3 + 4228095*d**2 + 9411050*d + 7219256",
+  "assertions": {
+    "B1_certificate_passes": true,
+    "B_ge_2_optimization_certificates_pass": true,
+    "exterior_includes_r_equals_n": true,
+    "killed_a_equals_d_excluded": true,
+    "n0_exact_matrix_history_passes": true,
+    "pointwise_obstruction_but_average_passes": true,
+    "raw_history_average_matches_closed_form": true
+  },
+  "b_derivative": "-(3*b*d**2 + 27*b*d + 60*b - 4*d**2 - 36*d - 104)/(18*(d + 3)*(d + 4))",
+  "closed_average_identity": true,
+  "exterior_rows": {
+    "n1": "36/125",
+    "n2": "5/24",
+    "n30": "54511233514245172900079150318608779382207377699/635631428707213235911226778833821126439118831616",
+    "n5": "896/6561"
+  },
+  "exterior_slack": "3*(n - 1)*(79*n**3 + 848*n**2 + 2107*n + 366)/(125*(n + 4)**2*(17*n**2 + n + 2))",
+  "main_shifted_coefficients_ascending": [
+    5726736,
+    18788964,
+    16784028,
+    6721029,
+    1351327,
+    131535,
+    4829
+  ],
+  "n0": {
+    "B1_nominal_history": "2957/23040",
+    "charge_ceiling_before_3over8": "9*(25+sqrt(415))/1120",
+    "eta": "9/16",
+    "rho": "(sqrt(415) + 25)/70"
+  },
+  "named_degree_average": "443845801/614790000",
+  "named_obstruction": "10249528643/7684875000",
+  "positive_y_table": [
+    [
+      512,
+      768,
+      273
+    ],
+    [
+      11520,
+      17280,
+      6015
+    ],
+    [
+      105472,
+      158208,
+      53583
+    ],
+    [
+      492160,
+      738240,
+      240705
+    ],
+    [
+      1231488,
+      1847232,
+      570612
+    ],
+    [
+      1571840,
+      2357760,
+      673620
+    ],
+    [
+      803328,
+      1204992,
+      306672
+    ]
+  ],
+  "python": "SymPy exact arithmetic",
+  "q_second_derivative": "-(4*y + 3)/(9*y)",
+  "qstar": "y*(d**2 + 11*d + 22)/((d + 2)*(d + 3)*(4*y + 3))",
+  "schema": "M197-independent-symbolic-v1",
+  "seed": null,
+  "sympy": "1.12"
+}

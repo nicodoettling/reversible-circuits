@@ -1,0 +1,135 @@
+{
+  "N": 6,
+  "candidate_mu_3_formula": "mu=(1+2*kappa)/3 for the selected real root kappa",
+  "centralizer_size": 16,
+  "character": "sign on swapping fixed points 1,2; trivial on the other generators",
+  "character_space_dimension": 5,
+  "characteristic_polynomial": "lambda**5 - 239347*lambda**4/658800 - 100840801*lambda**3/823500000 - 903467*lambda**2/3294000000 + 152699*lambda/219600000 + 83/6100000",
+  "endpoint_cycles": "(3 4)(5 6)",
+  "factorization": "(1/3294000000, [(16*lambda + 3, 1), (205875000*lambda**4 - 113397500*lambda**3 - 3948169*lambda**2 + 683815*lambda + 14940, 1)])",
+  "leading_eigenvalue_numeric": 0.5737580234146704,
+  "matrix": [
+    [
+      [
+        1,
+        27
+      ],
+      [
+        2,
+        27
+      ],
+      [
+        13,
+        108
+      ],
+      [
+        5,
+        27
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        12,
+        125
+      ],
+      [
+        28,
+        125
+      ],
+      [
+        3,
+        25
+      ],
+      [
+        6,
+        25
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        13,
+        122
+      ],
+      [
+        5,
+        61
+      ],
+      [
+        9,
+        122
+      ],
+      [
+        9,
+        61
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        4,
+        25
+      ],
+      [
+        4,
+        25
+      ],
+      [
+        18,
+        125
+      ],
+      [
+        27,
+        125
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -3,
+        16
+      ]
+    ]
+  ],
+  "scope": "exact algebraic candidate in the numerically leading character; global optimality remains numerical",
+  "selected_leading_factor": {
+    "factor": "205875000*lambda**4 - 113397500*lambda**3 - 3948169*lambda**2 + 683815*lambda + 14940",
+    "multiplicity": 1,
+    "real_roots_numeric": [
+      -0.07883036820753084,
+      -0.020897389278457454,
+      0.07677726291163395,
+      0.5737580234146701
+    ]
+  },
+  "status": "complete"
+}

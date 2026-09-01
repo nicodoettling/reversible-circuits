@@ -1,0 +1,313 @@
+{
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4
+    ],
+    "frozen_family_max_d": 12,
+    "m92_family_max_d": 5,
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-20/mission-M101-m97-fresh-referee/independent_results.json"
+  },
+  "cases": [
+    {
+      "all_cuts_checked": 5,
+      "candidate_words": 1,
+      "cut_profile_counts": {
+        "central_unicycle": 1,
+        "left_tree": 2,
+        "right_tree": 2
+      },
+      "d": 2,
+      "genus_zero_candidates": 1,
+      "genus_zero_states": 1,
+      "handle_histogram": {
+        "3": 1
+      },
+      "insertion_deletion_multiplicity_exact": true,
+      "insertion_incidence_checks": 3,
+      "m97_handle_examples": null,
+      "mark_count_histogram": {
+        "3": 1
+      },
+      "max_handle_displacement": 0,
+      "oriented_handle_pair_histogram": {
+        "3,2": 1
+      },
+      "prefix_increment_case_counts": {
+        "cut_permutation_cycle": 2,
+        "join_cycles_within_support": 1,
+        "join_support_components": 1
+      },
+      "row_signature_counts_by_handle": {
+        "3": 1
+      },
+      "states": 1,
+      "strong_handle_lump": true,
+      "total_deletable_square_marks": 3,
+      "unmarked": 0
+    },
+    {
+      "all_cuts_checked": 1680,
+      "candidate_words": 729,
+      "cut_profile_counts": {
+        "central_unicycle": 336,
+        "left_tree": 672,
+        "right_tree": 672
+      },
+      "d": 3,
+      "genus_zero_candidates": 81,
+      "genus_zero_states": 24,
+      "handle_histogram": {
+        "3": 24,
+        "4": 144,
+        "5": 72
+      },
+      "insertion_deletion_multiplicity_exact": true,
+      "insertion_incidence_checks": 360,
+      "m97_handle_examples": {
+        "x_handle_destinations": {
+          "3": 10
+        },
+        "y_handle_destinations": {
+          "3": 8,
+          "4": 2
+        }
+      },
+      "mark_count_histogram": {
+        "0": 24,
+        "1": 96,
+        "2": 96,
+        "3": 24
+      },
+      "max_handle_displacement": 1,
+      "oriented_handle_pair_histogram": {
+        "3,2": 24,
+        "4,2": 36,
+        "4,3": 108,
+        "5,2": 12,
+        "5,3": 36,
+        "5,4": 24
+      },
+      "prefix_increment_case_counts": {
+        "cut_permutation_cycle": 720,
+        "join_cycles_within_support": 240,
+        "join_support_components": 480
+      },
+      "row_signature_counts_by_handle": {
+        "3": 2,
+        "4": 4,
+        "5": 2
+      },
+      "states": 240,
+      "strong_handle_lump": false,
+      "total_deletable_square_marks": 360,
+      "unmarked": 24
+    },
+    {
+      "all_cuts_checked": 1179360,
+      "candidate_words": 1679616,
+      "cut_profile_counts": {
+        "central_unicycle": 234720,
+        "left_tree": 472320,
+        "right_tree": 472320
+      },
+      "d": 4,
+      "genus_zero_candidates": 46656,
+      "genus_zero_states": 2880,
+      "handle_histogram": {
+        "3": 2880,
+        "4": 17280,
+        "5": 53280,
+        "6": 40320,
+        "7": 17280
+      },
+      "insertion_deletion_multiplicity_exact": true,
+      "insertion_incidence_checks": 120960,
+      "m97_handle_examples": null,
+      "mark_count_histogram": {
+        "0": 41472,
+        "1": 61272,
+        "2": 25272,
+        "3": 2952,
+        "4": 72
+      },
+      "max_handle_displacement": 1,
+      "oriented_handle_pair_histogram": {
+        "3,2": 2880,
+        "4,2": 4464,
+        "4,3": 12816,
+        "5,2": 5616,
+        "5,3": 15600,
+        "5,4": 32064,
+        "6,2": 3168,
+        "6,3": 8736,
+        "6,4": 15600,
+        "6,5": 12816,
+        "7,2": 1152,
+        "7,3": 3168,
+        "7,4": 5616,
+        "7,5": 4464,
+        "7,6": 2880
+      },
+      "prefix_increment_case_counts": {
+        "cut_permutation_cycle": 524160,
+        "join_cycles_within_support": 131040,
+        "join_support_components": 393120
+      },
+      "row_signature_counts_by_handle": {
+        "3": 2,
+        "4": 8,
+        "5": 9,
+        "6": 8,
+        "7": 2
+      },
+      "states": 131040,
+      "strong_handle_lump": false,
+      "total_deletable_square_marks": 120960,
+      "unmarked": 41472
+    }
+  ],
+  "claim_tested": "M97 prefix genus, strict handle ordering, tree-unicycle-tree cuts, componentwise genus zero, exact cut lift, frozen-handle family, and marked-deletion incidence law",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple factors multiply left-to-right",
+  "dependencies": {
+    "numpy": "1.26.4"
+  },
+  "elapsed_seconds": 131.45851588249207,
+  "frozen_handle_family": {
+    "all_passed": true,
+    "cases": [
+      {
+        "d": 3,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 10
+        }
+      },
+      {
+        "d": 4,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 14
+        }
+      },
+      {
+        "d": 5,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 18
+        }
+      },
+      {
+        "d": 6,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 22
+        }
+      },
+      {
+        "d": 7,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 26
+        }
+      },
+      {
+        "d": 8,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 30
+        }
+      },
+      {
+        "d": 9,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 34
+        }
+      },
+      {
+        "d": 10,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 38
+        }
+      },
+      {
+        "d": 11,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 42
+        }
+      },
+      {
+        "d": 12,
+        "h": 3,
+        "proposal_handle_histogram": {
+          "3": 46
+        }
+      }
+    ],
+    "range": [
+      3,
+      12
+    ]
+  },
+  "kernel": "P_d=I/2 + [1/(4(2d-1))] sum_i (R_i+R_i^-1); R_i(a,b)=(b,bab), R_i^-1(a,b)=(aba,a)",
+  "lift_cases": [
+    {
+      "base_eigenvalue_one_multiplicity": 1,
+      "base_gap": 1.0,
+      "base_min_eigenvalue": 1.0,
+      "base_states": 1,
+      "base_zero_eigenvalue_multiplicity_numeric": 0,
+      "d": 2,
+      "detailed_balance_residual": 0.0,
+      "extra_zero_eigenvalues_expected": 0,
+      "lift_eigenvalue_one_multiplicity": 1,
+      "lift_gap": 1.0,
+      "lift_min_eigenvalue": 1.0,
+      "lift_zero_eigenvalue_multiplicity_numeric": 0,
+      "lifted_states": 1,
+      "operator_L_equals_UPR_residual": 0.0,
+      "spectrum_union_zero_residual": 0.0,
+      "stationarity_residual": 0.0,
+      "w_marginal_residual": 0.0
+    },
+    {
+      "base_eigenvalue_one_multiplicity": 1,
+      "base_gap": 0.02771319171181641,
+      "base_min_eigenvalue": 0.3076517712876749,
+      "base_states": 240,
+      "base_zero_eigenvalue_multiplicity_numeric": 0,
+      "d": 3,
+      "detailed_balance_residual": 0.0,
+      "extra_zero_eigenvalues_expected": 96,
+      "lift_eigenvalue_one_multiplicity": 1,
+      "lift_gap": 0.02771319171181541,
+      "lift_min_eigenvalue": -1.1138015250510186e-15,
+      "lift_zero_eigenvalue_multiplicity_numeric": 96,
+      "lifted_states": 336,
+      "operator_L_equals_UPR_residual": 1.7763568394002505e-15,
+      "spectrum_union_zero_residual": 2.9976021664879227e-15,
+      "stationarity_residual": 8.673617379884035e-19,
+      "w_marginal_residual": 0.0
+    }
+  ],
+  "m92_unmarked_tree_family": {
+    "all_unmarked": true,
+    "range": [
+      3,
+      5
+    ],
+    "tree_and_word_counts": {
+      "3": 3,
+      "4": 16,
+      "5": 125
+    }
+  },
+  "python": "3.12.3",
+  "scope_warning": "Exact finite checks calibrate universal algebraic proofs and do not prove any asymptotic spectral-gap or marked-hitting bound.",
+  "seed": null
+}

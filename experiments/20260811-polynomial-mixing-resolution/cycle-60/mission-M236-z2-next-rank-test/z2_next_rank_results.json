@@ -1,0 +1,1875 @@
+{
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "experiment": "M236 exact d7->8 next-rank test of M231/M234 Z2",
+  "failure_classification": null,
+  "formal_carrier_checks": 1680,
+  "full_table": {
+    "distinct_formula_words": 22,
+    "edits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "failures": 0,
+    "passes": 14256,
+    "route_length_histogram": {
+      "0": 8158,
+      "1": 1296,
+      "13": 672,
+      "17": 540,
+      "2": 1296,
+      "21": 432,
+      "5": 1029,
+      "9": 833
+    },
+    "row_count": 14256,
+    "rows_digest": "114a70ed4fb006b25658a0cf7d49675b20b223b2504b8cca9ec462c31c05acf4",
+    "word_inventory_digest": "d6fdf8d908fee98bc866ab6201f585f187f3fee8771512ba2e2aa9cf208a821c"
+  },
+  "method": {
+    "assignment_precedes_endpoint_construction": true,
+    "descriptor_class_census_only": true,
+    "endpoint_derived_adaptation": false,
+    "formula_change_from_M231": "rank d only",
+    "group_element_enumeration": false,
+    "input_files": [],
+    "predecessor_data_reads": false,
+    "predecessor_imports": false,
+    "quotient_state_enumeration": false,
+    "route_search": false,
+    "row_order": "tree order, then increasing edit within scope",
+    "target_word_lookup": false,
+    "tree_order": "lexicographic sorted edge tuples"
+  },
+  "primary": {
+    "Z2": {
+      "class_count": 20,
+      "class_summaries": [
+        {
+          "failures": 0,
+          "passes": 2974,
+          "route": [],
+          "route_count": 1,
+          "route_length": 0,
+          "size": 2974,
+          "z2": [
+            "closed"
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 1,
+          "route": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 1,
+          "z2": [
+            "open",
+            2,
+            [
+              -1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 4,
+          "route": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 4,
+          "z2": [
+            "open",
+            2,
+            [
+              -1,
+              -1,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 19,
+          "route": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 19,
+          "z2": [
+            "open",
+            2,
+            [
+              -1,
+              -1,
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 19,
+          "route": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 19,
+          "z2": [
+            "open",
+            2,
+            [
+              -1,
+              1,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 65,
+          "route": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 65,
+          "z2": [
+            "open",
+            2,
+            [
+              -1,
+              1,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 19,
+          "route": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 19,
+          "z2": [
+            "open",
+            2,
+            [
+              1,
+              -1,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 65,
+          "route": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 65,
+          "z2": [
+            "open",
+            2,
+            [
+              1,
+              -1,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 240,
+          "route": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              2,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 21,
+          "size": 240,
+          "z2": [
+            "open",
+            2,
+            [
+              1,
+              -1,
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 6,
+          "route": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 17,
+          "size": 6,
+          "z2": [
+            "open",
+            3,
+            [
+              -1,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 23,
+          "route": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 17,
+          "size": 23,
+          "z2": [
+            "open",
+            3,
+            [
+              -1,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 103,
+          "route": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 17,
+          "size": 103,
+          "z2": [
+            "open",
+            3,
+            [
+              -1,
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 103,
+          "route": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 17,
+          "size": 103,
+          "z2": [
+            "open",
+            3,
+            [
+              1,
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 305,
+          "route": [
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              4,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 17,
+          "size": 305,
+          "z2": [
+            "open",
+            3,
+            [
+              1,
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 35,
+          "route": [
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 13,
+          "size": 35,
+          "z2": [
+            "open",
+            4,
+            [
+              -1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 126,
+          "route": [
+            [
+              6,
+              -1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 13,
+          "size": 126,
+          "z2": [
+            "open",
+            4,
+            [
+              -1,
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 511,
+          "route": [
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              7,
+              -1
+            ],
+            [
+              6,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 13,
+          "size": 511,
+          "z2": [
+            "open",
+            4,
+            [
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 196,
+          "route": [
+            [
+              8,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 9,
+          "size": 196,
+          "z2": [
+            "open",
+            5,
+            [
+              -1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 637,
+          "route": [
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ],
+            [
+              9,
+              -1
+            ],
+            [
+              8,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 9,
+          "size": 637,
+          "z2": [
+            "open",
+            5,
+            [
+              1
+            ]
+          ]
+        },
+        {
+          "failures": 0,
+          "passes": 1029,
+          "route": [
+            [
+              10,
+              -1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              12,
+              -1
+            ],
+            [
+              11,
+              -1
+            ],
+            [
+              10,
+              -1
+            ]
+          ],
+          "route_count": 1,
+          "route_length": 5,
+          "size": 1029,
+          "z2": [
+            "open",
+            6,
+            []
+          ]
+        }
+      ],
+      "class_summary_digest": "30adb20d0458fae1829670233e6c0cdfdf599e76b5f39bf4a8f8b71c987bfaa1",
+      "classes_by_edit": {
+        "1": {
+          "ascent_rows": 267,
+          "class_count": 9,
+          "class_size_histogram": {
+            "1": 1,
+            "19": 3,
+            "240": 1,
+            "4": 1,
+            "65": 2,
+            "864": 1
+          },
+          "closed_rows": 864,
+          "failures": 0,
+          "late_rows": 864,
+          "open_rows": 432,
+          "passes": 1296,
+          "rows": 1296
+        },
+        "3": {
+          "ascent_rows": 267,
+          "class_count": 6,
+          "class_size_histogram": {
+            "103": 2,
+            "23": 1,
+            "305": 1,
+            "6": 1,
+            "756": 1
+          },
+          "closed_rows": 756,
+          "failures": 0,
+          "late_rows": 756,
+          "open_rows": 540,
+          "passes": 1296,
+          "rows": 1296
+        },
+        "5": {
+          "ascent_rows": 267,
+          "class_count": 4,
+          "class_size_histogram": {
+            "126": 1,
+            "35": 1,
+            "511": 1,
+            "624": 1
+          },
+          "closed_rows": 624,
+          "failures": 0,
+          "late_rows": 600,
+          "open_rows": 672,
+          "passes": 1296,
+          "rows": 1296
+        },
+        "7": {
+          "ascent_rows": 267,
+          "class_count": 3,
+          "class_size_histogram": {
+            "196": 1,
+            "463": 1,
+            "637": 1
+          },
+          "closed_rows": 463,
+          "failures": 0,
+          "late_rows": 366,
+          "open_rows": 833,
+          "passes": 1296,
+          "rows": 1296
+        },
+        "9": {
+          "ascent_rows": 267,
+          "class_count": 2,
+          "class_size_histogram": {
+            "1029": 1,
+            "267": 1
+          },
+          "closed_rows": 267,
+          "failures": 0,
+          "late_rows": 0,
+          "open_rows": 1029,
+          "passes": 1296,
+          "rows": 1296
+        }
+      },
+      "first_behavior_collision": null,
+      "first_word_collision": null,
+      "word_homogeneous": true
+    },
+    "ascent_rows": 1335,
+    "by_edit": {
+      "1": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "3": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "5": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "7": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "9": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      }
+    },
+    "closed_rows": 2974,
+    "distinct_formula_words": 20,
+    "edits": [
+      1,
+      3,
+      5,
+      7,
+      9
+    ],
+    "failures": 0,
+    "first_formula_failure": null,
+    "late_rows": 2586,
+    "maximum_route_length": 21,
+    "open_rows": 3506,
+    "passes": 6480,
+    "route_length_histogram": {
+      "0": 2974,
+      "13": 672,
+      "17": 540,
+      "21": 432,
+      "5": 1029,
+      "9": 833
+    },
+    "row_count": 6480,
+    "rows_digest": "f1256098c2b86bf85504979ddb04a9f2c5afb0008c36233051a7e0a0859fdf53",
+    "scope": "Z2 ordinary odd edits",
+    "word_inventory_digest": "3bca6bd6407aa38e3cdc82c16f527f91fa5bda9ce6c75008bcdf89c3bb810608"
+  },
+  "primary_verdict": "FINITE_PASS",
+  "rank": {
+    "new_d": 8,
+    "old_d": 7
+  },
+  "scope_boundary": "Exact finite d7->8 template only; no all-d, every-color, polynomial-length, comparison, gap, mixing, or Terminal inference.",
+  "secondary": {
+    "by_edit": {
+      "10": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "11": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "2": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "4": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "6": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      },
+      "8": {
+        "failures": 0,
+        "passes": 1296,
+        "rows": 1296
+      }
+    },
+    "distinct_formula_words": 3,
+    "edits": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      11
+    ],
+    "failures": 0,
+    "first_failure": null,
+    "passes": 7776,
+    "row_count": 7776,
+    "rows_digest": "f7efdc9be6321543b784c71bffd18af2c2d7ec79adbcf7150867c5cbed5d1868",
+    "scope": "fixed non-Z2 full-table reconciliation"
+  },
+  "secondary_verdict": "FIXED_FAMILIES_PASS",
+  "sign_initial_run_checks": 28,
+  "target": "deterministic chronological signed-Hurwitz endpoint correction",
+  "tree_count": 1296,
+  "tree_count_formula": "(d-1)^(d-3)=6^4",
+  "tree_universe_digest": "4bedab1e9da7ba6dc4c657b1da435da53dc0e3d5114d5678209579774a476ed9"
+}

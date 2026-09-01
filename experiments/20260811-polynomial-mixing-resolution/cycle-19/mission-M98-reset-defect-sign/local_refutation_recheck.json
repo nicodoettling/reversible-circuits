@@ -1,0 +1,133 @@
+{
+  "arithmetic": "fractions.Fraction exact",
+  "contextual_statistic_not_probability": {
+    "context": [
+      12,
+      32,
+      5,
+      4
+    ],
+    "root_group": [
+      6,
+      4
+    ],
+    "value": {
+      "decimal": 2.3387772799537507,
+      "denominator": "6919",
+      "numerator": "16182"
+    }
+  },
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "direct_full_unweighted_Bessel": {
+    "context": [
+      8,
+      1,
+      0,
+      3
+    ],
+    "h_minus_variance": {
+      "decimal": 0.0014441122776489316,
+      "denominator": "3468535372911177205414609888582041600000",
+      "numerator": "5008954517480646295949096911844732399"
+    }
+  },
+  "direct_reset_Bessel": {
+    "A0_minus_root_mean_variance": {
+      "decimal": 0.0026899715165006645,
+      "denominator": "297616352142664376197327691235914321756160000000",
+      "numerator": "800579510108598719031951795711500489622374219"
+    },
+    "context": [
+      11,
+      1,
+      0,
+      4
+    ]
+  },
+  "elapsed_seconds": 0.027567625045776367,
+  "normalization": "all attachment ranks retained; exact q-scaled Q recurrence",
+  "purpose": "preserve accepted local variance/Bessel/compensator refutations",
+  "python": "3.12.3",
+  "raw_variance_supersolution": {
+    "context": [
+      6,
+      2,
+      1,
+      2
+    ],
+    "defect": {
+      "decimal": -0.0005795211914508295,
+      "denominator": "36917038301316768",
+      "numerator": "-21394206021215"
+    },
+    "matches_frozen_exact_fraction": true
+  },
+  "scalar_interpolants": [
+    {
+      "name": "rank_s_over_s_plus_1",
+      "raw_defect": {
+        "decimal": -0.0006257859037647028,
+        "denominator": "744040880356660940493319228089785804390400000000",
+        "numerator": "-465610294751878169555991677221272081525776533"
+      }
+    },
+    {
+      "name": "rank_s_over_s_plus_2",
+      "raw_defect": {
+        "decimal": -0.0005558957089972787,
+        "denominator": "386901257785463689056525998606688618283008000000",
+        "numerator": "-215076749008589236679339438372385597349015993"
+      }
+    },
+    {
+      "name": "rank_s_over_s_plus_4",
+      "raw_defect": {
+        "decimal": -0.0007643444227313919,
+        "denominator": "1934506288927318445282629993033443091415040000000",
+        "numerator": "-1478629092680398432397333650862798355830219933"
+      }
+    },
+    {
+      "name": "phase_P_over_P_plus_1",
+      "raw_defect": {
+        "decimal": -0.0009683307631729889,
+        "denominator": "1934506288927318445282629993033443091415040000000",
+        "numerator": "-1873241951119936897995174813792784048817975453"
+      }
+    },
+    {
+      "name": "phase_P_over_P_plus_2",
+      "raw_defect": {
+        "decimal": -0.0010685992223160533,
+        "denominator": "1934506288927318445282629993033443091415040000000",
+        "numerator": "-2067211915913246659227985268967135076430504861"
+      }
+    },
+    {
+      "name": "phase_P_over_P_plus_4",
+      "raw_defect": {
+        "decimal": -0.0013956016845365475,
+        "denominator": "9672531444636592226413149965167215457075200000000",
+        "numerator": "-13499001177867553570181323620480681869073911569"
+      }
+    },
+    {
+      "name": "rank_one_minus_inverse_square",
+      "raw_defect": {
+        "decimal": -0.0007025864384025024,
+        "denominator": "148808176071332188098663845617957160878080000000",
+        "numerator": "-104550606431129759853520039621837849720137809"
+      }
+    },
+    {
+      "name": "phase_one_minus_inverse_square",
+      "raw_defect": {
+        "decimal": -0.0008772388298982784,
+        "denominator": "148808176071332188098663845617957160878080000000",
+        "numerator": "-130540310256112440409373851859319613990718369"
+      }
+    }
+  ],
+  "scope": "auxiliary nonlazy minimal-long-cycle Pbar reset operator only",
+  "seed": null
+}

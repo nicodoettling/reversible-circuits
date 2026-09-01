@@ -1,0 +1,69 @@
+{
+  "accounting_identity_checked": true,
+  "arithmetic": "standard-library Fraction",
+  "constant_Loewner_domination_obstruction": {
+    "conclusion": "c*J cannot PSD-dominate a nonconstant Gram kernel",
+    "constant_kernel_form": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "nonconstant_Gram_form": {
+      "decimal": 1.0,
+      "exact": "1"
+    },
+    "test_points": [
+      0,
+      1
+    ],
+    "test_vector": [
+      1,
+      -1
+    ]
+  },
+  "nonclosure_witness": {
+    "P2_lift_charge": {
+      "decimal": 0.5142857142857142,
+      "exact": "18/35"
+    },
+    "P2_norm_squared": {
+      "decimal": 0.0033333333333333335,
+      "exact": "1/300"
+    },
+    "P3_lift_charge": {
+      "decimal": 0.5079365079365079,
+      "exact": "32/63"
+    },
+    "P3_norm_squared": {
+      "decimal": 0.00020408163265306123,
+      "exact": "1/4900"
+    },
+    "charges_distinct": true,
+    "common_child_summary": {
+      "C": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "M": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "Z_norm_squared": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "child_T1": {
+        "decimal": 1.0,
+        "exact": "1"
+      }
+    },
+    "parent_first_mode_subtractions_zero": true
+  },
+  "predecessor_imports": false,
+  "schema": "M210-kernel-order-v1",
+  "scope": {
+    "fresh_parent_scan": false,
+    "purpose": "audit exact state-variable/kernel-order reduction only",
+    "universal_C3_claim": false
+  },
+  "seed": null
+}

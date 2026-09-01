@@ -1,0 +1,3991 @@
+{
+  "action_sha256": "160bcae167e754af4ff55356a2ab25526bf53d03ebc23bd974938fb8370c67ae",
+  "all_original_words_replayed": true,
+  "all_positive_words_replayed": true,
+  "backward_depth_cap": 8,
+  "complete_positive_classification": true,
+  "distinct_adjusted_targets": 41,
+  "elapsed_seconds": 0.5165560890454799,
+  "forward_depth_cap": 8,
+  "forward_level_sizes": [
+    1,
+    6,
+    40,
+    190,
+    795,
+    2976,
+    10416,
+    34256,
+    105713
+  ],
+  "forward_timed_out": false,
+  "forward_visited": 154393,
+  "max_backward_visited": 300000,
+  "method": "bounded_target_directed_bidirectional_product_bfs",
+  "negative_membership_claims": 0,
+  "original_target_certificates": [
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        6
+      ],
+      "full_word": [
+        6
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 0,
+      "target_ids": [
+        15,
+        6
+      ]
+    },
+    {
+      "adjusted_second_id": 6,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        6
+      ],
+      "full_word": [
+        -6,
+        -6,
+        6
+      ],
+      "stabilizer_word": [
+        -6,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 1,
+      "target_ids": [
+        15,
+        11
+      ]
+    },
+    {
+      "adjusted_second_id": 43,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        6
+      ],
+      "full_word": [
+        6,
+        6,
+        5,
+        6
+      ],
+      "stabilizer_word": [
+        6,
+        6,
+        5
+      ],
+      "status": "positive",
+      "target_id": 2,
+      "target_ids": [
+        15,
+        44
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 3,
+      "target_ids": [
+        16,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 4,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        -6,
+        -6,
+        -7
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -7
+      ],
+      "status": "positive",
+      "target_id": 4,
+      "target_ids": [
+        16,
+        4
+      ]
+    },
+    {
+      "adjusted_second_id": 58,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        -4,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        -4,
+        -4,
+        -5
+      ],
+      "status": "positive",
+      "target_id": 5,
+      "target_ids": [
+        16,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 132,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        -4
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 6,
+      "target_ids": [
+        16,
+        132
+      ]
+    },
+    {
+      "adjusted_second_id": 724,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        6,
+        -2,
+        -3,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "stabilizer_word": [
+        6,
+        -2,
+        -3,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 7,
+      "target_ids": [
+        16,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 3312,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        -2,
+        -4,
+        -6,
+        5,
+        -4,
+        3,
+        5,
+        4,
+        -3,
+        4,
+        -7,
+        -6,
+        -5,
+        -2
+      ],
+      "stabilizer_word": [
+        -2,
+        -4,
+        -6,
+        5,
+        -4,
+        3,
+        5,
+        4,
+        -3,
+        4,
+        -7,
+        -6,
+        -5,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 8,
+      "target_ids": [
+        16,
+        3312
+      ]
+    },
+    {
+      "adjusted_second_id": 3379,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [],
+      "full_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        -2
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 9,
+      "target_ids": [
+        16,
+        3379
+      ]
+    },
+    {
+      "adjusted_second_id": 294,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        -4,
+        -6,
+        5,
+        5,
+        5,
+        -4,
+        -6,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        -4,
+        -6,
+        5,
+        5,
+        5,
+        -4,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 10,
+      "target_ids": [
+        102,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 279,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        4,
+        4,
+        -5,
+        6,
+        6,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        -5,
+        6,
+        6
+      ],
+      "status": "positive",
+      "target_id": 11,
+      "target_ids": [
+        102,
+        4
+      ]
+    },
+    {
+      "adjusted_second_id": 285,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        4,
+        4,
+        -6,
+        -6,
+        7,
+        -5,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        -6,
+        -6,
+        7,
+        -5
+      ],
+      "status": "positive",
+      "target_id": 12,
+      "target_ids": [
+        102,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 32,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        4,
+        5,
+        5,
+        4,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "status": "positive",
+      "target_id": 13,
+      "target_ids": [
+        102,
+        132
+      ]
+    },
+    {
+      "adjusted_second_id": 677,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        -2,
+        -6,
+        5,
+        4,
+        4,
+        -3,
+        -3,
+        4,
+        2,
+        -5,
+        -6,
+        -4,
+        -4,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        -2,
+        -6,
+        5,
+        4,
+        4,
+        -3,
+        -3,
+        4,
+        2,
+        -5,
+        -6,
+        -4,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 14,
+      "target_ids": [
+        102,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 3597,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        -3,
+        4,
+        5,
+        -6,
+        -7,
+        -4,
+        -2,
+        -2,
+        4,
+        5,
+        6,
+        5,
+        4,
+        -7
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        -3,
+        4,
+        5,
+        -6,
+        -7,
+        -4,
+        -2,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 15,
+      "target_ids": [
+        102,
+        3379
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4
+      ],
+      "full_word": [
+        4
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 16,
+      "target_ids": [
+        155,
+        107
+      ]
+    },
+    {
+      "adjusted_second_id": 107,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4
+      ],
+      "full_word": [
+        -4,
+        -4,
+        4
+      ],
+      "stabilizer_word": [
+        -4,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 17,
+      "target_ids": [
+        155,
+        217
+      ]
+    },
+    {
+      "adjusted_second_id": 394,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4
+      ],
+      "full_word": [
+        4,
+        4,
+        3,
+        4
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3
+      ],
+      "status": "positive",
+      "target_id": 18,
+      "target_ids": [
+        155,
+        433
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        -2
+      ],
+      "full_word": [
+        -2
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 19,
+      "target_ids": [
+        725,
+        741
+      ]
+    },
+    {
+      "adjusted_second_id": 34,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        -2
+      ],
+      "full_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3,
+        -3,
+        -4,
+        -2
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3,
+        -3,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 20,
+      "target_ids": [
+        725,
+        758
+      ]
+    },
+    {
+      "adjusted_second_id": 741,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        -2
+      ],
+      "full_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6,
+        -2
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 21,
+      "target_ids": [
+        725,
+        2444
+      ]
+    },
+    {
+      "adjusted_second_id": 34,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -1
+      ],
+      "full_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3,
+        -3,
+        -4,
+        2,
+        -1
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3,
+        -3,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 22,
+      "target_ids": [
+        726,
+        741
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -1
+      ],
+      "full_word": [
+        2,
+        -1
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 23,
+      "target_ids": [
+        726,
+        758
+      ]
+    },
+    {
+      "adjusted_second_id": 1057,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -1
+      ],
+      "full_word": [
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        4,
+        -3,
+        4,
+        5,
+        3,
+        2,
+        -6,
+        2,
+        -1
+      ],
+      "stabilizer_word": [
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        4,
+        -3,
+        4,
+        5,
+        3,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 24,
+      "target_ids": [
+        726,
+        2444
+      ]
+    },
+    {
+      "adjusted_second_id": 741,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6,
+        2,
+        -3
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 25,
+      "target_ids": [
+        740,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 905,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        4,
+        4,
+        5,
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6,
+        2,
+        -3
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        5,
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 26,
+      "target_ids": [
+        740,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 974,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        4,
+        6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        3,
+        3,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        2,
+        -3
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        3,
+        3,
+        -5,
+        4,
+        -5,
+        -6,
+        -7
+      ],
+      "status": "positive",
+      "target_id": 27,
+      "target_ids": [
+        740,
+        132
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        2,
+        -3
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 28,
+      "target_ids": [
+        740,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 2889,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        6,
+        -5,
+        6,
+        3,
+        -4,
+        3,
+        -5,
+        -1,
+        -2,
+        2,
+        -3
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        6,
+        -5,
+        6,
+        3,
+        -4,
+        3,
+        -5,
+        -1,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 29,
+      "target_ids": [
+        740,
+        3312
+      ]
+    },
+    {
+      "adjusted_second_id": 2921,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3
+      ],
+      "full_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        2,
+        2,
+        2,
+        -3
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        2,
+        2
+      ],
+      "status": "positive",
+      "target_id": 30,
+      "target_ids": [
+        740,
+        3379
+      ]
+    },
+    {
+      "adjusted_second_id": 5534,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "full_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "status": "positive",
+      "target_id": 31,
+      "target_ids": [
+        791,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 741,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "full_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6,
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 32,
+      "target_ids": [
+        791,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 5556,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "full_word": [
+        -4,
+        -4,
+        -3,
+        -2,
+        -6,
+        -6,
+        5,
+        -7,
+        -2,
+        -2,
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "stabilizer_word": [
+        -4,
+        -4,
+        -3,
+        -2,
+        -6,
+        -6,
+        5,
+        -7,
+        -2,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 33,
+      "target_ids": [
+        791,
+        132
+      ]
+    },
+    {
+      "adjusted_second_id": 6309,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "full_word": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        -2,
+        -4,
+        2,
+        -3,
+        4,
+        -5
+      ],
+      "stabilizer_word": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        -2,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 34,
+      "target_ids": [
+        791,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 2444,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2
+      ],
+      "full_word": [
+        6,
+        -5,
+        -4,
+        -3,
+        2,
+        -3,
+        2,
+        -3,
+        4,
+        5,
+        -6,
+        -2,
+        2
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        -4,
+        -3,
+        2,
+        -3,
+        2,
+        -3,
+        4,
+        5,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 35,
+      "target_ids": [
+        2460,
+        741
+      ]
+    },
+    {
+      "adjusted_second_id": 2478,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2
+      ],
+      "full_word": [
+        2,
+        6,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        -6,
+        -3,
+        -2,
+        -1,
+        2
+      ],
+      "stabilizer_word": [
+        2,
+        6,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        -6,
+        -3,
+        -2,
+        -1
+      ],
+      "status": "positive",
+      "target_id": 36,
+      "target_ids": [
+        2460,
+        758
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2
+      ],
+      "full_word": [
+        2
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 37,
+      "target_ids": [
+        2460,
+        2444
+      ]
+    },
+    {
+      "adjusted_second_id": 3381,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        3,
+        2,
+        -6,
+        -4,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        3,
+        2,
+        -6,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 38,
+      "target_ids": [
+        3397,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 4,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        -6,
+        -6,
+        -7,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -7
+      ],
+      "status": "positive",
+      "target_id": 39,
+      "target_ids": [
+        3397,
+        4
+      ]
+    },
+    {
+      "adjusted_second_id": 132,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        -4,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 40,
+      "target_ids": [
+        3397,
+        132
+      ]
+    },
+    {
+      "adjusted_second_id": 5880,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        6,
+        6,
+        -4,
+        -4,
+        -5,
+        -7,
+        6,
+        6,
+        -3,
+        -2,
+        -2,
+        -2,
+        -3,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [
+        6,
+        6,
+        -4,
+        -4,
+        -5,
+        -7,
+        6,
+        6,
+        -3,
+        -2,
+        -2,
+        -2,
+        -3
+      ],
+      "status": "positive",
+      "target_id": 41,
+      "target_ids": [
+        3397,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 7027,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4,
+        -5,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "status": "positive",
+      "target_id": 42,
+      "target_ids": [
+        3397,
+        3312
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "full_word": [
+        2,
+        3,
+        4,
+        5,
+        -6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 43,
+      "target_ids": [
+        3397,
+        3379
+      ]
+    },
+    {
+      "adjusted_second_id": 4526,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        -7,
+        -6,
+        5,
+        3,
+        -2,
+        -1,
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        -7,
+        -6,
+        5,
+        3,
+        -2,
+        -1
+      ],
+      "status": "positive",
+      "target_id": 44,
+      "target_ids": [
+        4526,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 4533,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        2,
+        -4,
+        3,
+        -4,
+        -6,
+        -6,
+        5,
+        5,
+        2,
+        3,
+        -4,
+        3,
+        -1,
+        -2,
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        -6,
+        -6,
+        5,
+        5,
+        2,
+        3,
+        -4,
+        3,
+        -1,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 45,
+      "target_ids": [
+        4526,
+        4
+      ]
+    },
+    {
+      "adjusted_second_id": 5966,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        -2,
+        -4,
+        3,
+        3,
+        3,
+        2,
+        -4,
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        -2,
+        -4,
+        3,
+        3,
+        3,
+        2,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 46,
+      "target_ids": [
+        4526,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 5826,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3
+      ],
+      "status": "positive",
+      "target_id": 47,
+      "target_ids": [
+        4526,
+        724
+      ]
+    },
+    {
+      "adjusted_second_id": 0,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_id": 48,
+      "target_ids": [
+        4526,
+        3312
+      ]
+    },
+    {
+      "adjusted_second_id": 4583,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        -3,
+        -3,
+        2,
+        -6,
+        -7,
+        -4,
+        4,
+        3,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        -3,
+        -3,
+        2,
+        -6,
+        -7,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 49,
+      "target_ids": [
+        4526,
+        3379
+      ]
+    },
+    {
+      "adjusted_second_id": 7018,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "full_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4
+      ],
+      "status": "positive",
+      "target_id": 50,
+      "target_ids": [
+        4529,
+        0
+      ]
+    },
+    {
+      "adjusted_second_id": 1587,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "full_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        3,
+        -7,
+        -6,
+        -2,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        3,
+        -7,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 51,
+      "target_ids": [
+        4529,
+        4
+      ]
+    },
+    {
+      "adjusted_second_id": 1686,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "full_word": [
+        4,
+        4,
+        6,
+        5,
+        7,
+        -2,
+        3,
+        4,
+        4,
+        -6,
+        -2,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        6,
+        5,
+        7,
+        -2,
+        3,
+        4,
+        4,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_id": 52,
+      "target_ids": [
+        4529,
+        58
+      ]
+    },
+    {
+      "adjusted_second_id": 8286,
+      "direct_target_replay_ok": true,
+      "first_tree_word": [
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "full_word": [
+        -6,
+        5,
+        -4,
+        -3,
+        2,
+        -1,
+        2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -6,
+        -6,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1,
+        5,
+        -6
+      ],
+      "stabilizer_word": [
+        -6,
+        5,
+        -4,
+        -3,
+        2,
+        -1,
+        2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -6,
+        -6
+      ],
+      "status": "positive",
+      "target_id": 53,
+      "target_ids": [
+        4529,
+        3312
+      ]
+    }
+  ],
+  "original_targets": 54,
+  "positive_adjusted_targets": 41,
+  "positive_original_targets": 54,
+  "right_action_convention": "chronological signed symbols acting on the right",
+  "searches": [
+    {
+      "adjusted_second_id": 0,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [],
+      "meeting_state": [
+        16,
+        0
+      ],
+      "stabilizer_word": [],
+      "status": "positive",
+      "target_ids": [
+        0,
+        3,
+        16,
+        19,
+        23,
+        28,
+        37,
+        43,
+        48
+      ]
+    },
+    {
+      "adjusted_second_id": 4,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -6,
+        -6,
+        -7
+      ],
+      "meeting_state": [
+        16,
+        4
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -7
+      ],
+      "status": "positive",
+      "target_ids": [
+        4,
+        39
+      ]
+    },
+    {
+      "adjusted_second_id": 6,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -6,
+        -6
+      ],
+      "meeting_state": [
+        16,
+        6
+      ],
+      "stabilizer_word": [
+        -6,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        1
+      ]
+    },
+    {
+      "adjusted_second_id": 32,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "meeting_state": [
+        16,
+        32
+      ],
+      "stabilizer_word": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "status": "positive",
+      "target_ids": [
+        13
+      ]
+    },
+    {
+      "adjusted_second_id": 34,
+      "backward_level_sizes": [
+        1,
+        6,
+        9
+      ],
+      "backward_visited": 16,
+      "backward_word": [
+        4,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3
+      ],
+      "meeting_state": [
+        177,
+        387
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        7,
+        7,
+        6,
+        5,
+        5,
+        -3,
+        -3,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        20,
+        22
+      ]
+    },
+    {
+      "adjusted_second_id": 43,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        6,
+        5
+      ],
+      "meeting_state": [
+        16,
+        43
+      ],
+      "stabilizer_word": [
+        6,
+        6,
+        5
+      ],
+      "status": "positive",
+      "target_ids": [
+        2
+      ]
+    },
+    {
+      "adjusted_second_id": 58,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -4,
+        -4,
+        -5
+      ],
+      "meeting_state": [
+        16,
+        58
+      ],
+      "stabilizer_word": [
+        -4,
+        -4,
+        -5
+      ],
+      "status": "positive",
+      "target_ids": [
+        5
+      ]
+    },
+    {
+      "adjusted_second_id": 107,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -4,
+        -4
+      ],
+      "meeting_state": [
+        16,
+        107
+      ],
+      "stabilizer_word": [
+        -4,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        17
+      ]
+    },
+    {
+      "adjusted_second_id": 132,
+      "backward_level_sizes": [
+        1,
+        3
+      ],
+      "backward_visited": 4,
+      "backward_word": [
+        4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7
+      ],
+      "meeting_state": [
+        155,
+        253
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        -5,
+        4,
+        -5,
+        -6,
+        -7,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        6,
+        40
+      ]
+    },
+    {
+      "adjusted_second_id": 279,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        -5,
+        6,
+        6
+      ],
+      "meeting_state": [
+        16,
+        279
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        -5,
+        6,
+        6
+      ],
+      "status": "positive",
+      "target_ids": [
+        11
+      ]
+    },
+    {
+      "adjusted_second_id": 285,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        -6,
+        -6,
+        7,
+        -5
+      ],
+      "meeting_state": [
+        16,
+        285
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        -6,
+        -6,
+        7,
+        -5
+      ],
+      "status": "positive",
+      "target_ids": [
+        12
+      ]
+    },
+    {
+      "adjusted_second_id": 294,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -4,
+        -6,
+        5,
+        5,
+        5,
+        -4,
+        -6
+      ],
+      "meeting_state": [
+        16,
+        294
+      ],
+      "stabilizer_word": [
+        -4,
+        -6,
+        5,
+        5,
+        5,
+        -4,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        10
+      ]
+    },
+    {
+      "adjusted_second_id": 394,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        3
+      ],
+      "meeting_state": [
+        16,
+        394
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3
+      ],
+      "status": "positive",
+      "target_ids": [
+        18
+      ]
+    },
+    {
+      "adjusted_second_id": 677,
+      "backward_level_sizes": [
+        1,
+        10,
+        61,
+        309,
+        1384,
+        2851
+      ],
+      "backward_visited": 4616,
+      "backward_word": [
+        4,
+        4,
+        6,
+        5,
+        -2
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -2,
+        -6,
+        5,
+        4,
+        4,
+        -3,
+        -3,
+        4
+      ],
+      "meeting_state": [
+        738,
+        2764
+      ],
+      "stabilizer_word": [
+        -2,
+        -6,
+        5,
+        4,
+        4,
+        -3,
+        -3,
+        4,
+        2,
+        -5,
+        -6,
+        -4,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        14
+      ]
+    },
+    {
+      "adjusted_second_id": 724,
+      "backward_level_sizes": [
+        1,
+        9,
+        55,
+        284,
+        942
+      ],
+      "backward_visited": 1291,
+      "backward_word": [
+        6,
+        -2,
+        -5,
+        4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        -2,
+        -3,
+        -5,
+        -4,
+        3,
+        -4,
+        3
+      ],
+      "meeting_state": [
+        831,
+        2765
+      ],
+      "stabilizer_word": [
+        6,
+        -2,
+        -3,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        7
+      ]
+    },
+    {
+      "adjusted_second_id": 741,
+      "backward_level_sizes": [
+        1,
+        10,
+        66,
+        355,
+        1122
+      ],
+      "backward_visited": 1554,
+      "backward_word": [
+        6,
+        -2,
+        -5,
+        4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3
+      ],
+      "meeting_state": [
+        831,
+        2762
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        21,
+        25,
+        32
+      ]
+    },
+    {
+      "adjusted_second_id": 905,
+      "backward_level_sizes": [
+        1,
+        10,
+        62,
+        313,
+        1385,
+        5598,
+        20889,
+        58165
+      ],
+      "backward_visited": 86423,
+      "backward_word": [
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        2,
+        -3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        5,
+        6,
+        -5,
+        4,
+        3,
+        -2
+      ],
+      "meeting_state": [
+        930,
+        5671
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        5,
+        6,
+        -5,
+        4,
+        3,
+        -2,
+        3,
+        -2,
+        3,
+        -4,
+        5,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        26
+      ]
+    },
+    {
+      "adjusted_second_id": 974,
+      "backward_level_sizes": [
+        1,
+        11,
+        73,
+        384,
+        1723,
+        6961,
+        19822
+      ],
+      "backward_visited": 28975,
+      "backward_word": [
+        7,
+        6,
+        5,
+        -4,
+        5,
+        -3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        3
+      ],
+      "meeting_state": [
+        101,
+        3930
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        3,
+        3,
+        -5,
+        4,
+        -5,
+        -6,
+        -7
+      ],
+      "status": "positive",
+      "target_ids": [
+        27
+      ]
+    },
+    {
+      "adjusted_second_id": 1057,
+      "backward_level_sizes": [
+        1,
+        10,
+        66,
+        355,
+        1132
+      ],
+      "backward_visited": 1564,
+      "backward_word": [
+        6,
+        -2,
+        -3,
+        -5
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        4,
+        -3,
+        4
+      ],
+      "meeting_state": [
+        1054,
+        2491
+      ],
+      "stabilizer_word": [
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        4,
+        -3,
+        4,
+        5,
+        3,
+        2,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        24
+      ]
+    },
+    {
+      "adjusted_second_id": 1587,
+      "backward_level_sizes": [
+        1,
+        10,
+        64,
+        337,
+        1547,
+        2035
+      ],
+      "backward_visited": 3994,
+      "backward_word": [
+        2,
+        6,
+        7,
+        -3,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5
+      ],
+      "meeting_state": [
+        886,
+        1486
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        3,
+        -7,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        51
+      ]
+    },
+    {
+      "adjusted_second_id": 1686,
+      "backward_level_sizes": [
+        1,
+        13,
+        94,
+        116
+      ],
+      "backward_visited": 224,
+      "backward_word": [
+        2,
+        6,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        6,
+        5,
+        7,
+        -2,
+        3,
+        4
+      ],
+      "meeting_state": [
+        2598,
+        4444
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        6,
+        5,
+        7,
+        -2,
+        3,
+        4,
+        4,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        52
+      ]
+    },
+    {
+      "adjusted_second_id": 2444,
+      "backward_level_sizes": [
+        1,
+        10,
+        66,
+        355,
+        422
+      ],
+      "backward_visited": 854,
+      "backward_word": [
+        2,
+        6,
+        -5,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        -5,
+        -4,
+        -3,
+        2,
+        -3,
+        2,
+        -3
+      ],
+      "meeting_state": [
+        2669,
+        990
+      ],
+      "stabilizer_word": [
+        6,
+        -5,
+        -4,
+        -3,
+        2,
+        -3,
+        2,
+        -3,
+        4,
+        5,
+        -6,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        35
+      ]
+    },
+    {
+      "adjusted_second_id": 2478,
+      "backward_level_sizes": [
+        1,
+        10,
+        66,
+        355,
+        1597,
+        57
+      ],
+      "backward_visited": 2086,
+      "backward_word": [
+        1,
+        2,
+        3,
+        6,
+        -5
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        2,
+        6,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4
+      ],
+      "meeting_state": [
+        1048,
+        768
+      ],
+      "stabilizer_word": [
+        2,
+        6,
+        -5,
+        -4,
+        3,
+        -4,
+        3,
+        -4,
+        5,
+        -6,
+        -3,
+        -2,
+        -1
+      ],
+      "status": "positive",
+      "target_ids": [
+        36
+      ]
+    },
+    {
+      "adjusted_second_id": 2889,
+      "backward_level_sizes": [
+        1,
+        10,
+        64,
+        335,
+        1508,
+        6105,
+        22630,
+        15040
+      ],
+      "backward_visited": 45693,
+      "backward_word": [
+        2,
+        1,
+        5,
+        -3,
+        4,
+        -3,
+        -6
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        6,
+        -5
+      ],
+      "meeting_state": [
+        3228,
+        2113
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        6,
+        -5,
+        6,
+        3,
+        -4,
+        3,
+        -5,
+        -1,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        29
+      ]
+    },
+    {
+      "adjusted_second_id": 2921,
+      "backward_level_sizes": [
+        1,
+        11,
+        75,
+        404,
+        1843,
+        6838
+      ],
+      "backward_visited": 9172,
+      "backward_word": [
+        -2,
+        -2,
+        -4,
+        3,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5
+      ],
+      "meeting_state": [
+        3042,
+        4007
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        2,
+        2
+      ],
+      "status": "positive",
+      "target_ids": [
+        30
+      ]
+    },
+    {
+      "adjusted_second_id": 3312,
+      "backward_level_sizes": [
+        1,
+        9,
+        55,
+        285,
+        1269,
+        5095,
+        6399
+      ],
+      "backward_visited": 13113,
+      "backward_word": [
+        2,
+        5,
+        6,
+        7,
+        -4,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -2,
+        -4,
+        -6,
+        5,
+        -4,
+        3,
+        5,
+        4
+      ],
+      "meeting_state": [
+        3534,
+        4242
+      ],
+      "stabilizer_word": [
+        -2,
+        -4,
+        -6,
+        5,
+        -4,
+        3,
+        5,
+        4,
+        -3,
+        4,
+        -7,
+        -6,
+        -5,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        8
+      ]
+    },
+    {
+      "adjusted_second_id": 3379,
+      "backward_level_sizes": [
+        1,
+        10,
+        68,
+        379,
+        623
+      ],
+      "backward_visited": 1081,
+      "backward_word": [
+        2,
+        -4,
+        3,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5
+      ],
+      "meeting_state": [
+        3042,
+        4007
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        5,
+        6,
+        6,
+        -5,
+        4,
+        -3,
+        4,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        9
+      ]
+    },
+    {
+      "adjusted_second_id": 3381,
+      "backward_level_sizes": [
+        1,
+        10,
+        68,
+        379,
+        874
+      ],
+      "backward_visited": 1332,
+      "backward_word": [
+        4,
+        6,
+        -2,
+        -3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4
+      ],
+      "meeting_state": [
+        2854,
+        2068
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        3,
+        2,
+        -6,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        38
+      ]
+    },
+    {
+      "adjusted_second_id": 3597,
+      "backward_level_sizes": [
+        1,
+        11,
+        75,
+        403,
+        1835,
+        7466,
+        6232
+      ],
+      "backward_visited": 16023,
+      "backward_word": [
+        2,
+        2,
+        4,
+        7,
+        6,
+        -5
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        -3,
+        4
+      ],
+      "meeting_state": [
+        709,
+        3769
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        -3,
+        -3,
+        4,
+        5,
+        -6,
+        -7,
+        -4,
+        -2,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        15
+      ]
+    },
+    {
+      "adjusted_second_id": 4526,
+      "backward_level_sizes": [
+        1,
+        9,
+        53,
+        266,
+        1175,
+        4702,
+        17319,
+        3117
+      ],
+      "backward_visited": 26642,
+      "backward_word": [
+        1,
+        2,
+        -3,
+        -5,
+        6,
+        7,
+        -4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5
+      ],
+      "meeting_state": [
+        886,
+        1486
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -5,
+        4,
+        3,
+        3,
+        -5,
+        4,
+        -7,
+        -6,
+        5,
+        3,
+        -2,
+        -1
+      ],
+      "status": "positive",
+      "target_ids": [
+        44
+      ]
+    },
+    {
+      "adjusted_second_id": 4533,
+      "backward_level_sizes": [
+        1,
+        10,
+        61,
+        305,
+        1346,
+        5379,
+        4615
+      ],
+      "backward_visited": 11717,
+      "backward_word": [
+        2,
+        1,
+        -3,
+        4,
+        -3,
+        -2
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        2,
+        -4,
+        3,
+        -4,
+        -6,
+        -6,
+        5,
+        5
+      ],
+      "meeting_state": [
+        3000,
+        3997
+      ],
+      "stabilizer_word": [
+        2,
+        -4,
+        3,
+        -4,
+        -6,
+        -6,
+        5,
+        5,
+        2,
+        3,
+        -4,
+        3,
+        -1,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        45
+      ]
+    },
+    {
+      "adjusted_second_id": 4583,
+      "backward_level_sizes": [
+        1,
+        10,
+        61,
+        309,
+        1395,
+        5695,
+        11896
+      ],
+      "backward_visited": 19367,
+      "backward_word": [
+        4,
+        7,
+        6,
+        -2,
+        3,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4
+      ],
+      "meeting_state": [
+        2854,
+        2068
+      ],
+      "stabilizer_word": [
+        4,
+        6,
+        -2,
+        -3,
+        4,
+        -5,
+        -5,
+        -4,
+        -3,
+        -3,
+        2,
+        -6,
+        -7,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        49
+      ]
+    },
+    {
+      "adjusted_second_id": 5534,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "meeting_state": [
+        16,
+        5534
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "status": "positive",
+      "target_ids": [
+        31
+      ]
+    },
+    {
+      "adjusted_second_id": 5556,
+      "backward_level_sizes": [
+        1,
+        12,
+        13
+      ],
+      "backward_visited": 26,
+      "backward_word": [
+        2,
+        2
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -4,
+        -4,
+        -3,
+        -2,
+        -6,
+        -6,
+        5,
+        -7
+      ],
+      "meeting_state": [
+        725,
+        5556
+      ],
+      "stabilizer_word": [
+        -4,
+        -4,
+        -3,
+        -2,
+        -6,
+        -6,
+        5,
+        -7,
+        -2,
+        -2
+      ],
+      "status": "positive",
+      "target_ids": [
+        33
+      ]
+    },
+    {
+      "adjusted_second_id": 5826,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3
+      ],
+      "meeting_state": [
+        16,
+        5826
+      ],
+      "stabilizer_word": [
+        4,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3
+      ],
+      "status": "positive",
+      "target_ids": [
+        47
+      ]
+    },
+    {
+      "adjusted_second_id": 5880,
+      "backward_level_sizes": [
+        1,
+        10,
+        62,
+        322,
+        1481,
+        2286
+      ],
+      "backward_visited": 4162,
+      "backward_word": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        6,
+        6,
+        -4,
+        -4,
+        -5,
+        -7,
+        6,
+        6
+      ],
+      "meeting_state": [
+        16,
+        134
+      ],
+      "stabilizer_word": [
+        6,
+        6,
+        -4,
+        -4,
+        -5,
+        -7,
+        6,
+        6,
+        -3,
+        -2,
+        -2,
+        -2,
+        -3
+      ],
+      "status": "positive",
+      "target_ids": [
+        41
+      ]
+    },
+    {
+      "adjusted_second_id": 5966,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -2,
+        -4,
+        3,
+        3,
+        3,
+        2,
+        -4
+      ],
+      "meeting_state": [
+        16,
+        5966
+      ],
+      "stabilizer_word": [
+        -2,
+        -4,
+        3,
+        3,
+        3,
+        2,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        46
+      ]
+    },
+    {
+      "adjusted_second_id": 6309,
+      "backward_level_sizes": [
+        1
+      ],
+      "backward_visited": 1,
+      "backward_word": [],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        -2,
+        -4
+      ],
+      "meeting_state": [
+        16,
+        6309
+      ],
+      "stabilizer_word": [
+        2,
+        4,
+        3,
+        3,
+        3,
+        -2,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        34
+      ]
+    },
+    {
+      "adjusted_second_id": 7018,
+      "backward_level_sizes": [
+        1,
+        11,
+        24
+      ],
+      "backward_visited": 36,
+      "backward_word": [
+        4,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "meeting_state": [
+        177,
+        5637
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4
+      ],
+      "status": "positive",
+      "target_ids": [
+        50
+      ]
+    },
+    {
+      "adjusted_second_id": 7027,
+      "backward_level_sizes": [
+        1,
+        10,
+        67,
+        186
+      ],
+      "backward_visited": 264,
+      "backward_word": [
+        5,
+        4,
+        3
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2
+      ],
+      "meeting_state": [
+        177,
+        5637
+      ],
+      "stabilizer_word": [
+        -6,
+        -6,
+        -5,
+        4,
+        3,
+        2,
+        2,
+        2,
+        -3,
+        -4,
+        -5
+      ],
+      "status": "positive",
+      "target_ids": [
+        42
+      ]
+    },
+    {
+      "adjusted_second_id": 8286,
+      "backward_level_sizes": [
+        1,
+        8,
+        52,
+        277,
+        1273,
+        5280,
+        14365
+      ],
+      "backward_visited": 21256,
+      "backward_word": [
+        6,
+        6,
+        7,
+        6,
+        5,
+        4
+      ],
+      "direct_pair_replay_ok": true,
+      "forward_word": [
+        -6,
+        5,
+        -4,
+        -3,
+        2,
+        -1,
+        2,
+        -3
+      ],
+      "meeting_state": [
+        115,
+        8268
+      ],
+      "stabilizer_word": [
+        -6,
+        5,
+        -4,
+        -3,
+        2,
+        -1,
+        2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        -6,
+        -6
+      ],
+      "status": "positive",
+      "target_ids": [
+        53
+      ]
+    }
+  ],
+  "source_ids": [
+    16,
+    0
+  ],
+  "started_unix": 1786648984.8565993,
+  "symbols": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "undecided_adjusted_targets": 0,
+  "undecided_original_targets": 0,
+  "unresolved_statuses": [],
+  "wall_clock_cap_seconds": 285.0
+}

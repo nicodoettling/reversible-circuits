@@ -1,0 +1,3064 @@
+{
+  "argv": [
+    "fixed_braid_audit.py",
+    "--d",
+    "3",
+    "4",
+    "--action-table-d",
+    "3",
+    "4",
+    "--output",
+    "fixed_braid_results.json"
+  ],
+  "claim_tested": "For every d and adjacent value i, one signed Hurwitz action word beta_(d,i), independent of rooted DPS source, maps F(T,pi) to F(T,s_i pi).",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "deterministic": true,
+  "dps_convention": "+ mirror; Cayley tree rooted at y_d",
+  "elapsed_seconds": 4.918109367135912,
+  "experiment": "M127 exact DPS fixed-braid intertwining constraints",
+  "logical_implication": "A common signed braid on two source words is the Hurwitz action on their coordinatewise-pair tuple in S_d x S_d, whose generated subgroup is invariant. Different source/target generated subgroups refute every fixed braid word, regardless of its length.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "adjacent_index_rows": [
+        {
+          "adjacent_value_index": 1,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 24,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 3,
+          "rooted_demands": 72,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 24
+          },
+          "target_multiplicity_profile_histogram": {
+            "(3,)": 24
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 11,
+            "source_generated_subgroup_order": 18,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                4,
+                1,
+                3,
+                2
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "subgroup_intersection_order": 6,
+            "target_generated_subgroup_order": 6,
+            "target_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_word_b": [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          },
+          "unrooted_source_words": 24
+        },
+        {
+          "adjacent_value_index": 2,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 24,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 3,
+          "rooted_demands": 72,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 24
+          },
+          "target_multiplicity_profile_histogram": {
+            "(3,)": 24
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 5,
+            "source_generated_subgroup_order": 18,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                2,
+                4,
+                3,
+                1
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 6,
+            "target_generated_subgroup_order": 6,
+            "target_word_a": [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          "unrooted_source_words": 24
+        },
+        {
+          "adjacent_value_index": 3,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 24,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 3,
+          "rooted_demands": 72,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 24
+          },
+          "target_multiplicity_profile_histogram": {
+            "(3,)": 24
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 3,
+            "source_generated_subgroup_order": 18,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                3,
+                4,
+                1,
+                2
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                1,
+                2,
+                4,
+                3
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 6,
+            "target_generated_subgroup_order": 6,
+            "target_word_a": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_word_b": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          },
+          "unrooted_source_words": 24
+        }
+      ],
+      "all_adjacent_indices_have_root_fiber_collision": false,
+      "all_adjacent_indices_have_two_source_subgroup_obstruction": true,
+      "cayley_tree_count": 3,
+      "complete_signed_hurwitz_action_image": {
+        "action_image_order": 216,
+        "complete_closure_verified": true,
+        "generator_count": 6,
+        "target_rows": [
+          {
+            "adjacent_value_index": 1,
+            "maximum_sources_served_by_one_fixed_braid": 6,
+            "minimum_fixed_braid_schedule_classes": 5,
+            "nonempty_distinct_agreement_masks": 23,
+            "one_minimum_schedule_cover": [
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 1,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 2,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 2,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 3,
+                "signed_hurwitz_word": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 2
+              },
+              {
+                "assigned_source_count": 4,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 4,
+                "signed_hurwitz_word": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 4
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 5,
+                "signed_hurwitz_word": [
+                  [
+                    2,
+                    1
+                  ],
+                  [
+                    3,
+                    -1
+                  ],
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 6
+              }
+            ],
+            "set_cover_frontier_sizes_through_minimum": [
+              1,
+              23,
+              206,
+              811,
+              1640,
+              2021
+            ],
+            "target_in_signed_hurwitz_action_image": false,
+            "target_is_bijection": true,
+            "target_is_involution": true
+          },
+          {
+            "adjacent_value_index": 2,
+            "maximum_sources_served_by_one_fixed_braid": 6,
+            "minimum_fixed_braid_schedule_classes": 5,
+            "nonempty_distinct_agreement_masks": 23,
+            "one_minimum_schedule_cover": [
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 1,
+                "signed_hurwitz_word": [
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 2,
+                "signed_hurwitz_word": [
+                  [
+                    2,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 2,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 3,
+                "signed_hurwitz_word": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 2
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 4,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    3,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 4,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 5,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    3,
+                    -1
+                  ],
+                  [
+                    2,
+                    1
+                  ],
+                  [
+                    1,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 4
+              }
+            ],
+            "set_cover_frontier_sizes_through_minimum": [
+              1,
+              23,
+              206,
+              811,
+              1640,
+              2021
+            ],
+            "target_in_signed_hurwitz_action_image": false,
+            "target_is_bijection": true,
+            "target_is_involution": true
+          },
+          {
+            "adjacent_value_index": 3,
+            "maximum_sources_served_by_one_fixed_braid": 6,
+            "minimum_fixed_braid_schedule_classes": 5,
+            "nonempty_distinct_agreement_masks": 23,
+            "one_minimum_schedule_cover": [
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 1,
+                "signed_hurwitz_word": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 2,
+                "signed_hurwitz_word": [
+                  [
+                    3,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 2,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 3,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    3,
+                    -1
+                  ],
+                  [
+                    2,
+                    1
+                  ]
+                ],
+                "total_agreement_count": 2
+              },
+              {
+                "assigned_source_count": 6,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ]
+                ],
+                "metadata_class": 4,
+                "signed_hurwitz_word": [
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    1,
+                    1
+                  ],
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    3,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 6
+              },
+              {
+                "assigned_source_count": 4,
+                "assigned_source_words": [
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      2,
+                      3
+                    ]
+                  ],
+                  [
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      2,
+                      3
+                    ],
+                    [
+                      1,
+                      2
+                    ],
+                    [
+                      1,
+                      2
+                    ]
+                  ]
+                ],
+                "metadata_class": 5,
+                "signed_hurwitz_word": [
+                  [
+                    1,
+                    -1
+                  ],
+                  [
+                    2,
+                    1
+                  ],
+                  [
+                    3,
+                    -1
+                  ],
+                  [
+                    2,
+                    -1
+                  ],
+                  [
+                    1,
+                    -1
+                  ]
+                ],
+                "total_agreement_count": 4
+              }
+            ],
+            "set_cover_frontier_sizes_through_minimum": [
+              1,
+              23,
+              206,
+              811,
+              1640,
+              2021
+            ],
+            "target_in_signed_hurwitz_action_image": false,
+            "target_is_bijection": true,
+            "target_is_involution": true
+          }
+        ]
+      },
+      "connected_support_failures": 0,
+      "d": 3,
+      "globally_smallest_collision_witness": null,
+      "identity_failures": 0,
+      "m": 4,
+      "maximum_distinct_targets_from_one_root_fiber": 1,
+      "root_fiber_size_histogram": {
+        "3": 24
+      },
+      "rooted_pair_count": 72,
+      "signed_hurwitz_generator_action_tables": [
+        {
+          "image_sha256": "013733fb5da051ec2ea804cfd89fcc925f48e7461ef7b2021efea4a8c0328635",
+          "position": 1,
+          "sign": 1
+        },
+        {
+          "image_sha256": "86cb40092b9232138fe2b28a28f908282c52b5f6c123e4c0bd1e8c2908556770",
+          "position": 1,
+          "sign": -1
+        },
+        {
+          "image_sha256": "d1d71d352187aad52faf66ef1234f87bdac9a1698ab6872a188cdf99964b28ac",
+          "position": 2,
+          "sign": 1
+        },
+        {
+          "image_sha256": "9740d41d4431435462a0e1ddce45153321de4123c68a09901907068b9f242ec7",
+          "position": 2,
+          "sign": -1
+        },
+        {
+          "image_sha256": "4943dddbfe708b993a2a844b6512b06e8bf52491f21f78ab8942a2192e138a32",
+          "position": 3,
+          "sign": 1
+        },
+        {
+          "image_sha256": "f7f205571117243245f0f0d9d878f21f8e6dafa0be384bfca0fef07345d58529",
+          "position": 3,
+          "sign": -1
+        }
+      ],
+      "signed_hurwitz_orbit_size_from_first_word": 24,
+      "z_size": 24
+    },
+    {
+      "adjacent_index_rows": [
+        {
+          "adjacent_value_index": 1,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 2880,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 4,
+          "rooted_demands": 11520,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 2880
+          },
+          "target_multiplicity_profile_histogram": {
+            "(4,)": 2880
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 15,
+            "source_generated_subgroup_order": 24,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                5,
+                6,
+                1,
+                2,
+                3,
+                4
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                3,
+                4,
+                1,
+                2,
+                5,
+                6
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 24,
+            "target_generated_subgroup_order": 288,
+            "target_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          "unrooted_source_words": 2880
+        },
+        {
+          "adjacent_value_index": 2,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 2880,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 4,
+          "rooted_demands": 11520,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 2880
+          },
+          "target_multiplicity_profile_histogram": {
+            "(4,)": 2880
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 15,
+            "source_generated_subgroup_order": 24,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                5,
+                6,
+                1,
+                2,
+                3,
+                4
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                3,
+                4,
+                1,
+                2,
+                5,
+                6
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 24,
+            "target_generated_subgroup_order": 288,
+            "target_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_word_b": [
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          "unrooted_source_words": 2880
+        },
+        {
+          "adjacent_value_index": 3,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 2880,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 4,
+          "rooted_demands": 11520,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 2880
+          },
+          "target_multiplicity_profile_histogram": {
+            "(4,)": 2880
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 15,
+            "source_generated_subgroup_order": 24,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                5,
+                6,
+                1,
+                2,
+                3,
+                4
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                3,
+                4,
+                1,
+                2,
+                5,
+                6
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 24,
+            "target_generated_subgroup_order": 288,
+            "target_word_a": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_word_b": [
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          "unrooted_source_words": 2880
+        },
+        {
+          "adjacent_value_index": 4,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 2880,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 4,
+          "rooted_demands": 11520,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 2880
+          },
+          "target_multiplicity_profile_histogram": {
+            "(4,)": 2880
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 15,
+            "source_generated_subgroup_order": 24,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                5,
+                6,
+                1,
+                2,
+                3,
+                4
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                3,
+                4,
+                1,
+                2,
+                5,
+                6
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "subgroup_intersection_order": 24,
+            "target_generated_subgroup_order": 288,
+            "target_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          "unrooted_source_words": 2880
+        },
+        {
+          "adjacent_value_index": 5,
+          "arbitrary_source_independent_unrooted_map_possible": true,
+          "collision_source_words": 0,
+          "descends_to_unrooted_word_function": true,
+          "distinct_unrooted_directed_edges": 2880,
+          "fixed_braid_not_refuted_by_root_fiber_collision": true,
+          "max_rooted_sources_per_unrooted_directed_edge": 4,
+          "rooted_demands": 11520,
+          "smallest_collision_witness": null,
+          "target_choice_count_per_source_histogram": {
+            "1": 2880
+          },
+          "target_multiplicity_profile_histogram": {
+            "(4,)": 2880
+          },
+          "two_source_direct_product_subgroup_obstruction": {
+            "invariant": "A common signed Hurwitz word on the two sources is the ordinary Hurwitz action on coordinatewise pairs in S_d x S_d and preserves their generated subgroup exactly.",
+            "pairs_tested_until_witness": 4,
+            "source_generated_subgroup_order": 288,
+            "source_rooted_coordinate_a": {
+              "pi": [
+                5,
+                6,
+                1,
+                2,
+                3,
+                4
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_rooted_coordinate_b": {
+              "pi": [
+                3,
+                4,
+                1,
+                2,
+                6,
+                5
+              ],
+              "tree": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ]
+              ]
+            },
+            "source_word_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "subgroup_intersection_order": 24,
+            "target_generated_subgroup_order": 24,
+            "target_word_a": [
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_word_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          "unrooted_source_words": 2880
+        }
+      ],
+      "all_adjacent_indices_have_root_fiber_collision": false,
+      "all_adjacent_indices_have_two_source_subgroup_obstruction": true,
+      "cayley_tree_count": 16,
+      "complete_signed_hurwitz_action_image": null,
+      "connected_support_failures": 0,
+      "d": 4,
+      "globally_smallest_collision_witness": null,
+      "identity_failures": 0,
+      "m": 6,
+      "maximum_distinct_targets_from_one_root_fiber": 1,
+      "root_fiber_size_histogram": {
+        "4": 2880
+      },
+      "rooted_pair_count": 11520,
+      "signed_hurwitz_generator_action_tables": [
+        {
+          "image_sha256": "b037401ec4f0653a4423d527bf09f788c0688131fce0e1c86cbf0033fd3ef362",
+          "position": 1,
+          "sign": 1
+        },
+        {
+          "image_sha256": "edea4789d3242119e5e4d94d5288832ab2f373cd5f3389d797cb6e5a417df4cf",
+          "position": 1,
+          "sign": -1
+        },
+        {
+          "image_sha256": "33f7bbba4d2b59ee2e20aef472f81aac2d3db83c51f640dc57dfd4e816496af4",
+          "position": 2,
+          "sign": 1
+        },
+        {
+          "image_sha256": "2b2914dea48121fb9b9411558be034c726217ed67e4cf47519d1db195fe740f3",
+          "position": 2,
+          "sign": -1
+        },
+        {
+          "image_sha256": "1d7d0284e51d79ab661459be06c11d7d1f02c529bc27041d185f27da15421dec",
+          "position": 3,
+          "sign": 1
+        },
+        {
+          "image_sha256": "448b027c066a6e48459bbfeff4a3b4515c95c2580840960716d7d189b5d880df",
+          "position": 3,
+          "sign": -1
+        },
+        {
+          "image_sha256": "bf7c034305f6a0e90d6be1a53d975dfa55138994cb82b2fb88b7163f672cc0be",
+          "position": 4,
+          "sign": 1
+        },
+        {
+          "image_sha256": "6b569b0b76a28da6a8528ca9019af4c46ba7e633e3350e8dd78dc52ba1d1f5af",
+          "position": 4,
+          "sign": -1
+        },
+        {
+          "image_sha256": "1fbf2757eb9fe2506d9812d7ec0af520bcd86fbbf96a2884740abd56888a6ed0",
+          "position": 5,
+          "sign": 1
+        },
+        {
+          "image_sha256": "55531add8ee5c43724ca9c32b4bb0fc7688e056083506117f376e4c7a94024fe",
+          "position": 5,
+          "sign": -1
+        }
+      ],
+      "signed_hurwitz_orbit_size_from_first_word": 2880,
+      "z_size": 2880
+    }
+  ],
+  "scope_warning": "Finite exhaustive constraints can refute the universal fixed-braid proposition. They prove no all-edge congestion, physical gap, Gamma_0 estimate, heat-bath gap, or terminal outcome.",
+  "seed": null,
+  "target": "uniform rooted minimal identity sector, projected to Z_d",
+  "verdict": "REFUTED at d=3 (indeed at every adjacent index for d=3 and d=4) by a two-source direct-product generated-subgroup invariant.",
+  "vertex_labels_in_serialized_words": "1-based"
+}

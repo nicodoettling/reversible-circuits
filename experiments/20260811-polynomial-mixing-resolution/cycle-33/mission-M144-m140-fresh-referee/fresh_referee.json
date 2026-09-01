@@ -1,0 +1,104 @@
+{
+  "certificates": {
+    "finite": {
+      "coefficient_sha256": "733243ff50622263540085ff0d6d4b01246164cc8119003cacb5dbeda11684f7",
+      "count": 1222,
+      "minimum": {
+        "denominator": "4736091661711441920000",
+        "numerator": "5307578203959502651"
+      },
+      "minimum_at": [
+        7,
+        0
+      ],
+      "nonpositive": 0,
+      "range": "s=6,...,99; z in [0,1/2]",
+      "s6_minimum": {
+        "denominator": "11861248695609600",
+        "numerator": "13461835439971"
+      },
+      "s6_nonzero_numerical_charges_at_z_1_over_3": 16,
+      "s6_structurally_retained_children": 17,
+      "s6_zero_charge_note": "one structurally retained lower child has zero envelope charge; positivity is certified by the slack coefficients"
+    },
+    "method": "Lagrange sample-to-monomial interpolation, then direct monomial-to-Bernstein conversion",
+    "tail": {
+      "b95": {
+        "denominator": "2155241325084938973586819188311372870519566286149244925562661855343704720713684719688250902512538468421382336542921774944936283932525898128479951535108883960209187425607519458820364435456",
+        "numerator": "805413485829668342074830637083409893574825774425555821512063784925874830985460824803081355302437647140145611494017090899097747865128208252482309471853572091504247509874403476715087890625"
+      },
+      "box": "[4/11,187/500]^6 x [0,1/2]",
+      "coefficient_sha256": "2c1aa8475dba3ae3d3c09f587662facb78b1c11e14aec2d04ae8d87bb5adf22f",
+      "count": 4212,
+      "degrees": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        12
+      ],
+      "minimum": {
+        "denominator": "50118750000000000000",
+        "numerator": "4360847276079323"
+      },
+      "minimum_at": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "nonpositive": 0
+    }
+  },
+  "claim": "fresh referee audit of M140 scalar lemma and corrected auxiliary L=5 theorem",
+  "convention": "(pq)(x)=p(q(x)); factors displayed left-to-right",
+  "dependencies": {},
+  "exceptional_subtraction": "one power: q*a_E*lambda_E; a_E*lambda_E^2 is rejected and unused",
+  "failure_count": 0,
+  "failures": [],
+  "python": "3.12.3",
+  "scalar": {
+    "R_identity_rows": 27,
+    "U_first_seven": {
+      "denominator": "12700800",
+      "numerator": "10388003"
+    },
+    "U_upper": {
+      "denominator": "50803200",
+      "numerator": "41554847"
+    },
+    "after_mass_factor": {
+      "denominator": "3115130754375",
+      "numerator": "217217874148"
+    },
+    "e_upper": {
+      "denominator": "11760",
+      "numerator": "31967"
+    },
+    "final_scalar_bound": {
+      "denominator": "100000",
+      "numerator": "74969"
+    },
+    "first_moment_rows": 435,
+    "literal_one_power_rows": 62,
+    "log_error": {
+      "denominator": "2962759680",
+      "numerator": "23612897"
+    },
+    "minimum_unremoved_ordinary_term": {
+      "denominator": "1",
+      "numerator": "0"
+    },
+    "selected_correction_D0": {
+      "denominator": "1121447071575",
+      "numerator": "78988317872"
+    }
+  },
+  "scope": "auxiliary full nonlazy stationary-flow parking-degree recurrence only; no gap or terminal",
+  "seed": null
+}

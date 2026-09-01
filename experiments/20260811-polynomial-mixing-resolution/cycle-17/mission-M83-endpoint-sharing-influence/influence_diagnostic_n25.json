@@ -1,0 +1,679 @@
+{
+  "claim_tested": "Endpoint-sharing K^2 influence and signed layer cancellation",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/influence_diagnostic.py --n 23 25 --exact-through 0 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/influence_diagnostic_n25.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "arithmetic": "floating",
+      "disjoint_positive_row_ratio_distinct_exact": null,
+      "edge_K_maximizing_orbits": [
+        749,
+        781
+      ],
+      "first_step_TV_by_target_kind": {
+        "3": 0.03177010523325232,
+        "D": 0.2294394872909208
+      },
+      "intermediate_layer_triangle_TV": 0.03251041122553768,
+      "intermediate_layers": [
+        {
+          "TV_seminorm": 0.0018826024574650079,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": 0.0034235247714042775
+        },
+        {
+          "TV_seminorm": 0.0007305435880198107,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": 0.0007461137130370169
+        },
+        {
+          "TV_seminorm": 0.0009687899178273161,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": -0.0017958938037817538
+        },
+        {
+          "TV_seminorm": 0.0007475351854200974,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 4,
+          "signed_mass": -0.0014812008210104161
+        },
+        {
+          "TV_seminorm": 0.0006217105263157894,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 5,
+          "signed_mass": -0.0012434210526315788
+        },
+        {
+          "TV_seminorm": 0.0,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 6,
+          "signed_mass": 0.0
+        },
+        {
+          "TV_seminorm": 0.0,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 7,
+          "signed_mass": 0.0
+        },
+        {
+          "TV_seminorm": 0.01086593352115037,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": 0.02089544129952079
+        },
+        {
+          "TV_seminorm": 0.0023727348792334955,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": 0.0023908016927817735
+        },
+        {
+          "TV_seminorm": 0.0030915953882312544,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": -0.005340895368933048
+        },
+        {
+          "TV_seminorm": 0.004567884654444609,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 4,
+          "signed_mass": -0.008511017850752485
+        },
+        {
+          "TV_seminorm": 0.0016240167180746512,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 5,
+          "signed_mass": 0.000741162437106168
+        },
+        {
+          "TV_seminorm": 0.0041113335744108245,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 6,
+          "signed_mass": -0.008118783879057286
+        },
+        {
+          "TV_seminorm": 0.0009257308149444613,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 7,
+          "signed_mass": -0.0017058311376834463
+        }
+      ],
+      "localized_edges": 26007,
+      "maxima_by_source_kind": {
+        "33": {
+          "TV_K2": 0.009358525322674636,
+          "orbits": [
+            118,
+            781
+          ]
+        },
+        "3D": {
+          "TV_K2": 0.011435991299833456,
+          "orbits": [
+            689,
+            798
+          ]
+        },
+        "DD": {
+          "TV_K2": 0.010156745770696592,
+          "orbits": [
+            561,
+            839
+          ]
+        }
+      },
+      "maximum_edge_TV_K": 0.2808159753364026,
+      "maximum_edge_TV_K2": 0.011435991299833456,
+      "maximum_unit_slide_TV_K": 0.1755862478520871,
+      "maximum_unit_slide_TV_K2": 0.007225784099917059,
+      "n": 23,
+      "n_squared_times_corresponding_unit_slide_TV_K2": 3.822439788856124,
+      "n_squared_times_maximum_edge_TV_K2": 6.049639397611898,
+      "n_squared_times_maximum_unit_slide_TV_K": 92.88512511375407,
+      "n_times_maximum_edge_TV_K": 6.45876743273726,
+      "noninvariant_representative_support_split": [
+        {
+          "TV_contribution": 0.02275389831298069,
+          "intersects_perturbed_source_support": false,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": 0.00901620692027162,
+          "intersects_perturbed_source_support": true,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": 0.11219060929041945,
+          "intersects_perturbed_source_support": false,
+          "target_kind": "D"
+        },
+        {
+          "TV_contribution": 0.11724887800050109,
+          "intersects_perturbed_source_support": true,
+          "target_kind": "D"
+        }
+      ],
+      "one_to_two_step_contraction_ratio": 0.043780900958968944,
+      "quotient_states": 847,
+      "representative_disjoint_positive_row_ratio_maximum": 14.010180668875996,
+      "representative_disjoint_positive_row_ratio_minimum": 0.0,
+      "target_layers": [
+        {
+          "absolute_mass": 0.0008834769706122954,
+          "signed_mass": -0.00041662723756055926,
+          "target_kind": "3",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": 0.0006058664775948854,
+          "signed_mass": -0.00012311234080029422,
+          "target_kind": "3",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": 0.000500931117750598,
+          "signed_mass": 0.00013472081101100917,
+          "target_kind": "3",
+          "target_minimum_residual_size": 3
+        },
+        {
+          "absolute_mass": 0.00043453880360072036,
+          "signed_mass": 0.00033327097364731277,
+          "target_kind": "3",
+          "target_minimum_residual_size": 4
+        },
+        {
+          "absolute_mass": 0.0004501848014278189,
+          "signed_mass": 0.0004501848014278189,
+          "target_kind": "3",
+          "target_minimum_residual_size": 5
+        },
+        {
+          "absolute_mass": 0.00044826895917691155,
+          "signed_mass": 0.00044826895917691155,
+          "target_kind": "3",
+          "target_minimum_residual_size": 6
+        },
+        {
+          "absolute_mass": 0.00020053672134086342,
+          "signed_mass": 0.00020053672134086342,
+          "target_kind": "3",
+          "target_minimum_residual_size": 7
+        },
+        {
+          "absolute_mass": 0.006401359324036926,
+          "signed_mass": -0.0005327521439058831,
+          "target_kind": "D",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": 0.003854470837007688,
+          "signed_mass": 0.0003084936006384801,
+          "target_kind": "D",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": 0.0030291570068962884,
+          "signed_mass": 0.00022273514121015902,
+          "target_kind": "D",
+          "target_minimum_residual_size": 3
+        },
+        {
+          "absolute_mass": 0.0024563566236365446,
+          "signed_mass": -4.263084755998597e-05,
+          "target_kind": "D",
+          "target_minimum_residual_size": 4
+        },
+        {
+          "absolute_mass": 0.001960207529247461,
+          "signed_mass": -0.0006802842045169616,
+          "target_kind": "D",
+          "target_minimum_residual_size": 5
+        },
+        {
+          "absolute_mass": 0.001151127868328271,
+          "signed_mass": -0.0001421085664871714,
+          "target_kind": "D",
+          "target_minimum_residual_size": 6
+        },
+        {
+          "absolute_mass": 0.0004954995590096421,
+          "signed_mass": -0.0001606956676215956,
+          "target_kind": "D",
+          "target_minimum_residual_size": 7
+        }
+      ],
+      "triangle_loss_over_actual_TV": 2.842815316413465,
+      "unit_slide_K_maximizing_orbits": [
+        689,
+        801
+      ],
+      "unit_slide_edges": 3021,
+      "witness_descriptors": [
+        {
+          "cycles": [
+            [
+              8,
+              16,
+              22
+            ]
+          ],
+          "harmonic_residual_sum": 0.4027777777777778,
+          "kind": "3",
+          "minimum_residual_size": 6,
+          "residual_sizes": [
+            9,
+            8,
+            6
+          ],
+          "support_gaps": [
+            8,
+            6,
+            9
+          ]
+        },
+        {
+          "cycles": [
+            [
+              7,
+              22
+            ],
+            [
+              13,
+              18
+            ]
+          ],
+          "harmonic_residual_sum": 0.42500000000000004,
+          "kind": "D",
+          "minimum_residual_size": 5,
+          "residual_sizes": [
+            10,
+            8,
+            5
+          ],
+          "support_gaps": [
+            6,
+            5,
+            4,
+            8
+          ]
+        }
+      ],
+      "witness_lift": {
+        "common_chord": [
+          1,
+          9
+        ],
+        "common_coordinate": 1,
+        "differing_chords": [
+          [
+            15,
+            20
+          ],
+          [
+            1,
+            15
+          ]
+        ]
+      },
+      "witness_orbits": [
+        689,
+        798
+      ]
+    },
+    {
+      "arithmetic": "floating",
+      "disjoint_positive_row_ratio_distinct_exact": null,
+      "edge_K_maximizing_orbits": [
+        992,
+        1049
+      ],
+      "first_step_TV_by_target_kind": {
+        "3": 0.02665680341671676,
+        "D": 0.2128533144872413
+      },
+      "intermediate_layer_triangle_TV": 0.030233043605923975,
+      "intermediate_layers": [
+        {
+          "TV_seminorm": 0.0015570107595881304,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": 0.0029054266400990406
+        },
+        {
+          "TV_seminorm": 0.000610396670552803,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": 0.000835694732107949
+        },
+        {
+          "TV_seminorm": 0.000790875735781529,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": -0.0014851909339583984
+        },
+        {
+          "TV_seminorm": 0.0008240546313520621,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 4,
+          "signed_mass": -0.001633896923407874
+        },
+        {
+          "TV_seminorm": 0.0004684350966568811,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 5,
+          "signed_mass": -0.0009368701933137622
+        },
+        {
+          "TV_seminorm": 0.0,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 6,
+          "signed_mass": 0.0
+        },
+        {
+          "TV_seminorm": 0.0,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 7,
+          "signed_mass": 0.0
+        },
+        {
+          "TV_seminorm": 0.0,
+          "intermediate_kind": "3",
+          "intermediate_minimum_residual_size": 8,
+          "signed_mass": 0.0
+        },
+        {
+          "TV_seminorm": 0.009908680637706297,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 1,
+          "signed_mass": 0.019139258989020073
+        },
+        {
+          "TV_seminorm": 0.0022140261194799585,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 2,
+          "signed_mass": 0.002762477908214331
+        },
+        {
+          "TV_seminorm": 0.0022473032414282094,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 3,
+          "signed_mass": -0.0037060592038715076
+        },
+        {
+          "TV_seminorm": 0.003089438718380827,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 4,
+          "signed_mass": -0.005518872925255786
+        },
+        {
+          "TV_seminorm": 0.0014864632442112497,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 5,
+          "signed_mass": 0.0008900406369261155
+        },
+        {
+          "TV_seminorm": 0.00465927380851555,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 6,
+          "signed_mass": -0.009231045448430099
+        },
+        {
+          "TV_seminorm": 0.002131037949214585,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 7,
+          "signed_mass": -0.004143500650659948
+        },
+        {
+          "TV_seminorm": 0.00024604699305589694,
+          "intermediate_kind": "D",
+          "intermediate_minimum_residual_size": 8,
+          "signed_mass": 0.0001225373725298651
+        }
+      ],
+      "localized_edges": 37284,
+      "maxima_by_source_kind": {
+        "33": {
+          "TV_K2": 0.008547029680293444,
+          "orbits": [
+            248,
+            992
+          ]
+        },
+        "3D": {
+          "TV_K2": 0.010153156547227132,
+          "orbits": [
+            872,
+            1017
+          ]
+        },
+        "DD": {
+          "TV_K2": 0.009384233474180187,
+          "orbits": [
+            697,
+            1088
+          ]
+        }
+      },
+      "maximum_edge_TV_K": 0.2627449057856205,
+      "maximum_edge_TV_K2": 0.010153156547227132,
+      "maximum_unit_slide_TV_K": 0.16254620910552908,
+      "maximum_unit_slide_TV_K2": 0.005301020492412697,
+      "n": 25,
+      "n_squared_times_corresponding_unit_slide_TV_K2": 3.3131378077579354,
+      "n_squared_times_maximum_edge_TV_K2": 6.345722842016957,
+      "n_squared_times_maximum_unit_slide_TV_K": 101.59138069095567,
+      "n_times_maximum_edge_TV_K": 6.568622644640512,
+      "noninvariant_representative_support_split": [
+        {
+          "TV_contribution": 0.020419620684679573,
+          "intersects_perturbed_source_support": false,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": 0.006237182732037189,
+          "intersects_perturbed_source_support": true,
+          "target_kind": "3"
+        },
+        {
+          "TV_contribution": 0.11126497233538572,
+          "intersects_perturbed_source_support": false,
+          "target_kind": "D"
+        },
+        {
+          "TV_contribution": 0.10158834215185546,
+          "intersects_perturbed_source_support": true,
+          "target_kind": "D"
+        }
+      ],
+      "one_to_two_step_contraction_ratio": 0.042391347121704843,
+      "quotient_states": 1104,
+      "representative_disjoint_positive_row_ratio_maximum": 12.528883115481253,
+      "representative_disjoint_positive_row_ratio_minimum": 0.0,
+      "target_layers": [
+        {
+          "absolute_mass": 0.0006455449919163879,
+          "signed_mass": -0.0003186262836089393,
+          "target_kind": "3",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": 0.00040513366401393857,
+          "signed_mass": -0.00011070982526817342,
+          "target_kind": "3",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": 0.00030859838640233644,
+          "signed_mass": 6.483461976680412e-05,
+          "target_kind": "3",
+          "target_minimum_residual_size": 3
+        },
+        {
+          "absolute_mass": 0.00031419086942624557,
+          "signed_mass": 0.00018337990736867809,
+          "target_kind": "3",
+          "target_minimum_residual_size": 4
+        },
+        {
+          "absolute_mass": 0.0003111933711455524,
+          "signed_mass": 0.0003028103632298192,
+          "target_kind": "3",
+          "target_minimum_residual_size": 5
+        },
+        {
+          "absolute_mass": 0.00035901501960750265,
+          "signed_mass": 0.00035901501960750265,
+          "target_kind": "3",
+          "target_minimum_residual_size": 6
+        },
+        {
+          "absolute_mass": 0.00023673846036864092,
+          "signed_mass": 0.00023673846036864092,
+          "target_kind": "3",
+          "target_minimum_residual_size": 7
+        },
+        {
+          "absolute_mass": 6.112256262202624e-05,
+          "signed_mass": 6.112256262202624e-05,
+          "target_kind": "3",
+          "target_minimum_residual_size": 8
+        },
+        {
+          "absolute_mass": 0.00583000009642122,
+          "signed_mass": -0.0004621106280935515,
+          "target_kind": "D",
+          "target_minimum_residual_size": 1
+        },
+        {
+          "absolute_mass": 0.0032766738810941155,
+          "signed_mass": 0.00026297334062057494,
+          "target_kind": "D",
+          "target_minimum_residual_size": 2
+        },
+        {
+          "absolute_mass": 0.002571774385252327,
+          "signed_mass": 0.0002299370164665171,
+          "target_kind": "D",
+          "target_minimum_residual_size": 3
+        },
+        {
+          "absolute_mass": 0.00212450394204011,
+          "signed_mass": 3.3880012597400276e-05,
+          "target_kind": "D",
+          "target_minimum_residual_size": 4
+        },
+        {
+          "absolute_mass": 0.0017642994977957595,
+          "signed_mass": -0.0005377088475391543,
+          "target_kind": "D",
+          "target_minimum_residual_size": 5
+        },
+        {
+          "absolute_mass": 0.0011984377834820567,
+          "signed_mass": -9.08323241472806e-05,
+          "target_kind": "D",
+          "target_minimum_residual_size": 6
+        },
+        {
+          "absolute_mass": 0.0007101730039885023,
+          "signed_mass": -0.0001432780581238669,
+          "target_kind": "D",
+          "target_minimum_residual_size": 7
+        },
+        {
+          "absolute_mass": 0.00018891317887754502,
+          "signed_mass": -7.142533586702176e-05,
+          "target_kind": "D",
+          "target_minimum_residual_size": 8
+        }
+      ],
+      "triangle_loss_over_actual_TV": 2.977698951581786,
+      "unit_slide_K_maximizing_orbits": [
+        984,
+        1013
+      ],
+      "unit_slide_edges": 3982,
+      "witness_descriptors": [
+        {
+          "cycles": [
+            [
+              9,
+              18,
+              24
+            ]
+          ],
+          "harmonic_residual_sum": 0.37777777777777777,
+          "kind": "3",
+          "minimum_residual_size": 6,
+          "residual_sizes": [
+            10,
+            9,
+            6
+          ],
+          "support_gaps": [
+            9,
+            6,
+            10
+          ]
+        },
+        {
+          "cycles": [
+            [
+              8,
+              24
+            ],
+            [
+              14,
+              19
+            ]
+          ],
+          "harmonic_residual_sum": 0.40202020202020206,
+          "kind": "D",
+          "minimum_residual_size": 5,
+          "residual_sizes": [
+            11,
+            9,
+            5
+          ],
+          "support_gaps": [
+            6,
+            5,
+            5,
+            9
+          ]
+        }
+      ],
+      "witness_lift": {
+        "common_chord": [
+          1,
+          10
+        ],
+        "common_coordinate": 1,
+        "differing_chords": [
+          [
+            16,
+            21
+          ],
+          [
+            1,
+            16
+          ]
+        ]
+      },
+      "witness_orbits": [
+        872,
+        1017
+      ]
+    }
+  ],
+  "seed": null,
+  "status": "finite_diagnostic_only"
+}

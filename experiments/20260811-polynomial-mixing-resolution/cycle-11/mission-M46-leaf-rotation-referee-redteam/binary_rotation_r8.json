@@ -1,0 +1,295 @@
+[
+  {
+    "comb": [
+      2,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": null,
+    "leaf_rotation_moves": 1,
+    "moves_that_are_one_standard_binary_rotation": 1,
+    "path": [
+      1,
+      1
+    ],
+    "r": 2,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 2
+  },
+  {
+    "comb": [
+      2,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 1,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 2,
+      "parent": 0,
+      "source": [
+        2,
+        0,
+        1
+      ],
+      "source_binary": "(None, ((None, None), None))",
+      "target": [
+        1,
+        1,
+        1
+      ],
+      "target_binary": "(((None, None), None), None)"
+    },
+    "leaf_rotation_moves": 4,
+    "moves_that_are_one_standard_binary_rotation": 3,
+    "path": [
+      1,
+      1,
+      1
+    ],
+    "r": 3,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 5
+  },
+  {
+    "comb": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 2,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 3,
+      "parent": 1,
+      "source": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "source_binary": "((None, ((None, None), None)), None)",
+      "target": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_binary": "((((None, None), None), None), None)"
+    },
+    "leaf_rotation_moves": 15,
+    "moves_that_are_one_standard_binary_rotation": 10,
+    "path": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "r": 4,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 14
+  },
+  {
+    "comb": [
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 3,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 4,
+      "parent": 2,
+      "source": [
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "source_binary": "(((None, ((None, None), None)), None), None)",
+      "target": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_binary": "(((((None, None), None), None), None), None)"
+    },
+    "leaf_rotation_moves": 56,
+    "moves_that_are_one_standard_binary_rotation": 35,
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "r": 5,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 42
+  },
+  {
+    "comb": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 4,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 5,
+      "parent": 3,
+      "source": [
+        1,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "source_binary": "((((None, ((None, None), None)), None), None), None)",
+      "target": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_binary": "((((((None, None), None), None), None), None), None)"
+    },
+    "leaf_rotation_moves": 210,
+    "moves_that_are_one_standard_binary_rotation": 126,
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "r": 6,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 132
+  },
+  {
+    "comb": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 5,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 6,
+      "parent": 4,
+      "source": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "source_binary": "(((((None, ((None, None), None)), None), None), None), None)",
+      "target": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_binary": "(((((((None, None), None), None), None), None), None), None)"
+    },
+    "leaf_rotation_moves": 792,
+    "moves_that_are_one_standard_binary_rotation": 462,
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "r": 7,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 429
+  },
+  {
+    "comb": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "comb_path_are_one_standard_rotation": true,
+    "first_mismatch": {
+      "leaf": 6,
+      "next_sibling_is_leaf": false,
+      "next_sibling_root": 7,
+      "parent": 5,
+      "source": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        1
+      ],
+      "source_binary": "((((((None, ((None, None), None)), None), None), None), None), None)",
+      "target": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_binary": "((((((((None, None), None), None), None), None), None), None), None)"
+    },
+    "leaf_rotation_moves": 3003,
+    "moves_that_are_one_standard_binary_rotation": 1716,
+    "path": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "r": 8,
+    "scope": "finite exact falsifier; universal pointer identity is separate",
+    "states": 1430
+  }
+]

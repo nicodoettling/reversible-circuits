@@ -1,0 +1,53 @@
+{
+  "claim_checked": "closed conditioned-Borel probability for a B-only subset of the far-singleton quotient event",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_tail_certificate.py --k 3 5 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/balanced_tail_exact_n21.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "family": "n=3k, k odd: A=[k,k,k]_3, B=[1,k-1,k,k]_S",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "all_selected_have_far_singleton_residual": true,
+      "closed_formula_probability": "832/5625",
+      "enumerated_A_probability": "0",
+      "enumerated_B_probability": "832/5625",
+      "finite_probability_exceeds_proved_lower_bound": true,
+      "formula_equals_enumeration": true,
+      "k": 3,
+      "n": 9,
+      "proved_lower_bound_2_over_27e2sqrtk_numeric": 0.005787841645000933,
+      "selected_raw_targets": 10,
+      "sqrt_k_times_probability_numeric": 0.25618955944840993
+    },
+    {
+      "all_selected_have_far_singleton_residual": true,
+      "closed_formula_probability": "1333643264/19729747125",
+      "enumerated_A_probability": "0",
+      "enumerated_B_probability": "1333643264/19729747125",
+      "finite_probability_exceeds_proved_lower_bound": true,
+      "formula_equals_enumeration": true,
+      "k": 5,
+      "n": 15,
+      "proved_lower_bound_2_over_27e2sqrtk_numeric": 0.004483242860314871,
+      "selected_raw_targets": 56,
+      "sqrt_k_times_probability_numeric": 0.1511482624255225
+    },
+    {
+      "all_selected_have_far_singleton_residual": true,
+      "closed_formula_probability": "24175662657910272/512054275623857603",
+      "enumerated_A_probability": "0",
+      "enumerated_B_probability": "24175662657910272/512054275623857603",
+      "finite_probability_exceeds_proved_lower_bound": true,
+      "formula_equals_enumeration": true,
+      "k": 7,
+      "n": 21,
+      "proved_lower_bound_2_over_27e2sqrtk_numeric": 0.003789031778376357,
+      "selected_raw_targets": 162,
+      "sqrt_k_times_probability_numeric": 0.12491408473270292
+    }
+  ],
+  "scope_warning": "The script checks finite rational identities.  The asymptotic lower bound is a separate proof in report.md.",
+  "seed": null,
+  "status": "exact_finite_rational_certificate"
+}

@@ -1,0 +1,374 @@
+{
+  "actual_history_trace_rows": [
+    {
+      "B": 1,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "reset_trace": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 2,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 768,
+        "numerator": 341
+      },
+      "reset_trace": {
+        "denominator": 768,
+        "numerator": 107
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 5,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 488117230272,
+        "numerator": 306308043791
+      },
+      "reset_trace": {
+        "denominator": 9039207968,
+        "numerator": 1738512453
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 2,
+      "a": 0,
+      "d": 2,
+      "envelope": {
+        "denominator": 3840,
+        "numerator": 1633
+      },
+      "reset_trace": {
+        "denominator": 1280,
+        "numerator": 133
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 2,
+      "a": 1,
+      "d": 2,
+      "envelope": {
+        "denominator": 256,
+        "numerator": 119
+      },
+      "reset_trace": {
+        "denominator": 1280,
+        "numerator": 269
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 4,
+      "a": 0,
+      "d": 5,
+      "envelope": {
+        "denominator": 45927000,
+        "numerator": 26491079
+      },
+      "reset_trace": {
+        "denominator": 3306744,
+        "numerator": 332383
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 4,
+      "a": 2,
+      "d": 5,
+      "envelope": {
+        "denominator": 9185400,
+        "numerator": 5169847
+      },
+      "reset_trace": {
+        "denominator": 3306744,
+        "numerator": 689593
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 4,
+      "a": 4,
+      "d": 5,
+      "envelope": {
+        "denominator": 45927000,
+        "numerator": 31768391
+      },
+      "reset_trace": {
+        "denominator": 3306744,
+        "numerator": 1519195
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    }
+  ],
+  "bayes_affine_cross_term": {
+    "degree": 5,
+    "direct": {
+      "denominator": 522224703,
+      "numerator": 301021106
+    },
+    "matrix_formula": {
+      "denominator": 522224703,
+      "numerator": 301021106
+    },
+    "observation": 3
+  },
+  "claim_audited": "frozen M179 fresh actual-history h=2 charge <=1/4",
+  "counts": {
+    "actual_history_trace_rows": 8,
+    "eta_rows": 5,
+    "exterior_moment_rows": 4,
+    "matrix_rows": 8
+  },
+  "degree_one_matrix": {
+    "g00": {
+      "denominator": 2,
+      "numerator": 1
+    },
+    "g01_squared": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "g11": {
+      "denominator": 5,
+      "numerator": 1
+    }
+  },
+  "environment": {
+    "dependencies": "Python standard library only",
+    "exact_command": "python3 -B independent_exact.py --output independent_results.json",
+    "imports_predecessor_code_or_data": false,
+    "python": "3.12.3",
+    "seed": null
+  },
+  "eta_rows": [
+    {
+      "B": 1,
+      "eta": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 0,
+      "r": 0
+    },
+    {
+      "B": 3,
+      "eta": {
+        "denominator": 16,
+        "numerator": 3
+      },
+      "n": 1,
+      "r": 1
+    },
+    {
+      "B": 6,
+      "eta": {
+        "denominator": 16807,
+        "numerator": 960
+      },
+      "n": 4,
+      "r": 1
+    },
+    {
+      "B": 6,
+      "eta": {
+        "denominator": 16807,
+        "numerator": 480
+      },
+      "n": 4,
+      "r": 2
+    },
+    {
+      "B": 6,
+      "eta": {
+        "denominator": 16807,
+        "numerator": 6
+      },
+      "n": 4,
+      "r": 4
+    }
+  ],
+  "exterior_moment_rows": [
+    {
+      "first_moment": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 0,
+      "sector_bound": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 8,
+        "numerator": 3
+      },
+      "n": 1,
+      "sector_bound": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 125,
+        "numerator": 36
+      },
+      "n": 2,
+      "sector_bound": {
+        "denominator": 125,
+        "numerator": 24
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 16807,
+        "numerator": 3750
+      },
+      "n": 4,
+      "sector_bound": {
+        "denominator": 16807,
+        "numerator": 2500
+      }
+    }
+  ],
+  "failures": [],
+  "matrix_rows": [
+    {
+      "a": 0,
+      "actual_lambda0": {
+        "denominator": 5,
+        "numerator": 3
+      },
+      "d": 2,
+      "slack_determinant": {
+        "denominator": 1575,
+        "numerator": 187
+      }
+    },
+    {
+      "a": 1,
+      "actual_lambda0": {
+        "denominator": 5,
+        "numerator": 2
+      },
+      "d": 2,
+      "slack_determinant": {
+        "denominator": 1575,
+        "numerator": 46
+      }
+    },
+    {
+      "a": 0,
+      "actual_lambda0": {
+        "denominator": 11,
+        "numerator": 6
+      },
+      "d": 5,
+      "slack_determinant": {
+        "denominator": 9009,
+        "numerator": 953
+      }
+    },
+    {
+      "a": 2,
+      "actual_lambda0": {
+        "denominator": 77,
+        "numerator": 20
+      },
+      "d": 5,
+      "slack_determinant": {
+        "denominator": 198198,
+        "numerator": 10187
+      }
+    },
+    {
+      "a": 4,
+      "actual_lambda0": {
+        "denominator": 33,
+        "numerator": 10
+      },
+      "d": 5,
+      "slack_determinant": {
+        "denominator": 38115,
+        "numerator": 2993
+      }
+    },
+    {
+      "a": 0,
+      "actual_lambda0": {
+        "denominator": 23,
+        "numerator": 12
+      },
+      "d": 11,
+      "slack_determinant": {
+        "denominator": 3767400,
+        "numerator": 267079
+      }
+    },
+    {
+      "a": 5,
+      "actual_lambda0": {
+        "denominator": 96577,
+        "numerator": 16632
+      },
+      "d": 11,
+      "slack_determinant": {
+        "denominator": 6189300,
+        "numerator": 355093
+      }
+    },
+    {
+      "a": 10,
+      "actual_lambda0": {
+        "denominator": 161,
+        "numerator": 44
+      },
+      "d": 11,
+      "slack_determinant": {
+        "denominator": 476576100,
+        "numerator": 41249591
+      }
+    }
+  ],
+  "scope": "h=2 only; no reset, h>=3, total AMV, gap, or terminal",
+  "status": "pass"
+}

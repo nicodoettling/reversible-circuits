@@ -1,0 +1,398 @@
+{
+  "affine_cross_term_audit": {
+    "degree": 4,
+    "direct": {
+      "denominator": 1497375,
+      "numerator": 881423
+    },
+    "formula": {
+      "denominator": 1497375,
+      "numerator": 881423
+    },
+    "observation": 1
+  },
+  "child_norm_rows": [
+    {
+      "B": 1,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 2,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 768,
+        "numerator": 341
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 8,
+      "a": 0,
+      "d": 1,
+      "envelope": {
+        "denominator": 973097534179687500,
+        "numerator": 649050427842342043
+      },
+      "target": {
+        "denominator": 4,
+        "numerator": 3
+      }
+    },
+    {
+      "B": 2,
+      "a": 0,
+      "d": 2,
+      "envelope": {
+        "denominator": 3840,
+        "numerator": 1633
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 2,
+      "a": 1,
+      "d": 2,
+      "envelope": {
+        "denominator": 256,
+        "numerator": 119
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 5,
+      "a": 0,
+      "d": 5,
+      "envelope": {
+        "denominator": 2928703381632,
+        "numerator": 1768336313897
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 5,
+      "a": 4,
+      "d": 5,
+      "envelope": {
+        "denominator": 976234460544,
+        "numerator": 700373638799
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "B": 20,
+      "a": 8,
+      "d": 9,
+      "envelope": {
+        "denominator": 23984683813554495377861229599709067068431332722832308461507343164724,
+        "numerator": 20170723050657131349366281224045275502277766394306469248222751585311
+      },
+      "target": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    }
+  ],
+  "claim": "fresh-parent actual-history h=2 descendant charge is at most one quarter",
+  "claim_scope": "h=2 descendants only; no reset, h>=3, total budget, gap, or terminal",
+  "comparison_denominator": "actual-history child diagonal trace S, not child T1 or F",
+  "counts": {
+    "child_norm_rows": 8,
+    "eta_cancellation_rows": 5,
+    "exterior_rows": 4,
+    "matrix_rows": 11
+  },
+  "degree_one_matrix": {
+    "q00": {
+      "denominator": 2,
+      "numerator": 1
+    },
+    "q01_squared": {
+      "denominator": 1,
+      "numerator": 0
+    },
+    "q11": {
+      "denominator": 5,
+      "numerator": 1
+    }
+  },
+  "environment": {
+    "dependencies": "Python standard library only",
+    "exact_command": "python3 -B h2_modal_exact.py --output h2_modal_exact.json",
+    "python": "3.12.3",
+    "seed": null
+  },
+  "eta_cancellation_rows": [
+    {
+      "B": 1,
+      "closed_eta": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "direct_eta": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 0,
+      "r": 0
+    },
+    {
+      "B": 2,
+      "closed_eta": {
+        "denominator": 16,
+        "numerator": 3
+      },
+      "direct_eta": {
+        "denominator": 16,
+        "numerator": 3
+      },
+      "n": 1,
+      "r": 1
+    },
+    {
+      "B": 7,
+      "closed_eta": {
+        "denominator": 262144,
+        "numerator": 13125
+      },
+      "direct_eta": {
+        "denominator": 262144,
+        "numerator": 13125
+      },
+      "n": 5,
+      "r": 1
+    },
+    {
+      "B": 7,
+      "closed_eta": {
+        "denominator": 262144,
+        "numerator": 1575
+      },
+      "direct_eta": {
+        "denominator": 262144,
+        "numerator": 1575
+      },
+      "n": 5,
+      "r": 3
+    },
+    {
+      "B": 7,
+      "closed_eta": {
+        "denominator": 262144,
+        "numerator": 7
+      },
+      "direct_eta": {
+        "denominator": 262144,
+        "numerator": 7
+      },
+      "n": 5,
+      "r": 5
+    }
+  ],
+  "exterior_rows": [
+    {
+      "first_moment": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "n": 0,
+      "sector_envelope": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 8,
+        "numerator": 3
+      },
+      "n": 1,
+      "sector_envelope": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 125,
+        "numerator": 36
+      },
+      "n": 2,
+      "sector_envelope": {
+        "denominator": 125,
+        "numerator": 24
+      }
+    },
+    {
+      "first_moment": {
+        "denominator": 8192,
+        "numerator": 1701
+      },
+      "n": 5,
+      "sector_envelope": {
+        "denominator": 4096,
+        "numerator": 567
+      }
+    }
+  ],
+  "failures": [],
+  "matrix_rows": [
+    {
+      "a": 0,
+      "actual_trace": {
+        "denominator": 5,
+        "numerator": 3
+      },
+      "d": 2,
+      "upper_slack_determinant": {
+        "denominator": 1575,
+        "numerator": 187
+      }
+    },
+    {
+      "a": 1,
+      "actual_trace": {
+        "denominator": 5,
+        "numerator": 2
+      },
+      "d": 2,
+      "upper_slack_determinant": {
+        "denominator": 1575,
+        "numerator": 46
+      }
+    },
+    {
+      "a": 0,
+      "actual_trace": {
+        "denominator": 7,
+        "numerator": 4
+      },
+      "d": 3,
+      "upper_slack_determinant": {
+        "denominator": 840,
+        "numerator": 101
+      }
+    },
+    {
+      "a": 1,
+      "actual_trace": {
+        "denominator": 35,
+        "numerator": 12
+      },
+      "d": 3,
+      "upper_slack_determinant": {
+        "denominator": 2940,
+        "numerator": 149
+      }
+    },
+    {
+      "a": 2,
+      "actual_trace": {
+        "denominator": 35,
+        "numerator": 12
+      },
+      "d": 3,
+      "upper_slack_determinant": {
+        "denominator": 2940,
+        "numerator": 149
+      }
+    },
+    {
+      "a": 0,
+      "actual_trace": {
+        "denominator": 15,
+        "numerator": 8
+      },
+      "d": 7,
+      "upper_slack_determinant": {
+        "denominator": 61200,
+        "numerator": 5587
+      }
+    },
+    {
+      "a": 3,
+      "actual_trace": {
+        "denominator": 1287,
+        "numerator": 280
+      },
+      "d": 7,
+      "upper_slack_determinant": {
+        "denominator": 30600,
+        "numerator": 1643
+      }
+    },
+    {
+      "a": 6,
+      "actual_trace": {
+        "denominator": 195,
+        "numerator": 56
+      },
+      "d": 7,
+      "upper_slack_determinant": {
+        "denominator": 107100,
+        "numerator": 9313
+      }
+    },
+    {
+      "a": 0,
+      "actual_trace": {
+        "denominator": 41,
+        "numerator": 21
+      },
+      "d": 20,
+      "upper_slack_determinant": {
+        "denominator": 28100457,
+        "numerator": 1343114
+      }
+    },
+    {
+      "a": 10,
+      "actual_trace": {
+        "denominator": 470505135,
+        "numerator": 59676188
+      },
+      "d": 20,
+      "upper_slack_determinant": {
+        "denominator": 104738067,
+        "numerator": 6454034
+      }
+    },
+    {
+      "a": 19,
+      "actual_trace": {
+        "denominator": 533,
+        "numerator": 140
+      },
+      "d": 20,
+      "upper_slack_determinant": {
+        "denominator": 46084749480,
+        "numerator": 3479001769
+      }
+    }
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,78 @@
+{
+  "cases": [
+    {
+      "N": 3,
+      "all_connected": true,
+      "class_mass": 729,
+      "endpoint_types": 2,
+      "representative_words_checked": 2
+    },
+    {
+      "N": 4,
+      "all_connected": true,
+      "class_mass": 46656,
+      "endpoint_types": 3,
+      "representative_words_checked": 3
+    },
+    {
+      "N": 5,
+      "all_connected": true,
+      "class_mass": 1000000,
+      "endpoint_types": 4,
+      "representative_words_checked": 4
+    },
+    {
+      "N": 6,
+      "all_connected": true,
+      "class_mass": 11390625,
+      "endpoint_types": 6,
+      "representative_words_checked": 6
+    },
+    {
+      "N": 7,
+      "all_connected": true,
+      "class_mass": 85766121,
+      "endpoint_types": 8,
+      "representative_words_checked": 8
+    },
+    {
+      "N": 8,
+      "all_connected": true,
+      "class_mass": 481890304,
+      "endpoint_types": 12,
+      "representative_words_checked": 12
+    },
+    {
+      "N": 9,
+      "all_connected": true,
+      "class_mass": 2176782336,
+      "endpoint_types": 15,
+      "representative_words_checked": 15
+    },
+    {
+      "N": 10,
+      "all_connected": true,
+      "class_mass": 8303765625,
+      "endpoint_types": 17,
+      "representative_words_checked": 17
+    },
+    {
+      "N": 11,
+      "all_connected": true,
+      "class_mass": 27680640625,
+      "endpoint_types": 18,
+      "representative_words_checked": 18
+    },
+    {
+      "N": 12,
+      "all_connected": true,
+      "class_mass": 82653950016,
+      "endpoint_types": 19,
+      "representative_words_checked": 19
+    }
+  ],
+  "claim": "All frozen M14 l=3 JSON files cover exactly N=3,...,12 and every feasible endpoint cycle type; all component, mass, and explicit representative-product fields pass independent checks.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-referee/verify_author_outputs.py --output experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-referee/certificate_verification.json experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-base-falsification/results_N3_to_N6_l3.json experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-base-falsification/results_N7_to_N10_l3.json experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-base-falsification/results_N11_l3.json experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-base-falsification/results_N12_l3.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3"
+}

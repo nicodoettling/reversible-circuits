@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "nonstandard_dependencies": {},
+    "python": "3.12.3",
+    "seed": null
+  },
+  "failures": [],
+  "mission": "M244 tiny IDL falsifier after analytic recurrence fixed",
+  "ranks": {
+    "5": {
+      "closed": 14,
+      "failures": 0,
+      "open": 34,
+      "rows": 48,
+      "trees": 16
+    },
+    "6": {
+      "closed": 193,
+      "failures": 0,
+      "open": 307,
+      "rows": 500,
+      "trees": 125
+    }
+  },
+  "rows_digest": "c6f62a955055cbf998e8119acc7dfb7ff1cebfb006fdd7b4c5c5696465f4383c",
+  "scope": {
+    "every_color": false,
+    "gap_or_mixing": false,
+    "proves_all_rank": false
+  },
+  "status": "exact finite calibration only",
+  "total_rows": 548
+}

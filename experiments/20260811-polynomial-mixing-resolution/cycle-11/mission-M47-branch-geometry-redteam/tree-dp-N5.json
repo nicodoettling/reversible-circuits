@@ -1,0 +1,228 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/fixed_join_tree_dp.py",
+    "--N",
+    "5",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N5.json"
+  ],
+  "claims_tested": [
+    "Actual join-tree diameter/centroid/edge-balance layers are universally unimodal.",
+    "Those actual branch layers are universally log-concave."
+  ],
+  "convention": "(pq)(x)=p(q(x)); appending e swaps the two domain entries of p",
+  "nonstandard_dependencies": {},
+  "purpose": "Exact fixed-N falsifier; finite passes imply no asymptotic theorem.",
+  "python": "3.12.3",
+  "result": {
+    "N": 5,
+    "elapsed_seconds": 0.0037364959716796875,
+    "expected_F_N": 1008000,
+    "layers": {
+      "centroid_balance": {
+        "counts": [
+          44280,
+          963720
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2
+        ],
+        "unimodal": true
+      },
+      "diameter": {
+        "counts": [
+          44280,
+          495240,
+          468480
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "edge_balance": {
+        "counts": [
+          44280,
+          963720
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2
+        ],
+        "unimodal": true
+      },
+      "leaf_count": {
+        "counts": [
+          468480,
+          495240,
+          44280
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "max_degree": {
+        "counts": [
+          468480,
+          495240,
+          44280
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "root0_max_branch": {
+        "counts": [
+          8856,
+          192744,
+          286440,
+          519960
+        ],
+        "log_concave": false,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      }
+    },
+    "m": 8,
+    "number_unlabeled_shapes": 3,
+    "shape_records": [
+      {
+        "elapsed_seconds": 0.0008311271667480469,
+        "fixed_labeled_tree_fiber_weight": 7808,
+        "labeled_tree_multiplicity": 60,
+        "peak_dp_states": 115,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "2": 12,
+          "3": 24,
+          "4": 24
+        },
+        "shape_code": "((())(()))",
+        "stats": {
+          "centroid_balance": 2,
+          "diameter": 4,
+          "edge_balance": 2,
+          "leaf_count": 2,
+          "max_degree": 2,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 468480
+      },
+      {
+        "elapsed_seconds": 0.0009067058563232422,
+        "fixed_labeled_tree_fiber_weight": 8856,
+        "labeled_tree_multiplicity": 5,
+        "peak_dp_states": 130,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "1": 1,
+          "4": 4
+        },
+        "shape_code": "(()()()())",
+        "stats": {
+          "centroid_balance": 1,
+          "diameter": 2,
+          "edge_balance": 1,
+          "leaf_count": 4,
+          "max_degree": 4,
+          "root0_max_branch": 1
+        },
+        "weighted_contribution": 44280
+      },
+      {
+        "elapsed_seconds": 0.0008215904235839844,
+        "fixed_labeled_tree_fiber_weight": 8254,
+        "labeled_tree_multiplicity": 60,
+        "peak_dp_states": 122,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "2": 12,
+          "3": 12,
+          "4": 36
+        },
+        "shape_code": "[(()())(())]",
+        "stats": {
+          "centroid_balance": 2,
+          "diameter": 3,
+          "edge_balance": 2,
+          "leaf_count": 3,
+          "max_degree": 3,
+          "root0_max_branch": 2
+        },
+        "weighted_contribution": 495240
+      }
+    ],
+    "weighted_total": 1008000
+  },
+  "seed": null
+}

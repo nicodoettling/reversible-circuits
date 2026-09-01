@@ -1,0 +1,35 @@
+{
+  "mission": "M182",
+  "audited_mission": "M180",
+  "verdict": "ACCEPT",
+  "material_objections": 0,
+  "nonmaterial_qualifications": 2,
+  "claims": {
+    "second_ratio_coefficient_22_over_3": "verified",
+    "boundary_charge_decomposition_and_uniform_R": "verified",
+    "raw_M_normalization_and_moments": "verified",
+    "large_component_tail_O_1_over_n": "verified",
+    "KW_identity_and_BIR_equivalence": "verified",
+    "SCBR": "unresolved",
+    "BIR": "unresolved",
+    "BR": "unresolved",
+    "PCS_bound": "unresolved"
+  },
+  "cleanroom": {
+    "k": [3, 5],
+    "source_accessible_states_checked": [64, 810],
+    "arithmetic": "exact fractions and formal E polynomials",
+    "imports_M180_code_or_data": false,
+    "status": "all exact assertions passed",
+    "seed": null
+  },
+  "scope_exclusions": [
+    "SCBR proof attempt",
+    "finite-sign inference",
+    "FD-bound",
+    "direct-L1",
+    "H0/gap",
+    "mixing",
+    "Terminal inference"
+  ]
+}

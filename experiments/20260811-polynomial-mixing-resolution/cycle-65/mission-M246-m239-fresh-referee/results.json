@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "verdict": "ACCEPT",
+  "scope": "YCM only",
+  "imports_predecessor_code_or_data": false,
+  "arithmetic": "exact Fraction formulas plus rigorous rational Taylor enclosure of e",
+  "command": "python3 experiments/20260811-polynomial-mixing-resolution/cycle-65/mission-M246-m239-fresh-referee/ycm_boundary_check.py --max-k 101",
+  "python": "3.12.3",
+  "deterministic": true,
+  "seed": null,
+  "odd_k_min": 3,
+  "odd_k_max": 101,
+  "odd_k_count": 50,
+  "checks": {
+    "m239_inventory": true,
+    "dependency_inventories": true,
+    "q_normalization": true,
+    "corrected_G_domain": true,
+    "GG1_sources_23_14_135": true,
+    "GG1_172": true,
+    "SG_128": true,
+    "GG2_70": true,
+    "small_B_234": true,
+    "safe_small_A_72": true,
+    "E1_3000": true,
+    "E2_176": true,
+    "E3_70": true,
+    "E4_242": true,
+    "prefix_6906": true,
+    "YCM_7000": true,
+    "k_3_5_7_boundaries": true
+  },
+  "small_rank_rows": [
+    {
+      "k": 3,
+      "region_counts": {"E1": 0, "E2": 1, "E3": 1, "E4": 1},
+      "max_scaled_prefix": 0.5185449728701348
+    },
+    {
+      "k": 5,
+      "region_counts": {"E1": 1, "E2": 2, "E3": 1, "E4": 2},
+      "max_scaled_prefix": 0.4090553493338877
+    },
+    {
+      "k": 7,
+      "region_counts": {"E1": 2, "E2": 3, "E3": 1, "E4": 3},
+      "max_scaled_prefix": 0.4002724694601894
+    }
+  ],
+  "largest_observed_scaled_prefix": 0.5185449728701348,
+  "finite_scope_warning": "Finite checks are falsification evidence only; the universal result is analytic."
+}

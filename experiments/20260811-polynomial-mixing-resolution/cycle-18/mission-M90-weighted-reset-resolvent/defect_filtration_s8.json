@@ -1,0 +1,668 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped recurrences",
+  "claim_tested": "exact law-of-total-variance defect and full all-j excursion tails on right-heavy seeds",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 0.26477932929992676,
+  "finite_scope_warning": "Exact bounded survival proves no universal inequality.",
+  "normalization": "Q=rho*nu for every j>=1; g=(I-Q)^-1 A",
+  "parameters": {
+    "K_values": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "s_max": 8
+  },
+  "python": "3.12.3",
+  "result": {
+    "contexts": 140,
+    "extrema": {
+      "max_g_over_U": {
+        "row": {
+          "U": {
+            "decimal": 0.10337387309238635,
+            "denominator": "22876792454961",
+            "numerator": "2364862640000"
+          },
+          "U_minus_g": {
+            "decimal": 0.05818394787547838,
+            "denominator": "4394821899212095559174408182616064000000",
+            "numerator": "255708088305767461231332541082152004983"
+          },
+          "V": {
+            "decimal": 0.06474615043727401,
+            "denominator": "114383962274805",
+            "numerator": "7405921229056"
+          },
+          "V_minus_g": {
+            "decimal": 0.01955622522036604,
+            "denominator": "4394821899212095559174408182616064000000",
+            "numerator": "85946126864388569280667667724020804983"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.013489914039844855,
+            "denominator": "1744118613916875",
+            "numerator": "23528010177032"
+          },
+          "context": [
+            8,
+            1,
+            0,
+            4
+          ],
+          "g": {
+            "decimal": 0.04518992521690797,
+            "denominator": "4394821899212095559174408182616064000000",
+            "numerator": "198601672967024061529855442277847995017"
+          },
+          "local_U_defect": {
+            "decimal": 0.010588502577786487,
+            "denominator": "2553589731034278615759063480000",
+            "numerator": "27038691449665559923557219979"
+          },
+          "local_V_defect": {
+            "decimal": -0.0016060653843978064,
+            "denominator": "2553589731034278615759063480000",
+            "numerator": "-4101232072967859835528266101"
+          },
+          "reset_budget": {
+            "decimal": 0.033753067503385595,
+            "denominator": "2553589731034278615759063480000",
+            "numerator": "86191486567552267259960563061"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.04563691615883264,
+            "denominator": "34329486677725850625",
+            "numerator": "1566691905287136776"
+          }
+        },
+        "value": {
+          "decimal": 0.43715035400213015,
+          "denominator": "454309761272791522761187983360000000000",
+          "numerator": "198601672967024061529855442277847995017"
+        }
+      },
+      "max_g_over_V": {
+        "row": {
+          "U": {
+            "decimal": 0.11791467229292563,
+            "denominator": "43046721",
+            "numerator": "5075840"
+          },
+          "U_minus_g": {
+            "decimal": 0.06658240162378298,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "577358538113674672142603601136482470863"
+          },
+          "V": {
+            "decimal": 0.07178140235118025,
+            "denominator": "43046721",
+            "numerator": "3089954"
+          },
+          "V_minus_g": {
+            "decimal": 0.020449131682037592,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "177321341461165061959286852504418470863"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.014907191769633574,
+            "denominator": "940761789972480000",
+            "numerator": "14024116412663503"
+          },
+          "context": [
+            8,
+            1,
+            0,
+            3
+          ],
+          "g": {
+            "decimal": 0.05133227066914265,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "445119491469430490869214038635677529137"
+          },
+          "local_U_defect": {
+            "decimal": 0.009666013666991647,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "95120346521357843585310791"
+          },
+          "local_V_defect": {
+            "decimal": -0.003382254971135299,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "-33283758533946299170283449"
+          },
+          "reset_budget": {
+            "decimal": 0.039199318667953814,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "385748758852869150847254079"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.050724255466452095,
+            "denominator": "8466856109752320000",
+            "numerator": "429474972308767417"
+          }
+        },
+        "value": {
+          "decimal": 0.7151193622270969,
+          "denominator": "622440832930595552828500891140096000000",
+          "numerator": "445119491469430490869214038635677529137"
+        }
+      },
+      "min_U_reverse_tail_over_U": {
+        "row": {
+          "U": {
+            "decimal": 0.2462131220656564,
+            "denominator": "22876792454961",
+            "numerator": "5632566493184"
+          },
+          "U_minus_g": {
+            "decimal": 0.19669190042912713,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "906416222532872763636474288863455254131453983"
+          },
+          "V": {
+            "decimal": 0.09388598264361839,
+            "denominator": "1601375471847270",
+            "numerator": "150346709755769"
+          },
+          "V_minus_g": {
+            "decimal": 0.0443647610070891,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "204446339670753731328245592124413272896253983"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.014647597307346268,
+            "denominator": "228605114963312640000",
+            "numerator": "3348515666382202429"
+          },
+          "context": [
+            8,
+            1,
+            0,
+            1
+          ],
+          "contribution": {
+            "decimal": 0.0004014243036072364,
+            "denominator": "1594323",
+            "numerator": "640"
+          },
+          "depth": 6,
+          "g": {
+            "decimal": 0.049521221636529285,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "228208881774315181121232484951556057484546017"
+          },
+          "local_U_defect": {
+            "decimal": 0.08379372429648929,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "171782388130496460829875889955290609"
+          },
+          "local_V_defect": {
+            "decimal": 0.028366159250435584,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "58152404837482011927412835362553329"
+          },
+          "reset_budget": {
+            "decimal": 0.04013086778435141,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "82270794902881752734693489584468031"
+          },
+          "reverse_tail": {
+            "decimal": 0.0004014243036072364,
+            "denominator": "1594323",
+            "numerator": "640"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.08314462434213327,
+            "denominator": "4499634477822882693120000",
+            "numerator": "374120418335494533995497"
+          }
+        },
+        "value": {
+          "decimal": 0.0016303936209386544,
+          "denominator": "44004425728",
+          "numerator": "71744535"
+        }
+      },
+      "min_V_reverse_tail_over_V": {
+        "row": {
+          "U": {
+            "decimal": 0.24609375,
+            "denominator": "256",
+            "numerator": "63"
+          },
+          "U_minus_g": {
+            "decimal": 0.23512098524305555,
+            "denominator": "73728",
+            "numerator": "17335"
+          },
+          "V": {
+            "decimal": 0.07942708333333333,
+            "denominator": "768",
+            "numerator": "61"
+          },
+          "V_minus_g": {
+            "decimal": 0.0684543185763889,
+            "denominator": "73728",
+            "numerator": "5047"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "context": [
+            3,
+            1,
+            0,
+            1
+          ],
+          "contribution": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "depth": 1,
+          "g": {
+            "decimal": 0.010972764756944444,
+            "denominator": "73728",
+            "numerator": "809"
+          },
+          "local_U_defect": {
+            "decimal": 0.17262098524305555,
+            "denominator": "73728",
+            "numerator": "12727"
+          },
+          "local_V_defect": {
+            "decimal": 0.0684543185763889,
+            "denominator": "73728",
+            "numerator": "5047"
+          },
+          "reset_budget": {
+            "decimal": 0.010972764756944444,
+            "denominator": "73728",
+            "numerator": "809"
+          },
+          "reverse_tail": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.07942708333333333,
+            "denominator": "768",
+            "numerator": "61"
+          }
+        },
+        "value": {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        }
+      },
+      "min_local_U_defect_over_U": {
+        "row": {
+          "U": {
+            "decimal": 0.11791467229292563,
+            "denominator": "43046721",
+            "numerator": "5075840"
+          },
+          "U_minus_g": {
+            "decimal": 0.06658240162378298,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "577358538113674672142603601136482470863"
+          },
+          "V": {
+            "decimal": 0.07178140235118025,
+            "denominator": "43046721",
+            "numerator": "3089954"
+          },
+          "V_minus_g": {
+            "decimal": 0.020449131682037592,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "177321341461165061959286852504418470863"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.014907191769633574,
+            "denominator": "940761789972480000",
+            "numerator": "14024116412663503"
+          },
+          "context": [
+            8,
+            1,
+            0,
+            3
+          ],
+          "g": {
+            "decimal": 0.05133227066914265,
+            "denominator": "8671338432277943013536524721455104000000",
+            "numerator": "445119491469430490869214038635677529137"
+          },
+          "local_U_defect": {
+            "decimal": 0.009666013666991647,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "95120346521357843585310791"
+          },
+          "local_V_defect": {
+            "decimal": -0.003382254971135299,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "-33283758533946299170283449"
+          },
+          "reset_budget": {
+            "decimal": 0.039199318667953814,
+            "denominator": "9840700602998644449853440000",
+            "numerator": "385748758852869150847254079"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.050724255466452095,
+            "denominator": "8466856109752320000",
+            "numerator": "429474972308767417"
+          }
+        },
+        "value": {
+          "decimal": 0.08197464725152415,
+          "denominator": "1160362986735380830617600000",
+          "numerator": "95120346521357843585310791"
+        }
+      },
+      "min_local_V_defect_over_V": {
+        "row": {
+          "U": {
+            "decimal": 0.11791467229292563,
+            "denominator": "43046721",
+            "numerator": "5075840"
+          },
+          "U_minus_g": {
+            "decimal": 0.08772291296189977,
+            "denominator": "2167834608069485753384131180363776000000",
+            "numerator": "190168766639473590788995292120262187333"
+          },
+          "V": {
+            "decimal": 0.05815148216681657,
+            "denominator": "1506635235",
+            "numerator": "87613072"
+          },
+          "V_minus_g": {
+            "decimal": 0.027959722835790707,
+            "denominator": "2167834608069485753384131180363776000000",
+            "numerator": "60612054795457800522555873818617387333"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.011542467304273801,
+            "denominator": "13066135971840000",
+            "numerator": "150815447248159"
+          },
+          "context": [
+            8,
+            2,
+            1,
+            3
+          ],
+          "g": {
+            "decimal": 0.03019175933102587,
+            "denominator": "2167834608069485753384131180363776000000",
+            "numerator": "65450740756302699963959117822777812667"
+          },
+          "local_U_defect": {
+            "decimal": 0.018549843790547294,
+            "denominator": "153760946921853819528960000",
+            "numerator": "2852241546487022099920187"
+          },
+          "local_V_defect": {
+            "decimal": -0.004786432283578249,
+            "denominator": "153760946921853819528960000",
+            "numerator": "-735966360300322714375621"
+          },
+          "reset_budget": {
+            "decimal": 0.01687595694181822,
+            "denominator": "1230087575374830556231680000",
+            "numerator": "20758904956691216574578153"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.023631991962513775,
+            "denominator": "529178506859520000",
+            "numerator": "12505542220839217"
+          }
+        },
+        "value": {
+          "decimal": -0.08230972118384916,
+          "denominator": "8941426962879012360192000",
+          "numerator": "-735966360300322714375621"
+        }
+      },
+      "min_positive_depth_U_contribution_over_U": {
+        "row": {
+          "U": {
+            "decimal": 0.2462131220656564,
+            "denominator": "22876792454961",
+            "numerator": "5632566493184"
+          },
+          "U_minus_g": {
+            "decimal": 0.19669190042912713,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "906416222532872763636474288863455254131453983"
+          },
+          "V": {
+            "decimal": 0.09388598264361839,
+            "denominator": "1601375471847270",
+            "numerator": "150346709755769"
+          },
+          "V_minus_g": {
+            "decimal": 0.0443647610070891,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "204446339670753731328245592124413272896253983"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.014647597307346268,
+            "denominator": "228605114963312640000",
+            "numerator": "3348515666382202429"
+          },
+          "context": [
+            8,
+            1,
+            0,
+            1
+          ],
+          "contribution": {
+            "decimal": 0.0004014243036072364,
+            "denominator": "1594323",
+            "numerator": "640"
+          },
+          "depth": 6,
+          "g": {
+            "decimal": 0.049521221636529285,
+            "denominator": "4608304767788222313056864234494821924864000000",
+            "numerator": "228208881774315181121232484951556057484546017"
+          },
+          "local_U_defect": {
+            "decimal": 0.08379372429648929,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "171782388130496460829875889955290609"
+          },
+          "local_V_defect": {
+            "decimal": 0.028366159250435584,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "58152404837482011927412835362553329"
+          },
+          "reset_budget": {
+            "decimal": 0.04013086778435141,
+            "denominator": "2050062693510015421189228306759680000",
+            "numerator": "82270794902881752734693489584468031"
+          },
+          "reverse_tail": {
+            "decimal": 0.0004014243036072364,
+            "denominator": "1594323",
+            "numerator": "640"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.08314462434213327,
+            "denominator": "4499634477822882693120000",
+            "numerator": "374120418335494533995497"
+          }
+        },
+        "value": {
+          "decimal": 0.0016303936209386544,
+          "denominator": "44004425728",
+          "numerator": "71744535"
+        }
+      },
+      "min_positive_depth_V_contribution_over_V": {
+        "row": {
+          "U": {
+            "decimal": 0.24609375,
+            "denominator": "256",
+            "numerator": "63"
+          },
+          "U_minus_g": {
+            "decimal": 0.23512098524305555,
+            "denominator": "73728",
+            "numerator": "17335"
+          },
+          "V": {
+            "decimal": 0.07942708333333333,
+            "denominator": "768",
+            "numerator": "61"
+          },
+          "V_minus_g": {
+            "decimal": 0.0684543185763889,
+            "denominator": "73728",
+            "numerator": "5047"
+          },
+          "attachment_jensen_loss": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "context": [
+            3,
+            1,
+            0,
+            1
+          ],
+          "contribution": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "depth": 1,
+          "g": {
+            "decimal": 0.010972764756944444,
+            "denominator": "73728",
+            "numerator": "809"
+          },
+          "local_U_defect": {
+            "decimal": 0.17262098524305555,
+            "denominator": "73728",
+            "numerator": "12727"
+          },
+          "local_V_defect": {
+            "decimal": 0.0684543185763889,
+            "denominator": "73728",
+            "numerator": "5047"
+          },
+          "reset_budget": {
+            "decimal": 0.010972764756944444,
+            "denominator": "73728",
+            "numerator": "809"
+          },
+          "reverse_tail": {
+            "decimal": 0.0,
+            "denominator": "1",
+            "numerator": "0"
+          },
+          "variance_of_root_mean": {
+            "decimal": 0.07942708333333333,
+            "denominator": "768",
+            "numerator": "61"
+          }
+        },
+        "value": {
+          "decimal": 0.0,
+          "denominator": "1",
+          "numerator": "0"
+        }
+      }
+    },
+    "failure_counts": {
+      "main_U_failures": 0,
+      "negative_U_reverse_tails": 0,
+      "negative_V_reverse_tails": 0,
+      "negative_local_U_defects": 0,
+      "negative_local_V_defects": 22,
+      "negative_positive_depth_U_contributions": 0,
+      "negative_positive_depth_V_contributions": 0,
+      "right_heavy_g_over_V_failures": 0,
+      "variance_envelope_failures": 0
+    },
+    "first_failures": {
+      "main_U_failures": null,
+      "negative_U_reverse_tails": null,
+      "negative_V_reverse_tails": null,
+      "negative_local_U_defects": null,
+      "negative_local_V_defects": {
+        "U": {
+          "decimal": 0.1733381957298496,
+          "denominator": "282475249",
+          "numerator": "48963750"
+        },
+        "U_minus_g": {
+          "decimal": 0.14590297473370173,
+          "denominator": "7008468990015605175000",
+          "numerator": "1022556473972178974257"
+        },
+        "V": {
+          "decimal": 0.07774310638215716,
+          "denominator": "847425747",
+          "numerator": "65881510"
+        },
+        "V_minus_g": {
+          "decimal": 0.050307885386009304,
+          "denominator": "7008468990015605175000",
+          "numerator": "352581254681105474257"
+        },
+        "attachment_jensen_loss": {
+          "decimal": 0.01538678891633679,
+          "denominator": "20420505",
+          "numerator": "314206"
+        },
+        "context": [
+          6,
+          2,
+          1,
+          2
+        ],
+        "g": {
+          "decimal": 0.027435220996147855,
+          "denominator": "7008468990015605175000",
+          "numerator": "192278895585727275743"
+        },
+        "local_U_defect": {
+          "decimal": 0.04150939017484496,
+          "denominator": "922925957532919200",
+          "numerator": "38310093673726333"
+        },
+        "local_V_defect": {
+          "decimal": -0.0005795211914508295,
+          "denominator": "36917038301316768",
+          "numerator": "-21394206021215"
+        },
+        "reset_budget": {
+          "decimal": 0.019163708634042098,
+          "denominator": "36917038301316768",
+          "numerator": "707467365638207"
+        },
+        "variance_of_root_mean": {
+          "decimal": 0.03397097635892806,
+          "denominator": "343207427535",
+          "numerator": "11659091407"
+        }
+      },
+      "negative_positive_depth_U_contributions": null,
+      "negative_positive_depth_V_contributions": null,
+      "right_heavy_g_over_V_failures": null,
+      "variance_envelope_failures": null
+    },
+    "memoized_mixed_moment_contexts": 1298
+  },
+  "seed": null
+}

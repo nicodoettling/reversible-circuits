@@ -1,0 +1,215 @@
+{
+  "claim_tested": "The exact marked, child-rank-resolved separated-capacity recurrence has polynomial Green resolvent.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/marked_resolvent_probe.py --s-max 10 --K-max 32 --rtol 1e-11 --maxiter 20000 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/marked_resolvent_s10_k32.json",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 25.20254898071289,
+  "finite_scope_warning": "Finite growth can falsify a proposed envelope but cannot prove a universal polynomial bound. This recurrence still duplicates capacity across histories and is not an actual unmarked flow.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "normalization": "G_s=R_s/alpha_s; a=edge-resolved quotient Green energy/mean; deep weights use stationary group mass times exact negative-hypergeometric nu_j times child mean / parent mean.",
+  "numpy": "1.26.4",
+  "parameters": {
+    "K_max": 32,
+    "maxiter": 20000,
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/marked_resolvent_s10_k32.json",
+    "rtol": 1e-11,
+    "s_max": 10
+  },
+  "python": "3.12.3",
+  "rank_linear_solve_diagnostics": {
+    "10": {
+      "cg_max_iterations": 31,
+      "cg_max_relative_residual": 9.87624580775234e-12
+    },
+    "2": {
+      "cg_max_iterations": 2,
+      "cg_max_relative_residual": 2.633125101432526e-16
+    },
+    "3": {
+      "cg_max_iterations": 4,
+      "cg_max_relative_residual": 3.1151631248436187e-16
+    },
+    "4": {
+      "cg_max_iterations": 8,
+      "cg_max_relative_residual": 4.935360633324915e-16
+    },
+    "5": {
+      "cg_max_iterations": 15,
+      "cg_max_relative_residual": 9.66686358652781e-12
+    },
+    "6": {
+      "cg_max_iterations": 21,
+      "cg_max_relative_residual": 8.91840017803887e-12
+    },
+    "7": {
+      "cg_max_iterations": 25,
+      "cg_max_relative_residual": 9.010599940426475e-12
+    },
+    "8": {
+      "cg_max_iterations": 28,
+      "cg_max_relative_residual": 9.345649761151598e-12
+    },
+    "9": {
+      "cg_max_iterations": 30,
+      "cg_max_relative_residual": 9.856072954405094e-12
+    }
+  },
+  "records": [
+    {
+      "memoized_context_count": 1126,
+      "s": 2,
+      "scanned_context_count": 1126,
+      "worst": {
+        "B": 1,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.44411906263758916,
+        "child_context_count": 0,
+        "deep_fraction": 0.00024408103732876394,
+        "deep_transfer_weight": 0.00024408103490320497,
+        "resolvent_value": 0.44411906263758916,
+        "s": 2,
+        "total_child_weight": 0
+      }
+    },
+    {
+      "memoized_context_count": 2949,
+      "s": 3,
+      "scanned_context_count": 1689,
+      "worst": {
+        "B": 1,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.5690666555589802,
+        "child_context_count": 3,
+        "deep_fraction": 0.0003254016733421086,
+        "deep_transfer_weight": 0.00032540167252834975,
+        "resolvent_value": 0.5802739986170551,
+        "s": 3,
+        "total_child_weight": 0.38533369294319453
+      }
+    },
+    {
+      "memoized_context_count": 5588,
+      "s": 4,
+      "scanned_context_count": 2252,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.6044927622531339,
+        "child_context_count": 10,
+        "deep_fraction": 0.00032540167334193284,
+        "deep_transfer_weight": 0.00032540167252834975,
+        "resolvent_value": 0.6711017475477122,
+        "s": 4,
+        "total_child_weight": 0.5194957809658107
+      }
+    },
+    {
+      "memoized_context_count": 9188,
+      "s": 5,
+      "scanned_context_count": 2815,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.6524181830632925,
+        "child_context_count": 28,
+        "deep_fraction": 0.00036605455235559495,
+        "deep_transfer_weight": 0.00036605455166316913,
+        "resolvent_value": 0.743881009648395,
+        "s": 5,
+        "total_child_weight": 0.5742454914251245
+      }
+    },
+    {
+      "memoized_context_count": 13920,
+      "s": 6,
+      "scanned_context_count": 3378,
+      "worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.6789941824130311,
+        "child_context_count": 63,
+        "deep_fraction": 0.000390443899837523,
+        "deep_transfer_weight": 0.0003904438991439692,
+        "resolvent_value": 0.7895938511989183,
+        "s": 6,
+        "total_child_weight": 0.6035619257848032
+      }
+    },
+    {
+      "memoized_context_count": 19981,
+      "s": 7,
+      "scanned_context_count": 3941,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.6823616450094019,
+        "child_context_count": 108,
+        "deep_fraction": 0.0003904438998374045,
+        "deep_transfer_weight": 0.00039044389914396916,
+        "resolvent_value": 0.8277261193518957,
+        "s": 7,
+        "total_child_weight": 0.675519374635293
+      }
+    },
+    {
+      "memoized_context_count": 27594,
+      "s": 8,
+      "scanned_context_count": 4504,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.6978167896979296,
+        "child_context_count": 193,
+        "deep_fraction": 0.00040670247333428073,
+        "deep_transfer_weight": 0.0004067024726256927,
+        "resolvent_value": 0.8573566377026617,
+        "s": 8,
+        "total_child_weight": 0.691472119899946
+      }
+    },
+    {
+      "memoized_context_count": 37008,
+      "s": 9,
+      "scanned_context_count": 5067,
+      "worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.7084065670656692,
+        "child_context_count": 318,
+        "deep_fraction": 0.0004183152545367753,
+        "deep_transfer_weight": 0.0004183152538137709,
+        "resolvent_value": 0.8787066117991961,
+        "s": 9,
+        "total_child_weight": 0.7023746750723082
+      }
+    },
+    {
+      "memoized_context_count": 48498,
+      "s": 10,
+      "scanned_context_count": 5630,
+      "worst": {
+        "B": 4,
+        "K": 4096,
+        "R": 0,
+        "base_green_cost": 0.7073442382013201,
+        "child_context_count": 466,
+        "deep_fraction": 0.0004183152545365927,
+        "deep_transfer_weight": 0.00041831525381377094,
+        "resolvent_value": 0.8984520957121201,
+        "s": 10,
+        "total_child_weight": 0.7031871250610612
+      }
+    }
+  ],
+  "scipy": "1.11.4",
+  "seed": null,
+  "total_memoized_contexts": 48498,
+  "transition_audit_max_abs_error": 7.257407240272851e-12
+}

@@ -1,0 +1,70 @@
+{
+  "imports_m278_or_predecessor": false,
+  "m278_nonmaterial_chronology_correction": "the two seam closures and their endpoints are invariant, but their execution order depends on the allowed cyclic start; M278 states one order without fixing that start",
+  "mission": "M281",
+  "normalized_rank_digest": "f1cafde37bee35a4f2f0bbe116f45948f6b238efc5216332df52050398a00836",
+  "pass": true,
+  "purpose": "clean-room fixed-edit endpoint and route falsifier",
+  "python": "3.12.3",
+  "ranks": [
+    {
+      "all_edit_indices_partition": true,
+      "boundary_counts": {
+        "parent_not_one": 8,
+        "parent_one": 8
+      },
+      "cross_rows": 16,
+      "d": 5,
+      "incidence_counts": {
+        "common_parent": 8,
+        "disjoint": 8,
+        "next_child": 8,
+        "previous_child": 8
+      },
+      "internal_rows": 32,
+      "last_rows": 16,
+      "last_seam_chronology": {
+        "7-9": 16,
+        "root_cut_9-7": 16
+      },
+      "maximum_local_route_length": 13,
+      "pass": true,
+      "trees": 16
+    },
+    {
+      "all_edit_indices_partition": true,
+      "boundary_counts": {
+        "parent_not_one": 75,
+        "parent_one": 50
+      },
+      "cross_rows": 125,
+      "d": 6,
+      "incidence_counts": {
+        "common_parent": 75,
+        "disjoint": 150,
+        "next_child": 75,
+        "previous_child": 75
+      },
+      "internal_rows": 375,
+      "last_rows": 125,
+      "last_seam_chronology": {
+        "9-11": 125,
+        "root_cut_11-9": 125
+      },
+      "maximum_local_route_length": 17,
+      "pass": true,
+      "trees": 125
+    }
+  ],
+  "route_search": false,
+  "tested_ranks": [
+    5,
+    6
+  ],
+  "totals": {
+    "cross_rows": 141,
+    "internal_rows": 407,
+    "last_rows": 141,
+    "trees": 141
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "N": 3,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 3
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 3,
+      "maximum_fiber_size": 27,
+      "minimum_fiber_size": 27,
+      "pair_length": 2,
+      "states": 81,
+      "transposition_word_length": 4,
+      "transpositions": 3
+    },
+    {
+      "N": 3,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 3
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 3,
+      "maximum_fiber_size": 243,
+      "minimum_fiber_size": 243,
+      "pair_length": 3,
+      "states": 729,
+      "transposition_word_length": 6,
+      "transpositions": 3
+    },
+    {
+      "N": 3,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 3
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 3,
+      "maximum_fiber_size": 2187,
+      "minimum_fiber_size": 2187,
+      "pair_length": 4,
+      "states": 6561,
+      "transposition_word_length": 8,
+      "transpositions": 3
+    },
+    {
+      "N": 3,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 3
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 3,
+      "maximum_fiber_size": 19683,
+      "minimum_fiber_size": 19683,
+      "pair_length": 5,
+      "states": 59049,
+      "transposition_word_length": 10,
+      "transpositions": 3
+    },
+    {
+      "N": 4,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 12
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 12,
+      "maximum_fiber_size": 120,
+      "minimum_fiber_size": 104,
+      "pair_length": 2,
+      "states": 1296,
+      "transposition_word_length": 4,
+      "transpositions": 6
+    },
+    {
+      "N": 4,
+      "all_endpoint_fibers_connected": true,
+      "component_count_histogram_over_endpoints": {
+        "1": 12
+      },
+      "disconnected_endpoints": [],
+      "feasible_endpoints": 12,
+      "maximum_fiber_size": 3936,
+      "minimum_fiber_size": 3872,
+      "pair_length": 3,
+      "states": 46656,
+      "transposition_word_length": 6,
+      "transpositions": 6
+    }
+  ],
+  "claim_tested": "every nonempty fixed-endpoint microfactorized Q-bridge fiber is connected under aligned length-four same-product heat baths",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-03/mission-M08-fixed-endpoint-pair-resampling/exact_fixed_endpoint_connectivity.py --output experiments/20260811-polynomial-mixing-resolution/cycle-03/mission-M08-fixed-endpoint-pair-resampling/results.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; word product t1...tm",
+  "python": "3.12.3",
+  "scope_warning": "finite connectivity can refute but cannot prove the universal claim or a gap",
+  "seed": null
+}

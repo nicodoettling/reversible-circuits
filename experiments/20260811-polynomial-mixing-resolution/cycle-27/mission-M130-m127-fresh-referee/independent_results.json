@@ -1,0 +1,1121 @@
+{
+  "argv": [
+    "independent_referee.py"
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "d3_complete_action_image": {
+    "action_image_order": 216,
+    "generator_count": 6,
+    "rows": [
+      {
+        "adjacent_index": 1,
+        "cover_frontier_sizes": [
+          1,
+          23,
+          206,
+          811,
+          1640,
+          2021
+        ],
+        "maximum_agreement": 6,
+        "minimum_schedule_cover": 5,
+        "nonempty_agreement_masks": 23,
+        "tau_in_action_image": false,
+        "tau_is_bijection": true,
+        "tau_is_involution": true
+      },
+      {
+        "adjacent_index": 2,
+        "cover_frontier_sizes": [
+          1,
+          23,
+          206,
+          811,
+          1640,
+          2021
+        ],
+        "maximum_agreement": 6,
+        "minimum_schedule_cover": 5,
+        "nonempty_agreement_masks": 23,
+        "tau_in_action_image": false,
+        "tau_is_bijection": true,
+        "tau_is_involution": true
+      },
+      {
+        "adjacent_index": 3,
+        "cover_frontier_sizes": [
+          1,
+          23,
+          206,
+          811,
+          1640,
+          2021
+        ],
+        "maximum_agreement": 6,
+        "minimum_schedule_cover": 5,
+        "nonempty_agreement_masks": 23,
+        "tau_in_action_image": false,
+        "tau_is_bijection": true,
+        "tau_is_involution": true
+      }
+    ]
+  },
+  "deterministic": true,
+  "displayed_d3_i3_witness": {
+    "all_endpoints_match_report": true,
+    "pi_a": [
+      3,
+      4,
+      1,
+      2
+    ],
+    "pi_b": [
+      1,
+      2,
+      4,
+      3
+    ],
+    "source_subgroup_order": 18,
+    "subgroups_differ": true,
+    "target_subgroup_order": 6,
+    "tree": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "x": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "x_prime": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "y": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "y_prime": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "dps_convention": "accepted plus mirror, Cayley tree rooted at y_d",
+  "elapsed_seconds": 3.6502991328015924,
+  "experiment": "M130 independent fresh referee of frozen M127",
+  "material_numbered_objections": [],
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rank_rows": [
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "descends": true,
+          "first_pair_subgroup_witness": null,
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        }
+      ],
+      "brute_z_size": 1,
+      "cayley_tree_count": 1,
+      "d": 2,
+      "dps_image_equals_brute_z": true,
+      "dps_image_size": 1,
+      "identity_failures": 0,
+      "m": 2,
+      "root_fiber_histogram": {
+        "2": 1
+      },
+      "rooted_coordinate_count": 2,
+      "signed_hurwitz_orbit_size": 1,
+      "support_failures": 0
+    },
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 6,
+            "pairs_tested": 11,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "source_subgroup_order": 18,
+            "target_a": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_b": [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "target_subgroup_order": 6
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 2,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 6,
+            "pairs_tested": 5,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_subgroup_order": 18,
+            "target_a": [
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_b": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_subgroup_order": 6
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 3,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 6,
+            "pairs_tested": 3,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "source_subgroup_order": 18,
+            "target_a": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_b": [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "target_subgroup_order": 6
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        }
+      ],
+      "brute_z_size": 24,
+      "cayley_tree_count": 3,
+      "d": 3,
+      "dps_image_equals_brute_z": true,
+      "dps_image_size": 24,
+      "identity_failures": 0,
+      "m": 4,
+      "root_fiber_histogram": {
+        "3": 24
+      },
+      "rooted_coordinate_count": 72,
+      "signed_hurwitz_orbit_size": 24,
+      "support_failures": 0
+    },
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 24,
+            "pairs_tested": 15,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_subgroup_order": 24,
+            "target_a": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_b": [
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "target_subgroup_order": 288
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 2,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 24,
+            "pairs_tested": 15,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_subgroup_order": 24,
+            "target_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_b": [
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_subgroup_order": 288
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 3,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 24,
+            "pairs_tested": 15,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_subgroup_order": 24,
+            "target_a": [
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_b": [
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "target_subgroup_order": 288
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 4,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 24,
+            "pairs_tested": 15,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "source_subgroup_order": 24,
+            "target_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_subgroup_order": 288
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        },
+        {
+          "adjacent_index": 5,
+          "descends": true,
+          "first_pair_subgroup_witness": {
+            "intersection_order": 24,
+            "pairs_tested": 4,
+            "source_a": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "source_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "source_subgroup_order": 288,
+            "target_a": [
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ]
+            ],
+            "target_b": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                3
+              ]
+            ],
+            "target_subgroup_order": 24
+          },
+          "root_fiber_collision_sources": 0,
+          "target_is_bijection": true,
+          "target_is_involution": true
+        }
+      ],
+      "brute_z_size": 2880,
+      "cayley_tree_count": 16,
+      "d": 4,
+      "dps_image_equals_brute_z": true,
+      "dps_image_size": 2880,
+      "identity_failures": 0,
+      "m": 6,
+      "root_fiber_histogram": {
+        "4": 2880
+      },
+      "rooted_coordinate_count": 11520,
+      "signed_hurwitz_orbit_size": 2880,
+      "support_failures": 0
+    }
+  ],
+  "scope": {
+    "finite_only": [
+      "all-index d=3,4 paired-subgroup witnesses",
+      "d=3 action image order 216 and five-class schedule cover"
+    ],
+    "proved_by_general_argument": [
+      "DPS adjacent-value relabeling descends independently of the forgotten white root",
+      "diagonal signed Hurwitz action preserves the literal coordinate-pair generated subgroup"
+    ],
+    "refuted": "one source-independent signed Hurwitz word realizes a whole adjacent-value action (already d=3)",
+    "unresolved": [
+      "polynomial schedule cover",
+      "rooted product local comparison",
+      "all-edge congestion",
+      "physical P_(0,d) gap",
+      "original heat-bath gap",
+      "Terminal A or B"
+    ]
+  },
+  "seed": null,
+  "source_hashes": {
+    "fixed_braid_audit.py": {
+      "expected": "4fe5a897d3dc38e6c92216a2c576e20ac82e83bbf2038af571b255833bf3718d",
+      "matches": true,
+      "observed": "4fe5a897d3dc38e6c92216a2c576e20ac82e83bbf2038af571b255833bf3718d"
+    },
+    "fixed_braid_obstruction.md": {
+      "expected": "0f8c1ce6d5ddc8f54bd3a1fe366f49b512fe8ee5e03a5a68cf547adbaaeb534a",
+      "matches": true,
+      "observed": "0f8c1ce6d5ddc8f54bd3a1fe366f49b512fe8ee5e03a5a68cf547adbaaeb534a"
+    },
+    "fixed_braid_results.json": {
+      "expected": "51c2e14f868bf433852b606ec71faf9dacc6537b6e2a788373cdbdc10cfbdb9c",
+      "matches": true,
+      "observed": "51c2e14f868bf433852b606ec71faf9dacc6537b6e2a788373cdbdc10cfbdb9c"
+    },
+    "freeze_manifest.md": {
+      "expected": "04b37e3e6a3127137c46a655009ccd18960118138f1c1f1b004528e45e76d7b3",
+      "matches": true,
+      "observed": "04b37e3e6a3127137c46a655009ccd18960118138f1c1f1b004528e45e76d7b3"
+    },
+    "report.md": {
+      "expected": "d7983caa8cc20bc0e882d11afed3b1953a940b98c56299d2e956d625deb6acc0",
+      "matches": true,
+      "observed": "d7983caa8cc20bc0e882d11afed3b1953a940b98c56299d2e956d625deb6acc0"
+    }
+  },
+  "target": "uniform physical Z_d, with the constant-d rooted DPS lift used only for coordinates",
+  "verdict": "ACCEPT"
+}

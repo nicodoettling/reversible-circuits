@@ -1,0 +1,36 @@
+{
+  "mission": "M252-post-j2-prefix",
+  "date_utc": "2026-08-14",
+  "verdict": "conditional full WPCR proved; PCR unresolved",
+  "proved": [
+    "exact positive channel-mass prefix mixture with canceled J=0",
+    "discrete Hardy-Abel inequality with constant 3",
+    "accepted J=1 weighted coefficients imply channel-one WPCR",
+    "DV plus accepted DE implies channel-two PCR and WPCR",
+    "full WPCR conditional on DV"
+  ],
+  "assumption": "M192 disjoint split variation (DV)",
+  "accepted_input": "M248/M249 signed averaged DE with common constant 7164",
+  "conditional_wpcr_constant": "18*K1 + 9*K2 + 18*(KE*KV + 7185)",
+  "unresolved": [
+    "DV",
+    "full PCR",
+    "J1-PCR, especially the unweighted two-run convolution prefix"
+  ],
+  "not_inferred": [
+    "SCBR",
+    "BIR",
+    "BR",
+    "PCS-bound",
+    "comparison theorem",
+    "spectral gap",
+    "mixing time",
+    "Terminal"
+  ],
+  "computation": "narrow exact sanity checker; all-rank proof is analytic",
+  "sanity_check": {
+    "hardy_exact_rows": 32637,
+    "odd_k_endpoint_rows": 127,
+    "status": "pass"
+  }
+}

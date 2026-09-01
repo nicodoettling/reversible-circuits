@@ -1,0 +1,155 @@
+{
+  "claim_tested": "Every one-rank heat-bath/Hurwitz move becomes a single basis exchange, respectively a single-coordinate Pruefer update, under Stanley's labelled-tree bijection.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "denes_expected": 16,
+  "distinct_stanley_trees": 16,
+  "maximum_prufer_hamming_distance": 2,
+  "maximum_tree_symmetric_difference": 4,
+  "n": 4,
+  "prufer_witness": {
+    "prufer_1": [
+      1,
+      2
+    ],
+    "prufer_2": [
+      0,
+      1
+    ],
+    "prufer_hamming_distance": 2,
+    "rank_zero_based": 0,
+    "stanley_tree_1": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "stanley_tree_2": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "tree_symmetric_difference": 4,
+    "word_1_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "word_2_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "python": "3.12.3",
+  "rank_two_fiber_sizes": [
+    2,
+    3
+  ],
+  "seed": null,
+  "total_factorizations": 16,
+  "tree_witness": {
+    "prufer_1": [
+      1,
+      2
+    ],
+    "prufer_2": [
+      0,
+      1
+    ],
+    "prufer_hamming_distance": 2,
+    "rank_zero_based": 0,
+    "stanley_tree_1": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "stanley_tree_2": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "tree_symmetric_difference": 4,
+    "word_1_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "word_2_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "universal_implication": "A tree symmetric difference greater than two refutes direct one-edge basis-exchange domination; Pruefer Hamming distance greater than one refutes direct coordinate-refresh domination."
+}

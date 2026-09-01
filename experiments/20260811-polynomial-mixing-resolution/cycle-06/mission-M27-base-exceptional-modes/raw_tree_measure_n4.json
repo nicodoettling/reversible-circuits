@@ -1,0 +1,54 @@
+{
+  "claim_tested": "The raw edge-set projection of a uniform reduced long-cycle factorization has pairwise nonpositive edge correlations.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "denes_expected": 16,
+  "distinct_raw_trees": 12,
+  "endpoint": [
+    1,
+    2,
+    3,
+    0
+  ],
+  "n": 4,
+  "number_positive_pair_correlations": 2,
+  "python": "3.12.3",
+  "seed": null,
+  "strongest_witnesses": [
+    {
+      "cross_multiplied_excess": 15,
+      "edge_e": [
+        0,
+        1
+      ],
+      "edge_f": [
+        2,
+        3
+      ],
+      "joint_count": 6,
+      "joint_probability": 0.375,
+      "marginal_e_count": 9,
+      "marginal_f_count": 9,
+      "product_of_marginals": 0.31640625
+    },
+    {
+      "cross_multiplied_excess": 15,
+      "edge_e": [
+        0,
+        3
+      ],
+      "edge_f": [
+        1,
+        2
+      ],
+      "joint_count": 6,
+      "joint_probability": 0.375,
+      "marginal_e_count": 9,
+      "marginal_f_count": 9,
+      "product_of_marginals": 0.31640625
+    }
+  ],
+  "total_factorizations": 16,
+  "tree_weight_max": 2,
+  "tree_weight_min": 1,
+  "universal_implication": "A positive witness refutes strong Rayleighness and direct use of the homogeneous-strongly-Rayleigh basis-exchange theorem for this raw projection."
+}

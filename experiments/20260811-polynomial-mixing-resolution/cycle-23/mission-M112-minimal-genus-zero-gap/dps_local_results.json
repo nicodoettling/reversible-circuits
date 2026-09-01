@@ -1,0 +1,357 @@
+{
+  "argv": [
+    "dps_local_audit.py",
+    "--d",
+    "2",
+    "3",
+    "4",
+    "--output",
+    "dps_local_results.json"
+  ],
+  "claim_tested": "The DPS rooted product map is exactly d-to-1 onto Z_d, and its adjacent-pi and basis-exchange moves intertwine in one Hurwitz step.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "deterministic": true,
+  "elapsed_seconds": 11.456542715895921,
+  "experiment": "M112 rooted DPS local-move audit",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "rows": [
+    {
+      "all_reconstructed_identity_connected_and_exactly_d_to_1": true,
+      "d": 2,
+      "orientation_audit": {
+        "-1": {
+          "closure_histogram": {},
+          "distinct_words": 1,
+          "failures": {},
+          "mapped_pairs": 2,
+          "preimage_histogram": {
+            "2": 1
+          },
+          "valid_d_to_1": true
+        },
+        "1": {
+          "closure_histogram": {},
+          "distinct_words": 1,
+          "failures": {},
+          "mapped_pairs": 2,
+          "preimage_histogram": {
+            "2": 1
+          },
+          "valid_d_to_1": true
+        }
+      },
+      "pair_count": 2,
+      "valid_signs": [
+        1,
+        -1
+      ],
+      "z_size": 1
+    },
+    {
+      "all_reconstructed_identity_connected_and_exactly_d_to_1": true,
+      "chosen_mirror_sign": 1,
+      "d": 3,
+      "local_ideal_move_audit": {
+        "pi_adjacent_value_swap_distance_histogram": {
+          "1": 132,
+          "2": 36,
+          "3": 48
+        },
+        "pi_adjacent_value_swap_smallest_nonlocal_witness": {
+          "pi": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "signed_hurwitz_distance": 2,
+          "source_word": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "swapped_adjacent_values": [
+            1,
+            2
+          ],
+          "target_word": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "tree_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        "pi_deterministic_shortest_path_max_action_load": 9,
+        "pi_max_source_multiplicity_given_action_time_descriptor": 3,
+        "pi_projected_edge_max_root_multiplicity": 3,
+        "tree_basis_exchange_distance_histogram": {
+          "1": 48,
+          "2": 40,
+          "3": 48,
+          "4": 8
+        },
+        "tree_deterministic_shortest_path_max_action_load": 10,
+        "tree_max_source_multiplicity_given_action_time_descriptor": 2,
+        "tree_projected_edge_max_root_multiplicity": 1,
+        "warning": "These are finite diagnostics for one arbitrary deterministic shortest-path rule. They neither prove an asymptotic source-recovery bound nor polynomial congestion."
+      },
+      "orientation_audit": {
+        "-1": {
+          "closure_histogram": {
+            "(1, 1)": 48,
+            "(1, 3)": 24,
+            "(2, 1)": 48,
+            "(2, 3)": 24,
+            "(3, 1)": 48,
+            "(3, 3)": 24,
+            "(4, 1)": 48,
+            "(4, 3)": 24
+          },
+          "distinct_words": 24,
+          "failures": {},
+          "mapped_pairs": 72,
+          "preimage_histogram": {
+            "3": 24
+          },
+          "valid_d_to_1": true
+        },
+        "1": {
+          "closure_histogram": {
+            "(1, 1)": 48,
+            "(1, 3)": 24,
+            "(2, 1)": 48,
+            "(2, 3)": 24,
+            "(3, 1)": 48,
+            "(3, 3)": 24,
+            "(4, 1)": 48,
+            "(4, 3)": 24
+          },
+          "distinct_words": 24,
+          "failures": {},
+          "mapped_pairs": 72,
+          "preimage_histogram": {
+            "3": 24
+          },
+          "valid_d_to_1": true
+        }
+      },
+      "pair_count": 72,
+      "valid_signs": [
+        1,
+        -1
+      ],
+      "z_size": 24
+    },
+    {
+      "all_reconstructed_identity_connected_and_exactly_d_to_1": true,
+      "chosen_mirror_sign": 1,
+      "d": 4,
+      "local_ideal_move_audit": {
+        "pi_adjacent_value_swap_distance_histogram": {
+          "1": 38592,
+          "2": 2880,
+          "3": 1824,
+          "4": 3072,
+          "5": 3888,
+          "6": 2400,
+          "7": 4608,
+          "8": 336
+        },
+        "pi_adjacent_value_swap_smallest_nonlocal_witness": {
+          "pi": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            5
+          ],
+          "signed_hurwitz_distance": 2,
+          "source_word": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "swapped_adjacent_values": [
+            4,
+            5
+          ],
+          "target_word": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "tree_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        "pi_deterministic_shortest_path_max_action_load": 48,
+        "pi_max_source_multiplicity_given_action_time_descriptor": 16,
+        "pi_projected_edge_max_root_multiplicity": 4,
+        "tree_basis_exchange_distance_histogram": {
+          "1": 11520,
+          "2": 2400,
+          "3": 10944,
+          "4": 6876,
+          "5": 14268,
+          "6": 12240,
+          "7": 11700,
+          "8": 5040,
+          "9": 1788,
+          "10": 672,
+          "11": 144,
+          "12": 168
+        },
+        "tree_deterministic_shortest_path_max_action_load": 109,
+        "tree_max_source_multiplicity_given_action_time_descriptor": 7,
+        "tree_projected_edge_max_root_multiplicity": 1,
+        "warning": "These are finite diagnostics for one arbitrary deterministic shortest-path rule. They neither prove an asymptotic source-recovery bound nor polynomial congestion."
+      },
+      "orientation_audit": {
+        "-1": {
+          "closure_histogram": {
+            "(1, 1)": 17280,
+            "(1, 3)": 5760,
+            "(2, 1)": 17280,
+            "(2, 3)": 5760,
+            "(3, 1)": 17280,
+            "(3, 3)": 5760,
+            "(4, 1)": 17280,
+            "(4, 3)": 5760,
+            "(5, 1)": 17280,
+            "(5, 3)": 5760,
+            "(6, 1)": 17280,
+            "(6, 3)": 5760
+          },
+          "distinct_words": 2880,
+          "failures": {},
+          "mapped_pairs": 11520,
+          "preimage_histogram": {
+            "4": 2880
+          },
+          "valid_d_to_1": true
+        },
+        "1": {
+          "closure_histogram": {
+            "(1, 1)": 17280,
+            "(1, 3)": 5760,
+            "(2, 1)": 17280,
+            "(2, 3)": 5760,
+            "(3, 1)": 17280,
+            "(3, 3)": 5760,
+            "(4, 1)": 17280,
+            "(4, 3)": 5760,
+            "(5, 1)": 17280,
+            "(5, 3)": 5760,
+            "(6, 1)": 17280,
+            "(6, 3)": 5760
+          },
+          "distinct_words": 2880,
+          "failures": {},
+          "mapped_pairs": 11520,
+          "preimage_histogram": {
+            "4": 2880
+          },
+          "valid_d_to_1": true
+        }
+      },
+      "pair_count": 11520,
+      "valid_signs": [
+        1,
+        -1
+      ],
+      "z_size": 2880
+    }
+  ],
+  "scope_warning": "Complete only for d<=4; distances and fixed shortest-path loads do not prove asymptotic path length, source recovery, or congestion.",
+  "seed": null
+}

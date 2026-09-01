@@ -1,0 +1,148 @@
+{
+  "claim_tested": "The Adin--Roichman maximal weak-order intervals form a uniformly bounded-overlap block cover suitable for direct spectral decomposition.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/maximal_interval_incidence.py --n 5 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M73-cyclic-orbit-incidence-gap/maximal_interval_incidence_n5.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "parameters": [
+    5
+  ],
+  "python": "3.12.3",
+  "results": [
+    {
+      "cyclic_quotient_incidence": {
+        "distinct_orbit_summed_incidences": [
+          8,
+          10,
+          14,
+          16,
+          22,
+          28
+        ],
+        "first_max_profile": [
+          14,
+          5,
+          2,
+          2,
+          5
+        ],
+        "first_min_profile": [
+          2,
+          1,
+          2,
+          1,
+          2
+        ],
+        "orbit_summed_incidence_max": 28,
+        "orbit_summed_incidence_mean": 13.44,
+        "orbit_summed_incidence_min": 8,
+        "orbit_summed_incidence_ratio": 3.5,
+        "projected_block_multiset_invariant_under_U_translation": true,
+        "quotient_orbits": 25
+      },
+      "expected_Catalan": 14,
+      "expected_interval_size_factorial": 24,
+      "incidence_by_rank": {
+        "0": {
+          "distinct": [
+            14
+          ],
+          "max": 14,
+          "mean": 14.0,
+          "min": 14,
+          "states": 1
+        },
+        "1": {
+          "distinct": [
+            5,
+            7,
+            9
+          ],
+          "max": 9,
+          "mean": 7.0,
+          "min": 5,
+          "states": 6
+        },
+        "2": {
+          "distinct": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "max": 7,
+          "mean": 4.375,
+          "min": 2,
+          "states": 16
+        },
+        "3": {
+          "distinct": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "max": 5,
+          "mean": 3.111111111111111,
+          "min": 2,
+          "states": 27
+        },
+        "4": {
+          "distinct": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "max": 4,
+          "mean": 2.0588235294117645,
+          "min": 1,
+          "states": 34
+        },
+        "5": {
+          "distinct": [
+            1,
+            2
+          ],
+          "max": 2,
+          "mean": 1.5555555555555556,
+          "min": 1,
+          "states": 27
+        },
+        "6": {
+          "distinct": [
+            1
+          ],
+          "max": 1,
+          "mean": 1.0,
+          "min": 1,
+          "states": 14
+        }
+      },
+      "incidence_max": 14,
+      "incidence_min": 1,
+      "incidence_ratio": 14.0,
+      "interval_size_set": [
+        24
+      ],
+      "maximal_elements": 14,
+      "maximum_rank": 6,
+      "n": 5,
+      "pairwise_interval_overlap_histogram": {
+        "1": 11,
+        "12": 21,
+        "2": 8,
+        "3": 10,
+        "4": 19,
+        "5": 2,
+        "6": 8,
+        "8": 12
+      },
+      "states": 125
+    }
+  ],
+  "scope_warning": "Finite incidence ratios cannot prove asymptotic overlap bounds.",
+  "seed": null
+}

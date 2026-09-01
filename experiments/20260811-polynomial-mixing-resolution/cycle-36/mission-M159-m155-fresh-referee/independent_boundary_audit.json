@@ -1,0 +1,89 @@
+{
+  "audits": [
+    {
+      "all_cell_weights_verified": true,
+      "all_orbit_sizes_equal_n": true,
+      "colored_encodings": {
+        "N": 56,
+        "S": 56
+      },
+      "each_composition_once_per_color": true,
+      "expected_raw_supported_doubles": 252,
+      "factor_two_arbitrary_function_verified": true,
+      "fixed_cells": [
+        {
+          "W_exact": "16807/177147",
+          "a": 1,
+          "b": 1
+        },
+        {
+          "W_exact": "1250/59049",
+          "a": 1,
+          "b": 3
+        },
+        {
+          "W_exact": "10/2187",
+          "a": 3,
+          "b": 3
+        }
+      ],
+      "n": 9,
+      "positive_compositions_per_color": 56,
+      "quotient_double_orbits": 28,
+      "raw_supported_doubles": 252,
+      "total_double_mass": "2/3",
+      "total_separated_quarter_mass": "1/3"
+    },
+    {
+      "all_cell_weights_verified": true,
+      "all_orbit_sizes_equal_n": true,
+      "colored_encodings": {
+        "N": 364,
+        "S": 364
+      },
+      "each_composition_once_per_color": true,
+      "expected_raw_supported_doubles": 2730,
+      "factor_two_arbitrary_function_verified": true,
+      "fixed_cells": [
+        {
+          "W_exact": "3584320788074/43248779296875",
+          "a": 1,
+          "b": 1
+        },
+        {
+          "W_exact": "51874849202/2883251953125",
+          "a": 1,
+          "b": 3
+        },
+        {
+          "W_exact": "192456/48828125",
+          "a": 3,
+          "b": 3
+        }
+      ],
+      "n": 15,
+      "positive_compositions_per_color": 364,
+      "quotient_double_orbits": 182,
+      "raw_supported_doubles": 2730,
+      "total_double_mass": "4/5",
+      "total_separated_quarter_mass": "2/5"
+    }
+  ],
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-36/mission-M159-m155-fresh-referee/independent_boundary_audit.py --output experiments/20260811-polynomial-mixing-resolution/cycle-36/mission-M159-m155-fresh-referee/independent_boundary_audit.json",
+  "convention": "(pq)(x)=p(q(x)); tuple factors multiply left-to-right",
+  "deterministic": true,
+  "frozen_m155_hashes": {
+    "SHA256SUMS": "d85240d4a643ae217386403f737eee62f85fe313c97b511da79f6e4993b56383",
+    "boundary_condensate_check.py": "99262179be2586618165cfcf1ca605d8d18eb6387b728609d5299b4b8fcaadcf",
+    "boundary_condensate_reduction.md": "ee0092cbf553a4ed317d409f7c99fbd8850a23ebcc12bd3f836aec4a0821850a",
+    "boundary_condensate_results.json": "65104f7890dd6c9f37f73cff256a84d7491b820c1799817084c0f86d5e0d1438",
+    "freeze_manifest.md": "3861fb6894e48b7c3481a38164e7d939434ef706469267230e847e7ce5a87e24",
+    "report.md": "1d8d6061aff3c9dc3f7811dbe15be4deb9c17c0e29ada6fb27fa6e9125ee8d2f"
+  },
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "status": "independent_exact_colored_orbit_audit",
+  "target": "M73 nonlazy cyclic rank-two quotient; balanced family context only"
+}

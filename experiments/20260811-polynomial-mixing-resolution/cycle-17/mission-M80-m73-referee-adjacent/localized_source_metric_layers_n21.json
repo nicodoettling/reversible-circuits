@@ -1,0 +1,888 @@
+{
+  "claim_tested": "Endpoint-slide refinement of shared-factor adjacency has a polynomial diameter and a sharper per-edge K^2 influence.",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/localized_source_metric.py --n 21 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M80-m73-referee-adjacent/localized_source_metric_layers_n21.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "metrics": [
+        {
+          "connected": true,
+          "diameter": 2,
+          "diameter_times_maximum": 0.033364482514320455,
+          "edges": 78912,
+          "maximum_edge_TV_K2": 0.016682241257160228,
+          "metric": "arbitrary_replacement",
+          "n_cubed_times_maximum": 154.49423628256088,
+          "n_squared_times_diameter_times_maximum": 14.713736788815321,
+          "n_squared_times_maximum": 7.356868394407661,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  6,
+                  13,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                7,
+                7,
+                7
+              ],
+              "support_gaps": [
+                7,
+                7,
+                7
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  20
+                ],
+                [
+                  10,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                6
+              ],
+              "support_gaps": [
+                4,
+                6,
+                4,
+                7
+              ]
+            }
+          ],
+          "witness_orbits": [
+            605,
+            619
+          ],
+          "witness_target_layer_breakdown": [
+            {
+              "absolute_difference": 0.0013915787871146474,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 0.6136862451175595,
+              "signed_difference": -0.0006340932467568693,
+              "target_kind": "3",
+              "target_orbits": 18
+            },
+            {
+              "absolute_difference": 0.0010341999888981656,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 0.45608219510409104,
+              "signed_difference": -0.00018418331203945296,
+              "target_kind": "3",
+              "target_orbits": 15
+            },
+            {
+              "absolute_difference": 0.0008239780101700118,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.3633743024849752,
+              "signed_difference": 0.00020461084436175796,
+              "target_kind": "3",
+              "target_orbits": 12
+            },
+            {
+              "absolute_difference": 0.0006908516670099973,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.3046655851514088,
+              "signed_difference": 0.000643255837526772,
+              "target_kind": "3",
+              "target_orbits": 9
+            },
+            {
+              "absolute_difference": 0.0007775735037671007,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.3429099151612914,
+              "signed_difference": 0.0007775735037671007,
+              "target_kind": "3",
+              "target_orbits": 6
+            },
+            {
+              "absolute_difference": 0.0005698474609260032,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.2513027302683674,
+              "signed_difference": 0.0005698474609260032,
+              "target_kind": "3",
+              "target_orbits": 3
+            },
+            {
+              "absolute_difference": 9.662335145135818e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.04261089799004896,
+              "signed_difference": 9.662335145135818e-05,
+              "target_kind": "3",
+              "target_orbits": 1
+            },
+            {
+              "absolute_difference": 0.008980542409585584,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 3.9604192026272425,
+              "signed_difference": -0.0005023050444937414,
+              "target_kind": "D",
+              "target_orbits": 162
+            },
+            {
+              "absolute_difference": 0.005986941605832474,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 2.640241248172121,
+              "signed_difference": 0.000465546423298986,
+              "target_kind": "D",
+              "target_orbits": 135
+            },
+            {
+              "absolute_difference": 0.0049130210643566815,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 2.1666422893812967,
+              "signed_difference": 0.00022113430134548074,
+              "target_kind": "D",
+              "target_orbits": 108
+            },
+            {
+              "absolute_difference": 0.003916419949890588,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 1.7271411979017492,
+              "signed_difference": -0.0004214184820820006,
+              "target_kind": "D",
+              "target_orbits": 81
+            },
+            {
+              "absolute_difference": 0.0026837605121124088,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 1.1835383858415722,
+              "signed_difference": -0.0005490624917421515,
+              "target_kind": "D",
+              "target_orbits": 54
+            },
+            {
+              "absolute_difference": 0.001352965003755392,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.5966575666561279,
+              "signed_difference": -0.0006555951753315847,
+              "target_kind": "D",
+              "target_orbits": 27
+            },
+            {
+              "absolute_difference": 0.00014617919945005,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.06446502695747205,
+              "signed_difference": -3.193397023163296e-05,
+              "target_kind": "D",
+              "target_orbits": 3
+            }
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 3,
+          "diameter_times_maximum": 0.03886854459102271,
+          "edges": 17517,
+          "maximum_edge_TV_K2": 0.012956181530340904,
+          "metric": "differing_chords_share_endpoint",
+          "n_cubed_times_maximum": 119.98719715248711,
+          "n_squared_times_diameter_times_maximum": 17.141028164641014,
+          "n_squared_times_maximum": 5.713676054880339,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  7,
+                  14,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                6
+              ],
+              "support_gaps": [
+                7,
+                6,
+                8
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  6,
+                  20
+                ],
+                [
+                  12,
+                  16
+                ]
+              ],
+              "residual_sizes": [
+                10,
+                7,
+                4
+              ],
+              "support_gaps": [
+                6,
+                4,
+                4,
+                7
+              ]
+            }
+          ],
+          "witness_orbits": [
+            532,
+            608
+          ],
+          "witness_target_layer_breakdown": [
+            {
+              "absolute_difference": 0.0013678888343917912,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 0.6032389759667799,
+              "signed_difference": -0.000550345623593935,
+              "target_kind": "3",
+              "target_orbits": 18
+            },
+            {
+              "absolute_difference": 0.0010130761442821525,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 0.44676657962842925,
+              "signed_difference": -0.00013236217923546763,
+              "target_kind": "3",
+              "target_orbits": 15
+            },
+            {
+              "absolute_difference": 0.000713091635749028,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.3144734113653213,
+              "signed_difference": 0.0002644825660189569,
+              "target_kind": "3",
+              "target_orbits": 12
+            },
+            {
+              "absolute_difference": 0.0006050657152066651,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.2668339804061393,
+              "signed_difference": 0.0005547397887070654,
+              "target_kind": "3",
+              "target_orbits": 9
+            },
+            {
+              "absolute_difference": 0.0006860399809696218,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.3025436316076032,
+              "signed_difference": 0.0006860399809696218,
+              "target_kind": "3",
+              "target_orbits": 6
+            },
+            {
+              "absolute_difference": 0.0004906449815737591,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.21637443687402774,
+              "signed_difference": 0.0004906449815737591,
+              "target_kind": "3",
+              "target_orbits": 3
+            },
+            {
+              "absolute_difference": 5.848596377471964e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.02579231002465136,
+              "signed_difference": 5.848596377471964e-05,
+              "target_kind": "3",
+              "target_orbits": 1
+            },
+            {
+              "absolute_difference": 0.006963948945644239,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 3.0711014850291094,
+              "signed_difference": -0.0006442127320489121,
+              "target_kind": "D",
+              "target_orbits": 162
+            },
+            {
+              "absolute_difference": 0.004426169989552515,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 1.9519409653926592,
+              "signed_difference": 0.0004381066389828295,
+              "target_kind": "D",
+              "target_orbits": 135
+            },
+            {
+              "absolute_difference": 0.0036210084528058902,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 1.5968647276873975,
+              "signed_difference": 0.00029608053438354013,
+              "target_kind": "D",
+              "target_orbits": 108
+            },
+            {
+              "absolute_difference": 0.0029780659650206777,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 1.3133270905741188,
+              "signed_difference": -0.0008083379718199132,
+              "target_kind": "D",
+              "target_orbits": 81
+            },
+            {
+              "absolute_difference": 0.0019132267904499905,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.8437330145884459,
+              "signed_difference": -0.0003792979507229817,
+              "target_kind": "D",
+              "target_orbits": 54
+            },
+            {
+              "absolute_difference": 0.0009513504340052845,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.4195455413963305,
+              "signed_difference": -0.00020111978018539278,
+              "target_kind": "D",
+              "target_orbits": 27
+            },
+            {
+              "absolute_difference": 0.0001242992272554744,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.05481595921966421,
+              "signed_difference": -7.290421680384538e-05,
+              "target_kind": "D",
+              "target_orbits": 3
+            }
+          ]
+        },
+        {
+          "connected": true,
+          "diameter": 18,
+          "diameter_times_maximum": 0.17960193577716912,
+          "edges": 2431,
+          "maximum_edge_TV_K2": 0.00997788532095384,
+          "metric": "unit_endpoint_slide",
+          "n_cubed_times_maximum": 92.40519595735351,
+          "n_squared_times_diameter_times_maximum": 79.20445367773159,
+          "n_squared_times_maximum": 4.400247426540644,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  9,
+                  11,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                10,
+                9,
+                2
+              ],
+              "support_gaps": [
+                2,
+                9,
+                10
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  20
+                ],
+                [
+                  10,
+                  19
+                ]
+              ],
+              "residual_sizes": [
+                9,
+                9,
+                3
+              ],
+              "support_gaps": [
+                2,
+                9,
+                1,
+                9
+              ]
+            }
+          ],
+          "witness_orbits": [
+            303,
+            481
+          ],
+          "witness_target_layer_breakdown": [
+            {
+              "absolute_difference": 0.001116828720111407,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 0.49252146556913046,
+              "signed_difference": -9.064962924223334e-05,
+              "target_kind": "3",
+              "target_orbits": 18
+            },
+            {
+              "absolute_difference": 0.0006324041859656405,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 0.27889024601084744,
+              "signed_difference": 0.00036532005407499245,
+              "target_kind": "3",
+              "target_orbits": 15
+            },
+            {
+              "absolute_difference": 0.0004583325050091945,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.20212463470905478,
+              "signed_difference": 0.00029100416429722587,
+              "target_kind": "3",
+              "target_orbits": 12
+            },
+            {
+              "absolute_difference": 0.00041269516608180047,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.181998568242074,
+              "signed_difference": 0.00027640212198849507,
+              "target_kind": "3",
+              "target_orbits": 9
+            },
+            {
+              "absolute_difference": 0.00034314110205548184,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.1513252260064675,
+              "signed_difference": 0.00034314110205548184,
+              "target_kind": "3",
+              "target_orbits": 6
+            },
+            {
+              "absolute_difference": 0.00016350970323593655,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.07210777912704802,
+              "signed_difference": 0.00016350970323593655,
+              "target_kind": "3",
+              "target_orbits": 3
+            },
+            {
+              "absolute_difference": 1.7769686811125996e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.007836431883706564,
+              "signed_difference": 1.7769686811125996e-05,
+              "target_kind": "3",
+              "target_orbits": 1
+            },
+            {
+              "absolute_difference": 0.007390474850590155,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 3.2591994091102583,
+              "signed_difference": -0.0021489486397471085,
+              "target_kind": "D",
+              "target_orbits": 162
+            },
+            {
+              "absolute_difference": 0.0037431443674384355,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 1.6507266660403501,
+              "signed_difference": 0.0008742349549454322,
+              "target_kind": "D",
+              "target_orbits": 135
+            },
+            {
+              "absolute_difference": 0.002354825045390342,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 1.0384778450171408,
+              "signed_difference": 0.00027010512121366706,
+              "target_kind": "D",
+              "target_orbits": 108
+            },
+            {
+              "absolute_difference": 0.0017095095120699807,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.7538936948228615,
+              "signed_difference": -3.767562157123495e-05,
+              "target_kind": "D",
+              "target_orbits": 81
+            },
+            {
+              "absolute_difference": 0.0010267046035644112,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.45277673017190534,
+              "signed_difference": -8.964673490973856e-05,
+              "target_kind": "D",
+              "target_orbits": 54
+            },
+            {
+              "absolute_difference": 0.0005384547396150981,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.23745854017025825,
+              "signed_difference": -0.00022283898640663448,
+              "target_kind": "D",
+              "target_orbits": 27
+            },
+            {
+              "absolute_difference": 4.7976453968671495e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.02115761620018413,
+              "signed_difference": -1.172729674546707e-05,
+              "target_kind": "D",
+              "target_orbits": 3
+            }
+          ]
+        },
+        {
+          "connected": false,
+          "diameter": null,
+          "diameter_times_maximum": null,
+          "edges": 2091,
+          "maximum_edge_TV_K2": 0.006492781994149026,
+          "metric": "unit_slide_same_product_kind",
+          "n_cubed_times_maximum": 60.12965404781413,
+          "n_squared_times_diameter_times_maximum": null,
+          "n_squared_times_maximum": 2.8633168594197205,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  8,
+                  20
+                ],
+                [
+                  12,
+                  19
+                ]
+              ],
+              "residual_sizes": [
+                9,
+                7,
+                5
+              ],
+              "support_gaps": [
+                4,
+                7,
+                1,
+                9
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  7,
+                  20
+                ],
+                [
+                  11,
+                  18
+                ]
+              ],
+              "residual_sizes": [
+                8,
+                7,
+                6
+              ],
+              "support_gaps": [
+                4,
+                7,
+                2,
+                8
+              ]
+            }
+          ],
+          "witness_orbits": [
+            465,
+            560
+          ],
+          "witness_target_layer_breakdown": [
+            {
+              "absolute_difference": 0.0006884490313622299,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 0.3036060228307434,
+              "signed_difference": -0.0002252409064747436,
+              "target_kind": "3",
+              "target_orbits": 18
+            },
+            {
+              "absolute_difference": 0.00026041821716762546,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 0.11484443377092284,
+              "signed_difference": -8.531243922371712e-05,
+              "target_kind": "3",
+              "target_orbits": 15
+            },
+            {
+              "absolute_difference": 0.00021343343006987442,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.09412414266081462,
+              "signed_difference": 7.332136187123306e-05,
+              "target_kind": "3",
+              "target_orbits": 12
+            },
+            {
+              "absolute_difference": 0.00020303659040030994,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.08953913636653668,
+              "signed_difference": 0.00014870952615789944,
+              "target_kind": "3",
+              "target_orbits": 9
+            },
+            {
+              "absolute_difference": 0.0001485715580201208,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.06552005708687327,
+              "signed_difference": 0.0001485715580201208,
+              "target_kind": "3",
+              "target_orbits": 6
+            },
+            {
+              "absolute_difference": 8.5312429788201e-05,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.03762278153659664,
+              "signed_difference": 8.5312429788201e-05,
+              "target_kind": "3",
+              "target_orbits": 3
+            },
+            {
+              "absolute_difference": 8.323587983474296e-06,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.0036707023007121645,
+              "signed_difference": 8.323587983474296e-06,
+              "target_kind": "3",
+              "target_orbits": 1
+            },
+            {
+              "absolute_difference": 0.005113356504023506,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 2.2549902182743664,
+              "signed_difference": 0.0005839627233332975,
+              "target_kind": "D",
+              "target_orbits": 162
+            },
+            {
+              "absolute_difference": 0.00232398197723696,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 1.0248760519614992,
+              "signed_difference": -0.00027727894107535864,
+              "target_kind": "D",
+              "target_orbits": 135
+            },
+            {
+              "absolute_difference": 0.001640111232204415,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.723289053402147,
+              "signed_difference": -0.00011014100714009013,
+              "target_kind": "D",
+              "target_orbits": 108
+            },
+            {
+              "absolute_difference": 0.0011478583762714243,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.506205543935698,
+              "signed_difference": -2.4962619796379593e-05,
+              "target_kind": "D",
+              "target_orbits": 81
+            },
+            {
+              "absolute_difference": 0.0007180466268839807,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.31665856245583546,
+              "signed_difference": -0.0001649255425989165,
+              "target_kind": "D",
+              "target_orbits": 54
+            },
+            {
+              "absolute_difference": 0.000392427455965671,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.17306050808086093,
+              "signed_difference": -0.0001581890142694247,
+              "target_kind": "D",
+              "target_orbits": 27
+            },
+            {
+              "absolute_difference": 4.223697092025741e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.018626504175833516,
+              "signed_difference": -2.1507165755845392e-06,
+              "target_kind": "D",
+              "target_orbits": 3
+            }
+          ]
+        },
+        {
+          "connected": false,
+          "diameter": null,
+          "diameter_times_maximum": null,
+          "edges": 340,
+          "maximum_edge_TV_K2": 0.00997788532095384,
+          "metric": "unit_slide_changes_product_kind",
+          "n_cubed_times_maximum": 92.40519595735351,
+          "n_squared_times_diameter_times_maximum": null,
+          "n_squared_times_maximum": 4.400247426540644,
+          "witness_descriptors": [
+            {
+              "cycles": [
+                [
+                  9,
+                  11,
+                  20
+                ]
+              ],
+              "residual_sizes": [
+                10,
+                9,
+                2
+              ],
+              "support_gaps": [
+                2,
+                9,
+                10
+              ]
+            },
+            {
+              "cycles": [
+                [
+                  8,
+                  20
+                ],
+                [
+                  10,
+                  19
+                ]
+              ],
+              "residual_sizes": [
+                9,
+                9,
+                3
+              ],
+              "support_gaps": [
+                2,
+                9,
+                1,
+                9
+              ]
+            }
+          ],
+          "witness_orbits": [
+            303,
+            481
+          ],
+          "witness_target_layer_breakdown": [
+            {
+              "absolute_difference": 0.001116828720111407,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 0.49252146556913046,
+              "signed_difference": -9.064962924223334e-05,
+              "target_kind": "3",
+              "target_orbits": 18
+            },
+            {
+              "absolute_difference": 0.0006324041859656405,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 0.27889024601084744,
+              "signed_difference": 0.00036532005407499245,
+              "target_kind": "3",
+              "target_orbits": 15
+            },
+            {
+              "absolute_difference": 0.0004583325050091945,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 0.20212463470905478,
+              "signed_difference": 0.00029100416429722587,
+              "target_kind": "3",
+              "target_orbits": 12
+            },
+            {
+              "absolute_difference": 0.00041269516608180047,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.181998568242074,
+              "signed_difference": 0.00027640212198849507,
+              "target_kind": "3",
+              "target_orbits": 9
+            },
+            {
+              "absolute_difference": 0.00034314110205548184,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.1513252260064675,
+              "signed_difference": 0.00034314110205548184,
+              "target_kind": "3",
+              "target_orbits": 6
+            },
+            {
+              "absolute_difference": 0.00016350970323593655,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.07210777912704802,
+              "signed_difference": 0.00016350970323593655,
+              "target_kind": "3",
+              "target_orbits": 3
+            },
+            {
+              "absolute_difference": 1.7769686811125996e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.007836431883706564,
+              "signed_difference": 1.7769686811125996e-05,
+              "target_kind": "3",
+              "target_orbits": 1
+            },
+            {
+              "absolute_difference": 0.007390474850590155,
+              "minimum_target_residual_size": 1,
+              "n_squared_times_absolute_difference": 3.2591994091102583,
+              "signed_difference": -0.0021489486397471085,
+              "target_kind": "D",
+              "target_orbits": 162
+            },
+            {
+              "absolute_difference": 0.0037431443674384355,
+              "minimum_target_residual_size": 2,
+              "n_squared_times_absolute_difference": 1.6507266660403501,
+              "signed_difference": 0.0008742349549454322,
+              "target_kind": "D",
+              "target_orbits": 135
+            },
+            {
+              "absolute_difference": 0.002354825045390342,
+              "minimum_target_residual_size": 3,
+              "n_squared_times_absolute_difference": 1.0384778450171408,
+              "signed_difference": 0.00027010512121366706,
+              "target_kind": "D",
+              "target_orbits": 108
+            },
+            {
+              "absolute_difference": 0.0017095095120699807,
+              "minimum_target_residual_size": 4,
+              "n_squared_times_absolute_difference": 0.7538936948228615,
+              "signed_difference": -3.767562157123495e-05,
+              "target_kind": "D",
+              "target_orbits": 81
+            },
+            {
+              "absolute_difference": 0.0010267046035644112,
+              "minimum_target_residual_size": 5,
+              "n_squared_times_absolute_difference": 0.45277673017190534,
+              "signed_difference": -8.964673490973856e-05,
+              "target_kind": "D",
+              "target_orbits": 54
+            },
+            {
+              "absolute_difference": 0.0005384547396150981,
+              "minimum_target_residual_size": 6,
+              "n_squared_times_absolute_difference": 0.23745854017025825,
+              "signed_difference": -0.00022283898640663448,
+              "target_kind": "D",
+              "target_orbits": 27
+            },
+            {
+              "absolute_difference": 4.7976453968671495e-05,
+              "minimum_target_residual_size": 7,
+              "n_squared_times_absolute_difference": 0.02115761620018413,
+              "signed_difference": -1.172729674546707e-05,
+              "target_kind": "D",
+              "target_orbits": 3
+            }
+          ]
+        }
+      ],
+      "n": 21,
+      "quotient_states": 634
+    }
+  ],
+  "seed": null,
+  "status": "finite_numeric_diagnostic_only"
+}

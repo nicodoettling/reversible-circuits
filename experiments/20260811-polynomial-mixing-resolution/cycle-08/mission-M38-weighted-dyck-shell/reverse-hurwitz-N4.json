@@ -1,0 +1,79 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M38-weighted-dyck-shell/reverse_hurwitz_action_falsifier.py",
+    "--N",
+    "4",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M38-weighted-dyck-shell/reverse-hurwitz-N4.json"
+  ],
+  "claim_tested": "Every nonminimum F_N word has an adjacent left/right Hurwitz move lowering area by two.",
+  "composition": "(pq)(x)=p(q(x)); word products left-to-right",
+  "purpose": "Complete finite falsifier; no finite-to-universal inference.",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "result": {
+    "N": 4,
+    "area_counts": {
+      "3": 96,
+      "5": 528,
+      "7": 720,
+      "9": 1536
+    },
+    "best_adjacent_hurwitz_decrease_counts": {
+      "0": 696,
+      "2": 2184
+    },
+    "elapsed_seconds": 0.04518604278564453,
+    "expected_orbit_size": 2880,
+    "first_nonminimum_no_decrease_witness": {
+      "area": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "heights": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "minimum_area": 3
+    },
+    "m": 6,
+    "minimum_area": 3,
+    "no_adjacent_hurwitz_decrease_by_area": {
+      "3": 96,
+      "5": 192,
+      "7": 96,
+      "9": 312
+    },
+    "orbit_size": 2880,
+    "universal_claim_refuted": true
+  },
+  "seed": null
+}

@@ -1,0 +1,194 @@
+{
+  "cases": [
+    {
+      "M": 3,
+      "N": 3,
+      "all_actual_and_quotient_connected": true,
+      "claimed_floor": "1/162",
+      "endpoint_cycle_types": 2,
+      "endpoint_elements": 3,
+      "endpoint_rows": [
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            1,
+            1,
+            1
+          ],
+          "fiber_size": 243,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3
+          ],
+          "fiber_size": 243,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3
+          ],
+          "fiber_size": 243,
+          "quotient_components": 1
+        }
+      ],
+      "identity_length_four": 27,
+      "identity_length_six": 243,
+      "max_F4": 27,
+      "observed_selected_outcome_p_min": "1/54",
+      "pair_product_multiplicities_by_cycle_type": {
+        "(1, 1, 1)": [
+          3
+        ],
+        "(3,)": [
+          3
+        ]
+      },
+      "six_words": 729
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "all_actual_and_quotient_connected": true,
+      "claimed_floor": "1/2592",
+      "endpoint_cycle_types": 3,
+      "endpoint_elements": 12,
+      "endpoint_rows": [
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "fiber_size": 3936,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            2,
+            2
+          ],
+          "fiber_size": 3872,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            2,
+            2
+          ],
+          "fiber_size": 3872,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            2,
+            2
+          ],
+          "fiber_size": 3872,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        },
+        {
+          "actual_components": 1,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "fiber_size": 3888,
+          "quotient_components": 1
+        }
+      ],
+      "identity_length_four": 120,
+      "identity_length_six": 3936,
+      "max_F4": 120,
+      "observed_selected_outcome_p_min": "1/240",
+      "pair_product_multiplicities_by_cycle_type": {
+        "(1, 1, 1, 1)": [
+          6
+        ],
+        "(2, 2)": [
+          2
+        ],
+        "(3, 1)": [
+          3
+        ]
+      },
+      "six_words": 46656
+    }
+  ],
+  "claim": "Independent exact actual-state and product-quotient audit of M14 pair-length-three connectivity for N=3,4.",
+  "command": "/usr/bin/python3 experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-referee/independent_l3_audit.py --output experiments/20260811-polynomial-mixing-resolution/cycle-04/mission-M14-referee/independent_results.json",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "compose(p,q)=p after q; displayed word is t1...t6",
+  "python": "3.12.3"
+}

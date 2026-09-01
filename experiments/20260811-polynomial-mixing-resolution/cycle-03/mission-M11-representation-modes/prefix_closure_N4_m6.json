@@ -1,0 +1,268 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "The span of 1 and chi_std(X_j), 1<=j<=m-1, is invariant under the exact lazy {3,4,5} heat-bath K. One exact finite failure refutes the universal closure lemma but says nothing by itself about asymptotic mixing.",
+  "convention": "(pq)(x)=p(q(x)); word=t_1...t_m",
+  "parameters": {
+    "N": 4,
+    "m": 6,
+    "R_m": [
+      3,
+      4,
+      5
+    ]
+  },
+  "deterministic": true,
+  "random_seed": null,
+  "environment": {
+    "python": "3.12.3",
+    "sympy": "1.12"
+  },
+  "state_count": 3936,
+  "feature_column_count": 6,
+  "feature_rank": 4,
+  "fiber_sizes": {
+    "r=3,type=(0, 1, 3, 2)": 20,
+    "r=3,type=(0, 2, 1, 3)": 20,
+    "r=3,type=(0, 3, 2, 1)": 20,
+    "r=3,type=(1, 0, 2, 3)": 20,
+    "r=3,type=(1, 2, 3, 0)": 16,
+    "r=3,type=(1, 3, 0, 2)": 16,
+    "r=3,type=(2, 0, 3, 1)": 16,
+    "r=3,type=(2, 1, 0, 3)": 20,
+    "r=3,type=(2, 3, 1, 0)": 16,
+    "r=3,type=(3, 0, 1, 2)": 16,
+    "r=3,type=(3, 1, 2, 0)": 20,
+    "r=3,type=(3, 2, 0, 1)": 16,
+    "r=4,type=(0, 1, 2, 3)": 120,
+    "r=4,type=(0, 2, 3, 1)": 108,
+    "r=4,type=(0, 3, 1, 2)": 108,
+    "r=4,type=(1, 0, 3, 2)": 104,
+    "r=4,type=(1, 2, 0, 3)": 108,
+    "r=4,type=(1, 3, 2, 0)": 108,
+    "r=4,type=(2, 0, 1, 3)": 108,
+    "r=4,type=(2, 1, 3, 0)": 108,
+    "r=4,type=(2, 3, 0, 1)": 104,
+    "r=4,type=(3, 0, 2, 1)": 108,
+    "r=4,type=(3, 1, 0, 2)": 108,
+    "r=4,type=(3, 2, 1, 0)": 104,
+    "r=5,type=(0, 1, 3, 2)": 656,
+    "r=5,type=(0, 2, 1, 3)": 656,
+    "r=5,type=(0, 3, 2, 1)": 656,
+    "r=5,type=(1, 0, 2, 3)": 656,
+    "r=5,type=(2, 1, 0, 3)": 656,
+    "r=5,type=(3, 1, 2, 0)": 656
+  },
+  "closure_failure_count": 3,
+  "failures": [
+    {
+      "feature_column": 2,
+      "feature_name": "chi_std_X_2",
+      "base_rank": 4,
+      "augmented_rank": 5,
+      "same_feature_witness": {
+        "source_features": [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        "word_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_2": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "K_feature_word_1": "9349/4428",
+        "K_feature_word_2": "84305/39852"
+      }
+    },
+    {
+      "feature_column": 3,
+      "feature_name": "chi_std_X_3",
+      "base_rank": 4,
+      "augmented_rank": 5,
+      "same_feature_witness": {
+        "source_features": [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        "word_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_2": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "K_feature_word_1": "9179/11070",
+        "K_feature_word_2": "5491/6642"
+      }
+    },
+    {
+      "feature_column": 4,
+      "feature_name": "chi_std_X_4",
+      "base_rank": 4,
+      "augmented_rank": 5,
+      "same_feature_witness": {
+        "source_features": [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1
+        ],
+        "word_1": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "word_2": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "K_feature_word_1": "9349/4428",
+        "K_feature_word_2": "84305/39852"
+      }
+    }
+  ]
+}

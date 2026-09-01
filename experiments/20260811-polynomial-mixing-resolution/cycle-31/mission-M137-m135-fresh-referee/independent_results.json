@@ -1,0 +1,316 @@
+{
+  "command": "python3 -B independent_referee.py",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "dependencies": {},
+  "elapsed_seconds": 6.032357088988647,
+  "experiment": "M137 fresh independent referee of frozen M135",
+  "frozen_hashes": {
+    "SHA256SUMS": {
+      "expected": "8d7ca3afbab24be7b1552b433e9f0f0260efbbb658af4bd66cccd676452a5358",
+      "match": true,
+      "observed": "8d7ca3afbab24be7b1552b433e9f0f0260efbbb658af4bd66cccd676452a5358"
+    },
+    "conflict_coloring_audit.py": {
+      "expected": "79ed378ae7fd7543c16bf12a1fa51e0144b817a938c91de196be960a2e6ad540",
+      "match": true,
+      "observed": "79ed378ae7fd7543c16bf12a1fa51e0144b817a938c91de196be960a2e6ad540"
+    },
+    "freeze_manifest.md": {
+      "expected": "6428246337bd3c8ffc3228754e5aa6b2ee2b407d0f842421079d7798ade58541",
+      "match": true,
+      "observed": "6428246337bd3c8ffc3228754e5aa6b2ee2b407d0f842421079d7798ade58541"
+    },
+    "orbit_incidence_reduction.md": {
+      "expected": "499fe5a0fd829f0fad88283e7592420e5ddbb3b0c8f89460a139f13928d4895c",
+      "match": true,
+      "observed": "499fe5a0fd829f0fad88283e7592420e5ddbb3b0c8f89460a139f13928d4895c"
+    },
+    "report.md": {
+      "expected": "2d56c7e409b64f691309e950cc88aca471bfc68f84bc93f55d5d3a24b6974455",
+      "match": true,
+      "observed": "2d56c7e409b64f691309e950cc88aca471bfc68f84bc93f55d5d3a24b6974455"
+    },
+    "results.json": {
+      "expected": "4a7c885629399f01805d49c96f99e65612f9d7c9fbf745becd285dd96c1c30b9",
+      "match": true,
+      "observed": "4a7c885629399f01805d49c96f99e65612f9d7c9fbf745becd285dd96c1c30b9"
+    }
+  },
+  "material_numbered_objections": [],
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "rows": [
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "color_pair_conflicts": 0,
+          "color_size_histogram": {
+            "8": 3
+          },
+          "conflict_edges": 80,
+          "conflict_triangle_found": true,
+          "d3_goursat_dichotomy_failures": 0,
+          "edge_colors": 3,
+          "full_group_equivariance_failures": 88,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "matching_colors_automatically_realizable": false,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 2,
+          "color_pair_conflicts": 0,
+          "color_size_histogram": {
+            "8": 3
+          },
+          "conflict_edges": 80,
+          "conflict_triangle_found": true,
+          "d3_goursat_dichotomy_failures": 0,
+          "edge_colors": 3,
+          "full_group_equivariance_failures": 88,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "matching_colors_automatically_realizable": false,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 3,
+          "color_pair_conflicts": 0,
+          "color_size_histogram": {
+            "8": 3
+          },
+          "conflict_edges": 80,
+          "conflict_triangle_found": true,
+          "d3_goursat_dichotomy_failures": 0,
+          "edge_colors": 3,
+          "full_group_equivariance_failures": 88,
+          "incidence_edges": 12,
+          "left_degree_histogram": {
+            "3": 4
+          },
+          "left_vertices": 4,
+          "matching_colors_automatically_realizable": false,
+          "right_degree_histogram": {
+            "3": 4
+          },
+          "right_vertices": 4,
+          "root_stabilizer_equivariance_failures": 0
+        }
+      ],
+      "brute_z_size": 24,
+      "complete_action_cover": [
+        {
+          "action_image_order": 216,
+          "adjacent_index": 1,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        },
+        {
+          "action_image_order": 216,
+          "adjacent_index": 2,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        },
+        {
+          "action_image_order": 216,
+          "adjacent_index": 3,
+          "agreement_masks": 23,
+          "maximum_agreement": 6,
+          "minimum_schedule_cover": 5,
+          "union_frontier_sizes": [
+            1,
+            23,
+            206,
+            811,
+            1640,
+            2021
+          ]
+        }
+      ],
+      "d": 3,
+      "dps_image_equals_brute": true,
+      "global_orbit_size_histogram": {
+        "6": 4
+      },
+      "global_orbits": 4,
+      "h_orbits_per_g_orbit_histogram": {
+        "3": 4
+      },
+      "m": 4,
+      "nontrivial_global_stabilizers": 0,
+      "nontrivial_root_stabilizers": 0,
+      "root_fiber_histogram": {
+        "3": 24
+      },
+      "root_orbit_size_histogram": {
+        "2": 12
+      },
+      "root_stabilizer_orbits": 12,
+      "rooted_coordinates": 72
+    },
+    {
+      "adjacent_rows": [
+        {
+          "adjacent_index": 1,
+          "color_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "full_group_equivariance_failures": 35784,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 2,
+          "color_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "full_group_equivariance_failures": 35784,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 3,
+          "color_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "full_group_equivariance_failures": 35784,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 4,
+          "color_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "full_group_equivariance_failures": 35784,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0
+        },
+        {
+          "adjacent_index": 5,
+          "color_size_histogram": {
+            "720": 4
+          },
+          "edge_colors": 4,
+          "full_group_equivariance_failures": 35784,
+          "incidence_edges": 480,
+          "left_degree_histogram": {
+            "4": 120
+          },
+          "left_vertices": 120,
+          "right_degree_histogram": {
+            "4": 120
+          },
+          "right_vertices": 120,
+          "root_stabilizer_equivariance_failures": 0
+        }
+      ],
+      "brute_z_size": 2880,
+      "d": 4,
+      "dps_image_equals_brute": true,
+      "global_orbit_size_histogram": {
+        "24": 120
+      },
+      "global_orbits": 120,
+      "h_orbits_per_g_orbit_histogram": {
+        "4": 120
+      },
+      "m": 6,
+      "nontrivial_global_stabilizers": 0,
+      "nontrivial_root_stabilizers": 0,
+      "rank_four_exception": {
+        "all_words_in_brute_z4": true,
+        "d_to_six": 4096,
+        "singleton_bound": 2880,
+        "singleton_patch_valid": true,
+        "source_equals_v4_diagonal_product": true,
+        "source_pair_group_order": 96,
+        "sources_globally_conjugate": false,
+        "target_equals_parity_diagonal": true,
+        "target_pair_group_order": 288,
+        "targets_globally_conjugate": false,
+        "tau1_endpoints_match": true
+      },
+      "root_fiber_histogram": {
+        "4": 2880
+      },
+      "root_orbit_size_histogram": {
+        "6": 480
+      },
+      "root_stabilizer_orbits": 480,
+      "rooted_coordinates": 11520
+    }
+  ],
+  "seed": null,
+  "target": "uniform physical Z_d; no Markov-chain gap claim",
+  "verdict": "ACCEPT"
+}

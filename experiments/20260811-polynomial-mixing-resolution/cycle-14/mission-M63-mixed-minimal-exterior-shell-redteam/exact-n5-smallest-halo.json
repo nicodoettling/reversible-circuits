@@ -1,0 +1,215 @@
+{
+  "A_size": 3904,
+  "C_size": 3991,
+  "C_stationary_mass": "3991/1770940",
+  "E_size": 87,
+  "N": 5,
+  "Z_size": 87,
+  "alternate_full_support_targets": 261,
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M63-mixed-minimal-exterior-shell-redteam/exact_n5_mixed_halo.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M63-mixed-minimal-exterior-shell-redteam/exact-n5-smallest-halo.json"
+  ],
+  "boundary_flow_over_pi_by_category": [
+    {
+      "category": "exterior_support_size_3",
+      "escape_contribution": "5/41752",
+      "r": 3
+    },
+    {
+      "category": "exterior_support_size_4",
+      "escape_contribution": "716245/39079872",
+      "r": 3
+    },
+    {
+      "category": "exterior_support_size_5",
+      "escape_contribution": "28585/4884984",
+      "r": 3
+    },
+    {
+      "category": "minimal_full_support",
+      "escape_contribution": "1150195/14654952",
+      "r": 3
+    },
+    {
+      "category": "exterior_support_size_2",
+      "escape_contribution": "2/5088525",
+      "r": 4
+    },
+    {
+      "category": "exterior_support_size_3",
+      "escape_contribution": "137679/312096200",
+      "r": 4
+    },
+    {
+      "category": "exterior_support_size_4",
+      "escape_contribution": "97733239/2621608080",
+      "r": 4
+    },
+    {
+      "category": "exterior_support_size_5",
+      "escape_contribution": "26056003/2808865800",
+      "r": 4
+    },
+    {
+      "category": "minimal_full_support",
+      "escape_contribution": "1101203773/11703607500",
+      "r": 4
+    },
+    {
+      "category": "exterior_support_size_2",
+      "escape_contribution": "5/12487839",
+      "r": 5
+    },
+    {
+      "category": "exterior_support_size_3",
+      "escape_contribution": "5591/4757272",
+      "r": 5
+    },
+    {
+      "category": "exterior_support_size_4",
+      "escape_contribution": "21845685/432911752",
+      "r": 5
+    },
+    {
+      "category": "exterior_support_size_5",
+      "escape_contribution": "150239175/16217540248",
+      "r": 5
+    },
+    {
+      "category": "minimal_full_support",
+      "escape_contribution": "850767013945/8674067241216",
+      "r": 5
+    }
+  ],
+  "boundary_flow_over_pi_by_r": {
+    "3": "12050375/117239616",
+    "4": "138704757857/983103030000",
+    "5": "1379033837593/8674067241216"
+  },
+  "cell_size_bound_Lambda": 448,
+  "chosen_leaf": 3,
+  "claim_tested": "The smallest specified-target halo is injective, proper, and its exact full-K escape exceeds the universal alternate-leaf-square lower bound.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); append by swapping domain entries",
+  "core_distribution": [
+    {
+      "core_word": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "count": 842,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "count": 1068,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        1,
+        2
+      ],
+      "count": 997,
+      "selected": true
+    },
+    {
+      "core_word": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "count": 997,
+      "selected": true
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "count": 997,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "count": 997,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "count": 1068,
+      "selected": false
+    },
+    {
+      "core_word": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "count": 842,
+      "selected": false
+    }
+  ],
+  "elapsed_seconds_before_write": 129.77724347705953,
+  "exact_escape": "17932842729275693759/44514228823515360000",
+  "fixed_exterior_square": [
+    0,
+    1
+  ],
+  "kernel": "literal lazy K; each outcome has weight 1/[6(m-r+1)|F_r(g)|]",
+  "leaf_neighbor": 0,
+  "leaves": [
+    3,
+    4
+  ],
+  "m": 8,
+  "nonstandard_dependencies": {},
+  "omega": 1770940,
+  "python": "3.12.3",
+  "scope_warning": "This exact N=5 result can falsify the injection/normalization but cannot prove the universal theorem.",
+  "seed": null,
+  "tree_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      4
+    ]
+  ],
+  "universal_proved_bound_at_N5": "1/183192"
+}

@@ -1,0 +1,589 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M77-m75-fresh-referee/independent_audit.py",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M77-m75-fresh-referee/independent-results.json",
+    "--m75-report",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/report.md",
+    "--m75-manifest",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M75-partial-macro-coarea/freeze_manifest.md"
+  ],
+  "coarea_zero_length": {
+    "all_subsets_checked": 4,
+    "endpoint_denominator": "1/1",
+    "endpoint_success_by_source": {
+      "0": "1/2",
+      "1": "1/2"
+    },
+    "eta_endpoint": "1/2",
+    "eta_prefix": "1/2",
+    "expected_length": "1/2",
+    "minimum_endpoint_slack": "0/1",
+    "minimum_prefix_slack": "0/1",
+    "prefix_denominator": "3/2",
+    "prefix_success_by_source": {
+      "0": "1/1",
+      "1": "1/2"
+    },
+    "subsets": [
+      {
+        "boundary": "0/1",
+        "endpoint_rhs": "0/1",
+        "prefix_rhs": "0/1",
+        "subset": []
+      },
+      {
+        "boundary": "1/2",
+        "endpoint_rhs": "1/8",
+        "prefix_rhs": "1/12",
+        "subset": [
+          0
+        ]
+      },
+      {
+        "boundary": "1/4",
+        "endpoint_rhs": "1/8",
+        "prefix_rhs": "1/12",
+        "subset": [
+          1
+        ]
+      },
+      {
+        "boundary": "1/4",
+        "endpoint_rhs": "1/4",
+        "prefix_rhs": "1/6",
+        "subset": [
+          0,
+          1
+        ]
+      }
+    ],
+    "zero_length_mass": "1/2"
+  },
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); left-to-right tuple products; R(a,b)=(b,bab)",
+  "elapsed_seconds": 1.034091335022822,
+  "frozen_hashes": {
+    "M75_freeze_manifest": "17bb22b3c041ec1917f206d0a3cf9a8fba2f049fd5a6b61da2eb004699a6b89b",
+    "M75_report": "e699e8b54684488ae34a8df87edea5f9a88002939e34d9facc55c549b741ed39"
+  },
+  "garside_coxeter": {
+    "left_complement_identity": "q=w0*p^{-1}; q*p=w0",
+    "length_additivity_checked": true,
+    "longest_length": 15,
+    "nonidentity_simple_braids_whose_inverse_is_not_positive_by_exponent_sum": 719,
+    "simple_braids_checked": 720,
+    "strand_count": 6
+  },
+  "nonstandard_dependencies": {},
+  "null_push": {
+    "N": 5,
+    "U": [
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "all_steps_literal_same_product_H3": true,
+    "all_steps_preserve_identity_and_macro": true,
+    "binom_m_2_times_M_bound": 280,
+    "bubble_endpoint": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "canonical_endpoint": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "certificate_positions": [
+      1,
+      5
+    ],
+    "claimed_length_formula": 6,
+    "distinct_reconstructed_sources": 241,
+    "m": 8,
+    "macro_signature": [
+      [
+        [
+          0,
+          1,
+          2
+        ],
+        6
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        2
+      ]
+    ],
+    "path_length": 6,
+    "path_steps": [
+      {
+        "kind": "bubble",
+        "pair_position": 1
+      },
+      {
+        "kind": "bubble",
+        "pair_position": 2
+      },
+      {
+        "kind": "bubble",
+        "pair_position": 3
+      },
+      {
+        "kind": "refresh",
+        "pair_position": 4
+      },
+      {
+        "kind": "slide",
+        "pair_position": 4
+      },
+      {
+        "kind": "slide",
+        "pair_position": 5
+      }
+    ],
+    "residual": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "source_description_count": 280,
+    "word": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "x": [
+      0,
+      2
+    ],
+    "x_equals_U_y_U_inverse": true,
+    "y": [
+      0,
+      1
+    ]
+  },
+  "positive_braid_incidence": {
+    "Gamma_size": 240,
+    "N": 3,
+    "column_degree_distinct_values": [
+      720
+    ],
+    "distinct_endpoint_maximum": 119,
+    "distinct_endpoint_minimum": 15,
+    "double_count_left": 155520,
+    "double_count_right": 155520,
+    "m": 6,
+    "marked_set_noninvariance_witness": {
+      "permutation": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        5
+      ],
+      "positive_word": [
+        2,
+        1,
+        3
+      ],
+      "source": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "source_marked": true,
+      "target": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "target_marked": false
+    },
+    "marked_size": 216,
+    "maximum_length": 15,
+    "maximum_parallel_multiplicity_values": [
+      12,
+      16,
+      24,
+      48
+    ],
+    "mean_length": "15/2",
+    "row_marked_count_distinct_values": [
+      608,
+      624,
+      628,
+      632,
+      636,
+      640,
+      648,
+      672,
+      720
+    ],
+    "row_marked_count_histogram": {
+      "608": 18,
+      "624": 18,
+      "628": 24,
+      "632": 48,
+      "636": 24,
+      "640": 6,
+      "648": 24,
+      "672": 60,
+      "720": 18
+    },
+    "row_marked_count_maximum": 720,
+    "row_marked_count_minimum": 608,
+    "simple_positive_braids": 720,
+    "zero_length_braid_mass_denominator": 720,
+    "zero_length_braid_mass_numerator": 1
+  },
+  "python": "3.12.3",
+  "radius_one_obstruction": {
+    "ambient_N": 6,
+    "distinct_radius_one_endpoints": 15,
+    "exact_distance": 2,
+    "first_radius_two_success": {
+      "certificate": [
+        2,
+        6
+      ],
+      "moves": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    "m": 10,
+    "macro_signature": [
+      [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        10
+      ],
+      [
+        [
+          5
+        ],
+        0
+      ]
+    ],
+    "positive_component_genus": 1,
+    "product_identity": true,
+    "radius_one_certificate_paths": 0,
+    "radius_two_certificate_paths": 104,
+    "signed_radius_one_paths": 18,
+    "signed_radius_two_paths": 324,
+    "source_identity_deletion_pairs": [
+      {
+        "connected": false,
+        "positions": [
+          0,
+          5
+        ]
+      },
+      {
+        "connected": false,
+        "positions": [
+          2,
+          7
+        ]
+      }
+    ],
+    "word": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "scope_warning": "Finite checks audit finite claims and local algebra only; they do not prove an asymptotic row bound, conductance, gap, or mixing theorem.",
+  "seed": null,
+  "triple_fibers": {
+    "all_fibers_at_most_M_squared": true,
+    "all_transposition_fibers_match": true,
+    "identity_checked": "D_N=M+6(N-2)+2*binom(N-2,2)=(3N^2+N-12)/2",
+    "rows": [
+      {
+        "D_formula": 1,
+        "M": 1,
+        "M_squared": 1,
+        "N": 2,
+        "maximum_nonempty_triple_fiber": 1,
+        "transposition_fiber_counts": [
+          1
+        ]
+      },
+      {
+        "D_formula": 9,
+        "M": 3,
+        "M_squared": 9,
+        "N": 3,
+        "maximum_nonempty_triple_fiber": 9,
+        "transposition_fiber_counts": [
+          9
+        ]
+      },
+      {
+        "D_formula": 20,
+        "M": 6,
+        "M_squared": 36,
+        "N": 4,
+        "maximum_nonempty_triple_fiber": 20,
+        "transposition_fiber_counts": [
+          20
+        ]
+      },
+      {
+        "D_formula": 34,
+        "M": 10,
+        "M_squared": 100,
+        "N": 5,
+        "maximum_nonempty_triple_fiber": 34,
+        "transposition_fiber_counts": [
+          34
+        ]
+      },
+      {
+        "D_formula": 51,
+        "M": 15,
+        "M_squared": 225,
+        "N": 6,
+        "maximum_nonempty_triple_fiber": 51,
+        "transposition_fiber_counts": [
+          51
+        ]
+      },
+      {
+        "D_formula": 71,
+        "M": 21,
+        "M_squared": 441,
+        "N": 7,
+        "maximum_nonempty_triple_fiber": 71,
+        "transposition_fiber_counts": [
+          71
+        ]
+      },
+      {
+        "D_formula": 94,
+        "M": 28,
+        "M_squared": 784,
+        "N": 8,
+        "maximum_nonempty_triple_fiber": 94,
+        "transposition_fiber_counts": [
+          94
+        ]
+      }
+    ]
+  }
+}

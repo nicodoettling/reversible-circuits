@@ -1,0 +1,86 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M34-area-median-shell/exact_local_area_ascent.py",
+    "--N",
+    "3",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M34-area-median-shell/local_ascent_N3.json"
+  ],
+  "claim_tested": "Every nonmaximum-area state of F_N has a strictly area-increasing same-product heat-bath outcome in some r=3,4,5 window.",
+  "composition": "(pq)(x)=p(q(x)); word products left-to-right",
+  "purpose": "Complete finite falsifier only; no finite-to-universal inference.",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "result": {
+    "N": 3,
+    "adjacent_pair_zero_gain_counts_by_area": {
+      "4": 18
+    },
+    "admissible_quarter_to_half_quantiles": [
+      {
+        "conditional_mass": [
+          6,
+          24
+        ],
+        "lower_tail_count": 6,
+        "q": 2
+      }
+    ],
+    "area_counts": {
+      "2": 6,
+      "4": 18
+    },
+    "dyck_path_counts": {
+      "UDUD": 6,
+      "UUDD": 18
+    },
+    "elapsed_seconds": 0.00041103363037109375,
+    "expected_orbit_size": 24,
+    "first_nonmaximum_adjacent_pair_zero_gain_witness": null,
+    "first_nonmaximum_zero_gain_witness": null,
+    "first_zero_gain_witness": {
+      "area": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "heights": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "maximum_possible_area": 4
+    },
+    "m": 4,
+    "maximum_adjacent_pair_gain_counts": {
+      "0": 18,
+      "2": 6
+    },
+    "maximum_one_window_gain_counts": {
+      "0": 18,
+      "2": 6
+    },
+    "maximum_possible_area": 4,
+    "orbit_size": 24,
+    "zero_gain_counts_by_area": {
+      "4": 18
+    }
+  },
+  "seed": null
+}

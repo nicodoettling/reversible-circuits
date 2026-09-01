@@ -1,0 +1,30 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "All ordered-split genus sequences in positive DYZ recurrence (13) have nonnegative pairwise cross terms, a sufficient condition for their sum to preserve log-concavity",
+  "logical_scope": "A negative result refutes only this synchronization sufficient condition, not Hurwitz-rate curvature",
+  "parameters": {
+    "d_max": 18,
+    "g_max": 30
+  },
+  "deterministic": true,
+  "random_seed": null,
+  "environment": {
+    "python": "3.12.3",
+    "nonstandard_dependencies": []
+  },
+  "cross_terms_checked_before_stop": 5,
+  "first_negative_cross_term": {
+    "d": 3,
+    "ordered_split_x": [
+      1,
+      2
+    ],
+    "ordered_split_y": [
+      2,
+      1
+    ],
+    "g": 5,
+    "cross_numerator": "-1163611",
+    "cross_denominator": "310703429836800000"
+  }
+}

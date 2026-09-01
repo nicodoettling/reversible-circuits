@@ -1,0 +1,47 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped Cayley sums",
+  "claim_tested": "Raw Bellman inequality for U=P^d(1-q)K/(R+1)",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "python": "3.12.3",
+  "result": {
+    "context": {
+      "B": 4,
+      "K": 1,
+      "R": 0,
+      "s": 11
+    },
+    "deep_weighted": {
+      "decimal": 0.5700797756605396,
+      "denominator": "106476820341438536138096640000000",
+      "numerator": "60700281853294862916482274509773"
+    },
+    "elapsed_seconds": 0.005675792694091797,
+    "exponent": 0,
+    "parent_potential": {
+      "decimal": 0.9105827363714881,
+      "denominator": "19683",
+      "numerator": "17923"
+    },
+    "ratio": {
+      "decimal": 1.011824758998902,
+      "denominator": "12116232019723192236315977869768104345600000000",
+      "numerator": "12259503543331198554498002791328264732145836753"
+    },
+    "reset_weighted": {
+      "decimal": 0.35127038211710204,
+      "denominator": "13306019909848328560364190839181253017600000000",
+      "numerator": "4674010698190189713310847213084501894862964433"
+    },
+    "total_minus_parent": {
+      "decimal": 0.010767421406153558,
+      "denominator": "13306019909848328560364190839181253017600000000",
+      "numerator": "143271523608006318182024921560160386545836753"
+    },
+    "total_weighted": {
+      "decimal": 0.9213501577776416,
+      "denominator": "13306019909848328560364190839181253017600000000",
+      "numerator": "12259503543331198554498002791328264732145836753"
+    }
+  },
+  "seed": null
+}

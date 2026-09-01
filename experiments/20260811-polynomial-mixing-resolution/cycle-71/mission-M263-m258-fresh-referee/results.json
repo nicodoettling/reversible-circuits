@@ -1,0 +1,44 @@
+{
+  "verdict": "ACCEPT",
+  "claim": "M258 literal two-run TAV",
+  "domain": {
+    "k": "odd integer >= 3",
+    "ell": "2 <= ell <= (3k-1)/2",
+    "s": "1 <= s <= k-2"
+  },
+  "constant": 500,
+  "audited_components": {
+    "base_response": 104,
+    "reflected_head_response": 26,
+    "cutoff_variation": 4,
+    "single_spike_response": 160,
+    "assembled_before_rounding": 424
+  },
+  "immutable_source": {
+    "mission": "cycle-70/mission-M258-two-run-tav",
+    "top_digest": "753ef6932c3e5e5d69df7f429e8740710d77269357749d505dca0cf31e109ef8",
+    "inventory_status": "all 10 entries pass"
+  },
+  "cleanroom_certificate": {
+    "tested_k": [3, 5],
+    "assertions": 442,
+    "status": "pass",
+    "scope": "finite falsification only",
+    "path": "cleanroom_results.json"
+  },
+  "objections": {
+    "material": [],
+    "nonmaterial": []
+  },
+  "excluded_inferences": [
+    "full_DV",
+    "conditional_J2",
+    "WPCR",
+    "SCBR",
+    "response",
+    "spectral_gap",
+    "mixing",
+    "Terminal"
+  ]
+}
+

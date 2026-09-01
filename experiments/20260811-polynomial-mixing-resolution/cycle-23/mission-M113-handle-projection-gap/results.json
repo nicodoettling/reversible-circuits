@@ -1,0 +1,620 @@
+{
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-23/mission-M113-handle-projection-gap/results.json",
+    "skip_full_projection": false
+  },
+  "cases": [
+    {
+      "adjacent_raw_incidence": {
+        "all_adjacent_move_probability": {
+          "argmin_key": {
+            "Q_L": [
+              [
+                0,
+                1
+              ]
+            ],
+            "Q_R": [
+              [
+                0,
+                1
+              ]
+            ],
+            "j": 2,
+            "p": [
+              0,
+              1
+            ]
+          },
+          "maximum": 0.0,
+          "minimum": 0.0
+        },
+        "beta_lower_bound_from_comparison": 0.037037037037037035,
+        "components": [
+          1
+        ],
+        "directed_compatible_pair_count": 0,
+        "incidence_total": 1,
+        "mass_by_cycle_type": {
+          "1,1": {
+            "denominator": 1,
+            "float": 1.0,
+            "numerator": 1
+          }
+        },
+        "mass_by_j": {
+          "2": {
+            "denominator": 1,
+            "float": 1.0,
+            "numerator": 1
+          }
+        },
+        "mass_by_j_and_cycle_type": [
+          {
+            "cycle_type": [
+              1,
+              1
+            ],
+            "j": 2,
+            "mass": {
+              "denominator": 1,
+              "float": 1.0,
+              "numerator": 1
+            }
+          }
+        ],
+        "maximum_overlap": null,
+        "minimum_positive_overlap": null,
+        "overlap_product_formula_failures": 0,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 0.0,
+        "singleton_split_or_reverse": {
+          "first_zero_rate_key": {
+            "Q_L": [
+              [
+                0,
+                1
+              ]
+            ],
+            "Q_R": [
+              [
+                0,
+                1
+              ]
+            ],
+            "j": 2,
+            "p": [
+              0,
+              1
+            ]
+          },
+          "maximum_probability": 0.0,
+          "minimum_positive_probability": null,
+          "zero_rate_key_count": 1
+        },
+        "spectrum": {
+          "gap": 1.0,
+          "lambda_max": 1.0,
+          "lambda_min": 1.0,
+          "lambda_second": null,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        }
+      },
+      "candidate_words": 1,
+      "central_key_count": 1,
+      "connected_genus_one_words": 1,
+      "cut_refresh": {
+        "components": [
+          1
+        ],
+        "degree_histogram": {
+          "0": 1
+        },
+        "first_zero_offdiagonal_key": {
+          "Q_L": [
+            [
+              0,
+              1
+            ]
+          ],
+          "Q_R": [
+            [
+              0,
+              1
+            ]
+          ],
+          "j": 2,
+          "p": [
+            0,
+            1
+          ]
+        },
+        "key_word_count_max": 1,
+        "key_word_count_min": 1,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 0.0,
+        "singleton_key_count": 1,
+        "spectrum": {
+          "gap": 1.0,
+          "lambda_max": 1.0,
+          "lambda_min": 1.0,
+          "lambda_second": null,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        },
+        "zero_offdiagonal_key_count": 1
+      },
+      "d": 2,
+      "elapsed_seconds": 0.0009405612945556641,
+      "ell_histogram": {
+        "1": 1
+      },
+      "full_projection": {
+        "components": [
+          1
+        ],
+        "missing_move_targets": 0,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 2.220446049250313e-16,
+        "spectrum": {
+          "gap": 1.0,
+          "lambda_max": 1.0000000000000002,
+          "lambda_min": 1.0000000000000002,
+          "lambda_second": null,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        }
+      },
+      "hurwitz_cell_formula_failures": []
+    },
+    {
+      "adjacent_raw_incidence": {
+        "all_adjacent_move_probability": {
+          "argmin_key": {
+            "Q_L": [
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            "Q_R": [
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            "j": 3,
+            "p": [
+              2,
+              1,
+              0
+            ]
+          },
+          "maximum": 0.3333333333333333,
+          "minimum": 0.25
+        },
+        "beta_lower_bound_from_comparison": 0.001131482908178671,
+        "components": [
+          9
+        ],
+        "directed_compatible_pair_count": 24,
+        "incidence_total": 336,
+        "mass_by_cycle_type": {
+          "1,1,1": {
+            "denominator": 7,
+            "float": 0.42857142857142855,
+            "numerator": 3
+          },
+          "2,1": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          }
+        },
+        "mass_by_j": {
+          "2": {
+            "denominator": 14,
+            "float": 0.21428571428571427,
+            "numerator": 3
+          },
+          "3": {
+            "denominator": 7,
+            "float": 0.5714285714285714,
+            "numerator": 4
+          },
+          "4": {
+            "denominator": 14,
+            "float": 0.21428571428571427,
+            "numerator": 3
+          }
+        },
+        "mass_by_j_and_cycle_type": [
+          {
+            "cycle_type": [
+              1,
+              1,
+              1
+            ],
+            "j": 2,
+            "mass": {
+              "denominator": 14,
+              "float": 0.21428571428571427,
+              "numerator": 3
+            }
+          },
+          {
+            "cycle_type": [
+              2,
+              1
+            ],
+            "j": 3,
+            "mass": {
+              "denominator": 7,
+              "float": 0.5714285714285714,
+              "numerator": 4
+            }
+          },
+          {
+            "cycle_type": [
+              1,
+              1,
+              1
+            ],
+            "j": 4,
+            "mass": {
+              "denominator": 14,
+              "float": 0.21428571428571427,
+              "numerator": 3
+            }
+          }
+        ],
+        "maximum_overlap": 8,
+        "minimum_positive_overlap": 8,
+        "overlap_product_formula_failures": 0,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 5.551115123125783e-17,
+        "singleton_split_or_reverse": {
+          "first_zero_rate_key": null,
+          "maximum_probability": 0.3333333333333333,
+          "minimum_positive_probability": 0.25,
+          "zero_rate_key_count": 0
+        },
+        "spectrum": {
+          "gap": 0.14143536352233388,
+          "lambda_max": 1.0,
+          "lambda_min": 0.41666666666666663,
+          "lambda_second": 0.8585646364776661,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        }
+      },
+      "candidate_words": 729,
+      "central_key_count": 9,
+      "connected_genus_one_words": 240,
+      "cut_refresh": {
+        "components": [
+          9
+        ],
+        "degree_histogram": {
+          "4": 3,
+          "5": 6
+        },
+        "first_zero_offdiagonal_key": null,
+        "key_word_count_max": 64,
+        "key_word_count_min": 24,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 3.552713678800501e-15,
+        "singleton_key_count": 0,
+        "spectrum": {
+          "gap": 0.0896143806315407,
+          "lambda_max": 1.0,
+          "lambda_min": 0.63572267920094,
+          "lambda_second": 0.9103856193684593,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        },
+        "zero_offdiagonal_key_count": 0
+      },
+      "d": 3,
+      "elapsed_seconds": 0.025227785110473633,
+      "ell_histogram": {
+        "1": 156,
+        "2": 72,
+        "3": 12
+      },
+      "full_projection": {
+        "components": [
+          9
+        ],
+        "missing_move_targets": 0,
+        "reversibility_residual": 4.440892098500626e-16,
+        "row_mass_residual": 3.623767952376511e-13,
+        "spectrum": {
+          "gap": 0.14610339605950295,
+          "lambda_max": 0.9999999999999962,
+          "lambda_min": 0.5869565217391292,
+          "lambda_second": 0.853896603940497,
+          "one_multiplicity": 1,
+          "symmetry_residual": 1.3877787807814457e-17
+        }
+      },
+      "hurwitz_cell_formula_failures": []
+    },
+    {
+      "adjacent_raw_incidence": {
+        "all_adjacent_move_probability": {
+          "argmin_key": {
+            "Q_L": [
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            "Q_R": [
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            "j": 4,
+            "p": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          "maximum": 1.0,
+          "minimum": 0.3333333333333333
+        },
+        "beta_lower_bound_from_comparison": 0.00036564521386838687,
+        "components": [
+          101
+        ],
+        "directed_compatible_pair_count": 648,
+        "incidence_total": 234720,
+        "mass_by_cycle_type": {
+          "1,1,1,1": {
+            "denominator": 3260,
+            "float": 0.19233128834355828,
+            "numerator": 627
+          },
+          "2,1,1": {
+            "denominator": 163,
+            "float": 0.4662576687116564,
+            "numerator": 76
+          },
+          "2,2": {
+            "denominator": 815,
+            "float": 0.11779141104294479,
+            "numerator": 96
+          },
+          "3,1": {
+            "denominator": 3260,
+            "float": 0.2236196319018405,
+            "numerator": 729
+          }
+        },
+        "mass_by_j": {
+          "2": {
+            "denominator": 163,
+            "float": 0.0736196319018405,
+            "numerator": 12
+          },
+          "3": {
+            "denominator": 163,
+            "float": 0.2331288343558282,
+            "numerator": 38
+          },
+          "4": {
+            "denominator": 163,
+            "float": 0.38650306748466257,
+            "numerator": 63
+          },
+          "5": {
+            "denominator": 163,
+            "float": 0.2331288343558282,
+            "numerator": 38
+          },
+          "6": {
+            "denominator": 163,
+            "float": 0.0736196319018405,
+            "numerator": 12
+          }
+        },
+        "mass_by_j_and_cycle_type": [
+          {
+            "cycle_type": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "j": 2,
+            "mass": {
+              "denominator": 163,
+              "float": 0.0736196319018405,
+              "numerator": 12
+            }
+          },
+          {
+            "cycle_type": [
+              2,
+              1,
+              1
+            ],
+            "j": 3,
+            "mass": {
+              "denominator": 163,
+              "float": 0.2331288343558282,
+              "numerator": 38
+            }
+          },
+          {
+            "cycle_type": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "j": 4,
+            "mass": {
+              "denominator": 3260,
+              "float": 0.045092024539877304,
+              "numerator": 147
+            }
+          },
+          {
+            "cycle_type": [
+              2,
+              2
+            ],
+            "j": 4,
+            "mass": {
+              "denominator": 815,
+              "float": 0.11779141104294479,
+              "numerator": 96
+            }
+          },
+          {
+            "cycle_type": [
+              3,
+              1
+            ],
+            "j": 4,
+            "mass": {
+              "denominator": 3260,
+              "float": 0.2236196319018405,
+              "numerator": 729
+            }
+          },
+          {
+            "cycle_type": [
+              2,
+              1,
+              1
+            ],
+            "j": 5,
+            "mass": {
+              "denominator": 163,
+              "float": 0.2331288343558282,
+              "numerator": 38
+            }
+          },
+          {
+            "cycle_type": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "j": 6,
+            "mass": {
+              "denominator": 163,
+              "float": 0.0736196319018405,
+              "numerator": 12
+            }
+          }
+        ],
+        "maximum_overlap": 768,
+        "minimum_positive_overlap": 18,
+        "overlap_product_formula_failures": 0,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 3.469446951953614e-18,
+        "singleton_split_or_reverse": {
+          "first_zero_rate_key": null,
+          "maximum_probability": 1.0,
+          "minimum_positive_probability": 0.3333333333333333,
+          "zero_rate_key_count": 0
+        },
+        "spectrum": {
+          "gap": 0.1254163083568567,
+          "lambda_max": 1.000000000000002,
+          "lambda_min": -0.03997171590695643,
+          "lambda_second": 0.8745836916431433,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        }
+      },
+      "candidate_words": 1679616,
+      "central_key_count": 101,
+      "connected_genus_one_words": 131040,
+      "cut_refresh": {
+        "components": [
+          101
+        ],
+        "degree_histogram": {
+          "7": 24,
+          "8": 6,
+          "10": 12,
+          "16": 3,
+          "18": 8,
+          "23": 24,
+          "25": 12,
+          "48": 12
+        },
+        "first_zero_offdiagonal_key": null,
+        "key_word_count_max": 9216,
+        "key_word_count_min": 36,
+        "reversibility_residual": 0.0,
+        "row_mass_residual": 3.410605131648481e-10,
+        "singleton_key_count": 0,
+        "spectrum": {
+          "gap": 0.09802444299869817,
+          "lambda_max": 1.0000000000000056,
+          "lambda_min": 0.2807576855108493,
+          "lambda_second": 0.9019755570013018,
+          "one_multiplicity": 1,
+          "symmetry_residual": 0.0
+        },
+        "zero_offdiagonal_key_count": 0
+      },
+      "d": 4,
+      "elapsed_seconds": 19.096274375915527,
+      "ell_histogram": {
+        "1": 63456,
+        "2": 40128,
+        "3": 19968,
+        "4": 6336,
+        "5": 1152
+      },
+      "full_projection": {
+        "components": [
+          101
+        ],
+        "missing_move_targets": 0,
+        "reversibility_residual": 2.4726887204451486e-12,
+        "row_mass_residual": 2.9008333513047546e-09,
+        "spectrum": {
+          "gap": 0.12885105519410167,
+          "lambda_max": 0.9999999999998126,
+          "lambda_min": 0.25881578450735065,
+          "lambda_second": 0.8711489448058983,
+          "one_multiplicity": 1,
+          "symmetry_residual": 1.4710455076283324e-15
+        }
+      },
+      "hurwitz_cell_formula_failures": []
+    }
+  ],
+  "claim_scope": "exact finite diagnostics only; no asymptotic inference",
+  "convention": "(p q)(x)=p(q(x)); word factors multiply left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "kernel": "M97 half-lazy signed adjacent-Hurwitz lift and M104 cell projection",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "seed": null,
+  "target": "uniform connected-support identity words of length 2d"
+}

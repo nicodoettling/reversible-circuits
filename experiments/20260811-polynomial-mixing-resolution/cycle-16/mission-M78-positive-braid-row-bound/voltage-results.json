@@ -1,0 +1,370 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/voltage_lift_audit.py",
+    "--L",
+    "2",
+    "3",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M78-positive-braid-row-bound/voltage-results.json"
+  ],
+  "audits": [
+    {
+      "L": 2,
+      "collision_example": {
+        "current_outputs": [
+          [
+            12,
+            18
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            3,
+            23
+          ],
+          [
+            3,
+            23
+          ]
+        ],
+        "original_label_order": [
+          4,
+          23,
+          0,
+          35
+        ],
+        "residual_connected": false
+      },
+      "component_length": 64,
+      "component_vertex_count": 32,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "four_cycle_collision_order_count": 128,
+      "four_cycle_count": 32,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 32
+      },
+      "support_simple": true
+    },
+    {
+      "L": 3,
+      "collision_example": {
+        "current_outputs": [
+          [
+            27,
+            42
+          ],
+          [
+            8,
+            42
+          ],
+          [
+            8,
+            53
+          ],
+          [
+            8,
+            53
+          ]
+        ],
+        "original_label_order": [
+          9,
+          53,
+          0,
+          80
+        ],
+        "residual_connected": false
+      },
+      "component_length": 144,
+      "component_vertex_count": 72,
+      "first_word_metadata": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "four_cycle_collision_order_count": 288,
+      "four_cycle_count": 72,
+      "four_cycle_safe_order_count": 0,
+      "product_is_identity": true,
+      "support_bipartite": true,
+      "support_connected": true,
+      "support_degree_histogram": {
+        "4": 72
+      },
+      "support_simple": true
+    }
+  ],
+  "base_word": [
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      0,
+      7
+    ]
+  ],
+  "claim_tested": "The explicit Z_L^2 voltage lifts are connected simple genus-one identity words with no safe canonical-elimination prefix through depth two.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); left-to-right products; canonical positive elimination conjugates all residual factors to the left",
+  "elapsed_seconds": 0.26788668520748615,
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "scope_warning": "This exact bounded-depth refutation is not an upper bound on the total full-prefix hit probability.",
+  "seed": null,
+  "voltage_x": [
+    -1,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "voltage_y": [
+    -1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley coefficients",
+  "claim_tested": "M76 deep-eliminated inverse-split-mass inequality",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 0.01325678825378418,
+  "normalization": "g=q*(I-D)^-1*J*(1/q); Dhat=rho_group*nu; Jhat=edge_energy/q_child",
+  "parameters": {
+    "K_values": [
+      1,
+      2,
+      6,
+      4096
+    ],
+    "include_infinite_right_heavy_limit": true,
+    "s_max": 7
+  },
+  "python": "3.12.3",
+  "result": {
+    "diagnostics": {
+      "max_contextual_mean_error": 2.6535440511565866e-12,
+      "max_group_mass_error": 1.3322676295501878e-15,
+      "max_negative_roundoff": 0.0,
+      "max_nu_sum_error": 6.34492458573277e-12,
+      "memoized_contexts": 473
+    },
+    "global_worst": {
+      "B": 1,
+      "K": "infinity",
+      "R": "infinity-1",
+      "direct_jhat": 0.21407621990225598,
+      "ratio": 0.42216012774373324,
+      "s": 7
+    },
+    "records": [
+      {
+        "B": 1,
+        "K": 1,
+        "R": 0,
+        "direct_jhat": 0,
+        "ratio": 0,
+        "s": 2
+      },
+      {
+        "B": 3,
+        "K": 1,
+        "R": 0,
+        "direct_jhat": 0.12359619140624972,
+        "ratio": 0.12359619140624972,
+        "s": 3
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.14349835377777795,
+        "ratio": 0.1977796037777779,
+        "s": 4
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.17281707164136922,
+        "ratio": 0.28128554616768964,
+        "s": 5
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.1952556354830027,
+        "ratio": 0.3555350600729525,
+        "s": 6
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.21407621990225598,
+        "ratio": 0.42216012774373324,
+        "s": 7
+      }
+    ]
+  },
+  "seed": null,
+  "status_rule": "ratio>1 by robust numerical margin refutes; ratio<=1 is finite evidence only"
+}

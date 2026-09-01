@@ -1,0 +1,132 @@
+{
+  "claim_tested": "Every shape-level root-preserving leaf replant through r_max is connected by exact UD P <-> U P D rotations, and record its maximum shortest distance. Finite success cannot prove a universal bound.",
+  "deterministic": true,
+  "max_distance_witnesses": [
+    {
+      "distance": 1,
+      "r": 2,
+      "source": "UDUD",
+      "target": "UUDD"
+    },
+    {
+      "distance": 4,
+      "r": 3,
+      "source": "UUDDUD",
+      "target": "UUDUDD"
+    },
+    {
+      "distance": 9,
+      "r": 4,
+      "source": "UUDUDDUD",
+      "target": "UUUDDUDD"
+    },
+    {
+      "distance": 16,
+      "r": 5,
+      "source": "UUUDDUDDUD",
+      "target": "UUUDUDDUDD"
+    },
+    {
+      "distance": 25,
+      "r": 6,
+      "source": "UUUDUDDUDDUD",
+      "target": "UUUUDDUDDUDD"
+    },
+    {
+      "distance": 36,
+      "r": 7,
+      "source": "UUUUDDUDDUDDUD",
+      "target": "UUUUDUDDUDDUDD"
+    },
+    {
+      "distance": 49,
+      "r": 8,
+      "source": "UUUUDUDDUDDUDDUD",
+      "target": "UUUUUDDUDDUDDUDD"
+    }
+  ],
+  "python": "3.12.3",
+  "records": [
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 0,
+      "max_replant_rotation_distance": -1,
+      "max_weight_denominator": 1,
+      "min_weight_denominator": 1,
+      "r": 1,
+      "states": 1,
+      "undirected_rotation_edges": 0
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 2,
+      "max_replant_rotation_distance": 1,
+      "max_weight_denominator": 2,
+      "min_weight_denominator": 1,
+      "r": 2,
+      "states": 2,
+      "undirected_rotation_edges": 1
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 16,
+      "max_replant_rotation_distance": 4,
+      "max_weight_denominator": 6,
+      "min_weight_denominator": 1,
+      "r": 3,
+      "states": 5,
+      "undirected_rotation_edges": 4
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 94,
+      "max_replant_rotation_distance": 9,
+      "max_weight_denominator": 24,
+      "min_weight_denominator": 1,
+      "r": 4,
+      "states": 14,
+      "undirected_rotation_edges": 15
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 480,
+      "max_replant_rotation_distance": 16,
+      "max_weight_denominator": 120,
+      "min_weight_denominator": 1,
+      "r": 5,
+      "states": 42,
+      "undirected_rotation_edges": 56
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 2282,
+      "max_replant_rotation_distance": 25,
+      "max_weight_denominator": 720,
+      "min_weight_denominator": 1,
+      "r": 6,
+      "states": 132,
+      "undirected_rotation_edges": 210
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 10414,
+      "max_replant_rotation_distance": 36,
+      "max_weight_denominator": 5040,
+      "min_weight_denominator": 1,
+      "r": 7,
+      "states": 429,
+      "undirected_rotation_edges": 792
+    },
+    {
+      "connected": true,
+      "directed_distinct_replant_pairs": 46312,
+      "max_replant_rotation_distance": 49,
+      "max_weight_denominator": 40320,
+      "min_weight_denominator": 1,
+      "r": 8,
+      "states": 1430,
+      "undirected_rotation_edges": 3003
+    }
+  ],
+  "seed": null
+}

@@ -1,0 +1,26 @@
+{
+  "J_estimate": -2006.6296259430676,
+  "block_mean_standard_deviation": 10245.490764784803,
+  "candidate_k_squared_delta_limit": -22.590454314703678,
+  "channel_J_estimates": {
+    "NN": 28.950259718643686,
+    "NS": -118.61272456891582,
+    "SN": -767.1880067717674,
+    "SS": -1149.7791543210278
+  },
+  "claim_tested": "naive unrenormalized generic double/double bulk integral",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-21/mission-M102-central-double-bulk-defect/continuum_bulk_integral.py --power 12 --output experiments/20260811-polynomial-mixing-resolution/cycle-21/mission-M102-central-double-bulk-defect/naive_bulk_qmc_falsifier.json",
+  "convention": "(pq)(x)=p(q(x)); tuple factors multiply left-to-right",
+  "derivation_normalization": "formally k^2 Delta -> J/(9 pi^2), but J is nonintegrable and this transfer is refuted",
+  "epsilon_for_adjacent_B_edge": 2.842170943040401e-14,
+  "invalid_points": 0,
+  "numpy": "1.26.4",
+  "points_requested": 4096,
+  "points_used": 4096,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "scipy": "1.11.4",
+  "scramble_seed": 102,
+  "sobol_power": 12,
+  "status": "deterministic_qmc_falsifier_naive_integral_nonintegrable"
+}

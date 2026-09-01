@@ -1,0 +1,136 @@
+{
+  "cases": [
+    {
+      "KW_identity_states_checked": 64,
+      "candidate_pair_products": 546,
+      "component_moments": {
+        "component_total_variation": "232/125",
+        "size_sum": "0",
+        "sum_M1": "8/75",
+        "sum_M2": "-8/75"
+      },
+      "delta_W": "88171317079/1148653406250",
+      "eta_B_polynomial_1_E_E2": [
+        "-48/25",
+        "0",
+        "10075637745539/10210252500000"
+      ],
+      "eta_H": "88171317079/382884468750",
+      "eta_I_D": "356/5625",
+      "eta_Q_polynomial_1_E_E2": [
+        "-8/75",
+        "88171317079/382884468750",
+        "0"
+      ],
+      "eta_R_polynomial_1_E_E2": [
+        "712/5625",
+        "-88171317079/21271359375",
+        "10075637745539/10210252500000"
+      ],
+      "eta_triangle": "8/75",
+      "eta_triangle_formula": "8/75",
+      "finite_calibration": {
+        "eta_B_at_e": "5.37163676748354801256867469308239424317855266213716002327828",
+        "n2_delta_W": "6.21760806570454550462880325437593242674458834392195491737350",
+        "n_eta_H": "2.07253602190151516820960108479197747558152944797398497245783",
+        "n_eta_Q_at_e": "4.67373700716168647337697686378416363248120713650371390460076"
+      },
+      "k": 3,
+      "large_component_coefficient_tv": "1328/1875",
+      "large_component_sizes": [
+        5,
+        6,
+        7
+      ],
+      "n": 9,
+      "raw_delta_normalization_exact": true,
+      "source_normalization": {
+        "A": "1",
+        "B": "1"
+      },
+      "source_support_A": 30,
+      "source_support_B": 51,
+      "source_support_union": 64
+    },
+    {
+      "KW_identity_states_checked": 810,
+      "candidate_pair_products": 5005,
+      "component_moments": {
+        "component_total_variation": "109814414408/91341421875",
+        "size_sum": "0",
+        "sum_M1": "16/495",
+        "sum_M2": "-16/495"
+      },
+      "delta_W": "1695291490914625522786570513555519576335487455515556827/102946489723298745891637535699714511969978240000000000000",
+      "eta_B_polynomial_1_E_E2": [
+        "-32/33",
+        "0",
+        "73077925347453973355779108467047756359425607682995598110051/82391507275213429628607241071671514413305918080000000000000"
+      ],
+      "eta_H": "1695291490914625522786570513555519576335487455515556827/17157748287216457648606255949952418661663040000000000000",
+      "eta_I_D": "532177996/19729747125",
+      "eta_Q_polynomial_1_E_E2": [
+        "-16/495",
+        "1695291490914625522786570513555519576335487455515556827/17157748287216457648606255949952418661663040000000000000",
+        "0"
+      ],
+      "eta_R_polynomial_1_E_E2": [
+        "1064355992/19729747125",
+        "-1695291490914625522786570513555519576335487455515556827/571924942907215254953541864998413955388768000000000000",
+        "73077925347453973355779108467047756359425607682995598110051/82391507275213429628607241071671514413305918080000000000000"
+      ],
+      "eta_triangle": "16/495",
+      "eta_triangle_formula": "16/495",
+      "finite_calibration": {
+        "eta_B_at_e": "5.58409610732626849462203007327406801960625144177887427671394",
+        "n2_delta_W": "3.70523158663333708036418142495489479506570018034490265726850",
+        "n_eta_H": "1.48209263465333483214567256998195791802628007213796106290740",
+        "n_eta_Q_at_e": "3.54389699202266586763635215017718092590156208522294097487824"
+      },
+      "k": 5,
+      "large_component_coefficient_tv": "1189088825552/2466218390625",
+      "large_component_sizes": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "n": 15,
+      "raw_delta_normalization_exact": true,
+      "source_normalization": {
+        "A": "1",
+        "B": "1"
+      },
+      "source_support_A": 360,
+      "source_support_B": 716,
+      "source_support_union": 810
+    }
+  ],
+  "composition": "(pq)(x)=p(q(x)); displayed products left-to-right",
+  "method": "clean-room literal permutations, exact Fraction arithmetic, formal E polynomials",
+  "mission": "M182",
+  "parameters": {
+    "k": [
+      3,
+      5
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "ratio_series": {
+    "first_ratio_exp_second_coefficient": "43/24",
+    "first_ratio_log_coefficients": [
+      "3/2",
+      "2/3"
+    ],
+    "second_ratio_exp_second_coefficient": "22/3",
+    "second_ratio_log_coefficients": [
+      "3",
+      "17/6"
+    ]
+  },
+  "standard_library_only": true,
+  "status": "all exact assertions passed"
+}

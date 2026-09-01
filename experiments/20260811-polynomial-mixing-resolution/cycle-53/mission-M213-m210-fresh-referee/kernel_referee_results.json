@@ -1,0 +1,41 @@
+{
+  "accounting": {
+    "C3_minus_X3": "111/200",
+    "one_minus_q_minus_T1": "111/200",
+    "verified": true
+  },
+  "all_checks_pass": true,
+  "constant_J_obstruction": {
+    "J_form": "0",
+    "K_form": "1",
+    "cJ_minus_K_form": "-1",
+    "verified": true
+  },
+  "likelihood_lift": {
+    "pi_d2_a1_beta_2_3": "2/5",
+    "positive_psd_increment": "191/72765",
+    "verified": true
+  },
+  "method": "analytic identities plus exact Fraction checks; no scan",
+  "p2_p3": [
+    {
+      "centered_moment": "0",
+      "mean": "0",
+      "name": "P2",
+      "norm2": "1/300",
+      "normalized_child_T1": "1",
+      "parent_first_mode_raw": "0",
+      "parent_lift_charge": "18/35"
+    },
+    {
+      "centered_moment": "0",
+      "mean": "0",
+      "name": "P3",
+      "norm2": "1/4900",
+      "normalized_child_T1": "1",
+      "parent_first_mode_raw": "0",
+      "parent_lift_charge": "32/63"
+    }
+  ],
+  "schema": "M213-clean-room-exact-v1"
+}

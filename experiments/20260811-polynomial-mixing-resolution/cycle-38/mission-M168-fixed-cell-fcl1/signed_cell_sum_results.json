@@ -1,0 +1,145 @@
+{
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "frozen_m161_checks": [
+    {
+      "exact_match": true,
+      "k": 3
+    },
+    {
+      "exact_match": true,
+      "k": 5
+    },
+    {
+      "exact_match": true,
+      "k": 7
+    }
+  ],
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.2839242741785692,
+        "T": 1.3240352138096632
+      },
+      "event_delta_exact": "10075637745539/306307575000000",
+      "event_delta_float": 0.03289385757286283,
+      "exact": true,
+      "k": 3,
+      "k_times_signed_sum": 3.120332818893282,
+      "n": 9,
+      "n_squared_event_delta": 2.6644024634018892,
+      "runtime_seconds": 0.007257097167894244,
+      "signed_sum_exact": "7345139916497931/7061881225000000",
+      "signed_sum_float": 1.040110939631094,
+      "states": 336
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.10426367375735877,
+        "T": 0.5907247133247425
+      },
+      "event_delta_exact": "73077925347453973355779108467047756359425607682995598110051/10875678960328172710976155821460639902556381186560000000000000",
+      "event_delta_float": 0.006719389714796147,
+      "exact": true,
+      "k": 5,
+      "k_times_signed_sum": 2.432305197836919,
+      "n": 15,
+      "n_squared_event_delta": 1.511862685829133,
+      "runtime_seconds": 0.08389995899051428,
+      "signed_sum_exact": "73077925347453973355779108467047756359425607682995598110051/150223593265440401176815963858761531101584168449901928120320",
+      "signed_sum_float": 0.4864610395673838,
+      "states": 3185
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.062443098964805537,
+        "T": 0.37381295035277357
+      },
+      "event_delta_exact": "14526774368601121824031460421993846501138751856648168736011972970027620038634243636809409842464773080010780912735478195570981217946418061/5370673124513739667831121691617718283657261815788986921616074449482844402217732434474001763758626295032596151820321290190848000000000000000",
+      "event_delta_float": 0.0027048330873639557,
+      "exact": true,
+      "k": 7,
+      "k_times_signed_sum": 2.179588959715776,
+      "n": 21,
+      "n_squared_event_delta": 1.1928313915275046,
+      "runtime_seconds": 0.4224893001373857,
+      "signed_sum_exact": "14526774368601121824031460421993846501138751856648168736011972970027620038634243636809409842464773080010780912735478195570981217946418061/46654402485810050467362939124460672319760526601890707082142344711509766931300142343836033943709174377830624442360530993152000000000000000",
+      "signed_sum_float": 0.311369851387968,
+      "states": 13300
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.04449055853666335,
+        "T": 0.2725964781536232
+      },
+      "event_delta_exact": null,
+      "event_delta_float": 0.001438886094363434,
+      "exact": false,
+      "k": 9,
+      "k_times_signed_sum": 2.0529532765485135,
+      "n": 27,
+      "n_squared_event_delta": 1.0489479627909435,
+      "runtime_seconds": 1.136694563087076,
+      "signed_sum_exact": null,
+      "signed_sum_float": 0.22810591961650148,
+      "states": 38025
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.03460746434505916,
+        "T": 0.21434844695032307
+      },
+      "event_delta_exact": null,
+      "event_delta_float": 0.000888623995711879,
+      "exact": false,
+      "k": 11,
+      "k_times_signed_sum": 1.9771508086627627,
+      "n": 33,
+      "n_squared_event_delta": 0.9677115313302362,
+      "runtime_seconds": 3.0170847091358155,
+      "signed_sum_exact": null,
+      "signed_sum_float": 0.1797409826057057,
+      "states": 87296
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.028353900568774258,
+        "T": 0.1765642453310729
+      },
+      "event_delta_exact": null,
+      "event_delta_float": 0.0006020228937066996,
+      "exact": false,
+      "k": 13,
+      "k_times_signed_sum": 1.9267344819015322,
+      "n": 39,
+      "n_squared_event_delta": 0.9156768213278901,
+      "runtime_seconds": 6.582633311161771,
+      "signed_sum_exact": null,
+      "signed_sum_float": 0.14821034476165632,
+      "states": 173641
+    },
+    {
+      "by_intermediate_kind_signed_sum": {
+        "D": -0.0240358486690923,
+        "T": 0.1500885040414423
+      },
+      "event_delta_exact": null,
+      "event_delta_float": 0.0004343432723268038,
+      "exact": false,
+      "k": 15,
+      "k_times_signed_sum": 1.8907898306325202,
+      "n": 45,
+      "n_squared_event_delta": 0.8795451264617777,
+      "runtime_seconds": 13.174823091831058,
+      "signed_sum_exact": null,
+      "signed_sum_float": 0.12605265537550134,
+      "states": 312180
+    }
+  ],
+  "seed": null,
+  "status": "narrow signed fixed-cell phase-sum probe; no sign or asymptotic inference",
+  "target": "M161 FCL1 cell (a,b)=(1,1) only"
+}

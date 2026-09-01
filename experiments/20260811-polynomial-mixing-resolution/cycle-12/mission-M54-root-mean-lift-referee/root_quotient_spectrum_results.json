@@ -1,0 +1,5503 @@
+{
+  "claim_tested": "The normalized root quotient gap gap(G_r)/alpha_r does not decay over the tested range, and the exact aggregate reverse-split target density obeys the derived O(r) bound.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/root_quotient_spectrum.py --r-max 14 --exact-r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/root_quotient_spectrum_results.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "reverse_split": [
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 3,
+      "r": 2,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/3",
+          "mean_split_rate": "1/3",
+          "pmax_upper_bound": "1/3",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "1",
+        "chi_square_RN": "0",
+        "composition": [
+          2
+        ],
+        "fiber_macro_count": 1,
+        "maximum_RN": "1",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/3",
+        "mean_split_rate": "1/3",
+        "pmax_upper_bound": "1/3",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "0"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "1",
+        "chi_square_RN": "0",
+        "composition": [
+          2
+        ],
+        "fiber_macro_count": 1,
+        "maximum_RN": "1",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/3",
+        "mean_split_rate": "1/3",
+        "pmax_upper_bound": "1/3",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "0"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "1",
+        "chi_square_RN": "0",
+        "composition": [
+          2
+        ],
+        "fiber_macro_count": 1,
+        "maximum_RN": "1",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/3",
+        "mean_split_rate": "1/3",
+        "pmax_upper_bound": "1/3",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "0"
+      }
+    },
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 4,
+      "r": 3,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/9",
+          "mean_split_rate": "1/9",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/9",
+          "mean_split_rate": "1/9",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/6",
+          "mean_split_rate": "4/27",
+          "pmax_upper_bound": "2/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/216"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/32",
+        "composition": [
+          3
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "9/8",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/6",
+        "mean_split_rate": "4/27",
+        "pmax_upper_bound": "2/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/216"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/32",
+        "composition": [
+          3
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "9/8",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/6",
+        "mean_split_rate": "4/27",
+        "pmax_upper_bound": "2/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/216"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/32",
+        "composition": [
+          3
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "9/8",
+        "maximum_pointwise_degrees": [
+          [
+            1,
+            1,
+            1,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "1/6",
+        "mean_split_rate": "4/27",
+        "pmax_upper_bound": "2/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/216"
+      }
+    },
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 5,
+      "r": 4,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "1/18",
+          "pmax_upper_bound": "1/18",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "1/18",
+          "pmax_upper_bound": "1/18",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              0,
+              2,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/27",
+          "mean_split_rate": "2/27",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "1/18",
+          "pmax_upper_bound": "1/18",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/9",
+          "mean_split_rate": "1/9",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/8",
+          "composition": [
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "5/4",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "5/54",
+          "mean_split_rate": "2/27",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/108"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "11/216",
+          "composition": [
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "11/9",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "11/108",
+          "mean_split_rate": "1/12",
+          "pmax_upper_bound": "1/6",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "11/2592"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/8",
+        "composition": [
+          3,
+          1
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "5/4",
+        "maximum_pointwise_degrees": [
+          [
+            2,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "5/54",
+        "mean_split_rate": "2/27",
+        "pmax_upper_bound": "1/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/108"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/8",
+        "composition": [
+          3,
+          1
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "5/4",
+        "maximum_pointwise_degrees": [
+          [
+            2,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "5/54",
+        "mean_split_rate": "2/27",
+        "pmax_upper_bound": "1/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/108"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "1/8",
+        "composition": [
+          3,
+          1
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "5/4",
+        "maximum_pointwise_degrees": [
+          [
+            2,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "5/54",
+        "mean_split_rate": "2/27",
+        "pmax_upper_bound": "1/9",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1/108"
+      }
+    },
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 6,
+      "r": 5,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/30",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/30",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/30",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/30",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/128",
+          "composition": [
+            1,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              3,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/20",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/2880"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/30",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/30",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/15",
+          "mean_split_rate": "1/15",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            1,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/20",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/720"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/72",
+          "composition": [
+            1,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "11/9",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              2,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "11/180",
+          "mean_split_rate": "1/20",
+          "pmax_upper_bound": "1/10",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1440"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/30",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/30",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/15",
+          "mean_split_rate": "1/15",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/15",
+          "mean_split_rate": "1/15",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              0,
+              1,
+              3,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "7/90",
+          "mean_split_rate": "7/90",
+          "pmax_upper_bound": "1/10",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "25/128",
+          "composition": [
+            3,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "21/16",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "7/120",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/576"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/49",
+          "composition": [
+            3,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "8/7",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "4/45",
+          "mean_split_rate": "7/90",
+          "pmax_upper_bound": "1/10",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/315"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "35/216",
+          "composition": [
+            4,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "13/9",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/180",
+          "mean_split_rate": "1/20",
+          "pmax_upper_bound": "1/10",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "7/864"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/16",
+          "composition": [
+            5
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "125/96",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              2,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "5/72",
+          "mean_split_rate": "4/75",
+          "pmax_upper_bound": "2/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/300"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "25/128",
+        "composition": [
+          3,
+          1,
+          1
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "21/16",
+        "maximum_pointwise_degrees": [
+          [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "7/120",
+        "mean_split_rate": "2/45",
+        "pmax_upper_bound": "1/15",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "5/576"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "2",
+        "chi_square_RN": "35/216",
+        "composition": [
+          4,
+          1
+        ],
+        "fiber_macro_count": 5,
+        "maximum_RN": "13/9",
+        "maximum_pointwise_degrees": [
+          [
+            2,
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "maximum_pointwise_split_rate": "13/180",
+        "mean_split_rate": "1/20",
+        "pmax_upper_bound": "1/10",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "7/864"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "3/2",
+        "chi_square_RN": "25/128",
+        "composition": [
+          3,
+          1,
+          1
+        ],
+        "fiber_macro_count": 2,
+        "maximum_RN": "21/16",
+        "maximum_pointwise_degrees": [
+          [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "maximum_pointwise_split_rate": "7/120",
+        "mean_split_rate": "2/45",
+        "pmax_upper_bound": "1/15",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "5/576"
+      }
+    },
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 7,
+      "r": 6,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/45",
+          "mean_split_rate": "1/45",
+          "pmax_upper_bound": "1/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/45",
+          "mean_split_rate": "1/45",
+          "pmax_upper_bound": "1/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/50",
+          "composition": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "8/225",
+          "mean_split_rate": "4/135",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/3375"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/45",
+          "mean_split_rate": "1/45",
+          "pmax_upper_bound": "1/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/200",
+          "composition": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "21/20",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "7/225",
+          "mean_split_rate": "4/135",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/6750"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "11/480",
+          "composition": [
+            1,
+            1,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "19/15",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              3,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "19/450",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "11/14400"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/45",
+          "mean_split_rate": "1/45",
+          "pmax_upper_bound": "1/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/392",
+          "composition": [
+            1,
+            2,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "15/14",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              4,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/7560"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "2/25",
+          "composition": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "8/225",
+          "mean_split_rate": "4/135",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "8/3375"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/98",
+          "composition": [
+            1,
+            3,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "15/14",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1890"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/20",
+          "composition": [
+            1,
+            4,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/25",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/600"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "281/12000",
+          "composition": [
+            1,
+            5
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "21/16",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              0,
+              3,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              2,
+              2,
+              2,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "7/150",
+          "mean_split_rate": "8/225",
+          "pmax_upper_bound": "4/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "281/337500"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/45",
+          "mean_split_rate": "1/45",
+          "pmax_upper_bound": "1/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/392",
+          "composition": [
+            2,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "15/14",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              4,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/7560"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "2/45",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/15",
+          "mean_split_rate": "1/15",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/98",
+          "composition": [
+            2,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "15/14",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1890"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/200",
+          "composition": [
+            2,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "17/15",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              3,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "17/270",
+          "mean_split_rate": "1/18",
+          "pmax_upper_bound": "4/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/3600"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "49/200",
+          "composition": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "27/20",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/25",
+          "mean_split_rate": "4/135",
+          "pmax_upper_bound": "2/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "49/6750"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "25/392",
+          "composition": [
+            3,
+            1,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "33/28",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "11/180",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/1512"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "25/392",
+          "composition": [
+            3,
+            2,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "33/28",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "11/180",
+          "mean_split_rate": "7/135",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/1512"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            3,
+            3
+          ],
+          "fiber_macro_count": 4,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              4,
+              4
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/15",
+          "mean_split_rate": "8/135",
+          "pmax_upper_bound": "4/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/540"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "119/480",
+          "composition": [
+            4,
+            1,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "47/30",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "47/900",
+          "mean_split_rate": "1/30",
+          "pmax_upper_bound": "1/15",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "119/14400"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "7/120",
+          "composition": [
+            4,
+            2
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "19/15",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "19/270",
+          "mean_split_rate": "1/18",
+          "pmax_upper_bound": "4/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "7/2160"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "539/3000",
+          "composition": [
+            5,
+            1
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "77/48",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "77/1350",
+          "mean_split_rate": "8/225",
+          "pmax_upper_bound": "4/45",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "539/84375"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "1891/27000",
+          "composition": [
+            6
+          ],
+          "fiber_macro_count": 42,
+          "maximum_RN": "143/100",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              2,
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1,
+              1,
+              3,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "143/2700",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/9",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1891/729000"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "2",
+        "chi_square_RN": "119/480",
+        "composition": [
+          4,
+          1,
+          1
+        ],
+        "fiber_macro_count": 5,
+        "maximum_RN": "47/30",
+        "maximum_pointwise_degrees": [
+          [
+            3,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "maximum_pointwise_split_rate": "47/900",
+        "mean_split_rate": "1/30",
+        "pmax_upper_bound": "1/15",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "119/14400"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "5/2",
+        "chi_square_RN": "539/3000",
+        "composition": [
+          5,
+          1
+        ],
+        "fiber_macro_count": 14,
+        "maximum_RN": "77/48",
+        "maximum_pointwise_degrees": [
+          [
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "maximum_pointwise_split_rate": "77/1350",
+        "mean_split_rate": "8/225",
+        "pmax_upper_bound": "4/45",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "539/84375"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "2",
+        "chi_square_RN": "119/480",
+        "composition": [
+          4,
+          1,
+          1
+        ],
+        "fiber_macro_count": 5,
+        "maximum_RN": "47/30",
+        "maximum_pointwise_degrees": [
+          [
+            3,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "maximum_pointwise_split_rate": "47/900",
+        "mean_split_rate": "1/30",
+        "pmax_upper_bound": "1/15",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "119/14400"
+      }
+    },
+    {
+      "all_pointwise_bounds_hold": true,
+      "n": 8,
+      "r": 7,
+      "records": [
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "5/4",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "5/189",
+          "mean_split_rate": "4/189",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1512"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "4/189",
+          "mean_split_rate": "4/189",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/27",
+          "composition": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "4/3",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              4,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "1/42",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1134"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "8/1225",
+          "composition": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "8/33075"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/42",
+          "mean_split_rate": "4/189",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1512"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/1225",
+          "composition": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "36/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "4/105",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/33075"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "1/50",
+          "composition": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/35",
+          "mean_split_rate": "1/42",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/2100"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1051/32000",
+          "composition": [
+            1,
+            1,
+            5
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "23/16",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              0,
+              3,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              3,
+              3,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "23/630",
+          "mean_split_rate": "8/315",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1051/1260000"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "8/1225",
+          "composition": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "8/33075"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/21",
+          "mean_split_rate": "1/21",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/1225",
+          "composition": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "36/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "4/105",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/33075"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "33/4000",
+          "composition": [
+            1,
+            2,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "29/25",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              4,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "29/630",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "11/33600"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "1/8",
+          "composition": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "5/4",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "5/189",
+          "mean_split_rate": "4/189",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/378"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "32/1225",
+          "composition": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "32/33075"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "32/1225",
+          "composition": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "32/33075"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "5/512",
+          "composition": [
+            1,
+            3,
+            3
+          ],
+          "fiber_macro_count": 4,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              3,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/21",
+          "mean_split_rate": "8/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/12096"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "8/75",
+          "composition": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "4/3",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "1/42",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "4/1575"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "9/500",
+          "composition": [
+            1,
+            4,
+            2
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "28/25",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              3,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1400"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "487/8000",
+          "composition": [
+            1,
+            5,
+            1
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "21/16",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              0,
+              2,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              2,
+              2,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/30",
+          "mean_split_rate": "8/315",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "487/315000"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "4861/162000",
+          "composition": [
+            1,
+            6
+          ],
+          "fiber_macro_count": 42,
+          "maximum_RN": "71/50",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              0,
+              3,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              2,
+              2,
+              2,
+              5,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "71/1890",
+          "mean_split_rate": "5/189",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "4861/6123600"
+        },
+        {
+          "RN_upper_bound": "1",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              6,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/63",
+          "mean_split_rate": "1/63",
+          "pmax_upper_bound": "1/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "8/1225",
+          "composition": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "8/33075"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/21",
+          "mean_split_rate": "1/21",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/1225",
+          "composition": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "36/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "4/105",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/33075"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "33/4000",
+          "composition": [
+            2,
+            1,
+            4
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "29/25",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              4,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "29/630",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "11/33600"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/63",
+          "mean_split_rate": "2/63",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/21",
+          "mean_split_rate": "1/21",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "0",
+          "composition": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "fiber_macro_count": 1,
+          "maximum_RN": "1",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/21",
+          "mean_split_rate": "1/21",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "0"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/800",
+          "composition": [
+            2,
+            2,
+            3
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "21/20",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "10/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/15120"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "32/1225",
+          "composition": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "39/35",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/315",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "32/33075"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/200",
+          "composition": [
+            2,
+            3,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "21/20",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "10/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/3780"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "9/500",
+          "composition": [
+            2,
+            4,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "28/25",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/1400"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "562/63375",
+          "composition": [
+            2,
+            5
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "31/26",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              0,
+              3,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              3,
+              3,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "31/630",
+          "mean_split_rate": "13/315",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "562/1535625"
+        },
+        {
+          "RN_upper_bound": "3/2",
+          "chi_square_RN": "9/32",
+          "composition": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "11/8",
+          "maximum_pointwise_degrees": [
+            [
+              5,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ]
+          ],
+          "maximum_pointwise_split_rate": "11/378",
+          "mean_split_rate": "4/189",
+          "pmax_upper_bound": "2/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1/168"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/25",
+          "composition": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/675"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/25",
+          "composition": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/675"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "13/256",
+          "composition": [
+            3,
+            1,
+            3
+          ],
+          "fiber_macro_count": 4,
+          "maximum_RN": "39/32",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/252",
+          "mean_split_rate": "8/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "13/6048"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "2/25",
+          "composition": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "6/5",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "2/45",
+          "mean_split_rate": "1/27",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "2/675"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1/32",
+          "composition": [
+            3,
+            2,
+            2
+          ],
+          "fiber_macro_count": 2,
+          "maximum_RN": "9/8",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "5/84",
+          "mean_split_rate": "10/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/3024"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "29/512",
+          "composition": [
+            3,
+            3,
+            1
+          ],
+          "fiber_macro_count": 4,
+          "maximum_RN": "39/32",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "13/252",
+          "mean_split_rate": "8/189",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "29/12096"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "73/2312",
+          "composition": [
+            3,
+            4
+          ],
+          "fiber_macro_count": 10,
+          "maximum_RN": "21/17",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              0,
+              2,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              4,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "17/378",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "73/51408"
+        },
+        {
+          "RN_upper_bound": "2",
+          "chi_square_RN": "419/1350",
+          "composition": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "74/45",
+          "maximum_pointwise_degrees": [
+            [
+              4,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "maximum_pointwise_split_rate": "37/945",
+          "mean_split_rate": "1/42",
+          "pmax_upper_bound": "1/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "419/56700"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "357/4000",
+          "composition": [
+            4,
+            1,
+            2
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "67/50",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              3,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "67/1260",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "17/4800"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "357/4000",
+          "composition": [
+            4,
+            2,
+            1
+          ],
+          "fiber_macro_count": 5,
+          "maximum_RN": "67/50",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              3,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "67/1260",
+          "mean_split_rate": "5/126",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "17/4800"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "105/2312",
+          "composition": [
+            4,
+            3
+          ],
+          "fiber_macro_count": 10,
+          "maximum_RN": "21/17",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              1,
+              0,
+              2,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              5,
+              6
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              5,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "1/18",
+          "mean_split_rate": "17/378",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "5/2448"
+        },
+        {
+          "RN_upper_bound": "5/2",
+          "chi_square_RN": "1739/6400",
+          "composition": [
+            5,
+            1,
+            1
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "57/32",
+          "maximum_pointwise_degrees": [
+            [
+              3,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "maximum_pointwise_split_rate": "19/420",
+          "mean_split_rate": "8/315",
+          "pmax_upper_bound": "4/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1739/252000"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "4312/63375",
+          "composition": [
+            5,
+            2
+          ],
+          "fiber_macro_count": 14,
+          "maximum_RN": "107/78",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              4,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "107/1890",
+          "mean_split_rate": "13/315",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "616/219375"
+        },
+        {
+          "RN_upper_bound": "3",
+          "chi_square_RN": "1231/6480",
+          "composition": [
+            6,
+            1
+          ],
+          "fiber_macro_count": 42,
+          "maximum_RN": "87/50",
+          "maximum_pointwise_degrees": [
+            [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              0,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "maximum_pointwise_split_rate": "29/630",
+          "mean_split_rate": "5/189",
+          "pmax_upper_bound": "5/63",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "1231/244944"
+        },
+        {
+          "RN_upper_bound": "7/2",
+          "chi_square_RN": "27901/370440",
+          "composition": [
+            7
+          ],
+          "fiber_macro_count": 132,
+          "maximum_RN": "1099/720",
+          "maximum_pointwise_degrees": [
+            [
+              1,
+              2,
+              0,
+              1,
+              1,
+              1,
+              1,
+              0
+            ]
+          ],
+          "maximum_pointwise_macros": [
+            [
+              0,
+              1,
+              1,
+              3,
+              4,
+              5,
+              6
+            ]
+          ],
+          "maximum_pointwise_split_rate": "157/3780",
+          "mean_split_rate": "4/147",
+          "pmax_upper_bound": "2/21",
+          "pointwise_bounds_hold": true,
+          "q_times_chi_square": "27901/13613670"
+        }
+      ],
+      "split_mean_formula_failures": [],
+      "worst_chi_square_RN": {
+        "RN_upper_bound": "2",
+        "chi_square_RN": "419/1350",
+        "composition": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "fiber_macro_count": 5,
+        "maximum_RN": "74/45",
+        "maximum_pointwise_degrees": [
+          [
+            4,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "maximum_pointwise_split_rate": "37/945",
+        "mean_split_rate": "1/42",
+        "pmax_upper_bound": "1/21",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "419/56700"
+      },
+      "worst_maximum_RN": {
+        "RN_upper_bound": "5/2",
+        "chi_square_RN": "1739/6400",
+        "composition": [
+          5,
+          1,
+          1
+        ],
+        "fiber_macro_count": 14,
+        "maximum_RN": "57/32",
+        "maximum_pointwise_degrees": [
+          [
+            3,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "maximum_pointwise_split_rate": "19/420",
+        "mean_split_rate": "8/315",
+        "pmax_upper_bound": "4/63",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "1739/252000"
+      },
+      "worst_q_times_chi_square": {
+        "RN_upper_bound": "2",
+        "chi_square_RN": "419/1350",
+        "composition": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "fiber_macro_count": 5,
+        "maximum_RN": "74/45",
+        "maximum_pointwise_degrees": [
+          [
+            4,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "maximum_pointwise_macros": [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "maximum_pointwise_split_rate": "37/945",
+        "mean_split_rate": "1/42",
+        "pmax_upper_bound": "1/21",
+        "pointwise_bounds_hold": true,
+        "q_times_chi_square": "419/56700"
+      }
+    }
+  ],
+  "seed": null,
+  "spectrum": [
+    {
+      "gamma_equals_gap_over_alpha": 3.0,
+      "gamma_times_r": 6.0,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 2,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        -1.1102230246251565e-16,
+        3.0
+      ],
+      "state_count": 2,
+      "undirected_edge_count": 1,
+      "zero_residual": 1.1102230246251565e-16
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.8512593350916995,
+      "gamma_times_r": 8.553778005275099,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 3,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        3.677907500906333e-16,
+        2.8512593350916995,
+        3.0,
+        7.482073998241635
+      ],
+      "state_count": 4,
+      "undirected_edge_count": 4,
+      "zero_residual": 3.677907500906333e-16
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.720367711956056,
+      "gamma_times_r": 10.881470847824223,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 4,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        5.679376008308712e-16,
+        2.720367711956056,
+        2.8512593350917013,
+        3.129076232244252,
+        7.221276515277389
+      ],
+      "state_count": 8,
+      "undirected_edge_count": 12,
+      "zero_residual": 5.679376008308712e-16
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.6161566708741435,
+      "gamma_times_r": 13.080783354370718,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 5,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        6.060575079678684e-16,
+        2.6161566708741435,
+        2.7269148877986176,
+        3.062398539225727,
+        3.1609697089577478
+      ],
+      "state_count": 16,
+      "undirected_edge_count": 32,
+      "zero_residual": 6.060575079678684e-16
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.532904136702921,
+      "gamma_times_r": 15.197424820217524,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 6,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        4.2860517228844415e-15,
+        2.532904136702921,
+        2.6270411498549793,
+        2.9924938761588797,
+        3.0865827277997075
+      ],
+      "state_count": 32,
+      "undirected_edge_count": 80,
+      "zero_residual": 4.2860517228844415e-15
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.46512441877238,
+      "gamma_times_r": 17.255870931406662,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 7,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        -1.3331525885403501e-14,
+        2.46512441877238,
+        2.546288104739018,
+        2.9246125499288578,
+        3.0123017568178327
+      ],
+      "state_count": 64,
+      "undirected_edge_count": 192,
+      "zero_residual": 1.3331525885403501e-14
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.4088600234552104,
+      "gamma_times_r": 19.270880187641684,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 8,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        6.675414585132024e-15,
+        2.4088600234552104,
+        2.479936512893014,
+        2.8616269441809163,
+        2.9423523482699534
+      ],
+      "state_count": 128,
+      "undirected_edge_count": 448,
+      "zero_residual": 6.675414585132024e-15
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.3613440036136795,
+      "gamma_times_r": 21.252096032523117,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 9,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        5.372626899014741e-16,
+        2.3613440036136795,
+        2.424496525102129,
+        2.8043543236038735,
+        2.8783571314858056
+      ],
+      "state_count": 256,
+      "undirected_edge_count": 1024,
+      "zero_residual": 5.372626899014741e-16
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.320619046542657,
+      "gamma_times_r": 23.20619046542657,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 10,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        2.1133825129921992e-14,
+        2.320619046542657,
+        2.377459405294637,
+        2.752643319435699,
+        2.8204954170438072
+      ],
+      "state_count": 512,
+      "undirected_edge_count": 2304,
+      "zero_residual": 2.1133825129921992e-14
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.2852711567495674,
+      "gamma_times_r": 25.13798272424524,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 11,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        -5.068777073105788e-15,
+        2.2852711567495674,
+        2.337010730701757,
+        2.705992260614852,
+        2.7683522968407823
+      ],
+      "state_count": 1024,
+      "undirected_edge_count": 5120,
+      "zero_residual": 5.068777073105788e-15
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.2542561214196026,
+      "gamma_times_r": 27.05107345703523,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 12,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        -9.986407506467634e-15,
+        2.2542561214196026,
+        2.301817471230769,
+        2.6638188509452774,
+        2.721326097303241
+      ],
+      "state_count": 2048,
+      "undirected_edge_count": 11264,
+      "zero_residual": 9.986407506467634e-15
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.2267867290803647,
+      "gamma_times_r": 28.948227478044743,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 13,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        -3.740310449306817e-15,
+        2.2267867290803647,
+        2.270882557537802,
+        2.62556512570137,
+        2.6787995332869894
+      ],
+      "state_count": 4096,
+      "undirected_edge_count": 24576,
+      "zero_residual": 3.740310449306817e-15
+    },
+    {
+      "gamma_equals_gap_over_alpha": 2.202258318450244,
+      "gamma_times_r": 30.831616458303415,
+      "proved_lower_constant_one_over_3e": 0.12262648039048077,
+      "r": 14,
+      "smallest_eigenvalues_of_minus_G_over_alpha": [
+        1.4179837426346582e-14,
+        2.202258318450244,
+        2.243446944496095,
+        2.590732522796994,
+        2.640204328501287
+      ],
+      "state_count": 8192,
+      "undirected_edge_count": 53248,
+      "zero_residual": 1.4179837426346582e-14
+    }
+  ],
+  "universal_scope": "A failure refutes the named formula/bound.  A finite pass or stable numerical spectrum proves no asymptotic gap theorem."
+}

@@ -1,0 +1,438 @@
+{
+  "arguments": {
+    "d": [
+      2,
+      3,
+      4
+    ],
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-21/mission-M104-partial-fiber-handle-cycle/results.json"
+  },
+  "cases": [
+    {
+      "candidate_words": 1,
+      "component_length_failures": 0,
+      "connected_genus_one_states": 1,
+      "d": 2,
+      "first_cell_where_lift_tilt_is_nonconstant": null,
+      "incidence_failures": {},
+      "internal_move_counts": {
+        "proposals": 4
+      },
+      "largest_cell": 1,
+      "lifted_states": 1,
+      "maximum_within_cell_ell_ratio": 1.0,
+      "one_side_handle_distance_failures": 0,
+      "p_identity_full_minimal_left_square_right_cells": [
+        {
+          "cell_size": 1,
+          "edge": [
+            0,
+            1
+          ],
+          "ell_histogram": {
+            "1": 1
+          },
+          "left_words": 1,
+          "present": true,
+          "right_words": 1
+        }
+      ],
+      "product_count_failures": 0,
+      "seam_cells": 1,
+      "seam_move_counts": {
+        "proposals": 2,
+        "self": 2
+      }
+    },
+    {
+      "candidate_words": 729,
+      "component_length_failures": 0,
+      "connected_genus_one_states": 240,
+      "d": 3,
+      "first_cell_where_lift_tilt_is_nonconstant": {
+        "Q_L": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "Q_R": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "ell_values": [
+          1,
+          3
+        ],
+        "j": 2,
+        "p": [
+          0,
+          1,
+          2
+        ],
+        "words": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "incidence_failures": {},
+      "internal_move_counts": {
+        "proposals": 2688
+      },
+      "largest_cell": 64,
+      "lifted_states": 336,
+      "maximum_within_cell_ell_ratio": 3.0,
+      "one_side_handle_distance_failures": 0,
+      "p_identity_full_minimal_left_square_right_cells": [
+        {
+          "cell_size": 24,
+          "edge": [
+            0,
+            1
+          ],
+          "ell_histogram": {
+            "1": 8,
+            "2": 12,
+            "3": 4
+          },
+          "left_words": 24,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 24,
+          "edge": [
+            0,
+            2
+          ],
+          "ell_histogram": {
+            "1": 8,
+            "2": 12,
+            "3": 4
+          },
+          "left_words": 24,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 24,
+          "edge": [
+            1,
+            2
+          ],
+          "ell_histogram": {
+            "1": 8,
+            "2": 12,
+            "3": 4
+          },
+          "left_words": 24,
+          "present": true,
+          "right_words": 1
+        }
+      ],
+      "product_count_failures": 0,
+      "seam_cells": 9,
+      "seam_move_counts": {
+        "offdiag_changed_key": 180,
+        "offdiag_lost_admissibility": 264,
+        "proposals": 672,
+        "self": 228
+      }
+    },
+    {
+      "candidate_words": 1679616,
+      "component_length_failures": 0,
+      "connected_genus_one_states": 131040,
+      "d": 4,
+      "first_cell_where_lift_tilt_is_nonconstant": {
+        "Q_L": [
+          [
+            0,
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "Q_R": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "ell_values": [
+          1,
+          5
+        ],
+        "j": 2,
+        "p": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "words": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "incidence_failures": {},
+      "internal_move_counts": {
+        "proposals": 2816640
+      },
+      "largest_cell": 9216,
+      "lifted_states": 234720,
+      "maximum_within_cell_ell_ratio": 5.0,
+      "one_side_handle_distance_failures": 0,
+      "p_identity_full_minimal_left_square_right_cells": [
+        {
+          "cell_size": 2880,
+          "edge": [
+            0,
+            1
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 2880,
+          "edge": [
+            0,
+            2
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 2880,
+          "edge": [
+            0,
+            3
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 2880,
+          "edge": [
+            1,
+            2
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 2880,
+          "edge": [
+            1,
+            3
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        },
+        {
+          "cell_size": 2880,
+          "edge": [
+            2,
+            3
+          ],
+          "ell_histogram": {
+            "1": 480,
+            "2": 744,
+            "3": 936,
+            "4": 528,
+            "5": 192
+          },
+          "left_words": 2880,
+          "present": true,
+          "right_words": 1
+        }
+      ],
+      "product_count_failures": 0,
+      "seam_cells": 101,
+      "seam_move_counts": {
+        "offdiag_changed_key": 173232,
+        "offdiag_lost_admissibility": 219552,
+        "proposals": 469440,
+        "self": 76656
+      }
+    }
+  ],
+  "claim_tested": "At a fixed admissible (j,p,Q_L,Q_R), the raw word fiber is a side product; the lift has only the 1/ell tilt; internal signed moves preserve the key while nontrivial seam moves do not.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); tuple factors left-to-right",
+  "dependencies": {},
+  "elapsed_seconds": 42.33237266540527,
+  "kernel_proposals": "both signed adjacent Hurwitz orientations; laziness omitted from proposal counts",
+  "python": "3.12.3",
+  "scope_warning": "Exact finite enumeration only for d<=4. Positive observations are proof calibration, never asymptotic gap evidence.",
+  "seed": null,
+  "target": "uniform connected identity words of length 2d, genus one"
+}

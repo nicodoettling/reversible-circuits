@@ -1,0 +1,263 @@
+{
+  "claim_tested": "The raw edge-set projection of a uniform reduced long-cycle factorization has pairwise nonpositive edge correlations.",
+  "convention": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "denes_expected": 125,
+  "distinct_raw_trees": 55,
+  "endpoint": [
+    1,
+    2,
+    3,
+    4,
+    0
+  ],
+  "n": 5,
+  "number_positive_pair_correlations": 15,
+  "python": "3.12.3",
+  "seed": null,
+  "strongest_witnesses": [
+    {
+      "cross_multiplied_excess": 696,
+      "edge_e": [
+        0,
+        1
+      ],
+      "edge_f": [
+        2,
+        4
+      ],
+      "joint_count": 24,
+      "joint_probability": 0.192,
+      "marginal_e_count": 64,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.147456
+    },
+    {
+      "cross_multiplied_excess": 696,
+      "edge_e": [
+        1,
+        4
+      ],
+      "edge_f": [
+        2,
+        3
+      ],
+      "joint_count": 24,
+      "joint_probability": 0.192,
+      "marginal_e_count": 36,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.147456
+    },
+    {
+      "cross_multiplied_excess": 696,
+      "edge_e": [
+        0,
+        2
+      ],
+      "edge_f": [
+        3,
+        4
+      ],
+      "joint_count": 24,
+      "joint_probability": 0.192,
+      "marginal_e_count": 36,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.147456
+    },
+    {
+      "cross_multiplied_excess": 696,
+      "edge_e": [
+        0,
+        3
+      ],
+      "edge_f": [
+        1,
+        2
+      ],
+      "joint_count": 24,
+      "joint_probability": 0.192,
+      "marginal_e_count": 36,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.147456
+    },
+    {
+      "cross_multiplied_excess": 696,
+      "edge_e": [
+        0,
+        4
+      ],
+      "edge_f": [
+        1,
+        3
+      ],
+      "joint_count": 24,
+      "joint_probability": 0.192,
+      "marginal_e_count": 64,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.147456
+    },
+    {
+      "cross_multiplied_excess": 404,
+      "edge_e": [
+        0,
+        1
+      ],
+      "edge_f": [
+        2,
+        3
+      ],
+      "joint_count": 36,
+      "joint_probability": 0.288,
+      "marginal_e_count": 64,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.262144
+    },
+    {
+      "cross_multiplied_excess": 404,
+      "edge_e": [
+        0,
+        1
+      ],
+      "edge_f": [
+        3,
+        4
+      ],
+      "joint_count": 36,
+      "joint_probability": 0.288,
+      "marginal_e_count": 64,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.262144
+    },
+    {
+      "cross_multiplied_excess": 404,
+      "edge_e": [
+        1,
+        2
+      ],
+      "edge_f": [
+        3,
+        4
+      ],
+      "joint_count": 36,
+      "joint_probability": 0.288,
+      "marginal_e_count": 64,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.262144
+    },
+    {
+      "cross_multiplied_excess": 404,
+      "edge_e": [
+        0,
+        4
+      ],
+      "edge_f": [
+        1,
+        2
+      ],
+      "joint_count": 36,
+      "joint_probability": 0.288,
+      "marginal_e_count": 64,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.262144
+    },
+    {
+      "cross_multiplied_excess": 404,
+      "edge_e": [
+        0,
+        4
+      ],
+      "edge_f": [
+        2,
+        3
+      ],
+      "joint_count": 36,
+      "joint_probability": 0.288,
+      "marginal_e_count": 64,
+      "marginal_f_count": 64,
+      "product_of_marginals": 0.262144
+    },
+    {
+      "cross_multiplied_excess": 204,
+      "edge_e": [
+        1,
+        3
+      ],
+      "edge_f": [
+        1,
+        4
+      ],
+      "joint_count": 12,
+      "joint_probability": 0.096,
+      "marginal_e_count": 36,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.082944
+    },
+    {
+      "cross_multiplied_excess": 204,
+      "edge_e": [
+        1,
+        4
+      ],
+      "edge_f": [
+        2,
+        4
+      ],
+      "joint_count": 12,
+      "joint_probability": 0.096,
+      "marginal_e_count": 36,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.082944
+    },
+    {
+      "cross_multiplied_excess": 204,
+      "edge_e": [
+        0,
+        2
+      ],
+      "edge_f": [
+        2,
+        4
+      ],
+      "joint_count": 12,
+      "joint_probability": 0.096,
+      "marginal_e_count": 36,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.082944
+    },
+    {
+      "cross_multiplied_excess": 204,
+      "edge_e": [
+        0,
+        2
+      ],
+      "edge_f": [
+        0,
+        3
+      ],
+      "joint_count": 12,
+      "joint_probability": 0.096,
+      "marginal_e_count": 36,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.082944
+    },
+    {
+      "cross_multiplied_excess": 204,
+      "edge_e": [
+        0,
+        3
+      ],
+      "edge_f": [
+        1,
+        3
+      ],
+      "joint_count": 12,
+      "joint_probability": 0.096,
+      "marginal_e_count": 36,
+      "marginal_f_count": 36,
+      "product_of_marginals": 0.082944
+    }
+  ],
+  "total_factorizations": 125,
+  "tree_weight_max": 5,
+  "tree_weight_min": 1,
+  "universal_implication": "A positive witness refutes strong Rayleighness and direct use of the homogeneous-strongly-Rayleigh basis-exchange theorem for this raw projection."
+}

@@ -1,0 +1,6093 @@
+{
+  "claim_tested": "All individual reverse-split target-bias densities have polynomial-looking H-minus-one norm in the exact rejected-exit root-fiber restriction through r <= 7.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/spine_bias_hminus.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-12/mission-M54-root-mean-lift-referee/spine_bias_hminus_results.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "records": [
+    {
+      "macro_count": 2,
+      "maximum_individual": {
+        "coarse_composition": [
+          2
+        ],
+        "coefficient_hminus_over_mean_rate": 0.0,
+        "density_chi_square": 0.0,
+        "density_max": 1.0,
+        "hminus_norm_squared": 0.0,
+        "mean_split_rate": 0.3333333333333333,
+        "refined_composition": [
+          1,
+          1
+        ]
+      },
+      "maximum_nullspace_projection_residual": 0.0,
+      "maximum_sum": {
+        "coarse_composition": [
+          1,
+          1
+        ],
+        "edge_rows": [],
+        "fiber_size": 1,
+        "sum_bias_coefficients": 0.0
+      },
+      "r": 2,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.3333333333333333,
+              "refined_composition": [
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        }
+      ]
+    },
+    {
+      "macro_count": 5,
+      "maximum_individual": {
+        "coarse_composition": [
+          3
+        ],
+        "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+        "density_chi_square": 0.5,
+        "density_max": 1.5,
+        "hminus_norm_squared": 0.008230452674897117,
+        "mean_split_rate": 0.07407407407407407,
+        "refined_composition": [
+          1,
+          2
+        ]
+      },
+      "maximum_nullspace_projection_residual": 2.3012212000632656e-19,
+      "maximum_sum": {
+        "coarse_composition": [
+          3
+        ],
+        "edge_rows": [
+          {
+            "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+            "density_chi_square": 0.5,
+            "density_max": 1.5,
+            "hminus_norm_squared": 0.008230452674897117,
+            "mean_split_rate": 0.07407407407407407,
+            "refined_composition": [
+              1,
+              2
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.02777777777777777,
+            "density_chi_square": 0.125,
+            "density_max": 1.5,
+            "hminus_norm_squared": 0.002057613168724279,
+            "mean_split_rate": 0.07407407407407407,
+            "refined_composition": [
+              2,
+              1
+            ]
+          }
+        ],
+        "fiber_size": 2,
+        "sum_bias_coefficients": 0.13888888888888884
+      },
+      "r": 3,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.1111111111111111,
+              "refined_composition": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.1111111111111111,
+              "refined_composition": [
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.008230452674897117,
+              "mean_split_rate": 0.07407407407407407,
+              "refined_composition": [
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.02777777777777777,
+              "density_chi_square": 0.125,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.002057613168724279,
+              "mean_split_rate": 0.07407407407407407,
+              "refined_composition": [
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888884
+        }
+      ]
+    },
+    {
+      "macro_count": 14,
+      "maximum_individual": {
+        "coarse_composition": [
+          4
+        ],
+        "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+        "density_chi_square": 0.7777777777777777,
+        "density_max": 1.7777777777777777,
+        "hminus_norm_squared": 0.004717426915322575,
+        "mean_split_rate": 0.03125,
+        "refined_composition": [
+          1,
+          3
+        ]
+      },
+      "maximum_nullspace_projection_residual": 5.413380044502636e-18,
+      "maximum_sum": {
+        "coarse_composition": [
+          4
+        ],
+        "edge_rows": [
+          {
+            "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+            "density_chi_square": 0.7777777777777777,
+            "density_max": 1.7777777777777777,
+            "hminus_norm_squared": 0.004717426915322575,
+            "mean_split_rate": 0.03125,
+            "refined_composition": [
+              1,
+              3
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.1396169354838708,
+            "density_chi_square": 0.9999999999999999,
+            "density_max": 2.6666666666666665,
+            "hminus_norm_squared": 0.002908686155913975,
+            "mean_split_rate": 0.020833333333333332,
+            "refined_composition": [
+              2,
+              2
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.049105809438470684,
+            "density_chi_square": 0.25102880658436216,
+            "density_max": 1.777777777777778,
+            "hminus_norm_squared": 0.0015345565449522086,
+            "mean_split_rate": 0.031249999999999997,
+            "refined_composition": [
+              3,
+              1
+            ]
+          }
+        ],
+        "fiber_size": 5,
+        "sum_bias_coefficients": 0.3396804062126639
+      },
+      "r": 4,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.05555555555555555,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.05555555555555555,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.004115226337448558,
+              "mean_split_rate": 0.037037037037037035,
+              "refined_composition": [
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.004115226337448558,
+              "mean_split_rate": 0.037037037037037035,
+              "refined_composition": [
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.22222222222222215
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.05555555555555555,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.05555555555555555,
+              "refined_composition": [
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.05555555555555555,
+              "refined_composition": [
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.004115226337448558,
+              "mean_split_rate": 0.037037037037037035,
+              "refined_composition": [
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.037037037037037035,
+              "refined_composition": [
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11111111111111108
+        },
+        {
+          "coarse_composition": [
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.004717426915322575,
+              "mean_split_rate": 0.03125,
+              "refined_composition": [
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1396169354838708,
+              "density_chi_square": 0.9999999999999999,
+              "density_max": 2.6666666666666665,
+              "hminus_norm_squared": 0.002908686155913975,
+              "mean_split_rate": 0.020833333333333332,
+              "refined_composition": [
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.049105809438470684,
+              "density_chi_square": 0.25102880658436216,
+              "density_max": 1.777777777777778,
+              "hminus_norm_squared": 0.0015345565449522086,
+              "mean_split_rate": 0.031249999999999997,
+              "refined_composition": [
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.3396804062126639
+        }
+      ]
+    },
+    {
+      "macro_count": 42,
+      "maximum_individual": {
+        "coarse_composition": [
+          1,
+          4
+        ],
+        "coefficient_hminus_over_mean_rate": 0.22339829749103904,
+        "density_chi_square": 1.6666666666666663,
+        "density_max": 3.5555555555555554,
+        "hminus_norm_squared": 0.0027924787186379882,
+        "mean_split_rate": 0.0125,
+        "refined_composition": [
+          1,
+          2,
+          2
+        ]
+      },
+      "maximum_nullspace_projection_residual": 4.183847816057085e-18,
+      "maximum_sum": {
+        "coarse_composition": [
+          5
+        ],
+        "edge_rows": [
+          {
+            "coefficient_hminus_over_mean_rate": 0.1723365558925806,
+            "density_chi_square": 0.9531249999999999,
+            "density_max": 1.9531249999999998,
+            "hminus_norm_squared": 0.0029412105539000422,
+            "mean_split_rate": 0.017066666666666667,
+            "refined_composition": [
+              1,
+              4
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.1798563238604432,
+            "density_chi_square": 1.6041666666666665,
+            "density_max": 3.472222222222222,
+            "hminus_norm_squared": 0.0017266207090602548,
+            "mean_split_rate": 0.009600000000000001,
+            "refined_composition": [
+              2,
+              3
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.16151810857916787,
+            "density_chi_square": 1.4434156378600824,
+            "density_max": 3.472222222222222,
+            "hminus_norm_squared": 0.0015505738423600118,
+            "mean_split_rate": 0.009600000000000001,
+            "refined_composition": [
+              3,
+              2
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.06251740185549301,
+            "density_chi_square": 0.3326009114583332,
+            "density_max": 1.9531249999999996,
+            "hminus_norm_squared": 0.0010669636583337477,
+            "mean_split_rate": 0.01706666666666667,
+            "refined_composition": [
+              4,
+              1
+            ]
+          }
+        ],
+        "fiber_size": 14,
+        "sum_bias_coefficients": 0.5762283901876848
+      },
+      "r": 5,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5000000000000001,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.002469135802469135,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111105,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.003858024691358023,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.2847222222222221
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5000000000000001,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.002469135802469135,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777762,
+              "density_chi_square": 0.12500000000000003,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.0006172839506172835,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888884
+        },
+        {
+          "coarse_composition": [
+            1,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032237,
+              "density_chi_square": 0.7777777777777779,
+              "density_max": 1.777777777777778,
+              "hminus_norm_squared": 0.0028304561491935445,
+              "mean_split_rate": 0.01875,
+              "refined_composition": [
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.22339829749103904,
+              "density_chi_square": 1.6666666666666663,
+              "density_max": 3.5555555555555554,
+              "hminus_norm_squared": 0.0027924787186379882,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1452079599761051,
+              "density_chi_square": 0.7448559670781894,
+              "density_max": 2.666666666666667,
+              "hminus_norm_squared": 0.002722649249551971,
+              "mean_split_rate": 0.01875,
+              "refined_composition": [
+                1,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.5195639187574665
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5000000000000001,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.002469135802469135,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1111111111111111,
+              "density_chi_square": 0.5,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.0024691358024691358,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.22222222222222218
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5000000000000001,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.002469135802469135,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444444,
+              "density_chi_square": 0.03125,
+              "density_max": 1.125,
+              "hminus_norm_squared": 0.00015432098765432098,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11805555555555552
+        },
+        {
+          "coarse_composition": [
+            3,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111108,
+              "density_chi_square": 0.5000000000000001,
+              "density_max": 1.5000000000000002,
+              "hminus_norm_squared": 0.002469135802469135,
+              "mean_split_rate": 0.02222222222222222,
+              "refined_composition": [
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.03333333333333333,
+              "refined_composition": [
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11111111111111108
+        },
+        {
+          "coarse_composition": [
+            4,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032237,
+              "density_chi_square": 0.7777777777777779,
+              "density_max": 1.777777777777778,
+              "hminus_norm_squared": 0.0028304561491935445,
+              "mean_split_rate": 0.01875,
+              "refined_composition": [
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.10243055555555551,
+              "density_chi_square": 0.7777777777777776,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001280381944444444,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.015727673237753842,
+              "density_chi_square": 0.08641975308641972,
+              "density_max": 1.4814814814814814,
+              "hminus_norm_squared": 0.00029489387320788454,
+              "mean_split_rate": 0.01875,
+              "refined_composition": [
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.2691158900836317
+        },
+        {
+          "coarse_composition": [
+            5
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925806,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.9531249999999998,
+              "hminus_norm_squared": 0.0029412105539000422,
+              "mean_split_rate": 0.017066666666666667,
+              "refined_composition": [
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1798563238604432,
+              "density_chi_square": 1.6041666666666665,
+              "density_max": 3.472222222222222,
+              "hminus_norm_squared": 0.0017266207090602548,
+              "mean_split_rate": 0.009600000000000001,
+              "refined_composition": [
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.16151810857916787,
+              "density_chi_square": 1.4434156378600824,
+              "density_max": 3.472222222222222,
+              "hminus_norm_squared": 0.0015505738423600118,
+              "mean_split_rate": 0.009600000000000001,
+              "refined_composition": [
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.06251740185549301,
+              "density_chi_square": 0.3326009114583332,
+              "density_max": 1.9531249999999996,
+              "hminus_norm_squared": 0.0010669636583337477,
+              "mean_split_rate": 0.01706666666666667,
+              "refined_composition": [
+                4,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.5762283901876848
+        }
+      ]
+    },
+    {
+      "macro_count": 132,
+      "maximum_individual": {
+        "coarse_composition": [
+          1,
+          1,
+          4
+        ],
+        "coefficient_hminus_over_mean_rate": 0.2827620967741931,
+        "density_chi_square": 2.1666666666666665,
+        "density_max": 4.0,
+        "hminus_norm_squared": 0.002356350806451609,
+        "mean_split_rate": 0.008333333333333333,
+        "refined_composition": [
+          1,
+          1,
+          2,
+          2
+        ]
+      },
+      "maximum_nullspace_projection_residual": 5.058360851811795e-18,
+      "maximum_sum": {
+        "coarse_composition": [
+          1,
+          5
+        ],
+        "edge_rows": [
+          {
+            "coefficient_hminus_over_mean_rate": 0.17233655589258057,
+            "density_chi_square": 0.9531249999999999,
+            "density_max": 1.953125,
+            "hminus_norm_squared": 0.001960807035933361,
+            "mean_split_rate": 0.011377777777777778,
+            "refined_composition": [
+              1,
+              1,
+              4
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.26264022103495727,
+            "density_chi_square": 2.4722222222222228,
+            "density_max": 4.62962962962963,
+            "hminus_norm_squared": 0.0016808974146237266,
+            "mean_split_rate": 0.0064,
+            "refined_composition": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.2578780563131381,
+            "density_chi_square": 2.4079218106995883,
+            "density_max": 5.208333333333332,
+            "hminus_norm_squared": 0.001650419560404084,
+            "mean_split_rate": 0.006400000000000001,
+            "refined_composition": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.164734109707158,
+            "density_chi_square": 0.8969726562499998,
+            "density_max": 3.1249999999999996,
+            "hminus_norm_squared": 0.001874308092668109,
+            "mean_split_rate": 0.01137777777777778,
+            "refined_composition": [
+              1,
+              4,
+              1
+            ]
+          }
+        ],
+        "fiber_size": 14,
+        "sum_bias_coefficients": 0.8575889429478338
+      },
+      "r": 6,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21777777777777776,
+              "density_chi_square": 0.9800000000000003,
+              "density_max": 2.4000000000000004,
+              "hminus_norm_squared": 0.0032263374485596704,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.32888888888888884
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07111111111111111,
+              "density_chi_square": 0.3200000000000001,
+              "density_max": 1.8000000000000003,
+              "hminus_norm_squared": 0.0010534979423868311,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.18222222222222217
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00188697076612903,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2827620967741931,
+              "density_chi_square": 2.1666666666666665,
+              "density_max": 4.0,
+              "hminus_norm_squared": 0.002356350806451609,
+              "mean_split_rate": 0.008333333333333333,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2192103494623653,
+              "density_chi_square": 1.1333333333333333,
+              "density_max": 3.1999999999999997,
+              "hminus_norm_squared": 0.0027401293682795666,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.6529301075268809
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111108,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.002572016460905349,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.28472222222222215
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.004444444444444442,
+              "density_chi_square": 0.01999999999999999,
+              "density_max": 1.2,
+              "hminus_norm_squared": 6.584362139917692e-05,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11555555555555551
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777766,
+              "density_chi_square": 0.125,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0004115226337448558,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888884
+        },
+        {
+          "coarse_composition": [
+            1,
+            4,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00188697076612903,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1396169354838708,
+              "density_chi_square": 1.0000000000000002,
+              "density_max": 2.666666666666667,
+              "hminus_norm_squared": 0.00116347446236559,
+              "mean_split_rate": 0.008333333333333333,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.04695228494623651,
+              "density_chi_square": 0.24444444444444438,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.0005869035618279564,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.33752688172042966
+        },
+        {
+          "coarse_composition": [
+            1,
+            5
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.17233655589258057,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.001960807035933361,
+              "mean_split_rate": 0.011377777777777778,
+              "refined_composition": [
+                1,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.26264022103495727,
+              "density_chi_square": 2.4722222222222228,
+              "density_max": 4.62962962962963,
+              "hminus_norm_squared": 0.0016808974146237266,
+              "mean_split_rate": 0.0064,
+              "refined_composition": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2578780563131381,
+              "density_chi_square": 2.4079218106995883,
+              "density_max": 5.208333333333332,
+              "hminus_norm_squared": 0.001650419560404084,
+              "mean_split_rate": 0.006400000000000001,
+              "refined_composition": [
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.164734109707158,
+              "density_chi_square": 0.8969726562499998,
+              "density_max": 3.1249999999999996,
+              "hminus_norm_squared": 0.001874308092668109,
+              "mean_split_rate": 0.01137777777777778,
+              "refined_composition": [
+                1,
+                4,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.8575889429478338
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111108,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.002572016460905349,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.28472222222222215
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777766,
+              "density_chi_square": 0.125,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0004115226337448558,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888884
+        },
+        {
+          "coarse_composition": [
+            2,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                1,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00188697076612903,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                2,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2233982974910391,
+              "density_chi_square": 1.6666666666666667,
+              "density_max": 3.555555555555556,
+              "hminus_norm_squared": 0.0018616524790919925,
+              "mean_split_rate": 0.008333333333333333,
+              "refined_composition": [
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.14520795997610494,
+              "density_chi_square": 0.7448559670781891,
+              "density_max": 2.6666666666666665,
+              "hminus_norm_squared": 0.001815099499701312,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                2,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.5195639187574664
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.017777777777777778,
+              "density_chi_square": 0.08000000000000002,
+              "density_max": 1.2000000000000002,
+              "hminus_norm_squared": 0.0002633744855967078,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.12888888888888883
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444442,
+              "density_chi_square": 0.03124999999999998,
+              "density_max": 1.125,
+              "hminus_norm_squared": 0.00010288065843621395,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11805555555555551
+        },
+        {
+          "coarse_composition": [
+            3,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111106,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794232,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444442,
+              "density_chi_square": 0.03124999999999998,
+              "density_max": 1.125,
+              "hminus_norm_squared": 0.00010288065843621395,
+              "mean_split_rate": 0.014814814814814814,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11805555555555551
+        },
+        {
+          "coarse_composition": [
+            3,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0016460905349794236,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                2,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111105,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.001646090534979423,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                3,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111105,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.001646090534979423,
+              "mean_split_rate": 0.014814814814814815,
+              "refined_composition": [
+                3,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 4,
+          "sum_bias_coefficients": 0.3333333333333332
+        },
+        {
+          "coarse_composition": [
+            4,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00188697076612903,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.10131048387096768,
+              "density_chi_square": 0.8333333333333334,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.000844254032258064,
+              "mean_split_rate": 0.008333333333333333,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.023377016129032216,
+              "density_chi_square": 0.1259259259259259,
+              "density_max": 1.5999999999999999,
+              "hminus_norm_squared": 0.00029221270161290273,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.2756451612903223
+        },
+        {
+          "coarse_composition": [
+            4,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1509576612903224,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00188697076612903,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.10243055555555543,
+              "density_chi_square": 0.777777777777778,
+              "density_max": 1.777777777777778,
+              "hminus_norm_squared": 0.0008535879629629619,
+              "mean_split_rate": 0.008333333333333333,
+              "refined_composition": [
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.015727673237753856,
+              "density_chi_square": 0.08641975308641975,
+              "density_max": 1.4814814814814814,
+              "hminus_norm_squared": 0.00019659591547192321,
+              "mean_split_rate": 0.0125,
+              "refined_composition": [
+                3,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.022222222222222223,
+              "refined_composition": [
+                4,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.2691158900836317
+        },
+        {
+          "coarse_composition": [
+            5,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.17233655589258057,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.001960807035933361,
+              "mean_split_rate": 0.011377777777777778,
+              "refined_composition": [
+                1,
+                4,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.14087279139008319,
+              "density_chi_square": 1.3148148148148149,
+              "density_max": 2.314814814814815,
+              "hminus_norm_squared": 0.0009015858648965324,
+              "mean_split_rate": 0.0064,
+              "refined_composition": [
+                2,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11743375402778412,
+              "density_chi_square": 1.1219135802469136,
+              "density_max": 2.893518518518518,
+              "hminus_norm_squared": 0.0007515760257778185,
+              "mean_split_rate": 0.0064,
+              "refined_composition": [
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.026050393673592822,
+              "density_chi_square": 0.14420572916666663,
+              "density_max": 1.7578125,
+              "hminus_norm_squared": 0.0002963955902417672,
+              "mean_split_rate": 0.011377777777777778,
+              "refined_composition": [
+                4,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.45669349498404066
+        },
+        {
+          "coarse_composition": [
+            6
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.18592752184264538,
+              "density_chi_square": 1.0735999999999999,
+              "density_max": 2.0736000000000003,
+              "hminus_norm_squared": 0.001992536027977595,
+              "mean_split_rate": 0.01071673525377229,
+              "refined_composition": [
+                1,
+                5
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.20146697769974706,
+              "density_chi_square": 2.0375000000000005,
+              "density_max": 4.050000000000001,
+              "hminus_norm_squared": 0.0011054429503415475,
+              "mean_split_rate": 0.0054869684499314125,
+              "refined_composition": [
+                2,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2018600542986971,
+              "density_chi_square": 2.3777777777777778,
+              "density_max": 4.800000000000001,
+              "hminus_norm_squared": 0.0009345372884198939,
+              "mean_split_rate": 0.004629629629629629,
+              "refined_composition": [
+                3,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1753893798333922,
+              "density_chi_square": 1.7632812500000004,
+              "density_max": 4.050000000000001,
+              "hminus_norm_squared": 0.0009623559935988598,
+              "mean_split_rate": 0.0054869684499314125,
+              "refined_composition": [
+                4,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07178261863220388,
+              "density_chi_square": 0.3894778880000002,
+              "density_max": 2.0736000000000008,
+              "hminus_norm_squared": 0.0007692753197038308,
+              "mean_split_rate": 0.010716735253772288,
+              "refined_composition": [
+                5,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 42,
+          "sum_bias_coefficients": 0.8364265523066857
+        }
+      ]
+    },
+    {
+      "macro_count": 429,
+      "maximum_individual": {
+        "coarse_composition": [
+          1,
+          1,
+          5
+        ],
+        "coefficient_hminus_over_mean_rate": 0.3280470247458366,
+        "density_chi_square": 3.1666666666666683,
+        "density_max": 6.250000000000001,
+        "hminus_norm_squared": 0.0014996435416952528,
+        "mean_split_rate": 0.004571428571428571,
+        "refined_composition": [
+          1,
+          1,
+          3,
+          2
+        ]
+      },
+      "maximum_nullspace_projection_residual": 3.802292557169328e-18,
+      "maximum_sum": {
+        "coarse_composition": [
+          1,
+          6
+        ],
+        "edge_rows": [
+          {
+            "coefficient_hminus_over_mean_rate": 0.18592752184264516,
+            "density_chi_square": 1.0735999999999997,
+            "density_max": 2.0736,
+            "hminus_norm_squared": 0.001423240019983995,
+            "mean_split_rate": 0.007654810895551636,
+            "refined_composition": [
+              1,
+              1,
+              5
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.28360167977312695,
+            "density_chi_square": 3.050000000000001,
+            "density_max": 5.4,
+            "hminus_norm_squared": 0.0011115096209019279,
+            "mean_split_rate": 0.003919263178522437,
+            "refined_composition": [
+              1,
+              2,
+              4
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.296902747145739,
+            "density_chi_square": 3.7111111111111112,
+            "density_max": 7.2,
+            "hminus_norm_squared": 0.0009818212537888193,
+            "mean_split_rate": 0.0033068783068783067,
+            "refined_composition": [
+              1,
+              3,
+              3
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.2775562719101985,
+            "density_chi_square": 2.9335625,
+            "density_max": 6.48,
+            "hminus_norm_squared": 0.0010878160764656024,
+            "mean_split_rate": 0.003919263178522437,
+            "refined_composition": [
+              1,
+              4,
+              2
+            ]
+          },
+          {
+            "coefficient_hminus_over_mean_rate": 0.17743572198986593,
+            "density_chi_square": 1.0009041919999997,
+            "density_max": 3.4559999999999995,
+            "hminus_norm_squared": 0.0013582368979480968,
+            "mean_split_rate": 0.007654810895551637,
+            "refined_composition": [
+              1,
+              5,
+              1
+            ]
+          }
+        ],
+        "fiber_size": 42,
+        "sum_bias_coefficients": 1.2214239426615754
+      },
+      "r": 7,
+      "rows": [
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.25,
+              "density_chi_square": 1.125,
+              "density_max": 2.5,
+              "hminus_norm_squared": 0.0026455026455026454,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.3611111111111111
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.22222222222222218
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.3239717741935481,
+              "density_chi_square": 2.52,
+              "density_max": 4.266666666666667,
+              "hminus_norm_squared": 0.0019284034178187388,
+              "mean_split_rate": 0.005952380952380953,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2727975657108717,
+              "density_chi_square": 1.4204115226337444,
+              "density_max": 3.555555555555555,
+              "hminus_norm_squared": 0.0024356925509899266,
+              "mean_split_rate": 0.00892857142857143,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.7477270011947421
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21777777777777768,
+              "density_chi_square": 0.9799999999999999,
+              "density_max": 2.4,
+              "hminus_norm_squared": 0.0023045267489711922,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.3288888888888888
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777773,
+              "density_chi_square": 0.125,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0002939447383891828,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888887
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07111111111111111,
+              "density_chi_square": 0.3200000000000002,
+              "density_max": 1.8000000000000003,
+              "hminus_norm_squared": 0.000752498530276308,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.1822222222222222
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1842943548387095,
+              "density_chi_square": 1.346666666666667,
+              "density_max": 3.2,
+              "hminus_norm_squared": 0.001096990207373271,
+              "mean_split_rate": 0.005952380952380953,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.09644153225806441,
+              "density_chi_square": 0.4933333333333333,
+              "density_max": 2.1333333333333333,
+              "hminus_norm_squared": 0.0008610851094470038,
+              "mean_split_rate": 0.00892857142857143,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.4316935483870963
+        },
+        {
+          "coarse_composition": [
+            1,
+            1,
+            5
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925807,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.0014005764542381163,
+              "mean_split_rate": 0.008126984126984127,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.32045730638627185,
+              "density_chi_square": 3.1232638888888893,
+              "density_max": 5.208333333333333,
+              "hminus_norm_squared": 0.0014649476863372428,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.3280470247458366,
+              "density_chi_square": 3.1666666666666683,
+              "density_max": 6.250000000000001,
+              "hminus_norm_squared": 0.0014996435416952528,
+              "mean_split_rate": 0.004571428571428571,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.24426783069265498,
+              "density_chi_square": 1.3498535156249993,
+              "density_max": 3.906249999999999,
+              "hminus_norm_squared": 0.0019851607827720535,
+              "mean_split_rate": 0.008126984126984128,
+              "refined_composition": [
+                1,
+                1,
+                4,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 1.0651087177173442
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21777777777777768,
+              "density_chi_square": 0.9799999999999999,
+              "density_max": 2.4,
+              "hminus_norm_squared": 0.0023045267489711922,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.3288888888888888
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07111111111111111,
+              "density_chi_square": 0.3200000000000002,
+              "density_max": 1.8000000000000003,
+              "hminus_norm_squared": 0.000752498530276308,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.1822222222222222
+        },
+        {
+          "coarse_composition": [
+            1,
+            2,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.28276209677419323,
+              "density_chi_square": 2.1666666666666665,
+              "density_max": 4.0,
+              "hminus_norm_squared": 0.0016831077188940071,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21921034946236528,
+              "density_chi_square": 1.1333333333333333,
+              "density_max": 3.2,
+              "hminus_norm_squared": 0.0019572352630568327,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                2,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.6529301075268809
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11111111111111109
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.004444444444444438,
+              "density_chi_square": 0.019999999999999976,
+              "density_max": 1.2,
+              "hminus_norm_squared": 4.703115814226919e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11555555555555552
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.004444444444444438,
+              "density_chi_square": 0.019999999999999976,
+              "density_max": 1.2,
+              "hminus_norm_squared": 4.703115814226919e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11555555555555552
+        },
+        {
+          "coarse_composition": [
+            1,
+            3,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111102,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567303,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777755,
+              "density_chi_square": 0.12499999999999999,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.00029394473838918256,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111104,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567305,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111105,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.001837154614932392,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                3,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 4,
+          "sum_bias_coefficients": 0.4236111111111109
+        },
+        {
+          "coarse_composition": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11171370967741927,
+              "density_chi_square": 0.8133333333333332,
+              "density_max": 2.1333333333333333,
+              "hminus_norm_squared": 0.0006649625576036862,
+              "mean_split_rate": 0.005952380952380953,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.020043682795698892,
+              "density_chi_square": 0.11407407407407409,
+              "density_max": 1.4222222222222223,
+              "hminus_norm_squared": 0.0001789614535330258,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.2827150537634405
+        },
+        {
+          "coarse_composition": [
+            1,
+            4,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.13961693548387086,
+              "density_chi_square": 0.9999999999999999,
+              "density_max": 2.6666666666666665,
+              "hminus_norm_squared": 0.0008310531874039931,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.04695228494623649,
+              "density_chi_square": 0.24444444444444438,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00041921682987711145,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                4,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.33752688172042966
+        },
+        {
+          "coarse_composition": [
+            1,
+            5,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925807,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.0014005764542381163,
+              "mean_split_rate": 0.008126984126984127,
+              "refined_composition": [
+                1,
+                1,
+                4,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17985632386044292,
+              "density_chi_square": 1.6041666666666665,
+              "density_max": 3.472222222222222,
+              "hminus_norm_squared": 0.0008222003376477391,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                1,
+                2,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.15942180004816803,
+              "density_chi_square": 1.4305555555555556,
+              "density_max": 3.472222222222222,
+              "hminus_norm_squared": 0.0007287853716487682,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                1,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.058940641814581224,
+              "density_chi_square": 0.32080078124999983,
+              "density_max": 1.9531249999999996,
+              "hminus_norm_squared": 0.0004790096604613586,
+              "mean_split_rate": 0.008126984126984128,
+              "refined_composition": [
+                1,
+                4,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.5705553216157728
+        },
+        {
+          "coarse_composition": [
+            1,
+            6
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.18592752184264516,
+              "density_chi_square": 1.0735999999999997,
+              "density_max": 2.0736,
+              "hminus_norm_squared": 0.001423240019983995,
+              "mean_split_rate": 0.007654810895551636,
+              "refined_composition": [
+                1,
+                1,
+                5
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.28360167977312695,
+              "density_chi_square": 3.050000000000001,
+              "density_max": 5.4,
+              "hminus_norm_squared": 0.0011115096209019279,
+              "mean_split_rate": 0.003919263178522437,
+              "refined_composition": [
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.296902747145739,
+              "density_chi_square": 3.7111111111111112,
+              "density_max": 7.2,
+              "hminus_norm_squared": 0.0009818212537888193,
+              "mean_split_rate": 0.0033068783068783067,
+              "refined_composition": [
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2775562719101985,
+              "density_chi_square": 2.9335625,
+              "density_max": 6.48,
+              "hminus_norm_squared": 0.0010878160764656024,
+              "mean_split_rate": 0.003919263178522437,
+              "refined_composition": [
+                1,
+                4,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17743572198986593,
+              "density_chi_square": 1.0009041919999997,
+              "density_max": 3.4559999999999995,
+              "hminus_norm_squared": 0.0013582368979480968,
+              "mean_split_rate": 0.007654810895551637,
+              "refined_composition": [
+                1,
+                5,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 42,
+          "sum_bias_coefficients": 1.2214239426615754
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21777777777777768,
+              "density_chi_square": 0.9799999999999999,
+              "density_max": 2.4,
+              "hminus_norm_squared": 0.0023045267489711922,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.3288888888888888
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07111111111111111,
+              "density_chi_square": 0.3200000000000002,
+              "density_max": 1.8000000000000003,
+              "hminus_norm_squared": 0.000752498530276308,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.1822222222222222
+        },
+        {
+          "coarse_composition": [
+            2,
+            1,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.28276209677419323,
+              "density_chi_square": 2.1666666666666665,
+              "density_max": 4.0,
+              "hminus_norm_squared": 0.0016831077188940071,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21921034946236528,
+              "density_chi_square": 1.1333333333333333,
+              "density_max": 3.2,
+              "hminus_norm_squared": 0.0019572352630568327,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                2,
+                1,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.6529301075268809
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 1,
+          "sum_bias_coefficients": 0.0
+        },
+        {
+          "coarse_composition": [
+            2,
+            2,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111105,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.001837154614932392,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                2,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.28472222222222215
+        },
+        {
+          "coarse_composition": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.004444444444444438,
+              "density_chi_square": 0.019999999999999976,
+              "density_max": 1.2,
+              "hminus_norm_squared": 4.703115814226919e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11555555555555552
+        },
+        {
+          "coarse_composition": [
+            2,
+            3,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777773,
+              "density_chi_square": 0.125,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0002939447383891828,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                2,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888887
+        },
+        {
+          "coarse_composition": [
+            2,
+            4,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                1,
+                1,
+                4,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                2,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.13961693548387086,
+              "density_chi_square": 0.9999999999999999,
+              "density_max": 2.6666666666666665,
+              "hminus_norm_squared": 0.0008310531874039931,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.04695228494623649,
+              "density_chi_square": 0.24444444444444438,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.00041921682987711145,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                2,
+                3,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.33752688172042966
+        },
+        {
+          "coarse_composition": [
+            2,
+            5
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 7.21393293494082e-33,
+              "density_chi_square": 4.930380657631324e-32,
+              "density_max": 0.9999999999999998,
+              "hminus_norm_squared": 1.1450687198318763e-34,
+              "mean_split_rate": 0.015873015873015876,
+              "refined_composition": [
+                1,
+                1,
+                5
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925807,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.0014005764542381163,
+              "mean_split_rate": 0.008126984126984127,
+              "refined_composition": [
+                2,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.26264022103495693,
+              "density_chi_square": 2.472222222222222,
+              "density_max": 4.629629629629629,
+              "hminus_norm_squared": 0.0012006410104455176,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                2,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2578780563131382,
+              "density_chi_square": 2.407921810699589,
+              "density_max": 5.208333333333334,
+              "hminus_norm_squared": 0.001178871114574346,
+              "mean_split_rate": 0.004571428571428571,
+              "refined_composition": [
+                2,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.16473410970715802,
+              "density_chi_square": 0.8969726562499998,
+              "density_max": 3.1249999999999996,
+              "hminus_norm_squared": 0.0013387914947629352,
+              "mean_split_rate": 0.008126984126984128,
+              "refined_composition": [
+                2,
+                4,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.8575889429478338
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.027777777777777773,
+              "density_chi_square": 0.125,
+              "density_max": 1.25,
+              "hminus_norm_squared": 0.0002939447383891828,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.13888888888888887
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.017777777777777778,
+              "density_chi_square": 0.08,
+              "density_max": 1.2,
+              "hminus_norm_squared": 0.000188124632569077,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.12888888888888886
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.017777777777777778,
+              "density_chi_square": 0.08,
+              "density_max": 1.2,
+              "hminus_norm_squared": 0.000188124632569077,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.12888888888888886
+        },
+        {
+          "coarse_composition": [
+            3,
+            1,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111102,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567303,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444439,
+              "density_chi_square": 0.031249999999999997,
+              "density_max": 1.125,
+              "hminus_norm_squared": 7.348618459729564e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111104,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567305,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.17361111111111105,
+              "density_chi_square": 0.7812499999999999,
+              "density_max": 2.25,
+              "hminus_norm_squared": 0.001837154614932392,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                3,
+                1,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 4,
+          "sum_bias_coefficients": 0.40277777777777757
+        },
+        {
+          "coarse_composition": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.017777777777777778,
+              "density_chi_square": 0.08,
+              "density_max": 1.2,
+              "hminus_norm_squared": 0.000188124632569077,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.12888888888888886
+        },
+        {
+          "coarse_composition": [
+            3,
+            2,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111109,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567311,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444443,
+              "density_chi_square": 0.03125,
+              "density_max": 1.125,
+              "hminus_norm_squared": 7.34861845972957e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                3,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 2,
+          "sum_bias_coefficients": 0.11805555555555554
+        },
+        {
+          "coarse_composition": [
+            3,
+            3,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111102,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567303,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.006944444444444439,
+              "density_chi_square": 0.031249999999999997,
+              "density_max": 1.125,
+              "hminus_norm_squared": 7.348618459729564e-05,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111104,
+              "density_chi_square": 0.49999999999999994,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567305,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                3,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.02777777777777776,
+              "density_chi_square": 0.12499999999999999,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0002939447383891826,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                3,
+                2,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 4,
+          "sum_bias_coefficients": 0.25694444444444425
+        },
+        {
+          "coarse_composition": [
+            3,
+            4
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111151,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567355,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                2,
+                1,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032312,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520742,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.22339829749103954,
+              "density_chi_square": 1.6666666666666663,
+              "density_max": 3.5555555555555554,
+              "hminus_norm_squared": 0.0013297517707799972,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                3,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.14520795997610556,
+              "density_chi_square": 0.7448559670781891,
+              "density_max": 2.6666666666666665,
+              "hminus_norm_squared": 0.0012964996426437995,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                3,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 10,
+          "sum_bias_coefficients": 0.6306750298685797
+        },
+        {
+          "coarse_composition": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.10622983870967741,
+              "density_chi_square": 0.9199999999999999,
+              "density_max": 2.1333333333333333,
+              "hminus_norm_squared": 0.0006323204685099845,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.03586208183990439,
+              "density_chi_square": 0.18781893004115227,
+              "density_max": 1.6592592592592594,
+              "hminus_norm_squared": 0.0003201971592848606,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.29304958183990415
+        },
+        {
+          "coarse_composition": [
+            4,
+            1,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1013104838709677,
+              "density_chi_square": 0.8333333333333333,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.0006030385944700457,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                2,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.023377016129032226,
+              "density_chi_square": 0.12592592592592594,
+              "density_max": 1.6,
+              "hminus_norm_squared": 0.00020872335829493058,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                4,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.27564516129032224
+        },
+        {
+          "coarse_composition": [
+            4,
+            2,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032234,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.001347836261520735,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1013104838709677,
+              "density_chi_square": 0.8333333333333333,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.0006030385944700457,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.023377016129032226,
+              "density_chi_square": 0.12592592592592594,
+              "density_max": 1.6,
+              "hminus_norm_squared": 0.00020872335829493058,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.0,
+              "density_chi_square": 0.0,
+              "density_max": 1.0,
+              "hminus_norm_squared": 0.0,
+              "mean_split_rate": 0.015873015873015872,
+              "refined_composition": [
+                4,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 5,
+          "sum_bias_coefficients": 0.27564516129032224
+        },
+        {
+          "coarse_composition": [
+            4,
+            3
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.15095766129032306,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.0013478362615207415,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.10243055555555552,
+              "density_chi_square": 0.7777777777777777,
+              "density_max": 1.7777777777777777,
+              "hminus_norm_squared": 0.0006097056878306876,
+              "mean_split_rate": 0.005952380952380952,
+              "refined_composition": [
+                2,
+                2,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.01572767323775391,
+              "density_chi_square": 0.08641975308641973,
+              "density_max": 1.4814814814814814,
+              "hminus_norm_squared": 0.00014042565390851705,
+              "mean_split_rate": 0.008928571428571428,
+              "refined_composition": [
+                3,
+                1,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111122,
+              "density_chi_square": 0.5,
+              "density_max": 1.5,
+              "hminus_norm_squared": 0.0011757789535567324,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                4,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11111111111111122,
+              "density_chi_square": 0.5,
+              "density_max": 2.0,
+              "hminus_norm_squared": 0.0011757789535567324,
+              "mean_split_rate": 0.010582010582010581,
+              "refined_composition": [
+                4,
+                2,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 10,
+          "sum_bias_coefficients": 0.49133811230585495
+        },
+        {
+          "coarse_composition": [
+            5,
+            1,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925807,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.0014005764542381163,
+              "mean_split_rate": 0.008126984126984127,
+              "refined_composition": [
+                1,
+                4,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.137806161918961,
+              "density_chi_square": 1.3871527777777777,
+              "density_max": 2.6041666666666665,
+              "hminus_norm_squared": 0.0006299710259152503,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                2,
+                3,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1156120397418044,
+              "density_chi_square": 1.199074074074074,
+              "density_max": 3.1249999999999996,
+              "hminus_norm_squared": 0.0005285121816768202,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                3,
+                2,
+                1,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.03383793358450575,
+              "density_chi_square": 0.18896484374999992,
+              "density_max": 1.8554687499999998,
+              "hminus_norm_squared": 0.0002750003491312214,
+              "mean_split_rate": 0.008126984126984128,
+              "refined_composition": [
+                4,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.45959269113785184
+        },
+        {
+          "coarse_composition": [
+            5,
+            2
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.1723365558925807,
+              "density_chi_square": 0.9531249999999999,
+              "density_max": 1.953125,
+              "hminus_norm_squared": 0.0014005764542381163,
+              "mean_split_rate": 0.008126984126984127,
+              "refined_composition": [
+                1,
+                4,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.14087279139008313,
+              "density_chi_square": 1.3148148148148144,
+              "density_max": 2.3148148148148144,
+              "hminus_norm_squared": 0.0006439899034975229,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                2,
+                3,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.11743375402778414,
+              "density_chi_square": 1.1219135802469133,
+              "density_max": 2.893518518518518,
+              "hminus_norm_squared": 0.0005368400184127275,
+              "mean_split_rate": 0.004571428571428572,
+              "refined_composition": [
+                3,
+                2,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.026050393673592832,
+              "density_chi_square": 0.1442057291666666,
+              "density_max": 1.7578124999999996,
+              "hminus_norm_squared": 0.0002117111358869767,
+              "mean_split_rate": 0.008126984126984128,
+              "refined_composition": [
+                4,
+                1,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 7.21393293494082e-33,
+              "density_chi_square": 4.930380657631324e-32,
+              "density_max": 0.9999999999999998,
+              "hminus_norm_squared": 1.1450687198318763e-34,
+              "mean_split_rate": 0.015873015873015876,
+              "refined_composition": [
+                5,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 14,
+          "sum_bias_coefficients": 0.45669349498404077
+        },
+        {
+          "coarse_composition": [
+            6,
+            1
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.18592752184264516,
+              "density_chi_square": 1.0735999999999997,
+              "density_max": 2.0736,
+              "hminus_norm_squared": 0.001423240019983995,
+              "mean_split_rate": 0.007654810895551636,
+              "refined_composition": [
+                1,
+                5,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.16178671214840845,
+              "density_chi_square": 1.7000000000000008,
+              "density_max": 2.7000000000000006,
+              "hminus_norm_squared": 0.0006340847036974658,
+              "mean_split_rate": 0.0039192631785224365,
+              "refined_composition": [
+                2,
+                4,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.1558322579591207,
+              "density_chi_square": 1.9333333333333331,
+              "density_max": 4.0,
+              "hminus_norm_squared": 0.0005153183133568806,
+              "mean_split_rate": 0.0033068783068783067,
+              "refined_composition": [
+                3,
+                3,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.12780710461955433,
+              "density_chi_square": 1.3726250000000004,
+              "density_max": 3.6450000000000005,
+              "hminus_norm_squared": 0.0005009096790889842,
+              "mean_split_rate": 0.003919263178522437,
+              "refined_composition": [
+                4,
+                2,
+                1
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.033442480119122965,
+              "density_chi_square": 0.18517759999999997,
+              "density_max": 1.9353600000000002,
+              "hminus_norm_squared": 0.00025599586119013143,
+              "mean_split_rate": 0.007654810895551636,
+              "refined_composition": [
+                5,
+                1,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 42,
+          "sum_bias_coefficients": 0.6647960766888517
+        },
+        {
+          "coarse_composition": [
+            7
+          ],
+          "edge_rows": [
+            {
+              "coefficient_hminus_over_mean_rate": 0.19543676619555087,
+              "density_chi_square": 1.16139403292181,
+              "density_max": 2.16139403292181,
+              "hminus_norm_squared": 0.0014352639290852959,
+              "mean_split_rate": 0.007343878825999372,
+              "refined_composition": [
+                1,
+                6
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21526280041446444,
+              "density_chi_square": 2.3613999999999993,
+              "density_max": 4.481866666666666,
+              "hminus_norm_squared": 0.000762376505588886,
+              "mean_split_rate": 0.0035416082301308696,
+              "refined_composition": [
+                2,
+                5
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.2235074269119213,
+              "density_chi_square": 3.106648662551442,
+              "density_max": 5.8357638888888905,
+              "hminus_norm_squared": 0.000607930170352615,
+              "mean_split_rate": 0.002719955120740507,
+              "refined_composition": [
+                3,
+                4
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.21578402600726987,
+              "density_chi_square": 2.9816930700231477,
+              "density_max": 5.835763888888889,
+              "hminus_norm_squared": 0.0005869228665124766,
+              "mean_split_rate": 0.002719955120740508,
+              "refined_composition": [
+                4,
+                3
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.18504000200534562,
+              "density_chi_square": 2.003209216000001,
+              "density_max": 4.481866666666668,
+              "hminus_norm_squared": 0.0006553391940055646,
+              "mean_split_rate": 0.0035416082301308687,
+              "refined_composition": [
+                5,
+                2
+              ]
+            },
+            {
+              "coefficient_hminus_over_mean_rate": 0.07860018393056736,
+              "density_chi_square": 0.43124718465190637,
+              "density_max": 2.1613940329218106,
+              "hminus_norm_squared": 0.0005772302264873497,
+              "mean_split_rate": 0.007343878825999371,
+              "refined_composition": [
+                6,
+                1
+              ]
+            }
+          ],
+          "fiber_size": 132,
+          "sum_bias_coefficients": 1.1136312054651194
+        }
+      ]
+    }
+  ],
+  "seed": null,
+  "universal_scope": "A disconnected support with nonzero null projection refutes finite mean-lift control.  Small finite norms prove no universal polynomial Hardy/Poincare inequality."
+}

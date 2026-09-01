@@ -1,0 +1,31 @@
+{
+  "mission": "M217",
+  "verdict": "strict exact signed-DE reduction",
+  "proved": [
+    "exact q_hat_s disjoint split weight",
+    "exact signed surviving/kernel/normalizer three-block identity",
+    "uniform normalizer block N_Z=O(k^-2)",
+    "literal X complementary face and collisions retained",
+    "macroscopic q_hat tail O(k^-1/2)"
+  ],
+  "first_unproved_lemma": "WBE: |S_Z+K_Z| <= C sqrt(l)/k for Z=X_l,Y_l",
+  "open": [
+    "WBE",
+    "signed averaged DE",
+    "IKBE-a/DV",
+    "conditional J=2",
+    "all downstream claims"
+  ],
+  "diagnostics": {
+    "observable": "Y_l",
+    "k": [3, 5, 7, 9, 11, 13, 15],
+    "max_scaled_value": 0.40594829964602325,
+    "formula_only": true,
+    "finite_only": true,
+    "universal_inference": false
+  },
+  "hygiene": {
+    "generated_pycache_removed": true,
+    "stale_reported_apply_patch_pid": "absent on inspection; no signal sent"
+  }
+}

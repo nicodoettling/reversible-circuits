@@ -1,0 +1,37 @@
+{
+  "mission": "M192",
+  "verdict": "strict exact J=2 shared-endpoint/disjoint-profile reduction",
+  "proved": [
+    "exact conditional shared-endpoint coefficients gamma_L and gamma_F",
+    "complete shared-endpoint prefix contribution is O(1/k)",
+    "exact disjoint-pair Abel identity with nonzero endpoint",
+    "endpoint E_(k-1)=-6(k-1)/(k(2k-1)(2k-3))",
+    "uniform disjoint scalar cumulative bound |E_u|=O(sqrt(u)/k)"
+  ],
+  "first_unproved_lemmas": [
+    "DV: weighted adjacent-split variation of disjoint B prefix profiles is O(sqrt(ell))",
+    "DE: signed A/B disjoint embedding response is O(sqrt(ell)/k)"
+  ],
+  "unresolved": [
+    "DV",
+    "DE",
+    "conditional J=2 prefix estimate",
+    "PCR",
+    "WPCR",
+    "SCBR",
+    "BIR",
+    "BR",
+    "PCS-bound",
+    "FCL1",
+    "direct-L1",
+    "H0/gap",
+    "mixing",
+    "Terminals"
+  ],
+  "exact_calibration": {
+    "k": [3, 5, 7],
+    "all_assertions_passed": true,
+    "finite_asymptotic_or_sign_inference": false,
+    "seed": null
+  }
+}

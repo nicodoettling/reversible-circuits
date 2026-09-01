@@ -1,0 +1,803 @@
+{
+  "caps": {
+    "centralizer_cycle_types": "one representative of every S_d cycle type, 2<=d<=7",
+    "d3_matching_calibration": "all 9 deterministic M137 matchings and all 15 nonempty subfamilies",
+    "d5_matching_enumeration": "not run: universal theorem makes it unnecessary",
+    "direct_class_orbits": "all elements of P_(d,s), 2<=d<=4 and 1<=s<=3",
+    "explicit_transposition_transporters": "all ordered transposition pairs, 2<=d<=7"
+  },
+  "centralizer_parity_audit": [
+    {
+      "cycle_types_checked": 2,
+      "d": 2,
+      "details": [
+        {
+          "centralizer_order": 2,
+          "cycle_type": [
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 2,
+          "cycle_type": [
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "cycle_types_checked": 3,
+      "d": 3,
+      "details": [
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 2,
+          "cycle_type": [
+            2,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 3,
+          "cycle_type": [
+            3
+          ],
+          "has_odd_centralizer": false,
+          "predicted_has_odd": false
+        }
+      ],
+      "failures": []
+    },
+    {
+      "cycle_types_checked": 5,
+      "d": 4,
+      "details": [
+        {
+          "centralizer_order": 24,
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 4,
+          "cycle_type": [
+            2,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 8,
+          "cycle_type": [
+            2,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 3,
+          "cycle_type": [
+            3,
+            1
+          ],
+          "has_odd_centralizer": false,
+          "predicted_has_odd": false
+        },
+        {
+          "centralizer_order": 4,
+          "cycle_type": [
+            4
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "cycle_types_checked": 7,
+      "d": 5,
+      "details": [
+        {
+          "centralizer_order": 120,
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 12,
+          "cycle_type": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 8,
+          "cycle_type": [
+            2,
+            2,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            3,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            3,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 4,
+          "cycle_type": [
+            4,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 5,
+          "cycle_type": [
+            5
+          ],
+          "has_odd_centralizer": false,
+          "predicted_has_odd": false
+        }
+      ],
+      "failures": []
+    },
+    {
+      "cycle_types_checked": 11,
+      "d": 6,
+      "details": [
+        {
+          "centralizer_order": 720,
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 48,
+          "cycle_type": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 16,
+          "cycle_type": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 48,
+          "cycle_type": [
+            2,
+            2,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 18,
+          "cycle_type": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            3,
+            2,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 18,
+          "cycle_type": [
+            3,
+            3
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 8,
+          "cycle_type": [
+            4,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 8,
+          "cycle_type": [
+            4,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 5,
+          "cycle_type": [
+            5,
+            1
+          ],
+          "has_odd_centralizer": false,
+          "predicted_has_odd": false
+        },
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            6
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "cycle_types_checked": 15,
+      "d": 7,
+      "details": [
+        {
+          "centralizer_order": 5040,
+          "cycle_type": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 240,
+          "cycle_type": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 48,
+          "cycle_type": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 48,
+          "cycle_type": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 72,
+          "cycle_type": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 12,
+          "cycle_type": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 24,
+          "cycle_type": [
+            3,
+            2,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 18,
+          "cycle_type": [
+            3,
+            3,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 24,
+          "cycle_type": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 8,
+          "cycle_type": [
+            4,
+            2,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 12,
+          "cycle_type": [
+            4,
+            3
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 10,
+          "cycle_type": [
+            5,
+            1,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 10,
+          "cycle_type": [
+            5,
+            2
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 6,
+          "cycle_type": [
+            6,
+            1
+          ],
+          "has_odd_centralizer": true,
+          "predicted_has_odd": true
+        },
+        {
+          "centralizer_order": 7,
+          "cycle_type": [
+            7
+          ],
+          "has_odd_centralizer": false,
+          "predicted_has_odd": false
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "command": "python3 -B tuple_conjugacy_audit.py",
+  "composition_convention": "(pq)(x)=p(q(x)); displayed factors multiply left-to-right",
+  "d3_aggregate_by_width": {
+    "1": {
+      "class_multiset_equal": 36
+    },
+    "2": {
+      "class_multiset_equal": 54
+    },
+    "3": {
+      "class_multiset_equal": 3,
+      "literal_group_changed": 33
+    },
+    "4": {
+      "literal_group_changed": 9
+    }
+  },
+  "d3_class_multiset_change_witnesses": [],
+  "d3_matching_rows": [
+    {
+      "adjacent_index": 1,
+      "color": 0,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 1,
+      "color": 1,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "class_multiset_equal": 1,
+          "literal_group_changed": 3
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 1,
+      "color": 2,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "class_multiset_equal": 1,
+          "literal_group_changed": 3
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 2,
+      "color": 0,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 2,
+      "color": 1,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 2,
+      "color": 2,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "class_multiset_equal": 1,
+          "literal_group_changed": 3
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 3,
+      "color": 0,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 3,
+      "color": 1,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    },
+    {
+      "adjacent_index": 3,
+      "color": 2,
+      "matching_edges": 4,
+      "subfamily_outcomes_by_width": {
+        "1": {
+          "class_multiset_equal": 4
+        },
+        "2": {
+          "class_multiset_equal": 6
+        },
+        "3": {
+          "literal_group_changed": 4
+        },
+        "4": {
+          "literal_group_changed": 1
+        }
+      }
+    }
+  ],
+  "dependencies": {},
+  "direct_class_splitting_audit": [
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 2,
+      "conjugacy_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "group_order": 2,
+      "width": 1
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 2,
+      "conjugacy_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "group_order": 2,
+      "width": 2
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 2,
+      "conjugacy_classes": 2,
+      "d": 2,
+      "formula_failures": [],
+      "group_order": 2,
+      "width": 3
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 3,
+      "conjugacy_classes": 3,
+      "d": 3,
+      "formula_failures": [],
+      "group_order": 6,
+      "width": 1
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 5,
+      "conjugacy_classes": 6,
+      "d": 3,
+      "formula_failures": [],
+      "group_order": 18,
+      "width": 2
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 9,
+      "conjugacy_classes": 15,
+      "d": 3,
+      "formula_failures": [],
+      "group_order": 54,
+      "width": 3
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 5,
+      "conjugacy_classes": 5,
+      "d": 4,
+      "formula_failures": [],
+      "group_order": 24,
+      "width": 1
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 13,
+      "conjugacy_classes": 14,
+      "d": 4,
+      "formula_failures": [],
+      "group_order": 288,
+      "width": 2
+    },
+    {
+      "all_transposition_class_count": 1,
+      "ambient_classes": 35,
+      "conjugacy_classes": 44,
+      "d": 4,
+      "formula_failures": [],
+      "group_order": 3456,
+      "width": 3
+    }
+  ],
+  "experiment": "M146 DPS aligned tuple-conjugacy invariant audit",
+  "explicit_even_transposition_transporters": [
+    {
+      "d": 2,
+      "failures": [],
+      "ordered_transposition_pairs": 1
+    },
+    {
+      "d": 3,
+      "failures": [],
+      "ordered_transposition_pairs": 9
+    },
+    {
+      "d": 4,
+      "failures": [],
+      "ordered_transposition_pairs": 36
+    },
+    {
+      "d": 5,
+      "failures": [],
+      "ordered_transposition_pairs": 100
+    },
+    {
+      "d": 6,
+      "failures": [],
+      "ordered_transposition_pairs": 225
+    },
+    {
+      "d": 7,
+      "failures": [],
+      "ordered_transposition_pairs": 441
+    }
+  ],
+  "frozen_read_only_dependency": {
+    "path": "experiments/20260811-polynomial-mixing-resolution/cycle-31/mission-M137-m135-fresh-referee/independent_referee.py",
+    "sha256": "bb62d449c7cad72a448389f9f7dd7ee76618e8c71b68189db20e19f4e2244341"
+  },
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "universal_claim": "proved separately; finite checks are theorem stress tests and d=3 calibration"
+}

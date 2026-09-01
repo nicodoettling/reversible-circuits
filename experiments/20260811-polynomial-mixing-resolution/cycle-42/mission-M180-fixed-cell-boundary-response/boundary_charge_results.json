@@ -1,0 +1,501 @@
+{
+  "command": "boundary_charge_check.py --output boundary_charge_results.json --frozen-m174 <pcs_channel_exact.json>",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "frozen_M174_checks": [
+    {
+      "eta_B_match": true,
+      "k": 3
+    },
+    {
+      "eta_B_match": true,
+      "k": 5
+    }
+  ],
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "BIR_delta_W_exact": "88171317079/1148653406250",
+      "boundary_decomposition_formal_exact": true,
+      "channel_charge_coefficients_before_combination": {
+        "1": [
+          "0",
+          "256643227/4594613625",
+          "0"
+        ],
+        "2": [
+          "-8/75",
+          "200353144487/1148653406250",
+          "0"
+        ]
+      },
+      "component_count_and_size_moments_cancel_exact": true,
+      "component_measure": [
+        {
+          "signed_mass_exact": "-2188/5625",
+          "size": 1,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-392/5625",
+          "size": 2,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "112/625",
+          "size": 3,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "164/625",
+          "size": 4,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "64/375",
+          "size": 5,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "36/625",
+          "size": 6,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-196/1875",
+          "size": 7,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "272/5625",
+          "size": 2,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "116/1125",
+          "size": 3,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "12/125",
+          "size": 4,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "4/375",
+          "size": 5,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-1036/5625",
+          "size": 6,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-1016/5625",
+          "size": 7,
+          "type": 2
+        }
+      ],
+      "distinct_intermediates": 64,
+      "eta_B_coefficients_E0_E1_E2": [
+        "-48/25",
+        "0",
+        "10075637745539/10210252500000"
+      ],
+      "eta_B_float": 5.3716367674835475,
+      "eta_H_exact": "88171317079/382884468750",
+      "eta_Q_coefficients_E0_E1_E2": [
+        "-8/75",
+        "88171317079/382884468750",
+        "0"
+      ],
+      "eta_bounded_remainder_coefficients": [
+        "712/5625",
+        "-88171317079/21271359375",
+        "10075637745539/10210252500000"
+      ],
+      "eta_small_run_indicator_exact": "356/5625",
+      "eta_triangle_exact": "8/75",
+      "k": 3,
+      "max_abs_bounded_remainder_on_accessible_states_float": 21.392490650626595,
+      "n": 9,
+      "n_squared_BIR_delta_W_float": 6.217608065704545,
+      "n_times_eta_H_float": 2.072536021901515,
+      "n_times_eta_Q_float": 4.6737370071616855,
+      "n_times_large_component_charge_l1_float": 0.8260730881423609,
+      "n_times_large_component_signed_charge_float": 0.8260730881423609,
+      "n_times_projected_component_charge_l1_float": 7.480809169123035,
+      "n_times_small_component_signed_charge_float": 3.8476639190193263,
+      "one_two_run_count_transfer_is_plus_minus_eta_T": true,
+      "projected_component_charge_by_size": [
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "1094/1875",
+            "0",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.5834666666666667,
+          "size": 1
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "572/5625",
+            "-392/5625",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.08774515142327921,
+          "size": 2
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-4978/5625",
+            "5192/16875",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.04863293313425998,
+          "size": 3
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-948/625",
+            "1377/2500",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.019570368884757938,
+          "size": 4
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-74/75",
+            "17152/46875",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.007978024996896815,
+          "size": 5
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "3592/5625",
+            "-631/2916",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.05036247127652349,
+          "size": 6
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "11014/5625",
+            "-7437312/10504375",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.03344540240906424,
+          "size": 7
+        }
+      ],
+      "projected_component_charge_l1_float": 0.8312010187914484,
+      "runtime_seconds": 0.011353821959346533
+    },
+    {
+      "BIR_delta_W_exact": "1695291490914625522786570513555519576335487455515556827/102946489723298745891637535699714511969978240000000000000",
+      "boundary_decomposition_formal_exact": true,
+      "channel_charge_coefficients_before_combination": {
+        "1": [
+          "0",
+          "13116885159507111307297920585922655000230711463541499/536179633975514301518945498436013083176970000000000000",
+          "0"
+        ],
+        "2": [
+          "-16/495",
+          "425183721936799320317679018268664872109368229560742953/5719249429072152549535418649984139553887680000000000000",
+          "0"
+        ]
+      },
+      "component_count_and_size_moments_cancel_exact": true,
+      "component_measure": [
+        {
+          "signed_mass_exact": "-3491810752/19729747125",
+          "size": 1,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-253390096/6576582375",
+          "size": 2,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-789910796/19729747125",
+          "size": 3,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-936572128/19729747125",
+          "size": 4,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "896000/14348907",
+          "size": 5,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "1539776/14348907",
+          "size": 6,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "4328576/52612659",
+          "size": 7,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "10891916/157837977",
+          "size": 8,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "9570304/157837977",
+          "size": 9,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "1400000/52612659",
+          "size": 10,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-46004704/1315316475",
+          "size": 11,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-138421516/6576582375",
+          "size": 12,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-111219076/6576582375",
+          "size": 13,
+          "type": 1
+        },
+        {
+          "signed_mass_exact": "-15079904/19729747125",
+          "size": 2,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "11219272/1793613375",
+          "size": 3,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "206329232/6576582375",
+          "size": 4,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "894613064/19729747125",
+          "size": 5,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "57154664/1315316475",
+          "size": 6,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "31121596988/822072796875",
+          "size": 7,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "70440027044/2466218390625",
+          "size": 8,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-7917626128/2466218390625",
+          "size": 9,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-28875511624/493243678125",
+          "size": 10,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-102834484448/2466218390625",
+          "size": 11,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-116072858236/2466218390625",
+          "size": 12,
+          "type": 2
+        },
+        {
+          "signed_mass_exact": "-5521970972/74733890625",
+          "size": 13,
+          "type": 2
+        }
+      ],
+      "distinct_intermediates": 810,
+      "eta_B_coefficients_E0_E1_E2": [
+        "-32/33",
+        "0",
+        "73077925347453973355779108467047756359425607682995598110051/82391507275213429628607241071671514413305918080000000000000"
+      ],
+      "eta_B_float": 5.584096107326268,
+      "eta_H_exact": "1695291490914625522786570513555519576335487455515556827/17157748287216457648606255949952418661663040000000000000",
+      "eta_Q_coefficients_E0_E1_E2": [
+        "-16/495",
+        "1695291490914625522786570513555519576335487455515556827/17157748287216457648606255949952418661663040000000000000",
+        "0"
+      ],
+      "eta_bounded_remainder_coefficients": [
+        "1064355992/19729747125",
+        "-1695291490914625522786570513555519576335487455515556827/571924942907215254953541864998413955388768000000000000",
+        "73077925347453973355779108467047756359425607682995598110051/82391507275213429628607241071671514413305918080000000000000"
+      ],
+      "eta_small_run_indicator_exact": "532177996/19729747125",
+      "eta_triangle_exact": "16/495",
+      "k": 5,
+      "max_abs_bounded_remainder_on_accessible_states_float": 19.87339473260667,
+      "n": 15,
+      "n_squared_BIR_delta_W_float": 3.705231586633337,
+      "n_times_eta_H_float": 1.4820926346533347,
+      "n_times_eta_Q_float": 3.5438969920226655,
+      "n_times_large_component_charge_l1_float": 0.45338400385405153,
+      "n_times_large_component_signed_charge_float": 0.3810185193757609,
+      "n_times_projected_component_charge_l1_float": 5.254697005354086,
+      "n_times_small_component_signed_charge_float": 3.1628784726469004,
+      "one_two_run_count_transfer_is_plus_minus_eta_T": true,
+      "projected_component_charge_by_size": [
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "1745905376/6576582375",
+            "0",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.26547304913823117,
+          "size": 1
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "641015192/6576582375",
+            "-253390096/6576582375",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.007263727380635604,
+          "size": 2
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "2456157806/19729747125",
+            "-116512768/2367569655",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.009281924724560867,
+          "size": 3
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "136541176/1315316475",
+            "-10914868/243577125",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.017999573570244565,
+          "size": 4
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-10801758788/19729747125",
+            "487157708288/2466218390625",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.010537551161635461,
+          "size": 5
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-335945596/358722675",
+            "4379762450/12784876137",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.005293157314358865,
+          "size": 6
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-709545380422/822072796875",
+            "3593036703616/11371668721875",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.00423855014366914,
+          "size": 7
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-394976559316/493243678125",
+            "47469708965627459/161626088448000000",
+            "0"
+          ],
+          "combined_type_coefficient_float": -0.0024121828159430203,
+          "size": 8
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "-1353292177912/2466218390625",
+            "2392566513488887808/11795846109589265625",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.002620883810593555,
+          "size": 9
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "136504860428/493243678125",
+            "-1322801871/13427734375",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.008964154404376479,
+          "size": 10
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "690579505568/822072796875",
+            "-38146102614016000/124057897806420369",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.004212266093568839,
+          "size": 11
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "180335338724/224201671875",
+            "-204164944677787924963/694098828855705600000",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.004778258149645054,
+          "size": 12
+        },
+        {
+          "combined_type_coefficient_E0_E1_E2": [
+            "37878127976/32882911875",
+            "-3502189740239618048/8316744328577953125",
+            "0"
+          ],
+          "combined_type_coefficient_float": 0.0072378549828098215,
+          "size": 13
+        }
+      ],
+      "projected_component_charge_l1_float": 0.3503131336902724,
+      "runtime_seconds": 0.14622593112289906
+    }
+  ],
+  "seed": null,
+  "status": "exact finite calibration only; no asymptotic inference",
+  "target": "M180 channel-combined boundary-charge reduction"
+}

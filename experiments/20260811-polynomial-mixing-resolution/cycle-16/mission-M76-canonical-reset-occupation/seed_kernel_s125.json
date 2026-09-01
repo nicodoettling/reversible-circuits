@@ -1,0 +1,115 @@
+{
+  "claim_tested": "The minimal-drop reset operator on seed contexts is controlled by a rank-power times suffix-logarithm weight.",
+  "command": "python3 -B /home/nico/projects/research_projects/reversible_circuits/experiments/20260811-polynomial-mixing-resolution/cycle-16/mission-M76-canonical-reset-occupation/seed_kernel_probe.py --s-values 10 20 40 80 125 --output seed_kernel_s125.json",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 0.18908905982971191,
+  "finite_scope_warning": "Finite coefficient values are falsifiers only; they do not prove a universal Cayley-coefficient inequality.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "normalization": "J_s(B,t)=[M_B(t)-q_B p_t]^2/[Q_G((s-t,t),s)q_B], with scaled Cayley weights v_a=e^{-a}w_a.",
+  "normalization_audit": {
+    "audit_rank": 12,
+    "expected_component_scale": 0.36787944117144233,
+    "max_relative_coefficient_scaling_error": 5.67251845495774e-16,
+    "max_relative_kernel_error": 8.622042187718339e-14
+  },
+  "numpy": "1.26.4",
+  "parameters": {
+    "output": "seed_kernel_s125.json",
+    "s_values": [
+      10,
+      20,
+      40,
+      80,
+      125
+    ]
+  },
+  "python": "3.12.3",
+  "records": [
+    {
+      "s": 10,
+      "worst_log_weight_ratio": {
+        "B": 10,
+        "P2_log_ratio": 0.4180767451393427,
+        "log_ratio": 0.5058728616186047,
+        "row_sum": 0.1924655921737159,
+        "s": 10
+      },
+      "worst_row_sum": {
+        "B": 5,
+        "P2_log_ratio": 0.2541484407026733,
+        "log_ratio": 0.3075196132502347,
+        "row_sum": 0.32664058422603987,
+        "s": 10
+      }
+    },
+    {
+      "s": 20,
+      "worst_log_weight_ratio": {
+        "B": 20,
+        "P2_log_ratio": 0.5932948792236488,
+        "log_ratio": 0.6541076043440728,
+        "row_sum": 0.2015061854808693,
+        "s": 20
+      },
+      "worst_row_sum": {
+        "B": 8,
+        "P2_log_ratio": 0.32745701542622957,
+        "log_ratio": 0.36102135950741815,
+        "row_sum": 0.3691443413822753,
+        "s": 20
+      }
+    },
+    {
+      "s": 40,
+      "worst_log_weight_ratio": {
+        "B": 40,
+        "P2_log_ratio": 0.7501485120133929,
+        "log_ratio": 0.7881247804340711,
+        "row_sum": 0.20588557880639685,
+        "s": 40
+      },
+      "worst_row_sum": {
+        "B": 15,
+        "P2_log_ratio": 0.36535826913289515,
+        "log_ratio": 0.383854531507748,
+        "row_sum": 0.3874996165563893,
+        "s": 40
+      }
+    },
+    {
+      "s": 80,
+      "worst_log_weight_ratio": {
+        "B": 80,
+        "P2_log_ratio": 0.8888282125491999,
+        "log_ratio": 0.9111877972711407,
+        "row_sum": 0.20803714593583847,
+        "s": 80
+      },
+      "worst_row_sum": {
+        "B": 25,
+        "P2_log_ratio": 0.3837429389434337,
+        "log_ratio": 0.3933964722512295,
+        "row_sum": 0.39489539597175816,
+        "s": 80
+      }
+    },
+    {
+      "s": 125,
+      "worst_log_weight_ratio": {
+        "B": 125,
+        "P2_log_ratio": 0.9703723879595127,
+        "log_ratio": 0.9859604499996943,
+        "row_sum": 0.20880524518038404,
+        "s": 125
+      },
+      "worst_row_sum": {
+        "B": 34,
+        "P2_log_ratio": 0.3899273073721114,
+        "log_ratio": 0.39619109963773697,
+        "row_sum": 0.3970380954221428,
+        "s": 125
+      }
+    }
+  ],
+  "seed": null
+}

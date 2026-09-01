@@ -1,0 +1,62 @@
+{
+  "audits": [
+    {
+      "a_coefficient_digest": "b634d216c799ec438c9d08c43ac146904bf2ecd0eeb700530822d16e305ce277",
+      "a_prefix": "0",
+      "b_coefficient_digest": "8418ea73a66e529e0ea7b212b158604f71237f73158f9bfa4ecfa11c0b95dfaa",
+      "b_placement_bound": true,
+      "b_prefix": "9/40",
+      "exact_formula_match": true,
+      "k": 3,
+      "max_a_cutoff": 0,
+      "max_b_cutoff": 4,
+      "max_cutoff": 4,
+      "max_scaled_a_prefix": 0.0,
+      "max_scaled_b_prefix": 0.3375,
+      "max_scaled_signed_prefix": 0.3375,
+      "signed_prefix": "9/40"
+    },
+    {
+      "a_coefficient_digest": "1ac8187c264766ee608e6c94053a16c8f0aaccb7e82cbd0cd34910fc4670f200",
+      "a_prefix": "72/875",
+      "b_coefficient_digest": "dfe6a49ca12c232972a8fa0630575a01e9eafe6640e56dd4a4a9f928d36cc94c",
+      "b_placement_bound": true,
+      "b_prefix": "47982693781/216850636800",
+      "exact_formula_match": true,
+      "k": 5,
+      "max_a_cutoff": 3,
+      "max_b_cutoff": 7,
+      "max_cutoff": 7,
+      "max_scaled_a_prefix": 0.2375383964665889,
+      "max_scaled_b_prefix": 0.4181623313660195,
+      "max_scaled_signed_prefix": 0.2449638912542712,
+      "signed_prefix": "17567979137221/135531648000000"
+    },
+    {
+      "a_coefficient_digest": "9c26954bd23e5999ea5da239ce5f08d72279ce45d0f5a324f3d5b1c1d07d47d7",
+      "a_prefix": "21520/184877",
+      "b_coefficient_digest": "b303dff289a73ca2a83cc8e3822795d715eecdeb0b0ba5c9f020a851c8668d1a",
+      "b_placement_bound": true,
+      "b_prefix": "315662979158816271687636251/1510879600736687301120000000",
+      "exact_formula_match": true,
+      "k": 7,
+      "max_a_cutoff": 5,
+      "max_b_cutoff": 10,
+      "max_cutoff": 10,
+      "max_scaled_a_prefix": 0.36439500871451647,
+      "max_scaled_b_prefix": 0.4624788041711482,
+      "max_scaled_signed_prefix": 0.18378416530172378,
+      "signed_prefix": "14758021810439284363261597293899/177753474147070524289466880000000"
+    }
+  ],
+  "method": "literal ordered tuples versus independent seam formulas",
+  "mission": "M235",
+  "theorem": {
+    "claim": "TCM",
+    "domain": "odd k>=3 and 2<=ell<=(3k-1)/2",
+    "proved_bound": "|sum_{y=2}^ell cT_{k,y}| <= 160 sqrt(ell)/k",
+    "proof_depends_on_finite_checks": false,
+    "status": "proved_subject_to_fresh_audit"
+  },
+  "universal_inference_from_finite_checks": false
+}

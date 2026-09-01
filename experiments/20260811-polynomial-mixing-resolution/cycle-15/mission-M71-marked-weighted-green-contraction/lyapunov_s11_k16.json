@@ -1,0 +1,716 @@
+{
+  "claim_tested": "There is a bounded positive marked-context potential W with a_x+sum_y w_xy W_y <=(1-c/s^C)W_x.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_certificate_probe.py --s-max 11 --K-max 16 --certificate 0.5,1.0 --certificate 1.0,1.0 --certificate 1.5,1.0 --certificate 0.5,2.0 --rtol 1e-11 --maxiter 20000 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_s11_k16.json",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 91.51068067550659,
+  "finite_scope_warning": "The dynamic program solves only the finite scanned context closure. A bounded finite W neither proves a universal formula nor solves actual-edge history collisions.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "normalization": "The child weights and base costs are the exact normalized marked separated-capacity recurrence from marked_resolvent_probe.",
+  "numpy": "1.26.4",
+  "parameters": {
+    "K_max": 16,
+    "certificates": [
+      [
+        0.5,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.5,
+        1.0
+      ],
+      [
+        0.5,
+        2.0
+      ]
+    ],
+    "maxiter": 20000,
+    "output": "experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M71-marked-weighted-green-contraction/lyapunov_s11_k16.json",
+    "rtol": 1e-11,
+    "s_max": 11
+  },
+  "python": "3.12.3",
+  "records": [
+    {
+      "by_rank": [
+        {
+          "s": 2,
+          "scanned_context_count": 342,
+          "worst": {
+            "B": 1,
+            "K": 1,
+            "R": 0,
+            "W": 1.0,
+            "constraint_slack": 0.7222222222222222,
+            "s": 2,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.3333333333333333
+          }
+        },
+        {
+          "s": 3,
+          "scanned_context_count": 513,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.433825928879163,
+            "constraint_slack": 0.0,
+            "s": 3,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.6666666666666666,
+            "unpassed_attachment_fraction": 0.00024396194193705782
+          }
+        },
+        {
+          "s": 4,
+          "scanned_context_count": 684,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.609790147276858,
+            "constraint_slack": 0.0,
+            "s": 4,
+            "suffix_excess": 2,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.00024390243902439024
+          }
+        },
+        {
+          "s": 5,
+          "scanned_context_count": 855,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.6910492381223665,
+            "constraint_slack": 0.0,
+            "s": 5,
+            "suffix_excess": 3,
+            "suffix_fraction": 0.4,
+            "unpassed_attachment_fraction": 0.000243842965130456
+          }
+        },
+        {
+          "s": 6,
+          "scanned_context_count": 1026,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.728264623840761,
+            "constraint_slack": 0.0,
+            "s": 6,
+            "suffix_excess": 4,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.00024378352023403217
+          }
+        },
+        {
+          "s": 7,
+          "scanned_context_count": 1197,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7437445931857287,
+            "constraint_slack": 0.0,
+            "s": 7,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.2857142857142857,
+            "unpassed_attachment_fraction": 0.00024372410431391665
+          }
+        },
+        {
+          "s": 8,
+          "scanned_context_count": 1368,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.748039786758945,
+            "constraint_slack": 0.0,
+            "s": 8,
+            "suffix_excess": 6,
+            "suffix_fraction": 0.25,
+            "unpassed_attachment_fraction": 0.00024366471734892786
+          }
+        },
+        {
+          "s": 9,
+          "scanned_context_count": 1539,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7464716226083712,
+            "constraint_slack": 0.0,
+            "s": 9,
+            "suffix_excess": 7,
+            "suffix_fraction": 0.2222222222222222,
+            "unpassed_attachment_fraction": 0.000243605359317905
+          }
+        },
+        {
+          "s": 10,
+          "scanned_context_count": 1710,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7418486361256886,
+            "constraint_slack": 0.0,
+            "s": 10,
+            "suffix_excess": 8,
+            "suffix_fraction": 0.2,
+            "unpassed_attachment_fraction": 0.00024354603019970775
+          }
+        },
+        {
+          "s": 11,
+          "scanned_context_count": 1881,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7357015538817027,
+            "constraint_slack": 0.0,
+            "s": 11,
+            "suffix_excess": 9,
+            "suffix_fraction": 0.18181818181818182,
+            "unpassed_attachment_fraction": 0.00024348672997321646
+          }
+        }
+      ],
+      "constant_c": 0.5,
+      "exponent_C": 1.0,
+      "global_worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 4095,
+        "W": 1.748039786758945,
+        "constraint_slack": 0.0,
+        "s": 8,
+        "suffix_excess": 6,
+        "suffix_fraction": 0.25,
+        "unpassed_attachment_fraction": 0.00024366471734892786
+      },
+      "memoized_contexts": 33525,
+      "minimum_constraint_slack": -2.220446049250313e-16
+    },
+    {
+      "by_rank": [
+        {
+          "s": 2,
+          "scanned_context_count": 342,
+          "worst": {
+            "B": 1,
+            "K": 1,
+            "R": 0,
+            "W": 1.0,
+            "constraint_slack": 0.47222222222222215,
+            "s": 2,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.3333333333333333
+          }
+        },
+        {
+          "s": 3,
+          "scanned_context_count": 513,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.7922824110989537,
+            "constraint_slack": 0.0,
+            "s": 3,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.6666666666666666,
+            "unpassed_attachment_fraction": 0.00024396194193705782
+          }
+        },
+        {
+          "s": 4,
+          "scanned_context_count": 684,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.196638748064754,
+            "constraint_slack": 0.0,
+            "s": 4,
+            "suffix_excess": 2,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.00024390243902439024
+          }
+        },
+        {
+          "s": 5,
+          "scanned_context_count": 855,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.3993204842255356,
+            "constraint_slack": 0.0,
+            "s": 5,
+            "suffix_excess": 3,
+            "suffix_fraction": 0.4,
+            "unpassed_attachment_fraction": 0.000243842965130456
+          }
+        },
+        {
+          "s": 6,
+          "scanned_context_count": 1026,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.49312308601601,
+            "constraint_slack": 0.0,
+            "s": 6,
+            "suffix_excess": 4,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.00024378352023403217
+          }
+        },
+        {
+          "s": 7,
+          "scanned_context_count": 1197,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.528967407964252,
+            "constraint_slack": 0.0,
+            "s": 7,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.2857142857142857,
+            "unpassed_attachment_fraction": 0.00024372410431391665
+          }
+        },
+        {
+          "s": 8,
+          "scanned_context_count": 1368,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5338269961138495,
+            "constraint_slack": 0.0,
+            "s": 8,
+            "suffix_excess": 6,
+            "suffix_fraction": 0.25,
+            "unpassed_attachment_fraction": 0.00024366471734892786
+          }
+        },
+        {
+          "s": 9,
+          "scanned_context_count": 1539,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5223438081033875,
+            "constraint_slack": 0.0,
+            "s": 9,
+            "suffix_excess": 7,
+            "suffix_fraction": 0.2222222222222222,
+            "unpassed_attachment_fraction": 0.000243605359317905
+          }
+        },
+        {
+          "s": 10,
+          "scanned_context_count": 1710,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.5025633117389314,
+            "constraint_slack": 0.0,
+            "s": 10,
+            "suffix_excess": 8,
+            "suffix_fraction": 0.2,
+            "unpassed_attachment_fraction": 0.00024354603019970775
+          }
+        },
+        {
+          "s": 11,
+          "scanned_context_count": 1881,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.478948520174049,
+            "constraint_slack": 0.0,
+            "s": 11,
+            "suffix_excess": 9,
+            "suffix_fraction": 0.18181818181818182,
+            "unpassed_attachment_fraction": 0.00024348672997321646
+          }
+        }
+      ],
+      "constant_c": 1.0,
+      "exponent_C": 1.0,
+      "global_worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 4095,
+        "W": 2.5338269961138495,
+        "constraint_slack": 0.0,
+        "s": 8,
+        "suffix_excess": 6,
+        "suffix_fraction": 0.25,
+        "unpassed_attachment_fraction": 0.00024366471734892786
+      },
+      "memoized_contexts": 67050,
+      "minimum_constraint_slack": -4.440892098500626e-16
+    },
+    {
+      "by_rank": [
+        {
+          "s": 2,
+          "scanned_context_count": 342,
+          "worst": {
+            "B": 1,
+            "K": 4096,
+            "R": 0,
+            "W": 1.7764762505503566,
+            "constraint_slack": 0.0,
+            "s": 2,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.9995119570522206
+          }
+        },
+        {
+          "s": 3,
+          "scanned_context_count": 513,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 2.3897098814652717,
+            "constraint_slack": 0.0,
+            "s": 3,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.6666666666666666,
+            "unpassed_attachment_fraction": 0.00024396194193705782
+          }
+        },
+        {
+          "s": 4,
+          "scanned_context_count": 684,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 3.2791210092898937,
+            "constraint_slack": 0.0,
+            "s": 4,
+            "suffix_excess": 2,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.00024390243902439024
+          }
+        },
+        {
+          "s": 5,
+          "scanned_context_count": 855,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 3.7784449465086616,
+            "constraint_slack": 0.0,
+            "s": 5,
+            "suffix_excess": 3,
+            "suffix_fraction": 0.4,
+            "unpassed_attachment_fraction": 0.000243842965130456
+          }
+        },
+        {
+          "s": 6,
+          "scanned_context_count": 1026,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.028334631927325,
+            "constraint_slack": -4.440892098500626e-16,
+            "s": 6,
+            "suffix_excess": 4,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.00024378352023403217
+          }
+        },
+        {
+          "s": 7,
+          "scanned_context_count": 1197,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.131414800391459,
+            "constraint_slack": -4.440892098500626e-16,
+            "s": 7,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.2857142857142857,
+            "unpassed_attachment_fraction": 0.00024372410431391665
+          }
+        },
+        {
+          "s": 8,
+          "scanned_context_count": 1368,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.151356687367665,
+            "constraint_slack": 4.440892098500626e-16,
+            "s": 8,
+            "suffix_excess": 6,
+            "suffix_fraction": 0.25,
+            "unpassed_attachment_fraction": 0.00024366471734892786
+          }
+        },
+        {
+          "s": 9,
+          "scanned_context_count": 1539,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.125697952074656,
+            "constraint_slack": 0.0,
+            "s": 9,
+            "suffix_excess": 7,
+            "suffix_fraction": 0.2222222222222222,
+            "unpassed_attachment_fraction": 0.000243605359317905
+          }
+        },
+        {
+          "s": 10,
+          "scanned_context_count": 1710,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.0761824403129205,
+            "constraint_slack": 4.440892098500626e-16,
+            "s": 10,
+            "suffix_excess": 8,
+            "suffix_fraction": 0.2,
+            "unpassed_attachment_fraction": 0.00024354603019970775
+          }
+        },
+        {
+          "s": 11,
+          "scanned_context_count": 1881,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 4.015299246360792,
+            "constraint_slack": 0.0,
+            "s": 11,
+            "suffix_excess": 9,
+            "suffix_fraction": 0.18181818181818182,
+            "unpassed_attachment_fraction": 0.00024348672997321646
+          }
+        }
+      ],
+      "constant_c": 1.5,
+      "exponent_C": 1.0,
+      "global_worst": {
+        "B": 2,
+        "K": 4096,
+        "R": 4095,
+        "W": 4.151356687367665,
+        "constraint_slack": 4.440892098500626e-16,
+        "s": 8,
+        "suffix_excess": 6,
+        "suffix_fraction": 0.25,
+        "unpassed_attachment_fraction": 0.00024366471734892786
+      },
+      "memoized_contexts": 100575,
+      "minimum_constraint_slack": -4.440892098500626e-16
+    },
+    {
+      "by_rank": [
+        {
+          "s": 2,
+          "scanned_context_count": 342,
+          "worst": {
+            "B": 1,
+            "K": 1,
+            "R": 0,
+            "W": 1.0,
+            "constraint_slack": 0.8472222222222222,
+            "s": 2,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.3333333333333333
+          }
+        },
+        {
+          "s": 3,
+          "scanned_context_count": 513,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.2651405254816146,
+            "constraint_slack": 0.0,
+            "s": 3,
+            "suffix_excess": 1,
+            "suffix_fraction": 0.6666666666666666,
+            "unpassed_attachment_fraction": 0.00024396194193705782
+          }
+        },
+        {
+          "s": 4,
+          "scanned_context_count": 684,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.3379477485111348,
+            "constraint_slack": 0.0,
+            "s": 4,
+            "suffix_excess": 2,
+            "suffix_fraction": 0.5,
+            "unpassed_attachment_fraction": 0.00024390243902439024
+          }
+        },
+        {
+          "s": 5,
+          "scanned_context_count": 855,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.3647364877086627,
+            "constraint_slack": 0.0,
+            "s": 5,
+            "suffix_excess": 3,
+            "suffix_fraction": 0.4,
+            "unpassed_attachment_fraction": 0.000243842965130456
+          }
+        },
+        {
+          "s": 6,
+          "scanned_context_count": 1026,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.3755794358987985,
+            "constraint_slack": 0.0,
+            "s": 6,
+            "suffix_excess": 4,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.00024378352023403217
+          }
+        },
+        {
+          "s": 7,
+          "scanned_context_count": 1197,
+          "worst": {
+            "B": 2,
+            "K": 4096,
+            "R": 4095,
+            "W": 1.380204776358328,
+            "constraint_slack": 0.0,
+            "s": 7,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.2857142857142857,
+            "unpassed_attachment_fraction": 0.00024372410431391665
+          }
+        },
+        {
+          "s": 8,
+          "scanned_context_count": 1368,
+          "worst": {
+            "B": 3,
+            "K": 4096,
+            "R": 0,
+            "W": 1.4003058756256355,
+            "constraint_slack": -1.1102230246251565e-16,
+            "s": 8,
+            "suffix_excess": 5,
+            "suffix_fraction": 0.375,
+            "unpassed_attachment_fraction": 0.9980506822612085
+          }
+        },
+        {
+          "s": 9,
+          "scanned_context_count": 1539,
+          "worst": {
+            "B": 3,
+            "K": 4096,
+            "R": 0,
+            "W": 1.4196348170518251,
+            "constraint_slack": -1.1102230246251565e-16,
+            "s": 9,
+            "suffix_excess": 6,
+            "suffix_fraction": 0.3333333333333333,
+            "unpassed_attachment_fraction": 0.9978075517661389
+          }
+        },
+        {
+          "s": 10,
+          "scanned_context_count": 1710,
+          "worst": {
+            "B": 3,
+            "K": 4096,
+            "R": 0,
+            "W": 1.433660161940114,
+            "constraint_slack": 0.0,
+            "s": 10,
+            "suffix_excess": 7,
+            "suffix_fraction": 0.3,
+            "unpassed_attachment_fraction": 0.997564539698003
+          }
+        },
+        {
+          "s": 11,
+          "scanned_context_count": 1881,
+          "worst": {
+            "B": 3,
+            "K": 4096,
+            "R": 0,
+            "W": 1.4443100177324246,
+            "constraint_slack": 0.0,
+            "s": 11,
+            "suffix_excess": 8,
+            "suffix_fraction": 0.2727272727272727,
+            "unpassed_attachment_fraction": 0.9973216459702946
+          }
+        }
+      ],
+      "constant_c": 0.5,
+      "exponent_C": 2.0,
+      "global_worst": {
+        "B": 3,
+        "K": 4096,
+        "R": 0,
+        "W": 1.4443100177324246,
+        "constraint_slack": 0.0,
+        "s": 11,
+        "suffix_excess": 8,
+        "suffix_fraction": 0.2727272727272727,
+        "unpassed_attachment_fraction": 0.9973216459702946
+      },
+      "memoized_contexts": 134100,
+      "minimum_constraint_slack": -2.220446049250313e-16
+    }
+  ],
+  "scipy": "1.11.4",
+  "seed": null
+}

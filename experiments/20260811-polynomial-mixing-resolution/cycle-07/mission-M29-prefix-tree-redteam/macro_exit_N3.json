@@ -1,0 +1,63 @@
+{
+  "claims_tested": [
+    "Every minimal connected full-support word has positive one-step full-K macro exit.",
+    "The removable-leaf-union cut has the stated overlap counts and positive full-K boundary."
+  ],
+  "convention": "(pq)(x)=p(q(x)); exact lazy r=3,4,5 heat baths",
+  "purpose": "Finite exact falsifier only; no asymptotic inference.",
+  "python": "3.12.3",
+  "result": {
+    "F_size": 24,
+    "N": 3,
+    "exit_probability_histogram": {
+      "1/18": 24
+    },
+    "m": 4,
+    "maximum_exit_probability": "1/18",
+    "minimum_exit_probability": "1/18",
+    "removable_leaf_union_cut": {
+      "A_count": 12,
+      "conditional_mark_histogram_on_F": {
+        "0": 12,
+        "1": 6,
+        "2": 6
+      },
+      "flow_A_to_Ac": {
+        "decimal": 0.12345679012345678,
+        "fraction": "10/81"
+      },
+      "flow_Ac_to_A": {
+        "decimal": 0.12345679012345678,
+        "fraction": "10/81"
+      },
+      "flow_by_block_length": {
+        "3": {
+          "decimal": 0.06172839506172839,
+          "fraction": "5/81"
+        },
+        "4": {
+          "decimal": 0.06172839506172839,
+          "fraction": "5/81"
+        }
+      },
+      "name": "at least one removable join-tree leaf square",
+      "outward_conductance": {
+        "decimal": 0.2777777777777778,
+        "fraction": "5/18"
+      },
+      "pi_A": {
+        "decimal": 0.4444444444444444,
+        "fraction": "4/9"
+      },
+      "smaller_side_conductance": {
+        "decimal": 0.2777777777777778,
+        "fraction": "5/18"
+      },
+      "state_count": 27
+    },
+    "zero_exit_state_count": 0,
+    "zero_exit_witness_edges": null
+  },
+  "reused_exact_helper": "experiments/20260811-polynomial-mixing-resolution/cycle-05/mission-M13-nonnormal-schreier-redteam/exact_cut_check.py",
+  "seed": null
+}

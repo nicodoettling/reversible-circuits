@@ -1,0 +1,456 @@
+{
+  "all_fourteen_named_replays": true,
+  "certificate_digest": "0bcfdab81369a4fca73367bee84169dd313c698b42685b8053dae2e764ef4223",
+  "d5_composition_audit": {
+    "all_stored_words_hit_target_quotient_classes": true,
+    "distinguished_incidence_rows": 7,
+    "formal_composition": "For any accepted fixed-physical-endpoint d5 braid B_i, its generators act on positions 1..8 and leave the appended square fixed; C_i then reaches the actual d6 endpoint. M200/M202 supply existence of B_i qualitatively via full voltage, without a corrected length.",
+    "rows": [
+      {
+        "edit": 1,
+        "literal_stored_word_plus_correction_replay": true,
+        "m196_target_id": 43,
+        "stored_quotient_length": 9,
+        "stored_quotient_word": [
+          2,
+          3,
+          4,
+          5,
+          -6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": true
+      },
+      {
+        "edit": 2,
+        "literal_stored_word_plus_correction_replay": true,
+        "m196_target_id": 37,
+        "stored_quotient_length": 1,
+        "stored_quotient_word": [
+          2
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": true
+      },
+      {
+        "edit": 3,
+        "literal_stored_word_plus_correction_replay": false,
+        "m196_target_id": 13,
+        "stored_quotient_length": 10,
+        "stored_quotient_word": [
+          4,
+          5,
+          5,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4,
+          -7
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": false
+      },
+      {
+        "edit": 4,
+        "literal_stored_word_plus_correction_replay": true,
+        "m196_target_id": 16,
+        "stored_quotient_length": 1,
+        "stored_quotient_word": [
+          4
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": true
+      },
+      {
+        "edit": 5,
+        "literal_stored_word_plus_correction_replay": false,
+        "m196_target_id": 51,
+        "stored_quotient_length": 21,
+        "stored_quotient_word": [
+          4,
+          6,
+          -2,
+          -5,
+          4,
+          3,
+          3,
+          -5,
+          4,
+          3,
+          -7,
+          -6,
+          -2,
+          2,
+          3,
+          4,
+          3,
+          2,
+          1,
+          5,
+          -6
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": false
+      },
+      {
+        "edit": 6,
+        "literal_stored_word_plus_correction_replay": true,
+        "m196_target_id": 2,
+        "stored_quotient_length": 4,
+        "stored_quotient_word": [
+          6,
+          6,
+          5,
+          6
+        ],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": true
+      },
+      {
+        "edit": 7,
+        "literal_stored_word_plus_correction_replay": false,
+        "m196_target_id": 3,
+        "stored_quotient_length": 0,
+        "stored_quotient_word": [],
+        "stored_word_hits_both_target_quotient_classes": true,
+        "stored_word_hits_fixed_physical_targets": false
+      }
+    ],
+    "stored_words_hit_fixed_physical_targets_edits": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "stored_words_need_fixed_endpoint_voltage_correction_edits": [
+      3,
+      5,
+      7
+    ]
+  },
+  "dependencies": {},
+  "descriptor_extension": [
+    {
+      "pattern": 0,
+      "pi5": [
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pi6": [
+        9,
+        10,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tree5": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tree6": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "pattern": 1,
+      "pi5": [
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pi6": [
+        9,
+        10,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "tree5": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "tree6": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    }
+  ],
+  "experiment": "M212 fresh immutable referee of M208",
+  "frozen_comparison": {
+    "certificate_digest": true,
+    "certificate_rows": true,
+    "descriptor_extension": true,
+    "first_template_failure": true,
+    "maximum_correction_length": true,
+    "route_lengths": true,
+    "template_check_count": true,
+    "template_failure_count": true,
+    "template_failure_histogram": true,
+    "template_tree_count": true
+  },
+  "numbered_objections": [],
+  "python": "3.12.3",
+  "route_lengths": [
+    13,
+    0,
+    9,
+    0,
+    5,
+    2,
+    1
+  ],
+  "scope": "finite named d5->d6 correction; no M208 imports and no Q6 enumeration",
+  "scope_boundary": "Finite two-pattern d5->d6 correction only. The 21 failures refute only the archived schedule table's universality; no general d6, every-color, all-d, voltage-length, polynomial, gap, mixing, or Terminal claim follows.",
+  "seed": null,
+  "template_audit": {
+    "checks": 112,
+    "failure_histogram": {
+      "1": 11,
+      "3": 9,
+      "5": 1
+    },
+    "first_failure": {
+      "actual_target": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "edit": 3,
+      "naive_target": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "route_output": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "tree5": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "tree_index": 2
+    },
+    "known_route_failures": 21,
+    "trees": 16
+  },
+  "verdict": "ACCEPT M208 AS FROZEN"
+}

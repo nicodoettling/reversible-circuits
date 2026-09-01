@@ -1,0 +1,1327 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/fixed_join_tree_dp.py",
+    "--N",
+    "8",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/tree-dp-N8.json"
+  ],
+  "claims_tested": [
+    "Actual join-tree diameter/centroid/edge-balance layers are universally unimodal.",
+    "Those actual branch layers are universally log-concave."
+  ],
+  "convention": "(pq)(x)=p(q(x)); appending e swaps the two domain entries of p",
+  "nonstandard_dependencies": {},
+  "purpose": "Exact fixed-N falsifier; finite passes imply no asymptotic theorem.",
+  "python": "3.12.3",
+  "result": {
+    "N": 8,
+    "elapsed_seconds": 29.832298040390015,
+    "expected_F_N": 2856658246041600,
+    "layers": {
+      "centroid_balance": {
+        "counts": [
+          129187054080,
+          127749015434880,
+          1209514326572160,
+          1519265716980480
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "diameter": {
+        "counts": [
+          129187054080,
+          23714999602560,
+          565096980309120,
+          1248068913073920,
+          828660956820480,
+          190987209181440
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unimodal": true
+      },
+      "edge_balance": {
+        "counts": [
+          129187054080,
+          127749015434880,
+          1209514326572160,
+          1519265716980480
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "leaf_count": {
+        "counts": [
+          190987209181440,
+          1042137971481600,
+          1228088061607680,
+          371600817114240,
+          23714999602560,
+          129187054080
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unimodal": true
+      },
+      "max_degree": {
+        "counts": [
+          190987209181440,
+          1943311023480960,
+          641063804330880,
+          76320204589440,
+          4846817404800,
+          129187054080
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unimodal": true
+      },
+      "root0_max_branch": {
+        "counts": [
+          16148381760,
+          15968626929360,
+          151189290821520,
+          379816429245120,
+          419184379782000,
+          587740999406400,
+          1302742371475440
+        ],
+        "log_concave": false,
+        "support": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "unimodal": true
+      }
+    },
+    "m": 14,
+    "number_unlabeled_shapes": 23,
+    "shape_records": [
+      {
+        "elapsed_seconds": 0.9894425868988037,
+        "fixed_labeled_tree_fiber_weight": 10105739260,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 33456,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 5040,
+          "5": 5040,
+          "6": 2520,
+          "7": 7560
+        },
+        "shape_code": "(((()()))((())))",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 6,
+          "edge_balance": 4,
+          "leaf_count": 3,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 203731703481600
+      },
+      {
+        "elapsed_seconds": 1.0045077800750732,
+        "fixed_labeled_tree_fiber_weight": 10313937752,
+        "labeled_tree_multiplicity": 40320,
+        "peak_dp_states": 34140,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 10080,
+          "5": 5040,
+          "6": 10080,
+          "7": 15120
+        },
+        "shape_code": "(((())())((())))",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 6,
+          "edge_balance": 4,
+          "leaf_count": 3,
+          "max_degree": 3,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 415857970160640
+      },
+      {
+        "elapsed_seconds": 1.0089547634124756,
+        "fixed_labeled_tree_fiber_weight": 10370599364,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 34306,
+        "representative_edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 2520,
+          "5": 5040,
+          "6": 5040,
+          "7": 7560
+        },
+        "shape_code": "(((()))((()))())",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 6,
+          "edge_balance": 3,
+          "leaf_count": 3,
+          "max_degree": 3,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 209071283178240
+      },
+      {
+        "elapsed_seconds": 1.2561838626861572,
+        "fixed_labeled_tree_fiber_weight": 12665566296,
+        "labeled_tree_multiplicity": 1680,
+        "peak_dp_states": 40513,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 210,
+          "5": 210,
+          "6": 210,
+          "7": 1050
+        },
+        "shape_code": "((()()()())(()))",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 4,
+          "edge_balance": 3,
+          "leaf_count": 5,
+          "max_degree": 5,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 21278151377280
+      },
+      {
+        "elapsed_seconds": 1.1955196857452393,
+        "fixed_labeled_tree_fiber_weight": 11961099732,
+        "labeled_tree_multiplicity": 3360,
+        "peak_dp_states": 39389,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 840,
+          "5": 420,
+          "7": 2100
+        },
+        "shape_code": "((()()())(()()))",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 4,
+          "edge_balance": 4,
+          "leaf_count": 5,
+          "max_degree": 4,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 40189295099520
+      },
+      {
+        "elapsed_seconds": 1.1923809051513672,
+        "fixed_labeled_tree_fiber_weight": 12245223720,
+        "labeled_tree_multiplicity": 6720,
+        "peak_dp_states": 40229,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 1680,
+          "6": 840,
+          "7": 4200
+        },
+        "shape_code": "((()()())(())())",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 4,
+          "edge_balance": 4,
+          "leaf_count": 5,
+          "max_degree": 4,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 82287903398400
+      },
+      {
+        "elapsed_seconds": 1.1586272716522217,
+        "fixed_labeled_tree_fiber_weight": 11868273280,
+        "labeled_tree_multiplicity": 5040,
+        "peak_dp_states": 39536,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 630,
+          "5": 1260,
+          "7": 3150
+        },
+        "shape_code": "((()())(()())())",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 4,
+          "edge_balance": 3,
+          "leaf_count": 5,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 59816097331200
+      },
+      {
+        "elapsed_seconds": 1.0876505374908447,
+        "fixed_labeled_tree_fiber_weight": 11332191256,
+        "labeled_tree_multiplicity": 10080,
+        "peak_dp_states": 37567,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 1260,
+          "5": 1260,
+          "6": 2520,
+          "7": 5040
+        },
+        "shape_code": "((()())(())(()))",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 4,
+          "edge_balance": 3,
+          "leaf_count": 4,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 114228487860480
+      },
+      {
+        "elapsed_seconds": 1.1996560096740723,
+        "fixed_labeled_tree_fiber_weight": 12340758652,
+        "labeled_tree_multiplicity": 10080,
+        "peak_dp_states": 40425,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 1260,
+          "5": 1260,
+          "6": 1260,
+          "7": 6300
+        },
+        "shape_code": "((()())(())()())",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 4,
+          "edge_balance": 3,
+          "leaf_count": 5,
+          "max_degree": 4,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 124394847212160
+      },
+      {
+        "elapsed_seconds": 1.125173568725586,
+        "fixed_labeled_tree_fiber_weight": 11795785020,
+        "labeled_tree_multiplicity": 6720,
+        "peak_dp_states": 38416,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "2": 840,
+          "6": 2520,
+          "7": 3360
+        },
+        "shape_code": "((())(())(())())",
+        "stats": {
+          "centroid_balance": 2,
+          "diameter": 4,
+          "edge_balance": 2,
+          "leaf_count": 4,
+          "max_degree": 4,
+          "root0_max_branch": 2
+        },
+        "weighted_contribution": 79267675334400
+      },
+      {
+        "elapsed_seconds": 1.2435779571533203,
+        "fixed_labeled_tree_fiber_weight": 12986465088,
+        "labeled_tree_multiplicity": 3360,
+        "peak_dp_states": 41353,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "2": 420,
+          "6": 840,
+          "7": 2100
+        },
+        "shape_code": "((())(())()()())",
+        "stats": {
+          "centroid_balance": 2,
+          "diameter": 4,
+          "edge_balance": 2,
+          "leaf_count": 5,
+          "max_degree": 5,
+          "root0_max_branch": 2
+        },
+        "weighted_contribution": 43634522695680
+      },
+      {
+        "elapsed_seconds": 1.622673749923706,
+        "fixed_labeled_tree_fiber_weight": 16148381760,
+        "labeled_tree_multiplicity": 8,
+        "peak_dp_states": 47950,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "1": 1,
+          "7": 7
+        },
+        "shape_code": "(()()()()()()())",
+        "stats": {
+          "centroid_balance": 1,
+          "diameter": 2,
+          "edge_balance": 1,
+          "leaf_count": 7,
+          "max_degree": 7,
+          "root0_max_branch": 1
+        },
+        "weighted_contribution": 129187054080
+      },
+      {
+        "elapsed_seconds": 0.9012489318847656,
+        "fixed_labeled_tree_fiber_weight": 9473571884,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 31195,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 5040,
+          "5": 5040,
+          "6": 5040,
+          "7": 5040
+        },
+        "shape_code": "[(((())))(((())))]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 7,
+          "edge_balance": 4,
+          "leaf_count": 2,
+          "max_degree": 2,
+          "root0_max_branch": 6
+        },
+        "weighted_contribution": 190987209181440
+      },
+      {
+        "elapsed_seconds": 1.0947000980377197,
+        "fixed_labeled_tree_fiber_weight": 11193107406,
+        "labeled_tree_multiplicity": 6720,
+        "peak_dp_states": 36706,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 1680,
+          "5": 840,
+          "6": 840,
+          "7": 3360
+        },
+        "shape_code": "[((()()()))((()))]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 5,
+          "edge_balance": 4,
+          "leaf_count": 4,
+          "max_degree": 4,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 75217681768320
+      },
+      {
+        "elapsed_seconds": 1.0609970092773438,
+        "fixed_labeled_tree_fiber_weight": 11091029990,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 36825,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 2520,
+          "5": 5040,
+          "6": 2520,
+          "7": 10080
+        },
+        "shape_code": "[((()())())((()))]",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 5,
+          "edge_balance": 3,
+          "leaf_count": 4,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 223595164598400
+      },
+      {
+        "elapsed_seconds": 1.0490782260894775,
+        "fixed_labeled_tree_fiber_weight": 10784679608,
+        "labeled_tree_multiplicity": 5040,
+        "peak_dp_states": 35887,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 1260,
+          "5": 1260,
+          "7": 2520
+        },
+        "shape_code": "[((()()))((()()))]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 5,
+          "edge_balance": 4,
+          "leaf_count": 4,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 54354785224320
+      },
+      {
+        "elapsed_seconds": 1.068310022354126,
+        "fixed_labeled_tree_fiber_weight": 11015169830,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 36629,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 5040,
+          "5": 2520,
+          "6": 2520,
+          "7": 10080
+        },
+        "shape_code": "[((()()))((())())]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 5,
+          "edge_balance": 4,
+          "leaf_count": 4,
+          "max_degree": 3,
+          "root0_max_branch": 5
+        },
+        "weighted_contribution": 222065823772800
+      },
+      {
+        "elapsed_seconds": 1.0110487937927246,
+        "fixed_labeled_tree_fiber_weight": 10589137632,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 34990,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 2520,
+          "5": 2520,
+          "6": 7560,
+          "7": 7560
+        },
+        "shape_code": "[((())(()))((()))]",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 5,
+          "edge_balance": 3,
+          "leaf_count": 3,
+          "max_degree": 3,
+          "root0_max_branch": 6
+        },
+        "weighted_contribution": 213477014661120
+      },
+      {
+        "elapsed_seconds": 1.1024112701416016,
+        "fixed_labeled_tree_fiber_weight": 11520126480,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 37644,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 2520,
+          "5": 2520,
+          "6": 5040,
+          "7": 10080
+        },
+        "shape_code": "[((())()())((()))]",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 5,
+          "edge_balance": 3,
+          "leaf_count": 4,
+          "max_degree": 4,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 232245749836800
+      },
+      {
+        "elapsed_seconds": 1.0852067470550537,
+        "fixed_labeled_tree_fiber_weight": 11265510576,
+        "labeled_tree_multiplicity": 20160,
+        "peak_dp_states": 37401,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 5040,
+          "6": 5040,
+          "7": 10080
+        },
+        "shape_code": "[((())())((())())]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 5,
+          "edge_balance": 4,
+          "leaf_count": 4,
+          "max_degree": 3,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 227112693212160
+      },
+      {
+        "elapsed_seconds": 1.4154112339019775,
+        "fixed_labeled_tree_fiber_weight": 14425051800,
+        "labeled_tree_multiplicity": 336,
+        "peak_dp_states": 44525,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "2": 42,
+          "6": 42,
+          "7": 252
+        },
+        "shape_code": "[(()()()()())(())]",
+        "stats": {
+          "centroid_balance": 2,
+          "diameter": 3,
+          "edge_balance": 2,
+          "leaf_count": 6,
+          "max_degree": 6,
+          "root0_max_branch": 2
+        },
+        "weighted_contribution": 4846817404800
+      },
+      {
+        "elapsed_seconds": 1.3488523960113525,
+        "fixed_labeled_tree_fiber_weight": 13580393472,
+        "labeled_tree_multiplicity": 840,
+        "peak_dp_states": 43514,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "3": 105,
+          "5": 105,
+          "7": 630
+        },
+        "shape_code": "[(()()()())(()())]",
+        "stats": {
+          "centroid_balance": 3,
+          "diameter": 3,
+          "edge_balance": 3,
+          "leaf_count": 6,
+          "max_degree": 5,
+          "root0_max_branch": 3
+        },
+        "weighted_contribution": 11407530516480
+      },
+      {
+        "elapsed_seconds": 1.3070154190063477,
+        "fixed_labeled_tree_fiber_weight": 13322592288,
+        "labeled_tree_multiplicity": 560,
+        "peak_dp_states": 43279,
+        "representative_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "root0_max_branch_multiplicity": {
+          "4": 140,
+          "7": 420
+        },
+        "shape_code": "[(()()())(()()())]",
+        "stats": {
+          "centroid_balance": 4,
+          "diameter": 3,
+          "edge_balance": 4,
+          "leaf_count": 6,
+          "max_degree": 4,
+          "root0_max_branch": 4
+        },
+        "weighted_contribution": 7460651681280
+      }
+    ],
+    "weighted_total": 2856658246041600
+  },
+  "seed": null
+}

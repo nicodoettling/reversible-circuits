@@ -1,0 +1,393 @@
+{
+  "claim": "fresh immutable referee audit of M147",
+  "counts": {
+    "L1_states": 8129,
+    "attachment_entries": 3618,
+    "forest_rows": 55,
+    "moment_pairs": 13,
+    "recurrence_cases": 8,
+    "root_literal_entries": 6370,
+    "root_mean_cases": 195
+  },
+  "exact_witness": {
+    "C3": {
+      "denominator": "32",
+      "numerator": "9"
+    },
+    "bad_F": {
+      "denominator": "278784",
+      "numerator": "175033"
+    },
+    "bad_H": {
+      "denominator": "743424",
+      "numerator": "175033"
+    },
+    "bad_margin_H": {
+      "denominator": "743424",
+      "numerator": "793"
+    },
+    "good_F": {
+      "denominator": "278784",
+      "numerator": "24313"
+    },
+    "good_H": {
+      "denominator": "743424",
+      "numerator": "24313"
+    },
+    "threshold_K31_F": {
+      "denominator": "8",
+      "numerator": "5"
+    }
+  },
+  "failure_count": 0,
+  "failures": [],
+  "immutable_hashes": {
+    "SHA256SUMS": "3fddbaf63f38f9ff014ad5f1ee6f537e4ca994c85d8c4511da6f439f91b3c96c",
+    "all_suffix_exact.json": "441000e76bc60c12093355bda4272ee9fefc9b621c3e4b30b30d17bcb39cb06b",
+    "all_suffix_exact.py": "bcf02d860baf08f6774f858f44ab76c3307632de90d683434e355189fcf763b6",
+    "all_suffix_functional_obstruction.md": "6084710041b5cb0797fefc05f477bc230bc70d893bb5e8ff2bb3dad9a9004d62",
+    "freeze_manifest.md": "8989d0998e819a24dd6b22f50df75a2199b4860fede1dcdd2aacf67625a63cea",
+    "report.md": "e760b6b7620e0278c8a21969112cb5675e268217d64d2319230f9642baecee11"
+  },
+  "moment_pairs": [
+    {
+      "high_difference": {
+        "denominator": "1",
+        "numerator": "-1"
+      },
+      "kappa": 4,
+      "killed_difference": {
+        "denominator": "4",
+        "numerator": "-1"
+      },
+      "r": 0
+    },
+    {
+      "high_difference": {
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "kappa": 5,
+      "killed_difference": {
+        "denominator": "30",
+        "numerator": "1"
+      },
+      "r": 1
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "-3"
+      },
+      "kappa": 6,
+      "killed_difference": {
+        "denominator": "224",
+        "numerator": "-1"
+      },
+      "r": 2
+    },
+    {
+      "high_difference": {
+        "denominator": "1",
+        "numerator": "3"
+      },
+      "kappa": 7,
+      "killed_difference": {
+        "denominator": "1680",
+        "numerator": "1"
+      },
+      "r": 3
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "-15"
+      },
+      "kappa": 8,
+      "killed_difference": {
+        "denominator": "12672",
+        "numerator": "-1"
+      },
+      "r": 4
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "45"
+      },
+      "kappa": 9,
+      "killed_difference": {
+        "denominator": "96096",
+        "numerator": "1"
+      },
+      "r": 5
+    },
+    {
+      "high_difference": {
+        "denominator": "4",
+        "numerator": "-315"
+      },
+      "kappa": 10,
+      "killed_difference": {
+        "denominator": "732160",
+        "numerator": "-1"
+      },
+      "r": 6
+    },
+    {
+      "high_difference": {
+        "denominator": "1",
+        "numerator": "315"
+      },
+      "kappa": 11,
+      "killed_difference": {
+        "denominator": "5601024",
+        "numerator": "1"
+      },
+      "r": 7
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "-2835"
+      },
+      "kappa": 12,
+      "killed_difference": {
+        "denominator": "42997760",
+        "numerator": "-1"
+      },
+      "r": 8
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "14175"
+      },
+      "kappa": 13,
+      "killed_difference": {
+        "denominator": "331082752",
+        "numerator": "1"
+      },
+      "r": 9
+    },
+    {
+      "high_difference": {
+        "denominator": "4",
+        "numerator": "-155925"
+      },
+      "kappa": 14,
+      "killed_difference": {
+        "denominator": "2556051456",
+        "numerator": "-1"
+      },
+      "r": 10
+    },
+    {
+      "high_difference": {
+        "denominator": "2",
+        "numerator": "467775"
+      },
+      "kappa": 15,
+      "killed_difference": {
+        "denominator": "19778969600",
+        "numerator": "1"
+      },
+      "r": 11
+    },
+    {
+      "high_difference": {
+        "denominator": "4",
+        "numerator": "-6081075"
+      },
+      "kappa": 16,
+      "killed_difference": {
+        "denominator": "153363087360",
+        "numerator": "-1"
+      },
+      "r": 12
+    }
+  ],
+  "moment_scope": {
+    "conclusion": "unrestricted fixed-moment compression cannot determine every attachment degree",
+    "measures_are_claimed_as_single_parent_attachment_laws": false,
+    "measures_are_claimed_reachable_under_the_DAG": false,
+    "measures_are_valid_on_fixed_kappa_deficits": true
+  },
+  "paired_named_data": {
+    "B": 2,
+    "C_s": {
+      "denominator": "32",
+      "numerator": "9"
+    },
+    "K": 32,
+    "L": 1,
+    "q": {
+      "denominator": "8",
+      "numerator": "3"
+    },
+    "s": 3,
+    "suffix_Cayley_ratios": [
+      {
+        "denominator": "3",
+        "numerator": "2"
+      },
+      {
+        "denominator": "16",
+        "numerator": "9"
+      }
+    ],
+    "z": {
+      "denominator": "33",
+      "numerator": "1"
+    }
+  },
+  "python": "3.12.3",
+  "reachability": [
+    {
+      "K": 32,
+      "each_extreme_branch_probability": {
+        "denominator": "32",
+        "numerator": "1"
+      },
+      "root_degree": 31
+    },
+    {
+      "K": 64,
+      "each_extreme_branch_probability": {
+        "denominator": "64",
+        "numerator": "1"
+      },
+      "root_degree": 63
+    },
+    {
+      "K": 257,
+      "each_extreme_branch_probability": {
+        "denominator": "257",
+        "numerator": "1"
+      },
+      "root_degree": 256
+    }
+  ],
+  "recurrence_cases": [
+    {
+      "state_s_K_R_B": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "value": {
+        "denominator": "1",
+        "numerator": "0"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "value": {
+        "denominator": "13824",
+        "numerator": "185"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        5,
+        6,
+        2,
+        1
+      ],
+      "value": {
+        "denominator": "5166787500000",
+        "numerator": "950684233703"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        3,
+        32,
+        1,
+        2
+      ],
+      "value": {
+        "denominator": "278784",
+        "numerator": "175033"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        3,
+        32,
+        31,
+        2
+      ],
+      "value": {
+        "denominator": "278784",
+        "numerator": "24313"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        5,
+        5,
+        1,
+        2
+      ],
+      "value": {
+        "denominator": "37035532800000",
+        "numerator": "22318897842691"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        7,
+        8,
+        7,
+        2
+      ],
+      "value": {
+        "denominator": "53397683415222505900501421260800000",
+        "numerator": "12995349203964336575494382603837503"
+      }
+    },
+    {
+      "state_s_K_R_B": [
+        7,
+        10,
+        4,
+        3
+      ],
+      "value": {
+        "denominator": "241145188640947939961733120000000",
+        "numerator": "130827927977774743032324400663087"
+      }
+    }
+  ],
+  "reset_one_power_samples": [
+    {
+      "envelope": {
+        "denominator": "2304",
+        "numerator": "205"
+      },
+      "leftover": {
+        "denominator": "256",
+        "numerator": "3"
+      }
+    },
+    {
+      "envelope": {
+        "denominator": "657981324",
+        "numerator": "186994265"
+      },
+      "leftover": {
+        "denominator": "664677",
+        "numerator": "6860"
+      }
+    }
+  ],
+  "scope": "auxiliary unweighted reset excursion only",
+  "seed": null
+}

@@ -1,0 +1,496 @@
+{
+  "claim_tested": "For every N, the weighted join-position basis polynomial F_N is Lorentzian.  One derivative quadratic with at least two positive Hessian eigenvalues refutes the claim.",
+  "first_failure": {
+    "N": 4,
+    "degree": 3,
+    "derivatives_checked": 1,
+    "first_failure": {
+      "derivative_set_zero_based": [
+        0
+      ],
+      "eigenvalues_float": [
+        -1617.7878574187932,
+        -222.30768048089953,
+        0.0005013357485901175,
+        1840.0950365639442
+      ],
+      "integer_hessian": [
+        [
+          0,
+          1536,
+          720,
+          264
+        ],
+        [
+          1536,
+          0,
+          264,
+          96
+        ],
+        [
+          720,
+          264,
+          0,
+          0
+        ],
+        [
+          264,
+          96,
+          0,
+          0
+        ]
+      ],
+      "positive_eigenvalue_count": 2,
+      "variables_zero_based": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "lorentzian_quadratic_signature_passed": false,
+    "path_count": 5,
+    "variables": 6
+  },
+  "metadata": {
+    "command": "experiments/20260811-polynomial-mixing-resolution/cycle-10/mission-M44-weighted-quartile-or-bottleneck/lorentzian_path_falsifier.py --input experiments/20260811-polynomial-mixing-resolution/cycle-08/mission-M38-weighted-dyck-shell/results-paths-N8.json --output experiments/20260811-polynomial-mixing-resolution/cycle-10/mission-M44-weighted-quartile-or-bottleneck/lorentzian-results.json",
+    "deterministic": true,
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+    "seed": null
+  },
+  "records": [
+    {
+      "N": 3,
+      "degree": 2,
+      "derivatives_checked": 1,
+      "first_failure": null,
+      "lorentzian_quadratic_signature_passed": true,
+      "path_count": 2,
+      "variables": 4
+    },
+    {
+      "N": 4,
+      "degree": 3,
+      "derivatives_checked": 1,
+      "first_failure": {
+        "derivative_set_zero_based": [
+          0
+        ],
+        "eigenvalues_float": [
+          -1617.7878574187932,
+          -222.30768048089953,
+          0.0005013357485901175,
+          1840.0950365639442
+        ],
+        "integer_hessian": [
+          [
+            0,
+            1536,
+            720,
+            264
+          ],
+          [
+            1536,
+            0,
+            264,
+            96
+          ],
+          [
+            720,
+            264,
+            0,
+            0
+          ],
+          [
+            264,
+            96,
+            0,
+            0
+          ]
+        ],
+        "positive_eigenvalue_count": 2,
+        "variables_zero_based": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "lorentzian_quadratic_signature_passed": false,
+      "path_count": 5,
+      "variables": 6
+    },
+    {
+      "N": 5,
+      "degree": 4,
+      "derivatives_checked": 1,
+      "first_failure": {
+        "derivative_set_zero_based": [
+          0,
+          1
+        ],
+        "eigenvalues_float": [
+          -395209.6160384,
+          -92282.06763777939,
+          -16786.84871953027,
+          0.11059547813783865,
+          504278.42180023144
+        ],
+        "integer_hessian": [
+          [
+            0,
+            375000,
+            205560,
+            103800,
+            40440
+          ],
+          [
+            375000,
+            0,
+            103800,
+            51960,
+            20160
+          ],
+          [
+            205560,
+            103800,
+            0,
+            20280,
+            7800
+          ],
+          [
+            103800,
+            51960,
+            20280,
+            0,
+            0
+          ],
+          [
+            40440,
+            20160,
+            7800,
+            0,
+            0
+          ]
+        ],
+        "positive_eigenvalue_count": 2,
+        "variables_zero_based": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "lorentzian_quadratic_signature_passed": false,
+      "path_count": 14,
+      "variables": 8
+    },
+    {
+      "N": 6,
+      "degree": 5,
+      "derivatives_checked": 1,
+      "first_failure": {
+        "derivative_set_zero_based": [
+          0,
+          1,
+          2
+        ],
+        "eigenvalues_float": [
+          -212480872.08523703,
+          -65056792.15358131,
+          -18531953.17579414,
+          -3919180.700842844,
+          43.30136225927416,
+          299988754.8140931
+        ],
+        "integer_hessian": [
+          [
+            0,
+            201553920,
+            121394880,
+            70715520,
+            37540800,
+            15248880
+          ],
+          [
+            201553920,
+            0,
+            70715520,
+            40881600,
+            21597120,
+            8750160
+          ],
+          [
+            121394880,
+            70715520,
+            0,
+            21726720,
+            11394720,
+            4599360
+          ],
+          [
+            70715520,
+            40881600,
+            21726720,
+            0,
+            4644000,
+            1857600
+          ],
+          [
+            37540800,
+            21597120,
+            11394720,
+            4644000,
+            0,
+            0
+          ],
+          [
+            15248880,
+            8750160,
+            4599360,
+            1857600,
+            0,
+            0
+          ]
+        ],
+        "positive_eigenvalue_count": 2,
+        "variables_zero_based": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "lorentzian_quadratic_signature_passed": false,
+      "path_count": 42,
+      "variables": 10
+    },
+    {
+      "N": 7,
+      "degree": 6,
+      "derivatives_checked": 1,
+      "first_failure": {
+        "derivative_set_zero_based": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "eigenvalues_float": [
+          -214401956217.17133,
+          -77914783345.99524,
+          -27888891871.258896,
+          -8962203476.399557,
+          -2074233023.8382094,
+          30416.056920200983,
+          331242037518.6063
+        ],
+        "integer_hessian": [
+          [
+            0,
+            203382179280,
+            130642621200,
+            82826084880,
+            50341974480,
+            27693988560,
+            11595230640
+          ],
+          [
+            203382179280,
+            0,
+            82826084880,
+            52169579280,
+            31561482960,
+            17309108880,
+            7234536960
+          ],
+          [
+            130642621200,
+            82826084880,
+            0,
+            31725484560,
+            19080195120,
+            10423299600,
+            4347015120
+          ],
+          [
+            82826084880,
+            52169579280,
+            31725484560,
+            0,
+            10518726960,
+            5709871440,
+            2372902560
+          ],
+          [
+            50341974480,
+            31561482960,
+            19080195120,
+            10518726960,
+            0,
+            2401524720,
+            988863120
+          ],
+          [
+            27693988560,
+            17309108880,
+            10423299600,
+            5709871440,
+            2401524720,
+            0,
+            0
+          ],
+          [
+            11595230640,
+            7234536960,
+            4347015120,
+            2372902560,
+            988863120,
+            0,
+            0
+          ]
+        ],
+        "positive_eigenvalue_count": 2,
+        "variables_zero_based": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "lorentzian_quadratic_signature_passed": false,
+      "path_count": 132,
+      "variables": 12
+    },
+    {
+      "N": 8,
+      "degree": 7,
+      "derivatives_checked": 1,
+      "first_failure": {
+        "derivative_set_zero_based": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "eigenvalues_float": [
+          -365013496458546.56,
+          -149642845259085.88,
+          -61907250525098.41,
+          -24483139018257.23,
+          -8513662073844.229,
+          -2092038012107.3125,
+          36015943.86965573,
+          611652395330996.0
+        ],
+        "integer_hessian": [
+          [
+            0,
+            346346162749440,
+            233285401520640,
+            156634183802880,
+            103033000788480,
+            64596899727360,
+            36488871014400,
+            15631630560000
+          ],
+          [
+            346346162749440,
+            0,
+            156634183802880,
+            104578269626880,
+            68499858792960,
+            42814584852480,
+            24134317562880,
+            10326085862400
+          ],
+          [
+            233285401520640,
+            156634183802880,
+            0,
+            68799637831680,
+            44843685062400,
+            27928977108480,
+            15705325923840,
+            6709955736960
+          ],
+          [
+            156634183802880,
+            104578269626880,
+            68799637831680,
+            0,
+            28149352277760,
+            17446833008640,
+            9778599452160,
+            4169641069440
+          ],
+          [
+            103033000788480,
+            68499858792960,
+            44843685062400,
+            28149352277760,
+            0,
+            9884326717440,
+            5508440017920,
+            2340896544000
+          ],
+          [
+            64596899727360,
+            42814584852480,
+            27928977108480,
+            17446833008640,
+            9884326717440,
+            0,
+            2372523713280,
+            998957352960
+          ],
+          [
+            36488871014400,
+            24134317562880,
+            15705325923840,
+            9778599452160,
+            5508440017920,
+            2372523713280,
+            0,
+            0
+          ],
+          [
+            15631630560000,
+            10326085862400,
+            6709955736960,
+            4169641069440,
+            2340896544000,
+            998957352960,
+            0,
+            0
+          ]
+        ],
+        "positive_eigenvalue_count": 2,
+        "variables_zero_based": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "lorentzian_quadratic_signature_passed": false,
+      "path_count": 429,
+      "variables": 14
+    }
+  ],
+  "universal_claim_refuted": true
+}

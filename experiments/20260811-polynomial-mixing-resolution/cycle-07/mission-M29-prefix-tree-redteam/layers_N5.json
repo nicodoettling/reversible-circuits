@@ -1,0 +1,132 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-07/mission-M29-prefix-tree-redteam/exact_peak_tree_layers.py",
+    "--N",
+    "5",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-07/mission-M29-prefix-tree-redteam/layers_N5.json"
+  ],
+  "claims_tested": [
+    "Minimal-orbit area/peak/height layers are unimodal or log-concave.",
+    "Minimal join-tree leaf/max-degree layers are unimodal or log-concave.",
+    "Every minimal connected word has a one-step r<=5 full-K exit from full support."
+  ],
+  "convention": "(pq)(x)=p(q(x)); word product left-to-right; R(a,b)=(b,bab)",
+  "purpose": "Finite exact falsifier only; no asymptotic inference.",
+  "python": "3.12.3",
+  "result": {
+    "M": 10,
+    "N": 5,
+    "elapsed_seconds": 23.891984701156616,
+    "expected_orbit_size": 1008000,
+    "first_zero_macro_exit_witness_edges": null,
+    "layers": {
+      "area": {
+        "counts": [
+          3000,
+          23400,
+          60600,
+          132840,
+          207600,
+          205560,
+          375000
+        ],
+        "log_concave": false,
+        "support": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "unimodal": false
+      },
+      "join_tree_leaves": {
+        "counts": [
+          468480,
+          495240,
+          44280
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "join_tree_max_degree": {
+        "counts": [
+          468480,
+          495240,
+          44280
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "maximum_height": {
+        "counts": [
+          3000,
+          135960,
+          494040,
+          375000
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      },
+      "midpoint_height": {
+        "counts": [
+          38880,
+          594120,
+          375000
+        ],
+        "log_concave": true,
+        "support": [
+          0,
+          2,
+          4
+        ],
+        "unimodal": true
+      },
+      "peaks": {
+        "counts": [
+          375000,
+          514320,
+          115680,
+          3000
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "unimodal": true
+      }
+    },
+    "m": 8,
+    "minimum_vertex_cut_span_distribution": {
+      "2": 419400,
+      "3": 318360,
+      "4": 215280,
+      "5": 54960
+    },
+    "orbit_size": 1008000,
+    "states_certified_to_have_zero_macro_exit": 0
+  },
+  "seed": null
+}

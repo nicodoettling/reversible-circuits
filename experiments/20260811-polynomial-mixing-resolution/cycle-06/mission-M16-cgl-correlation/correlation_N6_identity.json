@@ -1,0 +1,274 @@
+{
+  "N": 6,
+  "claim_falsifiers": [
+    "mu_2^*<1",
+    "for all l>=3 and endpoints, mu_l<=1/(l-1)",
+    "the oriented forward coordinate kernel is always self-adjoint"
+  ],
+  "composition": "(pq)(x)=p(q(x)); tuple product left-to-right",
+  "deterministic": true,
+  "identity_only": true,
+  "increment_product_support_size": 86,
+  "l_max": 7,
+  "maxima_by_length": [
+    {
+      "length": 2,
+      "max_abs_kappa": 1.0000000000000009,
+      "max_l_times_abs_kappa": 2.0000000000000018,
+      "max_mu": 1.0000000000000016
+    },
+    {
+      "length": 3,
+      "max_abs_kappa": 0.41441458002720566,
+      "max_l_times_abs_kappa": 1.243243740081617,
+      "max_mu": 0.609609720018137
+    },
+    {
+      "length": 4,
+      "max_abs_kappa": 0.1968567373504716,
+      "max_l_times_abs_kappa": 0.7874269494018864,
+      "max_mu": 0.39764255301285373
+    },
+    {
+      "length": 5,
+      "max_abs_kappa": 0.08327624737587785,
+      "max_l_times_abs_kappa": 0.41638123687938927,
+      "max_mu": 0.2666209979007022
+    },
+    {
+      "length": 6,
+      "max_abs_kappa": 0.03216040864199525,
+      "max_l_times_abs_kappa": 0.1929624518519715,
+      "max_mu": 0.19346700720166263
+    },
+    {
+      "length": 7,
+      "max_abs_kappa": 0.011899513413913085,
+      "max_l_times_abs_kappa": 0.0832965938973916,
+      "max_mu": 0.15305672578335414
+    }
+  ],
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "records": [
+    {
+      "K_U_commutator_error": 2.220446049250313e-16,
+      "K_normality_error": 4.440892098500626e-16,
+      "active_product_count": 86,
+      "bridge_microstate_count": 765,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 1.887379141862766e-15,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 0.0,
+      "identity_label_moved_kappa": 1.0000000000000002,
+      "identity_product_support_size_kappa": 1.000000000000001,
+      "identity_square_indicator_kappa": 1.0000000000000002,
+      "l_times_mu": 2.000000000000003,
+      "length": 2,
+      "max_abs_kappa": 1.0000000000000009,
+      "mu_full": 1.0000000000000016,
+      "mu_product": 1.0000000000000016,
+      "one_minus_mu": -1.5543122344752192e-15,
+      "product_gram_dimension": 170,
+      "scalar_block_spectrum_error": 1.3322676295501878e-15
+    },
+    {
+      "K_U_commutator_error": 5.898059818321144e-17,
+      "K_normality_error": 3.469446951953614e-17,
+      "active_product_count": 86,
+      "bridge_microstate_count": 72315,
+      "candidate_mu_le_1_over_l_minus_1": false,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 3.3306690738754696e-16,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 2.168404344971009e-19,
+      "identity_label_moved_kappa": 0.367336818083866,
+      "identity_product_support_size_kappa": 0.16643916395483188,
+      "identity_square_indicator_kappa": 0.16098155238426726,
+      "l_times_mu": 1.8288291600544109,
+      "length": 3,
+      "max_abs_kappa": 0.41441458002720566,
+      "mu_full": 0.609609720018137,
+      "mu_product": 0.609609720018137,
+      "one_minus_mu": 0.39039027998186304,
+      "product_gram_dimension": 255,
+      "scalar_block_spectrum_error": 6.661338147750939e-16
+    },
+    {
+      "K_U_commutator_error": 2.6020852139652106e-17,
+      "K_normality_error": 6.938893903907228e-18,
+      "active_product_count": 86,
+      "bridge_microstate_count": 10198665,
+      "candidate_mu_le_1_over_l_minus_1": false,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 9.71445146547012e-17,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 2.168404344971009e-19,
+      "identity_label_moved_kappa": 0.17770075881473996,
+      "identity_product_support_size_kappa": 0.06574557168423548,
+      "identity_square_indicator_kappa": 0.05854844685571268,
+      "l_times_mu": 1.590570212051415,
+      "length": 4,
+      "max_abs_kappa": 0.1968567373504716,
+      "mu_full": 0.39764255301285373,
+      "mu_product": 0.39764255301285373,
+      "one_minus_mu": 0.6023574469871462,
+      "product_gram_dimension": 340,
+      "scalar_block_spectrum_error": 6.106226635438361e-16
+    },
+    {
+      "K_U_commutator_error": 1.214306433183765e-17,
+      "K_normality_error": 2.168404344971009e-18,
+      "active_product_count": 86,
+      "bridge_microstate_count": 1846162215,
+      "candidate_mu_le_1_over_l_minus_1": false,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 2.3418766925686896e-17,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 2.710505431213761e-20,
+      "identity_label_moved_kappa": 0.07696379624367791,
+      "identity_product_support_size_kappa": 0.03224471621056671,
+      "identity_square_indicator_kappa": 0.025618583966409043,
+      "l_times_mu": 1.333104989503511,
+      "length": 5,
+      "max_abs_kappa": 0.08327624737587785,
+      "mu_full": 0.2666209979007022,
+      "mu_product": 0.2666209979007022,
+      "one_minus_mu": 0.7333790020992978,
+      "product_gram_dimension": 425,
+      "scalar_block_spectrum_error": 4.163336342344337e-16
+    },
+    {
+      "K_U_commutator_error": 4.9873299934333204e-18,
+      "K_normality_error": 3.049318610115481e-19,
+      "active_product_count": 86,
+      "bridge_microstate_count": 380074772565,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 1.599198204416119e-17,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 2.710505431213761e-20,
+      "identity_label_moved_kappa": 0.030106261119467247,
+      "identity_product_support_size_kappa": 0.014061364254901985,
+      "identity_square_indicator_kappa": 0.0107894117699044,
+      "l_times_mu": 1.1608020432099757,
+      "length": 6,
+      "max_abs_kappa": 0.03216040864199525,
+      "mu_full": 0.19346700720166263,
+      "mu_product": 0.19346700720166263,
+      "one_minus_mu": 0.8065329927983373,
+      "product_gram_dimension": 510,
+      "scalar_block_spectrum_error": 5.828670879282072e-16
+    },
+    {
+      "K_U_commutator_error": 8.673617379884035e-19,
+      "K_normality_error": 1.2705494208814505e-19,
+      "active_product_count": 86,
+      "bridge_microstate_count": 82681502276115,
+      "candidate_mu_le_1_over_l_minus_1": true,
+      "cycle_type": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "cyclic_relation_K_eq_Kstar_U_error": 1.6371452804531117e-17,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "forward_kernel_self_adjoint_error": 1.3552527156068805e-20,
+      "identity_label_moved_kappa": 0.011199665128189512,
+      "identity_product_support_size_kappa": 0.005506961596460004,
+      "identity_square_indicator_kappa": 0.0041970820846491605,
+      "l_times_mu": 1.071397080483479,
+      "length": 7,
+      "max_abs_kappa": 0.011899513413913085,
+      "mu_full": 0.15305672578335414,
+      "mu_product": 0.15305672578335414,
+      "one_minus_mu": 0.8469432742166458,
+      "product_gram_dimension": 595,
+      "scalar_block_spectrum_error": 3.885780586188048e-16
+    }
+  ],
+  "scope_warning": "Exact bridge counts with floating diagonalization can falsify quantitative candidates but cannot prove uniform asymptotics.",
+  "seed": null,
+  "status": "complete"
+}

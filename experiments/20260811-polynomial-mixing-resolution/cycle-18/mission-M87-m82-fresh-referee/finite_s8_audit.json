@@ -1,0 +1,73 @@
+{
+  "arithmetic": "fractions.Fraction exact",
+  "claim_tested": "Independent full rank-eight eliminated M82 scan",
+  "contexts": 1015,
+  "failure_counts": {
+    "right_heavy_unweighted": 0,
+    "row_over_multitype_bound": 0,
+    "unweighted": 17,
+    "weighted_eliminated_over_parent": 0
+  },
+  "first_unweighted_failure": {
+    "context": [
+      6,
+      8,
+      1,
+      2
+    ],
+    "decimal": 1.0619884514445113,
+    "denominator": "1135274399078805562500000",
+    "numerator": "1205648301042298686456011"
+  },
+  "imports_only_owned_core": true,
+  "imports_predecessor_code": false,
+  "maxima": {
+    "right_heavy_unweighted": {
+      "context": [
+        8,
+        1,
+        0,
+        4
+      ],
+      "decimal": 0.538434439350936,
+      "denominator": "205821970709722225934365753344000000000",
+      "numerator": "110821637405194064680670519499542276759"
+    },
+    "row_over_multitype_bound": {
+      "context": [
+        8,
+        1,
+        0,
+        3
+      ],
+      "decimal": 0.621004266940768,
+      "denominator": "408991211833242065204727055908864000000",
+      "numerator": "253985287689718867427349453367883132399"
+    },
+    "unweighted": {
+      "context": [
+        8,
+        8,
+        1,
+        3
+      ],
+      "decimal": 1.2921324746861385,
+      "denominator": "2421565292532843840705568069654256025600000",
+      "numerator": "3128983154054526394323318989781389042529623"
+    },
+    "weighted_eliminated_over_parent": {
+      "context": [
+        8,
+        1,
+        0,
+        4
+      ],
+      "decimal": 0.43715035400213015,
+      "denominator": "454309761272791522761187983360000000000",
+      "numerator": "198601672967024061529855442277847995017"
+    }
+  },
+  "python": "3.12.3",
+  "scope": "2<=s<=8, 1<=K<=8, exact reachable closure, every B",
+  "seed": null
+}

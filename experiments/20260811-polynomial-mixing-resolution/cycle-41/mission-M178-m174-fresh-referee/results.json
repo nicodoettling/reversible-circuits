@@ -1,0 +1,23 @@
+{
+  "claim": "M174 strict PCS boundary-response reduction",
+  "verdict": "accept_with_zero_material_and_two_nonmaterial_objections",
+  "proved_in_audit": [
+    "uniform boundedness of u1, u2, v1, v2 with explicit remainders",
+    "affine constants L_T=0 and L_D=-2",
+    "eta(T)=12(k-1)/(3k(3k-4)(2k-1))",
+    "Delta=exp(-2)/((n-3)(n-4))*(2n eta(T)+eta(B_k))",
+    "PCS-bound iff eta(B_k)=O(1)"
+  ],
+  "exact_finite_checks": [3, 5],
+  "frozen_m174_exact_match": [3, 5],
+  "unresolved": [
+    "boundary-response coefficient lemma BR",
+    "PCS-bound",
+    "FD-bound",
+    "FCL1"
+  ],
+  "material_objections": 0,
+  "nonmaterial_objections": 2,
+  "asymptotic_inference_from_finite_data": false,
+  "gap_or_terminal_inference": false
+}

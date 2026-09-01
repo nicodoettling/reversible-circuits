@@ -1,0 +1,2324 @@
+{
+  "claim_tested": "For fixed coarse/refined root compositions, each split exit rate is a function only of the local macro of the split branch.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/split_context_locality.py --r-max 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M56-marked-root-history-flow/split_context_locality_r7.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "One contextual collision refutes branch locality. Finite passes cannot prove locality or polynomial ratio bounds.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "python": "3.12.3",
+  "records": [
+    {
+      "contextual_group_count": 1,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [],
+      "macro_count": 2,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          2
+        ],
+        "contextual_over_alpha_r": "1",
+        "local_macro": [
+          0
+        ],
+        "ratio": "1",
+        "refined": [
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          2
+        ],
+        "contextual_over_alpha_r": "1",
+        "local_macro": [
+          0
+        ],
+        "ratio": "1",
+        "refined": [
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1"
+      },
+      "r": 2,
+      "raw_factorization_count": 3
+    },
+    {
+      "contextual_group_count": 5,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [],
+      "macro_count": 5,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          3
+        ],
+        "contextual_over_alpha_r": "1/2",
+        "local_macro": [
+          0,
+          1
+        ],
+        "ratio": "1",
+        "refined": [
+          2,
+          1
+        ],
+        "unary_over_alpha_c": "1/2"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 1,
+        "coarse": [
+          1,
+          2
+        ],
+        "contextual_over_alpha_r": "1",
+        "local_macro": [
+          0
+        ],
+        "ratio": "1",
+        "refined": [
+          1,
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1"
+      },
+      "r": 3,
+      "raw_factorization_count": 16
+    },
+    {
+      "contextual_group_count": 20,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            1,
+            1
+          ]
+        }
+      ],
+      "macro_count": 14,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          3,
+          1
+        ],
+        "contextual_over_alpha_r": "2/3",
+        "local_macro": [
+          0,
+          1
+        ],
+        "ratio": "4/3",
+        "refined": [
+          2,
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1/2"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 1,
+        "coarse": [
+          1,
+          3
+        ],
+        "contextual_over_alpha_r": "1/3",
+        "local_macro": [
+          0,
+          1
+        ],
+        "ratio": "2/3",
+        "refined": [
+          1,
+          2,
+          1
+        ],
+        "unary_over_alpha_c": "1/2"
+      },
+      "r": 4,
+      "raw_factorization_count": 125
+    },
+    {
+      "contextual_group_count": 73,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            2
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            1,
+            1
+          ]
+        }
+      ],
+      "macro_count": 42,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          4,
+          1
+        ],
+        "contextual_over_alpha_r": "1/2",
+        "local_macro": [
+          0,
+          1,
+          2
+        ],
+        "ratio": "3/2",
+        "refined": [
+          3,
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1/3"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 2,
+        "coarse": [
+          1,
+          1,
+          3
+        ],
+        "contextual_over_alpha_r": "1/4",
+        "local_macro": [
+          0,
+          1
+        ],
+        "ratio": "1/2",
+        "refined": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "unary_over_alpha_c": "1/2"
+      },
+      "r": 5,
+      "raw_factorization_count": 1296
+    },
+    {
+      "contextual_group_count": 255,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            4
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            4
+          ],
+          "ratios": [
+            "3/10",
+            "3/2",
+            "3/5",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            1,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            2,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4,
+            1
+          ],
+          "ratios": [
+            "1",
+            "21/20",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            1,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            5
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            5
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            5
+          ],
+          "ratios": [
+            "1",
+            "14/25",
+            "16/15",
+            "2/5",
+            "3/2",
+            "3/4",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            2,
+            1,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            4
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            4
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            2
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            2,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            3,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "27/20",
+            "3/10",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            3,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            2
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            2
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "14/15",
+            "2/3",
+            "2/5",
+            "36/25",
+            "4/5",
+            "5/4",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            4,
+            1,
+            1
+          ]
+        }
+      ],
+      "macro_count": 132,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          4,
+          1,
+          1
+        ],
+        "contextual_over_alpha_r": "3/5",
+        "local_macro": [
+          0,
+          1,
+          2
+        ],
+        "ratio": "9/5",
+        "refined": [
+          3,
+          1,
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1/3"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 2,
+        "coarse": [
+          1,
+          1,
+          4
+        ],
+        "contextual_over_alpha_r": "1/10",
+        "local_macro": [
+          0,
+          1,
+          2
+        ],
+        "ratio": "3/10",
+        "refined": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "unary_over_alpha_c": "1/3"
+      },
+      "r": 6,
+      "raw_factorization_count": 16807
+    },
+    {
+      "contextual_group_count": 873,
+      "contextual_locality_failures": [],
+      "contextual_vs_unary_support_failures": [],
+      "fixed_refinement_scaling_failures": [
+        {
+          "branch_index": 4,
+          "coarse": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "ratios": [
+            "1/3",
+            "5/3"
+          ],
+          "refined": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            1,
+            1,
+            4
+          ],
+          "ratios": [
+            "1/2",
+            "1/5",
+            "2",
+            "4/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            1,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            4,
+            1
+          ],
+          "ratios": [
+            "3/5",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            1,
+            1,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "ratios": [
+            "3/10",
+            "3/2",
+            "3/5",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            1,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            1,
+            5
+          ],
+          "ratios": [
+            "1",
+            "1/5",
+            "2",
+            "2/3",
+            "3/2",
+            "3/5",
+            "6/5",
+            "9/10",
+            "9/25",
+            "9/5"
+          ],
+          "refined": [
+            1,
+            1,
+            4,
+            1
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            2,
+            4
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            2,
+            4
+          ],
+          "ratios": [
+            "3/10",
+            "3/2",
+            "3/5",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            1,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            1,
+            3,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            1,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4,
+            1,
+            1
+          ],
+          "ratios": [
+            "3/5",
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            1,
+            3,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            4,
+            2
+          ],
+          "ratios": [
+            "1",
+            "21/20",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            1,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "ratios": [
+            "1",
+            "21/20",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            1,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            5,
+            1
+          ],
+          "ratios": [
+            "1",
+            "16/15",
+            "21/20",
+            "24/25",
+            "4/5",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            1,
+            4,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            6
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            6
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            6
+          ],
+          "ratios": [
+            "1",
+            "14/25",
+            "16/15",
+            "2/5",
+            "3/2",
+            "3/4",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            1,
+            6
+          ],
+          "ratios": [
+            "1",
+            "1/3",
+            "10/9",
+            "14/25",
+            "16/15",
+            "16/27",
+            "2/3",
+            "3/2",
+            "3/4",
+            "4/3",
+            "4/5",
+            "4/9",
+            "5/3",
+            "5/4",
+            "5/6",
+            "5/8",
+            "6/5",
+            "6/7",
+            "8/5"
+          ],
+          "refined": [
+            1,
+            5,
+            1
+          ]
+        },
+        {
+          "branch_index": 3,
+          "coarse": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            2,
+            1,
+            4
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            2,
+            1,
+            4
+          ],
+          "ratios": [
+            "3/10",
+            "3/2",
+            "3/5",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            2,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            2,
+            2,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "ratios": [
+            "4/5",
+            "6/5"
+          ],
+          "refined": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            4,
+            1
+          ],
+          "ratios": [
+            "1",
+            "21/20",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            2,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            5
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            5
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            3,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            2,
+            5
+          ],
+          "ratios": [
+            "1",
+            "14/25",
+            "16/15",
+            "2/5",
+            "3/2",
+            "3/4",
+            "4/3",
+            "4/5",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/3",
+            "5/3"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "branch_index": 2,
+          "coarse": [
+            3,
+            1,
+            3
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            3,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            2,
+            2
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            3,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            1,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            3,
+            4
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            1,
+            4
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            3,
+            4
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            3,
+            4
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "3/2",
+            "3/4",
+            "4/3"
+          ],
+          "refined": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "ratios": [
+            "2/5",
+            "8/5"
+          ],
+          "refined": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/5",
+            "2",
+            "2/5",
+            "4/5",
+            "7/5"
+          ],
+          "refined": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            2
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            2,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            1,
+            2
+          ],
+          "ratios": [
+            "1/2",
+            "27/20",
+            "3/10",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            3,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            2,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            2,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "27/20",
+            "3/10",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            3,
+            1,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            2,
+            3
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            4,
+            3
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            1,
+            3
+          ]
+        },
+        {
+          "branch_index": 1,
+          "coarse": [
+            4,
+            3
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "3/2"
+          ],
+          "refined": [
+            2,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "27/20",
+            "3/10",
+            "9/10",
+            "9/5"
+          ],
+          "refined": [
+            3,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            1,
+            1
+          ],
+          "ratios": [
+            "1/2",
+            "1/5",
+            "19/15",
+            "2",
+            "27/20",
+            "3/10",
+            "3/5",
+            "4/5",
+            "42/25",
+            "6/5",
+            "9/10"
+          ],
+          "refined": [
+            4,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            2
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            3,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            2
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            5,
+            2
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "14/15",
+            "2/3",
+            "2/5",
+            "36/25",
+            "4/5",
+            "5/4",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            4,
+            1,
+            2
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            6,
+            1
+          ],
+          "ratios": [
+            "2/3",
+            "4/3"
+          ],
+          "refined": [
+            2,
+            4,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            6,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "2/3",
+            "3/2",
+            "5/4"
+          ],
+          "refined": [
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            6,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "14/15",
+            "2/3",
+            "2/5",
+            "36/25",
+            "4/5",
+            "5/4",
+            "6/5",
+            "8/5"
+          ],
+          "refined": [
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "branch_index": 0,
+          "coarse": [
+            6,
+            1
+          ],
+          "ratios": [
+            "1",
+            "1/2",
+            "1/3",
+            "11/8",
+            "14/15",
+            "14/9",
+            "2/3",
+            "2/5",
+            "3/4",
+            "36/25",
+            "38/27",
+            "4/3",
+            "4/5",
+            "5/3",
+            "5/4",
+            "6/5",
+            "7/6",
+            "8/7",
+            "8/9"
+          ],
+          "refined": [
+            5,
+            1,
+            1
+          ]
+        }
+      ],
+      "macro_count": 429,
+      "maximum_context_to_unary_ratio": {
+        "branch_index": 0,
+        "coarse": [
+          5,
+          1,
+          1
+        ],
+        "contextual_over_alpha_r": "1/2",
+        "local_macro": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "ratio": "2",
+        "refined": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "unary_over_alpha_c": "1/4"
+      },
+      "minimum_positive_context_to_unary_ratio": {
+        "branch_index": 3,
+        "coarse": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "contextual_over_alpha_r": "1/15",
+        "local_macro": [
+          0,
+          1,
+          2
+        ],
+        "ratio": "1/5",
+        "refined": [
+          1,
+          1,
+          1,
+          3,
+          1
+        ],
+        "unary_over_alpha_c": "1/3"
+      },
+      "r": 7,
+      "raw_factorization_count": 262144
+    }
+  ],
+  "seed": null
+}

@@ -1,0 +1,65 @@
+{
+  "coefficient_audits": [
+    {
+      "a_coefficient_digest": "eb397b75fb245cf9bfb9fe45798c5b0bd47dae59eaa0480c6e5bb46927efdd96",
+      "a_record_count": 18,
+      "b_coefficient_digest": "c7da6f76a15845b149e56bbaea031ca99a3a11f3f6b2768598fe9c51fdf88afa",
+      "b_record_count": 15,
+      "first_edges_per_split_a": 6,
+      "first_edges_per_split_b": 5,
+      "k": 3,
+      "literal_formula_match": true,
+      "maximizing_allowed_cutoff": 4,
+      "maximum_scaled_absolute_prefix": 0.3375,
+      "placement_inequalities_checked": 9,
+      "signed_prefix_at_maximum": "9/40"
+    },
+    {
+      "a_coefficient_digest": "fba607ac2555532192f216ad2b3030de7855987a22067809d1141ace0ed35295",
+      "a_record_count": 240,
+      "b_coefficient_digest": "b459471dcaa55fb48c30d049aeb0edc6e3cadb7f05bea6d801ddca1aee94375d",
+      "b_record_count": 324,
+      "first_edges_per_split_a": 10,
+      "first_edges_per_split_b": 9,
+      "k": 5,
+      "literal_formula_match": true,
+      "maximizing_allowed_cutoff": 7,
+      "maximum_scaled_absolute_prefix": 0.24496389125427126,
+      "placement_inequalities_checked": 216,
+      "signed_prefix_at_maximum": "17567979137221/135531648000000"
+    },
+    {
+      "a_coefficient_digest": "81aa849f77139889c633e4873132a09766682be01055aa43fc75be3da8c16f48",
+      "a_record_count": 1162,
+      "b_coefficient_digest": "848797de30f9ae16fdb98df64eeea158e154cfdbd1e7a2f59b990cd7ef91f89e",
+      "b_record_count": 1781,
+      "first_edges_per_split_a": 14,
+      "first_edges_per_split_b": 13,
+      "k": 7,
+      "literal_formula_match": true,
+      "maximizing_allowed_cutoff": 10,
+      "maximum_scaled_absolute_prefix": 0.18378416530172378,
+      "placement_inequalities_checked": 1233,
+      "signed_prefix_at_maximum": "14758021810439284363261597293899/177753474147070524289466880000000"
+    }
+  ],
+  "convolution_audit": {
+    "m_max": 31,
+    "m_min": 2,
+    "rooted_tree_convolution": true,
+    "weighted_convolution": true
+  },
+  "finite_constant_audit": {
+    "all_component_claims_pass": true,
+    "odd_k_max": 31,
+    "odd_k_min": 3,
+    "parameter_pairs": 360,
+    "universal_inference": false
+  },
+  "imports_predecessor_code_or_data": false,
+  "method": "clean-room literal permutations versus independent coefficient laws",
+  "mission": "M238",
+  "theorem_scope": "TCM constant 160 only",
+  "universal_inference_from_finite_checks": false,
+  "verdict": "ACCEPT"
+}

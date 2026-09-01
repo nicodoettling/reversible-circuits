@@ -1,0 +1,39 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/subset_tail_audit.py",
+    "--case",
+    "2",
+    "4",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M84-safe-duplicate-occupation/subset-tail-L2-c4.json"
+  ],
+  "claim_tested": "Whether a fixed tail level alone supplies a safe-duplicate probability lower bound for W_L.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "method": "Literal enumeration of all selected subsets whose unselected complement has the requested size; exact stable-residual formula; exact duplicate and connectivity predicates.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "L": 2,
+      "k": 64,
+      "n": 32,
+      "tail_levels": [
+        {
+          "elapsed_seconds": 57.70850014407188,
+          "examples": [],
+          "one_level_safe_hit_probability_denominator": 3812256,
+          "one_level_safe_hit_probability_numerator": 0,
+          "safe_pair_histogram": {
+            "0": 635376
+          },
+          "safe_pair_total": 0,
+          "safe_subset_count": 0,
+          "selected_count": 60,
+          "subset_count": 635376,
+          "unselected_count": 4
+        }
+      ]
+    }
+  ],
+  "seed": null
+}

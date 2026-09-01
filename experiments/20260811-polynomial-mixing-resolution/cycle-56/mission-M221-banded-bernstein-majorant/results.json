@@ -1,0 +1,118 @@
+{
+  "actual_kernel": {
+    "T1": "100831060869578347854833692341308821/459142800034351572282356269056000000",
+    "budget": "144495/262144",
+    "positive_actual_slack": "152250599938846145694280798538691179/459142800034351572282356269056000000",
+    "q": "117649/262144"
+  },
+  "all_checks_pass": true,
+  "conic_program": {
+    "dual": "max <A,X>: X PSD, X_ij=G_ij for |i-j|<=w",
+    "primal": "min <G,C>: C-A PSD, C_ij=0 for |i-j|>w",
+    "strong_duality_reason": "strict primal point C=tI for sufficiently large rational t"
+  },
+  "least_feasible_bandwidth": 1,
+  "lift_stability": {
+    "coarse_positive_linear_envelope": "Env(M)=Tr(M) I >=_PSD M",
+    "cost_controlled_width_one_recursive_envelope": "unresolved",
+    "counterexample_child_degree": 1,
+    "counterexample_combined_degree": 2,
+    "counterexample_elevated_vector": [
+      "1",
+      "5/6",
+      "2/3",
+      "1/2",
+      "1/3",
+      "1/6",
+      "0"
+    ],
+    "counterexample_likelihood_d_a": [
+      1,
+      0
+    ],
+    "counterexample_output_bandwidth": 5,
+    "general_raw_upper_bound": "w+(L-n), capped at L",
+    "raw_fixed_width_one_closed": false,
+    "saturated_bandwidth_one_checks": 177,
+    "unsaturated_bandwidth_upper_bound_checks": 215
+  },
+  "method": "one exact Fraction row; grouped Cayley roots; no predecessor import/data",
+  "python": "3.12.3",
+  "reconstruction": {
+    "actual_coefficient_sha256": "d1dd37fe74b894523b4b049099d194ed34fb64fb36d144b48ff3746a34e1ccae",
+    "charge_matrix_sha256": "9bd460a8da3fbf2a7f3dd8698eae88116bb1608dc2b1db9746ddfd9b1b2f5c0c",
+    "eta_over_pi": true,
+    "kernel_sha256": "d2ee4261fd89e712d0649d9cea3c30952256bff82c99134a59fce7b151505152",
+    "kernel_terms": 49,
+    "killed_a_equals_d_absent": true
+  },
+  "schema": "M221-banded-Bernstein-majorant-v1",
+  "seed": null,
+  "state_B_L_kappa_D": [
+    1,
+    6,
+    2,
+    1
+  ],
+  "width_one_primal_certificate": {
+    "C_minus_A_sha256": "9f5b386200f2921b8a8f63161cc9ca9af94e28efb39962d265a08da3aff3ba64",
+    "C_minus_A_strict_diagonal_dominance_margins": [
+      "260320697099383109737650392531/42810517485720426320033218560000",
+      "732473570171065182244302170489/77058931474296767376059793408000",
+      "22066085580152050340437577895121/9632366434287095922007474176000000",
+      "1509226832311692335786724342497/214052587428602131600166092800000",
+      "7067441003517689910864640423799/1070262937143010658000830464000000",
+      "855769982930667113675511847409/42810517485720426320033218560000",
+      "21088769888592000787/5613145673139486720000"
+    ],
+    "C_strict_diagonal_dominance_margins": [
+      "253/150",
+      "193/300",
+      "16/75",
+      "143/300",
+      "19/25",
+      "1/200",
+      "113/40"
+    ],
+    "adjacent_offdiagonal": [
+      "1/3",
+      "2/15",
+      "1/12",
+      "1/5",
+      "3/5",
+      "11/8"
+    ],
+    "bandwidth": 1,
+    "charge": "4937603/9172800",
+    "diagonal": [
+      "101/50",
+      "111/100",
+      "43/100",
+      "19/25",
+      "39/25",
+      "99/50",
+      "21/5"
+    ],
+    "matrix_sha256": "d0df5f5c2cd436116d711a62b449abff74bcbd7491907590218e96d6b9426dbb",
+    "minimum_C_minus_A_strict_diagonal_dominance_margin": "22066085580152050340437577895121/9632366434287095922007474176000000",
+    "minimum_C_strict_diagonal_dominance_margin": "1/200",
+    "positive_budget_slack": "485323987/37571788800",
+    "psd_reason": "C and C-A are symmetric strictly diagonally dominant with positive diagonal"
+  },
+  "width_zero_dual_obstruction": {
+    "diagonal_matches_G": true,
+    "diagonal_remainders": [
+      "633/254800",
+      "18427/17517500",
+      "39213/17517500",
+      "6757/7507500",
+      "39213/17517500",
+      "18427/17517500",
+      "633/254800"
+    ],
+    "dual_matrix_sha256": "94845eab185d6f851876acaa13fdd94473ed839f32e8c1efa4fa8419a4f7334a",
+    "objective": "27574523089250503170656957870808157889213/48209994003606915089647408250880000000000",
+    "positive_excess_over_budget": "1000948704365931347999936328408157889213/48209994003606915089647408250880000000000",
+    "psd_reason": "X=vv^T+diag(strictly positive remainders)"
+  }
+}

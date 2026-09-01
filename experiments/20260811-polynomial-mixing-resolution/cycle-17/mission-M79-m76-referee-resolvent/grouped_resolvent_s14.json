@@ -1,0 +1,142 @@
+{
+  "arithmetic": "IEEE-754 binary64 grouped Cayley coefficients",
+  "claim_tested": "M76 deep-eliminated inverse-split-mass inequality",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 1.1048943996429443,
+  "normalization": "g=q*(I-D)^-1*J*(1/q); Dhat=rho_group*nu; Jhat=edge_energy/q_child",
+  "parameters": {
+    "K_values": [
+      1,
+      16,
+      4096
+    ],
+    "include_infinite_right_heavy_limit": true,
+    "s_max": 14
+  },
+  "python": "3.12.3",
+  "result": {
+    "diagnostics": {
+      "max_contextual_mean_error": 5.773936884168052e-12,
+      "max_group_mass_error": 4.440892098500626e-15,
+      "max_negative_roundoff": 0.0,
+      "max_nu_sum_error": 1.4003020964992174e-11,
+      "memoized_contexts": 5603
+    },
+    "global_worst": {
+      "B": 1,
+      "K": "infinity",
+      "R": "infinity-1",
+      "direct_jhat": 0.30497858839452247,
+      "ratio": 0.7614498592605995,
+      "s": 14
+    },
+    "records": [
+      {
+        "B": 1,
+        "K": 1,
+        "R": 0,
+        "direct_jhat": 0,
+        "ratio": 0,
+        "s": 2
+      },
+      {
+        "B": 3,
+        "K": 1,
+        "R": 0,
+        "direct_jhat": 0.12359619140624972,
+        "ratio": 0.12359619140624972,
+        "s": 3
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.14349835377777795,
+        "ratio": 0.1977796037777779,
+        "s": 4
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.17281707164136922,
+        "ratio": 0.28128554616768964,
+        "s": 5
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.1952556354830027,
+        "ratio": 0.3555350600729525,
+        "s": 6
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.21407621990225598,
+        "ratio": 0.42216012774373324,
+        "s": 7
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.23048968027131114,
+        "ratio": 0.4824982305954457,
+        "s": 8
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.24520241403319343,
+        "ratio": 0.5376488041140455,
+        "s": 9
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.25866823673490164,
+        "ratio": 0.5885052337353628,
+        "s": 10
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.2711930986203246,
+        "ratio": 0.6357876477585143,
+        "s": 11
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.28299071042729373,
+        "ratio": 0.6800755493652916,
+        "s": 12
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.2942147691513078,
+        "ratio": 0.721836534632494,
+        "s": 13
+      },
+      {
+        "B": 1,
+        "K": "infinity",
+        "R": "infinity-1",
+        "direct_jhat": 0.30497858839452247,
+        "ratio": 0.7614498592605995,
+        "s": 14
+      }
+    ]
+  },
+  "seed": null,
+  "status_rule": "ratio>1 by robust numerical margin refutes; ratio<=1 is finite evidence only"
+}

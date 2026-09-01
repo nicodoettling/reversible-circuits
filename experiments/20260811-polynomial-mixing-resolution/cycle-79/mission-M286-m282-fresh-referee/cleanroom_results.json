@@ -1,0 +1,96 @@
+{
+  "convention": "(pq)(x)=p(q(x)); displayed factors left-to-right",
+  "deterministic": true,
+  "direct_reconstruction": [
+    {
+      "assertions": "all passed",
+      "c_half_tv": "8/5",
+      "csbv_l1": "8/25",
+      "disjoint_long_atoms": 20,
+      "endpoint": "-4/15",
+      "k": 3,
+      "long_ordered_atoms": 50,
+      "sum_W": "-1/3",
+      "two_cycle_ordered_atoms": 24
+    },
+    {
+      "assertions": "all passed",
+      "c_half_tv": "532940317429/1458274104000",
+      "csbv_l1": "41858899310941/244990049472000",
+      "disjoint_long_atoms": 504,
+      "endpoint": "-8/105",
+      "k": 5,
+      "long_ordered_atoms": 756,
+      "sum_W": "-164/2625",
+      "two_cycle_ordered_atoms": 300
+    }
+  ],
+  "formula_scan": [
+    {
+      "R_times_max_stabilization_tv": 9.47151776468577,
+      "assertions": "all passed",
+      "k": 3,
+      "k2_abs_sum_W": 3.0,
+      "k_times_A_tv": 2.56,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 2
+    },
+    {
+      "R_times_max_stabilization_tv": 9.501086893104967,
+      "assertions": "all passed",
+      "k": 5,
+      "k2_abs_sum_W": 1.561904761904762,
+      "k_times_A_tv": 2.206959998516164,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 4
+    },
+    {
+      "R_times_max_stabilization_tv": 10.066851814563488,
+      "assertions": "all passed",
+      "k": 9,
+      "k2_abs_sum_W": 1.0317937914860411,
+      "k_times_A_tv": 2.061661627021189,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 8
+    },
+    {
+      "R_times_max_stabilization_tv": 10.18093225032809,
+      "assertions": "all passed",
+      "k": 17,
+      "k2_abs_sum_W": 0.8037860028702392,
+      "k_times_A_tv": 1.8601527652858203,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 16
+    },
+    {
+      "R_times_max_stabilization_tv": 10.190718255584544,
+      "assertions": "all passed",
+      "k": 33,
+      "k2_abs_sum_W": 0.6880188299045435,
+      "k_times_A_tv": 1.6443082009343928,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 64
+    },
+    {
+      "R_times_max_stabilization_tv": 10.18148992469571,
+      "assertions": "all passed",
+      "k": 65,
+      "k2_abs_sum_W": 0.6222799479082144,
+      "k_times_A_tv": 1.4535908292815418,
+      "r1_scaled_tv": 8.735758882342884,
+      "r2_scaled_tv": 9.47151776468577,
+      "stabilization_argmax_r": 17
+    }
+  ],
+  "nonstandard_dependencies": null,
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "status": "exact rational completion-law reconstruction plus high-precision finite boundary scan; no asymptotic inference",
+  "target": "M282 Abel/support-pair/seam conventions and stabilization boundaries"
+}

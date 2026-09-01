@@ -1,0 +1,3277 @@
+{
+  "K": "literal lazy K; outcome weight 1/[6(m-r+1)|F_r(g)|] for N=4,5",
+  "P_leaf": "uniform leaf choice followed by exact heat bath in current Del_v cell",
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/leaf_cell_audit.py",
+    "--N",
+    "4",
+    "--shape",
+    "all",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-13/mission-M60-fixed-tree-leaf-cell-expansion/leaf-cell-N4.json"
+  ],
+  "claims_tested": [
+    "Universal leaf-cell irreducibility can be falsified by a disconnected tested fiber.",
+    "Middle chronology bands or deletion-deck statistics can be falsified as zero/full-K bottlenecks."
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "(pq)(x)=p(q(x)); right-appending swaps domain entries",
+  "dependencies": {
+    "scipy": "used only if --spectrum; numerical diagnostic"
+  },
+  "python": "3.12.3",
+  "scope_warning": "Finite connectivity, flow, and numerical eigenvalues cannot prove polynomial asymptotic bounds.",
+  "seed": null,
+  "summary": {
+    "N": 4,
+    "all_connected": true,
+    "elapsed_seconds_before_write": 0.18772916519083083,
+    "m": 6,
+    "shapes": [
+      "star",
+      "path"
+    ]
+  },
+  "trees": [
+    {
+      "all_leaf_core_distribution": [
+        {
+          "core_word": [],
+          "count": 186
+        }
+      ],
+      "all_leaf_deletion_order": [
+        3,
+        2,
+        1
+      ],
+      "automaton_cache": {
+        "currsize": 102,
+        "hits": 2002,
+        "misses": 102
+      },
+      "candidate_cuts": [
+        {
+          "P_leaf_escape": "259364/588225",
+          "family": "le",
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restriction_escape": "600121/107069040",
+          "side_size": 62,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "247279/588225",
+          "family": "le",
+          "full_K_escape": "61331011/142758720",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "129563/870480",
+            "5": "13103/81344"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "19/14880",
+            "4": "28789/7834320",
+            "5": "523/81344"
+          },
+          "restriction_escape": "2924551/256965696",
+          "side_size": 62,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "378827/588225",
+          "family": "band",
+          "full_K_escape": "61659599/142758720",
+          "full_by_r": {
+            "3": "15/124",
+            "4": "130291/870480",
+            "5": "39355/244032"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "19/7440",
+            "4": "35341/7834320",
+            "5": "1615/244032"
+          },
+          "restriction_escape": "17580047/1284828480",
+          "side_size": 62,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "259364/588225",
+          "family": "le",
+          "full_K_escape": "136139449/321207120",
+          "full_by_r": {
+            "3": "1781/14880",
+            "4": "115019/783432",
+            "5": "6399/40672"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "19/14880",
+            "4": "269/163215",
+            "5": "109/40672"
+          },
+          "restriction_escape": "600121/107069040",
+          "side_size": 62,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "5017/12650",
+          "family": "le",
+          "full_K_escape": "250910797/580245120",
+          "full_by_r": {
+            "3": "2747/22400",
+            "4": "1321349/8845200",
+            "5": "22097/137760"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "13/6720",
+            "4": "9937/2948400",
+            "5": "199/34440"
+          },
+          "restriction_escape": "5359043/483537600",
+          "side_size": 70,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "150079/284625",
+          "family": "le",
+          "full_K_escape": "286538231/621691200",
+          "full_by_r": {
+            "3": "7/50",
+            "4": "596647/3790800",
+            "5": "19307/118080"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "77/9600",
+            "4": "4949/421200",
+            "5": "119/13120"
+          },
+          "restriction_escape": "3984449/138153600",
+          "side_size": 30,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "23447/30360",
+          "family": "le",
+          "full_K_escape": "11959811/25505280",
+          "full_by_r": {
+            "3": "369/2560",
+            "4": "12413/77760",
+            "5": "325/1968"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "71/3840",
+            "4": "1223/77760",
+            "5": "11/984"
+          },
+          "restriction_escape": "578923/12752640",
+          "side_size": 8,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "685957/1024650",
+          "family": "band",
+          "full_K_escape": "961690727/2238088320",
+          "full_by_r": {
+            "3": "2053/17280",
+            "4": "203221/1364688",
+            "5": "17213/106272"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "29/8640",
+            "4": "11029/2274480",
+            "5": "43/5904"
+          },
+          "restriction_escape": "5777513/373014720",
+          "side_size": 54,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "346627/872850",
+          "family": "band",
+          "full_K_escape": "7089271/16295040",
+          "full_by_r": {
+            "3": "2789/22080",
+            "4": "14921/99360",
+            "5": "57421/362112"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "307/88320",
+            "4": "817/168480",
+            "5": "1445/362112"
+          },
+          "restriction_escape": "3130687/254202624",
+          "side_size": 92,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "5237/11550",
+          "family": "band",
+          "full_K_escape": "35540549/82892160",
+          "full_by_r": {
+            "3": "8231/67200",
+            "4": "1311559/8845200",
+            "5": "1451/9184"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "109/33600",
+            "4": "28811/8845200",
+            "5": "157/45920"
+          },
+          "restriction_escape": "14390491/1450612800",
+          "side_size": 70,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "499627/759000",
+          "family": "band",
+          "full_K_escape": "146380753/331568640",
+          "full_by_r": {
+            "3": "1549/12800",
+            "4": "24829/157950",
+            "5": "5141/31488"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "337/38400",
+            "4": "6887/631800",
+            "5": "1339/157440"
+          },
+          "restriction_escape": "46720459/1657843200",
+          "side_size": 40,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "290533/588225",
+          "family": "band",
+          "full_K_escape": "562351619/1284828480",
+          "full_by_r": {
+            "3": "3709/29760",
+            "4": "594329/3917160",
+            "5": "635/3936"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "17/3720",
+            "4": "4259/783432",
+            "5": "101/15252"
+          },
+          "restriction_escape": "1335283/80301780",
+          "side_size": 62,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "300107/417450",
+          "family": "band",
+          "full_K_escape": "430871113/911813760",
+          "full_by_r": {
+            "3": "1037/7040",
+            "4": "2029/12636",
+            "5": "4753/28864"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "5/384",
+            "4": "92/6435",
+            "5": "871/86592"
+          },
+          "restriction_escape": "1262231/33770880",
+          "side_size": 22,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "85367/151800",
+          "family": "le",
+          "full_K_escape": "388978781/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "804823/5054400",
+            "5": "1609/9840"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "323/19200",
+            "4": "12713/1010880",
+            "5": "181/19680"
+          },
+          "restriction_escape": "31993259/828921600",
+          "side_size": 40,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "67351/177100",
+          "family": "le",
+          "full_K_escape": "394029319/870367680",
+          "full_by_r": {
+            "3": "29/210",
+            "4": "1637131/10614240",
+            "5": "26513/165312"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "57/4480",
+            "4": "12851/1516320",
+            "5": "1/168"
+          },
+          "restriction_escape": "1152737/42456960",
+          "side_size": 84,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "262831/550275",
+          "family": "le",
+          "full_K_escape": "106880305/240387264",
+          "full_by_r": {
+            "3": "597/4640",
+            "4": "1130221/7328880",
+            "5": "36923/228288"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "151/11136",
+            "4": "4595/488592",
+            "5": "53/7872"
+          },
+          "restriction_escape": "4759175/160258176",
+          "side_size": 58,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "28639/41745",
+          "family": "le",
+          "full_K_escape": "413768603/911813760",
+          "full_by_r": {
+            "3": "569/4224",
+            "4": "217033/1389960",
+            "5": "4703/28864"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "91/5280",
+            "4": "38/3861",
+            "5": "679/86592"
+          },
+          "restriction_escape": "1768829/50656320",
+          "side_size": 22,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "295591/417450",
+          "family": "band",
+          "full_K_escape": "71798489/151968960",
+          "full_by_r": {
+            "3": "157/1056",
+            "4": "148531/926640",
+            "5": "429/2624"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "115/4224",
+            "4": "8527/555984",
+            "5": "97/10824"
+          },
+          "restriction_escape": "9396007/182362752",
+          "side_size": 44,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "740999/1669800",
+          "family": "band",
+          "full_K_escape": "816010189/1823627520",
+          "full_by_r": {
+            "3": "2789/21120",
+            "4": "172169/1111968",
+            "5": "55619/346368"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "467/28160",
+            "4": "1249/123552",
+            "5": "2081/346368"
+          },
+          "restriction_escape": "13252087/405250560",
+          "side_size": 88,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "640139/1176450",
+          "family": "band",
+          "full_K_escape": "79279931/171310464",
+          "full_by_r": {
+            "3": "8471/59520",
+            "4": "412963/2611440",
+            "5": "39613/244032"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "101/5952",
+            "4": "18185/1566864",
+            "5": "629/81344"
+          },
+          "restriction_escape": "291557/8030178",
+          "side_size": 62,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "586031/834900",
+          "family": "band",
+          "full_K_escape": "212773507/455906880",
+          "full_by_r": {
+            "3": "601/4224",
+            "4": "446813/2779920",
+            "5": "28349/173184"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "277/8448",
+            "4": "45131/2779920",
+            "5": "143/15744"
+          },
+          "restriction_escape": "105964231/1823627520",
+          "side_size": 44,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "9859/20240",
+          "family": "band",
+          "full_K_escape": "164172533/368409600",
+          "full_by_r": {
+            "3": "9943/76800",
+            "4": "173699/1123200",
+            "5": "50857/314880"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "139/7680",
+            "4": "105337/10108800",
+            "5": "425/62976"
+          },
+          "restriction_escape": "14617157/414460800",
+          "side_size": 80,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "251563/341550",
+          "family": "band",
+          "full_K_escape": "52891987/114773760",
+          "full_by_r": {
+            "3": "1589/11520",
+            "4": "11099/69984",
+            "5": "11641/70848"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "839/34560",
+            "4": "13369/909792",
+            "5": "221/23616"
+          },
+          "restriction_escape": "72110087/1492058880",
+          "side_size": 36,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "3568/11385",
+          "family": "le",
+          "full_K_escape": "629153/1381536",
+          "full_by_r": {
+            "3": "1003/7200",
+            "4": "32761/210600",
+            "5": "4739/29520"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "211/28800",
+            "4": "4699/473850",
+            "5": "1/164"
+          },
+          "restriction_escape": "29021279/1243382400",
+          "side_size": 90,
+          "statistic": "midpoint_join_count"
+        },
+        {
+          "P_leaf_escape": "3568/11385",
+          "family": "le",
+          "full_K_escape": "629153/1381536",
+          "full_by_r": {
+            "3": "1003/7200",
+            "4": "32761/210600",
+            "5": "4739/29520"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "211/28800",
+            "4": "4699/473850",
+            "5": "1/164"
+          },
+          "restriction_escape": "29021279/1243382400",
+          "side_size": 90,
+          "statistic": "midpoint_largest_join_component"
+        },
+        {
+          "P_leaf_escape": "22/25",
+          "family": "le",
+          "full_K_escape": "389587/797040",
+          "full_by_r": {
+            "3": "19/120",
+            "4": "1597/9720",
+            "5": "109/656"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "1/48",
+            "4": "31/2430",
+            "5": "1/82"
+          },
+          "restriction_escape": "36493/797040",
+          "side_size": 6,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "5642/8625",
+          "family": "le",
+          "full_K_escape": "7510429/15940800",
+          "full_by_r": {
+            "3": "47/320",
+            "4": "7783/48600",
+            "5": "323/1968"
+          },
+          "hi": 5,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "77/4800",
+            "4": "151/12150",
+            "5": "5/492"
+          },
+          "restriction_escape": "615829/15940800",
+          "side_size": 30,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2902/5313",
+          "family": "le",
+          "full_K_escape": "22564013/48353760",
+          "full_by_r": {
+            "3": "97/672",
+            "4": "46807/294840",
+            "5": "751/4592"
+          },
+          "hi": 6,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "11/840",
+            "4": "647/58968",
+            "5": "257/27552"
+          },
+          "restriction_escape": "1614779/48353760",
+          "side_size": 42,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "96442/208725",
+          "family": "le",
+          "full_K_escape": "209169491/455906880",
+          "full_by_r": {
+            "3": "1483/10560",
+            "4": "217979/1389960",
+            "5": "3497/21648"
+          },
+          "hi": 7,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "103/10560",
+            "4": "3749/347490",
+            "5": "107/14432"
+          },
+          "restriction_escape": "12745637/455906880",
+          "side_size": 66,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "103552/246675",
+          "family": "le",
+          "full_K_escape": "492986621/1077598080",
+          "full_by_r": {
+            "3": "1163/8320",
+            "4": "257029/1642680",
+            "5": "1375/8528"
+          },
+          "hi": 8,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "69/8320",
+            "4": "2891/273780",
+            "5": "9/1312"
+          },
+          "restriction_escape": "9235949/359199360",
+          "side_size": 78,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "65117/139150",
+          "family": "le",
+          "full_K_escape": "408493387/911813760",
+          "full_by_r": {
+            "3": "2743/21120",
+            "4": "217133/1389960",
+            "5": "3505/21648"
+          },
+          "hi": 9,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "17/880",
+            "4": "3689/347490",
+            "5": "281/43296"
+          },
+          "restriction_escape": "1660619/45590688",
+          "side_size": 66,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "421/690",
+          "family": "le",
+          "full_K_escape": "194180513/414460800",
+          "full_by_r": {
+            "3": "1381/9600",
+            "4": "4057/25272",
+            "5": "323/1968"
+          },
+          "hi": 10,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "163/4800",
+            "4": "901/63180",
+            "5": "11/1312"
+          },
+          "restriction_escape": "11729929/207230400",
+          "side_size": 30,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1307/1725",
+          "family": "band",
+          "full_K_escape": "6108049/12752640",
+          "full_by_r": {
+            "3": "39/256",
+            "4": "3149/19440",
+            "5": "27/164"
+          },
+          "hi": 5,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "89/3840",
+            "4": "37/2430",
+            "5": "7/656"
+          },
+          "restriction_escape": "125165/2550528",
+          "side_size": 24,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "37034/56925",
+          "family": "band",
+          "full_K_escape": "58878923/124338240",
+          "full_by_r": {
+            "3": "143/960",
+            "4": "60857/379080",
+            "5": "1937/11808"
+          },
+          "hi": 6,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "3/160",
+            "4": "10147/758160",
+            "5": "77/7872"
+          },
+          "restriction_escape": "1042333/24867648",
+          "side_size": 36,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "52016/94875",
+          "family": "band",
+          "full_K_escape": "63946553/138153600",
+          "full_by_r": {
+            "3": "457/3200",
+            "4": "33277/210600",
+            "5": "1063/6560"
+          },
+          "hi": 7,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "41/3200",
+            "4": "1319/105300",
+            "5": "311/39360"
+          },
+          "restriction_escape": "4592231/138153600",
+          "side_size": 60,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "57089/113850",
+          "family": "band",
+          "full_K_escape": "458411197/994705920",
+          "full_by_r": {
+            "3": "653/4608",
+            "4": "29839/189540",
+            "5": "1273/7872"
+          },
+          "hi": 8,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "247/23040",
+            "4": "9089/758160",
+            "5": "115/15744"
+          },
+          "restriction_escape": "29854199/994705920",
+          "side_size": 72,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2969/6072",
+          "family": "band",
+          "full_K_escape": "89675519/198941184",
+          "full_by_r": {
+            "3": "3047/23040",
+            "4": "59441/379080",
+            "5": "1273/7872"
+          },
+          "hi": 9,
+          "lo": 5,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "7/360",
+            "4": "8119/758160",
+            "5": "101/15744"
+          },
+          "restriction_escape": "9093703/248676480",
+          "side_size": 72,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "13561/20700",
+          "family": "band",
+          "full_K_escape": "234486961/497352960",
+          "full_by_r": {
+            "3": "337/2304",
+            "4": "61093/379080",
+            "5": "1937/11808"
+          },
+          "hi": 10,
+          "lo": 5,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "61/1920",
+            "4": "5311/379080",
+            "5": "203/23616"
+          },
+          "restriction_escape": "2704453/49735296",
+          "side_size": 36,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "712/825",
+          "family": "band",
+          "full_K_escape": "2686085/5526144",
+          "full_by_r": {
+            "3": "299/1920",
+            "4": "3463/21060",
+            "5": "653/3936"
+          },
+          "hi": 6,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "3/128",
+            "4": "463/28080",
+            "5": "29/2624"
+          },
+          "restriction_escape": "469519/9210240",
+          "side_size": 12,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "14618/18975",
+          "family": "band",
+          "full_K_escape": "59373547/124338240",
+          "full_by_r": {
+            "3": "437/2880",
+            "4": "7664/47385",
+            "5": "1937/11808"
+          },
+          "hi": 7,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "61/2880",
+            "4": "1621/94770",
+            "5": "77/7872"
+          },
+          "restriction_escape": "149413/3108456",
+          "side_size": 36,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "721/1012",
+          "family": "band",
+          "full_K_escape": "62718983/132627456",
+          "full_by_r": {
+            "3": "2287/15360",
+            "4": "81097/505440",
+            "5": "2575/15744"
+          },
+          "hi": 8,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "87/5120",
+            "4": "7919/505440",
+            "5": "281/31488"
+          },
+          "restriction_escape": "27575741/663137280",
+          "side_size": 48,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "266411/569250",
+          "family": "band",
+          "full_K_escape": "112698439/248676480",
+          "full_by_r": {
+            "3": "1333/9600",
+            "4": "292033/1895400",
+            "5": "1577/9840"
+          },
+          "hi": 9,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "271/14400",
+            "4": "1061/105300",
+            "5": "39/6560"
+          },
+          "restriction_escape": "2406673/69076800",
+          "side_size": 90,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "7003/11500",
+          "family": "band",
+          "full_K_escape": "387545867/828921600",
+          "full_by_r": {
+            "3": "2791/19200",
+            "4": "25163/157950",
+            "5": "641/3936"
+          },
+          "hi": 10,
+          "lo": 6,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "1/40",
+            "4": "7781/631800",
+            "5": "21/2624"
+          },
+          "restriction_escape": "9391403/207230400",
+          "side_size": 60,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1433/1725",
+          "family": "band",
+          "full_K_escape": "2036891/4250880",
+          "full_by_r": {
+            "3": "39/256",
+            "4": "1051/6480",
+            "5": "27/164"
+          },
+          "hi": 7,
+          "lo": 7,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "29/1280",
+            "4": "83/4320",
+            "5": "7/656"
+          },
+          "restriction_escape": "74447/1416960",
+          "side_size": 24,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "44921/56925",
+          "family": "band",
+          "full_K_escape": "236871683/497352960",
+          "full_by_r": {
+            "3": "347/2304",
+            "4": "61169/379080",
+            "5": "485/2952"
+          },
+          "hi": 8,
+          "lo": 7,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "217/11520",
+            "4": "4457/252720",
+            "5": "115/11808"
+          },
+          "restriction_escape": "7661239/165784320",
+          "side_size": 36,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "240191/493350",
+          "family": "band",
+          "full_K_escape": "54479713/119733120",
+          "full_by_r": {
+            "3": "697/4992",
+            "4": "28193/182520",
+            "5": "4117/25584"
+          },
+          "hi": 9,
+          "lo": 7,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "67/3120",
+            "4": "18191/1642680",
+            "5": "57/8528"
+          },
+          "restriction_escape": "660571/16837470",
+          "side_size": 78,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "9071/18216",
+          "family": "band",
+          "full_K_escape": "35510033/76515840",
+          "full_by_r": {
+            "3": "369/2560",
+            "4": "4603/29160",
+            "5": "319/1968"
+          },
+          "hi": 10,
+          "lo": 7,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "251/11520",
+            "4": "3245/303264",
+            "5": "19/2624"
+          },
+          "restriction_escape": "19759483/497352960",
+          "side_size": 72,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "5873/6325",
+          "family": "band",
+          "full_K_escape": "8932769/18420480",
+          "full_by_r": {
+            "3": "199/1280",
+            "4": "115/702",
+            "5": "163/984"
+          },
+          "hi": 8,
+          "lo": 8,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "5/256",
+            "4": "235/12636",
+            "5": "13/1312"
+          },
+          "restriction_escape": "1592771/33156864",
+          "side_size": 12,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "218279/341550",
+          "family": "band",
+          "full_K_escape": "23160913/49735296",
+          "full_by_r": {
+            "3": "2491/17280",
+            "4": "60139/379080",
+            "5": "2885/17712"
+          },
+          "hi": 9,
+          "lo": 8,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "269/8640",
+            "4": "8569/568620",
+            "5": "151/17712"
+          },
+          "restriction_escape": "20414861/373014720",
+          "side_size": 54,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "28551/63250",
+          "family": "band",
+          "full_K_escape": "554229217/1243382400",
+          "full_by_r": {
+            "3": "251/1920",
+            "4": "292157/1895400",
+            "5": "1583/9840"
+          },
+          "hi": 10,
+          "lo": 8,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "133/7200",
+            "4": "4729/473850",
+            "5": "61/9840"
+          },
+          "restriction_escape": "10771223/310845600",
+          "side_size": 90,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "173951/265650",
+          "family": "band",
+          "full_K_escape": "134401187/290122560",
+          "full_by_r": {
+            "3": "947/6720",
+            "4": "140837/884520",
+            "5": "107/656"
+          },
+          "hi": 9,
+          "lo": 9,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "463/13440",
+            "4": "7129/442260",
+            "5": "3/328"
+          },
+          "restriction_escape": "34649467/580245120",
+          "side_size": 42,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "80493/164450",
+          "family": "band",
+          "full_K_escape": "240207127/538799040",
+          "full_by_r": {
+            "3": "1607/12480",
+            "4": "255577/1642680",
+            "5": "1377/8528"
+          },
+          "hi": 10,
+          "lo": 9,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "503/24960",
+            "4": "4759/410670",
+            "5": "89/12792"
+          },
+          "restriction_escape": "8340199/215519616",
+          "side_size": 78,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "44369/56925",
+          "family": "band",
+          "full_K_escape": "11717749/24867648",
+          "full_by_r": {
+            "3": "421/2880",
+            "4": "60929/379080",
+            "5": "485/2952"
+          },
+          "hi": 10,
+          "lo": 10,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "101/2880",
+            "4": "1487/94770",
+            "5": "3/328"
+          },
+          "restriction_escape": "7448657/124338240",
+          "side_size": 36,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "22/25",
+          "family": "le",
+          "full_K_escape": "389587/797040",
+          "full_by_r": {
+            "3": "19/120",
+            "4": "1597/9720",
+            "5": "109/656"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "1/48",
+            "4": "31/2430",
+            "5": "1/82"
+          },
+          "restriction_escape": "36493/797040",
+          "side_size": 6,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1316/1725",
+          "family": "le",
+          "full_K_escape": "4589843/9564480",
+          "full_by_r": {
+            "3": "439/2880",
+            "4": "4733/29160",
+            "5": "325/1968"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "59/2880",
+            "4": "407/29160",
+            "5": "11/984"
+          },
+          "restriction_escape": "87271/1912896",
+          "side_size": 18,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "30094/56925",
+          "family": "le",
+          "full_K_escape": "171765397/373014720",
+          "full_by_r": {
+            "3": "1213/8640",
+            "4": "179161/1137240",
+            "5": "2879/17712"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "17/1152",
+            "4": "2513/227448",
+            "5": "11/1312"
+          },
+          "restriction_escape": "5101315/149205888",
+          "side_size": 54,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "112402/208725",
+          "family": "le",
+          "full_K_escape": "137605847/303937920",
+          "full_by_r": {
+            "3": "947/7040",
+            "4": "72211/463320",
+            "5": "3515/21648"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "3/176",
+            "4": "332/34749",
+            "5": "105/14432"
+          },
+          "restriction_escape": "1544393/45590688",
+          "side_size": 66,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "497/575",
+          "family": "band",
+          "full_K_escape": "1036493/2125440",
+          "full_by_r": {
+            "3": "101/640",
+            "4": "133/810",
+            "5": "163/984"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "11/384",
+            "4": "113/6480",
+            "5": "23/1968"
+          },
+          "restriction_escape": "122789/2125440",
+          "side_size": 12,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "15553/25300",
+          "family": "band",
+          "full_K_escape": "30861737/66313728",
+          "full_by_r": {
+            "3": "367/2560",
+            "4": "80357/505440",
+            "5": "2567/15744"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "59/3072",
+            "4": "13267/1010880",
+            "5": "93/10496"
+          },
+          "restriction_escape": "27314927/663137280",
+          "side_size": 48,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "30757/56925",
+          "family": "band",
+          "full_K_escape": "452702789/994705920",
+          "full_by_r": {
+            "3": "629/4608",
+            "4": "118697/758160",
+            "5": "3827/23616"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "5/288",
+            "4": "1241/126360",
+            "5": "37/5248"
+          },
+          "restriction_escape": "2837611/82892160",
+          "side_size": 72,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "42116/56925",
+          "family": "band",
+          "full_K_escape": "3687961/7771140",
+          "full_by_r": {
+            "3": "43/288",
+            "4": "61117/379080",
+            "5": "1937/11808"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "103/3840",
+            "4": "2969/189540",
+            "5": "77/7872"
+          },
+          "restriction_escape": "25995973/497352960",
+          "side_size": 36,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "22877/44275",
+          "family": "band",
+          "full_K_escape": "58813331/128943360",
+          "full_by_r": {
+            "3": "3719/26880",
+            "4": "7687/49140",
+            "5": "635/3936"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "239/13440",
+            "4": "17141/1769040",
+            "5": "17/2624"
+          },
+          "restriction_escape": "3939961/116049024",
+          "side_size": 84,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "5072/8349",
+          "family": "band",
+          "full_K_escape": "414957823/911813760",
+          "full_by_r": {
+            "3": "2891/21120",
+            "4": "43321/277992",
+            "5": "3515/21648"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "3/128",
+            "4": "3583/277992",
+            "5": "7/902"
+          },
+          "restriction_escape": "8039807/182362752",
+          "side_size": 66,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "210179/569250",
+          "family": "le",
+          "full_K_escape": "35750851/77711400",
+          "full_by_r": {
+            "3": "517/3600",
+            "4": "295493/1895400",
+            "5": "4739/29520"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "37/2400",
+            "4": "9349/947700",
+            "5": "1/164"
+          },
+          "restriction_escape": "390163/12433824",
+          "side_size": 90,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "6079/9108",
+          "family": "le",
+          "full_K_escape": "231005731/497352960",
+          "full_by_r": {
+            "3": "1607/11520",
+            "4": "6091/37908",
+            "5": "485/2952"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "7/192",
+            "4": "155/9477",
+            "5": "3/328"
+          },
+          "restriction_escape": "1540801/24867648",
+          "side_size": 36,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "20092/31625",
+          "family": "band",
+          "full_K_escape": "128268977/276307200",
+          "full_by_r": {
+            "3": "2743/19200",
+            "4": "4174/26325",
+            "5": "267/1640"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "287/9600",
+            "4": "83/5850",
+            "5": "1/123"
+          },
+          "restriction_escape": "160301/3070080",
+          "side_size": 60,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "251011/588225",
+          "family": "le",
+          "full_K_escape": "92273371/214138080",
+          "full_by_r": {
+            "3": "15/124",
+            "4": "389833/2611440",
+            "5": "19603/122016"
+          },
+          "hi": 0,
+          "lo": 0,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "19/7440",
+            "4": "32221/7834320",
+            "5": "733/122016"
+          },
+          "restriction_escape": "8141941/642414240",
+          "side_size": 93,
+          "statistic": "join_order_parity"
+        },
+        {
+          "P_leaf_escape": "251011/588225",
+          "family": "parity",
+          "full_K_escape": "92273371/214138080",
+          "full_by_r": {
+            "3": "15/124",
+            "4": "389833/2611440",
+            "5": "19603/122016"
+          },
+          "orientation": "even",
+          "restriction_by_r": {
+            "3": "19/7440",
+            "4": "32221/7834320",
+            "5": "733/122016"
+          },
+          "restriction_escape": "8141941/642414240",
+          "side_size": 93,
+          "statistic": "join_order_parity"
+        }
+      ],
+      "cell_size_distribution": {
+        "22": 6,
+        "23": 12,
+        "25": 6
+      },
+      "cells": 24,
+      "component_flows": [
+        {
+          "P_leaf_escape": "0/1",
+          "core_keys": [
+            []
+          ],
+          "full_K_escape": "67169543/160603560",
+          "full_by_r": {
+            "3": "881/7440",
+            "4": "568639/3917160",
+            "5": "3145/20336"
+          },
+          "restriction_by_r": {
+            "3": "0/1",
+            "4": "0/1",
+            "5": "0/1"
+          },
+          "restriction_escape": "0/1",
+          "size": 186
+        }
+      ],
+      "component_sizes": [
+        186
+      ],
+      "components": 1,
+      "each_component_has_one_core_key": true,
+      "each_core_key_has_one_component": true,
+      "fiber_size": 186,
+      "leaves": [
+        1,
+        2,
+        3
+      ],
+      "maximum_cell_size": 25,
+      "minimum_candidate_P_leaf_escape": {
+        "P_leaf_escape": "3568/11385",
+        "family": "le",
+        "full_K_escape": "629153/1381536",
+        "full_by_r": {
+          "3": "1003/7200",
+          "4": "32761/210600",
+          "5": "4739/29520"
+        },
+        "hi": 2,
+        "lo": 2,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "211/28800",
+          "4": "4699/473850",
+          "5": "1/164"
+        },
+        "restriction_escape": "29021279/1243382400",
+        "side_size": 90,
+        "statistic": "midpoint_join_count"
+      },
+      "minimum_candidate_full_K_escape": {
+        "P_leaf_escape": "259364/588225",
+        "family": "le",
+        "full_K_escape": "136139449/321207120",
+        "full_by_r": {
+          "3": "1781/14880",
+          "4": "115019/783432",
+          "5": "6399/40672"
+        },
+        "hi": 1,
+        "lo": 1,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "19/14880",
+          "4": "269/163215",
+          "5": "109/40672"
+        },
+        "restriction_escape": "600121/107069040",
+        "side_size": 62,
+        "statistic": "canonical_edge_join_rank"
+      },
+      "minimum_candidate_restriction_escape": {
+        "P_leaf_escape": "259364/588225",
+        "family": "le",
+        "full_K_escape": "136139449/321207120",
+        "full_by_r": {
+          "3": "1781/14880",
+          "4": "115019/783432",
+          "5": "6399/40672"
+        },
+        "hi": 1,
+        "lo": 1,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "19/14880",
+          "4": "269/163215",
+          "5": "109/40672"
+        },
+        "restriction_escape": "600121/107069040",
+        "side_size": 62,
+        "statistic": "canonical_edge_join_rank"
+      },
+      "minimum_nontrivial_cell_size": 22,
+      "shape": "star",
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "all_leaf_core_distribution": [
+        {
+          "core_word": [
+            0,
+            0
+          ],
+          "count": 178
+        }
+      ],
+      "all_leaf_deletion_order": [
+        3,
+        1
+      ],
+      "automaton_cache": {
+        "currsize": 95,
+        "hits": 1884,
+        "misses": 95
+      },
+      "candidate_cuts": [
+        {
+          "P_leaf_escape": "266510/541443",
+          "family": "le",
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restriction_escape": "5089343/815106240",
+          "side_size": 59,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "1392821/2985584",
+          "family": "le",
+          "full_K_escape": "271389787/632052720",
+          "full_by_r": {
+            "3": "175/1464",
+            "4": "573083/3853980",
+            "5": "19345/120048"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "47/14640",
+            "4": "707/171288",
+            "5": "2959/480192"
+          },
+          "restriction_escape": "3792331/280912320",
+          "side_size": 61,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "1848389/2838752",
+          "family": "band",
+          "full_K_escape": "160228819/369826560",
+          "full_by_r": {
+            "3": "13499/111360",
+            "4": "33917/225504",
+            "5": "18449/114144"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "37/6960",
+            "4": "4877/977184",
+            "5": "1501/228288"
+          },
+          "restriction_escape": "6763693/400645440",
+          "side_size": 58,
+          "statistic": "canonical_edge_join_rank"
+        },
+        {
+          "P_leaf_escape": "266510/541443",
+          "family": "le",
+          "full_K_escape": "2080368337/4890637440",
+          "full_by_r": {
+            "3": "907/7552",
+            "4": "2199529/14910480",
+            "5": "3053/19352"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "9/4720",
+            "4": "1715/994032",
+            "5": "1213/464448"
+          },
+          "restriction_escape": "5089343/815106240",
+          "side_size": 59,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "375771/832048",
+          "family": "le",
+          "full_K_escape": "810495581/1878888960",
+          "full_by_r": {
+            "3": "5301/43520",
+            "4": "426883/2864160",
+            "5": "14321/89216"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "109/32640",
+            "4": "1181/318240",
+            "5": "995/178432"
+          },
+          "restriction_escape": "263605/20876544",
+          "side_size": 68,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "2533975/4258128",
+          "family": "le",
+          "full_K_escape": "554207077/1201936320",
+          "full_by_r": {
+            "3": "781/5568",
+            "4": "576349/3664440",
+            "5": "4667/28536"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "35/3712",
+            "4": "46217/3664440",
+            "5": "675/76096"
+          },
+          "restriction_escape": "74307427/2403872640",
+          "side_size": 29,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "157303/195776",
+          "family": "le",
+          "full_K_escape": "155464423/331568640",
+          "full_by_r": {
+            "3": "369/2560",
+            "4": "161329/1010880",
+            "5": "325/1968"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "7/384",
+            "4": "2737/168480",
+            "5": "175/15744"
+          },
+          "restriction_escape": "629839/13815360",
+          "side_size": 8,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "1279781/1872108",
+          "family": "band",
+          "full_K_escape": "2977891/6907680",
+          "full_by_r": {
+            "3": "583/4896",
+            "4": "214481/1432080",
+            "5": "16285/100368"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "149/24480",
+            "4": "22567/4296240",
+            "5": "1433/200736"
+          },
+          "restriction_escape": "1627417/88072920",
+          "side_size": 51,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "5397575/12921216",
+          "family": "band",
+          "full_K_escape": "1060528817/2431503360",
+          "full_by_r": {
+            "3": "4283/33792",
+            "4": "1115789/7413120",
+            "5": "9173/57728"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "247/56320",
+            "4": "113299/22239360",
+            "5": "1/256"
+          },
+          "restriction_escape": "476329/35582976",
+          "side_size": 88,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "803167/1639624",
+          "family": "band",
+          "full_K_escape": "265549927/617086080",
+          "full_by_r": {
+            "3": "5273/42880",
+            "4": "280243/1881360",
+            "5": "3481/21976"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "31/8040",
+            "4": "19523/5644080",
+            "5": "595/175808"
+          },
+          "restriction_escape": "1980683/185125824",
+          "side_size": 67,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "301249/440496",
+          "family": "band",
+          "full_K_escape": "158184541/359199360",
+          "full_by_r": {
+            "3": "8993/74880",
+            "4": "4297/27378",
+            "5": "1567/9594"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "811/74880",
+            "4": "5483/492804",
+            "5": "419/51168"
+          },
+          "restriction_escape": "97454203/3232794240",
+          "side_size": 39,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "788239/1468320",
+          "family": "band",
+          "full_K_escape": "2171249081/4973529600",
+          "full_by_r": {
+            "3": "14249/115200",
+            "4": "286981/1895400",
+            "5": "38131/236160"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "179/28800",
+            "4": "44069/7581600",
+            "5": "1007/157440"
+          },
+          "restriction_escape": "45816131/2486764800",
+          "side_size": 60,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "2343701/3083472",
+          "family": "band",
+          "full_K_escape": "20589395/43518384",
+          "full_by_r": {
+            "3": "149/1008",
+            "4": "85217/530712",
+            "5": "851/5166"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "29/1920",
+            "4": "227/14742",
+            "5": "1621/165312"
+          },
+          "restriction_escape": "7796183/193415040",
+          "side_size": 21,
+          "statistic": "canonical_edge_join_position"
+        },
+        {
+          "P_leaf_escape": "1670029/2936640",
+          "family": "le",
+          "full_K_escape": "388961561/828921600",
+          "full_by_r": {
+            "3": "2813/19200",
+            "4": "402359/2527200",
+            "5": "1609/9840"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "647/38400",
+            "4": "63197/5054400",
+            "5": "23/2624"
+          },
+          "restriction_escape": "63192947/1657843200",
+          "side_size": 40,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "576241/1505028",
+          "family": "le",
+          "full_K_escape": "1537960079/3398578560",
+          "full_by_r": {
+            "3": "10859/78720",
+            "4": "3193363/20723040",
+            "5": "8633/53792"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "517/39360",
+            "4": "19463/2302560",
+            "5": "3655/645504"
+          },
+          "restriction_escape": "2058041/75523968",
+          "side_size": 82,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "4150717/8075760",
+          "family": "le",
+          "full_K_escape": "404828861/911813760",
+          "full_by_r": {
+            "3": "1223/9600",
+            "4": "12212/78975",
+            "5": "1753/10824"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "31/2112",
+            "4": "881/92664",
+            "5": "1427/216480"
+          },
+          "restriction_escape": "4677199/151968960",
+          "side_size": 55,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "162049/220248",
+          "family": "le",
+          "full_K_escape": "197369149/435183840",
+          "full_by_r": {
+            "3": "15/112",
+            "4": "830587/5307120",
+            "5": "13481/82656"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "47/2520",
+            "4": "10181/1061424",
+            "5": "415/55104"
+          },
+          "restriction_escape": "31136393/870367680",
+          "side_size": 21,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "45173/62928",
+          "family": "band",
+          "full_K_escape": "10548763/22317120",
+          "full_by_r": {
+            "3": "3001/20160",
+            "4": "6229/38880",
+            "5": "13523/82656"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "289/10080",
+            "4": "55121/3538080",
+            "5": "2879/330624"
+          },
+          "restriction_escape": "6145697/116049024",
+          "side_size": 42,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "5686375/12187056",
+          "family": "band",
+          "full_K_escape": "1025125669/2293349760",
+          "full_by_r": {
+            "3": "20903/159360",
+            "4": "541601/3495960",
+            "5": "52567/326688"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "237/13280",
+            "4": "107927/10487880",
+            "5": "47/7968"
+          },
+          "restriction_escape": "713923/20975760",
+          "side_size": 83,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1229441/2239188",
+          "family": "band",
+          "full_K_escape": "19503641/42136848",
+          "full_by_r": {
+            "3": "4163/29280",
+            "4": "813341/5138640",
+            "5": "38993/240096"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "341/19520",
+            "4": "177299/15415920",
+            "5": "3541/480192"
+          },
+          "restriction_escape": "4594319/126410544",
+          "side_size": 61,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "4286053/6020112",
+          "family": "band",
+          "full_K_escape": "1586855839/3398578560",
+          "full_by_r": {
+            "3": "11183/78720",
+            "4": "333533/2072304",
+            "5": "8817/53792"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "22/615",
+            "4": "169067/10361520",
+            "5": "945/107584"
+          },
+          "restriction_escape": "103440847/1699289280",
+          "side_size": 41,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2706983/5506200",
+          "family": "band",
+          "full_K_escape": "35455597/79704000",
+          "full_by_r": {
+            "3": "9221/72000",
+            "4": "1883/12150",
+            "5": "47761/295200"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "47/2400",
+            "4": "11189/1053000",
+            "5": "217/32800"
+          },
+          "restriction_escape": "3179693/86346000",
+          "side_size": 75,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "3694715/4992288",
+          "family": "band",
+          "full_K_escape": "100007213/216794880",
+          "full_by_r": {
+            "3": "9013/65280",
+            "4": "1235/7776",
+            "5": "3667/22304"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "293/10880",
+            "4": "25439/1718496",
+            "5": "2455/267648"
+          },
+          "restriction_escape": "35867311/704583360",
+          "side_size": 34,
+          "statistic": "leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1937/5658",
+          "family": "le",
+          "full_K_escape": "775609607/1699289280",
+          "full_by_r": {
+            "3": "67/480",
+            "4": "161515/1036152",
+            "5": "51953/322752"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "199/26240",
+            "4": "53441/5180760",
+            "5": "995/161376"
+          },
+          "restriction_escape": "81786277/3398578560",
+          "side_size": 82,
+          "statistic": "midpoint_join_count"
+        },
+        {
+          "P_leaf_escape": "89429/195776",
+          "family": "le",
+          "full_K_escape": "231599651/497352960",
+          "full_by_r": {
+            "3": "1637/11520",
+            "4": "96665/606528",
+            "5": "2585/15744"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "7/960",
+            "4": "2717/233280",
+            "5": "143/15744"
+          },
+          "restriction_escape": "536021/19128960",
+          "side_size": 24,
+          "statistic": "midpoint_largest_join_component"
+        },
+        {
+          "P_leaf_escape": "1937/5658",
+          "family": "le",
+          "full_K_escape": "775609607/1699289280",
+          "full_by_r": {
+            "3": "67/480",
+            "4": "161515/1036152",
+            "5": "51953/322752"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "199/26240",
+            "4": "53441/5180760",
+            "5": "995/161376"
+          },
+          "restriction_escape": "81786277/3398578560",
+          "side_size": 82,
+          "statistic": "midpoint_largest_join_component"
+        },
+        {
+          "P_leaf_escape": "1935361/4258128",
+          "family": "band",
+          "full_K_escape": "8593622/18780255",
+          "full_by_r": {
+            "3": "3877/27840",
+            "4": "39467/252720",
+            "5": "37019/228288"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "469/55680",
+            "4": "2161/187920",
+            "5": "427/57072"
+          },
+          "restriction_escape": "1689151/61637760",
+          "side_size": 58,
+          "statistic": "midpoint_largest_join_component"
+        },
+        {
+          "P_leaf_escape": "22255/27531",
+          "family": "le",
+          "full_K_escape": "120078529/248676480",
+          "full_by_r": {
+            "3": "887/5760",
+            "4": "247697/1516320",
+            "5": "1303/7872"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "7/384",
+            "4": "259/18720",
+            "5": "173/15744"
+          },
+          "restriction_escape": "8261/191880",
+          "side_size": 12,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1597709/2202480",
+          "family": "le",
+          "full_K_escape": "585442723/1243382400",
+          "full_by_r": {
+            "3": "4207/28800",
+            "4": "608329/3790800",
+            "5": "485/2952"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "43/3200",
+            "4": "1283/97200",
+            "5": "19/1968"
+          },
+          "restriction_escape": "1157033/31881600",
+          "side_size": 30,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "19783/36708",
+          "family": "le",
+          "full_K_escape": "1035463523/2238088320",
+          "full_by_r": {
+            "3": "1475/10368",
+            "4": "1076921/6823440",
+            "5": "4319/26568"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "637/51840",
+            "4": "15025/1364688",
+            "5": "419/53136"
+          },
+          "restriction_escape": "69790481/2238088320",
+          "side_size": 54,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "553993/1431612",
+          "family": "le",
+          "full_K_escape": "292813343/646558848",
+          "full_by_r": {
+            "3": "10339/74880",
+            "4": "1520101/9856080",
+            "5": "24649/153504"
+          },
+          "hi": 5,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "473/37440",
+            "4": "17101/1971216",
+            "5": "23/3936"
+          },
+          "restriction_escape": "43889059/1616397120",
+          "side_size": 78,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "15725/33488",
+          "family": "le",
+          "full_K_escape": "106116649/239466240",
+          "full_by_r": {
+            "3": "6197/49920",
+            "4": "5717/36504",
+            "5": "8309/51168"
+          },
+          "hi": 6,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "851/49920",
+            "4": "1747/164268",
+            "5": "349/51168"
+          },
+          "restriction_escape": "74360743/2155196160",
+          "side_size": 52,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "9993/16744",
+          "family": "le",
+          "full_K_escape": "81849119/179599680",
+          "full_by_r": {
+            "3": "103/780",
+            "4": "87317/547560",
+            "5": "16805/102336"
+          },
+          "hi": 7,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "47/1920",
+            "4": "20747/1642680",
+            "5": "431/51168"
+          },
+          "restriction_escape": "9813119/215519616",
+          "side_size": 26,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "505/552",
+          "family": "le",
+          "full_K_escape": "79268623/165784320",
+          "full_by_r": {
+            "3": "571/3840",
+            "4": "4133/25272",
+            "5": "653/3936"
+          },
+          "hi": 8,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "3/80",
+            "4": "181/12636",
+            "5": "71/7872"
+          },
+          "restriction_escape": "2521723/41446080",
+          "side_size": 4,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "126533/146832",
+          "family": "band",
+          "full_K_escape": "39918361/82892160",
+          "full_by_r": {
+            "3": "883/5760",
+            "4": "5147/31590",
+            "5": "5857/35424"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "131/5760",
+            "4": "3901/227448",
+            "5": "251/23616"
+          },
+          "restriction_escape": "37691359/746029440",
+          "side_size": 18,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "59117/85652",
+          "family": "band",
+          "full_K_escape": "91217681/193415040",
+          "full_by_r": {
+            "3": "1987/13440",
+            "4": "5903/36855",
+            "5": "13523/82656"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "787/40320",
+            "4": "37477/2653560",
+            "5": "1469/165312"
+          },
+          "restriction_escape": "74030633/1740735360",
+          "side_size": 42,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "634849/1211364",
+          "family": "band",
+          "full_K_escape": "1256444261/2735441280",
+          "full_by_r": {
+            "3": "163/1152",
+            "4": "325643/2084940",
+            "5": "20995/129888"
+          },
+          "hi": 5,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "71/3960",
+            "4": "47347/4169880",
+            "5": "595/86592"
+          },
+          "restriction_escape": "9890021/273544128",
+          "side_size": 66,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "408551/783104",
+          "family": "band",
+          "full_K_escape": "397340713/884183040",
+          "full_by_r": {
+            "3": "2657/20480",
+            "4": "424789/2695680",
+            "5": "20413/125952"
+          },
+          "hi": 6,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "1061/61440",
+            "4": "88469/8087040",
+            "5": "1687/251904"
+          },
+          "restriction_escape": "18517699/530509824",
+          "side_size": 64,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "13213/20216",
+          "family": "band",
+          "full_K_escape": "45625037/98434440",
+          "full_by_r": {
+            "3": "169/1216",
+            "4": "771059/4801680",
+            "5": "24521/149568"
+          },
+          "hi": 7,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "821/36480",
+            "4": "61933/4801680",
+            "5": "1279/149568"
+          },
+          "restriction_escape": "69226927/1574951040",
+          "side_size": 38,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "81735/97888",
+          "family": "band",
+          "full_K_escape": "106433107/221045760",
+          "full_by_r": {
+            "3": "469/3072",
+            "4": "110119/673920",
+            "5": "5209/31488"
+          },
+          "hi": 8,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "59/2560",
+            "4": "28219/2021760",
+            "5": "649/62976"
+          },
+          "restriction_escape": "7843261/165784320",
+          "side_size": 16,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "468931/587328",
+          "family": "band",
+          "full_K_escape": "238238509/497352960",
+          "full_by_r": {
+            "3": "349/2304",
+            "4": "61657/379080",
+            "5": "649/3936"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "143/5760",
+            "4": "691/42120",
+            "5": "5/492"
+          },
+          "restriction_escape": "1420067/27630720",
+          "side_size": 24,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2300737/3523968",
+          "family": "band",
+          "full_K_escape": "465178549/994705920",
+          "full_by_r": {
+            "3": "671/4608",
+            "4": "241259/1516320",
+            "5": "15391/94464"
+          },
+          "hi": 5,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "379/15360",
+            "4": "22183/1516320",
+            "5": "769/94464"
+          },
+          "restriction_escape": "94386937/1989411840",
+          "side_size": 48,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "989203/2006704",
+          "family": "band",
+          "full_K_escape": "95535979/212411160",
+          "full_by_r": {
+            "3": "649/4920",
+            "4": "1623979/10361520",
+            "5": "13001/80688"
+          },
+          "hi": 6,
+          "lo": 4,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "203/13120",
+            "4": "106507/10361520",
+            "5": "119/20172"
+          },
+          "restriction_escape": "10756813/339857856",
+          "side_size": 82,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "876495/1370432",
+          "family": "band",
+          "full_K_escape": "357430399/773660160",
+          "full_by_r": {
+            "3": "2501/17920",
+            "4": "376177/2358720",
+            "5": "5131/31488"
+          },
+          "hi": 7,
+          "lo": 4,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "499/26880",
+            "4": "3253/262080",
+            "5": "857/110208"
+          },
+          "restriction_escape": "1665623/42981120",
+          "side_size": 56,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "622123/832048",
+          "family": "band",
+          "full_K_escape": "25552861/54198720",
+          "full_by_r": {
+            "3": "2389/16320",
+            "4": "53153/330480",
+            "5": "5495/33456"
+          },
+          "hi": 8,
+          "lo": 4,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "177/10880",
+            "4": "57277/4296240",
+            "5": "625/66912"
+          },
+          "restriction_escape": "54874219/1409166720",
+          "side_size": 34,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "9817/12236",
+          "family": "band",
+          "full_K_escape": "4900261/10361520",
+          "full_by_r": {
+            "3": "853/5760",
+            "4": "8107/50544",
+            "5": "863/5248"
+          },
+          "hi": 5,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "757/23040",
+            "4": "2681/151632",
+            "5": "151/15744"
+          },
+          "restriction_escape": "59809501/994705920",
+          "side_size": 24,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1441613/2642976",
+          "family": "band",
+          "full_K_escape": "167680963/373014720",
+          "full_by_r": {
+            "3": "4603/34560",
+            "4": "1407917/9097920",
+            "5": "45793/283392"
+          },
+          "hi": 6,
+          "lo": 5,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "133/6912",
+            "4": "20383/1819584",
+            "5": "13/1968"
+          },
+          "restriction_escape": "11056037/298411776",
+          "side_size": 72,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1419421/2936640",
+          "family": "band",
+          "full_K_escape": "116557649/255052800",
+          "full_by_r": {
+            "3": "3557/25600",
+            "4": "121871/777600",
+            "5": "50797/314880"
+          },
+          "hi": 7,
+          "lo": 5,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "13/800",
+            "4": "33373/3369600",
+            "5": "989/157440"
+          },
+          "restriction_escape": "8962273/276307200",
+          "side_size": 80,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "49067/88711",
+          "family": "band",
+          "full_K_escape": "185617331/400645440",
+          "full_by_r": {
+            "3": "137/960",
+            "4": "386167/2442960",
+            "5": "9275/57072"
+          },
+          "hi": 8,
+          "lo": 5,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "781/55680",
+            "4": "5419/488592",
+            "5": "877/114144"
+          },
+          "restriction_escape": "26283071/801290880",
+          "side_size": 58,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "409387/587328",
+          "family": "band",
+          "full_K_escape": "463455943/994705920",
+          "full_by_r": {
+            "3": "55/384",
+            "4": "965897/6065280",
+            "5": "3431/20992"
+          },
+          "hi": 6,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "1379/46080",
+            "4": "18539/1213056",
+            "5": "793/94464"
+          },
+          "restriction_escape": "106640107/1989411840",
+          "side_size": 48,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "466387/905464",
+          "family": "band",
+          "full_K_escape": "1377470131/3067009920",
+          "full_by_r": {
+            "3": "9379/71040",
+            "4": "1452433/9350640",
+            "5": "7853/48544"
+          },
+          "hi": 7,
+          "lo": 6,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "499/23680",
+            "4": "34153/3116880",
+            "5": "241/36408"
+          },
+          "restriction_escape": "39512791/1022336640",
+          "side_size": 74,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "152164/376257",
+          "family": "band",
+          "full_K_escape": "770892229/1699289280",
+          "full_by_r": {
+            "3": "1091/7872",
+            "4": "1600601/10361520",
+            "5": "25915/161376"
+          },
+          "hi": 8,
+          "lo": 6,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "109/7872",
+            "4": "671/76752",
+            "5": "29/5043"
+          },
+          "restriction_escape": "356719/12587328",
+          "side_size": 82,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "9859/12558",
+          "family": "band",
+          "full_K_escape": "508083151/1077598080",
+          "full_by_r": {
+            "3": "725/4992",
+            "4": "265361/1642680",
+            "5": "5619/34112"
+          },
+          "hi": 7,
+          "lo": 7,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "241/6240",
+            "4": "415/25272",
+            "5": "5/533"
+          },
+          "restriction_escape": "102697/1594080",
+          "side_size": 26,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "49639/92736",
+          "family": "band",
+          "full_K_escape": "445449221/994705920",
+          "full_by_r": {
+            "3": "979/7680",
+            "4": "23887/151632",
+            "5": "3845/23616"
+          },
+          "hi": 8,
+          "lo": 7,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "191/9216",
+            "4": "1793/151632",
+            "5": "695/94464"
+          },
+          "restriction_escape": "15878215/397882368",
+          "side_size": 48,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2621/3864",
+          "family": "band",
+          "full_K_escape": "721187/1558656",
+          "full_by_r": {
+            "3": "263/1920",
+            "4": "1913/11880",
+            "5": "14261/86592"
+          },
+          "hi": 8,
+          "lo": 8,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "127/4224",
+            "4": "20327/1389960",
+            "5": "197/21648"
+          },
+          "restriction_escape": "49047007/911813760",
+          "side_size": 22,
+          "statistic": "sum_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "22255/27531",
+          "family": "le",
+          "full_K_escape": "120078529/248676480",
+          "full_by_r": {
+            "3": "887/5760",
+            "4": "247697/1516320",
+            "5": "1303/7872"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "7/384",
+            "4": "259/18720",
+            "5": "173/15744"
+          },
+          "restriction_escape": "8261/191880",
+          "side_size": 12,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "39469/61180",
+          "family": "le",
+          "full_K_escape": "776325761/1657843200",
+          "full_by_r": {
+            "3": "5569/38400",
+            "4": "403579/2527200",
+            "5": "2575/15744"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "109/7680",
+            "4": "10867/842400",
+            "5": "93/10496"
+          },
+          "restriction_escape": "19868297/552614400",
+          "side_size": 40,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "836043/1957760",
+          "family": "le",
+          "full_K_escape": "15512713/34538400",
+          "full_by_r": {
+            "3": "1031/7680",
+            "4": "519977/3369600",
+            "5": "3371/20992"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "21/1600",
+            "4": "3551/404352",
+            "5": "23/3936"
+          },
+          "restriction_escape": "11501473/414460800",
+          "side_size": 80,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "939821/1541736",
+          "family": "le",
+          "full_K_escape": "131408491/290122560",
+          "full_by_r": {
+            "3": "77/576",
+            "4": "69161/442260",
+            "5": "13463/82656"
+          },
+          "hi": 4,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "53/2880",
+            "4": "1675/176904",
+            "5": "403/55104"
+          },
+          "restriction_escape": "637991/18132660",
+          "side_size": 42,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "100277/128478",
+          "family": "band",
+          "full_K_escape": "554273243/1160490240",
+          "full_by_r": {
+            "3": "1353/8960",
+            "4": "81881/505440",
+            "5": "9071/55104"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "599/26880",
+            "4": "57929/3538080",
+            "5": "181/18368"
+          },
+          "restriction_escape": "8042417/165784320",
+          "side_size": 28,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "888555/1664096",
+          "family": "band",
+          "full_K_escape": "71243303/156574080",
+          "full_by_r": {
+            "3": "2239/16320",
+            "4": "18641/119340",
+            "5": "14419/89216"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "203/10880",
+            "4": "48857/4296240",
+            "5": "1831/267648"
+          },
+          "restriction_escape": "12989417/352291680",
+          "side_size": 68,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "43879/73416",
+          "family": "band",
+          "full_K_escape": "128346973/279761040",
+          "full_by_r": {
+            "3": "199/1440",
+            "4": "1077629/6823440",
+            "5": "17285/106272"
+          },
+          "hi": 4,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "119/6480",
+            "4": "23743/2274480",
+            "5": "259/35424"
+          },
+          "restriction_escape": "6735619/186507360",
+          "side_size": 54,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2180569/2936640",
+          "family": "band",
+          "full_K_escape": "155225927/331568640",
+          "full_by_r": {
+            "3": "5533/38400",
+            "4": "810817/5054400",
+            "5": "5153/31488"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "251/7680",
+            "4": "81617/5054400",
+            "5": "93/10496"
+          },
+          "restriction_escape": "95641841/1657843200",
+          "side_size": 40,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1522265/3010056",
+          "family": "band",
+          "full_K_escape": "119452399/261429120",
+          "full_by_r": {
+            "3": "3653/26240",
+            "4": "6239/39852",
+            "5": "13003/80688"
+          },
+          "hi": 4,
+          "lo": 3,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "429/26240",
+            "4": "50251/5180760",
+            "5": "485/80688"
+          },
+          "restriction_escape": "108956507/3398578560",
+          "side_size": 82,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "2692313/4111296",
+          "family": "band",
+          "full_K_escape": "265465607/580245120",
+          "full_by_r": {
+            "3": "461/3360",
+            "4": "31801/202176",
+            "5": "17965/110208"
+          },
+          "hi": 4,
+          "lo": 4,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "683/26880",
+            "4": "19379/1415232",
+            "5": "1735/220416"
+          },
+          "restriction_escape": "27256357/580245120",
+          "side_size": 56,
+          "statistic": "max_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "23839/48944",
+          "family": "le",
+          "full_K_escape": "218021333/469722240",
+          "full_by_r": {
+            "3": "4729/32640",
+            "4": "112729/716040",
+            "5": "7219/44608"
+          },
+          "hi": 1,
+          "lo": 1,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "133/8160",
+            "4": "709/63180",
+            "5": "1885/267648"
+          },
+          "restriction_escape": "48706097/1409166720",
+          "side_size": 68,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1525/2898",
+          "family": "le",
+          "full_K_escape": "334765609/746029440",
+          "full_by_r": {
+            "3": "2209/17280",
+            "4": "89821/568620",
+            "5": "17315/106272"
+          },
+          "hi": 2,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "431/17280",
+            "4": "14519/1137240",
+            "5": "1579/212544"
+          },
+          "restriction_escape": "33674317/746029440",
+          "side_size": 54,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "137/184",
+          "family": "le",
+          "full_K_escape": "232590781/497352960",
+          "full_by_r": {
+            "3": "539/3840",
+            "4": "24523/151632",
+            "5": "1955/11808"
+          },
+          "hi": 3,
+          "lo": 1,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "31/960",
+            "4": "2389/151632",
+            "5": "233/23616"
+          },
+          "restriction_escape": "3600407/62169120",
+          "side_size": 12,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "1369385/2055648",
+          "family": "band",
+          "full_K_escape": "72314771/154732032",
+          "full_by_r": {
+            "3": "1567/10752",
+            "4": "37435/235872",
+            "5": "11969/73472"
+          },
+          "hi": 2,
+          "lo": 2,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "229/7680",
+            "4": "17189/1179360",
+            "5": "125/15744"
+          },
+          "restriction_escape": "40487257/773660160",
+          "side_size": 56,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "452079/978880",
+          "family": "band",
+          "full_K_escape": "1533217259/3315686400",
+          "full_by_r": {
+            "3": "443/3072",
+            "4": "198301/1263600",
+            "5": "25391/157440"
+          },
+          "hi": 3,
+          "lo": 2,
+          "orientation": "fixed_fiber_complement",
+          "restriction_by_r": {
+            "3": "359/19200",
+            "4": "4531/421200",
+            "5": "1999/314880"
+          },
+          "restriction_escape": "3957131/110522880",
+          "side_size": 80,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "8737/13524",
+          "family": "band",
+          "full_K_escape": "133904161/290122560",
+          "full_by_r": {
+            "3": "79/576",
+            "4": "70991/442260",
+            "5": "215/1312"
+          },
+          "hi": 3,
+          "lo": 3,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "1441/40320",
+            "4": "4583/294840",
+            "5": "199/23616"
+          },
+          "restriction_escape": "2309747/38683008",
+          "side_size": 42,
+          "statistic": "min_leaf_null_separation"
+        },
+        {
+          "P_leaf_escape": "461919/1089004",
+          "family": "le",
+          "full_K_escape": "159221255/368870112",
+          "full_by_r": {
+            "3": "2587/21360",
+            "4": "841621/5623020",
+            "5": "18783/116768"
+          },
+          "hi": 0,
+          "lo": 0,
+          "orientation": "inside",
+          "restriction_by_r": {
+            "3": "23/5340",
+            "4": "49753/11246040",
+            "5": "4061/700608"
+          },
+          "restriction_escape": "53587813/3688701120",
+          "side_size": 89,
+          "statistic": "join_order_parity"
+        },
+        {
+          "P_leaf_escape": "461919/1089004",
+          "family": "parity",
+          "full_K_escape": "159221255/368870112",
+          "full_by_r": {
+            "3": "2587/21360",
+            "4": "841621/5623020",
+            "5": "18783/116768"
+          },
+          "orientation": "even",
+          "restriction_by_r": {
+            "3": "23/5340",
+            "4": "49753/11246040",
+            "5": "4061/700608"
+          },
+          "restriction_escape": "53587813/3688701120",
+          "side_size": 89,
+          "statistic": "join_order_parity"
+        }
+      ],
+      "cell_size_distribution": {
+        "19": 2,
+        "21": 4,
+        "23": 6,
+        "24": 4
+      },
+      "cells": 16,
+      "component_flows": [
+        {
+          "P_leaf_escape": "0/1",
+          "core_keys": [
+            [
+              0,
+              0
+            ]
+          ],
+          "full_K_escape": "118355749/283746240",
+          "full_by_r": {
+            "3": "499/4272",
+            "4": "125653/865080",
+            "5": "108637/700608"
+          },
+          "restriction_by_r": {
+            "3": "0/1",
+            "4": "0/1",
+            "5": "0/1"
+          },
+          "restriction_escape": "0/1",
+          "size": 178
+        }
+      ],
+      "component_sizes": [
+        178
+      ],
+      "components": 1,
+      "each_component_has_one_core_key": true,
+      "each_core_key_has_one_component": true,
+      "fiber_size": 178,
+      "leaves": [
+        1,
+        3
+      ],
+      "maximum_cell_size": 24,
+      "minimum_candidate_P_leaf_escape": {
+        "P_leaf_escape": "1937/5658",
+        "family": "le",
+        "full_K_escape": "775609607/1699289280",
+        "full_by_r": {
+          "3": "67/480",
+          "4": "161515/1036152",
+          "5": "51953/322752"
+        },
+        "hi": 2,
+        "lo": 2,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "199/26240",
+          "4": "53441/5180760",
+          "5": "995/161376"
+        },
+        "restriction_escape": "81786277/3398578560",
+        "side_size": 82,
+        "statistic": "midpoint_join_count"
+      },
+      "minimum_candidate_full_K_escape": {
+        "P_leaf_escape": "266510/541443",
+        "family": "le",
+        "full_K_escape": "2080368337/4890637440",
+        "full_by_r": {
+          "3": "907/7552",
+          "4": "2199529/14910480",
+          "5": "3053/19352"
+        },
+        "hi": 1,
+        "lo": 1,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "9/4720",
+          "4": "1715/994032",
+          "5": "1213/464448"
+        },
+        "restriction_escape": "5089343/815106240",
+        "side_size": 59,
+        "statistic": "canonical_edge_join_rank"
+      },
+      "minimum_candidate_restriction_escape": {
+        "P_leaf_escape": "266510/541443",
+        "family": "le",
+        "full_K_escape": "2080368337/4890637440",
+        "full_by_r": {
+          "3": "907/7552",
+          "4": "2199529/14910480",
+          "5": "3053/19352"
+        },
+        "hi": 1,
+        "lo": 1,
+        "orientation": "inside",
+        "restriction_by_r": {
+          "3": "9/4720",
+          "4": "1715/994032",
+          "5": "1213/464448"
+        },
+        "restriction_escape": "5089343/815106240",
+        "side_size": 59,
+        "statistic": "canonical_edge_join_rank"
+      },
+      "minimum_nontrivial_cell_size": 19,
+      "shape": "path",
+      "tree_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ]
+}

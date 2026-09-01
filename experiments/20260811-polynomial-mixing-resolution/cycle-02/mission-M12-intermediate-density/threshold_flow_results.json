@@ -1,0 +1,53 @@
+{
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "claim_tested": "The exact retained H3 square flow across every component-count threshold has inverse-polynomial two-sided conductance. Finite arithmetic can falsify proposed bounds but cannot prove universality.",
+  "deterministic": true,
+  "random_seed": null,
+  "parameters": {
+    "n_max": 10,
+    "m_max": 60
+  },
+  "environment": {
+    "python": "3.12.3",
+    "implementation": "CPython",
+    "nonstandard_dependencies": []
+  },
+  "worst_unscaled": {
+    "N": 10,
+    "m": 60,
+    "c0": 1,
+    "smaller_side": "upper",
+    "phi_H3_square_lower_bound": "2101766164129568137663570584103529055404971967953616556636308179003492781260308480000/435915590042540468748852279207100324404537004298354645090299511475700886246057040689600761",
+    "phi_float": 4.8214980426014576e-06,
+    "scaled_by_(Nm)^6": 224951812675.6136
+  },
+  "selected_records": [
+    {
+      "N": 3,
+      "m": 6,
+      "c0": 1,
+      "smaller_side": "upper",
+      "phi_H3_square_lower_bound": "1/108",
+      "phi_float": 0.009259259259259259,
+      "scaled_by_(Nm)^6": 314928.0
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "c0": 1,
+      "smaller_side": "upper",
+      "phi_H3_square_lower_bound": "13/9120",
+      "phi_float": 0.0014254385964912282,
+      "scaled_by_(Nm)^6": 1530553.0385964913
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "c0": 2,
+      "smaller_side": "upper",
+      "phi_H3_square_lower_bound": "1/144",
+      "phi_float": 0.006944444444444444,
+      "scaled_by_(Nm)^6": 7456540.444444444
+    }
+  ]
+}

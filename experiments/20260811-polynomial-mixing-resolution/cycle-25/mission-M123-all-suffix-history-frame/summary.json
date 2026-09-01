@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "arithmetic": "fractions.Fraction exact",
+    "command": "python3 -B /home/nico/projects/research_projects/reversible_circuits/experiments/20260811-polynomial-mixing-resolution/cycle-25/mission-M123-all-suffix-history-frame/history_frame_search.py --s-max 10 --multitype-s-max 8 --results experiments/20260811-polynomial-mixing-resolution/cycle-25/mission-M123-all-suffix-history-frame/results.jsonl --summary experiments/20260811-polynomial-mixing-resolution/cycle-25/mission-M123-all-suffix-history-frame/summary.json",
+    "convention": "(pq)(x)=p(q(x)); factors displayed left-to-right",
+    "elapsed_seconds": 15.711835384368896,
+    "finite_scope_warning": "Bounded survival cannot prove either universal contraction inequality.",
+    "nonstandard_dependencies": [],
+    "normalization": "H=A0+QH; Q=rho_s(k,t)nu(K,R,k,j), every j=1,...,k; complete success histories retain the initial transformed normalization",
+    "python": "3.12.3",
+    "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+    "seed": null
+  },
+  "result": {
+    "attachment_labels_seen": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        4
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        6
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        9,
+        9
+      ]
+    ],
+    "cache_sizes": {
+      "reset_energy": 1288,
+      "resolvent": 1288,
+      "signed_frame_resolvent": 1042,
+      "success_history_stats": 1120
+    },
+    "claims_tested": {
+      "complete_history_mass": "sum of all marked success histories equals q",
+      "multitype_target": "H<=(K-R)q(1-q), bounded exact falsification only",
+      "right_heavy_target": "H<=q(1-q), bounded exact falsification only",
+      "signed_frame_identity": "full all-j signed two-copy expansion equals H",
+      "unique_active_reset_category": "each success atom lies in at most one active reset basin"
+    },
+    "complete_history_mass_failure_count": 0,
+    "extra_alpha_ratio_witnesses": {
+      "child_over_parent": {
+        "correct_q": {
+          "decimal": 0.5625,
+          "denominator": "16",
+          "numerator": "9"
+        },
+        "difference": {
+          "decimal": 0.375,
+          "denominator": "8",
+          "numerator": "3"
+        },
+        "direction": "child_over_parent",
+        "state": [
+          3,
+          1,
+          0,
+          1
+        ],
+        "wrong_total": {
+          "decimal": 0.9375,
+          "denominator": "16",
+          "numerator": "15"
+        }
+      },
+      "parent_over_child": {
+        "correct_q": {
+          "decimal": 0.5625,
+          "denominator": "16",
+          "numerator": "9"
+        },
+        "difference": {
+          "decimal": -0.125,
+          "denominator": "8",
+          "numerator": "-1"
+        },
+        "direction": "parent_over_child",
+        "state": [
+          3,
+          1,
+          0,
+          1
+        ],
+        "wrong_total": {
+          "decimal": 0.4375,
+          "denominator": "16",
+          "numerator": "7"
+        }
+      }
+    },
+    "first_edge_partition_at_collision": {
+      "candidate_energy": {
+        "decimal": 0.026612515555555556,
+        "denominator": "28125000",
+        "numerator": "748477"
+      },
+      "current_mismatch_count": 1,
+      "current_mismatches": [
+        {
+          "assigned_disjoint_charge": {
+            "decimal": 0.070272,
+            "denominator": "15625",
+            "numerator": "1098"
+          },
+          "difference": {
+            "decimal": 0.035136,
+            "denominator": "15625",
+            "numerator": "549"
+          },
+          "endpoint": [
+            3,
+            1
+          ],
+          "true_nested_basin_current": {
+            "decimal": 0.105408,
+            "denominator": "15625",
+            "numerator": "1647"
+          }
+        }
+      ],
+      "difference_true_minus_candidate": {
+        "decimal": 0.02143296,
+        "denominator": "1562500",
+        "numerator": "33489"
+      },
+      "true_A0": {
+        "decimal": 0.04804547555555556,
+        "denominator": "28125000",
+        "numerator": "1351279"
+      }
+    },
+    "first_unique_category_collision": {
+      "active_canonical_endpoints": [
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "centered_source_charge": {
+        "decimal": 0.003904,
+        "denominator": "15625",
+        "numerator": "61"
+      },
+      "context_mean": {
+        "decimal": 1.0,
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "endpoint_rows": [
+        {
+          "capacity": {
+            "decimal": 0.096,
+            "denominator": "125",
+            "numerator": "12"
+          },
+          "endpoint": [
+            2,
+            1,
+            1
+          ],
+          "source_is_in_basin": true,
+          "theta": {
+            "decimal": 0.01952,
+            "denominator": "3125",
+            "numerator": "61"
+          }
+        },
+        {
+          "capacity": {
+            "decimal": 0.288,
+            "denominator": "125",
+            "numerator": "36"
+          },
+          "endpoint": [
+            3,
+            1
+          ],
+          "source_is_in_basin": true,
+          "theta": {
+            "decimal": 0.105408,
+            "denominator": "15625",
+            "numerator": "1647"
+          }
+        }
+      ],
+      "q": {
+        "decimal": 0.512,
+        "denominator": "125",
+        "numerator": "64"
+      },
+      "source": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "source_mass": {
+        "decimal": 0.008,
+        "denominator": "125",
+        "numerator": "1"
+      },
+      "state": [
+        4,
+        1,
+        0,
+        1
+      ],
+      "success_mass": {
+        "decimal": 0.008,
+        "denominator": "125",
+        "numerator": "1"
+      }
+    },
+    "multitype_failure_count": 0,
+    "multitype_first_failures": [],
+    "multitype_worst": {
+      "H": {
+        "decimal": 0.07322551462882917,
+        "denominator": "3468535372911177205414609888582041600000",
+        "numerator": "253985287689718867427349453367883132399"
+      },
+      "ratio": {
+        "decimal": 0.621004266940768,
+        "denominator": "408991211833242065204727055908864000000",
+        "numerator": "253985287689718867427349453367883132399"
+      },
+      "state": [
+        8,
+        1,
+        0,
+        3
+      ],
+      "target": {
+        "decimal": 0.11791467229292563,
+        "denominator": "43046721",
+        "numerator": "5075840"
+      }
+    },
+    "parameters": {
+      "multitype_K_max": 6,
+      "multitype_s_max": 8,
+      "right_heavy_K_values": [
+        1,
+        2,
+        5
+      ],
+      "right_heavy_s_max": 10
+    },
+    "right_heavy_failure_count": 0,
+    "right_heavy_first_failures": [],
+    "right_heavy_row_count": 162,
+    "right_heavy_worst": {
+      "H": {
+        "decimal": 0.05831154642048401,
+        "denominator": "3921254244105060661082457262556346893308177167762708000000000000000000",
+        "numerator": "228654398881652181999845599204878391325670904753100072203859867431501"
+      },
+      "attachment_labels": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "kind": "right_heavy_root",
+      "q": {
+        "decimal": 0.0957977485514966,
+        "denominator": "2357947691",
+        "numerator": "225886080"
+      },
+      "ratio": {
+        "decimal": 0.6731838253568074,
+        "denominator": "339661159803503253888930093367003559368775713251840000000000000000000",
+        "numerator": "228654398881652181999845599204878391325670904753100072203859867431501"
+      },
+      "signed_frame_H": {
+        "decimal": 0.05831154642048401,
+        "denominator": "3921254244105060661082457262556346893308177167762708000000000000000000",
+        "numerator": "228654398881652181999845599204878391325670904753100072203859867431501"
+      },
+      "state": [
+        10,
+        1,
+        0,
+        4
+      ],
+      "success_history_mass": {
+        "decimal": 0.0957977485514966,
+        "denominator": "2357947691",
+        "numerator": "225886080"
+      },
+      "success_leaf_count": 460,
+      "success_max_depth": 6,
+      "suffix_excess": 6,
+      "target": {
+        "decimal": 0.08662053992396083,
+        "denominator": "5559917313492231481",
+        "numerator": "481603039627274880"
+      },
+      "terminal_group_count_with_multiplicity": 460
+    },
+    "signed_frame_identity_failure_count": 0
+  }
+}

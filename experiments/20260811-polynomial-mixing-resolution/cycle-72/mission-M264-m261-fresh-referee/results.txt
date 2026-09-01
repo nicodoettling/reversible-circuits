@@ -1,0 +1,36 @@
+M264 clean-room PBV reduction checks
+reads_M261=false imports_M261=false seed=null arithmetic=Fraction
+e2_affine_split=verified_symbolically_via_sum_C=n-8+2*1_T+I
+k=3 n=9
+  accessible_products_A=30 B=51
+  alpha_0=1/15 alpha_1=8/15 alpha_2=2/5
+  circular_rows_checked=384
+  endpoint_rows_checked=320
+  max_jump_count_triangle=6 double=8
+  max_abs_endpoint=1.288
+  same_XY_profile_distinct_E=((1, 1), (2, 1), (6, 2))
+    witness_left=(0,2)(6,7)
+    witness_right=(1,8)(6,7)
+    ell=2 E_left=-625/1296 E_right=-20/81
+  n_times_pbv_l1=2.01300014067
+  k2_times_Vz=2.12171676039
+  k2_Lambda_over_R=9.48606532992 ratio_to_n=1.05400725888
+  eta_triangle=8/75
+  status=all exact identities passed; finite falsification only
+k=5 n=15
+  accessible_products_A=360 B=716
+  alpha_0=1/11 alpha_1=16/33 alpha_2=14/33
+  circular_rows_checked=9720
+  endpoint_rows_checked=8910
+  max_jump_count_triangle=6 double=8
+  max_abs_endpoint=1.32177986623
+  same_XY_profile_distinct_E=((2, 1), (4, 2), (9, 1))
+    witness_left=(1,14)(3,12)
+    witness_right=(1,14)(2,11)
+    ell=2 E_left=-50576257/38263752 E_right=86504/177147
+  n_times_pbv_l1=2.41867389868
+  k2_times_Vz=2.21090646491
+  k2_Lambda_over_R=13.7114792497 ratio_to_n=0.914098616649
+  eta_triangle=16/495
+  status=all exact identities passed; finite falsification only
+scope=no PBV/sign/FCL1/gap/mixing/Terminal inference

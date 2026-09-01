@@ -1,0 +1,899 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M81-m78-referee-voltage/total_prefix_probe.py",
+    "--case",
+    "1",
+    "20000",
+    "--case",
+    "2",
+    "50000",
+    "--case",
+    "3",
+    "10000",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M81-m78-referee-voltage/total-prefix-results.json"
+  ],
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "method": "Uniform random full original-label orders; exact canonical elimination; record every adjacent equal-output prefix and exact residual connectivity.",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "L": 1,
+      "collision_prefixes": 1956,
+      "elapsed_seconds": 0.6197555200196803,
+      "examples": [
+        {
+          "collisions": [
+            {
+              "depth": 5,
+              "prefix_length": 7,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ]
+              ]
+            }
+          ],
+          "trial": 4
+        },
+        {
+          "collisions": [
+            {
+              "depth": 8,
+              "prefix_length": 10,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 3,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 5
+        },
+        {
+          "collisions": [
+            {
+              "depth": 9,
+              "prefix_length": 11,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 4,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 10
+        },
+        {
+          "collisions": [
+            {
+              "depth": 7,
+              "prefix_length": 9,
+              "remaining_component_sizes": [
+                7,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 3,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 14
+        },
+        {
+          "collisions": [
+            {
+              "depth": 9,
+              "prefix_length": 11,
+              "remaining_component_sizes": [
+                7,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 4,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 31
+        },
+        {
+          "collisions": [
+            {
+              "depth": 3,
+              "prefix_length": 5,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ]
+              ]
+            }
+          ],
+          "trial": 39
+        },
+        {
+          "collisions": [
+            {
+              "depth": 5,
+              "prefix_length": 7,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 43
+        },
+        {
+          "collisions": [
+            {
+              "depth": 5,
+              "prefix_length": 7,
+              "remaining_component_sizes": [
+                8
+              ],
+              "safe": true,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ]
+              ]
+            }
+          ],
+          "trial": 46
+        }
+      ],
+      "first_collision_depth_histogram": {
+        "2": 51,
+        "3": 122,
+        "4": 177,
+        "5": 199,
+        "6": 258,
+        "7": 265,
+        "8": 242,
+        "9": 234,
+        "10": 182,
+        "11": 108,
+        "12": 41
+      },
+      "first_safe_depth_histogram": {
+        "2": 35,
+        "3": 84,
+        "4": 119,
+        "5": 130,
+        "6": 158,
+        "7": 171,
+        "8": 153,
+        "9": 149,
+        "10": 131,
+        "11": 76,
+        "12": 39
+      },
+      "length": 16,
+      "n": 8,
+      "orders_with_collision": 1879,
+      "orders_with_safe_prefix": 1245,
+      "remaining_component_shape_histogram": {
+        "(6, 2)": 16,
+        "(7, 1)": 676,
+        "(8,)": 1264
+      },
+      "safe_prefixes": 1264,
+      "seed": 810081,
+      "selected_topology_histogram": {
+        "(1, False)": 221,
+        "(1, True)": 417,
+        "(2, False)": 15,
+        "(2, True)": 370,
+        "(3, False)": 2,
+        "(3, True)": 300,
+        "(4, True)": 266,
+        "(5, True)": 198,
+        "(6, True)": 117,
+        "(7, True)": 50
+      },
+      "trials": 20000
+    },
+    {
+      "L": 2,
+      "collision_prefixes": 1684,
+      "elapsed_seconds": 18.01263202005066,
+      "examples": [
+        {
+          "collisions": [
+            {
+              "depth": 37,
+              "prefix_length": 39,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 8,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 64
+        },
+        {
+          "collisions": [
+            {
+              "depth": 10,
+              "prefix_length": 12,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 2,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 88
+        },
+        {
+          "collisions": [
+            {
+              "depth": 43,
+              "prefix_length": 45,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 14,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 131
+        },
+        {
+          "collisions": [
+            {
+              "depth": 45,
+              "prefix_length": 47,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 16,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 204
+        },
+        {
+          "collisions": [
+            {
+              "depth": 13,
+              "prefix_length": 15,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 296
+        },
+        {
+          "collisions": [
+            {
+              "depth": 32,
+              "prefix_length": 34,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 5,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 316
+        },
+        {
+          "collisions": [
+            {
+              "depth": 21,
+              "prefix_length": 23,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 427
+        },
+        {
+          "collisions": [
+            {
+              "depth": 22,
+              "prefix_length": 24,
+              "remaining_component_sizes": [
+                31,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 455
+        }
+      ],
+      "first_collision_depth_histogram": {
+        "2": 2,
+        "3": 1,
+        "4": 3,
+        "5": 1,
+        "6": 1,
+        "7": 8,
+        "8": 12,
+        "9": 11,
+        "10": 22,
+        "11": 12,
+        "12": 20,
+        "13": 14,
+        "14": 35,
+        "15": 24,
+        "16": 31,
+        "17": 38,
+        "18": 40,
+        "19": 31,
+        "20": 39,
+        "21": 42,
+        "22": 52,
+        "23": 31,
+        "24": 50,
+        "25": 47,
+        "26": 46,
+        "27": 45,
+        "28": 58,
+        "29": 62,
+        "30": 47,
+        "31": 51,
+        "32": 57,
+        "33": 46,
+        "34": 37,
+        "35": 47,
+        "36": 51,
+        "37": 47,
+        "38": 43,
+        "39": 51,
+        "40": 49,
+        "41": 43,
+        "42": 35,
+        "43": 29,
+        "44": 32,
+        "45": 33,
+        "46": 25,
+        "47": 29,
+        "48": 20,
+        "49": 23,
+        "50": 18,
+        "51": 16,
+        "52": 10,
+        "53": 14,
+        "54": 7,
+        "55": 10,
+        "56": 7,
+        "57": 5,
+        "58": 2,
+        "59": 1
+      },
+      "first_safe_depth_histogram": {},
+      "length": 64,
+      "n": 32,
+      "orders_with_collision": 1663,
+      "orders_with_safe_prefix": 0,
+      "remaining_component_shape_histogram": {
+        "(30, 2)": 38,
+        "(31, 1)": 1646
+      },
+      "safe_prefixes": 0,
+      "seed": 1810084,
+      "selected_topology_histogram": {
+        "(1, False)": 450,
+        "(10, True)": 57,
+        "(11, True)": 55,
+        "(12, True)": 54,
+        "(13, True)": 46,
+        "(14, True)": 32,
+        "(15, True)": 33,
+        "(16, True)": 34,
+        "(17, True)": 28,
+        "(18, True)": 28,
+        "(19, True)": 21,
+        "(2, False)": 142,
+        "(2, True)": 37,
+        "(20, True)": 24,
+        "(21, True)": 19,
+        "(22, True)": 16,
+        "(23, True)": 11,
+        "(24, True)": 14,
+        "(25, True)": 9,
+        "(26, True)": 10,
+        "(27, True)": 7,
+        "(28, True)": 5,
+        "(29, True)": 2,
+        "(3, False)": 60,
+        "(3, True)": 54,
+        "(30, True)": 1,
+        "(4, False)": 25,
+        "(4, True)": 81,
+        "(5, False)": 16,
+        "(5, True)": 69,
+        "(6, False)": 2,
+        "(6, True)": 65,
+        "(7, False)": 3,
+        "(7, True)": 62,
+        "(8, False)": 1,
+        "(8, True)": 61,
+        "(9, True)": 50
+      },
+      "trials": 50000
+    },
+    {
+      "L": 3,
+      "collision_prefixes": 351,
+      "elapsed_seconds": 16.856496196007356,
+      "examples": [
+        {
+          "collisions": [
+            {
+              "depth": 28,
+              "prefix_length": 30,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 0
+        },
+        {
+          "collisions": [
+            {
+              "depth": 70,
+              "prefix_length": 72,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 8,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 20
+        },
+        {
+          "collisions": [
+            {
+              "depth": 59,
+              "prefix_length": 61,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 3,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 144
+        },
+        {
+          "collisions": [
+            {
+              "depth": 73,
+              "prefix_length": 75,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 12,
+              "selected_nonzero_homology": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 175
+        },
+        {
+          "collisions": [
+            {
+              "depth": 26,
+              "prefix_length": 28,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 1,
+              "selected_nonzero_homology": []
+            }
+          ],
+          "trial": 185
+        },
+        {
+          "collisions": [
+            {
+              "depth": 97,
+              "prefix_length": 99,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 30,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 239
+        },
+        {
+          "collisions": [
+            {
+              "depth": 80,
+              "prefix_length": 82,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 14,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 245
+        },
+        {
+          "collisions": [
+            {
+              "depth": 89,
+              "prefix_length": 91,
+              "remaining_component_sizes": [
+                71,
+                1
+              ],
+              "safe": false,
+              "selected_cycle_rank": 20,
+              "selected_nonzero_homology": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ]
+            }
+          ],
+          "trial": 253
+        }
+      ],
+      "first_collision_depth_histogram": {
+        "8": 1,
+        "11": 1,
+        "12": 3,
+        "13": 1,
+        "14": 1,
+        "18": 1,
+        "20": 2,
+        "21": 2,
+        "22": 1,
+        "23": 2,
+        "25": 1,
+        "26": 3,
+        "27": 1,
+        "28": 3,
+        "30": 2,
+        "31": 3,
+        "33": 5,
+        "35": 2,
+        "36": 2,
+        "38": 4,
+        "39": 3,
+        "40": 2,
+        "41": 6,
+        "42": 5,
+        "43": 5,
+        "44": 7,
+        "45": 2,
+        "46": 6,
+        "47": 4,
+        "48": 4,
+        "49": 2,
+        "50": 7,
+        "51": 4,
+        "52": 3,
+        "53": 4,
+        "54": 7,
+        "55": 2,
+        "56": 1,
+        "57": 3,
+        "58": 9,
+        "59": 3,
+        "60": 2,
+        "61": 4,
+        "62": 3,
+        "63": 4,
+        "64": 9,
+        "65": 3,
+        "66": 5,
+        "67": 2,
+        "68": 1,
+        "69": 5,
+        "70": 6,
+        "71": 2,
+        "72": 7,
+        "73": 3,
+        "74": 3,
+        "75": 6,
+        "76": 3,
+        "77": 13,
+        "78": 7,
+        "79": 7,
+        "80": 6,
+        "81": 2,
+        "82": 5,
+        "83": 5,
+        "85": 2,
+        "86": 5,
+        "87": 5,
+        "88": 1,
+        "89": 4,
+        "90": 5,
+        "91": 2,
+        "92": 3,
+        "93": 2,
+        "94": 3,
+        "95": 4,
+        "96": 1,
+        "97": 5,
+        "98": 1,
+        "99": 2,
+        "100": 3,
+        "101": 2,
+        "102": 3,
+        "103": 5,
+        "104": 3,
+        "105": 2,
+        "106": 3,
+        "107": 3,
+        "109": 3,
+        "110": 2,
+        "111": 2,
+        "113": 1,
+        "114": 5,
+        "117": 1,
+        "118": 2,
+        "119": 4,
+        "120": 3,
+        "121": 3,
+        "122": 1,
+        "123": 1,
+        "125": 3,
+        "126": 1,
+        "127": 1,
+        "133": 1,
+        "136": 2
+      },
+      "first_safe_depth_histogram": {},
+      "length": 144,
+      "n": 72,
+      "orders_with_collision": 348,
+      "orders_with_safe_prefix": 0,
+      "remaining_component_shape_histogram": {
+        "(70, 2)": 8,
+        "(71, 1)": 343
+      },
+      "safe_prefixes": 0,
+      "seed": 2810087,
+      "selected_topology_histogram": {
+        "(1, False)": 69,
+        "(10, False)": 1,
+        "(10, True)": 3,
+        "(11, True)": 4,
+        "(12, False)": 1,
+        "(12, True)": 10,
+        "(13, True)": 11,
+        "(14, True)": 7,
+        "(15, False)": 1,
+        "(15, True)": 9,
+        "(16, True)": 5,
+        "(17, True)": 3,
+        "(18, True)": 3,
+        "(19, True)": 7,
+        "(2, False)": 27,
+        "(20, True)": 3,
+        "(21, True)": 1,
+        "(22, True)": 7,
+        "(23, True)": 2,
+        "(24, True)": 3,
+        "(25, True)": 3,
+        "(26, True)": 2,
+        "(27, True)": 4,
+        "(28, True)": 2,
+        "(29, True)": 4,
+        "(3, False)": 19,
+        "(3, True)": 3,
+        "(30, True)": 3,
+        "(31, True)": 2,
+        "(32, True)": 2,
+        "(33, True)": 2,
+        "(34, True)": 6,
+        "(35, True)": 4,
+        "(36, True)": 3,
+        "(37, True)": 3,
+        "(38, True)": 2,
+        "(39, True)": 1,
+        "(4, False)": 12,
+        "(4, True)": 4,
+        "(40, True)": 3,
+        "(42, True)": 4,
+        "(45, True)": 6,
+        "(48, True)": 1,
+        "(49, True)": 2,
+        "(5, False)": 7,
+        "(5, True)": 8,
+        "(50, True)": 4,
+        "(51, True)": 3,
+        "(52, True)": 3,
+        "(54, True)": 2,
+        "(56, True)": 3,
+        "(57, True)": 1,
+        "(58, True)": 1,
+        "(6, False)": 9,
+        "(6, True)": 5,
+        "(64, True)": 1,
+        "(67, True)": 2,
+        "(7, False)": 5,
+        "(7, True)": 3,
+        "(8, False)": 4,
+        "(8, True)": 7,
+        "(9, False)": 1,
+        "(9, True)": 8
+      },
+      "trials": 10000
+    }
+  ],
+  "scope_warning": "Fixed-seed Monte Carlo is empirical. Zero observed safe prefixes is neither a zero-row proof nor an asymptotic probability upper bound."
+}

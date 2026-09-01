@@ -1,0 +1,56 @@
+{
+  "independent_incidence": {
+    "deduplicated_target_classes": 54,
+    "m181_patterns": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "m181_voltage_basis": [
+      [
+        0,
+        1
+      ]
+    ],
+    "normalized_color_rows": 35,
+    "root_edge_rows": 70,
+    "root_pair_rows": 175,
+    "rooted_descriptors": 10,
+    "uncovered": 0,
+    "v_stab_equals_w2": true
+  },
+  "logic_audit": {
+    "arbitrary_color_selects_one_of_25_pairs_per_edit": true,
+    "full_voltage_plus_quotient_reachability_invokes_m175_affine_criterion": true,
+    "pair_coverage_is_simultaneous_not_coordinatewise": true,
+    "zero_voltage_endpoint_route_conclusion": "qualitative existence only"
+  },
+  "m196_results_sha256": "e40c220ea10798b82d7225cbde54daec751f25e581028c926e2a11ba3e33a4b2",
+  "m200_incidence_table_sha256": "48b37502a45be316efe39728cee5cb3125c4cc3196b547cf3e90c923e87187f1",
+  "m200_manifest_sha256": "6561e28aa199fc1d463881f399f116bd3c05222d6d26e9f54992ff1b542f2045",
+  "numbered_objections": [],
+  "q5": {
+    "action_rows_exact_match": true,
+    "signed_inverse_pairs": true,
+    "source_ids": [
+      16,
+      0
+    ],
+    "states": 8400
+  },
+  "q5_action_file_sha256": "d24bfdf3d7c21c1bc4a4313fa83217e766a3e4186e8b1b2b2340f5dc1d8f043c",
+  "q5_action_packed_sha256": "160bcae167e754af4ff55356a2ab25526bf53d03ebc23bd974938fb8370c67ae",
+  "route_replay": {
+    "all_replayed": true,
+    "certificates": 54,
+    "corrected_total_length_claim": null,
+    "maximum_quotient_certificate_length": 22,
+    "quotient_words_asserted_zero_voltage": false,
+    "voltage_correction_length_claim": null
+  },
+  "scope": "exact finite d=5 M181 width-two matching colors only; no all-d, arbitrary-subfamily, polynomial-length, gap, mixing, or Terminal inference",
+  "verdict": "ACCEPT"
+}

@@ -1,0 +1,121 @@
+{
+  "finite_only": true,
+  "imports_m199_code_or_data": false,
+  "method": "independent completion-ratio and literal-face audit",
+  "mission": "M207",
+  "parameters": {
+    "k": [
+      3,
+      5
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "B_disjoint_kind_strata": {
+        "cross/cross": 6,
+        "cross/same": 4,
+        "same/cross": 4,
+        "same/same": 6
+      },
+      "boundary_domain_edits": [
+        {
+          "long_deleted_per_start": 2,
+          "long_paired_per_start": 1,
+          "s": 1,
+          "short_added_per_start": 0,
+          "short_paired_per_start": 0
+        }
+      ],
+      "collision_events_retained": {
+        "A": 10,
+        "B": 4
+      },
+      "conditional_disjoint_mass": {
+        "A": {
+          "1": "2/3"
+        },
+        "B": {
+          "1": "1/2",
+          "2": "2/9"
+        }
+      },
+      "conditional_shared_mass": {
+        "A": {
+          "1": "1/3"
+        },
+        "B": {
+          "1": "1/2",
+          "2": "7/9"
+        }
+      },
+      "exact_assertions": 49,
+      "k": 3
+    },
+    {
+      "B_disjoint_kind_strata": {
+        "cross/cross": 120,
+        "cross/same": 120,
+        "same/cross": 120,
+        "same/same": 144
+      },
+      "boundary_domain_edits": [
+        {
+          "long_deleted_per_start": 6,
+          "long_paired_per_start": 15,
+          "s": 1,
+          "short_added_per_start": 0,
+          "short_paired_per_start": 0
+        },
+        {
+          "long_deleted_per_start": 5,
+          "long_paired_per_start": 10,
+          "s": 2,
+          "short_added_per_start": 1,
+          "short_paired_per_start": 0
+        },
+        {
+          "long_deleted_per_start": 4,
+          "long_paired_per_start": 6,
+          "s": 3,
+          "short_added_per_start": 2,
+          "short_paired_per_start": 1
+        }
+      ],
+      "collision_events_retained": {
+        "A": 72,
+        "B": 60
+      },
+      "conditional_disjoint_mass": {
+        "A": {
+          "1": "11/14",
+          "2": "2/3"
+        },
+        "B": {
+          "1": "3/4",
+          "2": "30/49",
+          "3": "4/7",
+          "4": "39/70"
+        }
+      },
+      "conditional_shared_mass": {
+        "A": {
+          "1": "3/14",
+          "2": "1/3"
+        },
+        "B": {
+          "1": "1/4",
+          "2": "19/49",
+          "3": "3/7",
+          "4": "31/70"
+        }
+      },
+      "exact_assertions": 600,
+      "k": 5
+    }
+  ],
+  "standard_library_only": true,
+  "status": "all exact k=3,5 referee assertions passed",
+  "universal_inference": false
+}

@@ -1,0 +1,37 @@
+{
+  "assertions": {
+    "d1_3over4_positive": true,
+    "d20_refutes_2over3": true,
+    "d50_confirms_obstruction": true,
+    "killed_a_equals_d_not_called": true,
+    "named_trace_exceeds_one": true
+  },
+  "matrix_rows": {
+    "d1_a0_det_3over4": "39/2240",
+    "d20_a0_det_2over3": "-1731224299/244943654967",
+    "d50_a0_det_2over3": "-104272204769339/7259860744068816"
+  },
+  "python": "standard-library Fraction",
+  "schema": "M185-h3-exact-v1",
+  "seed": null,
+  "trace_rows": {
+    "B1_d1_a0": {
+      "height_one": "0",
+      "reset": "163/1536",
+      "total": "2957/23040",
+      "unary_weighted": "1/30"
+    },
+    "B2_d1_a0": {
+      "height_one": "16/135",
+      "reset": "193127/843750",
+      "total": "122593637/216000000",
+      "unary_weighted": "15217/46080"
+    },
+    "B3_d20_a19": {
+      "height_one": "511/14400",
+      "reset": "24302327/19673280",
+      "total": "10249528643/7684875000",
+      "unary_weighted": "3257413/34500000"
+    }
+  }
+}

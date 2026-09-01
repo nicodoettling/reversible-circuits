@@ -1,0 +1,181 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "N": 4,
+  "length": 4,
+  "endpoint": "identity",
+  "support_size": 12,
+  "weighted_product_bridge_state_count": 1728,
+  "weighted_raw_bridge_mass": 140160,
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsified_if_witness": "all disjoint complete-pair bridge heat-bath projections commute",
+  "scope_warning": "This exact product-sector witness proves failure for the raw bridge, but says nothing by itself about an asymptotic spectral gap.",
+  "support": [
+    {
+      "index": 0,
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "raw_lift_weight": 6
+    },
+    {
+      "index": 1,
+      "permutation": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 2,
+      "permutation": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 3,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "raw_lift_weight": 2
+    },
+    {
+      "index": 4,
+      "permutation": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 5,
+      "permutation": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 6,
+      "permutation": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 7,
+      "permutation": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 8,
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "raw_lift_weight": 2
+    },
+    {
+      "index": 9,
+      "permutation": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 10,
+      "permutation": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "raw_lift_weight": 3
+    },
+    {
+      "index": 11,
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "raw_lift_weight": 2
+    }
+  ],
+  "tests": [
+    {
+      "label": "separated_complementary_pairs",
+      "b_zero_based": [
+        0,
+        1
+      ],
+      "c_zero_based": [
+        2,
+        3
+      ],
+      "witness": null
+    },
+    {
+      "label": "crossing_complementary_pairs",
+      "b_zero_based": [
+        0,
+        2
+      ],
+      "c_zero_based": [
+        1,
+        3
+      ],
+      "witness": {
+        "source_index": 0,
+        "target_index": 182,
+        "source": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "target": [
+          1,
+          3,
+          2,
+          8
+        ],
+        "P_b_then_P_c": "1/400",
+        "P_c_then_P_b": "0",
+        "difference": "1/400"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "all_checks_pass": true,
+  "imports": false,
+  "method": "clean-room no-import exact rational formulas",
+  "mission": "M222",
+  "parameters": {
+    "k": [3, 5],
+    "seed": null
+  },
+  "results": [
+    {
+      "Y_DE_by_l": [[2, "-8/45"], [3, "-1/9"], [4, "11/90"]],
+      "all_exact_identities": true,
+      "k": 3,
+      "sum_q": "1",
+      "sum_qhat": "2/3"
+    },
+    {
+      "Y_DE_by_l": [
+        [2, "100569517/3687936000"],
+        [3, "-81079469/3687936000"],
+        [4, "-1471428533/11063808000"],
+        [5, "-1183879093/11063808000"],
+        [6, "56766631/5531904000"],
+        [7, "572160271/5531904000"]
+      ],
+      "all_exact_identities": true,
+      "k": 5,
+      "sum_q": "1",
+      "sum_qhat": "26/35"
+    }
+  ],
+  "universal_inference": false
+}

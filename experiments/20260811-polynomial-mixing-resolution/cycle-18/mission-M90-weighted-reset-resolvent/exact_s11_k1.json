@@ -1,0 +1,133 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped Cayley recurrence",
+  "claim_tested": "right-heavy K_reset W <= W",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 0.2705392837524414,
+  "finite_scope_warning": "Exact bounded survival proves no universal inequality.",
+  "normalization": "g=q*(I-D)^-1*J_can*W; transformed deep coefficient=rho*nu; transformed reset coefficient=(theta^2/Q)*(1-q_child)",
+  "parameters": {
+    "K_values": [
+      1
+    ],
+    "s_values": [
+      8,
+      11
+    ]
+  },
+  "python": "3.12.3",
+  "result": {
+    "deep_terms_visited": 4750,
+    "failure_count": 0,
+    "first_failures": [],
+    "memoized_contexts": 642,
+    "overall_worst": {
+      "context": [
+        11,
+        1,
+        0,
+        5
+      ],
+      "margin_target_minus_value": {
+        "decimal": 0.03328984103964508,
+        "denominator": "9485340012944434909508091387422651388722453355810756388978171261747200000",
+        "numerator": "315765461237905210401957338750214768583053117546255862323165090122752277"
+      },
+      "q": {
+        "decimal": 0.07837900257580577,
+        "denominator": "10319560704",
+        "numerator": "808836875"
+      },
+      "ratio": {
+        "decimal": 0.5391499615007582,
+        "denominator": "685180503111588118552571661898695660247555243568148903962345472000000000",
+        "numerator": "369415041873682908150614323148480891664502126021893041639180381877247723"
+      },
+      "target_variance": {
+        "decimal": 0.0722357345310276,
+        "denominator": "106493333123540975616",
+        "numerator": "7692624140836394375"
+      },
+      "transformed_value": {
+        "decimal": 0.03894589349138253,
+        "denominator": "9485340012944434909508091387422651388722453355810756388978171261747200000",
+        "numerator": "369415041873682908150614323148480891664502126021893041639180381877247723"
+      }
+    },
+    "rank_worst_rows": [
+      {
+        "s": 8,
+        "worst": {
+          "context": [
+            8,
+            1,
+            0,
+            4
+          ],
+          "margin_target_minus_value": {
+            "decimal": 0.05818394787547838,
+            "denominator": "4394821899212095559174408182616064000000",
+            "numerator": "255708088305767461231332541082152004983"
+          },
+          "q": {
+            "decimal": 0.11708208855211062,
+            "denominator": "4782969",
+            "numerator": "560000"
+          },
+          "ratio": {
+            "decimal": 0.43715035400213015,
+            "denominator": "454309761272791522761187983360000000000",
+            "numerator": "198601672967024061529855442277847995017"
+          },
+          "target_variance": {
+            "decimal": 0.10337387309238635,
+            "denominator": "22876792454961",
+            "numerator": "2364862640000"
+          },
+          "transformed_value": {
+            "decimal": 0.04518992521690797,
+            "denominator": "4394821899212095559174408182616064000000",
+            "numerator": "198601672967024061529855442277847995017"
+          }
+        }
+      },
+      {
+        "s": 11,
+        "worst": {
+          "context": [
+            11,
+            1,
+            0,
+            5
+          ],
+          "margin_target_minus_value": {
+            "decimal": 0.03328984103964508,
+            "denominator": "9485340012944434909508091387422651388722453355810756388978171261747200000",
+            "numerator": "315765461237905210401957338750214768583053117546255862323165090122752277"
+          },
+          "q": {
+            "decimal": 0.07837900257580577,
+            "denominator": "10319560704",
+            "numerator": "808836875"
+          },
+          "ratio": {
+            "decimal": 0.5391499615007582,
+            "denominator": "685180503111588118552571661898695660247555243568148903962345472000000000",
+            "numerator": "369415041873682908150614323148480891664502126021893041639180381877247723"
+          },
+          "target_variance": {
+            "decimal": 0.0722357345310276,
+            "denominator": "106493333123540975616",
+            "numerator": "7692624140836394375"
+          },
+          "transformed_value": {
+            "decimal": 0.03894589349138253,
+            "denominator": "9485340012944434909508091387422651388722453355810756388978171261747200000",
+            "numerator": "369415041873682908150614323148480891664502126021893041639180381877247723"
+          }
+        }
+      }
+    ]
+  },
+  "seed": null,
+  "strict_phase": "P=s+K-R decreases on every retained deep child"
+}

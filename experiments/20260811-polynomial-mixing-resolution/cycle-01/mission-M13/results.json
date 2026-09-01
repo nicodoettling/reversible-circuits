@@ -1,0 +1,1436 @@
+{
+  "cases": [
+    {
+      "M": 3,
+      "N": 3,
+      "R_m": [
+        3,
+        4
+      ],
+      "candidate_cut_flows": [
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "cut": "midpoint_distance_le_0",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "size_A": 6,
+          "size_Ac": 18,
+          "stationary_boundary_flow": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "cut": "max_prefix_distance_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "size_A": 6,
+          "size_Ac": 18,
+          "stationary_boundary_flow": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.2222222222222222,
+            "exact": "2/9"
+          },
+          "cut": "distinct_edges_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "size_A": 12,
+          "size_Ac": 12,
+          "stationary_boundary_flow": {
+            "decimal": 0.1111111111111111,
+            "exact": "1/9"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.2222222222222222,
+            "exact": "2/9"
+          },
+          "cut": "adjacent_repeats_le_0",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "size_A": 12,
+          "size_Ac": 12,
+          "stationary_boundary_flow": {
+            "decimal": 0.1111111111111111,
+            "exact": "1/9"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "cut": "adjacent_repeats_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.75,
+            "exact": "3/4"
+          },
+          "size_A": 18,
+          "size_Ac": 6,
+          "stationary_boundary_flow": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "cut": "aligned_doubled_tree",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "size_A": 6,
+          "size_Ac": 18,
+          "stationary_boundary_flow": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.3333333333333333,
+            "exact": "1/3"
+          },
+          "cut": "mountain",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.4444444444444444,
+            "exact": "4/9"
+          },
+          "pi_A": {
+            "decimal": 0.75,
+            "exact": "3/4"
+          },
+          "size_A": 18,
+          "size_Ac": 6,
+          "stationary_boundary_flow": {
+            "decimal": 0.08333333333333333,
+            "exact": "1/12"
+          }
+        }
+      ],
+      "conditional_fiber_sizes": {
+        "3": {
+          "maximum": 9,
+          "minimum": 9,
+          "prefix_bound_M_power_r_minus_1": 9,
+          "product_count": 3
+        },
+        "4": {
+          "maximum": 27,
+          "minimum": 27,
+          "prefix_bound_M_power_r_minus_1": 27,
+          "product_count": 3
+        }
+      },
+      "crossing_window_counts": {
+        "3": 2,
+        "4": 1
+      },
+      "explicit_one_step_witnesses": {
+        "distinct_edge_count_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 3,
+            "edge_parity": [
+              0,
+              2
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 2,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 2,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 2,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 0,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.013888888888888888,
+            "exact": "1/72"
+          },
+          "window_start_1_based": 1
+        },
+        "edge_multiplicity_parity_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 3,
+            "edge_parity": [
+              0,
+              2
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 2,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 2,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 2,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 0,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.013888888888888888,
+            "exact": "1/72"
+          },
+          "window_start_1_based": 1
+        },
+        "leaves_aligned_doubled_tree": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 3,
+            "edge_parity": [
+              0,
+              2
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 2,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 2,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 2,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 0,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.013888888888888888,
+            "exact": "1/72"
+          },
+          "window_start_1_based": 1
+        },
+        "midpoint_distance_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 3,
+            "edge_parity": [
+              0,
+              2
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 2,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 2,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 2,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 0,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.013888888888888888,
+            "exact": "1/72"
+          },
+          "window_start_1_based": 1
+        },
+        "vertex_degree_parity_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 3,
+            "edge_parity": [
+              0,
+              2
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 2,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 2,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 2,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 0,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.013888888888888888,
+            "exact": "1/72"
+          },
+          "window_start_1_based": 1
+        }
+      },
+      "full_support_words": 24,
+      "identity_words": 27,
+      "m": 4,
+      "mean_lift_stress_test": {
+        "distinct_exit_probabilities": 1,
+        "exit_probability_distribution": {
+          "1/18": 24
+        },
+        "exit_probability_variance": {
+          "decimal": 0.0,
+          "exact": "0/1"
+        },
+        "full_support_mass": {
+          "decimal": 0.8888888888888888,
+          "exact": "8/9"
+        },
+        "function": "f=1_full+theta*(mean_full_exit-exit_probability) on full support; f=0 otherwise",
+        "interpretation": "A ratio above one rigorously refutes only the naive q_lift=1 inequality. It does not refute the requested polynomial-factor mean-lift bound.",
+        "mean_exit_probability": {
+          "decimal": 0.05555555555555555,
+          "exact": "1/18"
+        },
+        "optimal_theta": {
+          "decimal": 0.0,
+          "exact": "0/1"
+        },
+        "optimized_full_energy_scaled_by_identity_word_count": {
+          "decimal": 1.3333333333333333,
+          "exact": "4/3"
+        },
+        "projected_energy_scaled_by_identity_word_count": {
+          "decimal": 1.3333333333333333,
+          "exact": "4/3"
+        },
+        "projected_to_full_energy_ratio": {
+          "decimal": 1.0,
+          "exact": "1/1"
+        }
+      },
+      "prefix_cut_1_based": 2,
+      "prefix_locality_transition_checks": 1080,
+      "prefix_locality_violations": 0,
+      "selected_crossing_probability": {
+        "decimal": 0.5,
+        "exact": "1/2"
+      },
+      "selected_first_position_refresh_probability": {
+        "decimal": 0.375,
+        "exact": "3/8"
+      },
+      "statistic_distributions": {
+        "adjacent_repeats": {
+          "0": 12,
+          "1": 6,
+          "2": 6
+        },
+        "aligned_doubled_tree": {
+          "false": 18,
+          "true": 6
+        },
+        "distinct_edges": {
+          "2": 12,
+          "3": 12
+        },
+        "max_prefix_distance": {
+          "1": 6,
+          "2": 18
+        },
+        "midpoint_distance": {
+          "0": 6,
+          "2": 18
+        },
+        "mountain": {
+          "false": 6,
+          "true": 18
+        }
+      }
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "R_m": [
+        3,
+        4
+      ],
+      "full_support_words": 0,
+      "identity_words": 120,
+      "m": 4,
+      "note": "The all-label connected-support fiber is empty by m < 2(N-1)."
+    },
+    {
+      "M": 6,
+      "N": 4,
+      "R_m": [
+        3,
+        4,
+        5
+      ],
+      "candidate_cut_flows": [
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.15644721837557204,
+            "exact": "2017283/12894336"
+          },
+          "cut": "midpoint_distance_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.29333853445419755,
+            "exact": "10086415/34384896"
+          },
+          "pi_A": {
+            "decimal": 0.4666666666666667,
+            "exact": "7/15"
+          },
+          "size_A": 1344,
+          "size_Ac": 1536,
+          "stationary_boundary_flow": {
+            "decimal": 0.07300870190860029,
+            "exact": "2017283/27630720"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.27600583698144676,
+            "exact": "1324/4797"
+          },
+          "cut": "max_prefix_distance_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2855232796359794,
+            "exact": "13240/46371"
+          },
+          "pi_A": {
+            "decimal": 0.03333333333333333,
+            "exact": "1/30"
+          },
+          "size_A": 96,
+          "size_Ac": 2784,
+          "stationary_boundary_flow": {
+            "decimal": 0.009200194566048224,
+            "exact": "662/71955"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.15644721837557204,
+            "exact": "2017283/12894336"
+          },
+          "cut": "max_prefix_distance_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.29333853445419755,
+            "exact": "10086415/34384896"
+          },
+          "pi_A": {
+            "decimal": 0.4666666666666667,
+            "exact": "7/15"
+          },
+          "size_A": 1344,
+          "size_Ac": 1536,
+          "stationary_boundary_flow": {
+            "decimal": 0.07300870190860029,
+            "exact": "2017283/27630720"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.24718535133247455,
+            "exact": "4439441/17959968"
+          },
+          "cut": "distinct_edges_le_3",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.31555576765847815,
+            "exact": "22197205/70343208"
+          },
+          "pi_A": {
+            "decimal": 0.21666666666666667,
+            "exact": "13/60"
+          },
+          "size_A": 624,
+          "size_Ac": 2256,
+          "stationary_boundary_flow": {
+            "decimal": 0.05355682612203615,
+            "exact": "4439441/82892160"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.25044662000962814,
+            "exact": "64010189/255584160"
+          },
+          "cut": "distinct_edges_le_4",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.3620914988091009,
+            "exact": "64010189/176779044"
+          },
+          "pi_A": {
+            "decimal": 0.6916666666666667,
+            "exact": "83/120"
+          },
+          "size_A": 1992,
+          "size_Ac": 888,
+          "stationary_boundary_flow": {
+            "decimal": 0.07722104116963534,
+            "exact": "64010189/828921600"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.39518912283139923,
+            "exact": "34123/86346"
+          },
+          "cut": "distinct_edges_le_5",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.40881633396351647,
+            "exact": "170615/417339"
+          },
+          "pi_A": {
+            "decimal": 0.9666666666666667,
+            "exact": "29/30"
+          },
+          "size_A": 2784,
+          "size_Ac": 96,
+          "stationary_boundary_flow": {
+            "decimal": 0.013172970761046641,
+            "exact": "34123/2590380"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.17612236209289056,
+            "exact": "133825661/759844800"
+          },
+          "cut": "adjacent_repeats_le_0",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.32514897617149024,
+            "exact": "133825661/411582600"
+          },
+          "pi_A": {
+            "decimal": 0.5416666666666666,
+            "exact": "13/24"
+          },
+          "size_A": 1560,
+          "size_Ac": 1320,
+          "stationary_boundary_flow": {
+            "decimal": 0.08072274929257484,
+            "exact": "133825661/1657843200"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.25852447927524147,
+            "exact": "952429/3684096"
+          },
+          "cut": "adjacent_repeats_le_1",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.29829747608681706,
+            "exact": "4762145/15964416"
+          },
+          "pi_A": {
+            "decimal": 0.8666666666666667,
+            "exact": "13/15"
+          },
+          "size_A": 2496,
+          "size_Ac": 384,
+          "stationary_boundary_flow": {
+            "decimal": 0.0344699305700322,
+            "exact": "952429/27630720"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.27600583698144676,
+            "exact": "1324/4797"
+          },
+          "cut": "adjacent_repeats_le_2",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2855232796359794,
+            "exact": "13240/46371"
+          },
+          "pi_A": {
+            "decimal": 0.9666666666666667,
+            "exact": "29/30"
+          },
+          "size_A": 2784,
+          "size_Ac": 96,
+          "stationary_boundary_flow": {
+            "decimal": 0.009200194566048224,
+            "exact": "662/71955"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.27600583698144676,
+            "exact": "1324/4797"
+          },
+          "cut": "aligned_doubled_tree",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.2855232796359794,
+            "exact": "13240/46371"
+          },
+          "pi_A": {
+            "decimal": 0.03333333333333333,
+            "exact": "1/30"
+          },
+          "size_A": 96,
+          "size_Ac": 2784,
+          "stationary_boundary_flow": {
+            "decimal": 0.009200194566048224,
+            "exact": "662/71955"
+          }
+        },
+        {
+          "conductance_using_smaller_side": {
+            "decimal": 0.15644721837557204,
+            "exact": "2017283/12894336"
+          },
+          "cut": "mountain",
+          "indicator_rayleigh_quotient": {
+            "decimal": 0.29333853445419755,
+            "exact": "10086415/34384896"
+          },
+          "pi_A": {
+            "decimal": 0.5333333333333333,
+            "exact": "8/15"
+          },
+          "size_A": 1536,
+          "size_Ac": 1344,
+          "stationary_boundary_flow": {
+            "decimal": 0.07300870190860029,
+            "exact": "2017283/27630720"
+          }
+        }
+      ],
+      "conditional_fiber_sizes": {
+        "3": {
+          "maximum": 20,
+          "minimum": 16,
+          "prefix_bound_M_power_r_minus_1": 36,
+          "product_count": 12
+        },
+        "4": {
+          "maximum": 120,
+          "minimum": 104,
+          "prefix_bound_M_power_r_minus_1": 216,
+          "product_count": 12
+        },
+        "5": {
+          "maximum": 656,
+          "minimum": 640,
+          "prefix_bound_M_power_r_minus_1": 1296,
+          "product_count": 12
+        }
+      },
+      "crossing_window_counts": {
+        "3": 2,
+        "4": 3,
+        "5": 2
+      },
+      "explicit_one_step_witnesses": {
+        "distinct_edge_count_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 1,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 4,
+            "edge_parity": [
+              0,
+              3
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 3,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 3,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.0020833333333333333,
+            "exact": "1/480"
+          },
+          "window_start_1_based": 1
+        },
+        "edge_multiplicity_parity_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 1,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 4,
+            "edge_parity": [
+              0,
+              3
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 3,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 3,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.0020833333333333333,
+            "exact": "1/480"
+          },
+          "window_start_1_based": 1
+        },
+        "leaves_aligned_doubled_tree": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 1,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 4,
+            "edge_parity": [
+              0,
+              3
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 3,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 3,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.0020833333333333333,
+            "exact": "1/480"
+          },
+          "window_start_1_based": 1
+        },
+        "midpoint_distance_changes": {
+          "block_length": 4,
+          "new_stat": {
+            "adjacent_repeats": 0,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              2,
+              3
+            ],
+            "distinct_edges": 5,
+            "edge_parity": [
+              0,
+              1,
+              3,
+              5
+            ],
+            "max_prefix_distance": 3,
+            "midpoint_distance": 3,
+            "mountain": true
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 3,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 3,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.00051440329218107,
+            "exact": "1/1944"
+          },
+          "window_start_1_based": 2
+        },
+        "vertex_degree_parity_changes": {
+          "block_length": 3,
+          "new_stat": {
+            "adjacent_repeats": 1,
+            "aligned_doubled_tree": false,
+            "degree_parity": [
+              0,
+              2
+            ],
+            "distinct_edges": 4,
+            "edge_parity": [
+              0,
+              3
+            ],
+            "max_prefix_distance": 2,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "new_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "old_stat": {
+            "adjacent_repeats": 3,
+            "aligned_doubled_tree": true,
+            "degree_parity": [],
+            "distinct_edges": 3,
+            "edge_parity": [],
+            "max_prefix_distance": 1,
+            "midpoint_distance": 1,
+            "mountain": false
+          },
+          "old_word": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "single_option_probability_contribution": {
+            "decimal": 0.0020833333333333333,
+            "exact": "1/480"
+          },
+          "window_start_1_based": 1
+        }
+      },
+      "full_support_words": 2880,
+      "identity_words": 3936,
+      "m": 6,
+      "mean_lift_stress_test": {
+        "distinct_exit_probabilities": 25,
+        "exit_probability_distribution": {
+          "10553/59040": 48,
+          "1207/15990": 96,
+          "1219/9840": 240,
+          "14617/127920": 96,
+          "15683/127920": 96,
+          "2069/19680": 288,
+          "24437/255840": 192,
+          "2587/14760": 48,
+          "26569/255840": 96,
+          "2807/19680": 192,
+          "349/1845": 24,
+          "4067/29520": 144,
+          "4313/29520": 96,
+          "4687/47970": 24,
+          "491/6396": 336,
+          "52379/383760": 192,
+          "55577/383760": 48,
+          "60907/383760": 24,
+          "791/10660": 24,
+          "85/984": 144,
+          "859/12792": 48,
+          "8747/85280": 48,
+          "90367/767520": 96,
+          "9241/59040": 192,
+          "96763/767520": 48
+        },
+        "exit_probability_variance": {
+          "decimal": 0.0008275315338349526,
+          "exact": "2718739/3285360000"
+        },
+        "full_support_mass": {
+          "decimal": 0.7317073170731707,
+          "exact": "30/41"
+        },
+        "function": "f=1_full+theta*(mean_full_exit-exit_probability) on full support; f=0 otherwise",
+        "interpretation": "A ratio above one rigorously refutes only the naive q_lift=1 inequality. It does not refute the requested polynomial-factor mean-lift bound.",
+        "mean_exit_probability": {
+          "decimal": 0.11665454971857411,
+          "exact": "99483/852800"
+        },
+        "optimal_theta": {
+          "decimal": 2.4302344727991256,
+          "exact": "146577006950400/60313936202861"
+        },
+        "optimized_full_energy_scaled_by_identity_word_count": {
+          "decimal": 330.1731476862338,
+          "exact": "816475728783257655/2472871384317301"
+        },
+        "projected_energy_scaled_by_identity_word_count": {
+          "decimal": 335.96510318949345,
+          "exact": "895347/2665"
+        },
+        "projected_to_full_energy_ratio": {
+          "decimal": 1.017542176109257,
+          "exact": "18000633945807662589/17690307456970582525"
+        }
+      },
+      "prefix_cut_1_based": 3,
+      "prefix_locality_transition_checks": 4923552,
+      "prefix_locality_violations": 0,
+      "selected_crossing_probability": {
+        "decimal": 0.4166666666666667,
+        "exact": "5/12"
+      },
+      "selected_first_position_refresh_probability": {
+        "decimal": 0.18055555555555555,
+        "exact": "13/72"
+      },
+      "statistic_distributions": {
+        "adjacent_repeats": {
+          "0": 1560,
+          "1": 936,
+          "2": 288,
+          "3": 96
+        },
+        "aligned_doubled_tree": {
+          "false": 2784,
+          "true": 96
+        },
+        "distinct_edges": {
+          "3": 624,
+          "4": 1368,
+          "5": 792,
+          "6": 96
+        },
+        "max_prefix_distance": {
+          "1": 96,
+          "2": 1248,
+          "3": 1536
+        },
+        "midpoint_distance": {
+          "1": 1344,
+          "3": 1536
+        },
+        "mountain": {
+          "false": 1344,
+          "true": 1536
+        }
+      }
+    }
+  ],
+  "kernel": "exact lazy {3,4,5} same-product heat bath with GOAL_SPEC normalization",
+  "nonstandard_dependencies": [],
+  "permutation_convention": "pq=p after q; word=t_1...t_m",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "purpose": "Exact falsification of named M13 full-support candidate statistics; no asymptotic inference.",
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": 130013,
+  "stochastic": false,
+  "target": "uniform fixed-length identity bridge, restricted to all-label connected support for cut tests"
+}

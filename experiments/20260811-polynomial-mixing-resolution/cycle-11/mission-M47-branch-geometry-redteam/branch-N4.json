@@ -1,0 +1,214 @@
+{
+  "argv": [
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/branch_geometry_falsifier.py",
+    "--N",
+    "4",
+    "--output",
+    "experiments/20260811-polynomial-mixing-resolution/cycle-11/mission-M47-branch-geometry-redteam/branch-N4.json"
+  ],
+  "claims_tested": [
+    "Branch-statistic layers are universally unimodal/log-concave.",
+    "Every path join-tree state has an adjacent Hurwitz exit from the path cut.",
+    "Every path join-tree state has a tree leaf occurring in exactly two factors.",
+    "Every perfect-balanced-edge state has an adjacent Hurwitz exit from that cut."
+  ],
+  "convention": "(pq)(x)=p(q(x)); word product left-to-right; R(a,b)=(b,bab)",
+  "purpose": "Exact finite falsifier only; finite passes imply no asymptotic theorem.",
+  "python": "3.12.3",
+  "result": {
+    "N": 4,
+    "balanced_edge_cut": {
+      "conditional_mass_in_F": 0.7416666666666667,
+      "first_zero_exit_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "minimum_oriented_Hurwitz_exits": 0,
+      "states": 2136
+    },
+    "elapsed_seconds": 0.025749683380126953,
+    "expected_orbit_size": 2880,
+    "layers": {
+      "centroid_balance": {
+        "counts": [
+          744,
+          2136
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2
+        ],
+        "unimodal": true
+      },
+      "diameter": {
+        "counts": [
+          744,
+          2136
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3
+        ],
+        "unimodal": true
+      },
+      "edge_balance": {
+        "counts": [
+          744,
+          2136
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2
+        ],
+        "unimodal": true
+      },
+      "leaf_count": {
+        "counts": [
+          2136,
+          744
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3
+        ],
+        "unimodal": true
+      },
+      "max_degree": {
+        "counts": [
+          2136,
+          744
+        ],
+        "log_concave": true,
+        "support": [
+          2,
+          3
+        ],
+        "unimodal": true
+      },
+      "root0_max_branch": {
+        "counts": [
+          186,
+          1068,
+          1626
+        ],
+        "log_concave": true,
+        "support": [
+          1,
+          2,
+          3
+        ],
+        "unimodal": true
+      }
+    },
+    "m": 6,
+    "number_labeled_join_trees": 16,
+    "orbit_size": 2880,
+    "path_cut": {
+      "conditional_mass_in_F": 0.7416666666666667,
+      "first_witness_with_no_degree2_tree_leaf": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "first_zero_exit_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "minimum_leaf_occurrence_distribution": {
+        "2": 1896,
+        "3": 240
+      },
+      "minimum_oriented_Hurwitz_exits": 0,
+      "states": 2136
+    },
+    "tree_fiber_weight_max": 186,
+    "tree_fiber_weight_min": 178,
+    "tree_fiber_weight_ratio": 1.0449438202247192,
+    "weights_grouped_by_coarse_shape": {
+      "(2, 3, 3)": {
+        "distinct": [
+          186
+        ],
+        "max": 186,
+        "min": 186
+      },
+      "(3, 2, 2)": {
+        "distinct": [
+          178
+        ],
+        "max": 178,
+        "min": 178
+      }
+    }
+  },
+  "seed": null
+}

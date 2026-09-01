@@ -1,0 +1,80 @@
+{
+  "atom": [
+    "1",
+    "5/6",
+    "2/3",
+    "1/2",
+    "1/3",
+    "1/6",
+    "0"
+  ],
+  "certificates": {
+    "1": {
+      "dual_extension_last_pivot": "25/747",
+      "dual_full_ldl_pivots": [
+        "433/10192",
+        "100/4763",
+        "478393499063/446345900000000",
+        "146578076991996360023/107746175826464175000000",
+        "1774449641877241678819703/3950279174934301902619850000",
+        "397009562865787636388448576/2061688677656120175578642423125",
+        "25/747"
+      ],
+      "dual_matrix_sha256": "73f302213b3de78b2da2b4bba7968d59c2fab0aa93a2f6548be13ac02ec4f6d6",
+      "dual_objective": "60650731/180180000",
+      "dual_on_band": true,
+      "primal_active_slack_ldl_pivots": [
+        "9731/10000",
+        "253/2335440",
+        "946509/2530000",
+        "3758291/378603600",
+        "30808771/37582910000",
+        "2397701/44012530000"
+      ],
+      "primal_objective": "1136822741/3363360000",
+      "primal_zero_extension": true
+    },
+    "2": {
+      "dual_extension_last_pivot": "97/3564",
+      "dual_full_ldl_pivots": [
+        "433/10192",
+        "100/4763",
+        "97/12100",
+        "8000756693/71002181250000",
+        "5857714693874697183/55798514794032948437500",
+        "1780018672270340745295529/2052250342999000158064050000000",
+        "97/3564"
+      ],
+      "dual_matrix_sha256": "4d70d7645a7f74443a2c7c575279cfc065e794512bc588323607b5b8ebdb7190",
+      "dual_objective": "167478197/630630000",
+      "dual_on_band": true,
+      "primal_active_slack_ldl_pivots": [
+        "5391/10000",
+        "571743947/485190000",
+        "427619287063/1143487894000",
+        "6274564933193/1336310272071875",
+        "657401275019469/1003930389310880000",
+        "9621597299447/139872611706270000"
+      ],
+      "primal_objective": "894863807/3363360000",
+      "primal_zero_extension": true
+    }
+  },
+  "generic_rank_one_elevation_checked": true,
+  "killed_branch_preservation_checked": true,
+  "m227_disposition": "REJECT_AS_SELF_CONTAINED_FROZEN_PROOF",
+  "m230_sha256sums_digest": "5e9e0b59490a64dec97738127f0d2060187f062598d527e3b6cbbb47378b96d3",
+  "material_objections_to_m230": [],
+  "nonmaterial_objections_to_m230": [],
+  "positive_eta_over_pi_scaling_checked": true,
+  "raw_charge": "1/4",
+  "restriction_counterexample_objective_gap": "433/10192",
+  "schema": "m233.m230-fresh-referee.v1",
+  "scope": "one atom only; no exact optima, uniform factor, aggregation, recursion, gap, mixing, or Terminal",
+  "separations": {
+    "p1_lower_minus_p2_upper": "10951531/155232000",
+    "p1_lower_minus_raw": "15605731/180180000",
+    "p2_lower_minus_raw": "9820697/630630000"
+  },
+  "verdict": "ACCEPT_M230_CORRECTED_SALVAGE"
+}

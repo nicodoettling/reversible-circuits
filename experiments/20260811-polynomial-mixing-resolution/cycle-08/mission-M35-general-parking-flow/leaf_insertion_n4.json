@@ -1,0 +1,98 @@
+{
+  "claim_tested": "Every reduced factorization has a unique suffix-trajectory insertion site.",
+  "failures": [],
+  "leaf_rotations": 4,
+  "n": 4,
+  "r": 3,
+  "records": [
+    {
+      "candidate_multiplicities": [
+        1
+      ],
+      "leaf": 1,
+      "parent": 0,
+      "reduced_factorizations": 1,
+      "reduced_macro": [
+        0,
+        0
+      ],
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "candidate_multiplicities": [
+        1
+      ],
+      "leaf": 2,
+      "parent": 0,
+      "reduced_factorizations": 1,
+      "reduced_macro": [
+        0,
+        0
+      ],
+      "source": [
+        0,
+        0,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "candidate_multiplicities": [
+        1
+      ],
+      "leaf": 1,
+      "parent": 0,
+      "reduced_factorizations": 2,
+      "reduced_macro": [
+        0,
+        1
+      ],
+      "source": [
+        0,
+        0,
+        2
+      ],
+      "target": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "candidate_multiplicities": [
+        1
+      ],
+      "leaf": 2,
+      "parent": 1,
+      "reduced_factorizations": 2,
+      "reduced_macro": [
+        0,
+        1
+      ],
+      "source": [
+        0,
+        1,
+        1
+      ],
+      "target": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "universal_scope_warning": "Finite enumeration is a falsifier only."
+}

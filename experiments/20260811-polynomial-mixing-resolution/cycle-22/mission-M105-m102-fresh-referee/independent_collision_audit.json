@@ -1,0 +1,115 @@
+{
+  "coefficient_bases": {
+    "intermediate": "89/8100",
+    "joint_SN": "1317120000/398453",
+    "joint_SS": "284497920/99373",
+    "source_A": "2700/29",
+    "source_B": "5400/59",
+    "source_B_less_than_A": true
+  },
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-22/mission-M105-m102-fresh-referee/independent_collision_audit.py --output experiments/20260811-polynomial-mixing-resolution/cycle-22/mission-M105-m102-fresh-referee/independent_collision_audit.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "critical_borel_density_factor": "(2*pi)^-2",
+  "crossing_double_matching_residual_cycles": {
+    "admissible_rank_two_prefix": false,
+    "intermediate": [
+      "1"
+    ],
+    "target": [
+      "1"
+    ]
+  },
+  "derived_residuals": {
+    "A_times_sN": [
+      "1/90+delta",
+      "1/3",
+      "59/90-delta"
+    ],
+    "A_times_sS": [
+      "delta",
+      "1/90",
+      "29/90",
+      "1/3-delta",
+      "1/3"
+    ],
+    "B_times_sN": [
+      "eps",
+      "1/90+delta",
+      "7/50-delta-eps",
+      "1/3",
+      "116/225"
+    ],
+    "B_times_sS": [
+      "delta",
+      "eps",
+      "1/90",
+      "1/3",
+      "59/90-delta-eps"
+    ],
+    "sN": [
+      "1/90+delta",
+      "7/50-delta",
+      "191/225"
+    ],
+    "sN_times_tN": [
+      "1/90+delta",
+      "1367/25200",
+      "7/50-delta",
+      "37/140",
+      "297/560"
+    ],
+    "sN_times_tS": [
+      "1/90+delta",
+      "7/50-delta",
+      "25/112",
+      "43/140",
+      "8027/25200"
+    ],
+    "sS": [
+      "delta",
+      "1/90",
+      "89/90-delta"
+    ],
+    "sS_times_tN": [
+      "delta",
+      "1/90",
+      "979/5040-delta",
+      "37/140",
+      "297/560"
+    ],
+    "sS_times_tS": [
+      "delta",
+      "1/90",
+      "25/112",
+      "43/140",
+      "2311/5040-delta"
+    ],
+    "source_A": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "source_B": [
+      "eps",
+      "1/3",
+      "2/3-eps"
+    ]
+  },
+  "deterministic": true,
+  "n_equals_3k_factor_for_k2_delta": "1/9",
+  "nested_intermediate_bounded_on_face": true,
+  "normalized_k2_delta_position_density_coefficient": -101.21565586947543,
+  "python": "3.12.3",
+  "raw_lift_factor_a_s_a_t": 4,
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "seed": null,
+  "status": "independent_exact_collision_topology_audit",
+  "stripped_two_target_color_coefficient": -8990.626343656686,
+  "target_inside_central_event_limit": true,
+  "target_support_gaps": [
+    "43/140",
+    "37/140",
+    "25/112",
+    "23/112"
+  ]
+}

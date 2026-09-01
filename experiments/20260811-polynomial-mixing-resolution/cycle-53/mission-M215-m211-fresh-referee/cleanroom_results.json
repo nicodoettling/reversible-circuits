@@ -1,0 +1,49 @@
+{
+  "finite_only": true,
+  "imports_m211_code_or_data": false,
+  "method": "independent exact closed-form q=1 calibration",
+  "mission": "M215",
+  "python": "3.12.3",
+  "result": {
+    "exact_cutoffs": {
+      "F_D_minus_s": "0",
+      "F_s": "6/7",
+      "J_k_minus_s": "0",
+      "J_s": "8/11"
+    },
+    "finite_components": {
+      "A_fragment": "8715/107008",
+      "A_fresh": "7720331610/44801006129",
+      "A_surviving": "122/209",
+      "B_fragment": "97378237119044599565/432628329531617021952",
+      "B_surviving": "272/399"
+    },
+    "finite_profiles": {
+      "Phi": "2746119688475414477147/2514810289791972630528",
+      "Phi_minus_Psi": "104471482590350570060124893845175/1132590103178542342287340498771968",
+      "Psi": "57631981725057/57647105149568",
+      "decimal_defect": 0.09224121091748724
+    },
+    "normalizers": {
+      "A": "191/228",
+      "B": "142/171"
+    },
+    "parameters": {
+      "k": 11,
+      "l": 4,
+      "q": 1,
+      "s": 3
+    },
+    "symbolic_limit": {
+      "A_kernel_coefficient": "1",
+      "A_surviving": "21/32",
+      "B_kernel_coefficient": "1",
+      "B_surviving": "49/64",
+      "difference": "7/64"
+    }
+  },
+  "seed": null,
+  "status": "all independent exact calibration assertions passed",
+  "topology_reconstruction": false,
+  "universal_inference": false
+}

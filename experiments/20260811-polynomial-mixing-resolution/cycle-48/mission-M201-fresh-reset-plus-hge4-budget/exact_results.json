@@ -1,0 +1,93 @@
+{
+  "arithmetic": "standard-library Fraction",
+  "assertions": {
+    "all_history_cross_terms_retained_by_exact_Gram_T1": true,
+    "compatible_reservation_is_same_L": true,
+    "exact_total_remains_below_true_budget": true,
+    "killed_observation_excluded": true,
+    "reset_plus_h4_exceeds_delta": true
+  },
+  "compatible_reservations": {
+    "h1_bound": {
+      "decimal": 0.05864888888888889,
+      "exact": "3299/56250"
+    },
+    "h1_operator_coefficient": {
+      "decimal": 0.17594666666666667,
+      "exact": "3299/18750"
+    },
+    "h2_bound": {
+      "decimal": 0.192,
+      "exact": "24/125"
+    },
+    "h3_bound": {
+      "decimal": 0.216,
+      "exact": "27/125"
+    },
+    "q0": {
+      "decimal": 0.6666666666666666,
+      "exact": "2/3"
+    },
+    "remaining_delta": {
+      "decimal": 0.3102297926128663,
+      "exact": "293289307/945393750"
+    }
+  },
+  "exact_actual_T1": {
+    "h1": {
+      "decimal": 0.0,
+      "exact": "0"
+    },
+    "h2": {
+      "decimal": 0.014132698412698413,
+      "exact": "22259/1575000"
+    },
+    "h3": {
+      "decimal": 0.023247703333333335,
+      "exact": "6974311/300000000"
+    },
+    "h4": {
+      "decimal": 0.05877896933865095,
+      "exact": "1735419680239/29524500000000"
+    },
+    "reset": {
+      "decimal": 0.3090081002716706,
+      "exact": "6628367198857337/21450464220937500"
+    },
+    "total": {
+      "decimal": 0.4051674713563533,
+      "exact": "422384074903914714287/1042492561137562500000"
+    },
+    "true_budget_slack": {
+      "decimal": 0.3717112101454019,
+      "exact": "387506171468022785713/1042492561137562500000"
+    }
+  },
+  "obstruction": {
+    "not_refuted": "true parent T1<=1-q",
+    "reset_plus_h4_minus_reserved_delta": {
+      "decimal": 0.05755727699745519,
+      "exact": "480024264873449410111/8339940489100500000000"
+    },
+    "route_refuted": "independent reservation of accepted h1-h3 bounds"
+  },
+  "parent": {
+    "budget_1_minus_q": {
+      "decimal": 0.7768786815017552,
+      "exact": "13057/16807"
+    },
+    "q": {
+      "decimal": 0.2231213184982448,
+      "exact": "3750/16807"
+    }
+  },
+  "schema": "M201-compatibility-obstruction-v1",
+  "seed": null,
+  "state": {
+    "B": 2,
+    "D": 1,
+    "L": 4,
+    "kappa": 2,
+    "s": 6
+  }
+}

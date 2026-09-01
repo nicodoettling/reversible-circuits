@@ -1,0 +1,650 @@
+{
+  "command": "python3 -B local_block_voltage.py",
+  "composition": "(p q)(x)=p(q(x)); braid lists applied chronologically left-to-right",
+  "core": {
+    "anchor_fixed": [
+      true,
+      true
+    ],
+    "base_chronological": [
+      4,
+      3,
+      5,
+      4
+    ],
+    "base_transporters": [
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ]
+    ],
+    "correction_length": 196,
+    "elementary_relation_failures": [],
+    "final_signs": [
+      1,
+      0
+    ],
+    "final_transporters": [
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "p_factor_expression": [
+      1,
+      3,
+      1,
+      3,
+      5,
+      3,
+      5,
+      3,
+      5,
+      1,
+      3,
+      1
+    ],
+    "p_images": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ]
+    ],
+    "relation_chronological": [
+      4,
+      3,
+      5,
+      4,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      5,
+      4,
+      3,
+      2,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "relation_length": 200
+  },
+  "dependencies": {},
+  "experiment": "M181 minimal anchored-block symbolic audit",
+  "family_rows": [
+    {
+      "all_words_valid": true,
+      "blocks": 1,
+      "d": 5,
+      "literal_shifted_relations_verified": 1,
+      "patterns": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1
+        ]
+      ],
+      "width": 2
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 1,
+      "d": 6,
+      "literal_shifted_relations_verified": 1,
+      "patterns": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1
+        ]
+      ],
+      "width": 2
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 2,
+      "d": 7,
+      "literal_shifted_relations_verified": 2,
+      "patterns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 3
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 2,
+      "d": 8,
+      "literal_shifted_relations_verified": 2,
+      "patterns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 3
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 2,
+      "d": 9,
+      "literal_shifted_relations_verified": 2,
+      "patterns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 3
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 3,
+      "d": 10,
+      "literal_shifted_relations_verified": 3,
+      "patterns": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 4
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 3,
+      "d": 11,
+      "literal_shifted_relations_verified": 3,
+      "patterns": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 4
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 3,
+      "d": 12,
+      "literal_shifted_relations_verified": 3,
+      "patterns": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 4
+    },
+    {
+      "all_words_valid": true,
+      "blocks": 4,
+      "d": 13,
+      "literal_shifted_relations_verified": 4,
+      "patterns": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "voltage_basis_representatives": [
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "width": 5
+    }
+  ],
+  "parameters": {
+    "d_max": 13,
+    "d_min": 5
+  },
+  "python": "3.12.3",
+  "repository_base_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "scope": "one explicit B6 relation and direct embeddings d=5..13; no quotient enumeration",
+  "seed": null
+}

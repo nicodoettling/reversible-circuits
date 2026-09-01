@@ -1,0 +1,35 @@
+{
+  "mission": "M186",
+  "verdict": "strict exact coefficient reduction; SCBR unresolved",
+  "proved": [
+    "complete channel-combined critical-Borel chord formula for M_1(d),M_2(d)",
+    "component-valued Borel-Abel coefficient identity",
+    "exact J=1 one-dimensional face-law collapse",
+    "conditional J=1 charge is O(1/n)",
+    "exact full-channel signed prefix summation-by-parts identity",
+    "full combined singleton coefficient M_1(1)=O(1/n)"
+  ],
+  "first_unproved_lemma": "PCR: |sum_{2<=d<=D}(M_1(d)+M_2(d))|+|sum_{2<=d<=D}M_1(d)| <= C sqrt(D)/n uniformly for D<=floor(n/2)",
+  "unresolved": [
+    "PCR",
+    "WPCR",
+    "SCBR",
+    "BIR",
+    "BR",
+    "PCS-bound",
+    "FD-bound",
+    "FCL1",
+    "direct-L1",
+    "H0/gap",
+    "mixing",
+    "Terminals"
+  ],
+  "exact_calibration": {
+    "k": [3, 5],
+    "all_assertions_passed": true,
+    "combined_coefficients_match_frozen_M180": true,
+    "prefix_scale_diagnostic_maxima": [2.7872000000000003, 1.6413578881261632],
+    "finite_asymptotic_or_sign_inference": false,
+    "seed": null
+  }
+}

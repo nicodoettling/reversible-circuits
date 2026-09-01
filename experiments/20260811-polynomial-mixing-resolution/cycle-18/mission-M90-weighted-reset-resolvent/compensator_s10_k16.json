@@ -1,0 +1,407 @@
+{
+  "arithmetic": "fractions.Fraction exact grouped recurrences",
+  "claim_tested": "named scalar compensators M=V+a(U-V) satisfy M>=A+D M",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "elapsed_seconds": 23.7273268699646,
+  "finite_scope_warning": "A failure refutes only its named compensator. Finite survival would not prove a universal supersolution.",
+  "parameters": {
+    "k_max": 16,
+    "s_max": 10
+  },
+  "python": "3.12.3",
+  "result": {
+    "contexts": 6534,
+    "failure_counts": {
+      "phase_P_over_P_plus_1": 0,
+      "phase_P_over_P_plus_2": 0,
+      "phase_P_over_P_plus_4": 0,
+      "phase_one_minus_inverse_square": 0,
+      "rank_one_minus_inverse_square": 0,
+      "rank_s_over_s_plus_1": 0,
+      "rank_s_over_s_plus_2": 0,
+      "rank_s_over_s_plus_4": 0
+    },
+    "first_failures": {
+      "phase_P_over_P_plus_1": [],
+      "phase_P_over_P_plus_2": [],
+      "phase_P_over_P_plus_4": [],
+      "phase_one_minus_inverse_square": [],
+      "rank_one_minus_inverse_square": [],
+      "rank_s_over_s_plus_1": [],
+      "rank_s_over_s_plus_2": [],
+      "rank_s_over_s_plus_4": []
+    },
+    "memoized_mixed_moment_contexts": 26010,
+    "minimum_normalized_defects": {
+      "phase_P_over_P_plus_1": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.9166666666666666,
+            "denominator": "12",
+            "numerator": "11"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.05052736831941014,
+            "denominator": "287290714345307972578125",
+            "numerator": "14516043738471823067516"
+          },
+          "defect": {
+            "decimal": 0.0011784821625899426,
+            "denominator": "50184658211768759101733473368060273033000000",
+            "numerator": "59141724538242372279333786811923378779873"
+          },
+          "normalized_defect": {
+            "decimal": 0.014049677954145873,
+            "denominator": "4209471899018898026816111299625139696000000",
+            "numerator": "59141724538242372279333786811923378779873"
+          },
+          "parent_M": {
+            "decimal": 0.08387965663242752,
+            "denominator": "38919421194445620367",
+            "numerator": "3264547686122921104"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.014049677954145873,
+          "denominator": "4209471899018898026816111299625139696000000",
+          "numerator": "59141724538242372279333786811923378779873"
+        }
+      },
+      "phase_P_over_P_plus_2": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.8461538461538461,
+            "denominator": "13",
+            "numerator": "11"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.04843191000177394,
+            "denominator": "23270547861969945778828125",
+            "numerator": "1127037079742901351838796"
+          },
+          "defect": {
+            "decimal": 0.0009547315412364302,
+            "denominator": "1957201670258981604967605461354350648287000000",
+            "numerator": "1868602167156873131868463236405042252287047"
+          },
+          "normalized_defect": {
+            "decimal": 0.011705815358260301,
+            "denominator": "159630244452666788728836158716142299392000000",
+            "numerator": "1868602167156873131868463236405042252287047"
+          },
+          "parent_M": {
+            "decimal": 0.08156044769343782,
+            "denominator": "505952475527793064771",
+            "numerator": "41265710415649940736"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.011705815358260301,
+          "denominator": "159630244452666788728836158716142299392000000",
+          "numerator": "1868602167156873131868463236405042252287047"
+        }
+      },
+      "phase_P_over_P_plus_4": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.7333333333333333,
+            "denominator": "15",
+            "numerator": "11"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.045240615309353686,
+            "denominator": "235291095048807229541484375",
+            "numerator": "10644713916819662208170104"
+          },
+          "defect": {
+            "decimal": 0.00043529193127313313,
+            "denominator": "4566803897270957078257746076493484846003000000",
+            "numerator": "1987892888188745987710803543613418438971643"
+          },
+          "normalized_defect": {
+            "decimal": 0.005591439098646093,
+            "denominator": "355524374515693632250513557652509609907200000",
+            "numerator": "1987892888188745987710803543613418438971643"
+          },
+          "parent_M": {
+            "decimal": 0.07784971339105426,
+            "denominator": "194597105972228101835",
+            "numerator": "15149328926666571904"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.005591439098646093,
+          "denominator": "355524374515693632250513557652509609907200000",
+          "numerator": "1987892888188745987710803543613418438971643"
+        }
+      },
+      "phase_one_minus_inverse_square": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.9917355371900827,
+            "denominator": "121",
+            "numerator": "120"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.05277176001768572,
+            "denominator": "705168117029392296328125",
+            "numerator": "37212962643998410214812"
+          },
+          "defect": {
+            "decimal": 0.0014031506194972553,
+            "denominator": "16728219403922919700577824456020091011000000",
+            "numerator": "23472211419700452523143415326089108809291"
+          },
+          "normalized_defect": {
+            "decimal": 0.01624981437707461,
+            "denominator": "1444460279670349391570989252362479424000000",
+            "numerator": "23472211419700452523143415326089108809291"
+          },
+          "parent_M": {
+            "decimal": 0.08634871678761041,
+            "denominator": "38919421194445620367",
+            "numerator": "3360642078256907328"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.01624981437707461,
+          "denominator": "1444460279670349391570989252362479424000000",
+          "numerator": "23472211419700452523143415326089108809291"
+        }
+      },
+      "rank_one_minus_inverse_square": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.99,
+            "denominator": "100",
+            "numerator": "99"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.052529084082271874,
+            "denominator": "705168117029392296328125",
+            "numerator": "37041835311574281946687"
+          },
+          "defect": {
+            "decimal": 0.0015887436962775153,
+            "denominator": "16728219403922919700577824456020091011000000",
+            "numerator": "26576853127929753713336069074777610113291"
+          },
+          "normalized_defect": {
+            "decimal": 0.01841132939474928,
+            "denominator": "1443505385086923647311967606268274554240000",
+            "numerator": "26576853127929753713336069074777610113291"
+          },
+          "parent_M": {
+            "decimal": 0.08629163392897683,
+            "denominator": "972985529861140509175",
+            "numerator": "83960511160969094832"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.01841132939474928,
+          "denominator": "1443505385086923647311967606268274554240000",
+          "numerator": "26576853127929753713336069074777610113291"
+        }
+      },
+      "rank_s_over_s_plus_1": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.9090909090909091,
+            "denominator": "11",
+            "numerator": "10"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.049934507753593406,
+            "denominator": "44425591372851714668671875",
+            "numerator": "2218370036865636306506906"
+          },
+          "defect": {
+            "decimal": 0.0015221715200854694,
+            "denominator": "3161633467341431823409208822187797201079000000",
+            "numerator": "4812548420936200391501460073081149704171999"
+          },
+          "normalized_defect": {
+            "decimal": 0.018201156101943495,
+            "denominator": "264408941606864336675722153848664783296000000",
+            "numerator": "4812548420936200391501460073081149704171999"
+          },
+          "parent_M": {
+            "decimal": 0.08363048542410632,
+            "denominator": "38919421194445620367",
+            "numerator": "3254850086916739008"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.018201156101943495,
+          "denominator": "264408941606864336675722153848664783296000000",
+          "numerator": "4812548420936200391501460073081149704171999"
+        }
+      },
+      "rank_s_over_s_plus_2": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.8333333333333334,
+            "denominator": "6",
+            "numerator": "5"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.04750242273945268,
+            "denominator": "2585616429107771753203125",
+            "numerator": "122823044657551456520144"
+          },
+          "defect": {
+            "decimal": 0.001462544451014103,
+            "denominator": "50184658211768759101733473368060273033000000",
+            "numerator": "73397293393661744960568849859670791739873"
+          },
+          "normalized_defect": {
+            "decimal": 0.018025222600659845,
+            "denominator": "4071921607834951532361802755102771552000000",
+            "numerator": "73397293393661744960568849859670791739873"
+          },
+          "parent_M": {
+            "decimal": 0.08113877334089423,
+            "denominator": "38919421194445620367",
+            "numerator": "3157874094854918048"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.018025222600659845,
+          "denominator": "4071921607834951532361802755102771552000000",
+          "numerator": "73397293393661744960568849859670791739873"
+        }
+      },
+      "rank_s_over_s_plus_4": {
+        "row": {
+          "coefficient": {
+            "decimal": 0.7142857142857143,
+            "denominator": "7",
+            "numerator": "5"
+          },
+          "context": [
+            10,
+            1,
+            0,
+            4
+          ],
+          "deep_M": {
+            "decimal": 0.04400213525905398,
+            "denominator": "23270547861969945778828125",
+            "numerator": "1023953794574690837306296"
+          },
+          "defect": {
+            "decimal": 0.001047284372079521,
+            "denominator": "150553974635306277305200420104180819099000000",
+            "numerator": "157672824790012841840640200335791160819619"
+          },
+          "normalized_defect": {
+            "decimal": 0.013561779652172822,
+            "denominator": "11626263575573655335138371645926736896000000",
+            "numerator": "157672824790012841840640200335791160819619"
+          },
+          "parent_M": {
+            "decimal": 0.07722322578156093,
+            "denominator": "272435948361119342569",
+            "numerator": "21038382751304395776"
+          },
+          "reset_budget": {
+            "decimal": 0.03217380615042744,
+            "denominator": "35846184436977685072666766691471623595000000",
+            "numerator": "1153308189307789137160014326798313519782861"
+          },
+          "right_heavy": true
+        },
+        "value": {
+          "decimal": 0.013561779652172822,
+          "denominator": "11626263575573655335138371645926736896000000",
+          "numerator": "157672824790012841840640200335791160819619"
+        }
+      }
+    }
+  },
+  "seed": null
+}

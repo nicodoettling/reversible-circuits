@@ -1,0 +1,40 @@
+{
+  "claim_tested": "A deep (K,R) contextual statistic is the exact negative-hypergeometric mixture over synthetic child contexts (K+k,R+j), 1<=j<=k.",
+  "command": "python3 -B experiments/20260811-polynomial-mixing-resolution/cycle-14/mission-M65-contextual-quotient-absorption/marked_context_inheritance_audit.py --r-max 5 --output experiments/20260811-polynomial-mixing-resolution/cycle-15/mission-M69-m65-referee/rerun_marked_inheritance_r5.json",
+  "convention": "(pq)(x)=p(q(x)); factor tuples left-to-right",
+  "finite_scope_warning": "One mismatch refutes the marked inheritance formula. Empty finite failure lists do not prove it.",
+  "git_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "j_probability": "binom(R+j,j)binom(K-R-1+k-j,k-j)/binom(K+k,k)",
+  "python": "3.12.3",
+  "records": [
+    {
+      "ambient_r": 2,
+      "check_count": 0,
+      "failure_count": 0,
+      "failures": [],
+      "skipped_synthetic_rank_too_large": 0
+    },
+    {
+      "ambient_r": 3,
+      "check_count": 1,
+      "failure_count": 0,
+      "failures": [],
+      "skipped_synthetic_rank_too_large": 0
+    },
+    {
+      "ambient_r": 4,
+      "check_count": 7,
+      "failure_count": 0,
+      "failures": [],
+      "skipped_synthetic_rank_too_large": 0
+    },
+    {
+      "ambient_r": 5,
+      "check_count": 36,
+      "failure_count": 0,
+      "failures": [],
+      "skipped_synthetic_rank_too_large": 0
+    }
+  ],
+  "seed": null
+}

@@ -1,0 +1,11 @@
+id -nG
+nico nogroup
+
+command -v bwrap
+/usr/bin/bwrap
+
+bwrap --version
+bubblewrap 0.9.0
+
+python3 --version
+Python 3.12.3

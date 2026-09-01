@@ -1,0 +1,204 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "N": 3,
+  "length": 4,
+  "endpoint": "identity",
+  "microincrement_count": 9,
+  "bridge_state_count": 2187,
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsified_if_witness": "all disjoint complete-pair bridge heat-bath projections commute",
+  "scope_warning": "An exact witness disproves the non-interference identity needed by the cited additive-conservation theorem. Absence of a witness in one finite bridge would prove nothing universally.",
+  "raw_microincrements": [
+    {
+      "index": 0,
+      "first": [
+        1,
+        0,
+        2
+      ],
+      "second": [
+        1,
+        0,
+        2
+      ],
+      "product": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "first": [
+        1,
+        0,
+        2
+      ],
+      "second": [
+        2,
+        1,
+        0
+      ],
+      "product": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "index": 2,
+      "first": [
+        1,
+        0,
+        2
+      ],
+      "second": [
+        0,
+        2,
+        1
+      ],
+      "product": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "first": [
+        2,
+        1,
+        0
+      ],
+      "second": [
+        1,
+        0,
+        2
+      ],
+      "product": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "first": [
+        2,
+        1,
+        0
+      ],
+      "second": [
+        2,
+        1,
+        0
+      ],
+      "product": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 5,
+      "first": [
+        2,
+        1,
+        0
+      ],
+      "second": [
+        0,
+        2,
+        1
+      ],
+      "product": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "index": 6,
+      "first": [
+        0,
+        2,
+        1
+      ],
+      "second": [
+        1,
+        0,
+        2
+      ],
+      "product": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "index": 7,
+      "first": [
+        0,
+        2,
+        1
+      ],
+      "second": [
+        2,
+        1,
+        0
+      ],
+      "product": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "index": 8,
+      "first": [
+        0,
+        2,
+        1
+      ],
+      "second": [
+        0,
+        2,
+        1
+      ],
+      "product": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "label": "separated_complementary_pairs",
+      "b_zero_based": [
+        0,
+        1
+      ],
+      "c_zero_based": [
+        2,
+        3
+      ],
+      "witness": null
+    },
+    {
+      "label": "crossing_complementary_pairs",
+      "b_zero_based": [
+        0,
+        2
+      ],
+      "c_zero_based": [
+        1,
+        3
+      ],
+      "witness": null
+    }
+  ]
+}

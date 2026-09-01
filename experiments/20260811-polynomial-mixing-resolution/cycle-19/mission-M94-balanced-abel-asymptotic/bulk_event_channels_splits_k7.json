@@ -1,0 +1,187 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/bulk_event_channels.py --k 5 7 --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/bulk_event_channels_splits_k7.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "embedding_rows": [
+        {
+          "alpha1_contribution": 0.0005210656395429383,
+          "alpha2_contribution": 0.0007008294559018873,
+          "combined": 0.0012218950954448256,
+          "k_squared_combined": 0.03054737738612064,
+          "q": "16/25",
+          "split": 1
+        },
+        {
+          "alpha1_contribution": 0.0005094655511236378,
+          "alpha2_contribution": 0.0005016998030034766,
+          "combined": 0.0010111653541271144,
+          "k_squared_combined": 0.02527913385317786,
+          "q": "9/25",
+          "split": 2
+        }
+      ],
+      "event_orbits": 10,
+      "event_stationary_mass": 0.014868158171355905,
+      "gradient_rows": [
+        {
+          "D": "-1949456/13286025",
+          "alpha1_contribution": -0.00010698596522945254,
+          "alpha2_contribution": -0.00011458689596254414,
+          "combined": -0.0002215728611919967,
+          "k_squared_combined": -0.005539321529799917,
+          "split": 1
+        },
+        {
+          "D": "-151648/531441",
+          "alpha1_contribution": -0.00017592794664668743,
+          "alpha2_contribution": -0.0001769943531832391,
+          "combined": -0.0003529222998299265,
+          "k_squared_combined": -0.008823057495748162,
+          "split": 2
+        },
+        {
+          "D": "-70000/531441",
+          "alpha1_contribution": 0.0001237640038031817,
+          "alpha2_contribution": 0.00010104055615948876,
+          "combined": 0.00022480455996267047,
+          "k_squared_combined": 0.005620113999066762,
+          "split": 3
+        }
+      ],
+      "k": 5,
+      "k_squared_parts": {
+        "alpha1_channel1": 0.021784532064840434,
+        "alpha1_embedding1": 0.025763279766664406,
+        "alpha1_gradient1": -0.00397874770182396,
+        "alpha2_channel2": 0.025299714147976732,
+        "alpha2_embedding2": 0.0300632314726341,
+        "alpha2_gradient2": -0.00476351732465736,
+        "complete": 0.04708424621281716,
+        "embedding_combined": 0.05582651123929851,
+        "gradient_combined": -0.00874226502648132
+      },
+      "k_times_event_stationary_mass": 0.07434079085677953,
+      "n": 15,
+      "parts": {
+        "alpha1_channel1": 0.0008713812825936173,
+        "alpha1_embedding1": 0.0010305311906665762,
+        "alpha1_gradient1": -0.0001591499080729584,
+        "alpha2_channel2": 0.0010119885659190693,
+        "alpha2_embedding2": 0.001202529258905364,
+        "alpha2_gradient2": -0.0001905406929862944,
+        "complete": 0.0018833698485126865,
+        "embedding_combined": 0.0022330604495719403,
+        "gradient_combined": -0.0003496906010592528
+      },
+      "quotient_states": 213,
+      "reconstruction_verified": true
+    },
+    {
+      "embedding_rows": [
+        {
+          "alpha1_contribution": 0.00013586943294651238,
+          "alpha2_contribution": 0.0002190661961170272,
+          "combined": 0.00035493562906353956,
+          "k_squared_combined": 0.017391845824113437,
+          "q": "1296/2401",
+          "split": 1
+        },
+        {
+          "alpha1_contribution": 0.00017984501137120984,
+          "alpha2_contribution": 0.00018809361328763163,
+          "combined": 0.00036793862465884147,
+          "k_squared_combined": 0.018028992608283233,
+          "q": "625/2401",
+          "split": 2
+        },
+        {
+          "alpha1_contribution": 0.00016872926033281285,
+          "alpha2_contribution": 0.00015926061942117298,
+          "combined": 0.0003279898797539858,
+          "k_squared_combined": 0.016071504107945306,
+          "q": "480/2401",
+          "split": 3
+        }
+      ],
+      "event_orbits": 28,
+      "event_stationary_mass": 0.010449805944462176,
+      "gradient_rows": [
+        {
+          "D": "-30001013934480/330998238929449",
+          "alpha1_contribution": -4.521371726318337e-06,
+          "alpha2_contribution": -7.955189477720105e-06,
+          "combined": -1.2476561204038441e-05,
+          "k_squared_combined": -0.0006113514989978836,
+          "split": 1
+        },
+        {
+          "D": "-53886814873104/330998238929449",
+          "alpha1_contribution": -5.15305217039687e-05,
+          "alpha2_contribution": -5.392121455635609e-05,
+          "combined": -0.00010545173626032479,
+          "k_squared_combined": -0.005167135076755915,
+          "split": 2
+        },
+        {
+          "D": "-33503703024/137858491849",
+          "alpha1_contribution": -9.532421370329665e-05,
+          "alpha2_contribution": -9.796188772315434e-05,
+          "combined": -0.00019328610142645098,
+          "k_squared_combined": -0.009471018969896099,
+          "split": 3
+        },
+        {
+          "D": "-20876664864/137858491849",
+          "alpha1_contribution": 6.27673039292419e-05,
+          "alpha2_contribution": 5.315691098774399e-05,
+          "combined": 0.0001159242149169859,
+          "k_squared_combined": 0.005680286530932309,
+          "split": 4
+        },
+        {
+          "D": "-10063224864/137858491849",
+          "alpha1_contribution": 1.3778770494960867e-05,
+          "alpha2_contribution": 1.2400519479116055e-05,
+          "combined": 2.6179289974076924e-05,
+          "k_squared_combined": 0.0012827852087297692,
+          "split": 5
+        }
+      ],
+      "k": 7,
+      "k_squared_parts": {
+        "alpha1_channel1": 0.02007106992511655,
+        "alpha1_embedding1": 0.02373774152787621,
+        "alpha1_gradient1": -0.00366667160275967,
+        "alpha2_channel2": 0.023134838809237612,
+        "alpha2_embedding2": 0.027754601012465765,
+        "alpha2_gradient2": -0.004619762203228151,
+        "complete": 0.04320590873435416,
+        "embedding_combined": 0.05149234254034198,
+        "gradient_combined": -0.008286433805987821
+      },
+      "k_times_event_stationary_mass": 0.07314864161123523,
+      "n": 21,
+      "parts": {
+        "alpha1_channel1": 0.0004096136719411541,
+        "alpha1_embedding1": 0.00048444370465053495,
+        "alpha1_gradient1": -7.483003270938102e-05,
+        "alpha2_channel2": 0.00047213956753546144,
+        "alpha2_embedding2": 0.0005664204288258319,
+        "alpha2_gradient2": -9.428086129037043e-05,
+        "complete": 0.0008817532394766155,
+        "embedding_combined": 0.001050864133476367,
+        "gradient_combined": -0.00016911089399975144
+      },
+      "quotient_states": 634,
+      "reconstruction_verified": true
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_falsification_diagnostic_only",
+  "target": "two-channel and Abel decomposition of central double bulk defect"
+}

@@ -1,0 +1,181 @@
+{
+  "composition": "(p q)(x)=p(q(x)); chronological move list applied left-to-right",
+  "d3": {
+    "ordered_pair_components": [
+      {
+        "base_size": 4,
+        "chord_rank": 0,
+        "root": [
+          0,
+          0
+        ],
+        "root_voltages": [
+          0
+        ]
+      },
+      {
+        "base_size": 12,
+        "chord_rank": 0,
+        "root": [
+          0,
+          1
+        ],
+        "root_voltages": [
+          0
+        ]
+      }
+    ],
+    "physical_words": 24,
+    "quotient_states": 4,
+    "signed_inverse_edge_checks": 12
+  },
+  "d4_certificate": {
+    "chronological_positive_word": [
+      4,
+      3,
+      5,
+      4
+    ],
+    "coordinates": [
+      {
+        "local_canonicalization_signs": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "raw_endpoint": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "source": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "transporter_images": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "transporter_sign": 1
+      },
+      {
+        "local_canonicalization_signs": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "raw_endpoint": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "source": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "transporter_images": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "transporter_sign": 0
+      }
+    ],
+    "quotient_pair_closes": true,
+    "relative_voltage": 1
+  },
+  "dependencies": {},
+  "scope": "clean-room all d=3 ordered pairs plus literal d=4 certificate only; no Q4 closure or d=5 enumeration",
+  "seed": null
+}

@@ -1,0 +1,3148 @@
+{
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/rare_orbit_diagnostic.py --k 9 --top 20 --output experiments/20260811-polynomial-mixing-resolution/cycle-19/mission-M94-balanced-abel-asymptotic/score_envelopes_k9.json",
+  "convention": "(pq)(x)=p(q(x)); factors multiply left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "actual_BA2_L2": 0.0009140983770133943,
+      "actual_two_step_TV": 0.008465385599704606,
+      "by_kind_and_minimum_residual_size": [
+        {
+          "BA2_contribution": 9.29598398819814e-06,
+          "TV_contribution": 0.00026347567359738706,
+          "k_fourth_BA2_contribution": 0.06099095094656799,
+          "k_squared_TV_contribution": 0.02134152956138835,
+          "orbit_count": 24,
+          "shell": [
+            "3",
+            1
+          ],
+          "signed_delta": 0.00015380453398463256,
+          "stationary_mass": 0.07436024139644076
+        },
+        {
+          "BA2_contribution": 9.593217379006698e-06,
+          "TV_contribution": 0.00013922595326612428,
+          "k_fourth_BA2_contribution": 0.06294109922366295,
+          "k_squared_TV_contribution": 0.011277302214556067,
+          "orbit_count": 21,
+          "shell": [
+            "3",
+            2
+          ],
+          "signed_delta": -9.680528994197412e-05,
+          "stationary_mass": 0.01863187587923819
+        },
+        {
+          "BA2_contribution": 1.3453021375434026e-05,
+          "TV_contribution": 0.00012770407491100144,
+          "k_fourth_BA2_contribution": 0.08826527324422265,
+          "k_squared_TV_contribution": 0.010344030067791117,
+          "orbit_count": 18,
+          "shell": [
+            "3",
+            3
+          ],
+          "signed_delta": -8.475730011657864e-05,
+          "stationary_mass": 0.008136828403688358
+        },
+        {
+          "BA2_contribution": 1.8213665447424723e-05,
+          "TV_contribution": 0.00011749377399100786,
+          "k_fourth_BA2_contribution": 0.11949985900055361,
+          "k_squared_TV_contribution": 0.009516995693271637,
+          "orbit_count": 15,
+          "shell": [
+            "3",
+            4
+          ],
+          "signed_delta": -0.00013281900203360736,
+          "stationary_mass": 0.0043904427365534454
+        },
+        {
+          "BA2_contribution": 2.453118731944661e-05,
+          "TV_contribution": 0.00010417190568576326,
+          "k_fourth_BA2_contribution": 0.1609491200028892,
+          "k_squared_TV_contribution": 0.008437924360546824,
+          "orbit_count": 12,
+          "shell": [
+            "3",
+            5
+          ],
+          "signed_delta": -0.00020364628456567192,
+          "stationary_mass": 0.002606436459639103
+        },
+        {
+          "BA2_contribution": 3.549925083715774e-05,
+          "TV_contribution": 0.0001096281321375823,
+          "k_fourth_BA2_contribution": 0.23291058474259194,
+          "k_squared_TV_contribution": 0.008879878703144167,
+          "orbit_count": 9,
+          "shell": [
+            "3",
+            6
+          ],
+          "signed_delta": -0.0002192562642751646,
+          "stationary_mass": 0.0015896700722675345
+        },
+        {
+          "BA2_contribution": 4.6383612967439386e-05,
+          "TV_contribution": 0.00010014507449127675,
+          "k_fourth_BA2_contribution": 0.3043228846793698,
+          "k_squared_TV_contribution": 0.008111751033793416,
+          "orbit_count": 6,
+          "shell": [
+            "3",
+            7
+          ],
+          "signed_delta": -0.0002002901489825535,
+          "stationary_mass": 0.0009234391510092966
+        },
+        {
+          "BA2_contribution": 4.757838923144044e-05,
+          "TV_contribution": 7.033222403417812e-05,
+          "k_fourth_BA2_contribution": 0.3121618117474807,
+          "k_squared_TV_contribution": 0.005696910146768428,
+          "orbit_count": 3,
+          "shell": [
+            "3",
+            8
+          ],
+          "signed_delta": -0.00014066444806835624,
+          "stationary_mass": 0.0004262036297702721
+        },
+        {
+          "BA2_contribution": 1.1580748781007986e-05,
+          "TV_contribution": 1.1536964433872562e-05,
+          "k_fourth_BA2_contribution": 0.0759812927521934,
+          "k_squared_TV_contribution": 0.0009344941191436776,
+          "orbit_count": 1,
+          "shell": [
+            "3",
+            9
+          ],
+          "signed_delta": -2.3073928867745125e-05,
+          "stationary_mass": 4.59733825041511e-05
+        },
+        {
+          "BA2_contribution": 8.860240639766437e-05,
+          "TV_contribution": 0.002737102198716481,
+          "k_fourth_BA2_contribution": 0.5813203883750759,
+          "k_squared_TV_contribution": 0.22170527809603496,
+          "orbit_count": 288,
+          "shell": [
+            "D",
+            1
+          ],
+          "signed_delta": 0.002061385532307607,
+          "stationary_mass": 0.594881931171525
+        },
+        {
+          "BA2_contribution": 7.164008790524133e-05,
+          "TV_contribution": 0.0012247928415551218,
+          "k_fourth_BA2_contribution": 0.4700306167462883,
+          "k_squared_TV_contribution": 0.09920822016596487,
+          "orbit_count": 252,
+          "shell": [
+            "D",
+            2
+          ],
+          "signed_delta": -0.0006935435446871799,
+          "stationary_mass": 0.14905500703390565
+        },
+        {
+          "BA2_contribution": 8.727324533128392e-05,
+          "TV_contribution": 0.0009743663994251639,
+          "k_fourth_BA2_contribution": 0.5725997626185538,
+          "k_squared_TV_contribution": 0.07892367835343828,
+          "orbit_count": 216,
+          "shell": [
+            "D",
+            3
+          ],
+          "signed_delta": -0.0004297729942354383,
+          "stationary_mass": 0.06509462722950683
+        },
+        {
+          "BA2_contribution": 0.00010253925974134131,
+          "TV_contribution": 0.0008079601787525606,
+          "k_fourth_BA2_contribution": 0.6727600831629403,
+          "k_squared_TV_contribution": 0.06544477447895741,
+          "orbit_count": 180,
+          "shell": [
+            "D",
+            4
+          ],
+          "signed_delta": -0.00023772505632478448,
+          "stationary_mass": 0.035123541892427626
+        },
+        {
+          "BA2_contribution": 0.00011147523302281506,
+          "TV_contribution": 0.0006569977342832887,
+          "k_fourth_BA2_contribution": 0.7313890038626896,
+          "k_squared_TV_contribution": 0.053216816476946385,
+          "orbit_count": 144,
+          "shell": [
+            "D",
+            5
+          ],
+          "signed_delta": -3.5080342650432384e-05,
+          "stationary_mass": 0.020851491677112814
+        },
+        {
+          "BA2_contribution": 0.00010849970210415653,
+          "TV_contribution": 0.0005030726208653516,
+          "k_fourth_BA2_contribution": 0.711866545505371,
+          "k_squared_TV_contribution": 0.04074888229009348,
+          "orbit_count": 108,
+          "shell": [
+            "D",
+            6
+          ],
+          "signed_delta": 7.397321849267433e-05,
+          "stationary_mass": 0.012717360578140277
+        },
+        {
+          "BA2_contribution": 8.45275323604556e-05,
+          "TV_contribution": 0.00033737587882510313,
+          "k_fourth_BA2_contribution": 0.5545851398169492,
+          "k_squared_TV_contribution": 0.027327446184833355,
+          "orbit_count": 72,
+          "shell": [
+            "D",
+            7
+          ],
+          "signed_delta": 0.00010477261484055405,
+          "stationary_mass": 0.00738751320807438
+        },
+        {
+          "BA2_contribution": 3.925997440104982e-05,
+          "TV_contribution": 0.00016352627697831536,
+          "k_fourth_BA2_contribution": 0.2575846920452879,
+          "k_squared_TV_contribution": 0.013245628435243543,
+          "orbit_count": 36,
+          "shell": [
+            "D",
+            8
+          ],
+          "signed_delta": 9.863763301382964e-05,
+          "stationary_mass": 0.0034096290381621774
+        },
+        {
+          "BA2_contribution": 4.151858422830558e-06,
+          "TV_contribution": 1.6477693755026955e-05,
+          "k_fourth_BA2_contribution": 0.027240343112191295,
+          "k_squared_TV_contribution": 0.0013346931941571835,
+          "orbit_count": 4,
+          "shell": [
+            "D",
+            9
+          ],
+          "signed_delta": 4.861072110244513e-06,
+          "stationary_mass": 0.0003677870600332088
+        }
+      ],
+      "by_minimum_residual_size": [
+        {
+          "BA2_contribution": 9.78983903858625e-05,
+          "TV_contribution": 0.0030005778723138673,
+          "k_fourth_BA2_contribution": 0.6423113393216439,
+          "k_squared_TV_contribution": 0.24304680765742326,
+          "orbit_count": 312,
+          "shell": 1,
+          "signed_delta": 0.002215190066292239,
+          "stationary_mass": 0.6692421725679656
+        },
+        {
+          "BA2_contribution": 8.123330528424805e-05,
+          "TV_contribution": 0.0013640187948212468,
+          "k_fourth_BA2_contribution": 0.5329717159699514,
+          "k_squared_TV_contribution": 0.11048552238052099,
+          "orbit_count": 273,
+          "shell": 2,
+          "signed_delta": -0.000790348834629154,
+          "stationary_mass": 0.16768688291314404
+        },
+        {
+          "BA2_contribution": 0.00010072626670671792,
+          "TV_contribution": 0.0011020704743361657,
+          "k_fourth_BA2_contribution": 0.6608650358627762,
+          "k_squared_TV_contribution": 0.08926770842122943,
+          "orbit_count": 234,
+          "shell": 3,
+          "signed_delta": -0.0005145302943520172,
+          "stationary_mass": 0.07323145563319522
+        },
+        {
+          "BA2_contribution": 0.00012075292518876602,
+          "TV_contribution": 0.0009254539527435686,
+          "k_fourth_BA2_contribution": 0.7922599421634939,
+          "k_squared_TV_contribution": 0.07496177017222906,
+          "orbit_count": 195,
+          "shell": 4,
+          "signed_delta": -0.0003705440583583921,
+          "stationary_mass": 0.0395139846289811
+        },
+        {
+          "BA2_contribution": 0.00013600642034226166,
+          "TV_contribution": 0.0007611696399690519,
+          "k_fourth_BA2_contribution": 0.8923381238655788,
+          "k_squared_TV_contribution": 0.061654740837493206,
+          "orbit_count": 156,
+          "shell": 5,
+          "signed_delta": -0.00023872662721610412,
+          "stationary_mass": 0.023457928136751915
+        },
+        {
+          "BA2_contribution": 0.0001439989529413143,
+          "TV_contribution": 0.0006127007530029335,
+          "k_fourth_BA2_contribution": 0.9447771302479631,
+          "k_squared_TV_contribution": 0.04962876099323762,
+          "orbit_count": 117,
+          "shell": 6,
+          "signed_delta": -0.00014528304578249012,
+          "stationary_mass": 0.01430703065040781
+        },
+        {
+          "BA2_contribution": 0.000130911145327895,
+          "TV_contribution": 0.00043752095331637983,
+          "k_fourth_BA2_contribution": 0.8589080244963191,
+          "k_squared_TV_contribution": 0.03543919721862677,
+          "orbit_count": 78,
+          "shell": 7,
+          "signed_delta": -9.551753414199947e-05,
+          "stationary_mass": 0.00831095235908368
+        },
+        {
+          "BA2_contribution": 8.683836363249027e-05,
+          "TV_contribution": 0.0002338585010124935,
+          "k_fourth_BA2_contribution": 0.5697465037927687,
+          "k_squared_TV_contribution": 0.01894253858201197,
+          "orbit_count": 39,
+          "shell": 8,
+          "signed_delta": -4.2026815054526645e-05,
+          "stationary_mass": 0.0038358326679324493
+        },
+        {
+          "BA2_contribution": 1.5732607203838545e-05,
+          "TV_contribution": 2.8014658188899518e-05,
+          "k_fourth_BA2_contribution": 0.1032216358643847,
+          "k_squared_TV_contribution": 0.0022691873133008607,
+          "orbit_count": 5,
+          "shell": 9,
+          "signed_delta": -1.8212856757500612e-05,
+          "stationary_mass": 0.00041376044253735994
+        }
+      ],
+      "by_residual_size_triple": [
+        {
+          "BA2_contribution": 1.5075072419750703e-05,
+          "TV_contribution": 0.0007907779814607229,
+          "k_fourth_BA2_contribution": 0.09890755014598436,
+          "k_squared_TV_contribution": 0.06405301649831856,
+          "orbit_count": 13,
+          "shell": [
+            1,
+            1,
+            25
+          ],
+          "signed_delta": 0.0015815559629214458,
+          "stationary_mass": 0.1703152842904225
+        },
+        {
+          "BA2_contribution": 2.471079553792845e-06,
+          "TV_contribution": 0.00025542502335021335,
+          "k_fourth_BA2_contribution": 0.016212752952434857,
+          "k_squared_TV_contribution": 0.020689426891367282,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            2,
+            24
+          ],
+          "signed_delta": 0.00044032198137057034,
+          "stationary_mass": 0.13320544550566038
+        },
+        {
+          "BA2_contribution": 1.3108943143984368e-06,
+          "TV_contribution": 0.0001274389941390195,
+          "k_fourth_BA2_contribution": 0.008600777596768144,
+          "k_squared_TV_contribution": 0.010322558525260579,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            3,
+            23
+          ],
+          "signed_delta": 2.232543619994868e-05,
+          "stationary_mass": 0.07833905225642172
+        },
+        {
+          "BA2_contribution": 2.274927805806941e-06,
+          "TV_contribution": 0.00013891976374056573,
+          "k_fourth_BA2_contribution": 0.014925801333899341,
+          "k_squared_TV_contribution": 0.011252500862985824,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            4,
+            22
+          ],
+          "signed_delta": -0.00018100250345636252,
+          "stationary_mass": 0.054757993676119235
+        },
+        {
+          "BA2_contribution": 3.963421749424281e-06,
+          "TV_contribution": 0.0001635314734733384,
+          "k_fourth_BA2_contribution": 0.02600401009797271,
+          "k_squared_TV_contribution": 0.013246049351340411,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            5,
+            21
+          ],
+          "signed_delta": -0.0002739075352780132,
+          "stationary_mass": 0.042180317509040735
+        },
+        {
+          "BA2_contribution": 5.1088004668656295e-06,
+          "TV_contribution": 0.00016317404678577272,
+          "k_fourth_BA2_contribution": 0.033518839863105394,
+          "k_squared_TV_contribution": 0.013217097789647591,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            6,
+            20
+          ],
+          "signed_delta": -0.00025516246223678614,
+          "stationary_mass": 0.034612912651309675
+        },
+        {
+          "BA2_contribution": 8.421144603604086e-06,
+          "TV_contribution": 0.0002344361092333347,
+          "k_fourth_BA2_contribution": 0.05525112974424641,
+          "k_squared_TV_contribution": 0.01898932484790011,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            7,
+            19
+          ],
+          "signed_delta": 3.0658571392317823e-06,
+          "stationary_mass": 0.02971645434114927
+        },
+        {
+          "BA2_contribution": 4.646184457417884e-06,
+          "TV_contribution": 0.00012651237435072377,
+          "k_fourth_BA2_contribution": 0.030483616225118738,
+          "k_squared_TV_contribution": 0.010247502322408626,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            8,
+            18
+          ],
+          "signed_delta": 0.00011918397091147397,
+          "stationary_mass": 0.026410099789347212
+        },
+        {
+          "BA2_contribution": 1.0060488344865274e-05,
+          "TV_contribution": 0.00020589156261484256,
+          "k_fourth_BA2_contribution": 0.06600686403066106,
+          "k_squared_TV_contribution": 0.016677216571802246,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            9,
+            17
+          ],
+          "signed_delta": -0.00033756025085899546,
+          "stationary_mass": 0.024135725601039423
+        },
+        {
+          "BA2_contribution": 8.618145179132826e-06,
+          "TV_contribution": 0.00020699215352545849,
+          "k_fourth_BA2_contribution": 0.05654365052029047,
+          "k_squared_TV_contribution": 0.016766364435562137,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            10,
+            16
+          ],
+          "signed_delta": -6.560655314081642e-05,
+          "stationary_mass": 0.02258323757681718
+        },
+        {
+          "BA2_contribution": 1.0181088051266653e-05,
+          "TV_contribution": 0.00018245678272748244,
+          "k_fourth_BA2_contribution": 0.0667981187043605,
+          "k_squared_TV_contribution": 0.014778999400926078,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            11,
+            15
+          ],
+          "signed_delta": 0.0003519329488957557,
+          "stationary_mass": 0.021573382287005234
+        },
+        {
+          "BA2_contribution": 1.6368963045218756e-05,
+          "TV_contribution": 0.0002617925633667674,
+          "k_fourth_BA2_contribution": 0.10739676653968026,
+          "k_squared_TV_contribution": 0.02120519763270816,
+          "orbit_count": 26,
+          "shell": [
+            1,
+            12,
+            14
+          ],
+          "signed_delta": 0.0005235851267335348,
+          "stationary_mass": 0.021003029596554996
+        },
+        {
+          "BA2_contribution": 9.398180394318165e-06,
+          "TV_contribution": 0.00014322904354562612,
+          "k_fourth_BA2_contribution": 0.06166146156712148,
+          "k_squared_TV_contribution": 0.011601552527195715,
+          "orbit_count": 13,
+          "shell": [
+            1,
+            13,
+            13
+          ],
+          "signed_delta": 0.00028645808709125225,
+          "stationary_mass": 0.010409237487079339
+        },
+        {
+          "BA2_contribution": 9.514382789664934e-07,
+          "TV_contribution": 5.8854924931368694e-05,
+          "k_fourth_BA2_contribution": 0.006242386548299164,
+          "k_squared_TV_contribution": 0.0047672489194408646,
+          "orbit_count": 13,
+          "shell": [
+            2,
+            2,
+            23
+          ],
+          "signed_delta": -7.080957251674627e-05,
+          "stationary_mass": 0.02611301741880722
+        },
+        {
+          "BA2_contribution": 3.1523595174550397e-06,
+          "TV_contribution": 0.00011981089772320494,
+          "k_fourth_BA2_contribution": 0.020682630794022515,
+          "k_squared_TV_contribution": 0.0097046827155796,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            3,
+            22
+          ],
+          "signed_delta": -0.00017436522379829945,
+          "stationary_mass": 0.030801371442817103
+        },
+        {
+          "BA2_contribution": 4.637080345039215e-06,
+          "TV_contribution": 0.00012103023079131433,
+          "k_fourth_BA2_contribution": 0.03042388414380229,
+          "k_squared_TV_contribution": 0.009803448694096462,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            4,
+            21
+          ],
+          "signed_delta": -0.00019154422712676182,
+          "stationary_mass": 0.021596322564628866
+        },
+        {
+          "BA2_contribution": 6.101008040177773e-06,
+          "TV_contribution": 0.0001259434016579634,
+          "k_fourth_BA2_contribution": 0.04002871375160637,
+          "k_squared_TV_contribution": 0.010201415534295035,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            5,
+            20
+          ],
+          "signed_delta": -0.00017913677424216592,
+          "stationary_mass": 0.016692183956071395
+        },
+        {
+          "BA2_contribution": 9.075650292620408e-06,
+          "TV_contribution": 0.00015648006096855873,
+          "k_fourth_BA2_contribution": 0.0595453415698825,
+          "k_squared_TV_contribution": 0.012674884938453257,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            6,
+            19
+          ],
+          "signed_delta": -8.89453346152912e-05,
+          "stationary_mass": 0.013748744508643823
+        },
+        {
+          "BA2_contribution": 8.301145068190319e-06,
+          "TV_contribution": 0.00013927197669643418,
+          "k_fourth_BA2_contribution": 0.05446381279239668,
+          "k_squared_TV_contribution": 0.011281030112411168,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            7,
+            18
+          ],
+          "signed_delta": -0.00015514650044535692,
+          "stationary_mass": 0.011852729149310723
+        },
+        {
+          "BA2_contribution": 5.122371329277786e-06,
+          "TV_contribution": 9.634275449214202e-05,
+          "k_fourth_BA2_contribution": 0.03360787829139156,
+          "k_squared_TV_contribution": 0.007803763113863503,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            8,
+            17
+          ],
+          "signed_delta": -1.305913330513326e-05,
+          "stationary_mass": 0.010582607835357295
+        },
+        {
+          "BA2_contribution": 1.4177247594878875e-05,
+          "TV_contribution": 0.00016744532057062287,
+          "k_fourth_BA2_contribution": 0.09301692147000029,
+          "k_squared_TV_contribution": 0.013563070966220453,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            9,
+            16
+          ],
+          "signed_delta": -0.00011931573125484215,
+          "stationary_mass": 0.00972134327245965
+        },
+        {
+          "BA2_contribution": 1.1575449608205826e-05,
+          "TV_contribution": 0.0001473398495439746,
+          "k_fourth_BA2_contribution": 0.07594652487943843,
+          "k_squared_TV_contribution": 0.011934527813061943,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            10,
+            15
+          ],
+          "signed_delta": -4.9663739644841335e-05,
+          "stationary_mass": 0.009149220048158069
+        },
+        {
+          "BA2_contribution": 8.823168991487653e-06,
+          "TV_contribution": 0.00011885566310196083,
+          "k_fourth_BA2_contribution": 0.05788881175315049,
+          "k_squared_TV_contribution": 0.009627308711258827,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            11,
+            14
+          ],
+          "signed_delta": 9.928261914450196e-05,
+          "stationary_mass": 0.008798250755352064
+        },
+        {
+          "BA2_contribution": 9.31638621794868e-06,
+          "TV_contribution": 0.00011264371434370157,
+          "k_fourth_BA2_contribution": 0.061124809975961286,
+          "k_squared_TV_contribution": 0.009124140861839826,
+          "orbit_count": 26,
+          "shell": [
+            2,
+            12,
+            13
+          ],
+          "signed_delta": 0.00015235478317578247,
+          "stationary_mass": 0.00863109196153745
+        },
+        {
+          "BA2_contribution": 2.2764245391418307e-06,
+          "TV_contribution": 5.580249856074356e-05,
+          "k_fourth_BA2_contribution": 0.014935621401309551,
+          "k_squared_TV_contribution": 0.004520002383420228,
+          "orbit_count": 13,
+          "shell": [
+            3,
+            3,
+            21
+          ],
+          "signed_delta": -7.505174048895685e-05,
+          "stationary_mass": 0.009110948581952796
+        },
+        {
+          "BA2_contribution": 6.207722452052805e-06,
+          "TV_contribution": 0.00011460092986794856,
+          "k_fourth_BA2_contribution": 0.04072886700791845,
+          "k_squared_TV_contribution": 0.009282675319303834,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            4,
+            20
+          ],
+          "signed_delta": -0.00012988412051388645,
+          "stationary_mass": 0.012819597278262833
+        },
+        {
+          "BA2_contribution": 9.449763454199549e-06,
+          "TV_contribution": 0.0001311713718475849,
+          "k_fourth_BA2_contribution": 0.061999898023003236,
+          "k_squared_TV_contribution": 0.010624881119654376,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            5,
+            19
+          ],
+          "signed_delta": -6.814209308503386e-05,
+          "stationary_mass": 0.009945561710535174
+        },
+        {
+          "BA2_contribution": 1.0506700114574744e-05,
+          "TV_contribution": 0.00012884116280936954,
+          "k_fourth_BA2_contribution": 0.0689344594517249,
+          "k_squared_TV_contribution": 0.010436134187558933,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            6,
+            18
+          ],
+          "signed_delta": -0.00013664206895178446,
+          "stationary_mass": 0.008225753126528254
+        },
+        {
+          "BA2_contribution": 9.25789141438392e-06,
+          "TV_contribution": 9.94227624154613e-05,
+          "k_fourth_BA2_contribution": 0.0607410255697729,
+          "k_squared_TV_contribution": 0.008053243755652365,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            7,
+            17
+          ],
+          "signed_delta": -0.0001108432953336801,
+          "stationary_mass": 0.007124137282687851
+        },
+        {
+          "BA2_contribution": 1.0773963782949144e-05,
+          "TV_contribution": 0.00011723215867558646,
+          "k_fourth_BA2_contribution": 0.07068797637992934,
+          "k_squared_TV_contribution": 0.009495804852722504,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            8,
+            16
+          ],
+          "signed_delta": 2.6678616795471364e-05,
+          "stationary_mass": 0.0063936650498441355
+        },
+        {
+          "BA2_contribution": 1.8479886379487607e-05,
+          "TV_contribution": 0.00015007234711241353,
+          "k_fourth_BA2_contribution": 0.12124653453581818,
+          "k_squared_TV_contribution": 0.012155860116105496,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            9,
+            15
+          ],
+          "signed_delta": -6.345282091146218e-05,
+          "stationary_mass": 0.005907658841710008
+        },
+        {
+          "BA2_contribution": 1.5323650507968074e-05,
+          "TV_contribution": 0.00013394360046080773,
+          "k_fourth_BA2_contribution": 0.10053847098277853,
+          "k_squared_TV_contribution": 0.010849431637325426,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            10,
+            14
+          ],
+          "signed_delta": -3.484138583892727e-05,
+          "stationary_mass": 0.005596975786783091
+        },
+        {
+          "BA2_contribution": 1.240082223518327e-05,
+          "TV_contribution": 0.00011535105530927623,
+          "k_fourth_BA2_contribution": 0.08136179468503743,
+          "k_squared_TV_contribution": 0.009343435480051374,
+          "orbit_count": 26,
+          "shell": [
+            3,
+            11,
+            13
+          ],
+          "signed_delta": 4.5120461770794564e-05,
+          "stationary_mass": 0.005423396969066245
+        },
+        {
+          "BA2_contribution": 6.049441826776952e-06,
+          "TV_contribution": 5.563258727697386e-05,
+          "k_fourth_BA2_contribution": 0.039690387825483585,
+          "k_squared_TV_contribution": 0.0045062395694348825,
+          "orbit_count": 13,
+          "shell": [
+            3,
+            12,
+            12
+          ],
+          "signed_delta": 3.2528152205448424e-05,
+          "stationary_mass": 0.002683761005824838
+        },
+        {
+          "BA2_contribution": 4.8274182702296e-06,
+          "TV_contribution": 6.220310695305328e-05,
+          "k_fourth_BA2_contribution": 0.03167269127097641,
+          "k_squared_TV_contribution": 0.005038451663197316,
+          "orbit_count": 13,
+          "shell": [
+            4,
+            4,
+            19
+          ],
+          "signed_delta": -3.113971876496954e-05,
+          "stationary_mass": 0.004526335640705784
+        },
+        {
+          "BA2_contribution": 1.1406505525624683e-05,
+          "TV_contribution": 0.00012333635262826525,
+          "k_fourth_BA2_contribution": 0.07483808275362354,
+          "k_squared_TV_contribution": 0.009990244562889486,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            5,
+            18
+          ],
+          "signed_delta": -0.00012400699596522112,
+          "stationary_mass": 0.00705225748159144
+        },
+        {
+          "BA2_contribution": 1.1799252386872113e-05,
+          "TV_contribution": 0.0001020320746457333,
+          "k_fourth_BA2_contribution": 0.07741489491026793,
+          "k_squared_TV_contribution": 0.008264598046304398,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            6,
+            17
+          ],
+          "signed_delta": -0.0001146510305929336,
+          "stationary_mass": 0.005859705705710536
+        },
+        {
+          "BA2_contribution": 1.384955364594431e-05,
+          "TV_contribution": 0.00011639761354932252,
+          "k_fourth_BA2_contribution": 0.09086692147104063,
+          "k_squared_TV_contribution": 0.009428206697495124,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            7,
+            16
+          ],
+          "signed_delta": -5.361189345197488e-05,
+          "stationary_mass": 0.005101239009935932
+        },
+        {
+          "BA2_contribution": 1.653586973084096e-05,
+          "TV_contribution": 0.00012512070135892146,
+          "k_fourth_BA2_contribution": 0.10849184130404753,
+          "k_squared_TV_contribution": 0.010134776810072637,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            8,
+            15
+          ],
+          "signed_delta": 2.5725160738462405e-05,
+          "stationary_mass": 0.004604953229384351
+        },
+        {
+          "BA2_contribution": 2.3936874689682845e-05,
+          "TV_contribution": 0.0001422617723611841,
+          "k_fourth_BA2_contribution": 0.15704983483900914,
+          "k_squared_TV_contribution": 0.011523203561255912,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            9,
+            14
+          ],
+          "signed_delta": -4.884347112438895e-05,
+          "stationary_mass": 0.004283225869109458
+        },
+        {
+          "BA2_contribution": 2.0549959953568048e-05,
+          "TV_contribution": 0.00013137570733815762,
+          "k_fourth_BA2_contribution": 0.13482828725535997,
+          "k_squared_TV_contribution": 0.010641432294390766,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            10,
+            13
+          ],
+          "signed_delta": -3.64774640778352e-05,
+          "stationary_mass": 0.004088977312123637
+        },
+        {
+          "BA2_contribution": 1.784749098600343e-05,
+          "TV_contribution": 0.00012272662390893095,
+          "k_fourth_BA2_contribution": 0.11709738835916851,
+          "k_squared_TV_contribution": 0.009940856536623407,
+          "orbit_count": 26,
+          "shell": [
+            4,
+            11,
+            12
+          ],
+          "signed_delta": 1.2461354880468641e-05,
+          "stationary_mass": 0.003997290380419878
+        },
+        {
+          "BA2_contribution": 6.291309053958554e-06,
+          "TV_contribution": 5.1268131608925795e-05,
+          "k_fourth_BA2_contribution": 0.04127727870302207,
+          "k_squared_TV_contribution": 0.0041527186603229896,
+          "orbit_count": 13,
+          "shell": [
+            5,
+            5,
+            17
+          ],
+          "signed_delta": -5.6514875042838313e-05,
+          "stationary_mass": 0.0027596300411038494
+        },
+        {
+          "BA2_contribution": 1.5708070596843512e-05,
+          "TV_contribution": 0.00011360324893217699,
+          "k_fourth_BA2_contribution": 0.10306065118589028,
+          "k_squared_TV_contribution": 0.009201863163506336,
+          "orbit_count": 26,
+          "shell": [
+            5,
+            6,
+            16
+          ],
+          "signed_delta": -6.638299494324785e-05,
+          "stationary_mass": 0.004609690454179922
+        },
+        {
+          "BA2_contribution": 1.9681820131806095e-05,
+          "TV_contribution": 0.00012427270975218062,
+          "k_fourth_BA2_contribution": 0.1291324218847798,
+          "k_squared_TV_contribution": 0.01006608948992663,
+          "orbit_count": 26,
+          "shell": [
+            5,
+            7,
+            15
+          ],
+          "signed_delta": -3.5847598049423715e-05,
+          "stationary_mass": 0.004036487210421557
+        },
+        {
+          "BA2_contribution": 2.2803123884685383e-05,
+          "TV_contribution": 0.00013009431065142817,
+          "k_fourth_BA2_contribution": 0.1496112958074208,
+          "k_squared_TV_contribution": 0.010537639162765683,
+          "orbit_count": 26,
+          "shell": [
+            5,
+            8,
+            14
+          ],
+          "signed_delta": 1.952464757429975e-05,
+          "stationary_mass": 0.0036680340516261623
+        },
+        {
+          "BA2_contribution": 3.105875891568307e-05,
+          "TV_contribution": 0.00014381079681851072,
+          "k_fourth_BA2_contribution": 0.20377651724579662,
+          "k_squared_TV_contribution": 0.011648674542299368,
+          "orbit_count": 26,
+          "shell": [
+            5,
+            9,
+            13
+          ],
+          "signed_delta": -4.654701981317004e-05,
+          "stationary_mass": 0.003437833311138989
+        },
+        {
+          "BA2_contribution": 2.7680438014238025e-05,
+          "TV_contribution": 0.0001340393987332117,
+          "k_fourth_BA2_contribution": 0.1816113538114157,
+          "k_squared_TV_contribution": 0.010857191297390148,
+          "orbit_count": 26,
+          "shell": [
+            5,
+            10,
+            12
+          ],
+          "signed_delta": -4.451067673754097e-05,
+          "stationary_mass": 0.003311018223201787
+        },
+        {
+          "BA2_contribution": 1.278289974504703e-05,
+          "TV_contribution": 6.408104347261754e-05,
+          "k_fourth_BA2_contribution": 0.08386860522725356,
+          "k_squared_TV_contribution": 0.005190564521282021,
+          "orbit_count": 13,
+          "shell": [
+            5,
+            11,
+            11
+          ],
+          "signed_delta": -8.448110204183138e-06,
+          "stationary_mass": 0.0016352348450796581
+        },
+        {
+          "BA2_contribution": 1.0437393628805083e-05,
+          "TV_contribution": 6.164682560259578e-05,
+          "k_fourth_BA2_contribution": 0.06847973959859015,
+          "k_squared_TV_contribution": 0.004993392873810259,
+          "orbit_count": 13,
+          "shell": [
+            6,
+            6,
+            15
+          ],
+          "signed_delta": -2.2899744596269352e-05,
+          "stationary_mass": 0.001936264223931291
+        },
+        {
+          "BA2_contribution": 2.6243302462022834e-05,
+          "TV_contribution": 0.00012932612310040105,
+          "k_fourth_BA2_contribution": 0.17218230745333182,
+          "k_squared_TV_contribution": 0.010475415971132485,
+          "orbit_count": 26,
+          "shell": [
+            6,
+            7,
+            14
+          ],
+          "signed_delta": -2.771591466832257e-05,
+          "stationary_mass": 0.003413553084894636
+        },
+        {
+          "BA2_contribution": 3.015002138343301e-05,
+          "TV_contribution": 0.00013729151803129242,
+          "k_fourth_BA2_contribution": 0.19781429029670397,
+          "k_squared_TV_contribution": 0.011120612960534687,
+          "orbit_count": 26,
+          "shell": [
+            6,
+            8,
+            13
+          ],
+          "signed_delta": 1.3585249402213914e-05,
+          "stationary_mass": 0.003125662932573236
+        },
+        {
+          "BA2_contribution": 4.008532891453801e-05,
+          "TV_contribution": 0.0001462512157127506,
+          "k_fourth_BA2_contribution": 0.2629998430082839,
+          "k_squared_TV_contribution": 0.011846348472732799,
+          "orbit_count": 26,
+          "shell": [
+            6,
+            9,
+            12
+          ],
+          "signed_delta": -4.96887008143444e-05,
+          "stationary_mass": 0.002955470513174202
+        },
+        {
+          "BA2_contribution": 3.708290655251543e-05,
+          "TV_contribution": 0.00013818507055589384,
+          "k_fourth_BA2_contribution": 0.24330094989105375,
+          "k_squared_TV_contribution": 0.011192990715027402,
+          "orbit_count": 26,
+          "shell": [
+            6,
+            10,
+            11
+          ],
+          "signed_delta": -5.856393510576787e-05,
+          "stationary_mass": 0.002876079895834448
+        },
+        {
+          "BA2_contribution": 1.6495397656536264e-05,
+          "TV_contribution": 6.885619356422073e-05,
+          "k_fourth_BA2_contribution": 0.10822630402453443,
+          "k_squared_TV_contribution": 0.005577351678701879,
+          "orbit_count": 13,
+          "shell": [
+            7,
+            7,
+            13
+          ],
+          "signed_delta": -9.247509069786191e-06,
+          "stationary_mass": 0.0015159832857716874
+        },
+        {
+          "BA2_contribution": 3.834300569622649e-05,
+          "TV_contribution": 0.00014272267622454003,
+          "k_fourth_BA2_contribution": 0.251568460372942,
+          "k_squared_TV_contribution": 0.011560536774187743,
+          "orbit_count": 26,
+          "shell": [
+            7,
+            8,
+            12
+          ],
+          "signed_delta": 1.156496682855729e-05,
+          "stationary_mass": 0.0028008698057199865
+        },
+        {
+          "BA2_contribution": 5.10344433898769e-05,
+          "TV_contribution": 0.00015122112247528533,
+          "k_fourth_BA2_contribution": 0.3348369830809823,
+          "k_squared_TV_contribution": 0.012248910920498112,
+          "orbit_count": 26,
+          "shell": [
+            7,
+            9,
+            11
+          ],
+          "signed_delta": -5.519668136847318e-05,
+          "stationary_mass": 0.0026759313648878806
+        },
+        {
+          "BA2_contribution": 2.503829858525531e-05,
+          "TV_contribution": 7.472096105233379e-05,
+          "k_fourth_BA2_contribution": 0.16427627701786007,
+          "k_squared_TV_contribution": 0.006052397845239037,
+          "orbit_count": 13,
+          "shell": [
+            7,
+            10,
+            10
+          ],
+          "signed_delta": -4.263831053229738e-05,
+          "stationary_mass": 0.0013181679027041144
+        },
+        {
+          "BA2_contribution": 2.3321676021559562e-05,
+          "TV_contribution": 7.63349831056097e-05,
+          "k_fourth_BA2_contribution": 0.15301351637745228,
+          "k_squared_TV_contribution": 0.0061831336315543856,
+          "orbit_count": 13,
+          "shell": [
+            8,
+            8,
+            11
+          ],
+          "signed_delta": 1.3887797690809034e-05,
+          "stationary_mass": 0.0013071607506129142
+        },
+        {
+          "BA2_contribution": 6.35166876109307e-05,
+          "TV_contribution": 0.0001575235179068838,
+          "k_fourth_BA2_contribution": 0.41673298741531634,
+          "k_squared_TV_contribution": 0.012759404950457588,
+          "orbit_count": 26,
+          "shell": [
+            8,
+            9,
+            10
+          ],
+          "signed_delta": -5.591461274533564e-05,
+          "stationary_mass": 0.002528671917319535
+        },
+        {
+          "BA2_contribution": 1.5732607203838545e-05,
+          "TV_contribution": 2.8014658188899518e-05,
+          "k_fourth_BA2_contribution": 0.1032216358643847,
+          "k_squared_TV_contribution": 0.0022691873133008607,
+          "orbit_count": 5,
+          "shell": [
+            9,
+            9,
+            9
+          ],
+          "signed_delta": -1.8212856757500612e-05,
+          "stationary_mass": 0.00041376044253735994
+        }
+      ],
+      "central_bulk_targets": [
+        {
+          "BA2_contribution": 1.272668071522647e-06,
+          "TV_contribution": 6.34233280308758e-06,
+          "cycles": [
+            [
+              6,
+              12
+            ],
+            [
+              19,
+              26
+            ]
+          ],
+          "delta": 1.268466560617516e-05,
+          "double_color": "S",
+          "intermediate_shells": [
+            {
+              "k_times_signed_score_contribution": 0.046647394752362466,
+              "k_times_triangle_score_seminorm": 0.264471891859844,
+              "kind": "3",
+              "minimum_residual_size": 1
+            },
+            {
+              "k_times_signed_score_contribution": 0.05154217235541052,
+              "k_times_triangle_score_seminorm": 0.07688920195003497,
+              "kind": "3",
+              "minimum_residual_size": 2
+            },
+            {
+              "k_times_signed_score_contribution": 0.03383372073675115,
+              "k_times_triangle_score_seminorm": 0.036991409111293415,
+              "kind": "3",
+              "minimum_residual_size": 3
+            },
+            {
+              "k_times_signed_score_contribution": 0.021719407651244634,
+              "k_times_triangle_score_seminorm": 0.021719407651244634,
+              "kind": "3",
+              "minimum_residual_size": 4
+            },
+            {
+              "k_times_signed_score_contribution": 0.01315397556863415,
+              "k_times_triangle_score_seminorm": 0.01315397556863415,
+              "kind": "3",
+              "minimum_residual_size": 5
+            },
+            {
+              "k_times_signed_score_contribution": 0.006737000859200016,
+              "k_times_triangle_score_seminorm": 0.006737000859200016,
+              "kind": "3",
+              "minimum_residual_size": 6
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 7
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 8
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 9
+            },
+            {
+              "k_times_signed_score_contribution": -0.19202157364274516,
+              "k_times_triangle_score_seminorm": 2.1899912190154613,
+              "kind": "D",
+              "minimum_residual_size": 1
+            },
+            {
+              "k_times_signed_score_contribution": 0.1864594065572381,
+              "k_times_triangle_score_seminorm": 0.6985679320503918,
+              "kind": "D",
+              "minimum_residual_size": 2
+            },
+            {
+              "k_times_signed_score_contribution": 0.17180421888530892,
+              "k_times_triangle_score_seminorm": 0.4099331222559707,
+              "kind": "D",
+              "minimum_residual_size": 3
+            },
+            {
+              "k_times_signed_score_contribution": 0.1866766897197925,
+              "k_times_triangle_score_seminorm": 0.29565879525424144,
+              "kind": "D",
+              "minimum_residual_size": 4
+            },
+            {
+              "k_times_signed_score_contribution": 0.1799067543639611,
+              "k_times_triangle_score_seminorm": 0.21787674926626574,
+              "kind": "D",
+              "minimum_residual_size": 5
+            },
+            {
+              "k_times_signed_score_contribution": 0.09002985224512096,
+              "k_times_triangle_score_seminorm": 0.09272158881986185,
+              "kind": "D",
+              "minimum_residual_size": 6
+            },
+            {
+              "k_times_signed_score_contribution": 0.06136129254867503,
+              "k_times_triangle_score_seminorm": 0.06136129254867503,
+              "kind": "D",
+              "minimum_residual_size": 7
+            },
+            {
+              "k_times_signed_score_contribution": 0.04513073548656724,
+              "k_times_triangle_score_seminorm": 0.04513073548656724,
+              "kind": "D",
+              "minimum_residual_size": 8
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "D",
+              "minimum_residual_size": 9
+            }
+          ],
+          "k_fourth_BA2_contribution": 0.008349975217260087,
+          "k_squared_TV_contribution": 0.000513728957050094,
+          "k_times_score": 0.9029810480875248,
+          "kind": "D",
+          "orbit": 1407,
+          "orbit_size": 27,
+          "posterior_score": 0.10033122756528053,
+          "residual_sizes": [
+            6,
+            7,
+            14
+          ],
+          "stationary_mass": 0.00012642789203313475,
+          "support_gaps": [
+            6,
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "BA2_contribution": 1.6008961133188793e-06,
+          "TV_contribution": 6.8067651806869896e-06,
+          "cycles": [
+            [
+              7,
+              26
+            ],
+            [
+              14,
+              20
+            ]
+          ],
+          "delta": 1.3613530361373979e-05,
+          "double_color": "N",
+          "intermediate_shells": [
+            {
+              "k_times_signed_score_contribution": 0.03774030966724082,
+              "k_times_triangle_score_seminorm": 0.2703678903889622,
+              "kind": "3",
+              "minimum_residual_size": 1
+            },
+            {
+              "k_times_signed_score_contribution": 0.04748355887882358,
+              "k_times_triangle_score_seminorm": 0.07880931707574339,
+              "kind": "3",
+              "minimum_residual_size": 2
+            },
+            {
+              "k_times_signed_score_contribution": 0.0304097261468043,
+              "k_times_triangle_score_seminorm": 0.039132035377463,
+              "kind": "3",
+              "minimum_residual_size": 3
+            },
+            {
+              "k_times_signed_score_contribution": 0.02124702698014293,
+              "k_times_triangle_score_seminorm": 0.02124702698014293,
+              "kind": "3",
+              "minimum_residual_size": 4
+            },
+            {
+              "k_times_signed_score_contribution": 0.012292386636109088,
+              "k_times_triangle_score_seminorm": 0.012292386636109088,
+              "kind": "3",
+              "minimum_residual_size": 5
+            },
+            {
+              "k_times_signed_score_contribution": 0.0038811204613193287,
+              "k_times_triangle_score_seminorm": 0.0038811204613193287,
+              "kind": "3",
+              "minimum_residual_size": 6
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 7
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 8
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "3",
+              "minimum_residual_size": 9
+            },
+            {
+              "k_times_signed_score_contribution": -0.09406113632598999,
+              "k_times_triangle_score_seminorm": 2.164318379148914,
+              "kind": "D",
+              "minimum_residual_size": 1
+            },
+            {
+              "k_times_signed_score_contribution": 0.2186654225507228,
+              "k_times_triangle_score_seminorm": 0.6854041604643732,
+              "kind": "D",
+              "minimum_residual_size": 2
+            },
+            {
+              "k_times_signed_score_contribution": 0.18976833549438124,
+              "k_times_triangle_score_seminorm": 0.4079128550674949,
+              "kind": "D",
+              "minimum_residual_size": 3
+            },
+            {
+              "k_times_signed_score_contribution": 0.2004472887312124,
+              "k_times_triangle_score_seminorm": 0.2878419137248415,
+              "kind": "D",
+              "minimum_residual_size": 4
+            },
+            {
+              "k_times_signed_score_contribution": 0.18576499358026627,
+              "k_times_triangle_score_seminorm": 0.21520440081123876,
+              "kind": "D",
+              "minimum_residual_size": 5
+            },
+            {
+              "k_times_signed_score_contribution": 0.08640842065566545,
+              "k_times_triangle_score_seminorm": 0.09190738832722332,
+              "kind": "D",
+              "minimum_residual_size": 6
+            },
+            {
+              "k_times_signed_score_contribution": 0.09556203378152958,
+              "k_times_triangle_score_seminorm": 0.09556203378152958,
+              "kind": "D",
+              "minimum_residual_size": 7
+            },
+            {
+              "k_times_signed_score_contribution": 0.022754114076414762,
+              "k_times_triangle_score_seminorm": 0.022754114076414762,
+              "kind": "D",
+              "minimum_residual_size": 8
+            },
+            {
+              "k_times_signed_score_contribution": 0.0,
+              "k_times_triangle_score_seminorm": 0.0,
+              "kind": "D",
+              "minimum_residual_size": 9
+            }
+          ],
+          "k_fourth_BA2_contribution": 0.010503479399485167,
+          "k_squared_TV_contribution": 0.0005513479796356461,
+          "k_times_score": 1.058363601314637,
+          "kind": "D",
+          "orbit": 1400,
+          "orbit_size": 27,
+          "posterior_score": 0.11759595570162631,
+          "residual_sizes": [
+            6,
+            8,
+            13
+          ],
+          "stationary_mass": 0.00011576529379900867,
+          "support_gaps": [
+            7,
+            6,
+            6,
+            8
+          ]
+        }
+      ],
+      "k": 9,
+      "k_fourth_actual_BA2_L2": 5.997399451584879,
+      "k_squared_actual_two_step_TV": 0.6856962335760731,
+      "n": 27,
+      "quotient_states": 1409,
+      "score_envelope_by_kind_and_minimum_residual_size": [
+        {
+          "absolute_delta": 0.0005269513471947741,
+          "conditional_RMS_score": 0.011180913510551298,
+          "k_squared_absolute_delta": 0.0426830591227767,
+          "k_times_conditional_RMS_score": 0.10062822159496168,
+          "k_times_maximum_absolute_score": 0.31828430785786305,
+          "maximum_absolute_score": 0.035364923095318114,
+          "orbit_count": 24,
+          "shell": [
+            "3",
+            1
+          ],
+          "signed_delta": 0.00015380453398463256,
+          "stationary_mass": 0.07436024139644076
+        },
+        {
+          "absolute_delta": 0.00027845190653224855,
+          "conditional_RMS_score": 0.02269101127369618,
+          "k_squared_absolute_delta": 0.022554604429112134,
+          "k_times_conditional_RMS_score": 0.20421910146326563,
+          "k_times_maximum_absolute_score": 0.521097001900467,
+          "maximum_absolute_score": 0.05789966687782967,
+          "orbit_count": 21,
+          "shell": [
+            "3",
+            2
+          ],
+          "signed_delta": -9.680528994197412e-05,
+          "stationary_mass": 0.01863187587923818
+        },
+        {
+          "absolute_delta": 0.0002554081498220029,
+          "conditional_RMS_score": 0.04066140092151739,
+          "k_squared_absolute_delta": 0.020688060135582234,
+          "k_times_conditional_RMS_score": 0.3659526082936565,
+          "k_times_maximum_absolute_score": 0.731442677327001,
+          "maximum_absolute_score": 0.081271408591889,
+          "orbit_count": 18,
+          "shell": [
+            "3",
+            3
+          ],
+          "signed_delta": -8.475730011657864e-05,
+          "stationary_mass": 0.008136828403688358
+        },
+        {
+          "absolute_delta": 0.00023498754798201573,
+          "conditional_RMS_score": 0.06440869783000686,
+          "k_squared_absolute_delta": 0.019033991386543273,
+          "k_times_conditional_RMS_score": 0.5796782804700618,
+          "k_times_maximum_absolute_score": 0.9997943460192392,
+          "maximum_absolute_score": 0.11108826066880435,
+          "orbit_count": 15,
+          "shell": [
+            "3",
+            4
+          ],
+          "signed_delta": -0.00013281900203360736,
+          "stationary_mass": 0.0043904427365534454
+        },
+        {
+          "absolute_delta": 0.00020834381137152652,
+          "conditional_RMS_score": 0.09701429082835375,
+          "k_squared_absolute_delta": 0.01687584872109365,
+          "k_times_conditional_RMS_score": 0.8731286174551838,
+          "k_times_maximum_absolute_score": 1.3447344454720391,
+          "maximum_absolute_score": 0.14941493838578213,
+          "orbit_count": 12,
+          "shell": [
+            "3",
+            5
+          ],
+          "signed_delta": -0.00020364628456567192,
+          "stationary_mass": 0.002606436459639103
+        },
+        {
+          "absolute_delta": 0.0002192562642751646,
+          "conditional_RMS_score": 0.14943629618438858,
+          "k_squared_absolute_delta": 0.017759757406288334,
+          "k_times_conditional_RMS_score": 1.3449266656594974,
+          "k_times_maximum_absolute_score": 1.819648193275317,
+          "maximum_absolute_score": 0.20218313258614634,
+          "orbit_count": 9,
+          "shell": [
+            "3",
+            6
+          ],
+          "signed_delta": -0.0002192562642751646,
+          "stationary_mass": 0.0015896700722675345
+        },
+        {
+          "absolute_delta": 0.0002002901489825535,
+          "conditional_RMS_score": 0.22411872618290765,
+          "k_squared_absolute_delta": 0.016223502067586833,
+          "k_times_conditional_RMS_score": 2.017068535646169,
+          "k_times_maximum_absolute_score": 2.5409366364522827,
+          "maximum_absolute_score": 0.2823262929391425,
+          "orbit_count": 6,
+          "shell": [
+            "3",
+            7
+          ],
+          "signed_delta": -0.0002002901489825535,
+          "stationary_mass": 0.0009234391510092967
+        },
+        {
+          "absolute_delta": 0.00014066444806835624,
+          "conditional_RMS_score": 0.3341152475732864,
+          "k_squared_absolute_delta": 0.011393820293536855,
+          "k_times_conditional_RMS_score": 3.007037228159578,
+          "k_times_maximum_absolute_score": 3.3073088023717867,
+          "maximum_absolute_score": 0.3674787558190874,
+          "orbit_count": 3,
+          "shell": [
+            "3",
+            8
+          ],
+          "signed_delta": -0.00014066444806835624,
+          "stationary_mass": 0.0004262036297702721
+        },
+        {
+          "absolute_delta": 2.3073928867745125e-05,
+          "conditional_RMS_score": 0.5018975679168636,
+          "k_squared_absolute_delta": 0.0018689882382873552,
+          "k_times_conditional_RMS_score": 4.517078111251772,
+          "k_times_maximum_absolute_score": 4.517078111251772,
+          "maximum_absolute_score": 0.5018975679168636,
+          "orbit_count": 1,
+          "shell": [
+            "3",
+            9
+          ],
+          "signed_delta": -2.3073928867745125e-05,
+          "stationary_mass": 4.59733825041511e-05
+        },
+        {
+          "absolute_delta": 0.005474204397432962,
+          "conditional_RMS_score": 0.012204145301146207,
+          "k_squared_absolute_delta": 0.4434105561920699,
+          "k_times_conditional_RMS_score": 0.10983730771031586,
+          "k_times_maximum_absolute_score": 0.3940546323602886,
+          "maximum_absolute_score": 0.04378384804003207,
+          "orbit_count": 288,
+          "shell": [
+            "D",
+            1
+          ],
+          "signed_delta": 0.002061385532307607,
+          "stationary_mass": 0.5948819311715261
+        },
+        {
+          "absolute_delta": 0.002449585683110244,
+          "conditional_RMS_score": 0.021923241621463925,
+          "k_squared_absolute_delta": 0.19841644033192976,
+          "k_times_conditional_RMS_score": 0.19730917459317532,
+          "k_times_maximum_absolute_score": 0.7384899074384154,
+          "maximum_absolute_score": 0.08205443415982393,
+          "orbit_count": 252,
+          "shell": [
+            "D",
+            2
+          ],
+          "signed_delta": -0.0006935435446871797,
+          "stationary_mass": 0.14905500703390548
+        },
+        {
+          "absolute_delta": 0.0019487327988503284,
+          "conditional_RMS_score": 0.036615754769575015,
+          "k_squared_absolute_delta": 0.1578473567068766,
+          "k_times_conditional_RMS_score": 0.32954179292617514,
+          "k_times_maximum_absolute_score": 0.7961512446348809,
+          "maximum_absolute_score": 0.08846124940387565,
+          "orbit_count": 216,
+          "shell": [
+            "D",
+            3
+          ],
+          "signed_delta": -0.00042977299423543815,
+          "stationary_mass": 0.06509462722950686
+        },
+        {
+          "absolute_delta": 0.0016159203575051213,
+          "conditional_RMS_score": 0.05403136469477286,
+          "k_squared_absolute_delta": 0.13088954895791483,
+          "k_times_conditional_RMS_score": 0.4862822822529558,
+          "k_times_maximum_absolute_score": 1.0413185642381217,
+          "maximum_absolute_score": 0.11570206269312465,
+          "orbit_count": 180,
+          "shell": [
+            "D",
+            4
+          ],
+          "signed_delta": -0.0002377250563247849,
+          "stationary_mass": 0.035123541892427564
+        },
+        {
+          "absolute_delta": 0.0013139954685665765,
+          "conditional_RMS_score": 0.07311738149569712,
+          "k_squared_absolute_delta": 0.1064336329538927,
+          "k_times_conditional_RMS_score": 0.6580564334612741,
+          "k_times_maximum_absolute_score": 1.3386338354712177,
+          "maximum_absolute_score": 0.1487370928301353,
+          "orbit_count": 144,
+          "shell": [
+            "D",
+            5
+          ],
+          "signed_delta": -3.508034265043236e-05,
+          "stationary_mass": 0.020851491677112824
+        },
+        {
+          "absolute_delta": 0.001006145241730703,
+          "conditional_RMS_score": 0.09236677498103026,
+          "k_squared_absolute_delta": 0.08149776458018694,
+          "k_times_conditional_RMS_score": 0.8313009748292723,
+          "k_times_maximum_absolute_score": 1.770005706040599,
+          "maximum_absolute_score": 0.19666730067117766,
+          "orbit_count": 108,
+          "shell": [
+            "D",
+            6
+          ],
+          "signed_delta": 7.397321849267433e-05,
+          "stationary_mass": 0.012717360578140277
+        },
+        {
+          "absolute_delta": 0.0006747517576502062,
+          "conditional_RMS_score": 0.10696703556887156,
+          "k_squared_absolute_delta": 0.0546548923696667,
+          "k_times_conditional_RMS_score": 0.962703320119844,
+          "k_times_maximum_absolute_score": 2.197231383156011,
+          "maximum_absolute_score": 0.2441368203506679,
+          "orbit_count": 72,
+          "shell": [
+            "D",
+            7
+          ],
+          "signed_delta": 0.00010477261484055405,
+          "stationary_mass": 0.007387513208074374
+        },
+        {
+          "absolute_delta": 0.0003270525539566307,
+          "conditional_RMS_score": 0.10730536607870747,
+          "k_squared_absolute_delta": 0.026491256870487086,
+          "k_times_conditional_RMS_score": 0.9657482947083672,
+          "k_times_maximum_absolute_score": 1.797933939116417,
+          "maximum_absolute_score": 0.1997704376796019,
+          "orbit_count": 36,
+          "shell": [
+            "D",
+            8
+          ],
+          "signed_delta": 9.863763301382964e-05,
+          "stationary_mass": 0.003409629038162177
+        },
+        {
+          "absolute_delta": 3.295538751005391e-05,
+          "conditional_RMS_score": 0.10624855817669696,
+          "k_squared_absolute_delta": 0.002669386388314367,
+          "k_times_conditional_RMS_score": 0.9562370235902726,
+          "k_times_maximum_absolute_score": 1.3749740873181016,
+          "maximum_absolute_score": 0.15277489859090018,
+          "orbit_count": 4,
+          "shell": [
+            "D",
+            9
+          ],
+          "signed_delta": 4.861072110244513e-06,
+          "stationary_mass": 0.0003677870600332088
+        }
+      ],
+      "score_envelope_by_minimum_residual_size": [
+        {
+          "absolute_delta": 0.006001155744627736,
+          "conditional_RMS_score": 0.012094728544941208,
+          "k_squared_absolute_delta": 0.4860936153148466,
+          "k_times_conditional_RMS_score": 0.10885255690447086,
+          "k_times_maximum_absolute_score": 0.3940546323602886,
+          "maximum_absolute_score": 0.04378384804003207,
+          "orbit_count": 312,
+          "shell": 1,
+          "signed_delta": 0.0022151900662922396,
+          "stationary_mass": 0.6692421725679669
+        },
+        {
+          "absolute_delta": 0.0027280375896424924,
+          "conditional_RMS_score": 0.022009871972386776,
+          "k_squared_absolute_delta": 0.22097104476104187,
+          "k_times_conditional_RMS_score": 0.19808884775148097,
+          "k_times_maximum_absolute_score": 0.7384899074384154,
+          "maximum_absolute_score": 0.08205443415982393,
+          "orbit_count": 273,
+          "shell": 2,
+          "signed_delta": -0.000790348834629154,
+          "stationary_mass": 0.16768688291314365
+        },
+        {
+          "absolute_delta": 0.0022041409486723315,
+          "conditional_RMS_score": 0.03708707097818085,
+          "k_squared_absolute_delta": 0.17853541684245886,
+          "k_times_conditional_RMS_score": 0.33378363880362766,
+          "k_times_maximum_absolute_score": 0.7961512446348809,
+          "maximum_absolute_score": 0.08846124940387565,
+          "orbit_count": 234,
+          "shell": 3,
+          "signed_delta": -0.0005145302943520168,
+          "stationary_mass": 0.07323145563319522
+        },
+        {
+          "absolute_delta": 0.001850907905487137,
+          "conditional_RMS_score": 0.05528068511634613,
+          "k_squared_absolute_delta": 0.1499235403444581,
+          "k_times_conditional_RMS_score": 0.4975261660471152,
+          "k_times_maximum_absolute_score": 1.0413185642381217,
+          "maximum_absolute_score": 0.11570206269312465,
+          "orbit_count": 195,
+          "shell": 4,
+          "signed_delta": -0.0003705440583583922,
+          "stationary_mass": 0.03951398462898101
+        },
+        {
+          "absolute_delta": 0.001522339279938103,
+          "conditional_RMS_score": 0.07614385832037997,
+          "k_squared_absolute_delta": 0.12330948167498634,
+          "k_times_conditional_RMS_score": 0.6852947248834197,
+          "k_times_maximum_absolute_score": 1.3447344454720391,
+          "maximum_absolute_score": 0.14941493838578213,
+          "orbit_count": 156,
+          "shell": 5,
+          "signed_delta": -0.00023872662721610428,
+          "stationary_mass": 0.02345792813675193
+        },
+        {
+          "absolute_delta": 0.0012254015060058675,
+          "conditional_RMS_score": 0.10032401705389865,
+          "k_squared_absolute_delta": 0.09925752198647526,
+          "k_times_conditional_RMS_score": 0.9029161534850878,
+          "k_times_maximum_absolute_score": 1.819648193275317,
+          "maximum_absolute_score": 0.20218313258614634,
+          "orbit_count": 117,
+          "shell": 6,
+          "signed_delta": -0.00014528304578249028,
+          "stationary_mass": 0.014307030650407811
+        },
+        {
+          "absolute_delta": 0.0008750419066327597,
+          "conditional_RMS_score": 0.12550554525729885,
+          "k_squared_absolute_delta": 0.07087839443725354,
+          "k_times_conditional_RMS_score": 1.1295499073156896,
+          "k_times_maximum_absolute_score": 2.5409366364522827,
+          "maximum_absolute_score": 0.2823262929391425,
+          "orbit_count": 78,
+          "shell": 7,
+          "signed_delta": -9.551753414199946e-05,
+          "stationary_mass": 0.00831095235908367
+        },
+        {
+          "absolute_delta": 0.00046771700202498693,
+          "conditional_RMS_score": 0.15046170844557163,
+          "k_squared_absolute_delta": 0.03788507716402394,
+          "k_times_conditional_RMS_score": 1.3541553760101448,
+          "k_times_maximum_absolute_score": 3.3073088023717867,
+          "maximum_absolute_score": 0.3674787558190874,
+          "orbit_count": 39,
+          "shell": 8,
+          "signed_delta": -4.2026815054526604e-05,
+          "stationary_mass": 0.0038358326679324493
+        },
+        {
+          "absolute_delta": 5.6029316377799035e-05,
+          "conditional_RMS_score": 0.1949960733501741,
+          "k_squared_absolute_delta": 0.004538374626601721,
+          "k_times_conditional_RMS_score": 1.754964660151567,
+          "k_times_maximum_absolute_score": 4.517078111251772,
+          "maximum_absolute_score": 0.5018975679168636,
+          "orbit_count": 5,
+          "shell": 9,
+          "signed_delta": -1.8212856757500612e-05,
+          "stationary_mass": 0.00041376044253735994
+        }
+      ],
+      "top_BA2_orbits": [
+        {
+          "BA2_contribution": 1.897074799418942e-05,
+          "TV_contribution": 2.5812033612534688e-05,
+          "cycles": [
+            [
+              9,
+              18,
+              26
+            ]
+          ],
+          "delta": -5.1624067225069376e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.1244670775898768,
+          "k_squared_TV_contribution": 0.0020907747226153097,
+          "kind": "3",
+          "orbit": 1233,
+          "orbit_size": 27,
+          "posterior_score": -0.3674787558190874,
+          "residual_sizes": [
+            8,
+            9,
+            10
+          ],
+          "stationary_mass": 0.0001404817731844186,
+          "support_gaps": [
+            9,
+            8,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 1.8963435484708906e-05,
+          "TV_contribution": 2.5807058349220236e-05,
+          "cycles": [
+            [
+              9,
+              17,
+              26
+            ]
+          ],
+          "delta": -5.161411669844047e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.12441910021517513,
+          "k_squared_TV_contribution": 0.002090371726286839,
+          "kind": "3",
+          "orbit": 1225,
+          "orbit_size": 27,
+          "posterior_score": -0.3674079243766636,
+          "residual_sizes": [
+            8,
+            9,
+            10
+          ],
+          "stationary_mass": 0.0001404817731844186,
+          "support_gaps": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 1.1674300671559238e-05,
+          "TV_contribution": 2.0675192080100944e-05,
+          "cycles": [
+            [
+              9,
+              16,
+              26
+            ]
+          ],
+          "delta": -4.135038416020189e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.07659508670610016,
+          "k_squared_TV_contribution": 0.0016746905584881764,
+          "kind": "3",
+          "orbit": 1216,
+          "orbit_size": 27,
+          "posterior_score": -0.2823262929391425,
+          "residual_sizes": [
+            7,
+            10,
+            10
+          ],
+          "stationary_mass": 0.00014646310030045717,
+          "support_gaps": [
+            7,
+            10,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 1.1580748781007986e-05,
+          "TV_contribution": 1.1536964433872562e-05,
+          "cycles": [
+            [
+              8,
+              17,
+              26
+            ]
+          ],
+          "delta": -2.3073928867745125e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.0759812927521934,
+          "k_squared_TV_contribution": 0.0009344941191436776,
+          "kind": "3",
+          "orbit": 1348,
+          "orbit_size": 9,
+          "posterior_score": -0.5018975679168636,
+          "residual_sizes": [
+            9,
+            9,
+            9
+          ],
+          "stationary_mass": 4.59733825041511e-05,
+          "support_gaps": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "BA2_contribution": 1.0598314610773137e-05,
+          "TV_contribution": 1.9846761029446668e-05,
+          "cycles": [
+            [
+              10,
+              19,
+              26
+            ]
+          ],
+          "delta": -3.9693522058893336e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.06953554216128255,
+          "k_squared_TV_contribution": 0.0016075876433851802,
+          "kind": "3",
+          "orbit": 1077,
+          "orbit_size": 27,
+          "posterior_score": -0.26700363336487004,
+          "residual_sizes": [
+            7,
+            9,
+            11
+          ],
+          "stationary_mass": 0.0001486628536048823,
+          "support_gaps": [
+            9,
+            7,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 1.0510535710635363e-05,
+          "TV_contribution": 1.9764401278935017e-05,
+          "cycles": [
+            [
+              10,
+              17,
+              26
+            ]
+          ],
+          "delta": -3.952880255787003e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.06895962479747862,
+          "k_squared_TV_contribution": 0.0016009165035937363,
+          "kind": "3",
+          "orbit": 1062,
+          "orbit_size": 27,
+          "posterior_score": -0.26589562623982793,
+          "residual_sizes": [
+            7,
+            9,
+            11
+          ],
+          "stationary_mass": 0.0001486628536048823,
+          "support_gaps": [
+            7,
+            9,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 9.644205752542111e-06,
+          "TV_contribution": 1.8713132072423197e-05,
+          "cycles": [
+            [
+              10,
+              18,
+              26
+            ]
+          ],
+          "delta": -3.7426264144846394e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.06327563394242879,
+          "k_squared_TV_contribution": 0.001515763697866279,
+          "kind": "3",
+          "orbit": 1070,
+          "orbit_size": 27,
+          "posterior_score": -0.2576855043617844,
+          "residual_sizes": [
+            8,
+            8,
+            11
+          ],
+          "stationary_mass": 0.00014524008340143494,
+          "support_gaps": [
+            8,
+            8,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 6.531580495655412e-06,
+          "TV_contribution": 1.615263452521795e-05,
+          "cycles": [
+            [
+              10,
+              20,
+              26
+            ]
+          ],
+          "delta": -3.23052690504359e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.04285369963199515,
+          "k_squared_TV_contribution": 0.0013083633965426539,
+          "kind": "3",
+          "orbit": 1083,
+          "orbit_size": 27,
+          "posterior_score": -0.20218313258614634,
+          "residual_sizes": [
+            6,
+            10,
+            11
+          ],
+          "stationary_mass": 0.0001597822164352471,
+          "support_gaps": [
+            10,
+            6,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 6.529015681521945e-06,
+          "TV_contribution": 1.637083845626036e-05,
+          "cycles": [
+            [
+              11,
+              20,
+              26
+            ]
+          ],
+          "delta": -3.274167691252072e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.04283687188646548,
+          "k_squared_TV_contribution": 0.0013260379149570892,
+          "kind": "3",
+          "orbit": 902,
+          "orbit_size": 27,
+          "posterior_score": -0.19940993550715752,
+          "residual_sizes": [
+            6,
+            9,
+            12
+          ],
+          "stationary_mass": 0.00016419280628745557,
+          "support_gaps": [
+            9,
+            6,
+            12
+          ]
+        },
+        {
+          "BA2_contribution": 6.498617553655897e-06,
+          "TV_contribution": 1.611182420218256e-05,
+          "cycles": [
+            [
+              10,
+              16,
+              26
+            ]
+          ],
+          "delta": -3.222364840436512e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.04263742976953634,
+          "k_squared_TV_contribution": 0.0013050577603767872,
+          "kind": "3",
+          "orbit": 1053,
+          "orbit_size": 27,
+          "posterior_score": -0.2016723082410362,
+          "residual_sizes": [
+            6,
+            10,
+            11
+          ],
+          "stationary_mass": 0.0001597822164352471,
+          "support_gaps": [
+            6,
+            10,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 6.449049464564215e-06,
+          "TV_contribution": 1.6270276038480504e-05,
+          "cycles": [
+            [
+              11,
+              17,
+              26
+            ]
+          ],
+          "delta": -3.254055207696101e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.042312213537005816,
+          "k_squared_TV_contribution": 0.0013178923591169209,
+          "kind": "3",
+          "orbit": 881,
+          "orbit_size": 27,
+          "posterior_score": -0.19818500464625485,
+          "residual_sizes": [
+            6,
+            9,
+            12
+          ],
+          "stationary_mass": 0.00016419280628745557,
+          "support_gaps": [
+            6,
+            9,
+            12
+          ]
+        },
+        {
+          "BA2_contribution": 5.907146937197344e-06,
+          "TV_contribution": 1.2098025461117594e-05,
+          "cycles": [
+            [
+              9,
+              16
+            ],
+            [
+              17,
+              26
+            ]
+          ],
+          "delta": -2.419605092223519e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.03875679105495178,
+          "k_squared_TV_contribution": 0.0009799400623505252,
+          "kind": "D",
+          "orbit": 1215,
+          "orbit_size": 27,
+          "posterior_score": -0.2441368203506679,
+          "residual_sizes": [
+            7,
+            9,
+            11
+          ],
+          "stationary_mass": 9.910856906992152e-05,
+          "support_gaps": [
+            7,
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 5.793588562657921e-06,
+          "TV_contribution": 1.1981175570711851e-05,
+          "cycles": [
+            [
+              9,
+              18
+            ],
+            [
+              19,
+              26
+            ]
+          ],
+          "delta": -2.3962351141423703e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.038011734559598616,
+          "k_squared_TV_contribution": 0.0009704752212276599,
+          "kind": "D",
+          "orbit": 1232,
+          "orbit_size": 27,
+          "posterior_score": -0.24177880244157457,
+          "residual_sizes": [
+            7,
+            9,
+            11
+          ],
+          "stationary_mass": 9.910856906992152e-05,
+          "support_gaps": [
+            9,
+            1,
+            7,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 5.4044092761588615e-06,
+          "TV_contribution": 1.4499543459932707e-05,
+          "cycles": [
+            [
+              11,
+              19,
+              26
+            ]
+          ],
+          "delta": -2.8999086919865414e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.03545832926087829,
+          "k_squared_TV_contribution": 0.0011744630202545493,
+          "kind": "3",
+          "orbit": 896,
+          "orbit_size": 27,
+          "posterior_score": -0.18636480835045352,
+          "residual_sizes": [
+            7,
+            8,
+            12
+          ],
+          "stationary_mass": 0.00015560387809555485,
+          "support_gaps": [
+            8,
+            7,
+            12
+          ]
+        },
+        {
+          "BA2_contribution": 5.37540185053654e-06,
+          "TV_contribution": 1.4460578949902973e-05,
+          "cycles": [
+            [
+              11,
+              18,
+              26
+            ]
+          ],
+          "delta": -2.8921157899805945e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.03526801154137024,
+          "k_squared_TV_contribution": 0.0011713068949421408,
+          "kind": "3",
+          "orbit": 889,
+          "orbit_size": 27,
+          "posterior_score": -0.185863991654795,
+          "residual_sizes": [
+            7,
+            8,
+            12
+          ],
+          "stationary_mass": 0.00015560387809555485,
+          "support_gaps": [
+            7,
+            8,
+            12
+          ]
+        },
+        {
+          "BA2_contribution": 4.263834609391435e-06,
+          "TV_contribution": 1.4268434787900595e-05,
+          "cycles": [
+            [
+              12,
+              21,
+              26
+            ]
+          ],
+          "delta": -2.853686957580119e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.027975018872217206,
+          "k_squared_TV_contribution": 0.0011557432178199482,
+          "kind": "3",
+          "orbit": 730,
+          "orbit_size": 27,
+          "posterior_score": -0.14941493838578213,
+          "residual_sizes": [
+            5,
+            9,
+            13
+          ],
+          "stationary_mass": 0.00019099073950772162,
+          "support_gaps": [
+            9,
+            5,
+            13
+          ]
+        },
+        {
+          "BA2_contribution": 4.23376921330711e-06,
+          "TV_contribution": 1.0763785334059819e-05,
+          "cycles": [
+            [
+              10,
+              16
+            ],
+            [
+              17,
+              26
+            ]
+          ],
+          "delta": -2.1527570668119638e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.027777759808507947,
+          "k_squared_TV_contribution": 0.0008718666120588453,
+          "kind": "D",
+          "orbit": 1052,
+          "orbit_size": 27,
+          "posterior_score": -0.19666730067117766,
+          "residual_sizes": [
+            6,
+            9,
+            12
+          ],
+          "stationary_mass": 0.00010946187085830372,
+          "support_gaps": [
+            6,
+            1,
+            9,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 4.202020338438325e-06,
+          "TV_contribution": 1.4164629997504545e-05,
+          "cycles": [
+            [
+              12,
+              17,
+              26
+            ]
+          ],
+          "delta": -2.832925999500909e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.02756945544049385,
+          "k_squared_TV_contribution": 0.0011473350297978681,
+          "kind": "3",
+          "orbit": 704,
+          "orbit_size": 27,
+          "posterior_score": -0.14832792452674784,
+          "residual_sizes": [
+            5,
+            9,
+            13
+          ],
+          "stationary_mass": 0.00019099073950772162,
+          "support_gaps": [
+            5,
+            9,
+            13
+          ]
+        },
+        {
+          "BA2_contribution": 4.200971871054171e-06,
+          "TV_contribution": 1.0722012875723223e-05,
+          "cycles": [
+            [
+              10,
+              19
+            ],
+            [
+              20,
+              26
+            ]
+          ],
+          "delta": -2.1444025751446446e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.02756257644598642,
+          "k_squared_TV_contribution": 0.000868483042933581,
+          "kind": "D",
+          "orbit": 1076,
+          "orbit_size": 27,
+          "posterior_score": -0.19590406762922336,
+          "residual_sizes": [
+            6,
+            9,
+            12
+          ],
+          "stationary_mass": 0.00010946187085830372,
+          "support_gaps": [
+            9,
+            1,
+            6,
+            11
+          ]
+        },
+        {
+          "BA2_contribution": 3.9673681331304895e-06,
+          "TV_contribution": 1.3507214217957491e-05,
+          "cycles": [
+            [
+              11,
+              21,
+              26
+            ]
+          ],
+          "delta": -2.7014428435914983e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.02602990232146914,
+          "k_squared_TV_contribution": 0.0010940843516545568,
+          "kind": "3",
+          "orbit": 907,
+          "orbit_size": 27,
+          "posterior_score": -0.14686107990558026,
+          "residual_sizes": [
+            5,
+            10,
+            12
+          ],
+          "stationary_mass": 0.00018394545684454361,
+          "support_gaps": [
+            10,
+            5,
+            12
+          ]
+        }
+      ],
+      "top_TV_orbits": [
+        {
+          "BA2_contribution": 1.075606474810415e-06,
+          "TV_contribution": 7.133493427758687e-05,
+          "cycles": [
+            [
+              24,
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00014266986855517375,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.007057054081231133,
+          "k_squared_TV_contribution": 0.005778129676484537,
+          "kind": "3",
+          "orbit": 0,
+          "orbit_size": 27,
+          "posterior_score": 0.007539128518888716,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.018923920476713613,
+          "support_gaps": [
+            1,
+            1,
+            25
+          ]
+        },
+        {
+          "BA2_contribution": 1.5881044665392785e-06,
+          "TV_contribution": 7.077330315109764e-05,
+          "cycles": [
+            [
+              12,
+              13
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.0001415466063021953,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.010419553404964206,
+          "k_squared_TV_contribution": 0.005732637555238909,
+          "kind": "D",
+          "orbit": 650,
+          "orbit_size": 27,
+          "posterior_score": 0.011219657666314874,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            12,
+            1,
+            13
+          ]
+        },
+        {
+          "BA2_contribution": 1.5587061763255634e-06,
+          "TV_contribution": 7.011518110384193e-05,
+          "cycles": [
+            [
+              13,
+              14
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00014023036220768385,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.01022667122287202,
+          "k_squared_TV_contribution": 0.005679329669411196,
+          "kind": "D",
+          "orbit": 506,
+          "orbit_size": 27,
+          "posterior_score": 0.0111153258950946,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            11,
+            1,
+            14
+          ]
+        },
+        {
+          "BA2_contribution": 1.503854802177516e-06,
+          "TV_contribution": 6.887044441671042e-05,
+          "cycles": [
+            [
+              14,
+              15
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00013774088883342084,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.009866791357086683,
+          "k_squared_TV_contribution": 0.005578505997753544,
+          "kind": "D",
+          "orbit": 385,
+          "orbit_size": 27,
+          "posterior_score": 0.010917998387510239,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            10,
+            1,
+            15
+          ]
+        },
+        {
+          "BA2_contribution": 1.4295406933611255e-06,
+          "TV_contribution": 6.714724417203333e-05,
+          "cycles": [
+            [
+              15,
+              16
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00013429448834406665,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.009379216489142344,
+          "k_squared_TV_contribution": 0.0054389267779346995,
+          "kind": "D",
+          "orbit": 285,
+          "orbit_size": 27,
+          "posterior_score": 0.010644820282561394,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            9,
+            1,
+            16
+          ]
+        },
+        {
+          "BA2_contribution": 1.2662715528364776e-06,
+          "TV_contribution": 6.319654812277087e-05,
+          "cycles": [
+            [
+              23,
+              24
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00012639309624554174,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.00830800765816013,
+          "k_squared_TV_contribution": 0.00511892039794444,
+          "kind": "D",
+          "orbit": 1,
+          "orbit_size": 27,
+          "posterior_score": 0.010018518340404552,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            1,
+            1,
+            24
+          ]
+        },
+        {
+          "BA2_contribution": 1.2315451413607134e-06,
+          "TV_contribution": 6.232396852815826e-05,
+          "cycles": [
+            [
+              22,
+              23
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00012464793705631652,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.00808016767246764,
+          "k_squared_TV_contribution": 0.005048241450780819,
+          "kind": "D",
+          "orbit": 5,
+          "orbit_size": 27,
+          "posterior_score": 0.009880188717477896,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            2,
+            1,
+            23
+          ]
+        },
+        {
+          "BA2_contribution": 1.1823408898057804e-06,
+          "TV_contribution": 6.106625496820565e-05,
+          "cycles": [
+            [
+              21,
+              22
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.0001221325099364113,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.0077573385780157255,
+          "k_squared_TV_contribution": 0.0049463666524246575,
+          "kind": "D",
+          "orbit": 14,
+          "orbit_size": 27,
+          "posterior_score": 0.009680803992494467,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            3,
+            1,
+            22
+          ]
+        },
+        {
+          "BA2_contribution": 1.1016545624696485e-06,
+          "TV_contribution": 5.894577074592143e-05,
+          "cycles": [
+            [
+              20,
+              21
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00011789154149184286,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.0072279555843633644,
+          "k_squared_TV_contribution": 0.004774607430419636,
+          "kind": "D",
+          "orbit": 30,
+          "orbit_size": 27,
+          "posterior_score": 0.00934464464989521,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            4,
+            1,
+            21
+          ]
+        },
+        {
+          "BA2_contribution": 9.744237703995956e-07,
+          "TV_contribution": 5.5437529318536245e-05,
+          "cycles": [
+            [
+              19,
+              20
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00011087505863707249,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.006393194357591747,
+          "k_squared_TV_contribution": 0.004490439874801436,
+          "kind": "D",
+          "orbit": 55,
+          "orbit_size": 27,
+          "posterior_score": 0.008788484825872142,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            5,
+            1,
+            20
+          ]
+        },
+        {
+          "BA2_contribution": 9.310492954602117e-07,
+          "TV_contribution": 5.4189640503189175e-05,
+          "cycles": [
+            [
+              16,
+              17
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 0.00010837928100637835,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.006108614427514449,
+          "k_squared_TV_contribution": 0.004389360880758323,
+          "kind": "D",
+          "orbit": 204,
+          "orbit_size": 27,
+          "posterior_score": 0.008590657612919737,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            8,
+            1,
+            17
+          ]
+        },
+        {
+          "BA2_contribution": 7.778198327290138e-07,
+          "TV_contribution": 4.953012662305394e-05,
+          "cycles": [
+            [
+              18,
+              19
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 9.906025324610788e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.00510327592253506,
+          "k_squared_TV_contribution": 0.004011940256467369,
+          "kind": "D",
+          "orbit": 91,
+          "orbit_size": 27,
+          "posterior_score": 0.007851987121379326,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            6,
+            1,
+            19
+          ]
+        },
+        {
+          "BA2_contribution": 4.541547614753634e-07,
+          "TV_contribution": 3.784703552961715e-05,
+          "cycles": [
+            [
+              17,
+              18
+            ],
+            [
+              25,
+              26
+            ]
+          ],
+          "delta": 7.56940710592343e-05,
+          "double_color": "S",
+          "k_fourth_BA2_contribution": 0.0029797093900398594,
+          "k_squared_TV_contribution": 0.003065609877898989,
+          "kind": "D",
+          "orbit": 140,
+          "orbit_size": 27,
+          "posterior_score": 0.005999872316551255,
+          "residual_sizes": [
+            1,
+            1,
+            25
+          ],
+          "stationary_mass": 0.012615946984475743,
+          "support_gaps": [
+            1,
+            7,
+            1,
+            18
+          ]
+        },
+        {
+          "BA2_contribution": 1.897074799418942e-05,
+          "TV_contribution": 2.5812033612534688e-05,
+          "cycles": [
+            [
+              9,
+              18,
+              26
+            ]
+          ],
+          "delta": -5.1624067225069376e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.1244670775898768,
+          "k_squared_TV_contribution": 0.0020907747226153097,
+          "kind": "3",
+          "orbit": 1233,
+          "orbit_size": 27,
+          "posterior_score": -0.3674787558190874,
+          "residual_sizes": [
+            8,
+            9,
+            10
+          ],
+          "stationary_mass": 0.0001404817731844186,
+          "support_gaps": [
+            9,
+            8,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 1.8963435484708906e-05,
+          "TV_contribution": 2.5807058349220236e-05,
+          "cycles": [
+            [
+              9,
+              17,
+              26
+            ]
+          ],
+          "delta": -5.161411669844047e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.12441910021517513,
+          "k_squared_TV_contribution": 0.002090371726286839,
+          "kind": "3",
+          "orbit": 1225,
+          "orbit_size": 27,
+          "posterior_score": -0.3674079243766636,
+          "residual_sizes": [
+            8,
+            9,
+            10
+          ],
+          "stationary_mass": 0.0001404817731844186,
+          "support_gaps": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "BA2_contribution": 1.6770008803919514e-06,
+          "TV_contribution": 2.3709946659179445e-05,
+          "cycles": [
+            [
+              16,
+              17,
+              26
+            ]
+          ],
+          "delta": -4.741989331835889e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.011002802776251593,
+          "k_squared_TV_contribution": 0.001920505679393535,
+          "kind": "3",
+          "orbit": 212,
+          "orbit_size": 27,
+          "posterior_score": -0.035364923095318114,
+          "residual_sizes": [
+            1,
+            9,
+            17
+          ],
+          "stationary_mass": 0.0013408736445021906,
+          "support_gaps": [
+            1,
+            9,
+            17
+          ]
+        },
+        {
+          "BA2_contribution": 1.6177402649415867e-06,
+          "TV_contribution": 2.3287256627338936e-05,
+          "cycles": [
+            [
+              16,
+              25,
+              26
+            ]
+          ],
+          "delta": -4.657451325467787e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.01061399387828175,
+          "k_squared_TV_contribution": 0.001886267786814454,
+          "kind": "3",
+          "orbit": 248,
+          "orbit_size": 27,
+          "posterior_score": -0.034734453500254316,
+          "residual_sizes": [
+            1,
+            9,
+            17
+          ],
+          "stationary_mass": 0.0013408736445021906,
+          "support_gaps": [
+            9,
+            1,
+            17
+          ]
+        },
+        {
+          "BA2_contribution": 1.1583639721366177e-06,
+          "TV_contribution": 2.1865266116361513e-05,
+          "cycles": [
+            [
+              18,
+              25,
+              26
+            ]
+          ],
+          "delta": 4.3730532232723026e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.007600026021188349,
+          "k_squared_TV_contribution": 0.0017710865554252824,
+          "kind": "3",
+          "orbit": 118,
+          "orbit_size": 27,
+          "posterior_score": 0.026488677658256993,
+          "residual_sizes": [
+            1,
+            7,
+            19
+          ],
+          "stationary_mass": 0.0016509141300638478,
+          "support_gaps": [
+            7,
+            1,
+            19
+          ]
+        },
+        {
+          "BA2_contribution": 1.1453398523720169e-06,
+          "TV_contribution": 2.174199706792251e-05,
+          "cycles": [
+            [
+              18,
+              19,
+              26
+            ]
+          ],
+          "delta": 4.348399413584502e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.007514574771412803,
+          "k_squared_TV_contribution": 0.0017611017625017234,
+          "kind": "3",
+          "orbit": 97,
+          "orbit_size": 27,
+          "posterior_score": 0.026339343363766175,
+          "residual_sizes": [
+            1,
+            7,
+            19
+          ],
+          "stationary_mass": 0.0016509141300638478,
+          "support_gaps": [
+            1,
+            7,
+            19
+          ]
+        },
+        {
+          "BA2_contribution": 1.1674300671559238e-05,
+          "TV_contribution": 2.0675192080100944e-05,
+          "cycles": [
+            [
+              9,
+              16,
+              26
+            ]
+          ],
+          "delta": -4.135038416020189e-05,
+          "double_color": null,
+          "k_fourth_BA2_contribution": 0.07659508670610016,
+          "k_squared_TV_contribution": 0.0016746905584881764,
+          "kind": "3",
+          "orbit": 1216,
+          "orbit_size": 27,
+          "posterior_score": -0.2823262929391425,
+          "residual_sizes": [
+            7,
+            10,
+            10
+          ],
+          "stationary_mass": 0.00014646310030045717,
+          "support_gaps": [
+            7,
+            10,
+            10
+          ]
+        }
+      ]
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_falsification_diagnostic_only",
+  "target": "balanced localized BA2 and direct signed L1"
+}

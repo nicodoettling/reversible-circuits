@@ -1,0 +1,72 @@
+{
+  "N": 6,
+  "claim_tested": "Every w in F_N has a positive one-step r<=5 macro exit.",
+  "convention": "(pq)(x)=p(q(x)); R(a,b)=(b,bab)",
+  "m": 10,
+  "purpose": "Exact witness search; nonfinding is empirical only.",
+  "python": "3.12.3",
+  "result": {
+    "all_length_5_complements_connected": true,
+    "found": true,
+    "full_support_verified": true,
+    "identity_product_verified": true,
+    "step": 45,
+    "word_edge_indices": [
+      0,
+      10,
+      2,
+      1,
+      13,
+      8,
+      12,
+      9,
+      3,
+      4
+    ],
+    "word_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "zero_macro_exit_implication": "Every r<=5 window is contained in a length-5 interval; the unchanged complement already connects all labels."
+  },
+  "seed": 290731,
+  "steps": 200000
+}

@@ -1,0 +1,100 @@
+{
+  "finite_only": true,
+  "method": "exact literal interval-kernel reconstruction",
+  "mission": "M199",
+  "parameters": {
+    "k": [
+      3,
+      5,
+      7,
+      9
+    ],
+    "seed": null
+  },
+  "python": "3.12.3",
+  "results": [
+    {
+      "disjoint_collision_events": {
+        "A": 10,
+        "B": 4
+      },
+      "disjoint_masses": {
+        "A": "2/3",
+        "B": "2/5"
+      },
+      "finite_max_DV_ratio": {
+        "X": 0.34641016151377546,
+        "Y": 0.17320508075688773
+      },
+      "finite_max_pointwise_embedding_ratio": {
+        "X": 0.95,
+        "Y": 0.565685424949238
+      },
+      "k": 3,
+      "literal_formula_assertions": 18
+    },
+    {
+      "disjoint_collision_events": {
+        "A": 72,
+        "B": 60
+      },
+      "disjoint_masses": {
+        "A": "26/35",
+        "B": "2/3"
+      },
+      "finite_max_DV_ratio": {
+        "X": 0.874638765112015,
+        "Y": 1.0482326144422363
+      },
+      "finite_max_pointwise_embedding_ratio": {
+        "X": 0.8945687424783784,
+        "Y": 0.6814216298764404
+      },
+      "k": 5,
+      "literal_formula_assertions": 72
+    },
+    {
+      "disjoint_collision_events": {
+        "A": 234,
+        "B": 236
+      },
+      "disjoint_masses": {
+        "A": "62/77",
+        "B": "10/13"
+      },
+      "finite_max_DV_ratio": {
+        "X": 1.125882403836465,
+        "Y": 1.245290506287755
+      },
+      "finite_max_pointwise_embedding_ratio": {
+        "X": 0.8634684729130359,
+        "Y": 0.7471959567121269
+      },
+      "k": 7,
+      "literal_formula_assertions": 162
+    },
+    {
+      "disjoint_collision_events": {
+        "A": 544,
+        "B": 600
+      },
+      "disjoint_masses": {
+        "A": "38/45",
+        "B": "14/17"
+      },
+      "finite_max_DV_ratio": {
+        "X": 1.2427734326952649,
+        "Y": 1.3330557034574593
+      },
+      "finite_max_pointwise_embedding_ratio": {
+        "X": 1.0050586308308924,
+        "Y": 0.8225613064065403
+      },
+      "k": 9,
+      "literal_formula_assertions": 288
+    }
+  ],
+  "standard_library_only": true,
+  "status": "all exact profile-formula assertions passed; IKBE/DV/DE open",
+  "universal_inference": false
+}

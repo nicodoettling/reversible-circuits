@@ -1,0 +1,59 @@
+{
+  "claim_tested": "Monte Carlo diagnostic of total prefix-hit row probability in Z_L^2 voltage lifts.",
+  "commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "convention": "same as voltage_lift_audit.py",
+  "nonstandard_dependencies": {},
+  "python": "3.12.3",
+  "results": [
+    {
+      "L": 1,
+      "d": 8,
+      "elapsed_seconds": 0.7661550045013428,
+      "first_depth_hist": {
+        "2": 29,
+        "3": 87,
+        "4": 106,
+        "5": 141,
+        "6": 153,
+        "7": 170,
+        "8": 159,
+        "9": 116,
+        "10": 124,
+        "11": 74,
+        "12": 33
+      },
+      "first_depth_mean": 6.981543624161074,
+      "first_depth_min": 2,
+      "hit_fraction": 0.0596,
+      "hits": 1192,
+      "k": 16,
+      "trials": 20000
+    },
+    {
+      "L": 2,
+      "d": 32,
+      "elapsed_seconds": 5.016538381576538,
+      "first_depth_hist": {},
+      "first_depth_mean": null,
+      "first_depth_min": null,
+      "hit_fraction": 0.0,
+      "hits": 0,
+      "k": 64,
+      "trials": 10000
+    },
+    {
+      "L": 3,
+      "d": 72,
+      "elapsed_seconds": 4.4283061027526855,
+      "first_depth_hist": {},
+      "first_depth_mean": null,
+      "first_depth_min": null,
+      "hit_fraction": 0.0,
+      "hits": 0,
+      "k": 144,
+      "trials": 2000
+    }
+  ],
+  "scope_warning": "Monte Carlo cannot certify a positive lower bound or an asymptotic decay.",
+  "seed": 7808
+}

@@ -1,0 +1,81 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "claim_tested": "Exact bounded eliminated reset substochasticity and W=(1-q)K/(R+1) superharmonicity",
+  "convention": "(pq)(x)=p(q(x)); factors left-to-right",
+  "finite_scope_warning": "No bounded scan proves a universal inequality.",
+  "parameters": {
+    "k_max": 1,
+    "s_max": 11
+  },
+  "python": "3.12.3",
+  "result": {
+    "contexts": 65,
+    "failure_counts": {
+      "eliminated_W_over_W": 0,
+      "right_heavy_unweighted_eliminated_row": 0,
+      "row_over_u_one_minus_q": 0,
+      "unweighted_eliminated_row": 0
+    },
+    "first_failures": {
+      "eliminated_W_over_W": [],
+      "right_heavy_unweighted_eliminated_row": [],
+      "row_over_u_one_minus_q": [],
+      "unweighted_eliminated_row": []
+    },
+    "maxima": {
+      "eliminated_W_over_W": {
+        "context": [
+          11,
+          1,
+          0,
+          5
+        ],
+        "decimal": 0.5391499615007582,
+        "exact": "369415041873682908150614323148480891664502126021893041639180381877247723/685180503111588118552571661898695660247555243568148903962345472000000000"
+      },
+      "right_heavy_unweighted_eliminated_row": {
+        "context": [
+          11,
+          1,
+          0,
+          4
+        ],
+        "decimal": 0.6326217018871967,
+        "exact": "18615667628666856375237627759295775559821033754032171180303074993127/29426223560041942839209904327305555354645086863360000000000000000000"
+      },
+      "row_over_u_one_minus_q": {
+        "context": [
+          11,
+          1,
+          0,
+          4
+        ],
+        "decimal": 0.6947437905621655,
+        "exact": "18615667628666856375237627759295775559821033754032171180303074993127/26795011170382144058688163148823729544343031644160000000000000000000"
+      },
+      "unweighted_eliminated_row": {
+        "context": [
+          11,
+          1,
+          0,
+          4
+        ],
+        "decimal": 0.6326217018871967,
+        "exact": "18615667628666856375237627759295775559821033754032171180303074993127/29426223560041942839209904327305555354645086863360000000000000000000"
+      }
+    },
+    "raw_constant_first_failure": {
+      "context": [
+        10,
+        1,
+        0,
+        3
+      ],
+      "deep_row": "1273609/2097152",
+      "raw_row": "27396361009477071711674511440608835091743093/27307547584836958500442302974294753280000000",
+      "reset_row": "10812375503430483825441266998246733331743093/27307547584836958500442302974294753280000000"
+    },
+    "reachable_closure": "(K,R)=(1,0) or K>R>=1"
+  },
+  "seed": null
+}

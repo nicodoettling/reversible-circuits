@@ -1,0 +1,459 @@
+{
+  "status": "complete",
+  "deterministic": true,
+  "seed": null,
+  "python": "3.12.3",
+  "composition": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "claim_falsified_if_mismatch": "for the endpoint made of 2l disjoint transpositions, mu_l=1/(l-1)",
+  "scope_warning": "Finite rational substitution checks formulas only; the universal geodesic and Kneser-spectrum proof is separate.",
+  "records": [
+    {
+      "length": 3,
+      "atom_count": 6,
+      "kappa_standard": "-1/2",
+      "kappa_two_row": "1/6",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/2",
+        "two_row_once": "4/9",
+        "two_row_orthogonal": "5/18",
+        "antisymmetric": "1/3"
+      },
+      "mu": "1/2",
+      "claimed_mu": "1/2",
+      "matches": true
+    },
+    {
+      "length": 4,
+      "atom_count": 8,
+      "kappa_standard": "-1/3",
+      "kappa_two_row": "1/15",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/3",
+        "two_row_once": "3/10",
+        "two_row_orthogonal": "7/30",
+        "antisymmetric": "1/4"
+      },
+      "mu": "1/3",
+      "claimed_mu": "1/3",
+      "matches": true
+    },
+    {
+      "length": 5,
+      "atom_count": 10,
+      "kappa_standard": "-1/4",
+      "kappa_two_row": "1/28",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/4",
+        "two_row_once": "8/35",
+        "two_row_orthogonal": "27/140",
+        "antisymmetric": "1/5"
+      },
+      "mu": "1/4",
+      "claimed_mu": "1/4",
+      "matches": true
+    },
+    {
+      "length": 6,
+      "atom_count": 12,
+      "kappa_standard": "-1/5",
+      "kappa_two_row": "1/45",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/5",
+        "two_row_once": "5/27",
+        "two_row_orthogonal": "22/135",
+        "antisymmetric": "1/6"
+      },
+      "mu": "1/5",
+      "claimed_mu": "1/5",
+      "matches": true
+    },
+    {
+      "length": 7,
+      "atom_count": 14,
+      "kappa_standard": "-1/6",
+      "kappa_two_row": "1/66",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/6",
+        "two_row_once": "12/77",
+        "two_row_orthogonal": "65/462",
+        "antisymmetric": "1/7"
+      },
+      "mu": "1/6",
+      "claimed_mu": "1/6",
+      "matches": true
+    },
+    {
+      "length": 8,
+      "atom_count": 16,
+      "kappa_standard": "-1/7",
+      "kappa_two_row": "1/91",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/7",
+        "two_row_once": "7/52",
+        "two_row_orthogonal": "45/364",
+        "antisymmetric": "1/8"
+      },
+      "mu": "1/7",
+      "claimed_mu": "1/7",
+      "matches": true
+    },
+    {
+      "length": 9,
+      "atom_count": 18,
+      "kappa_standard": "-1/8",
+      "kappa_two_row": "1/120",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/8",
+        "two_row_once": "16/135",
+        "two_row_orthogonal": "119/1080",
+        "antisymmetric": "1/9"
+      },
+      "mu": "1/8",
+      "claimed_mu": "1/8",
+      "matches": true
+    },
+    {
+      "length": 10,
+      "atom_count": 20,
+      "kappa_standard": "-1/9",
+      "kappa_two_row": "1/153",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/9",
+        "two_row_once": "9/85",
+        "two_row_orthogonal": "76/765",
+        "antisymmetric": "1/10"
+      },
+      "mu": "1/9",
+      "claimed_mu": "1/9",
+      "matches": true
+    },
+    {
+      "length": 11,
+      "atom_count": 22,
+      "kappa_standard": "-1/10",
+      "kappa_two_row": "1/190",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/10",
+        "two_row_once": "20/209",
+        "two_row_orthogonal": "189/2090",
+        "antisymmetric": "1/11"
+      },
+      "mu": "1/10",
+      "claimed_mu": "1/10",
+      "matches": true
+    },
+    {
+      "length": 12,
+      "atom_count": 24,
+      "kappa_standard": "-1/11",
+      "kappa_two_row": "1/231",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/11",
+        "two_row_once": "11/126",
+        "two_row_orthogonal": "115/1386",
+        "antisymmetric": "1/12"
+      },
+      "mu": "1/11",
+      "claimed_mu": "1/11",
+      "matches": true
+    },
+    {
+      "length": 13,
+      "atom_count": 26,
+      "kappa_standard": "-1/12",
+      "kappa_two_row": "1/276",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/12",
+        "two_row_once": "24/299",
+        "two_row_orthogonal": "275/3588",
+        "antisymmetric": "1/13"
+      },
+      "mu": "1/12",
+      "claimed_mu": "1/12",
+      "matches": true
+    },
+    {
+      "length": 14,
+      "atom_count": 28,
+      "kappa_standard": "-1/13",
+      "kappa_two_row": "1/325",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/13",
+        "two_row_once": "13/175",
+        "two_row_orthogonal": "162/2275",
+        "antisymmetric": "1/14"
+      },
+      "mu": "1/13",
+      "claimed_mu": "1/13",
+      "matches": true
+    },
+    {
+      "length": 15,
+      "atom_count": 30,
+      "kappa_standard": "-1/14",
+      "kappa_two_row": "1/378",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/14",
+        "two_row_once": "28/405",
+        "two_row_orthogonal": "377/5670",
+        "antisymmetric": "1/15"
+      },
+      "mu": "1/14",
+      "claimed_mu": "1/14",
+      "matches": true
+    },
+    {
+      "length": 16,
+      "atom_count": 32,
+      "kappa_standard": "-1/15",
+      "kappa_two_row": "1/435",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/15",
+        "two_row_once": "15/232",
+        "two_row_orthogonal": "217/3480",
+        "antisymmetric": "1/16"
+      },
+      "mu": "1/15",
+      "claimed_mu": "1/15",
+      "matches": true
+    },
+    {
+      "length": 17,
+      "atom_count": 34,
+      "kappa_standard": "-1/16",
+      "kappa_two_row": "1/496",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/16",
+        "two_row_once": "32/527",
+        "two_row_orthogonal": "495/8432",
+        "antisymmetric": "1/17"
+      },
+      "mu": "1/16",
+      "claimed_mu": "1/16",
+      "matches": true
+    },
+    {
+      "length": 18,
+      "atom_count": 36,
+      "kappa_standard": "-1/17",
+      "kappa_two_row": "1/561",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/17",
+        "two_row_once": "17/297",
+        "two_row_orthogonal": "280/5049",
+        "antisymmetric": "1/18"
+      },
+      "mu": "1/17",
+      "claimed_mu": "1/17",
+      "matches": true
+    },
+    {
+      "length": 19,
+      "atom_count": 38,
+      "kappa_standard": "-1/18",
+      "kappa_two_row": "1/630",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/18",
+        "two_row_once": "36/665",
+        "two_row_orthogonal": "629/11970",
+        "antisymmetric": "1/19"
+      },
+      "mu": "1/18",
+      "claimed_mu": "1/18",
+      "matches": true
+    },
+    {
+      "length": 20,
+      "atom_count": 40,
+      "kappa_standard": "-1/19",
+      "kappa_two_row": "1/703",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/19",
+        "two_row_once": "19/370",
+        "two_row_orthogonal": "351/7030",
+        "antisymmetric": "1/20"
+      },
+      "mu": "1/19",
+      "claimed_mu": "1/19",
+      "matches": true
+    },
+    {
+      "length": 21,
+      "atom_count": 42,
+      "kappa_standard": "-1/20",
+      "kappa_two_row": "1/780",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/20",
+        "two_row_once": "40/819",
+        "two_row_orthogonal": "779/16380",
+        "antisymmetric": "1/21"
+      },
+      "mu": "1/20",
+      "claimed_mu": "1/20",
+      "matches": true
+    },
+    {
+      "length": 22,
+      "atom_count": 44,
+      "kappa_standard": "-1/21",
+      "kappa_two_row": "1/861",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/21",
+        "two_row_once": "21/451",
+        "two_row_orthogonal": "430/9471",
+        "antisymmetric": "1/22"
+      },
+      "mu": "1/21",
+      "claimed_mu": "1/21",
+      "matches": true
+    },
+    {
+      "length": 23,
+      "atom_count": 46,
+      "kappa_standard": "-1/22",
+      "kappa_two_row": "1/946",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/22",
+        "two_row_once": "44/989",
+        "two_row_orthogonal": "945/21758",
+        "antisymmetric": "1/23"
+      },
+      "mu": "1/22",
+      "claimed_mu": "1/22",
+      "matches": true
+    },
+    {
+      "length": 24,
+      "atom_count": 48,
+      "kappa_standard": "-1/23",
+      "kappa_two_row": "1/1035",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/23",
+        "two_row_once": "23/540",
+        "two_row_orthogonal": "517/12420",
+        "antisymmetric": "1/24"
+      },
+      "mu": "1/23",
+      "claimed_mu": "1/23",
+      "matches": true
+    },
+    {
+      "length": 25,
+      "atom_count": 50,
+      "kappa_standard": "-1/24",
+      "kappa_two_row": "1/1128",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/24",
+        "two_row_once": "48/1175",
+        "two_row_orthogonal": "1127/28200",
+        "antisymmetric": "1/25"
+      },
+      "mu": "1/24",
+      "claimed_mu": "1/24",
+      "matches": true
+    },
+    {
+      "length": 26,
+      "atom_count": 52,
+      "kappa_standard": "-1/25",
+      "kappa_two_row": "1/1225",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/25",
+        "two_row_once": "25/637",
+        "two_row_orthogonal": "612/15925",
+        "antisymmetric": "1/26"
+      },
+      "mu": "1/25",
+      "claimed_mu": "1/25",
+      "matches": true
+    },
+    {
+      "length": 27,
+      "atom_count": 54,
+      "kappa_standard": "-1/26",
+      "kappa_two_row": "1/1326",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/26",
+        "two_row_once": "52/1377",
+        "two_row_orthogonal": "1325/35802",
+        "antisymmetric": "1/27"
+      },
+      "mu": "1/26",
+      "claimed_mu": "1/26",
+      "matches": true
+    },
+    {
+      "length": 28,
+      "atom_count": 56,
+      "kappa_standard": "-1/27",
+      "kappa_two_row": "1/1431",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/27",
+        "two_row_once": "27/742",
+        "two_row_orthogonal": "715/20034",
+        "antisymmetric": "1/28"
+      },
+      "mu": "1/27",
+      "claimed_mu": "1/27",
+      "matches": true
+    },
+    {
+      "length": 29,
+      "atom_count": 58,
+      "kappa_standard": "-1/28",
+      "kappa_two_row": "1/1540",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/28",
+        "two_row_once": "56/1595",
+        "two_row_orthogonal": "1539/44660",
+        "antisymmetric": "1/29"
+      },
+      "mu": "1/28",
+      "claimed_mu": "1/28",
+      "matches": true
+    },
+    {
+      "length": 30,
+      "atom_count": 60,
+      "kappa_standard": "-1/29",
+      "kappa_two_row": "1/1653",
+      "gram_candidates": {
+        "negative_once": "0",
+        "negative_orthogonal": "1/29",
+        "two_row_once": "29/855",
+        "two_row_orthogonal": "826/24795",
+        "antisymmetric": "1/30"
+      },
+      "mu": "1/29",
+      "claimed_mu": "1/29",
+      "matches": true
+    }
+  ]
+}

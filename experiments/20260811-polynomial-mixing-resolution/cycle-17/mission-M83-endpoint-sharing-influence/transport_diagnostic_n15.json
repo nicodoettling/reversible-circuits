@@ -1,0 +1,1947 @@
+{
+  "claim_tested": "Jordan transport for K-row differences on Lambda_n",
+  "command": "experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/transport_diagnostic.py --n 11 13 15 --all-edges-through 9 --output experiments/20260811-polynomial-mixing-resolution/cycle-17/mission-M83-endpoint-sharing-influence/transport_diagnostic_n15.json",
+  "convention": "(pq)(x)=p(q(x)); tuple products left-to-right",
+  "deterministic": true,
+  "numpy": "1.26.4",
+  "python": "3.12.3",
+  "repository_commit": "502a6f031c6d5a4bc0064ee5b370a4fa3914f993",
+  "results": [
+    {
+      "Lambda_edges": 889,
+      "all_edges_tested": false,
+      "minimum_transported_fraction_by_radius": {
+        "1": 0.9192069422327833,
+        "2": 0.9999999999999996,
+        "3": 0.9999999999999996,
+        "4": 0.9999999999999996
+      },
+      "n": 11,
+      "quotient_states": 75,
+      "rows": [
+        {
+          "TV_K": 0.11433985877809366,
+          "TV_K2": 0.010410671066508418,
+          "edge": [
+            1,
+            5
+          ],
+          "negative_support": 38,
+          "positive_support": 34,
+          "transported_fraction_by_radius": {
+            "1": 0.9890653228106874,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.2035211188722758,
+          "TV_K2": 0.027839048159121745,
+          "edge": [
+            14,
+            21
+          ],
+          "negative_support": 32,
+          "positive_support": 43,
+          "transported_fraction_by_radius": {
+            "1": 0.9192069422327833,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.1939869084289934,
+          "TV_K2": 0.028033939754823614,
+          "edge": [
+            30,
+            44
+          ],
+          "negative_support": 39,
+          "positive_support": 36,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.24068653772747708,
+          "TV_K2": 0.03669578833449102,
+          "edge": [
+            17,
+            54
+          ],
+          "negative_support": 42,
+          "positive_support": 33,
+          "transported_fraction_by_radius": {
+            "1": 0.9714615253764053,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.1986903284226115,
+          "TV_K2": 0.022854484835389863,
+          "edge": [
+            55,
+            66
+          ],
+          "negative_support": 38,
+          "positive_support": 36,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999997,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.22991483140528182,
+          "TV_K2": 0.029095801093377616,
+          "edge": [
+            12,
+            32
+          ],
+          "negative_support": 34,
+          "positive_support": 38,
+          "transported_fraction_by_radius": {
+            "1": 0.9766167268963091,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.23646763392857145,
+          "TV_K2": 0.026673689739586202,
+          "edge": [
+            24,
+            33
+          ],
+          "negative_support": 37,
+          "positive_support": 34,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999998,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.2094656499063685,
+          "TV_K2": 0.025213678733759275,
+          "edge": [
+            15,
+            36
+          ],
+          "negative_support": 30,
+          "positive_support": 45,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.36819904865319725,
+          "TV_K2": 0.04785010587482365,
+          "edge": [
+            36,
+            43
+          ],
+          "negative_support": 30,
+          "positive_support": 41,
+          "transported_fraction_by_radius": {
+            "1": 0.9993650453312553,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.2701880019388081,
+          "TV_K2": 0.03056329179493155,
+          "edge": [
+            40,
+            54
+          ],
+          "negative_support": 42,
+          "positive_support": 33,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3755796628105636,
+          "TV_K2": 0.04967608013090756,
+          "edge": [
+            38,
+            57
+          ],
+          "negative_support": 39,
+          "positive_support": 32,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3755796628105636,
+          "TV_K2": 0.049676080130907574,
+          "edge": [
+            43,
+            57
+          ],
+          "negative_support": 39,
+          "positive_support": 32,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999994,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.25430357142857146,
+          "TV_K2": 0.029851126534260922,
+          "edge": [
+            48,
+            69
+          ],
+          "negative_support": 33,
+          "positive_support": 31,
+          "transported_fraction_by_radius": {
+            "1": 0.9959974720876343,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3681990486531972,
+          "TV_K2": 0.047850105874823634,
+          "edge": [
+            36,
+            38
+          ],
+          "negative_support": 30,
+          "positive_support": 41,
+          "transported_fraction_by_radius": {
+            "1": 0.9993650453312553,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2497017034567643,
+          "TV_K2": 0.029774098103090545,
+          "edge": [
+            8,
+            26
+          ],
+          "negative_support": 39,
+          "positive_support": 36,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.21742452968841858,
+          "TV_K2": 0.023536317793935196,
+          "edge": [
+            20,
+            43
+          ],
+          "negative_support": 34,
+          "positive_support": 27,
+          "transported_fraction_by_radius": {
+            "1": 0.9962037548082558,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.26695885973436995,
+          "TV_K2": 0.030509370823633288,
+          "edge": [
+            32,
+            49
+          ],
+          "negative_support": 36,
+          "positive_support": 38,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.47383104848691865,
+          "TV_K2": 0.05624993810589576,
+          "edge": [
+            55,
+            63
+          ],
+          "negative_support": 25,
+          "positive_support": 48,
+          "transported_fraction_by_radius": {
+            "1": 0.9671723847637135,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.4506769914756026,
+          "TV_K2": 0.054874532918441125,
+          "edge": [
+            58,
+            63
+          ],
+          "negative_support": 26,
+          "positive_support": 40,
+          "transported_fraction_by_radius": {
+            "1": 0.9706496815286622,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.47383104848691865,
+          "TV_K2": 0.05624993810589577,
+          "edge": [
+            60,
+            63
+          ],
+          "negative_support": 25,
+          "positive_support": 48,
+          "transported_fraction_by_radius": {
+            "1": 0.9671723847637134,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.41815667254556144,
+          "TV_K2": 0.0507801946333342,
+          "edge": [
+            41,
+            73
+          ],
+          "negative_support": 40,
+          "positive_support": 29,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.4125714285714286,
+          "TV_K2": 0.048162542668013966,
+          "edge": [
+            41,
+            74
+          ],
+          "negative_support": 27,
+          "positive_support": 33,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.306780542121055,
+          "TV_K2": 0.039036337581494066,
+          "edge": [
+            16,
+            74
+          ],
+          "negative_support": 33,
+          "positive_support": 39,
+          "transported_fraction_by_radius": {
+            "1": 0.9925192056925851,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.4506769914756026,
+          "TV_K2": 0.054874532918441125,
+          "edge": [
+            61,
+            63
+          ],
+          "negative_support": 26,
+          "positive_support": 40,
+          "transported_fraction_by_radius": {
+            "1": 0.9706496815286624,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.37597123015873013,
+          "TV_K2": 0.0518891325594676,
+          "edge": [
+            62,
+            63
+          ],
+          "negative_support": 28,
+          "positive_support": 27,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2595484871031746,
+          "TV_K2": 0.028430664164872787,
+          "edge": [
+            49,
+            68
+          ],
+          "negative_support": 30,
+          "positive_support": 32,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2742426842179326,
+          "TV_K2": 0.029675604850951238,
+          "edge": [
+            16,
+            62
+          ],
+          "negative_support": 29,
+          "positive_support": 42,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.38017733134920634,
+          "TV_K2": 0.043917905513535915,
+          "edge": [
+            56,
+            63
+          ],
+          "negative_support": 22,
+          "positive_support": 47,
+          "transported_fraction_by_radius": {
+            "1": 0.9869526217075757,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.4239159639550265,
+          "TV_K2": 0.04837992623965539,
+          "edge": [
+            63,
+            66
+          ],
+          "negative_support": 44,
+          "positive_support": 28,
+          "transported_fraction_by_radius": {
+            "1": 0.9882988189120345,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.44569531249999994,
+          "TV_K2": 0.05224074722334923,
+          "edge": [
+            63,
+            67
+          ],
+          "negative_support": 41,
+          "positive_support": 25,
+          "transported_fraction_by_radius": {
+            "1": 0.9846147296935215,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.3801773313492063,
+          "TV_K2": 0.04391790551353591,
+          "edge": [
+            63,
+            64
+          ],
+          "negative_support": 47,
+          "positive_support": 22,
+          "transported_fraction_by_radius": {
+            "1": 0.9869526217075754,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.44569531249999994,
+          "TV_K2": 0.05224074722334923,
+          "edge": [
+            63,
+            69
+          ],
+          "negative_support": 41,
+          "positive_support": 25,
+          "transported_fraction_by_radius": {
+            "1": 0.9846147296935213,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.3897142857142857,
+          "TV_K2": 0.049190889917465605,
+          "edge": [
+            43,
+            70
+          ],
+          "negative_support": 31,
+          "positive_support": 35,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.38971428571428574,
+          "TV_K2": 0.04919088991746561,
+          "edge": [
+            38,
+            70
+          ],
+          "negative_support": 31,
+          "positive_support": 35,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.37402343749999994,
+          "TV_K2": 0.039648307262817616,
+          "edge": [
+            63,
+            72
+          ],
+          "negative_support": 31,
+          "positive_support": 25,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.37402343749999994,
+          "TV_K2": 0.03964830726281761,
+          "edge": [
+            63,
+            68
+          ],
+          "negative_support": 31,
+          "positive_support": 25,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.20015881283068784,
+          "TV_K2": 0.017689232045342923,
+          "edge": [
+            17,
+            53
+          ],
+          "negative_support": 37,
+          "positive_support": 29,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.25758730158730164,
+          "TV_K2": 0.034592741973654084,
+          "edge": [
+            52,
+            53
+          ],
+          "negative_support": 33,
+          "positive_support": 22,
+          "transported_fraction_by_radius": {
+            "1": 0.9816982992358886,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.22309528571428577,
+          "TV_K2": 0.02832042357692699,
+          "edge": [
+            44,
+            46
+          ],
+          "negative_support": 38,
+          "positive_support": 26,
+          "transported_fraction_by_radius": {
+            "1": 0.9832019246100479,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        }
+      ],
+      "tested_edges": 39
+    },
+    {
+      "Lambda_edges": 1994,
+      "all_edges_tested": false,
+      "minimum_transported_fraction_by_radius": {
+        "1": 0.8439357053421787,
+        "2": 0.9999999999999988,
+        "3": 0.9999999999999988,
+        "4": 0.9999999999999988
+      },
+      "n": 13,
+      "quotient_states": 132,
+      "rows": [
+        {
+          "TV_K": 0.08217858298536784,
+          "TV_K2": 0.005832719033147608,
+          "edge": [
+            1,
+            5
+          ],
+          "negative_support": 63,
+          "positive_support": 65,
+          "transported_fraction_by_radius": {
+            "1": 0.9796669501601881,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999991,
+            "4": 0.9999999999999991
+          }
+        },
+        {
+          "TV_K": 0.1713156743450982,
+          "TV_K2": 0.016372128765102238,
+          "edge": [
+            21,
+            45
+          ],
+          "negative_support": 66,
+          "positive_support": 66,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.17533069609598917,
+          "TV_K2": 0.015703145942979755,
+          "edge": [
+            24,
+            66
+          ],
+          "negative_support": 64,
+          "positive_support": 68,
+          "transported_fraction_by_radius": {
+            "1": 0.993779213195616,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.17752468345939193,
+          "TV_K2": 0.016962262739317814,
+          "edge": [
+            56,
+            112
+          ],
+          "negative_support": 64,
+          "positive_support": 68,
+          "transported_fraction_by_radius": {
+            "1": 0.9880814985871036,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.16089866456828247,
+          "TV_K2": 0.0172008420145128,
+          "edge": [
+            5,
+            109
+          ],
+          "negative_support": 57,
+          "positive_support": 75,
+          "transported_fraction_by_radius": {
+            "1": 0.9562681414272232,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.17834564167769368,
+          "TV_K2": 0.0173968926622651,
+          "edge": [
+            6,
+            24
+          ],
+          "negative_support": 66,
+          "positive_support": 66,
+          "transported_fraction_by_radius": {
+            "1": 0.9926296320742926,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.18562421144590546,
+          "TV_K2": 0.016734300178003588,
+          "edge": [
+            15,
+            47
+          ],
+          "negative_support": 56,
+          "positive_support": 76,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.29562286665225906,
+          "TV_K2": 0.02940724739151567,
+          "edge": [
+            65,
+            94
+          ],
+          "negative_support": 72,
+          "positive_support": 59,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.19879814880089583,
+          "TV_K2": 0.016971815116118574,
+          "edge": [
+            95,
+            124
+          ],
+          "negative_support": 67,
+          "positive_support": 63,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 0.9999999999999991,
+            "3": 0.9999999999999991,
+            "4": 0.9999999999999991
+          }
+        },
+        {
+          "TV_K": 0.16544516392906014,
+          "TV_K2": 0.013487879050520117,
+          "edge": [
+            8,
+            13
+          ],
+          "negative_support": 61,
+          "positive_support": 71,
+          "transported_fraction_by_radius": {
+            "1": 0.9936616721859755,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2235911242961538,
+          "TV_K2": 0.020434373143348294,
+          "edge": [
+            13,
+            52
+          ],
+          "negative_support": 65,
+          "positive_support": 67,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.36612523985215667,
+          "TV_K2": 0.03300869841108352,
+          "edge": [
+            91,
+            102
+          ],
+          "negative_support": 55,
+          "positive_support": 77,
+          "transported_fraction_by_radius": {
+            "1": 0.9803437596583734,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.3652941126229745,
+          "TV_K2": 0.03284369580660282,
+          "edge": [
+            95,
+            102
+          ],
+          "negative_support": 54,
+          "positive_support": 76,
+          "transported_fraction_by_radius": {
+            "1": 0.9806042196050014,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999994,
+            "4": 0.9999999999999994
+          }
+        },
+        {
+          "TV_K": 0.24763423188603811,
+          "TV_K2": 0.020360429196123332,
+          "edge": [
+            100,
+            117
+          ],
+          "negative_support": 62,
+          "positive_support": 61,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999997,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.3661252398521566,
+          "TV_K2": 0.03300869841108351,
+          "edge": [
+            98,
+            102
+          ],
+          "negative_support": 55,
+          "positive_support": 77,
+          "transported_fraction_by_radius": {
+            "1": 0.9803437596583727,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.37006276187423703,
+          "TV_K2": 0.034183237992783826,
+          "edge": [
+            69,
+            125
+          ],
+          "negative_support": 62,
+          "positive_support": 56,
+          "transported_fraction_by_radius": {
+            "1": 0.9903182718862119,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3652941126229746,
+          "TV_K2": 0.032843695806602805,
+          "edge": [
+            99,
+            102
+          ],
+          "negative_support": 54,
+          "positive_support": 76,
+          "transported_fraction_by_radius": {
+            "1": 0.9806042196050023,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.37006276187423703,
+          "TV_K2": 0.034183237992783826,
+          "edge": [
+            72,
+            125
+          ],
+          "negative_support": 62,
+          "positive_support": 56,
+          "transported_fraction_by_radius": {
+            "1": 0.9903182718862115,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.19276816980269146,
+          "TV_K2": 0.016592296751998276,
+          "edge": [
+            39,
+            87
+          ],
+          "negative_support": 69,
+          "positive_support": 63,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999997,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.23134000875862548,
+          "TV_K2": 0.017219544489976445,
+          "edge": [
+            41,
+            87
+          ],
+          "negative_support": 63,
+          "positive_support": 56,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999989,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999994,
+            "4": 0.9999999999999994
+          }
+        },
+        {
+          "TV_K": 0.357695937093099,
+          "TV_K2": 0.03236584525365847,
+          "edge": [
+            92,
+            106
+          ],
+          "negative_support": 48,
+          "positive_support": 80,
+          "transported_fraction_by_radius": {
+            "1": 0.9778531041774561,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.3915750174204509,
+          "TV_K2": 0.03480524772138657,
+          "edge": [
+            106,
+            122
+          ],
+          "negative_support": 75,
+          "positive_support": 54,
+          "transported_fraction_by_radius": {
+            "1": 0.9797692541594349,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999994,
+            "4": 0.9999999999999994
+          }
+        },
+        {
+          "TV_K": 0.4030153793806152,
+          "TV_K2": 0.03490644172338869,
+          "edge": [
+            106,
+            124
+          ],
+          "negative_support": 71,
+          "positive_support": 54,
+          "transported_fraction_by_radius": {
+            "1": 0.9759847701440663,
+            "2": 0.9999999999999993,
+            "3": 0.9999999999999993,
+            "4": 0.9999999999999993
+          }
+        },
+        {
+          "TV_K": 0.3825402606310014,
+          "TV_K2": 0.03392289489402135,
+          "edge": [
+            106,
+            126
+          ],
+          "negative_support": 63,
+          "positive_support": 50,
+          "transported_fraction_by_radius": {
+            "1": 0.9784847412888749,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.357695937093099,
+          "TV_K2": 0.032365845253658466,
+          "edge": [
+            103,
+            106
+          ],
+          "negative_support": 48,
+          "positive_support": 80,
+          "transported_fraction_by_radius": {
+            "1": 0.9778531041774566,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.40301537938061527,
+          "TV_K2": 0.0349064417233887,
+          "edge": [
+            106,
+            127
+          ],
+          "negative_support": 71,
+          "positive_support": 54,
+          "transported_fraction_by_radius": {
+            "1": 0.9759847701440668,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.35556662951531776,
+          "TV_K2": 0.02967864263166699,
+          "edge": [
+            72,
+            130
+          ],
+          "negative_support": 61,
+          "positive_support": 57,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3825402606310014,
+          "TV_K2": 0.03392289489402135,
+          "edge": [
+            106,
+            128
+          ],
+          "negative_support": 63,
+          "positive_support": 50,
+          "transported_fraction_by_radius": {
+            "1": 0.9784847412888754,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2165816845907459,
+          "TV_K2": 0.021381800997862018,
+          "edge": [
+            71,
+            121
+          ],
+          "negative_support": 51,
+          "positive_support": 69,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999997,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.37509974018762027,
+          "TV_K2": 0.033394028110545156,
+          "edge": [
+            106,
+            109
+          ],
+          "negative_support": 85,
+          "positive_support": 43,
+          "transported_fraction_by_radius": {
+            "1": 0.9590452740626177,
+            "2": 0.9999999999999991,
+            "3": 0.9999999999999991,
+            "4": 0.9999999999999991
+          }
+        },
+        {
+          "TV_K": 0.21002773396968719,
+          "TV_K2": 0.018653683602400346,
+          "edge": [
+            97,
+            109
+          ],
+          "negative_support": 72,
+          "positive_support": 57,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.36676778978052127,
+          "TV_K2": 0.03222825018911459,
+          "edge": [
+            106,
+            110
+          ],
+          "negative_support": 77,
+          "positive_support": 41,
+          "transported_fraction_by_radius": {
+            "1": 0.9698534319764742,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.37509974018762027,
+          "TV_K2": 0.03339402811054516,
+          "edge": [
+            106,
+            112
+          ],
+          "negative_support": 85,
+          "positive_support": 43,
+          "transported_fraction_by_radius": {
+            "1": 0.9590452740626187,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.361030162962963,
+          "TV_K2": 0.028561702775126593,
+          "edge": [
+            102,
+            114
+          ],
+          "negative_support": 64,
+          "positive_support": 50,
+          "transported_fraction_by_radius": {
+            "1": 0.9881819662056758,
+            "2": 0.9999999999999993,
+            "3": 0.9999999999999993,
+            "4": 0.9999999999999993
+          }
+        },
+        {
+          "TV_K": 0.36676778978052127,
+          "TV_K2": 0.0322282501891146,
+          "edge": [
+            106,
+            116
+          ],
+          "negative_support": 77,
+          "positive_support": 41,
+          "transported_fraction_by_radius": {
+            "1": 0.969853431976474,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.361030162962963,
+          "TV_K2": 0.028561702775126596,
+          "edge": [
+            102,
+            117
+          ],
+          "negative_support": 64,
+          "positive_support": 50,
+          "transported_fraction_by_radius": {
+            "1": 0.9881819662056759,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2393906593322754,
+          "TV_K2": 0.02585705204437393,
+          "edge": [
+            22,
+            25
+          ],
+          "negative_support": 62,
+          "positive_support": 38,
+          "transported_fraction_by_radius": {
+            "1": 0.8439357053421787,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.21623229489491777,
+          "TV_K2": 0.019250184545086164,
+          "edge": [
+            85,
+            87
+          ],
+          "negative_support": 60,
+          "positive_support": 59,
+          "transported_fraction_by_radius": {
+            "1": 0.967570444995465,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.17525483390912633,
+          "TV_K2": 0.017182180516491504,
+          "edge": [
+            75,
+            77
+          ],
+          "negative_support": 70,
+          "positive_support": 47,
+          "transported_fraction_by_radius": {
+            "1": 0.9200757029484644,
+            "2": 0.9999999999999988,
+            "3": 0.9999999999999988,
+            "4": 0.9999999999999988
+          }
+        }
+      ],
+      "tested_edges": 39
+    },
+    {
+      "Lambda_edges": 3894,
+      "all_edges_tested": false,
+      "minimum_transported_fraction_by_radius": {
+        "1": 0.8775818652276158,
+        "2": 0.999999999999999,
+        "3": 0.999999999999999,
+        "4": 0.999999999999999
+      },
+      "n": 15,
+      "quotient_states": 213,
+      "rows": [
+        {
+          "TV_K": 0.06297886312494293,
+          "TV_K2": 0.0037324378952073834,
+          "edge": [
+            1,
+            5
+          ],
+          "negative_support": 97,
+          "positive_support": 111,
+          "transported_fraction_by_radius": {
+            "1": 0.965288569840043,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.15180476515386407,
+          "TV_K2": 0.01114915891779418,
+          "edge": [
+            42,
+            119
+          ],
+          "negative_support": 106,
+          "positive_support": 107,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.0742130016044657,
+          "TV_K2": 0.0036007642881339176,
+          "edge": [
+            56,
+            139
+          ],
+          "negative_support": 102,
+          "positive_support": 93,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999997,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.1334570285733986,
+          "TV_K2": 0.010142551367930087,
+          "edge": [
+            56,
+            58
+          ],
+          "negative_support": 99,
+          "positive_support": 114,
+          "transported_fraction_by_radius": {
+            "1": 0.9756427168861092,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.1527270357517772,
+          "TV_K2": 0.010781374493281641,
+          "edge": [
+            32,
+            95
+          ],
+          "negative_support": 105,
+          "positive_support": 108,
+          "transported_fraction_by_radius": {
+            "1": 0.9805898739494495,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.16319683922016878,
+          "TV_K2": 0.014530883077890992,
+          "edge": [
+            3,
+            60
+          ],
+          "negative_support": 103,
+          "positive_support": 110,
+          "transported_fraction_by_radius": {
+            "1": 0.9956181907671378,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.10865956213639621,
+          "TV_K2": 0.010120350987428226,
+          "edge": [
+            139,
+            144
+          ],
+          "negative_support": 88,
+          "positive_support": 125,
+          "transported_fraction_by_radius": {
+            "1": 0.8775818652276158,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.19770978426548894,
+          "TV_K2": 0.014322450898529364,
+          "edge": [
+            36,
+            189
+          ],
+          "negative_support": 121,
+          "positive_support": 92,
+          "transported_fraction_by_radius": {
+            "1": 0.991967040513301,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.2279441095675012,
+          "TV_K2": 0.017574834686543993,
+          "edge": [
+            22,
+            80
+          ],
+          "negative_support": 122,
+          "positive_support": 90,
+          "transported_fraction_by_radius": {
+            "1": 0.8988921463391687,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.1454468403512023,
+          "TV_K2": 0.010067443386837148,
+          "edge": [
+            6,
+            134
+          ],
+          "negative_support": 103,
+          "positive_support": 110,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.2241473228287447,
+          "TV_K2": 0.01548553775736643,
+          "edge": [
+            168,
+            188
+          ],
+          "negative_support": 109,
+          "positive_support": 102,
+          "transported_fraction_by_radius": {
+            "1": 0.9915286635826727,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.18443271464550173,
+          "TV_K2": 0.012477073029497708,
+          "edge": [
+            53,
+            67
+          ],
+          "negative_support": 111,
+          "positive_support": 102,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.2263602162476159,
+          "TV_K2": 0.014368898462530843,
+          "edge": [
+            88,
+            162
+          ],
+          "negative_support": 104,
+          "positive_support": 103,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999999,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3279117810378086,
+          "TV_K2": 0.023580266492927222,
+          "edge": [
+            159,
+            186
+          ],
+          "negative_support": 122,
+          "positive_support": 88,
+          "transported_fraction_by_radius": {
+            "1": 0.9798892090664438,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.3279117810378086,
+          "TV_K2": 0.023580266492927236,
+          "edge": [
+            163,
+            186
+          ],
+          "negative_support": 122,
+          "positive_support": 88,
+          "transported_fraction_by_radius": {
+            "1": 0.9798892090664435,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.34439984833317794,
+          "TV_K2": 0.024487551590067106,
+          "edge": [
+            159,
+            189
+          ],
+          "negative_support": 123,
+          "positive_support": 85,
+          "transported_fraction_by_radius": {
+            "1": 0.9857525956625577,
+            "2": 1.0,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.33918945128365574,
+          "TV_K2": 0.023871001018964895,
+          "edge": [
+            159,
+            192
+          ],
+          "negative_support": 113,
+          "positive_support": 86,
+          "transported_fraction_by_radius": {
+            "1": 0.9828905337493867,
+            "2": 0.9999999999999993,
+            "3": 0.9999999999999993,
+            "4": 0.9999999999999993
+          }
+        },
+        {
+          "TV_K": 0.34439984833317794,
+          "TV_K2": 0.02448755159006711,
+          "edge": [
+            163,
+            194
+          ],
+          "negative_support": 123,
+          "positive_support": 85,
+          "transported_fraction_by_radius": {
+            "1": 0.9857525956625565,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.3144868290177968,
+          "TV_K2": 0.022465102098604747,
+          "edge": [
+            112,
+            211
+          ],
+          "negative_support": 112,
+          "positive_support": 87,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.32388853678729645,
+          "TV_K2": 0.02171626491610955,
+          "edge": [
+            112,
+            212
+          ],
+          "negative_support": 89,
+          "positive_support": 99,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.33918945128365574,
+          "TV_K2": 0.02387100101896491,
+          "edge": [
+            163,
+            195
+          ],
+          "negative_support": 113,
+          "positive_support": 86,
+          "transported_fraction_by_radius": {
+            "1": 0.9828905337493868,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.157625296148251,
+          "TV_K2": 0.015646230341578513,
+          "edge": [
+            10,
+            13
+          ],
+          "negative_support": 59,
+          "positive_support": 78,
+          "transported_fraction_by_radius": {
+            "1": 0.9076685519083256,
+            "2": 0.9999999999999998,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.37028577771677856,
+          "TV_K2": 0.0250454059962216,
+          "edge": [
+            187,
+            202
+          ],
+          "negative_support": 69,
+          "positive_support": 139,
+          "transported_fraction_by_radius": {
+            "1": 0.9702749028753128,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999994,
+            "4": 0.9999999999999994
+          }
+        },
+        {
+          "TV_K": 0.36393620936168325,
+          "TV_K2": 0.024486810561723013,
+          "edge": [
+            190,
+            202
+          ],
+          "negative_support": 70,
+          "positive_support": 131,
+          "transported_fraction_by_radius": {
+            "1": 0.9697505517869679,
+            "2": 0.9999999999999999,
+            "3": 0.9999999999999999,
+            "4": 0.9999999999999999
+          }
+        },
+        {
+          "TV_K": 0.33343420035783555,
+          "TV_K2": 0.021739892603317768,
+          "edge": [
+            193,
+            202
+          ],
+          "negative_support": 70,
+          "positive_support": 112,
+          "transported_fraction_by_radius": {
+            "1": 0.9764779605709307,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.37028577771677856,
+          "TV_K2": 0.025045405996221612,
+          "edge": [
+            198,
+            202
+          ],
+          "negative_support": 69,
+          "positive_support": 139,
+          "transported_fraction_by_radius": {
+            "1": 0.9702749028753124,
+            "2": 0.9999999999999992,
+            "3": 0.9999999999999992,
+            "4": 0.9999999999999992
+          }
+        },
+        {
+          "TV_K": 0.3333305824585189,
+          "TV_K2": 0.0242516916368617,
+          "edge": [
+            163,
+            203
+          ],
+          "negative_support": 108,
+          "positive_support": 98,
+          "transported_fraction_by_radius": {
+            "1": 0.9837960726626804,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.33333058245851893,
+          "TV_K2": 0.024251691636861694,
+          "edge": [
+            159,
+            203
+          ],
+          "negative_support": 108,
+          "positive_support": 98,
+          "transported_fraction_by_radius": {
+            "1": 0.9837960726626799,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.18212623597310645,
+          "TV_K2": 0.01124217702067266,
+          "edge": [
+            204,
+            209
+          ],
+          "negative_support": 95,
+          "positive_support": 89,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999992,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999992,
+            "4": 0.9999999999999992
+          }
+        },
+        {
+          "TV_K": 0.3537890997503601,
+          "TV_K2": 0.02574417156774842,
+          "edge": [
+            163,
+            204
+          ],
+          "negative_support": 111,
+          "positive_support": 87,
+          "transported_fraction_by_radius": {
+            "1": 0.9813476954757974,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.32651343294051627,
+          "TV_K2": 0.02212856014046536,
+          "edge": [
+            163,
+            205
+          ],
+          "negative_support": 91,
+          "positive_support": 88,
+          "transported_fraction_by_radius": {
+            "1": 0.9828133494300639,
+            "2": 1.0,
+            "3": 0.9999999999999998,
+            "4": 0.9999999999999998
+          }
+        },
+        {
+          "TV_K": 0.36393620936168325,
+          "TV_K2": 0.024486810561723034,
+          "edge": [
+            199,
+            202
+          ],
+          "negative_support": 70,
+          "positive_support": 131,
+          "transported_fraction_by_radius": {
+            "1": 0.9697505517869691,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.3537890997503601,
+          "TV_K2": 0.025744171567748417,
+          "edge": [
+            159,
+            207
+          ],
+          "negative_support": 111,
+          "positive_support": 87,
+          "transported_fraction_by_radius": {
+            "1": 0.9813476954757965,
+            "2": 0.9999999999999993,
+            "3": 0.9999999999999996,
+            "4": 0.9999999999999996
+          }
+        },
+        {
+          "TV_K": 0.33343420035783555,
+          "TV_K2": 0.021739892603317768,
+          "edge": [
+            200,
+            202
+          ],
+          "negative_support": 70,
+          "positive_support": 112,
+          "transported_fraction_by_radius": {
+            "1": 0.97647796057093,
+            "2": 0.9999999999999996,
+            "3": 0.9999999999999993,
+            "4": 0.9999999999999993
+          }
+        },
+        {
+          "TV_K": 0.32651343294051627,
+          "TV_K2": 0.022128560140465346,
+          "edge": [
+            159,
+            210
+          ],
+          "negative_support": 91,
+          "positive_support": 88,
+          "transported_fraction_by_radius": {
+            "1": 0.9828133494300643,
+            "2": 0.9999999999999997,
+            "3": 0.9999999999999997,
+            "4": 0.9999999999999997
+          }
+        },
+        {
+          "TV_K": 0.18555415138180942,
+          "TV_K2": 0.01363866765905522,
+          "edge": [
+            74,
+            137
+          ],
+          "negative_support": 93,
+          "positive_support": 101,
+          "transported_fraction_by_radius": {
+            "1": 0.9999999999999991,
+            "2": 0.999999999999999,
+            "3": 0.999999999999999,
+            "4": 0.999999999999999
+          }
+        },
+        {
+          "TV_K": 0.32377964628004763,
+          "TV_K2": 0.023374267467260054,
+          "edge": [
+            163,
+            174
+          ],
+          "negative_support": 119,
+          "positive_support": 82,
+          "transported_fraction_by_radius": {
+            "1": 0.9782708474611085,
+            "2": 0.999999999999999,
+            "3": 0.999999999999999,
+            "4": 0.999999999999999
+          }
+        },
+        {
+          "TV_K": 0.26497313936519823,
+          "TV_K2": 0.022392710249711872,
+          "edge": [
+            117,
+            181
+          ],
+          "negative_support": 86,
+          "positive_support": 109,
+          "transported_fraction_by_radius": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        },
+        {
+          "TV_K": 0.19757902942076205,
+          "TV_K2": 0.013507278555167236,
+          "edge": [
+            126,
+            137
+          ],
+          "negative_support": 97,
+          "positive_support": 74,
+          "transported_fraction_by_radius": {
+            "1": 0.9849583132324675,
+            "2": 0.9999999999999994,
+            "3": 0.9999999999999993,
+            "4": 0.9999999999999993
+          }
+        },
+        {
+          "TV_K": 0.14234929117796288,
+          "TV_K2": 0.011726350454855098,
+          "edge": [
+            118,
+            120
+          ],
+          "negative_support": 112,
+          "positive_support": 81,
+          "transported_fraction_by_radius": {
+            "1": 0.8935849291810135,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          }
+        }
+      ],
+      "tested_edges": 40
+    }
+  ],
+  "seed": null,
+  "status": "finite_floating_transport_diagnostic_only",
+  "tolerance": 1e-12
+}
