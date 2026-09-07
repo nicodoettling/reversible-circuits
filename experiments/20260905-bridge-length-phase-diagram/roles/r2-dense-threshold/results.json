@@ -1,0 +1,170 @@
+{
+  "command": "python3 experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/check_dense_threshold.py",
+  "commit": "9cc740b29eda6dd38adfde5f0aadc4a9c4eeb6fc",
+  "dense_survival": {
+    "L": 380,
+    "N": 6,
+    "all_feasible_endpoints_checked": 360,
+    "binomial_tail_float": 0.06702091828395883,
+    "child_floor": 240,
+    "discarded_k_range": [
+      141,
+      190
+    ],
+    "max_exact_conditioning_ratio_float": 0.9999999998868875,
+    "max_exact_discard_mass_float": 0.06702091827637792,
+    "old_relative_error_bound_float": 3.7596969102725874e-56,
+    "proved_conditioning_bound_float": 12.0,
+    "q": 12,
+    "selected": [
+      {
+        "conditioning_ratio_float": 0.9999999998868875,
+        "discarded_mass_float": 0.06702091827637792,
+        "discarded_numerator_sha256": "7705ba5ea6549ee01f4fc585448d43f3a635d2e1d96aa0765dafe58c554b3b83",
+        "endpoint": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "conditioning_ratio_float": 0.9999999998868875,
+        "discarded_mass_float": 0.06702091827637792,
+        "discarded_numerator_sha256": "dab31113f95bf83c99bd5dd958264f8a80cf00b707a93fd8dd1c9f1c3f92dc5f",
+        "endpoint": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3
+        ]
+      },
+      {
+        "conditioning_ratio_float": 0.9999999998868875,
+        "discarded_mass_float": 0.06702091827637792,
+        "discarded_numerator_sha256": "dab31113f95bf83c99bd5dd958264f8a80cf00b707a93fd8dd1c9f1c3f92dc5f",
+        "endpoint": [
+          0,
+          1,
+          2,
+          5,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "standard_library_only": true
+  },
+  "deterministic": true,
+  "elapsed_seconds": 2.628,
+  "failures": 0,
+  "floors": {
+    "minimum_gap_over_claim_squared": 3.292181069958848,
+    "rank_floor_cases": 11202,
+    "selected": [
+      {
+        "B_N": 380,
+        "N": 6,
+        "q": 12,
+        "top_length": 720
+      },
+      {
+        "B_N": 31667,
+        "N": 6,
+        "q": 1000,
+        "top_length": 60000
+      },
+      {
+        "B_N": 149337,
+        "N": 64,
+        "q": 24,
+        "top_length": 193536
+      },
+      {
+        "B_N": 6222335,
+        "N": 64,
+        "q": 1000,
+        "top_length": 8064000
+      },
+      {
+        "B_N": 72194006,
+        "N": 1024,
+        "q": 40,
+        "top_length": 83804160
+      },
+      {
+        "B_N": 1804850128,
+        "N": 1024,
+        "q": 1000,
+        "top_length": 2095104000
+      }
+    ]
+  },
+  "projection": {
+    "orientation_equivalences": 533416,
+    "projection_recurrence_and_convolution_equalities": 8028
+  },
+  "python": "3.12.3",
+  "random_seeds": null,
+  "schema": "dense-threshold-exact-checks-v1",
+  "small_words": {
+    "cases": [
+      {
+        "N": 2,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 1,
+        "identity_count": 1,
+        "m": 0
+      },
+      {
+        "N": 2,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 1,
+        "identity_count": 1,
+        "m": 2
+      },
+      {
+        "N": 2,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 1,
+        "identity_count": 0,
+        "m": 5
+      },
+      {
+        "N": 3,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 81,
+        "identity_count": 27,
+        "m": 4
+      },
+      {
+        "N": 4,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 1296,
+        "identity_count": 120,
+        "m": 4
+      },
+      {
+        "N": 4,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 46656,
+        "identity_count": 3936,
+        "m": 6
+      },
+      {
+        "N": 4,
+        "all_endpoint_per_word_probabilities_exact": true,
+        "all_words": 216,
+        "identity_count": 0,
+        "m": 3
+      }
+    ],
+    "words_checked": 48252
+  }
+}

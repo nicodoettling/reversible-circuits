@@ -1,0 +1,67 @@
+{
+  "append_log": false,
+  "codex_command": [
+    "/home/nico/.local/bin/codex",
+    "--search",
+    "exec",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "--color",
+    "never",
+    "-C",
+    "/home/nico/projects/research_projects/reversible_circuits",
+    "--model",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"ultra\"",
+    "-"
+  ],
+  "codex_path": "/home/nico/.local/bin/codex",
+  "codex_session_requested": null,
+  "codex_version": "codex-cli 0.153.0",
+  "created_at": "2026-09-05T15:09:20.167666+00:00",
+  "git_before": {
+    "head": "9cc740b29eda6dd38adfde5f0aadc4a9c4eeb6fc",
+    "is_repository": true,
+    "status_short": "?? experiments/20260905-bridge-length-phase-diagram/\n?? notes/bridge-length-phase-diagram-goal-run.md\n?? notes/bridge-length-phase-diagram-runbook.md\n",
+    "top_level": "/home/nico/projects/research_projects/reversible_circuits"
+  },
+  "log_file": "/home/nico/projects/research_projects/reversible_circuits/notes/bridge-length-phase-diagram-run.log",
+  "mode": "launch",
+  "permission_profile": "sandbox-only",
+  "prompt_file": "/home/nico/projects/research_projects/reversible_circuits/notes/bridge-length-phase-diagram-goal-run.md",
+  "prompt_sha256": "4c808638187c423d5e8f6ff40dcdb38e03acd8288e80cce8e11791465bf88467",
+  "require_ssh_agent": false,
+  "resume_last": false,
+  "root": "/home/nico/projects/research_projects/reversible_circuits",
+  "run_file": "/home/nico/projects/research_projects/reversible_circuits/experiments/20260905-bridge-length-phase-diagram/tmux-run.json",
+  "sandbox_preflight": {
+    "bwrap_gid": 999,
+    "bwrap_group": "codex-bwrap",
+    "bwrap_mode": "0750",
+    "bwrap_path": "/usr/bin/bwrap",
+    "bwrap_uid": 0,
+    "bwrap_version": "bubblewrap 0.9.0",
+    "codex_sandbox_exit": 0,
+    "current_group_ids": [
+      100,
+      999,
+      1002,
+      1007
+    ],
+    "gate_gid": 999,
+    "gate_group": "codex-bwrap",
+    "tmux_server_pids": [
+      587234
+    ]
+  },
+  "schema_version": 1,
+  "search": true,
+  "ssh_agent_check": null,
+  "status_file": "/home/nico/projects/research_projects/reversible_circuits/experiments/20260905-bridge-length-phase-diagram/tmux-status.json",
+  "tmux_path": "/usr/bin/tmux",
+  "tmux_session": "bridge-length-phase-diagram",
+  "tmux_version": "tmux 3.4"
+}

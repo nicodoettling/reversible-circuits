@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "seed": null,
+  "dependencies": {},
+  "python": "3.12.3",
+  "commit": "9cc740b29eda6dd38adfde5f0aadc4a9c4eeb6fc",
+  "command": "python3 -B experiments/20260905-bridge-length-phase-diagram/coordinator_checks.py --output experiments/20260905-bridge-length-phase-diagram/coordinator_check_results.json",
+  "independent_method": "labeled permutation DP; subtract disconnected least-label components; compare original rational DYZ recurrence and role integer convolution",
+  "N_max": 6,
+  "m_max": 12,
+  "connected_count_cells": 78,
+  "boundary_cells": [
+    "N=1",
+    "m=0",
+    "odd m",
+    "m=2",
+    "N=2",
+    "minimum connected lengths"
+  ],
+  "required_cases": [
+    {
+      "N": 3,
+      "m": 4,
+      "total": 27,
+      "connected": 24,
+      "minimal_subset": 24,
+      "minimal_TV": "1/9"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "total": 120,
+      "connected": 0,
+      "minimal_subset": 114,
+      "minimal_TV": "1/20"
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "total": 3936,
+      "connected": 2880,
+      "minimal_subset": 2880,
+      "minimal_TV": "11/41"
+    }
+  ],
+  "elapsed_seconds": 0.02804702497087419,
+  "role_reruns": {
+    "r1": {
+      "status": "passed",
+      "result_keys": [
+        "python",
+        "dependencies",
+        "seeds",
+        "transition_checks",
+        "identity_checks",
+        "endpoint_checks",
+        "boundary_checks",
+        "minimal_endpoint_checks",
+        "forced_rejection_fallback",
+        "elapsed_seconds"
+      ],
+      "raw_output": "/tmp/bridge-phase-r1-coordinator-rerun.json"
+    },
+    "r2": {
+      "status": "passed",
+      "checks": [
+        "floor",
+        "small_words",
+        "projection",
+        "survival"
+      ],
+      "raw_output": "/tmp/bridge-phase-r2-coordinator-rerun.json"
+    },
+    "r3": {
+      "status": "passed",
+      "exact_cases": 11,
+      "certificate_rows": 114,
+      "rooted_DPS": [
+        {
+          "d": 2,
+          "rooted_pairs": 2,
+          "connected_words": 1,
+          "preimages_per_word": 2,
+          "endpoint_ok": true,
+          "connected_ok": true
+        },
+        {
+          "d": 3,
+          "rooted_pairs": 72,
+          "connected_words": 24,
+          "preimages_per_word": 3,
+          "endpoint_ok": true,
+          "connected_ok": true
+        },
+        {
+          "d": 4,
+          "rooted_pairs": 11520,
+          "connected_words": 2880,
+          "preimages_per_word": 4,
+          "endpoint_ok": true,
+          "connected_ok": true
+        }
+      ],
+      "raw_output": "/tmp/bridge-phase-r3-coordinator-rerun.json"
+    }
+  }
+}

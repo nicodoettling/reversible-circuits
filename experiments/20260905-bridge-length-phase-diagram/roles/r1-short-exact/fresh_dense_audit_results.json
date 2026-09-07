@@ -1,0 +1,52 @@
+{
+  "role": "fresh nonauthor audit by R1 of frozen R2",
+  "python": "3.12.3",
+  "dependencies": "standard library",
+  "randomness": null,
+  "floors": {
+    "cases": 25228,
+    "minimum_gap_ratio_squared": 3.292181069958848
+  },
+  "retention": [
+    {
+      "rank": 6,
+      "q": 12,
+      "length": 380,
+      "child_floor": 240,
+      "feasible_labeled_endpoints": 360,
+      "parity": 0,
+      "discarded_k_min": 141,
+      "discarded_k_max": 190,
+      "max_exact_mass": 0.06702091827637792,
+      "max_exact_conditioning_ratio": 0.9999999998868875,
+      "all_D11_D17_checks_exact": true,
+      "all_mass_sha256": "21d6f917760f9bbdec0c5fcd61f77a701e6373500f587e621fd63816fa6c91bc"
+    },
+    {
+      "rank": 6,
+      "q": 12,
+      "length": 381,
+      "child_floor": 240,
+      "feasible_labeled_endpoints": 360,
+      "parity": 1,
+      "discarded_k_min": 142,
+      "discarded_k_max": 190,
+      "max_exact_mass": 0.058480976502398196,
+      "max_exact_conditioning_ratio": 0.9999999998258402,
+      "all_D11_D17_checks_exact": true,
+      "all_mass_sha256": "b05e4f5d8734744a387d042be0898dfe44f3581f7ca1c6047ad6694e841d33d9"
+    }
+  ],
+  "one_rank": {
+    "rank": 5,
+    "q": 12,
+    "length": 240,
+    "feasible_labeled_endpoints": 60,
+    "joint_k_h_branches": 173520,
+    "max_exact_one_rank_TV": 6.236540715408964e-19,
+    "Delta_over_one_minus_Delta": 4.5005426534294335e-14,
+    "exact_normalization_pointwise_ratio_support_projection_passed": true
+  },
+  "elapsed_seconds": 3.459445291897282,
+  "failures": 0
+}

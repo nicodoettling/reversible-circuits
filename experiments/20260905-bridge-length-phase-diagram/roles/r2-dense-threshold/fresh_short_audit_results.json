@@ -1,0 +1,111 @@
+{
+  "author_file": "experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/short_exact.py",
+  "bounded_random_tapes": [
+    {
+      "accuracy_bits": 0,
+      "cap_failure_probability": "1/16",
+      "exact_TV": "1/24",
+      "tapes": 16,
+      "trials_per_call": 2
+    },
+    {
+      "accuracy_bits": 1,
+      "cap_failure_probability": "1/64",
+      "exact_TV": "1/96",
+      "tapes": 64,
+      "trials_per_call": 3
+    },
+    {
+      "accuracy_bits": 2,
+      "cap_failure_probability": "1/256",
+      "exact_TV": "1/384",
+      "tapes": 256,
+      "trials_per_call": 4
+    }
+  ],
+  "commit": "9cc740b29eda6dd38adfde5f0aadc4a9c4eeb6fc",
+  "deterministic": true,
+  "elapsed_seconds": 3.199,
+  "endpoint_count_checks": 3547,
+  "every_cone_layer_count_checks": 90743,
+  "failures": 0,
+  "minimal_endpoint_count_checks": 873,
+  "partition_inventory_selected": [
+    {
+      "D": 0,
+      "N": 2,
+      "S": 1,
+      "unfiltered_partition_count": 1
+    },
+    {
+      "D": 1,
+      "N": 2,
+      "S": 2,
+      "unfiltered_partition_count": 2
+    },
+    {
+      "D": 0,
+      "N": 10,
+      "S": 1,
+      "unfiltered_partition_count": 1
+    },
+    {
+      "D": 5,
+      "N": 10,
+      "S": 19,
+      "unfiltered_partition_count": 19
+    },
+    {
+      "D": 9,
+      "N": 10,
+      "S": 42,
+      "unfiltered_partition_count": 97
+    },
+    {
+      "D": 0,
+      "N": 30,
+      "S": 1,
+      "unfiltered_partition_count": 1
+    },
+    {
+      "D": 15,
+      "N": 30,
+      "S": 684,
+      "unfiltered_partition_count": 684
+    },
+    {
+      "D": 29,
+      "N": 30,
+      "S": 5604,
+      "unfiltered_partition_count": 23025
+    }
+  ],
+  "per_word_and_pattern_checks": [
+    {
+      "N": 3,
+      "all_endpoint_words": 81,
+      "canonical_patterns": 9,
+      "identity_words": 27,
+      "m": 4
+    },
+    {
+      "N": 4,
+      "all_endpoint_words": 1296,
+      "canonical_patterns": 12,
+      "identity_words": 120,
+      "m": 4
+    },
+    {
+      "N": 4,
+      "all_endpoint_words": 46656,
+      "canonical_patterns": 392,
+      "identity_words": 3936,
+      "m": 6
+    }
+  ],
+  "python": "3.12.3",
+  "random_seed": null,
+  "schema": "fresh-r1-short-audit-v1",
+  "standard_library_only": true,
+  "transition_checks": 873
+}
