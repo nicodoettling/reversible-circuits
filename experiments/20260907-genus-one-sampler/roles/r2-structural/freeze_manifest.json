@@ -1,0 +1,20 @@
+{
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "frozen_at": "2026-09-07T21:30:02.328822+00:00",
+  "mutable_excluded": [
+    "checkpoint.md"
+  ],
+  "payload_sha256": {
+    "assignment.md": "e877a6212550448d228cf656d7b38d78aa7ab443c4a7602bfb825f49446664af",
+    "audit.py": "e36c587adb36f632ab8fd1959c1efa8a404186fe80236b373319cccaa7801db5",
+    "cut_sampler.py": "8e289a234124acad571223a7f70dec9c0d912dd2065808369bdcb7ff477f3224",
+    "plan.md": "4edafa1070fa84c5e0aa5225b6307132f98113bbc890fa4c9663d0c1670a2e9c",
+    "proof.md": "42cf1bdc767462157d5aa173244d604becf2c1f0a77a0d783b9d3d00b73e5b68",
+    "report.md": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38",
+    "results.json": "6d85e3764afbdcf90d479176c1e68f64d7569f632ac83b9a8e30365789e5cd81"
+  },
+  "primary_count_source": "https://math.stanford.edu/~vakil/files/g01hurwitz.pdf, Section 1.2 and Corollary 1.5",
+  "status": "PROVISIONAL; worker proof and required exact checks complete; fresh nonauthor audit pending",
+  "test_command": "timeout 180s python3 -B experiments/20260907-genus-one-sampler/roles/r2-structural/audit.py --max-n 4 --samples 30 --output experiments/20260907-genus-one-sampler/roles/r2-structural/results.json",
+  "version": "C1"
+}

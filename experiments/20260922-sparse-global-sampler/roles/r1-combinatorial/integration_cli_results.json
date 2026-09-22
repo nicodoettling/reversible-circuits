@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-09-22T06:09:12.166250+00:00",
+  "wrapper_sha256": "5e78c049d188280f8df2b7b2fa0ff984fc3e6fd92aadf3eae9d033d1145a6188",
+  "outputs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "experiments/20260922-sparse-global-sampler/sample.py",
+        "--n",
+        "4",
+        "--m",
+        "6",
+        "--policy",
+        "H0",
+        "--certificate-only"
+      ],
+      "returncode": 0,
+      "output": {
+        "candidate": "H0-v1",
+        "target": "Unif(A(N,m)); exact restriction with one fixed top-level cutoff",
+        "N": 4,
+        "m": 6,
+        "cutoff": 3,
+        "h0_cutoff": 3,
+        "T0_length_condition": false,
+        "Z": 3936,
+        "Z_A": 3936,
+        "global_TV_exact": "0",
+        "negligible_error_theorem": "not asserted by this implementation",
+        "word_labels": "1 through N",
+        "words": [],
+        "composition": "(alpha beta)(x)=alpha(beta(x)); rightmost factor acts first",
+        "diagnostic_seed": null,
+        "randomness_model": "independent fair bits; seeded PRNG is diagnostic only",
+        "source_sha256": {
+          "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+          "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2"
+        }
+      }
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "experiments/20260922-sparse-global-sampler/sample.py",
+        "--n",
+        "4",
+        "--m",
+        "6",
+        "--policy",
+        "H1",
+        "--certificate-only"
+      ],
+      "returncode": 0,
+      "output": {
+        "candidate": "H1-v1",
+        "target": "Unif(A(N,m)); exact restriction with one fixed top-level cutoff",
+        "N": 4,
+        "m": 6,
+        "cutoff": 3,
+        "h0_cutoff": 3,
+        "T0_length_condition": false,
+        "Z": 3936,
+        "Z_A": 1056,
+        "global_TV_exact": "30/41",
+        "negligible_error_theorem": "not asserted by this implementation",
+        "word_labels": "1 through N",
+        "words": [],
+        "composition": "(alpha beta)(x)=alpha(beta(x)); rightmost factor acts first",
+        "diagnostic_seed": null,
+        "randomness_model": "independent fair bits; seeded PRNG is diagnostic only",
+        "source_sha256": {
+          "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+          "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2"
+        }
+      }
+    }
+  ],
+  "finding": "Both policies emit identical Unif(A(N,m)) target label, while canonical proof reserves A for H0 and B for H1. Counts and candidate IDs correctly differ."
+}

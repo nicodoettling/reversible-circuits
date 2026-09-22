@@ -1,0 +1,53 @@
+--- experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/global_consequence.md
++++ experiments/20260907-genus-one-sampler/global_consequence.md
+@@ -1,4 +1,12 @@
+-# Global component consequence — G1.v1 (provisional, awaiting nonauthor audit)
++# Global component consequence — G1.v1.2 (accepted)
++
++G1-COUNT, G1-SAT and G1-OMIT are accepted by nonauthor audit. G1-SAMPLE is
++now unconditional under the checked classical count theorems: both required
++connected primitives are supplied by accepted S1.v2/R1-T1.1. Version 1.1
++clarified N=0 operands and size-two terminology; version 1.2 only closes the
++primitive certification gate, without changing the mathematics or code.
++Complete review: roles/r3-referee/global_audit.md, with the reviewed v1
++snapshot preserved in that role's global-review-input directory.
+ 
+ Target: uniform on all ordered identity words Omega(N,m), with arbitrary
+ support. Composition is rightmost-first. No Markov kernel is involved.
+@@ -30,7 +38,8 @@
+ All divisions are exact. Two binomial convolutions per degree split give
+ O(N^2(m+1)^2) arithmetic operations. Positive accumulated numerators are
+ bounded by d^2(d-1)C(d,k); all counts are at most binom(N,2)^m. Precomputed
+-binomials/powers and all operands therefore have O((m+1)log(N+1)) bits.
++binomials/powers and all operands therefore have O((m+1)log(N+1)) bits for
++N>=1; the N=0 software extension is a separate constant-size case.
+ The base m=0 can be filled directly. This is polynomial bit complexity in
+ N,m; it counts words but does not itself decode them.
+ 
+@@ -72,10 +81,11 @@
+ precision computation is required.
+ 
+ Boundaries: m=0 gives the empty word; odd m gives an empty identity fiber;
+-m=2 gives a repeated uniform edge. At N=2 all feasible even words are
+-singletons, including higher genera; the literal g<=1 subset excludes
+-lengths >=6 even though those singleton components can separately be added
+-to a larger hybrid. At N=1 only m=0 is feasible. No global sampler is claimed
++m=2 gives a repeated uniform edge. At N=2 each feasible even-length global
++fiber has one word; its nontrivial support component has size two, including
++at higher genera. The literal g<=1 subset excludes lengths >=6 even though
++those size-two components can separately be added to a larger hybrid.
++At N=1 only m=0 is feasible. No global sampler is claimed
+ from a zero-mass restricted set.
+ 
+ ## G1-SAT.v1: characterization at m=2N
+@@ -177,5 +187,8 @@
+ renderings are for readability; conclusions at a requested epsilon use exact
+ integer comparisons. The separate saturated recurrence agrees throughout.
+ 
+-Current verdict: keep as provisional proof and exact certificate; request
+-nonauthor audit of G1-COUNT, G1-SAMPLE, G1-SAT and G1-OMIT before promotion.
++Current verdict: promote G1-COUNT, G1-SAMPLE, G1-SAT and G1-OMIT and the
++exact finite certificate after nonauthor audits. The connected primitive
++assumption is discharged by both R1 audits, including the actual integration
++implementation. The global reviewer independently reproduced all 369
++rational certificate rows using a different DYZ total-count recurrence.

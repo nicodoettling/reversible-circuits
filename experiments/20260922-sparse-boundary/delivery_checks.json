@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-22T09:50:01.720311+00:00",
+  "status": "passed",
+  "python": "3.12.3",
+  "old_sources_unchanged": 27,
+  "accepted_hashes_verified": {
+    "experiments/20260922-sparse-boundary/obstruction.md": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
+    "experiments/20260922-sparse-boundary/proof.md": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
+    "experiments/20260922-sparse-boundary/source_checks.md": "7940610828041f50b7ff94ae339114f1e874d31fac15ebf66c29c12c53fb9337",
+    "experiments/20260922-sparse-global-sampler/roles/r3-sampler/sampler-v4.py": "cdb91799b02539190bc31ce7d6fe31ee5af0477b1cc653f43452eb18de734002",
+    "experiments/20260922-sparse-global-sampler/sample.py": "2d74da262e4c53005a05d4f171b85c5469ade520e38b91b1b0df14f4cbe8386e",
+    "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d"
+  },
+  "scripts_compiled_without_bytecode": [
+    "coordinator_checks.py",
+    "finalize_artifacts.py",
+    "roles/r2-obstruction/check_r1_upper.py",
+    "roles/r2-obstruction/check_obstruction.py",
+    "roles/r2-obstruction/check_h2_corollary.py",
+    "roles/r5-referee/candidate_checks.py",
+    "roles/r5-referee/finite_checks.py",
+    "roles/r4-construction/validate.py",
+    "roles/r4-construction/quotient_sampler.py",
+    "roles/r3-diagnostics/first_omission_check.py",
+    "roles/r3-diagnostics/boundary_diagnostics.py",
+    "roles/r3-diagnostics/finite_inequality_checks.py",
+    "roles/r3-diagnostics/allowed_exponent_checks.py",
+    "roles/r3-diagnostics/sampler_regressions.py",
+    "roles/r3-diagnostics/allowed_exponent_checks-v1.py",
+    "roles/r1-upper/audit_checks.py"
+  ],
+  "json_files_parsed": 57,
+  "required_root_files": [
+    "plan.md",
+    "run_manifest.md",
+    "initial_git_status.txt",
+    "source_hashes.json",
+    "checkpoint.md",
+    "claim_ledger.md",
+    "proof.md",
+    "obstruction.md",
+    "coordinator_report.md",
+    "regression_registry.md",
+    "resume.md",
+    "coordinator-checks.json",
+    "coordinator-qc-checks.json",
+    "construction_audit.md"
+  ],
+  "all_five_role_reports_present": true,
+  "cap_times_unchanged": {
+    "started_at": "2026-09-22T09:25:28.937730+00:00",
+    "wrapup_at": "2026-09-22T10:15:28.937730+00:00",
+    "graceful_shutdown_at": "2026-09-22T10:24:23.937730+00:00",
+    "hard_deadline_at": "2026-09-22T10:25:28.937730+00:00"
+  },
+  "tracked_diff_empty": true,
+  "research_files": 150,
+  "native_completion_record_present": true,
+  "math_tests": "Previously completed exact tests and current result flags; no unnecessary repeated broad computation."
+}

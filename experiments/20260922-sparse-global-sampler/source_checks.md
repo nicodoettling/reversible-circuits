@@ -1,0 +1,11 @@
+# Focused primary-source checks — SRC.v1 (2026-09-22)
+
+Coordinator directly opened these primary PDFs through built-in web on this run. This records normalization checks, not external certification of new results.
+
+DYZ: Dubrovin–Yang–Zagier, *Classical Hurwitz numbers and related combinatorics*, https://people.mpim-bonn.mpg.de/zagier/files/tex/ClassicalHurwitz/HurwitzRevised.pdf, Proposition1 Eq(13), PDF page4, and Section1.2 Eqs(19)–(20), page5. The paper explicitly identifies d! H*_(ell,d) with ordered ell-tuples of transpositions with product1. Its connected/disconnected exponential identity and transitive monodromy imply C(d,ell)=d! ell! h_(g,d), ell=2d-2+2g. No class-size or unlabeled-position divisor remains. Reversing a word translates opposite product conventions and preserves the identity endpoint.
+
+The positive recurrence reads h_(g,d)=2/[d²(d-1)] sum_(a+b=d) sum_(g1+g2+j=g+1,j>=1) a^(2j+1)b² h_(g1,a)h_(g2,b)/(2j)!. Base h_(0,1)=1 and higher-genus degree1 zero. Multiplication by d!ell! yields the old integer recurrence with binomial label allocation and multinomial position allocation; these are exactly the factors in the September7 global_consequence.md. This checks the load-bearing count theorem and its scope for all integer g>=0,d>=2.
+
+Vakil: *Genus 0 and 1 Hurwitz numbers*, https://math.stanford.edu/~vakil/files/g01hurwitz.pdf, Section1.2 and Corollary1.5, PDF pages3–4; Proposition3.2, pages10–11. Section1.2 defines c^g_alpha for a fixed permutation, r=d+l(alpha)+2g-2 ordered factors, and transitive support; G=c/product alpha_i. Thus the September7 q(a)=a^a/(a-1)! formula is for c, with no conjugacy-class/equal-cycle factorial. The displayed positive genus-one formula follows from S_j=d e_j-(j+1)e_(j+1) and Q=d²-d-2e_2, agreeing with the source expansion. Singleton g0=1,g1=0; identity v2,3,4 genus1 counts1,240,131040. Root has read the September7 canonical proof; final-letter uniqueness and actual forced-cycle allocation masses provide the word decoder, separate from scalar counts.
+
+The new factorial majorant, incidence inequality and tail theorem are NOT imported from these sources: they are current-run claims pending adversarial review. No claim of literature priority beyond comparison to the named inherited results is made.

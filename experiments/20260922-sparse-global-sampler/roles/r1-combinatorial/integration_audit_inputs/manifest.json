@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-09-22T06:08:16.600632+00:00",
+  "task": "final integration audit SG-T1.v1",
+  "scope": "R1 authored the analytic argument, but did not author R3 code/proof or root synthesis/wrapper. This is an integration and implementation-dependency audit, not a blind independent analytic audit.",
+  "files": [
+    {
+      "source": "experiments/20260922-sparse-global-sampler/proof.md",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/integration_audit_inputs/proof.md",
+      "sha256": "d03954bd1530ae0e3a6b8f4feb6c2fa97520c6048f1089f3a3e2bc26ab684319"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/sample.py",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/integration_audit_inputs/sample.py",
+      "sha256": "5e78c049d188280f8df2b7b2fa0ff984fc3e6fd92aadf3eae9d033d1145a6188"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r3-sampler/proof-v3.md",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/integration_audit_inputs/roles/r3-sampler/proof-v3.md",
+      "sha256": "f941c5e141e229839813056da1169295b7b2c5d5a052886bc8edb69f096c1868"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r3-sampler/sampler-v3.py",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/integration_audit_inputs/roles/r3-sampler/sampler-v3.py",
+      "sha256": "56b27019396f93d4784032028ca1099d45ddd1cab1f740520c20c8c0169a8e06"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/sampler_review-v3.md",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/integration_audit_inputs/roles/r4-diagnostics/sampler_review-v3.md",
+      "sha256": "d673444cc3a0273c44a775f69c176b8ac687b8806ef6db272c29a79686fe44b8"
+    }
+  ]
+}

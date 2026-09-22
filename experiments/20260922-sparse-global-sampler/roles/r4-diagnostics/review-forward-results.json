@@ -1,0 +1,519 @@
+{
+  "version": "R4-FORWARD.v1",
+  "reviewed_sampler_version": 3,
+  "sampler_sha256": "56b27019396f93d4784032028ca1099d45ddd1cab1f740520c20c8c0169a8e06",
+  "target": "exact restricted H0/H1 laws; no asymptotic assertion",
+  "law_cases": [
+    {
+      "policy": "H1",
+      "N": 4,
+      "m": 6,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 1056,
+      "words": 1056,
+      "total_words": 3936,
+      "probability": "1/1056",
+      "global_tv": "30/41",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "a1fe6f92472f0f0438bd1077134dd744f786a35d8694f8407da1504d15a6ffe1",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 4,
+      "m": 4,
+      "cutoff": 2,
+      "override": 2,
+      "actual_forward_paths": 24,
+      "words": 24,
+      "total_words": 120,
+      "probability": "1/24",
+      "global_tv": "4/5",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "3de80591c80e8b5c2e0e50f91bc420c2a15a8f1d49f2da0657a91b405b617634",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 4,
+      "m": 6,
+      "cutoff": 2,
+      "override": 2,
+      "actual_forward_paths": 96,
+      "words": 96,
+      "total_words": 3936,
+      "probability": "1/96",
+      "global_tv": "40/41",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "d36f7c3c97dfe4798c6ea3d33447b58e1bf4d706ea8af37467f69bea6c94debe",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 3,
+      "m": 8,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 2187,
+      "words": 2187,
+      "total_words": 2187,
+      "probability": "1/2187",
+      "global_tv": "0",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "95870e7c57bfb2198c4416fc7063a34e568a47d5ce04fcf0c29c7ba223b1b474",
+      "passed": true
+    }
+  ],
+  "frozen_cutoff_actual_paths": [
+    {
+      "policy": "H0",
+      "top": [
+        42,
+        12,
+        5
+      ],
+      "residual": [
+        5,
+        12,
+        4
+      ],
+      "actual_assembly": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "word": [
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          37,
+          41
+        ]
+      ],
+      "per_word_probability": "1/6771247112604328676721",
+      "A": 6771247112604328676721,
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "top": [
+        42,
+        12,
+        5
+      ],
+      "residual": [
+        5,
+        12,
+        4
+      ],
+      "actual_assembly": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "word": [
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          37,
+          41
+        ]
+      ],
+      "per_word_probability": "1/6567808153112291607921",
+      "A": 6567808153112291607921,
+      "passed": true
+    }
+  ],
+  "long_stack": {
+    "v": 2,
+    "ell": 1400,
+    "count": 1,
+    "cache_states": 1401,
+    "passed": true
+  },
+  "seconds": 0.6104181649861857,
+  "passed": true
+}

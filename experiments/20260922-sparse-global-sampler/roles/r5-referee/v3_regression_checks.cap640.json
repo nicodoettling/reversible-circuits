@@ -1,0 +1,242 @@
+{
+  "status": "passed",
+  "runtime_decimal_cap": 640,
+  "integer_roundtrips": [
+    {
+      "bits": 0,
+      "sign": -1,
+      "encoding": "integer",
+      "json_length": 1
+    },
+    {
+      "bits": 0,
+      "sign": 1,
+      "encoding": "integer",
+      "json_length": 1
+    },
+    {
+      "bits": 1,
+      "sign": -1,
+      "encoding": "integer",
+      "json_length": 2
+    },
+    {
+      "bits": 1,
+      "sign": 1,
+      "encoding": "integer",
+      "json_length": 1
+    },
+    {
+      "bits": 2,
+      "sign": -1,
+      "encoding": "integer",
+      "json_length": 2
+    },
+    {
+      "bits": 2,
+      "sign": 1,
+      "encoding": "integer",
+      "json_length": 1
+    },
+    {
+      "bits": 1919,
+      "sign": -1,
+      "encoding": "integer",
+      "json_length": 579
+    },
+    {
+      "bits": 1919,
+      "sign": 1,
+      "encoding": "integer",
+      "json_length": 578
+    },
+    {
+      "bits": 1920,
+      "sign": -1,
+      "encoding": "integer",
+      "json_length": 579
+    },
+    {
+      "bits": 1920,
+      "sign": 1,
+      "encoding": "integer",
+      "json_length": 578
+    },
+    {
+      "bits": 1921,
+      "sign": -1,
+      "encoding": "hex",
+      "json_length": 516
+    },
+    {
+      "bits": 1921,
+      "sign": 1,
+      "encoding": "hex",
+      "json_length": 515
+    },
+    {
+      "bits": 20001,
+      "sign": -1,
+      "encoding": "hex",
+      "json_length": 5036
+    },
+    {
+      "bits": 20001,
+      "sign": 1,
+      "encoding": "hex",
+      "json_length": 5035
+    }
+  ],
+  "fraction_roundtrips": [
+    {
+      "numerator_bits": 0,
+      "denominator_bits": 1,
+      "encoding": "rational-string",
+      "json_length": 3
+    },
+    {
+      "numerator_bits": 1,
+      "denominator_bits": 1,
+      "encoding": "rational-string",
+      "json_length": 3
+    },
+    {
+      "numerator_bits": 2,
+      "denominator_bits": 3,
+      "encoding": "rational-string",
+      "json_length": 6
+    },
+    {
+      "numerator_bits": 20002,
+      "denominator_bits": 20001,
+      "encoding": "hex-rational",
+      "json_length": 10070
+    },
+    {
+      "numerator_bits": 1,
+      "denominator_bits": 20000,
+      "encoding": "hex-rational",
+      "json_length": 5069
+    },
+    {
+      "numerator_bits": 20000,
+      "denominator_bits": 1,
+      "encoding": "hex-rational",
+      "json_length": 5069
+    }
+  ],
+  "cap_unchanged": true,
+  "H1_dependency_isolation": [
+    {
+      "N": 0,
+      "m": 0,
+      "K": 0,
+      "Z": 1,
+      "Z_H1": 1,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 1,
+      "m": 0,
+      "K": 1,
+      "Z": 1,
+      "Z_H1": 1,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "K": 2,
+      "Z": 1,
+      "Z_H1": 1,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "K": 3,
+      "Z": 27,
+      "Z_H1": 27,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "K": 3,
+      "Z": 2187,
+      "Z_H1": 2187,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "K": 3,
+      "Z": 3936,
+      "Z_H1": 1056,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "K": 3,
+      "Z": 140160,
+      "Z_H1": 9120,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    },
+    {
+      "N": 5,
+      "m": 12,
+      "K": 4,
+      "Z": 16731772540,
+      "Z_H1": 931372540,
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ],
+      "no_g01_calls": true
+    }
+  ],
+  "provenance": {
+    "utc": "2026-09-22T06:04:35.422850+00:00",
+    "python": "3.12.3",
+    "source_sha256": "56b27019396f93d4784032028ca1099d45ddd1cab1f740520c20c8c0169a8e06",
+    "script_sha256": "dc7aa6460e48c8e9d5cf266fd9d500c587532fed3ea42bc0b2f21ae416ad1c1e",
+    "command": "PYTHONINTMAXSTRDIGITS=640 timeout 120s python3 -B experiments/20260922-sparse-global-sampler/roles/r5-referee/v3_regression_checks.py"
+  }
+}

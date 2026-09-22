@@ -1,0 +1,9 @@
+# Complete common assignment input for R1–R4
+
+Read intake_user_prompt.md (full frozen user task) and plan.md in this experiment. Read relevant required repository/skill references and selective completed-run dependencies named there. Do not read enormous logs. Read cap sidecar and tmux-run.json on entry and every continuation. All mathematical claims carry status and version. No goal creation or delegation. All contexts gpt-6-astra / ultra; report observed model/effort when exposed, do not substitute.
+
+Write only your assigned roles/rX directory. Preserve this input and your spawn assignment, settings/ID, plan, first checkpoint within 20 minutes then <=15 minutes, final report, code and machine-readable partial results. Absolute UTC deadlines: activation05:43:44; independent blind report07:13:44; no new construction09:13:44; reports/resume09:38:44; graceful09:42:39; hard09:43:44 on 2026-09-22. Check clock yourself and do not wait for injected wrapup messages.
+
+No installs/escalations/system changes/commits/pushes, external processes/sessions, detached jobs or remote asynchronous work. Ordinary supervised computations are authorized with timeout<=120s initially. Python3 -B; hash old code before importing, never write caches into old experiments. At most two heavy count/enumeration grids at once across team: initially R3 and R4 own those slots; others request coordinator coordination before heavy compute. R3/R4 coordinate nonduplicate parameter grids directly.
+
+Treat exact primitive assertions as dependencies requiring checking. Same-model agreement is correlated internal evidence, not human certification. Preserve all counterexamples and minority findings. Initial objective is global Unif(Omega(N,m)), H0 output conditional Unif(A); never conflate. Keep top-level K fixed throughout recursion. Distinguish named-candidate failure from sampling hardness.

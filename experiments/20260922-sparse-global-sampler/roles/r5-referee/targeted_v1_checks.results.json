@@ -1,0 +1,109 @@
+{
+  "status": "mathematical checks passed",
+  "endpoint_checks": [
+    {
+      "n": 1,
+      "connected_endpoint_checks": 1,
+      "max_states": 1
+    },
+    {
+      "n": 2,
+      "connected_endpoint_checks": 4,
+      "max_states": 1
+    },
+    {
+      "n": 3,
+      "connected_endpoint_checks": 12,
+      "max_states": 6
+    },
+    {
+      "n": 4,
+      "connected_endpoint_checks": 48,
+      "max_states": 36
+    },
+    {
+      "n": 5,
+      "connected_endpoint_checks": 240,
+      "max_states": 250
+    }
+  ],
+  "allocation_checks": [
+    {
+      "lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "forced_allocation_checks": 729
+    },
+    {
+      "lengths": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "forced_allocation_checks": 27
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "forced_allocation_checks": 27
+    },
+    {
+      "lengths": [
+        1,
+        3,
+        1,
+        2
+      ],
+      "forced_allocation_checks": 27
+    },
+    {
+      "lengths": [
+        4,
+        1,
+        1
+      ],
+      "forced_allocation_checks": 9
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        3,
+        1,
+        1
+      ],
+      "forced_allocation_checks": 81
+    }
+  ],
+  "CLI_serialization": {
+    "status": "ValueError",
+    "message": "Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit",
+    "runtime_digit_limit": 4300,
+    "N": 100000,
+    "m": 1000,
+    "T0": true,
+    "lower_bound_bits": 16110,
+    "reason": "Z >= choose(N,2)^(m/2) from adjacent repeated pairs; default CLI serializes Z as a decimal JSON integer"
+  },
+  "elapsed_seconds": 0.12468622694723308,
+  "provenance": {
+    "utc": "2026-09-22T05:59:56.295797+00:00",
+    "python": "3.12.3",
+    "seed": "none; exhaustive deterministic checks",
+    "command": "timeout 120s python3 -B experiments/20260922-sparse-global-sampler/roles/r5-referee/targeted_v1_checks.py",
+    "git_commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+    "script_sha256": "c72343811326cab217f3312b5b85dff85b865bcaf396256762a7e47a7e2249e5",
+    "g01_input_sha256": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d"
+  }
+}

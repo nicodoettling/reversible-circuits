@@ -1,0 +1,15 @@
+# R2 final report — 2026-09-22T05:59:13.563604+00:00
+
+**Classification for this worker: analytic obligation proved and nonauthor-audited on the R1 canonical candidate; global sampler certification remains coordinator work.**
+
+Independent derivation R2-A.v1 supplies a factorial genus majorant A_g(v)<=A_0(v)B_v^g/g!, B_v=sum_(j=1)^(v-1)j^2/12. Exact marked-component counting and weighted fresh-pair insertion then bound the uniform identity-bridge probability of ANY component larger than K. This is stronger than H0's excluded intersection. The explicit independent proof covers T0 and T1 m^3<=N^2, with fixed negligible error functions and thresholds in proof_v1.md. Its pre-cross-review report is independent_report.md.
+
+R2 subsequently audited the separately frozen R1 proof, SHA25643fc4b84c5166ffd42cf838b3080e82c62b35b20f6a9ef2cde01da5c33dcaca0, and **accepts its analytic claims at that exact version**. R1 gives the common stronger bound eta(N)=exp(-log(N)^2/[10loglog(N)]) for N>=2^160 and eta=1 below, uniformly for every even m with m^3<=N^2. Thus T0's mass obligation is met; the stretch through exponent 2/3 is also covered. Full review, checks, nonblocking provenance notes and scope limitations are in r1_audit.md.
+
+Exact tests are separate evidence: verify.py/results.json cover rational connected counts, genus majorants, normalization, required raw-word examples and boundaries. The new audit_r1.py/r1_audit_results.json enumerate 237 weighted-incidence cells and 8,107 matching extensions, and test 45 nontrivial rational tail certificates through N=1024,m=14. All checks pass. Both scripts use only Python 3.12.3 standard-library exact arithmetic and complete in under two seconds. No stochastic experiment, seed, heavy grid or old-code import was used.
+
+Imported input: DYZ Proposition 1 Eq(13), normalization from Eqs(19)–(20) and the following ordered-tuple paragraph, and the minimal formula following Eq(28), checked directly at the primary PDF. Derived contribution: the factorial genus majorant and its uniform maximum-component tail application. No priority claim is made. Implemented contribution: independent exact falsification scripts, not the sampler. No ordinary random-graph independence or asymptotic finite-data inference enters the proof.
+
+A simpler versioned sampler keeping only components of size <=K is also sufficient analytically and avoids genus-zero/one generator dependencies. H0 remains the named larger candidate; the alternate subset is not silently substituted. Exact connected DP/assembly, polynomial bit/runtime accounting, blind referee and final synthesis remain outside this worker's completed task. Agent agreement is correlated internal review, not external human certification.
+
+**Verdict: promote analytic theorem for coordinator integration, preserving exact reviewed versions.** No counterexample or blocking mathematical objection remains in the reviewed analytic graph. Attributable files are listed in changed_files.txt; old artifacts and shared files were read-only.

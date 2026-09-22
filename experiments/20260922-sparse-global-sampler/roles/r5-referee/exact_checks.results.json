@@ -1,0 +1,879 @@
+{
+  "status": "all checks passed",
+  "parameters": {
+    "max_n": 7,
+    "max_m": 12
+  },
+  "composition": "rightmost first; append transposition by swapping permutation image entries",
+  "bridge_counts": {
+    "0": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "1": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "3": [
+      1,
+      0,
+      3,
+      0,
+      27,
+      0,
+      243,
+      0,
+      2187,
+      0,
+      19683,
+      0,
+      177147
+    ],
+    "4": [
+      1,
+      0,
+      6,
+      0,
+      120,
+      0,
+      3936,
+      0,
+      140160,
+      0,
+      5039616,
+      0,
+      181401600
+    ],
+    "5": [
+      1,
+      0,
+      10,
+      0,
+      340,
+      0,
+      20860,
+      0,
+      1770940,
+      0,
+      169271260,
+      0,
+      16731772540
+    ],
+    "6": [
+      1,
+      0,
+      15,
+      0,
+      765,
+      0,
+      72315,
+      0,
+      10198665,
+      0,
+      1846162215,
+      0,
+      380074772565
+    ],
+    "7": [
+      1,
+      0,
+      21,
+      0,
+      1491,
+      0,
+      197421,
+      0,
+      40088391,
+      0,
+      11052356721,
+      0,
+      3752264339691
+    ]
+  },
+  "connected_counts": {
+    "1": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "3": [
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      240,
+      0,
+      2184,
+      0,
+      19680,
+      0,
+      177144
+    ],
+    "4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2880,
+      0,
+      131040,
+      0,
+      4959360,
+      0,
+      180686880
+    ],
+    "5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1008000,
+      0,
+      142732800,
+      0,
+      15800400000
+    ],
+    "6": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      783820800,
+      0,
+      275425920000
+    ],
+    "7": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1150082841600
+    ]
+  },
+  "recurrence_checks": [
+    {
+      "n": 2,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 2,
+      "connected": 1,
+      "normalized": "1/4"
+    },
+    {
+      "n": 2,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 4,
+      "connected": 1,
+      "normalized": "1/48"
+    },
+    {
+      "n": 2,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 6,
+      "connected": 1,
+      "normalized": "1/1440"
+    },
+    {
+      "n": 2,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 8,
+      "connected": 1,
+      "normalized": "1/80640"
+    },
+    {
+      "n": 2,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 10,
+      "connected": 1,
+      "normalized": "1/7257600"
+    },
+    {
+      "n": 2,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 2,
+      "m": 12,
+      "connected": 1,
+      "normalized": "1/958003200"
+    },
+    {
+      "n": 3,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 2,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 4,
+      "connected": 24,
+      "normalized": "1/6"
+    },
+    {
+      "n": 3,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 6,
+      "connected": 240,
+      "normalized": "1/18"
+    },
+    {
+      "n": 3,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 8,
+      "connected": 2184,
+      "normalized": "13/1440"
+    },
+    {
+      "n": 3,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 10,
+      "connected": 19680,
+      "normalized": "41/45360"
+    },
+    {
+      "n": 3,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 3,
+      "m": 12,
+      "connected": 177144,
+      "normalized": "671/10886400"
+    },
+    {
+      "n": 4,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 6,
+      "connected": 2880,
+      "normalized": "1/6"
+    },
+    {
+      "n": 4,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 8,
+      "connected": 131040,
+      "normalized": "13/96"
+    },
+    {
+      "n": 4,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 10,
+      "connected": 4959360,
+      "normalized": "41/720"
+    },
+    {
+      "n": 4,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 4,
+      "m": 12,
+      "connected": 180686880,
+      "normalized": "11407/725760"
+    },
+    {
+      "n": 5,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 2,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 8,
+      "connected": 1008000,
+      "normalized": "5/24"
+    },
+    {
+      "n": 5,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 10,
+      "connected": 142732800,
+      "normalized": "59/180"
+    },
+    {
+      "n": 5,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 5,
+      "m": 12,
+      "connected": 15800400000,
+      "normalized": "475/1728"
+    },
+    {
+      "n": 6,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 2,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 4,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "connected": 783820800,
+      "normalized": "3/10"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "connected": 275425920000,
+      "normalized": "115/144"
+    },
+    {
+      "n": 7,
+      "m": 0,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 1,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 2,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 3,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 4,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 8,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 9,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 10,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 11,
+      "connected": 0,
+      "normalized": "0"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "connected": 1150082841600,
+      "normalized": "343/720"
+    }
+  ],
+  "insertion_checks": [
+    {
+      "N": 2,
+      "m": 2,
+      "r": 1,
+      "actual": "2",
+      "sharp_bound": "2",
+      "bound": "4"
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "r": 1,
+      "actual": "2/3",
+      "sharp_bound": "2/3",
+      "bound": "1"
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "r": 1,
+      "actual": "1/3",
+      "sharp_bound": "1/3",
+      "bound": "4/9"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "r": 1,
+      "actual": "3/5",
+      "sharp_bound": "4",
+      "bound": "8"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "r": 2,
+      "actual": "1/5",
+      "sharp_bound": "4/3",
+      "bound": "64"
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "r": 1,
+      "actual": "1/5",
+      "sharp_bound": "1/5",
+      "bound": "1/4"
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "r": 1,
+      "actual": "6/17",
+      "sharp_bound": "4/3",
+      "bound": "2"
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "r": 2,
+      "actual": "6/85",
+      "sharp_bound": "4/15",
+      "bound": "4"
+    },
+    {
+      "N": 6,
+      "m": 2,
+      "r": 1,
+      "actual": "2/15",
+      "sharp_bound": "2/15",
+      "bound": "4/25"
+    },
+    {
+      "N": 6,
+      "m": 4,
+      "r": 1,
+      "actual": "4/17",
+      "sharp_bound": "2/3",
+      "bound": "8/9"
+    },
+    {
+      "N": 6,
+      "m": 4,
+      "r": 2,
+      "actual": "8/255",
+      "sharp_bound": "4/45",
+      "bound": "64/81"
+    },
+    {
+      "N": 6,
+      "m": 6,
+      "r": 1,
+      "actual": "510/1607",
+      "sharp_bound": "6",
+      "bound": "12"
+    },
+    {
+      "N": 6,
+      "m": 6,
+      "r": 2,
+      "actual": "120/1607",
+      "sharp_bound": "4",
+      "bound": "144"
+    },
+    {
+      "N": 6,
+      "m": 6,
+      "r": 3,
+      "actual": "16/1607",
+      "sharp_bound": "8/15",
+      "bound": "1728"
+    },
+    {
+      "N": 7,
+      "m": 2,
+      "r": 1,
+      "actual": "2/21",
+      "sharp_bound": "2/21",
+      "bound": "1/9"
+    },
+    {
+      "N": 7,
+      "m": 4,
+      "r": 1,
+      "actual": "12/71",
+      "sharp_bound": "2/5",
+      "bound": "1/2"
+    },
+    {
+      "N": 7,
+      "m": 4,
+      "r": 2,
+      "actual": "8/497",
+      "sharp_bound": "4/105",
+      "bound": "1/4"
+    },
+    {
+      "N": 7,
+      "m": 6,
+      "r": 1,
+      "actual": "2130/9401",
+      "sharp_bound": "2",
+      "bound": "3"
+    },
+    {
+      "N": 7,
+      "m": 6,
+      "r": 2,
+      "actual": "360/9401",
+      "sharp_bound": "4/5",
+      "bound": "9"
+    },
+    {
+      "N": 7,
+      "m": 6,
+      "r": 3,
+      "actual": "240/65807",
+      "sharp_bound": "8/105",
+      "bound": "27"
+    }
+  ],
+  "elapsed_seconds": 0.10938185104168952,
+  "provenance": {
+    "utc": "2026-09-22T05:49:46.314054+00:00",
+    "python": "3.12.3",
+    "dependencies": "standard library only",
+    "seed": "none: exhaustive deterministic computation",
+    "command": "timeout 120s python3 -B experiments/20260922-sparse-global-sampler/roles/r5-referee/exact_checks.py",
+    "git_commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+    "script_sha256": "27d600156069eaed86945b95cccc92a6e697a47479d12fdad8577657bbfed276"
+  }
+}

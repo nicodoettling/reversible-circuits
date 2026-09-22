@@ -1,0 +1,3 @@
+# R4 final checkpoint, 2026-09-22T09:44:23.477444+00:00
+
+Report saved. QC exact decoder proof is author-proved/provisional and passes complete required finite laws; optional construction does not affect main theorem closure. R2-O2.v1 proves its global omitted mass tends to1 at the benchmark, independently accepted by this role. ALG.v1 and current ALG-INT.v2 accept unchanged H0/H1 all-even-length algorithm/resource dependencies and repaired exact root proof routing. reduction.md isolates remaining large-support higher-genus connected primitive. No computation running; available for coordinator follow-up.

@@ -1,0 +1,22 @@
+{
+  "snapshotted_at": "2026-09-22T05:56:53.448562+00:00",
+  "reviewer": "/root/r1_combinatorial",
+  "files": [
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r2-analytic/proof_v1.md",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/r2_audit_inputs/proof_v1.md",
+      "sha256": "518a5392f305aa7a7838a52ef8c28a2cacbb2e6bb52d285be7f0a8c01aa7a8d3"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r2-analytic/results.json",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/r2_audit_inputs/results.json",
+      "sha256": "eba69f350505757998d633a7c5d743e7d6cb8957af18c864765325bcda454cdb"
+    },
+    {
+      "source": "experiments/20260922-sparse-global-sampler/roles/r2-analytic/verify.py",
+      "snapshot": "experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/r2_audit_inputs/verify.py",
+      "sha256": "15dccfe692120197c4cc96e6d7108d34293bf10157ec9118e5ac0dd9a48fe893"
+    }
+  ],
+  "prior_context": "R1 froze own proof and independent_report before reading these. Parent stated related majorants existed. Same-model correlated review, not blind."
+}

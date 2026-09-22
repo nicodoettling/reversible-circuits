@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "audited_proof": "experiments/20260922-sparse-boundary/roles/r1-upper/proof-v2.md",
+  "audited_proof_sha256": "b76f706aad3dae20ed3550298b98bd260b295f7cc9752eb3f1ecef663c87ac3c",
+  "count_source_sha256_before_import": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+  "domain": "2<=N<=32, even2<=m<=min(N,20), all feasible v,g",
+  "genus_term_cells": 3850,
+  "finite_binomial_cells": 1045,
+  "rising_factorial_cells": 3850,
+  "near_minimal_zero_H0_cells": 409,
+  "seeds": "none, deterministic exact rationals",
+  "python": "3.12.3",
+  "seconds": 0.08528484310954809,
+  "command": "timeout 90s python3 -B experiments/20260922-sparse-boundary/roles/r2-obstruction/check_r1_upper.py"
+}

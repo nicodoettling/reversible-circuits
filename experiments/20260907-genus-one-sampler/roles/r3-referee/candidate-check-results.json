@@ -1,0 +1,34 @@
+{
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "moments": {
+    "maximum_moment_degree": 8,
+    "oriented_cycle_profiles": 171,
+    "exact_full_moment_tables": 7754,
+    "forced_mass_queries_vs_blind_oracle": 11631,
+    "count_formula_profiles_through": 18,
+    "count_formula_queries": 3192
+  },
+  "actual_stack_replays": {
+    "all_s3_literal_family_words": 588,
+    "generated_targets_from_blind_sampler": 168,
+    "actual_sampler_replays": 1488,
+    "integer_draw_calls_replayed": 11595,
+    "branch_interval_endpoints": "both first and last for all S3 words and S4 generated targets",
+    "diagnostic_seeds": [
+      17,
+      101,
+      20260907
+    ]
+  },
+  "deep_stack": {
+    "fixture_degree": 600,
+    "output_length": 1200,
+    "scope": "explicit-stack mechanics only; count, branch and assignment oracles stubbed deterministically",
+    "fake_branch_calls": 1200,
+    "maximum_sample_frames": 1,
+    "maximum_pending_tasks": 1797
+  },
+  "result": "pass",
+  "seconds": 1.1871825689449906
+}

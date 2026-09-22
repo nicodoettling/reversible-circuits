@@ -1,0 +1,28 @@
+{
+  "implementation_version": "R3-implementation-v4",
+  "candidate": "H1-v1",
+  "target": "Uniform length-m transposition identity words on N distinguished labels, conditional on every nontrivial support component satisfying v <= cutoff; g=(ell-2*v+2)/2, v is component size and ell is its number of factors. Isolated labels are allowed. The cutoff stays fixed throughout assembly.",
+  "allowed_nontrivial_component_predicate": "v <= cutoff",
+  "N": 82,
+  "m": 14,
+  "cutoff": 5,
+  "cutoff_source": "top-level K(N,m)",
+  "top_level_cutoff": 5,
+  "diagnostic_cutoff_override": null,
+  "h0_cutoff": 5,
+  "T0_length_condition": true,
+  "Z": 848329431624084867793642709721,
+  "Z_A": 840286164338458754270695944921,
+  "allowed_count": 840286164338458754270695944921,
+  "global_TV_exact": "2421941368752217260748800/255443972184307397709618401",
+  "negligible_error_theorem": "not asserted by this implementation",
+  "word_labels": "1 through N",
+  "words": [],
+  "composition": "(alpha beta)(x)=alpha(beta(x)); rightmost factor acts first",
+  "diagnostic_seed": null,
+  "randomness_model": "independent fair bits; seeded PRNG is diagnostic only",
+  "source_sha256": {
+    "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+    "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2"
+  }
+}

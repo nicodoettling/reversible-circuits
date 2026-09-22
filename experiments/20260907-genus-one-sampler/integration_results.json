@@ -1,0 +1,135 @@
+{
+  "python": "3.12.3",
+  "dependencies": {},
+  "seeds": [
+    1729,
+    2718,
+    31415
+  ],
+  "connected_valid_draws": 15,
+  "restricted_valid_draws": 51,
+  "invalid_inputs_rejected": [
+    [
+      "connected",
+      0
+    ],
+    [
+      "connected",
+      1
+    ],
+    [
+      "restricted",
+      1,
+      2
+    ],
+    [
+      "restricted",
+      2,
+      1
+    ],
+    [
+      "restricted",
+      2,
+      6
+    ],
+    [
+      "restricted",
+      -1,
+      0
+    ],
+    [
+      "restricted",
+      2,
+      -2
+    ]
+  ],
+  "certificate_checks": [
+    {
+      "N": 0,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 1,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 2,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "covered_mass": "1"
+    },
+    {
+      "N": 2,
+      "m": 4,
+      "covered_mass": "1"
+    },
+    {
+      "N": 3,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "covered_mass": "1"
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "covered_mass": "1"
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "covered_mass": "80/81"
+    },
+    {
+      "N": 4,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "covered_mass": "1"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "covered_mass": "1"
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "covered_mass": "4375/4672"
+    },
+    {
+      "N": 8,
+      "m": 0,
+      "covered_mass": "1"
+    },
+    {
+      "N": 8,
+      "m": 2,
+      "covered_mass": "1"
+    },
+    {
+      "N": 8,
+      "m": 4,
+      "covered_mass": "1"
+    },
+    {
+      "N": 8,
+      "m": 16,
+      "covered_mass": "6723480491193375/14156853657546232"
+    }
+  ],
+  "interpretation": "seeded draws check integration validity only; no empirical uniformity inference",
+  "seconds": 0.03795459610410035
+}

@@ -1,0 +1,55 @@
+{
+  "claim": "R2-O1 nonauthor exact regression; R1 rising-incidence finite falsification",
+  "checks": {
+    "profile_coefficient": 567,
+    "finite_SA_lt_8k": 304,
+    "subgroup_denominator": 16128,
+    "rising_incidence": 6300,
+    "j_integer_constants": 1000
+  },
+  "failures": [],
+  "instances": [
+    {
+      "N": 3,
+      "m": 4,
+      "K": 3,
+      "Z": 27,
+      "ZA": 27
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "K": 3,
+      "Z": 120,
+      "ZA": 120
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "K": 3,
+      "Z": 3936,
+      "ZA": 3936
+    },
+    {
+      "N": 42,
+      "m": 12,
+      "K": 5,
+      "Z": 6771247112604328676721,
+      "ZA": 6771247112604328676721
+    }
+  ],
+  "N_max": 64,
+  "m_max": 16,
+  "j_checks": [
+    1,
+    1000
+  ],
+  "python": "3.12.3",
+  "seconds": 0.18785619491245598,
+  "source": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py",
+  "source_sha256": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+  "command": [
+    "experiments/20260922-sparse-boundary/roles/r1-upper/audit_checks.py"
+  ],
+  "seed": null
+}

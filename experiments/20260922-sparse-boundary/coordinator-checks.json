@@ -1,0 +1,71 @@
+{
+  "version": "ROOT-EXACT.v1",
+  "command": [
+    "experiments/20260922-sparse-boundary/coordinator_checks.py",
+    "--output",
+    "experiments/20260922-sparse-boundary/coordinator-checks.json"
+  ],
+  "python": "3.12.3",
+  "old_source_sha256": "bfc6b55ac25507160c6aa7ee3b1a5a6a941198e70c51261d397cb10de5e50ede",
+  "checks": {
+    "majorant": 55,
+    "profile_coefficient": 80,
+    "subgroup_denominator": 390,
+    "finite_binomial": 197,
+    "sequence": 512
+  },
+  "sequence_checkpoints": [
+    {
+      "j": 1,
+      "log2N": 8,
+      "log2m": 6,
+      "K": 6,
+      "proved_threshold": false
+    },
+    {
+      "j": 63,
+      "log2N": 504,
+      "log2m": 378,
+      "K": 141,
+      "proved_threshold": false
+    },
+    {
+      "j": 64,
+      "log2N": 512,
+      "log2m": 384,
+      "K": 143,
+      "proved_threshold": true
+    },
+    {
+      "j": 65,
+      "log2N": 520,
+      "log2m": 390,
+      "K": 144,
+      "proved_threshold": true
+    },
+    {
+      "j": 128,
+      "log2N": 1024,
+      "log2m": 768,
+      "K": 256,
+      "proved_threshold": true
+    },
+    {
+      "j": 256,
+      "log2N": 2048,
+      "log2m": 1536,
+      "K": 462,
+      "proved_threshold": true
+    },
+    {
+      "j": 512,
+      "log2N": 4096,
+      "log2m": 3072,
+      "K": 842,
+      "proved_threshold": true
+    }
+  ],
+  "seconds": 1.2833072950597852,
+  "seeds": null,
+  "status": "all assertions passed; finite falsification only"
+}

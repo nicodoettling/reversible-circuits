@@ -1,0 +1,599 @@
+{
+  "classification": "sampler-theorem",
+  "state": "complete",
+  "excluded_existing_or_external": [
+    "experiments/20260907-genus-one-sampler/tmux-run.json",
+    "experiments/20260907-genus-one-sampler/tmux-status.json",
+    "notes/genus-one-sampler-blind-brief.md",
+    "notes/genus-one-sampler-goal-run.md",
+    "notes/genus-one-sampler-runbook.md",
+    "notes/genus-one-sampler-run.log",
+    "notes/genus-one-sampler-run.log.genus-one-sampler-20260907.cap-status.json"
+  ],
+  "self_hash_omitted": true,
+  "artifacts": [
+    {
+      "path": "experiments/20260907-genus-one-sampler/changed_files.txt",
+      "bytes": 9104,
+      "sha256": "d092f6e994d41a42e1be6676b90e3a78db7f1a48a404e925d0bcae218f52b646"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/checkpoint.md",
+      "bytes": 2350,
+      "sha256": "ae28bd964833efa2230c379c1f94e6df1029f54103351473402fdc57a12dc138"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/claim_ledger.md",
+      "bytes": 13382,
+      "sha256": "8f2ef0f8788b304b3f3302a707f1546c7e9cc4bff8391a223ab3a236a0ae73ba"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/completion_record.json",
+      "bytes": 1378,
+      "sha256": "f481edd0860506d276ab3f3c218614f1f11652e78e30a6318d9792b56a977c8a"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_r1_rerun.log",
+      "bytes": 4962,
+      "sha256": "3b567676ba3c6589ec849ff87617349dd92821ff436cf0815553489c10d90b2b"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_r1_results.json",
+      "bytes": 22530,
+      "sha256": "c324165219a519b80172298ffe669fa8511d558af05c6c6f57a5ece0259c2d43"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_recursive_forward.log",
+      "bytes": 142,
+      "sha256": "bbd728c2e9240d1a76f1329fb4e56326ea05a26968c1adeb51fbf3b1b03e3a54"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_recursive_forward_results.json",
+      "bytes": 10423,
+      "sha256": "c07e41a5422a43857ae4192e860e7fc7043cbb7fe1a01544a5570e602a2a2c28"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_report.md",
+      "bytes": 12287,
+      "sha256": "722f0acc61121f554f615868b9e1fa4c548108a637d243cbb3f68a3414a833d1"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_review.md",
+      "bytes": 7046,
+      "sha256": "af24367493977984e7eb1cd55dcbf42e829e83eb9bc261901ef0f73db5552b77"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_structural_parser.log",
+      "bytes": 2969,
+      "sha256": "208972c3951d4510c16dfb49c42d92c5d1db39ed367ace3843bf68dfbfa57f53"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/coordinator_structural_parser_results.json",
+      "bytes": 4588,
+      "sha256": "9f2e4e296cb3543fbe63d01e2d69b462864f3d7c21516dbb7b40bd6f8e913348"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/git_status_final.txt",
+      "bytes": 275,
+      "sha256": "282157931eb7f7169f766d39e199a6b229d00cf8daf4b288c8f35871f17e6d23"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
+      "bytes": 9416,
+      "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/global_mass.py",
+      "bytes": 7101,
+      "sha256": "ef0b588811798c861a8af3609ee0215e3a20c7e4a5fcc1c0656cb2c539bd0d80"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/global_mass_results.json",
+      "bytes": 181909,
+      "sha256": "29344a82da6cf58ff990cde65dd924b8218ee3f1b33b60abe4e965ba5a823a4b"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/integration_checks.py",
+      "bytes": 3064,
+      "sha256": "83707f43593128014c4481c0ac57babc6d87f3811fa437f6840c56167d601522"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/integration_results.json",
+      "bytes": 1877,
+      "sha256": "468cea96ede372ff75c240cfb408cb792f7e835bf6210d428f666d5a6b931b4e"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/plan.md",
+      "bytes": 3506,
+      "sha256": "5cf2e9f152c2294321c845fda27f9160ca1453cfa5d6a89fa7e97c5abb8b8a13"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/proof.md",
+      "bytes": 14867,
+      "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/regression_registry.md",
+      "bytes": 5703,
+      "sha256": "c5e5bc6d2f323e9a77b130ccd4f04defacf1a90794bc11cf3fbac791242fb2ad"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/resume.md",
+      "bytes": 8072,
+      "sha256": "112e18f219ebfddda2c47ac49ed4dbad7a856d0269fd4569059df64f2562321f"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/assignment.md",
+      "bytes": 4466,
+      "sha256": "31fe37c182f0b63840d41ded06526176b48fb3d766077854944472f98fe24f2d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/audit.py",
+      "bytes": 15394,
+      "sha256": "eb2aeffb1e4c4c2efd95245e407257461c8e2f79cb4e541646f6a72d10899930"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/checkpoint.md",
+      "bytes": 2698,
+      "sha256": "207e7e9c0fb57e31ed8a97fa76b259f46ef6d619191fdb5b55be5ee7fcdfecc7"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/plan.md",
+      "bytes": 1922,
+      "sha256": "e3fee9ac4571ffc95d223bd355e95f79534eec79883799564d9e2c7ead9ae017"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/proof.md",
+      "bytes": 12721,
+      "sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/report.md",
+      "bytes": 11397,
+      "sha256": "8e49c40ea29b2275cc8d4d3937bd8963a5f3c05e5438cbd3c7f79ddabf1d6bbb"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/results.json",
+      "bytes": 22446,
+      "sha256": "930c2b945168216bbd81b5eaef213140f4b2fc60f470eedd71a1eff336785722"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py",
+      "bytes": 11915,
+      "sha256": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md",
+      "bytes": 17318,
+      "sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_author_rerun.json",
+      "bytes": 6039,
+      "sha256": "a4fe587cbb0fc4f76b1c8fea1a82bc4f7d8e1931f1351749bb79e6518bb0696d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_parser_audit.py",
+      "bytes": 16104,
+      "sha256": "4909ade0c401cb50bd5e4c67dd2f70fa495537411c223ab046ba6c22b6a1b555"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_parser_results.json",
+      "bytes": 4478,
+      "sha256": "6af0db623236e81c4f4e8b9539834948d5af92fb55ada9c93b067f75ddc4de70"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_review_input.md",
+      "bytes": 1852,
+      "sha256": "69a665356a697e79d3cd53bbb0c03483d9c7457ad39ba427358e33c9247f7ca6"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/RECURSIVE_AUDIT_SHA256SUMS",
+      "bytes": 472,
+      "sha256": "e9aac313389c2d4578c3e0fe178629ae856852230166eb3b00d661a3646175c4"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/SHA256SUMS",
+      "bytes": 627,
+      "sha256": "07caf02617a1f32d9a1979e61c472c5913ce4af987f63f2338210e15667f209d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/SYNTHESIS_AUDIT_SHA256SUMS",
+      "bytes": 2004,
+      "sha256": "ea10ed0f37b64632307bf55237e5722430b8783dd0bf7d6bd7cdb24423fc0bf6"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/assignment.md",
+      "bytes": 4393,
+      "sha256": "e877a6212550448d228cf656d7b38d78aa7ab443c4a7602bfb825f49446664af"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/audit.py",
+      "bytes": 12901,
+      "sha256": "e36c587adb36f632ab8fd1959c1efa8a404186fe80236b373319cccaa7801db5"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/checkpoint.md",
+      "bytes": 3297,
+      "sha256": "38b36c0ca934e56312a55f6519fefd2feb154c73885697e4e2340bb2b71a742e"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/cut_sampler.py",
+      "bytes": 15058,
+      "sha256": "8e289a234124acad571223a7f70dec9c0d912dd2065808369bdcb7ff477f3224"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/freeze_manifest.json",
+      "bytes": 1245,
+      "sha256": "2e68671262ab4464adfa9ad53b0ef43a40c833b6b49da35b33748bf6404423e3"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/plan.md",
+      "bytes": 1307,
+      "sha256": "4edafa1070fa84c5e0aa5225b6307132f98113bbc890fa4c9663d0c1670a2e9c"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/proof.md",
+      "bytes": 13547,
+      "sha256": "42cf1bdc767462157d5aa173244d604becf2c1f0a77a0d783b9d3d00b73e5b68"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_audit.md",
+      "bytes": 15413,
+      "sha256": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_independent_check.py",
+      "bytes": 13600,
+      "sha256": "29fe7bc34f1aae432bf20fa8bc0974a72bc75affd0ebb2e094c06c4f25af0861"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_independent_results.json",
+      "bytes": 10436,
+      "sha256": "27288f59def4befb0ac9ace6ed9f7f1536055d0a03c706f3adbe8c6d09038185"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_review_input.md",
+      "bytes": 2035,
+      "sha256": "a521c304ccbd1d5bc62b1e96425e89dc38b9cdcced5b9537cca130881bebad07"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_review_manifest.json",
+      "bytes": 1625,
+      "sha256": "cc26e2092c3b71f909c59242ec4c766f2123156fb1db87030f72ae27c80aa2ab"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/report.md",
+      "bytes": 10795,
+      "sha256": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/results.json",
+      "bytes": 6037,
+      "sha256": "6d85e3764afbdcf90d479176c1e68f64d7569f632ac83b9a8e30365789e5cd81"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/artifact_manifest.json",
+      "bytes": 19974,
+      "sha256": "e3c9c497b2393730d453b5fdcf1857e0108b5ec623fdf44a468183c2a67949b9"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/changed_files.txt",
+      "bytes": 7002,
+      "sha256": "83097433ac95c41166e2b6b228695b027b5b5faa7b223d1e768126974b667bf7"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/checkpoint.md",
+      "bytes": 2137,
+      "sha256": "ec5c5954daa62299b5417718ce6834c007182c69b256a5168150ed52c0ed806d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/claim_ledger.md",
+      "bytes": 12031,
+      "sha256": "a41964f7d64c6aee87d8609dea55499371561f162c092648633049a9a14151ed"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/coordinator_report.md",
+      "bytes": 12223,
+      "sha256": "2e21eee0edea751fcf670b6ce767ca33618269d570a6852ff11b5f7db3bad428"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/coordinator_review.md",
+      "bytes": 6507,
+      "sha256": "2763886ffe4354e8dad9016467699efb578408f5b99cd48be6c4381ca7232f31"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/global_consequence.md",
+      "bytes": 9416,
+      "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/proof.md",
+      "bytes": 14867,
+      "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/regression_registry.md",
+      "bytes": 5703,
+      "sha256": "c5e5bc6d2f323e9a77b130ccd4f04defacf1a90794bc11cf3fbac791242fb2ad"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/resume.md",
+      "bytes": 7745,
+      "sha256": "08977f5ecad0f74f7f6042a0363c0704f4e90f69bcd3cccb1eb5362f312c5105"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/run_manifest.md",
+      "bytes": 6234,
+      "sha256": "ca8c9ae4c0fd1f52f5ede319e5127bc8fc0b8a0353736110e338938d9abeaaae"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis-review-input/sample.py",
+      "bytes": 5291,
+      "sha256": "cb4524c973c40a4a79ec38769102ce1afd9d4d711ba5a92760fee90fb70990a8"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
+      "bytes": 12461,
+      "sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_checks.json",
+      "bytes": 8844,
+      "sha256": "b8e9d5e6480858e4ca2da43826e8ebf402b3d2bb29888041a2c56fa85ef6faf6"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_checks.py",
+      "bytes": 7626,
+      "sha256": "b0de01eb5577fdfbe9f6c30434ead455fc3dbe3d6dbd4d0a3783b3babd29171e"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_freeze_manifest.json",
+      "bytes": 2558,
+      "sha256": "55deb780539d2e58e94f4c6fe78b6c5fede159f2f95153bc30609630ac370131"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_global_consequence_md.diff",
+      "bytes": 3144,
+      "sha256": "b0dd779939612fc1f4702fb3e533263e27c539db205beb9de1a9a79eee7496af"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_input_manifest.json",
+      "bytes": 4484,
+      "sha256": "6fb93a04fe989a457c781b72bd0535c90d11c75e458c4240c3dee90ce0db07ac"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_proof_md.diff",
+      "bytes": 5347,
+      "sha256": "ca5e93b6e7930a324d53ff05afec2cb8212a80d857d8f9bf3e725b683de3b9e4"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_review_input.md",
+      "bytes": 2181,
+      "sha256": "c31a39587f79689a00b9f855f01e387025440caa80bf5e038d138dd64a5311b7"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_sample_py.diff",
+      "bytes": 483,
+      "sha256": "39b8d8b20a125137d948db1e6ec49a4cfab9b69f6bf0c4a502ab38334bd9d99f"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/allocation-results.json",
+      "bytes": 249,
+      "sha256": "155f57d233b4641eafb3425e1a8753b114cc9b1d3ad90daf6a3041c279b7a23a"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/blind-brief.md",
+      "bytes": 2747,
+      "sha256": "320d6261260112223274b105b3ecb151a68a30b5787b23a9218d1316de7d2557"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/blind-freeze.json",
+      "bytes": 1351,
+      "sha256": "36ea34bf89520984f6b9c08e25ba13dba7512ad1f2b575b12627c9b3fd986848"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/blind_report.md",
+      "bytes": 26803,
+      "sha256": "e638cecd1c337a8d740be59f09aa7d9b895778616419dbcf85b3c9befde2250c"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-audit-assignment.txt",
+      "bytes": 1404,
+      "sha256": "9dc3f8877247856cbf456e3d5410de6993de1d4529438d4f4c82220b0b1363c6"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-author-audit-rerun.json",
+      "bytes": 22485,
+      "sha256": "ca9ef552a2b1fe41727641bfcc1a670ed8c12d8adf3b119a3ad2fe7e79747ef8"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-check-results.json",
+      "bytes": 1014,
+      "sha256": "6c3e5c7cf38473e6ebf0ddc6751ac26241d01067ea32cf2b9b868dfcbd461fe0"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/audit.py",
+      "bytes": 15394,
+      "sha256": "eb2aeffb1e4c4c2efd95245e407257461c8e2f79cb4e541646f6a72d10899930"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/proof.md",
+      "bytes": 12721,
+      "sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/report.md",
+      "bytes": 11397,
+      "sha256": "8e49c40ea29b2275cc8d4d3937bd8963a5f3c05e5438cbd3c7f79ddabf1d6bbb"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/results.json",
+      "bytes": 22446,
+      "sha256": "930c2b945168216bbd81b5eaef213140f4b2fc60f470eedd71a1eff336785722"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/sampler.py",
+      "bytes": 11915,
+      "sha256": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input/snapshot.json",
+      "bytes": 492,
+      "sha256": "3293a00f9ae9982ca02c880aae8d75ea69616cb5eee6d6907b04ec3aab71d650"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate_audit.md",
+      "bytes": 19768,
+      "sha256": "b9ad74276bc553aee8344f68646fe10e77f4a2d3420f522602f6ee7795f60390"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate_check.py",
+      "bytes": 10841,
+      "sha256": "5d2c087369be1f40e59848cb53743fbfc4d869b091bad5e1bb48321b4fcf7ce2"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/check.py",
+      "bytes": 20546,
+      "sha256": "2856d54814545909226c0efcad41dda5d34792bc41d4f1cb55625731c3d812a5"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/checkpoint.md",
+      "bytes": 1817,
+      "sha256": "a180a5611a18f8c0dabfb6da1e15204b1fbb5ed77e2449f438e2f4d217522213"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/commands.log",
+      "bytes": 1685,
+      "sha256": "03d208e415847bed0bc0428033ea861dfd1c40edf627f26ce2f8a830d090632e"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/count-results.json",
+      "bytes": 6109,
+      "sha256": "56f013268c317c733801dd5458d9ca7013af2ef4aeb0c6ee3e1856ea89e0fc13"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/final-artifact-inventory.json",
+      "bytes": 6475,
+      "sha256": "50f67a71f33df9aeb8fe38b4312ac8c5a6d97f8b8d28cacc9a41644409da251b"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/git-status-at-audit-finish.txt",
+      "bytes": 275,
+      "sha256": "282157931eb7f7169f766d39e199a6b229d00cf8daf4b288c8f35871f17e6d23"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/git-status-at-blind-freeze.txt",
+      "bytes": 275,
+      "sha256": "282157931eb7f7169f766d39e199a6b229d00cf8daf4b288c8f35871f17e6d23"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-audit-assignment.txt",
+      "bytes": 1986,
+      "sha256": "d661402c1ae7bfedece812f1bcbf2cbaf3fc5c2444f9f0556725aab0a9322936"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-check-results.json",
+      "bytes": 1168,
+      "sha256": "db93e9890282bc4c37e0d9831346fcb744054005713b4ea25643c633921317de"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/component_audit.py",
+      "bytes": 19260,
+      "sha256": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/global_consequence.md",
+      "bytes": 8587,
+      "sha256": "9f92ca07ebf04fb46c6e613801224411d170297df917d22b5ccff546d59af9f9"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/global_mass.py",
+      "bytes": 7101,
+      "sha256": "ef0b588811798c861a8af3609ee0215e3a20c7e4a5fcc1c0656cb2c539bd0d80"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/global_mass_results.json",
+      "bytes": 181909,
+      "sha256": "29344a82da6cf58ff990cde65dd924b8218ee3f1b33b60abe4e965ba5a823a4b"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/sample.py",
+      "bytes": 5295,
+      "sha256": "bf4e11bdde4ad918225cc050aaf4ab070ded63bbdec9e0be4c5938d477b23a8f"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/snapshot.json",
+      "bytes": 437,
+      "sha256": "e01b2f8c153e848159656014f379c62954c38908743dd0209ab2251aab6a518c"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global_audit.md",
+      "bytes": 14673,
+      "sha256": "1312e3906d851d47bababf0b7beeeeb27cdfb5292adeee242114f65a3115c1dc"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global_check.py",
+      "bytes": 6935,
+      "sha256": "d3df168d9fa665678c639e48ec1fcf4944ceb6f51c72a066ed9b2ec768fefce3"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/law-results.json",
+      "bytes": 5041,
+      "sha256": "bbefe78217185107b053ae69e482f265eaa515e91945805d46ac9263a1159267"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/nonauthor-checkpoint.md",
+      "bytes": 1380,
+      "sha256": "0ee96fbeb1a89209c03bcb535d4f0532177c0afe4181203a2a86ec4d449d3240"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/nonauthor-commands.log",
+      "bytes": 829,
+      "sha256": "0b76dea491d15f9c735b2d499737d60b14badf00a1b1d0f8e671f5c09fb1c1dc"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/operational-assignment.txt",
+      "bytes": 2870,
+      "sha256": "6dfbcfda8aeb5548403d1941ed74e7cb07c1d8649455e834e83875fb1dad403a"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/plan.md",
+      "bytes": 2050,
+      "sha256": "10293c1ca2323a99df1fd2f2b3c25765912dcfda462a70ea2a8dfb81e1643fe8"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/provenance.json",
+      "bytes": 594,
+      "sha256": "8030c318ea4a0c0ace4cc58e15e4600adce2cac8f974f48d08bc0c0e2083baa4"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/report.md",
+      "bytes": 1687,
+      "sha256": "12d5238f14426c3aec86a442a60e3259be8f68162312d93abab720e27f050711"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/sample-results.json",
+      "bytes": 2113,
+      "sha256": "e786bd0c1267b790c9331c4c8d577a94c7172a72df80e806015cafd925f40796"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/source-checks.md",
+      "bytes": 2598,
+      "sha256": "68fe48fe46590ec7ced1e039b024c258b9c2a374f6c92cb5e0886db852973748"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/run_manifest.md",
+      "bytes": 7359,
+      "sha256": "cb225592c27f58a52e5acdaee089e5fc2be00fe504083c37ce1c4285366ae247"
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/sample.py",
+      "bytes": 5291,
+      "sha256": "cb4524c973c40a4a79ec38769102ce1afd9d4d711ba5a92760fee90fb70990a8"
+    }
+  ],
+  "research_file_count": 117,
+  "native_goal_status": "complete",
+  "session_id": "01a07db2-4703-7312-ae54-75fcdc0bdc13"
+}

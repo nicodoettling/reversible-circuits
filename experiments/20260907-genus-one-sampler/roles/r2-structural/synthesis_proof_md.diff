@@ -1,0 +1,52 @@
+--- experiments/20260907-genus-one-sampler/roles/r1-recursive/proof.md
++++ experiments/20260907-genus-one-sampler/proof.md
+@@ -1,6 +1,39 @@
++# Canonical connected sampler proof — S1.v2 (accepted)
++
++Status: proved, accepted after current-version nonauthor proof and
++implementation audits in roles/r2-structural/recursive_audit.md and
++roles/r3-referee/candidate_audit.md. Core mathematics is the frozen R1-T1.1
++derivation, unchanged. The coordinator checked the primary source, read the
++complete arguments and reports, and reran the decisive exact checks in fresh
++processes. The blind referee independently derived an alternative signed
++coefficient DP before seeing R1. This is internal adversarial audit, not
++external human certification; complete source reports are retained.
++
++The theorem meets the unchanged user target T0 exactly: for every integer
++N>=2 and b>=1 it returns a member of X_N with TV error zero, in expected bit
++time O(N^10 log^3(N+1)) in the independent-fair-bit model. The implementation
++uses an explicit work stack and needs no recursion-limit configuration.
++The input model uses binary permutations on canonical labels [N] and exact
++binary integer/rational arithmetic with independent fair random bits. Any
++unbounded external vertex-name encoding cost is additional; T0 has canonical
++labels. No unproved mixing, Hurwitz-classification or sampler assumption is
++used. The final artifact consistency check is recorded separately.
++
++Research entry points: `sample.py` (connected X_N and separately declared
++restricted component assembly) and `roles/r1-recursive/sampler.py` (arbitrary
++connected endpoint, g=0 or 1). Labels in Python are zero-based; the CLI
++relabels output to [N]. Fixed PRNG seeds are diagnostic only; the theorem
++uses ideal fair random bits.
++
++The global consequence is separate: `global_consequence.md` proves the
++conditional assembly law and exact omitted-mass accounting. A connected
++sampler does not itself sample global Omega(N,2N).
++
++---
++
+ # R1 recursive sampler proof, version R1-T1.1
+ 
+-Status: PROVISIONAL / proof candidate, exact executable validation passed; pending adversarial review. Version 1.1 only weakens the displayed conservative bit exponent and updates validation status; the algorithm and mathematical claim are unchanged.
++Status: proved / accepted as canonical S1.v2 after the two nonauthor audits named above. The original worker's R1-T1.1 proof and provisional report remain frozen in its role directory as the exact review inputs. The core argument below is unchanged; its current certification status supersedes the historical provisional annotation.
+ 
+ ## Frozen objects and theorem
+ 
+@@ -110,6 +143,6 @@
+ 
+ ## Dependencies, first gap, and exclusions
+ 
+-Load-bearing external dependency: the specified Vakil count formulas and their fixed-permutation normalization. Everything after R1-C1 is elementary combinatorial disintegration and dynamic programming. Exact executable validation of R1-C4/C5 passed as recorded in report.md and results.json. The current first remaining certification step is fresh audit; these are supplied as complete candidate arguments, not presumed accepted. If the audit accepts them, no mathematical completion oracle remains missing for g<=1. This does not give a general arbitrary-genus sampler, a prescribed exposed-prefix connectivity oracle, all-length global sampling, a local-chain gap, or polynomial complexity in log N wires.
++Load-bearing external dependency: the specified Vakil count formulas and their fixed-permutation normalization, checked directly against the primary source. Everything after R1-C1 is elementary combinatorial disintegration and dynamic programming. Exact executable validation of R1-C4/C5 is recorded in roles/r1-recursive/report.md and roles/r1-recursive/results.json. The complete nonauthor reviews in roles/r2-structural/recursive_audit.md and roles/r3-referee/candidate_audit.md accept the mathematical argument, bit bound, repaired explicit-stack implementation, and integrated sampler. No mathematical completion lemma remains missing for g<=1 under the checked published count theorem. This does not give a general arbitrary-genus sampler, a prescribed exposed-prefix connectivity oracle, all-length global sampling, a local-chain gap, or polynomial complexity in log N wires.
+ 
+-Historical failures retained: adjacent-square insertion omits (ab)^3 and its tree extensions; scalar identity counts alone do not decode words; ordinary prefix permutation does not encode the needed support joining; fixed genus does not bound the number of endpoint partitions polynomially. This construction uses none of those implications. Tests must explicitly cover these examples, all singleton/length/parity boundaries, and complete small-case per-word probabilities.
++Historical failures retained: adjacent-square insertion omits (ab)^3 and its tree extensions; scalar identity counts alone do not decode words; ordinary prefix permutation does not encode the needed support joining; fixed genus does not bound the number of endpoint partitions polynomially. This construction uses none of those implications. The recorded tests cover these examples, all singleton/length/parity boundaries, and complete small-case per-word probabilities; the audit reports preserve their precise finite domains.

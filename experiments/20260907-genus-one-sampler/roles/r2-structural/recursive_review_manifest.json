@@ -1,0 +1,23 @@
+{
+  "blindness": "No blind-referee audit read; R2 had its own C1 construction, frozen before reviewing R1",
+  "frozen_at": "2026-09-07T21:44:26.387080+00:00",
+  "independence": "Nonauthor same-model review; not statistically independent evidence",
+  "payload_sha256": {
+    "recursive_audit.md": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1",
+    "recursive_independent_check.py": "29fe7bc34f1aae432bf20fa8bc0974a72bc75affd0ebb2e094c06c4f25af0861",
+    "recursive_independent_results.json": "27288f59def4befb0ac9ace6ed9f7f1536055d0a03c706f3adbe8c6d09038185",
+    "recursive_review_input.md": "a521c304ccbd1d5bc62b1e96425e89dc38b9cdcced5b9537cca130881bebad07"
+  },
+  "reviewed_sha256": {
+    "global_consequence.md": "76c310c1495e29766a3f0daa35bcdb36aa24c2342ceb746f62da2a41ac39bcc6",
+    "global_mass.py": "ef0b588811798c861a8af3609ee0215e3a20c7e4a5fcc1c0656cb2c539bd0d80",
+    "roles/r1-recursive/audit.py": "eb2aeffb1e4c4c2efd95245e407257461c8e2f79cb4e541646f6a72d10899930",
+    "roles/r1-recursive/proof.md": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba",
+    "roles/r1-recursive/report.md": "8e49c40ea29b2275cc8d4d3937bd8963a5f3c05e5438cbd3c7f79ddabf1d6bbb",
+    "roles/r1-recursive/results.json": "930c2b945168216bbd81b5eaef213140f4b2fc60f470eedd71a1eff336785722",
+    "roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+    "sample.py": "bf4e11bdde4ad918225cc050aaf4ab070ded63bbdec9e0be4c5938d477b23a8f"
+  },
+  "verdict": "ACCEPT R1-T1.1 and G1-COUNT/SAMPLE/SAT/OMIT; zero material objections",
+  "version": "R2-R1-review-v1"
+}

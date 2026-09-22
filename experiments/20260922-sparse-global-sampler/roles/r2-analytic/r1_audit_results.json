@@ -1,0 +1,872 @@
+{
+  "reviewed_claim": "R1 proof_v1.md",
+  "reviewed_sha256": "43fc4b84c5166ffd42cf838b3080e82c62b35b20f6a9ef2cde01da5c33dcaca0",
+  "own_verify_sha256": "15dccfe692120197c4cc96e6d7108d34293bf10157ec9118e5ac0dd9a48fe893",
+  "python": "3.12.3",
+  "command": "python3 -B experiments/20260922-sparse-global-sampler/roles/r2-analytic/audit_r1.py",
+  "seed": null,
+  "method": "exact weighted macro incidence enumeration and rational finite tail comparison",
+  "incidence_cells": 237,
+  "extension_incidences": 8107,
+  "maximum_reverse_degree": 3,
+  "tail_rows": [
+    {
+      "N": 16,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 19.206821027317,
+      "nontrivial": false
+    },
+    {
+      "N": 32,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 6.256984895573985,
+      "nontrivial": false
+    },
+    {
+      "N": 32,
+      "m": 4,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 54.7818169403332,
+      "nontrivial": false
+    },
+    {
+      "N": 32,
+      "m": 4,
+      "J": 2,
+      "actual_numerator": 120,
+      "actual_denominator": 773,
+      "bound_float": 13.527405131909097,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 4.676025579398416,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 4,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 13.181468435456448,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 4,
+      "J": 2,
+      "actual_numerator": 248,
+      "actual_denominator": 3085,
+      "bound_float": 1.4688939321080798,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 6,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 33.33213990588636,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 6,
+      "J": 2,
+      "actual_numerator": 907990,
+      "actual_denominator": 4047641,
+      "bound_float": 5.961523614231958,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 6,
+      "J": 3,
+      "actual_numerator": 56730,
+      "actual_denominator": 4047641,
+      "bound_float": 1.5181298110925234,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 8,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 139.21037939739904,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 8,
+      "J": 2,
+      "actual_numerator": 6098270059,
+      "actual_denominator": 15186351440,
+      "bound_float": 35.63435210595685,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 8,
+      "J": 3,
+      "actual_numerator": 610477203,
+      "actual_denominator": 12149081152,
+      "bound_float": 12.98744388856372,
+      "nontrivial": false
+    },
+    {
+      "N": 64,
+      "m": 8,
+      "J": 4,
+      "actual_numerator": 2978325,
+      "actual_denominator": 759317572,
+      "bound_float": 5.7446645288782605,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 4.151077935997313,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 4,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 9.535686743079573,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 4,
+      "J": 2,
+      "actual_numerator": 504,
+      "actual_denominator": 12317,
+      "bound_float": 0.5059278438194522,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 6,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 16.791615336632187,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 6,
+      "J": 2,
+      "actual_numerator": 7560630,
+      "actual_denominator": 63869341,
+      "bound_float": 1.3804644060333635,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 6,
+      "J": 3,
+      "actual_numerator": 236250,
+      "actual_denominator": 63869341,
+      "bound_float": 0.16159038548708154,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 8,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 27.08930538645949,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 8,
+      "J": 2,
+      "actual_numerator": 209698740027,
+      "actual_denominator": 937125982486,
+      "bound_float": 3.0696117268543404,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 8,
+      "J": 3,
+      "actual_numerator": 52507389375,
+      "actual_denominator": 3748503929944,
+      "bound_float": 0.49525240003118814,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 8,
+      "J": 4,
+      "actual_numerator": 256331250,
+      "actual_denominator": 468562991243,
+      "bound_float": 0.09697413248256981,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 10,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 42.832354498809835,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 10,
+      "J": 2,
+      "actual_numerator": 98874049655481660,
+      "actual_denominator": 285888571035770371,
+      "bound_float": 6.276638415894317,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 10,
+      "J": 3,
+      "actual_numerator": 9476374522151250,
+      "actual_denominator": 285888571035770371,
+      "bound_float": 1.3096035395897205,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 10,
+      "J": 4,
+      "actual_numerator": 725350586310000,
+      "actual_denominator": 285888571035770371,
+      "bound_float": 0.3316184924579326,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 10,
+      "J": 5,
+      "actual_numerator": 32689001520000,
+      "actual_denominator": 285888571035770371,
+      "bound_float": 0.09491261563259092,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 69.85713525673073,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 2,
+      "actual_numerator": 12735061321253468825628,
+      "actual_denominator": 26939290674932077304839,
+      "bound_float": 12.720158278571661,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 3,
+      "actual_numerator": 1687166366667745280625,
+      "actual_denominator": 26939290674932077304839,
+      "bound_float": 3.29785704617157,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 4,
+      "actual_numerator": 190173847898560680000,
+      "actual_denominator": 26939290674932077304839,
+      "bound_float": 1.0376653329283483,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 5,
+      "actual_numerator": 16771744193810760000,
+      "actual_denominator": 26939290674932077304839,
+      "bound_float": 0.36903630247376246,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 12,
+      "J": 6,
+      "actual_numerator": 835941307425840000,
+      "actual_denominator": 26939290674932077304839,
+      "bound_float": 0.14281842586223376,
+      "nontrivial": true
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 126.94912477022945,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 2,
+      "actual_numerator": 1801150709142390545970461340,
+      "actual_denominator": 3033199836259098307459180051,
+      "bound_float": 27.95337074766106,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 3,
+      "actual_numerator": 313006619523526378392442500,
+      "actual_denominator": 3033199836259098307459180051,
+      "bound_float": 8.763876029338112,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 4,
+      "actual_numerator": 46330859379406128066540000,
+      "actual_denominator": 3033199836259098307459180051,
+      "bound_float": 3.3346053090829195,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 5,
+      "actual_numerator": 5997455388631074448080000,
+      "actual_denominator": 3033199836259098307459180051,
+      "bound_float": 1.434098395448286,
+      "nontrivial": false
+    },
+    {
+      "N": 128,
+      "m": 14,
+      "J": 6,
+      "actual_numerator": 584304973125365812320000,
+      "actual_denominator": 3033199836259098307459180051,
+      "bound_float": 0.6711457304781647,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 3.9303726428668764,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 4,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 8.374340125982481,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 4,
+      "J": 2,
+      "actual_numerator": 1016,
+      "actual_denominator": 49213,
+      "bound_float": 0.21689945102223745,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 6,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 13.438432160484458,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 6,
+      "J": 2,
+      "actual_numerator": 61692790,
+      "actual_denominator": 1014386981,
+      "bound_float": 0.5304738135900482,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 6,
+      "J": 3,
+      "actual_numerator": 963930,
+      "actual_denominator": 1014386981,
+      "bound_float": 0.02981514078714878,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 8,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 19.26119021436415,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 8,
+      "J": 2,
+      "actual_numerator": 6957793621723,
+      "actual_denominator": 58851548938274,
+      "bound_float": 1.0302120086056388,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 8,
+      "J": 3,
+      "actual_numerator": 870634589055,
+      "actual_denominator": 235406195753096,
+      "bound_float": 0.07845627110535969,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 8,
+      "J": 4,
+      "actual_numerator": 2125465650,
+      "actual_denominator": 29425774469137,
+      "bound_float": 0.007251283567264911,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 10,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 26.02608620631662,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 10,
+      "J": 2,
+      "actual_numerator": 13389020252972671420,
+      "actual_denominator": 70610040518147499491,
+      "bound_float": 1.7686076359897325,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 10,
+      "J": 3,
+      "actual_numerator": 635212943278348050,
+      "actual_denominator": 70610040518147499491,
+      "bound_float": 0.17112430404385792,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 10,
+      "J": 4,
+      "actual_numerator": 24562666623504240,
+      "actual_denominator": 70610040518147499491,
+      "bound_float": 0.02009453981277578,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 10,
+      "J": 5,
+      "actual_numerator": 553124379265920,
+      "actual_denominator": 70610040518147499491,
+      "bound_float": 0.0026670474085268895,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 33.98123598704628,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 2,
+      "actual_numerator": 7054942569768778357202332,
+      "actual_denominator": 26023935262177953559577831,
+      "bound_float": 2.8170777869613954,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 3,
+      "actual_numerator": 455331356012343216916785,
+      "actual_denominator": 26023935262177953559577831,
+      "bound_float": 0.33251870037642983,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 4,
+      "actual_numerator": 26157791266231457448000,
+      "actual_denominator": 26023935262177953559577831,
+      "bound_float": 0.047634266324237985,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 5,
+      "actual_numerator": 1165435371798207048000,
+      "actual_denominator": 26023935262177953559577831,
+      "bound_float": 0.007712748810025683,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 12,
+      "J": 6,
+      "actual_numerator": 28985253930143280000,
+      "actual_denominator": 26023935262177953559577831,
+      "bound_float": 0.0013589462001344186,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 43.47047659553595,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 2,
+      "actual_numerator": 4084973092207560218309439113500,
+      "actual_denominator": 11396098118550107484105613260851,
+      "bound_float": 4.275142959075722,
+      "nontrivial": false
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 3,
+      "actual_numerator": 339013589448251965465391393220,
+      "actual_denominator": 11396098118550107484105613260851,
+      "bound_float": 0.5986382319530532,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 4,
+      "actual_numerator": 25742016925185029274137011680,
+      "actual_denominator": 11396098118550107484105613260851,
+      "bound_float": 0.10173360351667768,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 5,
+      "actual_numerator": 1701917894616653833531251840,
+      "actual_denominator": 11396098118550107484105613260851,
+      "bound_float": 0.01954117649376248,
+      "nontrivial": true
+    },
+    {
+      "N": 256,
+      "m": 14,
+      "J": 6,
+      "actual_numerator": 83702932653099557397600000,
+      "actual_denominator": 11396098118550107484105613260851,
+      "bound_float": 0.004084513687917018,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 2,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 3.7796259127634797,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 4,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 7.672494594895011,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 4,
+      "J": 2,
+      "actual_numerator": 4088,
+      "actual_denominator": 786685,
+      "bound_float": 0.04880705034062187,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 6,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 11.683720503180725,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 6,
+      "J": 2,
+      "actual_numerator": 4006899190,
+      "actual_denominator": 258199622741,
+      "bound_float": 0.11192390892152432,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 6,
+      "J": 3,
+      "actual_numerator": 15651930,
+      "actual_denominator": 258199622741,
+      "bound_float": 0.0015265890638651823,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 8,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 15.818750867959055,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 8,
+      "J": 2,
+      "actual_numerator": 7321717044737179,
+      "actual_denominator": 237593508992810090,
+      "bound_float": 0.20284369217166803,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 8,
+      "J": 3,
+      "actual_numerator": 45774900402483,
+      "actual_denominator": 190074807194248072,
+      "bound_float": 0.0037034662821072775,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 8,
+      "J": 4,
+      "actual_numerator": 27938695050,
+      "actual_denominator": 23759350899281009,
+      "bound_float": 8.206187841027895e-05,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 10,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 20.08339249895971,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 10,
+      "J": 2,
+      "actual_numerator": 229059698554422733294780,
+      "actual_denominator": 4503449505812492114324771,
+      "bound_float": 0.32318410020952976,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 10,
+      "J": 3,
+      "actual_numerator": 2692882036253343480210,
+      "actual_denominator": 4503449505812492114324771,
+      "bound_float": 0.007404921593637383,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 10,
+      "J": 4,
+      "actual_numerator": 1543031053536294000,
+      "actual_denominator": 264908794459558359666163,
+      "bound_float": 0.00020590984566255037,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 10,
+      "J": 5,
+      "actual_numerator": 8681532049814400,
+      "actual_denominator": 264908794459558359666163,
+      "bound_float": 6.471725118132967e-06,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 24.483841204036757,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 2,
+      "actual_numerator": 1968230365515272314559161392796,
+      "actual_denominator": 26116478836412450098988008987175,
+      "bound_float": 0.4746705686135662,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 3,
+      "actual_numerator": 6203850681384559366526695101,
+      "actual_denominator": 5223295767282490019797601797435,
+      "bound_float": 0.013102755060412464,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 4,
+      "actual_numerator": 18084641932858321916504640,
+      "actual_denominator": 1044659153456498003959520359487,
+      "bound_float": 0.0004389541013306176,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 5,
+      "actual_numerator": 202953442508528415181632,
+      "actual_denominator": 1044659153456498003959520359487,
+      "bound_float": 1.662118183643768e-05,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 12,
+      "J": 6,
+      "actual_numerator": 1259700679681942329216,
+      "actual_denominator": 1044659153456498003959520359487,
+      "bound_float": 6.848698686446545e-07,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 1,
+      "actual_numerator": 1,
+      "actual_denominator": 1,
+      "bound_float": 29.026714122685874,
+      "nontrivial": false
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 2,
+      "actual_numerator": 18632161182539714027492097665076437020,
+      "actual_denominator": 179227292628765121913140927218411128051,
+      "bound_float": 0.6591455823417872,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 3,
+      "actual_numerator": 369952854831012702613567342005206340,
+      "actual_denominator": 179227292628765121913140927218411128051,
+      "bound_float": 0.021311910474404023,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 4,
+      "actual_numerator": 7172176711832825629918588146540000,
+      "actual_denominator": 179227292628765121913140927218411128051,
+      "bound_float": 0.0008362759192145504,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 5,
+      "actual_numerator": 120410402282112746610348343401600,
+      "actual_denominator": 179227292628765121913140927218411128051,
+      "bound_float": 3.709053523177876e-05,
+      "nontrivial": true
+    },
+    {
+      "N": 1024,
+      "m": 14,
+      "J": 6,
+      "actual_numerator": 1490553051451958399587031750400,
+      "actual_denominator": 179227292628765121913140927218411128051,
+      "bound_float": 1.7901110721370467e-06,
+      "nontrivial": true
+    }
+  ],
+  "tail_nontrivial_rows": 45,
+  "elapsed_seconds": 1.3696610640035942,
+  "passed": true
+}

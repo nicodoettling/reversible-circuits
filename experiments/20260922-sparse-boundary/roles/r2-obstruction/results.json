@@ -1,0 +1,947 @@
+{
+  "status": "pass",
+  "scope": "finite falsification only; asymptotic proof is separate",
+  "source": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py",
+  "source_sha256_before_import": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+  "python": "3.12.3",
+  "repository_commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "command": "timeout 90s python3 -B experiments/20260922-sparse-boundary/roles/r2-obstruction/check_obstruction.py",
+  "random_seeds": "none: deterministic exact arithmetic",
+  "denominator_cells": 4960,
+  "coefficient_cells": [
+    {
+      "N": 2,
+      "m": 2,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 4,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 6,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 8,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 10,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 14,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 2,
+      "m": 20,
+      "K": 2,
+      "ZA": 1,
+      "Z": 1,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "K": 2,
+      "ZA": 3,
+      "Z": 3,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "K": 3,
+      "ZA": 3,
+      "Z": 3,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "K": 2,
+      "ZA": 27,
+      "Z": 27,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "K": 3,
+      "ZA": 27,
+      "Z": 27,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "K": 2,
+      "ZA": 243,
+      "Z": 243,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "K": 3,
+      "ZA": 243,
+      "Z": 243,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "K": 2,
+      "ZA": 3,
+      "Z": 2187,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "K": 3,
+      "ZA": 2187,
+      "Z": 2187,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 10,
+      "K": 2,
+      "ZA": 3,
+      "Z": 19683,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 10,
+      "K": 3,
+      "ZA": 19683,
+      "Z": 19683,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 14,
+      "K": 2,
+      "ZA": 3,
+      "Z": 1594323,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 14,
+      "K": 3,
+      "ZA": 1594323,
+      "Z": 1594323,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 20,
+      "K": 2,
+      "ZA": 3,
+      "Z": 1162261467,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 3,
+      "m": 20,
+      "K": 3,
+      "ZA": 1162261467,
+      "Z": 1162261467,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "K": 2,
+      "ZA": 6,
+      "Z": 6,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "K": 3,
+      "ZA": 6,
+      "Z": 6,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "K": 2,
+      "ZA": 120,
+      "Z": 120,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "K": 3,
+      "ZA": 120,
+      "Z": 120,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "K": 2,
+      "ZA": 3936,
+      "Z": 3936,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "K": 3,
+      "ZA": 3936,
+      "Z": 3936,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "K": 2,
+      "ZA": 131424,
+      "Z": 140160,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "K": 3,
+      "ZA": 140160,
+      "Z": 140160,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 10,
+      "K": 2,
+      "ZA": 1536,
+      "Z": 5039616,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 10,
+      "K": 4,
+      "ZA": 5039616,
+      "Z": 5039616,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 14,
+      "K": 2,
+      "ZA": 24576,
+      "Z": 6530359296,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 14,
+      "K": 4,
+      "ZA": 6530359296,
+      "Z": 6530359296,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 20,
+      "K": 2,
+      "ZA": 1572864,
+      "Z": 304679870791680,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 4,
+      "m": 20,
+      "K": 4,
+      "ZA": 304679870791680,
+      "Z": 304679870791680,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "K": 2,
+      "ZA": 10,
+      "Z": 10,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "K": 3,
+      "ZA": 10,
+      "Z": 10,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "K": 2,
+      "ZA": 340,
+      "Z": 340,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "K": 3,
+      "ZA": 340,
+      "Z": 340,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 6,
+      "K": 2,
+      "ZA": 20860,
+      "Z": 20860,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 6,
+      "K": 3,
+      "ZA": 20860,
+      "Z": 20860,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 8,
+      "K": 2,
+      "ZA": 1749100,
+      "Z": 1770940,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 8,
+      "K": 3,
+      "ZA": 1770940,
+      "Z": 1770940,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 10,
+      "K": 2,
+      "ZA": 143294860,
+      "Z": 169271260,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 10,
+      "K": 4,
+      "ZA": 169271260,
+      "Z": 169271260,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 14,
+      "K": 2,
+      "ZA": 7570300,
+      "Z": 1668294277660,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 14,
+      "K": 4,
+      "ZA": 33067084060,
+      "Z": 1668294277660,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 20,
+      "K": 2,
+      "ZA": 102051100,
+      "Z": 1666692097982207740,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 5,
+      "m": 20,
+      "K": 4,
+      "ZA": 1525208614127740,
+      "Z": 1666692097982207740,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 2,
+      "K": 2,
+      "ZA": 28,
+      "Z": 28,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 2,
+      "K": 3,
+      "ZA": 28,
+      "Z": 28,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 4,
+      "K": 2,
+      "ZA": 2632,
+      "Z": 2632,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 4,
+      "K": 3,
+      "ZA": 2632,
+      "Z": 2632,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 6,
+      "K": 2,
+      "ZA": 460768,
+      "Z": 460768,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 6,
+      "K": 4,
+      "ZA": 460768,
+      "Z": 460768,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 8,
+      "K": 2,
+      "ZA": 124770688,
+      "Z": 124892992,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 8,
+      "K": 4,
+      "ZA": 124892992,
+      "Z": 124892992,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 10,
+      "K": 2,
+      "ZA": 46728555328,
+      "Z": 47131849408,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 10,
+      "K": 4,
+      "ZA": 47131849408,
+      "Z": 47131849408,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 14,
+      "K": 2,
+      "ZA": 10848082430143168,
+      "Z": 13265564100499648,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 14,
+      "K": 4,
+      "ZA": 10905190878893248,
+      "Z": 13265564100499648,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 20,
+      "K": 2,
+      "ZA": 989354600113233088,
+      "Z": 4608421822616998586721472,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 8,
+      "m": 20,
+      "K": 4,
+      "ZA": 500231091475823764672,
+      "Z": 4608421822616998586721472,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 2,
+      "K": 2,
+      "ZA": 120,
+      "Z": 120,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 2,
+      "K": 4,
+      "ZA": 120,
+      "Z": 120,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 4,
+      "K": 2,
+      "ZA": 46320,
+      "Z": 46320,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 4,
+      "K": 4,
+      "ZA": 46320,
+      "Z": 46320,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 6,
+      "K": 2,
+      "ZA": 32075520,
+      "Z": 32075520,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 6,
+      "K": 4,
+      "ZA": 32075520,
+      "Z": 32075520,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 8,
+      "K": 2,
+      "ZA": 33589188480,
+      "Z": 33590411520,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 8,
+      "K": 4,
+      "ZA": 33590411520,
+      "Z": 33590411520,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 10,
+      "K": 2,
+      "ZA": 48977670760320,
+      "Z": 48991000686720,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 10,
+      "K": 4,
+      "ZA": 48991000686720,
+      "Z": 48991000686720,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 14,
+      "K": 2,
+      "ZA": 233729339104050983040,
+      "Z": 234826286308207393920,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 14,
+      "K": 4,
+      "ZA": 233893926039790216320,
+      "Z": 234826286308207393920,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 20,
+      "K": 2,
+      "ZA": 11312040608105540176355893898880,
+      "Z": 12412051176304086217763852181120,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 16,
+      "m": 20,
+      "K": 4,
+      "ZA": 11318360503762736561804478357120,
+      "Z": 12412051176304086217763852181120,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 2,
+      "K": 2,
+      "ZA": 496,
+      "Z": 496,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 2,
+      "K": 4,
+      "ZA": 496,
+      "Z": 496,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 4,
+      "K": 2,
+      "ZA": 766816,
+      "Z": 766816,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 4,
+      "K": 4,
+      "ZA": 766816,
+      "Z": 766816,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 6,
+      "K": 2,
+      "ZA": 2056304896,
+      "Z": 2056304896,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 6,
+      "K": 4,
+      "ZA": 2056304896,
+      "Z": 2056304896,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 8,
+      "K": 2,
+      "ZA": 8048826040576,
+      "Z": 8048836873216,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 8,
+      "K": 4,
+      "ZA": 8048836873216,
+      "Z": 8048836873216,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 10,
+      "K": 2,
+      "ZA": 42312876893514496,
+      "Z": 42313253242045696,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 10,
+      "K": 4,
+      "ZA": 42313253242045696,
+      "Z": 42313253242045696,
+      "finite_bound_hypotheses": true,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 14,
+      "K": 2,
+      "ZA": 2372159565917185482132736,
+      "Z": 2372444396848786510832896,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 14,
+      "K": 4,
+      "ZA": 2372276827273237954852096,
+      "Z": 2372444396848786510832896,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 20,
+      "K": 2,
+      "ZA": 4111718069140134822666706035842949376,
+      "Z": 4120541515464231429709522514646466816,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    },
+    {
+      "N": 32,
+      "m": 20,
+      "K": 4,
+      "ZA": 4112222388471156339485813852294185216,
+      "Z": 4120541515464231429709522514646466816,
+      "finite_bound_hypotheses": false,
+      "coefficient_dominance": true
+    }
+  ],
+  "finite_numerator_bound_cells": 16,
+  "retained_small_high_genus_terms": 381,
+  "subsequence_parameter_checks": [
+    {
+      "j": 1,
+      "log2_N": 8,
+      "log2_m": 6,
+      "K": 6,
+      "r_hex": "0xa",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 2,
+      "log2_N": 16,
+      "log2_m": 12,
+      "K": 9,
+      "r_hex": "0x155",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 4,
+      "log2_N": 32,
+      "log2_m": 24,
+      "K": 16,
+      "r_hex": "0xaaaaa",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 8,
+      "log2_N": 64,
+      "log2_m": 48,
+      "K": 26,
+      "r_hex": "0x55555555555",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 16,
+      "log2_N": 128,
+      "log2_m": 96,
+      "K": 46,
+      "r_hex": "0x2aaaaaaaaaaaaaaaaaaaaaa",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 32,
+      "log2_N": 256,
+      "log2_m": 192,
+      "K": 80,
+      "r_hex": "0x15555555555555555555555555555555555555555555555",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": false
+    },
+    {
+      "j": 63,
+      "log2_N": 504,
+      "log2_m": 378,
+      "K": 141,
+      "r_hex": "0x2b580ad602b580ad602b580ad602b580ad602b580ad602b580ad602b580ad602b580ad602b580ad602b580ad602b5",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": true
+    },
+    {
+      "j": 64,
+      "log2_N": 512,
+      "log2_m": 384,
+      "K": 143,
+      "r_hex": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": true
+    },
+    {
+      "j": 65,
+      "log2_N": 520,
+      "log2_m": 390,
+      "K": 144,
+      "r_hex": "0x2a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a02a0",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": true
+    },
+    {
+      "j": 128,
+      "log2_N": 1024,
+      "log2_m": 768,
+      "K": 256,
+      "r_hex": "0x5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": true
+    },
+    {
+      "j": 256,
+      "log2_N": 2048,
+      "log2_m": 1536,
+      "K": 462,
+      "r_hex": "0x2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "benchmark_equality": true,
+      "is_exact_m_star": true,
+      "decay_condition": true
+    }
+  ],
+  "seconds": 0.056153584038838744
+}

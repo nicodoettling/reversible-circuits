@@ -1,0 +1,22 @@
+{
+  "candidate": "H0-v1",
+  "target": "Unif(A(N,m)); exact restriction with one fixed top-level cutoff",
+  "N": 128,
+  "m": 16,
+  "cutoff": 5,
+  "h0_cutoff": 5,
+  "T0_length_condition": true,
+  "Z": 51822686121879339552184585528093484032,
+  "Z_A": 51822685729714639166484929928948524032,
+  "global_TV_exact": "3015538111971730865520000/398488912723604665601813065391959",
+  "negligible_error_theorem": "not asserted by this implementation",
+  "word_labels": "1 through N",
+  "words": [],
+  "composition": "(alpha beta)(x)=alpha(beta(x)); rightmost factor acts first",
+  "diagnostic_seed": null,
+  "randomness_model": "independent fair bits; seeded PRNG is diagnostic only",
+  "source_sha256": {
+    "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+    "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2"
+  }
+}

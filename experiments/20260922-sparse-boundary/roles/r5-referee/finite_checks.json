@@ -1,0 +1,234 @@
+{
+  "status": "passed",
+  "classification": "finite formula checks only",
+  "python": "3.12.3",
+  "git_commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "command": "timeout 90s python3 experiments/20260922-sparse-boundary/roles/r5-referee/finite_checks.py",
+  "seeds": "none: deterministic exhaustive state aggregation",
+  "dependencies": "Python standard library only",
+  "rows": [
+    {
+      "N": 2,
+      "m": 0,
+      "all_identity": 1,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 2,
+      "m": 1,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "all_identity": 1,
+      "connected_identity": 1,
+      "checked_formula": "Vakil 1.5 genus zero",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 2,
+      "m": 4,
+      "all_identity": 1,
+      "connected_identity": 1,
+      "checked_formula": "Vakil 1.5 genus one",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 3,
+      "m": 0,
+      "all_identity": 1,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 3,
+      "m": 1,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "all_identity": 3,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 3,
+      "m": 3,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "all_identity": 27,
+      "connected_identity": 24,
+      "checked_formula": "Vakil 1.5 genus zero",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 3,
+      "m": 5,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "all_identity": 243,
+      "connected_identity": 240,
+      "checked_formula": "Vakil 1.5 genus one",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 4,
+      "m": 0,
+      "all_identity": 1,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 4,
+      "m": 1,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "all_identity": 6,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 4,
+      "m": 3,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "all_identity": 120,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 4,
+      "m": 5,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "all_identity": 3936,
+      "connected_identity": 2880,
+      "checked_formula": "Vakil 1.5 genus zero",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 4,
+      "m": 7,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "all_identity": 140160,
+      "connected_identity": 131040,
+      "checked_formula": "Vakil 1.5 genus one",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 0,
+      "all_identity": 1,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 1,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "all_identity": 10,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 3,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "all_identity": 340,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 5,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 5,
+      "m": 6,
+      "all_identity": 20860,
+      "connected_identity": 0,
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 7,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 5,
+      "m": 8,
+      "all_identity": 1770940,
+      "connected_identity": 1008000,
+      "checked_formula": "Vakil 1.5 genus zero",
+      "cauchy_schwarz_lower_bound_verified": true
+    },
+    {
+      "N": 5,
+      "m": 9,
+      "all_identity": 0,
+      "connected_identity": 0
+    },
+    {
+      "N": 5,
+      "m": 10,
+      "all_identity": 169271260,
+      "connected_identity": 142732800,
+      "checked_formula": "Vakil 1.5 genus one",
+      "cauchy_schwarz_lower_bound_verified": true
+    }
+  ],
+  "threshold_checks": {
+    "L": 1024.0,
+    "lhs": 58.725887222397816,
+    "rhs": 64.0
+  }
+}

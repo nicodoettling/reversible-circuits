@@ -1,0 +1,459 @@
+{
+  "candidate": "H2-QC.v1",
+  "python": "3.12.3",
+  "seeded_validity_seeds": [
+    1729,
+    2718,
+    31415
+  ],
+  "source_sha256": "7cfd9bcaed9cc08d57d2e50564b829d8a54cbc40e89aa5fe445a2a5c2149ee7c",
+  "count_source_sha256": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+  "command": "experiments/20260922-sparse-boundary/roles/r4-construction/validate.py --output experiments/20260922-sparse-boundary/coordinator-qc-checks.json",
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "orbit_transitions": [
+    {
+      "v": 1,
+      "quotient_states": 1,
+      "ternary_bound": 1,
+      "literal_edges_checked": 0
+    },
+    {
+      "v": 2,
+      "quotient_states": 3,
+      "ternary_bound": 3,
+      "literal_edges_checked": 3
+    },
+    {
+      "v": 3,
+      "quotient_states": 6,
+      "ternary_bound": 9,
+      "literal_edges_checked": 18
+    },
+    {
+      "v": 4,
+      "quotient_states": 14,
+      "ternary_bound": 27,
+      "literal_edges_checked": 84
+    },
+    {
+      "v": 5,
+      "quotient_states": 27,
+      "ternary_bound": 81,
+      "literal_edges_checked": 270
+    },
+    {
+      "v": 6,
+      "quotient_states": 58,
+      "ternary_bound": 243,
+      "literal_edges_checked": 870
+    },
+    {
+      "v": 7,
+      "quotient_states": 111,
+      "ternary_bound": 729,
+      "literal_edges_checked": 2331
+    }
+  ],
+  "connected_counts": [
+    {
+      "v": 1,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 21,
+      "transition_states": 1
+    },
+    {
+      "v": 2,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 60,
+      "transition_states": 3
+    },
+    {
+      "v": 3,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 114,
+      "transition_states": 6
+    },
+    {
+      "v": 4,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 249,
+      "transition_states": 14
+    },
+    {
+      "v": 5,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 446,
+      "transition_states": 27
+    },
+    {
+      "v": 6,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 882,
+      "transition_states": 58
+    },
+    {
+      "v": 7,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 1543,
+      "transition_states": 111
+    },
+    {
+      "v": 8,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 2805,
+      "transition_states": 223
+    },
+    {
+      "v": 9,
+      "lengths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cache_entries": 4772,
+      "transition_states": 424
+    }
+  ],
+  "literal_laws": [
+    {
+      "N": 3,
+      "m": 4,
+      "total": 27,
+      "connected": 24,
+      "forward_law_branches": 66,
+      "cutoff": 3,
+      "per_word_probability": "1/27"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "total": 120,
+      "connected": 0,
+      "forward_law_branches": 564,
+      "cutoff": 4,
+      "per_word_probability": "1/120"
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "total": 3936,
+      "connected": 2880,
+      "forward_law_branches": 8689,
+      "cutoff": 4,
+      "per_word_probability": "1/3936"
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "total": 2187,
+      "connected": 2184,
+      "forward_law_branches": 3318,
+      "cutoff": 3,
+      "per_word_probability": "1/2187"
+    }
+  ],
+  "boundaries": [
+    {
+      "N": 0,
+      "m": 0,
+      "word": []
+    },
+    {
+      "N": 1,
+      "m": 0,
+      "word": []
+    },
+    {
+      "N": 2,
+      "m": 0,
+      "word": []
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "word": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "N": 2,
+      "m": 8,
+      "word": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "word": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  ],
+  "support_history_regression": {
+    "connected_identity_zero_remaining": 1,
+    "disconnected_identity_zero_remaining": 0
+  },
+  "long_stack": {
+    "v": 2,
+    "length": 1400,
+    "cache_entries": 1401
+  },
+  "fixed_cutoff": {
+    "top": [
+      100,
+      38
+    ],
+    "L_top": 17,
+    "residual": [
+      17,
+      38
+    ],
+    "L_if_recomputed": 14,
+    "branch_retained": [
+      17,
+      38
+    ]
+  },
+  "seconds": 2.24544796498958,
+  "all_passed": true
+}

@@ -1,0 +1,9 @@
+--- experiments/20260907-genus-one-sampler/roles/r3-referee/global-review-input/sample.py
++++ experiments/20260907-genus-one-sampler/sample.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Research entry points for the provisional R1 sampler and exact assembly.
++"""Research entry points for the audited R1 sampler and exact assembly.
+ 
+ Labels in Python words are 0,...,N-1. CLI output relabels them 1,...,N.
+ Connected output targets X_N. Restricted output is uniform conditional on

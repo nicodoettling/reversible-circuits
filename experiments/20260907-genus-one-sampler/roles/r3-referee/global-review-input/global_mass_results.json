@@ -1,0 +1,3823 @@
+{
+  "target": "global uniform Omega(N,m); covered subset every component genus <=1",
+  "sampling_theorem_status": "conditional on accepted connected primitives",
+  "python": "3.12.3",
+  "dependencies": {},
+  "seed": null,
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "command": "experiments/20260907-genus-one-sampler/global_mass.py --n-max 64 --m-max 128 --output experiments/20260907-genus-one-sampler/global_mass_results.json",
+  "n_max": 64,
+  "m_max": 128,
+  "count_source": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py",
+  "count_source_sha256": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+  "checks": {
+    "independent_count_cells": 91,
+    "cases": [
+      {
+        "N": 0,
+        "m": 0,
+        "all": 1,
+        "connected": 0,
+        "g_le_1": 1,
+        "macro_types": 1,
+        "per_word_probability": "1"
+      },
+      {
+        "N": 1,
+        "m": 0,
+        "all": 1,
+        "connected": 1,
+        "g_le_1": 1,
+        "macro_types": 1,
+        "per_word_probability": "1"
+      },
+      {
+        "N": 1,
+        "m": 2,
+        "all": 0,
+        "connected": 0,
+        "g_le_1": 0,
+        "macro_types": 0,
+        "per_word_probability": null
+      },
+      {
+        "N": 2,
+        "m": 0,
+        "all": 1,
+        "connected": 0,
+        "g_le_1": 1,
+        "macro_types": 1,
+        "per_word_probability": "1"
+      },
+      {
+        "N": 2,
+        "m": 2,
+        "all": 1,
+        "connected": 1,
+        "g_le_1": 1,
+        "macro_types": 1,
+        "per_word_probability": "1"
+      },
+      {
+        "N": 2,
+        "m": 3,
+        "all": 0,
+        "connected": 0,
+        "g_le_1": 0,
+        "macro_types": 0,
+        "per_word_probability": null
+      },
+      {
+        "N": 2,
+        "m": 4,
+        "all": 1,
+        "connected": 1,
+        "g_le_1": 1,
+        "macro_types": 1,
+        "per_word_probability": "1"
+      },
+      {
+        "N": 3,
+        "m": 4,
+        "all": 27,
+        "connected": 24,
+        "g_le_1": 27,
+        "macro_types": 4,
+        "per_word_probability": "1/27"
+      },
+      {
+        "N": 3,
+        "m": 6,
+        "all": 243,
+        "connected": 240,
+        "g_le_1": 240,
+        "macro_types": 1,
+        "per_word_probability": "1/240"
+      },
+      {
+        "N": 4,
+        "m": 4,
+        "all": 120,
+        "connected": 0,
+        "g_le_1": 120,
+        "macro_types": 13,
+        "per_word_probability": "1/120"
+      },
+      {
+        "N": 4,
+        "m": 6,
+        "all": 3936,
+        "connected": 2880,
+        "g_le_1": 3930,
+        "macro_types": 11,
+        "per_word_probability": "1/3930"
+      },
+      {
+        "N": 4,
+        "m": 8,
+        "all": 140160,
+        "connected": 131040,
+        "g_le_1": 131250,
+        "macro_types": 4,
+        "per_word_probability": "1/131250"
+      }
+    ],
+    "word_law": "every allowed literal word has probability exactly 1/Z_g_le_1"
+  },
+  "saturated_m_2N_recurrence_checked": true,
+  "omission_inequalities_checked": true,
+  "subgroup_bound_checks": 2016,
+  "rows": [
+    {
+      "N": 2,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 2,
+      "m": 4,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 3,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "Z": 3,
+      "Z_g_le_1": 3,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "Z": 27,
+      "Z_g_le_1": 27,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "Z": 243,
+      "Z_g_le_1": 240,
+      "covered_numerator": 80,
+      "covered_denominator": 81,
+      "covered_decimal": 0.9876543209876543,
+      "omitted_decimal": 0.012345679012345678
+    },
+    {
+      "N": 4,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "Z": 6,
+      "Z_g_le_1": 6,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "Z": 120,
+      "Z_g_le_1": 120,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "Z": 3936,
+      "Z_g_le_1": 3930,
+      "covered_numerator": 655,
+      "covered_denominator": 656,
+      "covered_decimal": 0.9984756097560976,
+      "omitted_decimal": 0.001524390243902439
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "Z": 140160,
+      "Z_g_le_1": 131250,
+      "covered_numerator": 4375,
+      "covered_denominator": 4672,
+      "covered_decimal": 0.936429794520548,
+      "omitted_decimal": 0.06357020547945205
+    },
+    {
+      "N": 5,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "Z": 10,
+      "Z_g_le_1": 10,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "Z": 340,
+      "Z_g_le_1": 340,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 5,
+      "m": 8,
+      "Z": 1770940,
+      "Z_g_le_1": 1748250,
+      "covered_numerator": 174825,
+      "covered_denominator": 177094,
+      "covered_decimal": 0.987187595288378,
+      "omitted_decimal": 0.012812404711622077
+    },
+    {
+      "N": 5,
+      "m": 10,
+      "Z": 169271260,
+      "Z_g_le_1": 143236800,
+      "covered_numerator": 246960,
+      "covered_denominator": 291847,
+      "covered_decimal": 0.8461968086017674,
+      "omitted_decimal": 0.15380319139823265
+    },
+    {
+      "N": 6,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 6,
+      "m": 2,
+      "Z": 15,
+      "Z_g_le_1": 15,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 6,
+      "m": 6,
+      "Z": 72315,
+      "Z_g_le_1": 72300,
+      "covered_numerator": 4820,
+      "covered_denominator": 4821,
+      "covered_decimal": 0.9997925741547397,
+      "omitted_decimal": 0.00020742584526031943
+    },
+    {
+      "N": 6,
+      "m": 10,
+      "Z": 1846162215,
+      "Z_g_le_1": 1765099350,
+      "covered_numerator": 39224430,
+      "covered_denominator": 41025827,
+      "covered_decimal": 0.9560911471693185,
+      "omitted_decimal": 0.043908852830681515
+    },
+    {
+      "N": 6,
+      "m": 12,
+      "Z": 380074772565,
+      "Z_g_le_1": 276931635750,
+      "covered_numerator": 6154036350,
+      "covered_denominator": 8446106057,
+      "covered_decimal": 0.7286240912046837,
+      "omitted_decimal": 0.27137590879531626
+    },
+    {
+      "N": 7,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 7,
+      "m": 2,
+      "Z": 21,
+      "Z_g_le_1": 21,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 7,
+      "m": 6,
+      "Z": 197421,
+      "Z_g_le_1": 197400,
+      "covered_numerator": 9400,
+      "covered_denominator": 9401,
+      "covered_decimal": 0.9998936283374109,
+      "omitted_decimal": 0.00010637166258908626
+    },
+    {
+      "N": 7,
+      "m": 12,
+      "Z": 3752264339691,
+      "Z_g_le_1": 3374535814650,
+      "covered_numerator": 22956025950,
+      "covered_denominator": 25525607753,
+      "covered_decimal": 0.8993331783570168,
+      "omitted_decimal": 0.1006668216429832
+    },
+    {
+      "N": 7,
+      "m": 14,
+      "Z": 1447858728170421,
+      "Z_g_le_1": 868766028530400,
+      "covered_numerator": 2433518287200,
+      "covered_denominator": 4055626689553,
+      "covered_decimal": 0.6000350805138368,
+      "omitted_decimal": 0.39996491948616314
+    },
+    {
+      "N": 8,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 8,
+      "m": 2,
+      "Z": 28,
+      "Z_g_le_1": 28,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 8,
+      "m": 4,
+      "Z": 2632,
+      "Z_g_le_1": 2632,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 8,
+      "m": 8,
+      "Z": 124892992,
+      "Z_g_le_1": 124758900,
+      "covered_numerator": 4455675,
+      "covered_denominator": 4460464,
+      "covered_decimal": 0.9989263448825055,
+      "omitted_decimal": 0.0010736551174945028
+    },
+    {
+      "N": 8,
+      "m": 14,
+      "Z": 13265564100499648,
+      "Z_g_le_1": 10847222563577400,
+      "covered_numerator": 193700402921025,
+      "covered_denominator": 236885073223208,
+      "covered_decimal": 0.8176977987064146,
+      "omitted_decimal": 0.1823022012935855
+    },
+    {
+      "N": 8,
+      "m": 16,
+      "Z": 8720621853048478912,
+      "Z_g_le_1": 4141663982575119000,
+      "covered_numerator": 6723480491193375,
+      "covered_denominator": 14156853657546232,
+      "covered_decimal": 0.4749275971790145,
+      "omitted_decimal": 0.5250724028209856
+    },
+    {
+      "N": 9,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 9,
+      "m": 2,
+      "Z": 36,
+      "Z_g_le_1": 36,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 9,
+      "m": 4,
+      "Z": 4320,
+      "Z_g_le_1": 4320,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 9,
+      "m": 8,
+      "Z": 331880760,
+      "Z_g_le_1": 331676100,
+      "covered_numerator": 614215,
+      "covered_denominator": 614594,
+      "covered_decimal": 0.9993833327367335,
+      "omitted_decimal": 0.0006166672632664816
+    },
+    {
+      "N": 9,
+      "m": 16,
+      "Z": 75254579230982766840,
+      "Z_g_le_1": 53996041639715175000,
+      "covered_numerator": 49996334851588125,
+      "covered_denominator": 69680165954613673,
+      "covered_decimal": 0.7175117074800503,
+      "omitted_decimal": 0.2824882925199497
+    },
+    {
+      "N": 9,
+      "m": 18,
+      "Z": 78602871588212354074056,
+      "Z_g_le_1": 28531586765033352000000,
+      "covered_numerator": 132090679467747000000,
+      "covered_denominator": 363902183278760898491,
+      "covered_decimal": 0.3629840257555181,
+      "omitted_decimal": 0.637015974244482
+    },
+    {
+      "N": 10,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 10,
+      "m": 2,
+      "Z": 45,
+      "Z_g_le_1": 45,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 10,
+      "m": 4,
+      "Z": 6705,
+      "Z_g_le_1": 6705,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 10,
+      "m": 10,
+      "Z": 471924324045,
+      "Z_g_le_1": 470607902100,
+      "covered_numerator": 10457953380,
+      "covered_denominator": 10487207201,
+      "covered_decimal": 0.9972105232175436,
+      "omitted_decimal": 0.002789476782456489
+    },
+    {
+      "N": 10,
+      "m": 18,
+      "Z": 645126246512168970153645,
+      "Z_g_le_1": 392166181003103181675000,
+      "covered_numerator": 8714804022291181815000,
+      "covered_denominator": 14336138811381532670081,
+      "covered_decimal": 0.6078905998993575,
+      "omitted_decimal": 0.3921094001006425
+    },
+    {
+      "N": 10,
+      "m": 20,
+      "Z": 1014917840451921857365619505,
+      "Z_g_le_1": 272963567681319039840315000,
+      "covered_numerator": 6065857059584867552007000,
+      "covered_denominator": 22553729787820485719235989,
+      "covered_decimal": 0.2689513937007689,
+      "omitted_decimal": 0.7310486062992311
+    },
+    {
+      "N": 11,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 11,
+      "m": 2,
+      "Z": 55,
+      "Z_g_le_1": 55,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 11,
+      "m": 4,
+      "Z": 9955,
+      "Z_g_le_1": 9955,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 11,
+      "m": 10,
+      "Z": 1227941609455,
+      "Z_g_le_1": 1225797734700,
+      "covered_numerator": 22287231540,
+      "covered_denominator": 22326211081,
+      "covered_decimal": 0.9982540906355054,
+      "omitted_decimal": 0.001745909364494555
+    },
+    {
+      "N": 11,
+      "m": 20,
+      "Z": 7978003835870267951699663155,
+      "Z_g_le_1": 3973186124016535413772785000,
+      "covered_numerator": 72239747709391552977687000,
+      "covered_denominator": 145054615197641235485448421,
+      "covered_decimal": 0.49801757504208155,
+      "omitted_decimal": 0.5019824249579184
+    },
+    {
+      "N": 11,
+      "m": 22,
+      "Z": 18121420718258226900270459013855,
+      "Z_g_le_1": 3512184591118078435256096400000,
+      "covered_numerator": 63857901656692335186474480000,
+      "covered_denominator": 329480376695604125459462891161,
+      "covered_decimal": 0.19381397550024204,
+      "omitted_decimal": 0.806186024499758
+    },
+    {
+      "N": 12,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 12,
+      "m": 2,
+      "Z": 66,
+      "Z_g_le_1": 66,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 12,
+      "m": 6,
+      "Z": 5621616,
+      "Z_g_le_1": 5621550,
+      "covered_numerator": 85175,
+      "covered_denominator": 85176,
+      "covered_decimal": 0.9999882596036442,
+      "omitted_decimal": 1.1740396355780971e-05
+    },
+    {
+      "N": 12,
+      "m": 12,
+      "Z": 3326932836190656,
+      "Z_g_le_1": 3308642444368800,
+      "covered_numerator": 49733081475,
+      "covered_denominator": 50008009202,
+      "covered_decimal": 0.994502326099616,
+      "omitted_decimal": 0.005497673900384034
+    },
+    {
+      "N": 12,
+      "m": 22,
+      "Z": 137154978447750307679508877962816,
+      "Z_g_le_1": 54219845569873683286592615610000,
+      "covered_numerator": 877684627846958095159813125,
+      "covered_denominator": 2220198433821391926953976916,
+      "covered_decimal": 0.39531810061512956,
+      "omitted_decimal": 0.6046818993848704
+    },
+    {
+      "N": 12,
+      "m": 24,
+      "Z": 434617118660954707740366655723736256,
+      "Z_g_le_1": 59192462329541949000798023028210000,
+      "covered_numerator": 1779475178257033098869589436875,
+      "covered_denominator": 13065690195435146336591109178804,
+      "covered_decimal": 0.13619450267378458,
+      "omitted_decimal": 0.8638054973262154
+    },
+    {
+      "N": 13,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 13,
+      "m": 2,
+      "Z": 78,
+      "Z_g_le_1": 78,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 13,
+      "m": 6,
+      "Z": 9142068,
+      "Z_g_le_1": 9141990,
+      "covered_numerator": 117205,
+      "covered_denominator": 117206,
+      "covered_decimal": 0.999991468013583,
+      "omitted_decimal": 8.531986417077625e-06
+    },
+    {
+      "N": 13,
+      "m": 12,
+      "Z": 8509042636090932,
+      "Z_g_le_1": 8477824592437200,
+      "covered_numerator": 54345029438700,
+      "covered_denominator": 54545145103147,
+      "covered_decimal": 0.9963311920049241,
+      "omitted_decimal": 0.0036688079950758855
+    },
+    {
+      "N": 13,
+      "m": 24,
+      "Z": 3180452218455055362625833063467106612,
+      "Z_g_le_1": 969008678325476490353366344159530000,
+      "covered_numerator": 6211594091829977502265168872817500,
+      "covered_denominator": 20387514220865739504011750406840427,
+      "covered_decimal": 0.30467638303215405,
+      "omitted_decimal": 0.695323616967846
+    },
+    {
+      "N": 13,
+      "m": 26,
+      "Z": 13665515338891772000973648875583529691268,
+      "Z_g_le_1": 1278085311301841945779769084680488000000,
+      "covered_numerator": 8192854559627191960126724901798000000,
+      "covered_denominator": 87599457300588282057523390228099549303,
+      "covered_decimal": 0.09352631639616531,
+      "omitted_decimal": 0.9064736836038347
+    },
+    {
+      "N": 14,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 14,
+      "m": 2,
+      "Z": 91,
+      "Z_g_le_1": 91,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 14,
+      "m": 6,
+      "Z": 14321671,
+      "Z_g_le_1": 14321580,
+      "covered_numerator": 157380,
+      "covered_denominator": 157381,
+      "covered_decimal": 0.9999936459928453,
+      "omitted_decimal": 6.354007154612056e-06
+    },
+    {
+      "N": 14,
+      "m": 14,
+      "Z": 39386856772619368831,
+      "Z_g_le_1": 39019568904986670000,
+      "covered_numerator": 428786471483370000,
+      "covered_denominator": 432822601896916141,
+      "covered_decimal": 0.9906748621817412,
+      "omitted_decimal": 0.009325137818258881
+    },
+    {
+      "N": 14,
+      "m": 26,
+      "Z": 97013055001275727311267735200543189589571,
+      "Z_g_le_1": 22163093586922090633301003328764718750000,
+      "covered_numerator": 243550478977165831135175860755656250000,
+      "covered_denominator": 1066077527486546453969975112093881204281,
+      "covered_decimal": 0.2284547537094945,
+      "omitted_decimal": 0.7715452462905055
+    },
+    {
+      "N": 14,
+      "m": 28,
+      "Z": 551828731507232365528488241342972422744658885,
+      "Z_g_le_1": 34697136743400686686627095547474245468750000,
+      "covered_numerator": 76257443392089421289290319884558781250000,
+      "covered_denominator": 1212810398916994209952721409544994335702547,
+      "covered_decimal": 0.0628766404544232,
+      "omitted_decimal": 0.9371233595455768
+    },
+    {
+      "N": 15,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 15,
+      "m": 2,
+      "Z": 105,
+      "Z_g_le_1": 105,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 15,
+      "m": 6,
+      "Z": 21730905,
+      "Z_g_le_1": 21730800,
+      "covered_numerator": 206960,
+      "covered_denominator": 206961,
+      "covered_decimal": 0.9999951681717811,
+      "omitted_decimal": 4.831828218843163e-06
+    },
+    {
+      "N": 15,
+      "m": 14,
+      "Z": 99283619792489878305,
+      "Z_g_le_1": 98634393429724152000,
+      "covered_numerator": 313125058507060800,
+      "covered_denominator": 315186094579332947,
+      "covered_decimal": 0.9934608914932528,
+      "omitted_decimal": 0.006539108506747211
+    },
+    {
+      "N": 15,
+      "m": 28,
+      "Z": 3810964765251240799547716683305077350082015395,
+      "Z_g_le_1": 636332027217921540730578909930695851781250000,
+      "covered_numerator": 2020101673707687430890726698192685243750000,
+      "covered_denominator": 12098300842067431109675291058111356666927033,
+      "covered_decimal": 0.1669739990828729,
+      "omitted_decimal": 0.8330260009171271
+    },
+    {
+      "N": 15,
+      "m": 30,
+      "Z": 28116574881796960742073520794287573323900053573105,
+      "Z_g_le_1": 1165331286833947000381003633994726914318380000000,
+      "covered_numerator": 3699464402647450794860328996808656870852000000,
+      "covered_denominator": 89258967878720510292296891410436740710793820867,
+      "covered_decimal": 0.04144641698830812,
+      "omitted_decimal": 0.9585535830116919
+    },
+    {
+      "N": 16,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 16,
+      "m": 2,
+      "Z": 120,
+      "Z_g_le_1": 120,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 16,
+      "m": 8,
+      "Z": 33590411520,
+      "Z_g_le_1": 33588882600,
+      "covered_numerator": 279907355,
+      "covered_denominator": 279920096,
+      "covered_decimal": 0.9999544834394455,
+      "omitted_decimal": 4.551656055448052e-05
+    },
+    {
+      "N": 16,
+      "m": 16,
+      "Z": 726677783822170754401920,
+      "Z_g_le_1": 716221902745182924090000,
+      "covered_numerator": 2984257928104928850375,
+      "covered_denominator": 3027824099259044810008,
+      "covered_decimal": 0.9856113929587993,
+      "omitted_decimal": 0.014388607041200733
+    },
+    {
+      "N": 16,
+      "m": 30,
+      "Z": 189334887110117530135398468331950627432473164782720,
+      "Z_g_le_1": 22561117607985171360298365919892866092602190000000,
+      "covered_numerator": 11750582087492276750155398916610867756563640625,
+      "covered_denominator": 98611920369852880278853368922890951787746439991,
+      "covered_decimal": 0.11915985454314916,
+      "omitted_decimal": 0.8808401454568509
+    },
+    {
+      "N": 16,
+      "m": 32,
+      "Z": 1780071955553119321315065005793996524205918100003374720,
+      "Z_g_le_1": 47745252768697084306547249286656814881548854150000000,
+      "covered_numerator": 24867319150363064742993359003467091084140028203125,
+      "covered_denominator": 927120810183916313184929690517706523023915677085091,
+      "covered_decimal": 0.026822091443972705,
+      "omitted_decimal": 0.9731779085560273
+    },
+    {
+      "N": 17,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 17,
+      "m": 2,
+      "Z": 136,
+      "Z_g_le_1": 136,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 17,
+      "m": 8,
+      "Z": 54281664496,
+      "Z_g_le_1": 54279779400,
+      "covered_numerator": 399116025,
+      "covered_denominator": 399129886,
+      "covered_decimal": 0.9999652719566081,
+      "omitted_decimal": 3.4728043391869684e-05
+    },
+    {
+      "N": 17,
+      "m": 16,
+      "Z": 1808853690721386872640496,
+      "Z_g_le_1": 1789866906081503779530000,
+      "covered_numerator": 6580393037064352130625,
+      "covered_denominator": 6650197392358039972943,
+      "covered_decimal": 0.9895034160378604,
+      "omitted_decimal": 0.010496583962139578
+    },
+    {
+      "N": 17,
+      "m": 32,
+      "Z": 11711284071263547507772119413249285532318087558663878896,
+      "Z_g_le_1": 973912789380000797252077118589663846253853515110000000,
+      "covered_numerator": 3580561725661767636956165877167881787697990864375000,
+      "covered_denominator": 43056191438468924660926909607534137986463557200970143,
+      "covered_decimal": 0.08316020544405801,
+      "omitted_decimal": 0.916839794555942
+    },
+    {
+      "N": 17,
+      "m": 34,
+      "Z": 138164007745338312560494321969420500841183445060051481424336,
+      "Z_g_le_1": 2357170083635511422515356068439658057816691202197760000000,
+      "covered_numerator": 8666066483954086112188809075145801683149600008080000000,
+      "covered_denominator": 507955910828449678531229124887575370739645018603130446413,
+      "covered_decimal": 0.017060666682311428,
+      "omitted_decimal": 0.9829393333176886
+    },
+    {
+      "N": 18,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 18,
+      "m": 2,
+      "Z": 153,
+      "Z_g_le_1": 153,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 18,
+      "m": 8,
+      "Z": 85311944577,
+      "Z_g_le_1": 85309648200,
+      "covered_numerator": 185859800,
+      "covered_denominator": 185864803,
+      "covered_decimal": 0.999973082585195,
+      "omitted_decimal": 2.6917414804996727e-05
+    },
+    {
+      "N": 18,
+      "m": 18,
+      "Z": 19759520420173561227478450713,
+      "Z_g_le_1": 19348630706972536676596890000,
+      "covered_numerator": 42153879535887879469710000,
+      "covered_denominator": 43049064096238695484702507,
+      "covered_decimal": 0.9792054814862042,
+      "omitted_decimal": 0.020794518513795764
+    },
+    {
+      "N": 18,
+      "m": 34,
+      "Z": 889616409689013720213810218120122272602724827283570100802073,
+      "Z_g_le_1": 50560533543697637284987102344982519633286518330196790000000,
+      "covered_numerator": 110153667851193109553348806851813768264240780675810000000,
+      "covered_denominator": 1938162112612230327263203089586323033992864547458758389547,
+      "covered_decimal": 0.05683408376130591,
+      "omitted_decimal": 0.9431659162386941
+    },
+    {
+      "N": 18,
+      "m": 36,
+      "Z": 12992201145964178237374783192366538202762888197348403354612005697,
+      "Z_g_le_1": 138710016509419020495401583589250771675127135702070303350000000,
+      "covered_numerator": 691534260178674266988735753225601230787888982127450000000,
+      "covered_denominator": 64772194782031270034722699293392452016187255138014703911159,
+      "covered_decimal": 0.010676406172521974,
+      "omitted_decimal": 0.989323593827478
+    },
+    {
+      "N": 19,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 19,
+      "m": 2,
+      "Z": 171,
+      "Z_g_le_1": 171,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 19,
+      "m": 8,
+      "Z": 130810209435,
+      "Z_g_le_1": 130807441800,
+      "covered_numerator": 152991160,
+      "covered_denominator": 152994397,
+      "covered_decimal": 0.9999788423624428,
+      "omitted_decimal": 2.1157637557145313e-05
+    },
+    {
+      "N": 19,
+      "m": 18,
+      "Z": 48642426002034798896885451291,
+      "Z_g_le_1": 47880255494568513318652350000,
+      "covered_numerator": 5714316206536402114650000,
+      "covered_denominator": 5805278195731566881117729,
+      "covered_decimal": 0.9843311575899935,
+      "omitted_decimal": 0.015668842410006496
+    },
+    {
+      "N": 19,
+      "m": 36,
+      "Z": 81993180058397000661462997642832554867085539420905878593799694315,
+      "Z_g_le_1": 3122687434341955935663422543604336465133528898331013031250000000,
+      "covered_numerator": 968000531428123783690339808582785493459539044993750000000,
+      "covered_denominator": 25417030535025566594737616348487965388761185406591890546961,
+      "covered_decimal": 0.03808472158437961,
+      "omitted_decimal": 0.9619152784156204
+    },
+    {
+      "N": 19,
+      "m": 38,
+      "Z": 1464600454487180076690378441480479588450787002237993821214223411347691,
+      "Z_g_le_1": 9635547869943692054404191847773177492043024602480227482500000000000,
+      "covered_numerator": 56348233157565450610550829519141388842356869020352207500000000000,
+      "covered_denominator": 8564914938521520916318002581757190575735596504315753340434055037121,
+      "covered_decimal": 0.006578960043623306,
+      "omitted_decimal": 0.9934210399563767
+    },
+    {
+      "N": 20,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 20,
+      "m": 2,
+      "Z": 190,
+      "Z_g_le_1": 190,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 20,
+      "m": 10,
+      "Z": 431070453965440,
+      "Z_g_le_1": 431028179593200,
+      "covered_numerator": 283571170785,
+      "covered_denominator": 283598982872,
+      "covered_decimal": 0.9999019316405215,
+      "omitted_decimal": 9.806835947840035e-05
+    },
+    {
+      "N": 20,
+      "m": 20,
+      "Z": 758332312525995946761461346847360,
+      "Z_g_le_1": 736615693790667028750107936240000,
+      "covered_numerator": 60576948502521959601160192125,
+      "covered_denominator": 62362854648519403516567544971,
+      "covered_decimal": 0.971362662019516,
+      "omitted_decimal": 0.028637337980483936
+    },
+    {
+      "N": 20,
+      "m": 38,
+      "Z": 9071288005268094419861840266153995740648744109606758886753823802400640,
+      "Z_g_le_1": 227245691908537061780926254261535777338025715394020651398747500000000,
+      "covered_numerator": 18687968084583639949089330120192086952140272647534593042660156250,
+      "covered_denominator": 745994079380599870054427653466611491829666456382134776871202615329,
+      "covered_decimal": 0.02505109437343027,
+      "omitted_decimal": 0.9749489056265698
+    },
+    {
+      "N": 20,
+      "m": 40,
+      "Z": 196066224986997671572466840957091553321625897631767680034067593516952799360,
+      "Z_g_le_1": 783304315846855268522987796852605061263591908099460473099013389500000000,
+      "covered_numerator": 64416473342669018793008864872747126748650650337126683643010969531250,
+      "covered_denominator": 16123867186430729570104180999760818529738971844717736844906874466854671,
+      "covered_decimal": 0.003995100716091213,
+      "omitted_decimal": 0.9960048992839088
+    },
+    {
+      "N": 21,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 21,
+      "m": 2,
+      "Z": 210,
+      "Z_g_le_1": 210,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 21,
+      "m": 10,
+      "Z": 693343670545260,
+      "Z_g_le_1": 693289852088400,
+      "covered_numerator": 10788824340,
+      "covered_denominator": 10789661851,
+      "covered_decimal": 0.9999223783829776,
+      "omitted_decimal": 7.762161702244435e-05
+    },
+    {
+      "N": 21,
+      "m": 20,
+      "Z": 1848324539213938730643489493921260,
+      "Z_g_le_1": 1807345455011734458233157905160000,
+      "covered_numerator": 478133718257072607998189922000,
+      "covered_denominator": 488974745823793314985050130667,
+      "covered_decimal": 0.9778290644674166,
+      "omitted_decimal": 0.022170935532583463
+    },
+    {
+      "N": 21,
+      "m": 40,
+      "Z": 1193190767462867152906560240156586285076237673721733336262630618529220329260,
+      "Z_g_le_1": 19318924447893030677934350075649374693106345670852221289839804979500000000,
+      "covered_numerator": 138130447932883102230332833373726402782113153659747041969396575000000,
+      "covered_denominator": 8531322518682018825300731017850609788904888271998665352943161865645791,
+      "covered_decimal": 0.01619097714690811,
+      "omitted_decimal": 0.9838090228530919
+    },
+    {
+      "N": 21,
+      "m": 42,
+      "Z": 30905860045271478190879787807293576801227980163883066983114666703549760193150060,
+      "Z_g_le_1": 73939634561452259646078045941652012503050331724334223433068333140560000000000,
+      "covered_numerator": 164376049445227556902934609269601201598529037669143709557308108000000000,
+      "covered_denominator": 68707171858235467944688514977754605845066871557251938515661079328508648333,
+      "covered_decimal": 0.0023924147217758737,
+      "omitted_decimal": 0.9976075852782241
+    },
+    {
+      "N": 22,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 22,
+      "m": 2,
+      "Z": 231,
+      "Z_g_le_1": 231,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 22,
+      "m": 10,
+      "Z": 1090894799564031,
+      "Z_g_le_1": 1090827041500350,
+      "covered_numerator": 4722194984850,
+      "covered_denominator": 4722488309801,
+      "covered_decimal": 0.9999378876279289,
+      "omitted_decimal": 6.211237207114662e-05
+    },
+    {
+      "N": 22,
+      "m": 22,
+      "Z": 39681737480087109941587127919148573731,
+      "Z_g_le_1": 38173927840871672592464668893306360000,
+      "covered_numerator": 165255098878232348885128436767560000,
+      "covered_denominator": 171782413333710432647563324325318501,
+      "covered_decimal": 0.9620024289518049,
+      "omitted_decimal": 0.03799757104819512
+    },
+    {
+      "N": 22,
+      "m": 42,
+      "Z": 184992066637329649339390830435812533351324164366578231055018612060750110242875231,
+      "Z_g_le_1": 1903866312900635885751227025542957398758996828921771222294802474733284500000000,
+      "covered_numerator": 8241845510392363141780203573779036358264055536457884079198279111399500000000,
+      "covered_denominator": 800831457304457356447579352535984992862875170418087580324755896366883594125001,
+      "covered_decimal": 0.010291610594486184,
+      "omitted_decimal": 0.9897083894055139
+    },
+    {
+      "N": 22,
+      "m": 44,
+      "Z": 5692342331869070422165387973142583895415113810963104116401761014584945843853234411861,
+      "Z_g_le_1": 8047193872108287893149569046625633473193848853981828557340524198392047824500000000,
+      "covered_numerator": 34836337108693886983331467734310101615557787246674582499309628564467739500000000,
+      "covered_denominator": 24642174596835802693356657892392138075390103077762355482258705690843921401962053731,
+      "covered_decimal": 0.00141368761802244,
+      "omitted_decimal": 0.9985863123819776
+    },
+    {
+      "N": 23,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 23,
+      "m": 2,
+      "Z": 253,
+      "Z_g_le_1": 253,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 23,
+      "m": 10,
+      "Z": 1682365617836233,
+      "Z_g_le_1": 1682281164460050,
+      "covered_numerator": 6649332665850,
+      "covered_denominator": 6649666473661,
+      "covered_decimal": 0.9999498008189851,
+      "omitted_decimal": 5.0199181014896945e-05
+    },
+    {
+      "N": 23,
+      "m": 22,
+      "Z": 95850084556524839012944282956369147253,
+      "Z_g_le_1": 92964608791521758789457584988483120000,
+      "covered_numerator": 367449046606805370709318517741040000,
+      "covered_denominator": 378854089156224660130214557139799001,
+      "covered_decimal": 0.9698959497182138,
+      "omitted_decimal": 0.030104050281786175
+    },
+    {
+      "N": 23,
+      "m": 44,
+      "Z": 33543628533727138697479843556956034009499728117240271374201873972529404195654861938747,
+      "Z_g_le_1": 215984929378534180376279286602107278564151514598612836775797424876826534831500000000,
+      "covered_numerator": 853695373037684507416123662458922049660677923314675244173112351291804485500000000,
+      "covered_denominator": 132583511991016358488062622754766932843872443151147317684592387243199226069782062999,
+      "covered_decimal": 0.006438925626706355,
+      "omitted_decimal": 0.9935610743732937
+    },
+    {
+      "N": 23,
+      "m": 46,
+      "Z": 1216504856769460263301348328560724238792555594227077782471383715722201368919011540902002893,
+      "Z_g_le_1": 1003314245380710228609795636114337994106843546278067766059732422671655759598120000000000,
+      "covered_numerator": 3965668954073953472765990656578411043900567376593153225532539220046070196040000000000,
+      "covered_denominator": 4808319591974151238345250310516696596018006301292797559175429706411863118256962612260881,
+      "covered_decimal": 0.0008247515328833974,
+      "omitted_decimal": 0.9991752484671166
+    },
+    {
+      "N": 24,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 24,
+      "m": 2,
+      "Z": 276,
+      "Z_g_le_1": 276,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 24,
+      "m": 12,
+      "Z": 10167993722962324800,
+      "Z_g_le_1": 10166297284208142000,
+      "covered_numerator": 122781368166765,
+      "covered_denominator": 122801856557516,
+      "covered_decimal": 0.9998331589495033,
+      "omitted_decimal": 0.00016684105049669156
+    },
+    {
+      "N": 24,
+      "m": 24,
+      "Z": 2752451784542417015078020686739331052544320,
+      "Z_g_le_1": 2617747184319173097770209500672808005000000,
+      "covered_numerator": 39519130198055149422859442944939734375,
+      "covered_denominator": 41552714138623445275936302637972992943,
+      "covered_decimal": 0.9510601417326415,
+      "omitted_decimal": 0.04893985826735852
+    },
+    {
+      "N": 24,
+      "m": 46,
+      "Z": 7063202816938807128593236160637941336149151258034339532590125252991318612961715488559029056,
+      "Z_g_le_1": 28027720399004896308627848200234953660741208536348986830675957701827284270968750000000000,
+      "covered_numerator": 124448175968869424501935245276689727464927929349375651954905325118229984863281250000,
+      "covered_denominator": 31361905090840824491125125038354030513592068316790723272725406955950370368720319553491,
+      "covered_decimal": 0.003968131897867845,
+      "omitted_decimal": 0.9960318681021322
+    },
+    {
+      "N": 24,
+      "m": 48,
+      "Z": 299732129508849277736283747334868667549155141351256661115221037257918693256179664434697846948160,
+      "Z_g_le_1": 142462713952599269577810769140876107496670844832192504240617984782203791014307343750000000000,
+      "covered_numerator": 2150705222714360953771297843310327709792736184060877177545561364465636941641113281250000,
+      "covered_denominator": 4524941568672241511719259470635094618797631964843850560314327253289835345051021504147008559,
+      "covered_decimal": 0.0004753001094211797,
+      "omitted_decimal": 0.9995246998905788
+    },
+    {
+      "N": 25,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 25,
+      "m": 2,
+      "Z": 300,
+      "Z_g_le_1": 300,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 25,
+      "m": 12,
+      "Z": 16294428724049464200,
+      "Z_g_le_1": 16292218089345660000,
+      "covered_numerator": 936334372950900,
+      "covered_denominator": 936461420922383,
+      "covered_decimal": 0.999864331868196,
+      "omitted_decimal": 0.00013566813180393702
+    },
+    {
+      "N": 25,
+      "m": 24,
+      "Z": 6593789119132054748254135950131007563788200,
+      "Z_g_le_1": 6332979156971958048875506827368443713000000,
+      "covered_numerator": 10554965261619930081459178045614072855000,
+      "covered_denominator": 10989648531886757913756893250218345939647,
+      "covered_decimal": 0.960446117179673,
+      "omitted_decimal": 0.039553882820327034
+    },
+    {
+      "N": 25,
+      "m": 48,
+      "Z": 1716002494868445987912334781618355772311451893696222370745199314679962367259286376069403878196200,
+      "Z_g_le_1": 4136311191345198964995563162369785298361771402223329829916582846252705702454030513750000000000,
+      "covered_numerator": 6893851985575331608325938603949642163936285670372216383194304743754509504090050856250000000,
+      "covered_denominator": 2860004158114076646520557969363926287185753156160370617908665524466603945432143960115673130327,
+      "covered_decimal": 0.0024104342526974597,
+      "omitted_decimal": 0.9975895657473025
+    },
+    {
+      "N": 25,
+      "m": 50,
+      "Z": 84645503207661938421217309790748467837167738933520426183814873192750854556312158382768065216126347800,
+      "Z_g_le_1": 22913688929121957380515731373637223450871789272342068432598105306987789177244019936112000000000000,
+      "covered_numerator": 38189481548536595634192885622728705751452982120570114054330175511646315295406699893520000000000,
+      "covered_denominator": 141075838679436564035362182984580779728612898222534043639691455321251424260520263971280108693543913,
+      "covered_decimal": 0.0002707017864009562,
+      "omitted_decimal": 0.999729298213599
+    },
+    {
+      "N": 26,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 26,
+      "m": 2,
+      "Z": 325,
+      "Z_g_le_1": 325,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 26,
+      "m": 12,
+      "Z": 25642235961654955825,
+      "Z_g_le_1": 25639384305387352500,
+      "covered_numerator": 11270059035335100,
+      "covered_denominator": 11271312510617563,
+      "covered_decimal": 0.9998887906549231,
+      "omitted_decimal": 0.00011120934507691343
+    },
+    {
+      "N": 26,
+      "m": 26,
+      "Z": 247203269151699478932109659030118894023776604325,
+      "Z_g_le_1": 231997469942166961933080125029941446915325000000,
+      "covered_numerator": 713838369052821421332554230861358298201000000,
+      "covered_denominator": 760625443543690704406491258554211981611620321,
+      "covered_decimal": 0.9384886807455557,
+      "omitted_decimal": 0.061511319254444335
+    },
+    {
+      "N": 26,
+      "m": 50,
+      "Z": 478171560603031505994952977072186012972465225246323219360192958728107914249657436939879186541524656325,
+      "Z_g_le_1": 690546762890014343250149337523862015947313122495132460500132609419762688966829588440452750000000000,
+      "covered_numerator": 2124759270430813363846613346227267741376348069215792186154254182830039042974860272124470000000000,
+      "covered_denominator": 1471297109547789249215239929452880039915277616142532982646747565317255120768176729045782112435460481,
+      "covered_decimal": 0.0014441401785149086,
+      "omitted_decimal": 0.9985558598214851
+    },
+    {
+      "N": 26,
+      "m": 52,
+      "Z": 27251041430747083664986212408215583683368655660022733124683114458160432002514612691822143203608971334875825,
+      "Z_g_le_1": 4153961853038364016637806923928671219796594747646809953784452576053290047705909676996258368750000000000,
+      "covered_numerator": 12781421086271889281962482842857449907066445377374799857798315618625507839095106698450025750000000000,
+      "covered_denominator": 83849358248452565123034499717586411333442017415454563460563429102032098469275731359452748318796834876541,
+      "covered_decimal": 0.0001524331414487334,
+      "omitted_decimal": 0.9998475668585513
+    },
+    {
+      "N": 27,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 27,
+      "m": 2,
+      "Z": 351,
+      "Z_g_le_1": 351,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 27,
+      "m": 12,
+      "Z": 39681270719099252451,
+      "Z_g_le_1": 39677626307969149500,
+      "covered_numerator": 37680556797691500,
+      "covered_denominator": 37684017776922367,
+      "covered_decimal": 0.999908157902606,
+      "omitted_decimal": 9.184209739404428e-05
+    },
+    {
+      "N": 27,
+      "m": 26,
+      "Z": 587703620654039695367352671853231206904631857351,
+      "Z_g_le_1": 557972279627164128807484212178452674066475000000,
+      "covered_numerator": 529888204774134975125815965981436537575000000,
+      "covered_denominator": 558123096537549568250097504134122703613135667,
+      "covered_decimal": 0.9494109956413262,
+      "omitted_decimal": 0.050589004358673764
+    },
+    {
+      "N": 27,
+      "m": 52,
+      "Z": 151995545794160573169340591561777503623566904793546242159206010169425545101466463983404108199838187501152451,
+      "Z_g_le_1": 129779173717469784300109415282760405505525627110294510111054347447485273052200640735464814222250000000000,
+      "covered_numerator": 4249899260486288250322867841725133624963998660978305338148945457886671023748260822460124250000000000,
+      "covered_denominator": 4977422333371338807654340359622016033780885640159355606615122971130940992941888986586898130131911697323,
+      "covered_decimal": 0.000853835374184075,
+      "omitted_decimal": 0.999146164625816
+    },
+    {
+      "N": 27,
+      "m": 54,
+      "Z": 9951945750422564714362627034963352444278225152078723915275091432386539982280759741688456032532586216667538787351,
+      "Z_g_le_1": 844914476431564177518651029323914324523464680161341501027573676638241882267449537126804662551716000000000000,
+      "covered_numerator": 802387916839092286342498603346547316736433694360248339057524859105642813169467746559168720372000000000000,
+      "covered_denominator": 9451040598691894315634023774893971931888153040910469055341967172256923060095688263711734123962570006331945667,
+      "covered_decimal": 8.48994254611656e-05,
+      "omitted_decimal": 0.9999151005745388
+    },
+    {
+      "N": 28,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 28,
+      "m": 2,
+      "Z": 378,
+      "Z_g_le_1": 378,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 28,
+      "m": 14,
+      "Z": 397757691509858809472448,
+      "Z_g_le_1": 397658148458745801627000,
+      "covered_numerator": 263001420938323942875,
+      "covered_denominator": 263067256289589159704,
+      "covered_decimal": 0.9997497394689336,
+      "omitted_decimal": 0.00025026053106641326
+    },
+    {
+      "N": 28,
+      "m": 28,
+      "Z": 28182595247742586541414429932341212863552347034408512,
+      "Z_g_le_1": 26048039057585775595235834467782364545758699400000000,
+      "covered_numerator": 2153442382406231448018835521476716645648040625000,
+      "covered_denominator": 2329910321407290554019050093612864820068811758797,
+      "covered_decimal": 0.9242597719836398,
+      "omitted_decimal": 0.07574022801636013
+    },
+    {
+      "N": 28,
+      "m": 54,
+      "Z": 54837001359637944899776133744871371612772407115764500718923033653289738096210232189091167310205079642813768614848,
+      "Z_g_le_1": 27333125897983551320948544837086653098718620739496499337749387501664576956696651420963789244586488500000000000,
+      "covered_numerator": 14035298306089355200296461043066776912401933979251135500750408482484111043688099459481389692289062500000,
+      "covered_denominator": 28158274877397971969469982246002667897386337414434267433473738894891457417374375692745390555784099688421083,
+      "covered_decimal": 0.000498443117243492,
+      "omitted_decimal": 0.9995015568827565
+    },
+    {
+      "N": 28,
+      "m": 56,
+      "Z": 4103697151910062492975308908160489064296356148961092165506440921222009391855440724809880699144879308553470684507060032,
+      "Z_g_le_1": 192000140991867280618202470184769089842526713616454271039027982230545790535437087272367358300336574382500000000000,
+      "covered_numerator": 387147012904623339741826506212029555915534894858316942184128561408217573508350043699927729183476445312500000,
+      "covered_denominator": 8274650664420535095204439500581706236886122703254234751069575350896102303231547467435073677137532481113431338937,
+      "covered_decimal": 4.678711266558766e-05,
+      "omitted_decimal": 0.9999532128873344
+    },
+    {
+      "N": 29,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 29,
+      "m": 2,
+      "Z": 406,
+      "Z_g_le_1": 406,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 29,
+      "m": 14,
+      "Z": 635510687062789503210196,
+      "Z_g_le_1": 635378676058259508375000,
+      "covered_numerator": 26982277733066906250,
+      "covered_denominator": 26987883771988682827,
+      "covered_decimal": 0.9997922757127183,
+      "omitted_decimal": 0.00020772428728165816
+    },
+    {
+      "N": 29,
+      "m": 28,
+      "Z": 66528357655350745393535272945891830617037956592173860,
+      "Z_g_le_1": 62319813989590009783632733843231937344740412500000000,
+      "covered_numerator": 15349707879209362015673087153505403286881875000000,
+      "covered_denominator": 16386294989002646648654008114751682417989644480831,
+      "covered_decimal": 0.9367406048475894,
+      "omitted_decimal": 0.06325939515241064
+    },
+    {
+      "N": 29,
+      "m": 56,
+      "Z": 22350590416793078992688373604354655729076693821752146990796638941529788858290961158762029050187567383457621650071458340,
+      "Z_g_le_1": 6424376287281532728470414663445055857232106658497342845044257790743730870413914973170088631908039882812500000000000,
+      "covered_numerator": 1582358691448653381396653857991393068283770112930380011094644776045253908968944574672435623622669921875000000000,
+      "covered_denominator": 5505071531229822411992210247377994021940072369889691377043507128455613019283487970138430800538809700359020110855039,
+      "covered_decimal": 0.00028743653601448433,
+      "omitted_decimal": 0.9997125634639855
+    },
+    {
+      "N": 29,
+      "m": 58,
+      "Z": 1902498484552866785449409274258964422184800015365085846412473530996453029005035191768718723566163184621254610432381482742676,
+      "Z_g_le_1": 48552968554982675232310961086720588363165581177316672441457948711624197109853007320557556805212080906250000000000000000,
+      "covered_numerator": 1390565029069271257655830023104610733278885931301313794290810766170930149783852884653384030393289062500000000000000,
+      "covered_denominator": 54487870447727883647880893408722775294558369096262053110679159439696787404199656082275138147730644536065259778679730861,
+      "covered_decimal": 2.5520634549358814e-05,
+      "omitted_decimal": 0.9999744793654506
+    },
+    {
+      "N": 30,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 30,
+      "m": 2,
+      "Z": 435,
+      "Z_g_le_1": 435,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 30,
+      "m": 14,
+      "Z": 999853841358701298961335,
+      "Z_g_le_1": 999680381099084895210000,
+      "covered_numerator": 85115400689577258000,
+      "covered_denominator": 85130169549484997783,
+      "covered_decimal": 0.9998265143839616,
+      "omitted_decimal": 0.00017348561603832877
+    },
+    {
+      "N": 30,
+      "m": 30,
+      "Z": 4009825684094866332491097971219843915030628413556020464935,
+      "Z_g_le_1": 3642385040853203103555847226754056417102632477409100000000,
+      "covered_numerator": 310122183129263780634810321562712338620913791180000000,
+      "covered_denominator": 341407039939963076414738013726678919968550737637805063,
+      "covered_decimal": 0.9083649334934605,
+      "omitted_decimal": 0.09163506650653948
+    },
+    {
+      "N": 30,
+      "m": 58,
+      "Z": 10247038145456240995927488915855220205863027226450969686037957223944993743012054350717251931541842957200416364157585103082235,
+      "Z_g_le_1": 1678587834753334768409318311821534172584051936966114517095764065657578997809203392005011434291084501957014937500000000000,
+      "covered_numerator": 142919355875124288498026250474374982765777091269996978892785361060670838468216551043423706623336270920137500000000000,
+      "covered_denominator": 872459612214239335540867510928498953245042760872794353855935055252873030482082107340762190850731626836987344755860800603,
+      "covered_decimal": 0.00016381200215377913,
+      "omitted_decimal": 0.9998361879978462
+    },
+    {
+      "N": 30,
+      "m": 60,
+      "Z": 987693538999909933757030854231072512783834015687992602839951747676821342911246992813192978604164311248296863601049312388034226565,
+      "Z_g_le_1": 13613192418463287953923935704940088811460332022442305201240315898240365571984915661025579919782856742143882224037500000000000,
+      "covered_numerator": 28269824042328936971464630937794160071146688310422297399496030273890011467225110137215794826616114261686617500000000000,
+      "covered_denominator": 2051092917587992677230644808337896796319833069989289895731347532788880256074192428149379556644060910710934312683236898707357,
+      "covered_decimal": 1.3782810032601145e-05,
+      "omitted_decimal": 0.9999862171899674
+    },
+    {
+      "N": 31,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 31,
+      "m": 2,
+      "Z": 465,
+      "Z_g_le_1": 465,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 31,
+      "m": 14,
+      "Z": 1550587412217196217647065,
+      "Z_g_le_1": 1550361439318068697320000,
+      "covered_numerator": 3334110622189395048000,
+      "covered_denominator": 3334596585413325199241,
+      "covered_decimal": 0.9998542662623551,
+      "omitted_decimal": 0.00014573373764488392
+    },
+    {
+      "N": 31,
+      "m": 30,
+      "Z": 9403129641193740849978019305898988343097939958353336330665,
+      "Z_g_le_1": 8673491398464236152969237398018866346565244890332300000000,
+      "covered_numerator": 1097215863183331581653287463379995742766001883660000000,
+      "covered_denominator": 1189516716153540904488047983035925154092086016236981193,
+      "covered_decimal": 0.9224047449550131,
+      "omitted_decimal": 0.07759525504498692
+    },
+    {
+      "N": 31,
+      "m": 60,
+      "Z": 5263239485581654227074114084951432664544431973573407874917875122063999716558200193417611218367553235517461857984919356864895563315,
+      "Z_g_le_1": 485800951497536452951967771654991339302116461358397776194653237341646701493484677467231612263117248528231666425462500000000000,
+      "covered_numerator": 1044733229026960113875199508935465245811003142706231776762695134068057422566633714983293789813155373178992831022500000000000,
+      "covered_denominator": 11318794592648718767901320612798779923751466609835285752511559402288171433458495039607766061005490829069810447279396466376119491,
+      "covered_decimal": 9.23007499142611e-05,
+      "omitted_decimal": 0.9999076992500857
+    },
+    {
+      "N": 31,
+      "m": 62,
+      "Z": 572072717133750704671482695592056059141841507917241193985709368211586558923655980712934312032902915793658640324217639887850502678529865,
+      "Z_g_le_1": 4217397731397231525387101535229261461803684015949740567038669924971412742869533015363408692170227069200755618410663000000000000000,
+      "covered_numerator": 533510149449365151851625747657085573915709552934818541054860205562481055391465277085820201413058452776819180064600000000000000,
+      "covered_denominator": 72368465165559861438517735052758514755451171147026083995662159166551114348343577572793714362163556710140245455308999353301771369833,
+      "covered_decimal": 7.372135753174195e-06,
+      "omitted_decimal": 0.9999926278642468
+    },
+    {
+      "N": 32,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 32,
+      "m": 2,
+      "Z": 496,
+      "Z_g_le_1": 496,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 32,
+      "m": 16,
+      "Z": 23987236929918228957232681216,
+      "Z_g_le_1": 23978903895668035098684900000,
+      "covered_numerator": 24172282152891164413996875,
+      "covered_denominator": 24180682389030472739145848,
+      "covered_decimal": 0.9996526054970591,
+      "omitted_decimal": 0.00034739450294087146
+    },
+    {
+      "N": 32,
+      "m": 32,
+      "Z": 701620920973885880304463130227235193794631266570717500132086016,
+      "Z_g_le_1": 625015153671374701845678026840255644865836928746737377700000000,
+      "covered_numerator": 78756949807380884809183219107895116540554048481191705859375,
+      "covered_denominator": 88409894275943281288364809756456047605170270485221459190031,
+      "covered_decimal": 0.8908160161527418,
+      "omitted_decimal": 0.1091839838472582
+    },
+    {
+      "N": 32,
+      "m": 62,
+      "Z": 3017320636924978365013079449632638933496209317294759695278506126305808680058887464195551436161317567762637145516383498375742663497098496,
+      "Z_g_le_1": 155205716771778721420339013938138052596180251201004554007793589898888174156009949352239390753813419990112749142463665400000000000000,
+      "covered_numerator": 19557171972250342920909653974059734450123519556578194809449797114275223557964963376038229681680118446334771817346732031250000000,
+      "covered_denominator": 380206733483490217365559406455725672063534440183311453538118211480066617950968682484318477338875701582993591924947517436459509009211,
+      "covered_decimal": 5.14382577948204e-05,
+      "omitted_decimal": 0.9999485617422051
+    },
+    {
+      "N": 32,
+      "m": 64,
+      "Z": 368381331042387218900009999636899718981051964225896360551438962332584260598146604223250717255425685206752805374227605868312083881946412994816,
+      "Z_g_le_1": 1439049269426075954425605375156879211623792713617578414386571012107163897796307981580885606130068970564630192401115861757400000000000000,
+      "covered_numerator": 181331813183729328934678096667953529690498073792537602619275581162697063734413808162914012869212319879615699647318026935156250000000,
+      "covered_denominator": 46419018528526615284779485841343210557088201137335730916259949890698621547145489443453971428355051059318649870744405981390131537543650831,
+      "covered_decimal": 3.906412046870242e-06,
+      "omitted_decimal": 0.9999960935879532
+    },
+    {
+      "N": 33,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 33,
+      "m": 2,
+      "Z": 528,
+      "Z_g_le_1": 528,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 33,
+      "m": 16,
+      "Z": 38229277751012672707797561312,
+      "Z_g_le_1": 38218074829502608458181764000,
+      "covered_numerator": 415992629196083773708875,
+      "covered_denominator": 416114569738469530518521,
+      "covered_decimal": 0.9997069544032972,
+      "omitted_decimal": 0.0002930455967028436
+    },
+    {
+      "N": 33,
+      "m": 32,
+      "Z": 1635096310474966562043122559429104915494100441163926792625641952,
+      "Z_g_le_1": 1482041224090559094832716398102657181209105174269087721700000000,
+      "covered_numerator": 467816042957878502156791792330384211240247845413222134375000,
+      "covered_denominator": 516128885882249546099470504870298268779703422084572851207589,
+      "covered_decimal": 0.9063938402870302,
+      "omitted_decimal": 0.09360615971296986
+    },
+    {
+      "N": 33,
+      "m": 64,
+      "Z": 1923875140628217658269425604341603718236448868963881798776737655205507311801180368660667183607980002721906971052320464497967109690256818302432,
+      "Z_g_le_1": 54565739746788538632252219596440495285657312039930884725204156788201459965184589447565011335364749673642702676146715039274200000000000000,
+      "covered_numerator": 17224034010981230628867493559482479572492838396442829774369998986174703271838569901377844487173216437387216753834190353306250000000000,
+      "covered_denominator": 607283819642745472938581314501768850453424516718397032442152037628001045391786732531776257452013889748076695407929439551125981594146722949,
+      "covered_decimal": 2.8362412193221006e-05,
+      "omitted_decimal": 0.9999716375878068
+    },
+    {
+      "N": 33,
+      "m": 66,
+      "Z": 262870471044456859959382496658102073891853958968050901597609634382573854953260640727612055795538678378708451596854801993919032688341269979562206368,
+      "Z_g_le_1": 539195456204902233647856002490918481700263002313641319528327371342957749376882059068484090039288304010852675031790246623937792000000000000000,
+      "covered_numerator": 657145119394843992102316605352412251984447518517268875444024427848657605710680720170435155170537791051017748712743075816000000000000000,
+      "covered_denominator": 320373706959138757214254632056693959249656262148574184896271638175400061124347530234307427308240072514123439507106297036385857474773397560989,
+      "covered_decimal": 2.051183056288255e-06,
+      "omitted_decimal": 0.9999979488169437
+    },
+    {
+      "N": 34,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 34,
+      "m": 2,
+      "Z": 561,
+      "Z_g_le_1": 561,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 34,
+      "m": 16,
+      "Z": 60119490509833467988599822465,
+      "Z_g_le_1": 60104555952861474811656900000,
+      "covered_numerator": 21427649181055784246580000,
+      "covered_denominator": 21432973443790897678645213,
+      "covered_decimal": 0.9997515854368468,
+      "omitted_decimal": 0.00024841456315319907
+    },
+    {
+      "N": 34,
+      "m": 34,
+      "Z": 149049190042576530380004619012671179296118492060205311116199597495601,
+      "Z_g_le_1": 129918029805661184647339966286145439513784124421722081884062500000000,
+      "covered_numerator": 231582940830055587606666606570669232644891487382748809062500000000,
+      "covered_denominator": 265684830735430535436728376136668768798785190838155634788234576641,
+      "covered_decimal": 0.8716453257380973,
+      "omitted_decimal": 0.12835467426190272
+    },
+    {
+      "N": 34,
+      "m": 66,
+      "Z": 1359841887507122833919759526381336836943506666600781071576040173430728235122318690717716163767485226588364029538281069672130121408564836155810318641,
+      "Z_g_le_1": 21047887599392888966597414242353504377007717580938306186725106402300731335763213676599990979052332850677889528297054611240234375000000000000000,
+      "covered_numerator": 1293741938619023232318975612659260211261154193923308512307155104941959022420751962419324542322965938329208281289388076171875000000000000000,
+      "covered_denominator": 83584847716953889846933402568156422456420595402346860383308142690437533660478129615693414700810450955090296240597521032155026209881666737710389,
+      "covered_decimal": 1.5478187422199583e-05,
+      "omitted_decimal": 0.9999845218125778
+    },
+    {
+      "N": 34,
+      "m": 68,
+      "Z": 207228724107274899336420657477240030373435940531578621656736146253831120142374887944569521376081761712793459437938382527654505264613515263839859694121985,
+      "Z_g_le_1": 221221892764318544273818604185349149315040522781840286228363064277884969924401020613771071187734466125418946547117527346386865234375000000000000000,
+      "covered_numerator": 1488056319673887897446060634213494429186698434613663513458871047508727474014737972042989750026801642117639972738153078037109375000000000000000,
+      "covered_denominator": 1393930811605118214350524047201695290575696636946010302739287298650194195959875478051791083147222020736511347243388709700699594824696567879728649609,
+      "covered_decimal": 1.067525236751445e-06,
+      "omitted_decimal": 0.9999989324747632
+    },
+    {
+      "N": 35,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 35,
+      "m": 2,
+      "Z": 595,
+      "Z_g_le_1": 595,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 35,
+      "m": 16,
+      "Z": 93361619640441923461223231755,
+      "Z_g_le_1": 93341867728041025634120580000,
+      "covered_numerator": 156877088618556345603564000,
+      "covered_denominator": 156910285109986425985249129,
+      "covered_decimal": 0.9997884364851749,
+      "omitted_decimal": 0.00021156351482511977
+    },
+    {
+      "N": 35,
+      "m": 34,
+      "Z": 345315000732204546288203402804386644921430524345391051565698349177395,
+      "Z_g_le_1": 306888138321302434148385524472152179882838661593613408607315500000000,
+      "covered_numerator": 515778383733281401930059704995213747702249851417837661524900000000,
+      "covered_denominator": 580361345768411002165047735805691840204084914866203448009577057441,
+      "covered_decimal": 0.8887193943807192,
+      "omitted_decimal": 0.1112806056192808
+    },
+    {
+      "N": 35,
+      "m": 68,
+      "Z": 1062213603679135718125201917665720135441469960492865321046899134997784007843913948613427582180819302463710055628216407778111398502339404088886324119095355,
+      "Z_g_le_1": 8883084129066433720022772118162478254171778997853853896800792658744890954065441100663237411810349090074931299978142726294263508357725000000000000000,
+      "covered_numerator": 14929553158094846588273566585147022275918956298914040162690407829823346141286455631366785566067813596764590420131332313099602535055000000000000000,
+      "covered_denominator": 1785232947359891963235633475068437202422638589063639195036805268903838668645233527081390894421545046157495891812128416433800669751830931241825754822009,
+      "covered_decimal": 8.362803957978455e-06,
+      "omitted_decimal": 0.999991637196042
+    },
+    {
+      "N": 35,
+      "m": 70,
+      "Z": 179956004810825447843014784572209097303381132878846493715446306452104906807268874451869935052803345560391167733215956760156210809185665334120029883701257866595,
+      "Z_g_le_1": 99120883089711416937625656053007068702495756817392572029965792560032602640410077382132035606096278297547171913532831901618111358391995280000000000000000,
+      "covered_numerator": 166589719478506583088446480761356417987387826583853062235236626151315298555311054423751320346380299659743146073164423364064052703179824000000000000000,
+      "covered_denominator": 302447066908950332509268545499511087904842240132515115488145052860680515642468696557764596727400580773766668459186481949842371107875067788437025014623962801,
+      "covered_decimal": 5.508061995147644e-07,
+      "omitted_decimal": 0.9999994491938005
+    },
+    {
+      "N": 36,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 36,
+      "m": 2,
+      "Z": 630,
+      "Z_g_le_1": 630,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 36,
+      "m": 18,
+      "Z": 2111642157292684627588074568154880,
+      "Z_g_le_1": 2110675629853522747924341352920000,
+      "covered_numerator": 34898737266096606281817813375,
+      "covered_denominator": 34914718209204441593718164156,
+      "covered_decimal": 0.9995422863500694,
+      "omitted_decimal": 0.0004577136499306563
+    },
+    {
+      "N": 36,
+      "m": 36,
+      "Z": 38008835120715763810804256094793225778171729950196422774242119276739559680,
+      "Z_g_le_1": 32341920230979490251601284459549774134262847280195615567748102060000000000,
+      "covered_numerator": 133688493018268395550600547534514608689909256283877379165625421875000,
+      "covered_denominator": 157113240413011589826406481873318558937548486897306641758606643835729,
+      "covered_decimal": 0.8509053257818032,
+      "omitted_decimal": 0.1490946742181968
+    },
+    {
+      "N": 36,
+      "m": 70,
+      "Z": 914286087989597136923221877911627542305935954806324226507455443925025419269498488732415824520634874611753985257882861888077686859814087109730449104814456769280,
+      "Z_g_le_1": 4091166556336032820408143481507854720244195595452186498189903967759431684671156170600093264776839289160079070386198099529920500744297729190000000000000000,
+      "covered_numerator": 16911237418717066883300857645121753969263374650513337046089219443450031765340427292493771762470400500827046421900620451099208419081918523437500000000,
+      "covered_denominator": 3779291038316787106990831175229941891145568596256300539465341616753577295260823779482538957178550242277422227421804157936829062747247383886121234725588859,
+      "covered_decimal": 4.474711592005087e-06,
+      "omitted_decimal": 0.999995525288408
+    },
+    {
+      "N": 36,
+      "m": 72,
+      "Z": 171674860506832873753416749534989664230128228987013080047834764053182196146218460659284173010418532605963826551326422159084785020481680861264559990942681538031770880,
+      "Z_g_le_1": 48380138739846309605595830604081674094586558508697874739577254133952393109382041487034127823735422600304933999282299092500860071267594502950350000000000000000,
+      "covered_numerator": 199984039103200684546940437351528084055003962089524945186744602074869349823834496887541864350758195272424495698091514105906332966549249764179687500000000,
+      "covered_denominator": 709634840058006257247919764942913625289881898921185020038999520722479316080598795714633651663436394700577986736633689480343853424610122607740410015470740484589,
+      "covered_decimal": 2.8181259968416123e-07,
+      "omitted_decimal": 0.9999997181874003
+    },
+    {
+      "N": 37,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 37,
+      "m": 2,
+      "Z": 666,
+      "Z_g_le_1": 666,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 37,
+      "m": 18,
+      "Z": 3358184180236390917823567952801916,
+      "Z_g_le_1": 3356870514346331103961155836520000,
+      "covered_numerator": 2520173058818566894865732610000,
+      "covered_denominator": 2521159294471764953320996961563,
+      "covered_decimal": 0.9996088166045832,
+      "omitted_decimal": 0.00039118339541678793
+    },
+    {
+      "N": 37,
+      "m": 36,
+      "Z": 87568676941391479857426495843998312091082922218817364435602979333958689756,
+      "Z_g_le_1": 76133436601010332352151319483566579496108763168109743734528135170000000000,
+      "covered_numerator": 3008275509760168024030003140649856942315029364948227585527427500000000,
+      "covered_denominator": 3460118418736821552766970754069792638338980647179443829445352431403457,
+      "covered_decimal": 0.8694140331932318,
+      "omitted_decimal": 0.1305859668067681
+    },
+    {
+      "N": 37,
+      "m": 72,
+      "Z": 864781443016332558709568715307371210012750658924122080455347226491527762180666190070511808861832610455373717489830000271804381452345222346325008220432312721570723356,
+      "Z_g_le_1": 2051089661913332307884767326046719958038621424821036242375959617833529250273512313657740665056588108393031675993140593328218789833218916706921510000000000000000,
+      "covered_numerator": 81045110712554619404329355383543541885515308393434338642957152593390597845484128088262235856511305057413927453498521942793535239182034009282500000000000000,
+      "covered_denominator": 34170279872622592014760894393368547890499077719461122192798610182216206819213931961060210560369551543202691539822585754378235397990565131433736692762459013812657,
+      "covered_decimal": 2.3718011972588023e-06,
+      "omitted_decimal": 0.9999976281988028
+    },
+    {
+      "N": 37,
+      "m": 74,
+      "Z": 179453639204366523815906843093131187402536308893337451946881998662909626441815612480591954718168637290442175582923996647345877126589103295035966859683707076668728260510716,
+      "Z_g_le_1": 25662799881040813618112916824318933926641683909559109534590729701192062874877422985626530226771708716325677934808834086231730637292336969029949463360000000000000000,
+      "covered_numerator": 367559499342916761384019569452872382178260885457052759322900504638680062746953742364756302367170221469046329483930494866612381463426391207440000000000000000,
+      "covered_denominator": 2570253054498207173003366269905145440610158810392953744330619399703464072870812498601277241883631117005775290661495337134822745460263236914862382170842080562382139,
+      "covered_decimal": 1.4300517947042213e-07,
+      "omitted_decimal": 0.9999998569948205
+    },
+    {
+      "N": 38,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 38,
+      "m": 2,
+      "Z": 703,
+      "Z_g_le_1": 703,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 38,
+      "m": 18,
+      "Z": 5278179420170964461100771335220463,
+      "Z_g_le_1": 5276407737206337499029901618980000,
+      "covered_numerator": 577350666069191103953375820000,
+      "covered_denominator": 577544525677969631371131560917,
+      "covered_decimal": 0.9996643382455215,
+      "omitted_decimal": 0.0003356617544785122
+    },
+    {
+      "N": 38,
+      "m": 38,
+      "Z": 11518469283987153243161989022826629350660509385681102660164712829795437576377163,
+      "Z_g_le_1": 9544986125748988172005453416896652330420831843065539282410622062600990000000000,
+      "covered_numerator": 13577505157537678765299364746652421522646986974488676077397755423330000000000,
+      "covered_denominator": 16384735823594812579177793773579842604069003393571981024416376713791518600821,
+      "covered_decimal": 0.828667932380418,
+      "omitted_decimal": 0.171332067619582
+    },
+    {
+      "N": 38,
+      "m": 74,
+      "Z": 896516015515590283298519424860772950323725205490183180658263515632315593542614611266310197975201464553176754069912980783002486734209896633758363450312934560154559217059223,
+      "Z_g_le_1": 1116764177559090115564232047101923993715729293103843164018928020081239079695958609309383488281182183721338257120319168104637502026029227909851474426890000000000000000,
+      "covered_numerator": 2173145338736060066130949530548040143990537510929012778961628237942994124644543921223646728562526019465799800970861965632218189440271083493745730000000000000000,
+      "covered_denominator": 1744557749406180436975244700474170596454369305458885761546204201326571082973721399720000463083173860226110793628076235292176555691962911800235386452652467654073044811,
+      "covered_decimal": 1.2456711963107922e-06,
+      "omitted_decimal": 0.9999987543288037
+    },
+    {
+      "N": 38,
+      "m": 76,
+      "Z": 205042780524646197006372528242716643877486185160061452521305269369014552390205194657293189016945601327603148931605789201461229922918653203276708302211521358316243152046592072917,
+      "Z_g_le_1": 14760516166307170207380380440128462676389452330132915715658073889617168157548874157554495275898481616536731508946767925597309591607539001836275767503288250000000000000000,
+      "covered_numerator": 20996466808402802570953599488091696552474327638880392198660133555643197948149180878455896551775934020678138704049456508673271111817267427932113467287750000000000000000,
+      "covered_denominator": 291668251101914931730259641881531499114489594822278026346095689002865650626180931233702971574602562343674465052070823899660355509130374400109115650372007622071469633067698539,
+      "covered_decimal": 7.198749513901052e-08,
+      "omitted_decimal": 0.9999999280125048
+    },
+    {
+      "N": 39,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 39,
+      "m": 2,
+      "Z": 741,
+      "Z_g_le_1": 741,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 39,
+      "m": 18,
+      "Z": 8203840415064387580044342478371561,
+      "Z_g_le_1": 8201468491169400708504745401900000,
+      "covered_numerator": 1229789847228879998276315100000,
+      "covered_denominator": 1230145511330692394668517390669,
+      "covered_decimal": 0.9997108763975184,
+      "omitted_decimal": 0.00028912360248151603
+    },
+    {
+      "N": 39,
+      "m": 38,
+      "Z": 26397090196915907538417271271057767308474301683508477315116816552138302769214461,
+      "Z_g_le_1": 22398752771086082582959785739565805497148665767410417718996074412837500000000000,
+      "covered_numerator": 146027712720674389504715430509533438278007039497548147620046512500000000000,
+      "covered_denominator": 172094702920820588044731765215160132921788037340247069928460798843046038903,
+      "covered_decimal": 0.8485311299085166,
+      "omitted_decimal": 0.15146887009148338
+    },
+    {
+      "N": 39,
+      "m": 76,
+      "Z": 1016181987497620818686544043177355228453607296614389322173578082038959916074006490904948048547894817981871933510519157665628525213506734161470461444011146306508181132747011227915,
+      "Z_g_le_1": 658896762599702996324865463265396938801178108742200363198228877084447248538641898175601649590274440107150800512204726282723845969050316366463727282714843750000000000000000,
+      "covered_numerator": 19759986882582186124602353074385873108447386676929085715946285112743957071184342425419152784233751390227944234883932412137467265528574489922438964843750000000000000000,
+      "covered_denominator": 30474793447222096826706973854471591796479451090549987169697948179306040368091362750185876399696950606743797676128929604607243221277754810660382709372054170235662951949228107,
+      "covered_decimal": 6.484042924459391e-07,
+      "omitted_decimal": 0.9999993515957075
+    },
+    {
+      "N": 39,
+      "m": 78,
+      "Z": 255493725626784947336230704951093329213358785015215394641744306819204366235788034639537902262729259219930669039567049343191119337721714625120324519847543882507651220866273732782300261,
+      "Z_g_le_1": 9186209995031843904487335620421449785628825809423599345570175539091748589985372892008909861730920763918307912790176312751933392960266624789954031043945312500000000000000000000,
+      "covered_numerator": 59889103998590779560766790017546792007333253857390778524713147392489250001534503523824769124703663047835265783868100378467102120520426273347506835937500000000000000000000,
+      "covered_denominator": 1665680439846825006918648287997635583285146622694331296927016675593136095208772807601282392006684133726656555246318458169148098194251889828475193594291197314685411546390983152303,
+      "covered_decimal": 3.595473811537233e-08,
+      "omitted_decimal": 0.9999999640452619
+    },
+    {
+      "N": 40,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 40,
+      "m": 2,
+      "Z": 780,
+      "Z_g_le_1": 780,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 40,
+      "m": 20,
+      "Z": 260108152868302329026926797724897821120,
+      "Z_g_le_1": 259957043350027784165380220808282720000,
+      "covered_numerator": 1225287723180749359753866048304500,
+      "covered_denominator": 1225999966385286241642754514163357,
+      "covered_decimal": 0.9994190512038619,
+      "omitted_decimal": 0.000580948796138099
+    },
+    {
+      "N": 40,
+      "m": 40,
+      "Z": 4111024330435505568635234233067440124554092954635954944208180168288226497188431645120,
+      "Z_g_le_1": 3309470878610667863878050858616365619163531531243269807970044168319648818290000000000,
+      "covered_numerator": 265181961427136848067151511107080578458616308593210721792471487846125706593750000,
+      "covered_denominator": 329409000836178330820130948162455138185424114954804082067963154510274559069585869,
+      "covered_decimal": 0.8050234230212098,
+      "omitted_decimal": 0.19497657697879017
+    },
+    {
+      "N": 40,
+      "m": 78,
+      "Z": 1256426365877547104411391279479584920922043057183229354989960032521531010910679895686866812974428198687113183031546426110669508511885357466487406636864363459456190278753703828771039680,
+      "Z_g_le_1": 420380214407984769871374757404373725682507594525803741883181910890028261085666437988404559730817602331303227715404869906351503425022459131048164113836302268625000000000000000000,
+      "covered_numerator": 4812044578845979508600901527064717555889510010597570305439353375572667823782811790160308604977307718993855628610403730612997978766282728148445102035671958203125000000000000,
+      "covered_denominator": 14382169939074486085295229847522721164400676020870299393200091947361847652365841296781900331666989453836002553016786013171583201830189531438729471575828336303298881395990199505163,
+      "covered_decimal": 3.3458404393987027e-07,
+      "omitted_decimal": 0.9999996654159561
+    },
+    {
+      "N": 40,
+      "m": 80,
+      "Z": 346423734573032063372719619762476346253550025832639394504361613590718990778273396509547142824558671253475173174715562026045042445729810930388446579111573921009539288626346714867809963293120,
+      "Z_g_le_1": 6173514403186261397820470963453852490035827625645196401232124941246694777951200854729754977002749800177331584848584306313113971330567029206783239848439662110181605000000000000000000,
+      "covered_numerator": 494672628460437612004845429763930487983640034106185609073086934394767209771730837718730366747015208347542594939790409159704645138667229904389682680163434463956859375000000000000,
+      "covered_denominator": 27758312065146799949737149019429194411342149505820464303234103653102483235438573438264995418634508914541279901820157213625404042125786132242663988710863294952687442998905986768254003469,
+      "covered_decimal": 1.782070276101356e-08,
+      "omitted_decimal": 0.9999999821792972
+    },
+    {
+      "N": 41,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 41,
+      "m": 2,
+      "Z": 820,
+      "Z_g_le_1": 820,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 41,
+      "m": 20,
+      "Z": 412882673506457856181841117982872147320,
+      "Z_g_le_1": 412675447958616421456091617572449280000,
+      "covered_numerator": 251631370706473427717129035105152000,
+      "covered_denominator": 251757727747840156208439706087117163,
+      "covered_decimal": 0.9994981006442302,
+      "omitted_decimal": 0.0005018993557698747
+    },
+    {
+      "N": 41,
+      "m": 40,
+      "Z": 9373778804829029922952913767843037216430831882868454439186280091591169733808489543320,
+      "Z_g_le_1": 7744091297877396657317987367180127545639221464819010665786608616181341156890000000000,
+      "covered_numerator": 4722006888949632108120724004378126552219037478548177235235736961086183632250000000,
+      "covered_denominator": 5715718783432335318873727907221364156360263343212472219016024446092176666956396063,
+      "covered_decimal": 0.8261440193028582,
+      "omitted_decimal": 0.17385598069714187
+    },
+    {
+      "N": 41,
+      "m": 80,
+      "Z": 1690817705317807214826972697528084611679209456002747659922300382403773236817256781834782250746166358437834493526623736876381662263990097791704268398499681569799565697440852021257140711535320,
+      "Z_g_le_1": 289449253247575162906170788995742724277629846782156362768952847478417648184469865935538155318642982439739980604385416462910887063205467687615824175148107512333657805000000000000000000,
+      "covered_numerator": 7673628134877390320948324204553094493044269532930974622718792350965473175622212776657957458076431135730116134792826523406969434337366587688648573042102532140340875000000000000000,
+      "covered_denominator": 44825495899199555006017303752070111656394736373349619828268833043578293658994082233159656700587655313834424536760968634050415224389981383661300858920988376717910013187721421560369584081,
+      "covered_decimal": 1.7118891784562317e-07,
+      "omitted_decimal": 0.9999998288110822
+    },
+    {
+      "N": 41,
+      "m": 82,
+      "Z": 510061037123847617933881684670387165652427123671557304586327823135963219402978903608838002015652028198088674411634951981233280607558095800161719703606021182937296589038113721465779696825111324520,
+      "Z_g_le_1": 4471543686720800413909616642663700421003639968768275307515204161515075255650706133699036060257163049079638157525891428544438940494229704808380020205805017143471876356800000000000000000000,
+      "covered_numerator": 2726551028488292935310741855282744159148560956566021528972685464338460521738235447377461012351928688463193998491397212527096914935505917566085378174271351916751144120000000000000000000,
+      "covered_denominator": 311012827514541230447488832116089735153918977848510551577029160448758060611572502200510976838812212315907728299777409744654439394852497439122999819271964135937375968925679098454743717576287393,
+      "covered_decimal": 8.766683516810299e-09,
+      "omitted_decimal": 0.9999999912333165
+    },
+    {
+      "N": 42,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 42,
+      "m": 2,
+      "Z": 861,
+      "Z_g_le_1": 861,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 42,
+      "m": 20,
+      "Z": 648553510358787530347783449390407795121,
+      "Z_g_le_1": 648271358220189974588859280818933855000,
+      "covered_numerator": 250976135586600841884962942632185000,
+      "covered_denominator": 251085369864029241327055148815488887,
+      "covered_decimal": 0.9995649516437873,
+      "omitted_decimal": 0.00043504835621268294
+    },
+    {
+      "N": 42,
+      "m": 42,
+      "Z": 1714086995278472568576601954355500508314253463349463836157179405902583921608706714764852861,
+      "Z_g_le_1": 1337123254544479357013175914022254890073298466228870070038881397298273496337612290000000000,
+      "covered_numerator": 73951841963634719153430447100395713183634669887111889278186018323006111185090000000000,
+      "covered_denominator": 94800453253607243436568881939909325165325671331755092979214612350123550777540330444381,
+      "covered_decimal": 0.7800789914558851,
+      "omitted_decimal": 0.2199210085441149
+    },
+    {
+      "N": 42,
+      "m": 82,
+      "Z": 2471386430916282838492830510346301186399506183577148038113813465539249813242970841300779428983218401164152346989311125581799417352465767016958731951764865710137645120074368527898658312414769168861,
+      "Z_g_le_1": 214677753710406970967491010746085604420853373384590043334996067753145780622053313678881389848255512339773543027352975680730515345911762736605337482503070824961551009313705000000000000000000,
+      "covered_numerator": 83111790054358099484123503966738522811015630423766954446378655730989462106873137312768637184767910313501178098084775718439998198184964280528585939799872560960724355135000000000000000000,
+      "covered_denominator": 956789171860736677697572787590515364459739134176209073989087675392663497190464901781176704987695857980701644208018244514827494135681675190460213686320118354679692264837153901625496830203162667,
+      "covered_decimal": 8.686531212798388e-08,
+      "omitted_decimal": 0.9999999131346878
+    },
+    {
+      "N": 42,
+      "m": 84,
+      "Z": 813885191221170423737218016014490572903606374315668061581130064250526465002246604069408331231440159276915549388613780698463324329611858039914025910183592199709234707455467280673793249687847313972083121,
+      "Z_g_le_1": 3484332172209469909717137290762562979197394133432167149424584703676494254364444384758039249969853824887531934479849494567746112224730167975140957031588276949651815817596034905000000000000000000,
+      "covered_numerator": 192706828837424363127987240239066588086797972094030592855737221595956764247798483754108691442390012990848511392060698775938615796954270669495102982776852881458537460184505000000000000000000,
+      "covered_denominator": 45013284177931000704453183784884164200188395238961786493066205644075353409780797747326383011528132253576436557082781964408125896223209891041094292914307405547770295196917608576615964254623489517841,
+      "covered_decimal": 4.28111017351416e-09,
+      "omitted_decimal": 0.9999999957188899
+    },
+    {
+      "N": 43,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 43,
+      "m": 2,
+      "Z": 903,
+      "Z_g_le_1": 903,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 43,
+      "m": 20,
+      "Z": 1008597067034535969313816908048326065107,
+      "Z_g_le_1": 1008215505010380424100630291673714045000,
+      "covered_numerator": 1116517724263987180620853036183515000,
+      "covered_denominator": 1116940273570914694699686498392387669,
+      "covered_decimal": 0.999621690329442,
+      "omitted_decimal": 0.00037830967055794534
+    },
+    {
+      "N": 43,
+      "m": 42,
+      "Z": 3889526566306679183502515770096775370786891515228070237607254964622365069309651227073311903,
+      "Z_g_le_1": 3120741502561320113544458187868201907810543928661215733359439218099591307528561470000000000,
+      "covered_numerator": 3455970656214086504478912721891696464906471681795366260641682412070422267473490000000000,
+      "covered_denominator": 4307338390151361222040438283606617243396336118746478668446572496813250353609802023337001,
+      "covered_decimal": 0.8023448225280119,
+      "omitted_decimal": 0.19765517747198807
+    },
+    {
+      "N": 43,
+      "m": 84,
+      "Z": 3915641452952882617499124115716730346375805947951632574099911463079656979466430345117702093882204096687179183539599937774465675468551832711162619619545242011244486562494574188701736997307494556361683667,
+      "Z_g_le_1": 171200501741215637317431746102145826645022205584589016719698789267036455326429705294007678296208716840188041250374663228390942448679597138563301955820799382274625760463937565035000000000000000000,
+      "covered_numerator": 189590810344646331470024082062176995177211744833431912203431660317869828711439319262466974857373994285922526301633071127786204262103651316238429629923365871843439380358734845000000000000000000,
+      "covered_denominator": 4336258530401863363786405443761606142165898059747101410963357101970827219785637148524587036414400993009057789080398602186562209821209117066625270896506358816439077034877712279846884825368211025871189,
+      "covered_decimal": 4.372221098336496e-08,
+      "omitted_decimal": 0.999999956277789
+    },
+    {
+      "N": 43,
+      "m": 86,
+      "Z": 1404787987143131176866333661184637281386369535037723437899926897683464679504545346873366242812993841425613423617620488346518825655261982345607158418308770129899371021823588552713242464563884164859678650772943,
+      "Z_g_le_1": 2915845075890635777506446647958964178612468603069442623605167513126771131632894053387117027510332684960906231157906145074466337522010052615703069500721094320901348957175320498980400000000000000000000,
+      "covered_numerator": 3229064314386086132343794737496084361697085939168817966340163358944375561055253658236009997242893338827138683452830725442376896480631287503547142304231555172648226973616080286800000000000000000000,
+      "covered_denominator": 1555689908242670184791067177391624896330420304582196498228047505740270962906473252351457633236980998256493270894374848667241224424431874136885003785502513986599524941111393746083324988442839606710607586681,
+      "covered_decimal": 2.0756477864111647e-09,
+      "omitted_decimal": 0.9999999979243522
+    },
+    {
+      "N": 44,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 44,
+      "m": 2,
+      "Z": 946,
+      "Z_g_le_1": 946,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 44,
+      "m": 22,
+      "Z": 43341274280399429039418538015142917465036096,
+      "Z_g_le_1": 43310198347863696942690960312022391969250000,
+      "covered_numerator": 5722806335605668200672695601482874203125,
+      "covered_denominator": 5726912563477725824447481238787383385972,
+      "covered_decimal": 0.9992829944884711,
+      "omitted_decimal": 0.0007170055115288988
+    },
+    {
+      "N": 44,
+      "m": 44,
+      "Z": 828823308825876564812493831591375473685568007810736319196694103085824159249359646208177248726720,
+      "Z_g_le_1": 624897126677907206121453743921870025579230083058347542215488702843458326329077890250000000000000,
+      "covered_numerator": 4128548669912177630295016807094807251448401711537708392015649463817774354711138281250000000,
+      "covered_denominator": 5475841099536710919744277428589954239465961996635414371014099518273151157831393011417661527,
+      "covered_decimal": 0.7539569894132753,
+      "omitted_decimal": 0.24604301058672473
+    },
+    {
+      "N": 44,
+      "m": 86,
+      "Z": 6712108854876867158903482360054670901738055408758105161384632518188606206983347641693506042572622290120268923128917409130185065073766124099261940878530209262749983724430164554421931479669811517521902580704576,
+      "Z_g_le_1": 146548806727571952242360978970554625507155365557140535208097075979564270579745619344216455826665887737792743764137260009083026214108587163754090980364932694944139655740446081542968750000000000000000000,
+      "covered_numerator": 4841067875514401170796808237663670240061950500698352775108915036322815492195613746835903006959100414171271926669439085923725760244073307470735035027911360165966558395231437683105468750000000000000,
+      "covered_denominator": 221726640290594184688936388743877870696949504781914150415718568914792752609122213322327763034243601021414803221753349931626092265914578623786401323947218857781117327049093702247024692113828340298688642333,
+      "covered_decimal": 2.1833496728988967e-08,
+      "omitted_decimal": 0.9999999781665033
+    },
+    {
+      "N": 44,
+      "m": 88,
+      "Z": 2618081483718167776807166039781277045086291487875747186483283872630693765105357232145243624905620402658493710921161734912619471311446282529091666907491224195901250460362926644356159911473231674818197190242565799360,
+      "Z_g_le_1": 2616211934151387836833503208255488596970552386967259801164901878229945834235274419586355692170341393948559609038075499996424293089686712700548005951219121662694245431456500552185058593750000000000000000000,
+      "covered_numerator": 9450354454048512501898237493655080024474118771533430597988848178302565701500759505601394421832326559400923549351111973858825934417276480741000949695312605342305742429407310485839843750000000000000,
+      "covered_denominator": 9457107693663717511645700956421490695356421038555143359522772182226124346133807739824655310010164819680797911298275749525134574685585455959611773998095142752010892964343719709141075395991350284189151547719,
+      "covered_decimal": 9.992859085638066e-10,
+      "omitted_decimal": 0.9999999990007141
+    },
+    {
+      "N": 45,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 45,
+      "m": 2,
+      "Z": 990,
+      "Z_g_le_1": 990,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 45,
+      "m": 22,
+      "Z": 68684304242511716160454778355947270780157540,
+      "Z_g_le_1": 68641369283664641275403005978245002371050000,
+      "covered_numerator": 281848440846122367066613311892276432500,
+      "covered_denominator": 282024736152220235527858989718104914101,
+      "covered_decimal": 0.9993748941723938,
+      "omitted_decimal": 0.0006251058276062519
+    },
+    {
+      "N": 45,
+      "m": 44,
+      "Z": 1872026626265062757423678471148519308291556439335859231363603921151724063291349085016341257469460,
+      "Z_g_le_1": 1455019431051231331296915388420272002449575611560789265733373882564393237996124669555400000000000,
+      "covered_numerator": 244952766170240964864800570441123232735618789825048697934911428041143642760290348410000000000,
+      "covered_denominator": 315155997687721002933279203897057122608006134568326469926532646658539404594503212965714016409,
+      "covered_decimal": 0.7772429145167582,
+      "omitted_decimal": 0.22275708548324186
+    },
+    {
+      "N": 45,
+      "m": 88,
+      "Z": 12425749384346727140439202691070324163431344913470962485994563381480807776018323234135559862704430299088619095044849094417829797002106361263606158947692766217033905596669988637942913826872856449445443718022461699860,
+      "Z_g_le_1": 134433981312367550970311008911648712280617856710057967116399620513738212178893912749341380695293646986088229157645322361756812225891926081746323401971763882142953344524964332454254397778750000000000000000000,
+      "covered_numerator": 22631983385920463126314984665260725973167989345127603891649767763255591275908066119417740857793543263651217029906619926221685559914465670327663872385818835377601573152350897719571447437500000000000000000,
+      "covered_denominator": 2091877000731772245865185638227327300240967157149993684510869256141550130642815359282080784967075807927376952027752372797614443939748545667273764132608209800847458854658247245444934987689033072297212747141828569,
+      "covered_decimal": 1.0818983801630513e-08,
+      "omitted_decimal": 0.9999999891810162
+    },
+    {
+      "N": 45,
+      "m": 90,
+      "Z": 5259369977614699237582556434769504865457229813828168395349788260152446281122228862365312720214112511848181297983508737775614148822513671199540156849520140897853966110163921842304569348146505852925863800399110459191800740,
+      "Z_g_le_1": 2512802541395452776097996166882845466981069473786678335702508590922269534513983561271686068910138392853386086510307797361275391638076483441697558078451352362508209590068197851535141579895992000000000000000000000,
+      "covered_numerator": 423030730874655349511447166141893176259439305351292649108166429448193524328953461493549843250865049301916849580859898545669257851528027515437299339806624976853233937721918830224771309746800000000000000000000,
+      "covered_denominator": 885415821147255763902787278580724724824449463607435756792893646490310821737748966728167124615170456540097861613385309389834031788301964848407433813050528770682485877131973374125348375108839369179438350235540481345421,
+      "covered_decimal": 4.777763405294968e-10,
+      "omitted_decimal": 0.9999999995222236
+    },
+    {
+      "N": 46,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 46,
+      "m": 2,
+      "Z": 1035,
+      "Z_g_le_1": 1035,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 46,
+      "m": 22,
+      "Z": 107822254573648574416184162350115355944076135,
+      "Z_g_le_1": 107763327961674923392752113842689056693700000,
+      "covered_numerator": 104119157450893645790098660717573967820000,
+      "covered_denominator": 104176091375505869001144118212671841491861,
+      "covered_decimal": 0.9994534837709834,
+      "omitted_decimal": 0.0005465162290165328
+    },
+    {
+      "N": 46,
+      "m": 46,
+      "Z": 461685551095547364889559027786227725147490814860915794946585400944695009054553023020778281972182374735,
+      "Z_g_le_1": 335549782068642466360798510303880715454943012587461857577545190696173593987246782959846667000000000000,
+      "covered_numerator": 324202687989026537546665227346744652613471509746339959012120957194370622209900273391156200000000000,
+      "covered_denominator": 446072996227581995062375872257224855214966970880111879175444831830623197154157510165003170987615821,
+      "covered_decimal": 0.7267929032485562,
+      "omitted_decimal": 0.2732070967514439
+    },
+    {
+      "N": 46,
+      "m": 90,
+      "Z": 24799509881865382350177510831402428097301500407977488875178897427800791512114275696143070426906407409707573695277133603590405665723141270465706560797836857527596937854721961614557967886874315000706858612577482933212582835,
+      "Z_g_le_1": 131949472536237677955370617145066968827406685842635850869296587998544616100742471361157993292123421287282249034834861091545140029735480143629822193537289572416559611809613791565700737564382280250000000000000000000,
+      "covered_numerator": 127487413078490510101807359560451177611020952504962174752943563283617986570765672812713036997220696895924878294526435837241681188150222360994997288441825673832424745709771779290532113588775150000000000000000000,
+      "covered_denominator": 23960879112913412898722232687345341156813043872442018236887823601739895180786739803036783021165611023872051879494815075932759097317044705763967691592112905823765157347557450835321708103260207730151554215050708148031481,
+      "covered_decimal": 5.320648398488133e-09,
+      "omitted_decimal": 0.9999999946793516
+    },
+    {
+      "N": 46,
+      "m": 92,
+      "Z": 11369698173239309681847372966160587180361772405997648510294193925444180633418631321060406447256395939416769250607349616599358330684215255265576181939842599504382399165029843007338478834165447185466614556177063447231470231634885,
+      "Z_g_le_1": 2579672639596263327498638132559509045925906225415978138608758507111913350481818881798356437087808295994561988129258163221277202051329367516814272585563317449703719503396223793413419835439540798626250000000000000000000,
+      "covered_numerator": 2492437332943249591786123799574404875290730652575824288510877784649191642977602784346238103466481445405373901574162476542296813576163640112864031483636055506960115462218573713442917715400522510750000000000000000000,
+      "covered_denominator": 10985215626318173605649635716097185681508958846374539623472651135694860515380320116966576277542411535668376087543332962897930754284265947116498726511925216912446762478289703388732829791464200179194796672634843910368570272111,
+      "covered_decimal": 2.268901601687194e-10,
+      "omitted_decimal": 0.9999999997731098
+    },
+    {
+      "N": 47,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 47,
+      "m": 2,
+      "Z": 1081,
+      "Z_g_le_1": 1081,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 47,
+      "m": 22,
+      "Z": 167734585723889686552114307443499790396577081,
+      "Z_g_le_1": 167654222902685741857895232540377105456160000,
+      "covered_numerator": 155091788069089492930522879315797507360000,
+      "covered_denominator": 155166129254292031963102967107770388896001,
+      "covered_decimal": 0.9995208929580198,
+      "omitted_decimal": 0.0004791070419801858
+    },
+    {
+      "N": 47,
+      "m": 46,
+      "Z": 1038154125329143064384201744976250730397412556474384618913152107860993133904427710359747107742889749681,
+      "Z_g_le_1": 779615415227012930918158018749758348736242034461063468697305387418471437438686580013687936000000000000,
+      "covered_numerator": 721198348961159048027898259713004947952120290898301081126091940257605400035787770595456000000000000,
+      "covered_denominator": 960364593273952881021463223844820287139142050392585216385894641869558865776528871748147185701100601,
+      "covered_decimal": 0.7509630759111405,
+      "omitted_decimal": 0.2490369240888595
+    },
+    {
+      "N": 47,
+      "m": 92,
+      "Z": 53272513651576365156225521907643450540061878011796506202011381263890616730058972878480852076330361324226807477918874762495568425285154349902495617008257736648584767848100042117469035732494169706998815369839058281681333147084611,
+      "Z_g_le_1": 138366292116106156452001738953665352775661076551733587224854322778679507980736038291877740548569769721648655992879187838990653738197237104074648873367458396495705683342350688095008916456076049010059750000000000000000000,
+      "covered_numerator": 127998420088904862582795318181004026619482957032130978006340724124587888973853874460571452866392016393754538383792033153552871173170432103676825969812634964380856321315773069468093354723474605929750000000000000000000,
+      "covered_denominator": 49280771185547053798543498526959713728086843674187332286782036321822957197094331987493850209371287071440154928694611251152237211179606244128118054586732411330790719563459798443542123711835494641071984615947324959927227703131,
+      "covered_decimal": 2.597329891753884e-09,
+      "omitted_decimal": 0.9999999974026701
+    },
+    {
+      "N": 47,
+      "m": 94,
+      "Z": 26408644861794032460298413937258144439398996652527045962808058332564572748162895328857777010816977837138303158202370072538384156914796305652868284696547436543779364046906503757098830662673247029518463604083463763521502275513839995681,
+      "Z_g_le_1": 2826597225554181301785625693043394974443717719777260903761262491389493894471938117518261044121563614816399362157275742617820228629979586979593972011076224806247166908069673516594177064268617546628031236000000000000000000000,
+      "covered_numerator": 2614798543528382332826665765997590170623235633466476321703295551701659476847306306677392270232713797239962407176018263291230553774264187770207189649469218137138914808575091134684715138083827517694756000000000000000000000,
+      "covered_denominator": 24429828734314553617297330191728163218685473314086073971145289854361306890067433236686195199645677925197320220353718846011456204361513696256122372522245547219037339543854305048195032990447037030081834971400058985681315703528066601,
+      "covered_decimal": 1.0703302802346673e-10,
+      "omitted_decimal": 0.999999999892967
+    },
+    {
+      "N": 48,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 48,
+      "m": 2,
+      "Z": 1128,
+      "Z_g_le_1": 1128,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 48,
+      "m": 24,
+      "Z": 9503220247770583996617694656234250329804873113472,
+      "Z_g_le_1": 9494991299311388562244654546020243986502464280000,
+      "covered_numerator": 2851472045431210407370365128708341738051875,
+      "covered_denominator": 2853943307990070440468805454720639670245462,
+      "covered_decimal": 0.9991340884200673,
+      "omitted_decimal": 0.0008659115799326982
+    },
+    {
+      "N": 48,
+      "m": 48,
+      "Z": 294473994723628206443027647401861679691398035901199378558017227310716655328975987779968262064691977599631232,
+      "Z_g_le_1": 205758732876712365165405650826269758682026389452478988302013367139639831204280766534591260841481000000000000,
+      "covered_numerator": 1266737667926962452998212487848882970609402023323476829085484185010588007315558304611106560539062500000,
+      "covered_denominator": 1812906291393495163779474779611540088722653392811757403455090298159947887909869901127661187849019759651,
+      "covered_decimal": 0.6987331192685537,
+      "omitted_decimal": 0.3012668807314463
+    },
+    {
+      "N": 48,
+      "m": 94,
+      "Z": 122974950746737265577893264347830344254533284008214385535200391749876534845736088333796947633936878956969067985401893612984843862219625500930507156366084594051581309440509523234330785123678950079951414583390729430644190415474976856448,
+      "Z_g_le_1": 154795095272893594268246751090763002280490773757844565129700347030294974168354790849561197274147531629818573331096254815829040011219763174722710462368156125650078146247419049275001770013332204398655736926000000000000000000000,
+      "covered_numerator": 1057695881049321089884960798217011266980593465436933015566963912065290807858418239004378161122330228349690785869819359059642490821121090218924227862790769849139897546249689577433839231454725330898859375000000000000000,
+      "covered_denominator": 840272740216749699639653626884605551216222655428103164414771662119499853924947405525065532990777139183693841302284996227328266442059233918375946137345018004710621837747901727498479719826881608211889972907031827587513512803739,
+      "covered_decimal": 1.2587530576994403e-09,
+      "omitted_decimal": 0.9999999987412469
+    },
+    {
+      "N": 48,
+      "m": 96,
+      "Z": 65806906654303877704249257510875530472931141681094890843484843026007023198173491734349846103018816342890231182303045732243713875985143020561658735442833076134282838672962688115145606575883941506187938327879793597594817184070571041154580352,
+      "Z_g_le_1": 3301074406710642306743357645356335457255817196141291138331886103310010263490870457187798572543103088072101801075103728593517000512799214504962790332954557589519478862444239052377941034789416156679161797209430000000000000000000000,
+      "covered_numerator": 20322808354946330198134343265836383577471293809971502772433301955957017481105142196043874190695817868844204350590423861021947648941090514830592434575419606909472756984117901967456788285494337055993657636484375000000000000000,
+      "covered_denominator": 405135112873718711240699231129799118849310121657646835866607829898092883164484164046184533238640270038479063129820760270412935111216650786554735122653375419463423701444066982584377503052870995285337484780583835682592205871198846539811,
+      "covered_decimal": 5.016303872254337e-11,
+      "omitted_decimal": 0.999999999949837
+    },
+    {
+      "N": 49,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 49,
+      "m": 2,
+      "Z": 1176,
+      "Z_g_le_1": 1176,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 49,
+      "m": 24,
+      "Z": 15037854839450990292901095106895907207490625386320,
+      "Z_g_le_1": 15026413656258196865804297456650774441382355000000,
+      "covered_numerator": 182536609041037376892666392816457415468687500,
+      "covered_denominator": 182675593287791427270421466313118406310624701,
+      "covered_decimal": 0.9992391745155846,
+      "omitted_decimal": 0.0007608254844153774
+    },
+    {
+      "N": 49,
+      "m": 48,
+      "Z": 659326704801603372721604867397220582461972944692543093360306827942556635438313084605318577683971614159262160,
+      "Z_g_le_1": 477117404734452030721856040197145138007673747924448866570174660904306487282303747807256158730625000000000000,
+      "covered_numerator": 5795886840797522239089602043211189723125288483047240847548283052773402420824875459271819226562500000000,
+      "covered_denominator": 8009313712361557005850399263814632925922897773233030774542114042062155435353657490346435588969528840613,
+      "covered_decimal": 0.7236433793137811,
+      "omitted_decimal": 0.2763566206862189
+    },
+    {
+      "N": 49,
+      "m": 96,
+      "Z": 304597562986189682840477151114957941105181647127940883336464004191847308840975179052731522325262545680170778966795069331700602359753930453171875636990209292909958229381691636459134393408760392522416487299474438858572032434455077973150777040,
+      "Z_g_le_1": 184499307493827091743993740356421379383321304687541283073257119275901112715108941395936467873239892585102787431564529275340943186725853134120545689625256353369876266920242771722232947264846535400272692871093750000000000000000000000,
+      "covered_numerator": 42287645885781004580375190319512757252718637046303721114394154261304507195827819048521294688294160979037806313045393328231508697472782957927770524970491673856711101389937742203053190326027865348358154296875000000000000000000,
+      "covered_denominator": 69814429420895374433979947355684659292127740599946110745105158926932016071881286799038158114047010671693249300198734192314530126279849105463234968230331997751516912688104322858594714003511467563859509896830234258066091010335890765249,
+      "covered_decimal": 6.057149823690224e-10,
+      "omitted_decimal": 0.999999999394285
+    },
+    {
+      "N": 49,
+      "m": 98,
+      "Z": 175670291198712466825239698922073665896680002687360917930381342060021801858695908557656084945662962201604555566980822508510584491642377641580586711198683006396881418255389722046752864160015778941722782109424416361368705116846367188089732819011696,
+      "Z_g_le_1": 4103578126588976019605110862570831699748455718527836658291588132956011837142275876523875229923145223822489843556884239790890369445134527059457311063658672687442624856128785145819819037196472863339702117187500000000000000000000000000000,
+      "covered_numerator": 1744718591236809532145030128644061096831826410938706062198804478297624080417634301243144230409500520332691260015682074741024816940958557423238652663120183965749415329986728378324752992005303088154635253906250000000000000000000000000,
+      "covered_denominator": 74689749659316525010731164507684381758792518149388145378563495773818793307268668604445614347645817262586970904328580998516404970936385051692426322788555699998674072387495630121918734761911470638487577427476367500581932447638761559561961232573,
+      "covered_decimal": 2.3359545308359187e-11,
+      "omitted_decimal": 0.9999999999766405
+    },
+    {
+      "N": 50,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 50,
+      "m": 2,
+      "Z": 1225,
+      "Z_g_le_1": 1225,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 50,
+      "m": 24,
+      "Z": 23592181007113287455357651207315751978479113377025,
+      "Z_g_le_1": 23576371872644262021500496317956328906492931000000,
+      "covered_numerator": 1132118697365870925402184697140760091548280000,
+      "covered_denominator": 1132877839477228689332900418118403456349537257,
+      "covered_decimal": 0.9993298994075936,
+      "omitted_decimal": 0.0006701005924063916
+    },
+    {
+      "N": 50,
+      "m": 50,
+      "Z": 213867869665365770237488093912017530712012565579056820779235952315298190727614364998760242648915953566862763921225,
+      "Z_g_le_1": 143277044146056831234868295335081973844154927972616573256222698540153500847783332626759164365180341849000000000000,
+      "covered_numerator": 116960852364128025497851669661291407219718308549074753678549141665431429263496598062660542338922728040000000000,
+      "covered_denominator": 174586016053359812438765790948585739356744951493107608799376287604325053655195399998987953182788533523969603201,
+      "covered_decimal": 0.6699325353090166,
+      "omitted_decimal": 0.3300674646909833
+    },
+    {
+      "N": 50,
+      "m": 98,
+      "Z": 808356102250383949834429344141752848075650023572529687825209599947583782556096867311426969700356563287841736857513608949002607460914021940113922230744988294267832384362440719433116568760581653670968383830812200119909369392646496201004094849489225,
+      "Z_g_le_1": 233977401511115174797456494370681433243898597115773087968560046206510612660596975558653786529799627493526356093751161216799686050682031432670557386913517250904224089446909940008193343127100969781285306891323684683750000000000000000000000,
+      "covered_numerator": 191001960417236877385678770914841986321549875196549459566171466291029071559671000456043907371265002035531719260205029564734437592393495047078006030133483470125897215875028522455668035205796710025539026033733620150000000000000000000000,
+      "covered_denominator": 659882532449293020273003546238165590265836753936758928836905795875578598004977034539940383428862500643136111720419272611430699968093079134786875290404072076953332558663216913822952301029046247894668068433316081730538260728691017306942118244481,
+      "covered_decimal": 2.8944842608318917e-10,
+      "omitted_decimal": 0.9999999997105515
+    },
+    {
+      "N": 50,
+      "m": 100,
+      "Z": 501678387432022145664516309751789738298404352439244232148306474896684011690770130912378669557363450375097735969689286807055997708550488661117416015355320562573435619053792107933617445115963869408602630339565395708120506480493438562738206647555199721025,
+      "Z_g_le_1": 5422924121597307223243224377457092416547611813943091073086126989778662020082191281195568873471022828585588394852145498676255064908917725755144987137718273330983730305880893334485330410568124100132312567345652028323107750000000000000000000000,
+      "covered_numerator": 4426876833956985488361815818332320340038866786892319243335613869207071036801788800975974590588590064151500730491547345858167399925647123065424479296096549657945902290515014966926800335157652326638622503955634308835190000000000000000000000,
+      "covered_denominator": 409533377495528282175115354899420194529309675460607536447597122364640009543485821152962179230500775816406315077297376985351834864122847886626462053351282091896682138003095598313157098053848056660083779869032976088261637943259949847133229916371591609,
+      "covered_decimal": 1.080956297391248e-11,
+      "omitted_decimal": 0.9999999999891904
+    },
+    {
+      "N": 51,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 51,
+      "m": 2,
+      "Z": 1275,
+      "Z_g_le_1": 1275,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 51,
+      "m": 24,
+      "Z": 36707675525162492138019909343158794086941018049275,
+      "Z_g_le_1": 36685960166754843721369136869546742174592939000000,
+      "covered_numerator": 9591100697190808816044218789423984882246520000,
+      "covered_denominator": 9596777915075161343273178913244129173056475307,
+      "covered_decimal": 0.9994084245843144,
+      "omitted_decimal": 0.0005915754156855535
+    },
+    {
+      "N": 51,
+      "m": 50,
+      "Z": 476874771345753190445788687703264947841255214392797178800654879319335914278597899067854060747720752529084904563275,
+      "Z_g_le_1": 331634388785909138058380151551469386269689225923848165994280804881308309054586872665331859046918933843000000000000,
+      "covered_numerator": 86701800989780166812648405634371081377696529653293638168439426112760342236493300043224015437102989240000000000,
+      "covered_denominator": 124673142835491030181905539268827437344119010298770504261609118776296971053228208906628512613783203275577752827,
+      "covered_decimal": 0.6954328656347832,
+      "omitted_decimal": 0.3045671343652168
+    },
+    {
+      "N": 51,
+      "m": 100,
+      "Z": 2295310342148024400399708059553309702431885088717164202244127776684992810754748073281643353601730736388923773173954258959237449823042128763591073915209093841158758428342144647626736987264096175574407682581432213288433617918893787734780220954553556395275,
+      "Z_g_le_1": 315318003778671045455296115402224438231492886114783850491010301967321609521045243192481039197375621740684537850351474906830970048964785797739871978083639171044575060235926445992289844043392624623636280421393728726375817250000000000000000000000,
+      "covered_numerator": 82436079419260404040600291608424689733723630356806235422486353455508917521841893645093082143104737709982885712510189518125743803650924391565979602113369717920150342545340247318245710861017679640166347822586595745457730000000000000000000000,
+      "covered_denominator": 600081135202097882457440015569492732661930742148278222808922294558168055099280542034416563033132218663770921091229871623330052241318203598324463768682116036904250569501214286961238428042900960934485668648740447918544736710821905290138619857399622587,
+      "covered_decimal": 1.3737488913311237e-10,
+      "omitted_decimal": 0.9999999998626251
+    },
+    {
+      "N": 51,
+      "m": 102,
+      "Z": 1530648060041752053401215203956380748828905064860464028835449071045662184156689832995886367057987618416659559360638230984752365819473634967176895440229274399949885089168512114671464687836900121538359707743056334107807729102503447975761165447744705111279005275,
+      "Z_g_le_1": 7609169570121959593763412586028992329643474336595758187138182523788349599628796168943583482447207512128581262178286188257847247372924346345108828497295620562918674940508355712579823933524911719053772278803272460977239465700000000000000000000000000,
+      "covered_numerator": 153025029062281741453261188255987779379456497467989103813739216164672691797461964181871965458968476865330945443505001272153790796841113048669860804369947120420687278843808058573752115304673941056888331398758621638556852000000000000000000000000,
+      "covered_denominator": 30782263650915073974886178058449084943768829861447240398902947632894161571778578843557292449632732396514018287795640643232827869672672397529952648370623919556558775046123923874740365768464557497000697993827176150986580776319828013589968133690190148039799,
+      "covered_decimal": 4.971207796725265e-12,
+      "omitted_decimal": 0.9999999999950288
+    },
+    {
+      "N": 52,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 52,
+      "m": 2,
+      "Z": 1326,
+      "Z_g_le_1": 1326,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 52,
+      "m": 26,
+      "Z": 2679656594556376996724096802841978055557837921854696576,
+      "Z_g_le_1": 2676902487490878224016422291652164771812002591450000000,
+      "covered_numerator": 2867585449543738670660674503432406044121934765625,
+      "covered_denominator": 2870535739060975632374469528616886543129796896269,
+      "covered_decimal": 0.9989722164134414,
+      "omitted_decimal": 0.0010277835865586803
+    },
+    {
+      "N": 52,
+      "m": 52,
+      "Z": 175961462389094240335859920068182079519841065203911319611720344063163594423942001680336862286871404951608603414514811776,
+      "Z_g_le_1": 112712480399298181136493661653640238960238719253033281822672110399295322569964687114009849010483899909551832000000000000,
+      "covered_numerator": 1328154227932906546197370636001605379904773746854181771100491496975105139634764883979188454591863451045812500000000,
+      "covered_denominator": 2073452375437102190986282994770245092381234271350764984112466346898138131880915366708343494142055582480304998757009,
+      "covered_decimal": 0.640552078102551,
+      "omitted_decimal": 0.359447921897449
+    },
+    {
+      "N": 52,
+      "m": 102,
+      "Z": 6964059349024530242244126016156339110583719614826539953944936243780502336790039845643108945493465044544404461748789488471577408515150450793458119026952861994950186902790703996404933789175280275661421545367645427328205597761685406116846038150959253918805672576,
+      "Z_g_le_1": 451019228712565759713804329627886712901340196323950196503014233029658747282594787191658578721151841047571978174543655912428525979978317709748084015627567178023193123362207424535899497173857193078718711749206063265158802172323500000000000000000000000,
+      "covered_numerator": 5314611952212549016235439404551832495538039643711705746877524427668490140490605995376821487570133873580929229997922038937930406061207552198200462099683813843599089406134608603599871525898581177869517248175976424221799610816406250000000000000000,
+      "covered_denominator": 82061408241710622198389493968659727453145263183759190633778000610158634247620190488818685726497278522629200388254023949749922328845569980126533265306288437911837609619988499203489510147710221951138545736326892761691713774529664004959064363581250635355459,
+      "covered_decimal": 6.476384047125344e-11,
+      "omitted_decimal": 0.9999999999352361
+    },
+    {
+      "N": 52,
+      "m": 104,
+      "Z": 4983028268542953713284457696458225845700652704074382578132710760863265197869751961932319125986244838829879007580722292179112569718968195423169042921604424464568086565895483827165706360537103469818020807323118541972876844785923950286481044575739847104258227822779776,
+      "Z_g_le_1": 11323069228213103250216153589316396459073686061742902838261285044725030936742582832768227233098353662471786338726293290516252957085305880373925358531953411477711105934608345103138990133985769673241130416753926530800460103613292373500000000000000000000000,
+      "covered_numerator": 153187211082448649793693730990945632672892364417672217443787483418123971498756527804766240600999333281488192125517844699506689017891662797085390768972551144676232508037826350527684169514009876777262887409264244426801936297417968750000000000000000,
+      "covered_denominator": 67414248541476096518858588632853638905258512953127010079539308018287018368577296605375910513162585615878889137196705140585476638612435606069042444971513068367591517345500945325118370801225547961468826347226387396749459022136153312125645979548771207488518779,
+      "covered_decimal": 2.272326910062661e-12,
+      "omitted_decimal": 0.9999999999977277
+    },
+    {
+      "N": 53,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 53,
+      "m": 2,
+      "Z": 1378,
+      "Z_g_le_1": 1378,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 53,
+      "m": 26,
+      "Z": 4234633855173834376163621545782411846949855028803037068,
+      "Z_g_le_1": 4230783878850857062209189226464388701126374623110000000,
+      "covered_numerator": 1535117517725274696012042535001592416954417497500000,
+      "covered_denominator": 1536514461238691718491880096437740147659599067054803,
+      "covered_decimal": 0.9990908360782425,
+      "omitted_decimal": 0.000909163921757592
+    },
+    {
+      "N": 53,
+      "m": 52,
+      "Z": 390789890017627927912346794607276101467701573826775188591220060242081938707164499656661365529815740546481842793688500172,
+      "Z_g_le_1": 260457190466069275541620506836344305571166195219560441139324763547334379796713374695659657112317751747827828000000000000,
+      "covered_numerator": 94505511780141246568077106979805626114356384332206255856068491853169223438575244809745884293293814132013000000000000,
+      "covered_denominator": 141796041370692281535684613427894086163897523159207252754433984122671240459783925855102091991950558979129841362005987,
+      "covered_decimal": 0.6664890702631034,
+      "omitted_decimal": 0.3335109297368966
+    },
+    {
+      "N": 53,
+      "m": 104,
+      "Z": 22548025222482660682344968780259448368054205379673458885378948180135608809278245348942954270521134565104943004943039920954458939639923622981919375558271932388877482659992747818948640277669464034106150203496902246615527150775595763848683695019251720406674259057373452,
+      "Z_g_le_1": 683925764207833108063812923983548811398970274891728654732697623751137069531090960129184439321327484663630080170799038825434655378742376637592198409716040781217959430072845328147132735570064098909877959043176924266688623554840277515500000000000000000000000,
+      "covered_numerator": 248158840423742056626927766322042384397304163603675128712880124728279052805185399176046603527332178760388272921189781866993706596060368881564658348953570675333076716281874211954692574590008744161784455385768114755692533945878184875000000000000000000000,
+      "covered_denominator": 8181431503077888491416897235217506664751163055033911061458254056652978522960176106292799082191993673840690495262351204990732561552947613563831413482682123508300973388966889629516923177673970984799038535376234487160931477059359856258593503272587706969040006914867,
+      "covered_decimal": 3.03319584513277e-11,
+      "omitted_decimal": 0.999999999969668
+    },
+    {
+      "N": 53,
+      "m": 106,
+      "Z": 17288041398256426242874796185177002666121652092682243354039111621161192288266637751676711516821444931243290376260829475377983420260366187031130943950320413750205930317430328203541557331474528025679836057791910260070311096787172752857586237741518039037112038922376620873868,
+      "Z_g_le_1": 17849417696634612192691019712108079395365861413909396792146645714048525992883905173169584120063111352379066700964902738358582360049209158063906502141358437614269683864121007342500483996346809892936987686642457187655380741496332082436560000000000000000000000000,
+      "covered_numerator": 6476566653350730113458280011650246515009383677035339910067723408580742377679210875605799753288501942082389949551851501581488519611469215552941401357532089119836605175660742867380436863696230004694117447983475031805290544809989870260000000000000000000000000,
+      "covered_denominator": 6272874237393478317443685117988752781611629932032744322945976640479387622738257529635962088832164343702209860762274845928150733040771475700700632783135128356388218547688798332199403966427622650827226436063828105976165129458335541675466704550623381363248199899265827603,
+      "covered_decimal": 1.0324719432031672e-12,
+      "omitted_decimal": 0.9999999999989675
+    },
+    {
+      "N": 54,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 54,
+      "m": 2,
+      "Z": 1431,
+      "Z_g_le_1": 1431,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 54,
+      "m": 26,
+      "Z": 6639463774120906743561796186030161751061779497365804511,
+      "Z_g_le_1": 6634112965678252837005090005885201613528788230312500000,
+      "covered_numerator": 1545332626526497283252990916814628840794034062500000,
+      "covered_denominator": 1546579029611205856874399297933883473343065338310227,
+      "covered_decimal": 0.999194090272243,
+      "omitted_decimal": 0.0008059097277569493
+    },
+    {
+      "N": 54,
+      "m": 54,
+      "Z": 163233735070719319775977927478455772264535332342528180400467837856122240395549292500450646549526010050372342673026153150774771,
+      "Z_g_le_1": 99696013470162308497019466100027660535315561921638946952580045596390018906485831668658821064165490979969744687500000000000000,
+      "covered_numerator": 3317560595992223503278408908190331787139049014064056003213871272050514755132469191330032979407190808291562500000000000000,
+      "covered_denominator": 5431890288866238054506603024140819682025068461699383727678541075375935589349748510879859124472596920247989839706703708721,
+      "covered_decimal": 0.6107561860725055,
+      "omitted_decimal": 0.3892438139274945
+    },
+    {
+      "N": 54,
+      "m": 106,
+      "Z": 77811460861755015402620138425102440708463077738187337675934452697418847384819913470290631245960179701226826539187657473547086228539652818970207843607686338685595826689246729599419578611905657200477970860381251331653404575460554904616636911256432119687782193767890673308111,
+      "Z_g_le_1": 1098261924885983948013646293649220420096526712749328589271636430600545751249981214651036251279835050131480516539364180067727791068770990399704091830292882458471411308697234875880769193874118546620017511036027188976395293712031448364257812500000000000000000000000,
+      "covered_numerator": 93129308790538279271743606255781176619037612872160527260209700470779825476763140600031684504972118335855663692019032521234887676526860202210648435846782556891482261503346799594498167059922774243864578102823917006842124679565429687500000000000000000000000,
+      "covered_denominator": 6598177904409792611368354527502458112911018677147179654210959544746893897577605442329576169022808754647348091841898166574287654680497464864171569722732177659332984028168096606790626185252569726275982401603583328576510722067641959673487220478917484952373530904212441,
+      "covered_decimal": 1.4114397965580273e-11,
+      "omitted_decimal": 0.9999999999858856
+    },
+    {
+      "N": 54,
+      "m": 108,
+      "Z": 63843851473393694016469195780336259315016366239933539430748607667552538455818025020489905925607865424136329659997978635472998299923521533668438021370400498318017813311575114490864323343637785083112270643695433715001219239008190261695741651912035644985428876050298582292070979285,
+      "Z_g_le_1": 29774551193402701991190643205768762503612788075496325078575265281951119913743514817763643269760350322327242786356365159346818557050716625938559098244172713953716370817220294836277326854489599552292547982507536871318200278718600957107543945312500000000000000000000000,
+      "covered_numerator": 198160135725285028725770478225475109005442667967763635676518354011188445733875843185009771852919039781220210883873183317339313547307687770380746718872401676840813089862036503519199539812249838955725586386526484119118833175059738159179687500000000000000000000000,
+      "covered_denominator": 424903340809914438897003066655593885827535631026811350242911102243203477127669794818740846731275933740217161891437746733706021762493903921123676558985727585225235854457922295370299313458039899391782440808594946690634050374418090989955353578330409270809150284851077050960507,
+      "covered_decimal": 4.663652099029608e-13,
+      "omitted_decimal": 0.9999999999995336
+    },
+    {
+      "N": 55,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 55,
+      "m": 2,
+      "Z": 1485,
+      "Z_g_le_1": 1485,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 55,
+      "m": 26,
+      "Z": 10331129886547800168087132835343547788354302306801176585,
+      "Z_g_le_1": 10323734495507025416710876384358395741864942975087500000,
+      "covered_numerator": 408941750663776011753253174266523895498710357500000,
+      "covered_denominator": 409234695446535954370652914848229264739722808746333,
+      "covered_decimal": 0.9992841643535617,
+      "omitted_decimal": 0.0007158356464382773
+    },
+    {
+      "N": 55,
+      "m": 54,
+      "Z": 361127074328206036203329471016217883274090049116792236700811230354621909063674951719477259827785429479891784430698637074810885,
+      "Z_g_le_1": 230029084543617619121874702601914313595888416003820922693446526601947309759257286050402716027508453030383522016760000000000000,
+      "covered_numerator": 154901740433412538129208553940683039458510717847690857032623923637674956066839923266264455237379429650089913816000000000000,
+      "covered_denominator": 243183215035828980608302674084995207591979831055078947273273555794358187921666634154530141298172006383765511401143863350041,
+      "covered_decimal": 0.6369754607059963,
+      "omitted_decimal": 0.3630245392940037
+    },
+    {
+      "N": 55,
+      "m": 108,
+      "Z": 285858957334858857170284478695292406376918789406964066614194049331320682906956030940757788072415005696579677130010073602675221129368274180738719042735566573303650734910761580773577313548283770714563280173726004694827282495823698572776775266713910602542032119741695364427816826715,
+      "Z_g_le_1": 1865604412353874628960490178362433342244965939081701824359241627946112426650956484029738803557632602509921515166259694118643094113014164859678690810364008430470100888489290727776465894889300489416459773537116874218682714860715060826519964792687500000000000000000000000,
+      "covered_numerator": 1256299267578366753508747594856857469525229588607206615730129042387954496061250157595783706099415893946075094388053666073160332736036474652982283373982497259575825514134202510287182420800875750448794460294354797453658393845599367559946104237500000000000000000000000,
+      "covered_denominator": 192497614366908321326790894744304650758867871654521256979255252074963422832967024202530497018461283297360051939400722964764458672975268808578261981640112170574848979737886586379513342456756747955934868803855895417392109424797103416011296475901623301375105804539862198267890119,
+      "covered_decimal": 6.526310841358319e-12,
+      "omitted_decimal": 0.9999999999934737
+    },
+    {
+      "N": 55,
+      "m": 110,
+      "Z": 250679326544701523409045007928905029249506474940893190794086647776657065878529573403212415774246742025679175957599758422231109511181104286124258033618946776926418832213690479808351153971308912125717228074294389301954264221221091536482183035889320070231016585804802148437619472731471485,
+      "Z_g_le_1": 52501705318939462255519758822797545010653208052601366206302304184123182571714592551084270347324255982547862129696651302420690126354820445524685028472476866435001464824050645417643306918759936842247759592287175200756819726959673744911702379507436200000000000000000000000000,
+      "covered_numerator": 35354683716457550340417346008617875428049298351920111923435895073483624627417234041134188786076940055587785945923670910721003452090788178804501702675068596925926912339428044052285055164148105617675258984705168485358127762262406562230102612462920000000000000000000000000,
+      "covered_denominator": 168807627302829308692959601298925945622563282788480263161001109613910482073083887813611054393432149512241869331717009038539467684297039923315998675837674597256847698460397629500573167657447078872536853922083763839699841226411509452176554232922101057394623963504917271675164628102001,
+      "covered_decimal": 2.09437714879042e-13,
+      "omitted_decimal": 0.9999999999997906
+    },
+    {
+      "N": 56,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 56,
+      "m": 2,
+      "Z": 1540,
+      "Z_g_le_1": 1540,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 56,
+      "m": 28,
+      "Z": 952989813430970560587329745711199807997584056768571990949440,
+      "Z_g_le_1": 951843552541139492731130333357142202138462018567289700000000,
+      "covered_numerator": 821915198035662037796292426565645035004889142863437500,
+      "covered_denominator": 822904992255259188128047929081928543794542740370761943,
+      "covered_decimal": 0.9987971950238331,
+      "omitted_decimal": 0.0012028049761668275
+    },
+    {
+      "N": 56,
+      "m": 56,
+      "Z": 169989386167220364107208562086151681647356358068388386325857287964482032265312145784293541429796231350031259226152286089498935666240,
+      "Z_g_le_1": 98714590072386391782499990659610653868666080799230701739191346455827783478925715840147676424315980876754484538390406900000000000000,
+      "covered_numerator": 85239871228573493871321489585875460994634291930808494870122397810019846192772274661636222389054280254174568715797187500000000,
+      "covered_denominator": 146785529641493130100863983564306163345672456193344489435839741610667684672312919473864967385496883937233402896304474724974903,
+      "covered_decimal": 0.5807103154974617,
+      "omitted_decimal": 0.4192896845025383
+    },
+    {
+      "N": 56,
+      "m": 110,
+      "Z": 1116699782633724361709696616004605177163784436626890132700992290292854928301558015565279951964792092815077211450801770946367992953172154650768995728645808701515527798053173081566311872346274959377571253399435537338729978676506994515246644795084345596737802523727731308791936848964658240,
+      "Z_g_le_1": 3348888161561043431954424916631139866101572508092540981260580953612400546750044823496414563668330971626025715241798582060954981028236001830086361462934655125475217073725989888656208058356124459265510642197457615761337114785140434004371381031507563350000000000000000000000000,
+      "covered_numerator": 135912668894522866556591920317822234825550832308950526836874227013490281929790780174367474174851094627679615066631435960266030074197889684662595838593127237235195498121996342883774677693024531626035334504766948691612707580565764367060526827577417343750000000000000000000,
+      "covered_denominator": 45320608061433618575880544480706378943335407330636774866111700093054177284965828553785712336233445325287224490698123820875324389333285497190300151324911067431636680115794362076554864949118301922791041128223844859526379004728368283897996947852449090776696530995443640778893540948241,
+      "covered_decimal": 2.9989153876816623e-12,
+      "omitted_decimal": 0.9999999999970011
+    },
+    {
+      "N": 56,
+      "m": 112,
+      "Z": 1045363449931129127735151915942980239241769372486262453733082467339130781858596421630450383267965356956075421669369561666599047472584787285562573124510016063447342381121140349006014928225199424834026529541590294506165101113861427485609054189008104304865218500789884403353280749556503892747840,
+      "Z_g_le_1": 97762171149284677079966261285783228049322528346720333446626992259680589517832236957950201453375063092579774276517028607817340382733822576906997395397567235370595060261451892855757067288902164220634405473106580245686132074196782084736684708983516387660750000000000000000000000000,
+      "covered_numerator": 3967620582357332673699929435299643995508219494590922623645575984564958990171762863553173760283078859276776553430074212979599853195366176010835933254771397539391033289831651495769361497114535885577695027317637185295703412102142130062365450851603749499218750000000000000000000,
+      "covered_denominator": 42425464688763357456783762822361211008188692065189222959946528706945242770235244384352694126134957668671892113204933509196389913660096886589390143040179223354194090142903423255114242216931794839043284478148956757555401830919700790812055770657796440944205296298290763123103926524208761881,
+      "covered_decimal": 9.351979080168286e-14,
+      "omitted_decimal": 0.9999999999999065
+    },
+    {
+      "N": 57,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 57,
+      "m": 2,
+      "Z": 1596,
+      "Z_g_le_1": 1596,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 57,
+      "m": 28,
+      "Z": 1504175402901257465898098555104822121795365645456714943245416,
+      "Z_g_le_1": 1502565497843980029241803753240777695317124149679563800000000,
+      "covered_numerator": 328950761303148688729555315884220004789472841275000000,
+      "covered_denominator": 329303211492492908086537656839693162368571158297717333,
+      "covered_decimal": 0.9989297092252857,
+      "omitted_decimal": 0.001070290774714337
+    },
+    {
+      "N": 57,
+      "m": 56,
+      "Z": 374670753536513639380058629339153922069632277428932800883159212110158536320957943761604624216136306416227193376489518269325978689416,
+      "Z_g_le_1": 227447195742329992324016745545542622489132317912158288173831902549978721129679333832044118997885090898637165305318075300000000000000,
+      "covered_numerator": 2639088412493386154321181954255344640410427897430593708505429111551781318222400141929408231201674219096783223165762500000000000,
+      "covered_denominator": 4347335393304019764458120177053210828803864724646486597084832592014278013563514617116919894831248333985742056257420382777847149,
+      "covered_decimal": 0.6070588472557789,
+      "omitted_decimal": 0.39294115274422114
+    },
+    {
+      "N": 57,
+      "m": 112,
+      "Z": 4633601283646594727859994140389308255820157575631465823908970274428388493325834390752656514830081917452142157022347243829135871353210788173419507689592520069592562779713952676871838178667604179829452645779130824011234708103495774176859545794416442095586522564325593144928025113068071996534216,
+      "Z_g_le_1": 6346235709179845339462121013089161960310149042999190041524228706210717857848560036531423856224392683295364125268664343467502790593372762419108298962534809328517374406532681336479226345210944830625179848866155023079697517662096944907804150839023002109413150000000000000000000000000,
+      "covered_numerator": 73635891919379993263971514586108349117123236830492783364942781794889049682639005343583772582200787655427505398550361360200301570980376432042006624924983863925060039062154011608642280994279040548421747062867295821494680191939303639977306122238733432068750000000000000000000000,
+      "covered_denominator": 53764054623208423000324818300256523900261737394777056343508891144857380642878427443059692226284251339600646953290021858223520274682200735326969132200785761505529596905619983719389192642109952889509104309142425786819301820564092803500180379123926043065841949367929002424208961211687459349,
+      "covered_decimal": 1.3696119542217981e-12,
+      "omitted_decimal": 0.9999999999986304
+    },
+    {
+      "N": 57,
+      "m": 114,
+      "Z": 4624934390869434570207658313319527500397277974955539360242979868266645609308660095161953016802830481219486129163049812759884051366424489142029575400846399069914451291050222121599935765831259854566000393559105449974181497406263623905791123899442909491342277398038427789203571258636136052621221293496,
+      "Z_g_le_1": 192050457348707422511695951647633144944305193892990673814354061405297598894963162464235033551640162511187643029035606629578588962592024460597555729161851760903319370583648915330424127287538539811291203780764364327918485877520346010230205239890063065271066966400000000000000000000000000,
+      "covered_numerator": 2228377162219291544970017075647836546740754593578746331272092980196992468381174724591978018560755621822932830096486663761006555307157064659305157908217903101542274326831533873229649671488194326224023064382766689036462520624713937740534266683955990268159600000000000000000000000000,
+      "covered_denominator": 53663491957549366126051915823349200552275108778375793189489694934867789952991971771581186958168923248160750593649051015964495165766551670171140529574473209295396492284533348667965466511548081483407597623214348950781833024764035365100147636445777748669617068110535920695298097774948204453509019,
+      "covered_decimal": 4.152501227430475e-14,
+      "omitted_decimal": 0.9999999999999585
+    },
+    {
+      "N": 58,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 58,
+      "m": 2,
+      "Z": 1653,
+      "Z_g_le_1": 1653,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 58,
+      "m": 28,
+      "Z": 2356982965099624071505267763886510332159272863751066070999217,
+      "Z_g_le_1": 2354734143839137731119501146390312396516834398440464725000000,
+      "covered_numerator": 1424521563121075457422565726793897396561908287017825000000,
+      "covered_denominator": 1425882011554521519361928471800671707295385882487033315789,
+      "covered_decimal": 0.9990458898966241,
+      "omitted_decimal": 0.0009541101033758587
+    },
+    {
+      "N": 58,
+      "m": 58,
+      "Z": 197919375523664254067405905267538981832363275970813793928848590791011856749351295199905844099037166193782313788396957813662288052748605013,
+      "Z_g_le_1": 108970157776823774405090570587147773678118320118956365326138558986653444777541011884666176994629180670698894023124433033506900000000000000,
+      "covered_numerator": 1781693526541812174508110897257202689264700055900923224377275698347859661835826946659900541106737637885235591686277742900000000000000,
+      "covered_denominator": 3236038905898599664286161201869475349199052925406938963209375104903645407193330638804235445774875593822571798832539654578281716334733,
+      "covered_decimal": 0.5505785246568482,
+      "omitted_decimal": 0.4494214753431518
+    },
+    {
+      "N": 58,
+      "m": 114,
+      "Z": 20400308839878328160655812355345482129736157706382294966400790443989800534095042945145623358518493622764815332004740827064636108319472740462210626891368788110282183253752606970612733572470296424284753042110490551081565794336059604359619610091442769284788011120125287920727725143080379796531035702773,
+      "Z_g_le_1": 12683777467915382633870415380972903179448588504517584685784128580932952662311697544849917212839376416792077310007254522229392437734051057881998820578009642491646702258416202224033753971293537922177160666603963855712815519922021757634159187301393348001730136195350000000000000000000000000,
+      "covered_numerator": 7673186610959094152371697145174170102509732912593820136590519407702935669880034812371395773042574964786495650337117073339015388828827016262552220555359735324650152606422384890522537187715388942635910869088907353728261052584405177032159217968175044163176125950000000000000000000000000,
+      "covered_denominator": 12341384658123610502514103058285228148660712466050995139988378973980520589289197183996142382648816468702247629766933349706373931227751204151367590375903683067321344981096555941084533316678945205253934084761337296480076100626775320241754150085567313541916522153735806364626572984319648999716295041,
+      "covered_decimal": 6.217443847281986e-13,
+      "omitted_decimal": 0.9999999999993783
+    },
+    {
+      "N": 58,
+      "m": 116,
+      "Z": 21686500327152474178831550888845392500327180072205135212192464970792707112270779824631526322719247175472766904541299641491799697062290695383597717501200817372242894305206405499564309179310208718149348616517522191080493954158214885403951089872330379996585934190257451401317332820405007746653979992414348337,
+      "Z_g_le_1": 397648695404633307735329397885387827621462840746249302900256186374575608887336150572424830300815678240164708088006187399500093488860136035800165393867227079690096717247562318047808738404710303326683562318172860704904800184130501440440851747636542862533422507823429750000000000000000000000000,
+      "covered_numerator": 240561824201230071225244644818746417193867417269358319963857342029386333265176134647564930611503737592356145243802896188445307615765357553418127884977148868536053670446196199665946000244833819314388119974696225471811736348536298512063431184293129378423123114230750000000000000000000000000,
+      "covered_denominator": 13119479931731684318712371983572530248231808876107159837986972154139568730956309633775877993175588127932708351204657980333817118609976222252630198125348346867660553118697160011835637737029769339473290149133407254132180250549434292440381784556763690258067715783579825409145391905871148062101621290026829,
+      "covered_decimal": 1.8336231729688503e-14,
+      "omitted_decimal": 0.9999999999999817
+    },
+    {
+      "N": 59,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 59,
+      "m": 2,
+      "Z": 1711,
+      "Z_g_le_1": 1711,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 59,
+      "m": 28,
+      "Z": 3667430526260032090031480348323812198331908423597916020192835,
+      "Z_g_le_1": 3664305658583989702875356405522020921298590147503804375000000,
+      "covered_numerator": 428323279787725272106996657571247331536948000877125000000,
+      "covered_denominator": 428688547780249221511569882913362033703320680724478786697,
+      "covered_decimal": 0.9991479408665911,
+      "omitted_decimal": 0.0008520591334088776
+    },
+    {
+      "N": 59,
+      "m": 58,
+      "Z": 434654454339026402718351102203815740410287583998022267480533598500611135940451661854388521108330347347369330285412470783769334118008775031,
+      "Z_g_le_1": 250755121776960467565255862960167962716054538291643518392128849837874062063449019077070174600108116962341802309599848254687500000000000000,
+      "covered_numerator": 146554717578585895713182853863336038992433979130124791579268760863748721252746358315061469666924673852917476510578520312500000000000000,
+      "covered_denominator": 254035332752207131921888429108016212980881112798376544407091524547405690204822712948210707836546082610969801452608106828620300478088121,
+      "covered_decimal": 0.5769068262702626,
+      "omitted_decimal": 0.4230931737297375
+    },
+    {
+      "N": 59,
+      "m": 116,
+      "Z": 95201779993066150958002411116323208107291255761542225312804383991199561243118457817262999752543108993258173195794718996303585559575777362629907112532539190336743706513387883004223085575331624629407340774740568755313619822812574710122760918340892331542512018650828055684514600502670789366181204456817359715,
+      "Z_g_le_1": 26711289155704895791686156678089444019055441618090580093595068088257503814869724480479128801893281690431921316762176772889559471175147296196835674863620303139556645882538616567116286444271548141517419964018722961141348473911230266789554374641046248764583320617675781250000000000000000000000000,
+      "covered_numerator": 3122301479334295241576406391360542842671588733850447702348926719843074671521884801926257019508273721850604478873428027222625303468748953383616092912170695866692769828467401118306988479751203757044701340037255752325113790053913532061899985346703243572715759277343750000000000000000000000000,
+      "covered_denominator": 11128203389020005956516938762866535138198860989075654624524182816037353739698241708622209205440456924986344032237839742408367686683317049985962257455586112254441111223072809234859507372920119769656030482143842052053023941883410252498277138321553750034191936721312455369317896026028146039296458732532713,
+      "covered_decimal": 2.805755224077781e-13,
+      "omitted_decimal": 0.9999999999997194
+    },
+    {
+      "N": 59,
+      "m": 118,
+      "Z": 107668923756462021511824186069839898150276221654687933654957942865312212033615637020948463722005659970012858870425428951922196414772602173216964305374870773631059214755768311856839485465816246192550003770663400352368836259577495271759790616953201496165331433730496112918149143353425519276196567216293032838068231,
+      "Z_g_le_1": 867022050330371245972123238426702097030973516433752586529423206034284018306673867001439002585389254520790476455843020656788884478816333784313175590219014875518959022567471858693586522163825019831809470454152424646871438275963185059660492257684131714167321438598632812500000000000000000000000000000,
+      "covered_numerator": 29807888415112292294568819005971812047683622114131831626823777152483378083221847113880393391734769983868754992121670184508161188118964959752232117104514555489358098895295900529225651396287861238072316514393111171549882706224883455140113874159732241694479370117187500000000000000000000000000000,
+      "covered_denominator": 3701616658866917231471935437475157223167608266740741006461922606845402139568041978235928893388993707498637153038313643618186695595028781696873665396048776897963324328936236526862154414886933894610994732033671411708627093188623621265850401105414841550016551508594771303955345802366195182596918458977998172313,
+      "covered_decimal": 8.052667567212816e-15,
+      "omitted_decimal": 0.9999999999999919
+    },
+    {
+      "N": 60,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 60,
+      "m": 2,
+      "Z": 1770,
+      "Z_g_le_1": 1770,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 60,
+      "m": 30,
+      "Z": 420407867783191899368080209705093756549616756310193488522639843520,
+      "Z_g_le_1": 419822991640210905787993869561644718385629866230607794864350000000,
+      "covered_numerator": 107422160720188248635673531677731904114885231472254921718750,
+      "covered_denominator": 107571815837425258783693658833080978401502690859686780613547,
+      "covered_decimal": 0.99860878877918,
+      "omitted_decimal": 0.0013912112208200142
+    },
+    {
+      "N": 60,
+      "m": 60,
+      "Z": 256664788707052214620350056134656138307430998116268130836923381834743063122835240257747639728695479590747919568093011057892092525995583280489280,
+      "Z_g_le_1": 133599460168143210000577340457788459843518557486938655165483038772252582117498806878330467292378281706265217289465845426649590458400000000000000,
+      "covered_numerator": 786249177072405896896053086498284250491516934362868733318520708405441278940082432193564426155710226614084376703541934008060207500000000000,
+      "covered_denominator": 1510503700017962656664018691941243751809269056710617530819935156748723299922523777411415017235731400604684084087176383344468529460896794259,
+      "covered_decimal": 0.5205211857892542,
+      "omitted_decimal": 0.4794788142107458
+    },
+    {
+      "N": 60,
+      "m": 118,
+      "Z": 470449853543447889766137461399409766234094896744977026633451449419206375584195930702338436355772310543172643305488079501138244339248727069097746630748497767684354941675242577577756272349040682281500267408800127943987518532647253718533648407550056163064290710021878963646508113979256492554918154799349909790397120,
+      "Z_g_le_1": 59219628501717347741150643379829367347276030947553467313755878283539635303805237249691718618730776567631456976626767966049833491486742636809553187231461090051302834630543170222431280860674602874067013120054359017155755670394266579129145326298118092994785125896710696171762500000000000000000000000000,
+      "covered_numerator": 658818077201651524893629954403421774232865181830852318290514098078175288357706387012010084348942775780078615630381916254261245717841895984072046216249669476966174170148157903535070444144009533609800732648282378821611100324252073021899612119237231320185203644111303085937500000000000000000000,
+      "covered_denominator": 5233752317819837932919588773449373331630039809070353430341638024467940162480508237639890542906128076096442174338998175290965840249172379007865667806183202944879152979309762779256915656840188580698714967488315728517940595781838553609723250255764262277814831910467362864927742199812660562102817146903223109,
+      "covered_decimal": 1.2587872661809254e-13,
+      "omitted_decimal": 0.9999999999998741
+    },
+    {
+      "N": 60,
+      "m": 120,
+      "Z": 565449835649075315131374979162168077112126967997209907062089077531957653060810724064980584557596208196227376007446217841271050165300397378494193145779322451209451087534074115128956238304784880752985861375825222400973340214668892984613334281413315798673229665088362908962294318359968790961910052417342852595973228937280,
+      "Z_g_le_1": 1988964625089680291823484077832880850573117073421126262154269460162541856961283052498909206124504806089461742832014354536643780252048670594483092116074368996869663615676410553342953670265871136283815656710254325246431978522181202872128697919805231074048355344719237479292073472500000000000000000000000000,
+      "covered_numerator": 11705300288898777611955532473121944742073429104408699753732753414327576841815460525535011806288281580093348298211007265399268951577499238432692397104957444661426928058359289979654859170585399813346372744292927996977589327461047568691906178906575041631640509326266698912971242187500000000000000000000,
+      "covered_denominator": 3327741499818004444040577796387523994303948728797139283557492217113686752947332415636655982565891055768758097972258814979231698242116274590949818419134430621524547360723129208621446788516860173922939391336071224111189619907420509561048342051632037421570325241810045368186760348163658138900129781175511138158976159,
+      "covered_decimal": 3.5174908536432126e-15,
+      "omitted_decimal": 0.9999999999999964
+    },
+    {
+      "N": 61,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 61,
+      "m": 2,
+      "Z": 1830,
+      "Z_g_le_1": 1830,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 61,
+      "m": 30,
+      "Z": 662824066735720660837358571662468681107992367036708567816597300980,
+      "Z_g_le_1": 661999230920659059023856191665368921064250319748970217698550000000,
+      "covered_numerator": 25839158115560462881493215911997225646535921926189313727500000,
+      "covered_denominator": 25871353112245146793027266653492142119749897230160365644675929,
+      "covered_decimal": 0.9987555735277933,
+      "omitted_decimal": 0.0012444264722066558
+    },
+    {
+      "N": 61,
+      "m": 60,
+      "Z": 561690131640502188743494097917404527932019227037200207626506352899293787008995583758429610617041912265121826191784857680295185160067808415506180,
+      "Z_g_le_1": 307067744843348016690878757285570081324693641368422050859153550140264627012105737155278126310764729787308013957251482132732854971600000000000000,
+      "covered_numerator": 11985470134400781291603386310912181160214427844200704561247211168628595902111855470541691112832346986233724198175311558654678180000000000000,
+      "covered_denominator": 21923892726014917593422876577572385945824325801608126761378077786857680991764074307510913763350582055625364019975989761135643448870718517389,
+      "covered_decimal": 0.5466853119646407,
+      "omitted_decimal": 0.45331468803535935
+    },
+    {
+      "N": 61,
+      "m": 120,
+      "Z": 2459380794346111004080212635833725235523890243169662573038018864498820717820636018207195744243920412646655450438784764761895279111168550038105139454390793713021065738790818493843008477404684545825381315401382331230207806533045194064453934570618636137132806837294017096048286206507569437179599158965748844736090750898180,
+      "Z_g_le_1": 138097239748456835141194299547383956790116456518080691680616281150182470727287204542765380858418312325008665522906359191328493497983448025118860295060649457452903977069661755086885842070883660022420674238052321441706076164225215124136371065322151337507221546246956188008742176822500000000000000000000000000,
+      "covered_numerator": 5390212324295739076549348147829194254102906187278715522272298249421642104890210950146970369181042635636559934539670538303219886728471819871930534545692796934149257496864237122829267840393585480968800711867772109356209061835488490403449299973542206772334954966703988602995401125000000000000000000000000,
+      "covered_denominator": 95994566524048048558946629033322608724585879905139054373068652010102291874341764957345657464633895887847597597142262480948293485994088604141496465823215991921196945307994476730796583817513057994745562662036781078462443658588805388932628203380899146648431180222248910852782443657594435487103792309357878404999638989,
+      "covered_decimal": 5.615122313141975e-14,
+      "omitted_decimal": 0.9999999999999438
+    },
+    {
+      "N": 61,
+      "m": 122,
+      "Z": 3138341019050420354774611286195257878843215636874916911210975255323512878235079614604975955124546444986604452026104937279123070902730368610439058309504563159687919509295954641307686576846257112374068218411684832516549760716437928592313723932971487184373822290849494671189114259877541211205519329099736045316236271207137843380,
+      "Z_g_le_1": 4796483251956781847640861522828158452616360343963929852818713060173711878606812946890825056592810587311953089635065688948091594744817563409221219171224203156489979399668163575763303036344051816591482668064499182758491721276901088333600110149363047139484207342913299195898315719912400000000000000000000000000000,
+      "covered_numerator": 35419312154458586971207070763758369905600061615447717123162849358837039422587601143781015039084408413173483160796527019259279240472733447121704468846730196104637272187772585849677322672751822600734623158060103254751821896890423041896323365450916017866520509104366409658088286220000000000000000000000000000,
+      "covered_denominator": 23174870913088320445832309010450877852925828067308498827432988150373008995976071589166858330560821481218464421991618204690024153764070068013875781343262170725800616668852124068141238936983142167878217533685458813443728848888184378912374272138321423603410296048216619931982825726462422176971786509376281533866757282581139,
+      "covered_decimal": 1.5283499220897516e-15,
+      "omitted_decimal": 0.9999999999999984
+    },
+    {
+      "N": 62,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 62,
+      "m": 2,
+      "Z": 1891,
+      "Z_g_le_1": 1891,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 62,
+      "m": 30,
+      "Z": 1038016119795562006473606479118053716693061881059112196295126656791,
+      "Z_g_le_1": 1036858819581491491752826245869973628702698389162265911051700000000,
+      "covered_numerator": 548312437642248276971351795806437667214541718224360608700000000,
+      "covered_denominator": 548924441986019040969649116402989802587552554764205286248083901,
+      "covered_decimal": 0.998885084545413,
+      "omitted_decimal": 0.0011149154545870114
+    },
+    {
+      "N": 62,
+      "m": 62,
+      "Z": 369421477537459127888616063124959002482069074473088953810223159321444451884299271597737766010403846649041527676011619085841448477321929811729055462391,
+      "Z_g_le_1": 181272484577118066055091077979966819372666743486660599668063949145348607746431288626025817522831313207607741196165008202499110661890503600000000000000,
+      "covered_numerator": 95860647581765238527282431507121533248369510040539714261271258141379485852158270029627613708530572822637620939272875834214230915859600000000000000,
+      "covered_denominator": 195357735345033912156856722964018510038111620556895269069393526875433343143468678793092419889161209227414874498155271859249840548557339932167665501,
+      "covered_decimal": 0.4906928687131818,
+      "omitted_decimal": 0.5093071312868183
+    },
+    {
+      "N": 62,
+      "m": 122,
+      "Z": 13588778441464939648290310762809731949529519931842226125115794254339030744627651407289446780608670125457551372298517311928780040453073019531309393474164111388692278751945194087083887522046660541920155293755496050602136145938751426006422507517298295133282714287233171416681543907766571731662907411756772313857150242807706870891,
+      "Z_g_le_1": 338445830061399988262016715815741357853164449612433474117658455632590858808002837261968331268226811147686833518911073729555199786888361628354651638978990049666825165296371564513360294455358881421875406598744686154666735015294090005934862072923895384464180717959979068283761610230297647500000000000000000000000000,
+      "covered_numerator": 98501469918307816814990660745273823447557383630316030520161823110947537551656890301849339139464843650873204248759097194908768903271314030267245577122985322435656069577432819689407401934709377479302040048564394664605343160210006151414693554040238509052724246899029312234374281742500000000000000000000000000,
+      "covered_denominator": 3954885928527110472975954158434263377615987654012773225290085747637850858766928420982467651744532184418895685031962749113644663451756682955618754734623121773616496049544767159413078118506094692939138844037901647086563368392688078717868031002020198545927138657037833068054176594623424555635726456710994760354903682393153,
+      "covered_decimal": 2.4906273328341485e-14,
+      "omitted_decimal": 0.9999999999999751
+    },
+    {
+      "N": 62,
+      "m": 124,
+      "Z": 18391667278706232109720254584536871393843207025182204428506815460222827246050249888146965226594191025416827382486864521562926854727761663156419355428312776977684256089697612113453472245477596206452892041076652438734218071275086004387646499635510094439869290558867983089271392025691811775576295527311852604278663560784772222079067781,
+      "Z_g_le_1": 12149612129987365884942545804791821974329285411914736143399385591479711706983633069811128203851493671880902871716755262035040489754764779006131446169204789316817369863064159486082570345147265344898335027068506087182775896583681592553315698592171304720777978961421974055166719401492695316747500000000000000000000000000,
+      "covered_numerator": 6424966753034038014247776734421904798693434908468924454468210254616452515591556356325292545664459900518721772457300508744072178611721194609270992157168053578433299768939269955622723609279357665202715508761769480265878316543459329747919459858366633908396604421693270256566218615279056222500000000000000000000000000,
+      "covered_denominator": 9725894912060408307625729552901571334660606570693920903493820973147978448466552029691679125644733487793139810939642792999961319263755506692976919845749749855993789576783507199076399918285349659678948726111397376379808604587565311680405340896620885478513638582161810200566574312898895703636327618885167955726421766676241259692791,
+      "covered_decimal": 6.606041717628351e-16,
+      "omitted_decimal": 0.9999999999999993
+    },
+    {
+      "N": 63,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 63,
+      "m": 2,
+      "Z": 1953,
+      "Z_g_le_1": 1953,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 63,
+      "m": 30,
+      "Z": 1615005689343662937521309356886520714270436094454790865143364782233,
+      "Z_g_le_1": 1613389941504300311983056572141366662249870232868754833525900000000,
+      "covered_numerator": 39338500999787879745033442375377725654057743468382094300000000,
+      "covered_denominator": 39377896992262524992595258988284707635882186000897053742553941,
+      "covered_decimal": 0.9989995404660034,
+      "omitted_decimal": 0.0010004595339966043
+    },
+    {
+      "N": 63,
+      "m": 62,
+      "Z": 805696263035819201781782625528973831976956513656041754473929294550517047887096521619723826224720514592893356336722149624323437256225669903770667408953,
+      "Z_g_le_1": 416187405977746159135868763414781744065374211342365718201203820198613588849834685230434731874683945160843920938312050826362161452159036200000000000000,
+      "covered_numerator": 71033863454129742129351214100491849132168324175177627274484352312444715625505151942385173557720420747711882733966897222454712656111800000000000000,
+      "covered_denominator": 137514296473087421365724974488645473967734513339484853127484091918504360451800054893279369555337176069788932639822862199065273469231211794465039667,
+      "covered_decimal": 0.5165562074342692,
+      "omitted_decimal": 0.4834437925657308
+    },
+    {
+      "N": 63,
+      "m": 124,
+      "Z": 79284522398953472115553037424003061156138075880543880069600998256772098675261354624849648529374072252431463562639285083213969287120962991327619737420532135083840679521434591638262631225400463072627631773667902667504633564339801144173436482473925459852926836402337184652873425678106098922347888367380455565735510572508223216233592787,
+      "Z_g_le_1": 871016543356344260253900010523058748211641002299051872965839156384884569489908717145938094481059479751664322029642377432648133895131725117665940897446884377181145166371135740042117489705690940602441033614053413349081069174660794645114518318835282741041916965154284569214866416004135794269232500000000000000000000000000,
+      "covered_numerator": 148663004498437320405171532774032897800245946799633362854725918481803135260267744861911263778982672768674572799051438373894544102258358955054777418919079088100553877175479730336596260403770428503574165150034718100201582040392694085187663136855313661212138072222953502170142757467850451317500000000000000000000000000,
+      "covered_denominator": 13532091209925494472700637894521771830711397146363522797337599975554206976491099953038001114417831072270261744775436948833242752538140124821235660935404016911391138337845125727643391572862342220963924180520208681943101820163816546197889824624325902005961228264607814414212907608483717173979840991189700557387866627838918453018193,
+      "covered_decimal": 1.0985959390326621e-14,
+      "omitted_decimal": 0.999999999999989
+    },
+    {
+      "N": 63,
+      "m": 126,
+      "Z": 113705633362933391548079139992615353704426204621382880289566388601180761714647083551706252586890040861553005307318023269312504138179187049493156908510322999096613262634336324175622733624479374841888966088097625874743662419105325615087953924931145843097593385638559696695446457256387685506708622241529994670374200216937091478683970924630393,
+      "Z_g_le_1": 32299931502869499299721381167614495966500900400983707208010471424278827135446100074758369543663627415688612305702197317066383208263347192598218985811434382602044925435113984831900580483309207405564563439330117419119592684929059946923050292188317765114321547598038760952145354572268111703002035000000000000000000000000000000,
+      "covered_numerator": 71595772300289485373199586755451145128043437227184522885228123730787859138778835257907957219027287169896490260742596731117147352975325323895569665962753234788182295713585237567468808079276875415477051487732531412699726439131406110530475463851412445974605718359896442928617654651115304245000000000000000000000000000000,
+      "covered_denominator": 252039006175277886497361457437254603760728205073298001497455105368321711108555565644831577985007061755481089825882310640556329452477788748785101195209330520692138108392098124487408058253102397337183478604561360532566530831920977639214071646753126709485891137928682694168914196288954246229485157126520847426146920636997784468968754751,
+      "covered_decimal": 2.8406623794770463e-16,
+      "omitted_decimal": 0.9999999999999997
+    },
+    {
+      "N": 64,
+      "m": 0,
+      "Z": 1,
+      "Z_g_le_1": 1,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 64,
+      "m": 2,
+      "Z": 2016,
+      "Z_g_le_1": 2016,
+      "covered_numerator": 1,
+      "covered_denominator": 1,
+      "covered_decimal": 1.0,
+      "omitted_decimal": 0.0
+    },
+    {
+      "N": 64,
+      "m": 32,
+      "Z": 226760450533990826039073370832896865893873190289076495645145263543104000,
+      "Z_g_le_1": 226399157749347379447791665272915266598958179519483090175194425000000000,
+      "covered_numerator": 4319275750712518686046086410121246691829940848585986915735546875,
+      "covered_denominator": 4326168546512340240366937019858380378011927470411257929737966719,
+      "covered_decimal": 0.9984067204673802,
+      "omitted_decimal": 0.0015932795326197753
+    },
+    {
+      "N": 64,
+      "m": 64,
+      "Z": 588194744245621238617354044463442734538158297337129435726052494808875300563577406946104673714632986746357654974418950251758920378512265529757728818196984320,
+      "Z_g_le_1": 271299198552060332612877022429405451890516894359322040250877387381395519024752873877115418474614647255549124921615148636822411766749693906250000000000000000,
+      "covered_numerator": 73137508236299908507180874317796069458062913636376930278122139024056331690161553732400421215766974868322206295725270832476711246643615722656250000000,
+      "covered_denominator": 158566992388506415690064819612513677142144986126512205542090583702358118897617270247289260296603526879086238077558593817869791768706938386861016438653,
+      "covered_decimal": 0.461240433047409,
+      "omitted_decimal": 0.538759566952591
+    },
+    {
+      "N": 64,
+      "m": 126,
+      "Z": 488060221551393192286498966708061079028709347625851018182929284382754459557165804355300925129823672071104832770792867881449660288242452334411817898249291747397351365796545562808013756452241069668132820974049624178524508730511831255063787346015084723416608256281494537881320686820347073625294717154398927452114363189140970908969576750250496,
+      "Z_g_le_1": 2352102309799400314547880680650335494073377178112267818214276809100847736524402310249863258724814474472415341981784820584999978910399002167442904749885102362856136622193947570292063581051529462379957856124744332545889716923531503992149058894315967588537084459043192686451433990647331237792968750000000000000000000000000000000,
+      "covered_numerator": 5609218344111054626802600066416589147572728694750333434004590223168612009034460637615096675454094347318603436884216700494600834932079427482645816043491258305803897240808979057663842102248191063749517933752919749088755620715839400164427509954775182168939551995199921508822291835144162178039550781250000000000000000000000,
+      "covered_denominator": 1163910403196049851873709761113164584832659272993577863111762830964673142640524373176370109150411305877749238712399047717895442918771110763917071834576493216282603035801438403369233050147476604634397943791136351921466033106570110402987130232216986996853556777228075725640359543890098141849088821052729432454103621005849766552602203407,
+      "covered_decimal": 4.8192870591313324e-15,
+      "omitted_decimal": 0.9999999999999952
+    },
+    {
+      "N": 64,
+      "m": 128,
+      "Z": 741002368734704083875498010599923094056433011732670491931577392063819960228227832084172217164865084753066356352186891094273411359155889298580787607235219886396854551958690791865631962866752577242426573716916876301036649402795082861569237722436829657565110731674748844334585361745195679708141952769069801979883822493656595819191437528738266165760,
+      "Z_g_le_1": 90054931124228183845751281464293562067076218396349822088210588900681189789091692509631725646663450480749433939840298558823497208608183447944303114368458563812161808002774225547130133399944190917246121652526784544570469218383465366582780609737681695104124139951435055824621362991176082115173339843750000000000000000000000000000000,
+      "covered_numerator": 42952023773384168882474474141623531968805430782752318990485056519326727425352799006806950953269731799807994667582559981123844440918890914961225157570426283869506356838930014474173026079796336479913634029936843971578558654982956237877165660169452884188093397031171329281431892452293232083320617675781250000000000000000000000,
+      "covered_denominator": 353423748824168232922913810000726445196329847628906484628537751861940991409220386944908146923107965484330336324875463166911540063699962463074627788859899594778719547446719890808928553717735318052897289814616184133202003874196372701832092167676296196564556018999326944222463256326882860056157448474258719656156432431727237780063071165645159,
+      "covered_decimal": 1.2153123245476415e-16,
+      "omitted_decimal": 0.9999999999999999
+    }
+  ],
+  "seconds": 5.3885197199415416
+}

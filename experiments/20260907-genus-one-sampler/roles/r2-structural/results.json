@@ -1,0 +1,303 @@
+{
+  "boundaries": [
+    {
+      "connected": 1,
+      "length": 0,
+      "n": 1,
+      "total": 1
+    },
+    {
+      "connected": 0,
+      "length": 2,
+      "n": 1,
+      "total": 0
+    },
+    {
+      "connected": 0,
+      "length": 0,
+      "n": 2,
+      "total": 1
+    },
+    {
+      "connected": 1,
+      "length": 2,
+      "n": 2,
+      "total": 1
+    },
+    {
+      "connected": 0,
+      "length": 3,
+      "n": 2,
+      "total": 0
+    },
+    {
+      "connected": 1,
+      "length": 4,
+      "n": 2,
+      "total": 1
+    },
+    {
+      "connected": 0,
+      "length": 0,
+      "n": 3,
+      "total": 1
+    },
+    {
+      "connected": 0,
+      "length": 2,
+      "n": 3,
+      "total": 3
+    },
+    {
+      "connected": 0,
+      "length": 3,
+      "n": 3,
+      "total": 0
+    },
+    {
+      "connected": 24,
+      "length": 4,
+      "n": 3,
+      "total": 27
+    },
+    {
+      "connected": 0,
+      "length": 4,
+      "n": 4,
+      "total": 120
+    },
+    {
+      "connected": 2880,
+      "length": 6,
+      "n": 4,
+      "total": 3936
+    }
+  ],
+  "command": "experiments/20260907-genus-one-sampler/roles/r2-structural/audit.py --max-n 4 --samples 30 --output experiments/20260907-genus-one-sampler/roles/r2-structural/results.json",
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "cut_cases": [
+    {
+      "acceptance": "1",
+      "cut_count": 1,
+      "ell_histogram": {
+        "1": 1
+      },
+      "full_macro_multiplicity_failures": 0,
+      "full_word_law": "uniform by exact macro fibers and terminal-branch multiplicities",
+      "j_histogram": {
+        "2": 1
+      },
+      "macros": 1,
+      "n": 2,
+      "numeric_code_info": {
+        "numeric_codes": 1,
+        "total_weight": "1/2"
+      },
+      "unmarked": 0,
+      "words": 1
+    },
+    {
+      "acceptance": "5/7",
+      "cut_count": 336,
+      "ell_histogram": {
+        "1": 156,
+        "2": 72,
+        "3": 12
+      },
+      "full_macro_multiplicity_failures": 0,
+      "full_word_law": "uniform by exact macro fibers and terminal-branch multiplicities",
+      "j_histogram": {
+        "2": 72,
+        "3": 192,
+        "4": 72
+      },
+      "macros": 9,
+      "n": 3,
+      "numeric_code_info": {
+        "numeric_codes": 4,
+        "total_weight": "56"
+      },
+      "unmarked": 24,
+      "words": 240
+    },
+    {
+      "acceptance": "91/163",
+      "cut_count": 234720,
+      "ell_histogram": {
+        "1": 63456,
+        "2": 40128,
+        "3": 19968,
+        "4": 6336,
+        "5": 1152
+      },
+      "full_macro_multiplicity_failures": 0,
+      "full_word_law": "uniform by exact macro fibers and terminal-branch multiplicities",
+      "j_histogram": {
+        "2": 17280,
+        "3": 54720,
+        "4": 90720,
+        "5": 54720,
+        "6": 17280
+      },
+      "macros": 101,
+      "n": 4,
+      "numeric_code_info": {
+        "numeric_codes": 15,
+        "total_weight": "9780"
+      },
+      "unmarked": 41472,
+      "words": 131040
+    }
+  ],
+  "dependencies": {},
+  "dirty": "?? experiments/20260907-genus-one-sampler/\n?? notes/genus-one-sampler-blind-brief.md\n?? notes/genus-one-sampler-goal-run.md\n?? notes/genus-one-sampler-run.log\n?? notes/genus-one-sampler-run.log.genus-one-sampler-20260907.cap-status.json\n?? notes/genus-one-sampler-runbook.md\n",
+  "elapsed_seconds": 4.762435674667358,
+  "exact_seed": null,
+  "genus_zero_cases": [
+    {
+      "complete_words": 2,
+      "endpoints": 2,
+      "n": 2,
+      "terminal_branches": 2
+    },
+    {
+      "complete_words": 54,
+      "endpoints": 6,
+      "n": 3,
+      "terminal_branches": 21
+    },
+    {
+      "complete_words": 6792,
+      "endpoints": 24,
+      "n": 4,
+      "terminal_branches": 192
+    }
+  ],
+  "python": "3.12.3",
+  "smoke": [
+    {
+      "max_proposals": 1,
+      "n": 2,
+      "output_sha256": "77617cd68fb8f8061a37ce40601c02eed60345a20bd087fdb1a02ba589ce0818",
+      "samples": 30,
+      "seed": 1729,
+      "total_proposals": 30
+    },
+    {
+      "max_proposals": 1,
+      "n": 2,
+      "output_sha256": "77617cd68fb8f8061a37ce40601c02eed60345a20bd087fdb1a02ba589ce0818",
+      "samples": 30,
+      "seed": 2718,
+      "total_proposals": 30
+    },
+    {
+      "max_proposals": 4,
+      "n": 3,
+      "output_sha256": "0b3233bdbc09f2c7efdad1aafac2b74b856f85143a97c8372960a032e0b1b312",
+      "samples": 30,
+      "seed": 1729,
+      "total_proposals": 42
+    },
+    {
+      "max_proposals": 4,
+      "n": 3,
+      "output_sha256": "4e0f36ef4fe8df6b4686cad224aaf52d152a6f9f45402bc3b7f885fe7e936893",
+      "samples": 30,
+      "seed": 2718,
+      "total_proposals": 38
+    },
+    {
+      "max_proposals": 5,
+      "n": 4,
+      "output_sha256": "b93a53e63456ba83081b151e55018e194e8e4349df42db76be6306066878cbb2",
+      "samples": 30,
+      "seed": 1729,
+      "total_proposals": 49
+    },
+    {
+      "max_proposals": 6,
+      "n": 4,
+      "output_sha256": "03060c9241e08c5b8a12923ddbec0e3b8c3aa934706f1ccd87a4570ae9d458c9",
+      "samples": 30,
+      "seed": 2718,
+      "total_proposals": 48
+    }
+  ],
+  "stochastic_seeds": [
+    1729,
+    2718
+  ],
+  "zero_fiber_regressions": [
+    {
+      "cuts": [
+        3
+      ],
+      "n": 3,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 4,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 5,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 6,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 7,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 8,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 9,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 10,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 11,
+      "zero_square_fiber": true
+    },
+    {
+      "cuts": [
+        3
+      ],
+      "n": 12,
+      "zero_square_fiber": true
+    }
+  ]
+}

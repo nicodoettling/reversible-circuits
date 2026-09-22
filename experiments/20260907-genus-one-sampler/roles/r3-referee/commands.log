@@ -1,0 +1,21 @@
+# Working directory: /home/nico/projects/research_projects/reversible_circuits
+# Date: 2026-09-07; all computational commands supervised with 60-second limits.
+# Interpreter: Python 3.12.3; standard library only.
+# Exact reference computations use no random seed. Prototype support tests use
+# independent deterministic PRNG instances with seeds 17, 101, and 20260907.
+
+git rev-parse HEAD
+git status --short
+python3 --version
+
+timeout 60s python3 experiments/20260907-genus-one-sampler/roles/r3-referee/check.py --mode allocation --max-n 8 --output experiments/20260907-genus-one-sampler/roles/r3-referee/allocation-results.json
+timeout 60s python3 experiments/20260907-genus-one-sampler/roles/r3-referee/check.py --mode counts --max-n 5 --output experiments/20260907-genus-one-sampler/roles/r3-referee/count-results.json
+timeout 60s python3 experiments/20260907-genus-one-sampler/roles/r3-referee/check.py --mode laws --max-n 3 --output experiments/20260907-genus-one-sampler/roles/r3-referee/law-results.json
+timeout 60s python3 experiments/20260907-genus-one-sampler/roles/r3-referee/check.py --mode samples --max-n 8 --samples 3 --output experiments/20260907-genus-one-sampler/roles/r3-referee/sample-results.json
+
+# The laws command was rerun after adding explicit zero-support checks and the
+# connected simple-support-graph histogram. The final saved file is that run.
+# Initial `python --version` failed because only python3 is installed.
+# `command -v pdftotext` was not reached after that failure; a Python shutil.which
+# probe subsequently returned null. No installation or escalation was attempted.
+# Primary-source URLs and exact checked sections are in source-checks.md.

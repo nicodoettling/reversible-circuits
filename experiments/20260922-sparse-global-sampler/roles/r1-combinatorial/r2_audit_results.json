@@ -1,0 +1,672 @@
+{
+  "claim_version": "R2-A.v1",
+  "reviewed_proof_sha256": "518a5392f305aa7a7838a52ef8c28a2cacbb2e6bb52d285be7f0a8c01aa7a8d3",
+  "utc": "2026-09-22T05:57:39.948950+00:00",
+  "command": "python3 -B experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/audit_r2_check.py",
+  "script_sha256": "3e7089dc2b9f532b212d6190ff2aa91a64687e609745ea85277d8a6aa2735702",
+  "imported_own_checker_sha256": "67d6c2aab66f43040bdd78de5e86754feb59686ea463bbc9c4f2ddb0186d1906",
+  "methods": "independently written DYZ integer recurrence and exact fractions; decimal checks are boundary regressions only",
+  "domains": {
+    "sharper_majorant": "2<=v<=13, all feasible ell<=24",
+    "falling_factorial_ratio": "2<=N<=40, even0<=m<=min(N,24), all p",
+    "size2_high_genus": "0<=g<=200",
+    "unbalanced_split_B_equality": "2<=v<=1000"
+  },
+  "counts": {
+    "sharper_majorants": 78,
+    "falling_factorial_ratios": 2273,
+    "zero_residual_branches": 3796,
+    "size2_genus": 201,
+    "unbalanced_splits": 999
+  },
+  "majorants": [
+    {
+      "v": 2,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 2,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 2,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "4",
+        "denominator": "5"
+      }
+    },
+    {
+      "v": 2,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "18",
+        "denominator": "35"
+      }
+    },
+    {
+      "v": 2,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "48",
+        "denominator": "175"
+      }
+    },
+    {
+      "v": 2,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "48",
+        "denominator": "385"
+      }
+    },
+    {
+      "v": 2,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "1728",
+        "denominator": "35035"
+      }
+    },
+    {
+      "v": 2,
+      "g": 7,
+      "actual_over_bound": {
+        "numerator": "432",
+        "denominator": "25025"
+      }
+    },
+    {
+      "v": 2,
+      "g": 8,
+      "actual_over_bound": {
+        "numerator": "2304",
+        "denominator": "425425"
+      }
+    },
+    {
+      "v": 2,
+      "g": 9,
+      "actual_over_bound": {
+        "numerator": "62208",
+        "denominator": "40415375"
+      }
+    },
+    {
+      "v": 2,
+      "g": 10,
+      "actual_over_bound": {
+        "numerator": "248832",
+        "denominator": "622396775"
+      }
+    },
+    {
+      "v": 2,
+      "g": 11,
+      "actual_over_bound": {
+        "numerator": "124416",
+        "denominator": "1301375075"
+      }
+    },
+    {
+      "v": 3,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 3,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "4",
+        "denominator": "5"
+      }
+    },
+    {
+      "v": 3,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "78",
+        "denominator": "125"
+      }
+    },
+    {
+      "v": 3,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "1968",
+        "denominator": "4375"
+      }
+    },
+    {
+      "v": 3,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "32208",
+        "denominator": "109375"
+      }
+    },
+    {
+      "v": 3,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "42048",
+        "denominator": "240625"
+      }
+    },
+    {
+      "v": 3,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "258280272",
+        "denominator": "2737109375"
+      }
+    },
+    {
+      "v": 3,
+      "g": 7,
+      "actual_over_bound": {
+        "numerator": "18231552",
+        "denominator": "391015625"
+      }
+    },
+    {
+      "v": 3,
+      "g": 8,
+      "actual_over_bound": {
+        "numerator": "193598208",
+        "denominator": "9130859375"
+      }
+    },
+    {
+      "v": 3,
+      "g": 9,
+      "actual_over_bound": {
+        "numerator": "17926106112",
+        "denominator": "2009287109375"
+      }
+    },
+    {
+      "v": 3,
+      "g": 10,
+      "actual_over_bound": {
+        "numerator": "21219053870592",
+        "denominator": "6078093505859375"
+      }
+    },
+    {
+      "v": 4,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 4,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "39",
+        "denominator": "56"
+      }
+    },
+    {
+      "v": 4,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "123",
+        "denominator": "245"
+      }
+    },
+    {
+      "v": 4,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "34221",
+        "denominator": "96040"
+      }
+    },
+    {
+      "v": 4,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "20367",
+        "denominator": "84035"
+      }
+    },
+    {
+      "v": 4,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "16142517",
+        "denominator": "103531120"
+      }
+    },
+    {
+      "v": 4,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "388916037",
+        "denominator": "4121832715"
+      }
+    },
+    {
+      "v": 4,
+      "g": 7,
+      "actual_over_bound": {
+        "numerator": "194354451",
+        "denominator": "3623589200"
+      }
+    },
+    {
+      "v": 4,
+      "g": 8,
+      "actual_over_bound": {
+        "numerator": "1277935299",
+        "denominator": "44590735735"
+      }
+    },
+    {
+      "v": 4,
+      "g": 9,
+      "actual_over_bound": {
+        "numerator": "52674643495161",
+        "denominator": "3653229797297080"
+      }
+    },
+    {
+      "v": 5,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 5,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "236",
+        "denominator": "375"
+      }
+    },
+    {
+      "v": 5,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "19",
+        "denominator": "45"
+      }
+    },
+    {
+      "v": 5,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "56722",
+        "denominator": "196875"
+      }
+    },
+    {
+      "v": 5,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "382777",
+        "denominator": "1968750"
+      }
+    },
+    {
+      "v": 5,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "62191964",
+        "denominator": "487265625"
+      }
+    },
+    {
+      "v": 5,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "1022880049",
+        "denominator": "12668906250"
+      }
+    },
+    {
+      "v": 5,
+      "g": 7,
+      "actual_over_bound": {
+        "numerator": "12922577953",
+        "denominator": "263935546875"
+      }
+    },
+    {
+      "v": 5,
+      "g": 8,
+      "actual_over_bound": {
+        "numerator": "382138274807",
+        "denominator": "13460712890625"
+      }
+    },
+    {
+      "v": 6,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 6,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "115",
+        "denominator": "198"
+      }
+    },
+    {
+      "v": 6,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "302",
+        "denominator": "825"
+      }
+    },
+    {
+      "v": 6,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "55753",
+        "denominator": "232925"
+      }
+    },
+    {
+      "v": 6,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "13791376",
+        "denominator": "87346875"
+      }
+    },
+    {
+      "v": 6,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "114316204",
+        "denominator": "1107225625"
+      }
+    },
+    {
+      "v": 6,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "64187609414352",
+        "denominator": "969791244296875"
+      }
+    },
+    {
+      "v": 6,
+      "g": 7,
+      "actual_over_bound": {
+        "numerator": "1144510354656",
+        "denominator": "27708321265625"
+      }
+    },
+    {
+      "v": 7,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 7,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "9132",
+        "denominator": "16807"
+      }
+    },
+    {
+      "v": 7,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "657786",
+        "denominator": "2028845"
+      }
+    },
+    {
+      "v": 7,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "262910112",
+        "denominator": "1292374265"
+      }
+    },
+    {
+      "v": 7,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "537334841304",
+        "denominator": "4116212034025"
+      }
+    },
+    {
+      "v": 7,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "9906221997792",
+        "denominator": "117723664173115"
+      }
+    },
+    {
+      "v": 7,
+      "g": 6,
+      "actual_over_bound": {
+        "numerator": "10499304623361984",
+        "denominator": "194973932603513063"
+      }
+    },
+    {
+      "v": 8,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 8,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "42037",
+        "denominator": "81920"
+      }
+    },
+    {
+      "v": 8,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "261361",
+        "denominator": "896000"
+      }
+    },
+    {
+      "v": 8,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "1236853713",
+        "denominator": "7024640000"
+      }
+    },
+    {
+      "v": 8,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "8434978257",
+        "denominator": "76832000000"
+      }
+    },
+    {
+      "v": 8,
+      "g": 5,
+      "actual_over_bound": {
+        "numerator": "2103418646289",
+        "denominator": "30290247680000"
+      }
+    },
+    {
+      "v": 9,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 9,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "1469756",
+        "denominator": "3011499"
+      }
+    },
+    {
+      "v": 9,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "15108833",
+        "denominator": "56883870"
+      }
+    },
+    {
+      "v": 9,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "3140437471",
+        "denominator": "20307541590"
+      }
+    },
+    {
+      "v": 9,
+      "g": 4,
+      "actual_over_bound": {
+        "numerator": "465909559267",
+        "denominator": "4971286181232"
+      }
+    },
+    {
+      "v": 10,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 10,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "1385529",
+        "denominator": "2968750"
+      }
+    },
+    {
+      "v": 10,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "275438",
+        "denominator": "1128125"
+      }
+    },
+    {
+      "v": 10,
+      "g": 3,
+      "actual_over_bound": {
+        "numerator": "38670327764",
+        "denominator": "281326171875"
+      }
+    },
+    {
+      "v": 11,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 11,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "7398318500",
+        "denominator": "16505633837"
+      }
+    },
+    {
+      "v": 11,
+      "g": 2,
+      "actual_over_bound": {
+        "numerator": "59388660638",
+        "denominator": "262589629225"
+      }
+    },
+    {
+      "v": 12,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    },
+    {
+      "v": 12,
+      "g": 1,
+      "actual_over_bound": {
+        "numerator": "9889819",
+        "denominator": "22892544"
+      }
+    },
+    {
+      "v": 13,
+      "g": 0,
+      "actual_over_bound": {
+        "numerator": "1",
+        "denominator": "1"
+      }
+    }
+  ],
+  "constant_boundary_regressions": [
+    {
+      "N": "2^145",
+      "L": "100.5063411811920698654986576114356023709475194822370118474986013765420751856057337628501824144807097",
+      "prefactor_slack": "34.35891320387495631759367108131435678009759195931109133371604669275934503023902874497162017731254074"
+    },
+    {
+      "N": "2^160",
+      "L": "110.9035488895912495067571394333082508920800214976408406593088015189429795151511544969381323194269900",
+      "prefactor_slack": "50.27464044679820695806400035701928450055292589123950725219816013195976627348924734359280310445508124"
+    },
+    {
+      "N": "2^256",
+      "L": "177.4456782233459992108114230932932014273280343962253450548940824303087672242418471951010117110831840",
+      "prefactor_slack": "200.4831885406296457345198942255065106732530307282982747367084089058113226152945311808985131545383304"
+    },
+    {
+      "N": "2^1024",
+      "L": "709.7827128933839968432456923731728057093121375849013802195763297212350688969673887804040468443327360",
+      "prefactor_slack": "4084.355045340731834830493695990575240757317136558198401969186390460921736308719513938682347897850769"
+    }
+  ],
+  "passed": true,
+  "elapsed_seconds": 0.1178642000304535
+}

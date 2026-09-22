@@ -1,0 +1,10 @@
+Working directory: /home/nico/projects/research_projects/reversible_circuits
+Python 3.12.3; standard library only.
+
+timeout 60s python3 -B experiments/20260907-genus-one-sampler/roles/r3-referee/global_check.py
+timeout 60s python3 -B experiments/20260907-genus-one-sampler/roles/r3-referee/candidate_check.py
+
+Working directory for the copied candidate rerun: experiments/20260907-genus-one-sampler/roles/r3-referee/candidate-review-input
+timeout 60s python3 -B audit.py --forced-max 10 --endpoint-max 6 --word-max 4 --output ../candidate-author-audit-rerun.json
+
+Exact source URLs and checks are preserved in source-checks.md, global_audit.md, and candidate_audit.md. Snapshot construction used Python pathlib read_bytes/write_bytes and SHA-256 verification; full copies are in global-review-input/ and candidate-review-input/.

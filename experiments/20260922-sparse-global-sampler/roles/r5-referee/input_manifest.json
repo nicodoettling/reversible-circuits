@@ -1,0 +1,16 @@
+{
+  "role": "r5-referee",
+  "phase": "blind",
+  "entry_utc": "2026-09-22T05:45:27.435050+00:00",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "git_commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "ultra",
+  "observed_model": "not exposed by runtime to this worker; parent launch manifest requests gpt-6-astra ultra",
+  "input_sha256": {
+    "notes/sparse-global-sampler-blind-brief.md": "601bf5519d98531f848778a8207aeab5bba264d126c0feadd93f8a6204a8427c",
+    "experiments/20260922-sparse-global-sampler/tmux-run.json": "691c7795b391ffa7624afe0d6c34cb726417a1e2c31fe51565df6e2a00e2aca8",
+    "notes/sparse-global-sampler-run.log.sparse-global-sampler-20260922.cap-status.json": "61f0f73a59193a0d9c4162be618c6305d69863e0f39c1905738091f139ecba1c"
+  },
+  "isolation": "Only blind brief read as mathematical intake. Parent task operational assignment and inherited AGENTS research framing visible in context; no current candidate proof, historical verdict, or other worker file read."
+}

@@ -1,0 +1,262 @@
+{
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "elapsed_seconds": 0.1656770589761436,
+  "results": [
+    {
+      "test": "endpoint_and_branch_counts",
+      "n": 1,
+      "endpoints_checked": 1,
+      "last_edge_branches_checked": 0,
+      "by_length": [
+        {
+          "length": 0,
+          "identity_count": 1,
+          "connected_identity_count": 1,
+          "dp_states": 1
+        },
+        {
+          "length": 1,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 0
+        },
+        {
+          "length": 2,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 0
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "test": "endpoint_and_branch_counts",
+      "n": 2,
+      "endpoints_checked": 4,
+      "last_edge_branches_checked": 4,
+      "by_length": [
+        {
+          "length": 0,
+          "identity_count": 1,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 1,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 2,
+          "identity_count": 1,
+          "connected_identity_count": 1,
+          "dp_states": 1
+        },
+        {
+          "length": 3,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 4,
+          "identity_count": 1,
+          "connected_identity_count": 1,
+          "dp_states": 1
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "test": "endpoint_and_branch_counts",
+      "n": 3,
+      "endpoints_checked": 12,
+      "last_edge_branches_checked": 45,
+      "by_length": [
+        {
+          "length": 0,
+          "identity_count": 1,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 1,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 3
+        },
+        {
+          "length": 2,
+          "identity_count": 3,
+          "connected_identity_count": 0,
+          "dp_states": 5
+        },
+        {
+          "length": 3,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 6
+        },
+        {
+          "length": 4,
+          "identity_count": 27,
+          "connected_identity_count": 24,
+          "dp_states": 6
+        },
+        {
+          "length": 5,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 6
+        },
+        {
+          "length": 6,
+          "identity_count": 243,
+          "connected_identity_count": 240,
+          "dp_states": 6
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "test": "endpoint_and_branch_counts",
+      "n": 4,
+      "endpoints_checked": 48,
+      "last_edge_branches_checked": 360,
+      "by_length": [
+        {
+          "length": 0,
+          "identity_count": 1,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 1,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 6
+        },
+        {
+          "length": 2,
+          "identity_count": 6,
+          "connected_identity_count": 0,
+          "dp_states": 17
+        },
+        {
+          "length": 3,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 30
+        },
+        {
+          "length": 4,
+          "identity_count": 120,
+          "connected_identity_count": 0,
+          "dp_states": 35
+        },
+        {
+          "length": 5,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 36
+        },
+        {
+          "length": 6,
+          "identity_count": 3936,
+          "connected_identity_count": 2880,
+          "dp_states": 36
+        },
+        {
+          "length": 7,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 36
+        },
+        {
+          "length": 8,
+          "identity_count": 140160,
+          "connected_identity_count": 131040,
+          "dp_states": 36
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "test": "endpoint_and_branch_counts",
+      "n": 5,
+      "endpoints_checked": 240,
+      "last_edge_branches_checked": 3000,
+      "by_length": [
+        {
+          "length": 0,
+          "identity_count": 1,
+          "connected_identity_count": 0,
+          "dp_states": 1
+        },
+        {
+          "length": 1,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 10
+        },
+        {
+          "length": 2,
+          "identity_count": 10,
+          "connected_identity_count": 0,
+          "dp_states": 45
+        },
+        {
+          "length": 3,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 120
+        },
+        {
+          "length": 4,
+          "identity_count": 340,
+          "connected_identity_count": 0,
+          "dp_states": 199
+        },
+        {
+          "length": 5,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 240
+        },
+        {
+          "length": 6,
+          "identity_count": 20860,
+          "connected_identity_count": 0,
+          "dp_states": 249
+        },
+        {
+          "length": 7,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 250
+        },
+        {
+          "length": 8,
+          "identity_count": 1770940,
+          "connected_identity_count": 1008000,
+          "dp_states": 250
+        },
+        {
+          "length": 9,
+          "identity_count": 0,
+          "connected_identity_count": 0,
+          "dp_states": 250
+        },
+        {
+          "length": 10,
+          "identity_count": 169271260,
+          "connected_identity_count": 142732800,
+          "dp_states": 250
+        }
+      ],
+      "result": "pass"
+    }
+  ]
+}

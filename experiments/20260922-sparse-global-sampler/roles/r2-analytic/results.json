@@ -1,0 +1,153 @@
+{
+  "claim_version": "R2-A.v1",
+  "status": "exact_finite_checks_only",
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "python": "3.12.3",
+  "dependencies": "standard library",
+  "seed": null,
+  "method": "deterministic exact rational/integer checks",
+  "command": "python3 -B experiments/20260922-sparse-global-sampler/roles/r2-analytic/verify.py",
+  "elapsed_seconds": 0.15223953500390053,
+  "checks": [
+    {
+      "check": "factorial_majorant",
+      "v": [
+        1,
+        12
+      ],
+      "g": [
+        0,
+        12
+      ],
+      "cells": 156,
+      "passed": true
+    },
+    {
+      "check": "matching_incidence_ratio",
+      "N": [
+        2,
+        12
+      ],
+      "k": "0..floor(N/2)",
+      "p": "0..k",
+      "cells": 138,
+      "passed": true
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 3,
+      "m": 4,
+      "words": 27,
+      "profiles": 2,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 3,
+        "2,4": 3,
+        "3,4": 24
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 4,
+      "m": 4,
+      "words": 120,
+      "profiles": 3,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 108,
+        "2,2": 36,
+        "2,4": 6,
+        "3,4": 96
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 4,
+      "m": 6,
+      "words": 3936,
+      "profiles": 4,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 972,
+        "2,2": 90,
+        "2,4": 90,
+        "2,6": 6,
+        "3,6": 960,
+        "4,6": 2880
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 2,
+      "m": 0,
+      "words": 1,
+      "profiles": 1,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 2
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 2,
+      "m": 2,
+      "words": 1,
+      "profiles": 1,
+      "passed": true,
+      "marked_counts": {
+        "2,2": 1
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 2,
+      "m": 12,
+      "words": 1,
+      "profiles": 1,
+      "passed": true,
+      "marked_counts": {
+        "2,12": 1
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 1,
+      "m": 0,
+      "words": 1,
+      "profiles": 1,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 1
+      }
+    },
+    {
+      "check": "raw_word_marked_identity",
+      "N": 3,
+      "m": 6,
+      "words": 243,
+      "profiles": 2,
+      "passed": true,
+      "marked_counts": {
+        "1,0": 3,
+        "2,6": 3,
+        "3,6": 240
+      }
+    },
+    {
+      "check": "coefficient_and_B_inequalities",
+      "r": [
+        0,
+        100
+      ],
+      "a": [
+        1,
+        100
+      ],
+      "b": [
+        1,
+        100
+      ],
+      "passed": true
+    }
+  ]
+}

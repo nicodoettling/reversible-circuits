@@ -1,0 +1,50 @@
+# R5 changed files
+
+All worker writes are confined to this role directory. No existing source/manuscript/handoff file was modified. Exact final repository status is in git-status-final.txt; unrelated untracked experiment/notes entries belong to the pre-existing or concurrent run state.
+
+- `DYZ-source-manifest.json`
+- `artifact-manifest.json`
+- `assignment.md`
+- `blind-brief.input.md`
+- `blind-proof-working.md`
+- `blind_report.freeze.json`
+- `blind_report.md`
+- `changed-files.md`
+- `checkpoint-0546.md`
+- `checkpoint-0548.md`
+- `checkpoint-0552.md`
+- `checkpoint-0555.md`
+- `checkpoint-0601.md`
+- `exact_checks.py`
+- `exact_checks.results.json`
+- `git-status-final.txt`
+- `input_manifest.json`
+- `report.freeze.json`
+- `report.md`
+- `restricted_sampler_check.py`
+- `restricted_sampler_check.results.json`
+- `resume.md`
+- `review-inputs-v1/audit-v1.py`
+- `review-inputs-v1/counts.input.py`
+- `review-inputs-v1/dependency-manifest.json`
+- `review-inputs-v1/freeze_manifest.md`
+- `review-inputs-v1/g01-proof.input.md`
+- `review-inputs-v1/g01-sampler.input.py`
+- `review-inputs-v1/manifest.json`
+- `review-inputs-v1/proof_v1.md`
+- `review-inputs-v1/replay-v1.input.py`
+- `review-inputs-v1/results-v1.json`
+- `review-inputs-v1/sampler-v1.py`
+- `review-inputs-v1/source_checks.input.md`
+- `review-inputs-v3/audit-v3.py`
+- `review-inputs-v3/copy-manifest.json`
+- `review-inputs-v3/proof-v3.md`
+- `review-inputs-v3/results-v3.json`
+- `review-inputs-v3/review-v3-manifest.json`
+- `review-inputs-v3/sampler-v3.py`
+- `targeted_v1_checks.py`
+- `targeted_v1_checks.results.json`
+- `v3_regression_checks.cap0.json`
+- `v3_regression_checks.cap4300.json`
+- `v3_regression_checks.cap640.json`
+- `v3_regression_checks.py`

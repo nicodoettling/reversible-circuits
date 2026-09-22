@@ -1,0 +1,111 @@
+{
+  "agent_concurrency": {
+    "config_key_support": "unverified",
+    "config_overrides": [
+      "agents.enabled=true",
+      "agents.max_concurrent_threads_per_session=5"
+    ],
+    "configured_agents_enabled": true,
+    "configured_max_spawned_threads": 5,
+    "effective_capacity": "unverified",
+    "requested_spawned_agents": 5,
+    "requested_total_agents": 6,
+    "verification_note": "CLI --config availability is checked, not recognition/application of these keys. Verify the coordinator's reported slots and worker startup; configuration does not override backend or managed limits."
+  },
+  "append_log": false,
+  "cap": {
+    "adapter_sha256": "38da39407b00102cc9967b2315a45bf52457c194abc3c443f2f6abb32fca11c7",
+    "cap_seconds": 3600,
+    "clock": "systemd service activation / CLOCK_MONOTONIC",
+    "environment_names": [
+      "CODEX_HOME",
+      "HOME",
+      "LOGNAME",
+      "PATH",
+      "SSH_AUTH_SOCK",
+      "USER",
+      "XDG_RUNTIME_DIR"
+    ],
+    "installed_helper": "/home/nico/.codex/skills/codex-tmux-runner/scripts/v2/codex_tmux.py",
+    "installed_helper_sha256": "da7051a58b565b13b1d7955bdc433f987c37c53c64473861bd26a12df2dd9a53",
+    "runtime_max_seconds": 3535,
+    "scheduling_reserve_seconds": 5,
+    "schema_version": 1,
+    "service": "codex-cap-sparse-boundary-20260922-f29bda8ea57b.service",
+    "status_file": "/home/nico/projects/research_projects/reversible_circuits/notes/sparse-boundary-run.log.sparse-boundary-20260922.cap-status.json",
+    "stop_grace_seconds": 60,
+    "systemctl": "/usr/bin/systemctl",
+    "systemd_run": "/usr/bin/systemd-run",
+    "wrapup_before_seconds": 600,
+    "wrapup_mode": "metadata-only; agent-managed, no automatic instruction",
+    "wrapup_seconds": 3000
+  },
+  "codex_command": [
+    "/home/nico/.local/bin/codex",
+    "--search",
+    "exec",
+    "--sandbox",
+    "workspace-write",
+    "-c",
+    "approval_policy=\"never\"",
+    "--color",
+    "never",
+    "-C",
+    "/home/nico/projects/research_projects/reversible_circuits",
+    "--model",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"ultra\"",
+    "-c",
+    "agents.enabled=true",
+    "-c",
+    "agents.max_concurrent_threads_per_session=5",
+    "-"
+  ],
+  "codex_path": "/home/nico/.local/bin/codex",
+  "codex_session_requested": null,
+  "codex_version": "codex-cli 0.154.0-alpha.6.2",
+  "created_at": "2026-09-22T09:25:28.831790+00:00",
+  "git_before": {
+    "head": "20e86f665f69053031fe7eec0c3388458affb1fc",
+    "is_repository": true,
+    "status_short": "?? experiments/20260907-genus-one-sampler/\n?? experiments/20260922-sparse-global-sampler/\n?? notes/genus-one-sampler-blind-brief.md\n?? notes/genus-one-sampler-goal-run.md\n?? notes/genus-one-sampler-run.log\n?? notes/genus-one-sampler-run.log.genus-one-sampler-20260907.cap-status.json\n?? notes/genus-one-sampler-runbook.md\n?? notes/sparse-boundary-blind-brief.md\n?? notes/sparse-boundary-goal-run.md\n?? notes/sparse-boundary-runbook.md\n?? notes/sparse-global-sampler-blind-brief.md\n?? notes/sparse-global-sampler-goal-run.md\n?? notes/sparse-global-sampler-run.log\n?? notes/sparse-global-sampler-run.log.sparse-global-sampler-20260922.cap-status.json\n?? notes/sparse-global-sampler-runbook.md\n",
+    "top_level": "/home/nico/projects/research_projects/reversible_circuits"
+  },
+  "log_file": "/home/nico/projects/research_projects/reversible_circuits/notes/sparse-boundary-run.log",
+  "mode": "launch",
+  "permission_profile": "sandbox-only",
+  "prompt_file": "/home/nico/projects/research_projects/reversible_circuits/notes/sparse-boundary-goal-run.md",
+  "prompt_sha256": "7c0f1fedcb6121cb6a3094f5ea2045342d98887aff194f56ea78e017f7c7ba5c",
+  "require_ssh_agent": false,
+  "resume_last": false,
+  "root": "/home/nico/projects/research_projects/reversible_circuits",
+  "run_file": "/home/nico/projects/research_projects/reversible_circuits/experiments/20260922-sparse-boundary/tmux-run.json",
+  "sandbox_preflight": {
+    "bwrap_gid": 999,
+    "bwrap_group": "codex-bwrap",
+    "bwrap_mode": "0750",
+    "bwrap_path": "/usr/bin/bwrap",
+    "bwrap_uid": 0,
+    "bwrap_version": "bubblewrap 0.9.0",
+    "codex_sandbox_exit": 0,
+    "current_group_ids": [
+      100,
+      999,
+      1002,
+      1007
+    ],
+    "gate_gid": 999,
+    "gate_group": "codex-bwrap",
+    "tmux_server_pids": [
+      1723024
+    ]
+  },
+  "schema_version": 2,
+  "search": true,
+  "ssh_agent_check": null,
+  "status_file": "/home/nico/projects/research_projects/reversible_circuits/experiments/20260922-sparse-boundary/tmux-status.json",
+  "tmux_path": "/usr/bin/tmux",
+  "tmux_session": "sparse-boundary-20260922",
+  "tmux_version": "tmux 3.4"
+}

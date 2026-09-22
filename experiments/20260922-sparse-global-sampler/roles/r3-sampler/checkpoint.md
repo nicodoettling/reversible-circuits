@@ -1,0 +1,7 @@
+# R3 checkpoint 2026-09-22 06:01 UTC
+
+H0/H1 current v3 implementation, proof and complete audit frozen in review-v3-manifest.json. All tests pass; explicit expectedO(M^20) bit time/O(M^10) storage recorded. Serialization repair retained: default Python decimal-int cap could break old CLI on valid T0 large counts; v3 uses exact labeled hex fallback and passed20001-bit roundtrip without changing settings. Root separately checked actual production forward laws through all140160 words(4,8). R4/R5 receive v3 for nonauthor review. Global negligible bound remains outside this worker claim pending proof synthesis. No further construction planned unless review identifies a defect.
+
+06:04 UTC: R4 reports fresh v3 proof/code PASS with actual forward H1 exclusions, forbidden primitive calls, frozen-cutoff production path and length1400 stack check. Stable artifacts unchanged; report records acceptance pending R4 final path. Heavy compute slot released. Worker deliverable complete unless review requests repair.
+
+06:11 UTC continuation: cap/tmux sidecars reread; authoritative deadlines unchanged. R1 integration review identified CLI target-name ambiguity between H0/H1. v4 metadata-only repair frozen; fourCLI cases pass and all non-main function/class AST is unchanged fromv3. Mathematical proof and candidate laws unchanged. review-v4-manifest.json records current hashes; R1 reviewing exact diff.

@@ -1,0 +1,53 @@
+{
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "method": "total counts from independently derived DYZ eq22 coefficient recurrence; restricted counts from blind Vakil oracle and least-label recurrence",
+  "nmax": 64,
+  "mmax": 128,
+  "saved_exact_rows_verified": 369,
+  "independent_endpoint_support_dp_cells": 48,
+  "subgroup_bounds_verified": 2016,
+  "integration_valid_smoke_cases": 132,
+  "integration_rejected_boundary_cases": 219,
+  "diagnostic_seeds": [
+    17,
+    101,
+    20260907
+  ],
+  "conditional_coupling_regression": [
+    {
+      "per_history_delta": "0",
+      "models_checked": 125,
+      "maximum_joint_tv": "0",
+      "witness": null
+    },
+    {
+      "per_history_delta": "1/4",
+      "models_checked": 2197,
+      "maximum_joint_tv": "7/16",
+      "witness": [
+        "0",
+        "1/4",
+        "0",
+        "0",
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "per_history_delta": "1/2",
+      "models_checked": 6859,
+      "maximum_joint_tv": "3/4",
+      "witness": [
+        "0",
+        "1/2",
+        "0",
+        "0",
+        "1/2",
+        "0"
+      ]
+    }
+  ],
+  "seconds": 3.657013966003433,
+  "result": "pass"
+}

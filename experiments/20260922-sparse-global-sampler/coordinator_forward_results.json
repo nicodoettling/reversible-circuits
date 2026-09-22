@@ -1,0 +1,108 @@
+{
+  "source_sha256": "56b27019396f93d4784032028ca1099d45ddd1cab1f740520c20c8c0169a8e06",
+  "python": "3.12.3",
+  "seed": null,
+  "command": [
+    "experiments/20260922-sparse-global-sampler/coordinator_forward_audit.py"
+  ],
+  "cases": [
+    {
+      "N": 3,
+      "m": 4,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 27,
+      "words": 27,
+      "total": 27,
+      "allowed": 27,
+      "probability": "1/27",
+      "passed": true,
+      "law_sha256": "d1fb667e6cb11178195ffcd599391587abcf6e9aa5f6decee5ac32244ced683a",
+      "seconds": 0.0023455859627574682
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 120,
+      "words": 120,
+      "total": 120,
+      "allowed": 120,
+      "probability": "1/120",
+      "passed": true,
+      "law_sha256": "473642eb9ce2b943ff42608a467b413e46933cf45834b7691b6eae8453b8c970",
+      "seconds": 0.00811852200422436
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 3936,
+      "words": 3936,
+      "total": 3936,
+      "allowed": 3936,
+      "probability": "1/3936",
+      "passed": true,
+      "law_sha256": "fdb9a8630a1618b187f75e73f93069de716e1875115e3be1351215a447432516",
+      "seconds": 0.4031403089175001
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 243,
+      "words": 243,
+      "total": 243,
+      "allowed": 243,
+      "probability": "1/243",
+      "passed": true,
+      "law_sha256": "5242fb70a39c5964e4c93275999a2873d44d3ed4f644ff8e711f9e73156456d0",
+      "seconds": 0.016728988965041935
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 2187,
+      "words": 2187,
+      "total": 2187,
+      "allowed": 2187,
+      "probability": "1/2187",
+      "passed": true,
+      "law_sha256": "95870e7c57bfb2198c4416fc7063a34e568a47d5ce04fcf0c29c7ba223b1b474",
+      "seconds": 0.14583764702547342
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "cutoff": 3,
+      "candidate": "H0-v1",
+      "paths": 140160,
+      "words": 140160,
+      "total": 140160,
+      "allowed": 140160,
+      "probability": "1/140160",
+      "passed": true,
+      "law_sha256": "463004032c165fdb936c26e353ff8f3ce4e4da90871eac027d21a45295623b5a",
+      "seconds": 16.70036040490959
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "cutoff": 2,
+      "candidate": "H0-test-cutoff-2",
+      "paths": 3,
+      "words": 3,
+      "total": 2187,
+      "allowed": 3,
+      "probability": "1/3",
+      "passed": true,
+      "law_sha256": "8eface7735c1c4026c74a24fbb5bbe360801331421190a54bc6da6128c0cf5ca",
+      "seconds": 0.000384235056117177
+    }
+  ]
+}

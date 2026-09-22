@@ -1,0 +1,701 @@
+{
+  "version": "SB-R3-SAMPLER-REGRESSIONS.v1",
+  "input_version": "sampler-v4.py",
+  "input_hashes": {
+    "notes/sparse-boundary-goal-run.md": "7c0f1fedcb6121cb6a3094f5ea2045342d98887aff194f56ea78e017f7c7ba5c",
+    "experiments/20260922-sparse-boundary/tmux-run.json": "86bbeae55c3b88fb4e265940b56a161bcf23475eb84085b028836276f2393ebf",
+    "notes/sparse-boundary-run.log.sparse-boundary-20260922.cap-status.json": "8ec02d17f380d408e27870c37736c04a4ef3af52533dbd89e282d61731e5541a",
+    "experiments/20260922-sparse-global-sampler/roles/r3-sampler/sampler-v4.py": "cdb91799b02539190bc31ce7d6fe31ee5af0477b1cc653f43452eb18de734002",
+    "experiments/20260922-sparse-global-sampler/sample.py": "2d74da262e4c53005a05d4f171b85c5469ade520e38b91b1b0df14f4cbe8386e",
+    "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+    "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/component_audit.py": "a1cd57b6684ea8f116dcbc397a35e856a70526b81f162c113de4216323b721b2",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/artifact_manifest.json": "e6c1b7d5d4ed551ae3dc8ed0f4ef175fdd60c2556d20cc4718ed9d012062caee",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/assignment.md": "595438a1068f7f271d9b1f9ccbe70de973078d01c1b80806bda03397e39071bf",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/cap-status.input.json": "61f0f73a59193a0d9c4162be618c6305d69863e0f39c1905738091f139ecba1c",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/changed_files.txt": "14f2ed5f79d482b58c0b81d40af1805c1593687893c92515c50ecd7e753150df",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/check_inequalities.py": "5d1aff2a714a2091a10d28cde11bf824094a41b2fa6c1c2d954f9a270925e5fc",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/checkpoint.md": "91dc477bfd241c2e95d9b300c213257578ea127eb85ff78df1e45703c1dd9859",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/diagnostics.py": "bfc6b55ac25507160c6aa7ee3b1a5a6a941198e70c51261d397cb10de5e50ede",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/final_git_status.txt": "f9c039d69653684d57067a5ea93273e2dd3a14ec070aa128235e0c8850a8b0f3",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/independent_manifest-v1.json": "c40610becd5f40a331363c9a903365c32450d267f1972dc5b7f2ef4c520accf8",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/independent_report-v1.md": "91e695efb6831f51e0d00dc08fec5c3f1f428bf7e1c263bf04dcabdc88fc07ca",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/inequality-results-m64.json": "2e9592ec3b38f8c847452c2569634f4a76e89882a81baa805ecffc3200a3f778",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/initial_git_status.txt": "f9c039d69653684d57067a5ea93273e2dd3a14ec070aa128235e0c8850a8b0f3",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/input_manifest.json": "4aa84a2edee329dfe8c7884101027d0ee27ad25e66c0e853e46cd73f1e36171e",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/intake_user_prompt.input.md": "26e0e555683890932a805604908eac46921cd55091a1d834e7a022101ba85e3c",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/plan.input.md": "8d79e548fa26e9dda9fd72fa3a7c4a03fc7fc2e63dd8bf8eaffc512d4d985205",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/plan.md": "8ee4353fcea573b599aa30b57aeb0b837ed047b9d5efcdc5b61432b6546b6dcb",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/report.md": "75f7799bd43cdf88f365795c97f9be232e3d0a65ae544089b145c70b9ba75bd6",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/results-m32.json": "ef785e3a934e94fc52157b3207c2013c3783706eb77ce1d282b22223aa3fddad",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/resume.md": "95de970d6637cf56d2cd8a5084d325cb351791f170b247efc3096c60d1c0e1c5",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review-certificate-results.json": "ecafaafb190b78e468e4f102ba3ce417ca50d6f8614cc13800c9c8205396db94",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review-forward-results.json": "c4f9fb9eb327120308ff014df60c0180cb8794ce11b9ee59174877798da498b5",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review-input-v1-manifest.json": "417fb42b144b3757a1ed598417290bf0793f414be760f3a361b536a1b5b07047",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review-input-v3-manifest.json": "3b0530688346b94199fcc7f68b35d20401c13258ea87bcf9ecd2f249e8c449e7",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review_certificates.py": "1a5ba34e57cccae5867aad5b4a5a0d6fe804e13944b1ea51742dadec4c54f5c4",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/review_forward.py": "ec0533f96cf3692140ad1eb4411accb3a1cfacb02ae83b9958511ac35ebfdccf",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/sampler_review-v3.md": "d673444cc3a0273c44a775f69c176b8ac687b8806ef6db272c29a79686fe44b8",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/tmux-run.input.json": "691c7795b391ffa7624afe0d6c34cb726417a1e2c31fe51565df6e2a00e2aca8",
+    "experiments/20260922-sparse-global-sampler/roles/r4-diagnostics/worker_common.input.md": "84aa3c80da344d079f25ff487e9d796def883542c3cea4cb06098883005edfe1"
+  },
+  "forward_laws": [
+    {
+      "policy": "H1",
+      "N": 3,
+      "m": 4,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 27,
+      "words": 27,
+      "total_words": 27,
+      "probability": "1/27",
+      "global_tv": "0",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "d1fb667e6cb11178195ffcd599391587abcf6e9aa5f6decee5ac32244ced683a",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 4,
+      "m": 4,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 120,
+      "words": 120,
+      "total_words": 120,
+      "probability": "1/120",
+      "global_tv": "0",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "473642eb9ce2b943ff42608a467b413e46933cf45834b7691b6eae8453b8c970",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 4,
+      "m": 6,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 1056,
+      "words": 1056,
+      "total_words": 3936,
+      "probability": "1/1056",
+      "global_tv": "30/41",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "a1fe6f92472f0f0438bd1077134dd744f786a35d8694f8407da1504d15a6ffe1",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 3,
+      "m": 8,
+      "cutoff": 3,
+      "override": null,
+      "actual_forward_paths": 2187,
+      "words": 2187,
+      "total_words": 2187,
+      "probability": "1/2187",
+      "global_tv": "0",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "95870e7c57bfb2198c4416fc7063a34e568a47d5ce04fcf0c29c7ba223b1b474",
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "N": 3,
+      "m": 8,
+      "cutoff": 2,
+      "override": 2,
+      "actual_forward_paths": 3,
+      "words": 3,
+      "total_words": 2187,
+      "probability": "1/3",
+      "global_tv": "728/729",
+      "g01_formula_calls_forbidden": true,
+      "law_digest": "8eface7735c1c4026c74a24fbb5bbe360801331421190a54bc6da6128c0cf5ca",
+      "passed": true
+    }
+  ],
+  "fixed_top_level_cutoff": [
+    {
+      "policy": "H0",
+      "top": [
+        42,
+        12,
+        5
+      ],
+      "residual": [
+        5,
+        12,
+        4
+      ],
+      "actual_assembly": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "word": [
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          37,
+          41
+        ]
+      ],
+      "per_word_probability": "1/6771247112604328676721",
+      "A": 6771247112604328676721,
+      "passed": true
+    },
+    {
+      "policy": "H1",
+      "top": [
+        42,
+        12,
+        5
+      ],
+      "residual": [
+        5,
+        12,
+        4
+      ],
+      "actual_assembly": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          5,
+          12
+        ]
+      ],
+      "word": [
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          37,
+          41
+        ]
+      ],
+      "per_word_probability": "1/6567808153112291607921",
+      "A": 6567808153112291607921,
+      "passed": true
+    }
+  ],
+  "boundaries": [
+    {
+      "policy": "H0",
+      "N": 1,
+      "m": 0,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H0",
+      "N": 2,
+      "m": 0,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H0",
+      "N": 2,
+      "m": 2,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H0",
+      "N": 2,
+      "m": 12,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H1",
+      "N": 1,
+      "m": 0,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H1",
+      "N": 2,
+      "m": 0,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H1",
+      "N": 2,
+      "m": 2,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    },
+    {
+      "policy": "H1",
+      "N": 2,
+      "m": 12,
+      "count": 1,
+      "global_tv": "0",
+      "seeds": [
+        1729,
+        2718,
+        31415
+      ]
+    }
+  ],
+  "empty_targets": [
+    {
+      "N": 1,
+      "m": 2,
+      "rejected": "the identity fiber is empty"
+    },
+    {
+      "N": 2,
+      "m": 1,
+      "rejected": "the identity fiber is empty"
+    },
+    {
+      "N": 3,
+      "m": 3,
+      "rejected": "the identity fiber is empty"
+    }
+  ],
+  "arbitrary_genus_small_support": {
+    "N": 2,
+    "m": 1400,
+    "genus": 699,
+    "count": 1,
+    "identity": true,
+    "seed": 1729
+  },
+  "large_integer_serialization": {
+    "decimal_digits": 5001,
+    "encoding_keys": [
+      "encoding",
+      "value"
+    ],
+    "passed": true
+  },
+  "support_history_zero_remaining": {
+    "connected_identity_count": 1,
+    "disconnected_identity_count": 0
+  },
+  "CP1": "not invoked: no sequential marginal-product claim in tested count inequalities",
+  "seconds": 0.5805264109512791,
+  "python": "3.12.3",
+  "command": [
+    "experiments/20260922-sparse-boundary/roles/r3-diagnostics/sampler_regressions.py"
+  ]
+}

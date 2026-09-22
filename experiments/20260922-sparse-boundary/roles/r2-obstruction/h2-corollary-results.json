@@ -1,0 +1,75 @@
+{
+  "status": "pass",
+  "scope": "finite exact parameter falsification; proof separate",
+  "policy_source": "experiments/20260922-sparse-boundary/roles/r4-construction/proof-v1.md",
+  "policy_source_sha256": "d874a1faf6c3f91161c77c56c587d300106dc3c06d16c5adaefd56cd4cf2ffca",
+  "command": "python3 -B experiments/20260922-sparse-boundary/roles/r2-obstruction/check_h2_corollary.py",
+  "rows": [
+    {
+      "j": 1,
+      "L": 21,
+      "L_bound": 36,
+      "numerator_conditions": true
+    },
+    {
+      "j": 2,
+      "L": 40,
+      "L_bound": 68,
+      "numerator_conditions": true
+    },
+    {
+      "j": 4,
+      "L": 80,
+      "L_bound": 132,
+      "numerator_conditions": true
+    },
+    {
+      "j": 8,
+      "L": 161,
+      "L_bound": 260,
+      "numerator_conditions": true
+    },
+    {
+      "j": 16,
+      "L": 323,
+      "L_bound": 516,
+      "numerator_conditions": true
+    },
+    {
+      "j": 32,
+      "L": 646,
+      "L_bound": 1028,
+      "numerator_conditions": true
+    },
+    {
+      "j": 63,
+      "L": 1271,
+      "L_bound": 2020,
+      "numerator_conditions": true
+    },
+    {
+      "j": 64,
+      "L": 1292,
+      "L_bound": 2052,
+      "numerator_conditions": true
+    },
+    {
+      "j": 65,
+      "L": 1312,
+      "L_bound": 2084,
+      "numerator_conditions": true
+    },
+    {
+      "j": 128,
+      "L": 2584,
+      "L_bound": 4100,
+      "numerator_conditions": true
+    },
+    {
+      "j": 256,
+      "L": 5168,
+      "L_bound": 8196,
+      "numerator_conditions": true
+    }
+  ]
+}

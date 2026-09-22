@@ -1,0 +1,11 @@
+# Regression registry
+
+Carry forward: minimal-only error bound min(1,m^4/[48(N-m+1)^2]) is not negligible through sqrt(N); minimal-only named method fails for power alpha>2/3; literal genus<=1 loses mass at m=2N but does not refute H0; uniform graphs and scalar counts do not imply uniform words; adjacent square insertion misses ((12)(23))^3; endpoint completion without prefix support may disconnect; old recursive interpreter issue requires explicit stacks. CP-1 cached-prefix regression is required only if a current proof uses the relevant sequential-independence/product argument.
+
+Current required exact cases: S3,m4; S4,m4; S4,m6; when feasible genus-one S3,m6 and S4,m8; N1,N2,m0,m2,odd m; arbitrary-genus small supports; at least one deliberately excluded component; fixed top-level K versus recomputation; full-minus-allowed count equality. Every new counterexample gets a durable ID and exact fixture.
+
+- CLI-DIGITS: Python3.12 decimal-int serialization has a4300digit default limit. Valid T0 witness N=100000,m=1000 has Z>=binom(N,2)^500 exceeding the cap, so v1 CLI json.dumps fails even though API law is correct. Preserve R5 exact synthetic reproduction. Current repair uses lossless hexadecimal big integer/rational objects; do not raise interpreter limits; fresh nonauthor check required.
+- FORWARD-LAW: coordinator_forward_audit.py replays actual production weighted branches and subset choices, exhausting S3m4,S4m4,S4m6,S3m6,S3m8,S4m8 and forcedK2S3m8. Complete output laws pass, including all140160 S4m8 words and nonzero deliberate omission728/729.
+- NONZERO-T0: N82,m14,K5 omitted mass7633925094110515200/255443972184307397709618401. ANY-large-support event is2421941368752217260748800 over same denominator; these are distinct events. Root independently reran R4 bounded inequality grid (240 majorant,90168 incidence cells) and exact certificate.
+
+- CLI-TARGET: v3candidatefield distinguishes H0/H1 but targettext saysUnif(A(N,m)) for both, ambiguous against canonical A=H0/B=H1. AtN4,m6 H0count3936/TV0 andH1count1056/TV30/41. Require policy-specific allowed-component predicate, and preserve exact generic restricted count semantics. v4 repair must leave choice code unchanged; fresh CLI/diff review required, not an unnecessary full-law rerun.

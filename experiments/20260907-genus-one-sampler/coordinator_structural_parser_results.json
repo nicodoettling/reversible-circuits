@@ -1,0 +1,151 @@
+{
+  "snapshot": {
+    "assignment.md": "e877a6212550448d228cf656d7b38d78aa7ab443c4a7602bfb825f49446664af",
+    "audit.py": "e36c587adb36f632ab8fd1959c1efa8a404186fe80236b373319cccaa7801db5",
+    "cut_sampler.py": "8e289a234124acad571223a7f70dec9c0d912dd2065808369bdcb7ff477f3224",
+    "plan.md": "4edafa1070fa84c5e0aa5225b6307132f98113bbc890fa4c9663d0c1670a2e9c",
+    "proof.md": "42cf1bdc767462157d5aa173244d604becf2c1f0a77a0d783b9d3d00b73e5b68",
+    "report.md": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38",
+    "results.json": "6d85e3764afbdcf90d479176c1e68f64d7569f632ac83b9a8e30365789e5cd81"
+  },
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "deterministic": true,
+  "command": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_parser_audit.py --numeric-max 5 --cut-max 3 --output experiments/20260907-genus-one-sampler/coordinator_structural_parser_results.json",
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "numeric": [
+    {
+      "n": 2,
+      "numeric_codes": 1,
+      "parallel_core_codes": 1,
+      "max_child_count": 0,
+      "max_hanging_depth": 0,
+      "cut_count": 1,
+      "parser_law": "every numeric code exact",
+      "partial_coefficients_checked": 91,
+      "denominator_bound_verified": true,
+      "support_truncation_verified": true,
+      "max_numerator_bits": 4,
+      "max_denominator_bits": 3,
+      "seconds": 0.0012998951133340597,
+      "execution_nodes": 1,
+      "weighted_leaves": 1,
+      "max_branch_depth": 0
+    },
+    {
+      "n": 3,
+      "numeric_codes": 4,
+      "parallel_core_codes": 4,
+      "max_child_count": 1,
+      "max_hanging_depth": 1,
+      "cut_count": 336,
+      "parser_law": "every numeric code exact",
+      "partial_coefficients_checked": 357,
+      "denominator_bound_verified": true,
+      "support_truncation_verified": true,
+      "max_numerator_bits": 8,
+      "max_denominator_bits": 5,
+      "seconds": 0.003344859927892685,
+      "execution_nodes": 6,
+      "weighted_leaves": 4,
+      "max_branch_depth": 2
+    },
+    {
+      "n": 4,
+      "numeric_codes": 15,
+      "parallel_core_codes": 14,
+      "max_child_count": 2,
+      "max_hanging_depth": 2,
+      "cut_count": 234720,
+      "parser_law": "every numeric code exact",
+      "partial_coefficients_checked": 1176,
+      "denominator_bound_verified": true,
+      "support_truncation_verified": true,
+      "max_numerator_bits": 13,
+      "max_denominator_bits": 10,
+      "seconds": 0.021511132828891277,
+      "execution_nodes": 22,
+      "weighted_leaves": 15,
+      "max_branch_depth": 3
+    },
+    {
+      "n": 5,
+      "numeric_codes": 58,
+      "parallel_core_codes": 50,
+      "max_child_count": 3,
+      "max_hanging_depth": 3,
+      "cut_count": 310464000,
+      "parser_law": "every numeric code exact",
+      "partial_coefficients_checked": 2807,
+      "denominator_bound_verified": true,
+      "support_truncation_verified": true,
+      "max_numerator_bits": 21,
+      "max_denominator_bits": 15,
+      "seconds": 0.16669409698806703,
+      "execution_nodes": 85,
+      "weighted_leaves": 58,
+      "max_branch_depth": 5
+    }
+  ],
+  "full_cut": [
+    {
+      "n": 2,
+      "cut_pairs": 1,
+      "words": 1,
+      "each_cut_probability": "1",
+      "accepted_word_probability": "1",
+      "exact_acceptance": "1",
+      "seconds": 0.0010395720601081848,
+      "execution_nodes": 3,
+      "weighted_leaves": 2,
+      "max_branch_depth": 1
+    },
+    {
+      "n": 3,
+      "cut_pairs": 336,
+      "words": 240,
+      "each_cut_probability": "1/336",
+      "accepted_word_probability": "1/240",
+      "exact_acceptance": "5/7",
+      "seconds": 0.6798466718755662,
+      "execution_nodes": 1650,
+      "weighted_leaves": 1056,
+      "max_branch_depth": 7
+    }
+  ],
+  "labeled_macros": [
+    {
+      "n": 2,
+      "macros": 1,
+      "ordered_code_label_lists": 2,
+      "all_macro_weights_exact": true,
+      "parallel_three_children": null
+    },
+    {
+      "n": 3,
+      "macros": 9,
+      "ordered_code_label_lists": 24,
+      "all_macro_weights_exact": true,
+      "parallel_three_children": null
+    },
+    {
+      "n": 4,
+      "macros": 101,
+      "ordered_code_label_lists": 360,
+      "all_macro_weights_exact": true,
+      "parallel_three_children": null
+    },
+    {
+      "n": 5,
+      "macros": 1420,
+      "ordered_code_label_lists": 6960,
+      "all_macro_weights_exact": true,
+      "parallel_three_children": {
+        "code_list_representations": 12,
+        "expected": "2 * 3!",
+        "macro_words": 1008000
+      }
+    }
+  ],
+  "all_passed": true
+}

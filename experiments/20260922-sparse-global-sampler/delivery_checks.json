@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-09-22T06:17:21.315139+00:00",
+  "canonical_hashes": {
+    "proof.md": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
+    "sample.py": "2d74da262e4c53005a05d4f171b85c5469ade520e38b91b1b0df14f4cbe8386e",
+    "roles/r3-sampler/sampler-v4.py": "cdb91799b02539190bc31ce7d6fe31ee5af0477b1cc653f43452eb18de734002",
+    "roles/r3-sampler/proof-v3.md": "f941c5e141e229839813056da1169295b7b2c5d5a052886bc8edb69f096c1868"
+  },
+  "current_cli": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "experiments/20260922-sparse-global-sampler/sample.py",
+        "--n",
+        "82",
+        "--m",
+        "14",
+        "--policy",
+        "H0",
+        "--certificate-only"
+      ],
+      "policy": "H0",
+      "global_tv": "7633925094110515200/255443972184307397709618401",
+      "passed": true
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "experiments/20260922-sparse-global-sampler/sample.py",
+        "--n",
+        "82",
+        "--m",
+        "14",
+        "--policy",
+        "H1",
+        "--certificate-only"
+      ],
+      "policy": "H1",
+      "global_tv": "2421941368752217260748800/255443972184307397709618401",
+      "passed": true
+    }
+  ],
+  "forward_results_pass": true,
+  "inequality_results_pass": true,
+  "old_source_hashes_preserved": true,
+  "tracked_git_diff_empty": true,
+  "classification": "global-negligible-sampler",
+  "passed": true
+}

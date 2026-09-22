@@ -1,0 +1,156 @@
+{
+  "proof_sha256": "43fc4b84c5166ffd42cf838b3080e82c62b35b20f6a9ef2cde01da5c33dcaca0",
+  "script_sha256": "67d6c2aab66f43040bdd78de5e86754feb59686ea463bbc9c4f2ddb0186d1906",
+  "utc": "2026-09-22T05:55:28.267403+00:00",
+  "python": "3.12.3",
+  "commit": "20e86f665f69053031fe7eec0c3388458affb1fc",
+  "command": "python3 -B experiments/20260922-sparse-global-sampler/roles/r1-combinatorial/verify_v1.py",
+  "randomness": "none; exact deterministic tests",
+  "dependencies": "Python standard library",
+  "domains": {
+    "support_dp": "1<=N<=4, 0<=m<=12",
+    "majorant": "2<=v<=13, 2v-2<=ell<=24; 0<=j<=100 for L coefficient",
+    "ratio_and_marks": "2<=N<=20, even 0<=m<=N; all v,q,J as feasible"
+  },
+  "counts": {
+    "independent_support_dp_cells": 52,
+    "genus_majorant_cells": 78,
+    "elementary_series_coefficients": 101,
+    "normalizer_ratios": 7983,
+    "marked_majorants": 1210,
+    "union_bounds": 485
+  },
+  "examples": [
+    {
+      "N": 128,
+      "m": 16,
+      "K": 5,
+      "T0": true,
+      "T1": true,
+      "Z": "51822686121879339552184585528093484032",
+      "ZA": "51822685729714639166484929928948524032",
+      "error": {
+        "numerator": "3015538111971730865520000",
+        "denominator": "398488912723604665601813065391959"
+      },
+      "expected_excluded": {
+        "numerator": "3015538111971730865520000",
+        "denominator": "398488912723604665601813065391959"
+      }
+    },
+    {
+      "N": 20,
+      "m": 20,
+      "K": 4,
+      "T0": false,
+      "T1": false,
+      "Z": "758332312525995946761461346847360",
+      "ZA": "736905301284648408537861855775360",
+      "error": {
+        "numerator": "1762089740242396235493379200",
+        "denominator": "62362854648519403516567544971"
+      },
+      "expected_excluded": {
+        "numerator": "1762089740242396235493379200",
+        "denominator": "62362854648519403516567544971"
+      }
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "K": 3,
+      "T0": false,
+      "T1": false,
+      "Z": "2187",
+      "ZA": "2187",
+      "error": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "expected_excluded": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    },
+    {
+      "N": 2,
+      "m": 24,
+      "K": 2,
+      "T0": false,
+      "T1": false,
+      "Z": "1",
+      "ZA": "1",
+      "error": {
+        "numerator": "0",
+        "denominator": "1"
+      },
+      "expected_excluded": {
+        "numerator": "0",
+        "denominator": "1"
+      }
+    }
+  ],
+  "literal_enumeration": [
+    {
+      "N": 3,
+      "m": 4,
+      "Z": 27,
+      "marked_counts": {
+        "2,2": 3,
+        "3,2": 24
+      },
+      "K_test": 2,
+      "H0_bad_count_at_test_cutoff": 0
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "Z": 120,
+      "marked_counts": {
+        "2,2": 6,
+        "3,2": 96,
+        "2,1": 36
+      },
+      "K_test": 2,
+      "H0_bad_count_at_test_cutoff": 0
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "Z": 3936,
+      "marked_counts": {
+        "2,3": 6,
+        "3,3": 960,
+        "2,1": 90,
+        "2,2": 90,
+        "4,3": 2880
+      },
+      "K_test": 2,
+      "H0_bad_count_at_test_cutoff": 0
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "Z": 243,
+      "marked_counts": {
+        "2,3": 3,
+        "3,3": 240
+      },
+      "K_test": 2,
+      "H0_bad_count_at_test_cutoff": 0
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "Z": 2187,
+      "marked_counts": {
+        "2,4": 3,
+        "3,4": 2184
+      },
+      "K_test": 2,
+      "H0_bad_count_at_test_cutoff": 2184
+    }
+  ],
+  "elapsed_seconds": 0.5048106940230355,
+  "all_assertions_passed": true
+}
