@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "scope": "Same-session documentary navigation checks against listed primary statement/verdict artifacts. Required-text tests are structural regression checks, not proof verification.",
+  "checks": [
+    {
+      "id": "Q-DENSE",
+      "question": "What is the strongest surviving dense length/error guarantee, and is fixed-constant N^2 log N already negligible?",
+      "records": [
+        "S-DENSE",
+        "S-DENSE-OLD"
+      ],
+      "source_ids": [
+        "dense-statement",
+        "dense-audit"
+      ],
+      "expected_status": {
+        "S-DENSE": "accepted-inherited"
+      },
+      "required_text": [
+        "q>=4ceil(log2 N)",
+        "3N^2 exp(-q/144)",
+        "negligible"
+      ],
+      "answer": "The q-parameter theorem improves the old schedule; fixed-constant N^2 log N yields at best a fixed inverse-power guarantee from this bound, not negligible error.",
+      "initial_retrieval_issue": "Top-level handoff/manuscript emphasizes only 2N^3; corrected using Theorem D and its scoped audit."
+    },
+    {
+      "id": "Q-GENUS",
+      "question": "Is connected genus-one sampling still an open next task?",
+      "records": [
+        "S-G01",
+        "S-CUT"
+      ],
+      "source_ids": [
+        "g01-frozen",
+        "g01-audit",
+        "g01-synthesis-audit",
+        "cut-statement",
+        "cut-audit"
+      ],
+      "expected_status": {
+        "S-G01": "accepted-inherited",
+        "S-CUT": "accepted-inherited"
+      },
+      "required_text": [
+        "g in {0,1}",
+        "2v-1"
+      ],
+      "answer": "No. Recursive arbitrary-endpoint g<=1 and a separate identity genus-one cut grammar are accepted internally; arbitrary higher-genus decoding is not.",
+      "initial_retrieval_issue": "September 5's open genus-one statement was superseded in scope by the September 7 exact-version verdicts."
+    },
+    {
+      "id": "Q-SPARSE",
+      "question": "What is the surviving sparse theorem, including its conservative finite onset?",
+      "records": [
+        "S-SPARSE",
+        "S-SPARSE-OLD"
+      ],
+      "source_ids": [
+        "boundary-proof",
+        "boundary-referee",
+        "sparse-proof"
+      ],
+      "expected_status": {
+        "S-SPARSE": "accepted-inherited"
+      },
+      "required_text": [
+        "2^2048",
+        "48 ln ln N",
+        "ln N / 4"
+      ],
+      "answer": "The extended even-length range is m<=N^(2/3)lnN/4 with the explicit eta and very large onset; retain the sharper error bound of the prior smaller-range theorem.",
+      "initial_retrieval_issue": "None after canonical proof/version trace."
+    },
+    {
+      "id": "Q-FAILURE",
+      "question": "Does the N^(3/4) obstruction refute all efficient samplers or heat-bath mixing?",
+      "records": [
+        "O-H0",
+        "O-H2",
+        "G-ALL",
+        "G-HEATBATH"
+      ],
+      "source_ids": [
+        "boundary-obstruction",
+        "boundary-referee",
+        "quotient-audit"
+      ],
+      "expected_status": {
+        "O-H0": "accepted-inherited",
+        "G-ALL": "open",
+        "G-HEATBATH": "open"
+      },
+      "required_text": [
+        "j>=64",
+        "hardness"
+      ],
+      "answer": "No. It rejects the named support policies via omitted mass on an explicit subsequence; no algorithmic hardness or full-chain conductance conclusion follows.",
+      "initial_retrieval_issue": "A broad negative interpretation would conflate a restricted sampler with the target problem; map separates them."
+    },
+    {
+      "id": "Q-GAP",
+      "question": "What exact missing primitive would extend the current assembly route?",
+      "records": [
+        "R-CONNECTED",
+        "S-COUNTS",
+        "S-QUOTIENT"
+      ],
+      "source_ids": [
+        "connected-gap",
+        "quotient-audit"
+      ],
+      "expected_status": {
+        "R-CONNECTED": "conditional"
+      },
+      "required_text": [
+        "g>=2",
+        "N*2^(-b)"
+      ],
+      "answer": "Uniform poly(N,m,b) connected-word sampling on remaining v>L,g>=2 fibers; exact macro selection and conditional coupling then give error N*2^-b.",
+      "initial_retrieval_issue": "None; primary reduction read, including infeasible inputs and fixed top-level cutoff."
+    },
+    {
+      "id": "Q-MEANLIFT",
+      "question": "Must another run establish a separate mean-lift lemma?",
+      "records": [
+        "HB-DECOMP"
+      ],
+      "source_ids": [
+        "hb-ledger",
+        "hb-resolution"
+      ],
+      "expected_status": {
+        "HB-DECOMP": "conditional"
+      },
+      "required_text": [
+        "mean-lift",
+        "/3"
+      ],
+      "answer": "No: the archived JSTV application already removes that separate obligation. Projection and rejected-exit restriction gaps are still required.",
+      "initial_retrieval_issue": "GOAL_SPEC/manuscript retained the older three-part plan; L-0022 corrects the research target."
+    },
+    {
+      "id": "Q-REVIEW",
+      "question": "Which final-looking negative statements have not received scope-matched acceptance?",
+      "records": [
+        "HB-M340",
+        "P-BLIND-STRONG"
+      ],
+      "source_ids": [
+        "hb-m340",
+        "hb-ledger",
+        "boundary-blind",
+        "boundary-referee"
+      ],
+      "expected_status": {
+        "HB-M340": "provisional",
+        "P-BLIND-STRONG": "provisional"
+      },
+      "required_text": [
+        "L-0337",
+        "all-N"
+      ],
+      "answer": "M340 complete-label transport awaits fresh audit. The blind all-N sparse obstruction is broader than the canonical accepted subsequence. Keep both gates visible.",
+      "initial_retrieval_issue": "Author banners and recent dates alone would overpromote the claims."
+    },
+    {
+      "id": "Q-NEXT",
+      "question": "What should a new decoder investigation test first, rather than repeat?",
+      "records": [
+        "S-G01",
+        "S-CUT",
+        "S-QUOTIENT",
+        "O-COUNTS",
+        "R-CONNECTED"
+      ],
+      "source_ids": [
+        "g01-proof",
+        "cut-statement",
+        "connected-gap",
+        "quotient-audit"
+      ],
+      "expected_status": {
+        "R-CONNECTED": "conditional"
+      },
+      "required_text": [
+        "literal",
+        "conditional"
+      ],
+      "answer": "Test a genus-two final-letter decomposition and forced cycle-allocation masses, or an explicitly weighted higher-genus cut grammar. Counts alone and a larger existing cutoff are not the missing construction.",
+      "initial_retrieval_issue": "The recommendation is a planning judgment based on these scopes, not a new theorem or a claim of exhaustive literature novelty."
+    },
+    {
+      "id": "Q-KERNEL",
+      "question": "Is the actual local chain qualitatively irreducible, and does that prove polynomial mixing?",
+      "records": [
+        "HB-IRRED",
+        "G-HEATBATH"
+      ],
+      "source_ids": [
+        "hb-irred",
+        "hb-irred-audit",
+        "hb-resolution"
+      ],
+      "expected_status": {
+        "HB-IRRED": "accepted-inherited",
+        "G-HEATBATH": "open"
+      },
+      "required_text": [
+        "m>=4",
+        "gap"
+      ],
+      "answer": "Recorded acceptance covers N>=3, even m>=4, with exceptional cases explicit. It gives no polynomial gap. The m=2 multi-state chain has no allowed updates.",
+      "initial_retrieval_issue": "Conditional manuscript wording lags the exact source translation and M01 audit."
+    }
+  ]
+}

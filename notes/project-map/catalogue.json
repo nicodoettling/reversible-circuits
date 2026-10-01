@@ -1,0 +1,2415 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "timezone": "UTC",
+  "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
+  "sources": {
+    "scope": {
+      "path": "GOAL_SPEC.md",
+      "read_scope": "Decision question, exact kernel, baseline, routes and role definitions; historical scope, not current sampler frontier.",
+      "checked_locators": [
+        "## Target and Kernel"
+      ],
+      "sha256": "1525b2ddfee0eb4a07dcfbd8106717a137fdeb972cfb099ecaee156c6d399653"
+    },
+    "handoff": {
+      "path": "HANDOFF.md",
+      "read_scope": "Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit.",
+      "checked_locators": [
+        "## Rank-Recursive Transposition Sampler Direction"
+      ],
+      "sha256": "196b93147dbbb788d76f0be0d65dd81376a49edbf4ae71798f057c540eefada2"
+    },
+    "manuscript-status": {
+      "path": "papers/transposition_identity_samplers/sections/theoretical_status.tex",
+      "read_scope": "Complete section read; conditional wording compared with later archived audits.",
+      "checked_locators": [
+        "\\subsection{Conditional irreducibility}"
+      ],
+      "sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a"
+    },
+    "manuscript-dense": {
+      "path": "papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex",
+      "read_scope": "Theorem statement and named recurrence/complexity passages previously inspected; no fresh line-by-line proof review.",
+      "checked_locators": [
+        "\\section"
+      ],
+      "sha256": "e9622c05da756bb8508d826ac0417baf4c39e2bb328f770e9efd0cf49d15363e"
+    },
+    "expander": {
+      "path": "papers/transposition_identity_samplers/sections/expander_gate_sets.tex",
+      "read_scope": "Whole section read; different generator model and transfer caveats.",
+      "checked_locators": [
+        "\\section{Alternative Gate Sets and Expander Generators}"
+      ],
+      "sha256": "308a4debdc09a17f599ea98458796fa8b84936cdc160abc8018b77ea5778c351"
+    },
+    "references": {
+      "path": "papers/transposition_identity_samplers/sections/references.tex",
+      "read_scope": "Whole short bibliography; DOI metadata only.",
+      "checked_locators": [
+        "\\begin{thebibliography}{9}"
+      ],
+      "sha256": "a7ea2009c9f04edf2c7a2a384f56e8b94563c290087e595fe717f3a87c0f8066"
+    },
+    "rr-ledger": {
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/claim_ledger.md",
+      "read_scope": "Whole final ledger; exact theorem/audit linkage traced.",
+      "checked_locators": [
+        "R5: bridge-conditioned truncation bound"
+      ],
+      "sha256": "f394340a4eaf5b8b486d787336f40320b08d0c30f8d022109c81a927663ba3a8"
+    },
+    "rr-redteam": {
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r6-redteam/report.md",
+      "read_scope": "Conventions and first audit sections; paired-lift result linked through final ledger, not whole proof reread.",
+      "checked_locators": [
+        "# R6 final report: exact branch and paired-lift red team"
+      ],
+      "sha256": "090cd3f99fb19cb9891fff4a7d7f41ff9141066965c81bbe9ef749e363d39d2d"
+    },
+    "phase-ledger": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/claim_ledger.md",
+      "read_scope": "Whole final ledger; statuses reconciled with later genus-one and sparse runs.",
+      "checked_locators": [
+        "# Audited Claim Ledger"
+      ],
+      "sha256": "b805c04e07e8e815aee66b3955e953978e20c7ebfa9261162094bf538a7b396c"
+    },
+    "phase": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/phase_diagram.md",
+      "read_scope": "Whole phase table and parameter/accuracy caveats.",
+      "checked_locators": [
+        "# Sampling Complexity Across Bridge Lengths"
+      ],
+      "sha256": "90f391c265d1c8114ece5cdeffcc7a62d47114791314b09d65f9fee4415a6ebf"
+    },
+    "dense-statement": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/report.md",
+      "read_scope": "Theorem D, D1-D19, scope/first obligation selected for statement tracing.",
+      "checked_locators": [
+        "# R2: a tunable dense length/error theorem"
+      ],
+      "sha256": "ae1205ffa8f50f61dd3e46564bb98875c4f8d635df29c7a941f80dfe9d4aa0d7"
+    },
+    "dense-audit": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/fresh_dense_audit.md",
+      "read_scope": "Whole report including theorem, D3-D19 line audit, source dependence and implementation limits.",
+      "checked_locators": [
+        "# Fresh nonauthor audit of the dense theorem"
+      ],
+      "sha256": "d5e584dcb6254cf38c657f8a96a89c81a864d31bbe0310d140880bd2cdc56f7d"
+    },
+    "short-statement": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/report.md",
+      "read_scope": "Exact DP theorem and inventory obstruction selected; proof not independently rederived.",
+      "checked_locators": [
+        "# R1 Final Report"
+      ],
+      "sha256": "2ef9e3bb86b8925c6fe8224ab38cdf7857b4c200af437041d886b95b4512e9d3"
+    },
+    "short-audit": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/fresh_short_audit.md",
+      "read_scope": "Whole report; algorithmic scope, actual per-word checks, uniform-parameter caveats.",
+      "checked_locators": [
+        "# Fresh nonauthor audit of R1 short exact sampling"
+      ],
+      "sha256": "d3dd868bbe148680a1d6f3b2f2e661c0a3565731a891bca8fe79e75a107216f9"
+    },
+    "component": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/report.md",
+      "read_scope": "Count/assembly, minimal-only obstruction equations (8)-(10), support-marked DP and hybrid limitations selected.",
+      "checked_locators": [
+        "# Exact component assembly, sparse approximation, and the connected frontier"
+      ],
+      "sha256": "77e7e2060a8f1ec0fc6dda1e2ea73541dbd3628aa4b32967d90ce6c1272c6231"
+    },
+    "component-synthesis-audit": {
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/synthesis_audit.md",
+      "read_scope": "Verdict/observations selected; maps the final phase synthesis to its prior accepted inputs.",
+      "checked_locators": [
+        "# Final synthesis consistency audit"
+      ],
+      "sha256": "a1114637e9c673b26b684d6a2ab53ee68bf7b8e78e2486d4bc45d06e9272b47e"
+    },
+    "g01-proof": {
+      "path": "experiments/20260907-genus-one-sampler/proof.md",
+      "read_scope": "S1.v2 theorem, count normalization, final-letter decomposition, allocation DP, exact-law and bit-cost sections read.",
+      "checked_locators": [
+        "# Canonical connected sampler proof — S1.v2 (accepted)"
+      ],
+      "reviewed_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
+      "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
+    },
+    "g01-ledger": {
+      "path": "experiments/20260907-genus-one-sampler/claim_ledger.md",
+      "read_scope": "Full ledger including final exact-version synthesis acceptance and preserved earlier repairs.",
+      "checked_locators": [
+        "# Claim ledger (append version changes; do not erase rejections)"
+      ],
+      "sha256": "8f2ef0f8788b304b3f3302a707f1546c7e9cc4bff8391a223ab3a236a0ae73ba"
+    },
+    "g01-audit": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_audit.md",
+      "read_scope": "Verdict and exact accepted theorem/version selected, not new source-paper review.",
+      "checked_locators": [
+        "# Nonauthor audit of R1-T1.1 and the global integration"
+      ],
+      "sha256": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1"
+    },
+    "g01-global": {
+      "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
+      "read_scope": "Restricted-global law and m=2N obstruction selected.",
+      "checked_locators": [
+        "# Global component consequence — G1.v1.2 (accepted)"
+      ],
+      "reviewed_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
+      "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
+    },
+    "g01-global-audit": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global_audit.md",
+      "read_scope": "Verdict/scope selected; trace to G1 claims and independent certificate checks.",
+      "checked_locators": [
+        "# Nonauthor audit of global consequence G1.v1"
+      ],
+      "sha256": "1312e3906d851d47bababf0b7beeeeb27cdfb5292adeee242114f65a3115c1dc"
+    },
+    "sparse-proof": {
+      "path": "experiments/20260922-sparse-global-sampler/proof.md",
+      "read_scope": "Full canonical proof read during status/consolidation; no separate mathematical certification.",
+      "checked_locators": [
+        "# Global sparse identity-bridge sampling — SG-T1.v1"
+      ],
+      "reviewed_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
+      "sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2"
+    },
+    "sparse-ledger": {
+      "path": "experiments/20260922-sparse-global-sampler/claim_ledger.md",
+      "read_scope": "Whole final ledger; chronological statuses distinguished from final rows.",
+      "checked_locators": [
+        "# Append-only claim ledger"
+      ],
+      "sha256": "98187603b4fc43a90ef478493eb4ca7942f8cabb82001c1b02b18d942575f22a"
+    },
+    "sparse-referee": {
+      "path": "experiments/20260922-sparse-global-sampler/roles/r5-referee/report.md",
+      "read_scope": "Whole final referee report and exact reviewed hashes read.",
+      "checked_locators": [
+        "# R5 final nonauthor audit"
+      ],
+      "sha256": "f01600cf6d5e3c7370e7b66e3a18411633388b9f99106104b250efd3bf7dde9e"
+    },
+    "boundary-proof": {
+      "path": "experiments/20260922-sparse-boundary/proof.md",
+      "read_scope": "Full canonical positive theorem, finite genus sum, dispatch repair and constraints read.",
+      "checked_locators": [
+        "# Canonical smaller positive extension — SB-T1.v1"
+      ],
+      "reviewed_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
+      "sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611"
+    },
+    "boundary-obstruction": {
+      "path": "experiments/20260922-sparse-boundary/obstruction.md",
+      "read_scope": "Full canonical obstruction, explicit subsequence and scope read.",
+      "checked_locators": [
+        "# Canonical H0 boundary obstruction — SB-O1.v1"
+      ],
+      "reviewed_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
+      "sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894"
+    },
+    "boundary-ledger": {
+      "path": "experiments/20260922-sparse-boundary/claim_ledger.md",
+      "read_scope": "Whole final ledger with accepted canonical hashes and still-open T0.",
+      "checked_locators": [
+        "# Append-only claim ledger"
+      ],
+      "sha256": "b272e14752fd2c2f66bebada86e0b8c47087f608161388b3178937d94efd2f27"
+    },
+    "boundary-referee": {
+      "path": "experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md",
+      "read_scope": "Whole exact-version final referee report read.",
+      "checked_locators": [
+        "# Final exact-version integration audit — RF-INT.v2"
+      ],
+      "sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d"
+    },
+    "boundary-report": {
+      "path": "experiments/20260922-sparse-boundary/coordinator_report.md",
+      "read_scope": "Whole final synthesis, finite evidence summaries, secondary decoder and open primitive.",
+      "checked_locators": [
+        "# Beyond the sparse sampling boundary — coordinator report"
+      ],
+      "sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9"
+    },
+    "quotient": {
+      "path": "experiments/20260922-sparse-boundary/roles/r4-construction/proof-v1.md",
+      "read_scope": "Whole quotient-state construction and subsequent negative-result addendum read.",
+      "checked_locators": [
+        "# QC.v1: quotient support-state connected decoder"
+      ],
+      "sha256": "cd9edcd3f85e3eb9f32b054a0e2f347f5c8ff99a9d42e991bc9032dca52d6195"
+    },
+    "quotient-audit": {
+      "path": "experiments/20260922-sparse-boundary/construction_audit.md",
+      "read_scope": "Coordinator's scope and acceptance selected; historical tests not rerun here.",
+      "checked_locators": [
+        "# Coordinator nonauthor audit of QC.v1"
+      ],
+      "sha256": "8598002e9c45530975395ddc05740da0e2009568f23fb882f8a8ff771e5d43c8"
+    },
+    "connected-gap": {
+      "path": "experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md",
+      "read_scope": "Whole sufficient reduction including ranges, b, zero fibers and conditional coupling.",
+      "checked_locators": [
+        "# Remaining connected primitive after QC.v1"
+      ],
+      "sha256": "dac6af25d6960d4a45dd4121c4357110fbaa39ed4372ca654d9e5b238cce74a2"
+    },
+    "boundary-blind": {
+      "path": "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md",
+      "read_scope": "Stronger claimed variant selected; no promotion beyond canonical audited sequence.",
+      "checked_locators": [
+        "# Independent blind report — frozen"
+      ],
+      "sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d"
+    },
+    "hb-ledger": {
+      "path": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md",
+      "read_scope": "Banner; L-0013..L-0027 and selected later route entries; final L-0336..L-0337. All other entries heading-indexed, not all read.",
+      "checked_locators": [
+        "# Resolution Ledger: Local Heat-Bath Polynomial Mixing"
+      ],
+      "sha256": "152632e97b3d54ac711d6aa125002623492a1cd71b3e9f0be3d33f96c14974d3"
+    },
+    "hb-resolution": {
+      "path": "notes/local-heatbath-polynomial-mixing-resolution-resolution.md",
+      "read_scope": "Exact question, foundations, frontier and CP-001..CP-006 selected; remaining checkpoints indexed.",
+      "checked_locators": [
+        "# Resolution: Local Heat-Bath Polynomial Mixing"
+      ],
+      "sha256": "8b17051f10b670dd8b9786dfa7e7c21092cc3a2b3af1d930389a7ff0bb0c8435"
+    },
+    "hb-irred": {
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md",
+      "read_scope": "Exact theorem and padded-Hurwitz/square-refresh construction selected.",
+      "checked_locators": [
+        "# Qualitative Irreducibility of the Exact Local Heat-Bath Chain"
+      ],
+      "sha256": "06b0fb4a30478dbf5cf5241b1cbf0181f0a201b34ae273745b804a4f9d892d97"
+    },
+    "hb-irred-audit": {
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md",
+      "read_scope": "Whole short audit read; classification, irreducibility, pair comparison and nonimplications.",
+      "checked_locators": [
+        "# M01 / pair-chain independent audit report"
+      ],
+      "sha256": "eb4810a983df5228b65719489ce0094c22da26d3e9671f1f90435de41c36fecc"
+    },
+    "hb-literature": {
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M15/continuation-bridge-literature/report.md",
+      "read_scope": "Transfer conclusions and theorem scope selected; full literature analysis not rechecked.",
+      "checked_locators": [
+        "# M15 continuation report: bridge literature and planar-map transfer"
+      ],
+      "sha256": "9632a09ee588f69a5e702686ee5626697fe0a4f52ca651bd2a56d864e8e9bc70"
+    },
+    "hb-m340": {
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M340-cross-cell-residual-flow/report.md",
+      "read_scope": "Whole report read; author-refuted complete-label XCRF, final ledger explicitly withholds promotion.",
+      "checked_locators": [
+        "# M340 final report"
+      ],
+      "sha256": "84a09859536072d487ad722eb13049dd6589adce9a0eb981443fd357c6d52e10"
+    },
+    "hb-m339": {
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M339-m337-fresh-referee/report.md",
+      "read_scope": "Report scope and final verdict selected; acceptance does not settle downstream pivot premises.",
+      "checked_locators": [
+        "# M339 final referee report"
+      ],
+      "sha256": "ad73d97186cb5fe600cc22c92c6bc23db82edfce937b09de3ffde59be7debe61"
+    },
+    "hitting": {
+      "path": "experiments/20260710-hurwitz-hitting-times/report.md",
+      "read_scope": "Whole placeholder report: not run.",
+      "checked_locators": [
+        "# Hurwitz Hitting-Time Tests Report"
+      ],
+      "sha256": "067b1490411ffad799f4a776da60b22f1b97e62bd19dddf3c5dc54c1ac364765"
+    },
+    "edge": {
+      "path": "experiments/20260721-edge-shift-cycle-hitting/report.md",
+      "read_scope": "Whole status/limitations; commands are recorded, not rerun.",
+      "checked_locators": [
+        "# Edge-Shift Cycle Hitting Experiment"
+      ],
+      "sha256": "62df9ee40abb7f43e34341ab3217ebc392bb671ddc652ef87e6b1df2a0b0497d"
+    },
+    "early": {
+      "path": "experiments/20260617-214335-coordinator-synthesis/report.md",
+      "read_scope": "Synthesis status and negative-control conclusion selected.",
+      "checked_locators": [
+        "# Coordinator Synthesis: Two-Worker Sampler Test Run"
+      ],
+      "sha256": "f362f757a036b0e03e7d6eb696d892174fc940701c793f5c068f39e8d83ecca9"
+    },
+    "star-statement": {
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r3-star/report.md",
+      "read_scope": "Theorem statement and positive exact-support recurrence, selected sections; no proof rederivation.",
+      "checked_locators": [
+        "# R3 final report: exact prescribed-endpoint star bridges"
+      ],
+      "sha256": "c6c3d7350677de8e75e4b8c035db8cb63d3a0922b055a816a6f1da40cfe35d41"
+    },
+    "star-audit": {
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/r3_fresh_audit.md",
+      "read_scope": "Verdict, scope, source normalization and regression summary selected.",
+      "checked_locators": [
+        "# Fresh nonauthor audit of the R3 exact star-bridge algorithm"
+      ],
+      "sha256": "c05d356890bcf510f9b8b56ad6132334fedd1f43f0e99d9d8229851d086830c4"
+    },
+    "g01-frozen": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/proof.md",
+      "read_scope": "Frozen R1-T1.1 statement; full hash matched to the R2 audit, body not independently reviewed.",
+      "checked_locators": [
+        "# R1 recursive sampler proof, version R1-T1.1"
+      ],
+      "reviewed_sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba",
+      "sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba"
+    },
+    "g01-synthesis-audit": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
+      "read_scope": "Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.",
+      "checked_locators": [
+        "# R2 final nonauthor synthesis and delivery audit — version 1"
+      ],
+      "sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44"
+    },
+    "cut-statement": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/report.md",
+      "read_scope": "Complete report read; C1 construction, resource bound and restricted target traced.",
+      "checked_locators": [
+        "# R2 structural route: complete exact sampler candidate C1"
+      ],
+      "reviewed_sha256": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38",
+      "sha256": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38"
+    },
+    "cut-audit": {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md",
+      "read_scope": "Verdict, version table and C1.1-C1.6 selected; not a fresh proof/parser review.",
+      "checked_locators": [
+        "# Fresh nonauthor audit of structural candidate C1"
+      ],
+      "sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8"
+    }
+  },
+  "records": [
+    {
+      "id": "S-SHORT",
+      "version": 1,
+      "title": "Exact short bridges",
+      "family": "phase",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "Positive defect-type DP samples every feasible endpoint exactly in exp(O(sqrt(min(m,N)))) poly(N,m) expected bit time; in particular polynomial for m<=A(log N)^2 with fixed A.",
+      "parameters": "N,m, explicit endpoint sigma; exact fair bits; polynomial degree may depend on fixed A.",
+      "guards": "N>=2, m>=N-cycles(sigma), parity matches. N=1 separately. Exact time is expected, not worst-case.",
+      "assumptions": "Exact positive transposition cut-and-join recurrence on reachable defect cycle types, partition-count state bound, labeled edge choices and ideal fair bits.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "short-statement"
+      ],
+      "adjudications": [
+        "short-audit"
+      ],
+      "dependencies": [],
+      "aliases": [
+        "defect-type DP"
+      ],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Does not give uniform polynomial time at arbitrary growing m. A separately capped version has TV error at most epsilon and exact endpoint.",
+      "view": "results",
+      "review_binding": "R1 report frozen 2026-09-05 15:33 UTC; R2 fresh_short_audit explicitly accepts that report and its exact scope. No historical report hash in that verdict; current bytes pinned."
+    },
+    {
+      "id": "S-STAR",
+      "version": 1,
+      "title": "Prescribed-endpoint star primitive",
+      "family": "rank",
+      "kind": "theorem",
+      "model": "star",
+      "claim": "Positive coefficient extraction and last-factor recursion give exact uniform words in generators (i,N) for any feasible specified endpoint and length.",
+      "parameters": "Degree N, star-word length k; conservative O(N^3 k^3) rational operations on polynomial-bit operands.",
+      "guards": "Only star transpositions; feasible endpoints; independent fair bits.",
+      "assumptions": "Feray Proposition 1.1, Theorem 1.2, Lemma 3.1; positive used-fixed-label support decomposition.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "R3 theorem and R2 fresh-audit statement/convention sections traced; no proof rederivation or historical test rerun.",
+      "evidence": [
+        "star-statement"
+      ],
+      "adjudications": [
+        "star-audit",
+        "rr-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Recorded model-based review is not external human certification; omitted microdependencies remain in the source proof/ledger.",
+      "view": "results",
+      "review_binding": "R3 theorem, report dated 2026-09-01; fresh R2 audit explicitly accepts that report's support sum, feasibility and sampler. Current file pinned; audit did not supply a historical report digest."
+    },
+    {
+      "id": "S-DENSE-OLD",
+      "version": 1,
+      "title": "Original dense rank recursion",
+      "family": "rank",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "At length 2N^3 the rank-recursive construction gives TV<=3N exp(-N/12288), with exact endpoint and polynomial expected time.",
+      "parameters": "N, scheduled length L=2N^3; conservative O(N^4 L^3) exact arithmetic on polynomial-bit operands.",
+      "guards": "Sufficiently large N and feasible endpoint; fixed finite base ranks handled exactly.",
+      "assumptions": "Product-preserving old/star stable sorting, exact star counts/sampling, parity-aware complete/star spectral bounds, retained-rank floors and a conditional-error telescope.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-traced",
+      "checked": "Manuscript theorem and final closure ledger traced; full R4/R5/R6 review chain is indexed but not freshly replayed.",
+      "evidence": [
+        "rr-ledger",
+        "manuscript-dense"
+      ],
+      "adjudications": [
+        "rr-ledger"
+      ],
+      "dependencies": [
+        "S-STAR"
+      ],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Earlier sufficient schedule, improved by S-DENSE. Operation count is not unit-cost bit time; no fixed-length arbitrary-epsilon guarantee.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "S-DENSE",
+      "version": 1,
+      "title": "Sharper dense length/error theorem",
+      "family": "phase",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "Let q=floor(m/[2N(N-1)]). If q>=4ceil(log2 N), TV<=min(1,3N^2 exp(-q/144)). It suffices for error epsilon that m>=2N(N-1)ceil(144 ln(3N^2/epsilon)).",
+      "parameters": "N,m and epsilon; expected polynomial bit time; conservative O(N^4 m^3) exact arithmetic operations.",
+      "guards": "N>=5 and feasible endpoint; degrees 2..4 exact. Error guarantee depends on length, not more runtime at fixed (N,m).",
+      "assumptions": "Stable-sort word bijection; Feray star counts; CLR Theorem 1.1 with discrete-time parity normalization; exact retained floors and endpoint-conditioned count bound.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "dense-statement",
+        "phase"
+      ],
+      "adjudications": [
+        "dense-audit"
+      ],
+      "dependencies": [
+        "S-STAR"
+      ],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "At m=O(N^2 log N) with a fixed constant the displayed error is only inverse-polynomial; negligible error needs q/log N -> infinity or a specified stronger schedule. Implementation evidence is partial primitive/branch validation, not a fresh production end-to-end audit.",
+      "view": "results",
+      "review_binding": "R2 Theorem D, equations D3-D19 and epsilon corollary; R1 fresh_dense_audit accepts the final/frozen report on 2026-09-05. Current bytes pinned; no historical report digest in the verdict."
+    },
+    {
+      "id": "S-COUNTS",
+      "version": 1,
+      "title": "Counts and component assembly are already available",
+      "family": "phase",
+      "kind": "theorem",
+      "model": "global",
+      "claim": "Positive DYZ recurrence computes connected scalar counts C(v,ell); least-label decomposition computes Z(N,m) and restricted counts in polynomial bit time. Exact component selection plus exact component words gives the exact declared assembled law.",
+      "parameters": "N,m,v,ell and explicit polynomial-time allowed-component predicate.",
+      "guards": "Distinguished labels and positions; isolated vertices handled separately; fixed top-level eligibility predicate.",
+      "assumptions": "Dubrovin-Yang-Zagier Proposition 1 Eq(13), Eqs(19)-(20), C(v,ell)=v! ell! h(g,v); exact interleaving multiplicities.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "component",
+        "phase-ledger"
+      ],
+      "adjudications": [
+        "component-synthesis-audit",
+        "g01-global-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Scalar totals are not prefix completion counts or literal word decoders. Counting alone does not close general sampling.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "S-MINIMAL",
+      "version": 1,
+      "title": "Exact minimal connected primitive",
+      "family": "phase",
+      "kind": "theorem",
+      "model": "connected",
+      "claim": "Connected identity words on v labels at length 2v-2 have a polynomial-time exact sampler; arbitrary minimal endpoints also have a separate positive splitting sampler.",
+      "parameters": "v,ell=2v-2 for connected identity; arbitrary endpoint minimal length v-cycles(sigma) is a DIFFERENT target.",
+      "guards": "v>=2; connected on all designated labels; uniform labeled ordered words.",
+      "assumptions": "Duchi-Poulalhon-Schaeffer rooted minimal sampler and root quotient, as translated in the source; or S-G01 for the connected primitive.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "component",
+        "phase-ledger"
+      ],
+      "adjudications": [
+        "component-synthesis-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Do not identify connected minimal identity length 2v-2 with arbitrary-endpoint geodesic length, whose identity case is zero.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "S-G01",
+      "version": 1,
+      "title": "Exact connected genus-zero and genus-one sampling",
+      "family": "genus",
+      "kind": "theorem",
+      "model": "connected-endpoint",
+      "claim": "For g in {0,1}, exactly sample each nonempty connected endpoint fiber of length v+cycles(sigma)-2+2g in expected O(v^10 log^3(v+1)) bit time. Identity g=1 has length 2v.",
+      "parameters": "v, explicit sigma, g=0 or 1; no accuracy parameter required for the exact sampler.",
+      "guards": "Connected support on all v labels. Singleton g=0 is empty word; singleton g=1 infeasible.",
+      "assumptions": "Vakil Section 1.2, Corollary 1.5 and positive expansion of Proposition 3.2; disjoint final-letter decomposition; positive labeled-cycle allocation DP.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "g01-proof",
+        "g01-ledger",
+        "g01-frozen"
+      ],
+      "adjudications": [
+        "g01-audit",
+        "g01-synthesis-audit"
+      ],
+      "dependencies": [],
+      "aliases": [
+        "S1.v2",
+        "genus-one primitive"
+      ],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Higher genus on unbounded support remains open. Source includes a second cut-incidence construction, grouped here, not newly audited by this mapping.",
+      "view": "results",
+      "review_binding": "Frozen R1-T1.1 proof hash c779902... matches R2 recursive_audit. S1.v2 canonical proof hash 0da7b35... matches R2 final synthesis input; mathematical-body equivalence is explicitly recorded there."
+    },
+    {
+      "id": "S-CUT",
+      "version": 1,
+      "title": "A second exact genus-one sampler via marked cuts",
+      "family": "genus",
+      "kind": "theorem",
+      "model": "connected",
+      "claim": "For every v>=2, the C1 weighted bipartite unicycle grammar samples connected identity words of length 2v exactly. It samples a word with a valid cut, then accepts with reciprocal cut multiplicity; expected attempts <=2v-1.",
+      "parameters": "Permutation degree v; conservative expected O(v^15 log^4(v+1)) bit time under independent fair bits.",
+      "guards": "Only connected identity length 2v. The v=1 length-two target is empty. The two-parallel-edge core and isolated labels on a side are retained.",
+      "assumptions": "Classical genus-zero fixed-endpoint counts, an everywhere-defined cut interval, polynomial positive grammar, labeled multiplicity correction and actual backward parser.",
+      "open_obligations": "No unproved C1 step identified in the recorded scoped audit; extending to higher genus or global arbitrary lengths remains open.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "cut-statement"
+      ],
+      "adjudications": [
+        "cut-audit",
+        "g01-synthesis-audit"
+      ],
+      "dependencies": [],
+      "aliases": [
+        "C1 marked-cut sampler"
+      ],
+      "regressions": "Historical zero-square fibers (ab)^3, parallel-core multiplicities and unequal numbers of cuts were tested in the cited audit, not rerun here.",
+      "disagreements": "Frozen author report still says PROVISIONAL; subsequent exact-hash audit and synthesis accept C1. Preserve both.",
+      "limitations": "A distinct construction, not independent statistical confirmation. It does not rely on S-G01's genus-one decoder. Microlemmas C1.1-C1.6 stay in the source.",
+      "view": "results",
+      "review_binding": "C1 report hash 7984257... matches the R1 structural_audit payload table; synthesis_audit accepts C1 separately from the genus-one recursive construction."
+    },
+    {
+      "id": "S-SPARSE-OLD",
+      "version": 1,
+      "title": "First negligible-error component theorem",
+      "family": "sparse",
+      "kind": "theorem",
+      "model": "global",
+      "claim": "H0 and H1 are polynomial-time exact restricted samplers with negligible global TV for every even m^3<=N^2; eta=exp(-ln^2 N/(10 ln ln N)) for N>=2^160, otherwise bound one.",
+      "parameters": "P=N+m+2; K=max{v<=N:v^(2v)<=P^4}; expected O(P^20) bits, O(P^10) storage.",
+      "guards": "H0 allows g<=1 OR v<=K; H1 only v<=K. K stays fixed under recursion; all genera allowed on small supports.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "sparse-proof"
+      ],
+      "adjudications": [
+        "sparse-referee",
+        "sparse-ledger"
+      ],
+      "dependencies": [
+        "S-COUNTS",
+        "S-G01"
+      ],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "H1 itself avoids S-G01; dependency listed because this combined record includes H0. The later logarithmic-range theorem does not make this stronger earlier error constant disappear.",
+      "view": "results",
+      "review_binding": "Canonical proof f788eae... is byte-matched to final R5 report and final ledger; historical rejected drafts remain preserved."
+    },
+    {
+      "id": "S-SPARSE",
+      "version": 1,
+      "title": "Current sparse positive guarantee",
+      "family": "boundary",
+      "kind": "theorem",
+      "model": "global",
+      "claim": "Unchanged H0/H1 achieve negligible TV uniformly over even m <= N^(2/3) ln N / 4. Eta=exp(-ln^2 N/(48 ln ln N)) for N>=2^2048; bound one below. Output endpoint and length always exact.",
+      "parameters": "P=N+m+2; expected O(P^20) bit time, O(P^10) storage; one algorithm/eta for every inverse-power target.",
+      "guards": "Fixed original K and H0/H1 policies as in S-SPARSE-OLD. Uses finite genus budget and falling factorial rather than an unrestricted exponential bound.",
+      "assumptions": "DYZ-derived factorial genus majorant, exact marked component formula, fresh-pair incidence comparison of bridge normalizers, finite binomial genus sum, and unchanged exact H0/H1 decoders with fixed top-level cutoff.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "boundary-proof"
+      ],
+      "adjudications": [
+        "boundary-referee",
+        "boundary-ledger"
+      ],
+      "dependencies": [
+        "S-SPARSE-OLD"
+      ],
+      "aliases": [
+        "SB-T1.v1"
+      ],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Strictly extends the sufficient length window, not a sharp threshold. Very large conservative onset. Does not prove m^4<=N^3 or local-chain mixing.",
+      "view": "results",
+      "review_binding": "Canonical proof 3a54f12... is byte-matched to R5 integration_audit_v2 and final ledger; its stronger onset/error statement is not substituted for the previous sharper-error bound."
+    },
+    {
+      "id": "S-QUOTIENT",
+      "version": 1,
+      "title": "Larger exact small-support decoder",
+      "family": "boundary",
+      "kind": "theorem",
+      "model": "connected",
+      "claim": "Simultaneous relabeling of prefix permutation and exposed support partition gives at most 3^(v-1) states. Literal next-edge weighting remains exact. Thus all-genus components up to L=max{1<=v<=N:3^v<=P^4} can be decoded under a polynomial cap.",
+      "parameters": "v,ell; fixed global P=N+m+2 and L; conservative O(P^24) expected bit time, O(P^12) storage.",
+      "guards": "State retains the cycle partition within EACH exposed support block, not endpoint cycle type alone. The logarithmic support cutoff is capped at N.",
+      "assumptions": "Support blocks are unions of prefix cycles; simultaneous relabeling is a Markov lumping with indexed-cycle multiplicities. Backward completion counts weight actual labeled next edges, and ternary separators bound the quotient inventory.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "quotient"
+      ],
+      "adjudications": [
+        "quotient-audit",
+        "boundary-ledger"
+      ],
+      "dependencies": [
+        "S-COUNTS"
+      ],
+      "aliases": [
+        "QC.v1"
+      ],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Exact conditional primitive, not a full global accuracy theorem. Enlarging the cutoff alone still fails at the N^(3/4) benchmark.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "R-CONNECTED",
+      "version": 1,
+      "title": "Precise sufficient missing connected primitive",
+      "family": "boundary",
+      "kind": "conditional implication",
+      "model": "connected",
+      "claim": "A sampler for connected identity words for L<v<=min(N,m/2+1), ell=2v-2+2g<=m, g>=2, with TV<=2^(-b) and uniform expected poly(N,m,b) bit time would close global assembly with TV<=N*2^(-b).",
+      "parameters": "b>=1; choosing b=ceil(log2(N+2))^2 makes the resulting error negligible.",
+      "guards": "Correct endpoint/length on every output; reject zero fibers; exact macro selection; conditional uniform bound for every selected component.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Supply the stated connected literal-word sampler; it has NOT been constructed.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "conditional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "connected-gap"
+      ],
+      "adjudications": [
+        "quotient-audit",
+        "boundary-ledger"
+      ],
+      "dependencies": [
+        "S-COUNTS",
+        "S-G01",
+        "S-QUOTIENT"
+      ],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Sufficient, not necessary. Ignoring a separately proved negligible family or using another global architecture could also work.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "G-ALL",
+      "version": 1,
+      "title": "All-length global sampling remains open",
+      "family": "boundary",
+      "kind": "open obligation",
+      "model": "global",
+      "claim": "No recorded theorem gives a uniform polynomial negligible-error sampler for every feasible length. In particular another sampler for all even m^4<=N^3 remains unresolved.",
+      "parameters": "N and m variable; negligible in N, not merely fixed accuracy.",
+      "guards": "Do not conflate gaps in sufficient ranges with computational hardness or an impossibility interval.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Find another mechanism covering the intermediate length/accuracy pairs.",
+      "source_claimed_status": "T0 existence unresolved",
+      "effective_status": "open",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "boundary-report",
+        "phase"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Exact short and sufficient sparse/dense regimes coexist. Per-instance certificates may cover inputs outside the displayed windows.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-IRRED",
+      "version": 1,
+      "title": "Local heat-bath qualitative foundations",
+      "family": "heatbath",
+      "kind": "theorem",
+      "model": "heatbath",
+      "claim": "The exact lazy random-scan {3,4,5} chain is stationary/reversible for global uniform words and irreducible for N>=3, even m>=4. The paired chain J satisfies gap(K)>=gap(J)/(3 binom(N,2)^2).",
+      "parameters": "N,m; kernel and laziness exactly as GOAL_SPEC; m=4 has gap(K)>=1/4 by whole-word refresh.",
+      "guards": "m=0 and N=2 singleton exceptions; m=2 has no allowed window and must NOT inherit irreducibility.",
+      "assumptions": "Ben-Itzhak-Teicher arXiv:math/0110110v1 Theorem 3.4 with inverse Hurwitz-generator translation; padded moves and square refresh.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "scope",
+        "hb-irred"
+      ],
+      "adjudications": [
+        "hb-irred-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "AGENTS/GOAL_SPEC/manuscript still describe classification or irreducibility as conditional; this later scoped audit closes that qualitative issue.",
+      "limitations": "Neither polynomial path length nor congestion follows. A slow J does not by itself imply slow K.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "HB-DECOMP",
+      "version": 1,
+      "title": "Mean-lift was removed from the projection route",
+      "family": "heatbath",
+      "kind": "conditional implication",
+      "model": "heatbath",
+      "claim": "The archived JSTV application combines the exact stationary-flow projection and rejected-exit restrictions: gap(K)>=gap(projection)*min gap(restriction)/3. A separate mean-lift premise is no longer required.",
+      "parameters": "Full projected law; minimum over all nonempty fibers; exact normalization in L-0022/CP-005.",
+      "guards": "Do not replace rejected-exit restrictions by renormalized within-fiber proposals without an action-rate bound.",
+      "assumptions": "Jerrum-Son-Tetali-Vigoda Theorem 1 as audited in the M15 route; precise source graph in L-0022.",
+      "open_obligations": "Prove both constituent inverse-polynomial gaps; the implication does not assert them.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "conditional",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-resolution",
+        "hb-ledger"
+      ],
+      "adjudications": [
+        "hb-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "Older manuscript and GOAL_SPEC retain an extra mean-lift obligation; do not launch it as an unsolved prerequisite.",
+      "limitations": "Recorded model-based review is not external human certification; omitted microdependencies remain in the source proof/ledger.",
+      "view": "results",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "HB-BASE",
+      "version": 1,
+      "title": "Base-scale and complete-pair reductions",
+      "family": "heatbath",
+      "kind": "conditional implication",
+      "model": "heatbath",
+      "claim": "The archive records base length R_N=O(N log N) controlling longer bridge Hamiltonians, plus adjacent-pair versus complete-pair comparison. These reduce, but do not establish, the full polynomial gap.",
+      "parameters": "Endpoint-conditioned aligned or complete-pair chains; source-specific normalizations and polynomial losses.",
+      "guards": "Uniformity over all relevant endpoints and lengths through the base scale is essential.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Uniform inverse-polynomial base-scale fixed-endpoint gap, or a full-K superpolynomial-flow obstruction.",
+      "source_claimed_status": "accepted reductions; required base gap open",
+      "effective_status": "conditional",
+      "check_depth": "summary-only",
+      "checked": "Banner and L-0223/route summaries inspected, not every original reduction proof or referee payload.",
+      "evidence": [
+        "hb-ledger",
+        "hb-resolution"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Grouped navigation record; consult the ledger and mission proofs before using numerical comparison constants.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-CORRELATION",
+      "version": 1,
+      "title": "Coordinate-correlation route: signed residual remains",
+      "family": "heatbath",
+      "kind": "open obligation",
+      "model": "auxiliary",
+      "claim": "M67 refuted the hoped-for O(1/l) coordinate-correlation rate, not polynomial mixing. Nonzero cyclic sectors were controlled; the invariant remainder leads to signed posterior/two-step and later cross-cell obligations.",
+      "parameters": "Minimal long-cycle endpoint sector and derived coordinate kernels; not a global identity-word theorem.",
+      "guards": "Preserve endpoint, sector, signed cancellation and weighting conventions of the mission graph.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Complete the remaining signed invariant-sector estimate; reconcile M340 before reviving complete-label cross-cell flow.",
+      "source_claimed_status": "partial lemmas accepted; complete invariant-sector estimate unresolved",
+      "effective_status": "open",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-ledger",
+        "hb-resolution"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "FCL1/CIBV and later abbreviations are historical branches, not interchangeable proof targets. Individual microlemmas are grouped/pending.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-ROUTING",
+      "version": 1,
+      "title": "DPS realization and voltage/congestion route",
+      "family": "heatbath",
+      "kind": "open obligation",
+      "model": "auxiliary",
+      "claim": "Ideal minimal-factorization moves and several algebraic descriptors are controlled, but simultaneous literal braid realization, required voltage corrections and polynomial comparison congestion remain open.",
+      "parameters": "Source-dependent framed action cosets, matching families and actual local-chain transitions.",
+      "guards": "An action modulo simultaneous conjugation or subgroup membership alone is insufficient.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Prove an applicable simultaneous-action/routing cover with polynomial literal length and congestion, not merely finite reachability.",
+      "source_claimed_status": "routing frontiers remain open after many sufficient-mechanism failures",
+      "effective_status": "open",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "M337/M339 stopping implications still require actual higher-orbital pivot hypotheses; this grouping does not certify the hundreds of underlying claims.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-PARKING",
+      "version": 1,
+      "title": "Parking and handle projection routes",
+      "family": "heatbath",
+      "kind": "open obligation",
+      "model": "auxiliary",
+      "claim": "Several ideal projection/root-composition/leaf-replanting chains have inverse-polynomial gaps, but their necessary comparisons or all-suffix weighted contraction remain unresolved for the actual factorization chain.",
+      "parameters": "Minimal connected or fixed endpoint sectors; exact tilted laws and source-specific chains.",
+      "guards": "An ideal chain's gap is not the physical heat-bath gap; fixed-handle same-size comparison can be circular.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Resolve the actual unicycle incidence gap or surviving deficit-aware aggregated contraction/comparison; choose one exact mission obligation first.",
+      "source_claimed_status": "restricted and auxiliary results accepted; transfer open",
+      "effective_status": "open",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Finite suffix excess through six and scalar-potential failures do not establish or refute all-suffix contraction.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-EXTERIOR",
+      "version": 1,
+      "title": "Many proposed bottlenecks were ruled out",
+      "family": "heatbath",
+      "kind": "open obligation",
+      "model": "heatbath",
+      "claim": "Archived polynomial conductance bounds rule out named minimal-connected, join-tree-saturated and fixed-radius exterior-shell cuts. They do not cover all possible cuts of the full chain.",
+      "parameters": "Explicit named families and parameter restrictions in the ledger; dense disconnected neighborhoods have additional very-large-N guards.",
+      "guards": "Full stationary mass and boundary flow, not support size alone, define a bottleneck.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "A full-K infinite superpolynomial-conductance family, or missing arbitrary-macro cover/flow. Growing intermediate radii are not covered by fixed-radius results.",
+      "source_claimed_status": "named cut families ruled out; full negative terminal open",
+      "effective_status": "open",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Grouped results are not reaudited here; do not report 'no bottleneck' globally.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "HB-M340",
+      "version": 1,
+      "title": "Frozen but unaudited cross-cell counterexample",
+      "family": "heatbath",
+      "kind": "counterexample",
+      "model": "auxiliary",
+      "claim": "M340 claims a singleton Hall defect refutes its complete-label XCRF transport using the M335/M336 k=9 token. L-0337 explicitly says no fresh immutable audit had accepted it.",
+      "parameters": "Exact complete-label transport graph, retained signs and exceptional-set definition.",
+      "guards": "Failure precedes weight matching but does not prove a nonzero final combined coefficient, slow mixing or a broader transport obstruction.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Fresh scoped audit of frozen M340 and its cited token before promotion.",
+      "source_claimed_status": "author rejects frozen XCRF; coordinator leaves unaudited",
+      "effective_status": "provisional",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-m340",
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "M341 and M342 are initialization-only; they supply no successor theorem.",
+      "view": "obstructions",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "G-HEATBATH",
+      "version": 1,
+      "title": "General heat-bath mixing is still open",
+      "family": "heatbath",
+      "kind": "open obligation",
+      "model": "heatbath",
+      "claim": "Neither universal gap(K)>=c(Nm)^(-C) nor an explicit infinite superpolynomial full-K obstruction has been established in the recorded run.",
+      "parameters": "N>=3, even m>=4, exact GOAL_SPEC kernel; arbitrary accuracy in TV if a gap bound were proved.",
+      "guards": "Sampling the target by another algorithm does not supply a gap comparison.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "One accepted positive or negative terminal theorem. No automatic resume is authorized by this map.",
+      "source_claimed_status": "UNRESOLVED; run paused at Cycle 103",
+      "effective_status": "open",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-resolution",
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Qualitative irreducibility is closed; many auxiliary/conditional results are not terminal.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "O-H0",
+      "version": 1,
+      "title": "Current component policies fail at the 3/4 benchmark",
+      "family": "boundary",
+      "kind": "counterexample",
+      "model": "global",
+      "claim": "For every j>=64, N=2^(8j), m=2^(6j), H0 retained mass is <=2^(-1-jm/2). Thus TV tends to one; H1 fails by containment.",
+      "parameters": "Exact subsequence m^4=N^3, not a claimed sharp transition for every N.",
+      "guards": "FULL H0 includes all g<=1 and arbitrary g on v<=K; K fixed as above.",
+      "assumptions": "Exact component-assembly numerator bound using fixed-endpoint low-genus counts; embedded-subgroup identity-return lower bound; the frozen H0/H1 cutoff.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "boundary-obstruction"
+      ],
+      "adjudications": [
+        "boundary-referee",
+        "boundary-ledger"
+      ],
+      "dependencies": [
+        "S-COUNTS"
+      ],
+      "aliases": [
+        "SB-O1.v1"
+      ],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "A counting obstruction to named output supports; not a local-walk bottleneck and not hardness for any sampler.",
+      "view": "obstructions",
+      "review_binding": "Canonical obstruction bf7b3be... is byte-matched to R5 integration_audit_v2 and final ledger; scope is the explicit j>=64 subsequence."
+    },
+    {
+      "id": "O-H2",
+      "version": 1,
+      "title": "Increasing the small-support cutoff alone also fails",
+      "family": "boundary",
+      "kind": "failed method",
+      "model": "global",
+      "claim": "The H2 quotient decoder policy v<=L with 3^L<=P^4, and its union with all g<=1 components, still lose almost all global mass on the same N=2^(8j),m=2^(6j) sequence.",
+      "parameters": "j>=64; all genera on allowed small components; polynomial work cap unchanged in form.",
+      "guards": "Separate from the correctness of the exact quotient-state decoder.",
+      "assumptions": "The obstruction numerator bound applies to the enlarged fixed L cutoff; its explicit inequalities are checked on the same subsequence. No bridge-walk conductance premise is used.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "quotient",
+        "boundary-report"
+      ],
+      "adjudications": [
+        "quotient-audit",
+        "boundary-ledger"
+      ],
+      "dependencies": [
+        "O-H0",
+        "S-QUOTIENT"
+      ],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "The enlarged-cutoff proof is a separate corollary, not the invalid inference 'H0 fails, therefore every larger subset fails'.",
+      "view": "obstructions",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "O-MINIMAL",
+      "version": 1,
+      "title": "Minimal-only assembly fails above exponent 2/3",
+      "family": "phase",
+      "kind": "failed method",
+      "model": "global",
+      "claim": "For fixed 2/3<alpha<=1, minimal-component-only output at m=Theta(N^alpha) has TV tending to one (or empty allowed set).",
+      "parameters": "Fixed positive scaling constants; even lengths; exact weighted-forest numerator and subgroup denominator.",
+      "guards": "Only the minimal-only policy is excluded by this historical argument.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "component"
+      ],
+      "adjudications": [
+        "phase-ledger",
+        "component-synthesis-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Does not itself refute later H0 with arbitrary small-support genus.",
+      "view": "obstructions",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "O-G01",
+      "version": 1,
+      "title": "Genus-at-most-one assembly fails at length 2N",
+      "family": "genus",
+      "kind": "failed method",
+      "model": "global",
+      "claim": "Despite an exact connected genus-one primitive, the global policy retaining only g<=1 components has mass tending to zero at m=2N.",
+      "parameters": "N growing, even length m=2N; all-label saturation forces each active component to genus one.",
+      "guards": "Do not substitute this policy for H0, which also permits higher genus on small support.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "g01-global"
+      ],
+      "adjudications": [
+        "g01-global-audit",
+        "g01-ledger",
+        "g01-synthesis-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Does not refute exact connected genus-one sampling or any unrestricted global sampler.",
+      "view": "obstructions",
+      "review_binding": "G1-OMIT accepted first on preserved G1.v1; R2 synthesis verifies canonical G1.v1.2 hash d4c6a37..., wording repairs and unchanged mathematical core."
+    },
+    {
+      "id": "O-COUNTS",
+      "version": 1,
+      "title": "Counts, endpoint types and graph laws are not automatically samplers",
+      "family": "genus",
+      "kind": "failed method",
+      "model": "connected",
+      "claim": "Naively inserting adjacent squares is not surjective; forgetting exposed support can mix connected/disconnected fibers; unweighted support-graph sampling has wrong multiplicities. Scalar C(v,ell) alone is not a completion oracle.",
+      "parameters": "Recorded witnesses include (ab)^3; degree3 endpoint counts 81 total vs 80 connected; triangle graph mass 1/4 versus required 3/4.",
+      "guards": "These are separate failed constructions/encodings, not refutations of the intended exact target.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "g01-ledger",
+        "g01-proof",
+        "component"
+      ],
+      "adjudications": [
+        "g01-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Witnesses documentary-traced to accepted ledger, not recomputed in this mapping.",
+      "view": "obstructions",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "O-TABLE",
+      "version": 1,
+      "title": "Literal full endpoint tables are superpolynomial",
+      "family": "phase",
+      "kind": "failed method",
+      "model": "endpoint",
+      "claim": "Literal full cycle-type midpoint enumeration has exp(Omega(sqrt(m))) states for even m<=N; full labeled endpoints have factorial size. These named implementations do not give a general polynomial sampler.",
+      "parameters": "Variable N,m; the short exact regime remains useful.",
+      "guards": "Inventory lower bounds are representation-specific.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "short-statement",
+        "rr-ledger"
+      ],
+      "adjudications": [
+        "short-audit"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Compression, other sufficient statistics or approximate methods are not excluded.",
+      "view": "obstructions",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "O-HURWITZ",
+      "version": 1,
+      "title": "Hurwitz moves and simple paired lifts cannot repair component weights",
+      "family": "rank",
+      "kind": "failed method",
+      "model": "global",
+      "claim": "Pure Hurwitz dynamics preserves labeled weighted support-component data. The precisely defined adjacent-one-pair lift remains nonexact after global conjugation and Hurwitz postprocessing.",
+      "parameters": "N>=3, even final L>=4 for the named exact paired-lift obstruction; finite TV floors in source.",
+      "guards": "Do not extend finite nonexactness to a dense negligible-error lower bound for every seeding method.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "None for the recorded restricted statement; generalizations are separate records.",
+      "source_claimed_status": "proved / accepted in the linked internal run",
+      "effective_status": "accepted-inherited",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "rr-redteam",
+        "rr-ledger",
+        "hb-irred-audit"
+      ],
+      "adjudications": [
+        "rr-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Hurwitz remains useful within an orbit; nonlocal moves with audited weights are not ruled out.",
+      "view": "obstructions",
+      "review_binding": "The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict."
+    },
+    {
+      "id": "O-HUB",
+      "version": 1,
+      "title": "Normal-form routing can have exponential congestion",
+      "family": "manuscript",
+      "kind": "failed method",
+      "model": "heatbath",
+      "claim": "Sending comparison flow through one canonical square-rich word incurs congestion tied to inverse stationary mass. Connectivity through a hub does not prove rapid mixing.",
+      "parameters": "Uniform word space; stated common-hub routing architecture.",
+      "guards": "Counterargument concerns the chosen flow, not the existence of some low-congestion randomized flow.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Before quoting a quantitative lower bound, trace its exact comparison-flow demand and normalization; the qualitative warning is recorded consistently.",
+      "source_claimed_status": "negative routing lesson in manuscript and archived foundation",
+      "effective_status": "provisional",
+      "check_depth": "statement-traced",
+      "checked": "Manuscript negative lesson and M01 audit's warning read; no separate version-matched quantitative congestion audit traced.",
+      "evidence": [
+        "manuscript-status",
+        "hb-irred-audit"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Polynomial path length alone would still be insufficient.",
+      "view": "obstructions",
+      "review_binding": "No separate exact-version quantitative acceptance traced. M01 audit explicitly excludes common-hub routing from its positive comparison claim."
+    },
+    {
+      "id": "ALT-EXPANDER",
+      "version": 1,
+      "title": "Expander generators are a separate benchmark",
+      "family": "alternatives",
+      "kind": "open obligation",
+      "model": "other-generators",
+      "claim": "Bounded-degree expanding generators provide a base-walk benchmark, but no automatic endpoint-conditioned bridge sampler or local bridge mixing theorem.",
+      "parameters": "Group/generator family and explicit permutation representation must be redeclared; periodicity/laziness matters.",
+      "guards": "Base-walk spectral gaps are not bridge-dynamics gaps; global permutations need not be efficient local gates on log2 N wires.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Specify a bridge mechanism and prove its endpoint-conditioning estimates and implementable primitive.",
+      "source_claimed_status": "proposed benchmark, not solved",
+      "effective_status": "open",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "expander",
+        "hb-literature"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "External Kassabov papers are cited leads only; no new literature audit in this mapping.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "ALT-CRYPTO",
+      "version": 1,
+      "title": "Cryptographic and expected-length variants remain separate",
+      "family": "alternatives",
+      "kind": "open obligation",
+      "model": "crypto-gibbs",
+      "claim": "No hardness theorem for global statistical bridge sampling is recorded. Noisy permutation-code and relator-mixing assumptions are proposals; expected-length Gibbs laws change the target.",
+      "parameters": "Degree N versus wire count n=log2 N; explicit adversarial interface, noise, gate encoding and public structure required.",
+      "guards": "All identity circuits have known function; pseudorandomness would concern descriptions or subcircuits, not the computed function.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "A precise assumption/construction plus sign, cycle-type, support, character, meet-in-the-middle and syntax-leakage tests.",
+      "source_claimed_status": "research proposals and caveats",
+      "effective_status": "open",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "handoff"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Do not infer cryptographic hardness from any failed sampler or uncovered length interval.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "EXP-HITTING",
+      "version": 1,
+      "title": "Hurwitz hitting-time experiments are placeholders",
+      "family": "hitting",
+      "kind": "experiment",
+      "model": "experiment",
+      "claim": "The July10 report explicitly says both proposed hitting-time tests were not run; no mixing evidence is recorded.",
+      "parameters": "Specified cycle/identity starts and hitting targets, not a verified stationary sampler.",
+      "guards": "Empty/placeholders must not be counted as negative or positive experimental results.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Only run if a new named theorem obligation warrants it.",
+      "source_claimed_status": "not run; inconclusive",
+      "effective_status": "unresolved",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hitting"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Indexed plan is not empirical evidence.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "EXP-EDGE",
+      "version": 1,
+      "title": "Graph edge-shift smoke results are not word mixing",
+      "family": "edge",
+      "kind": "experiment",
+      "model": "experiment",
+      "claim": "July21 reports eight unit tests and 120 smoke Monte Carlo trials for an unordered graph process; server-scale results were not committed.",
+      "parameters": "Uniform ordered-wedge edge shift; graph cycle statistics, not ordered transposition-word dynamics.",
+      "guards": "Initial cycle-covered property is not invariant; censoring and graph-ensemble selection matter.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "Any transfer to ordered bridges needs a separate law-preserving argument.",
+      "source_claimed_status": "implemented; local smoke checks reported",
+      "effective_status": "provisional",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "edge"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Neither the original smoke tests nor inaccessible server outputs were rerun/read here.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "EXP-EARLY",
+      "version": 1,
+      "title": "Early exact harness and conditional-block baseline",
+      "family": "early",
+      "kind": "experiment",
+      "model": "experiment",
+      "claim": "June17 supplied exact small-case word/orbit diagnostics and a pure-Hurwitz negative control. Later manuscript records exact r=4,5 block samplers and finite spectra; none is an asymptotic gap proof.",
+      "parameters": "S3,m4; S4,m4 and m6; other finite bounds retain source parameter scope.",
+      "guards": "An exact finite-state result is not extrapolated to growing N,m.",
+      "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+      "open_obligations": "No new baseline run needed unless code changes or a named proof claim needs falsification.",
+      "source_claimed_status": "finite checks passed",
+      "effective_status": "provisional",
+      "check_depth": "summary-only",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "early",
+        "manuscript-status"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+      "limitations": "Old /tmp runs cited by the manuscript are outside this filesystem consolidation and remain provenance-limited.",
+      "view": "results",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "P-BLIND-STRONG",
+      "version": 1,
+      "title": "Stronger all-N sparse obstruction retained for audit",
+      "family": "boundary",
+      "kind": "counterexample",
+      "model": "global",
+      "claim": "The blind report claims H0/H1 retained mass <=N^(-m/16) at m=2floor(N^(3/4)/2), every N>=ceil(exp(1024)). The canonical accepted obstruction is the narrower explicit subsequence O-H0.",
+      "parameters": "All sufficiently large integer N; maximal permitted even length and frozen H0/H1 cutoff.",
+      "guards": "Do not promote the all-N quantifier from the report's proved banner without tracing a scope-matched nonauthor verdict.",
+      "assumptions": "Its own count bound and normalized low-genus enumeration.",
+      "open_obligations": "A separate exact-version audit for the stronger all-N statement, if that scope is needed.",
+      "source_claimed_status": "proved in the frozen blind author's report",
+      "effective_status": "provisional",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "boundary-blind",
+        "boundary-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "The canonical accepted subsequence already rejects the old uniform negligible-error assertion.",
+      "disagreements": "Stronger author claim versus narrower canonical acceptance; not a mathematical contradiction.",
+      "limitations": "Mapping retains the stronger claim for retrieval but does not adopt it. It is not necessary to establish O-H0.",
+      "view": "obstructions",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "O-TRANSFER",
+      "version": 1,
+      "title": "Why existing path and planar-map gaps did not transfer",
+      "family": "heatbath",
+      "kind": "counterexample",
+      "model": "auxiliary",
+      "claim": "The M15 audit records a hypothesis failure for the closest weighted-path contraction theorem and a state-space/measure/update mismatch for direct transport of Caraceni's planar-map gap through the DPS bijection.",
+      "parameters": "Aligned pair-product bridge Q_N=P_N*P_N; normalized single-interior-site conditional update. Finite diagnostic obstructions at N=5,6.",
+      "guards": "These are failures of the specified transfer arguments, not a bottleneck or a negative result for the full heat-bath chain.",
+      "assumptions": "Exact aligned-bridge disintegration and the theorem hypotheses compared in M15.",
+      "open_obligations": "Any new transfer must supply an actual measure-preserving lift and polynomial Dirichlet comparison.",
+      "source_claimed_status": "proved transfer obstructions in M15; recorded in archived accepted ledger",
+      "effective_status": "provisional",
+      "check_depth": "statement-traced",
+      "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+      "evidence": [
+        "hb-literature",
+        "hb-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Finite witnesses and source normalization are in the report; no experiments rerun and no external papers newly checked.",
+      "disagreements": "No contrary scoped verdict traced; complete audit provenance for this grouped negative remains pending.",
+      "limitations": "Statement-traced grouped literature-transfer obstruction, not external theorem review.",
+      "view": "obstructions",
+      "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    }
+  ],
+  "coverage": [
+    {
+      "id": "authority",
+      "title": "Project authority and navigation",
+      "prefixes": [
+        "AGENTS.md",
+        "GOAL_SPEC.md",
+        "HANDOFF.md",
+        "README.md",
+        "experiments/INDEX.md"
+      ],
+      "disposition": "mapped historical framing",
+      "read_depth": "selected sections",
+      "limits": "AGENTS/GOAL_SPEC and HANDOFF lag later results; pointers expose that conflict without replacing exact evidence.",
+      "records": [],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "rank",
+      "title": "September 1 rank-recursive and star sampler",
+      "prefixes": [
+        "experiments/20260901-rank-recursive-identity-bridge-goal",
+        "notes/rank-recursive-identity-bridge-runbook.md",
+        "notes/rank-recursive-identity-bridge-goal-run.md",
+        "notes/rank-recursive-identity-bridge-run.log",
+        "notes/rank-recursive-identity-bridge-sampling.md"
+      ],
+      "disposition": "mapped core results; remainder grouped",
+      "read_depth": "statement and verdict tracing",
+      "limits": "Full worker proofs and implementation microlemmas are not independently audited by this map.",
+      "records": [
+        "S-STAR",
+        "S-DENSE-OLD",
+        "O-HURWITZ"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "phase",
+      "title": "September 5 length phase diagram",
+      "prefixes": [
+        "experiments/20260905-bridge-length-phase-diagram",
+        "notes/bridge-length-phase-diagram-runbook.md",
+        "notes/bridge-length-phase-diagram-goal-run.md",
+        "notes/bridge-length-phase-diagram-run.log"
+      ],
+      "disposition": "mapped core results; remainder grouped",
+      "read_depth": "statement and verdict tracing",
+      "limits": "Its then-open connected genus-one question was subsequently closed; dense and short statements remain useful.",
+      "records": [
+        "S-SHORT",
+        "S-DENSE",
+        "S-COUNTS",
+        "S-MINIMAL",
+        "O-MINIMAL",
+        "O-TABLE"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "genus",
+      "title": "September 7 exact connected genus zero/one",
+      "prefixes": [
+        "experiments/20260907-genus-one-sampler",
+        "notes/genus-one-sampler-runbook.md",
+        "notes/genus-one-sampler-goal-run.md",
+        "notes/genus-one-sampler-run.log",
+        "notes/genus-one-sampler-blind-brief.md",
+        "notes/genus-one-sampler-run.log.genus-one-sampler-20260907.cap-status.json"
+      ],
+      "disposition": "mapped both accepted constructions and global limitation",
+      "read_depth": "statement and exact-version verdict tracing",
+      "limits": "Two different constructions, but correlated same-model review; no external human certification. Microlemmas and finite results remain in original artifacts.",
+      "records": [
+        "S-G01",
+        "S-CUT",
+        "O-G01",
+        "O-COUNTS"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "sparse",
+      "title": "September 22 first sparse theorem",
+      "prefixes": [
+        "experiments/20260922-sparse-global-sampler",
+        "notes/sparse-global-sampler-runbook.md",
+        "notes/sparse-global-sampler-goal-run.md",
+        "notes/sparse-global-sampler-run.log",
+        "notes/sparse-global-sampler-blind-brief.md",
+        "notes/sparse-global-sampler-run.log.sparse-global-sampler-20260922.cap-status.json"
+      ],
+      "disposition": "mapped theorem and scope; other branches grouped",
+      "read_depth": "statement and exact-version verdict tracing",
+      "limits": "Keep original m^3<=N^2 theorem and its stronger error bound alongside the later extended length regime.",
+      "records": [
+        "S-SPARSE-OLD"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "boundary",
+      "title": "September 22 sparse boundary and decoder",
+      "prefixes": [
+        "experiments/20260922-sparse-boundary",
+        "notes/sparse-boundary-runbook.md",
+        "notes/sparse-boundary-goal-run.md",
+        "notes/sparse-boundary-run.log",
+        "notes/sparse-boundary-blind-brief.md",
+        "notes/sparse-boundary-run.log.sparse-boundary-20260922.cap-status.json"
+      ],
+      "disposition": "mapped canonical theorem, obstruction, decoder and open reduction",
+      "read_depth": "statement and verdict tracing",
+      "limits": "Blind all-N obstruction is retained provisionally; no all-length sampler or hardness conclusion inferred.",
+      "records": [
+        "S-SPARSE",
+        "S-QUOTIENT",
+        "R-CONNECTED",
+        "G-ALL",
+        "O-H0",
+        "O-H2",
+        "P-BLIND-STRONG"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "heatbath",
+      "title": "August heat-bath resolution archive",
+      "prefixes": [
+        "experiments/20260811-polynomial-mixing-resolution",
+        "notes/local-heatbath-polynomial-mixing-resolution-runbook.md",
+        "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md",
+        "notes/local-heatbath-polynomial-mixing-resolution-run.log",
+        "notes/local-heatbath-polynomial-mixing-resolution-resolution.md",
+        "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md"
+      ],
+      "disposition": "grouped into named routes; most microbranches pending",
+      "read_depth": "selected statements/verdicts; all mission/ledger headings indexed",
+      "limits": "Hundreds of missions and ledger entries were not all read. No blanket acceptance from the archive ledger. M340 lacks its final fresh audit; M341/M342 were only initialized. No terminal local-gap result.",
+      "records": [
+        "HB-IRRED",
+        "HB-DECOMP",
+        "HB-BASE",
+        "HB-CORRELATION",
+        "HB-ROUTING",
+        "HB-PARKING",
+        "HB-EXTERIOR",
+        "HB-M340",
+        "G-HEATBATH",
+        "O-TRANSFER"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "early",
+      "title": "June finite harness and Hurwitz baseline",
+      "prefixes": [
+        "experiments/20260617-214335-coordinator-synthesis",
+        "experiments/20260617-214335-worker-a-exact-harness",
+        "experiments/20260617-214335-worker-b-hurwitz-baseline"
+      ],
+      "disposition": "grouped finite evidence",
+      "read_depth": "synthesis read; data/scripts inventoried",
+      "limits": "No historical exact enumeration rerun. Older /tmp runs are not reconstructed; manuscript-only historical results keep provenance limitations.",
+      "records": [
+        "EXP-EARLY"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "hitting",
+      "title": "July Hurwitz hitting-time proposal",
+      "prefixes": [
+        "experiments/20260710-hurwitz-hitting-times"
+      ],
+      "disposition": "mapped unrun placeholder",
+      "read_depth": "report read",
+      "limits": "Do not cite proposed tests as completed evidence.",
+      "records": [
+        "EXP-HITTING"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "edge",
+      "title": "July edge-shift graph benchmark",
+      "prefixes": [
+        "experiments/20260721-edge-shift-cycle-hitting"
+      ],
+      "disposition": "grouped separate-model experiment",
+      "read_depth": "report read",
+      "limits": "Unordered graph process, not identity-word sampling. Server-scale outputs not in the recorded repository report.",
+      "records": [
+        "EXP-EDGE"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "manuscript",
+      "title": "Manuscript and historical synthesis",
+      "prefixes": [
+        "papers"
+      ],
+      "disposition": "selected sections mapped; remaining sections pending",
+      "read_depth": "theoretical status, dense sampler, expander section, bibliography selected",
+      "limits": "Manuscript proof revisions are a separate audit/integration target. LaTeX build products are not mathematical certification.",
+      "records": [
+        "O-HUB"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "literature",
+      "title": "Local source PDFs",
+      "prefixes": [
+        "Literature"
+      ],
+      "disposition": "pending external-source review",
+      "read_depth": "inventory-only",
+      "limits": "Three local PDFs cover Hurwitz equivalence, reversible-circuit mixing and cryptography. All are inventoried, not freshly read. Named sampler imports are linked through historical audits rather than newly downloaded or verified.",
+      "records": [],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "alternatives",
+      "title": "Alternative generators, hardness and other targets",
+      "prefixes": [],
+      "disposition": "grouped separately from all-transposition fixed-length sampling",
+      "read_depth": "selected HANDOFF/GOAL_SPEC and manuscript passages",
+      "limits": "Shares documentary paths with authority/manuscript families; no separate research file tree. No new security or alternative-generator theorem inferred.",
+      "records": [
+        "ALT-EXPANDER",
+        "ALT-CRYPTO"
+      ],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "operations",
+      "title": "Operational instructions, environment and runner smoke",
+      "prefixes": [
+        "experiments/20260824-bwrap-subagent-smoke",
+        ".codex",
+        ".claude",
+        ".agents",
+        "dev",
+        ".gitignore",
+        "notes/codex-bwrap-apparmor-admin.md",
+        "notes/codex-bwrap-apparmor-user.md",
+        "notes/codex-userns.apparmor"
+      ],
+      "disposition": "inventoried; out of mathematical scope",
+      "read_depth": "project skill read; remaining operational material inventory-only",
+      "limits": "No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.",
+      "records": [],
+      "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    }
+  ],
+  "targets": [
+    {
+      "id": "T-CONNECTED",
+      "rank": 1,
+      "title": "Decode higher-genus connected words",
+      "tier": "active research",
+      "nearest": [
+        "R-CONNECTED",
+        "S-G01",
+        "S-CUT",
+        "S-QUOTIENT",
+        "O-COUNTS"
+      ],
+      "obligation": "Construct a positive, word-level conditional decoder for connected identity fibers with support beyond L=Theta(log(N+m)) and genus g>=2. The full sufficient target is uniform expected poly(N,m,b) time with TV<=2^(-b), uniformly in feasible v,ell. Begin with connected arbitrary-endpoint genus two as a bounded stepping stone, not as an all-length solution.",
+      "advance": "Removes the actual missing primitive in an already exact component-selection pipeline; a uniform-in-g construction would give a global arbitrary-length sampler.",
+      "first_test": "Write the literal final-letter branch partition for genus two, including both g=1 children, and ask whether the sum over forced cycle assignments can be evaluated/decoded in polynomial time without enumerating subsets. In parallel compare a higher-genus marked-cut grammar with C1; demand a full word reconstruction and correct mark-forgetting weights.",
+      "positive": "A verified new connected decoder, or an explicit uniform-in-g reduction with error and bit bounds. Fixed-g progress must state its dependence on g.",
+      "negative": "A counterexample to a proposed state compression or a quantified obstruction to polynomial allocation/mark-forgetting for that mechanism.",
+      "stop_or_pivot": "Stop a route when it supplies only scalar counts, reintroduces exponential partition tables, or requires an unproved uniform conditional law. If genus-two work would cover negligible macro mass, report it as a primitive only and use T-MASS to redirect.",
+      "effort": "One bounded 4-hour design/falsification pass, then separately authorize implementation and adversarial audit if a concrete law survives.",
+      "uncertainty": "High; genus-one positivity need not extend with polynomial resources uniformly in g.",
+      "rationale": "Highest potential scope gain; uses accepted decoders and exact assembly instead of reopening already solved scalar counting."
+    },
+    {
+      "id": "T-MASS",
+      "rank": 2,
+      "title": "Locate the component types that a new sampler must cover",
+      "tier": "active research",
+      "nearest": [
+        "S-COUNTS",
+        "S-SPARSE",
+        "O-H0",
+        "O-H2",
+        "O-G01",
+        "P-BLIND-STRONG"
+      ],
+      "obligation": "Characterize the exact bridge-conditioned mass of larger-support, higher-genus components in the gap between the sparse theorem and m=N^(3/4). Seek a precise new admissible-component policy with a provable omitted-mass bound, not a claim that the known cutoff is sharp.",
+      "advance": "Determines which new decoder would materially improve the global sampler and can turn a limited primitive into a meaningful length theorem.",
+      "first_test": "Use existing C(v,ell) and least-label count code to compute exact selected tail/event probabilities at a small declared parameter grid. Compare low-genus and size-cutoff hypotheses; distinguish bridge conditioning from an ordinary Erdos-Renyi support graph. Before asserting an all-N negative, reconcile P-BLIND-STRONG.",
+      "positive": "A mass theorem identifying a new useful family or extending the known negligible-error regime under a feasible decoder policy.",
+      "negative": "A rigorous omitted-mass obstruction for a proposed policy, with its exact quantifiers, or an exact finite witness falsifying an unproved universal tail bound.",
+      "stop_or_pivot": "Stop simply enlarging the same polynomial quotient cutoff: O-H2 already handles it. Finite plots cannot determine an asymptotic threshold. Pivot if a mass calculation has no algorithmic consequence or new obstruction.",
+      "effort": "One bounded 2-4-hour diagnostic/proof-target pass using existing counts, with a named asymptotic lemma as the deliverable.",
+      "uncertainty": "Medium for useful falsification; high for a sharp transition theorem.",
+      "rationale": "Cheap discriminating tests can prevent investment in a decoder for components that carry negligible target mass."
+    },
+    {
+      "id": "T-AUDIT",
+      "rank": 3,
+      "title": "Human-readable certification and manuscript reconciliation",
+      "tier": "active audit/integration",
+      "nearest": [
+        "S-DENSE",
+        "S-STAR",
+        "S-G01",
+        "S-CUT",
+        "S-SPARSE",
+        "O-H0",
+        "HB-IRRED"
+      ],
+      "obligation": "Independently review the exact frozen statements most consequential for the phase diagram, then integrate only stable versions into the manuscript. Prioritize the dense bridge-conditioned tail numerator and the sparse finite-genus bound/dispatch repair; trace classical count normalizations explicitly.",
+      "advance": "Turns a large internally accepted archive into a reviewable theorem chain without changing the mathematical target.",
+      "first_test": "Create a short dependency list for one theorem with exact source versions and boundary cases; inspect it independently before reading the old verdict. Verify word-count normalization and expected bit complexity rather than accepting finite tests as the proof.",
+      "positive": "A concise scoped review with every prerequisite resolved or explicitly conditional, followed by a manuscript update of that exact theorem.",
+      "negative": "A numbered material objection and the precise affected descendants; retain surviving restricted claims and reopen only the dependency cone.",
+      "stop_or_pivot": "Do not rewrite all papers or launch broad literature review. Stop each audit at a concrete objection/closed dependency list; record accepted scope, not consensus by model count.",
+      "effort": "Separate bounded review sessions per theorem; human review time is not estimated by agent throughput.",
+      "uncertainty": "Moderate; prior exact-version audits exist, but are correlated and do not replace human certification.",
+      "rationale": "Important for trustworthy reuse; explicitly an audit target, not a claim of new mathematics."
+    },
+    {
+      "id": "T-FIXED-LENGTH",
+      "rank": 4,
+      "title": "Improve accuracy without increasing bridge length",
+      "tier": "reserve research",
+      "nearest": [
+        "S-DENSE",
+        "S-STAR",
+        "G-ALL",
+        "O-TABLE"
+      ],
+      "obligation": "At fixed feasible N,m, find a positive exact connection primitive or a controlled approximation whose accuracy improves with b in poly(N,m,b), rather than changing m to satisfy the dense bound.",
+      "advance": "Could fill accuracy gaps even where an approximate length-dependent theorem already exists.",
+      "first_test": "Isolate one rank-lift branch law; require actual labeled endpoint sampling with exact/controlled connection weights. Compare to existing exact star completion before introducing new tables.",
+      "positive": "A precision-aware rank lift with an explicit accumulated TV and complexity bound.",
+      "negative": "A finite counterexample to a proposed branch law, or a proved state-size/variance obstruction for that implementation.",
+      "stop_or_pivot": "Reject full labeled endpoint enumeration and naive pointed-type tables as known superpolynomial implementations; do not call them general hardness.",
+      "effort": "One bounded 4-hour formulation/falsification pass after the active targets.",
+      "uncertainty": "High; exact star counts do not solve the joint old/star branch distribution.",
+      "rationale": "Broad impact, but less concrete than the connected decoder reduction and not currently the shortest path."
+    },
+    {
+      "id": "T-HEATBATH",
+      "rank": 5,
+      "title": "Reopen one quantitative heat-bath obligation, not the whole archive",
+      "tier": "reserve research/audit",
+      "nearest": [
+        "G-HEATBATH",
+        "HB-BASE",
+        "HB-DECOMP",
+        "HB-M340",
+        "O-TRANSFER"
+      ],
+      "obligation": "Before another local-chain campaign, reconcile M340's unaudited transport obstruction and select either the explicit base-scale gap or the exact stationary-flow projection/restriction estimate. Preserve the actual kernel and normalization.",
+      "advance": "Would advance a distinct mixing theorem, not merely produce another direct sampler.",
+      "first_test": "Read the exact chosen mission's statement plus its predecessor/fresh audit; for M340 verify the Hall witness and determine only the proposed transport it blocks. For a transfer, write the actual Dirichlet comparison before investigating the ideal chain.",
+      "positive": "A proved quantitative estimate with all missing comparisons supplied, or a tightly scoped new lemma reducing a named gap.",
+      "negative": "A reviewed counterexample that retires a specific comparison, or a full-K low-conductance family if one is genuinely found.",
+      "stop_or_pivot": "No generic mean-lift task, single-normal-form congestion argument, or finite-spectrum-to-asymptotic inference. Stop if an auxiliary chain is substituted for K.",
+      "effort": "First 1-2 hours for archive reconciliation; authorize new research only after the exact target is fixed.",
+      "uncertainty": "Very high for full mixing; lower for a precise scope audit.",
+      "rationale": "The user's current priority is any polynomial sampler; keep this significant but separate program as a reserve."
+    },
+    {
+      "id": "T-ALTERNATIVES",
+      "rank": 6,
+      "title": "Different generators or cryptographic target",
+      "tier": "reserve scope decision",
+      "nearest": [
+        "ALT-EXPANDER",
+        "ALT-CRYPTO"
+      ],
+      "obligation": "Specify a distinct generator/representation/access model before using expansion or hardness claims. No such theorem is inherited for all-transposition fixed-length bridges.",
+      "advance": "Could provide a useful benchmark or independently meaningful security question, but changes the problem.",
+      "first_test": "Write the target distribution and input size, then check whether the claimed sampler/attack needs unavailable endpoint-completion counts or assumes an efficient gate implementation.",
+      "positive": "A correctly scoped benchmark theorem or falsifiable hardness assumption with explicit adversarial interfaces.",
+      "negative": "An elementary distinguisher or a proved normalization/representation mismatch.",
+      "stop_or_pivot": "Stop if the proposed model is not the intended fixed-length law or merely imports a base-walk gap as a bridge theorem.",
+      "effort": "Short specification pass only unless the user prioritizes the alternative.",
+      "uncertainty": "High; currently a proposal, not a supported hardness frontier.",
+      "rationale": "Retained for discoverability; avoid spending sampler work on an undeclared new model."
+    },
+    {
+      "id": "T-RETIRED",
+      "rank": 7,
+      "title": "Do not rerun completed or refuted assignments",
+      "tier": "retired",
+      "nearest": [
+        "S-G01",
+        "S-CUT",
+        "S-DENSE",
+        "HB-DECOMP",
+        "O-H0",
+        "O-H2",
+        "O-HURWITZ"
+      ],
+      "obligation": "Retire genus-one existence, merely proving the old 2N^3 schedule, the standalone mean-lift requirement, H0/H1 negligible error throughout m^4<=N^3, and a rescue by only increasing the logarithmic quotient cutoff. Pure Hurwitz global uniformity is not an open candidate.",
+      "advance": "Preserves resources for genuinely new ingredients.",
+      "first_test": "Before reusing any historical launch brief, compare its frozen T0 to these records and current gaps.",
+      "positive": "Reuse valid primitives in a new scope.",
+      "negative": "Retirement remains useful even if no next theorem is proved.",
+      "stop_or_pivot": "Reopen only with a precise scope change or a material objection to the linked accepted evidence, not because an old header says pending.",
+      "effort": "No new research time.",
+      "uncertainty": "Low about duplication at the recorded scope; all inherited evidence retains its audit caveats.",
+      "rationale": "These were repeatedly suggested historically and are easy to rediscover incorrectly."
+    }
+  ],
+  "briefs": [
+    {
+      "path": "notes/rank-recursive-identity-bridge-goal-run.md",
+      "disposition": "Completed historical dense target; use T-FIXED-LENGTH for a different precision-aware question, not the old 2N^3 schedule."
+    },
+    {
+      "path": "notes/bridge-length-phase-diagram-goal-run.md",
+      "disposition": "Completed baseline phase diagram; its genus-one gap is closed. Use T-CONNECTED/T-MASS with September 22 results."
+    },
+    {
+      "path": "notes/genus-one-sampler-goal-run.md",
+      "disposition": "Retired existence target: S-G01 and S-CUT accepted internally. Preserve brief for provenance."
+    },
+    {
+      "path": "notes/sparse-global-sampler-goal-run.md",
+      "disposition": "Completed restricted sparse theorem; do not repeat the m^3<=N^2 target."
+    },
+    {
+      "path": "notes/sparse-boundary-goal-run.md",
+      "disposition": "Original H0/H1 uniform negligible-error assertion refuted; the broader any-sampler T0 stays open. Redirect to T-CONNECTED/T-MASS."
+    },
+    {
+      "path": "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md",
+      "disposition": "Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization."
+    }
+  ],
+  "project": {
+    "frontier_paragraphs": [
+      "**Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.",
+      "**Current answer:** Several regimes have internally audited samplers, but there is no all-length theorem. Very short words can be sampled exactly; a sparse-length range has negligible-error samplers; sufficiently long words have a rank-recursive approximate sampler. The intermediate range remains open. Failed restricted samplers are not evidence of general sampling hardness.",
+      "**Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.",
+      "**Evidence level:** This is a documentary consolidation of existing statements and scoped internal reviews, not a fresh proof audit. `accepted-inherited` records prior acceptance; same-model reviewers are correlated. The large heat-bath archive is only partly traced. See coverage before treating a branch as settled.",
+      "**Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum."
+    ],
+    "routes": {
+      "Surviving Samplers": [
+        {
+          "text": "Exact short bridges: polynomial for m <= A(log N)^2, with fixed A; the full algorithm has exp(O(sqrt(min(m,N)))) state growth.",
+          "record": "S-SHORT"
+        },
+        {
+          "text": "Dense bridges: put q=floor(m/[2N(N-1)]). For q>=4ceil(log2 N), TV <= min(1,3N^2 exp(-q/144)). Fixed-constant N^2 log N lengths give only inverse-polynomial error from this bound; q/log N -> infinity suffices for negligible error.",
+          "record": "S-DENSE"
+        },
+        {
+          "text": "Sparse bridges: negligible error for even m <= N^(2/3) ln N / 4, with explicit but very large asymptotic onset. The earlier theorem keeps a better error bound on its smaller range.",
+          "record": "S-SPARSE"
+        },
+        {
+          "text": "Exact connected components: genus zero or one, including arbitrary endpoints; a second marked-cut construction handles identity genus one.",
+          "record": "S-G01"
+        },
+        {
+          "text": "Exact small-support components of any genus: a quotient-state decoder reaches support size proportional to log(N+m), capped at N.",
+          "record": "S-QUOTIENT"
+        }
+      ],
+      "What Failed": [
+        {
+          "text": "The current small-component/low-genus policies lose almost all target mass on an explicit m=N^(3/4) subsequence. Enlarging only the polynomial quotient cutoff does not repair this.",
+          "record": "O-H0"
+        },
+        {
+          "text": "Low-genus-only output is not a general solution: even exact genus-one components cover a vanishing fraction at m=2N.",
+          "record": "O-G01"
+        },
+        {
+          "text": "Uniform Hurwitz randomization cannot choose the correct global orbit weights.",
+          "record": "O-HURWITZ"
+        },
+        {
+          "text": "Polynomial scalar counts do not automatically give a decoder for literal words, and several insertion/support shortcuts have explicit counterexamples.",
+          "record": "O-COUNTS"
+        }
+      ],
+      "Precise Gaps": [
+        {
+          "text": "Exact component selection already works. Supply connected words for larger support and g>=2, with error 2^(-b) in expected poly(N,m,b) time, to obtain global error <=N*2^(-b). This is sufficient, not necessary for every possible sampler.",
+          "record": "R-CONNECTED"
+        },
+        {
+          "text": "No all-length sampler is established, and no general hardness theorem explains the uncovered range.",
+          "record": "G-ALL"
+        },
+        {
+          "text": "The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this.",
+          "record": "G-HEATBATH"
+        }
+      ]
+    }
+  },
+  "models": {
+    "global": "Uniform Omega(N,m;id) over all ordered labeled all-transposition words, arbitrary support.",
+    "endpoint": "Uniform Omega(N,m;sigma) with specified feasible permutation endpoint; all transpositions.",
+    "star": "Uniform prescribed-endpoint words using only (i,N); different generator set used as a primitive.",
+    "connected": "Uniform identity words with connected support on the entire specified label set.",
+    "connected-endpoint": "Uniform connected words with specified endpoint; length v+cycles(sigma)-2+2g.",
+    "heatbath": "Fixed Omega(N,m), m>=4: K=I/2 + (1/[2|R_m|]) sum_{r in R_m} (1/[m-r+1]) sum_i H_{i,r}, R_m={3,4,5} intersect [1,m]; H uniformly refreshes same-product consecutive blocks. No circular windows.",
+    "auxiliary": "An explicitly named quotient, restricted, comparison or ideal chain; not interchangeable with the full K.",
+    "other-generators": "Different generator libraries, including expander benchmarks; implementation and endpoint-conditioned sampling must be specified anew.",
+    "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
+    "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
+  },
+  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.",
+  "conflicts": [
+    {
+      "id": "C-IRRED",
+      "status": "documentarily reconciled",
+      "description": "AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded.",
+      "sources": [
+        "scope",
+        "manuscript-status",
+        "hb-irred",
+        "hb-irred-audit"
+      ]
+    },
+    {
+      "id": "C-MEANLIFT",
+      "status": "documentarily reconciled",
+      "description": "The old three-obligation plan includes a separate mean-lift lemma; the archived JSTV combination removes it. Projection and restricted-fiber estimates are still missing; do not launch another generic mean-lift mission.",
+      "sources": [
+        "scope",
+        "hb-resolution",
+        "hb-ledger"
+      ]
+    },
+    {
+      "id": "C-DENSE",
+      "status": "documentarily reconciled",
+      "description": "HANDOFF/manuscript emphasize 2N^3. September 5 strengthens the length/error theorem. This changes a sufficient regime, not a lower bound on minimum necessary length.",
+      "sources": [
+        "handoff",
+        "manuscript-dense",
+        "dense-statement",
+        "dense-audit"
+      ]
+    },
+    {
+      "id": "C-GENUS",
+      "status": "documentarily reconciled",
+      "description": "The September 5 phase diagram leaves genus-one connected sampling open. September 7 closes it via two accepted constructions. Frozen provisional headers are superseded only by exact-version scoped audits, not rewritten.",
+      "sources": [
+        "phase",
+        "g01-ledger",
+        "g01-synthesis-audit",
+        "cut-audit"
+      ]
+    },
+    {
+      "id": "C-STRONG",
+      "status": "pending audit",
+      "description": "The September 22 blind report claims a stronger all-N obstruction; canonical accepted delivery proves the explicit j>=64 subsequence. Both are retained, but the broader quantifier is not inherited as accepted.",
+      "sources": [
+        "boundary-blind",
+        "boundary-obstruction",
+        "boundary-referee"
+      ]
+    },
+    {
+      "id": "C-M340",
+      "status": "pending fresh audit",
+      "description": "M340 author-refutes complete-label cross-cell residual transport. Final L-0337 explicitly withholds promotion. M341/M342 initialized assignments are not new results. M339 accepts only a conditional pivot theorem with a rho>0 correction.",
+      "sources": [
+        "hb-m340",
+        "hb-m339",
+        "hb-ledger"
+      ]
+    },
+    {
+      "id": "C-INDEX",
+      "status": "navigation repaired, historical files preserved",
+      "description": "Top-level summaries and the experiment index are not a complete current ledger. The map becomes a navigation layer; exact statements/verdicts remain authoritative. Manuscript integration is still a separate review task.",
+      "sources": [
+        "scope",
+        "handoff",
+        "phase-ledger",
+        "boundary-ledger"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "S-DENSE",
+      "to": "S-DENSE-OLD",
+      "type": "historical-influence",
+      "reason": "The density-parameterized proof refines the retained-rank construction; it is not a new heat-bath mixing theorem.",
+      "evidence": [
+        "dense-audit",
+        "rr-ledger"
+      ]
+    },
+    {
+      "from": "S-G01",
+      "to": "S-MINIMAL",
+      "type": "covers",
+      "reason": "The g=0 connected identity specialization covers the minimal connected identity primitive; geodesic arbitrary-endpoint factorization is separately named.",
+      "evidence": [
+        "g01-proof",
+        "component"
+      ]
+    },
+    {
+      "from": "S-CUT",
+      "to": "S-G01",
+      "type": "analogous-to",
+      "reason": "Both solve connected identity genus one; C1 does not require the genus-one recursive primitive and has a different construction and cost.",
+      "evidence": [
+        "cut-audit",
+        "g01-synthesis-audit"
+      ]
+    },
+    {
+      "from": "S-SPARSE",
+      "to": "S-SPARSE-OLD",
+      "type": "historical-influence",
+      "reason": "Same H0/H1 decoders, enlarged length regime with a weaker explicit error envelope and later onset; neither scope replaces every quantitative benefit of the other.",
+      "evidence": [
+        "boundary-proof",
+        "sparse-proof"
+      ]
+    },
+    {
+      "from": "O-H0",
+      "to": "G-ALL",
+      "type": "does-not-imply",
+      "reason": "Failure of the named restricted policies does not prove general sampling hardness or impossibility.",
+      "evidence": [
+        "boundary-obstruction",
+        "boundary-ledger"
+      ]
+    },
+    {
+      "from": "O-H0",
+      "to": "G-HEATBATH",
+      "type": "does-not-imply",
+      "reason": "Omitted stationary mass of a direct restricted sampler is not a low-conductance cut of the local walk.",
+      "evidence": [
+        "boundary-ledger",
+        "hb-resolution"
+      ]
+    },
+    {
+      "from": "S-DENSE",
+      "to": "G-HEATBATH",
+      "type": "does-not-imply",
+      "reason": "A direct recursive algorithm need not be a transition or a comparison for K.",
+      "evidence": [
+        "dense-statement",
+        "hb-resolution"
+      ]
+    },
+    {
+      "from": "O-H2",
+      "to": "S-QUOTIENT",
+      "type": "does-not-imply",
+      "reason": "Global mass failure does not invalidate the exact small-support conditional decoder.",
+      "evidence": [
+        "quotient-audit"
+      ]
+    }
+  ],
+  "inventory_policy": {
+    "pruned_directory_names": [
+      ".git",
+      "__pycache__",
+      ".pytest_cache",
+      ".mypy_cache",
+      ".venv",
+      "venv",
+      "node_modules"
+    ],
+    "excluded_paths": [
+      "notes/project-map",
+      "PROJECT_MAP.md"
+    ],
+    "excluded_filename_patterns": [
+      "*.pyc",
+      "*.aux",
+      "*.fdb_latexmk",
+      "*.fls",
+      "*.synctex.gz",
+      "*.toc",
+      "*.out"
+    ],
+    "telemetry_patterns": [
+      "*.log",
+      "*.log.*",
+      "tmux-status.json",
+      "tmux-run.json",
+      "*heartbeat*.json"
+    ],
+    "branch_heading_sources": [
+      "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md",
+      "notes/local-heatbath-polynomial-mixing-resolution-resolution.md"
+    ],
+    "rationale": "Exclude repository/cache metadata and this self-referential map output tree. Skip TeX intermediates, not research PDFs. Runtime log/status growth is metadata-only; raw results JSON/JSONL remain hashed research. Symlinks and special files are inventoried but never followed/read. Future mathematical evidence inside an excluded directory or log must be extracted to a research artifact and pinned."
+  },
+  "branch_overrides": [
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01",
+      "disposition": "mapped M01 theorem/audit; other files inventory-only",
+      "records": [
+        "HB-IRRED"
+      ],
+      "depth": "statement-and-verdict-traced"
+    },
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M15",
+      "disposition": "grouped aligned comparison and transfer audit; subbranches pending",
+      "records": [
+        "HB-BASE",
+        "O-TRANSFER"
+      ],
+      "depth": "summary-only"
+    },
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M339",
+      "disposition": "grouped conditional final pivot audit; premises remain open",
+      "records": [
+        "HB-ROUTING"
+      ],
+      "depth": "statement-traced"
+    },
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M340",
+      "disposition": "pending fresh audit; author report traced",
+      "records": [
+        "HB-M340"
+      ],
+      "depth": "statement-traced"
+    },
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-103/mission-M341",
+      "disposition": "pending: initialization only, no completed result traced",
+      "records": [
+        "HB-M340"
+      ],
+      "depth": "inventory-only"
+    },
+    {
+      "prefix": "experiments/20260811-polynomial-mixing-resolution/cycle-103/mission-M342",
+      "disposition": "pending: initialization only, no completed result traced",
+      "records": [
+        "HB-ROUTING"
+      ],
+      "depth": "inventory-only"
+    },
+    {
+      "prefix": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md#l-0013",
+      "disposition": "selected statement/verdict passage traced; see linked records for scope and open premises",
+      "records": [
+        "HB-IRRED"
+      ],
+      "depth": "statement-traced"
+    },
+    {
+      "prefix": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md#l-0022",
+      "disposition": "selected statement/verdict passage traced; see linked records for scope and open premises",
+      "records": [
+        "HB-DECOMP",
+        "HB-BASE"
+      ],
+      "depth": "statement-traced"
+    },
+    {
+      "prefix": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md#l-0336",
+      "disposition": "selected statement/verdict passage traced; see linked records for scope and open premises",
+      "records": [
+        "HB-ROUTING"
+      ],
+      "depth": "statement-traced"
+    },
+    {
+      "prefix": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md#l-0337",
+      "disposition": "selected statement/verdict passage traced; see linked records for scope and open premises",
+      "records": [
+        "HB-M340"
+      ],
+      "depth": "statement-traced"
+    }
+  ],
+  "maintenance_commands": [
+    "python3 -B notes/project-map/manage.py validate",
+    "python3 -B notes/project-map/manage.py check-freshness",
+    "python3 -B notes/project-map/manage.py render --check",
+    "python3 -B -m unittest discover -s notes/project-map -p 'test_*.py'"
+  ],
+  "external_inputs": [
+    {
+      "id": "E-FERAY",
+      "citation": "V. Feray, Partial Jucys-Murphy elements and star factorizations, European Journal of Combinatorics 33 (2012), 189-198; arXiv:0904.4854v2",
+      "url": "https://arxiv.org/abs/0904.4854v2",
+      "locator": "Proposition 1.1, Theorem 1.2, Lemma 3.1",
+      "transfer": "Positive exact-support star counts, including fixed unused labels and pivot, supply S-STAR.",
+      "review_scope": "Convention and normalization checks inherited from star-audit; external paper not newly read."
+    },
+    {
+      "id": "E-CLR",
+      "citation": "P. Caputo, T. M. Liggett and T. Richthammer, Proof of Aldous' spectral gap conjecture, JAMS 23 (2010), 831-851",
+      "url": "https://doi.org/10.1090/S0894-0347-10-00659-4",
+      "locator": "Theorem 1.1",
+      "transfer": "Normalize complete-graph/star interchange gaps by edge count and remove constant/sign sectors for the dense endpoint estimates. This is not a bridge-chain gap.",
+      "review_scope": "Import and parity transfer traced through dense-audit; no new source-paper audit."
+    },
+    {
+      "id": "E-VAKIL",
+      "citation": "Ravi Vakil, Genus 0 and 1 Hurwitz numbers: recursions, formulas, and graph-theoretic interpretations, source dated July 3, 2000",
+      "url": "https://math.stanford.edu/~vakil/files/g01hurwitz.pdf",
+      "locator": "Section 1.2, Corollary 1.5; positive expansion in Proposition 3.2",
+      "transfer": "Counts fixed labeled endpoints with ordered factors; c=G product cycle lengths. Used in S-G01 and the genus-zero input of S-CUT, not as a generic completion oracle.",
+      "review_scope": "Primary normalization reported checked in g01-audit/cut-audit; not independently rechecked here."
+    },
+    {
+      "id": "E-DYZ",
+      "citation": "B. Dubrovin, D. Yang and D. Zagier, Classical Hurwitz numbers and related combinatorics, revised primary manuscript",
+      "url": "https://people.mpim-bonn.mpg.de/zagier/files/tex/ClassicalHurwitz/HurwitzRevised.pdf",
+      "locator": "Proposition 1, equation (13); Section 1.2, equations (19)-(20)",
+      "transfer": "C(d,k)=d! k! h_(g,d) and positive connected-count recurrence; supplies scalar counts, not a literal word decoder.",
+      "review_scope": "Source translation inherited from g01-global-audit; no local frozen primary PDF or new external check added."
+    },
+    {
+      "id": "E-BIT",
+      "citation": "T. Ben-Itzhak and M. Teicher, Graph theoretic method for determining Hurwitz equivalence in the symmetric group, arXiv:math/0110110v1",
+      "url": "https://arxiv.org/abs/math/0110110v1",
+      "locator": "Theorem 3.4 and Definitions 1.3, 3.1-3.3",
+      "transfer": "Equal labeled support components and component weights classify identity-transposition Hurwitz orbits. Their generator is the inverse project generator; orbit equivalence is unchanged.",
+      "review_scope": "Checked in hb-irred-audit. Repository copy Literature/0110110v1.pdf is inventoried but not reread in this mapping."
+    },
+    {
+      "id": "E-JSTV",
+      "citation": "M. Jerrum, J.-B. Son, P. Tetali and E. Vigoda, Elementary bounds on Poincare and log-Sobolev constants for decomposable Markov chains",
+      "url": "https://doi.org/10.1214/105051604000000639",
+      "locator": "Theorem 1; archived M15 application and L-0022",
+      "transfer": "Stationary-flow projection and rejected-exit restriction gaps combine; half-laziness gives gap(K)>=bar_gap*min_gap/3. Reducible restrictions have zero gap; never renormalize away exits.",
+      "review_scope": "Documentary translation from archived report/ledger; full external theorem not reread here."
+    }
+  ],
+  "policy_definitions": [
+    "All direct samplers below use independent fair bits in their mathematical model; seeded finite PRNG tests are reproducibility checks, not a proof of exact randomness.",
+    "Let P=N+m+2 and K=max{1<=v<=N: v^(2v)<=P^4}, fixed at the original top-level input. H0 permits every component with g<=1 OR v<=K. H1 permits only v<=K. Isolates have size 1, length 0; both policies permit arbitrary genus on small supports.",
+    "H2 permits every component of size at most L=max{1<=v<=N:3^v<=P^4}. Each policy has an exact uniform law on its own allowed subset, not automatically on all Omega. Global TV is exactly the omitted count fraction, 1-Z_allowed/Z.",
+    "These cutoffs are fixed by the original (N,m), never silently recomputed after deleting components. Polynomial state counts can coexist with an allowed subset of vanishing global mass.",
+    "For arbitrary all-transposition endpoints (N>=2), feasibility is m>=N-cycles(sigma) with matching parity. The star-generator model has its own feasibility criterion, not this one."
+  ]
+}

@@ -1,5 +1,9 @@
 # Reversible Circuit Walks
 
+Research entry point: [PROJECT_MAP.md](PROJECT_MAP.md). It links the current
+results, limitations, open questions, and evidence; the historical setup
+template below is not the research status.
+
 
 
 ## Getting started

@@ -1,5 +1,11 @@
 # Agent Operating Guide
 
+Current research navigation: read [PROJECT_MAP.md](PROJECT_MAP.md) before
+selecting a research target. Its evidence-linked catalogue reconciles later
+sampler results and archived audits with the historical status below. Follow
+[the map update protocol](notes/project-map/UPDATE_PROTOCOL.md) when integrating
+new results; a map entry is not independent proof certification.
+
 This repository studies sampling and hardness questions for reversible
 circuits that compute the identity.  The current mathematical model is
 

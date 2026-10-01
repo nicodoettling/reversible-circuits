@@ -1,5 +1,16 @@
 # Handoff: Random Reversible Identity Circuits and Symmetric-Group Hardness
 
+## Current Research Map (2026-10-01)
+
+Start with [PROJECT_MAP.md](PROJECT_MAP.md) for the consolidated frontier,
+surviving results, failed approaches, and ranked next investigations.
+[Coverage and conflicts](notes/project-map/COVERAGE.md) explicitly reconciles
+this historical handoff with later September sampler results and archived
+heat-bath audits. Original statements below remain for provenance; use the
+linked exact statements and scoped verdicts, not chronology alone, to resolve
+status. Maintenance instructions are in
+[UPDATE_PROTOCOL.md](notes/project-map/UPDATE_PROTOCOL.md).
+
 ## Context
 
 We are studying cryptographic properties of random reversible circuits on `n` wires with `m` gates.
