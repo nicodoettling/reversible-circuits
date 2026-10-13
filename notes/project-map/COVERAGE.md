@@ -2,9 +2,9 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.
+Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered.
 
-Discovery baseline: 4023 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4028 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -112,11 +112,19 @@ Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-cr
 
 ## operations: Operational instructions, environment and runner smoke
 
-36 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+35 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
 
 Records: Pending; no mathematical record inferred.
+
+## product-s3: October 13 product-of-triples mixing investigation
+
+6 discovered entries. new author-complete theorem registered provisionally. Depth: all proof, script, raw output, plan, report and ledger read in the author session.
+
+Self-review and deterministic checks only; separate generator model; no independent referee or upgrade of the all-transposition frontier.
+
+Records: [ALT-PRODUCT-S3](RESULTS.md#alt-product-s3)
 
 ## Unresolved and Reconciled Discrepancies
 
@@ -181,6 +189,11 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [g01-synthesis-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md): Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.
 - [cut-statement](../../experiments/20260907-genus-one-sampler/roles/r2-structural/report.md): Complete report read; C1 construction, resource bound and restricted target traced.
 - [cut-audit](../../experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md): Verdict, version table and C1.1-C1.6 selected; not a fresh proof/parser review.
+- [product-s3-proof](../../experiments/20261013-product-s3-mixing/proof.md): All sections; exact theorem, normalization, projection, coupling, shuttle reconstruction and scope read and self-reviewed. No independent referee.
+- [product-s3-report](../../experiments/20261013-product-s3-mixing/report.md): Complete report; scoped keep verdict and explicit lack of independent review.
+- [product-s3-check](../../experiments/20261013-product-s3-mixing/check.py): Complete deterministic exact-check harness; run successfully in the author session.
+- [product-s3-results](../../experiments/20261013-product-s3-mixing/results.json): Complete exact results; count-flow identities, coupling marginals, diagnostics and shuttle records inspected.
+- [product-s3-ledger](../../experiments/20261013-product-s3-mixing/claim_ledger.md): Whole ledger; proved author claims remain provisionally accepted in the map.
 
 ## Branch Retrieval
 

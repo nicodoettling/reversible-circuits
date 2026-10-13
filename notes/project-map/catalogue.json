@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-10-01",
+  "date": "2026-10-13",
   "timezone": "UTC",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
@@ -136,7 +136,7 @@
       "path": "experiments/20260907-genus-one-sampler/proof.md",
       "read_scope": "S1.v2 theorem, count normalization, final-letter decomposition, allocation DP, exact-law and bit-cost sections read.",
       "checked_locators": [
-        "# Canonical connected sampler proof — S1.v2 (accepted)"
+        "# Canonical connected sampler proof \u2014 S1.v2 (accepted)"
       ],
       "reviewed_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
       "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
@@ -161,7 +161,7 @@
       "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
       "read_scope": "Restricted-global law and m=2N obstruction selected.",
       "checked_locators": [
-        "# Global component consequence — G1.v1.2 (accepted)"
+        "# Global component consequence \u2014 G1.v1.2 (accepted)"
       ],
       "reviewed_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
       "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
@@ -178,7 +178,7 @@
       "path": "experiments/20260922-sparse-global-sampler/proof.md",
       "read_scope": "Full canonical proof read during status/consolidation; no separate mathematical certification.",
       "checked_locators": [
-        "# Global sparse identity-bridge sampling — SG-T1.v1"
+        "# Global sparse identity-bridge sampling \u2014 SG-T1.v1"
       ],
       "reviewed_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
       "sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2"
@@ -203,7 +203,7 @@
       "path": "experiments/20260922-sparse-boundary/proof.md",
       "read_scope": "Full canonical positive theorem, finite genus sum, dispatch repair and constraints read.",
       "checked_locators": [
-        "# Canonical smaller positive extension — SB-T1.v1"
+        "# Canonical smaller positive extension \u2014 SB-T1.v1"
       ],
       "reviewed_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
       "sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611"
@@ -212,7 +212,7 @@
       "path": "experiments/20260922-sparse-boundary/obstruction.md",
       "read_scope": "Full canonical obstruction, explicit subsequence and scope read.",
       "checked_locators": [
-        "# Canonical H0 boundary obstruction — SB-O1.v1"
+        "# Canonical H0 boundary obstruction \u2014 SB-O1.v1"
       ],
       "reviewed_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
       "sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894"
@@ -229,7 +229,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md",
       "read_scope": "Whole exact-version final referee report read.",
       "checked_locators": [
-        "# Final exact-version integration audit — RF-INT.v2"
+        "# Final exact-version integration audit \u2014 RF-INT.v2"
       ],
       "sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d"
     },
@@ -237,7 +237,7 @@
       "path": "experiments/20260922-sparse-boundary/coordinator_report.md",
       "read_scope": "Whole final synthesis, finite evidence summaries, secondary decoder and open primitive.",
       "checked_locators": [
-        "# Beyond the sparse sampling boundary — coordinator report"
+        "# Beyond the sparse sampling boundary \u2014 coordinator report"
       ],
       "sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9"
     },
@@ -269,7 +269,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md",
       "read_scope": "Stronger claimed variant selected; no promotion beyond canonical audited sequence.",
       "checked_locators": [
-        "# Independent blind report — frozen"
+        "# Independent blind report \u2014 frozen"
       ],
       "sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d"
     },
@@ -382,7 +382,7 @@
       "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
       "read_scope": "Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.",
       "checked_locators": [
-        "# R2 final nonauthor synthesis and delivery audit — version 1"
+        "# R2 final nonauthor synthesis and delivery audit \u2014 version 1"
       ],
       "sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44"
     },
@@ -402,6 +402,51 @@
         "# Fresh nonauthor audit of structural candidate C1"
       ],
       "sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8"
+    },
+    "product-s3-proof": {
+      "path": "experiments/20261013-product-s3-mixing/proof.md",
+      "read_scope": "All sections; exact theorem, normalization, projection, coupling, shuttle reconstruction and scope read and self-reviewed. No independent referee.",
+      "checked_locators": [
+        "## 1. Exact statement and conventions",
+        "## 4. Mixing inside each count fiber",
+        "## 5. Combining projection and restriction"
+      ],
+      "sha256": "3424dfd43818331ddc029735c568582030f74aa77836e4f3aafb6bc2c36af22a"
+    },
+    "product-s3-report": {
+      "path": "experiments/20261013-product-s3-mixing/report.md",
+      "read_scope": "Complete report; scoped keep verdict and explicit lack of independent review.",
+      "checked_locators": [
+        "## Result",
+        "## Exact checks"
+      ],
+      "sha256": "79f1cbe3f9bd9f16005d654f39c5a94f01fdb381b75c48d7371d6d7a07b5a67f"
+    },
+    "product-s3-check": {
+      "path": "experiments/20261013-product-s3-mixing/check.py",
+      "read_scope": "Complete deterministic exact-check harness; run successfully in the author session.",
+      "checked_locators": [
+        "def check_count_coupling():",
+        "def check_case("
+      ],
+      "sha256": "47f3e33d391dd0a8ce5250a244067b858872d6543cbf895772e8391b34828157"
+    },
+    "product-s3-results": {
+      "path": "experiments/20261013-product-s3-mixing/results.json",
+      "read_scope": "Complete exact results; count-flow identities, coupling marginals, diagnostics and shuttle records inspected.",
+      "checked_locators": [
+        "\"coupling\":",
+        "\"boundary_checks\":"
+      ],
+      "sha256": "9a4ed0534b362c9234a53f44cbbe745f5c66807c94aa1c8d5e27025ba0800d69"
+    },
+    "product-s3-ledger": {
+      "path": "experiments/20261013-product-s3-mixing/claim_ledger.md",
+      "read_scope": "Whole ledger; proved author claims remain provisionally accepted in the map.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "95ac6ad3f572077501aa49eda003abcf3e5ecab90e0e95774077edad1160e302"
     }
   },
   "records": [
@@ -1552,6 +1597,41 @@
       "limitations": "Statement-traced grouped literature-transfer obstruction, not external theorem review.",
       "view": "obstructions",
       "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "ALT-PRODUCT-S3",
+      "version": 1,
+      "title": "Polynomial mixing for Hurwitz and square refresh on disjoint triples",
+      "family": "product-s3",
+      "kind": "theorem",
+      "model": "other-generators",
+      "claim": "For all within-triple transpositions in (S3)^k <= S_(3k), the specified lazy signed-Hurwitz / square-refresh chain on global uniform length-m identity words has gap >=1/(200 k m^12), with per-triple counts allowed to vary.",
+      "parameters": "k>=1, even m>=2; K=I/2+H/4+R/4; H chooses a linear slot and signed Hurwitz direction uniformly; R chooses a linear slot and replaces an equal pair by (s,s), s uniform among 3k gates, otherwise holds. TV mixing <=ceil(200 k m^12[(m/2)log(3k)+log(1/epsilon)]).",
+      "guards": "m=0 is a singleton; odd m infeasible; m=2 has actual gap 1/4. Gates never cross the fixed triple partition. This is a different alphabet and kernel from GOAL_SPEC.",
+      "assumptions": "Self-contained S3 prefix bijection, exact count projection, discrepancy coupling, translated color-shuffle comparison, bounded-preimage shuttle routing, and variance decomposition in the linked proof; no unproved input invoked by its author.",
+      "open_obligations": "Independent review of the new proof, especially the shuttle encoding and decomposition constants; larger or growing blocks remain unresolved.",
+      "source_claimed_status": "proved by author; keep pending independent review",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Complete proof written and self-reviewed in the same session; deterministic checks run for all-transposition S3,m4; S4,m4,m6 and product-S3 cases through k=3,m=6. 1080 exact count-coupling checks and 28422 shuttle routes. No independent reviewer or formal verification.",
+      "evidence": [
+        "product-s3-proof",
+        "product-s3-report",
+        "product-s3-check",
+        "product-s3-results",
+        "product-s3-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "product triples",
+        "Hurwitz square refresh S3 product"
+      ],
+      "regressions": "All finite checks passed; they falsify finite errors but do not certify the quantified theorem. Empty-triple weights and the length-two rate exception are retained.",
+      "disagreements": "No existing accepted claim is superseded. The main all-transposition mixing frontier remains open.",
+      "limitations": "Block-preserving action of a group of order 6^k, not a growing transitive action or unrestricted S_N. Very loose polynomial bound; no cryptographic pseudorandomness claim.",
+      "view": "results",
+      "review_binding": "2026-10-13 author report and claim ledger; exact artifacts pinned. This registration is provisional and is not independent mathematical certification."
     }
   ],
   "coverage": [
@@ -1809,6 +1889,20 @@
       "limits": "No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.",
       "records": [],
       "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "product-s3",
+      "title": "October 13 product-of-triples mixing investigation",
+      "prefixes": [
+        "experiments/20261013-product-s3-mixing"
+      ],
+      "disposition": "new author-complete theorem registered provisionally",
+      "read_depth": "all proof, script, raw output, plan, report and ledger read in the author session",
+      "limits": "Self-review and deterministic checks only; separate generator model; no independent referee or upgrade of the all-transposition frontier.",
+      "records": [
+        "ALT-PRODUCT-S3"
+      ],
+      "branch_disposition": "provisional: author-complete proof and exact checks; independent review pending"
     }
   ],
   "targets": [
@@ -1999,7 +2093,7 @@
       "**Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.",
       "**Current answer:** Several regimes have internally audited samplers, but there is no all-length theorem. Very short words can be sampled exactly; a sparse-length range has negligible-error samplers; sufficiently long words have a rank-recursive approximate sampler. The intermediate range remains open. Failed restricted samplers are not evidence of general sampling hardness.",
       "**Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.",
-      "**Evidence level:** This is a documentary consolidation of existing statements and scoped internal reviews, not a fresh proof audit. `accepted-inherited` records prior acceptance; same-model reviewers are correlated. The large heat-bath archive is only partly traced. See coverage before treating a branch as settled.",
+      "**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 result adds an author proof and exact checks, registered provisionally pending independent review. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.",
       "**Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum."
     ],
     "routes": {
@@ -2056,6 +2150,12 @@
           "text": "The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this.",
           "record": "G-HEATBATH"
         }
+      ],
+      "Other Generator Families": [
+        {
+          "text": "For (S3)^k with literal within-triple transpositions, a new self-contained Hurwitz/square-refresh proof gives gap >=1/(200 k m^12). Counts vary; fixed triple partition. Author result with exact checks, provisionally registered pending independent review.",
+          "record": "ALT-PRODUCT-S3"
+        }
       ]
     }
   },
@@ -2071,7 +2171,7 @@
     "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
     "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
   },
-  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.",
+  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered.",
   "conflicts": [
     {
       "id": "C-IRRED",

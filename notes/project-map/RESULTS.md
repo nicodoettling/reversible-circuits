@@ -495,6 +495,24 @@ June17 supplied exact small-case word/orbit diagnostics and a pure-Hurwitz negat
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping. No new exact-scope disagreement identified by this documentary trace.
 
+<a id="alt-product-s3"></a>
+## ALT-PRODUCT-S3: Polynomial mixing for Hurwitz and square refresh on disjoint triples
+
+For all within-triple transpositions in (S3)^k <= S_(3k), the specified lazy signed-Hurwitz / square-refresh chain on global uniform length-m identity words has gap >=1/(200 k m^12), with per-triple counts allowed to vary.
+
+- Effective status: **provisional**; source: proved by author; keep pending independent review
+- Mapping depth: statement-and-verdict-traced. Complete proof written and self-reviewed in the same session; deterministic checks run for all-transposition S3,m4; S4,m4,m6 and product-S3 cases through k=3,m=6. 1080 exact count-coupling checks and 28422 shuttle routes. No independent reviewer or formal verification.
+- Model: other-generators; parameters: k>=1, even m>=2; K=I/2+H/4+R/4; H chooses a linear slot and signed Hurwitz direction uniformly; R chooses a linear slot and replaces an equal pair by (s,s), s uniform among 3k gates, otherwise holds. TV mixing <=ceil(200 k m^12[(m/2)log(3k)+log(1/epsilon)]).
+- Guards: m=0 is a singleton; odd m infeasible; m=2 has actual gap 1/4. Gates never cross the fixed triple partition. This is a different alphabet and kernel from GOAL_SPEC.
+- Assumptions: Self-contained S3 prefix bijection, exact count projection, discrepancy coupling, translated color-shuffle comparison, bounded-preimage shuttle routing, and variance decomposition in the linked proof; no unproved input invoked by its author.
+- Remaining obligation: Independent review of the new proof, especially the shuttle encoding and decomposition constants; larger or growing blocks remain unresolved.
+- Limitations: Block-preserving action of a group of order 6^k, not a growing transitive action or unrestricted S_N. Very loose polynomial bound; no cryptographic pseudorandomness claim.
+- Version / verdict binding: 2026-10-13 author report and claim ledger; exact artifacts pinned. This registration is provisional and is not independent mathematical certification.
+- Evidence: [product-s3-proof](../../experiments/20261013-product-s3-mixing/proof.md), [product-s3-report](../../experiments/20261013-product-s3-mixing/report.md), [product-s3-check](../../experiments/20261013-product-s3-mixing/check.py), [product-s3-results](../../experiments/20261013-product-s3-mixing/results.json), [product-s3-ledger](../../experiments/20261013-product-s3-mixing/claim_ledger.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: All finite checks passed; they falsify finite errors but do not certify the quantified theorem. Empty-triple weights and the length-two rate exception are retained. No existing accepted claim is superseded. The main all-transposition mixing frontier remains open.
+
 ## Imported Literature
 
 These are inherited source translations, not a fresh literature audit.

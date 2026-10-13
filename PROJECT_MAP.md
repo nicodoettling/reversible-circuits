@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-10-01 (UTC).
+Documentary consolidation: 2026-10-13 (UTC).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -10,7 +10,7 @@ Documentary consolidation: 2026-10-01 (UTC).
 
 **Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.
 
-**Evidence level:** This is a documentary consolidation of existing statements and scoped internal reviews, not a fresh proof audit. `accepted-inherited` records prior acceptance; same-model reviewers are correlated. The large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
+**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 result adds an author proof and exact checks, registered provisionally pending independent review. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
 
 **Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
 
@@ -34,6 +34,10 @@ Documentary consolidation: 2026-10-01 (UTC).
 - Exact component selection already works. Supply connected words for larger support and g>=2, with error 2^(-b) in expected poly(N,m,b) time, to obtain global error <=N*2^(-b). This is sufficient, not necessary for every possible sampler. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
 - No all-length sampler is established, and no general hardness theorem explains the uncovered range. [G-ALL](notes/project-map/RESULTS.md#g-all)
 - The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this. [G-HEATBATH](notes/project-map/RESULTS.md#g-heatbath)
+
+## Other Generator Families
+
+- For (S3)^k with literal within-triple transpositions, a new self-contained Hurwitz/square-refresh proof gives gap >=1/(200 k m^12). Counts vary; fixed triple partition. Author result with exact checks, provisionally registered pending independent review. [ALT-PRODUCT-S3](notes/project-map/RESULTS.md#alt-product-s3)
 
 ## Read Next
 
