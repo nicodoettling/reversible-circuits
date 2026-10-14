@@ -1,0 +1,60 @@
+{
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "commit": "9a7ca2119172f87b15e9f85e28cee6dc91af188f",
+  "command": "python3 -B experiments/20261014-111117-nonlocal-graph-lift/tree_check.py",
+  "seeds": "none: exhaustive deterministic enumeration",
+  "imported_sources": {
+    "experiments/20261014-111117-nonlocal-graph-lift/check.py": "a144cd522d70eed5c3296e6eb8a227fbe54523437d434f98815a0ec496d7dfd3",
+    "experiments/20261013-single-cycle-walk/check.py": "7777f4dcae1183e43ca3398460ef38ffa367d07334555f33b42bca1083b9e2f3",
+    "experiments/20261014-tree-slides/check.py": "c76d6aedd82e91b1b6679801336f606f777e5c204a567d1ad918bb02061af212"
+  },
+  "cases": [
+    {
+      "N": 2,
+      "trees": 1,
+      "directed_slide_transitions": 0,
+      "max_primitive_lift_length": 0,
+      "path_bound": 4,
+      "codec_and_every_primitive_endpoint_ok": true,
+      "reverse_slide_and_uniform_macro_symmetry_ok": true
+    },
+    {
+      "N": 3,
+      "trees": 3,
+      "directed_slide_transitions": 6,
+      "max_primitive_lift_length": 2,
+      "path_bound": 12,
+      "codec_and_every_primitive_endpoint_ok": true,
+      "reverse_slide_and_uniform_macro_symmetry_ok": true
+    },
+    {
+      "N": 4,
+      "trees": 16,
+      "directed_slide_transitions": 72,
+      "max_primitive_lift_length": 6,
+      "path_bound": 24,
+      "codec_and_every_primitive_endpoint_ok": true,
+      "reverse_slide_and_uniform_macro_symmetry_ok": true
+    },
+    {
+      "N": 5,
+      "trees": 125,
+      "directed_slide_transitions": 900,
+      "max_primitive_lift_length": 12,
+      "path_bound": 40,
+      "codec_and_every_primitive_endpoint_ok": true,
+      "reverse_slide_and_uniform_macro_symmetry_ok": true
+    },
+    {
+      "N": 6,
+      "trees": 1296,
+      "directed_slide_transitions": 12960,
+      "max_primitive_lift_length": 20,
+      "path_bound": 60,
+      "codec_and_every_primitive_endpoint_ok": true,
+      "reverse_slide_and_uniform_macro_symmetry_ok": true
+    }
+  ],
+  "status": "all exact decoded-tree macro checks passed"
+}

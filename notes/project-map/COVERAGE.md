@@ -2,9 +2,9 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered.
+Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered. A further October 13 single-cycle delta adds exact local-kernel comparison, an explicit coded benchmark, and negative transfer witnesses; its adjacent-walk gap remains unresolved.
 
-Discovery baseline: 4028 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4048 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -126,6 +126,30 @@ Self-review and deterministic checks only; separate generator model; no independ
 
 Records: [ALT-PRODUCT-S3](RESULTS.md#alt-product-s3)
 
+## cycle-walk: October 13 single-cycle factorization walk
+
+6 discovered entries. local gap unresolved; exact reduction and coded benchmark provisionally mapped. Depth: proof, plan, script, report and ledger read; exact raw outputs machine-checked and diagnostic summaries inspected.
+
+Minimal full-cycle endpoint, separate from identity sampling. No local mixing theorem or independent referee. Literature model checked, original connectivity proof not re-audited.
+
+Records: [HB-CYCLE-MINIMAL](RESULTS.md#hb-cycle-minimal)
+
+## tree-slides: October 14 labeled-tree slide comparison
+
+6 discovered entries. author-complete auxiliary graph theorem provisionally registered. Depth: proof, plan, script, raw output, report and ledger read; exact assertions run through N=6; primary dependency theorem statements and kernel checked.
+
+Same-author mathematical work; no independent certification. Removing circuit functionality and order changes the model; no upgrade of circuit mixing claims.
+
+Records: [AUX-TREE-SLIDES](RESULTS.md#aux-tree-slides)
+
+## nonlocal-graph-lift: October 14 graph-selected Hurwitz lifts and decoded tree macros
+
+8 discovered entries. author-complete connectivity/comparison and derived macro theorem provisionally mapped. Depth: all eight artifacts read; exact enumeration and full paths run; earlier codec/tree proofs inspected.
+
+No independent review. Two different kernels are declared; general pair-chain gap remains unresolved.
+
+Records: [HB-NONLOCAL-LIFT](RESULTS.md#hb-nonlocal-lift), [HB-TREE-MACRO](RESULTS.md#hb-tree-macro)
+
 ## Unresolved and Reconciled Discrepancies
 
 - **C-IRRED (documentarily reconciled):** AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
@@ -194,6 +218,24 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [product-s3-check](../../experiments/20261013-product-s3-mixing/check.py): Complete deterministic exact-check harness; run successfully in the author session.
 - [product-s3-results](../../experiments/20261013-product-s3-mixing/results.json): Complete exact results; count-flow identities, coupling marginals, diagnostics and shuttle records inspected.
 - [product-s3-ledger](../../experiments/20261013-product-s3-mixing/claim_ledger.md): Whole ledger; proved author claims remain provisionally accepted in the map.
+- [cycle-walk-proof](../../experiments/20261013-single-cycle-walk/proof.md): Complete argument self-reviewed: exact target and kernels, tree lemma, local comparison, codec inverse proof and explicitly unresolved transfer.
+- [cycle-walk-report](../../experiments/20261013-single-cycle-walk/report.md): Whole report; inconclusive verdict for K and separate keep verdict for the coded benchmark.
+- [cycle-walk-check](../../experiments/20261013-single-cycle-walk/check.py): Complete deterministic standard-library codec/kernel harness, run successfully.
+- [cycle-walk-results](../../experiments/20261013-single-cycle-walk/results.json): Machine-checked output parsed; per-case counts, comparison ratios and nonlocal witnesses inspected. Exact diagnostic tables generated by the checked script.
+- [cycle-walk-ledger](../../experiments/20261013-single-cycle-walk/claim_ledger.md): Whole ledger: structural proved claims, refuted transfers and unresolved local gap kept separate.
+- [tree-slides-proof](../../experiments/20261014-tree-slides/proof.md): Complete same-author proof and dependency translation, including all kernel normalizations and the directed congestion count.
+- [tree-slides-report](../../experiments/20261014-tree-slides/report.md): Complete report; keep for the auxiliary theorem and reject for the forgetting-as-projection identification.
+- [tree-slides-check](../../experiments/20261014-tree-slides/check.py): Complete standard-library exact checker, successfully run; all states, reference transitions and load counts through N=6.
+- [tree-slides-results](../../experiments/20261014-tree-slides/results.json): Complete compact output inspected, including state counts, exact loads and the nonlumpability witness.
+- [tree-slides-ledger](../../experiments/20261014-tree-slides/claim_ledger.md): Complete claim ledger; imported theorem, proved comparison, negative projection result and unresolved circuit lift distinguished.
+- [nonlocal-proof](../../experiments/20261014-111117-nonlocal-graph-lift/proof.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-report](../../experiments/20261014-111117-nonlocal-graph-lift/report.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-check](../../experiments/20261014-111117-nonlocal-graph-lift/check.py): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-results](../../experiments/20261014-111117-nonlocal-graph-lift/results.json): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-tree-check](../../experiments/20261014-111117-nonlocal-graph-lift/tree_check.py): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-tree-results](../../experiments/20261014-111117-nonlocal-graph-lift/tree_results.json): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-ledger](../../experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-plan](../../experiments/20261014-111117-nonlocal-graph-lift/plan.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
 
 ## Branch Retrieval
 

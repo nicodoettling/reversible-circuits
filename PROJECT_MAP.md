@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-10-13 (UTC).
+Documentary consolidation: 2026-10-14 (UTC).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -10,9 +10,11 @@ Documentary consolidation: 2026-10-13 (UTC).
 
 **Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.
 
-**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 result adds an author proof and exact checks, registered provisionally pending independent review. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
+**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 and single-cycle records and October 14 auxiliary tree-slide theorem add author arguments and exact checks, registered provisionally pending independent review. The single-cycle local gap remains unresolved. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
 
-**Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
+**Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
+
+**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
 
 ## Surviving Samplers
 
@@ -38,6 +40,14 @@ Documentary consolidation: 2026-10-13 (UTC).
 ## Other Generator Families
 
 - For (S3)^k with literal within-triple transpositions, a new self-contained Hurwitz/square-refresh proof gives gap >=1/(200 k m^12). Counts vary; fixed triple partition. Author result with exact checks, provisionally registered pending independent review. [ALT-PRODUCT-S3](notes/project-map/RESULTS.md#alt-product-s3)
+
+## Endpoint Walk Benchmarks
+
+- For minimal factorizations of one full cycle, square refresh never acts and the Hurwitz kernel is comparable to two-factor heat bath. A separate Prüfer-coordinate walk mixes rapidly; polynomial mixing of the adjacent walk remains unresolved here. [HB-CYCLE-MINIMAL](notes/project-map/RESULTS.md#hb-cycle-minimal)
+
+## Auxiliary Graph Walks
+
+- With circuit order and functionality discarded, labeled-tree edge slides have gap >=2/[(N-1)^2(N-2)^2], for both the natural wedge-weighted target and a uniform-tree correction. Author comparison proof, provisionally registered; no transfer to adjacent Hurwitz mixing. [AUX-TREE-SLIDES](notes/project-map/RESULTS.md#aux-tree-slides)
 
 ## Read Next
 

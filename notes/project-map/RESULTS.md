@@ -513,6 +513,78 @@ For all within-triple transpositions in (S3)^k <= S_(3k), the specified lazy sig
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: All finite checks passed; they falsify finite errors but do not certify the quantified theorem. Empty-triple weights and the length-two rate exception are retained. No existing accepted claim is superseded. The main all-transposition mixing frontier remains open.
 
+<a id="hb-cycle-minimal"></a>
+## HB-CYCLE-MINIMAL: One-cycle minimal Hurwitz walk and a separate coded benchmark
+
+For minimal factorizations of a fixed full N-cycle, square refresh is inactive. The specified local K satisfies (3/4) E_Q <= E_K <= E_Q for lazy exact two-factor heat bath Q, equivalently single-rank resampling of maximal noncrossing-partition chains. A separate Prüfer-coordinate walk C mixes in O(N log(N/epsilon)); this does not prove a polynomial gap for K.
+
+- Effective status: **provisional**; source: proved structural reduction and coded benchmark; refuted one-step identification; local polynomial mixing unresolved
+- Mapping depth: statement-and-verdict-traced. Same-author proof and exact checks through N=7 (16807 states), with independent word enumeration through N=6; 27522 code changes checked, of which 23678 are not single K edges. Source model and move definitions inspected. No asymptotic local gap, independent referee or spectral extrapolation.
+- Model: endpoint; parameters: N>=3, m=N-1, fixed c=(0 1 ... N-1), rightmost-first product; K=I/2+H/4+R/4=(3/4)I+H/4 with uniformly signed Hurwitz at a uniformly chosen linear slot. Q is half-lazy two-factor conditional refresh. C is half-lazy uniform refresh of one of N-2 Prüfer coordinates.
+- Guards: N=1 and N=2 singleton exceptions. Endpoint is c, not identity. General full-cycle feasibility is m=N-1+2g; g>0 not resolved. Ordinary support-tree forgetting is not a bijection, and code refresh is not one adjacent Hurwitz move.
+- Assumptions: Self-contained tree argument, two-factor fiber classification and rooted time-edge codec; classical Prüfer bijection and product-coordinate coupling. Qualitative minimal connectivity cited from Adin--Roichman arXiv:1201.4669v3 Remark 2.6 with their Definition 2.3 moves translated.
+- Remaining obligation: Prove polynomial-congestion routing of code-refresh flow through actual K transitions, or an inverse-polynomial gap for the single-rank maximal-chain heat bath. Independent review of this reduction remains pending.
+- Limitations: Minimal endpoint only; direct coded sampling and fast coded mixing do not control adjacent Hurwitz mixing. The literature search did not establish absence of a mixing theorem elsewhere.
+- Version / verdict binding: 2026-10-13 report and ledger, exact artifacts pinned. Local verdict inconclusive; coded benchmark keep. Provisional registration is not independent proof certification.
+- Evidence: [cycle-walk-proof](../../experiments/20261013-single-cycle-walk/proof.md), [cycle-walk-report](../../experiments/20261013-single-cycle-walk/report.md), [cycle-walk-check](../../experiments/20261013-single-cycle-walk/check.py), [cycle-walk-results](../../experiments/20261013-single-cycle-walk/results.json), [cycle-walk-ledger](../../experiments/20261013-single-cycle-walk/claim_ledger.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: Identity harness passed S3,m4 and S4,m4,m6; code and local endpoint kernels passed. Retained explicit N=4 collisions and nonlocal code-refresh witnesses. No existing sampler theorem superseded. S-MINIMAL already covers efficient minimal-endpoint sampling; this record does not reclassify it as a local mixing theorem.
+
+<a id="aux-tree-slides"></a>
+## AUX-TREE-SLIDES: Polynomial mixing of labeled-tree edge slides
+
+On all vertex-labeled N-trees, the half-lazy uniform-incident-pair/direction slide walk has stationary mass proportional to W(T)=sum_v binom(deg(v),2) and gap at least 2/[(N-1)^2(N-2)^2]. The same bound holds for its Metropolis uniform-tree correction and the uniform-target all-edge-pair rejection variant. All mix in O(N^4 [N log N + log(1/epsilon)]) steps.
+
+- Effective status: **provisional**; source: proved graph theorem using a checked literature dependency; refuted ordinary-support Markov projection; circuit lift unresolved
+- Mapping depth: statement-and-verdict-traced. Same-author proof plus exact checks through N=6: 1296 trees and 34920 nontrivial down-up exchanges at N=6; independent edge-subset state enumeration; all three stationary laws, routes, fixed-forest reconstruction and rational congestion loads. Theorems 1.1 and 5.2 and the source kernel definition checked. No independent referee or spectral extrapolation.
+- Model: auxiliary; parameters: N>=3, distinguishable vertices, simple trees, no edge order, embedding, degree restriction or permutation endpoint. With probability 1/2 hold; otherwise choose the specified pair and one of its two edge slides uniformly. M accepts with min(1,W(T)/W(Tprime)); U holds on disjoint pairs.
+- Guards: N=1,2 singletons. This is a graph model with functionality discarded, not an identity-word chain or a projection theorem for adjacent Hurwitz moves. Uniform incident-pair proposals are not uniform-tree stationary for N>=4. Time is polynomial in explicit N, not log N wires.
+- Assumptions: Anari--Liu--Oveis Gharan--Vinzant arXiv:1811.01816v3 Theorems 1.1 and 5.2, specialized to the graphic matroid of K_N, give gap >=1/(N-1) for the precisely matched down-up reference chain. Cayley/Pruefer count supplies the TV state-size factor. Remaining comparison is proved in the source.
+- Remaining obligation: Independent review of the new comparison. Any circuit application still requires a correct target-preserving lift, legal adjacent-word simulations with polynomial stationary-flow congestion, and control of order information.
+- Limitations: Coarse polynomial exponent; complete labeled-tree state space only. No claim for uniformly distributed unlabeled shapes, degree restrictions, fixed endpoints or ordered circuit mixing.
+- Version / verdict binding: 2026-10-14 report and ledger, exact artifacts pinned. Keep as an author-complete auxiliary proof, provisional pending independent review.
+- Evidence: [tree-slides-proof](../../experiments/20261014-tree-slides/proof.md), [tree-slides-report](../../experiments/20261014-tree-slides/report.md), [tree-slides-check](../../experiments/20261014-tree-slides/check.py), [tree-slides-results](../../experiments/20261014-tree-slides/results.json), [tree-slides-ledger](../../experiments/20261014-tree-slides/claim_ledger.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: N=1,2 singleton checks; N=3 exact row gives gap 3/4 versus bound 1/2; N=4 star/path target bias and identical-support ordered words with different projected Hurwitz rows. Identity kernels not changed. Preserves the unresolved HB-CYCLE-MINIMAL and G-HEATBATH gap claims. A tree/factorization bijection does not identify ordinary support forgetting or the two Markov kernels.
+
+<a id="hb-nonlocal-lift"></a>
+## HB-NONLOCAL-LIFT: Nonlocal graph-selected pair lifts: connectivity and gap comparison
+
+For every feasible fixed endpoint g and length m, adjacent Hurwitz plus arbitrary square refresh is connected by a self-contained vertex-sweep proof, with diameter <=2(N+3)m^2. The exact half-lazy nonlocal pair lift K_G is uniform-reversible and satisfies (2/m) gap(K_A)<=gap(K_G)<=8M(M+1)m^3 gap(K_A), M=binom(N,2). General polynomial mixing remains open.
+
+- Effective status: **provisional**; source: proved connectivity, stationarity and polynomial comparison; general polynomial mixing unresolved
+- Mapping depth: statement-and-verdict-traced. 67,087 exact normal-form checks and 536,958 macro-channel checks, including every primitive endpoint; exact integer symmetry and all-fiber connectivity in S3,m4 and S4,m4 and identity S4,m6. Same-author proof only.
+- Model: endpoint; parameters: N>=2, feasible m>=2; uniform Omega_g(N,m), rightmost-first products. K_G=I/2+H_G/4+R_G/4 chooses all binom(m,2) pairs uniformly. Each macro conjugates its intervening gates and is a shuttle/update/unshuttle path.
+- Guards: Disjoint commutations are included; omitting them freezes the minimal two-disjoint-transposition example. Singleton and empty fibers are separate. Naive replacement of nonadjacent repeated gates without middle conjugation is invalid.
+- Assumptions: Self-contained vertex sweep, canonical reduced word, square transport and recoverable-source comparison. No Hurwitz classification theorem. Polynomial in explicit N,m, not log N wires.
+- Remaining obligation: Independent review and an inverse-polynomial Poincare inequality for K_G or K_A. A polynomial diameter and graph projection alone do not supply a gap.
+- Limitations: K_G is a particular corrected lift, not every available-slide selection rule. The graph distribution is induced by circuit multiplicities. No general inverse-polynomial gap proved.
+- Version / verdict binding: 2026-10-14 author proof and claim ledger with exact output. Provisional, not independently certified.
+- Evidence: [nonlocal-proof](../../experiments/20261014-111117-nonlocal-graph-lift/proof.md), [nonlocal-report](../../experiments/20261014-111117-nonlocal-graph-lift/report.md), [nonlocal-check](../../experiments/20261014-111117-nonlocal-graph-lift/check.py), [nonlocal-results](../../experiments/20261014-111117-nonlocal-graph-lift/results.json), [nonlocal-ledger](../../experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md), [nonlocal-plan](../../experiments/20261014-111117-nonlocal-graph-lift/plan.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: m=0,1,2; odd lengths with correct endpoint parity; N=2; reduced and nonreduced arbitrary endpoints; two explicit rejected uncorrected proposals. Older classification-dependent identity connectivity is preserved. This supplies a separate proof for the pair kernel, not a silent upgrade of the manuscript {3,4,5} gap.
+
+<a id="hb-tree-macro"></a>
+## HB-TREE-MACRO: Fast decoded-tree macro walk on minimal full-cycle words
+
+For a full N-cycle g and m=N-1, encoding a circuit by its rooted time-labeled support tree, running one uniform-target tree slide, and decoding defines K_T with gap >=2/[(N-1)^2(N-2)^2]. Each completed macro has a constructive implementation using <=2N(N-1) adjacent Hurwitz moves.
+
+- Effective status: **provisional**; source: proved macro mixing from explicitly listed prior inputs
+- Mapping depth: statement-and-verdict-traced. All 13,938 directed tree-slide transitions through N=6 decoded and implemented; every primitive endpoint checked, both codec identities and reverse symmetry checked. N=6: 1296 states, 12960 transitions, max path 20 against bound 60.
+- Model: endpoint; parameters: N>=3, m=N-1. Half-lazy tree kernel chooses all unordered pairs of distinct tree edges uniformly, holds on disjoint pairs, and slides a uniform direction on incident pairs. TV mixing O(N^4 [N log N+log(1/epsilon)]) completed macros.
+- Guards: Outputs observed at completed macro boundaries; global permutation relabeling is allowed. K_T is not K_G or the usual random adjacent Hurwitz kernel. Original vertex-labeled support need not change by just one slide. N=1,2 singleton cases.
+- Assumptions: Rooted time-edge tree bijection from HB-CYCLE-MINIMAL; uniform tree-slide gap from AUX-TREE-SLIDES and its checked Anari et al. down-up dependency; reduced vertex-sweep paths from HB-NONLOCAL-LIFT.
+- Remaining obligation: Independent review of the combined same-author inputs. Extension to nonminimal words or arbitrary endpoints is not established. The adjacent-Hurwitz gap remains open.
+- Limitations: Minimal full cycle only. Paths may pass through a normal form, so intermediate states need not be uniform. No polynomial congestion claim or local mixing transfer.
+- Version / verdict binding: Section 8 and ledger, exact tree_results.json; same-author derived theorem pending independent review.
+- Evidence: [nonlocal-proof](../../experiments/20261014-111117-nonlocal-graph-lift/proof.md), [nonlocal-report](../../experiments/20261014-111117-nonlocal-graph-lift/report.md), [nonlocal-tree-check](../../experiments/20261014-111117-nonlocal-graph-lift/tree_check.py), [nonlocal-tree-results](../../experiments/20261014-111117-nonlocal-graph-lift/tree_results.json), [nonlocal-ledger](../../experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md), [tree-slides-proof](../../experiments/20261014-tree-slides/proof.md), [cycle-walk-proof](../../experiments/20261013-single-cycle-walk/proof.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: [HB-NONLOCAL-LIFT](RESULTS.md#hb-nonlocal-lift), [AUX-TREE-SLIDES](RESULTS.md#aux-tree-slides), [HB-CYCLE-MINIMAL](RESULTS.md#hb-cycle-minimal)
+- Regressions / disagreements: Singleton N=2 and minimal N=3 included; exact complete paths and uniform tree reversibility. No empirical asymptotic inference. Earlier graph-to-circuit unresolved wording must distinguish ordinary adjacent mixing from the user-authorized completed-sequence model. This resolves a separately defined macro lift, not the old local comparison obligation.
+
 ## Imported Literature
 
 These are inherited source translations, not a fresh literature audit.
@@ -523,6 +595,7 @@ These are inherited source translations, not a fresh literature audit.
 - **E-DYZ**: [B. Dubrovin, D. Yang and D. Zagier, Classical Hurwitz numbers and related combinatorics, revised primary manuscript](https://people.mpim-bonn.mpg.de/zagier/files/tex/ClassicalHurwitz/HurwitzRevised.pdf), Proposition 1, equation (13); Section 1.2, equations (19)-(20). C(d,k)=d! k! h_(g,d) and positive connected-count recurrence; supplies scalar counts, not a literal word decoder. Source translation inherited from g01-global-audit; no local frozen primary PDF or new external check added.
 - **E-BIT**: [T. Ben-Itzhak and M. Teicher, Graph theoretic method for determining Hurwitz equivalence in the symmetric group, arXiv:math/0110110v1](https://arxiv.org/abs/math/0110110v1), Theorem 3.4 and Definitions 1.3, 3.1-3.3. Equal labeled support components and component weights classify identity-transposition Hurwitz orbits. Their generator is the inverse project generator; orbit equivalence is unchanged. Checked in hb-irred-audit. Repository copy Literature/0110110v1.pdf is inventoried but not reread in this mapping.
 - **E-JSTV**: [M. Jerrum, J.-B. Son, P. Tetali and E. Vigoda, Elementary bounds on Poincare and log-Sobolev constants for decomposable Markov chains](https://doi.org/10.1214/105051604000000639), Theorem 1; archived M15 application and L-0022. Stationary-flow projection and rejected-exit restriction gaps combine; half-laziness gives gap(K)>=bar_gap*min_gap/3. Reducible restrictions have zero gap; never renormalize away exits. Documentary translation from archived report/ledger; full external theorem not reread here.
+- **E-ALOV-DOWNUP**: [Nima Anari, Kuikui Liu, Shayan Oveis Gharan and Cynthia Vinzant, Log-Concave Polynomials II: High-Dimensional Walks and an FPRAS for Counting Bases of a Matroid, arXiv:1811.01816v3](https://arxiv.org/pdf/1811.01816v3), Definition of M_mu and Theorem 1.1 on PDF p.2; Theorem 5.2 on PDF p.23. Unit-weight graphic matroid of K_N has rank N-1. Delete a uniform tree edge and reinsert a uniform cross-component edge including the old edge; gap at least 1/(N-1), without added laziness. Used only for AUX-TREE-SLIDES. Primary theorem statements and exact kernel specialization checked on 2026-10-14; external theorem invoked, not reproved.
 
 ## Nonlogical Relations
 
@@ -536,3 +609,5 @@ These links do not supply proof prerequisites.
 - [O-H0](OBSTRUCTIONS.md#o-h0) **does-not-imply** [G-HEATBATH](RESULTS.md#g-heatbath): Omitted stationary mass of a direct restricted sampler is not a low-conductance cut of the local walk. [boundary-ledger](../../experiments/20260922-sparse-boundary/claim_ledger.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md)
 - [S-DENSE](RESULTS.md#s-dense) **does-not-imply** [G-HEATBATH](RESULTS.md#g-heatbath): A direct recursive algorithm need not be a transition or a comparison for K. [dense-statement](../../experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/report.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md)
 - [O-H2](OBSTRUCTIONS.md#o-h2) **does-not-imply** [S-QUOTIENT](RESULTS.md#s-quotient): Global mass failure does not invalidate the exact small-support conditional decoder. [quotient-audit](../../experiments/20260922-sparse-boundary/construction_audit.md)
+- [AUX-TREE-SLIDES](RESULTS.md#aux-tree-slides) **does-not-imply** [HB-CYCLE-MINIMAL](RESULTS.md#hb-cycle-minimal): Ordinary support forgetting is not injective or strongly lumpable, and graph-adjacent pairs need not be adjacent word slots. A quantitative circuit lift remains missing. [tree-slides-proof](../../experiments/20261014-tree-slides/proof.md), [tree-slides-results](../../experiments/20261014-tree-slides/results.json)
+- [HB-TREE-MACRO](RESULTS.md#hb-tree-macro) **does-not-imply** [HB-CYCLE-MINIMAL](RESULTS.md#hb-cycle-minimal): A rapidly mixing decoded-tree macro kernel with polynomial-length Hurwitz implementations need not give polynomial stationary-flow congestion for the ordinary adjacent kernel. [nonlocal-proof](../../experiments/20261014-111117-nonlocal-graph-lift/proof.md), [nonlocal-ledger](../../experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md)
