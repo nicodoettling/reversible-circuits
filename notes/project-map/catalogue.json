@@ -911,6 +911,54 @@
         "# Endpoint-blind initialization"
       ],
       "sha256": "31dfcbb8b988a51a49456804042160af54865959bafc7f6b22b50629c657fcd3"
+    },
+    "decorrelation-bootstrap-plan": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/plan.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# bridge-decorrelation-bootstrap"
+      ],
+      "sha256": "82dd32efc0b7d5d0280e9a36084ec6a3ea418680cd14be7c3b1b8cefc21e3427"
+    },
+    "decorrelation-bootstrap-proof": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/proof.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# A static assumption"
+      ],
+      "sha256": "e2f2ae03b7cd8b45e679a21553469c53478387ba3f041c1163e6b0fb1e06ff5e"
+    },
+    "decorrelation-bootstrap-check": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/check.py",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "def main():"
+      ],
+      "sha256": "db73dfc3d817a9397af26352ed0b9bf645262cf1f8169cab8439a9b67fd4e9f1"
+    },
+    "decorrelation-bootstrap-results": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "\"kind\": \"manifest\""
+      ],
+      "sha256": "306868626c636bd15373ecbb9439a3da0d4aece4c64e40b7c5d7c4fdd88d3fe1"
+    },
+    "decorrelation-bootstrap-ledger": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "fe0a17e8a56cd3dbbe3281b615c2c3f76e28cb9b69333190dd829f8e45a422e6"
+    },
+    "decorrelation-bootstrap-report": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# A meaningful static assumption"
+      ],
+      "sha256": "694f3529d4c18288021ee948c87093961a7d73757421328e52f34316535257e9"
     }
   },
   "records": [
@@ -2535,6 +2583,48 @@
       "limitations": "No general all-endpoint small-move gap, no counterexample to the specific identity-mixing implication, and no implementation guarantee for the ideal exact block bath. All new results await independent review.",
       "view": "results",
       "review_binding": "2026-10-19 same-author proofs, deterministic exact checks and scoped archive reconciliation; provisionally registered, not independently certified."
+    },
+    {
+      "id": "HB-DECORRELATION-BOOTSTRAP",
+      "version": 1,
+      "title": "Conditional tail decorrelation bootstraps local mixing across lengths",
+      "family": "bridge-decorrelation-bootstrap",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "A universal bound rho(first third,last third)<=1-delta under every prescribed-endpoint uniform bridge gives Lambda_N(m)>=(delta/2)Lambda_N(m-floor(m/3)) for the actual adjacent Hurwitz/square walk. A polynomial short-length base gap therefore extends to all endpoints and lengths. The known length-three base suffices under this unproved static hypothesis. A scale-product weakening and an N/2-cutoff corollary are conditional. The stronger numerical guess rho<=1/2 is exactly refuted.",
+      "parameters": "N>=3; feasible m,g; uniform Omega_g(N,m), rightmost-first. K_A=I/2+H/4+R/4, uniform linear adjacent slots. Lambda_N(m)=(m-1) min_g gap(K_A). Tail lengths a=floor(m/3), middle m-2a. With delta universal, gap>=delta/[24(m-1)(m-2)^alpha], alpha=log(2/delta)/log(3/2), m>=4.",
+      "guards": "The decorrelation premise is conjectured, not proved by finite checks. It controls all observables of separated tails under the endpoint-conditioned target, not only short marginals of an initializer. An inverse-polynomial loss at every recursive level may compound into quasipolynomial time. Normalize random scan only once.",
+      "assumptions": "Uniform tail-correlation deficit for the main conditional theorem; prior all-endpoint length-three K_A gap. The N/2 variant additionally uses archived sharp O(N log N) parity smoothing (DS Lemma14/Section3 Plancherel input) and inverse-polylog deficits only at intermediate lengths. Elementary projection norm and Dirichlet occurrence bounds are derived.",
+      "open_obligations": "Prove or refute the proposed uniform or scale-product conditional-decorrelation estimate, particularly at growing-N near-minimal endpoints; independent review of the conditional bootstrap and exact negative witness.",
+      "source_claimed_status": "proved conditional bootstrap and exact rho<=1/2 refutation; finite rational certificates; empirical spectral estimates; uniform hypothesis and general mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "97 endpoint/length cases: S3,S4,S5 m4..12 and S6 m4..8. 37 exact rational rho<99/100 certificates at N<=4; required identity joint-count enumeration; exact S5,m4 correlation witness 917/1800; 499497 slot checks. Two power seeds, four iteration caps, no numerical upper-bound claim.",
+      "evidence": [
+        "decorrelation-bootstrap-plan",
+        "decorrelation-bootstrap-proof",
+        "decorrelation-bootstrap-check",
+        "decorrelation-bootstrap-results",
+        "decorrelation-bootstrap-ledger",
+        "decorrelation-bootstrap-report"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-ADJACENT-LOCAL",
+        "HB-BASE"
+      ],
+      "aliases": [
+        "meaningful assumption for mixing",
+        "balanced bridge decorrelation",
+        "conditional maximal correlation",
+        "N/2 complexity bootstrap",
+        "short to long circuit mixing"
+      ],
+      "regressions": "m0,1 singleton/empty; m2 direct; N2 singleton; feasible odd endpoints; near-minimal endpoints included in declared finite range. rho<=1/2 refuted at S5,m4. S3 correlation zero at all nonempty overlaps by exact parity uniformity.",
+      "disagreements": "Archive M10 already supplies large-overlap correlation and recursion above smoothing scale. This record proposes its unproved balanced-overlap extension at shorter scales, not a rediscovery or unconditional completion. The o(N) overlap obstruction with N^3 tails has a different geometry.",
+      "limitations": "No all-N proof of the static premise and no unconditional new general local gap. Four numerical cases hit the iteration cap; seed agreement is not a certificate. Extension to other groups requires conditional factorization, compatible local forms and a base gap.",
+      "view": "results",
+      "review_binding": "2026-10-20 same-author conditional proofs and exact falsification, provisionally registered. Prior length-three proof and sharp smoothing are named dependencies, not new independent certification."
     }
   ],
   "coverage": [
@@ -2934,6 +3024,20 @@
         "HB-ENDPOINT-BLINDNESS"
       ],
       "branch_disposition": "provisional proof progress with unresolved transfer"
+    },
+    {
+      "id": "bridge-decorrelation-bootstrap",
+      "title": "October 20 conditional tail decorrelation and complexity bootstrap",
+      "prefixes": [
+        "experiments/20261020-073334-bridge-decorrelation-bootstrap"
+      ],
+      "disposition": "conditional recursive implication and exact stronger-constant refutation provisionally mapped; universal static premise unresolved",
+      "read_depth": "six current artifacts inspected; 101-record exact/numerical harness completed; prior length-three proof and overlap input traced; DS primary named Plancherel passage checked",
+      "limits": "No independent referee and no finite-to-asymptotic inference. Numerical estimates are not upper bounds.",
+      "records": [
+        "HB-DECORRELATION-BOOTSTRAP"
+      ],
+      "branch_disposition": "provisional conditional theorem and falsifiable static research target"
     }
   ],
   "targets": [
@@ -3455,6 +3559,16 @@
       "evidence": [
         "endpoint-blindness-proof",
         "endpoint-blindness-ledger"
+      ]
+    },
+    {
+      "from": "HB-DECORRELATION-BOOTSTRAP",
+      "to": "G-HEATBATH",
+      "type": "does-not-imply",
+      "reason": "The original local walk would mix polynomially under the stated static decorrelation premise, but that premise is unresolved. Finite certificates and the conditional implication alone do not settle the global gap.",
+      "evidence": [
+        "decorrelation-bootstrap-proof",
+        "decorrelation-bootstrap-ledger"
       ]
     }
   ],

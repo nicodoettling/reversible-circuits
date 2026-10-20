@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered. A further October 13 single-cycle delta adds exact local-kernel comparison, an explicit coded benchmark, and negative transfer witnesses; its adjacent-walk gap remains unresolved.
 
-Discovery baseline: 4087 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4093 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -198,6 +198,14 @@ No independent referee and no original-kernel polynomial-gap theorem. Long-overl
 
 Records: [HB-ENDPOINT-BLINDNESS](RESULTS.md#hb-endpoint-blindness)
 
+## bridge-decorrelation-bootstrap: October 20 conditional tail decorrelation and complexity bootstrap
+
+6 discovered entries. conditional recursive implication and exact stronger-constant refutation provisionally mapped; universal static premise unresolved. Depth: six current artifacts inspected; 101-record exact/numerical harness completed; prior length-three proof and overlap input traced; DS primary named Plancherel passage checked.
+
+No independent referee and no finite-to-asymptotic inference. Numerical estimates are not upper bounds.
+
+Records: [HB-DECORRELATION-BOOTSTRAP](RESULTS.md#hb-decorrelation-bootstrap)
+
 ## Unresolved and Reconciled Discrepancies
 
 - **C-IRRED (documentarily reconciled):** AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
@@ -323,6 +331,12 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [endpoint-blindness-results](../../experiments/20261019-140150-local-endpoint-blindness/results.jsonl): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
 - [endpoint-blindness-ledger](../../experiments/20261019-140150-local-endpoint-blindness/claim_ledger.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
 - [endpoint-blindness-report](../../experiments/20261019-140150-local-endpoint-blindness/report.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [decorrelation-bootstrap-plan](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/plan.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-proof](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/proof.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-check](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/check.py): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-results](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-ledger](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-report](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
 
 ## Branch Retrieval
 
