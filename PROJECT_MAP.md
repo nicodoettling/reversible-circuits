@@ -44,6 +44,12 @@ Documentary consolidation: 2026-10-14 (UTC).
 ## Endpoint Walk Benchmarks
 
 - For minimal factorizations of one full cycle, square refresh never acts and the Hurwitz kernel is comparable to two-factor heat bath. A separate Prüfer-coordinate walk mixes rapidly; polynomial mixing of the adjacent walk remains unresolved here. [HB-CYCLE-MINIMAL](notes/project-map/RESULTS.md#hb-cycle-minimal)
+- For full-cycle length N+1, the original pair hybrid remains open at growing N. S3 all-length mixing, a balanced-square branch improvement and a frozen exact-multigraph obstruction are proved in a new author report. [HB-CYCLE-EXCESS](notes/project-map/RESULTS.md#hb-cycle-excess)
+- A separate tree-plus-2h-extra-edges global refresh has an exact spanning-tree rejection correction. Its hybrid mixes in O_h(N^h log(1/epsilon)) completed attempts at fixed h, including explicit N+1 and N+3 bounds; it does not prove pair-slide mixing. [ALT-TREE-EXTRAS](notes/project-map/RESULTS.md#alt-tree-extras)
+- For the actual adjacent K_A, a uniform-in-N length-three gap >=1/24 yields constant-factor comparison with exact triple heat bath at every length. A local correlation obstruction prevents the tested proof from extending to the full-cycle N+1 polynomial gap. [HB-ADJACENT-LOCAL](notes/project-map/RESULTS.md#hb-adjacent-local)
+- The actual arbitrary-position pair walk has gap between 1/(2m) and 3/(4m) in S3. For every N its Dirichlet form lies between (2/m) and 4m^2 times the adjacent form; growing-N full-cycle mixing remains unresolved. [HB-ALLPAIR-INTERVAL](notes/project-map/RESULTS.md#hb-allpair-interval)
+- The support marginal has compatible-order weights, but the actual all-pair walk does not close on support graphs, even for full-cycle N+1. Its averaged graph kernel does not describe the observed process beyond one step; polynomial growing-N marginal mixing remains unresolved. [HB-SUPPORT-MARGINAL](notes/project-map/RESULTS.md#hb-support-marginal)
+- Independent ternary Hurwitz matching updates have layer gap between (1/48)min(m gamma,1) and (m/2)gamma on each orbit; nonidentity endpoints require a twisted seam. This gives a parallel speedup and a commuting benchmark, while growing-N full-cycle mixing remains unresolved. [HB-PARALLEL-LAYERS](notes/project-map/RESULTS.md#hb-parallel-layers)
 
 ## Auxiliary Graph Walks
 
