@@ -16,6 +16,7 @@ Statuses below are scoped to exact claims. `accepted-inherited` means a recorded
 - **other-generators:** Different generator libraries, including expander benchmarks; implementation and endpoint-conditioned sampling must be specified anew.
 - **crypto-gibbs:** Speculative computational hardness/pseudorandomness or different expected-length stationary targets.
 - **experiment:** Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied.
+- **relaxed-endpoint:** Uniform length-m all-transposition words with N-cycles(eval(w))<=k, identity center; a different target from exact bridges. Kernel and correction budget must be declared.
 
 All direct samplers below use independent fair bits in their mathematical model; seeded finite PRNG tests are reproducibility checks, not a proof of exact randomness.
 
@@ -728,6 +729,24 @@ A universal bound rho(first third,last third)<=1-delta under every prescribed-en
 - Adjudication: None recorded for this scope.
 - Logical dependencies: [HB-ADJACENT-LOCAL](RESULTS.md#hb-adjacent-local), [HB-BASE](RESULTS.md#hb-base)
 - Regressions / disagreements: m0,1 singleton/empty; m2 direct; N2 singleton; feasible odd endpoints; near-minimal endpoints included in declared finite range. rho<=1/2 refuted at S5,m4. S3 correlation zero at all nonempty overlaps by exact parity uniformity. Archive M10 already supplies large-overlap correlation and recursion above smoothing scale. This record proposes its unproved balanced-overlap extension at shorter scales, not a rediscovery or unconditional completion. The o(N) overlap obstruction with N^3 tails has a different geometry.
+
+<a id="alt-relaxed-endpoint"></a>
+## ALT-RELAXED-ENDPOINT: Two-transposition endpoint relaxation: connectivity, slowdown and sampling reduction
+
+Half-lazy single-gate refresh with endpoint defect at most two connects all exact identity words for every N and even m. Complete finite quotient checks prove full connectivity for all N at even m<=6. At m4 and N>=14 a repeated-pair cut gives gap<=5/binom(N,2) and mixing time>=floor(binom(N,2)/10). A k2 polynomial mixing theorem would imply near-uniform exact-identity sampling with O(N^4) rejection overhead; general rapid mixing remains unresolved.
+
+- Effective status: **provisional**; source: proved exact-core connectivity, fixed-short-length full connectivity, quadratic slowdown and count/rejection reduction; empirical finite spectra; all-length rapid mixing unresolved
+- Mapping depth: statement-and-verdict-traced. Required identity S3,m4 and S4,m4,m6; 62571 exact move simulations; five labeled/quotient graph agreements; nine quotient counts checked against labeled DP, up to 46854304 allowed words; 231160 count inequalities; exact cut flux at eight N through 100. Two numerical seeds with residuals, no gap lower certificate.
+- Model: relaxed-endpoint; parameters: All transpositions, rightmost-first, identity center. R holds with probability 1/2, otherwise replaces a uniform gate by a uniform transposition and rejects iff defect exceeds k. N>=2, main even m>=4, k=2. Exact-core path length <=4(N+3)m^2. Identity mass >=1/[1+2C(N,3)+3C(N,4)].
+- Guards: The target permits nonidentity words and is not the exact bridge law. k1 equals k0 at even lengths; k2 is unrestricted in S3/S4. Strict defect descent fails. Connectivity and a quadratic mixing lower bound do not imply rapid mixing. Increasing k does not make the gap monotone.
+- Assumptions: Elementary cycle arithmetic and Cauchy--Schwarz; constructive fixed-endpoint vertex sweep reproduced from HB-NONLOCAL-LIFT; complete ordered-word relabeling quotient with support size <=m+k and exact orbit weights. The sampling consequence assumes an unproved polynomial worst-case mixing bound.
+- Remaining obligation: Prove boundary-shell access and an inverse-polynomial gap at growing N,m for k2 or a separately specified logarithmic budget; independently review the proofs and finite-completeness argument.
+- Limitations: Fixed-length completeness extends N only, not m. Constant-budget rejection overhead is polynomial; the crude logarithmic-budget overhead is quasipolynomial. Appending a correction does not preserve exact-word uniformity. No independent proof certification.
+- Version / verdict binding: 2026-10-26 same-author proofs, exhaustive checks and two independent counting implementations; provisional integration with no mathematical acceptance upgrade.
+- Evidence: [relaxed-endpoint-plan-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/plan.md), [relaxed-endpoint-proof-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/proof.md), [relaxed-endpoint-check-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/check.py), [relaxed-endpoint-results-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl), [relaxed-endpoint-spectral-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl), [relaxed-endpoint-quotient-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py), [relaxed-endpoint-quotient-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl), [relaxed-endpoint-audit-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.py), [relaxed-endpoint-audit-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl), [relaxed-endpoint-claim-ledger-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md), [relaxed-endpoint-report-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/report.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: [HB-NONLOCAL-LIFT](RESULTS.md#hb-nonlocal-lift)
+- Regressions / disagreements: m0,m2,N2 and odd relaxed/empty exact fibers checked. Witness ((12),(13),(24),(34)) refutes strict descent and admits defects 2,2,0. Length-eight generation stopped without a result. Uses the later constructive fixed-endpoint connectivity argument, not the historical unverified Hurwitz classification. Ordered-word symmetry quotient is distinct from the rejected unordered-support projection. No original-chain mixing result is upgraded.
 
 ## Imported Literature
 

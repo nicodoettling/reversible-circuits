@@ -959,6 +959,94 @@
         "# A meaningful static assumption"
       ],
       "sha256": "694f3529d4c18288021ee948c87093961a7d73757421328e52f34316535257e9"
+    },
+    "relaxed-endpoint-plan-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/plan.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# relaxed-endpoint-refresh"
+      ],
+      "sha256": "2d24844387c30f33a292963c8ac4d3e651e65c731bd35251264faf145cc45615"
+    },
+    "relaxed-endpoint-proof-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/proof.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Bounded endpoint error: rigorous progress and the remaining mixing gap"
+      ],
+      "sha256": "6eb04bb050b2fa05ce8fc46be6e4849bfdc2a65b2732f42b41c3b877c64729fc"
+    },
+    "relaxed-endpoint-check-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/check.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "dfb73ab58695051b3e67b67621e211fed1658bf811f0a06d405a9b2554894bfe"
+    },
+    "relaxed-endpoint-results-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "aa4e7674dc653ec10bb5c0c974edd68d2854087ff1e3d7b1b6407a52128bc6fe"
+    },
+    "relaxed-endpoint-spectral-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "e34674e5e13bc9ec9845b6bfe5627e7cd138416e6d8164888c2705f52cb9dcc0"
+    },
+    "relaxed-endpoint-quotient-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "f094a62e8ea7e69c6381130c27c00e7c48eccbca69c1d0a46b06f53877416fd9"
+    },
+    "relaxed-endpoint-quotient-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "5945dedafa2c7d49022e299fd0c7d31ac6db969dbb51cbdcbd0fff844f188c82"
+    },
+    "relaxed-endpoint-audit-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/audit.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "d8eceba97f835f4fb6a836ec011a151901a733cf9ffca3a223251172a2cb4b72"
+    },
+    "relaxed-endpoint-audit-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "318279afbe8bf82cd906e52a8d7ff58ab04534f5ddd87c21925fe1b9a38958c7"
+    },
+    "relaxed-endpoint-claim-ledger-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Bounded endpoint error claim ledger"
+      ],
+      "sha256": "b48edb17fd5b7cec45923db7f8b1833a0e0101be2bef9f0d04e0ee07766ed2b3"
+    },
+    "relaxed-endpoint-report-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/report.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Two-transposition endpoint relaxation"
+      ],
+      "sha256": "18e722470926f45438079473e7434307d378c1ae0a7e168a327a1843496f4a27"
     }
   },
   "records": [
@@ -2625,6 +2713,51 @@
       "limitations": "No all-N proof of the static premise and no unconditional new general local gap. Four numerical cases hit the iteration cap; seed agreement is not a certificate. Extension to other groups requires conditional factorization, compatible local forms and a base gap.",
       "view": "results",
       "review_binding": "2026-10-20 same-author conditional proofs and exact falsification, provisionally registered. Prior length-three proof and sharp smoothing are named dependencies, not new independent certification."
+    },
+    {
+      "id": "ALT-RELAXED-ENDPOINT",
+      "version": 1,
+      "title": "Two-transposition endpoint relaxation: connectivity, slowdown and sampling reduction",
+      "family": "relaxed-endpoint-refresh",
+      "kind": "theorem",
+      "model": "relaxed-endpoint",
+      "claim": "Half-lazy single-gate refresh with endpoint defect at most two connects all exact identity words for every N and even m. Complete finite quotient checks prove full connectivity for all N at even m<=6. At m4 and N>=14 a repeated-pair cut gives gap<=5/binom(N,2) and mixing time>=floor(binom(N,2)/10). A k2 polynomial mixing theorem would imply near-uniform exact-identity sampling with O(N^4) rejection overhead; general rapid mixing remains unresolved.",
+      "parameters": "All transpositions, rightmost-first, identity center. R holds with probability 1/2, otherwise replaces a uniform gate by a uniform transposition and rejects iff defect exceeds k. N>=2, main even m>=4, k=2. Exact-core path length <=4(N+3)m^2. Identity mass >=1/[1+2C(N,3)+3C(N,4)].",
+      "guards": "The target permits nonidentity words and is not the exact bridge law. k1 equals k0 at even lengths; k2 is unrestricted in S3/S4. Strict defect descent fails. Connectivity and a quadratic mixing lower bound do not imply rapid mixing. Increasing k does not make the gap monotone.",
+      "assumptions": "Elementary cycle arithmetic and Cauchy--Schwarz; constructive fixed-endpoint vertex sweep reproduced from HB-NONLOCAL-LIFT; complete ordered-word relabeling quotient with support size <=m+k and exact orbit weights. The sampling consequence assumes an unproved polynomial worst-case mixing bound.",
+      "open_obligations": "Prove boundary-shell access and an inverse-polynomial gap at growing N,m for k2 or a separately specified logarithmic budget; independently review the proofs and finite-completeness argument.",
+      "source_claimed_status": "proved exact-core connectivity, fixed-short-length full connectivity, quadratic slowdown and count/rejection reduction; empirical finite spectra; all-length rapid mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Required identity S3,m4 and S4,m4,m6; 62571 exact move simulations; five labeled/quotient graph agreements; nine quotient counts checked against labeled DP, up to 46854304 allowed words; 231160 count inequalities; exact cut flux at eight N through 100. Two numerical seeds with residuals, no gap lower certificate.",
+      "evidence": [
+        "relaxed-endpoint-plan-md",
+        "relaxed-endpoint-proof-md",
+        "relaxed-endpoint-check-py",
+        "relaxed-endpoint-results-jsonl",
+        "relaxed-endpoint-spectral-jsonl",
+        "relaxed-endpoint-quotient-py",
+        "relaxed-endpoint-quotient-jsonl",
+        "relaxed-endpoint-audit-py",
+        "relaxed-endpoint-audit-jsonl",
+        "relaxed-endpoint-claim-ledger-md",
+        "relaxed-endpoint-report-md"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT"
+      ],
+      "aliases": [
+        "bounded endpoint correction",
+        "loose functionality preserving",
+        "two-error single-gate refresh",
+        "logarithmic transposition correction"
+      ],
+      "regressions": "m0,m2,N2 and odd relaxed/empty exact fibers checked. Witness ((12),(13),(24),(34)) refutes strict descent and admits defects 2,2,0. Length-eight generation stopped without a result.",
+      "disagreements": "Uses the later constructive fixed-endpoint connectivity argument, not the historical unverified Hurwitz classification. Ordered-word symmetry quotient is distinct from the rejected unordered-support projection. No original-chain mixing result is upgraded.",
+      "limitations": "Fixed-length completeness extends N only, not m. Constant-budget rejection overhead is polynomial; the crude logarithmic-budget overhead is quasipolynomial. Appending a correction does not preserve exact-word uniformity. No independent proof certification.",
+      "view": "results",
+      "review_binding": "2026-10-26 same-author proofs, exhaustive checks and two independent counting implementations; provisional integration with no mathematical acceptance upgrade."
     }
   ],
   "coverage": [
@@ -3038,6 +3171,20 @@
         "HB-DECORRELATION-BOOTSTRAP"
       ],
       "branch_disposition": "provisional conditional theorem and falsifiable static research target"
+    },
+    {
+      "id": "relaxed-endpoint-refresh",
+      "title": "October 26 bounded endpoint-error single-gate refresh",
+      "prefixes": [
+        "experiments/20261026-141337-relaxed-endpoint-refresh"
+      ],
+      "disposition": "scoped proofs, exact connectivity checks and conditional sampler reduction provisionally registered; general relaxed mixing unresolved",
+      "read_depth": "all eleven artifacts inspected; labeled graphs, full ordered-word quotient, separate count DP, exact cut flux and two numerical probes run",
+      "limits": "No independent referee or numerical gap lower certificate. All-N connectivity is restricted to even lengths at most six. No result from the stopped length-eight generation.",
+      "records": [
+        "ALT-RELAXED-ENDPOINT"
+      ],
+      "branch_disposition": "provisional partial proof progress; keep candidate, no original-chain decision"
     }
   ],
   "targets": [
@@ -3341,7 +3488,8 @@
     "auxiliary": "An explicitly named quotient, restricted, comparison or ideal chain; not interchangeable with the full K.",
     "other-generators": "Different generator libraries, including expander benchmarks; implementation and endpoint-conditioned sampling must be specified anew.",
     "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
-    "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
+    "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied.",
+    "relaxed-endpoint": "Uniform length-m all-transposition words with N-cycles(eval(w))<=k, identity center; a different target from exact bridges. Kernel and correction budget must be declared."
   },
   "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered. A further October 13 single-cycle delta adds exact local-kernel comparison, an explicit coded benchmark, and negative transfer witnesses; its adjacent-walk gap remains unresolved.",
   "conflicts": [

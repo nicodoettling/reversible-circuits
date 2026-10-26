@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The 2026-10-13 delta adds the product-S3 author proof and deterministic exact checks, with independent review pending; historical branches were not re-audited. No formalization branch was discovered. A further October 13 single-cycle delta adds exact local-kernel comparison, an explicit coded benchmark, and negative transfer witnesses; its adjacent-walk gap remains unresolved.
 
-Discovery baseline: 4093 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4104 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -206,6 +206,14 @@ No independent referee and no finite-to-asymptotic inference. Numerical estimate
 
 Records: [HB-DECORRELATION-BOOTSTRAP](RESULTS.md#hb-decorrelation-bootstrap)
 
+## relaxed-endpoint-refresh: October 26 bounded endpoint-error single-gate refresh
+
+11 discovered entries. scoped proofs, exact connectivity checks and conditional sampler reduction provisionally registered; general relaxed mixing unresolved. Depth: all eleven artifacts inspected; labeled graphs, full ordered-word quotient, separate count DP, exact cut flux and two numerical probes run.
+
+No independent referee or numerical gap lower certificate. All-N connectivity is restricted to even lengths at most six. No result from the stopped length-eight generation.
+
+Records: [ALT-RELAXED-ENDPOINT](RESULTS.md#alt-relaxed-endpoint)
+
 ## Unresolved and Reconciled Discrepancies
 
 - **C-IRRED (documentarily reconciled):** AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
@@ -337,6 +345,17 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [decorrelation-bootstrap-results](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
 - [decorrelation-bootstrap-ledger](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
 - [decorrelation-bootstrap-report](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [relaxed-endpoint-plan-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/plan.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-proof-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/proof.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-check-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/check.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-results-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-spectral-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-quotient-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-quotient-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-audit-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-audit-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-claim-ledger-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-report-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/report.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
 
 ## Branch Retrieval
 
