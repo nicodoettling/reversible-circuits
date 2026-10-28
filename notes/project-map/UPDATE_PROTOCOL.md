@@ -15,6 +15,10 @@ research-run launcher. Start at [PROJECT_MAP.md](../../PROJECT_MAP.md).
   deterministic views. Do not manually edit their repeated claim fields.
 - `integration-2026-10-01.md`: initial integration receipt and verification scope.
 - `retrieval_checks.json`: documentary navigation questions and checked sources.
+- `PROGRAMME.md` and `PROGRAMME_DECISIONS.md`: versioned planning cards and
+  append-only outcome receipts. Planning progress is separate from theorem status.
+- `campaign-identity-bridge-sampling-20261025/`: frozen mission and operator
+  commands; preparation does not start inference.
 
 Exact source statements and scoped verdicts remain authoritative. The map's
 coarse logical graph omits microlemmas, which remain in linked proofs/ledgers.
@@ -81,6 +85,11 @@ repair a changed proof fingerprint or justify keeping an accepted descendant.
 5. Reconcile stronger old claims before proposing a supposedly new target. Update
    ranks, stop conditions and historical launch-brief dispositions. New runs need
    separate user authorization; this protocol does not launch or resume them.
+   After an operator starts an explicitly authorized resilient campaign, its
+   coordinator may choose successive bounded investigations inside that frozen
+   mission using programme admission/receipt rules. The selected recovery and
+   quota authorization governs attempt continuation. This does not authorize
+   a different scientific mission or an unrelated launch.
 6. Write a dated integration receipt: prior commit, changed record versions,
    reviewed source hashes and verdict bindings, affected descendants, exact read
    depth, disagreements, coverage exclusions, priority changes and tests run.
@@ -132,3 +141,18 @@ They do not verify mathematical formulas, audit every proof, rerun experiments,
 check external URL availability or build formalizations. A hash identifies bytes,
 not truth. A baseline acceptance flag requires a receipt but cannot judge whether
 its author actually performed an adequate review.
+
+## Campaign Map Integration
+
+The campaign catalogue sets `frontier_path` to
+`notes/project-map/FRONTIER.md`. The same render/check commands then keep the
+front page inside an authorized artifact directory. The primary checkout uses
+the default `PROJECT_MAP.md`. This is a rendering location, not a different
+mathematical catalogue. Review campaign results before merging; restore the
+primary front-page setting when integrating them into main.
+
+Discovery explicitly excludes `.campaigns/` and linked-worktree `.git` metadata.
+Scientific artifacts under the declared `research-campaigns/` and campaign
+experiment directories remain hashed, including new/untracked outputs. Runtime
+manifests, STOP markers and quota logs must never become research evidence or
+Git checkpoint artifacts. No campaign setup changes a source proof fingerprint.

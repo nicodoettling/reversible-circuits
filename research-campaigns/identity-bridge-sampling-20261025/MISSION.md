@@ -167,17 +167,64 @@ it until a named new ingredient arrives. Choose another card only if its own
 entry conditions hold. New in-scope cards require the same novelty/admission
 and review rules.
 
-When the theorem is proved, a genuine declared-model refutation is reviewed,
-or all viable routes require operator input, publish an exact-scope final
-handoff and committed COMPLETION.json requesting operator review. Clearly
-distinguish proved/refuted/unresolved mathematics. Completion of a subtask,
-exit zero or a document banner is not overall theorem acceptance. Do not call
-acknowledge --accept-completion yourself. If new work remains viable, continue
-the same mission after integrating the current outcome.
+When the theorem is proved or a genuine declared-model refutation is reviewed,
+publish an exact-scope final handoff and committed COMPLETION.json requesting
+operator review. If all viable routes require operator input, use the structured
+NEEDS_ATTENTION.json protocol below with the mathematics explicitly unresolved;
+do not label this as theorem completion. Completion of a subtask, exit zero or
+a document banner is not overall theorem acceptance. Do not call
+acknowledge --accept-completion or rearm yourself. If new work remains viable,
+continue the same mission after integrating the current outcome.
 
 This longrun delivery contract is OFF for ordinary foreground preparation,
 status/Q&A, edits and Git work. It applies only inside this explicitly launched
 campaign's sealed attempt. It grants no independent launch authority.
+
+## Operational Compatibility: 2026-10-28
+
+These instructions adopt the installed v0.3.1 attention/output protocols while
+preserving the scientific mission, programme cards and existing manifest.
+They override conflicting operational wording in the frozen initial appendix.
+The optional between-attempt manager is not enabled; the research coordinator
+continues to select in-mission investigations using the maintained programme.
+
+When blocked on operator, platform, authentication, permission or infrastructure
+input, freeze a safe detailed handoff, normally checkpoint reviewed stable
+research, then atomically publish
+research-campaigns/identity-bridge-sampling-20261025/NEEDS_ATTENTION.json
+before ending the turn. Use exactly six fields: schema_version=1,
+campaign_id="identity-bridge-sampling-20261025", request_id (a fresh canonical
+UUID generated for this incident), kind, reason (1..200 nonsecret characters),
+and handoff (canonical relative path to the saved handoff under an authorized
+artifact root, for example the campaign's RECOVERY.md).
+Allowed kinds: operator, platform, refusal, auth, permission, infrastructure.
+Explicit policy refusals use refusal; do not infer a refusal from an unknown
+error or silently classify an explicit content block as a transient abort.
+
+A prose-only exit zero does not signal a durable stop. Never acknowledge your
+own request, remove it to unblock continuation, rearm the campaign, replay or
+rephrase a refused task, force a service restart, or change tools/model/permissions
+to get around a restriction. An operator must review the exact incident and
+pin its resolution note; a later incident needs its own disposition.
+With management disabled, the new direct content-block classifier leads to an
+operator hold after verified cleanup. If a manager is later separately enabled,
+direct content-block review is diagnostic only and must HOLD.
+
+A normal sandbox Git write can report a read-only index because the linked
+worktree uses the shared repository's Git metadata. Use the existing auto-review
+mechanism for the already authorized, explicitly selected coordinator commit.
+Do not alter sandbox or approval settings. If reviewed execution is denied or
+unavailable, preserve the handoff and publish kind=permission; no blind retries.
+
+Detailed experiment output belongs in unique owned artifact files. Print only
+a small completion summary; console capture is limited to 1 MiB combined
+stdout/stderr. If the CURRENT bounded helper exits 123 with the exact diagnostic
+"bounded output limit exceeded; descendants cleaned; job incomplete; write detailed results to an artifact file",
+record an incomplete experiment, retain partial evidence, revise the output
+plan and obtain a new bounded reservation before another run. Do not retry
+unchanged or accept truncated results. A child's exit 123 alone does not prove
+overflow or cleanup. Timeout 124 retains its confirmed-clean semantics.
+Exit 125 or unknown/unconfirmed cleanup requires attention, not a bypass.
 
 ## Runtime and Operational Boundaries
 
@@ -230,17 +277,17 @@ even m>=0 and b>=1; output length is explicit. Independent fair bits and
 rightmost-first composition are the mathematical conventions. Degree N,
 output length m and precision b are distinct resources.
 
-The current evidence hub is the [research map](../../PROJECT_MAP.md). On the
+The current evidence hub is the research map (`PROJECT_MAP.md`). On the
 campaign branch its generated entry point is `notes/project-map/FRONTIER.md`.
 Exact statements and reviews linked from the catalogue govern mathematical
 status. This programme governs allocation of work, rather than acceptance.
 
-The [connected-component reduction](../../experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md)
+The connected-component reduction (`experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md`)
 removes scalar counting, component selection, labels and interleavings from one
 sufficient route. Its remaining primitive concerns larger support and genus
 g>=2. For a connected identity word on v vertices, length=2v-2+2g.
-The [existing recursive construction](../../experiments/20260907-genus-one-sampler/proof.md)
-and [marked-cut construction](../../experiments/20260907-genus-one-sampler/roles/r2-structural/report.md)
+The existing recursive construction (`experiments/20260907-genus-one-sampler/proof.md`)
+and marked-cut construction (`experiments/20260907-genus-one-sampler/roles/r2-structural/report.md`)
 are predecessors, with their recorded review limits.
 
 ## Portfolio
@@ -405,13 +452,13 @@ eligible allocation rather than a false declaration of overall completion.
 
 ## Durable Decisions
 
-Append outcomes to [PROGRAMME_DECISIONS.md](PROGRAMME_DECISIONS.md) before updating
+Append outcomes to PROGRAMME_DECISIONS.md (`notes/project-map/PROGRAMME_DECISIONS.md`) before updating
 cards; preserve old versions under the campaign's immutable investigation files.
 Receipts name exact proofs/reviews/hashes, mathematical and planning status,
 scope gained, failed routes, affected dependencies, enabled/disabled actions,
 actual resources where observed, and unchanged priorities with reasons.
 Update catalogue target priorities and launch-brief dispositions with the same
-reviewed delta. Use [UPDATE_PROTOCOL.md](UPDATE_PROTOCOL.md) for discovery,
+reviewed delta. Use UPDATE_PROTOCOL.md (`notes/project-map/UPDATE_PROTOCOL.md`) for discovery,
 evidence and generated views. In the campaign catalogue, FRONTIER.md is the
 front page; primary PROJECT_MAP.md remains the pre-campaign snapshot.
 

@@ -1,7 +1,14 @@
 {
   "schema_version": 1,
-  "date": "2026-10-01",
-  "timezone": "UTC",
+  "frontier_path": "notes/project-map/FRONTIER.md",
+  "programme": {
+    "programme": "notes/project-map/PROGRAMME.md",
+    "programme_decisions": "notes/project-map/PROGRAMME_DECISIONS.md",
+    "prepared_campaign": "notes/project-map/campaign-identity-bridge-sampling-20261025/README.md",
+    "campaign_compatibility": "notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md"
+  },
+  "date": "2026-10-28",
+  "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
     "scope": {
@@ -136,7 +143,7 @@
       "path": "experiments/20260907-genus-one-sampler/proof.md",
       "read_scope": "S1.v2 theorem, count normalization, final-letter decomposition, allocation DP, exact-law and bit-cost sections read.",
       "checked_locators": [
-        "# Canonical connected sampler proof — S1.v2 (accepted)"
+        "# Canonical connected sampler proof \u2014 S1.v2 (accepted)"
       ],
       "reviewed_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
       "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
@@ -161,7 +168,7 @@
       "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
       "read_scope": "Restricted-global law and m=2N obstruction selected.",
       "checked_locators": [
-        "# Global component consequence — G1.v1.2 (accepted)"
+        "# Global component consequence \u2014 G1.v1.2 (accepted)"
       ],
       "reviewed_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
       "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
@@ -178,7 +185,7 @@
       "path": "experiments/20260922-sparse-global-sampler/proof.md",
       "read_scope": "Full canonical proof read during status/consolidation; no separate mathematical certification.",
       "checked_locators": [
-        "# Global sparse identity-bridge sampling — SG-T1.v1"
+        "# Global sparse identity-bridge sampling \u2014 SG-T1.v1"
       ],
       "reviewed_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
       "sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2"
@@ -203,7 +210,7 @@
       "path": "experiments/20260922-sparse-boundary/proof.md",
       "read_scope": "Full canonical positive theorem, finite genus sum, dispatch repair and constraints read.",
       "checked_locators": [
-        "# Canonical smaller positive extension — SB-T1.v1"
+        "# Canonical smaller positive extension \u2014 SB-T1.v1"
       ],
       "reviewed_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
       "sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611"
@@ -212,7 +219,7 @@
       "path": "experiments/20260922-sparse-boundary/obstruction.md",
       "read_scope": "Full canonical obstruction, explicit subsequence and scope read.",
       "checked_locators": [
-        "# Canonical H0 boundary obstruction — SB-O1.v1"
+        "# Canonical H0 boundary obstruction \u2014 SB-O1.v1"
       ],
       "reviewed_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
       "sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894"
@@ -229,7 +236,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md",
       "read_scope": "Whole exact-version final referee report read.",
       "checked_locators": [
-        "# Final exact-version integration audit — RF-INT.v2"
+        "# Final exact-version integration audit \u2014 RF-INT.v2"
       ],
       "sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d"
     },
@@ -237,7 +244,7 @@
       "path": "experiments/20260922-sparse-boundary/coordinator_report.md",
       "read_scope": "Whole final synthesis, finite evidence summaries, secondary decoder and open primitive.",
       "checked_locators": [
-        "# Beyond the sparse sampling boundary — coordinator report"
+        "# Beyond the sparse sampling boundary \u2014 coordinator report"
       ],
       "sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9"
     },
@@ -269,7 +276,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md",
       "read_scope": "Stronger claimed variant selected; no promotion beyond canonical audited sequence.",
       "checked_locators": [
-        "# Independent blind report — frozen"
+        "# Independent blind report \u2014 frozen"
       ],
       "sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d"
     },
@@ -382,7 +389,7 @@
       "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
       "read_scope": "Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.",
       "checked_locators": [
-        "# R2 final nonauthor synthesis and delivery audit — version 1"
+        "# R2 final nonauthor synthesis and delivery audit \u2014 version 1"
       ],
       "sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44"
     },
@@ -1809,6 +1816,19 @@
       "limits": "No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.",
       "records": [],
       "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "campaign",
+      "title": "Resilient identity-bridge research campaign",
+      "prefixes": [
+        "research-campaigns",
+        "experiments/20261025-identity-bridge-sampling-campaign"
+      ],
+      "disposition": "authorized attempt active; intake only, no new mathematical acceptance",
+      "read_depth": "preparation diff, exact predecessor statements and scoped inherited verdicts; new research pending admission",
+      "limits": "Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.",
+      "records": [],
+      "branch_disposition": "pending: inspect exact campaign artifacts and reviews"
     }
   ],
   "targets": [
@@ -1992,6 +2012,10 @@
     {
       "path": "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md",
       "disposition": "Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization."
+    },
+    {
+      "path": "notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md",
+      "disposition": "Authorized attempt 000001 active from 2026-10-28; P0 admission precedes research allocation. Frozen any-sampler mission and same-mission recovery remain unchanged."
     }
   ],
   "project": {
@@ -2071,7 +2095,7 @@
     "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
     "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
   },
-  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.",
+  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed. Authorized attempt intake on 2026-10-28 validated the bounded sandbox and preserved all inherited mathematical statuses; no campaign mathematics is accepted.",
   "conflicts": [
     {
       "id": "C-IRRED",
@@ -2237,11 +2261,13 @@
       ".mypy_cache",
       ".venv",
       "venv",
-      "node_modules"
+      "node_modules",
+      ".campaigns"
     ],
     "excluded_paths": [
       "notes/project-map",
-      "PROJECT_MAP.md"
+      "PROJECT_MAP.md",
+      ".git"
     ],
     "excluded_filename_patterns": [
       "*.pyc",
@@ -2263,7 +2289,7 @@
       "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md",
       "notes/local-heatbath-polynomial-mixing-resolution-resolution.md"
     ],
-    "rationale": "Exclude repository/cache metadata and this self-referential map output tree. Skip TeX intermediates, not research PDFs. Runtime log/status growth is metadata-only; raw results JSON/JSONL remain hashed research. Symlinks and special files are inventoried but never followed/read. Future mathematical evidence inside an excluded directory or log must be extracted to a research artifact and pinned."
+    "rationale": "Exclude repository/cache metadata and this self-referential map output tree. Skip TeX intermediates, not research PDFs. Runtime log/status growth is metadata-only; raw results JSON/JSONL remain hashed research. Symlinks and special files are inventoried but never followed/read. Future mathematical evidence inside an excluded directory or log must be extracted to a research artifact and pinned. Campaign runtime directories and linked-worktree .git pointers are excluded; scientific outputs in declared research-campaigns/ and experiments/ roots remain hashed."
   },
   "branch_overrides": [
     {

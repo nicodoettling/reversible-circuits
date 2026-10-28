@@ -1,1 +1,20 @@
-{"tasks": []}
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "I0-REVIEW",
+      "agent": "/root/intake_review",
+      "status": "completed",
+      "role": "documentary preparation review",
+      "directory": "research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review",
+      "next": "None; immutable documentary report frozen, not proof certification.",
+      "report": "research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review/report-v1.md"
+    },
+    {
+      "id": "P0.v1",
+      "agent": "/root",
+      "status": "pending",
+      "next": "Finish first checkpoint and admission; no mathematical experiment before checkpoint adoption."
+    }
+  ]
+}

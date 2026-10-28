@@ -2,9 +2,9 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.
+Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed. Authorized attempt intake on 2026-10-28 validated the bounded sandbox and preserved all inherited mathematical statuses; no campaign mathematics is accepted.
 
-Discovery baseline: 4023 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4034 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -112,9 +112,17 @@ Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-cr
 
 ## operations: Operational instructions, environment and runner smoke
 
-36 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+35 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
+
+Records: Pending; no mathematical record inferred.
+
+## campaign: Resilient identity-bridge research campaign
+
+12 discovered entries. authorized attempt active; intake only, no new mathematical acceptance. Depth: preparation diff, exact predecessor statements and scoped inherited verdicts; new research pending admission.
+
+Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.
 
 Records: Pending; no mathematical record inferred.
 

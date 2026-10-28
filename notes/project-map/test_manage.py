@@ -81,6 +81,36 @@ class MapChecks(unittest.TestCase):
         self.assertEqual(current["files"]["research/new.md"]["family"], "f")
         self.assertEqual(manage.drift(self.baseline, current)["new"], ["research/new.md"])
 
+    def test_campaign_runtime_and_worktree_git_metadata_are_excluded(self):
+        self.cat["inventory_policy"]["pruned_directory_names"].append(".campaigns")
+        self.cat["inventory_policy"]["excluded_paths"].append(".git")
+        (self.root / ".campaigns/demo/worktree").mkdir(parents=True)
+        (self.root / ".campaigns/demo/worktree/proof.md").write_text("runtime copy")
+        (self.root / ".git").write_text("gitdir: fixture")
+        current = manage.discover(self.root, self.cat)
+        self.assertFalse(any(p.startswith(".campaigns/") or p == ".git"
+                             for p in current["files"]))
+
+    def test_campaign_frontier_stays_in_checkpoint_directory(self):
+        (self.root / "PROJECT_MAP.md").write_text("primary entry stays untouched")
+        self.cat["frontier_path"] = "notes/project-map/FRONTIER.md"
+        self.assertEqual(self.cli("render").returncode, 0)
+        self.assertEqual((self.root / "PROJECT_MAP.md").read_text(), "primary entry stays untouched")
+        self.assertTrue((self.root / "notes/project-map/FRONTIER.md").is_file())
+        self.assertEqual(self.cli("render", "--check").returncode, 0)
+
+    def test_frontier_path_cannot_write_arbitrary_files(self):
+        self.cat["frontier_path"] = "research/proof.md"
+        with self.assertRaises(ValueError):
+            manage.render(self.cat, self.baseline)
+
+    def test_programme_navigation_and_missing_document(self):
+        self.cat["programme"] = {"programme": "notes/project-map/PROGRAMME.md"}
+        self.assertIn("missing programme document", self.errors())
+        (self.root / "notes/project-map/PROGRAMME.md").write_text("# Programme\n")
+        self.assertEqual(self.errors(), "")
+        self.assertIn("PROGRAMME.md", manage.render(self.cat, self.baseline)["PROJECT_MAP.md"])
+
     def test_new_family_and_branch(self):
         (self.root / "new-family/mission-M02").mkdir(parents=True)
         (self.root / "new-family/proof.md").write_text("new")
