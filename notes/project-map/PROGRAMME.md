@@ -2,7 +2,7 @@
 
 Version 1.1, operational clarification 2026-10-28 (Europe/Berlin). Scientific
 cards P0.v1-P5.v1 and their scopes are unchanged. Planning state: active
-authorized attempt; P0 admission pending first checkpoint (D-20261028-03). Campaign ID: `identity-bridge-sampling-20261025`.
+authorized attempt; I1 active after P0 admission (D-20261028-04). Campaign ID: `identity-bridge-sampling-20261025`.
 
 ## Objective and Evidence
 
@@ -30,10 +30,10 @@ are predecessors, with their recorded review limits.
 
 | ID/version | Planning state | Question | Map predecessors | Entry condition |
 | --- | --- | --- | --- | --- |
-| P0.v1 | planned, first | Which existing result or new test makes the next allocation worthwhile? | T-CONNECTED, T-MASS, T-AUDIT | Read exact claims, relevant old failures and current recovery state |
-| P1.v1 | planned, primary | Can final-letter recursion sample connected genus-two words efficiently? | S-G01, R-CONNECTED, O-COUNTS | P0 finds an uncovered statement and a concrete allocation identity/test |
-| P2.v1 | planned, competing | Can the marked-cut construction extend beyond genus one? | S-CUT, O-COUNTS | P0 identifies a new cut/grammar with specified multiplicities |
-| P3.v1 | planned, diagnostic | Which component types carry enough bridge probability to extend the global regime? | S-COUNTS, S-SPARSE, O-H0, O-H2 | A specified event/policy and exact count computation or asymptotic lemma |
+| P0.v1 | achieved for I1 | Which existing result or new test makes the next allocation worthwhile? | T-CONNECTED, T-MASS, T-AUDIT | Read exact claims, relevant old failures and current recovery state |
+| P1.v1 | active in I1 | Can final-letter recursion sample connected genus-two words efficiently? | S-G01, R-CONNECTED, O-COUNTS | P0 finds an uncovered statement and a concrete allocation identity/test |
+| P2.v1 | active in I1 | Can the marked-cut construction extend beyond genus one? | S-CUT, O-COUNTS | P0 identifies a new cut/grammar with specified multiplicities |
+| P3.v1 | active in I1 | Which component types carry enough bridge probability to extend the global regime? | S-COUNTS, S-SPARSE, O-H0, O-H2 | A specified event/policy and exact count computation or asymptotic lemma |
 | P4.v1 | reserve | Can the rank lift improve accuracy at fixed length? | S-DENSE, S-STAR, O-TABLE | A new positive connection law, avoiding rejected endpoint inventories |
 | P5.v1 | audit/delivery | Does the exact current result survive full review and change the global frontier? | T-AUDIT and the selected result | Frozen statement, proof/code, complete reports and executable regressions |
 

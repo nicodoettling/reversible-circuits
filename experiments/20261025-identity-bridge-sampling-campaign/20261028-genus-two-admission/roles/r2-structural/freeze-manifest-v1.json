@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "candidate": "C2.v1",
+  "status": "PROVISIONAL-author-frozen-pending-blind-and-exact-version-review",
+  "frozen_utc": "2026-10-28T11:12:06.721350+00:00",
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "payload": [
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/input-v1.md",
+      "sha256": "927d5188bc86c6a99473af80fc04df4807d8f9cebabc81f64c6ad30343e0e4ff",
+      "bytes": 1652
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/plan.md",
+      "sha256": "d17643ecab41dbbf9ee887ce483aabba84a0ba3a01224c598b77f59559d70397",
+      "bytes": 1576
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/checkpoint-early-v1.md",
+      "sha256": "2134aee470b2c90d6f1b90613e3e936af7599bb32e74d462a6b465a691b562a0",
+      "bytes": 972
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/checkpoint-halfway-v1.md",
+      "sha256": "1ff03e0afc4fb571d4aadf673e41493ee3e7d78c9313f6b2c9d038fbffeccc50",
+      "bytes": 1578
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/theorem-v1.md",
+      "sha256": "2a90e7971639ce4d443c3be4ce0bc7db169936bc55b2216293851a9ea7b229a9",
+      "bytes": 2230
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md",
+      "sha256": "fab2c7ff33966b61ccbaab06f66f98867eef3778840ab82b1eed255f7a9f6eef",
+      "bytes": 22699
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/cut_genus_two.py",
+      "sha256": "03825d5c82f55a09340588b00ebc5e63fb248eae8342ef129f5b1dfb6a92263e",
+      "bytes": 14458
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/audit_grammar.py",
+      "sha256": "45c3d3d5afc14068656a692acbc4d5f5efb641ac6cb241db31b46186ba10909d",
+      "bytes": 10392
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/grammar-results-v1.json",
+      "sha256": "a427bba80a9827dd7ab327c2321ae0b4f2b83e20692d47e7f4d9b7ffd305ad8f",
+      "bytes": 61264
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/job-I1-J2-plan.json",
+      "sha256": "c492402d352d1ce3b65365dc186263d28766ed7f1ac971a396f8664bd8a9a2a8",
+      "bytes": 1185
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/job-I1-J2-outcome.json",
+      "sha256": "41fd02580afd637f83253217a518b02255f6c9f8e6be123bd5c069a5673bc4b4",
+      "bytes": 901
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md",
+      "sha256": "9551f7035889fbc6fba6f60fd7a0ff80bdf367f52ff1440dd073ba75f7747534",
+      "bytes": 7951
+    }
+  ],
+  "external_dependencies_and_reference": [
+    {
+      "path": "experiments/20260907-genus-one-sampler/proof.md",
+      "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
+      "bytes": 14867
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/sampler.py",
+      "sha256": "d9f7acf9365199a3a78a805a71307b4945f8babf1f765f77fba1bb10301f270d",
+      "bytes": 11915
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_audit.md",
+      "sha256": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1",
+      "bytes": 15413
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/candidate_audit.md",
+      "sha256": "b9ad74276bc553aee8344f68646fe10e77f4a2d3420f522602f6ee7795f60390",
+      "bytes": 19768
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/proof.md",
+      "sha256": "42cf1bdc767462157d5aa173244d604becf2c1f0a77a0d783b9d3d00b73e5b68",
+      "bytes": 13547
+    },
+    {
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md",
+      "sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8",
+      "bytes": 17318
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "sha256": "ef3e0ad0bfd609eeb0c2f6197c8990cd8bb0a4925bb860e50cd577848d7c17a9",
+      "bytes": 6735
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/cut-reference-results-v1.json",
+      "sha256": "93fd279b73e65d05da18a8a5d613e466cc94e33ac4687bf036273d8c7b030fc0",
+      "bytes": 6157
+    }
+  ],
+  "scope": "Exact connected identity genus2 sampler at length2N+2; not arbitrary-endpoint genus2 or all-length global sampling",
+  "same_model_review_correlation": "Required; this author payload has no new nonauthor verdict yet."
+}

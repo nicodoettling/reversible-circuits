@@ -1,0 +1,233 @@
+{
+  "status": "complete",
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "seeds": null,
+  "script_sha256": "2d6497eb1e373c9aa48d0719db0d0c20cbb63eb16e53d83f760bed86bacbf295",
+  "generated_utc": "2026-10-28T10:54:03.322105+00:00",
+  "regressions": {
+    "identity_totals": [
+      {
+        "N": 2,
+        "m": 0,
+        "count": 1
+      },
+      {
+        "N": 2,
+        "m": 1,
+        "count": 0
+      },
+      {
+        "N": 2,
+        "m": 2,
+        "count": 1
+      },
+      {
+        "N": 2,
+        "m": 6,
+        "count": 1
+      },
+      {
+        "N": 3,
+        "m": 4,
+        "count": 27
+      },
+      {
+        "N": 4,
+        "m": 4,
+        "count": 120
+      },
+      {
+        "N": 4,
+        "m": 6,
+        "count": 3936
+      }
+    ],
+    "square_zero_witness": "((01),(12))^3",
+    "endpoint_total": 81,
+    "endpoint_connected": 80,
+    "triangle_word_fraction": "3/4",
+    "unweighted_triangle_fraction": "1/4",
+    "cp1": {
+      "joint": "21/2000",
+      "false_product": "1/100",
+      "later_residual": "21/221",
+      "passes_rejection": true
+    }
+  },
+  "cases": [
+    {
+      "N": 2,
+      "m": 6,
+      "connected_words": 1,
+      "cut_incidences": 2,
+      "labeled_macros": 2,
+      "all_covered": true,
+      "all_macro_weights_equal": true,
+      "types": [
+        {
+          "suffix_genus": 0,
+          "cycle_rank": 1,
+          "incidences": 1
+        },
+        {
+          "suffix_genus": 1,
+          "cycle_rank": 0,
+          "incidences": 1
+        }
+      ],
+      "macro_data": [
+        {
+          "key": "(3, (1, 0), (((0, 1), 1),), (((0, 1), 1),))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1), (((0, 1), 1),), (((0, 1), 0),))",
+          "literal_count": 1,
+          "formula_count": 1
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "connected_words": 2184,
+      "cut_incidences": 4656,
+      "labeled_macros": 23,
+      "all_covered": true,
+      "all_macro_weights_equal": true,
+      "types": [
+        {
+          "suffix_genus": 0,
+          "cycle_rank": 1,
+          "incidences": 2712
+        },
+        {
+          "suffix_genus": 1,
+          "cycle_rank": 0,
+          "incidences": 1944
+        }
+      ],
+      "macro_data": [
+        {
+          "key": "(3, (0, 2, 1), (((0,), 0), ((1, 2), 1)), (((0, 1, 2), 1),))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(3, (1, 0, 2), (((0, 1), 1), ((2,), 0)), (((0, 1, 2), 1),))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(3, (2, 1, 0), (((0, 2), 1), ((1,), 0)), (((0, 1, 2), 1),))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0,), 0), ((1, 2), 1)), (((0, 1), 1), ((2,), 0)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0,), 0), ((1, 2), 1)), (((0, 1, 2), 0),))",
+          "literal_count": 24,
+          "formula_count": 24
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0,), 0), ((1, 2), 1)), (((0, 2), 1), ((1,), 0)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 1), 1), ((2,), 0)), (((0,), 0), ((1, 2), 1)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 1), 1), ((2,), 0)), (((0, 1, 2), 0),))",
+          "literal_count": 24,
+          "formula_count": 24
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 1), 1), ((2,), 0)), (((0, 2), 1), ((1,), 0)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 2), 1), ((1,), 0)), (((0,), 0), ((1, 2), 1)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 2), 1), ((1,), 0)), (((0, 1), 1), ((2,), 0)))",
+          "literal_count": 1,
+          "formula_count": 1
+        },
+        {
+          "key": "(4, (0, 1, 2), (((0, 2), 1), ((1,), 0)), (((0, 1, 2), 0),))",
+          "literal_count": 24,
+          "formula_count": 24
+        },
+        {
+          "key": "(4, (1, 2, 0), (((0, 1, 2), 1),), (((0, 1, 2), 1),))",
+          "literal_count": 729,
+          "formula_count": 729
+        },
+        {
+          "key": "(4, (2, 0, 1), (((0, 1, 2), 1),), (((0, 1, 2), 1),))",
+          "literal_count": 729,
+          "formula_count": 729
+        },
+        {
+          "key": "(5, (0, 2, 1), (((0, 1, 2), 1),), (((0,), 0), ((1, 2), 1)))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(5, (0, 2, 1), (((0, 1, 2), 1),), (((0, 1, 2), 0),))",
+          "literal_count": 640,
+          "formula_count": 640
+        },
+        {
+          "key": "(5, (1, 0, 2), (((0, 1, 2), 1),), (((0, 1), 1), ((2,), 0)))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(5, (1, 0, 2), (((0, 1, 2), 1),), (((0, 1, 2), 0),))",
+          "literal_count": 640,
+          "formula_count": 640
+        },
+        {
+          "key": "(5, (2, 1, 0), (((0, 1, 2), 1),), (((0, 1, 2), 0),))",
+          "literal_count": 640,
+          "formula_count": 640
+        },
+        {
+          "key": "(5, (2, 1, 0), (((0, 1, 2), 1),), (((0, 2), 1), ((1,), 0)))",
+          "literal_count": 80,
+          "formula_count": 80
+        },
+        {
+          "key": "(6, (0, 1, 2), (((0, 1, 2), 1),), (((0,), 0), ((1, 2), 0)))",
+          "literal_count": 240,
+          "formula_count": 240
+        },
+        {
+          "key": "(6, (0, 1, 2), (((0, 1, 2), 1),), (((0, 1), 0), ((2,), 0)))",
+          "literal_count": 240,
+          "formula_count": 240
+        },
+        {
+          "key": "(6, (0, 1, 2), (((0, 1, 2), 1),), (((0, 2), 0), ((1,), 0)))",
+          "literal_count": 240,
+          "formula_count": 240
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.19625295186415315
+}

@@ -13,8 +13,76 @@
     {
       "id": "P0.v1",
       "agent": "/root",
-      "status": "pending",
-      "next": "Finish first checkpoint and admission; no mathematical experiment before checkpoint adoption."
+      "status": "completed",
+      "next": "I1 admitted; exact brief and D-20261028-04 record scope and novelty."
+    },
+    {
+      "id": "I1-r1-recursive",
+      "agent": "/root/r1_recursive",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md"
+    },
+    {
+      "id": "I1-r2-structural",
+      "agent": "/root/r2_structural",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md"
+    },
+    {
+      "id": "I1-r3-mass",
+      "agent": "/root/r3_mass",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/report-v1.md"
+    },
+    {
+      "id": "I1-review-mass",
+      "agent": "/root/r1_recursive",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-mass-v1.md",
+      "report_due_utc": "2026-10-28T11:45:00Z",
+      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+    },
+    {
+      "id": "I1-review-recursive",
+      "agent": "/root/r2_structural",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-recursive-v1.md",
+      "report_due_utc": "2026-10-28T11:50:00Z",
+      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+    },
+    {
+      "id": "I1-review-blind",
+      "agent": "/root/r4_blind",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/blind-package-v1.md",
+      "report_due_utc": "2026-10-28T11:50:00Z",
+      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+    },
+    {
+      "id": "I1-review-structural",
+      "agent": "/root",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator",
+      "next": "Nonauthor exact-version audit of frozen C2.v1 proof/parser and resource bound; inherited construction context disclosed."
     }
-  ]
+  ],
+  "updated_utc": "2026-10-28T11:17:56.467431+00:00"
 }

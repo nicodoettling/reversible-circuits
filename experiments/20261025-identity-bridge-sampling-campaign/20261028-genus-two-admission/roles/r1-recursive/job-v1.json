@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "reservation": "I1-J4",
+  "command_argv": [
+    "python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json",
+    "--timeout",
+    "180",
+    "--memory-gib",
+    "1",
+    "--",
+    "python3",
+    "-B",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/audit-v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/results-v1.json"
+  ],
+  "execution_exit_code": 0,
+  "helper_version": "v0.3.2",
+  "timeout_seconds": 180,
+  "address_space_ceiling_gib": 1,
+  "estimated_memory_mib_less_than": 256,
+  "actual_rss": "not measured",
+  "reference_state_upper_bound": 6240,
+  "observed_reference_max_states": 250,
+  "seed_exact": null,
+  "diagnostic_seeds": [
+    1729,
+    2718
+  ],
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "child_elapsed_seconds": 1.1874108121264726,
+  "stdout": "all exact finite checks passed; asymptotic proof remains separately reviewable",
+  "code_sha256": "8b44aa29010b2cb1cb62bf879c191a090f04e704ba622024c15214ace588b63b",
+  "audit_sha256": "78769a94988bd96d1ff6a5764cf438eab6ab535146ffd2be5daf9707d5364f06",
+  "helper_sha256": "c9a6e8997542bf507c7948e99476e01f35c137df1faae91cb600b7782aa537a9",
+  "status": "completed; reservation released"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "I1-J2",
+  "status": "completed",
+  "exit_code": 0,
+  "observed_wall_seconds": 0.71835,
+  "bounded_helper": "v0.3.2",
+  "containment_admission": "passed by current helper; no override",
+  "output": "grammar-results-v1.json",
+  "summary": "Exact parser law equals independent weighted numeric inventory at N2/3/4; all labeled macros agree with literal reference at N2/3; seeded validity passes",
+  "cases": [
+    {
+      "N": 2,
+      "numeric_codes": 2,
+      "cut_incidences": 2,
+      "labeled_macros": 2
+    },
+    {
+      "N": 3,
+      "numeric_codes": 10,
+      "cut_incidences": 4656,
+      "labeled_macros": 23
+    },
+    {
+      "N": 4,
+      "numeric_codes": 47,
+      "cut_incidences": 11952000,
+      "labeled_macros": 303
+    }
+  ],
+  "limitations": "N4 macro law not compared to literal word enumeration in this job. Finite checks do not prove asymptotic law or runtime."
+}
