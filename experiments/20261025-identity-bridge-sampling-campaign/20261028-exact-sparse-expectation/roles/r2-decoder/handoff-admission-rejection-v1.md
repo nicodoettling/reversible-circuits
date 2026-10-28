@@ -1,0 +1,5 @@
+# I2-D.v1 stopped audit admission
+
+The I2-J2 reservation was granted for the exact current helper and sealed attempt000002 file. The worker transcribed the --run-file argument incorrectly, omitting /.campaigns/. The helper rejected before launch with exit125 and containment_evidence_unavailable (job not launched). Full nonsecret command/outcome is job-I2-J2-incident-v1.json. No mathematical experiment ran, no results-v1.json was produced, no retry or containment bypass was attempted. Coordinator was notified immediately.
+
+The source payload, candidate statement/proof and audit script are preserved. All claims remain author-provisional, with finite validation and fresh exact-version reviews incomplete. The positive exact-law/cost proof candidate is not promoted. The current necessary operational next step is coordinator/operator disposition of this exact new125 incident under the attention protocol; the worker cannot rearm itself. If later authorized, the intended exact path and command remain in job-plan-v1.md and a new reservation is required. The main campaign theorem remains OPEN.

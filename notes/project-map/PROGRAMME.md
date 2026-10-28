@@ -1,8 +1,8 @@
 # Identity-Bridge Sampling Programme
 
 Version 1.2, reviewed I1 outcome 2026-10-28 (Europe/Berlin). Scientific
-cards P0.v1-P5.v1 and their scopes are unchanged. Planning state: active
-authorized attempt; I1 reviewed, P6 admission next (D-20261028-05). Campaign ID: `identity-bridge-sampling-20261025`.
+cards P0.v1-P5.v1 and their scopes are unchanged. Planning state: operational attention hold;
+I1 reviewed, P6 frozen pending exact operator disposition (D-20261028-09). Campaign ID: `identity-bridge-sampling-20261025`.
 
 ## Objective and Evidence
 
@@ -205,10 +205,16 @@ This programme is inert in ordinary sessions. Its research/review/checkpoint
 obligations apply only inside the explicitly started campaign's sealed attempt.
 Preparation, normal edits, status checks and Git requests do not activate them.
 
-## P6.v1: Exact sparse sampling by expected component cost — admission pending
+## P6.v1: Exact sparse sampling by expected component cost — blocked for attention
 
 Target the exact global uniform law, with unrestricted macro selection and the QC all-genus decoder instantiated only on selected components. Seek expected poly(N,m) bit time on an explicit sparse regime, initially m³<=N², or a justified useful subregime/finite condition. This gives TV0 for everyb without excluding any components. No all-length runtime theorem is proposed.
 
 Entry ingredient: canonical SG-T1.v1 gives exact bridge-conditioned marked-component bounds; QC.v1 gives a literal all-genus decoder with at most3^(v−1) quotient states. Freeze an honest exponential-in-v cost, then average it under the full exact macro law. Never infer runtime from omitted probability alone or multiply marginals after adaptive conditioning. No preprocessing unselected large-v decoders.
 
 First test: an explicit nonempty finite condition on E sum a^v for a covering actual decoder cost. Audit arithmetic/caching/space, finite exceptions, arbitrary precision and exact boundary/whole-word laws. A positive candidate needs fresh blind and exact-version review. Failure/HOLD requires a named new ingredient.
+
+## P6.v2: Added logarithmic sparse precision scope — blocked for attention
+
+Retain P6.v1/ES.v1 unchanged and additionally target exact global sampling for m<=N^(2/3)lnN/4 via the inherited SB-T1 marked-component bound. Exact scope/quantifiers/source hash and finite-exception obligation are frozen in I2/scope-log-v1.md. This is a new version because the theorem target is enlarged. No acceptance until both resource proof and full review close; allocation/deadlines unchanged.
+
+Operational hold2026-10-28: D-20261028-09 freezes I2 for a new exit125 admission incident. All I2 candidates remain provisional/unresolved, with one repaired cost implication pending recheck. No further work until exact operator disposition; full safe handoff is in campaign attention-20261028-i2-admission-v1.md. This does not refute either sparse target or GLOBAL-T0.

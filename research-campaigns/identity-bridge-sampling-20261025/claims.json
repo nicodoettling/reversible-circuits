@@ -74,7 +74,101 @@
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md"
       ],
       "note": "Coordinator analytically reconciled implication to M-GROW; no separate exact-version audit of the stronger target commissioned."
+    },
+    {
+      "id": "ES.v1",
+      "status": "UNRESOLVED",
+      "statement": "One exact uniform identity-bridge sampler with expected poly(N,m) bit time for N>=2, even m, m^3<=N^2.",
+      "dependencies": [
+        "Q-COST.v1",
+        "E-MOMENT.v1",
+        "exact unrestricted component assembly"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Author candidate frozen during new125 attention hold; no I2 acceptance. Production full-law audit not launched; fresh blind/current-version reviews pending. GLOBAL-T0 remains OPEN."
+    },
+    {
+      "id": "ES-LOG.v1",
+      "status": "UNRESOLVED",
+      "statement": "The same exact sampler has expected poly(N,m) bit time for N>=2, even m<=N^(2/3) ln(N)/4.",
+      "dependencies": [
+        "Q-COST.v1",
+        "E-MOMENT.v1",
+        "SB-T1.v1 normalized component bound"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/scope-log-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Author candidate frozen during new125 attention hold; no I2 acceptance. Production full-law audit not launched; fresh blind/current-version reviews pending. GLOBAL-T0 remains OPEN."
+    },
+    {
+      "id": "Q-COST.v1",
+      "status": "UNRESOLVED",
+      "statement": "Actual selected-component quotient decoding admits conditional expected bit envelope A (N+m+2)^12 (1+sum 9^v), without preprocessing unselected quotient tables.",
+      "dependencies": [
+        "QC.v1 complete orbit invariant",
+        "literal suffix counts",
+        "deterministic linear-scan memo"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/plan.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md"
+      ],
+      "note": "Author candidate frozen during new125 attention hold; no I2 acceptance. Production full-law audit not launched; fresh blind/current-version reviews pending. GLOBAL-T0 remains OPEN."
+    },
+    {
+      "id": "E-MOMENT.v1",
+      "status": "UNRESOLVED",
+      "statement": "Normalized expected sum of exponential component costs is polynomial in the separately frozen ES and ES-LOG regimes.",
+      "dependencies": [
+        "SG-T1.v1",
+        "SB-T1.v1",
+        "linearity under exact full macro law"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Author candidate frozen during new125 attention hold; no I2 acceptance. Production full-law audit not launched; fresh blind/current-version reviews pending. GLOBAL-T0 remains OPEN."
+    },
+    {
+      "id": "EC-OBSTR.v1",
+      "status": "UNRESOLVED",
+      "statement": "For j>=64,N=2^(8j),m=2^(6j),J=2^(3j), Pr(maxsupport<=J)<=2^(-1-jm/2), so E sum9^v>=9^(J+1)(1-2^(-1-jm/2)).",
+      "dependencies": [
+        "M-GROW.v1 general finite numerator lemma",
+        "subgroup denominator"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/scope-obstruction-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md"
+      ],
+      "note": "Author candidate frozen during new125 attention hold; no I2 acceptance. Production full-law audit not launched; fresh blind/current-version reviews pending. GLOBAL-T0 remains OPEN."
+    },
+    {
+      "id": "I2-R3-A3.v2",
+      "status": "REPAIRED-PENDING-RECHECK",
+      "statement": "Separate preparationK0P^s and conditional remainderK1P^s(1+H) imply E total<=P^s[K0+K1(1+EH)]; v1 omitted separate preparation constant.",
+      "dependencies": [
+        "actual conditional decoder envelope",
+        "whole-macro tower expectation"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/correction-v2.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md"
+      ],
+      "note": "Original exact coefficient rejected and preserved; fresh check of repaired cone pending. No change to I1 accepted results or EC target."
     }
   ],
-  "updated_utc": "2026-10-28T11:36:49.656621+00:00"
+  "updated_utc": "2026-10-28T12:21:15.521143+00:00"
 }

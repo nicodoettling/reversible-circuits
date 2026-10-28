@@ -1,0 +1,38 @@
+{
+  "job": "I2-J2",
+  "status": "reserved",
+  "reserved_utc": "2026-10-28T12:14:48.838024+00:00",
+  "worker": "/root/r2_structural",
+  "tested_claim": "Actual unrestricted full-law exactness, selected-only decoder preparation, rare genus2 component and canonical labels.",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json",
+    "--timeout",
+    "180",
+    "--memory-gib",
+    "1",
+    "--",
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/audit-v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/results-v1.json"
+  ],
+  "source_hashes": {
+    "audit-v1.py": "805849383213ab9540020f9f391dcd6e20ddafc7a8e0cd291495ee88adc01ade",
+    "exact_sampler-v1.py": "93d38c75d25446dc7287cd65ea0ec4f05c5f3855fe96b3ee26fe6a9444bb33a0"
+  },
+  "base_commit": "92af1b7b47583b60571a84c660d527422ce0e8ce",
+  "parameters": "full laws S3m4,S4m4,S4m6,S3m8; selected v6 ell14 genus2 atN82; old support/cutoff regressions",
+  "seed": null,
+  "validity_seeds": [
+    1729,
+    2718
+  ],
+  "estimate": "6270 full-law words; rare quotient inventory<=3645 keys;<256MiB;180seconds; compact JSON output",
+  "reservation_timeout_seconds": 180,
+  "address_space_gib": 1
+}
