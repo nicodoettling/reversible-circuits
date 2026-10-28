@@ -1,0 +1,3205 @@
+{
+  "status": "passed",
+  "genera": [
+    2,
+    3
+  ],
+  "seed": null,
+  "python": "3.12.3",
+  "dependencies": "standard library",
+  "commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "command": [
+    "experiments/20261028-genus-scaling/coordinator/coefficient_oracle_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/coordinator/coefficient-results-v1.json",
+    "--genera",
+    "2",
+    "3"
+  ],
+  "coefficients": {
+    "2": [
+      {
+        "theta": [
+          2
+        ],
+        "denominator_power": 3,
+        "K": [
+          7,
+          5760
+        ],
+        "coefficient": [
+          7,
+          5760
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2
+        ],
+        "denominator_power": 4,
+        "K": [
+          -5,
+          576
+        ],
+        "coefficient": [
+          -5,
+          1152
+        ]
+      },
+      {
+        "theta": [
+          3
+        ],
+        "denominator_power": 3,
+        "K": [
+          -1,
+          480
+        ],
+        "coefficient": [
+          -1,
+          480
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2
+        ],
+        "denominator_power": 5,
+        "K": [
+          7,
+          240
+        ],
+        "coefficient": [
+          7,
+          1440
+        ]
+      },
+      {
+        "theta": [
+          2,
+          3
+        ],
+        "denominator_power": 4,
+        "K": [
+          29,
+          5760
+        ],
+        "coefficient": [
+          29,
+          5760
+        ]
+      },
+      {
+        "theta": [
+          4
+        ],
+        "denominator_power": 3,
+        "K": [
+          1,
+          1152
+        ],
+        "coefficient": [
+          1,
+          1152
+        ]
+      }
+    ],
+    "3": [
+      {
+        "theta": [
+          2,
+          2,
+          2
+        ],
+        "denominator_power": 7,
+        "K": [
+          -31,
+          10752
+        ],
+        "coefficient": [
+          -31,
+          64512
+        ]
+      },
+      {
+        "theta": [
+          2,
+          3
+        ],
+        "denominator_power": 6,
+        "K": [
+          -31,
+          96768
+        ],
+        "coefficient": [
+          -31,
+          96768
+        ]
+      },
+      {
+        "theta": [
+          4
+        ],
+        "denominator_power": 5,
+        "K": [
+          -31,
+          967680
+        ],
+        "coefficient": [
+          -31,
+          967680
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "denominator_power": 8,
+        "K": [
+          17,
+          192
+        ],
+        "coefficient": [
+          17,
+          4608
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          3
+        ],
+        "denominator_power": 7,
+        "K": [
+          859,
+          96768
+        ],
+        "coefficient": [
+          859,
+          193536
+        ]
+      },
+      {
+        "theta": [
+          2,
+          4
+        ],
+        "denominator_power": 6,
+        "K": [
+          2329,
+          2903040
+        ],
+        "coefficient": [
+          2329,
+          2903040
+        ]
+      },
+      {
+        "theta": [
+          3,
+          3
+        ],
+        "denominator_power": 6,
+        "K": [
+          1501,
+          1451520
+        ],
+        "coefficient": [
+          1501,
+          2903040
+        ]
+      },
+      {
+        "theta": [
+          5
+        ],
+        "denominator_power": 5,
+        "K": [
+          41,
+          580608
+        ],
+        "coefficient": [
+          41,
+          580608
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "denominator_power": 9,
+        "K": [
+          -1115,
+          864
+        ],
+        "coefficient": [
+          -223,
+          20736
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          3
+        ],
+        "denominator_power": 8,
+        "K": [
+          -395,
+          3456
+        ],
+        "coefficient": [
+          -395,
+          20736
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          4
+        ],
+        "denominator_power": 7,
+        "K": [
+          -541,
+          60480
+        ],
+        "coefficient": [
+          -541,
+          120960
+        ]
+      },
+      {
+        "theta": [
+          2,
+          3,
+          3
+        ],
+        "denominator_power": 7,
+        "K": [
+          -89,
+          7680
+        ],
+        "coefficient": [
+          -89,
+          15360
+        ]
+      },
+      {
+        "theta": [
+          2,
+          5
+        ],
+        "denominator_power": 6,
+        "K": [
+          -323,
+          483840
+        ],
+        "coefficient": [
+          -323,
+          483840
+        ]
+      },
+      {
+        "theta": [
+          3,
+          4
+        ],
+        "denominator_power": 6,
+        "K": [
+          -19,
+          17920
+        ],
+        "coefficient": [
+          -19,
+          17920
+        ]
+      },
+      {
+        "theta": [
+          6
+        ],
+        "denominator_power": 5,
+        "K": [
+          -7,
+          138240
+        ],
+        "coefficient": [
+          -7,
+          138240
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "denominator_power": 10,
+        "K": [
+          1225,
+          144
+        ],
+        "coefficient": [
+          245,
+          20736
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          2,
+          3
+        ],
+        "denominator_power": 9,
+        "K": [
+          193,
+          288
+        ],
+        "coefficient": [
+          193,
+          6912
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          2,
+          4
+        ],
+        "denominator_power": 8,
+        "K": [
+          53,
+          1152
+        ],
+        "coefficient": [
+          53,
+          6912
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          3,
+          3
+        ],
+        "denominator_power": 8,
+        "K": [
+          205,
+          3456
+        ],
+        "coefficient": [
+          205,
+          13824
+        ]
+      },
+      {
+        "theta": [
+          2,
+          2,
+          5
+        ],
+        "denominator_power": 7,
+        "K": [
+          17,
+          5760
+        ],
+        "coefficient": [
+          17,
+          11520
+        ]
+      },
+      {
+        "theta": [
+          2,
+          3,
+          4
+        ],
+        "denominator_power": 7,
+        "K": [
+          1121,
+          241920
+        ],
+        "coefficient": [
+          1121,
+          241920
+        ]
+      },
+      {
+        "theta": [
+          2,
+          6
+        ],
+        "denominator_power": 6,
+        "K": [
+          77,
+          414720
+        ],
+        "coefficient": [
+          77,
+          414720
+        ]
+      },
+      {
+        "theta": [
+          3,
+          3,
+          3
+        ],
+        "denominator_power": 7,
+        "K": [
+          583,
+          96768
+        ],
+        "coefficient": [
+          583,
+          580608
+        ]
+      },
+      {
+        "theta": [
+          3,
+          5
+        ],
+        "denominator_power": 6,
+        "K": [
+          503,
+          1451520
+        ],
+        "coefficient": [
+          503,
+          1451520
+        ]
+      },
+      {
+        "theta": [
+          4,
+          4
+        ],
+        "denominator_power": 6,
+        "K": [
+          607,
+          1451520
+        ],
+        "coefficient": [
+          607,
+          2903040
+        ]
+      },
+      {
+        "theta": [
+          7
+        ],
+        "denominator_power": 5,
+        "K": [
+          1,
+          82944
+        ],
+        "coefficient": [
+          1,
+          82944
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 0,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 0,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 1,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 1,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 2,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 2,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 3,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 3,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 4,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 4,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 5,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 5,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 6,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 6,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 7,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 7,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 8,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 8,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 9,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 9,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 10,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 10,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 11,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 11,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 12,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "connected-DP",
+      "N": 2,
+      "length": 12,
+      "alpha": [
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 0,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 0,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 0,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 1,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 1,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 1,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 2,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 2,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 2,
+      "alpha": [
+        3
+      ],
+      "count": 3
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 3,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 3,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 8
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 3,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 4,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 24
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 4,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 4,
+      "alpha": [
+        3
+      ],
+      "count": 27
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 5,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 5,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 80
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 5,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 6,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 240
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 6,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 6,
+      "alpha": [
+        3
+      ],
+      "count": 243
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 7,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 7,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 728
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 7,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 8,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 2184
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 8,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 8,
+      "alpha": [
+        3
+      ],
+      "count": 2187
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 9,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 9,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 6560
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 9,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 10,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 19680
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 10,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 10,
+      "alpha": [
+        3
+      ],
+      "count": 19683
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 11,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 11,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 59048
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 11,
+      "alpha": [
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 12,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 177144
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 12,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 3,
+      "length": 12,
+      "alpha": [
+        3
+      ],
+      "count": 177147
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 0,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 0,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 0,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 0,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 0,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 1,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 1,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 1,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 1,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 1,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 2,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 2,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 2,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 2,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 3,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 3,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 3,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 3,
+      "alpha": [
+        4
+      ],
+      "count": 16
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 4,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 4,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 4,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 81
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 4,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 96
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 4,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 5,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 5,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 480
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 5,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 5,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 5,
+      "alpha": [
+        4
+      ],
+      "count": 640
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 6,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 2880
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 6,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 6,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 3645
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 6,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 3840
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 6,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 7,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 7,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 21840
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 7,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 7,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 7,
+      "alpha": [
+        4
+      ],
+      "count": 23296
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 8,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 131040
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 8,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 8,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 137781
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 8,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 139776
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 8,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 9,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 9,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 826560
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 9,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 9,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 9,
+      "alpha": [
+        4
+      ],
+      "count": 839680
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 10,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 4959360
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 10,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 10,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 5019165
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 10,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 5038080
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 10,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 11,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 11,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 30114480
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 11,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 11,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 11,
+      "alpha": [
+        4
+      ],
+      "count": 30232576
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 12,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 180686880
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 12,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 0
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 12,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 181221381
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 12,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 181395456
+    },
+    {
+      "kind": "connected-DP",
+      "N": 4,
+      "length": 12,
+      "alpha": [
+        4
+      ],
+      "count": 0
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 2184
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 728
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        3
+      ],
+      "count": 243
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 4959360
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 826560
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 137781
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 139776
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        4
+      ],
+      "count": 23296
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 15800400000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 1580040000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        3
+      ],
+      "count": 157104360
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        2
+      ],
+      "count": 161280000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        4
+      ],
+      "count": 15826944
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        3
+      ],
+      "count": 16492896
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        5
+      ],
+      "count": 1640625
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 72401570841600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 4826771389440
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 317425379040
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 329425367040
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        4
+      ],
+      "count": 21104455680
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        3
+      ],
+      "count": 22264593120
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        5
+      ],
+      "count": 1435546875
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "count": 23353989120
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        4
+      ],
+      "count": 1542266880
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        3,
+        3
+      ],
+      "count": 1550036250
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        6
+      ],
+      "count": 101406816
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 468314718884812800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 22300700899276800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 1038816517939200
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 1088479084492800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "count": 48809879838720
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "count": 52046840926080
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        5
+      ],
+      "count": 2336449500000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "count": 55073432494080
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        4
+      ],
+      "count": 2535827374080
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        3,
+        3
+      ],
+      "count": 2553467716800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        6
+      ],
+      "count": 115233414912
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        2,
+        3
+      ],
+      "count": 2735769738240
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        5
+      ],
+      "count": 127425375000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        3,
+        4
+      ],
+      "count": 128947230720
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        7
+      ],
+      "count": 5931980229
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 4164734420878019788800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 148740515031357849600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 5154489086716569600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 5446427244075417600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "count": 179767370848665600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "count": 193500564639782400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "count": 6366872011500000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "count": 206296848492134400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        2,
+        4
+      ],
+      "count": 6972031531745280
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "count": 7033946099019840
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        1,
+        6
+      ],
+      "count": 231057093915648
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "count": 7585034404147200
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        2,
+        5
+      ],
+      "count": 257535778500000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        3,
+        4
+      ],
+      "count": 261260884684800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        1,
+        7
+      ],
+      "count": 8678487075027
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "count": 8153378743910400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        2,
+        4
+      ],
+      "count": 285004561121280
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        3,
+        3
+      ],
+      "count": 288239218787520
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        2,
+        6
+      ],
+      "count": 9845667127296
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        3,
+        5
+      ],
+      "count": 10048684078125
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        4,
+        4
+      ],
+      "count": 10076395929600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 2,
+      "alpha": [
+        8
+      ],
+      "count": 341047246848
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1
+      ],
+      "count": 0
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2
+      ],
+      "count": 1
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1
+      ],
+      "count": 19680
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2
+      ],
+      "count": 6560
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        3
+      ],
+      "count": 2187
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 180686880
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        2
+      ],
+      "count": 30114480
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        3
+      ],
+      "count": 5019165
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        2
+      ],
+      "count": 5038080
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        4
+      ],
+      "count": 839680
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 1635227193600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 163522719360
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        3
+      ],
+      "count": 16317702720
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        2
+      ],
+      "count": 16479682560
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        4
+      ],
+      "count": 1636433920
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        3
+      ],
+      "count": 1662712920
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        5
+      ],
+      "count": 166015625
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 17358754533120000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 1157250302208000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 76675253054400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 77996203084800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        4
+      ],
+      "count": 5106126305280
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        3
+      ],
+      "count": 5234822873280
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        5
+      ],
+      "count": 343750000000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "count": 5358927974400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        4
+      ],
+      "count": 355923476480
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        3,
+        3
+      ],
+      "count": 356363076960
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        6
+      ],
+      "count": 23591256480
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 227290538508326092800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 10823358976586956800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 509584976425324800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 522178436350771200
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        4
+      ],
+      "count": 24104293820006400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "count": 24926333041209600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        5
+      ],
+      "count": 1151396746500000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "count": 25714689960960000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        4
+      ],
+      "count": 1203256485150720
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        3,
+        3
+      ],
+      "count": 1205747455872960
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        6
+      ],
+      "count": 55913647375872
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        2,
+        3
+      ],
+      "count": 1254805404652800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        5
+      ],
+      "count": 59156740500000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        3,
+        4
+      ],
+      "count": 59374524718080
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        7
+      ],
+      "count": 2784076054144
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 3714992447133868572672000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "count": 132678301683352449024000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "count": 4658633212661242214400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "count": 4807541521331335987200
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ],
+      "count": 164223226690338816000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "count": 171209963129671065600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        1,
+        5
+      ],
+      "count": 5839739160255000000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "count": 177879332474132889600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        2,
+        4
+      ],
+      "count": 6154508653874380800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        3,
+        3
+      ],
+      "count": 6173330320587830400
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        1,
+        6
+      ],
+      "count": 210635766324023040
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "count": 6469567843247308800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        2,
+        5
+      ],
+      "count": 224719595100000000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        3,
+        4
+      ],
+      "count": 225860595241881600
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        1,
+        7
+      ],
+      "count": 7758871953392560
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "count": 6768579651305472000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        2,
+        4
+      ],
+      "count": 238963618794700800
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        3,
+        3
+      ],
+      "count": 239987001353299200
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        2,
+        6
+      ],
+      "count": 8388723598295040
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        3,
+        5
+      ],
+      "count": 8452957763250000
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        4,
+        4
+      ],
+      "count": 8458798503034880
+    },
+    {
+      "kind": "recovered-marker",
+      "g": 3,
+      "alpha": [
+        8
+      ],
+      "count": 294192374874112
+    }
+  ],
+  "elapsed_seconds": 0.3936294929590076,
+  "cache_sizes": {
+    "ordinary": 12894,
+    "connected": 731,
+    "normalized": 194,
+    "difference": 32
+  },
+  "source_sha256": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc"
+}

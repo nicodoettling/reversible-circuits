@@ -1,0 +1,11 @@
+# R3 atomic checkpoint — 2026-10-28 14:54 UTC
+
+Blindness intact. Read only own frozen input; project AGENTS, maps/frontier, HANDOFF, GOAL_SPEC and required sampler/audit skills; permitted prior I1 report/reconciliation, recursive proof/source-verification, structural proof and old blind report; primary GJV2000 paper through web. Screenshot fetches did not yield visible pages, so verification is extracted-text only.
+
+Named provisional route: GJV Theorem 3.2 implies H_g=P_g(phi_1,...,phi_D)/(1-phi_1)^E for g>=2, with D=3g-2, E=5g-5, deg P_g<=K=3g-3. Thus P_g has at most binom(D+K,K)=2^O(g) coefficients. Substitute p_a=0 for a>D, invert the tree equation by x=z exp(-phi_0(z,p)), set z=1 in the resulting p-adic finite calculation, and retain total p-degree<=K. The necessary literal connected counts have degree at most DK=O(g²) and word length O(g²). Ordinary endpoint counts use cycle-type DP; connected counts follow by subtracting the unique proper support component containing an anchored endpoint cycle, enumerating subpartitions with binomial multiplicities. The total partition inventory through O(g²) is exp(O(g)), not factorial in g². A Vandermonde inverse recovers P_g.
+
+After polarization, Lagrange residue makes B_g a finite signed marker expression. Each term has at most3g-3 labeled special slots; forced two-child allocation can use a 2^O(g) subset-mask DP with only a fixed number of degree/ordinary-marker coordinates. Signed contributions are summed to actual nonnegative integer branch masses before any random choice. Final-letter decomposition plus exact history-conditioned choices provides the literal law. This is a candidate T0 proof, not accepted; coefficient denominator growth and uniform operation bounds are being audited.
+
+Written check_blind_v1.py, NOT executed. Requested R3-BLIND-CHECK-v1 from coordinator: 180s/1GiB, genus2 numerator recovery, endpoint/support DP comparisons N<=4 through g3, forced mask cases, baseline and 81/80/CP1 regressions. Await operational receipt only.
+
+Mandatory negative findings retained: adjacent-square insertion, graph bias, connected/ordinary distinction, cut representation multiplicities, adaptive marginal-product failure, and M-GROW policy obstruction. None is claimed refuted by this route.

@@ -1,0 +1,20 @@
+{
+  "id": "J3",
+  "role": "r3-adversarial",
+  "claim": "blind coefficient reconstruction and forced-allocation finite checks",
+  "reservation": "coordinator exclusive after J2 exit0",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/roles/r3-adversarial/check_blind_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r3-adversarial/check-results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 200,
+  "estimated_seconds": 30,
+  "state_space": "genus2 numerator degree<=12; N2..4 support DP;90 forced-allocation cases",
+  "base_commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "blindness": "Coordinator executes supplied argv; no candidate feedback returned"
+}

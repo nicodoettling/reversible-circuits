@@ -1,0 +1,24 @@
+{
+  "job_id": "J1",
+  "claim": "COEFF-EXP.v1 exact finite reconstruction and connected-count recurrence",
+  "reservation": "coordinator; exclusive mathematical job",
+  "commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "command": [
+    "python3",
+    "-B",
+    "experiments/20261028-genus-scaling/coordinator/coefficient_oracle_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/coordinator/coefficient-results-v1.json",
+    "--genera",
+    "2",
+    "3"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 256,
+  "estimated_states": "ordinary partitions n<=18,length<=28; connected subprofile cache; Newton coefficient differences g2,3; endpoint/support DP N<=4 length<=12",
+  "seed": null,
+  "python": "3.12.3",
+  "dependencies": "standard library",
+  "started_at": "2026-10-28T14:54:50.785533+00:00"
+}

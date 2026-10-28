@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T15:07:36.722391+00:00",
+  "claims": [
+    {
+      "id": "T0",
+      "version": "v1",
+      "status": "PROVISIONAL",
+      "statement": "theorem-v1.md",
+      "dependencies": [
+        "COEFF-EXP.v1",
+        "AUX-ENDPOINT.v1"
+      ],
+      "evidence": [
+        "coordinator/coefficient-theorem-v1.md",
+        "roles/r1-recursion/proof-v1.md"
+      ],
+      "review": "blind and exact nonauthor gates pending"
+    },
+    {
+      "id": "COEFF-EXP",
+      "version": "v1",
+      "status": "PROVISIONAL",
+      "statement": "coordinator/coefficient-theorem-v1.md",
+      "dependencies": [
+        "GJV-Theorem3.2",
+        "ELSV-polynomiality",
+        "fixed-endpoint-normalization",
+        "elementary-cycle-quotient",
+        "connected-component-inversion",
+        "simplex-Newton-interpolation"
+      ],
+      "evidence": [
+        "coordinator/coefficient-results-v1.json"
+      ],
+      "review": "exact nonauthor pending"
+    },
+    {
+      "id": "AUX-ENDPOINT",
+      "version": "v1",
+      "status": "PROVISIONAL",
+      "statement": "roles/r1-recursion/statement-v1.md",
+      "dependencies": [
+        "COEFF-EXP.v1"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json"
+      ],
+      "review": "conditional author proof frozen; exact nonauthor pending"
+    },
+    {
+      "id": "CUT-PENULTIMATE",
+      "version": "v1",
+      "status": "PROVISIONAL",
+      "statement": "roles/r2-structure/theorem-v1.md",
+      "dependencies": [
+        "elementary-genus-identity"
+      ],
+      "evidence": [
+        "roles/r2-structure/cut-results-v1.json"
+      ]
+    },
+    {
+      "id": "T1-FPT",
+      "version": "v1",
+      "status": "OPEN",
+      "statement": "targets-v1.md",
+      "dependencies": [
+        "T0"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "T2-REDUCTION",
+      "version": "v1",
+      "status": "OPEN",
+      "statement": "targets-v1.md",
+      "dependencies": [],
+      "evidence": []
+    }
+  ]
+}

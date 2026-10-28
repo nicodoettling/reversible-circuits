@@ -1,0 +1,18 @@
+{
+  "id": "J4",
+  "role": "r1-recursion",
+  "claim": "general-genus marker allocation and literal decoder",
+  "reservation": "exclusive after J3 exit0",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/roles/r1-recursion/audit-v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r1-recursion/results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 256,
+  "state_space": "N1..4 permutation/support quotient <=360 states/layer; forcing total degree<=5; full production laws only N<=3 ~100k words; seeded samplesN2..4",
+  "base_commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7"
+}

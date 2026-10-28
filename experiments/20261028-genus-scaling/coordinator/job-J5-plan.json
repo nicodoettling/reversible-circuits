@@ -1,0 +1,24 @@
+{
+  "id": "J5",
+  "claim": "integrated coefficient generation to literal sampler; new genus4 falsification",
+  "reservation": "coordinator exclusive, J4 complete",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/coordinator/integrated_audit_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/coordinator/integrated-results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 768,
+  "estimated_seconds": 60,
+  "state_space": "genus4 interpolation degrees<=27,length<=42; partition caches; N<=4 support DP through14; no large literal enumeration",
+  "seed": [
+    103,
+    211,
+    307
+  ],
+  "base_commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "new_reason": "Tests newly integrated generated coefficients, removes g2/g3 constants and extends to g4; prior diagnostics had supplied g3 coefficients."
+}

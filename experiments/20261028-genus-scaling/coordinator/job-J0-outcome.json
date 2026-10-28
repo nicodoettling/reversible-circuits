@@ -1,0 +1,13 @@
+{
+  "id": "J0",
+  "timestamp": "2026-10-28T14:44:29.784072+00:00",
+  "exit_code": 0,
+  "kind": "inert-smoke",
+  "ok": true,
+  "python": "3.12.3",
+  "helper": "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+  "run_file": "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+  "command": "python3 <helper> --run-file <run_file> --timeout 20 --memory-gib 1 -- /usr/bin/python3 -c 'import json,sys; print(json.dumps({\"kind\":\"inert-smoke\",\"ok\":True,\"python\":sys.version.split()[0]}))'",
+  "observed_tool_wall_seconds": 0.00364,
+  "interpretation": "Actual tool sandbox admission and inert bounded execution passed; no mathematical evidence or RSS measurement."
+}

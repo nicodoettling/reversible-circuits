@@ -1,0 +1,473 @@
+{
+  "branch_cases": 128,
+  "commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "connected_vs_ordinary": [
+    80,
+    81
+  ],
+  "count_cases": 132,
+  "dependencies": "standard-library-only",
+  "elapsed_seconds": 0.6619081860408187,
+  "forcing_cases": 1120,
+  "global_regressions": [
+    {
+      "count": 27,
+      "length": 4,
+      "n": 3
+    },
+    {
+      "count": 120,
+      "length": 4,
+      "n": 4
+    },
+    {
+      "count": 3936,
+      "length": 6,
+      "n": 4
+    }
+  ],
+  "identity_counts": [
+    {
+      "count": 1,
+      "g": 0,
+      "n": 1
+    },
+    {
+      "count": 0,
+      "g": 1,
+      "n": 1
+    },
+    {
+      "count": 0,
+      "g": 2,
+      "n": 1
+    },
+    {
+      "count": 0,
+      "g": 3,
+      "n": 1
+    },
+    {
+      "count": 1,
+      "g": 0,
+      "n": 2
+    },
+    {
+      "count": 1,
+      "g": 1,
+      "n": 2
+    },
+    {
+      "count": 1,
+      "g": 2,
+      "n": 2
+    },
+    {
+      "count": 1,
+      "g": 3,
+      "n": 2
+    },
+    {
+      "count": 24,
+      "g": 0,
+      "n": 3
+    },
+    {
+      "count": 240,
+      "g": 1,
+      "n": 3
+    },
+    {
+      "count": 2184,
+      "g": 2,
+      "n": 3
+    },
+    {
+      "count": 19680,
+      "g": 3,
+      "n": 3
+    },
+    {
+      "count": 2880,
+      "g": 0,
+      "n": 4
+    },
+    {
+      "count": 131040,
+      "g": 1,
+      "n": 4
+    },
+    {
+      "count": 4959360,
+      "g": 2,
+      "n": 4
+    },
+    {
+      "count": 180686880,
+      "g": 3,
+      "n": 4
+    }
+  ],
+  "limitations": [
+    "No all N4,g3 literal enumeration",
+    "Genus-three diagnostic coefficient list is supplied",
+    "Finite tests do not certify arbitrary genus or complexity"
+  ],
+  "peak_reference_states": 36,
+  "python": "3.12.3",
+  "sample_cases": 180,
+  "seeds": [
+    19401,
+    19402,
+    19403
+  ],
+  "status": "pass",
+  "whole_law_cases": 32,
+  "whole_law_words": 49184,
+  "whole_laws": [
+    {
+      "endpoint": [
+        0,
+        1
+      ],
+      "g": 0,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        0,
+        1
+      ],
+      "g": 1,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        0,
+        1
+      ],
+      "g": 2,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        0,
+        1
+      ],
+      "g": 3,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        1,
+        0
+      ],
+      "g": 0,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        1,
+        0
+      ],
+      "g": 1,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        1,
+        0
+      ],
+      "g": 2,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        1,
+        0
+      ],
+      "g": 3,
+      "n": 2,
+      "probability": "1",
+      "words": 1
+    },
+    {
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/24",
+      "words": 24
+    },
+    {
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/240",
+      "words": 240
+    },
+    {
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/2184",
+      "words": 2184
+    },
+    {
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/19680",
+      "words": 19680
+    },
+    {
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/8",
+      "words": 8
+    },
+    {
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/80",
+      "words": 80
+    },
+    {
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/728",
+      "words": 728
+    },
+    {
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/6560",
+      "words": 6560
+    },
+    {
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/8",
+      "words": 8
+    },
+    {
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/80",
+      "words": 80
+    },
+    {
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/728",
+      "words": 728
+    },
+    {
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/6560",
+      "words": 6560
+    },
+    {
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/3",
+      "words": 3
+    },
+    {
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/27",
+      "words": 27
+    },
+    {
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/243",
+      "words": 243
+    },
+    {
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/2187",
+      "words": 2187
+    },
+    {
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/3",
+      "words": 3
+    },
+    {
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/27",
+      "words": 27
+    },
+    {
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/243",
+      "words": 243
+    },
+    {
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/2187",
+      "words": 2187
+    },
+    {
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "g": 0,
+      "n": 3,
+      "probability": "1/8",
+      "words": 8
+    },
+    {
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "g": 1,
+      "n": 3,
+      "probability": "1/80",
+      "words": 80
+    },
+    {
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "g": 2,
+      "n": 3,
+      "probability": "1/728",
+      "words": 728
+    },
+    {
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "g": 3,
+      "n": 3,
+      "probability": "1/6560",
+      "words": 6560
+    }
+  ]
+}
