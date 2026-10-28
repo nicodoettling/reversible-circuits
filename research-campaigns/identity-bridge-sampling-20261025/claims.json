@@ -12,7 +12,7 @@
     },
     {
       "id": "R1-T2.v1",
-      "status": "PROVISIONAL",
+      "status": "ACCEPTED-REVIEWED",
       "statement": "Exact fair-bit expected-polynomial sampler for connected fixed-endpoint transposition words of genus 0,1,2 on every fixed label set. Claimed bound O(v^11 log^3(v+1)).",
       "dependencies": [
         "S-G01 (inherited)",
@@ -25,11 +25,12 @@
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md",
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md"
       ],
-      "note": "Author-frozen proposal; blind and exact-version reviews pending. Same-model checks correlated. Not global theorem acceptance."
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
     },
     {
       "id": "C2.v1",
-      "status": "PROVISIONAL",
+      "status": "ACCEPTED-REVIEWED",
       "statement": "Exact fair-bit expected-polynomial sampler for connected identity genus-two words of length 2N+2, N>=2. Claimed bound O(N^20 log^4(N+1)).",
       "dependencies": [
         "S-G01 (inherited)",
@@ -42,11 +43,12 @@
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md",
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md"
       ],
-      "note": "Author-frozen proposal; blind and exact-version reviews pending. Same-model checks correlated. Not global theorem acceptance."
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
     },
     {
       "id": "M-GROW.v1",
-      "status": "PROVISIONAL",
+      "status": "ACCEPTED-REVIEWED",
       "statement": "For j>=64, N=2^(8j), m=2^(6j), L=max{v<=N:3^v<=(N+m+2)^4}, 0<=G<=2^j, bridge mass of every component satisfying genus<=G or size<=L is at most 2^(-1-j*m/2).",
       "dependencies": [
         "DYZ identity Hurwitz recurrence (inherited normalization)",
@@ -58,8 +60,21 @@
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md",
         "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/report-v1.md"
       ],
-      "note": "Author-frozen proposal; blind and exact-version reviews pending. Same-model checks correlated. Not global theorem acceptance."
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
+    },
+    {
+      "id": "BLIND-B1-STRONG",
+      "status": "PROVISIONAL",
+      "statement": "Blind report stronger event bound 2^(-(j/2+1/4)m) and alternate majorant; retained separately, not the accepted target.",
+      "dependencies": [
+        "DYZ primary recurrence"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md"
+      ],
+      "note": "Coordinator analytically reconciled implication to M-GROW; no separate exact-version audit of the stronger target commissioned."
     }
   ],
-  "updated_utc": "2026-10-28T11:17:56.467431+00:00"
+  "updated_utc": "2026-10-28T11:36:49.656621+00:00"
 }

@@ -1,5 +1,5 @@
-# Investigation index
+# Campaign investigations
 
-| Investigation | Cards | Status | Exact brief |
-| --- | --- | --- | --- |
-| 20261028-genus-two-admission | P1.v1, P2.v1, P3.v1 | admitted construction and falsification, no theorem accepted | [brief-v1.md](20261028-genus-two-admission/brief-v1.md) |
+|id|directory|state|exact outcome|
+|---|---|---|---|
+|I1.v1|20261028-genus-two-admission|reviewed; map integration pending|R1-T2.v1,C2.v1,M-GROW.v1 accepted internally at exact scope; GLOBAL-T0 OPEN; see report.md and reconciliation-v1.md|

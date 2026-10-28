@@ -1,0 +1,44 @@
+{
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "boundary_counts": {
+    "S3_identity_length4": 24,
+    "S3_identity_length6": 240,
+    "S3_identity_length8": 2184,
+    "S4_identity_length6": 2880
+  },
+  "dyz": {
+    "h_0_2": "1/4",
+    "h_2_2": "1/1440",
+    "h_2_3": "13/1440",
+    "majorant_comparisons": 42,
+    "max_degree": 8,
+    "max_genus": 5
+  },
+  "elapsed_seconds": 0.030377971939742565,
+  "enumeration": [
+    {
+      "degree": 2,
+      "fixed_permutation_comparisons": 6,
+      "max_length": 6,
+      "word_prefixes_enumerated": 7
+    },
+    {
+      "degree": 3,
+      "fixed_permutation_comparisons": 18,
+      "max_length": 8,
+      "word_prefixes_enumerated": 9841
+    },
+    {
+      "degree": 4,
+      "fixed_permutation_comparisons": 41,
+      "max_length": 6,
+      "word_prefixes_enumerated": 55987
+    }
+  ],
+  "nonstandard_dependencies": [],
+  "python": "3.12.3",
+  "reservation": "I1-J5",
+  "seed": 0,
+  "status": "passed",
+  "stochastic": false
+}

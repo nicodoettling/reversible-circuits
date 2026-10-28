@@ -1,0 +1,14 @@
+{
+  "job_id": "I1-J7",
+  "status": "reserved",
+  "command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json --timeout 180 --memory-gib 1 -- python3 -B experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/check.py --output experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/results-v1.json",
+  "timeout_seconds": 180,
+  "memory_limit_gib": 1,
+  "estimated_memory_mib": 256,
+  "state_space": "All degree<=14 partitions for count formula;4 inventories of<=7 cycles for arbitrary forcings;279936 literal S4 length7 words and23296 expected positive parser leaves",
+  "seeds": null,
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "frozen_base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "observed_current_head": "a4e2b9a9b7d68f33165ecc6f18b3f1532f344bec"
+}

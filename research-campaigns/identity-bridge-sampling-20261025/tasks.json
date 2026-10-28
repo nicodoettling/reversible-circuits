@@ -24,7 +24,7 @@
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
       "report_due_utc": "2026-10-28T13:00:00Z",
       "allocation_end_utc": "2026-10-28T13:47:00Z",
-      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md"
     },
     {
@@ -35,7 +35,7 @@
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
       "report_due_utc": "2026-10-28T13:00:00Z",
       "allocation_end_utc": "2026-10-28T13:47:00Z",
-      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md"
     },
     {
@@ -46,43 +46,55 @@
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
       "report_due_utc": "2026-10-28T13:00:00Z",
       "allocation_end_utc": "2026-10-28T13:47:00Z",
-      "next": "Frozen author artifacts; mathematical certification pending. Do not rewrite.",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/report-v1.md"
     },
     {
       "id": "I1-review-mass",
       "agent": "/root/r1_recursive",
-      "status": "active",
+      "status": "completed-reconciled",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-mass-v1.md",
       "report_due_utc": "2026-10-28T11:45:00Z",
-      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md"
     },
     {
       "id": "I1-review-recursive",
       "agent": "/root/r2_structural",
-      "status": "active",
+      "status": "completed-reconciled",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-recursive-v1.md",
       "report_due_utc": "2026-10-28T11:50:00Z",
-      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md"
     },
     {
       "id": "I1-review-blind",
       "agent": "/root/r4_blind",
-      "status": "active",
+      "status": "completed-reconciled",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/blind-package-v1.md",
       "report_due_utc": "2026-10-28T11:50:00Z",
-      "next": "Resume saved exact task in own directory. No descendants or Git writes. Preserve immutable final report; nontrivial computation requires coordinator reservation."
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md"
     },
     {
       "id": "I1-review-structural",
       "agent": "/root",
-      "status": "active",
+      "status": "completed-reconciled",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator",
-      "next": "Nonauthor exact-version audit of frozen C2.v1 proof/parser and resource bound; inherited construction context disclosed."
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md"
+    },
+    {
+      "id": "I1-integration-audit",
+      "agent": "/root/r3_mass",
+      "status": "completed",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/integration-review-v1",
+      "next": "Documentary PASS; two stale planning sentences corrected. No further task.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/integration-review-v1/report-v1.md"
     }
   ],
-  "updated_utc": "2026-10-28T11:17:56.467431+00:00"
+  "updated_utc": "2026-10-28T11:49:31.925861+00:00"
 }

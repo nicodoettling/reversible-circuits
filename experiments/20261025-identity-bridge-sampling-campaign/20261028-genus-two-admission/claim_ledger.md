@@ -27,3 +27,7 @@
 | GLOBAL-T0 | unresolved/OPEN | unchanged mission | campaign claims.json | none closes unrestricted regime | continue only admitted useful work |
 
 All old rows are historical progress, not current certification. Same-model reviews are correlated.
+
+## Final I1 reconciliation, 2026-10-28
+
+R1-T2.v1,C2.v1,M-GROW.v1 are ACCEPTED-REVIEWED at exact scope in reconciliation-v1.md after full blind and nonauthor audits. GLOBAL-T0 stays OPEN; stronger blind refinements stay PROVISIONAL. Earlier rows are preserved chronological history. Next eligible admission is expected-cost exact sparse sampling, not repeated genus2/cutoff claims.

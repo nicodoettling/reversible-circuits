@@ -201,3 +201,21 @@ The M15 audit records a hypothesis failure for the closest weighted-path contrac
 - Adjudication: None recorded for this scope.
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Finite witnesses and source normalization are in the report; no experiments rerun and no external papers newly checked. No contrary scoped verdict traced; complete audit provenance for this grouped negative remains pending.
+
+<a id="o-grow"></a>
+## O-GROW: Growing low-genus plus small-support policy loses bridge mass
+
+For j>=64,N=2^(8j),m=2^(6j),L=max{v<=N:3^v<=(N+m+2)^4}, and0<=G<=2^j, the event that each component has genus<=G or size<=L has bridge probability<=2^(-1-jm/2). Any law supported there has TV at least1 minus this bound.
+
+- Effective status: **accepted-reviewed**; source: proved; frozen author proposal accepted in exact-version internal audit
+- Mapping depth: proof-reviewed. Full proof, fresh blind theorem derivation, exact-version nonauthor report and coordinator reconciliation; exact finite whole-law or count tests. Same-model reviews correlated.
+- Model: global; parameters: Explicit m=N^(3/4) subsequence; G through N^(1/8), including fixedG.
+- Guards: Eligibility fixed at original input; exact identity-bridge normalization.
+- Assumptions: DYZ Proposition1 Eq13, Eqs19--20 and genus-zero count; factorial genus majorant, component assembly, subgroup return lower bound.
+- Remaining obligation: None within the exact accepted scope under named published inputs; global all-length sampling remains open.
+- Limitations: Support-policy obstruction only, not general hardness. Older all-N provisional statement and stronger blind refinement are not upgraded.
+- Version / verdict binding: Exact proof/review SHA256 bindings in i1-reconciliation; author snapshota4e2b9a; fresh blind report frozen2026-10-28 11:31:07UTC.
+- Evidence: [i1-mass](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md)
+- Adjudication: [i1-mass-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md), [i1-blind](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)
+- Logical dependencies: [S-COUNTS](RESULTS.md#s-counts)
+- Regressions / disagreements: All earlier counterexamples preserved, including support81/80, graph bias, insertion, cut multiplicities and CP1; required tiny global baselines retained. No material objection or repair required. Stronger blind refinements remain separately provisional.

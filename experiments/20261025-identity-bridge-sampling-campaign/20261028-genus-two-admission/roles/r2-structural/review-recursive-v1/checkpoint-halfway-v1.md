@@ -1,0 +1,7 @@
+# Recursive review halfway checkpoint —2026-10-28 11:20 UTC
+
+All8 frozen input hashes matched before review. Full theorem, source note, proof, production decoder and author audit were read. Primary PDFs were opened directly: GJ1999 Theorem1.1 supplies coefficients5,-12,7,29,-25,28 and denominator powers3,4,5; predecessor Section2 and eq(2) give the fixed-permutation normalization. Screenshot calls returned references without visible images; no visual-page check is claimed.
+
+Independent reasoning agrees with the polarization factor and repeated-cycle cancellation, formal Lagrange Jacobian lowering denominator exponents, positivity of A(a),B(a),D(a), labeled special-slot multiplicities and the full (1,1) tensor allocation law. Final-letter support classification and word-level telescoping remain valid at genus2. No numbered objection found yet. Bit-complexity review agrees with polynomial table size and is checking the explicit exponent/common denominator.
+
+New falsification script check.py uses signed source numerator terms, not the production positive marker specification. It tests every partition through degree14, arbitrary non-prefix forcings on inventories up to7 cycles, and the full actual production forward law on S4 long-cycle genus2 length7 against279936 literal words. The job needs coordinator reservation and has not run at this checkpoint. Deadline11:50 UTC. No blind reviewer/report has been read or contacted; frozen C2 and recursive author payloads remain unchanged.

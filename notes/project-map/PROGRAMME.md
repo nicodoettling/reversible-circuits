@@ -1,8 +1,8 @@
 # Identity-Bridge Sampling Programme
 
-Version 1.1, operational clarification 2026-10-28 (Europe/Berlin). Scientific
+Version 1.2, reviewed I1 outcome 2026-10-28 (Europe/Berlin). Scientific
 cards P0.v1-P5.v1 and their scopes are unchanged. Planning state: active
-authorized attempt; I1 active after P0 admission (D-20261028-04). Campaign ID: `identity-bridge-sampling-20261025`.
+authorized attempt; I1 reviewed, P6 admission next (D-20261028-05). Campaign ID: `identity-bridge-sampling-20261025`.
 
 ## Objective and Evidence
 
@@ -20,8 +20,8 @@ status. This programme governs allocation of work, rather than acceptance.
 
 The [connected-component reduction](../../experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md)
 removes scalar counting, component selection, labels and interleavings from one
-sufficient route. Its remaining primitive concerns larger support and genus
-g>=2. For a connected identity word on v vertices, length=2v-2+2g.
+sufficient route. Its historical remaining primitive concerned larger support and genus
+g>=2. I1 now discharges genus2; the uniform remaining primitive concerns g>=3. For a connected identity word on v vertices, length=2v-2+2g.
 The [existing recursive construction](../../experiments/20260907-genus-one-sampler/proof.md)
 and [marked-cut construction](../../experiments/20260907-genus-one-sampler/roles/r2-structural/report.md)
 are predecessors, with their recorded review limits.
@@ -31,9 +31,9 @@ are predecessors, with their recorded review limits.
 | ID/version | Planning state | Question | Map predecessors | Entry condition |
 | --- | --- | --- | --- | --- |
 | P0.v1 | achieved for I1 | Which existing result or new test makes the next allocation worthwhile? | T-CONNECTED, T-MASS, T-AUDIT | Read exact claims, relevant old failures and current recovery state |
-| P1.v1 | active in I1 | Can final-letter recursion sample connected genus-two words efficiently? | S-G01, R-CONNECTED, O-COUNTS | P0 finds an uncovered statement and a concrete allocation identity/test |
-| P2.v1 | active in I1 | Can the marked-cut construction extend beyond genus one? | S-CUT, O-COUNTS | P0 identifies a new cut/grammar with specified multiplicities |
-| P3.v1 | active in I1 | Which component types carry enough bridge probability to extend the global regime? | S-COUNTS, S-SPARSE, O-H0, O-H2 | A specified event/policy and exact count computation or asymptotic lemma |
+| P1.v1 | achieved in I1 | Can final-letter recursion sample connected genus-two words efficiently? | S-G01, R-CONNECTED, O-COUNTS | P0 finds an uncovered statement and a concrete allocation identity/test |
+| P2.v1 | achieved in I1 | Can the marked-cut construction extend beyond genus one? | S-CUT, O-COUNTS | P0 identifies a new cut/grammar with specified multiplicities |
+| P3.v1 | achieved obstruction in I1 | Which component types carry enough bridge probability to extend the global regime? | S-COUNTS, S-SPARSE, O-H0, O-H2 | A specified event/policy and exact count computation or asymptotic lemma |
 | P4.v1 | reserve | Can the rank lift improve accuracy at fixed length? | S-DENSE, S-STAR, O-TABLE | A new positive connection law, avoiding rejected endpoint inventories |
 | P5.v1 | audit/delivery | Does the exact current result survive full review and change the global frontier? | T-AUDIT and the selected result | Frozen statement, proof/code, complete reports and executable regressions |
 
@@ -204,3 +204,11 @@ front page; primary PROJECT_MAP.md remains the pre-campaign snapshot.
 This programme is inert in ordinary sessions. Its research/review/checkpoint
 obligations apply only inside the explicitly started campaign's sealed attempt.
 Preparation, normal edits, status checks and Git requests do not activate them.
+
+## P6.v1: Exact sparse sampling by expected component cost — admission pending
+
+Target the exact global uniform law, with unrestricted macro selection and the QC all-genus decoder instantiated only on selected components. Seek expected poly(N,m) bit time on an explicit sparse regime, initially m³<=N², or a justified useful subregime/finite condition. This gives TV0 for everyb without excluding any components. No all-length runtime theorem is proposed.
+
+Entry ingredient: canonical SG-T1.v1 gives exact bridge-conditioned marked-component bounds; QC.v1 gives a literal all-genus decoder with at most3^(v−1) quotient states. Freeze an honest exponential-in-v cost, then average it under the full exact macro law. Never infer runtime from omitted probability alone or multiply marginals after adaptive conditioning. No preprocessing unselected large-v decoders.
+
+First test: an explicit nonempty finite condition on E sum a^v for a covering actual decoder cost. Audit arithmetic/caching/space, finite exceptions, arbitrary precision and exact boundary/whole-word laws. A positive candidate needs fresh blind and exact-version review. Failure/HOLD requires a named new ingredient.

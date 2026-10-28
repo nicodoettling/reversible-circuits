@@ -4,33 +4,33 @@
 
 Recommendations, not launched runs. Effort estimates are planning judgments, not promises.
 
-## T-CONNECTED: Decode higher-genus connected words (active research)
+## T-MASS: Test exact sparse sampling through expected component cost (active research)
 
-Construct a positive, word-level conditional decoder for connected identity fibers with support beyond L=Theta(log(N+m)) and genus g>=2. The full sufficient target is uniform expected poly(N,m,b) time with TV<=2^(-b), uniformly in feasible v,ell. Begin with connected arbitrary-endpoint genus two as a bounded stepping stone, not as an all-length solution.
+Analyze unrestricted exact macro selection followed by on-demand quotient decoding. Prove a bridge-conditioned exponential component moment paying its actual cost; aim for exactness and arbitrary precision on a sparse regime.
 
-- Nearest evidence: [R-CONNECTED](RESULTS.md#r-connected), [S-G01](RESULTS.md#s-g01), [S-CUT](RESULTS.md#s-cut), [S-QUOTIENT](RESULTS.md#s-quotient), [O-COUNTS](OBSTRUCTIONS.md#o-counts)
+- Nearest evidence: [S-COUNTS](RESULTS.md#s-counts), [S-SPARSE-OLD](RESULTS.md#s-sparse-old), [S-QUOTIENT](RESULTS.md#s-quotient), [O-GROW](OBSTRUCTIONS.md#o-grow), [P-BLIND-STRONG](OBSTRUCTIONS.md#p-blind-strong)
+- Advance: Determines which new decoder would materially improve the global sampler and can turn a limited primitive into a meaningful length theorem.
+- First test: Read canonical SG-T1 fresh-pair tail and QC cost. Freeze a deterministic cost poly(N,m) times a^v, derive E_U sum_components a^v, and check a nonempty explicit regime; no preprocessing all large decoders.
+- Positive: A reviewed exact global sampler with polynomial expected bit time on an explicit sparse regime, including finite exceptions or a precise computable condition.
+- Negative: A normalized moment witness, hidden exponential preprocessing or failed cost bound retires that implementation, not general sampling.
+- Stop or pivot: Negligible omitted mass alone is insufficient. Charge actual cost under the full exact macro law; do not multiply adaptively conditioned marginal bounds or repeat cutoff-only policies.
+- Effort: One bounded 2-4-hour diagnostic/proof-target pass using existing counts, with a named asymptotic lemma as the deliverable.
+- Uncertainty: Medium for useful falsification; high for a sharp transition theorem.
+- Rationale: A distinct precision/resource question remains even after the growing-genus support-policy obstruction.
+
+## T-CONNECTED: Decode higher-genus connected words (conditional research; genus2 completed)
+
+Decode larger support and genus>=3 with a useful global regime or uniform genus bound. Genus2 existence is completed; do not repeat it.
+
+- Nearest evidence: [R-CONNECTED](RESULTS.md#r-connected), [S-G012](RESULTS.md#s-g012), [S-CUT2](RESULTS.md#s-cut2), [S-QUOTIENT](RESULTS.md#s-quotient), [O-GROW](OBSTRUCTIONS.md#o-grow)
 - Advance: Removes the actual missing primitive in an already exact component-selection pipeline; a uniform-in-g construction would give a global arbitrary-length sampler.
-- First test: Write the literal final-letter branch partition for genus two, including both g=1 children, and ask whether the sum over forced cycle assignments can be evaluated/decoded in polynomial time without enumerating subsets. In parallel compare a higher-genus marked-cut grammar with C1; demand a full word reconstruction and correct mark-forgetting weights.
+- First test: Freeze a new uniform ingredient or useful mass regime before another genus allocation; reject an unchanged fixed-genus ladder.
 - Positive: A verified new connected decoder, or an explicit uniform-in-g reduction with error and bit bounds. Fixed-g progress must state its dependence on g.
 - Negative: A counterexample to a proposed state compression or a quantified obstruction to polynomial allocation/mark-forgetting for that mechanism.
 - Stop or pivot: Stop a route when it supplies only scalar counts, reintroduces exponential partition tables, or requires an unproved uniform conditional law. If genus-two work would cover negligible macro mass, report it as a primitive only and use T-MASS to redirect.
 - Effort: One bounded 4-hour design/falsification pass, then separately authorize implementation and adversarial audit if a concrete law survives.
 - Uncertainty: High; genus-one positivity need not extend with polynomial resources uniformly in g.
-- Rationale: Highest potential scope gain; uses accepted decoders and exact assembly instead of reopening already solved scalar counting.
-
-## T-MASS: Locate the component types that a new sampler must cover (active research)
-
-Characterize the exact bridge-conditioned mass of larger-support, higher-genus components in the gap between the sparse theorem and m=N^(3/4). Seek a precise new admissible-component policy with a provable omitted-mass bound, not a claim that the known cutoff is sharp.
-
-- Nearest evidence: [S-COUNTS](RESULTS.md#s-counts), [S-SPARSE](RESULTS.md#s-sparse), [O-H0](OBSTRUCTIONS.md#o-h0), [O-H2](OBSTRUCTIONS.md#o-h2), [O-G01](OBSTRUCTIONS.md#o-g01), [P-BLIND-STRONG](OBSTRUCTIONS.md#p-blind-strong)
-- Advance: Determines which new decoder would materially improve the global sampler and can turn a limited primitive into a meaningful length theorem.
-- First test: Use existing C(v,ell) and least-label count code to compute exact selected tail/event probabilities at a small declared parameter grid. Compare low-genus and size-cutoff hypotheses; distinguish bridge conditioning from an ordinary Erdos-Renyi support graph. Before asserting an all-N negative, reconcile P-BLIND-STRONG.
-- Positive: A mass theorem identifying a new useful family or extending the known negligible-error regime under a feasible decoder policy.
-- Negative: A rigorous omitted-mass obstruction for a proposed policy, with its exact quantifiers, or an exact finite witness falsifying an unproved universal tail bound.
-- Stop or pivot: Stop simply enlarging the same polynomial quotient cutoff: O-H2 already handles it. Finite plots cannot determine an asymptotic threshold. Pivot if a mass calculation has no algorithmic consequence or new obstruction.
-- Effort: One bounded 2-4-hour diagnostic/proof-target pass using existing counts, with a named asymptotic lemma as the deliverable.
-- Uncertainty: Medium for useful falsification; high for a sharp transition theorem.
-- Rationale: Cheap discriminating tests can prevent investment in a decoder for components that carry negligible target mass.
+- Rationale: I1 closes genus2 but O-GROW prevents treating fixed-genus extension as a global solution.
 
 ## T-AUDIT: Human-readable certification and manuscript reconciliation (active audit/integration)
 
@@ -90,7 +90,7 @@ Specify a distinct generator/representation/access model before using expansion 
 
 ## T-RETIRED: Do not rerun completed or refuted assignments (retired)
 
-Retire genus-one existence, merely proving the old 2N^3 schedule, the standalone mean-lift requirement, H0/H1 negligible error throughout m^4<=N^3, and a rescue by only increasing the logarithmic quotient cutoff. Pure Hurwitz global uniformity is not an open candidate.
+Retire genus-one existence, merely proving the old 2N^3 schedule, the standalone mean-lift requirement, H0/H1 negligible error throughout m^4<=N^3, and a rescue by only increasing the logarithmic quotient cutoff. Pure Hurwitz global uniformity is not an open candidate. I1 also retires genus-two existence and a fixed-genus-only rescue of the intermediate mass gap.
 
 - Nearest evidence: [S-G01](RESULTS.md#s-g01), [S-CUT](RESULTS.md#s-cut), [S-DENSE](RESULTS.md#s-dense), [HB-DECOMP](RESULTS.md#hb-decomp), [O-H0](OBSTRUCTIONS.md#o-h0), [O-H2](OBSTRUCTIONS.md#o-h2), [O-HURWITZ](OBSTRUCTIONS.md#o-hurwitz)
 - Advance: Preserves resources for genuinely new ingredients.
@@ -112,4 +112,4 @@ Original briefs are preserved; these dispositions govern map-based reuse.
 - [notes/sparse-global-sampler-goal-run.md](../sparse-global-sampler-goal-run.md): Completed restricted sparse theorem; do not repeat the m^3<=N^2 target.
 - [notes/sparse-boundary-goal-run.md](../sparse-boundary-goal-run.md): Original H0/H1 uniform negligible-error assertion refuted; the broader any-sampler T0 stays open. Redirect to T-CONNECTED/T-MASS.
 - [notes/local-heatbath-polynomial-mixing-resolution-goal-run.md](../local-heatbath-polynomial-mixing-resolution-goal-run.md): Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization.
-- [notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md](campaign-identity-bridge-sampling-20261025/MISSION.md): Authorized attempt 000001 active from 2026-10-28; P0 admission precedes research allocation. Frozen any-sampler mission and same-mission recovery remain unchanged.
+- [notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md](campaign-identity-bridge-sampling-20261025/MISSION.md): Authorized attempt000002; I1 reviewed at exact scope, GLOBAL-T0 OPEN. Next is P6 expected-cost sparse admission; frozen mission/recovery permissions unchanged.

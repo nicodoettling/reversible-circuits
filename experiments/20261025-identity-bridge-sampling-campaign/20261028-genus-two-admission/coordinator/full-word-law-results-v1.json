@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "base_commit": "a4e2b9a9b7d68f33165ecc6f18b3f1532f344bec",
+  "seed": null,
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "sampler_sha256": "03825d5c82f55a09340588b00ebc5e63fb248eae8342ef129f5b1dfb6a92263e",
+  "script_sha256": "33e44dd0f42ee2a77037ab65e7ebdd207e8ca16ab26c9b619499a64241569a6e",
+  "cases": [
+    {
+      "N": 2,
+      "words": 1,
+      "marked_pairs": 2,
+      "execution_nodes": 7,
+      "execution_leaves": 4,
+      "maximum_decision_depth": 2,
+      "complete_production_marked_law_uniform": true,
+      "corrected_full_word_law_uniform": true,
+      "acceptance": "1/2",
+      "cut_multiplicities": {
+        "2": 1
+      },
+      "law_sha256": "d7ca5e0cae4ba859b891683991c7a33133d85f3abacede25939e743b698ba8b8",
+      "elapsed_seconds": 0.007378146052360535
+    },
+    {
+      "N": 3,
+      "words": 2184,
+      "marked_pairs": 4656,
+      "execution_nodes": 23133,
+      "execution_leaves": 15090,
+      "maximum_decision_depth": 9,
+      "complete_production_marked_law_uniform": true,
+      "corrected_full_word_law_uniform": true,
+      "acceptance": "91/194",
+      "cut_multiplicities": {
+        "1": 432,
+        "2": 1104,
+        "3": 576,
+        "4": 72
+      },
+      "law_sha256": "f45e1e15e618235810280cd698343a547d4936102f8db3ad5bd0773964681b41",
+      "elapsed_seconds": 27.34706039703451
+    }
+  ]
+}

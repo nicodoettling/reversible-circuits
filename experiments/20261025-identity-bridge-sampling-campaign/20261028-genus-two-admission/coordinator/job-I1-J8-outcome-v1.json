@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "job": "I1-J8",
+  "status": "complete",
+  "exit_code": 0,
+  "cleanup": "bounded helper returned normal success; no ambiguous exit",
+  "reservation": "job-I1-J8.md",
+  "command": "/usr/bin/python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json --timeout 180 --memory-gib 1 -- /usr/bin/python3 -B experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/full-word-law-v1.py",
+  "timeout_seconds": 180,
+  "address_space_gib": 1,
+  "estimated_memory_mib": 256,
+  "observed_rss": null,
+  "child_cases_seconds": [
+    0.007378146052360535,
+    27.34706039703451
+  ],
+  "result": "full-word-law-results-v1.json",
+  "result_sha256": "b306f7695d584ab02e88144e93786b551bf5ec0af1dcd9649ba9e0ac22a5a84c",
+  "released_utc": "2026-10-28T11:27:05.532101+00:00"
+}

@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed. Authorized attempt intake on 2026-10-28 validated the bounded sandbox and preserved all inherited mathematical statuses; no campaign mathematics is accepted.
 
-Discovery baseline: 4034 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4127 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -120,11 +120,11 @@ Records: Pending; no mathematical record inferred.
 
 ## campaign: Resilient identity-bridge research campaign
 
-12 discovered entries. authorized attempt active; intake only, no new mathematical acceptance. Depth: preparation diff, exact predecessor statements and scoped inherited verdicts; new research pending admission.
+105 discovered entries. I1 exact scoped results accepted-reviewed; GLOBAL-T0 OPEN; next expected-cost admission planned. Depth: Full frozen proofs, source checks, blind/nonauthor reviews and exact finite laws.
 
 Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.
 
-Records: Pending; no mathematical record inferred.
+Records: [S-G012](RESULTS.md#s-g012), [S-CUT2](RESULTS.md#s-cut2), [O-GROW](OBSTRUCTIONS.md#o-grow)
 
 ## Unresolved and Reconciled Discrepancies
 
@@ -189,6 +189,14 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [g01-synthesis-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md): Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.
 - [cut-statement](../../experiments/20260907-genus-one-sampler/roles/r2-structural/report.md): Complete report read; C1 construction, resource bound and restricted target traced.
 - [cut-audit](../../experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md): Verdict, version table and C1.1-C1.6 selected; not a fresh proof/parser review.
+- [i1-recursive](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md): Full fixed-endpoint count, forced-allocation, word-law and bit-cost proof.
+- [i1-recursive-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md): Full nonauthor source/proof/code audit and independent whole-law test.
+- [i1-cut](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md): Full C2.1--C2.6 proof and prototype.
+- [i1-cut-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md): Full nonauthor proof/resource audit and complete marked-word law.
+- [i1-mass](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md): Full uniform growing-genus event proof and constants.
+- [i1-mass-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md): Full nonauthor source/count/moment audit.
+- [i1-blind](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md): Full isolated blind derivations reconciled; stronger auxiliary refinements remain provisional.
+- [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md): Full exact-scope dependency and review reconciliation.
 
 ## Branch Retrieval
 

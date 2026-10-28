@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "kind": "documentary integration check; no new mathematical verification",
+  "checked_utc": "2026-10-28T11:46:26.192461+00:00",
+  "comparison_commit": "a4e2b9a9b7d68f33165ecc6f18b3f1532f344bec",
+  "old_record_count": 37,
+  "new_record_count": 40,
+  "changed_old_records": [],
+  "added_records": [
+    "S-G012",
+    "S-CUT2",
+    "O-GROW"
+  ],
+  "old_source_count": 49,
+  "new_source_count": 57,
+  "changed_old_sources": [],
+  "source_bindings": [
+    {
+      "id": "scope",
+      "historical": true,
+      "path": "GOAL_SPEC.md",
+      "recorded_sha256": "1525b2ddfee0eb4a07dcfbd8106717a137fdeb972cfb099ecaee156c6d399653",
+      "actual_sha256": "1525b2ddfee0eb4a07dcfbd8106717a137fdeb972cfb099ecaee156c6d399653",
+      "match": true
+    },
+    {
+      "id": "handoff",
+      "historical": true,
+      "path": "HANDOFF.md",
+      "recorded_sha256": "196b93147dbbb788d76f0be0d65dd81376a49edbf4ae71798f057c540eefada2",
+      "actual_sha256": "196b93147dbbb788d76f0be0d65dd81376a49edbf4ae71798f057c540eefada2",
+      "match": true
+    },
+    {
+      "id": "manuscript-status",
+      "historical": true,
+      "path": "papers/transposition_identity_samplers/sections/theoretical_status.tex",
+      "recorded_sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a",
+      "actual_sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a",
+      "match": true
+    },
+    {
+      "id": "manuscript-dense",
+      "historical": true,
+      "path": "papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex",
+      "recorded_sha256": "e9622c05da756bb8508d826ac0417baf4c39e2bb328f770e9efd0cf49d15363e",
+      "actual_sha256": "e9622c05da756bb8508d826ac0417baf4c39e2bb328f770e9efd0cf49d15363e",
+      "match": true
+    },
+    {
+      "id": "expander",
+      "historical": true,
+      "path": "papers/transposition_identity_samplers/sections/expander_gate_sets.tex",
+      "recorded_sha256": "308a4debdc09a17f599ea98458796fa8b84936cdc160abc8018b77ea5778c351",
+      "actual_sha256": "308a4debdc09a17f599ea98458796fa8b84936cdc160abc8018b77ea5778c351",
+      "match": true
+    },
+    {
+      "id": "references",
+      "historical": true,
+      "path": "papers/transposition_identity_samplers/sections/references.tex",
+      "recorded_sha256": "a7ea2009c9f04edf2c7a2a384f56e8b94563c290087e595fe717f3a87c0f8066",
+      "actual_sha256": "a7ea2009c9f04edf2c7a2a384f56e8b94563c290087e595fe717f3a87c0f8066",
+      "match": true
+    },
+    {
+      "id": "rr-ledger",
+      "historical": true,
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/claim_ledger.md",
+      "recorded_sha256": "f394340a4eaf5b8b486d787336f40320b08d0c30f8d022109c81a927663ba3a8",
+      "actual_sha256": "f394340a4eaf5b8b486d787336f40320b08d0c30f8d022109c81a927663ba3a8",
+      "match": true
+    },
+    {
+      "id": "rr-redteam",
+      "historical": true,
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r6-redteam/report.md",
+      "recorded_sha256": "090cd3f99fb19cb9891fff4a7d7f41ff9141066965c81bbe9ef749e363d39d2d",
+      "actual_sha256": "090cd3f99fb19cb9891fff4a7d7f41ff9141066965c81bbe9ef749e363d39d2d",
+      "match": true
+    },
+    {
+      "id": "phase-ledger",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/claim_ledger.md",
+      "recorded_sha256": "b805c04e07e8e815aee66b3955e953978e20c7ebfa9261162094bf538a7b396c",
+      "actual_sha256": "b805c04e07e8e815aee66b3955e953978e20c7ebfa9261162094bf538a7b396c",
+      "match": true
+    },
+    {
+      "id": "phase",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/phase_diagram.md",
+      "recorded_sha256": "90f391c265d1c8114ece5cdeffcc7a62d47114791314b09d65f9fee4415a6ebf",
+      "actual_sha256": "90f391c265d1c8114ece5cdeffcc7a62d47114791314b09d65f9fee4415a6ebf",
+      "match": true
+    },
+    {
+      "id": "dense-statement",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/report.md",
+      "recorded_sha256": "ae1205ffa8f50f61dd3e46564bb98875c4f8d635df29c7a941f80dfe9d4aa0d7",
+      "actual_sha256": "ae1205ffa8f50f61dd3e46564bb98875c4f8d635df29c7a941f80dfe9d4aa0d7",
+      "match": true
+    },
+    {
+      "id": "dense-audit",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/fresh_dense_audit.md",
+      "recorded_sha256": "d5e584dcb6254cf38c657f8a96a89c81a864d31bbe0310d140880bd2cdc56f7d",
+      "actual_sha256": "d5e584dcb6254cf38c657f8a96a89c81a864d31bbe0310d140880bd2cdc56f7d",
+      "match": true
+    },
+    {
+      "id": "short-statement",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/report.md",
+      "recorded_sha256": "2ef9e3bb86b8925c6fe8224ab38cdf7857b4c200af437041d886b95b4512e9d3",
+      "actual_sha256": "2ef9e3bb86b8925c6fe8224ab38cdf7857b4c200af437041d886b95b4512e9d3",
+      "match": true
+    },
+    {
+      "id": "short-audit",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/fresh_short_audit.md",
+      "recorded_sha256": "d3dd868bbe148680a1d6f3b2f2e661c0a3565731a891bca8fe79e75a107216f9",
+      "actual_sha256": "d3dd868bbe148680a1d6f3b2f2e661c0a3565731a891bca8fe79e75a107216f9",
+      "match": true
+    },
+    {
+      "id": "component",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/report.md",
+      "recorded_sha256": "77e7e2060a8f1ec0fc6dda1e2ea73541dbd3628aa4b32967d90ce6c1272c6231",
+      "actual_sha256": "77e7e2060a8f1ec0fc6dda1e2ea73541dbd3628aa4b32967d90ce6c1272c6231",
+      "match": true
+    },
+    {
+      "id": "component-synthesis-audit",
+      "historical": true,
+      "path": "experiments/20260905-bridge-length-phase-diagram/roles/r3-intermediate-hybrid/synthesis_audit.md",
+      "recorded_sha256": "a1114637e9c673b26b684d6a2ab53ee68bf7b8e78e2486d4bc45d06e9272b47e",
+      "actual_sha256": "a1114637e9c673b26b684d6a2ab53ee68bf7b8e78e2486d4bc45d06e9272b47e",
+      "match": true
+    },
+    {
+      "id": "g01-proof",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/proof.md",
+      "recorded_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
+      "actual_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
+      "match": true
+    },
+    {
+      "id": "g01-ledger",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/claim_ledger.md",
+      "recorded_sha256": "8f2ef0f8788b304b3f3302a707f1546c7e9cc4bff8391a223ab3a236a0ae73ba",
+      "actual_sha256": "8f2ef0f8788b304b3f3302a707f1546c7e9cc4bff8391a223ab3a236a0ae73ba",
+      "match": true
+    },
+    {
+      "id": "g01-audit",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_audit.md",
+      "recorded_sha256": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1",
+      "actual_sha256": "19cfe289481cff3fa7dfe7194d0ca02ecd8807df1f709d5de584af064f4e81d1",
+      "match": true
+    },
+    {
+      "id": "g01-global",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
+      "recorded_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
+      "actual_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
+      "match": true
+    },
+    {
+      "id": "g01-global-audit",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r3-referee/global_audit.md",
+      "recorded_sha256": "1312e3906d851d47bababf0b7beeeeb27cdfb5292adeee242114f65a3115c1dc",
+      "actual_sha256": "1312e3906d851d47bababf0b7beeeeb27cdfb5292adeee242114f65a3115c1dc",
+      "match": true
+    },
+    {
+      "id": "sparse-proof",
+      "historical": true,
+      "path": "experiments/20260922-sparse-global-sampler/proof.md",
+      "recorded_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
+      "actual_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
+      "match": true
+    },
+    {
+      "id": "sparse-ledger",
+      "historical": true,
+      "path": "experiments/20260922-sparse-global-sampler/claim_ledger.md",
+      "recorded_sha256": "98187603b4fc43a90ef478493eb4ca7942f8cabb82001c1b02b18d942575f22a",
+      "actual_sha256": "98187603b4fc43a90ef478493eb4ca7942f8cabb82001c1b02b18d942575f22a",
+      "match": true
+    },
+    {
+      "id": "sparse-referee",
+      "historical": true,
+      "path": "experiments/20260922-sparse-global-sampler/roles/r5-referee/report.md",
+      "recorded_sha256": "f01600cf6d5e3c7370e7b66e3a18411633388b9f99106104b250efd3bf7dde9e",
+      "actual_sha256": "f01600cf6d5e3c7370e7b66e3a18411633388b9f99106104b250efd3bf7dde9e",
+      "match": true
+    },
+    {
+      "id": "boundary-proof",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/proof.md",
+      "recorded_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
+      "actual_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
+      "match": true
+    },
+    {
+      "id": "boundary-obstruction",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/obstruction.md",
+      "recorded_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
+      "actual_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
+      "match": true
+    },
+    {
+      "id": "boundary-ledger",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/claim_ledger.md",
+      "recorded_sha256": "b272e14752fd2c2f66bebada86e0b8c47087f608161388b3178937d94efd2f27",
+      "actual_sha256": "b272e14752fd2c2f66bebada86e0b8c47087f608161388b3178937d94efd2f27",
+      "match": true
+    },
+    {
+      "id": "boundary-referee",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md",
+      "recorded_sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d",
+      "actual_sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d",
+      "match": true
+    },
+    {
+      "id": "boundary-report",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/coordinator_report.md",
+      "recorded_sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9",
+      "actual_sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9",
+      "match": true
+    },
+    {
+      "id": "quotient",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/roles/r4-construction/proof-v1.md",
+      "recorded_sha256": "cd9edcd3f85e3eb9f32b054a0e2f347f5c8ff99a9d42e991bc9032dca52d6195",
+      "actual_sha256": "cd9edcd3f85e3eb9f32b054a0e2f347f5c8ff99a9d42e991bc9032dca52d6195",
+      "match": true
+    },
+    {
+      "id": "quotient-audit",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/construction_audit.md",
+      "recorded_sha256": "8598002e9c45530975395ddc05740da0e2009568f23fb882f8a8ff771e5d43c8",
+      "actual_sha256": "8598002e9c45530975395ddc05740da0e2009568f23fb882f8a8ff771e5d43c8",
+      "match": true
+    },
+    {
+      "id": "connected-gap",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md",
+      "recorded_sha256": "dac6af25d6960d4a45dd4121c4357110fbaa39ed4372ca654d9e5b238cce74a2",
+      "actual_sha256": "dac6af25d6960d4a45dd4121c4357110fbaa39ed4372ca654d9e5b238cce74a2",
+      "match": true
+    },
+    {
+      "id": "boundary-blind",
+      "historical": true,
+      "path": "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md",
+      "recorded_sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d",
+      "actual_sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d",
+      "match": true
+    },
+    {
+      "id": "hb-ledger",
+      "historical": true,
+      "path": "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md",
+      "recorded_sha256": "152632e97b3d54ac711d6aa125002623492a1cd71b3e9f0be3d33f96c14974d3",
+      "actual_sha256": "152632e97b3d54ac711d6aa125002623492a1cd71b3e9f0be3d33f96c14974d3",
+      "match": true
+    },
+    {
+      "id": "hb-resolution",
+      "historical": true,
+      "path": "notes/local-heatbath-polynomial-mixing-resolution-resolution.md",
+      "recorded_sha256": "8b17051f10b670dd8b9786dfa7e7c21092cc3a2b3af1d930389a7ff0bb0c8435",
+      "actual_sha256": "8b17051f10b670dd8b9786dfa7e7c21092cc3a2b3af1d930389a7ff0bb0c8435",
+      "match": true
+    },
+    {
+      "id": "hb-irred",
+      "historical": true,
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md",
+      "recorded_sha256": "06b0fb4a30478dbf5cf5241b1cbf0181f0a201b34ae273745b804a4f9d892d97",
+      "actual_sha256": "06b0fb4a30478dbf5cf5241b1cbf0181f0a201b34ae273745b804a4f9d892d97",
+      "match": true
+    },
+    {
+      "id": "hb-irred-audit",
+      "historical": true,
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md",
+      "recorded_sha256": "eb4810a983df5228b65719489ce0094c22da26d3e9671f1f90435de41c36fecc",
+      "actual_sha256": "eb4810a983df5228b65719489ce0094c22da26d3e9671f1f90435de41c36fecc",
+      "match": true
+    },
+    {
+      "id": "hb-literature",
+      "historical": true,
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M15/continuation-bridge-literature/report.md",
+      "recorded_sha256": "9632a09ee588f69a5e702686ee5626697fe0a4f52ca651bd2a56d864e8e9bc70",
+      "actual_sha256": "9632a09ee588f69a5e702686ee5626697fe0a4f52ca651bd2a56d864e8e9bc70",
+      "match": true
+    },
+    {
+      "id": "hb-m340",
+      "historical": true,
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M340-cross-cell-residual-flow/report.md",
+      "recorded_sha256": "84a09859536072d487ad722eb13049dd6589adce9a0eb981443fd357c6d52e10",
+      "actual_sha256": "84a09859536072d487ad722eb13049dd6589adce9a0eb981443fd357c6d52e10",
+      "match": true
+    },
+    {
+      "id": "hb-m339",
+      "historical": true,
+      "path": "experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M339-m337-fresh-referee/report.md",
+      "recorded_sha256": "ad73d97186cb5fe600cc22c92c6bc23db82edfce937b09de3ffde59be7debe61",
+      "actual_sha256": "ad73d97186cb5fe600cc22c92c6bc23db82edfce937b09de3ffde59be7debe61",
+      "match": true
+    },
+    {
+      "id": "hitting",
+      "historical": true,
+      "path": "experiments/20260710-hurwitz-hitting-times/report.md",
+      "recorded_sha256": "067b1490411ffad799f4a776da60b22f1b97e62bd19dddf3c5dc54c1ac364765",
+      "actual_sha256": "067b1490411ffad799f4a776da60b22f1b97e62bd19dddf3c5dc54c1ac364765",
+      "match": true
+    },
+    {
+      "id": "edge",
+      "historical": true,
+      "path": "experiments/20260721-edge-shift-cycle-hitting/report.md",
+      "recorded_sha256": "62df9ee40abb7f43e34341ab3217ebc392bb671ddc652ef87e6b1df2a0b0497d",
+      "actual_sha256": "62df9ee40abb7f43e34341ab3217ebc392bb671ddc652ef87e6b1df2a0b0497d",
+      "match": true
+    },
+    {
+      "id": "early",
+      "historical": true,
+      "path": "experiments/20260617-214335-coordinator-synthesis/report.md",
+      "recorded_sha256": "f362f757a036b0e03e7d6eb696d892174fc940701c793f5c068f39e8d83ecca9",
+      "actual_sha256": "f362f757a036b0e03e7d6eb696d892174fc940701c793f5c068f39e8d83ecca9",
+      "match": true
+    },
+    {
+      "id": "star-statement",
+      "historical": true,
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r3-star/report.md",
+      "recorded_sha256": "c6c3d7350677de8e75e4b8c035db8cb63d3a0922b055a816a6f1da40cfe35d41",
+      "actual_sha256": "c6c3d7350677de8e75e4b8c035db8cb63d3a0922b055a816a6f1da40cfe35d41",
+      "match": true
+    },
+    {
+      "id": "star-audit",
+      "historical": true,
+      "path": "experiments/20260901-rank-recursive-identity-bridge-goal/roles/r2-branch/r3_fresh_audit.md",
+      "recorded_sha256": "c05d356890bcf510f9b8b56ad6132334fedd1f43f0e99d9d8229851d086830c4",
+      "actual_sha256": "c05d356890bcf510f9b8b56ad6132334fedd1f43f0e99d9d8229851d086830c4",
+      "match": true
+    },
+    {
+      "id": "g01-frozen",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/proof.md",
+      "recorded_sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba",
+      "actual_sha256": "c779902224eaab4ebe2837fbb0d4aaaf9850aa4aede5443cd86259a746f6b9ba",
+      "match": true
+    },
+    {
+      "id": "g01-synthesis-audit",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
+      "recorded_sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44",
+      "actual_sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44",
+      "match": true
+    },
+    {
+      "id": "cut-statement",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/report.md",
+      "recorded_sha256": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38",
+      "actual_sha256": "798425705773608919b85404223700376571f67c4e47d8f4d840bb0835533b38",
+      "match": true
+    },
+    {
+      "id": "cut-audit",
+      "historical": true,
+      "path": "experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md",
+      "recorded_sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8",
+      "actual_sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8",
+      "match": true
+    },
+    {
+      "id": "i1-recursive",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md",
+      "recorded_sha256": "5b72c76a281b7b3520b884b5e5438852499ab51a76bc2ad77e6e8ab9149ce775",
+      "actual_sha256": "5b72c76a281b7b3520b884b5e5438852499ab51a76bc2ad77e6e8ab9149ce775",
+      "match": true
+    },
+    {
+      "id": "i1-recursive-audit",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md",
+      "recorded_sha256": "47c7f956e4ad2dafd457c332e52bd39f33458bcdddb47f7be5b885b3d7a11811",
+      "actual_sha256": "47c7f956e4ad2dafd457c332e52bd39f33458bcdddb47f7be5b885b3d7a11811",
+      "match": true
+    },
+    {
+      "id": "i1-cut",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md",
+      "recorded_sha256": "fab2c7ff33966b61ccbaab06f66f98867eef3778840ab82b1eed255f7a9f6eef",
+      "actual_sha256": "fab2c7ff33966b61ccbaab06f66f98867eef3778840ab82b1eed255f7a9f6eef",
+      "match": true
+    },
+    {
+      "id": "i1-cut-audit",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md",
+      "recorded_sha256": "b13cfd57635a4e44a464d474aaf41d8ecb45e5006d0d3c1341400c1d43d7dc10",
+      "actual_sha256": "b13cfd57635a4e44a464d474aaf41d8ecb45e5006d0d3c1341400c1d43d7dc10",
+      "match": true
+    },
+    {
+      "id": "i1-mass",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md",
+      "recorded_sha256": "cdfcc097d50a8ed070c27fcc5b8ae700e0472769578f7ccd6ab7e5ac85178aef",
+      "actual_sha256": "cdfcc097d50a8ed070c27fcc5b8ae700e0472769578f7ccd6ab7e5ac85178aef",
+      "match": true
+    },
+    {
+      "id": "i1-mass-audit",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md",
+      "recorded_sha256": "bd4a7bc98a6fe197e7f11d76f77693c6fbddcfcb2017229d1a4f2af8d9f685ba",
+      "actual_sha256": "bd4a7bc98a6fe197e7f11d76f77693c6fbddcfcb2017229d1a4f2af8d9f685ba",
+      "match": true
+    },
+    {
+      "id": "i1-blind",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md",
+      "recorded_sha256": "63fac139070781fdc9cd997933f3ce480605324d2b34660fca31928c735f5c92",
+      "actual_sha256": "63fac139070781fdc9cd997933f3ce480605324d2b34660fca31928c735f5c92",
+      "match": true
+    },
+    {
+      "id": "i1-reconciliation",
+      "historical": false,
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md",
+      "recorded_sha256": "41fbed51666467b4ae04787885d383651b176a4a084b38a76fe0548572d35380",
+      "actual_sha256": "41fbed51666467b4ae04787885d383651b176a4a084b38a76fe0548572d35380",
+      "match": true
+    }
+  ],
+  "programme_decisions_old_prefix_preserved": true,
+  "claim_statuses": {
+    "GLOBAL-T0": "OPEN",
+    "R1-T2.v1": "ACCEPTED-REVIEWED",
+    "C2.v1": "ACCEPTED-REVIEWED",
+    "M-GROW.v1": "ACCEPTED-REVIEWED",
+    "BLIND-B1-STRONG": "PROVISIONAL"
+  },
+  "author_next_actions": {
+    "I1-r1-recursive": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
+    "I1-r2-structural": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
+    "I1-r3-mass": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work."
+  },
+  "review_task_statuses": {
+    "I1-review-mass": "completed-reconciled",
+    "I1-review-recursive": "completed-reconciled",
+    "I1-review-blind": "completed-reconciled",
+    "I1-review-structural": "completed-reconciled"
+  },
+  "remaining_only_active_task": [
+    "I1-integration-audit"
+  ],
+  "corrected_findings": [
+    "Three author next-actions no longer claim mathematical certification pending; point to scoped reconciliation.",
+    "Programme distinguishes historical genus>=2 reduction from current remaining genus>=3 primitive."
+  ],
+  "read_document_sha256": {
+    "notes/project-map/catalogue.json": "1c5774e713fbc44032d4887936326cf925733a2e07a5d70c68a67822b295c8e7",
+    "notes/project-map/PROGRAMME.md": "cb0abc3d5fd45dd70cf8410752189bcea21bc5bdcb7338afda60639facc5c0b4",
+    "notes/project-map/PROGRAMME_DECISIONS.md": "3b69e6a88f350a85ea3df831f4f957e915ea95860a86af256d4b17c0c8eb4585",
+    "research-campaigns/identity-bridge-sampling-20261025/claims.json": "cd62179af385ad8bed578d052f0a0db3d717b486f04e2c6e1deff80da4c70391",
+    "research-campaigns/identity-bridge-sampling-20261025/tasks.json": "a3098a1f6c35969b69c0e204324d2b5de1b4e2d7219835b3b792c45b5916deef",
+    "research-campaigns/identity-bridge-sampling-20261025/RECOVERY.md": "d18e533f45fd32e9f810c5fc71cc500b4289db5719830f8ebc1925a50f8300fc",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md": "41fbed51666467b4ae04787885d383651b176a4a084b38a76fe0548572d35380",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/report.md": "2c9ab7494b736a787370ffc014317ada85d2e451145226d1ae965f629df400e4"
+  },
+  "status": "PASS documentary scope and preservation check; coordinator still owns baseline/gates/commit"
+}

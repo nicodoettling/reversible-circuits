@@ -1,0 +1,3 @@
+# Exact-version recursive review plan
+
+Nonblind structural-author reviewer, same model and inherited I1 context; no contact with blind reviewer. Freeze remains unchanged. Read every proof/code/source note and exact scope; recheck primary-source formula and normalization. Independently derive polarization and marker coefficients; seek forced-normalizer and (1,1) tensor failures. New finite test will compare signed squarefree-polynomial coefficient reference against counts/allocations and replay actual production executions on prescribed genus2 words, including S4 endpoints. Request bounded reservation before computation. Deadline11:50 UTC. Expected report includes every dependency verdict and all objections, whether or not theorem survives.

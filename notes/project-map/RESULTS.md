@@ -495,6 +495,42 @@ June17 supplied exact small-case word/orbit diagnostics and a pure-Hurwitz negat
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping. No new exact-scope disagreement identified by this documentary trace.
 
+<a id="s-g012"></a>
+## S-G012: Exact connected fixed-endpoint genera zero through two
+
+For every fixed endpoint sigma on v>=1 labels and g in{0,1,2}, exactly sample the nonempty connected transposition fiber of length v+c(sigma)-2+2g.
+
+- Effective status: **accepted-reviewed**; source: proved; frozen author proposal accepted in exact-version internal audit
+- Mapping depth: proof-reviewed. Full proof, fresh blind theorem derivation, exact-version nonauthor report and coordinator reconciliation; exact finite whole-law or count tests. Same-model reviews correlated.
+- Model: connected-endpoint; parameters: Expected O(v^11 log^3(v+1)) bit time, polynomial space; TV0 for every b>=1.
+- Guards: Independent fair bits, rightmost-first composition, explicit labeled words; singleton g0 empty, positive genus rejected.
+- Assumptions: Goulden--Jackson1999 Theorem1.1 and checked fixed-permutation normalization; inherited S-G01; explicit positive-marker conditional DP.
+- Remaining obligation: None within the exact accepted scope under named published inputs; global all-length sampling remains open.
+- Limitations: Internal correlated model review; only genus<=2. No arbitrary-genus or global mass guarantee.
+- Version / verdict binding: Exact proof/review SHA256 bindings in i1-reconciliation; author snapshota4e2b9a; fresh blind report frozen2026-10-28 11:31:07UTC.
+- Evidence: [i1-recursive](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md)
+- Adjudication: [i1-recursive-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md), [i1-blind](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)
+- Logical dependencies: [S-G01](RESULTS.md#s-g01)
+- Regressions / disagreements: All earlier counterexamples preserved, including support81/80, graph bias, insertion, cut multiplicities and CP1; required tiny global baselines retained. No material objection or repair required. Stronger blind refinements remain separately provisional.
+
+<a id="s-cut2"></a>
+## S-CUT2: Genus-two identity sampler by genus-one cuts
+
+For every N>=2 exactly sample connected identity words of length2N+2 by universal prefix-genus-one cuts, weighted tree/unicycle grammar and reciprocal-cut correction.
+
+- Effective status: **accepted-reviewed**; source: proved; frozen author proposal accepted in exact-version internal audit
+- Mapping depth: proof-reviewed. Full proof, fresh blind theorem derivation, exact-version nonauthor report and coordinator reconciliation; exact finite whole-law or count tests. Same-model reviews correlated.
+- Model: connected; parameters: Expected O(N^20 log^4(N+1)) bit time, polynomial space.
+- Guards: Distinguished labels/cycles/positions; exact forced-port conditional masses; independent fair bits.
+- Assumptions: Inherited exact S-G01 counts/decoder, elementary genus-incidence identity, proved encoding multiplicities and positive parser.
+- Remaining obligation: None within the exact accepted scope under named published inputs; global all-length sampling remains open.
+- Limitations: Identity genus2 only; no arbitrary-endpoint claim for this construction. Blind existence review covers the stronger endpoint theorem; exact cut implementation review is nonblind.
+- Version / verdict binding: Exact proof/review SHA256 bindings in i1-reconciliation; author snapshota4e2b9a; fresh blind report frozen2026-10-28 11:31:07UTC.
+- Evidence: [i1-cut](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md)
+- Adjudication: [i1-cut-audit](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md), [i1-blind](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)
+- Logical dependencies: [S-G01](RESULTS.md#s-g01)
+- Regressions / disagreements: All earlier counterexamples preserved, including support81/80, graph bias, insertion, cut multiplicities and CP1; required tiny global baselines retained. No material objection or repair required. Stronger blind refinements remain separately provisional.
+
 ## Imported Literature
 
 These are inherited source translations, not a fresh literature audit.
@@ -505,6 +541,7 @@ These are inherited source translations, not a fresh literature audit.
 - **E-DYZ**: [B. Dubrovin, D. Yang and D. Zagier, Classical Hurwitz numbers and related combinatorics, revised primary manuscript](https://people.mpim-bonn.mpg.de/zagier/files/tex/ClassicalHurwitz/HurwitzRevised.pdf), Proposition 1, equation (13); Section 1.2, equations (19)-(20). C(d,k)=d! k! h_(g,d) and positive connected-count recurrence; supplies scalar counts, not a literal word decoder. Source translation inherited from g01-global-audit; no local frozen primary PDF or new external check added.
 - **E-BIT**: [T. Ben-Itzhak and M. Teicher, Graph theoretic method for determining Hurwitz equivalence in the symmetric group, arXiv:math/0110110v1](https://arxiv.org/abs/math/0110110v1), Theorem 3.4 and Definitions 1.3, 3.1-3.3. Equal labeled support components and component weights classify identity-transposition Hurwitz orbits. Their generator is the inverse project generator; orbit equivalence is unchanged. Checked in hb-irred-audit. Repository copy Literature/0110110v1.pdf is inventoried but not reread in this mapping.
 - **E-JSTV**: [M. Jerrum, J.-B. Son, P. Tetali and E. Vigoda, Elementary bounds on Poincare and log-Sobolev constants for decomposable Markov chains](https://doi.org/10.1214/105051604000000639), Theorem 1; archived M15 application and L-0022. Stationary-flow projection and rejected-exit restriction gaps combine; half-laziness gives gap(K)>=bar_gap*min_gap/3. Reducible restrictions have zero gap; never renormalize away exits. Documentary translation from archived report/ledger; full external theorem not reread here.
+- **E-GJ2**: [Goulden and Jackson, The number of ramified coverings of the sphere by the double torus, and a general form for higher genera](https://uwaterloo.ca/math/sites/default/files/uploads/documents/gjjcta1999-2.pdf), Theorem1.1, definitions(1)--(3); predecessor arXiv:math/9902009 Sections2--3 normalization. Only the proved genus-two rational formula is imported; no conjectural higher-genus form. Polarization supplies literal fixed-endpoint counts. Direct primary text checked by author, nonauthor and blind referee; coordinator reconciled normalization/formula; same-model correlation disclosed.
 
 ## Nonlogical Relations
 
@@ -518,3 +555,6 @@ These links do not supply proof prerequisites.
 - [O-H0](OBSTRUCTIONS.md#o-h0) **does-not-imply** [G-HEATBATH](RESULTS.md#g-heatbath): Omitted stationary mass of a direct restricted sampler is not a low-conductance cut of the local walk. [boundary-ledger](../../experiments/20260922-sparse-boundary/claim_ledger.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md)
 - [S-DENSE](RESULTS.md#s-dense) **does-not-imply** [G-HEATBATH](RESULTS.md#g-heatbath): A direct recursive algorithm need not be a transition or a comparison for K. [dense-statement](../../experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/report.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md)
 - [O-H2](OBSTRUCTIONS.md#o-h2) **does-not-imply** [S-QUOTIENT](RESULTS.md#s-quotient): Global mass failure does not invalidate the exact small-support conditional decoder. [quotient-audit](../../experiments/20260922-sparse-boundary/construction_audit.md)
+- [S-G012](RESULTS.md#s-g012) **covers** [S-G01](RESULTS.md#s-g01): Adds genus2 while preserving the old exact genus0/1 interface. [i1-recursive](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)
+- [S-CUT2](RESULTS.md#s-cut2) **analogous-to** [S-G012](RESULTS.md#s-g012): Distinct exact constructions share the identity genus2 specialization. [i1-cut](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)
+- [O-GROW](OBSTRUCTIONS.md#o-grow) **does-not-imply** [G-ALL](RESULTS.md#g-all): Failure of this enlarged support policy does not exclude other architectures or expected-cost methods. [i1-mass](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md), [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md)

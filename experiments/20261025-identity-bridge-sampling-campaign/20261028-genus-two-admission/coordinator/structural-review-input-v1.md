@@ -1,0 +1,7 @@
+# Coordinator exact-version structural review
+
+Reviewer coordinator, nonauthor of C2.v1; inherited full I1 context, including elementary genus derivation and independent literal cut reference. This is not blind and same-model reviews are correlated. The fresh blind theorem package separately includes the stronger arbitrary-endpoint genus<=2 existence claim, which specializes to this identity scope.
+
+Target frozen proof-v1.md SHA256 fab2c7ff33966b61ccbaab06f66f98867eef3778840ab82b1eed255f7a9f6eef and code cut_genus_two.py SHA25603825d5c82f55a09340588b00ebc5e63fb248eae8342ef129f5b1dfb6a92263e under roles/r2-structural. Audit every logical arrow C2.1--C2.6, count conventions, shape/label multiplicities including parallel cores/equal branches, fixed-port posterior oracle, explicit fair-bit sampler and uniform bit complexity. Preserve frozen author files. Imported S-G01 current accepted statement/audits remain scoped dependencies.
+
+Full proof/code and author audit read. Initial findings: no defect identified; depth iteration reconstitutes bounded-depth trees rather than summing duplicate old copies; positive mass bounds depth. Port conditioning retains full genus-one factor and correct fixed child factorial. Numerical shape symmetries are resolved by label assignments before quotient, including parallel core directions. Count/decoder claims require separate proof; code is not accepted from scalar counts alone. Need complete-word execution check and final written verdict.
