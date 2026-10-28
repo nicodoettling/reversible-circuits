@@ -1,0 +1,20 @@
+{
+  "id": "J6",
+  "role": "r1-recursion nonauthor coefficient audit",
+  "claim": "connected finite quotient/subprofile counts and simplex polynomial interpolation",
+  "reservation": "coordinator exclusive after J5",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/check-v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 256,
+  "state_space": "N5/6 endpoint/support DP through16/18; full one/two variable ELSV polynomials genus2..4 extrapolated to degree14/16",
+  "commit": "4b123da3c024adbcf73bfbf41c905f2f1f28d122",
+  "seed": null,
+  "new_reason": "Higher-degree literal/support reference and outside-grid polynomial extrapolation distinct from author coefficient checks."
+}

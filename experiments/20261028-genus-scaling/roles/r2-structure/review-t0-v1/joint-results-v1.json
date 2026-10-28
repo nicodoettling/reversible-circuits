@@ -1,0 +1,519 @@
+{
+  "status": "passed",
+  "generated_utc": "2026-10-28T15:14:20.224413+00:00",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "seeds": null,
+  "base_commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7",
+  "purpose": "independent exact integrated g4 joint suffix laws, not full word enumeration",
+  "generated_term_counts": {
+    "2": 6,
+    "3": 26,
+    "4": 85
+  },
+  "endpoint_cases": 30,
+  "positive_suffix_cylinders": 5670,
+  "records": [
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "length": 12,
+      "suffix_length": 4,
+      "connected_words": 177144,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "e1c38f19da26adc5f054e01a3d3ffdf3b684114f2f609ddae8359baee1245588",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "length": 11,
+      "suffix_length": 4,
+      "connected_words": 59048,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "78ea4791262a60a3e31c2d5ffe427b59f72c765de6ef30ce54044d8706e357bf",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "length": 11,
+      "suffix_length": 4,
+      "connected_words": 59048,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "36e1c1a57428c5a7a7047176b3af82557824fc01778d7adc0b99356f2ec46751",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "length": 10,
+      "suffix_length": 4,
+      "connected_words": 19683,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "aa6bdc536b727faee2b1b0dcca3ca1cffe120c29f38548c2aac16ce7f7b10e7b",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "length": 10,
+      "suffix_length": 4,
+      "connected_words": 19683,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "aa6bdc536b727faee2b1b0dcca3ca1cffe120c29f38548c2aac16ce7f7b10e7b",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 3,
+      "g": 4,
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "length": 11,
+      "suffix_length": 4,
+      "connected_words": 59048,
+      "positive_cylinders": 81,
+      "reference_law_sha256": "959b2f931ecb9bbdd692f7cf26952b04337c0958f6066bc8f88d168e1ec2897a",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "length": 14,
+      "suffix_length": 3,
+      "connected_words": 6523957440,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "997c7ebb3182e75b242d1d5fc94870cd8d77fbba1097f982c432e4443d63d156",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "abdf1d622afa242a381b313cc93a906264e582eac137b531a8a829ac857b13eb",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "4302921eacc40442daedeedf649f4d875b4578980d67131b6171a886f4acfd8e",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "4628c10475dda4a15f9801a94996484cd43cb130056ca36a44df8b307d38d3d3",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "55bb33acbecec88eaaabc85c41c6a8addc3205544f4ff88c83e56c0644f71138",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "fdd25f2c747b1e145191cc677735c43c441a4f17bd5ee7113fbf9edee1bb576c",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "75aa801171c20dc059e2438901c78c31839ba011ee2ba84994552fdd5a30f238",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181395456,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "a0efd83cdcb18043488ed4cfebb5fe9435803bc399fa617b0e0f1d44221e3688",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "4abfc4bb56ea6513fe2411f448b69f1c6087e3ecc3e6dfcce24b9d702d1191d1",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "6d548a55a36e96931da4955eb00f3ff8a4342ffd7f2cccc3d686a79338108cb4",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "8286777006184d4fa1bcc218fc18bd509dd725384de80c11055646202455a3ee",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "52a5311e94aa4ec61e45d4c95b2fa1c06bb20940b92fc895b09fa00fc4844ec2",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "efa3817adfa130c2b01cc97951354e3de4a571dac87fa13b074af417268c5262",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "6ce16d362ae4d9842991a1141bc79a9aa9cec6b993e4536583e2d9dae0a1862e",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "8edeaf25ad1bd2b5ad695d3d7ca26bd380d4de8d5121dedc92891969f9099ad5",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "12e4d7f0751aaaf6cf21e30e6bb4f74ffdee5fb042ccd20a699ef74d744839e3",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181395456,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "317c97722a59fe0376170261364b8521b131db32eb34ee1a1f68ef1520e1d89f",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "61a30529fa71c96d1a32a8b92deb33c17203c34904768348d433f2041c209853",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "c695f9e99296b879cb74c0eb09f4f22f8695b0e3fd9140949a7938caca185235",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "13eb056a20ec5044b3dd46662fc88e9c94af535e3ea8b48d59f358d7f2c9a1be",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181221381,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "7034d1397a4ed4f61dc2364aaacd289809f750579fc4fe883f98d4dd7d14e96f",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "length": 13,
+      "suffix_length": 3,
+      "connected_words": 1087326240,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "2083e90fce39ca75bcc6b1a2e44ae77cda30a04d80f897f505165d23c52e3240",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "length": 11,
+      "suffix_length": 3,
+      "connected_words": 30232576,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "8490f41930f2b6a2b36e6d1d0f265d34eb059c5e16da65eb17060160dae9bc5e",
+      "all_exact_joint_probabilities_equal_reference": true
+    },
+    {
+      "N": 4,
+      "g": 4,
+      "endpoint": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "length": 12,
+      "suffix_length": 3,
+      "connected_words": 181395456,
+      "positive_cylinders": 216,
+      "reference_law_sha256": "ab198083d3bf09fe943a4e9bc29d339a39551f156ad5359e2035c7e8922cd222",
+      "all_exact_joint_probabilities_equal_reference": true
+    }
+  ],
+  "joint_reference_sha256": "f26aa2351a9e49eebc41aeaf1247f9b9742421d8986bea578bc1c2133d795a14",
+  "new_forcing_profile": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "new_forcing_genus_pair": [
+    2,
+    2
+  ],
+  "forced_cases": 27,
+  "zero_forced_cases": 2,
+  "peak_reference_states": 36,
+  "elapsed_seconds": 10.700962610077113,
+  "sources_sha256": {
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/check_joint_v1.py": "d7a4c18f90ee060ad0797789e3b69855bff2b694086c3e92cb04aa8d61baa34b",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/integrated_sampler_v1.py": "2a0352ebf6750dcf7453b5b2cd8b96569a905d40a7da3fcfce37b5211ce7dcc8",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/sampler-v1.py": "26ca9e0d61f62d29f3f99b1d77e4bc925129abd025d07ca412d7dffd097a371d",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/coefficient_oracle_v1.py": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc"
+  },
+  "limitations": [
+    "finite joint marginal law, not every full N4 word",
+    "same-model nonblind review",
+    "universal source and complexity proved separately"
+  ]
+}

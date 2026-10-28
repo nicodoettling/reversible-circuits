@@ -1,0 +1,202 @@
+{
+  "status": "T0 internally ACCEPTED; external review pending",
+  "nodes": [
+    {
+      "id": "SOURCE-GJV-ELSV.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "SOURCE-NORM-G01.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "COEFF-EXP.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "R1-POL.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "R1-DEL.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "R1-ALLOC.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "R1-WORD.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "R1-COST.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "AUX-ENDPOINT.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "T0.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "CUT-PENULTIMATE.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "CUT-REJECTION.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "conditional"
+    },
+    {
+      "id": "PORT-CONTRACT.v1",
+      "status": "OPEN",
+      "mathematical_status": "unresolved"
+    },
+    {
+      "id": "T1-FPT.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "T1-QUASI.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "T2-REDUCTION.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "T3-APPROX.v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved"
+    },
+    {
+      "id": "BLIND-ALTERNATE.v1",
+      "status": "PROVISIONAL",
+      "mathematical_status": "unresolved"
+    },
+    {
+      "id": "GLOBAL-SAMPLING.v1",
+      "status": "OPEN",
+      "mathematical_status": "unresolved"
+    },
+    {
+      "id": "PARALLEL-VERTEX-ONLY.v1",
+      "status": "REJECTED",
+      "mathematical_status": "refuted"
+    }
+  ],
+  "edges": [
+    [
+      "SOURCE-GJV-ELSV.v1",
+      "COEFF-EXP.v1"
+    ],
+    [
+      "SOURCE-NORM-G01.v1",
+      "COEFF-EXP.v1"
+    ],
+    [
+      "SOURCE-GJV-ELSV.v1",
+      "R1-POL.v1"
+    ],
+    [
+      "SOURCE-NORM-G01.v1",
+      "R1-POL.v1"
+    ],
+    [
+      "R1-POL.v1",
+      "R1-ALLOC.v1"
+    ],
+    [
+      "R1-DEL.v1",
+      "R1-WORD.v1"
+    ],
+    [
+      "R1-ALLOC.v1",
+      "R1-WORD.v1"
+    ],
+    [
+      "COEFF-EXP.v1",
+      "R1-COST.v1"
+    ],
+    [
+      "R1-ALLOC.v1",
+      "R1-COST.v1"
+    ],
+    [
+      "R1-WORD.v1",
+      "R1-COST.v1"
+    ],
+    [
+      "COEFF-EXP.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "R1-POL.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "R1-DEL.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "R1-ALLOC.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "R1-WORD.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "R1-COST.v1",
+      "AUX-ENDPOINT.v1"
+    ],
+    [
+      "AUX-ENDPOINT.v1",
+      "T0.v1"
+    ],
+    [
+      "CUT-PENULTIMATE.v1",
+      "CUT-REJECTION.v1"
+    ],
+    [
+      "T0.v1",
+      "T1-FPT.v1"
+    ],
+    [
+      "T0.v1",
+      "T1-QUASI.v1"
+    ],
+    [
+      "T0.v1",
+      "T2-REDUCTION.v1"
+    ],
+    [
+      "T0.v1",
+      "T3-APPROX.v1"
+    ]
+  ],
+  "excluded_from_T0": [
+    "CUT-PENULTIMATE.v1",
+    "CUT-REJECTION.v1",
+    "PORT-CONTRACT.v1",
+    "BLIND-ALTERNATE.v1"
+  ],
+  "invalidation_rule": "Any proof/source/implementation repair reopens dependent accepted claims and exact-version review; restart alone never changes status."
+}

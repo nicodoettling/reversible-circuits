@@ -1,0 +1,9 @@
+# Exact review halfway checkpoint v1
+
+2026-10-28 15:18UTC. NONBLIND. The coefficient and decoder proofs and all requested implementations have been read;16 frozen author hashes matched at intake. Direct primary-source text/formula inspection confirms the required normalization and GJV coefficient identification. Screenshot retrieval did not provide a reliable rendered source view; no visual verification is claimed.
+
+No mathematical objection has been found. In particular, simplex dimensions/sample lengths are uniform linear in genus; finite differences recover the desired labeled monomial coefficients; the automorphism divisor is introduced only at the generating-series stage; the two-child marker table retains four degree-sized coordinates and O(g) mask bits; signed expressions are completed before probabilities; actual conditional normalizers telescope; and the n^15 bit bound has sufficient slack after common-denominator and output-node accounting. The structural author partial is not used anywhere in this audit.
+
+Fresh coordinator J7 passed all30 g4 endpoint cases,5670 exact joint suffix cylinders,27 repeated-profile genus(2,2) forced allocations including2 zero-mass cases. The independent support DP peaks at36 states; no fullN4 word enumeration. Generated coefficients were installed after deleting all built-in genus>=2 lists. Child10.700962610s,180s/1GiB reservation, actual RSS unmeasured. Actual J7 commit from coordinator receipt4b123da3c024adbcf73bfbf41c905f2f1f28d122; the script's base_commit field intentionally records original intakeb178daf..., so these two provenance fields must not be conflated.
+
+Full claim-addressed report, final hash verification and immutable review manifest are next. This checkpoint is not campaign acceptance; blind and coordinator reconciliation remain separate gates.

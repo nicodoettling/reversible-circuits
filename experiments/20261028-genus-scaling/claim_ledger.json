@@ -1,83 +1,509 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-10-28T15:07:36.722391+00:00",
+  "schema_version": 2,
+  "updated_at": "2026-10-28T15:37:40.336675+00:00",
+  "certification": "source-scoped internal acceptance; same-model correlation; operator/external completion review pending",
+  "root": "experiments/20261028-genus-scaling",
   "claims": [
     {
-      "id": "T0",
+      "id": "SOURCE-GJV-ELSV",
       "version": "v1",
-      "status": "PROVISIONAL",
-      "statement": "theorem-v1.md",
-      "dependencies": [
-        "COEFF-EXP.v1",
-        "AUX-ENDPOINT.v1"
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "GJV revised22Dec2000 eq13-16/Theorem3.2: normalized polynomial and rational genus basis",
+      "dependencies": [],
+      "assumptions": [
+        "Published geometric enumeration theorem imported, not reproved; stable h>=2,k>=1"
       ],
       "evidence": [
-        "coordinator/coefficient-theorem-v1.md",
+        "coordinator/source-verification-v1.md"
+      ],
+      "independent_check": [
+        "roles/r2-structure/review-t0-v1/source-verification-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "COEFF-EXP.v1",
+        "R1-POL.v1"
+      ]
+    },
+    {
+      "id": "SOURCE-NORM-G01",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "GJ fixed-permutation normalization and exact genus0/1 formulas",
+      "dependencies": [],
+      "assumptions": [
+        "Source-scoped I1 genus0/1 inputs and primary normalization; singleton bases explicit"
+      ],
+      "evidence": [
+        "coordinator/source-verification-v1.md",
         "roles/r1-recursion/proof-v1.md"
       ],
-      "review": "blind and exact nonauthor gates pending"
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "COEFF-EXP.v1",
+        "R1-POL.v1"
+      ]
     },
     {
       "id": "COEFF-EXP",
       "version": "v1",
-      "status": "PROVISIONAL",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
       "statement": "coordinator/coefficient-theorem-v1.md",
       "dependencies": [
-        "GJV-Theorem3.2",
-        "ELSV-polynomiality",
-        "fixed-endpoint-normalization",
-        "elementary-cycle-quotient",
-        "connected-component-inversion",
-        "simplex-Newton-interpolation"
+        "SOURCE-GJV-ELSV.v1",
+        "SOURCE-NORM-G01.v1"
       ],
+      "assumptions": [],
       "evidence": [
+        "coordinator/coefficient-theorem-v1.md",
         "coordinator/coefficient-results-v1.json"
       ],
-      "review": "exact nonauthor pending"
+      "independent_check": [
+        "roles/r1-recursion/review-coefficient-v1/report-v1.md",
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "R1-COST.v1",
+        "AUX-ENDPOINT.v1"
+      ]
+    },
+    {
+      "id": "R1-POL",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r1-recursion/proof-v1.md section2",
+      "dependencies": [
+        "SOURCE-GJV-ELSV.v1",
+        "SOURCE-NORM-G01.v1"
+      ],
+      "assumptions": [
+        "Explicit labels/output, independent fair bits, exact bit arithmetic"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json",
+        "coordinator/integrated-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "R1-ALLOC.v1",
+        "AUX-ENDPOINT.v1"
+      ]
+    },
+    {
+      "id": "R1-DEL",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r1-recursion/proof-v1.md section3",
+      "dependencies": [],
+      "assumptions": [
+        "Explicit labels/output, independent fair bits, exact bit arithmetic"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json",
+        "coordinator/integrated-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "R1-WORD.v1",
+        "AUX-ENDPOINT.v1"
+      ]
+    },
+    {
+      "id": "R1-ALLOC",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r1-recursion/proof-v1.md section4",
+      "dependencies": [
+        "R1-POL.v1"
+      ],
+      "assumptions": [
+        "Explicit labels/output, independent fair bits, exact bit arithmetic"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json",
+        "coordinator/integrated-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "R1-WORD.v1",
+        "R1-COST.v1",
+        "AUX-ENDPOINT.v1"
+      ]
+    },
+    {
+      "id": "R1-WORD",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r1-recursion/proof-v1.md section5",
+      "dependencies": [
+        "R1-DEL.v1",
+        "R1-ALLOC.v1"
+      ],
+      "assumptions": [
+        "Explicit labels/output, independent fair bits, exact bit arithmetic"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json",
+        "coordinator/integrated-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "R1-COST.v1",
+        "AUX-ENDPOINT.v1"
+      ]
+    },
+    {
+      "id": "R1-COST",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r1-recursion/proof-v1.md section6",
+      "dependencies": [
+        "COEFF-EXP.v1",
+        "R1-ALLOC.v1",
+        "R1-WORD.v1"
+      ],
+      "assumptions": [
+        "Explicit labels/output, independent fair bits, exact bit arithmetic"
+      ],
+      "evidence": [
+        "roles/r1-recursion/proof-v1.md",
+        "roles/r1-recursion/results-v1.json",
+        "coordinator/integrated-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "AUX-ENDPOINT.v1"
+      ]
     },
     {
       "id": "AUX-ENDPOINT",
       "version": "v1",
-      "status": "PROVISIONAL",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
       "statement": "roles/r1-recursion/statement-v1.md",
       "dependencies": [
-        "COEFF-EXP.v1"
+        "COEFF-EXP.v1",
+        "R1-POL.v1",
+        "R1-DEL.v1",
+        "R1-ALLOC.v1",
+        "R1-WORD.v1",
+        "R1-COST.v1"
+      ],
+      "assumptions": [
+        "Nonempty exact endpoint fiber; singleton empty genus0 only"
       ],
       "evidence": [
         "roles/r1-recursion/proof-v1.md",
-        "roles/r1-recursion/results-v1.json"
+        "coordinator/clean-results-v1.json"
       ],
-      "review": "conditional author proof frozen; exact nonauthor pending"
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "T0.v1"
+      ]
+    },
+    {
+      "id": "T0",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "theorem-v1.md",
+      "dependencies": [
+        "AUX-ENDPOINT.v1"
+      ],
+      "assumptions": [
+        "N>=2,g>=0; connected identity ordered words; expected A C^(g+1)(N+g+2)^15 bit time; absolute constants"
+      ],
+      "evidence": [
+        "coordinator/coefficient-theorem-v1.md",
+        "roles/r1-recursion/proof-v1.md",
+        "coordinator/clean-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "T1-FPT.v1",
+        "T1-QUASI.v1",
+        "T2-REDUCTION.v1",
+        "T3-APPROX.v1"
+      ]
     },
     {
       "id": "CUT-PENULTIMATE",
       "version": "v1",
-      "status": "PROVISIONAL",
-      "statement": "roles/r2-structure/theorem-v1.md",
-      "dependencies": [
-        "elementary-genus-identity"
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "roles/r2-structure/theorem-v1.md S1-S3",
+      "dependencies": [],
+      "assumptions": [
+        "N>=2,g>=2; literal incidence edges/child slots retained"
       ],
       "evidence": [
+        "roles/r2-structure/proof-v1.md",
         "roles/r2-structure/cut-results-v1.json"
+      ],
+      "independent_check": [
+        "roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md",
+        "coordinator/structural-review-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": [
+        "CUT-REJECTION.v1"
       ]
+    },
+    {
+      "id": "CUT-REJECTION",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "conditional",
+      "statement": "roles/r2-structure/theorem-v1.md S4",
+      "dependencies": [
+        "CUT-PENULTIMATE.v1"
+      ],
+      "assumptions": [
+        "Exact uniform marked-pair sampler with fresh proposals; expected proposal count <=2N-2, no proposal-cost theorem"
+      ],
+      "evidence": [
+        "roles/r2-structure/proof-v1.md"
+      ],
+      "independent_check": [
+        "roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md",
+        "coordinator/structural-review-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": []
+    },
+    {
+      "id": "PORT-CONTRACT",
+      "version": "v1",
+      "status": "OPEN",
+      "mathematical_status": "unresolved",
+      "statement": "roles/r2-structure/proof-v1.md section5",
+      "dependencies": [],
+      "assumptions": [],
+      "evidence": [
+        "roles/r2-structure/proof-v1.md"
+      ],
+      "independent_check": [
+        "coordinator/structural-review-v1.md"
+      ],
+      "action": "retain separate structural obligation; not a T0 dependency",
+      "downstream": []
     },
     {
       "id": "T1-FPT",
       "version": "v1",
-      "status": "OPEN",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
       "statement": "targets-v1.md",
       "dependencies": [
-        "T0"
+        "T0.v1"
       ],
-      "evidence": []
+      "assumptions": [
+        "Weaker target subsumed by exact T0; TV0 for every precision b"
+      ],
+      "evidence": [
+        "reconciliation-v1.md",
+        "theorem-v1.md"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": []
+    },
+    {
+      "id": "T1-QUASI",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "targets-v1.md",
+      "dependencies": [
+        "T0.v1"
+      ],
+      "assumptions": [
+        "Weaker target subsumed by exact T0; TV0 for every precision b"
+      ],
+      "evidence": [
+        "reconciliation-v1.md",
+        "theorem-v1.md"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": []
     },
     {
       "id": "T2-REDUCTION",
       "version": "v1",
-      "status": "OPEN",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
       "statement": "targets-v1.md",
+      "dependencies": [
+        "T0.v1"
+      ],
+      "assumptions": [
+        "Weaker target subsumed by exact T0; TV0 for every precision b"
+      ],
+      "evidence": [
+        "reconciliation-v1.md",
+        "theorem-v1.md"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": []
+    },
+    {
+      "id": "T3-APPROX",
+      "version": "v1",
+      "status": "ACCEPTED",
+      "mathematical_status": "proved",
+      "statement": "targets-v1.md",
+      "dependencies": [
+        "T0.v1"
+      ],
+      "assumptions": [
+        "Weaker target subsumed by exact T0; TV0 for every precision b"
+      ],
+      "evidence": [
+        "reconciliation-v1.md",
+        "theorem-v1.md"
+      ],
+      "independent_check": [
+        "roles/r3-adversarial/blind-report-v1.md",
+        "roles/r2-structure/review-t0-v1/report-v1.md",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md",
+        "reconciliation-v1.md"
+      ],
+      "action": "retain exact versions; external review pending",
+      "downstream": []
+    },
+    {
+      "id": "BLIND-ALTERNATE",
+      "version": "v1",
+      "status": "PROVISIONAL",
+      "mathematical_status": "unresolved",
+      "statement": "roles/r3-adversarial/blind-report-v1.md",
       "dependencies": [],
-      "evidence": []
+      "assumptions": [],
+      "evidence": [
+        "roles/r3-adversarial/blind-report-v1.md"
+      ],
+      "independent_check": [
+        "coordinator/blind-reconciliation-draft-v1.md"
+      ],
+      "action": "Retain statement-level reconstruction; no separate implementation/exact-version certification of alternative exponent40 route",
+      "downstream": []
+    },
+    {
+      "id": "GLOBAL-SAMPLING",
+      "version": "v1",
+      "status": "OPEN",
+      "mathematical_status": "unresolved",
+      "statement": "Global fixed-length uniform identity sampling for unrestricted genus",
+      "dependencies": [],
+      "assumptions": [],
+      "evidence": [
+        "failed-approaches.md",
+        "report.md"
+      ],
+      "independent_check": [],
+      "action": "No global upgrade; M-GROW remains valid",
+      "downstream": []
+    },
+    {
+      "id": "PARALLEL-VERTEX-ONLY",
+      "version": "v1",
+      "status": "REJECTED",
+      "mathematical_status": "refuted",
+      "statement": "Collapsing the two actual-edge directions of a parallel core while retaining divisor2",
+      "dependencies": [],
+      "assumptions": [],
+      "evidence": [
+        "roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md"
+      ],
+      "independent_check": [
+        "coordinator/structural-review-v1.md"
+      ],
+      "action": "Retain N2 undercount witness",
+      "downstream": []
     }
-  ]
+  ],
+  "regression_registry": "failed-approaches.md",
+  "reconciliation": "reconciliation-v1.md"
 }

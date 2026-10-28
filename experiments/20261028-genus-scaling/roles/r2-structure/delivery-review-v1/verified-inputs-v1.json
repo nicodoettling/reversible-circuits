@@ -1,0 +1,137 @@
+{
+  "checked_at": "2026-10-28T15:43:58.583732+00:00",
+  "method": "Administrative SHA256, JSON metadata and dependency-ledger consistency only; no mathematical experiment or Git command.",
+  "delivery_and_reference_files": {
+    "report.md": "b75302d3c69cd2763e94dcd37d2f0741dc5739274ae5da34cb969f56207691c7",
+    "reconciliation-v1.md": "e39c91b16e0b2c96be318849f44f5daf4c54ffeb8f2a7798effc2cc1e76d6acd",
+    "claim_ledger.md": "a4a8e6ef849dde3c3e6909f1de183d3d81517a0cd9c1cf580e51f61bc150c8c2",
+    "claim_ledger.json": "48db9a30e1b0e6b206153b080e89f1681f5e4643a2d1d1ad94f41afb3e07a6b2",
+    "dependency-graph-v3.json": "c73efeaea272e4a7ffd6cfd1949bc3630dc37086c099d55fd90fd74a1a0fc319",
+    "failed-approaches.md": "62c4517db546d336b9c35f6a6445d73ba192190d15720c21d9376ce8c78c03c7",
+    "proposed-map-delta-v1.md": "50577a87ba05a1633d3a33c07ae88e3e83fba9ff13b0f54b8e3b87262709843c",
+    "coordinator/structural-review-v1.md": "a1f8b1fd00beff60d96c64c2442e650ae7d5026b1f81f6014a570601cf5f07f0",
+    "targets-v1.md": "730de094955094f76da0e7b2a88458d626b185044009d2b4798dcba53e8f8fb1",
+    "theorem-v1.md": "fecfe4a443be67d8e1a31af9ea2491610e5d9708848f9adab5a333b28d5cfb7c",
+    "coordinator/coefficient-theorem-v1.md": "b152819ed84e460fe1d9248e2d178b7575104232b32551ef7466d518ec5ec610",
+    "roles/r1-recursion/proof-v1.md": "f87fc0387e4f936ce82ebe0800851cb88a340eacc1188e5b8e0816fa8123d173",
+    "coordinator/coefficient_oracle_v1.py": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc",
+    "roles/r1-recursion/sampler-v1.py": "26ca9e0d61f62d29f3f99b1d77e4bc925129abd025d07ca412d7dffd097a371d",
+    "coordinator/integrated_sampler_v1.py": "2a0352ebf6750dcf7453b5b2cd8b96569a905d40a7da3fcfce37b5211ce7dcc8",
+    "coordinator/reconciliation-bindings-v1.json": "cb9898f5830db16a119846b1a5fc6ccf59bff687b656ee7fc6b814045fec64ba",
+    "coordinator/source-verification-v1.md": "fefea3843237b4ed88a7a901ca313e8269af3129f302217ad8959e2d415f0459",
+    "coordinator/clean_verify_v1.py": "9a7509f6a0aea4cd8a71d22be6100c0902950c4726ea42d2844a20a596fd92ea",
+    "coordinator/clean-results-v1.json": "6d267911364d050d17c2a53cd1be23b55fc677a8db6416d39fb6fefe9e0d01da",
+    "coordinator/job-J9-plan.json": "ef4a6b9394783d5a6ac6a5250b09cd29ebb381b5a9f39314b963beee90e539bb",
+    "coordinator/job-J9-outcome.json": "3d0c8bac54a26020e3c5da63e22fd1dd65bded6bd5b2bd7dd01e9a69876a62f9",
+    "coordinator/execution-record-v2.json": "0d11d6a0a3c61a827352eda10747d99cb89066e165b78582791206d140990c23",
+    "roles/r1-recursion/review-structural-blind-v1/manifest-v1.json": "b4b02c660d633b3cab97279bd11bb37383a0eeeaf607c977224112689abeea27",
+    "roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md": "07c9fef0edf39492fc12dc57987861527a240cfdbdf8a07a56dc175ae800cc7e",
+    "roles/r2-structure/review-t0-v1/report-v1.md": "1325dcbae56be0bb531a8a727d595199dde8fe0bb7fff3860db81638f9a5b27a",
+    "roles/r2-structure/review-t0-v1/source-verification-v1.md": "92c12a9603ebf21eb6472166d416df24c0a45dd31310a6c7c08bc52d54c2d0f0"
+  },
+  "reconciliation_manifests_checked": {
+    "coordinator/coefficient-freeze-v1.json": {
+      "manifest_sha256": "6949927891ebebed3c455852f3eb9206e68646dd29baaba94182df12b7b5a558",
+      "payloads": {
+        "coordinator/coefficient-theorem-v1.md": "b152819ed84e460fe1d9248e2d178b7575104232b32551ef7466d518ec5ec610",
+        "coordinator/coefficient_oracle_v1.py": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc",
+        "coordinator/coefficient-results-v1.json": "9d5c7dc0fe683adbbc523cbf5012cd7461aa66ecc3cd03d80a9ddde71b47796d",
+        "coordinator/job-J1-plan.json": "98600c855dc76dab7f8b498fd0bd32dc90dbf0039baca3a351d530ea138c3273",
+        "coordinator/job-J1-outcome.json": "e16b1c2cad0bf3078803d4f9c342ab4e63aafeca9c5f8e940d7771c6315ef755"
+      }
+    },
+    "roles/r1-recursion/manifest-v1.json": {
+      "manifest_sha256": "0a8460c5c26d9ead1ebbae9bb6eacc4c7ce02f4b123adbcf02c726ad0bf0c3c5",
+      "payloads": {
+        "roles/r1-recursion/audit-v1.py": "fab39f3dd9aba9b56ab71a60cd9ea5dd5d5f25c7df8ca8995f4675ca4a349468",
+        "roles/r1-recursion/input-v1.md": "7b7247084027f630a9021e89ede7ffc34aff6618719223a9ef8420c31bb20bbe",
+        "roles/r1-recursion/job-v1.json": "9abe04124d2d09c7f7701c4657ef8b3747cea25063d2bae06a507419fef7f3bd",
+        "roles/r1-recursion/plan.md": "bfe102b64214baacd0146eb106352eb125e336431be781ddaab2795ad2877415",
+        "roles/r1-recursion/proof-draft-v1.md": "2c6fe16cac26be3e4e9a546980c5fdeaa74844be613ae11e2a586f02d944b9c5",
+        "roles/r1-recursion/proof-v1.md": "f87fc0387e4f936ce82ebe0800851cb88a340eacc1188e5b8e0816fa8123d173",
+        "roles/r1-recursion/report-v1.md": "08b6239625bb809d430b6c62df7b839acf6002bb386543cbdcd823b459021283",
+        "roles/r1-recursion/results-v1.json": "04d46fa8a8c4949499a726ecef7ac66a55f5b854f2c5ccae6551a57d47f7928b",
+        "roles/r1-recursion/sampler-v1.py": "26ca9e0d61f62d29f3f99b1d77e4bc925129abd025d07ca412d7dffd097a371d",
+        "roles/r1-recursion/source-verification-v1.md": "3eddc2ad4300895c8d9e6f05bcd432f1d1344053d381479f5e911774cbd3dc67",
+        "roles/r1-recursion/statement-v1.md": "e161d83dce0fc5dee0fa6ad40d93142e93eea18cb755bcdc4ab867c02a74f0cf"
+      }
+    },
+    "roles/r2-structure/freeze-manifest-v1.json": {
+      "manifest_sha256": "6ba3618b38cf784a7c6f06ff19cc931ef5225d43e8079cdfb6146251408fed21",
+      "payloads": {
+        "roles/r2-structure/input-v1.md": "626021e06d082f3f0f00f895e7c032da8e77c72bd02bcd7c3d927e8e6bb3bef5",
+        "roles/r2-structure/plan.md": "be4224cde4135ff2d6f35ac1ac3d2afb10977a2bc5fc8a22816065ab53640bac",
+        "roles/r2-structure/checkpoint-early-v1.md": "ea0d68577a8b60cdabf19e53ba9e66963219cdbc2305e278ad88340a628e4ccf",
+        "roles/r2-structure/checkpoint-halfway-v1.md": "146c1719ee40147e995de4bf8aa875c99e1c8e9f401b020cb57e4b9b7522d561",
+        "roles/r2-structure/theorem-v1.md": "60b9014cae7d3219083441cb037441e56d83f8a7abc3fd47ba91dcf6828c8072",
+        "roles/r2-structure/proof-v1.md": "59a627caad62feabc25ddb786eb76d84358ff7b5baf4e4ab277d3ecc20a08b13",
+        "roles/r2-structure/check_cuts_v1.py": "09821dba5bb2eb86377249e096f44d0844608ef07b3765b41995ef584401fba0",
+        "roles/r2-structure/cut-results-v1.json": "81c1470d7dde41204aae7dde137b2827ddd2e6eea440c798eb88f9f2f918f2b0",
+        "roles/r2-structure/job-J2-plan.json": "30d5bb1c6dbe1c3664815034a1b0cd4dadbb1be2da769347c07fe2fe74032a77",
+        "roles/r2-structure/report-v1.md": "d1e9310e0761e7b564eb2f993d218a48b5c814ae3ad56f23a94835701eb7a73f"
+      }
+    },
+    "roles/r3-adversarial/manifest-v1.json": {
+      "manifest_sha256": "28651ddba7f7eea47b4a004c775740bc4afbd0b7af7814ceb4830fa763eb4682",
+      "payloads": {
+        "roles/r3-adversarial/input-v1.md": "c9bc6f0a4778ed5463b1c32d29d958c671bab7086ea0083b6114ccccb4457634",
+        "roles/r3-adversarial/plan.md": "fb3059abbbc080802646fe16507ee75a72172b8b92b3f0fd468460903f59b130",
+        "roles/r3-adversarial/checkpoint-1454.md": "628ee7a3ba9537b5f24e9c4f2b98d9552965d0474f8b989a01c0fb661fdebcae",
+        "roles/r3-adversarial/halfway-checkpoint.md": "fcf98efce9277f5708b82ee803d361edfcf34a64ce1841a59e8e780fd72ad80c",
+        "roles/r3-adversarial/check_blind_v1.py": "67a69139854797db238080793936ad4a9ecf0c501a60acfb1bab49358a756922",
+        "roles/r3-adversarial/check-results-v1.json": "cd69ed5f00a515032b16203ec0d3400593a17ee2cff1daff4e6f55d37bd8d306",
+        "roles/r3-adversarial/blind-report-v1.md": "97e4d2d4772667e7dbd67bbbff9c44c451947eb4933274277ccf5bebb6dd4e51"
+      }
+    },
+    "roles/r1-recursion/review-coefficient-v1/manifest-v1.json": {
+      "manifest_sha256": "7fa2a73b7305c5d16a7cda9b70736680b1b9714f6c991e8d45b12ac31ca240ab",
+      "payloads": {
+        "roles/r1-recursion/review-coefficient-v1/check-v1.py": "575d291da7e24dc20124a1c3b901e5ecc5f2e44cc20769bf747cbb4775a4f5a0",
+        "roles/r1-recursion/review-coefficient-v1/final-hashes-v1.json": "a2b2f3f5ecd42ba984911e72ceee3598d7a63dfdd8f503f9cd59330c49ea93fa",
+        "roles/r1-recursion/review-coefficient-v1/input-v1.md": "bdd0a309e87ae9d51dd9df3b01328c988ecb50a67d13898ed15a04c4d616e82a",
+        "roles/r1-recursion/review-coefficient-v1/intake-hashes-v1.json": "93c7cd971671efa935aab323d03a7c62d4098315aaaa523deb37a3bd6c2bbb77",
+        "roles/r1-recursion/review-coefficient-v1/job-v1.json": "a31d94add4d5f7cd4837978261a42b99a5754994868950da2a91d151adc1d4ab",
+        "roles/r1-recursion/review-coefficient-v1/report-draft-v1.md": "7abfe1b50e5e7e74740562d9b023a9f8df7d368d672fef15e7c9e0dd2c6b97ba",
+        "roles/r1-recursion/review-coefficient-v1/report-v1.md": "1d9b6475b938f367cac484f5a9187c89ff59d93f878986535c2ad2b66429af7c",
+        "roles/r1-recursion/review-coefficient-v1/results-v1.json": "1316664d310da3276242221c7e4ac7f2fbbe42f6ca031e3de5226a8450690d07"
+      }
+    },
+    "roles/r2-structure/review-t0-v1/manifest-v1.json": {
+      "manifest_sha256": "5b4527b93b27d61eca983536c3dbd05d04ee33d837bb0697846514af0b2cb0f8",
+      "payloads": {
+        "roles/r2-structure/review-t0-v1/input-v1.md": "13bf9aad3b64cc9204b8e82f0479326d294f11a6c5d3cd14475817fe36682f7d",
+        "roles/r2-structure/review-t0-v1/plan.md": "65e49cfa46563989df2db59124a298d6aa207dfce24c3b0e221c2efaa18469dc",
+        "roles/r2-structure/review-t0-v1/verified-inputs-v1.json": "ac413a0cbc46a19b3b43228c5d561bcfb174cfa5edec58e4c55e6e8d33720c1e",
+        "roles/r2-structure/review-t0-v1/checkpoint-halfway-v1.md": "f14b998f779ac03b88e11c289bc8fc4acced21da0a03feccf2da3add6e7e196b",
+        "roles/r2-structure/review-t0-v1/source-verification-v1.md": "92c12a9603ebf21eb6472166d416df24c0a45dd31310a6c7c08bc52d54c2d0f0",
+        "roles/r2-structure/review-t0-v1/check_joint_v1.py": "d7a4c18f90ee060ad0797789e3b69855bff2b694086c3e92cb04aa8d61baa34b",
+        "roles/r2-structure/review-t0-v1/joint-results-v1.json": "e1ac7fc415ecffcbf97ea77f7c87b8d6bdd1f335751eb5b864565d0965656906",
+        "roles/r2-structure/review-t0-v1/job-J7-record-v1.json": "1006b1185813c09349164f0a4204c7f51188c3c0ba15cc010cbe1357815bf9f4",
+        "roles/r2-structure/review-t0-v1/report-v1.md": "1325dcbae56be0bb531a8a727d595199dde8fe0bb7fff3860db81638f9a5b27a",
+        "roles/r2-structure/review-t0-v1/final-verification-v1.json": "2c56f5094d907ba131ef03944f6b1a0fb47242bbc1662130d2983b6344ded693"
+      }
+    },
+    "roles/r3-adversarial/review-t0-v1/manifest-v1.json": {
+      "manifest_sha256": "33df983401eb6a63c6731eba18be848f59788dbbc0e35ff92e12ae8ec9ba7501",
+      "payloads": {
+        "roles/r3-adversarial/review-t0-v1/input-v1.md": "87315b0f75a97e2bb62c485be1949053914083bf8cb497ac7f18a2b947ef0f05",
+        "roles/r3-adversarial/review-t0-v1/checkpoint-1517.md": "7f6c18b9a09a742c098709faddd90b2a17eb1bbf97403b284d099d9441743008",
+        "roles/r3-adversarial/review-t0-v1/production_law_check_v1.py": "2a4b65214d32ea1b063c42b074a4cdf091a9d2f5e8e27618c573890d0fb168a1",
+        "roles/r3-adversarial/review-t0-v1/production-results-v1.json": "e85df94aa864c6f41a9a220f095023d6895ea30ff5fdc4036d616fd830d590aa",
+        "roles/r3-adversarial/review-t0-v1/bindings-v1.json": "8b8b59bfffafcf15dbd9414a01d69dbd882db54d931d5fc2efdb44782f9a8559",
+        "roles/r3-adversarial/review-t0-v1/report-v1.md": "a863b48f28ff73c4be0b328f0ca8011164d590e622475329a3746d835fbb3c20"
+      }
+    }
+  },
+  "reconciliation_payload_count": 57,
+  "structural_statement_only_manifest_matches": true,
+  "ledger_graph_nodes": 20,
+  "ledger_graph_edges": 22,
+  "ledger_graph_exact_match": true,
+  "additional_numerical_metadata": {
+    "J8_laws": 9,
+    "J8_output_words": 52180,
+    "J8_forced_allocations": 225
+  },
+  "final_state_condition": "Coordinator confirmed it will verify all workers idle before final delivery; this review is active until its final response."
+}

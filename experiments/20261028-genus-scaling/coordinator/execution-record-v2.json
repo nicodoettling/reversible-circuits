@@ -1,0 +1,208 @@
+{
+  "helper_sha256": "c9a6e8997542bf507c7948e99476e01f35c137df1faae91cb600b7782aa537a9",
+  "run_file": "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+  "jobs": [
+    {
+      "job": "J1",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "python3",
+        "-B",
+        "experiments/20261028-genus-scaling/coordinator/coefficient_oracle_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/coordinator/coefficient-results-v1.json",
+        "--genera",
+        "2",
+        "3"
+      ],
+      "plan_sha256": "98600c855dc76dab7f8b498fd0bd32dc90dbf0039baca3a351d530ea138c3273",
+      "raw_output": "coefficient-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J2",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r2-structure/check_cuts_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r2-structure/cut-results-v1.json"
+      ],
+      "plan_sha256": "4e122536844a98d98a697e0112b98a81983521e4968399440a927122cc8d24eb",
+      "raw_output": "../roles/r2-structure/cut-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J3",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r3-adversarial/check_blind_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r3-adversarial/check-results-v1.json"
+      ],
+      "plan_sha256": "a7e0ad6345fdec3f93289b7a94530670701bfd9b2f72b54eef47fd5cf93aa8a5",
+      "raw_output": "../roles/r3-adversarial/check-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J4",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r1-recursion/audit-v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r1-recursion/results-v1.json"
+      ],
+      "plan_sha256": "5f21d9b016d7a8622cca6cbf84cb7283c3d629426f65cc71c9920627458bd778",
+      "raw_output": "../roles/r1-recursion/results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J5",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/coordinator/integrated_audit_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/coordinator/integrated-results-v1.json"
+      ],
+      "plan_sha256": "1b95356deb5401ed83e91829046c6c017caad71a8fb027bf37d0f2734687b125",
+      "raw_output": "integrated-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J6",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/check-v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/results-v1.json"
+      ],
+      "plan_sha256": "a42b964b54ef09e4d4c1edb7090affecc7e35ca73ecedc42dd9980f1ddd00c5c",
+      "raw_output": "../roles/r1-recursion/review-coefficient-v1/results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J7",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/check_joint_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/joint-results-v1.json"
+      ],
+      "plan_sha256": "e8a203aabad0540f1811f18503e2b6cd609d97543d9d975030bcacc3cea36670",
+      "raw_output": "../roles/r2-structure/review-t0-v1/joint-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J8",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/production_law_check_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/production-results-v1.json"
+      ],
+      "plan_sha256": "cf2d6b51d5a49393cdcd468b8b44cef88c8deeb6caed1f2b9ed17834bbf8bb7e",
+      "raw_output": "../roles/r3-adversarial/review-t0-v1/production-results-v1.json",
+      "result": "exit0"
+    },
+    {
+      "job": "J9",
+      "argv": [
+        "python3",
+        "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.2/src/research_harness/bounded.py",
+        "--run-file",
+        "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/attempts/000001/run.json",
+        "--timeout",
+        "180",
+        "--memory-gib",
+        "1",
+        "--",
+        "/usr/bin/python3",
+        "-B",
+        "experiments/20261028-genus-scaling/coordinator/clean_verify_v1.py",
+        "--output",
+        "experiments/20261028-genus-scaling/coordinator/clean-results-v1.json"
+      ],
+      "plan_sha256": "ef4a6b9394783d5a6ac6a5250b09cd29ebb381b5a9f39314b963beee90e539bb",
+      "raw_output": "clean-results-v1.json",
+      "result": "exit0"
+    }
+  ],
+  "note": "J0 exact inert command in its separate outcome; this version extends J1..J6 without replacing v1. All jobs sequential; detailed outputs on disk; actual RSS unmeasured."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "J7",
+  "role": "r2-structure nonauthor T0 audit",
+  "claim": "integrated genus4 joint suffix law and positive-genus child forcing",
+  "reservation": "coordinator exclusive after J6",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/check_joint_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/joint-results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 256,
+  "estimated_seconds": 90,
+  "state_space": "AllS3 endpoint4-letter suffix cylinders; allS4 endpoint3-letter suffix cylinders; g4; endpoint/support quotient reference, no fullN4 words",
+  "commit": "4b123da3c024adbcf73bfbf41c905f2f1f28d122",
+  "seed": null,
+  "new_reason": "Joint literal cylinders at genus4 beyond counts and validity;27 arbitrary2/2-child forcing maps."
+}

@@ -1,0 +1,408 @@
+{
+  "status": "passed",
+  "elapsed_seconds": 0.6718533630482852,
+  "python": "3.12.3",
+  "dependencies": "standard-library-only",
+  "seed": null,
+  "command": [
+    "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/check-v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/results-v1.json"
+  ],
+  "commit": "4b123da3c024adbcf73bfbf41c905f2f1f28d122",
+  "literal_reference_count_checks": 656,
+  "peak_literal_reference_states": {
+    "5": 250,
+    "6": 2025
+  },
+  "full_polynomial_extrapolations": [
+    {
+      "genus": 2,
+      "alpha": [
+        12
+      ],
+      "value": "583/40",
+      "grid_points": 5,
+      "degree": 4
+    },
+    {
+      "genus": 2,
+      "alpha": [
+        16
+      ],
+      "value": "146/3",
+      "grid_points": 5,
+      "degree": 4
+    },
+    {
+      "genus": 2,
+      "alpha": [
+        1,
+        14
+      ],
+      "value": "175273/360",
+      "grid_points": 21,
+      "degree": 5
+    },
+    {
+      "genus": 2,
+      "alpha": [
+        14,
+        1
+      ],
+      "value": "175273/360",
+      "grid_points": 21,
+      "degree": 5
+    },
+    {
+      "genus": 2,
+      "alpha": [
+        6,
+        8
+      ],
+      "value": "55367/240",
+      "grid_points": 21,
+      "degree": 5
+    },
+    {
+      "genus": 2,
+      "alpha": [
+        8,
+        6
+      ],
+      "value": "55367/240",
+      "grid_points": 21,
+      "degree": 5
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        12
+      ],
+      "value": "41679/140",
+      "grid_points": 8,
+      "degree": 7
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        16
+      ],
+      "value": "464704/189",
+      "grid_points": 8,
+      "degree": 7
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        1,
+        14
+      ],
+      "value": "122035627/6480",
+      "grid_points": 45,
+      "degree": 8
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        14,
+        1
+      ],
+      "value": "122035627/6480",
+      "grid_points": 45,
+      "degree": 8
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        6,
+        8
+      ],
+      "value": "196427657/30240",
+      "grid_points": 45,
+      "degree": 8
+    },
+    {
+      "genus": 3,
+      "alpha": [
+        8,
+        6
+      ],
+      "value": "196427657/30240",
+      "grid_points": 45,
+      "degree": 8
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        12
+      ],
+      "value": "1230273/280",
+      "grid_points": 11,
+      "degree": 10
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        16
+      ],
+      "value": "85681664/945",
+      "grid_points": 11,
+      "degree": 10
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        1,
+        14
+      ],
+      "value": "137817450421/259200",
+      "grid_points": 78,
+      "degree": 11
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        14,
+        1
+      ],
+      "value": "137817450421/259200",
+      "grid_points": 78,
+      "degree": 11
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        6,
+        8
+      ],
+      "value": "166230210481/1209600",
+      "grid_points": 78,
+      "degree": 11
+    },
+    {
+      "genus": 4,
+      "alpha": [
+        8,
+        6
+      ],
+      "value": "166230210481/1209600",
+      "grid_points": 78,
+      "degree": 11
+    }
+  ],
+  "repeated_cycle_rows": [
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "genus": 0,
+      "count": 783820800
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "genus": 1,
+      "count": 275425920000
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "genus": 2,
+      "count": 72401570841600
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "genus": 3,
+      "count": 17358754533120000
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "genus": 4,
+      "count": 4014851908690022400
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "genus": 0,
+      "count": 3870720
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "genus": 1,
+      "count": 1287014400
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "genus": 2,
+      "count": 329425367040
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "genus": 3,
+      "count": 77996203084800
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "genus": 4,
+      "count": 17934000349224960
+    },
+    {
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "genus": 0,
+      "count": 322560
+    },
+    {
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "genus": 1,
+      "count": 96768000
+    },
+    {
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "genus": 2,
+      "count": 23353989120
+    },
+    {
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "genus": 3,
+      "count": 5358927974400
+    },
+    {
+      "alpha": [
+        2,
+        2,
+        2
+      ],
+      "genus": 4,
+      "count": 1212924988154880
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "genus": 0,
+      "count": 3265920
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "genus": 1,
+      "count": 1187978400
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "genus": 2,
+      "count": 317425379040
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "genus": 3,
+      "count": 76675253054400
+    },
+    {
+      "alpha": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "genus": 4,
+      "count": 17794105872903360
+    }
+  ],
+  "reviewed_source_sha256": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc",
+  "review_script_sha256": "575d291da7e24dc20124a1c3b901e5ecc5f2e44cc20769bf747cbb4775a4f5a0",
+  "limitations": [
+    "finite extrapolation checks do not prove ELSV polynomiality",
+    "reviewer shares construction context",
+    "coordinator code is a finite Python research reference"
+  ]
+}

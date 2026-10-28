@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "campaign_id": "genus-scaling-20261028",
+  "created_at": "2026-10-28T15:48:43.491840+00:00",
+  "status": "completion_review_requested",
+  "operator_acceptance": false,
+  "campaign_success_declared": false,
+  "mathematical_status": "source-scoped internally ACCEPTED after blind, exact-version and delivery gates",
+  "exact_statement": "For all integers N>=2 and g>=0, a single uniform algorithm using independent fair bits returns an exactly uniform ordered transposition word on exactly[N], with rightmost-first product identity, connected support and length2N-2+2g, in expected at most A C^(g+1)(N+g+2)^15 bit operations, for absolute constants A>0,C>1.",
+  "auxiliary_statement": "An explicitly specified endpoint sigma with k cycles is handled on the connected length N+k-2+2g fiber when nonempty; singleton has only the empty genus0 word.",
+  "accuracy": "exact; TV0",
+  "complexity": "expected bit time; explicit output; not a worst-case random-bit bound or efficiency in log2N wires",
+  "published_imports": [
+    "GJV revised22Dec2000 equation13/equations14-16/Theorem3.2",
+    "GJ arXiv:math/9902009 fixed-permutation normalization and checked genus0/1 formulas"
+  ],
+  "statement": [
+    {
+      "path": "experiments/20261028-genus-scaling/theorem-v1.md",
+      "sha256": "fecfe4a443be67d8e1a31af9ea2491610e5d9708848f9adab5a333b28d5cfb7c"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/targets-v1.md",
+      "sha256": "730de094955094f76da0e7b2a88458d626b185044009d2b4798dcba53e8f8fb1"
+    }
+  ],
+  "proofs": [
+    {
+      "path": "experiments/20261028-genus-scaling/coordinator/coefficient-theorem-v1.md",
+      "sha256": "b152819ed84e460fe1d9248e2d178b7575104232b32551ef7466d518ec5ec610"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r1-recursion/proof-v1.md",
+      "sha256": "f87fc0387e4f936ce82ebe0800851cb88a340eacc1188e5b8e0816fa8123d173"
+    }
+  ],
+  "full_reviews": [
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r3-adversarial/blind-report-v1.md",
+      "sha256": "97e4d2d4772667e7dbd67bbbff9c44c451947eb4933274277ccf5bebb6dd4e51"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/report-v1.md",
+      "sha256": "1d9b6475b938f367cac484f5a9187c89ff59d93f878986535c2ad2b66429af7c"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/report-v1.md",
+      "sha256": "1325dcbae56be0bb531a8a727d595199dde8fe0bb7fff3860db81638f9a5b27a"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/report-v1.md",
+      "sha256": "a863b48f28ff73c4be0b328f0ca8011164d590e622475329a3746d835fbb3c20"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md",
+      "sha256": "07c9fef0edf39492fc12dc57987861527a240cfdbdf8a07a56dc175ae800cc7e"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/coordinator/structural-review-v1.md",
+      "sha256": "a1f8b1fd00beff60d96c64c2442e650ae7d5026b1f81f6014a570601cf5f07f0"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r2-structure/delivery-review-v1/report-v1.md",
+      "sha256": "76f45062ec3e48f86c83d42d8f98a72d40a0574bbf5d3388e9fa36f0395b062c"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/reconciliation-v1.md",
+      "sha256": "e39c91b16e0b2c96be318849f44f5daf4c54ffeb8f2a7798effc2cc1e76d6acd"
+    }
+  ],
+  "finite_evidence": [
+    {
+      "path": "experiments/20261028-genus-scaling/coordinator/clean-results-v1.json",
+      "sha256": "6d267911364d050d17c2a53cd1be23b55fc677a8db6416d39fb6fefe9e0d01da"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/coordinator/execution-record-v2.json",
+      "sha256": "0d11d6a0a3c61a827352eda10747d99cb89066e165b78582791206d140990c23"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/joint-results-v1.json",
+      "sha256": "e1ac7fc415ecffcbf97ea77f7c87b8d6bdd1f335751eb5b864565d0965656906"
+    },
+    {
+      "path": "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/production-results-v1.json",
+      "sha256": "e85df94aa864c6f41a9a220f095023d6895ea30ff5fdc4036d616fd830d590aa"
+    }
+  ],
+  "report": "experiments/20261028-genus-scaling/report.md",
+  "claim_ledger": "experiments/20261028-genus-scaling/claim_ledger.json",
+  "dependency_graph": "experiments/20261028-genus-scaling/dependency-graph-v3.json",
+  "manifest": "experiments/20261028-genus-scaling/delivery-manifest-v1.json",
+  "inventory": "experiments/20261028-genus-scaling/artifact-inventory-v1.md",
+  "same_model_reviews_correlated": true,
+  "unresolved": [
+    "Global unrestricted-genus fixed-length uniform sampling efficiency",
+    "Heat-bath polynomial mixing",
+    "Efficiency in number of wires log2N",
+    "Separate structural PORT-CONTRACT"
+  ],
+  "counterexamples_preserved": "experiments/20261028-genus-scaling/failed-approaches.md",
+  "workers_idle": true,
+  "active_math_jobs": 0,
+  "automatic_continuation_authorized": false,
+  "checkpoint_parent": "4b123da3c024adbcf73bfbf41c905f2f1f28d122",
+  "checkpoint_subject": "Record internally reviewed genus scaling theorem and completion review packet"
+}

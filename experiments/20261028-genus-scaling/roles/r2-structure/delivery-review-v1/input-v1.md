@@ -1,0 +1,5 @@
+# Coordinator final delivery audit
+
+Use the existing native r2 context; no descendants, experiments, installs or Git. Same model/effort/default tier and current cap remain. Own only roles/r2-structure/delivery-review-v1/. This is NONBLIND delivery verification, not another proof vote.
+
+Read final report.md, reconciliation-v1.md, claim_ledger.md/json, dependency-graph-v3.json, failed-approaches.md, proposed-map-delta-v1.md and coordinator/structural-review-v1.md. Compare exact statements, statuses, source scope and numerical summaries with the frozen main/structural proofs and your full reviewed artifacts. Verify structural review source/report pins if needed. Do not alter coordinator or author files. Write a concise full report and immutable manifest identifying any overclaim, missing dependency, inconsistent status or numerical/provenance error. Freeze an explicit no-objection result if correct. Do not interpret the completion request as operator acceptance. Checkpoint then final report in your owned directory. No further computation is needed.

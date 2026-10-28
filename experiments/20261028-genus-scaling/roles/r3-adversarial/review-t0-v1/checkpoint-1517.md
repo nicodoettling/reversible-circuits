@@ -1,0 +1,9 @@
+# NONBLIND review checkpoint — 2026-10-28 15:16 UTC
+
+Immutable blind files remain unchanged. Read exact supplied theorem-v1, COEFF-EXP.v1/freeze, R1 statement/proof/manifest/source-verification and integrated sampler/audit/results. This is explicitly a different, nonblind review, with shared-model/source correlation.
+
+No discrepancy identified so far. Source normalization independently rechecked: multiplying ELSV's r!/Aut(alpha) product a^a/a! by z_alpha gives r!Q(alpha), hence B is precisely the labeled-cycle polynomial. Its coefficient of an individual monomial is the signed primitive integral; dividing by Aut(theta) occurs only when creating the rational-series term. The simplex degree and evaluation bounds give n<=9h-9,r<=14h-14, with all h>=2 stable. Code's symmetric cache for mixed differences preserves labeled-variable coefficients.
+
+Uniform bit audit: common normalized-value denominator(L!)^(M+1), interpolation denominator dividingD!, and the final Aut divisor all fit a fixed additional number of L! factors. R1's product denominator D_g²(N!)^5 covers every restricted allocation sum. Special exponents across children areO(g), all ordinary/count coordinates have fixed polynomial dimension, and B=O(t(g)b(g)+(N+g)log(N+g)) supports the n15 bound from the stated n10 arithmetic operation budget. Fair-bit expected trials are conditional at each history.
+
+Fresh production check written, not run. Reservation R3-PRODUCTION-LAW-v1 requested180s/1GiB. It replays actual integrated production sample calls, intercepts only exact categorical selection/interleaving ranks, and compares9 whole finite laws to independent endpoint/support-state counts. Additional225 forcing cases include both child genera2 and unequal/repeated cycle sizes. No N4g3 literal enumeration. Wait for operational reservation/result before making a finite-law claim.

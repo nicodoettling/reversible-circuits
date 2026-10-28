@@ -1,0 +1,97 @@
+{
+  "status": "all exact source/author/blind/review manifest payloads match",
+  "checks": {
+    "coordinator/coefficient-freeze-v1.json": {
+      "manifest_sha256": "6949927891ebebed3c455852f3eb9206e68646dd29baaba94182df12b7b5a558",
+      "payloads": {
+        "coefficient-theorem-v1.md": "b152819ed84e460fe1d9248e2d178b7575104232b32551ef7466d518ec5ec610",
+        "coefficient_oracle_v1.py": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc",
+        "coefficient-results-v1.json": "9d5c7dc0fe683adbbc523cbf5012cd7461aa66ecc3cd03d80a9ddde71b47796d",
+        "job-J1-plan.json": "98600c855dc76dab7f8b498fd0bd32dc90dbf0039baca3a351d530ea138c3273",
+        "job-J1-outcome.json": "e16b1c2cad0bf3078803d4f9c342ab4e63aafeca9c5f8e940d7771c6315ef755"
+      }
+    },
+    "roles/r1-recursion/manifest-v1.json": {
+      "manifest_sha256": "0a8460c5c26d9ead1ebbae9bb6eacc4c7ce02f4b123adbcf02c726ad0bf0c3c5",
+      "payloads": {
+        "audit-v1.py": "fab39f3dd9aba9b56ab71a60cd9ea5dd5d5f25c7df8ca8995f4675ca4a349468",
+        "input-v1.md": "7b7247084027f630a9021e89ede7ffc34aff6618719223a9ef8420c31bb20bbe",
+        "job-v1.json": "9abe04124d2d09c7f7701c4657ef8b3747cea25063d2bae06a507419fef7f3bd",
+        "plan.md": "bfe102b64214baacd0146eb106352eb125e336431be781ddaab2795ad2877415",
+        "proof-draft-v1.md": "2c6fe16cac26be3e4e9a546980c5fdeaa74844be613ae11e2a586f02d944b9c5",
+        "proof-v1.md": "f87fc0387e4f936ce82ebe0800851cb88a340eacc1188e5b8e0816fa8123d173",
+        "report-v1.md": "08b6239625bb809d430b6c62df7b839acf6002bb386543cbdcd823b459021283",
+        "results-v1.json": "04d46fa8a8c4949499a726ecef7ac66a55f5b854f2c5ccae6551a57d47f7928b",
+        "sampler-v1.py": "26ca9e0d61f62d29f3f99b1d77e4bc925129abd025d07ca412d7dffd097a371d",
+        "source-verification-v1.md": "3eddc2ad4300895c8d9e6f05bcd432f1d1344053d381479f5e911774cbd3dc67",
+        "statement-v1.md": "e161d83dce0fc5dee0fa6ad40d93142e93eea18cb755bcdc4ab867c02a74f0cf"
+      }
+    },
+    "roles/r2-structure/freeze-manifest-v1.json": {
+      "manifest_sha256": "6ba3618b38cf784a7c6f06ff19cc931ef5225d43e8079cdfb6146251408fed21",
+      "payloads": {
+        "input-v1.md": "626021e06d082f3f0f00f895e7c032da8e77c72bd02bcd7c3d927e8e6bb3bef5",
+        "plan.md": "be4224cde4135ff2d6f35ac1ac3d2afb10977a2bc5fc8a22816065ab53640bac",
+        "checkpoint-early-v1.md": "ea0d68577a8b60cdabf19e53ba9e66963219cdbc2305e278ad88340a628e4ccf",
+        "checkpoint-halfway-v1.md": "146c1719ee40147e995de4bf8aa875c99e1c8e9f401b020cb57e4b9b7522d561",
+        "theorem-v1.md": "60b9014cae7d3219083441cb037441e56d83f8a7abc3fd47ba91dcf6828c8072",
+        "proof-v1.md": "59a627caad62feabc25ddb786eb76d84358ff7b5baf4e4ab277d3ecc20a08b13",
+        "check_cuts_v1.py": "09821dba5bb2eb86377249e096f44d0844608ef07b3765b41995ef584401fba0",
+        "cut-results-v1.json": "81c1470d7dde41204aae7dde137b2827ddd2e6eea440c798eb88f9f2f918f2b0",
+        "job-J2-plan.json": "30d5bb1c6dbe1c3664815034a1b0cd4dadbb1be2da769347c07fe2fe74032a77",
+        "report-v1.md": "d1e9310e0761e7b564eb2f993d218a48b5c814ae3ad56f23a94835701eb7a73f"
+      }
+    },
+    "roles/r3-adversarial/manifest-v1.json": {
+      "manifest_sha256": "28651ddba7f7eea47b4a004c775740bc4afbd0b7af7814ceb4830fa763eb4682",
+      "payloads": {
+        "input-v1.md": "c9bc6f0a4778ed5463b1c32d29d958c671bab7086ea0083b6114ccccb4457634",
+        "plan.md": "fb3059abbbc080802646fe16507ee75a72172b8b92b3f0fd468460903f59b130",
+        "checkpoint-1454.md": "628ee7a3ba9537b5f24e9c4f2b98d9552965d0474f8b989a01c0fb661fdebcae",
+        "halfway-checkpoint.md": "fcf98efce9277f5708b82ee803d361edfcf34a64ce1841a59e8e780fd72ad80c",
+        "check_blind_v1.py": "67a69139854797db238080793936ad4a9ecf0c501a60acfb1bab49358a756922",
+        "check-results-v1.json": "cd69ed5f00a515032b16203ec0d3400593a17ee2cff1daff4e6f55d37bd8d306",
+        "blind-report-v1.md": "97e4d2d4772667e7dbd67bbbff9c44c451947eb4933274277ccf5bebb6dd4e51"
+      }
+    },
+    "roles/r1-recursion/review-coefficient-v1/manifest-v1.json": {
+      "manifest_sha256": "7fa2a73b7305c5d16a7cda9b70736680b1b9714f6c991e8d45b12ac31ca240ab",
+      "payloads": {
+        "check-v1.py": "575d291da7e24dc20124a1c3b901e5ecc5f2e44cc20769bf747cbb4775a4f5a0",
+        "final-hashes-v1.json": "a2b2f3f5ecd42ba984911e72ceee3598d7a63dfdd8f503f9cd59330c49ea93fa",
+        "input-v1.md": "bdd0a309e87ae9d51dd9df3b01328c988ecb50a67d13898ed15a04c4d616e82a",
+        "intake-hashes-v1.json": "93c7cd971671efa935aab323d03a7c62d4098315aaaa523deb37a3bd6c2bbb77",
+        "job-v1.json": "a31d94add4d5f7cd4837978261a42b99a5754994868950da2a91d151adc1d4ab",
+        "report-draft-v1.md": "7abfe1b50e5e7e74740562d9b023a9f8df7d368d672fef15e7c9e0dd2c6b97ba",
+        "report-v1.md": "1d9b6475b938f367cac484f5a9187c89ff59d93f878986535c2ad2b66429af7c",
+        "results-v1.json": "1316664d310da3276242221c7e4ac7f2fbbe42f6ca031e3de5226a8450690d07"
+      }
+    },
+    "roles/r2-structure/review-t0-v1/manifest-v1.json": {
+      "manifest_sha256": "5b4527b93b27d61eca983536c3dbd05d04ee33d837bb0697846514af0b2cb0f8",
+      "payloads": {
+        "input-v1.md": "13bf9aad3b64cc9204b8e82f0479326d294f11a6c5d3cd14475817fe36682f7d",
+        "plan.md": "65e49cfa46563989df2db59124a298d6aa207dfce24c3b0e221c2efaa18469dc",
+        "verified-inputs-v1.json": "ac413a0cbc46a19b3b43228c5d561bcfb174cfa5edec58e4c55e6e8d33720c1e",
+        "checkpoint-halfway-v1.md": "f14b998f779ac03b88e11c289bc8fc4acced21da0a03feccf2da3add6e7e196b",
+        "source-verification-v1.md": "92c12a9603ebf21eb6472166d416df24c0a45dd31310a6c7c08bc52d54c2d0f0",
+        "check_joint_v1.py": "d7a4c18f90ee060ad0797789e3b69855bff2b694086c3e92cb04aa8d61baa34b",
+        "joint-results-v1.json": "e1ac7fc415ecffcbf97ea77f7c87b8d6bdd1f335751eb5b864565d0965656906",
+        "job-J7-record-v1.json": "1006b1185813c09349164f0a4204c7f51188c3c0ba15cc010cbe1357815bf9f4",
+        "report-v1.md": "1325dcbae56be0bb531a8a727d595199dde8fe0bb7fff3860db81638f9a5b27a",
+        "final-verification-v1.json": "2c56f5094d907ba131ef03944f6b1a0fb47242bbc1662130d2983b6344ded693"
+      }
+    },
+    "roles/r3-adversarial/review-t0-v1/manifest-v1.json": {
+      "manifest_sha256": "33df983401eb6a63c6731eba18be848f59788dbbc0e35ff92e12ae8ec9ba7501",
+      "payloads": {
+        "input-v1.md": "87315b0f75a97e2bb62c485be1949053914083bf8cb497ac7f18a2b947ef0f05",
+        "checkpoint-1517.md": "7f6c18b9a09a742c098709faddd90b2a17eb1bbf97403b284d099d9441743008",
+        "production_law_check_v1.py": "2a4b65214d32ea1b063c42b074a4cdf091a9d2f5e8e27618c573890d0fb168a1",
+        "production-results-v1.json": "e85df94aa864c6f41a9a220f095023d6895ea30ff5fdc4036d616fd830d590aa",
+        "bindings-v1.json": "8b8b59bfffafcf15dbd9414a01d69dbd882db54d931d5fc2efdb44782f9a8559",
+        "report-v1.md": "a863b48f28ff73c4be0b328f0ca8011164d590e622475329a3746d835fbb3c20"
+      }
+    }
+  }
+}
