@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "date": "2026-10-01",
-  "timezone": "UTC",
+  "programme": {
+    "programme": "notes/project-map/PROGRAMME.md",
+    "programme_decisions": "notes/project-map/PROGRAMME_DECISIONS.md",
+    "prepared_campaign": "notes/project-map/campaign-identity-bridge-sampling-20261025/README.md",
+    "campaign_compatibility": "notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md"
+  },
+  "date": "2026-10-28",
+  "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
     "scope": {
@@ -1809,6 +1815,19 @@
       "limits": "No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.",
       "records": [],
       "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
+    },
+    {
+      "id": "campaign",
+      "title": "Resilient identity-bridge research campaign",
+      "prefixes": [
+        "research-campaigns",
+        "experiments/20261025-identity-bridge-sampling-campaign"
+      ],
+      "disposition": "prepared programme; research not launched",
+      "read_depth": "planning documents and existing map evidence",
+      "limits": "Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.",
+      "records": [],
+      "branch_disposition": "pending: inspect exact campaign artifacts and reviews"
     }
   ],
   "targets": [
@@ -1992,6 +2011,10 @@
     {
       "path": "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md",
       "disposition": "Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization."
+    },
+    {
+      "path": "notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md",
+      "disposition": "Prepared, not launched. Frozen any-sampler mission with adaptive programme P0-P5. Separate operator start required; same-mission recovery/quota resume authorized thereafter."
     }
   ],
   "project": {
@@ -2071,7 +2094,7 @@
     "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
     "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
   },
-  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.",
+  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed.",
   "conflicts": [
     {
       "id": "C-IRRED",
@@ -2237,11 +2260,13 @@
       ".mypy_cache",
       ".venv",
       "venv",
-      "node_modules"
+      "node_modules",
+      ".campaigns"
     ],
     "excluded_paths": [
       "notes/project-map",
-      "PROJECT_MAP.md"
+      "PROJECT_MAP.md",
+      ".git"
     ],
     "excluded_filename_patterns": [
       "*.pyc",
@@ -2263,7 +2288,7 @@
       "notes/local-heatbath-polynomial-mixing-resolution-resolution-ledger.md",
       "notes/local-heatbath-polynomial-mixing-resolution-resolution.md"
     ],
-    "rationale": "Exclude repository/cache metadata and this self-referential map output tree. Skip TeX intermediates, not research PDFs. Runtime log/status growth is metadata-only; raw results JSON/JSONL remain hashed research. Symlinks and special files are inventoried but never followed/read. Future mathematical evidence inside an excluded directory or log must be extracted to a research artifact and pinned."
+    "rationale": "Exclude repository/cache metadata and this self-referential map output tree. Skip TeX intermediates, not research PDFs. Runtime log/status growth is metadata-only; raw results JSON/JSONL remain hashed research. Symlinks and special files are inventoried but never followed/read. Future mathematical evidence inside an excluded directory or log must be extracted to a research artifact and pinned. Campaign runtime directories and linked-worktree .git pointers are excluded; scientific outputs in declared research-campaigns/ and experiments/ roots remain hashed."
   },
   "branch_overrides": [
     {

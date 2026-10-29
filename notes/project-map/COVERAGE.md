@@ -2,7 +2,7 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered.
+Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed.
 
 Discovery baseline: 4023 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
@@ -115,6 +115,14 @@ Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-cr
 36 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
+
+Records: Pending; no mathematical record inferred.
+
+## campaign: Resilient identity-bridge research campaign
+
+0 discovered entries. prepared programme; research not launched. Depth: planning documents and existing map evidence.
+
+Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.
 
 Records: Pending; no mathematical record inferred.
 

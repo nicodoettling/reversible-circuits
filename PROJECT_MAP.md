@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-10-01 (UTC).
+Documentary consolidation: 2026-10-28 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -42,6 +42,10 @@ Documentary consolidation: 2026-10-01 (UTC).
 - [TARGETS](notes/project-map/TARGETS.md)
 - [COVERAGE](notes/project-map/COVERAGE.md)
 - [UPDATE_PROTOCOL](notes/project-map/UPDATE_PROTOCOL.md)
+- [Programme](notes/project-map/PROGRAMME.md)
+- [Programme Decisions](notes/project-map/PROGRAMME_DECISIONS.md)
+- [Prepared Campaign](notes/project-map/campaign-identity-bridge-sampling-20261025/README.md)
+- [Campaign Compatibility](notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md)
 
 ## Maintenance
 
