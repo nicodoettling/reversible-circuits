@@ -1,1 +1,50 @@
-{"tasks": []}
+{
+  "updated_at": "2026-10-29T07:12:02.847050+00:00",
+  "attempt": "000001",
+  "coordinator_session": "01a1867b-dd58-7152-8af7-fec525bb1371",
+  "total_ceiling": 4,
+  "workers": [
+    {
+      "id": "/root/r1_theory",
+      "role": "r1-theory",
+      "owned_directory": "experiments/20261029-noisy-bridge-viability/r1-theory",
+      "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
+      "status": "active",
+      "next": "Freeze beyond-pair finite theorem and complete proof; request bounded checks.",
+      "descendants": false,
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier_policy": "inherit default; no override"
+    },
+    {
+      "id": "/root/r2_construction",
+      "role": "r2-construction",
+      "owned_directory": "experiments/20261029-noisy-bridge-viability/r2-construction",
+      "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
+      "status": "active",
+      "next": "Freeze first candidate algorithm; reject before choosing at most one second candidate.",
+      "descendants": false,
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier_policy": "inherit default; no override"
+    },
+    {
+      "id": "/root/r3_adversarial",
+      "role": "r3-adversarial",
+      "owned_directory": "experiments/20261029-noisy-bridge-viability/r3-adversarial",
+      "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
+      "status": "active",
+      "next": "Publish blind M0 attack report, then blind candidate supplement before nonblind audit.",
+      "descendants": false,
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier_policy": "inherit default; no override"
+    }
+  ],
+  "coordinator_next": [
+    "Audit exact reference conventions and literal-word distribution.",
+    "Coordinate one bounded mathematical job at a time.",
+    "Freeze exact claim versions and review inputs.",
+    "Checkpoint scoped stable paths by approximately 07:27 UTC."
+  ]
+}

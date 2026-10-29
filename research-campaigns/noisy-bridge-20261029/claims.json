@@ -1,1 +1,94 @@
-{"claims": []}
+{
+  "updated_at": "2026-10-29T07:27:53.515963+00:00",
+  "claim_status_policy": "No restart upgrades; proved status requires exact-version audit gates; internal same-model reviews are correlated.",
+  "claims": [
+    {
+      "id": "M0",
+      "status": "proved",
+      "audit_status": "FROZEN-DEFINITION",
+      "statement": "Frozen target/noise/representation/security quantifiers, not a security result",
+      "evidence": "experiments/20261029-noisy-bridge-viability/model-v1.md",
+      "dependencies": []
+    },
+    {
+      "id": "LC1-v1",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Exact inversion transfer of any fixed-s local bias through uniform-k-subset resampling for k<=L-s; advantage alpha_s delta/(2*3^s)",
+      "evidence": [
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v1.md",
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v1.md"
+      ],
+      "dependencies": [
+        "elementary commuting coordinate projections",
+        "exact hypergeometric avoidance"
+      ],
+      "review": "r3 received statement only; blind report pending; finite rational regression running",
+      "action": "retain provisional until full gates"
+    },
+    {
+      "id": "C1-v1",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Six-distinct-edge identity blocks with bounded Hurwitz scrambling; fixed complete sampler specification, no security assertion",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md",
+      "dependencies": [
+        "M0"
+      ],
+      "review": "algorithm-only sent to blind r3",
+      "action": "audit identity and matched noisy-word attacks"
+    },
+    {
+      "id": "T0",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "General finite six-window attack and N>=1000 advantage>=.7",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md",
+      "dependencies": [
+        "M0",
+        "even return moments",
+        "literal six-step return count"
+      ],
+      "action": "exact-version review and finite checks pending"
+    },
+    {
+      "id": "C1-ATTACK-v1",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Deterministic surviving aligned windows and bridge-conditioning reference bound",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
+      "dependencies": [
+        "M0",
+        "C1-v1",
+        "iid channel invariance",
+        "even return lower bound"
+      ],
+      "action": "exact-version review and finite checks pending"
+    },
+    {
+      "id": "C2-v1",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Frozen second construction: path/star relation, planted support, arbitrary s signed Hurwitz moves",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md",
+      "dependencies": [
+        "M0"
+      ],
+      "action": "exact-version review and finite checks pending"
+    },
+    {
+      "id": "C2-ATTACK-v1",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Support threshold and explicit disjoint-double-edge global bridge count bound",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
+      "dependencies": [
+        "M0",
+        "C2-v1",
+        "iid channel invariance",
+        "literal disjoint-pair counting"
+      ],
+      "action": "exact-version review and finite checks pending"
+    }
+  ]
+}
