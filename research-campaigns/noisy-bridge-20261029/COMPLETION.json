@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "campaign_id": "noisy-bridge-20261029",
+  "attempt": "000001",
+  "created_at": "2026-10-29T08:05:11.191344+00:00",
+  "status": "scoped-delivery-review-request",
+  "operator_acceptance_required": true,
+  "claim_status_not_changed_by_marker": true,
+  "exact_scope": "Bounded M0 viability study: quantified efficient attacks beyond pair controls and two completely specified rejected candidates, with proofs, exact-version reviews and finite diagnostics.",
+  "completed_outputs": [
+    "plan and M0",
+    "two frozen algorithms and implementation scope",
+    "complete proofs and claim dependency graph",
+    "blind and nonblind exact-version reports",
+    "all rejected approaches and repairs retained",
+    "five bounded mathematical jobs plus inert smoke",
+    "coordinator independent decisive checks",
+    "full report, ledger, recovery and changed-file inventory"
+  ],
+  "accepted_internal_statements": [
+    {
+      "id": "T0",
+      "statement": "For N>=1000,L=6M,M>=2, sources formed from M six-gate identity relators followed by arbitrary relabeling/rotation and at most b adjacent Hurwitz moves have a deterministic one-query six-window distinguisher against matched Q_k(U) of advantage>=7/10 whenever H=M-1-2b-k>=M/2; scan cost O(L) label operations. Exact finite reference bound is min(1,(L-5)p6(id)^2/(H*p12(id))).",
+      "proof": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md",
+      "full_reviews": [
+        "experiments/20261029-noisy-bridge-viability/r2-construction/review-T0-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-T0-v1.md"
+      ]
+    },
+    {
+      "id": "C1-ATTACK-v1",
+      "statement": "Frozen C1 is rejected by an aligned-window test; at a=ceil(B/2) and B-2s-k>=a its reference false acceptance is <=min(1,N!*binom(B,a)*q^(-a)); declared N=lambda^2,B=lambda^6,s=floor(B/10),k=lambda schedule has exp(-Omega(lambda^6 log lambda)) deficit.",
+      "proof": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
+      "full_reviews": [
+        "experiments/20261029-noisy-bridge-viability/reviews/coordinator-C1-review-v1.md"
+      ]
+    },
+    {
+      "id": "C2-ATTACK-v1",
+      "statement": "Frozen C2 always has noisy word support<=h=m+1+2k. For N>=2m,h<=N, matched reference false acceptance<=min(1,binom(N,h)*binom(h,2)^(2m)/D),D=(N)_(2m)*(2m)!/(4^m*m!). On N=lambda^6,m=lambda,k=floor(sqrt(lambda)), it is<=lambda^(-lambda) for lambda>=1024, regardless of Hurwitz step count.",
+      "proof": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
+      "full_reviews": [
+        "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md"
+      ]
+    },
+    {
+      "id": "LC1-v3",
+      "statement": "Exact local-observable bias transfer through Q_k for k<=L-s with factor alpha_s/(2*3^s), explicitly charged rational arithmetic and public polynomial evaluator/value-size assumptions for efficient fixed-s corollary. V1/v2 overbroad computational clauses remain superseded.",
+      "proof": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v3.md",
+      "full_reviews": [
+        "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v3-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v3.md"
+      ]
+    }
+  ],
+  "unresolved": [
+    "General existence/security of different structured identity-word samplers under sparse M0 noise",
+    "General bridge-sampling hardness",
+    "No secure surviving candidate or negligible semantic correctness established",
+    "BS3 alternative onset81 proof is retained provisionally and not load-bearing"
+  ],
+  "negative_findings_retained": [
+    "Exact equality at k=L and for uniform-coordinate sources at k=L-1",
+    "T0 fails without L>=2r",
+    "LC1 v1 denominator and v2 public-evaluator omissions",
+    "C1 off-schedule runtime erratum",
+    "Pre-execution factorial(N) checker rejection",
+    "One-sample-to-reused-key and cached-prefix counterexamples"
+  ],
+  "review_independence": "All agents same model; author-distinct and partially blind reviews are correlated, not human or statistical certification.",
+  "report": "experiments/20261029-noisy-bridge-viability/report.md",
+  "ledger": "experiments/20261029-noisy-bridge-viability/claim-ledger-v1.md",
+  "reconciliation": "experiments/20261029-noisy-bridge-viability/reconciliation-v1.md",
+  "proof_graph": "experiments/20261029-noisy-bridge-viability/proof-graph-v1.json",
+  "regressions": "experiments/20261029-noisy-bridge-viability/regression-registry-v1.md",
+  "delivery_review": "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-v1.md",
+  "delivery_recheck": "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-correction-recheck-v1.md",
+  "artifact_validation": "experiments/20261029-noisy-bridge-viability/artifact-validation-v1.json",
+  "manifest": "experiments/20261029-noisy-bridge-viability/artifact-manifest-v1.json",
+  "manifest_sha256": "d0b380034801afd14c753ddf02ab107e2b6dc35a49798ca81189994f33e2d77d",
+  "changed_files": "experiments/20261029-noisy-bridge-viability/changed-files-v1.txt",
+  "handoff": "research-campaigns/noisy-bridge-20261029/RECOVERY.md",
+  "no_active_math_job": true,
+  "all_workers_complete": true,
+  "no_automatic_successor_authorized": true
+}
