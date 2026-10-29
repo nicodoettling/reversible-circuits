@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-29T07:12:02.847050+00:00",
+  "attempt": "000001",
+  "baseline_commit": "61cba521d833996a3232a5c2516bb6c213e6b6ce",
+  "helper": "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py",
+  "helper_sha256": "c9a6e8997542bf507c7948e99476e01f35c137df1faae91cb600b7782aa537a9",
+  "run_file": "/home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json",
+  "command": "python3 -B <helper> --run-file <run_file> --timeout 15 --memory-gib 1 -- python3 -B -c 'print(\"inert bounded smoke ok\")'",
+  "observed_exit": 0,
+  "observed_stdout": "inert bounded smoke ok\n",
+  "smoke": "actual tool sandbox inert execution; no mathematical inference",
+  "reservation": "coordinator-only initial inert job; complete",
+  "output_limit_bytes": 1048576
+}

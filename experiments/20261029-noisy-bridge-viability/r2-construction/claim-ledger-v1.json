@@ -1,0 +1,88 @@
+{
+  "role": "r2-construction",
+  "certification": "coordinator-owned; same-model reviews correlated",
+  "claims": [
+    {
+      "claim": "C1-identity-entropy",
+      "status": "proved in authored derivation; internal implementation checks passed",
+      "assumptions": "C1-v1, N>=4, B>=1, exact uniform tapes",
+      "evidence": [
+        "candidate-1-v1.md",
+        "candidates_v1.py",
+        "results-candidates-v2.json"
+      ],
+      "independent_check": "coordinator C1 review; r1 T0 family scope; same-model correlated",
+      "action": "retain; runtime erratum and code scope must accompany algorithm"
+    },
+    {
+      "claim": "C1-dense-counting-attack",
+      "status": "proved in authored derivation; author-distinct review passed; coordinator acceptance pending reconciliation",
+      "assumptions": "N=lambda^2, B=lambda^6, s=floor(B/10), k=lambda; lambda>=2 asymptotically",
+      "evidence": [
+        "candidate-1-rejection-v1.md",
+        "../reviews/coordinator-C1-review-v1.md"
+      ],
+      "independent_check": "coordinator exact-version mathematical review; candidate job checks deterministic surviving-window inequality",
+      "action": "reject C1 on stated schedule; do not generalize to arbitrary scrambling"
+    },
+    {
+      "claim": "C2-identity-support",
+      "status": "proved in authored derivation; author-distinct review and finite implementation checks passed",
+      "assumptions": "m>=2, N>=m+1, finite number of Hurwitz moves",
+      "evidence": [
+        "candidate-2-v1.md",
+        "candidates_v1.py",
+        "results-candidates-v2.json",
+        "../r1-theory/review-C2-v1.md"
+      ],
+      "independent_check": "r1 nonblind exact-version review; all signed moves on mandatory tiny spaces",
+      "action": "retain exact support invariant; no global orbit-weight claim"
+    },
+    {
+      "claim": "C2-sparse-support-attack",
+      "status": "proved in authored derivation; author-distinct review and arithmetic checks passed; coordinator acceptance pending reconciliation",
+      "assumptions": "finite bound N>=2m,h=m+1+2k<=N; schedule m=lambda,N=lambda^6,k=floor sqrt(lambda); explicit lambda>=1024 gives R<=lambda^-lambda",
+      "evidence": [
+        "candidate-2-rejection-v1.md",
+        "results-candidates-v2.json",
+        "../r1-theory/review-C2-v1.md"
+      ],
+      "independent_check": "r1 full nonblind review; exact finite disjoint-pair counts and large-lambda integer comparisons",
+      "action": "reject C2 on schedule; retain vacuous small/large-noise boundaries"
+    },
+    {
+      "claim": "T0-review",
+      "status": "proved in reviewed derivation; reviewer PASS; coordinator acceptance pending reconciliation",
+      "assumptions": "exact statement-T0.md/proof-T0.md hashes in T0-review-inputs-v1.json",
+      "evidence": [
+        "review-T0-v1.md",
+        "T0-review-inputs-v1.json",
+        "../r1-theory/results-T0-v1.json"
+      ],
+      "independent_check": "author-distinct but nonblind; same model, correlated; J003 source-author checker passed",
+      "action": "coordinator reconcile with blind r3 and regressions"
+    },
+    {
+      "claim": "checker-v1-large-N-evaluation",
+      "status": "refuted as feasible implementation",
+      "assumptions": "factorial(N) evaluated at N=lambda^6",
+      "evidence": [
+        "check_candidates_v1.py",
+        "checker-v1-rejection.md"
+      ],
+      "independent_check": "source-only discovery BEFORE execution; no job launched",
+      "action": "never run v1; retain and use corrected check_candidates_v2.py"
+    },
+    {
+      "claim": "general sparse-noise hiding / computational security",
+      "status": "unresolved",
+      "assumptions": "arbitrary other structured samplers in M0",
+      "evidence": [
+        "candidate-1-rejection-v1.md",
+        "candidate-2-rejection-v1.md"
+      ],
+      "independent_check": "none claimed",
+      "action": "no third candidate; require support and relation statistics compatible with global bridge before further viability study"
+    }
+  ]
+}

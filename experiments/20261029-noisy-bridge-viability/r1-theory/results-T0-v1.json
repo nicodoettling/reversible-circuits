@@ -1,0 +1,601 @@
+{
+  "status": "passed",
+  "theorem_version": "T0",
+  "command": "python3 -B /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/worktree/experiments/20261029-noisy-bridge-viability/r1-theory/check-T0-v1.py --output experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "seed": "none; exact deterministic enumeration and rational arithmetic",
+  "commit": "24649e0a2b4fa0d0ede444234bfedfc428453571",
+  "script_sha256": "99e21554ece37b4824964bd6720a820e6d8cbd6cdf77cefcf7b3bde973a3df1c",
+  "returns": [
+    {
+      "N": 2,
+      "states": 2,
+      "c6": 1,
+      "c12": 1,
+      "beta6": "1",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "6": 1,
+        "12": 1,
+        "24": 1
+      }
+    },
+    {
+      "N": 3,
+      "states": 6,
+      "c6": 243,
+      "c12": 177147,
+      "beta6": "1/3",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 3,
+        "4": 27,
+        "6": 243,
+        "12": 177147,
+        "24": 94143178827
+      }
+    },
+    {
+      "N": 4,
+      "states": 24,
+      "c6": 3936,
+      "c12": 181401600,
+      "beta6": "5043/59050",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 6,
+        "4": 120,
+        "6": 3936,
+        "12": 181401600,
+        "24": 394865111539384320
+      }
+    },
+    {
+      "N": 5,
+      "states": 120,
+      "c6": 20860,
+      "c12": 16731772540,
+      "beta6": "3108140/119512661",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 10,
+        "4": 340,
+        "6": 20860,
+        "12": 16731772540,
+        "24": 16666682561238613761340
+      }
+    },
+    {
+      "N": 6,
+      "states": 720,
+      "c6": 72315,
+      "c12": 380074772565,
+      "beta6": "116210205/8446106057",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 15,
+        "4": 765,
+        "6": 72315,
+        "12": 380074772565,
+        "24": 46766962116481016438078265
+      }
+    },
+    {
+      "N": 7,
+      "states": 5040,
+      "c6": 197421,
+      "c12": 3752264339691,
+      "beta6": "265136403/25525607753",
+      "ratio_inequalities": 36,
+      "counts": {
+        "0": 1,
+        "2": 21,
+        "4": 1491,
+        "6": 197421,
+        "12": 3752264339691,
+        "24": 21517430652676573817523899991
+      }
+    }
+  ],
+  "windows": [
+    {
+      "N": 2,
+      "L": 4,
+      "r": 2,
+      "bridge_words": 1,
+      "literal_enumeration": true,
+      "masks_checked": 4,
+      "projected_tuples": 1,
+      "beta": "1",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "1",
+          "pair_equality_probability": "1",
+          "alpha": "1"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "1",
+          "pair_equality_probability": "1",
+          "alpha": "1/2"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "1",
+          "pair_equality_probability": "1",
+          "alpha": "1/6"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "1",
+          "pair_equality_probability": "1",
+          "alpha": "0"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "1",
+          "pair_equality_probability": "1",
+          "alpha": "0"
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "L": 4,
+      "r": 2,
+      "bridge_words": 27,
+      "literal_enumeration": true,
+      "masks_checked": 4,
+      "projected_tuples": 9,
+      "beta": "1/3",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "1/3",
+          "pair_equality_probability": "1/3",
+          "alpha": "1"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "1/3",
+          "pair_equality_probability": "1/3",
+          "alpha": "1/2"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "1/3",
+          "pair_equality_probability": "1/3",
+          "alpha": "1/6"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "1/3",
+          "pair_equality_probability": "1/3",
+          "alpha": "0"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "1/3",
+          "pair_equality_probability": "1/3",
+          "alpha": "0"
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "L": 4,
+      "r": 2,
+      "bridge_words": 120,
+      "literal_enumeration": true,
+      "masks_checked": 4,
+      "projected_tuples": 36,
+      "beta": "3/10",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "3/10",
+          "pair_equality_probability": "3/10",
+          "alpha": "1"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "7/30",
+          "pair_equality_probability": "7/30",
+          "alpha": "1/2"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "17/90",
+          "pair_equality_probability": "17/90",
+          "alpha": "1/6"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "1/6",
+          "pair_equality_probability": "1/6",
+          "alpha": "0"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "1/6",
+          "pair_equality_probability": "1/6",
+          "alpha": "0"
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "L": 6,
+      "r": 2,
+      "bridge_words": 3936,
+      "literal_enumeration": true,
+      "masks_checked": 4,
+      "projected_tuples": 36,
+      "beta": "3/10",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "15/82",
+          "pair_equality_probability": "15/82",
+          "alpha": "1"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "131/738",
+          "pair_equality_probability": "131/738",
+          "alpha": "2/3"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "71/410",
+          "pair_equality_probability": "71/410",
+          "alpha": "2/5"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "209/1230",
+          "pair_equality_probability": "209/1230",
+          "alpha": "1/5"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "619/3690",
+          "pair_equality_probability": "619/3690",
+          "alpha": "1/15"
+        },
+        {
+          "k": 5,
+          "noisy_identity_probability": "1/6",
+          "pair_equality_probability": "1/6",
+          "alpha": "0"
+        },
+        {
+          "k": 6,
+          "noisy_identity_probability": "1/6",
+          "pair_equality_probability": "1/6",
+          "alpha": "0"
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "L": 8,
+      "r": 4,
+      "bridge_words": 2187,
+      "literal_enumeration": false,
+      "masks_checked": 16,
+      "projected_tuples": 81,
+      "beta": "1/3",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 5,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 6,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 7,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 8,
+          "noisy_identity_probability": "1/3"
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "L": 8,
+      "r": 4,
+      "bridge_words": 140160,
+      "literal_enumeration": false,
+      "masks_checked": 16,
+      "projected_tuples": 1296,
+      "beta": "15/146",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "15/146"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "43/438"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "5849/61320"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "25891/275940"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "32099/344925"
+        },
+        {
+          "k": 5,
+          "noisy_identity_probability": "25591/275940"
+        },
+        {
+          "k": 6,
+          "noisy_identity_probability": "7303/78840"
+        },
+        {
+          "k": 7,
+          "noisy_identity_probability": "5/54"
+        },
+        {
+          "k": 8,
+          "noisy_identity_probability": "5/54"
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "L": 12,
+      "r": 6,
+      "bridge_words": 177147,
+      "literal_enumeration": false,
+      "masks_checked": 64,
+      "projected_tuples": 729,
+      "beta": "1/3",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 5,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 6,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 7,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 8,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 9,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 10,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 11,
+          "noisy_identity_probability": "1/3"
+        },
+        {
+          "k": 12,
+          "noisy_identity_probability": "1/3"
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "L": 12,
+      "r": 6,
+      "bridge_words": 181401600,
+      "literal_enumeration": false,
+      "masks_checked": 64,
+      "projected_tuples": 46656,
+      "beta": "5043/59050",
+      "noise": [
+        {
+          "k": 0,
+          "noisy_identity_probability": "5043/59050"
+        },
+        {
+          "k": 1,
+          "noisy_identity_probability": "15047/177150"
+        },
+        {
+          "k": 2,
+          "noisy_identity_probability": "395953/4676760"
+        },
+        {
+          "k": 3,
+          "noisy_identity_probability": "131743/1558920"
+        },
+        {
+          "k": 4,
+          "noisy_identity_probability": "2665231/31568130"
+        },
+        {
+          "k": 5,
+          "noisy_identity_probability": "319679303/3788175600"
+        },
+        {
+          "k": 6,
+          "noisy_identity_probability": "1118651839/13258614600"
+        },
+        {
+          "k": 7,
+          "noisy_identity_probability": "5810729/68875920"
+        },
+        {
+          "k": 8,
+          "noisy_identity_probability": "4438637/52613550"
+        },
+        {
+          "k": 9,
+          "noisy_identity_probability": "4842113/57396600"
+        },
+        {
+          "k": 10,
+          "noisy_identity_probability": "10652627/126272520"
+        },
+        {
+          "k": 11,
+          "noisy_identity_probability": "41/486"
+        },
+        {
+          "k": 12,
+          "noisy_identity_probability": "41/486"
+        }
+      ]
+    }
+  ],
+  "survival": {
+    "N": 4,
+    "M": 6,
+    "L": 36,
+    "B": 1,
+    "k": 1,
+    "H": 2,
+    "distinct_quadruple_relators": 24,
+    "shifts": [
+      0,
+      1,
+      5,
+      6,
+      35
+    ],
+    "moves": "all adjacent positions, both directions",
+    "noise_positions": [
+      0,
+      17,
+      35
+    ],
+    "fresh_draws": "all six transpositions",
+    "cases": 6300,
+    "minimum_windows": 23
+  },
+  "constants_and_regressions": {
+    "c6_scaled_upper_at_N1000": "15114513/8000000",
+    "c12_scaled_lower_at_N1000": "970893/6400",
+    "beta6_upper": "23104/970893",
+    "schedules": [
+      {
+        "lambda_": 32,
+        "N": 1024,
+        "L": 6144,
+        "k": 32,
+        "B": 128,
+        "H": 735
+      },
+      {
+        "lambda_": 33,
+        "N": 1089,
+        "L": 6534,
+        "k": 33,
+        "B": 136,
+        "H": 783
+      },
+      {
+        "lambda_": 64,
+        "N": 4096,
+        "L": 24576,
+        "k": 64,
+        "B": 512,
+        "H": 3007
+      },
+      {
+        "lambda_": 1000,
+        "N": 1000000,
+        "L": 6000000,
+        "k": 1000,
+        "B": 125000,
+        "H": 748999
+      }
+    ],
+    "CP1": {
+      "joint": "21/2000",
+      "false_product": "1/100",
+      "second_posterior": "21/221",
+      "outcome": "reject false product bound"
+    },
+    "rejected_scope": {
+      "N": 3,
+      "L": 6,
+      "r": 6,
+      "k": 0,
+      "actual": "1",
+      "claimed_without_length_hypothesis": "1/3"
+    },
+    "boundaries": {
+      "N2": "all noisy words identical; checked in DP and channel cases",
+      "L0": "one empty bridge, k0 only; no six-window theorem",
+      "L2": "outside six-window theorem",
+      "oddL": "identity impossible by sign",
+      "kL": "full channel is constant iid; checked exactly",
+      "H_nonpositive": "no positive attack claim"
+    }
+  },
+  "elapsed_seconds": 0.6665690129157156
+}

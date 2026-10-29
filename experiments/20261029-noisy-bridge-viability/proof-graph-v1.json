@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "scope": "Exact internally reviewed claims; hypotheses are in each frozen statement, no general security node accepted",
+  "nodes": [
+    {
+      "id": "M0",
+      "dependencies": [],
+      "status": "FROZEN-DEFINITION",
+      "evidence": "experiments/20261029-noisy-bridge-viability/model-v1.md"
+    },
+    {
+      "id": "T0-D1",
+      "dependencies": [],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md"
+    },
+    {
+      "id": "T0-D2",
+      "dependencies": [
+        "M0",
+        "T0-D1"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md"
+    },
+    {
+      "id": "T0-D3",
+      "dependencies": [],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md"
+    },
+    {
+      "id": "T0-D4",
+      "dependencies": [
+        "T0-D3"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md"
+    },
+    {
+      "id": "T0-D5",
+      "dependencies": [
+        "M0"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md"
+    },
+    {
+      "id": "T0-D6-D7",
+      "dependencies": [
+        "T0-D2",
+        "T0-D4",
+        "T0-D5"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md"
+    },
+    {
+      "id": "IID-CHANNEL-CONDITIONING",
+      "dependencies": [
+        "M0"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md"
+    },
+    {
+      "id": "C1-LAW",
+      "dependencies": [
+        "M0"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md"
+    },
+    {
+      "id": "C1-ATTACK",
+      "dependencies": [
+        "C1-LAW",
+        "IID-CHANNEL-CONDITIONING"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md"
+    },
+    {
+      "id": "C2-LAW",
+      "dependencies": [
+        "M0"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md"
+    },
+    {
+      "id": "C2-COUNT",
+      "dependencies": [],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md"
+    },
+    {
+      "id": "C2-ATTACK",
+      "dependencies": [
+        "C2-LAW",
+        "C2-COUNT",
+        "IID-CHANNEL-CONDITIONING"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md"
+    },
+    {
+      "id": "LC1-v3",
+      "dependencies": [
+        "M0"
+      ],
+      "status": "ACCEPTED",
+      "evidence": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v3.md"
+    }
+  ],
+  "excluded_from_dependency_graph": [
+    "LC1-v1/v2 rejected wording",
+    "C2-BS3 provisional alternative",
+    "general hiding open question",
+    "historical irreducibility/mixing inputs"
+  ]
+}
