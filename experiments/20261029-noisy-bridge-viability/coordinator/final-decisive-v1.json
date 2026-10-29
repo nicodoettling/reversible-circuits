@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "python": "3.12.3",
+  "dependencies": "stdlib",
+  "randomness": "none; exact integer/rational enumeration",
+  "commit": "24649e0a2b4fa0d0ede444234bfedfc428453571",
+  "denominator_checks": [
+    {
+      "q": 2,
+      "s": 1,
+      "distinct_values": 2,
+      "max_value_denominator_bits": 3,
+      "mean_denominator_bits": 4,
+      "all_distinct_primes_retained": true,
+      "L": 3,
+      "k": 2,
+      "inverse_identity_passed": true,
+      "h_common_denominator_bits": 10,
+      "max_h_denominator_bits": 8
+    },
+    {
+      "q": 2,
+      "s": 2,
+      "distinct_values": 4,
+      "max_value_denominator_bits": 4,
+      "mean_denominator_bits": 13,
+      "all_distinct_primes_retained": true,
+      "L": 4,
+      "k": 2,
+      "inverse_identity_passed": true,
+      "h_common_denominator_bits": 22,
+      "max_h_denominator_bits": 20
+    },
+    {
+      "q": 2,
+      "s": 3,
+      "distinct_values": 8,
+      "max_value_denominator_bits": 6,
+      "mean_denominator_bits": 37,
+      "all_distinct_primes_retained": true,
+      "L": 5,
+      "k": 2,
+      "inverse_identity_passed": true,
+      "h_common_denominator_bits": 51,
+      "max_h_denominator_bits": 45
+    },
+    {
+      "q": 2,
+      "s": 4,
+      "distinct_values": 16,
+      "max_value_denominator_bits": 7,
+      "mean_denominator_bits": 90,
+      "all_distinct_primes_retained": true,
+      "L": 6,
+      "k": 2,
+      "inverse_identity_passed": true,
+      "h_common_denominator_bits": 104,
+      "max_h_denominator_bits": 101
+    },
+    {
+      "q": 2,
+      "s": 5,
+      "distinct_values": 32,
+      "max_value_denominator_bits": 8,
+      "mean_denominator_bits": 216,
+      "all_distinct_primes_retained": true
+    },
+    {
+      "q": 2,
+      "s": 6,
+      "distinct_values": 64,
+      "max_value_denominator_bits": 9,
+      "mean_denominator_bits": 497,
+      "all_distinct_primes_retained": true
+    }
+  ],
+  "independent_decisive_counts": [
+    {
+      "N": 4,
+      "L": 6,
+      "identity_words": 3936,
+      "distinct_disjoint_doubled_words": 0,
+      "reference_support_threshold": 4,
+      "reference_support_acceptance": "1"
+    },
+    {
+      "N": 6,
+      "L": 4,
+      "identity_words": 765,
+      "distinct_disjoint_doubled_words": 270,
+      "reference_support_threshold": 3,
+      "reference_support_acceptance": "11/17"
+    }
+  ],
+  "elapsed_seconds": 0.12285355105996132
+}

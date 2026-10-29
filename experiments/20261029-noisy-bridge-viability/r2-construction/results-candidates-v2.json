@@ -1,0 +1,120 @@
+{
+  "C2_schedule_checks": [
+    {
+      "bound_le_lambda_minus_lambda": true,
+      "h": 81,
+      "lambda": 64,
+      "log_exact_C2_bound": -618.7209808449115
+    },
+    {
+      "bound_le_lambda_minus_lambda": true,
+      "h": 151,
+      "lambda": 128,
+      "log_exact_C2_bound": -1770.5219785131512
+    },
+    {
+      "bound_le_lambda_minus_lambda": true,
+      "h": 289,
+      "lambda": 256,
+      "log_exact_C2_bound": -4489.95413672591
+    },
+    {
+      "bound_le_lambda_minus_lambda": true,
+      "h": 557,
+      "lambda": 512,
+      "log_exact_C2_bound": -10893.912682889902
+    },
+    {
+      "bound_le_lambda_minus_lambda": true,
+      "h": 1089,
+      "lambda": 1024,
+      "log_exact_C2_bound": -25266.72839341707
+    }
+  ],
+  "boundary_checks": [
+    "N2 singleton even words",
+    "empty word k0",
+    "odd length infeasible",
+    "k0 k1 kL samples"
+  ],
+  "cases": [
+    {
+      "C2_injections": 6,
+      "C2_injective": true,
+      "C2_k0_support_acceptance_reference": "1",
+      "C2_uniform_position_marginals": true,
+      "L": 4,
+      "N": 3,
+      "all_signed_move_checks": 162,
+      "disjoint_paired_count": null,
+      "global_count": 27,
+      "global_support_histogram": {
+        "2": 3,
+        "3": 24
+      }
+    },
+    {
+      "C2_injections": 24,
+      "C2_injective": true,
+      "C2_k0_support_acceptance_reference": "17/20",
+      "C2_uniform_position_marginals": true,
+      "L": 4,
+      "N": 4,
+      "all_signed_move_checks": 720,
+      "disjoint_paired_count": 18,
+      "global_count": 120,
+      "global_support_histogram": {
+        "2": 6,
+        "3": 96,
+        "4": 18
+      }
+    },
+    {
+      "C2_injections": 24,
+      "C2_injective": true,
+      "C2_k0_support_acceptance_reference": "1",
+      "C2_uniform_position_marginals": true,
+      "L": 6,
+      "N": 4,
+      "all_signed_move_checks": 39360,
+      "disjoint_paired_count": null,
+      "global_count": 3936,
+      "global_support_histogram": {
+        "2": 6,
+        "3": 960,
+        "4": 2970
+      }
+    },
+    {
+      "C2_injections": 120,
+      "C2_injective": true,
+      "C2_k0_support_acceptance_reference": "11/17",
+      "C2_uniform_position_marginals": true,
+      "L": 4,
+      "N": 6,
+      "all_signed_move_checks": 4590,
+      "disjoint_paired_count": 270,
+      "global_count": 765,
+      "global_support_histogram": {
+        "2": 15,
+        "3": 480,
+        "4": 270
+      }
+    }
+  ],
+  "command": "python3 -B experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v2.py --output experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json",
+  "commit": "24649e0a2b4fa0d0ede444234bfedfc428453571",
+  "dependencies": "stdlib only",
+  "elapsed_seconds": 0.57283616065979,
+  "implementation_sha256": "81d8beba9270aa81a4ffb6afa4a2bb950a563f67e0859519842974a4a5808740",
+  "python": "3.12.3",
+  "sample_claim": "Implementation checks only, not empirical security estimates",
+  "script_sha256": "db179cec8d065243a8acffc9675bec56da07cf312eaa6b07218ae124cc71ecf6",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "status": "passed",
+  "stochastic_regression_checks": 1740
+}

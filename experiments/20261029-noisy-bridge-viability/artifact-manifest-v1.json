@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-29T08:05:11.191344+00:00",
+  "scope": "complete finalized evidence plus handoff metadata; self and completion excluded to avoid cycles",
+  "files": [
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/artifact-validation-v1.json",
+      "bytes": 614,
+      "sha256": "a007796e111249189801e8942d16687af9d9f184eeb306dad239f5e12b1b7433"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/changed-files-v1.txt",
+      "bytes": 7130,
+      "sha256": "bbf5736f6886d74e28e93b1c02d3d60a126c572de728094fb47cc3554cd8622f"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/claim-ledger-v1.md",
+      "bytes": 4699,
+      "sha256": "51f4b04891f0aa623d67cf054d6500ce6c001c943be2f98ee2af4ab70d6ad01b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/bounded-smoke-v1.json",
+      "bytes": 865,
+      "sha256": "e2d262349fe28851f68bda0d886f8879207bc075da28ba2231ad244cceed486e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json",
+      "bytes": 2390,
+      "sha256": "fdb1c68b040c32427b73173753e3414291f4f823230d646c1acdab81ae59e87a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.py",
+      "bytes": 4563,
+      "sha256": "1b33ad99ba79c15adc1f6c3411ca1d819e2f3cafafdd0145635889b12565a586"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/job-registry.json",
+      "bytes": 5149,
+      "sha256": "ac444b7bb12bac4aa6b771c92447a2efc1f61d8357502e76f011868ba220ae92"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v1.md",
+      "bytes": 3581,
+      "sha256": "ecaa79af7f661f27df560e700ab308efb7ee0c6e703725f0ba566aba049df274"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v2.md",
+      "bytes": 4545,
+      "sha256": "5f2218e69ab89b67fc34ef0d736ed80f77bd8ca9efbca13b80cb7183af5249b5"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v3.md",
+      "bytes": 5998,
+      "sha256": "ca4e2ce94108182d111add869078a9db3507438d08281b0611617d8cac002ae1"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v1.md",
+      "bytes": 2277,
+      "sha256": "bd0a5d3bbd88abd8c07fd32af9e16d51794022c7f3ee7cd2fa6ece569180ed6c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v2.md",
+      "bytes": 2673,
+      "sha256": "d6221e67e61f96fcd9f83b9937cbf0fbf0acc517eb1c73db35af010bf2d24d42"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v3.md",
+      "bytes": 3154,
+      "sha256": "439f7744357ca1e78a582b427143cedbc33f8f2058cad209038c5aae9708c7ca"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/regressions-report-v1.md",
+      "bytes": 1674,
+      "sha256": "0b1946754eb44a2d00c13caf49db5341057a5ca02e0959d85a6cbdc29f8f52ef"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.json",
+      "bytes": 24895,
+      "sha256": "92ed9ec146f4b7352b32ccdbb6d8b5b838b8b859353777255d578abaf6169fe4"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.py",
+      "bytes": 6063,
+      "sha256": "037a43b42fbfefbb8f31049d571a1959eb16f9c07c0955338fbb8226aad9dc1a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/model-v1.md",
+      "bytes": 2975,
+      "sha256": "5ae652793061de15cea357872b2037b6e3786ccb9432d49658e1ccc4188faf61"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/plan.md",
+      "bytes": 2374,
+      "sha256": "b9f57bf0e02ef71b856c8b4251f9e30821a72f07fab7345714547225753acd0a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/proof-graph-v1.json",
+      "bytes": 3320,
+      "sha256": "6652eb38311884f467a5fde6c32e858c0fd13865ced104ef90394255030e32ec"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/TASK.md",
+      "bytes": 1869,
+      "sha256": "32766aa95a27fd3d5884f4b4bda9ef111a45be99ff9d2d73de28154dff48ef89"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/check-T0-v1.py",
+      "bytes": 11865,
+      "sha256": "99e21554ece37b4824964bd6720a820e6d8cbd6cdf77cefcf7b3bde973a3df1c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/checkpoint-final-v1.md",
+      "bytes": 1064,
+      "sha256": "546ae89dcf24f472b7b9199bd6e8e52fe38049feca26e31f1ad0ad049f576de7"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/checkpoint-v1.md",
+      "bytes": 1362,
+      "sha256": "63fc6849b1a174231d24b7056b5295af6082f8013dc32a581734382809a03f9c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/claim-ledger-v1.md",
+      "bytes": 3057,
+      "sha256": "4baea983cf9c0edcfbb5830b2682b012d43752bd32f44bb06190bd54688aaf08"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-correction-recheck-v1.md",
+      "bytes": 2300,
+      "sha256": "d6ee9555bd365cb8c940349d2955a088330840751d8cd76abaecf1b46626140f"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-inputs-v1.json",
+      "bytes": 4042,
+      "sha256": "10a4af39283f9a9a8e9f7690e6c0c646700edf19032fa886811d813faef5f5ca"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-v1.md",
+      "bytes": 5226,
+      "sha256": "ede908c8c955852a9cefe4c9c4793322f86c41a7eb94d7f4596749069a2fbbe0"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/finish-addendum-v1.json",
+      "bytes": 478,
+      "sha256": "13daf388f4fe3836ec3d69242e6311aa18e83f1f434e2b8cf118ad777e49db9b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/plan.md",
+      "bytes": 1656,
+      "sha256": "b3663b9fdd80f02b33718dd7eb65581159d4937690c2adba54df34a773a17c5e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md",
+      "bytes": 16206,
+      "sha256": "447ad895ad2eede2a5d428d657c79a6bc319f21b960663a9a22d3d948b242ed7"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/regression-registry-v1.md",
+      "bytes": 3243,
+      "sha256": "62f60c9080d41b58a4a41a6eed188bce80a7218b3b662f7b78512f2eda83218f"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/report.md",
+      "bytes": 10604,
+      "sha256": "997a65df27faa836e0f1864c678f3757e116d0a82705ff340b5fdbed817b4cde"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json",
+      "bytes": 13512,
+      "sha256": "7354c9d9c0f96997b61ec468f8a545f7f057425f6044031914d7ed3002cd015e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-inputs-v1.json",
+      "bytes": 1476,
+      "sha256": "3e2d2cc0627ac38e58e3d029c29a4101b6e32fdfedcdca45ab9e0e200a0d7cfc"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md",
+      "bytes": 9459,
+      "sha256": "a9d80f33e36ca8b1b16fd933ea47b674a6d779ba495f425857acf72f65e21fee"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/role-finish-v1.json",
+      "bytes": 592,
+      "sha256": "8301255eba0a281c01c40ec9f639f6de7dfb96d18ca1c79c8de35127c8517498"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md",
+      "bytes": 3649,
+      "sha256": "6ce9be16da02a1e1ce85fe464035f2e8b3f985188fc9f585276eb357fdb5927b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/FINISH-v1.json",
+      "bytes": 1006,
+      "sha256": "1930e3e148af9ffefe146de39a17dba324159ca35cab073c06d0dafd37f1bb86"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/FINISH-v2.json",
+      "bytes": 1082,
+      "sha256": "3c95b5d2174ad0745a606f534ae441d23e0a9622f65d937b56422d1f6b92c78d"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/LC1-v2-review-inputs-v1.json",
+      "bytes": 719,
+      "sha256": "5cba7d88be0fa3a1bf743292279f2aa67de716e79ebca9430731c977598d0d54"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/LC1-v3-review-inputs-v1.json",
+      "bytes": 938,
+      "sha256": "8e406a8598cd38787f6a257f181144631e7dc80a2175a4d62453a912ed5c8448"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/T0-review-inputs-v1.json",
+      "bytes": 659,
+      "sha256": "80d7c35f55acc2a156b8d07c4dd588e3c3257084771d15e090773ef9ae3f92d2"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/TASK.md",
+      "bytes": 859,
+      "sha256": "e30f99351a151ef32f60593f7d7f0aad7f6e82a64fc8d5d6d1b3d28aa4a7fd02"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
+      "bytes": 3573,
+      "sha256": "62fe7255f50df888075d7159bf4b6c8d3e04f6d0768d796385d64b86856541ce"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-runtime-erratum-v1.md",
+      "bytes": 554,
+      "sha256": "c86627c091dc2951810bd00e9250454dd82e0a37322ce181243ff748f45bd40f"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md",
+      "bytes": 3469,
+      "sha256": "e0462d7037134a0cc7c7a8b247fdb35ef3b8dbc5520ec696c2dbf7088549bd38"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
+      "bytes": 4453,
+      "sha256": "5cf75a0cd9f44d7038b3b95c27d4c9a82b4e51b7fb0a919d4e5a7e57b09b9761"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md",
+      "bytes": 4017,
+      "sha256": "19ce92bc66dcad62cd136bef72a2cb0a2897eebe75e54449dc2da5f07d5257c9"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidates_v1.py",
+      "bytes": 2934,
+      "sha256": "81d8beba9270aa81a4ffb6afa4a2bb950a563f67e0859519842974a4a5808740"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v1.py",
+      "bytes": 5804,
+      "sha256": "87aa8cbb945a7760d376da91ece0131d558f11051c5829dbf257ee94c321c382"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v2.py",
+      "bytes": 5804,
+      "sha256": "db179cec8d065243a8acffc9675bec56da07cf312eaa6b07218ae124cc71ecf6"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/checker-v1-rejection.md",
+      "bytes": 534,
+      "sha256": "618147ad38bbd7305b0262471eccdefc34c553045d475f2b600c68803e916636"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/checkpoint-0727.md",
+      "bytes": 2070,
+      "sha256": "69c843dc4eb7df34af7ba331fa3ffa85e30908af3a7aaae3cb230b88cd64c20b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/claim-ledger-v1.json",
+      "bytes": 4020,
+      "sha256": "b528d2c0a70b329a3a5a77f02e4b6d610a010d353aaaa5181df867c37db3dc34"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/implementation-scope-v1.md",
+      "bytes": 2046,
+      "sha256": "40d8c3c1eee5413be39e5299111c3f93d87edddbdb2c13470ceb4e0a05c4b831"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/post-report-review-addendum-v1.md",
+      "bytes": 788,
+      "sha256": "627a3d251c0fee79e379f587c45f471742bede4bc8c721b2068f6aaa89db45ba"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/report-v1.md",
+      "bytes": 10700,
+      "sha256": "e19e302925b901216b50e00ac528ab9dac6f83e49fe5d5ca3d70007d3dd39a60"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json",
+      "bytes": 3144,
+      "sha256": "f36fb50dc2367cdff1f6d788d991e7277b17ad87ecd27b223c6de08b98b12cd5"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v2-v1.md",
+      "bytes": 6149,
+      "sha256": "a27a76ec4576054a5dbfd44cbf31e947db172a916c4586272eb9c5b105faf47d"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v3-v1.md",
+      "bytes": 6288,
+      "sha256": "75185561e0244c04de422815bd06c15fcf4aa7b493f12436e1096db7ecb0b08c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/review-T0-v1.md",
+      "bytes": 7317,
+      "sha256": "23c7391e81ac53a0efaa04ff06e0b7b2dc5a6055d8702a1bd0e64e4716151f74"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/RECOVERY-final.md",
+      "bytes": 1257,
+      "sha256": "2c9c0172bc97a4366cc900c8a27261195627e2aa5bcb905963ecea03520868fd"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/RECOVERY.md",
+      "bytes": 744,
+      "sha256": "2309c7e8a614dde98a1466832b2d403c988d2157e04bab7b98706f05254259f1"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/artifact-sha256-v1.txt",
+      "bytes": 2430,
+      "sha256": "1ef7d338195446375adec8ec4d78720098552e4dbef940e2c8e1b168c091705e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-report-v1.md",
+      "bytes": 10374,
+      "sha256": "f3847a2d2c49dabb3569f9fa3c18363d05ca27fdd2da433b475bef3b28e52296"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v1.md",
+      "bytes": 7697,
+      "sha256": "a5e21c7ab0ba0253073f6d0474bc7ea77e95dc17f095fab90c5975fff444035a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v2-T0.md",
+      "bytes": 7231,
+      "sha256": "17b49784bc635e87700758331efae8d2e22e05852509ee701c4f41ded7ec143d"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v3-C2.md",
+      "bytes": 4957,
+      "sha256": "5a7c5d354e8459d040c5f2126d202c9d75b10436f80d0282692884de182f2e33"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact-c1-results-v1.json",
+      "bytes": 112890,
+      "sha256": "c9a6210d7a92e78a7fe9e99c41d390e9c81834ad5628a3795b3c12bf4582c23c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact_c1.py",
+      "bytes": 10400,
+      "sha256": "888e9d055381e4083ad24aac7e8240bb928a923eb56dcfdaa6f2453b6c098c8e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/git-status-final.txt",
+      "bytes": 4735,
+      "sha256": "74176620a7f11590fb6d5e6c6ab0c17a36e2cd839b8839e5d97cb55cdf972f7c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/halfway-checkpoint.md",
+      "bytes": 1613,
+      "sha256": "87177fbff19f5417f45f98377c6a83bc85105aaa9f7a067889def115bfbf4052"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/plan.md",
+      "bytes": 2751,
+      "sha256": "1766b6714563a7300de9e66fae2390a26264a506658939866cd02d79c71dd54e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/report-erratum-v1.md",
+      "bytes": 643,
+      "sha256": "737feb9765c13b0ee6e18a8cc100c29b9d1ba3ad89413081be2cc33112369d08"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/report-v1.md",
+      "bytes": 11457,
+      "sha256": "a26c9e41954ebf90d6286b168ad5ff31d2a0ba7b3a66ebb15b4a6f9052427c2e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/report.md",
+      "bytes": 871,
+      "sha256": "cd754bc8bcdf154cf5aa466b412794796b48a3244aec1e4d6d6cd414df5aca11"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v1-v2.md",
+      "bytes": 7114,
+      "sha256": "18968607f47b13eb05835881c461732b2320400f425cfc8d54d7473857dce142"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v3.md",
+      "bytes": 3753,
+      "sha256": "780df9f5ecb86d2be295e843fd3c9f0690f6dee037071e20e25b3a10dc53d0e8"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-T0-v1.md",
+      "bytes": 7771,
+      "sha256": "f12595c27c75f68c68d37b45db39cab52639634aa9896435c22d4d69a2af035a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/role-finish-v1.json",
+      "bytes": 1458,
+      "sha256": "3e60adf8925ff321fe88dbbc4c6ad14a3d09eedda02708fd37faa1d12902c80b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/task-received.md",
+      "bytes": 2707,
+      "sha256": "f6a5447674b040eb68de6d7abfa15bc8a215d66f817291a0fd4a2cf1e24edee4"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reconciliation-v1.md",
+      "bytes": 6228,
+      "sha256": "18e06c0e1515a6e298887d0209bc36a42684d4a32a1102bbee406e1c11c8b17e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/regression-registry-v1.md",
+      "bytes": 5908,
+      "sha256": "eedd30b4268af2269d899728ea2cee6064c09df16d5b29e523c9f96bbbbca964"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/report.md",
+      "bytes": 17023,
+      "sha256": "f8e566d4428fb63f2f9da482ab2e6f8c56997551f412556de9bd26281de3d628"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/LC1-v1-arithmetic-repair.md",
+      "bytes": 905,
+      "sha256": "ca2efe066839f96d77e4e2bef2536e43a58b589c0f833cfe76c178c7773570e2"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/LC1-v2-efficiency-repair.md",
+      "bytes": 919,
+      "sha256": "ba9b862c2fa75c5b0c4d1e0489268e089df3438dee0c06e11f5e630337ca95dc"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/coordinator-C1-review-v1.md",
+      "bytes": 4234,
+      "sha256": "bd79fe6ef5f56ca89b876b886d2b29e30c7f656bd48dd95e1196e2c91b4ee5db"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/delivery-input-ledger-v1.md",
+      "bytes": 4661,
+      "sha256": "ce9d09e6fc658196002640d85a18c44ed1646e916a582dcce45267e34032561d"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/delivery-input-report-v1.md",
+      "bytes": 17000,
+      "sha256": "3f5cdaac103d6ae07af4eb8394c377f43c0fef296198a47347ad490a90830ebf"
+    },
+    {
+      "path": "research-campaigns/noisy-bridge-20261029/RECOVERY.md",
+      "bytes": 4095,
+      "sha256": "0afb049772541f568d3b559b5f0368c259826eaa787d066b911915aedc7d449c"
+    },
+    {
+      "path": "research-campaigns/noisy-bridge-20261029/claims.json",
+      "bytes": 9176,
+      "sha256": "b94e8d3f9e390b909176101dd35459913b8c3137d6c51f011903a58d2f718147"
+    },
+    {
+      "path": "research-campaigns/noisy-bridge-20261029/tasks.json",
+      "bytes": 2652,
+      "sha256": "36e1c72c83520517b9644f8196af1335ffa163a88326934787306050900b490b"
+    }
+  ]
+}

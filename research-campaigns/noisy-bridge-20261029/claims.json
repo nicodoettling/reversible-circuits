@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:27:53.515963+00:00",
+  "updated_at": "2026-10-29T07:59:06.685491+00:00",
   "claim_status_policy": "No restart upgrades; proved status requires exact-version audit gates; internal same-model reviews are correlated.",
   "claims": [
     {
@@ -12,9 +12,9 @@
     },
     {
       "id": "LC1-v1",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
-      "statement": "Exact inversion transfer of any fixed-s local bias through uniform-k-subset resampling for k<=L-s; advantage alpha_s delta/(2*3^s)",
+      "status": "refuted",
+      "audit_status": "REJECTED-WORDING",
+      "statement": "V1 arithmetic overhead clause omits growth from q^s unrelated rational denominators; the probability identity itself remains valid.",
       "evidence": [
         "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v1.md",
         "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v1.md"
@@ -24,24 +24,30 @@
         "exact hypergeometric avoidance"
       ],
       "review": "r3 received statement only; blind report pending; finite rational regression running",
-      "action": "retain provisional until full gates"
+      "action": "Probability identity retained; variable-s arithmetic claim repaired in v2; no downstream attack depends on this lemma."
     },
     {
       "id": "C1-v1",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
       "statement": "Six-distinct-edge identity blocks with bounded Hurwitz scrambling; fixed complete sampler specification, no security assertion",
       "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md",
       "dependencies": [
         "M0"
       ],
-      "review": "algorithm-only sent to blind r3",
-      "action": "audit identity and matched noisy-word attacks"
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-runtime-erratum-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/implementation-scope-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json",
+        "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact-c1-results-v1.json"
+      ],
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion"
     },
     {
       "id": "T0",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
       "statement": "General finite six-window attack and N>=1000 advantage>=.7",
       "evidence": "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md",
       "dependencies": [
@@ -49,12 +55,20 @@
         "even return moments",
         "literal six-step return count"
       ],
-      "action": "exact-version review and finite checks pending"
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion",
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/review-T0-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-T0-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json",
+        "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json"
+      ]
     },
     {
       "id": "C1-ATTACK-v1",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
       "statement": "Deterministic surviving aligned windows and bridge-conditioning reference bound",
       "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
       "dependencies": [
@@ -63,23 +77,35 @@
         "iid channel invariance",
         "even return lower bound"
       ],
-      "action": "exact-version review and finite checks pending"
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion",
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/reviews/coordinator-C1-review-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md"
+      ]
     },
     {
       "id": "C2-v1",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
       "statement": "Frozen second construction: path/star relation, planted support, arbitrary s signed Hurwitz moves",
       "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md",
       "dependencies": [
         "M0"
       ],
-      "action": "exact-version review and finite checks pending"
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion",
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/implementation-scope-v1.md"
+      ]
     },
     {
       "id": "C2-ATTACK-v1",
-      "status": "unresolved",
-      "audit_status": "PROVISIONAL",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
       "statement": "Support threshold and explicit disjoint-double-edge global bridge count bound",
       "evidence": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
       "dependencies": [
@@ -88,7 +114,75 @@
         "iid channel invariance",
         "literal disjoint-pair counting"
       ],
-      "action": "exact-version review and finite checks pending"
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion",
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
+        "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json"
+      ]
+    },
+    {
+      "id": "LC1-v2",
+      "status": "refuted",
+      "audit_status": "REJECTED-EFFICIENCY-WORDING",
+      "statement": "V2 efficient-corollary wording omits explicit public evaluator and polynomial value-bit assumptions; finite identity and operand bound remain valid.",
+      "evidence": [
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v2.md",
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v2.md"
+      ],
+      "dependencies": [
+        "M0",
+        "exact coordinate projections",
+        "common-denominator bit accounting"
+      ],
+      "action": "Finite identity and operand bound valid; omitted public evaluator/bit-size assumptions added in v3."
+    },
+    {
+      "id": "LC1-v3",
+      "status": "proved",
+      "audit_status": "ACCEPTED",
+      "statement": "Exact local-observable transfer with explicit arithmetic bound and public efficient evaluator/bit-size assumptions",
+      "evidence": [
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v3.md",
+        "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v3.md"
+      ],
+      "dependencies": [
+        "M0",
+        "exact coordinate projections",
+        "common-denominator arithmetic",
+        "public f evaluator and polynomial value descriptions for efficient corollary"
+      ],
+      "action": "Closed scoped proof; retain exclusions and all rejected predecessor clauses.",
+      "acceptance_scope": "Exact frozen statement, internal correlated review; no general security conclusion",
+      "review": [
+        "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v3-v1.md",
+        "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v3.md",
+        "experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.json",
+        "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json"
+      ]
+    },
+    {
+      "id": "G-GENERAL-HIDING",
+      "status": "unresolved",
+      "audit_status": "OPEN",
+      "statement": "Existence/security of a different structured identity-word sampler hidden by sparse M0 noise",
+      "dependencies": [],
+      "evidence": "experiments/20261029-noisy-bridge-viability/report.md",
+      "action": "No claim of general impossibility, hardness, or secure construction; not completed by this scoped study."
+    },
+    {
+      "id": "C2-BS3-ALTERNATIVE",
+      "status": "unresolved",
+      "audit_status": "PROVISIONAL",
+      "statement": "Separate authored onset81 bound 1-2(18/lambda)^lambda",
+      "evidence": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v3-C2.md",
+      "dependencies": [
+        "M0",
+        "C2-v1"
+      ],
+      "action": "Retained, not promoted and not load-bearing."
     }
-  ]
+  ],
+  "review_scope": "Internal same-model proof audit only; operator acceptance and general hiding remain separate."
 }

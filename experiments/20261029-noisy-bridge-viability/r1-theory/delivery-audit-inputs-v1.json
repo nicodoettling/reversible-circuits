@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/r1_theory",
+  "task": "Final author-distinct delivery audit; no new experiment or proof changes",
+  "captured_at_utc": "2026-10-29T07:55:55.875019+00:00",
+  "inputs": [
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/report.md",
+      "sha256": "f8e566d4428fb63f2f9da482ab2e6f8c56997551f412556de9bd26281de3d628"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/claim-ledger-v1.md",
+      "sha256": "51f4b04891f0aa623d67cf054d6500ce6c001c943be2f98ee2af4ab70d6ad01b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md",
+      "sha256": "6ce9be16da02a1e1ce85fe464035f2e8b3f985188fc9f585276eb357fdb5927b"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md",
+      "sha256": "447ad895ad2eede2a5d428d657c79a6bc319f21b960663a9a22d3d948b242ed7"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json",
+      "sha256": "7354c9d9c0f96997b61ec468f8a545f7f057425f6044031914d7ed3002cd015e"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md",
+      "sha256": "a9d80f33e36ca8b1b16fd933ea47b674a6d779ba495f425857acf72f65e21fee"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md",
+      "sha256": "e0462d7037134a0cc7c7a8b247fdb35ef3b8dbc5520ec696c2dbf7088549bd38"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md",
+      "sha256": "62fe7255f50df888075d7159bf4b6c8d3e04f6d0768d796385d64b86856541ce"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-runtime-erratum-v1.md",
+      "sha256": "c86627c091dc2951810bd00e9250454dd82e0a37322ce181243ff748f45bd40f"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md",
+      "sha256": "19ce92bc66dcad62cd136bef72a2cb0a2897eebe75e54449dc2da5f07d5257c9"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md",
+      "sha256": "5cf75a0cd9f44d7038b3b95c27d4c9a82b4e51b7fb0a919d4e5a7e57b09b9761"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/review-T0-v1.md",
+      "sha256": "23c7391e81ac53a0efaa04ff06e0b7b2dc5a6055d8702a1bd0e64e4716151f74"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v3-v1.md",
+      "sha256": "75185561e0244c04de422815bd06c15fcf4aa7b493f12436e1096db7ecb0b08c"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/reviews/coordinator-C1-review-v1.md",
+      "sha256": "bd79fe6ef5f56ca89b876b886d2b29e30c7f656bd48dd95e1196e2c91b4ee5db"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v3.md",
+      "sha256": "439f7744357ca1e78a582b427143cedbc33f8f2058cad209038c5aae9708c7ca"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json",
+      "sha256": "fdb1c68b040c32427b73173753e3414291f4f823230d646c1acdab81ae59e87a"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/coordinator/job-registry.json",
+      "sha256": "ac444b7bb12bac4aa6b771c92447a2efc1f61d8357502e76f011868ba220ae92"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v3-C2.md",
+      "sha256": "5a7c5d354e8459d040c5f2126d202c9d75b10436f80d0282692884de182f2e33"
+    },
+    {
+      "path": "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact-c1-results-v1.json",
+      "sha256": "c9a6210d7a92e78a7fe9e99c41d390e9c81834ad5628a3795b3c12bf4582c23c"
+    }
+  ],
+  "pending_documentary_fixes": [],
+  "scope": "Checked current report/ledger against frozen T0/C1/C2 and inspected LC1-v3 statement and fresh review; not a new LC1 proof audit. Same-model correlated review."
+}

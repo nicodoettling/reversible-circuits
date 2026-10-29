@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T07:12:02.847050+00:00",
+  "updated_at": "2026-10-29T08:05:11.191344+00:00",
   "attempt": "000001",
   "coordinator_session": "01a1867b-dd58-7152-8af7-fec525bb1371",
   "total_ceiling": 4,
@@ -9,42 +9,51 @@
       "role": "r1-theory",
       "owned_directory": "experiments/20261029-noisy-bridge-viability/r1-theory",
       "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
-      "status": "active",
-      "next": "Freeze beyond-pair finite theorem and complete proof; request bounded checks.",
+      "status": "complete",
+      "next": "No pending work; new research requires operator authorization.",
       "descendants": false,
       "model": "gpt-6-astra",
       "effort": "ultra",
-      "tier_policy": "inherit default; no override"
+      "tier_policy": "inherit default; no override",
+      "finished_authorship_at": "2026-10-29T07:37:21.362712+00:00",
+      "finish_receipt": "experiments/20261029-noisy-bridge-viability/r1-theory/role-finish-v1.json",
+      "final_followup_finished_at": "2026-10-29T07:55:55.875511+00:00",
+      "final_followup_receipt": "experiments/20261029-noisy-bridge-viability/r1-theory/finish-addendum-v1.json"
     },
     {
       "id": "/root/r2_construction",
       "role": "r2-construction",
       "owned_directory": "experiments/20261029-noisy-bridge-viability/r2-construction",
       "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
-      "status": "active",
-      "next": "Freeze first candidate algorithm; reject before choosing at most one second candidate.",
+      "status": "complete",
+      "next": "No pending work; new research requires operator authorization.",
       "descendants": false,
       "model": "gpt-6-astra",
       "effort": "ultra",
-      "tier_policy": "inherit default; no override"
+      "tier_policy": "inherit default; no override",
+      "finished_authorship_at": "2026-10-29T07:42:39.230347+00:00",
+      "finish_receipt": "experiments/20261029-noisy-bridge-viability/r2-construction/FINISH-v2.json"
     },
     {
       "id": "/root/r3_adversarial",
       "role": "r3-adversarial",
       "owned_directory": "experiments/20261029-noisy-bridge-viability/r3-adversarial",
       "started_at_recorded": "2026-10-29T07:12:02.847050+00:00",
-      "status": "active",
-      "next": "Publish blind M0 attack report, then blind candidate supplement before nonblind audit.",
+      "status": "complete",
+      "next": "No pending work; new research requires operator authorization.",
       "descendants": false,
       "model": "gpt-6-astra",
       "effort": "ultra",
-      "tier_policy": "inherit default; no override"
+      "tier_policy": "inherit default; no override",
+      "finished_authorship_at": "2026-10-29T07:46:15Z",
+      "finish_receipt": "experiments/20261029-noisy-bridge-viability/r3-adversarial/role-finish-v1.json"
     }
   ],
   "coordinator_next": [
-    "Audit exact reference conventions and literal-word distribution.",
-    "Coordinate one bounded mathematical job at a time.",
-    "Freeze exact claim versions and review inputs.",
-    "Checkpoint scoped stable paths by approximately 07:27 UTC."
-  ]
+    "Operator review of scoped COMPLETION.json is the next external step.",
+    "No automatic research continuation; general hiding question remains unresolved."
+  ],
+  "active_math_job": null,
+  "campaign_research_status": "bounded viability deliverable complete; general hiding remains unresolved",
+  "all_workers_observed_complete": true
 }
