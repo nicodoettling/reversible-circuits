@@ -1,0 +1,73 @@
+{"command": "python3 -B experiments/20261027-112519-logarithmic-correction-budget/check.py", "commit": "7640534e21b0cdf3cdf25d93201b74caa063cecb", "convention": "products rightmost first", "dependencies": "standard library", "kind": "manifest", "method": "deterministic exact arithmetic; no simulation", "python": "3.12.3", "script_sha256": "e35e05a1ff4870eb9e31baaba8a09e2c3319941fe5c90c9e867dbfe0394795c2", "seeds": null}
+{"Delta": "0", "N": 2, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 1, "k": 0, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "0", "N": 2, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 0, "k": 1, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 1, "k": 2, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 0, "k": 3, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 1, "k": 4, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 0, "k": 5, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 1, "k": 6, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 0, "k": 7, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "ball_size": 1, "identity_count": 1, "k": 8, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 2, "TV_exact": "0", "k": 1, "kind": "prefix_lift_bias", "m": 1, "nu_matching_mass": "1", "nu_matching_upper_bound": "1", "pi_matching_mass": "1"}
+{"Delta": "0", "N": 3, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 1, "k": 0, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "0", "N": 3, "TV_exact": "0", "alpha": "1", "ball_size": 3, "identity_count": 0, "k": 1, "kind": "permutation_DP", "min_positive_count": 1}
+{"N": 3, "ball_size": 3, "identity_count": 3, "k": 2, "kind": "permutation_DP", "min_positive_count": 3}
+{"N": 3, "ball_size": 3, "identity_count": 0, "k": 3, "kind": "permutation_DP", "min_positive_count": 9}
+{"N": 3, "ball_size": 3, "identity_count": 27, "k": 4, "kind": "permutation_DP", "min_positive_count": 27}
+{"N": 3, "ball_size": 3, "identity_count": 0, "k": 5, "kind": "permutation_DP", "min_positive_count": 81}
+{"N": 3, "ball_size": 3, "identity_count": 243, "k": 6, "kind": "permutation_DP", "min_positive_count": 243}
+{"N": 3, "ball_size": 3, "identity_count": 0, "k": 7, "kind": "permutation_DP", "min_positive_count": 729}
+{"N": 3, "ball_size": 3, "identity_count": 2187, "k": 8, "kind": "permutation_DP", "min_positive_count": 2187}
+{"N": 3, "TV_exact": "0", "k": 1, "kind": "prefix_lift_bias", "m": 1, "nu_matching_mass": "1", "nu_matching_upper_bound": "1", "pi_matching_mass": "1"}
+{"Delta": "0", "N": 4, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 1, "k": 0, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "0", "N": 4, "TV_exact": "0", "alpha": "1", "ball_size": 6, "identity_count": 0, "k": 1, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "7/18", "N": 4, "TV_exact": "1/12", "alpha": "2/3", "ball_size": 12, "identity_count": 6, "k": 2, "kind": "permutation_DP", "min_positive_count": 2}
+{"N": 4, "ball_size": 12, "identity_count": 0, "k": 3, "kind": "permutation_DP", "min_positive_count": 16}
+{"N": 4, "ball_size": 12, "identity_count": 120, "k": 4, "kind": "permutation_DP", "min_positive_count": 104}
+{"N": 4, "ball_size": 12, "identity_count": 0, "k": 5, "kind": "permutation_DP", "min_positive_count": 640}
+{"N": 4, "ball_size": 12, "identity_count": 3936, "k": 6, "kind": "permutation_DP", "min_positive_count": 3872}
+{"N": 4, "ball_size": 12, "identity_count": 0, "k": 7, "kind": "permutation_DP", "min_positive_count": 23296}
+{"N": 4, "ball_size": 12, "identity_count": 140160, "k": 8, "kind": "permutation_DP", "min_positive_count": 139904}
+{"N": 4, "TV_exact": "0", "k": 1, "kind": "prefix_lift_bias", "m": 1, "nu_matching_mass": "1", "nu_matching_upper_bound": "1", "pi_matching_mass": "1"}
+{"N": 4, "TV_exact": "2/15", "k": 2, "kind": "prefix_lift_bias", "m": 2, "nu_matching_mass": "1/10", "nu_matching_upper_bound": "2/3", "pi_matching_mass": "1/6"}
+{"N": 4, "TV_exact": "100/1107", "bound_exact": "19/45", "epsilon": "1/14", "k": 2, "kind": "conditional_transfer", "m": 4}
+{"N": 4, "TV_exact": "7462/88695", "bound_exact": "127/369", "epsilon": "1/122", "k": 2, "kind": "conditional_transfer", "m": 6}
+{"Delta": "0", "N": 5, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 1, "k": 0, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "0", "N": 5, "TV_exact": "0", "alpha": "1", "ball_size": 10, "identity_count": 0, "k": 1, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "3/10", "N": 5, "TV_exact": "7/60", "alpha": "18/25", "ball_size": 36, "identity_count": 10, "k": 2, "kind": "permutation_DP", "min_positive_count": 2}
+{"N": 5, "ball_size": 60, "identity_count": 0, "k": 3, "kind": "permutation_DP", "min_positive_count": 9}
+{"N": 5, "ball_size": 60, "identity_count": 340, "k": 4, "kind": "permutation_DP", "min_positive_count": 125}
+{"N": 5, "ball_size": 60, "identity_count": 0, "k": 5, "kind": "permutation_DP", "min_positive_count": 1461}
+{"N": 5, "ball_size": 60, "identity_count": 20860, "k": 6, "kind": "permutation_DP", "min_positive_count": 15625}
+{"N": 5, "ball_size": 60, "identity_count": 0, "k": 7, "kind": "permutation_DP", "min_positive_count": 161469}
+{"N": 5, "ball_size": 60, "identity_count": 1770940, "k": 8, "kind": "permutation_DP", "min_positive_count": 1640625}
+{"N": 5, "TV_exact": "0", "k": 1, "kind": "prefix_lift_bias", "m": 1, "nu_matching_mass": "1", "nu_matching_upper_bound": "1", "pi_matching_mass": "1"}
+{"N": 5, "TV_exact": "33/170", "k": 2, "kind": "prefix_lift_bias", "m": 2, "nu_matching_mass": "3/17", "nu_matching_upper_bound": "2/3", "pi_matching_mass": "3/10"}
+{"Delta": "0", "N": 6, "TV_exact": "0", "alpha": "1", "ball_size": 1, "identity_count": 1, "k": 0, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "0", "N": 6, "TV_exact": "0", "alpha": "1", "ball_size": 15, "identity_count": 0, "k": 1, "kind": "permutation_DP", "min_positive_count": 1}
+{"Delta": "11/45", "N": 6, "TV_exact": "53/430", "alpha": "172/225", "ball_size": 86, "identity_count": 15, "k": 2, "kind": "permutation_DP", "min_positive_count": 2}
+{"Delta": "11/15", "N": 6, "TV_exact": "259/1200", "alpha": "32/75", "ball_size": 240, "identity_count": 0, "k": 3, "kind": "permutation_DP", "min_positive_count": 6}
+{"N": 6, "ball_size": 360, "identity_count": 765, "k": 4, "kind": "permutation_DP", "min_positive_count": 54}
+{"N": 6, "ball_size": 360, "identity_count": 0, "k": 5, "kind": "permutation_DP", "min_positive_count": 1296}
+{"N": 6, "ball_size": 360, "identity_count": 72315, "k": 6, "kind": "permutation_DP", "min_positive_count": 24300}
+{"N": 6, "ball_size": 360, "identity_count": 0, "k": 7, "kind": "permutation_DP", "min_positive_count": 408240}
+{"N": 6, "ball_size": 360, "identity_count": 10198665, "k": 8, "kind": "permutation_DP", "min_positive_count": 6521634}
+{"N": 6, "TV_exact": "0", "k": 1, "kind": "prefix_lift_bias", "m": 1, "nu_matching_mass": "1", "nu_matching_upper_bound": "1", "pi_matching_mass": "1"}
+{"N": 6, "TV_exact": "58/255", "k": 2, "kind": "prefix_lift_bias", "m": 2, "nu_matching_mass": "4/17", "nu_matching_upper_bound": "2/3", "pi_matching_mass": "2/5"}
+{"N": 6, "TV_exact": "37706/120525", "k": 3, "kind": "prefix_lift_bias", "m": 3, "nu_matching_mass": "12/1607", "nu_matching_upper_bound": "2/5", "pi_matching_mass": "2/75"}
+{"N": 6, "TV_exact": "2036/14463", "bound_exact": "130157/172125", "epsilon": "521/1009", "k": 2, "kind": "conditional_transfer", "m": 4}
+{"N": 6, "TV_exact": "2447473154/18639760065", "bound_exact": "9497171/16270875", "epsilon": "32933/111697", "k": 2, "kind": "conditional_transfer", "m": 6}
+{"N": 16, "W1": 1.0763888888888888, "W1_exact": "155/144", "conditional_TVs": {"0": "0", "1": "0", "2": "0", "4": "23/24"}, "family": "interior_boundary", "k": 4, "kind": "hamming_witness", "m": 6, "representative_coordinate_classes_checked": 4}
+{"N": 16, "W1": 1.01, "W1_exact": "101/100", "conditional_TVs": {"0": "0", "1": "0", "4": "1/5"}, "family": "both_boundary", "k": 4, "kind": "hamming_witness", "m": 10, "representative_coordinate_classes_checked": 3}
+{"N": 32, "W1": 1.0398185483870968, "W1_exact": "2063/1984", "conditional_TVs": {"0": "0", "1": "0", "10": "485/496", "2": "0"}, "family": "interior_boundary", "k": 10, "kind": "hamming_witness", "m": 12, "representative_coordinate_classes_checked": 4}
+{"N": 32, "W1": 1.0020661157024793, "W1_exact": "485/484", "conditional_TVs": {"0": "0", "1": "0", "10": "1/11"}, "family": "both_boundary", "k": 10, "kind": "hamming_witness", "m": 22, "representative_coordinate_classes_checked": 3}
+{"N": 64, "W1": 1.0352536848072562, "W1_exact": "29219/28224", "conditional_TVs": {"0": "0", "1": "0", "12": "2003/2016", "2": "0"}, "family": "interior_boundary", "k": 12, "kind": "hamming_witness", "m": 14, "representative_coordinate_classes_checked": 4}
+{"N": 64, "W1": 1.0014792899408285, "W1_exact": "677/676", "conditional_TVs": {"0": "0", "1": "0", "12": "1/13"}, "family": "both_boundary", "k": 12, "kind": "hamming_witness", "m": 26, "representative_coordinate_classes_checked": 3}
+{"Delta": 1.905241935483871, "N": 32, "TV_upper": 0.8827049269548918, "TV_upper_exact": "3107365576264542869846971/3520276687459042874884096", "alpha_exact": "412911111194500005037125/3520276687459042874884096", "k": 10, "kind": "log_budget_coefficient_DP"}
+{"Delta": 1.3859126984126984, "N": 64, "TV_upper": 0.7728010802616357, "TV_upper_exact": "95220506834356824629101096137989/123214769319576309140818036260864", "alpha_exact": "27994262485219484511716940122875/123214769319576309140818036260864", "k": 12, "kind": "log_budget_coefficient_DP"}
+{"Delta": 0.9516486220472441, "N": 128, "TV_upper": 0.6278341642324003, "TV_upper_exact": "1683785330122123987114348104192065440503100886811203/2681895038605848749679498292346709549719984462102528", "alpha_exact": "998109708483724762565150188154644109216883575291325/2681895038605848749679498292346709549719984462102528", "k": 14, "kind": "log_budget_coefficient_DP"}
+{"Delta": 0.6262254901960784, "N": 256, "TV_upper": 0.47255021659531615, "TV_upper_exact": "648496846240638176208886311317994230787191043176975103514021/1372334248226574596602879315942291743757112967168000000000000", "alpha_exact": "723837401985936420393993004624297512969921923991024896485979/1372334248226574596602879315942291743757112967168000000000000", "k": 16, "kind": "log_budget_coefficient_DP"}
+{"Delta": 0.24751675016291952, "N": 1024, "TV_upper": 0.22053244954245765, "TV_upper_exact": "28150217210663325162723479397386006553279061070927982930590720612992369131392728561903837316920957564249/127646599260412915974205645264644496711462148616727801940876949539007146666806933627781785975361711898624", "alpha_exact": "99496382049749590811482165867258490158183087545799819010286228926014777535414205065877948658440754334375/127646599260412915974205645264644496711462148616727801940876949539007146666806933627781785975361711898624", "k": 20, "kind": "log_budget_coefficient_DP"}
+{"Delta": 0.08985471993284494, "N": 4096, "TV_upper": 0.08609690337695595, "TV_upper_exact": "261163302445981558566118664405175802360051758051113727096658293204819923587794505627662268224586268590026480993825323812556608746634036092621964037/3033364641496299585069676690775524415926167634693044170343804503942342993553772522100167738804513608032297312035404147875590963200000000000000000000", "alpha_exact": "2772201339050318026503558026370348613566115876641930443247146210737523069965978016472505470579927339442270831041578824063034354453365963907378035963/3033364641496299585069676690775524415926167634693044170343804503942342993553772522100167738804513608032297312035404147875590963200000000000000000000", "k": 24, "kind": "log_budget_coefficient_DP"}
+{"Delta": 0.000991821762000196, "N": 1048576, "k": 40, "kind": "proved_bound_evaluation", "log2_multiplicity_ratio_lower_bound": 620.8409326585842, "prefix_lift_TV_lower_bound": 0.997024533284959}
+{"Delta": 3.83200434347168e-09, "N": 1099511627776, "k": 80, "kind": "proved_bound_evaluation", "log2_multiplicity_ratio_lower_bound": 2765.1731407683883, "prefix_lift_TV_lower_bound": 0.999999988503987}

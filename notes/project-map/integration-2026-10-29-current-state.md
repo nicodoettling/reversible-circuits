@@ -70,3 +70,20 @@ These checks validate evidence fingerprints, catalogue structure, links,
 discovery, rendering and maintenance behavior. They are not proof certification.
 The user explicitly authorized committing and pushing the full current state;
 that permission does not authorize a background restart or successor run.
+
+## Concurrent Remote Update
+
+The first push of the reconciled state13d1e43 was safely rejected because the
+remote advanced to37141a8 while checks were running. That history includes
+a43bdc9, the relaxed heat-bath comparison and logarithmic correction-budget
+investigations. The second merge retains their exact records, proofs, raw
+results, source hashes and historical integration receipts. This consolidation
+does not upgrade their provisional review scope or claim a general mixing bound.
+
+Only generated COVERAGE.md and inventory.json needed conflict resolution in
+that second merge; both were regenerated from the merged catalogue/filesystem.
+The new discovery consists of the twelve experiment files, while the shared
+experiment-workflow reference has the colleague's committed additions. The
+discovery receipt acknowledges those bytes, not a fresh mathematical audit.
+The existing local programme and campaign-runtime exclusions remain in place.
+All validation, freshness, rendering and23-test checks are rerun before push.

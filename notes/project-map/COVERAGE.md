@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The inherited October deltas retain their author-scoped provisional records and exact source hashes; this merge does not independently re-audit them. Historical campaign preparation from 2026-10-25 and later compatibility notes are preserved as dated operational records, not current launch authority. Foreground projection notes and the completed sparse-noise viability artifacts are inventoried with pending mathematical map integration; no new acceptance or all-length/global-security conclusion is inferred. No formalization branch was discovered. See integration-2026-10-29-current-state.md for merge scope and validation.
 
-Discovery baseline: 4217 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4229 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -238,6 +238,22 @@ No independent referee or numerical gap lower certificate. All-N connectivity is
 
 Records: [ALT-RELAXED-ENDPOINT](RESULTS.md#alt-relaxed-endpoint)
 
+## relaxed-heatbath-comparison: October 27 correction-gate heat-bath comparison
+
+6 discovered entries. all-length connectivity, polynomial comparison, S4 corollary and exact coupling obstruction provisionally registered. Depth: all six artifacts inspected; exact routes, conditional lifts and rational coupling rows executed; source vertex sweep checked.
+
+No independent referee, growing-N gap, logarithmic-budget gap comparison or claim of torpid mixing.
+
+Records: [ALT-RELAXED-HEATBATH](RESULTS.md#alt-relaxed-heatbath)
+
+## logarithmic-correction-budget: October 27 logarithmic correction-budget proof pass
+
+6 discovered entries. counting lemma, endpoint TV, prefix-lift bias and Hamming obstruction provisionally registered; general mixing unresolved. Depth: six author artifacts inspected; 73-record deterministic harness executed; elementary counts, conditional fibers and event-level bias reviewed by author.
+
+No independent referee, chain simulation or spectral inference. Conditional count-flatness transfer retains its unproved hypothesis.
+
+Records: [ALT-LOG-CORRECTION](RESULTS.md#alt-log-correction)
+
 ## Unresolved and Reconciled Discrepancies
 
 - **C-IRRED (documentarily reconciled):** AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
@@ -380,6 +396,18 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [relaxed-endpoint-audit-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
 - [relaxed-endpoint-claim-ledger-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
 - [relaxed-endpoint-report-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/report.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-heatbath-plan-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/plan.md): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [relaxed-heatbath-proof-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/proof.md): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [relaxed-heatbath-check-py](../../experiments/20261027-104714-relaxed-heatbath-comparison/check.py): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [relaxed-heatbath-results-jsonl](../../experiments/20261027-104714-relaxed-heatbath-comparison/results.jsonl): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [relaxed-heatbath-claim-ledger-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/claim_ledger.md): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [relaxed-heatbath-report-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/report.md): Whole author artifact inspected; exact integer/rational harness run, general algebra and path-label reconstruction checked. No independent referee or numerical extrapolation.
+- [log-correction-plan-md](../../experiments/20261027-112519-logarithmic-correction-budget/plan.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [log-correction-proof-md](../../experiments/20261027-112519-logarithmic-correction-budget/proof.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [log-correction-check-py](../../experiments/20261027-112519-logarithmic-correction-budget/check.py): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [log-correction-results-jsonl](../../experiments/20261027-112519-logarithmic-correction-budget/results.jsonl): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [log-correction-claim-ledger-md](../../experiments/20261027-112519-logarithmic-correction-budget/claim_ledger.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [log-correction-report-md](../../experiments/20261027-112519-logarithmic-correction-budget/report.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
 
 ## Branch Retrieval
 
