@@ -1,0 +1,80 @@
+{
+  "jobs": [
+    {
+      "id": "J000-smoke",
+      "status": "complete",
+      "owner": "coordinator",
+      "evidence": "bounded-smoke-v1.json",
+      "timeout_seconds": 15,
+      "memory_gib": 1
+    },
+    {
+      "id": "J001-regressions",
+      "owner": "coordinator",
+      "status": "complete",
+      "state_estimate": "largest source enumeration 6^6=46656 words; at most 3936 bridges; local channel at most 27 tuples; streamed replacement enumeration",
+      "memory_estimate": "<128 MiB expected; 1 GiB ceiling",
+      "timeout_seconds": 120,
+      "script": "coordinator/regressions-v1.py",
+      "output": "coordinator/regressions-v1.json",
+      "observed_exit": 0,
+      "elapsed_seconds": 3.349488112144172,
+      "exact_command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json --timeout 120 --memory-gib 1 -- python3 -B experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.py --output experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.json"
+    },
+    {
+      "id": "J002-candidates",
+      "owner": "r2-construction; coordinator executes",
+      "status": "complete",
+      "timeout_seconds": 120,
+      "memory_gib": 1,
+      "estimate": "at most 15^4=50625 enumerated words, 3936 retained bridges, <128 MiB; integer schedule comparisons compact",
+      "script": "r2-construction/check_candidates_v2.py",
+      "output": "r2-construction/results-candidates-v2.json",
+      "exact_command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json --timeout 120 --memory-gib 1 -- python3 -B experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v2.py --output experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json",
+      "observed_exit": 0,
+      "elapsed_seconds": 0.57283616065979
+    },
+    {
+      "id": "J003-theory",
+      "owner": "r1-theory; coordinator executes",
+      "status": "complete",
+      "timeout_seconds": 120,
+      "memory_gib": 1,
+      "estimate": "max group DP 5040 states; 6^6 projected tuples times 64 masks, <250MiB estimated; <30s anticipated",
+      "script": "r1-theory/check-T0-v1.py",
+      "output": "r1-theory/results-T0-v1.json",
+      "exact_command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json --timeout 120 --memory-gib 1 -- python3 -B experiments/20261029-noisy-bridge-viability/r1-theory/check-T0-v1.py --output experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json",
+      "observed_exit": 0,
+      "elapsed_seconds": 0.6665690129157156
+    },
+    {
+      "id": "J004-exact-word",
+      "owner": "r3-adversarial; coordinator executes",
+      "status": "complete",
+      "timeout_seconds": 120,
+      "memory_gib": 1,
+      "estimate": "46656 literal words; 4 source channels; <256MiB; integer coordinate-sum transform",
+      "script": "r3-adversarial/exact_c1.py",
+      "output": "r3-adversarial/exact-c1-results-v1.json",
+      "script_sha256": "888e9d055381e4083ad24aac7e8240bb928a923eb56dcfdaa6f2453b6c098c8e",
+      "exact_command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json --timeout 120 --memory-gib 1 -- python3 -B experiments/20261029-noisy-bridge-viability/r3-adversarial/exact_c1.py --output experiments/20261029-noisy-bridge-viability/r3-adversarial/exact-c1-results-v1.json",
+      "observed_exit": 0,
+      "elapsed_seconds": 4.57577752112411
+    },
+    {
+      "id": "J005-final-decisive",
+      "owner": "coordinator",
+      "status": "complete",
+      "timeout_seconds": 60,
+      "memory_gib": 1,
+      "estimate": "stream <=50625 words, <64MiB; rational tuple domain<=64",
+      "script": "coordinator/final-decisive-v1.py",
+      "output": "coordinator/final-decisive-v1.json",
+      "reason": "New targeted LC1-v2 denominator regression and required coordinator smallest decisive independent reruns",
+      "exact_command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.4.4/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/noisy-bridge-20261029/attempts/000001/run.json --timeout 60 --memory-gib 1 -- python3 -B experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.py --output experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json",
+      "observed_exit": 0,
+      "elapsed_seconds": 0.12285355105996132
+    }
+  ],
+  "active_math_job": null
+}

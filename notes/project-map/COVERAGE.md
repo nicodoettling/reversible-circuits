@@ -2,9 +2,9 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed.
+Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The inherited October deltas retain their author-scoped provisional records and exact source hashes; this merge does not independently re-audit them. Historical campaign preparation from 2026-10-25 and later compatibility notes are preserved as dated operational records, not current launch authority. Foreground projection notes and the completed sparse-noise viability artifacts are inventoried with pending mathematical map integration; no new acceptance or all-length/global-security conclusion is inferred. No formalization branch was discovered. See integration-2026-10-29-current-state.md for merge scope and validation.
 
-Discovery baseline: 4023 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4217 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -112,7 +112,7 @@ Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-cr
 
 ## operations: Operational instructions, environment and runner smoke
 
-36 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+40 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
 
@@ -120,11 +120,123 @@ Records: Pending; no mathematical record inferred.
 
 ## campaign: Resilient identity-bridge research campaign
 
-0 discovered entries. prepared programme; research not launched. Depth: planning documents and existing map evidence.
+14 discovered entries. historical campaign preparation retained; later scientific outputs await scoped map integration. Depth: planning documents and existing map evidence.
 
 Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.
 
 Records: Pending; no mathematical record inferred.
+
+## bridge-projections: October 28 bridge projection and gate-replacement derivations
+
+4 discovered entries. foreground derivations and exact finite checks preserved; full mathematical map integration pending. Depth: inventory and report scope only in this merge; no new proof audit.
+
+Global and connected laws differ. Projection and replacement endpoint results are not full-word pseudorandomness or an all-length sampler theorem. Foreground proofs have no new independent certification from this inventory.
+
+Records: Pending; no mathematical record inferred.
+
+## noisy-bridge-viability: October 29 sparse-noise bridge viability study
+
+90 discovered entries. completed scoped attack study preserved; full mathematical map integration pending. Depth: report and artifact inventory; no fresh proof review in this merge.
+
+The run rejects two specified construction families under matched replacement noise. Internal correlated reviews and exact diagnostics do not establish general impossibility, a secure construction, or sampling hardness. Frozen proofs and reviews remain authoritative.
+
+Records: Pending; no mathematical record inferred.
+
+## product-s3: October 13 product-of-triples mixing investigation
+
+6 discovered entries. new author-complete theorem registered provisionally. Depth: all proof, script, raw output, plan, report and ledger read in the author session.
+
+Self-review and deterministic checks only; separate generator model; no independent referee or upgrade of the all-transposition frontier.
+
+Records: [ALT-PRODUCT-S3](RESULTS.md#alt-product-s3)
+
+## cycle-walk: October 13 single-cycle factorization walk
+
+6 discovered entries. local gap unresolved; exact reduction and coded benchmark provisionally mapped. Depth: proof, plan, script, report and ledger read; exact raw outputs machine-checked and diagnostic summaries inspected.
+
+Minimal full-cycle endpoint, separate from identity sampling. No local mixing theorem or independent referee. Literature model checked, original connectivity proof not re-audited.
+
+Records: [HB-CYCLE-MINIMAL](RESULTS.md#hb-cycle-minimal)
+
+## tree-slides: October 14 labeled-tree slide comparison
+
+6 discovered entries. author-complete auxiliary graph theorem provisionally registered. Depth: proof, plan, script, raw output, report and ledger read; exact assertions run through N=6; primary dependency theorem statements and kernel checked.
+
+Same-author mathematical work; no independent certification. Removing circuit functionality and order changes the model; no upgrade of circuit mixing claims.
+
+Records: [AUX-TREE-SLIDES](RESULTS.md#aux-tree-slides)
+
+## nonlocal-graph-lift: October 14 graph-selected Hurwitz lifts and decoded tree macros
+
+8 discovered entries. author-complete connectivity/comparison and derived macro theorem provisionally mapped. Depth: all eight artifacts read; exact enumeration and full paths run; earlier codec/tree proofs inspected.
+
+No independent review. Two different kernels are declared; general pair-chain gap remains unresolved.
+
+Records: [HB-NONLOCAL-LIFT](RESULTS.md#hb-nonlocal-lift), [HB-TREE-MACRO](RESULTS.md#hb-tree-macro)
+
+## cycle-excess-one: October 14 nonminimal full-cycle proof attempt and separate tree refresh
+
+9 discovered entries. scoped author proofs and obstruction provisionally mapped; original growing-N pair gap unresolved. Depth: all nine artifacts read; both exhaustive scripts run; primary counting normalization inspected.
+
+Same-author work only. Separate kernels and parameter regimes remain explicit; no independent certification or local-gap upgrade.
+
+Records: [HB-CYCLE-EXCESS](RESULTS.md#hb-cycle-excess), [ALT-TREE-EXTRAS](RESULTS.md#alt-tree-extras)
+
+## adjacent-gap-proof: October 15 actual adjacent K_A gap attempt
+
+6 discovered entries. short-block theorem and constant-factor reduction provisionally registered; main N+1 target unresolved. Depth: all six artifacts read; exact script run; projection/certificate calculations inspected; targeted finite-size source boundary and supersession checked.
+
+No independent review or general polynomial gap. Complete small endpoint classification is distinct from empirical finite-spectrum extrapolation.
+
+Records: [HB-ADJACENT-LOCAL](RESULTS.md#hb-adjacent-local)
+
+## all-pair-interval-gap: October 15 arbitrary-position pair comparison and S3 Fourier proof
+
+6 discovered entries. actual S3 pair gap and improved all-N comparison provisionally mapped; growing-N gap unresolved. Depth: six artifacts inspected; exact script completed; symbolic interval and stationary-path arguments checked by author.
+
+No independent review or growing-N inverse-polynomial gap. Finite checks supplement symbolic completeness arguments.
+
+Records: [HB-ALLPAIR-INTERVAL](RESULTS.md#hb-allpair-interval)
+
+## support-marginal-audit: October 15 actual support marginal and cut-and-join transfer audit
+
+6 discovered entries. correct weighted limit, lumpability counterexamples and conditional observable criterion provisionally mapped; growing-N marginal rate unresolved. Depth: all six new artifacts inspected; exact six-fiber audit executed; primary split-merge definitions checked for model scope.
+
+No independent review, all-N positive graph gap or circuit bottleneck. Graph failure of exact closure does not refute rapid marginal mixing.
+
+Records: [HB-SUPPORT-MARGINAL](RESULTS.md#hb-support-marginal)
+
+## parallel-hurwitz-layers: October 15 parallel ternary Hurwitz matching layers
+
+6 discovered entries. scoped comparisons and benchmarks provisionally mapped; full-cycle gap unresolved. Depth: six artifacts inspected, exact checks completed, primary theorem hypotheses checked.
+
+No independent review; pure orbit and augmented global scopes distinguished.
+
+Records: [HB-PARALLEL-LAYERS](RESULTS.md#hb-parallel-layers)
+
+## local-endpoint-blindness: October 19 locally endpoint-blind initialization and prefix relaxation
+
+6 discovered entries. scoped results and explicit conditional comparison provisionally mapped; identity-to-endpoint implication unresolved. Depth: all six artifacts read; deterministic exact checks completed; CLR primary statement and archived M10/referee scope checked.
+
+No independent referee and no original-kernel polynomial-gap theorem. Long-overlap strategy was already archived.
+
+Records: [HB-ENDPOINT-BLINDNESS](RESULTS.md#hb-endpoint-blindness)
+
+## bridge-decorrelation-bootstrap: October 20 conditional tail decorrelation and complexity bootstrap
+
+6 discovered entries. conditional recursive implication and exact stronger-constant refutation provisionally mapped; universal static premise unresolved. Depth: six current artifacts inspected; 101-record exact/numerical harness completed; prior length-three proof and overlap input traced; DS primary named Plancherel passage checked.
+
+No independent referee and no finite-to-asymptotic inference. Numerical estimates are not upper bounds.
+
+Records: [HB-DECORRELATION-BOOTSTRAP](RESULTS.md#hb-decorrelation-bootstrap)
+
+## relaxed-endpoint-refresh: October 26 bounded endpoint-error single-gate refresh
+
+11 discovered entries. scoped proofs, exact connectivity checks and conditional sampler reduction provisionally registered; general relaxed mixing unresolved. Depth: all eleven artifacts inspected; labeled graphs, full ordered-word quotient, separate count DP, exact cut flux and two numerical probes run.
+
+No independent referee or numerical gap lower certificate. All-N connectivity is restricted to even lengths at most six. No result from the stopped length-eight generation.
+
+Records: [ALT-RELAXED-ENDPOINT](RESULTS.md#alt-relaxed-endpoint)
 
 ## Unresolved and Reconciled Discrepancies
 
@@ -189,6 +301,85 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [g01-synthesis-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md): Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.
 - [cut-statement](../../experiments/20260907-genus-one-sampler/roles/r2-structural/report.md): Complete report read; C1 construction, resource bound and restricted target traced.
 - [cut-audit](../../experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md): Verdict, version table and C1.1-C1.6 selected; not a fresh proof/parser review.
+- [product-s3-proof](../../experiments/20261013-product-s3-mixing/proof.md): All sections; exact theorem, normalization, projection, coupling, shuttle reconstruction and scope read and self-reviewed. No independent referee.
+- [product-s3-report](../../experiments/20261013-product-s3-mixing/report.md): Complete report; scoped keep verdict and explicit lack of independent review.
+- [product-s3-check](../../experiments/20261013-product-s3-mixing/check.py): Complete deterministic exact-check harness; run successfully in the author session.
+- [product-s3-results](../../experiments/20261013-product-s3-mixing/results.json): Complete exact results; count-flow identities, coupling marginals, diagnostics and shuttle records inspected.
+- [product-s3-ledger](../../experiments/20261013-product-s3-mixing/claim_ledger.md): Whole ledger; proved author claims remain provisionally accepted in the map.
+- [cycle-walk-proof](../../experiments/20261013-single-cycle-walk/proof.md): Complete argument self-reviewed: exact target and kernels, tree lemma, local comparison, codec inverse proof and explicitly unresolved transfer.
+- [cycle-walk-report](../../experiments/20261013-single-cycle-walk/report.md): Whole report; inconclusive verdict for K and separate keep verdict for the coded benchmark.
+- [cycle-walk-check](../../experiments/20261013-single-cycle-walk/check.py): Complete deterministic standard-library codec/kernel harness, run successfully.
+- [cycle-walk-results](../../experiments/20261013-single-cycle-walk/results.json): Machine-checked output parsed; per-case counts, comparison ratios and nonlocal witnesses inspected. Exact diagnostic tables generated by the checked script.
+- [cycle-walk-ledger](../../experiments/20261013-single-cycle-walk/claim_ledger.md): Whole ledger: structural proved claims, refuted transfers and unresolved local gap kept separate.
+- [tree-slides-proof](../../experiments/20261014-tree-slides/proof.md): Complete same-author proof and dependency translation, including all kernel normalizations and the directed congestion count.
+- [tree-slides-report](../../experiments/20261014-tree-slides/report.md): Complete report; keep for the auxiliary theorem and reject for the forgetting-as-projection identification.
+- [tree-slides-check](../../experiments/20261014-tree-slides/check.py): Complete standard-library exact checker, successfully run; all states, reference transitions and load counts through N=6.
+- [tree-slides-results](../../experiments/20261014-tree-slides/results.json): Complete compact output inspected, including state counts, exact loads and the nonlumpability witness.
+- [tree-slides-ledger](../../experiments/20261014-tree-slides/claim_ledger.md): Complete claim ledger; imported theorem, proved comparison, negative projection result and unresolved circuit lift distinguished.
+- [nonlocal-proof](../../experiments/20261014-111117-nonlocal-graph-lift/proof.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-report](../../experiments/20261014-111117-nonlocal-graph-lift/report.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-check](../../experiments/20261014-111117-nonlocal-graph-lift/check.py): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-results](../../experiments/20261014-111117-nonlocal-graph-lift/results.json): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-tree-check](../../experiments/20261014-111117-nonlocal-graph-lift/tree_check.py): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-tree-results](../../experiments/20261014-111117-nonlocal-graph-lift/tree_results.json): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-ledger](../../experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [nonlocal-plan](../../experiments/20261014-111117-nonlocal-graph-lift/plan.md): Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.
+- [excess-proof](../../experiments/20261014-133815-cycle-excess-one/proof.md): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-tree-proof](../../experiments/20261014-133815-cycle-excess-one/tree_jump_proof.md): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-check](../../experiments/20261014-133815-cycle-excess-one/check.py): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-results](../../experiments/20261014-133815-cycle-excess-one/results.json): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-tree-check](../../experiments/20261014-133815-cycle-excess-one/tree_jump_check.py): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-tree-results](../../experiments/20261014-133815-cycle-excess-one/tree_jump_results.json): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-report](../../experiments/20261014-133815-cycle-excess-one/report.md): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-ledger](../../experiments/20261014-133815-cycle-excess-one/claim_ledger.md): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [excess-plan](../../experiments/20261014-133815-cycle-excess-one/plan.md): Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.
+- [adjacent-gap-proof](../../experiments/20261015-adjacent-gap-proof/proof.md): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [adjacent-gap-check](../../experiments/20261015-adjacent-gap-proof/check.py): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [adjacent-gap-results](../../experiments/20261015-adjacent-gap-proof/results.json): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [adjacent-gap-plan](../../experiments/20261015-adjacent-gap-proof/plan.md): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [adjacent-gap-report](../../experiments/20261015-adjacent-gap-proof/report.md): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [adjacent-gap-ledger](../../experiments/20261015-adjacent-gap-proof/claim_ledger.md): Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.
+- [all-pair-interval-proof](../../experiments/20261015-113600-all-pair-interval-gap/proof.md): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [all-pair-interval-check](../../experiments/20261015-113600-all-pair-interval-gap/check.py): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [all-pair-interval-results](../../experiments/20261015-113600-all-pair-interval-gap/results.jsonl): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [all-pair-interval-plan](../../experiments/20261015-113600-all-pair-interval-gap/plan.md): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [all-pair-interval-report](../../experiments/20261015-113600-all-pair-interval-gap/report.md): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [all-pair-interval-ledger](../../experiments/20261015-113600-all-pair-interval-gap/claim_ledger.md): New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.
+- [support-marginal-proof](../../experiments/20261015-122824-support-marginal-audit/proof.md): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [support-marginal-check](../../experiments/20261015-122824-support-marginal-audit/check.py): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [support-marginal-results](../../experiments/20261015-122824-support-marginal-audit/results.jsonl): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [support-marginal-plan](../../experiments/20261015-122824-support-marginal-audit/plan.md): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [support-marginal-report](../../experiments/20261015-122824-support-marginal-audit/report.md): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [support-marginal-ledger](../../experiments/20261015-122824-support-marginal-audit/claim_ledger.md): New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.
+- [parallel-hurwitz-proof](../../experiments/20261015-134144-parallel-hurwitz-layers/proof.md): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [parallel-hurwitz-check](../../experiments/20261015-134144-parallel-hurwitz-layers/check.py): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [parallel-hurwitz-results](../../experiments/20261015-134144-parallel-hurwitz-layers/results.jsonl): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [parallel-hurwitz-plan](../../experiments/20261015-134144-parallel-hurwitz-layers/plan.md): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [parallel-hurwitz-report](../../experiments/20261015-134144-parallel-hurwitz-layers/report.md): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [parallel-hurwitz-ledger](../../experiments/20261015-134144-parallel-hurwitz-layers/claim_ledger.md): New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.
+- [endpoint-blindness-plan](../../experiments/20261019-140150-local-endpoint-blindness/plan.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [endpoint-blindness-proof](../../experiments/20261019-140150-local-endpoint-blindness/proof.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [endpoint-blindness-check](../../experiments/20261019-140150-local-endpoint-blindness/check.py): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [endpoint-blindness-results](../../experiments/20261019-140150-local-endpoint-blindness/results.jsonl): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [endpoint-blindness-ledger](../../experiments/20261019-140150-local-endpoint-blindness/claim_ledger.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [endpoint-blindness-report](../../experiments/20261019-140150-local-endpoint-blindness/report.md): Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.
+- [decorrelation-bootstrap-plan](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/plan.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-proof](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/proof.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-check](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/check.py): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-results](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-ledger](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [decorrelation-bootstrap-report](../../experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md): Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.
+- [relaxed-endpoint-plan-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/plan.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-proof-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/proof.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-check-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/check.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-results-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-spectral-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-quotient-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-quotient-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-audit-py](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.py): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-audit-jsonl](../../experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-claim-ledger-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
+- [relaxed-endpoint-report-md](../../experiments/20261026-141337-relaxed-endpoint-refresh/report.md): Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.
 
 ## Branch Retrieval
 

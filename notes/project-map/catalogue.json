@@ -6,7 +6,7 @@
     "prepared_campaign": "notes/project-map/campaign-identity-bridge-sampling-20261025/README.md",
     "campaign_compatibility": "notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md"
   },
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
@@ -142,7 +142,7 @@
       "path": "experiments/20260907-genus-one-sampler/proof.md",
       "read_scope": "S1.v2 theorem, count normalization, final-letter decomposition, allocation DP, exact-law and bit-cost sections read.",
       "checked_locators": [
-        "# Canonical connected sampler proof — S1.v2 (accepted)"
+        "# Canonical connected sampler proof \u2014 S1.v2 (accepted)"
       ],
       "reviewed_sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc",
       "sha256": "0da7b35f84f236070ead636b4c20044c8cbdc0849701f4fe0678e3bab6c1b6dc"
@@ -167,7 +167,7 @@
       "path": "experiments/20260907-genus-one-sampler/global_consequence.md",
       "read_scope": "Restricted-global law and m=2N obstruction selected.",
       "checked_locators": [
-        "# Global component consequence — G1.v1.2 (accepted)"
+        "# Global component consequence \u2014 G1.v1.2 (accepted)"
       ],
       "reviewed_sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152",
       "sha256": "d4c6a37f8f2d89b8d965d1a70579e1e97960c606bf92e61eec6aae4686519152"
@@ -184,7 +184,7 @@
       "path": "experiments/20260922-sparse-global-sampler/proof.md",
       "read_scope": "Full canonical proof read during status/consolidation; no separate mathematical certification.",
       "checked_locators": [
-        "# Global sparse identity-bridge sampling — SG-T1.v1"
+        "# Global sparse identity-bridge sampling \u2014 SG-T1.v1"
       ],
       "reviewed_sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2",
       "sha256": "f788eaecebefd53373c56a7c0c41d104c34897c4a6aba6c775f5f1ce80ec8da2"
@@ -209,7 +209,7 @@
       "path": "experiments/20260922-sparse-boundary/proof.md",
       "read_scope": "Full canonical positive theorem, finite genus sum, dispatch repair and constraints read.",
       "checked_locators": [
-        "# Canonical smaller positive extension — SB-T1.v1"
+        "# Canonical smaller positive extension \u2014 SB-T1.v1"
       ],
       "reviewed_sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611",
       "sha256": "3a54f12e4d172cfdfc5ef6f8e7b84c067e86eba8d10a2f387496ff7bd435d611"
@@ -218,7 +218,7 @@
       "path": "experiments/20260922-sparse-boundary/obstruction.md",
       "read_scope": "Full canonical obstruction, explicit subsequence and scope read.",
       "checked_locators": [
-        "# Canonical H0 boundary obstruction — SB-O1.v1"
+        "# Canonical H0 boundary obstruction \u2014 SB-O1.v1"
       ],
       "reviewed_sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894",
       "sha256": "bf7b3bed9f0616816e92bfc0c37527c8617abef8c525d15940d9c21b7aa40894"
@@ -235,7 +235,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md",
       "read_scope": "Whole exact-version final referee report read.",
       "checked_locators": [
-        "# Final exact-version integration audit — RF-INT.v2"
+        "# Final exact-version integration audit \u2014 RF-INT.v2"
       ],
       "sha256": "cf4cdaa37777e0f9e1a3c63f4b08dd2c468cff9a1a1d2c72f9adfb2b9de1086d"
     },
@@ -243,7 +243,7 @@
       "path": "experiments/20260922-sparse-boundary/coordinator_report.md",
       "read_scope": "Whole final synthesis, finite evidence summaries, secondary decoder and open primitive.",
       "checked_locators": [
-        "# Beyond the sparse sampling boundary — coordinator report"
+        "# Beyond the sparse sampling boundary \u2014 coordinator report"
       ],
       "sha256": "77b504d32a24328179af0daf3b1506895ff51157b4d5641031c4845885c2b3c9"
     },
@@ -275,7 +275,7 @@
       "path": "experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md",
       "read_scope": "Stronger claimed variant selected; no promotion beyond canonical audited sequence.",
       "checked_locators": [
-        "# Independent blind report — frozen"
+        "# Independent blind report \u2014 frozen"
       ],
       "sha256": "76a35688d44c08b39c221778efa1b7a395d7b4bc9e9cc608a68c31b1e3fce22d"
     },
@@ -388,7 +388,7 @@
       "path": "experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md",
       "read_scope": "Canonical S1.v2/G1.v1.2 version reconciliation and acceptance selected.",
       "checked_locators": [
-        "# R2 final nonauthor synthesis and delivery audit — version 1"
+        "# R2 final nonauthor synthesis and delivery audit \u2014 version 1"
       ],
       "sha256": "a2a6e16a367eebcf938aec8ee49c52b154a85b1df5da8e8d6b496383f49c3e44"
     },
@@ -408,6 +408,651 @@
         "# Fresh nonauthor audit of structural candidate C1"
       ],
       "sha256": "66738103b1c93f89b0a0afdb1a5831e878a376f374868fda8f63d60d6e7a0dd8"
+    },
+    "product-s3-proof": {
+      "path": "experiments/20261013-product-s3-mixing/proof.md",
+      "read_scope": "All sections; exact theorem, normalization, projection, coupling, shuttle reconstruction and scope read and self-reviewed. No independent referee.",
+      "checked_locators": [
+        "## 1. Exact statement and conventions",
+        "## 4. Mixing inside each count fiber",
+        "## 5. Combining projection and restriction"
+      ],
+      "sha256": "3424dfd43818331ddc029735c568582030f74aa77836e4f3aafb6bc2c36af22a"
+    },
+    "product-s3-report": {
+      "path": "experiments/20261013-product-s3-mixing/report.md",
+      "read_scope": "Complete report; scoped keep verdict and explicit lack of independent review.",
+      "checked_locators": [
+        "## Result",
+        "## Exact checks"
+      ],
+      "sha256": "79f1cbe3f9bd9f16005d654f39c5a94f01fdb381b75c48d7371d6d7a07b5a67f"
+    },
+    "product-s3-check": {
+      "path": "experiments/20261013-product-s3-mixing/check.py",
+      "read_scope": "Complete deterministic exact-check harness; run successfully in the author session.",
+      "checked_locators": [
+        "def check_count_coupling():",
+        "def check_case("
+      ],
+      "sha256": "47f3e33d391dd0a8ce5250a244067b858872d6543cbf895772e8391b34828157"
+    },
+    "product-s3-results": {
+      "path": "experiments/20261013-product-s3-mixing/results.json",
+      "read_scope": "Complete exact results; count-flow identities, coupling marginals, diagnostics and shuttle records inspected.",
+      "checked_locators": [
+        "\"coupling\":",
+        "\"boundary_checks\":"
+      ],
+      "sha256": "9a4ed0534b362c9234a53f44cbbe745f5c66807c94aa1c8d5e27025ba0800d69"
+    },
+    "product-s3-ledger": {
+      "path": "experiments/20261013-product-s3-mixing/claim_ledger.md",
+      "read_scope": "Whole ledger; proved author claims remain provisionally accepted in the map.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "95ac6ad3f572077501aa49eda003abcf3e5ecab90e0e95774077edad1160e302"
+    },
+    "cycle-walk-proof": {
+      "path": "experiments/20261013-single-cycle-walk/proof.md",
+      "read_scope": "Complete argument self-reviewed: exact target and kernels, tree lemma, local comparison, codec inverse proof and explicitly unresolved transfer.",
+      "checked_locators": [
+        "## 1. Target, regime and actual local kernel",
+        "## 5. First unproved step for the requested walk"
+      ],
+      "sha256": "9fec65e62cf007b1a030f836c978859ab173accd24bb30e673620eff0d0a3e00"
+    },
+    "cycle-walk-report": {
+      "path": "experiments/20261013-single-cycle-walk/report.md",
+      "read_scope": "Whole report; inconclusive verdict for K and separate keep verdict for the coded benchmark.",
+      "checked_locators": [
+        "## Scope and strongest conclusions",
+        "## Negative transfer findings"
+      ],
+      "sha256": "4b681029c8d724afda981a2e34919877e403be4948301d0745b6618ded4f44a8"
+    },
+    "cycle-walk-check": {
+      "path": "experiments/20261013-single-cycle-walk/check.py",
+      "read_scope": "Complete deterministic standard-library codec/kernel harness, run successfully.",
+      "checked_locators": [
+        "def word_to_tree(n, word):",
+        "def check_n(n):"
+      ],
+      "sha256": "7777f4dcae1183e43ca3398460ef38ffa367d07334555f33b42bca1083b9e2f3"
+    },
+    "cycle-walk-results": {
+      "path": "experiments/20261013-single-cycle-walk/results.json",
+      "read_scope": "Machine-checked output parsed; per-case counts, comparison ratios and nonlocal witnesses inspected. Exact diagnostic tables generated by the checked script.",
+      "checked_locators": [
+        "\"cycle_cases\":",
+        "\"ordinary_support_forgetting_collision\":"
+      ],
+      "sha256": "d16039a06a4a2a561c5286c7dee57260093ba48abe288ddb7b4ef0fd7649dbf9"
+    },
+    "cycle-walk-ledger": {
+      "path": "experiments/20261013-single-cycle-walk/claim_ledger.md",
+      "read_scope": "Whole ledger: structural proved claims, refuted transfers and unresolved local gap kept separate.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "b081ce5fa927f0d592a468b9b9207795faaf2cf83d0967472a302726ed8bae60"
+    },
+    "tree-slides-proof": {
+      "path": "experiments/20261014-tree-slides/proof.md",
+      "read_scope": "Complete same-author proof and dependency translation, including all kernel normalizations and the directed congestion count.",
+      "checked_locators": [
+        "## 2. The quantitative claim",
+        "## 4. Bridge-slide paths and congestion"
+      ],
+      "sha256": "2b0d35d8cc2be862c0d46ed0315a9c22dbcd8ce3ca00f9ac6d7715bde4a40a68"
+    },
+    "tree-slides-report": {
+      "path": "experiments/20261014-tree-slides/report.md",
+      "read_scope": "Complete report; keep for the auxiliary theorem and reject for the forgetting-as-projection identification.",
+      "checked_locators": [
+        "## Scope and verdict",
+        "## Exact validation"
+      ],
+      "sha256": "38c65ab28ce55d1b321eb47d92494b45f67891437a2da9ed72fc020a8c9d96c8"
+    },
+    "tree-slides-check": {
+      "path": "experiments/20261014-tree-slides/check.py",
+      "read_scope": "Complete standard-library exact checker, successfully run; all states, reference transitions and load counts through N=6.",
+      "checked_locators": [
+        "def route(n, forest, a, old, new):",
+        "def check_n(n):"
+      ],
+      "sha256": "c76d6aedd82e91b1b6679801336f606f777e5c204a567d1ad918bb02061af212"
+    },
+    "tree-slides-results": {
+      "path": "experiments/20261014-tree-slides/results.json",
+      "read_scope": "Complete compact output inspected, including state counts, exact loads and the nonlumpability witness.",
+      "checked_locators": [
+        "\"tree_cases\":",
+        "\"circuit_forgetting_witness\":"
+      ],
+      "sha256": "cdc78365dc55f4464c4e5171e5d02d1e771bee2946913e0a47c202a57e8baf5b"
+    },
+    "tree-slides-ledger": {
+      "path": "experiments/20261014-tree-slides/claim_ledger.md",
+      "read_scope": "Complete claim ledger; imported theorem, proved comparison, negative projection result and unresolved circuit lift distinguished.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "8e9059728e10f9498d678a4cc8603ec29fdc259224d54e765082a4129274974d"
+    },
+    "nonlocal-proof": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/proof.md",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "# A reversible nonlocal lift of graph moves"
+      ],
+      "sha256": "1141e358b0ba9dc5b3933b53de2cb5d540578df17747bf8778a3555d4b2fd5b4"
+    },
+    "nonlocal-report": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/report.md",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "# Nonlocal graph lift: connectivity and mixing conclusions"
+      ],
+      "sha256": "0ea5662cb387f3c7f27bf245870541172fa701113487a4aed20e6701b00d1994"
+    },
+    "nonlocal-check": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/check.py",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "\"\"\"Exact deterministic checks; standard library only.\"\"\""
+      ],
+      "sha256": "a144cd522d70eed5c3296e6eb8a227fbe54523437d434f98815a0ec496d7dfd3"
+    },
+    "nonlocal-results": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/results.json",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "{"
+      ],
+      "sha256": "a0bbb3bdfebbd1ace2a542f9fc83404005550d9534c4535042b416a89a0d049e"
+    },
+    "nonlocal-tree-check": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/tree_check.py",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "\"\"\"Check the distinct decoded-tree macro kernel and its full Hurwitz lifts.\"\"\""
+      ],
+      "sha256": "278ca1528438fb08e4daa5667b67e491eccfd882d6d8a41f8418e90043222421"
+    },
+    "nonlocal-tree-results": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/tree_results.json",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "{"
+      ],
+      "sha256": "25f896722e50b97cac8bea65f3e8c8718bb9a7be3748143cca62d8a90827ffb3"
+    },
+    "nonlocal-ledger": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "# Claim ledger: nonlocal graph lifts"
+      ],
+      "sha256": "3ebdb7bbc1d8426b7f88f91d67cf15becde9958a59470a6963b21337bbf04745"
+    },
+    "nonlocal-plan": {
+      "path": "experiments/20261014-111117-nonlocal-graph-lift/plan.md",
+      "read_scope": "Whole same-author artifact; exact statements and output inspected. Independent mathematical review remains pending.",
+      "checked_locators": [
+        "# nonlocal-graph-lift"
+      ],
+      "sha256": "8b01aefcdbe2683d54c8ea7cc412fe2a1cfb7f78e10b9799b9ed27c1c90fd294"
+    },
+    "excess-proof": {
+      "path": "experiments/20261014-133815-cycle-excess-one/proof.md",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "# The original pair walk at excess one: bounds and an obstruction"
+      ],
+      "sha256": "cd6d90387df714dac425428c31ad4009f8aa4ad7370ce432199bc07da5a020dd"
+    },
+    "excess-tree-proof": {
+      "path": "experiments/20261014-133815-cycle-excess-one/tree_jump_proof.md",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "# A tree-and-extra-edges refresh at fixed excess"
+      ],
+      "sha256": "23d328385f050c5a1f0e05253ad8ba074fca75e7933f695503a15846fd20ad7f"
+    },
+    "excess-check": {
+      "path": "experiments/20261014-133815-cycle-excess-one/check.py",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "\"\"\"Deterministic exact tests for the excess-one proof attempt.\"\"\""
+      ],
+      "sha256": "43bce043a835de1831cd2fad4398d847798c031c243c7eaf5b85094a74fd9c27"
+    },
+    "excess-results": {
+      "path": "experiments/20261014-133815-cycle-excess-one/results.json",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "{"
+      ],
+      "sha256": "5a9b37554f6acb5c56ae4cc8f19598427e641dd5694f84e0f2bc5493decebe8f"
+    },
+    "excess-tree-check": {
+      "path": "experiments/20261014-133815-cycle-excess-one/tree_jump_check.py",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "\"\"\"Exact preimage audit for tree-plus-extra-edge uniform refresh proposals.\"\"\""
+      ],
+      "sha256": "c460db9bc80faa8e5338f8fe3821a5d34516bc23f27685f2d5770cf89ece4d2e"
+    },
+    "excess-tree-results": {
+      "path": "experiments/20261014-133815-cycle-excess-one/tree_jump_results.json",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "{"
+      ],
+      "sha256": "24b8d0f2b45981895dc91be74549d23e35749c58bc525f6a0bd082621177efd4"
+    },
+    "excess-report": {
+      "path": "experiments/20261014-133815-cycle-excess-one/report.md",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "# Excess-one circuit walks: proof attempt and separate fast refresh"
+      ],
+      "sha256": "b7d08ba2bd37db28a849c557b26196cc1a83be09f3e66b8111f2364b4da19b50"
+    },
+    "excess-ledger": {
+      "path": "experiments/20261014-133815-cycle-excess-one/claim_ledger.md",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "# Claim ledger: full-cycle excess-one proof attempt"
+      ],
+      "sha256": "eaff7d1451fa7e33bb7dd85896fce8266765fc4c19ac10a22565292605d84c6f"
+    },
+    "excess-plan": {
+      "path": "experiments/20261014-133815-cycle-excess-one/plan.md",
+      "read_scope": "Whole new author artifact read; proof formulas and exact assertions checked in this session. No independent referee.",
+      "checked_locators": [
+        "# cycle-excess-one"
+      ],
+      "sha256": "74802b4b13a680698f4ba27ffcd0394e84883febc74b9c2a8f2354f32a2b3d8c"
+    },
+    "adjacent-gap-proof": {
+      "path": "experiments/20261015-adjacent-gap-proof/proof.md",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "# Adjacent-chain gap: a three-gate theorem and the unresolved N+1 bound"
+      ],
+      "sha256": "16f1dc0fc2d68ee01487e190912452ed1b767cc2220e143f841718cbe2588374"
+    },
+    "adjacent-gap-check": {
+      "path": "experiments/20261015-adjacent-gap-proof/check.py",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "\"\"\"Exact conditional-gap certificates and K_A comparison; no spectral extrapolation.\"\"\""
+      ],
+      "sha256": "73786fb9e9510804a74521741bc1eefaed69d87ba913e82dc189ad4ebd0ea58d"
+    },
+    "adjacent-gap-results": {
+      "path": "experiments/20261015-adjacent-gap-proof/results.json",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "{"
+      ],
+      "sha256": "6e9b7caaaf51123c3ffcf2721f9963eff302664d2d2b5c4674e60936575f8910"
+    },
+    "adjacent-gap-plan": {
+      "path": "experiments/20261015-adjacent-gap-proof/plan.md",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "# adjacent-gap-proof"
+      ],
+      "sha256": "4934167ccba2308a4d61d28e738e7b97465fafb87efc4419de9cf17579b31809"
+    },
+    "adjacent-gap-report": {
+      "path": "experiments/20261015-adjacent-gap-proof/report.md",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "# Actual adjacent-chain gap attempt"
+      ],
+      "sha256": "f90ff8ca34664ae435d9cd874b9e302cfc3988e364f64b9316792f87dc1bd0ae"
+    },
+    "adjacent-gap-ledger": {
+      "path": "experiments/20261015-adjacent-gap-proof/claim_ledger.md",
+      "read_scope": "Whole new author artifact inspected; exact rational certificates reproduced, projection normalization and failure scope checked. No independent referee.",
+      "checked_locators": [
+        "# Adjacent-gap attempt claim ledger"
+      ],
+      "sha256": "2e8d1f8922fd1310b0b1ba30c44a31a585d1385322e469197fa5f5c2e59ee760"
+    },
+    "all-pair-interval-proof": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/proof.md",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "# Arbitrary-position lifted moves: comparison and an S3 gap"
+      ],
+      "sha256": "bdbe27db6be6f89dd227425eb793d0aa7869421dd55862d3c87a09304b781a1d"
+    },
+    "all-pair-interval-check": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/check.py",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "\"\"\"Exact checks of interval coordinates, Fourier gaps and lifted pair channels.\"\"\""
+      ],
+      "sha256": "1e6b1d0100c9d316a67a8cb848902bb0af63ee220fbae13557096c784921ae92"
+    },
+    "all-pair-interval-results": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/results.jsonl",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "All assertions passed; exact finite checks supplement the symbolic proof."
+      ],
+      "sha256": "2b0fa5c769143759eaae0c66f9990345768f7dfd9b8f7205c07ae7512171a2be"
+    },
+    "all-pair-interval-plan": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/plan.md",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "# all-pair-interval-gap"
+      ],
+      "sha256": "75366db8536f44ef6817a51049acc47e24f49688a0a64035eedd0b933806ae49"
+    },
+    "all-pair-interval-report": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/report.md",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "# Arbitrary-pair lifted walk: scoped gap theorem"
+      ],
+      "sha256": "39899ad6264cdcc18f309120e8f23b68c4334b7f4c8c2b42a0cf6ac04f360d18"
+    },
+    "all-pair-interval-ledger": {
+      "path": "experiments/20261015-113600-all-pair-interval-gap/claim_ledger.md",
+      "read_scope": "New same-author proof, script, outcomes and scope inspected; exact deterministic checks executed. No independent referee review.",
+      "checked_locators": [
+        "# All-pair interval-gap claim ledger"
+      ],
+      "sha256": "f66eb87c49f59005686f7db08203e801315ce5e80248f07fe0cfde1d3aa82bb6"
+    },
+    "support-marginal-proof": {
+      "path": "experiments/20261015-122824-support-marginal-audit/proof.md",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "# Support marginals of the actual circuit walk"
+      ],
+      "sha256": "b5fa342412699d47dc3e56dd0d26f24f8a4b51f1541014f01598a58b2a48cc2a"
+    },
+    "support-marginal-check": {
+      "path": "experiments/20261015-122824-support-marginal-audit/check.py",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "\"\"\"Exact support marginal and lumpability audit of the actual all-pair walk.\"\"\""
+      ],
+      "sha256": "53276eaacdf4a49ee684e90fc1c0e01fa43c8a325c5f6dcc772a0a8e24f169bc"
+    },
+    "support-marginal-results": {
+      "path": "experiments/20261015-122824-support-marginal-audit/results.jsonl",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "exact_endpoint_balance_and_weighted_projection"
+      ],
+      "sha256": "2dd0db68b72b2f118f62141073ad8a9479d6952f608275e045488c5072925b2e"
+    },
+    "support-marginal-plan": {
+      "path": "experiments/20261015-122824-support-marginal-audit/plan.md",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "# support-marginal-audit"
+      ],
+      "sha256": "3a0272984ead141a65790344128fdfc021a6daa558507a1e2bb14fffb3d3e22e"
+    },
+    "support-marginal-report": {
+      "path": "experiments/20261015-122824-support-marginal-audit/report.md",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "# Weighted support marginal: correct limit, unresolved growing-N rate"
+      ],
+      "sha256": "64f56da12cdac2f196afa2e116a3bc165c6f6c8719eab21bdc584f1a49f91ea7"
+    },
+    "support-marginal-ledger": {
+      "path": "experiments/20261015-122824-support-marginal-audit/claim_ledger.md",
+      "read_scope": "New same-author artifact inspected; exact support rows, weights and two-step variance checks executed. Primary split-merge definitions inspected only for scope. No independent proof review.",
+      "checked_locators": [
+        "# Support-marginal audit claim ledger"
+      ],
+      "sha256": "c8b0286dd4ec29d046d45a835df5d5be46ba316e6f84a1a6a114934ca738b5af"
+    },
+    "parallel-hurwitz-proof": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/proof.md",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "# Parallel ternary Hurwitz layers"
+      ],
+      "sha256": "242a48fb3b06bce516482f318cb5d2d7fc29cf241c820018212a08d73530261a"
+    },
+    "parallel-hurwitz-check": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/check.py",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "Exact validation of cyclic parallel Hurwitz layers"
+      ],
+      "sha256": "bbe67373ca79c408092ff86813db43903ad45a8615acf35b395694566478c95d"
+    },
+    "parallel-hurwitz-results": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/results.jsonl",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "product_and_inverse_layer_balance"
+      ],
+      "sha256": "c7e075c112a37edad9d6af9e698f5567a0ad55debf0f965a4d1c2acef18c931a"
+    },
+    "parallel-hurwitz-plan": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/plan.md",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "# parallel-hurwitz-layers"
+      ],
+      "sha256": "5538065c2cbc1a05ca1c81e8f3b42cb7647bbb47145a56bab87e18710e3a726e"
+    },
+    "parallel-hurwitz-report": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/report.md",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "# Parallel Hurwitz layers: a proved layer-gap comparison"
+      ],
+      "sha256": "89f2c86341ab2e9aa6d12db790a6898535ebe7c6c2bc330908cb1234e2c778e3"
+    },
+    "parallel-hurwitz-ledger": {
+      "path": "experiments/20261015-134144-parallel-hurwitz-layers/claim_ledger.md",
+      "read_scope": "New same-author proof and exact checks inspected; primary projection/interchange statements and normalization checked. No independent proof review.",
+      "checked_locators": [
+        "# Parallel Hurwitz layers: claim ledger"
+      ],
+      "sha256": "38f29cdd3f0a4a9b30488d15ef5094cb10f6ec11223517c7b7ba8d084d257d6c"
+    },
+    "endpoint-blindness-plan": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/plan.md",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "# local-endpoint-blindness"
+      ],
+      "sha256": "5bc366a52f832ec497e1fc58d243eddd040b230603906138a0d26cf4cce843c1"
+    },
+    "endpoint-blindness-proof": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/proof.md",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "# Local endpoint blindness"
+      ],
+      "sha256": "7fc8424de4e1e46f77820fd4db5ae5f9248c5cfaf9133da24b9b509cd7d4be65"
+    },
+    "endpoint-blindness-check": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/check.py",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "def main():"
+      ],
+      "sha256": "3cf555ecc16ed1a5554f009271c551aad2739bfa019d5b97a2803d306cc204ff"
+    },
+    "endpoint-blindness-results": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/results.jsonl",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "\"kind\": \"manifest\""
+      ],
+      "sha256": "ff856ea26bbb6bfb8c936961d77ff3d89c71cf7f5f0dc07347020e7a3b36837e"
+    },
+    "endpoint-blindness-ledger": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/claim_ledger.md",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "dfc71020433f2d79ca20e07fcb7ad28c5e41dc35ef9c3eb550f05e916e75f45f"
+    },
+    "endpoint-blindness-report": {
+      "path": "experiments/20261019-140150-local-endpoint-blindness/report.md",
+      "read_scope": "Entire current experiment artifact inspected; same-author proof and deterministic exact checks, not independent certification.",
+      "checked_locators": [
+        "# Endpoint-blind initialization"
+      ],
+      "sha256": "31dfcbb8b988a51a49456804042160af54865959bafc7f6b22b50629c657fcd3"
+    },
+    "decorrelation-bootstrap-plan": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/plan.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# bridge-decorrelation-bootstrap"
+      ],
+      "sha256": "82dd32efc0b7d5d0280e9a36084ec6a3ea418680cd14be7c3b1b8cefc21e3427"
+    },
+    "decorrelation-bootstrap-proof": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/proof.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# A static assumption"
+      ],
+      "sha256": "e2f2ae03b7cd8b45e679a21553469c53478387ba3f041c1163e6b0fb1e06ff5e"
+    },
+    "decorrelation-bootstrap-check": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/check.py",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "def main():"
+      ],
+      "sha256": "db73dfc3d817a9397af26352ed0b9bf645262cf1f8169cab8439a9b67fd4e9f1"
+    },
+    "decorrelation-bootstrap-results": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "\"kind\": \"manifest\""
+      ],
+      "sha256": "306868626c636bd15373ecbb9439a3da0d4aece4c64e40b7c5d7c4fdd88d3fe1"
+    },
+    "decorrelation-bootstrap-ledger": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# Claim ledger"
+      ],
+      "sha256": "fe0a17e8a56cd3dbbe3281b615c2c3f76e28cb9b69333190dd829f8e45a422e6"
+    },
+    "decorrelation-bootstrap-report": {
+      "path": "experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md",
+      "read_scope": "Entire current artifact inspected; same-author conditional proof and exact/numerical falsification tests, not independent review.",
+      "checked_locators": [
+        "# A meaningful static assumption"
+      ],
+      "sha256": "694f3529d4c18288021ee948c87093961a7d73757421328e52f34316535257e9"
+    },
+    "relaxed-endpoint-plan-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/plan.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# relaxed-endpoint-refresh"
+      ],
+      "sha256": "2d24844387c30f33a292963c8ac4d3e651e65c731bd35251264faf145cc45615"
+    },
+    "relaxed-endpoint-proof-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/proof.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Bounded endpoint error: rigorous progress and the remaining mixing gap"
+      ],
+      "sha256": "6eb04bb050b2fa05ce8fc46be6e4849bfdc2a65b2732f42b41c3b877c64729fc"
+    },
+    "relaxed-endpoint-check-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/check.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "dfb73ab58695051b3e67b67621e211fed1658bf811f0a06d405a9b2554894bfe"
+    },
+    "relaxed-endpoint-results-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "aa4e7674dc653ec10bb5c0c974edd68d2854087ff1e3d7b1b6407a52128bc6fe"
+    },
+    "relaxed-endpoint-spectral-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "e34674e5e13bc9ec9845b6bfe5627e7cd138416e6d8164888c2705f52cb9dcc0"
+    },
+    "relaxed-endpoint-quotient-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "f094a62e8ea7e69c6381130c27c00e7c48eccbca69c1d0a46b06f53877416fd9"
+    },
+    "relaxed-endpoint-quotient-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "5945dedafa2c7d49022e299fd0c7d31ac6db969dbb51cbdcbd0fff844f188c82"
+    },
+    "relaxed-endpoint-audit-py": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/audit.py",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "#!/usr/bin/env python3"
+      ],
+      "sha256": "d8eceba97f835f4fb6a836ec011a151901a733cf9ffca3a223251172a2cb4b72"
+    },
+    "relaxed-endpoint-audit-jsonl": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "kind: manifest and subsequent case records"
+      ],
+      "sha256": "318279afbe8bf82cd906e52a8d7ff58ab04534f5ddd87c21925fe1b9a38958c7"
+    },
+    "relaxed-endpoint-claim-ledger-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Bounded endpoint error claim ledger"
+      ],
+      "sha256": "b48edb17fd5b7cec45923db7f8b1833a0e0101be2bef9f0d04e0ee07766ed2b3"
+    },
+    "relaxed-endpoint-report-md": {
+      "path": "experiments/20261026-141337-relaxed-endpoint-refresh/report.md",
+      "read_scope": "Entire new author artifact inspected; exact checks and independent count implementations executed. Numerical Rayleigh estimates are uncertified; no independent referee.",
+      "checked_locators": [
+        "# Two-transposition endpoint relaxation"
+      ],
+      "sha256": "18e722470926f45438079473e7434307d378c1ae0a7e168a327a1843496f4a27"
     }
   },
   "records": [
@@ -1558,6 +2203,567 @@
       "limitations": "Statement-traced grouped literature-transfer obstruction, not external theorem review.",
       "view": "obstructions",
       "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+    },
+    {
+      "id": "ALT-PRODUCT-S3",
+      "version": 1,
+      "title": "Polynomial mixing for Hurwitz and square refresh on disjoint triples",
+      "family": "product-s3",
+      "kind": "theorem",
+      "model": "other-generators",
+      "claim": "For all within-triple transpositions in (S3)^k <= S_(3k), the specified lazy signed-Hurwitz / square-refresh chain on global uniform length-m identity words has gap >=1/(200 k m^12), with per-triple counts allowed to vary.",
+      "parameters": "k>=1, even m>=2; K=I/2+H/4+R/4; H chooses a linear slot and signed Hurwitz direction uniformly; R chooses a linear slot and replaces an equal pair by (s,s), s uniform among 3k gates, otherwise holds. TV mixing <=ceil(200 k m^12[(m/2)log(3k)+log(1/epsilon)]).",
+      "guards": "m=0 is a singleton; odd m infeasible; m=2 has actual gap 1/4. Gates never cross the fixed triple partition. This is a different alphabet and kernel from GOAL_SPEC.",
+      "assumptions": "Self-contained S3 prefix bijection, exact count projection, discrepancy coupling, translated color-shuffle comparison, bounded-preimage shuttle routing, and variance decomposition in the linked proof; no unproved input invoked by its author.",
+      "open_obligations": "Independent review of the new proof, especially the shuttle encoding and decomposition constants; larger or growing blocks remain unresolved.",
+      "source_claimed_status": "proved by author; keep pending independent review",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Complete proof written and self-reviewed in the same session; deterministic checks run for all-transposition S3,m4; S4,m4,m6 and product-S3 cases through k=3,m=6. 1080 exact count-coupling checks and 28422 shuttle routes. No independent reviewer or formal verification.",
+      "evidence": [
+        "product-s3-proof",
+        "product-s3-report",
+        "product-s3-check",
+        "product-s3-results",
+        "product-s3-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "product triples",
+        "Hurwitz square refresh S3 product"
+      ],
+      "regressions": "All finite checks passed; they falsify finite errors but do not certify the quantified theorem. Empty-triple weights and the length-two rate exception are retained.",
+      "disagreements": "No existing accepted claim is superseded. The main all-transposition mixing frontier remains open.",
+      "limitations": "Block-preserving action of a group of order 6^k, not a growing transitive action or unrestricted S_N. Very loose polynomial bound; no cryptographic pseudorandomness claim.",
+      "view": "results",
+      "review_binding": "2026-10-13 author report and claim ledger; exact artifacts pinned. This registration is provisional and is not independent mathematical certification."
+    },
+    {
+      "id": "HB-CYCLE-MINIMAL",
+      "version": 1,
+      "title": "One-cycle minimal Hurwitz walk and a separate coded benchmark",
+      "family": "cycle-walk",
+      "kind": "reduction",
+      "model": "endpoint",
+      "claim": "For minimal factorizations of a fixed full N-cycle, square refresh is inactive. The specified local K satisfies (3/4) E_Q <= E_K <= E_Q for lazy exact two-factor heat bath Q, equivalently single-rank resampling of maximal noncrossing-partition chains. A separate Pr\u00fcfer-coordinate walk C mixes in O(N log(N/epsilon)); this does not prove a polynomial gap for K.",
+      "parameters": "N>=3, m=N-1, fixed c=(0 1 ... N-1), rightmost-first product; K=I/2+H/4+R/4=(3/4)I+H/4 with uniformly signed Hurwitz at a uniformly chosen linear slot. Q is half-lazy two-factor conditional refresh. C is half-lazy uniform refresh of one of N-2 Pr\u00fcfer coordinates.",
+      "guards": "N=1 and N=2 singleton exceptions. Endpoint is c, not identity. General full-cycle feasibility is m=N-1+2g; g>0 not resolved. Ordinary support-tree forgetting is not a bijection, and code refresh is not one adjacent Hurwitz move.",
+      "assumptions": "Self-contained tree argument, two-factor fiber classification and rooted time-edge codec; classical Pr\u00fcfer bijection and product-coordinate coupling. Qualitative minimal connectivity cited from Adin--Roichman arXiv:1201.4669v3 Remark 2.6 with their Definition 2.3 moves translated.",
+      "open_obligations": "Prove polynomial-congestion routing of code-refresh flow through actual K transitions, or an inverse-polynomial gap for the single-rank maximal-chain heat bath. Independent review of this reduction remains pending.",
+      "source_claimed_status": "proved structural reduction and coded benchmark; refuted one-step identification; local polynomial mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Same-author proof and exact checks through N=7 (16807 states), with independent word enumeration through N=6; 27522 code changes checked, of which 23678 are not single K edges. Source model and move definitions inspected. No asymptotic local gap, independent referee or spectral extrapolation.",
+      "evidence": [
+        "cycle-walk-proof",
+        "cycle-walk-report",
+        "cycle-walk-check",
+        "cycle-walk-results",
+        "cycle-walk-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "one cycle Hurwitz walk",
+        "minimal cycle factorizations",
+        "Pr\u00fcfer walk"
+      ],
+      "regressions": "Identity harness passed S3,m4 and S4,m4,m6; code and local endpoint kernels passed. Retained explicit N=4 collisions and nonlocal code-refresh witnesses.",
+      "disagreements": "No existing sampler theorem superseded. S-MINIMAL already covers efficient minimal-endpoint sampling; this record does not reclassify it as a local mixing theorem.",
+      "limitations": "Minimal endpoint only; direct coded sampling and fast coded mixing do not control adjacent Hurwitz mixing. The literature search did not establish absence of a mixing theorem elsewhere.",
+      "view": "results",
+      "review_binding": "2026-10-13 report and ledger, exact artifacts pinned. Local verdict inconclusive; coded benchmark keep. Provisional registration is not independent proof certification."
+    },
+    {
+      "id": "AUX-TREE-SLIDES",
+      "version": 1,
+      "title": "Polynomial mixing of labeled-tree edge slides",
+      "family": "tree-slides",
+      "kind": "theorem",
+      "model": "auxiliary",
+      "claim": "On all vertex-labeled N-trees, the half-lazy uniform-incident-pair/direction slide walk has stationary mass proportional to W(T)=sum_v binom(deg(v),2) and gap at least 2/[(N-1)^2(N-2)^2]. The same bound holds for its Metropolis uniform-tree correction and the uniform-target all-edge-pair rejection variant. All mix in O(N^4 [N log N + log(1/epsilon)]) steps.",
+      "parameters": "N>=3, distinguishable vertices, simple trees, no edge order, embedding, degree restriction or permutation endpoint. With probability 1/2 hold; otherwise choose the specified pair and one of its two edge slides uniformly. M accepts with min(1,W(T)/W(Tprime)); U holds on disjoint pairs.",
+      "guards": "N=1,2 singletons. This is a graph model with functionality discarded, not an identity-word chain or a projection theorem for adjacent Hurwitz moves. Uniform incident-pair proposals are not uniform-tree stationary for N>=4. Time is polynomial in explicit N, not log N wires.",
+      "assumptions": "Anari--Liu--Oveis Gharan--Vinzant arXiv:1811.01816v3 Theorems 1.1 and 5.2, specialized to the graphic matroid of K_N, give gap >=1/(N-1) for the precisely matched down-up reference chain. Cayley/Pruefer count supplies the TV state-size factor. Remaining comparison is proved in the source.",
+      "open_obligations": "Independent review of the new comparison. Any circuit application still requires a correct target-preserving lift, legal adjacent-word simulations with polynomial stationary-flow congestion, and control of order information.",
+      "source_claimed_status": "proved graph theorem using a checked literature dependency; refuted ordinary-support Markov projection; circuit lift unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Same-author proof plus exact checks through N=6: 1296 trees and 34920 nontrivial down-up exchanges at N=6; independent edge-subset state enumeration; all three stationary laws, routes, fixed-forest reconstruction and rational congestion loads. Theorems 1.1 and 5.2 and the source kernel definition checked. No independent referee or spectral extrapolation.",
+      "evidence": [
+        "tree-slides-proof",
+        "tree-slides-report",
+        "tree-slides-check",
+        "tree-slides-results",
+        "tree-slides-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "edge sliding",
+        "tree rotations",
+        "incident edge pair walk",
+        "labeled tree slide mixing"
+      ],
+      "regressions": "N=1,2 singleton checks; N=3 exact row gives gap 3/4 versus bound 1/2; N=4 star/path target bias and identical-support ordered words with different projected Hurwitz rows. Identity kernels not changed.",
+      "disagreements": "Preserves the unresolved HB-CYCLE-MINIMAL and G-HEATBATH gap claims. A tree/factorization bijection does not identify ordinary support forgetting or the two Markov kernels.",
+      "limitations": "Coarse polynomial exponent; complete labeled-tree state space only. No claim for uniformly distributed unlabeled shapes, degree restrictions, fixed endpoints or ordered circuit mixing.",
+      "view": "results",
+      "review_binding": "2026-10-14 report and ledger, exact artifacts pinned. Keep as an author-complete auxiliary proof, provisional pending independent review."
+    },
+    {
+      "id": "HB-NONLOCAL-LIFT",
+      "version": 1,
+      "title": "Nonlocal graph-selected pair lifts: connectivity and gap comparison",
+      "family": "nonlocal-graph-lift",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "For every feasible fixed endpoint g and length m, adjacent Hurwitz plus arbitrary square refresh is connected by a self-contained vertex-sweep proof, with diameter <=2(N+3)m^2. The exact half-lazy nonlocal pair lift K_G is uniform-reversible and satisfies (2/m) gap(K_A)<=gap(K_G)<=8M(M+1)m^3 gap(K_A), M=binom(N,2). General polynomial mixing remains open.",
+      "parameters": "N>=2, feasible m>=2; uniform Omega_g(N,m), rightmost-first products. K_G=I/2+H_G/4+R_G/4 chooses all binom(m,2) pairs uniformly. Each macro conjugates its intervening gates and is a shuttle/update/unshuttle path.",
+      "guards": "Disjoint commutations are included; omitting them freezes the minimal two-disjoint-transposition example. Singleton and empty fibers are separate. Naive replacement of nonadjacent repeated gates without middle conjugation is invalid.",
+      "assumptions": "Self-contained vertex sweep, canonical reduced word, square transport and recoverable-source comparison. No Hurwitz classification theorem. Polynomial in explicit N,m, not log N wires.",
+      "open_obligations": "Independent review and an inverse-polynomial Poincare inequality for K_G or K_A. A polynomial diameter and graph projection alone do not supply a gap.",
+      "source_claimed_status": "proved connectivity, stationarity and polynomial comparison; general polynomial mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "67,087 exact normal-form checks and 536,958 macro-channel checks, including every primitive endpoint; exact integer symmetry and all-fiber connectivity in S3,m4 and S4,m4 and identity S4,m6. Same-author proof only.",
+      "evidence": [
+        "nonlocal-proof",
+        "nonlocal-report",
+        "nonlocal-check",
+        "nonlocal-results",
+        "nonlocal-ledger",
+        "nonlocal-plan"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "nonlocal graph moves",
+        "transported square refresh",
+        "graph-selected Hurwitz",
+        "arbitrary endpoint connectivity"
+      ],
+      "regressions": "m=0,1,2; odd lengths with correct endpoint parity; N=2; reduced and nonreduced arbitrary endpoints; two explicit rejected uncorrected proposals.",
+      "disagreements": "Older classification-dependent identity connectivity is preserved. This supplies a separate proof for the pair kernel, not a silent upgrade of the manuscript {3,4,5} gap.",
+      "limitations": "K_G is a particular corrected lift, not every available-slide selection rule. The graph distribution is induced by circuit multiplicities. No general inverse-polynomial gap proved.",
+      "view": "results",
+      "review_binding": "2026-10-14 author proof and claim ledger with exact output. Provisional, not independently certified."
+    },
+    {
+      "id": "HB-TREE-MACRO",
+      "version": 1,
+      "title": "Fast decoded-tree macro walk on minimal full-cycle words",
+      "family": "nonlocal-graph-lift",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "For a full N-cycle g and m=N-1, encoding a circuit by its rooted time-labeled support tree, running one uniform-target tree slide, and decoding defines K_T with gap >=2/[(N-1)^2(N-2)^2]. Each completed macro has a constructive implementation using <=2N(N-1) adjacent Hurwitz moves.",
+      "parameters": "N>=3, m=N-1. Half-lazy tree kernel chooses all unordered pairs of distinct tree edges uniformly, holds on disjoint pairs, and slides a uniform direction on incident pairs. TV mixing O(N^4 [N log N+log(1/epsilon)]) completed macros.",
+      "guards": "Outputs observed at completed macro boundaries; global permutation relabeling is allowed. K_T is not K_G or the usual random adjacent Hurwitz kernel. Original vertex-labeled support need not change by just one slide. N=1,2 singleton cases.",
+      "assumptions": "Rooted time-edge tree bijection from HB-CYCLE-MINIMAL; uniform tree-slide gap from AUX-TREE-SLIDES and its checked Anari et al. down-up dependency; reduced vertex-sweep paths from HB-NONLOCAL-LIFT.",
+      "open_obligations": "Independent review of the combined same-author inputs. Extension to nonminimal words or arbitrary endpoints is not established. The adjacent-Hurwitz gap remains open.",
+      "source_claimed_status": "proved macro mixing from explicitly listed prior inputs",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "All 13,938 directed tree-slide transitions through N=6 decoded and implemented; every primitive endpoint checked, both codec identities and reverse symmetry checked. N=6: 1296 states, 12960 transitions, max path 20 against bound 60.",
+      "evidence": [
+        "nonlocal-proof",
+        "nonlocal-report",
+        "nonlocal-tree-check",
+        "nonlocal-tree-results",
+        "nonlocal-ledger",
+        "tree-slides-proof",
+        "cycle-walk-proof"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT",
+        "AUX-TREE-SLIDES",
+        "HB-CYCLE-MINIMAL"
+      ],
+      "aliases": [
+        "decoded tree walk",
+        "Hurwitz macro sampler",
+        "fast graph lift"
+      ],
+      "regressions": "Singleton N=2 and minimal N=3 included; exact complete paths and uniform tree reversibility. No empirical asymptotic inference.",
+      "disagreements": "Earlier graph-to-circuit unresolved wording must distinguish ordinary adjacent mixing from the user-authorized completed-sequence model. This resolves a separately defined macro lift, not the old local comparison obligation.",
+      "limitations": "Minimal full cycle only. Paths may pass through a normal form, so intermediate states need not be uniform. No polynomial congestion claim or local mixing transfer.",
+      "view": "results",
+      "review_binding": "Section 8 and ledger, exact tree_results.json; same-author derived theorem pending independent review."
+    },
+    {
+      "version": 1,
+      "family": "cycle-excess-one",
+      "model": "endpoint",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "adjudications": [],
+      "view": "results",
+      "review_binding": "2026-10-14 same-author proofs, report and claim ledger; finite exhaustive artifacts reproduced. Independent review pending.",
+      "id": "HB-CYCLE-EXCESS",
+      "title": "Excess-one pair walks: S3 mixing, refresh acceleration and frozen graph fibers",
+      "kind": "reduction",
+      "claim": "For S3 and every feasible endpoint, gap(K_A)>=1/[4(m-1)], gap(P)>=1/[8(m-1)], and K_A mixes in O(m log(m/epsilon)). At growing N and m=N+1, equal-pair count Y<=3 and E Y=6/N; balanced available-pair refresh accelerates its branch by Theta(N^2). Exact multigraph restrictions can be frozen. Polynomial mixing of the original full-cycle hybrid remains unresolved.",
+      "parameters": "P=(K_A+K_G)/2 with the precise half-lazy kernels of HB-NONLOCAL-LIFT. Full-cycle c, m=N+1, N>=2 for collision and fiber claims; N=3,m>=2,any parity-feasible g for the proved local gap. Products rightmost first.",
+      "guards": "Refreshing a nonadjacent square conjugates the middle. Available-pair selection uses min(1,Y(w)/Y(wprime)); its 1/3 acceptance bound is specific to genus-one full-cycle words. Fixed graph means labeled multigraph including multiplicities.",
+      "assumptions": "Self-contained ternary prefix-coordinate coupling and star witnesses; checked fixed-cycle count from GJV Proposition 1.1 and Theorem 3.1 equation (21). Macro definitions/connectivity from HB-NONLOCAL-LIFT.",
+      "open_obligations": "Independent review; polynomial full-chain Poincare inequality for growing N at m=N+1, or polynomial-congestion comparison from the exact refresh. Frozen multigraph restrictions rule out that naive decomposition step.",
+      "source_claimed_status": "proved scoped S3 bounds and genus-one branch lemmas; refuted universal exact-multigraph restriction connectivity; original growing-N gap unresolved",
+      "checked": "Exact full-cycle collision counts N=2,...,5; rational refresh symmetry N<=4; every channel on star witnesses N=3,...,12; S3 all endpoints m=2,...,7; coupling neighbors d<=5. No finite-to-asymptotic extrapolation.",
+      "evidence": [
+        "excess-proof",
+        "excess-report",
+        "excess-check",
+        "excess-results",
+        "excess-ledger",
+        "excess-plan",
+        "excess-tree-proof"
+      ],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT"
+      ],
+      "aliases": [
+        "m=N+1 edge slide",
+        "genus-one pair walk",
+        "balanced available square",
+        "frozen multigraph fiber"
+      ],
+      "regressions": "Identity S3,m4 and S4,m4,m6; singleton N2, empty/parity cases and minimal S3,m2 addressed.",
+      "disagreements": "Failure of a fixed-graph restriction proof does not refute full-chain fast mixing. Branch speedup is not a full spectral-gap speedup.",
+      "limitations": "S3 theorem fixes N. No general inverse-polynomial gap or uniform distribution on support graphs is established."
+    },
+    {
+      "version": 1,
+      "family": "cycle-excess-one",
+      "model": "endpoint",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "adjudications": [],
+      "view": "results",
+      "review_binding": "2026-10-14 same-author proofs, report and claim ledger; finite exhaustive artifacts reproduced. Independent review pending.",
+      "id": "ALT-TREE-EXTRAS",
+      "title": "Exact tree-plus-extra-edges refresh for fixed-cycle fixed excess",
+      "kind": "theorem",
+      "claim": "A uniform minimal word plus 2h inserted uniform gates, canonical root-fixing endpoint relabeling and 1/tau spanning-tree correction gives Q_h=(1-p_h)I+p_h Pi on full-cycle length N-1+2h words. For (L+Q_h)/2, TV mixing <=ceil((2/p_h)log(1/epsilon)). p_1=1/[3(N-1)], p_2=(5N-7)/[15(N-1)^3]; for every fixed h, mixing is O_h(N^h log(1/epsilon)) completed attempts.",
+      "parameters": "N>=2,h>=0,m=N-1+2h, fixed full N-cycle, uniform ordered circuit target. L is any target-stationary kernel; gap>=p_h/2 also holds when L is reversible. Polynomial in explicit N for fixed h, not joint fixed-degree polynomial in N,h.",
+      "guards": "Different global refresh from K_G or the original pair-slide hybrid. Edge occurrences are distinguished in tau. Reject non-full-cycle proposal products; root-fixing conjugator is unique. Outputs observed only at completed macro boundaries.",
+      "assumptions": "Rooted time-edge minimal codec from HB-CYCLE-MINIMAL; proved preimage bijection here; checked GJV Proposition 1.1 and Theorem 3.1 count normalization for sharp constants. Without the count formula, appending squares gives p_h>=1/[binom(m,2h)M^h]. HB-NONLOCAL-LIFT supplies optional polynomial-length implementation paths only.",
+      "open_obligations": "Independent review. Transfer to original pair-slide mixing requires polynomial stationary-flow congestion; short implementation paths do not suffice.",
+      "source_claimed_status": "proved separate macro theorem and exact finite-law correction, pending independent review",
+      "checked": "All 922830 proposal tuples at (N,h)=(2,1),(3,1),(4,1),(5,1),(3,2),(4,2); every output preimage equals separately counted spanning-tree multiplicity, every target word covered by independent meet-in-the-middle enumeration. Primary count convention and normalization read.",
+      "evidence": [
+        "excess-tree-proof",
+        "excess-tree-check",
+        "excess-tree-results",
+        "excess-report",
+        "excess-ledger",
+        "excess-plan"
+      ],
+      "dependencies": [
+        "HB-CYCLE-MINIMAL",
+        "HB-NONLOCAL-LIFT"
+      ],
+      "aliases": [
+        "tree plus two extra edges",
+        "m=N+1 fast macro",
+        "m=N+3 sampler",
+        "fixed excess full cycle"
+      ],
+      "regressions": "N2 singleton; h0 minimal; odd/even full-cycle parity; h1,h2 exact output weights; h2 tested N3,N4.",
+      "disagreements": "S-G01 already provides exact genus-one sampling. This is a different explicit correction proof, not discovery of that sampling frontier or a proof of the original local conjecture.",
+      "limitations": "Full-cycle endpoints only. Not uniform on graphs. Intermediate implementation states need not be stationary; no congestion bound. General identity or arbitrary growing genus not resolved."
+    },
+    {
+      "id": "HB-ADJACENT-LOCAL",
+      "version": 1,
+      "title": "Actual adjacent-chain conditional gaps and constant-factor three-block comparison",
+      "family": "adjacent-gap-proof",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "For every fixed-endpoint fiber, half-lazy exact pair heat bath Q2 satisfies (1/2) E_Q2<=E_KA<=E_Q2. Every nontrivial length-three fiber has gap(K_A)>=1/24 uniformly in N. Consequently for every m>=3, E_Q3<=24 E_KA and E_KA<=2 E_Q3 for half-lazy exact triple heat bath Q3. At full-cycle m=N+1 only an explicit N^(-N-O(1)) gap bound is proved; polynomial mixing remains unresolved.",
+      "parameters": "K_A=I/2+H/4+R/4; H uniform linear slot and sign, R uniform linear slot and uniform square replacement. Uniform ordered Omega_g(N,m), rightmost-first product. Short-block theorem m=3,N>=3; comparisons all feasible endpoints with m>=2 or 3 as stated.",
+      "guards": "The triple generator is unnormalized: (I-E1)+(I-E2). Its exact transposition-endpoint gap is 1/3 at N>=4, whereas Q2 on that triple has gap 1/12; K_A lower bound 1/24. Do not confuse length-three control with growing-length mixing or periodic with open boundary conditions.",
+      "assumptions": "Self-contained product classification, maximal-correlation projection calculation, all-N arrowhead analysis, and exact rational PSD certificates for the three reduced endpoint types. Exponential N+1 bound additionally uses HB-NONLOCAL-LIFT vertex sweeps and the checked fixed-cycle count normalization.",
+      "open_obligations": "Independent proof review; an inverse-polynomial full-chain gap for K_A or Q3 when N and m grow. The elementary three-site local-to-global inequality has nonpositive bulk coefficient at local gap 1/3, so it does not close this obligation.",
+      "source_claimed_status": "proved short-block theorem, constant-factor reductions and explicitly exponential N+1 bound; refuted the tested strong-local-contraction shortcut; polynomial N+1 gap unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Exact LDL pivots for all three reduced length-three endpoint types, plus a completeness argument; transposition conditional matrices and explicit eigenfunction through N=12; embedding in N+1 cycle fibers; 20375 words and 229196 directed K_A/Q2 channels. Tightened normalization lengths and identity regressions passed.",
+      "evidence": [
+        "adjacent-gap-proof",
+        "adjacent-gap-check",
+        "adjacent-gap-results",
+        "adjacent-gap-plan",
+        "adjacent-gap-report",
+        "adjacent-gap-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT",
+        "HB-CYCLE-EXCESS"
+      ],
+      "aliases": [
+        "prove K_A gap",
+        "adjacent triple conditional gap",
+        "two-factor three-factor comparison",
+        "local-to-global correlation obstruction"
+      ],
+      "regressions": "Exact m=2 formulas through N=8; singleton N2 and m0,1; odd feasible endpoints; minimal four-cycle triples; full-cycle N3,m4 N4,m5 N5,m6; identity S3,m4 S4,m4,m6.",
+      "disagreements": "No alternate sampler is substituted. Uniform local conditional gaps need not yield a growing-length gap. The finite certificates imply all-N results only because the endpoint classification is proved complete.",
+      "limitations": "The 1/24 lower bound fixes length three. The full-cycle N+1 bound is 3/[N^(N+3)(N-1)^2(N+1)^3], exponentially small. The constant comparison to Q3 leaves its polynomial gap equally open.",
+      "view": "results",
+      "review_binding": "2026-10-15 proof/report/ledger and exact results; same-author certificate verification, provisional pending independent review."
+    },
+    {
+      "id": "HB-ALLPAIR-INTERVAL",
+      "version": 1,
+      "title": "Actual all-pair S3 gap and degree-independent comparison to adjacent moves",
+      "family": "all-pair-interval-gap",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "For every nontrivial feasible fixed-endpoint fiber, (2/m) E_KA<=E_KG<=4m^2 E_KA. In S3 at every m>=2 and every feasible endpoint, 1/(2m)<=gap(K_G)<=3/(4m), giving O(m^2+m log(1/epsilon)) mixing in completed pair updates. The auxiliary interval-translation heat bath has exact gap 1/m.",
+      "parameters": "K_G=I/2+H_G/4+R_G/4, uniform unordered position pairs, signed lifted Hurwitz moves and transported equal-pair refresh. K_A has identical weights on uniform adjacent slots. Uniform ordered Omega_g(N,m), products rightmost first, no wraparound.",
+      "guards": "The S3 theorem includes square refresh and fixes N=3. Pure Hurwitz still preserves the generated subgroup. Intermediate gates are conjugated in every nonlocal move. A completed update may cost O(m) elementary moves.",
+      "assumptions": "Elementary stationary-path Cauchy-Schwarz comparison and independent ternary prefix coordinates for S3; exact Fourier diagonalization of interval translations. Prior constructive connectivity supplies all-endpoint irreducibility.",
+      "open_obligations": "Independent proof review; inverse-polynomial K_G or K_A gap for growing N, especially full-cycle m=N+1. The parity-prefix product structure used here fails for N>=4.",
+      "source_claimed_status": "proved all-N comparison and S3 all-length actual-chain gap; general growing-N mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "3276 S3 words and 299340 channels at m=2..7; 9832 nonconstant Fourier modes through m=9; identity S3,m4 S4,m4,m6 with 4083 states and 478890 channels, primitive lifts and exact detailed balance; comparison occurrence counts through m=100.",
+      "evidence": [
+        "all-pair-interval-proof",
+        "all-pair-interval-check",
+        "all-pair-interval-results",
+        "all-pair-interval-plan",
+        "all-pair-interval-report",
+        "all-pair-interval-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT"
+      ],
+      "aliases": [
+        "any two gates",
+        "arbitrary-position Hurwitz gap",
+        "interval translation Fourier gap",
+        "S3 nonlocal pair mixing",
+        "4m squared comparison"
+      ],
+      "regressions": "m2 exact boundary gaps, m0,1 and N2 singleton discussion, empty odd identity fibers, every feasible S3 endpoint at both parities, standard S4 identity fibers.",
+      "disagreements": "The stronger comparison replaces no historical source bytes and does not turn the full-cycle N+1 conjecture into a theorem. The auxiliary interval chain is an analysis tool for the actual mixed pair walk.",
+      "limitations": "The new relaxation Theta(m) theorem is only for S3. State-dependent available-pair selection is a different kernel. No general all-N gap follows from the polynomial comparison.",
+      "view": "results",
+      "review_binding": "2026-10-15 proof/report/ledger and exact outcomes; same-author work, provisional pending independent review."
+    },
+    {
+      "id": "HB-SUPPORT-MARGINAL",
+      "version": 1,
+      "title": "Correct weighted support law and failure of graph closure for the actual pair walk",
+      "family": "support-marginal-audit",
+      "kind": "obstruction",
+      "model": "endpoint",
+      "claim": "The support marginal of uniform fixed-endpoint words weights each labeled multigraph by its number of realizing orders. Actual all-pair K_G support is not strongly lumpable: explicit full-cycle N4,m3 and N4,m5 witnesses have different next-graph rows from identical support. Its averaged stationary-flow projection is reversible but cannot generally be iterated to get the observed law. Polynomial growing-N marginal mixing remains unresolved; a Poincare bound on the invariant span of graph observables would suffice.",
+      "parameters": "K_G=I/2+H_G/4+R_G/4; uniform unordered position pairs, both Hurwitz signs, transported equal-pair refresh. Uniform ordered Omega_g(N,m), rightmost-first product; labeled multigraph retains multiplicities and forgets order. Simple-support witnesses also checked.",
+      "guards": "Nonlumpability does not refute fast marginal mixing. Fast averaged projection alone need not imply fast observed marginals. The user requests the actual walk, without auxiliary within-graph resampling. Standard permutation cycle split-merge is a different projection.",
+      "assumptions": "Elementary pushforward stationarity and reversibility; explicit finite channel enumeration; conditional-expectation identity C K^2 C-(C K C)^2=C K(I-C)K C; self-adjoint spectral argument on graph-observable invariant span. Existing connectivity and S3 gap supply the positive inherited cases.",
+      "open_obligations": "Prove a polynomial observable-space Poincare inequality or graph-marginal coupling for full-cycle m=N+1 at growing N; independent review of the new scoped obstructions and criterion.",
+      "source_claimed_status": "proved correct limit, counterexamples to exact graph closure and the projection-gap shortcut, and a conditional graph-only criterion; growing-N marginal mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "4766 words in six endpoint fibers: full-cycle S3,m4 and S4,m3,m5; identity S3,m4 and S4,m4,m6. Exact endpoint preservation, integer detailed balance, graph weights, within-fiber row differences and two-step variance identities. Four-state projection-gap counterexample checked exactly.",
+      "evidence": [
+        "support-marginal-proof",
+        "support-marginal-check",
+        "support-marginal-results",
+        "support-marginal-plan",
+        "support-marginal-report",
+        "support-marginal-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT",
+        "HB-ALLPAIR-INTERVAL"
+      ],
+      "aliases": [
+        "weighted support graph mixing",
+        "support marginal only",
+        "cut and join support",
+        "support lumpability",
+        "graph-visible spectral modes"
+      ],
+      "regressions": "Minimal and genus-one full cycles; m0,1,N2 singleton boundaries; m2 identity quarter-refresh and disjoint-endpoint graph singleton; odd identity infeasibility; all-length S3 positive mixing transfer.",
+      "disagreements": "Raw support forgetting is not the tree/factorization bijection. At minimal N4 the 16 words realize 12 trees with unequal weights. Non-Markovian observations can still mix quickly, as the S3 case shows. A failed S3 triangle-event witness is retained.",
+      "limitations": "No all-N graph gap or marginal bottleneck is proved. The four-state slow-marginal example refutes a general inference, not the circuit conjecture. Vertex labels remain fixed; unlabeled shapes are a different question.",
+      "view": "results",
+      "review_binding": "2026-10-15 exact audit and self-contained projection calculations; same-author work provisionally registered, not independently certified."
+    },
+    {
+      "id": "HB-PARALLEL-LAYERS",
+      "version": 1,
+      "title": "Parallel ternary Hurwitz layers have a sweep-scale gap comparison",
+      "family": "parallel-hurwitz-layers",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "On a fixed Hurwitz orbit, independent ternary updates on two cyclic matchings satisfy (1/48) min(m gamma_seq,1) <= gamma_parallel <= (m/2) gamma_seq. Correct the seam for nonidentity endpoints. Pure layers preserve the ordinary orbit and have the same polynomial-mixing status as the linear walk. Minimal disjoint-transposition endpoints have parallel gap Theta(m^-2). A separately declared square-bath extension has S3 gap >=1/256 per layer. Growing-N full-cycle mixing remains unresolved.",
+      "parameters": "Even m>=2; uniform matching, independent uniform {-1,0,1} coordinates; no extra hold. gamma_seq updates one uniform cyclic pair. Rightmost-first product, uniform on one ordinary Hurwitz orbit. Time counts layers, each Theta(m) local updates. Commuting benchmark: even m>=4, N>=2m.",
+      "guards": "Literal (m,1) Hurwitz generally conjugates g; use the displayed twisted boundary for fixed nonidentity endpoints. Pure layers do not select global orbit weights. Square-bath extension is explicitly a different kernel. A comparison is not a new all-N gap.",
+      "assumptions": "Local Hurwitz periods 1,2,3; commuting disjoint updates; checked AAV arXiv1602.01210v3 Lemma2/Cor3 with at most two noncommuting neighbors. Commuting benchmark uses checked CLR arXiv0906.1238v4 Theorem1.1. Only square-bath extension uses prior adjacent irreducibility and S3 gap.",
+      "open_obligations": "Independent review; inverse-polynomial sequential gap for growing-N full-cycle m=N+1; corresponding augmented gap or graph-observable bound.",
+      "source_claimed_status": "proved scoped comparisons, boundary formulas and benchmarks; general full-cycle polynomial mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "19890 states, 1062144 layer channels: products, inverse vectors, matching commutation, seam lift, ordinary/layer components; 1770 scalar types; 24498 twisted square-boundary channels. Primary theorem hypotheses checked.",
+      "evidence": [
+        "parallel-hurwitz-proof",
+        "parallel-hurwitz-check",
+        "parallel-hurwitz-results",
+        "parallel-hurwitz-plan",
+        "parallel-hurwitz-report",
+        "parallel-hurwitz-ledger"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT",
+        "HB-CYCLE-EXCESS"
+      ],
+      "aliases": [
+        "parallel Hurwitz",
+        "ternary matching vector",
+        "alternating matching walk",
+        "detectability lemma comparison"
+      ],
+      "regressions": "Identity S3,m4 and S4,m4,m6; full-cycle S3,m2,m4 and S5,m4,m6; m2 boundaries; commuting N8,m4. Odd identity infeasible; m0,m1,N2 singleton/empty; odd general m needs another schedule.",
+      "disagreements": "An exponentially small prescribed-vector probability does not bound aggregate mixing. Pure layers cannot give arbitrary global weighted support laws. Naive nonidentity wraparound fails even for minimal five-cycle words.",
+      "limitations": "No growing-N full-cycle gap, optimal commuting-case TV bound or graph-marginal speedup. Layers cost Theta(m) updates; exact checks are finite.",
+      "view": "results",
+      "review_binding": "2026-10-15 same-author proof and exact validation, provisionally registered, not independently certified."
+    },
+    {
+      "id": "HB-ENDPOINT-BLINDNESS",
+      "version": 1,
+      "title": "Local endpoint blindness hides prefix modes; long overlaps yield a conditional gap reduction",
+      "family": "local-endpoint-blindness",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "Dense uniform bridges have endpoint-blind small marginals, but pinned-prefix initializers can be locally iid and globally far from equilibrium. S3 gives an exact locally invisible slowest Q2 eigenmode. Finite-range propagation and hidden-cut coupon bounds are proved. A declared ideal overlapping block bath mixes in O(q log(q/epsilon)) updates; the actual adjacent chain satisfies gap(K_A)>=(2L-1) gamma_*/[16(m-1)] with an all-endpoint block-gap premise. Identity-only mixing transfer remains unresolved.",
+      "parameters": "Uniform Omega_g(N,m); rightmost-first products; linear slots. K_A=I/2+H/4+R/4; Q2 and Q345 exact baths. Macro blocks have lengths L..2L-1, eta_L<=1/16, q=floor(m/L)>=2. Conservative L=O(N^2 log N); gamma_* is minimum actual K_A gap for feasible endpoints and lengths 2L..4L-2.",
+      "guards": "A locally invisible polynomial relaxation mode is not a superpolynomial bottleneck. Completed exact large-block refreshes are a different kernel and no efficient exact oracle is claimed. Identity-only gap information does not supply the arbitrary-endpoint minimum in this comparison.",
+      "assumptions": "Centrality of all-transposition law; CLR Theorem 1.1 with displayed complete-graph normalization and parity projection; explicit bridge factorization, finite-propagation coupling, S3 prefix bijection, macro Hamming coupling and actual Dirichlet normalization. Conditional transfer requires gamma_* inverse-polynomial.",
+      "open_obligations": "Prove an arbitrary-endpoint base-block gap or an initializer-specific spectral comparison bypassing the worst-endpoint minimum; independent review of these same-author results. The identity-to-all-endpoint implication is neither proved nor refuted.",
+      "source_claimed_status": "proved scoped marginal, hidden-mode, propagation and macro-chain results; conditional actual-chain comparison; main implication unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "23,823 integer marginal equalities; 62,571 actual K_A primitive channels in required identity cases; all 6561 S3 length-eight words and exact Q2/Q345 evolution; 19,805 influence geometries; 144 S4 conditional laws; 8,029 comparison slots; dense count recurrences through S5,m126.",
+      "evidence": [
+        "endpoint-blindness-plan",
+        "endpoint-blindness-proof",
+        "endpoint-blindness-check",
+        "endpoint-blindness-results",
+        "endpoint-blindness-ledger",
+        "endpoint-blindness-report"
+      ],
+      "adjudications": [],
+      "dependencies": [],
+      "aliases": [
+        "locally endpoint blind initializer",
+        "short windows reveal no permutation",
+        "floating windows",
+        "hidden prefix product",
+        "identity to arbitrary permutation mixing"
+      ],
+      "regressions": "N2 singleton; m0,1,2; odd endpoint marginal cases; near-minimal fibers excluded from dense assumptions; exact S3 hidden mode is polynomial and compatible with its known rapid mixing.",
+      "disagreements": "Long-overlap smoothing and the O(N log N) base reduction already occur in M10 and M10-referee. This note does not claim those strategies as new or resolve their base-gap obligation. No M340 transport claim used.",
+      "limitations": "No general all-endpoint small-move gap, no counterexample to the specific identity-mixing implication, and no implementation guarantee for the ideal exact block bath. All new results await independent review.",
+      "view": "results",
+      "review_binding": "2026-10-19 same-author proofs, deterministic exact checks and scoped archive reconciliation; provisionally registered, not independently certified."
+    },
+    {
+      "id": "HB-DECORRELATION-BOOTSTRAP",
+      "version": 1,
+      "title": "Conditional tail decorrelation bootstraps local mixing across lengths",
+      "family": "bridge-decorrelation-bootstrap",
+      "kind": "theorem",
+      "model": "endpoint",
+      "claim": "A universal bound rho(first third,last third)<=1-delta under every prescribed-endpoint uniform bridge gives Lambda_N(m)>=(delta/2)Lambda_N(m-floor(m/3)) for the actual adjacent Hurwitz/square walk. A polynomial short-length base gap therefore extends to all endpoints and lengths. The known length-three base suffices under this unproved static hypothesis. A scale-product weakening and an N/2-cutoff corollary are conditional. The stronger numerical guess rho<=1/2 is exactly refuted.",
+      "parameters": "N>=3; feasible m,g; uniform Omega_g(N,m), rightmost-first. K_A=I/2+H/4+R/4, uniform linear adjacent slots. Lambda_N(m)=(m-1) min_g gap(K_A). Tail lengths a=floor(m/3), middle m-2a. With delta universal, gap>=delta/[24(m-1)(m-2)^alpha], alpha=log(2/delta)/log(3/2), m>=4.",
+      "guards": "The decorrelation premise is conjectured, not proved by finite checks. It controls all observables of separated tails under the endpoint-conditioned target, not only short marginals of an initializer. An inverse-polynomial loss at every recursive level may compound into quasipolynomial time. Normalize random scan only once.",
+      "assumptions": "Uniform tail-correlation deficit for the main conditional theorem; prior all-endpoint length-three K_A gap. The N/2 variant additionally uses archived sharp O(N log N) parity smoothing (DS Lemma14/Section3 Plancherel input) and inverse-polylog deficits only at intermediate lengths. Elementary projection norm and Dirichlet occurrence bounds are derived.",
+      "open_obligations": "Prove or refute the proposed uniform or scale-product conditional-decorrelation estimate, particularly at growing-N near-minimal endpoints; independent review of the conditional bootstrap and exact negative witness.",
+      "source_claimed_status": "proved conditional bootstrap and exact rho<=1/2 refutation; finite rational certificates; empirical spectral estimates; uniform hypothesis and general mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "97 endpoint/length cases: S3,S4,S5 m4..12 and S6 m4..8. 37 exact rational rho<99/100 certificates at N<=4; required identity joint-count enumeration; exact S5,m4 correlation witness 917/1800; 499497 slot checks. Two power seeds, four iteration caps, no numerical upper-bound claim.",
+      "evidence": [
+        "decorrelation-bootstrap-plan",
+        "decorrelation-bootstrap-proof",
+        "decorrelation-bootstrap-check",
+        "decorrelation-bootstrap-results",
+        "decorrelation-bootstrap-ledger",
+        "decorrelation-bootstrap-report"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-ADJACENT-LOCAL",
+        "HB-BASE"
+      ],
+      "aliases": [
+        "meaningful assumption for mixing",
+        "balanced bridge decorrelation",
+        "conditional maximal correlation",
+        "N/2 complexity bootstrap",
+        "short to long circuit mixing"
+      ],
+      "regressions": "m0,1 singleton/empty; m2 direct; N2 singleton; feasible odd endpoints; near-minimal endpoints included in declared finite range. rho<=1/2 refuted at S5,m4. S3 correlation zero at all nonempty overlaps by exact parity uniformity.",
+      "disagreements": "Archive M10 already supplies large-overlap correlation and recursion above smoothing scale. This record proposes its unproved balanced-overlap extension at shorter scales, not a rediscovery or unconditional completion. The o(N) overlap obstruction with N^3 tails has a different geometry.",
+      "limitations": "No all-N proof of the static premise and no unconditional new general local gap. Four numerical cases hit the iteration cap; seed agreement is not a certificate. Extension to other groups requires conditional factorization, compatible local forms and a base gap.",
+      "view": "results",
+      "review_binding": "2026-10-20 same-author conditional proofs and exact falsification, provisionally registered. Prior length-three proof and sharp smoothing are named dependencies, not new independent certification."
+    },
+    {
+      "id": "ALT-RELAXED-ENDPOINT",
+      "version": 1,
+      "title": "Two-transposition endpoint relaxation: connectivity, slowdown and sampling reduction",
+      "family": "relaxed-endpoint-refresh",
+      "kind": "theorem",
+      "model": "relaxed-endpoint",
+      "claim": "Half-lazy single-gate refresh with endpoint defect at most two connects all exact identity words for every N and even m. Complete finite quotient checks prove full connectivity for all N at even m<=6. At m4 and N>=14 a repeated-pair cut gives gap<=5/binom(N,2) and mixing time>=floor(binom(N,2)/10). A k2 polynomial mixing theorem would imply near-uniform exact-identity sampling with O(N^4) rejection overhead; general rapid mixing remains unresolved.",
+      "parameters": "All transpositions, rightmost-first, identity center. R holds with probability 1/2, otherwise replaces a uniform gate by a uniform transposition and rejects iff defect exceeds k. N>=2, main even m>=4, k=2. Exact-core path length <=4(N+3)m^2. Identity mass >=1/[1+2C(N,3)+3C(N,4)].",
+      "guards": "The target permits nonidentity words and is not the exact bridge law. k1 equals k0 at even lengths; k2 is unrestricted in S3/S4. Strict defect descent fails. Connectivity and a quadratic mixing lower bound do not imply rapid mixing. Increasing k does not make the gap monotone.",
+      "assumptions": "Elementary cycle arithmetic and Cauchy--Schwarz; constructive fixed-endpoint vertex sweep reproduced from HB-NONLOCAL-LIFT; complete ordered-word relabeling quotient with support size <=m+k and exact orbit weights. The sampling consequence assumes an unproved polynomial worst-case mixing bound.",
+      "open_obligations": "Prove boundary-shell access and an inverse-polynomial gap at growing N,m for k2 or a separately specified logarithmic budget; independently review the proofs and finite-completeness argument.",
+      "source_claimed_status": "proved exact-core connectivity, fixed-short-length full connectivity, quadratic slowdown and count/rejection reduction; empirical finite spectra; all-length rapid mixing unresolved",
+      "effective_status": "provisional",
+      "check_depth": "statement-and-verdict-traced",
+      "checked": "Required identity S3,m4 and S4,m4,m6; 62571 exact move simulations; five labeled/quotient graph agreements; nine quotient counts checked against labeled DP, up to 46854304 allowed words; 231160 count inequalities; exact cut flux at eight N through 100. Two numerical seeds with residuals, no gap lower certificate.",
+      "evidence": [
+        "relaxed-endpoint-plan-md",
+        "relaxed-endpoint-proof-md",
+        "relaxed-endpoint-check-py",
+        "relaxed-endpoint-results-jsonl",
+        "relaxed-endpoint-spectral-jsonl",
+        "relaxed-endpoint-quotient-py",
+        "relaxed-endpoint-quotient-jsonl",
+        "relaxed-endpoint-audit-py",
+        "relaxed-endpoint-audit-jsonl",
+        "relaxed-endpoint-claim-ledger-md",
+        "relaxed-endpoint-report-md"
+      ],
+      "adjudications": [],
+      "dependencies": [
+        "HB-NONLOCAL-LIFT"
+      ],
+      "aliases": [
+        "bounded endpoint correction",
+        "loose functionality preserving",
+        "two-error single-gate refresh",
+        "logarithmic transposition correction"
+      ],
+      "regressions": "m0,m2,N2 and odd relaxed/empty exact fibers checked. Witness ((12),(13),(24),(34)) refutes strict descent and admits defects 2,2,0. Length-eight generation stopped without a result.",
+      "disagreements": "Uses the later constructive fixed-endpoint connectivity argument, not the historical unverified Hurwitz classification. Ordered-word symmetry quotient is distinct from the rejected unordered-support projection. No original-chain mixing result is upgraded.",
+      "limitations": "Fixed-length completeness extends N only, not m. Constant-budget rejection overhead is polynomial; the crude logarithmic-budget overhead is quasipolynomial. Appending a correction does not preserve exact-word uniformity. No independent proof certification.",
+      "view": "results",
+      "review_binding": "2026-10-26 same-author proofs, exhaustive checks and two independent counting implementations; provisional integration with no mathematical acceptance upgrade."
     }
   ],
   "coverage": [
@@ -1808,7 +3014,11 @@
         ".gitignore",
         "notes/codex-bwrap-apparmor-admin.md",
         "notes/codex-bwrap-apparmor-user.md",
-        "notes/codex-userns.apparmor"
+        "notes/codex-userns.apparmor",
+        "notes/genus-scaling-4h-run.md",
+        "notes/genus-scaling-4h-runbook.md",
+        "notes/noisy-bridge-viability-90m-run.md",
+        "notes/noisy-bridge-viability-90m-runbook.md"
       ],
       "disposition": "inventoried; out of mathematical scope",
       "read_depth": "project skill read; remaining operational material inventory-only",
@@ -1823,11 +3033,205 @@
         "research-campaigns",
         "experiments/20261025-identity-bridge-sampling-campaign"
       ],
-      "disposition": "prepared programme; research not launched",
+      "disposition": "historical campaign preparation retained; later scientific outputs await scoped map integration",
       "read_depth": "planning documents and existing map evidence",
       "limits": "Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.",
       "records": [],
       "branch_disposition": "pending: inspect exact campaign artifacts and reviews"
+    },
+    {
+      "id": "bridge-projections",
+      "title": "October 28 bridge projection and gate-replacement derivations",
+      "prefixes": [
+        "experiments/20261028-bridge-projections"
+      ],
+      "disposition": "foreground derivations and exact finite checks preserved; full mathematical map integration pending",
+      "read_depth": "inventory and report scope only in this merge; no new proof audit",
+      "limits": "Global and connected laws differ. Projection and replacement endpoint results are not full-word pseudorandomness or an all-length sampler theorem. Foreground proofs have no new independent certification from this inventory.",
+      "records": [],
+      "branch_disposition": "pending: trace exact statements and dependencies before adding accepted records"
+    },
+    {
+      "id": "noisy-bridge-viability",
+      "title": "October 29 sparse-noise bridge viability study",
+      "prefixes": [
+        "experiments/20261029-noisy-bridge-viability"
+      ],
+      "disposition": "completed scoped attack study preserved; full mathematical map integration pending",
+      "read_depth": "report and artifact inventory; no fresh proof review in this merge",
+      "limits": "The run rejects two specified construction families under matched replacement noise. Internal correlated reviews and exact diagnostics do not establish general impossibility, a secure construction, or sampling hardness. Frozen proofs and reviews remain authoritative.",
+      "records": [],
+      "branch_disposition": "pending: trace exact attack versions and reviews before promoting map records"
+    },
+    {
+      "id": "product-s3",
+      "title": "October 13 product-of-triples mixing investigation",
+      "prefixes": [
+        "experiments/20261013-product-s3-mixing"
+      ],
+      "disposition": "new author-complete theorem registered provisionally",
+      "read_depth": "all proof, script, raw output, plan, report and ledger read in the author session",
+      "limits": "Self-review and deterministic checks only; separate generator model; no independent referee or upgrade of the all-transposition frontier.",
+      "records": [
+        "ALT-PRODUCT-S3"
+      ],
+      "branch_disposition": "provisional: author-complete proof and exact checks; independent review pending"
+    },
+    {
+      "id": "cycle-walk",
+      "title": "October 13 single-cycle factorization walk",
+      "prefixes": [
+        "experiments/20261013-single-cycle-walk"
+      ],
+      "disposition": "local gap unresolved; exact reduction and coded benchmark provisionally mapped",
+      "read_depth": "proof, plan, script, report and ledger read; exact raw outputs machine-checked and diagnostic summaries inspected",
+      "limits": "Minimal full-cycle endpoint, separate from identity sampling. No local mixing theorem or independent referee. Literature model checked, original connectivity proof not re-audited.",
+      "records": [
+        "HB-CYCLE-MINIMAL"
+      ],
+      "branch_disposition": "provisional reduction: local mixing unresolved; same-author exact checks"
+    },
+    {
+      "id": "tree-slides",
+      "title": "October 14 labeled-tree slide comparison",
+      "prefixes": [
+        "experiments/20261014-tree-slides"
+      ],
+      "disposition": "author-complete auxiliary graph theorem provisionally registered",
+      "read_depth": "proof, plan, script, raw output, report and ledger read; exact assertions run through N=6; primary dependency theorem statements and kernel checked",
+      "limits": "Same-author mathematical work; no independent certification. Removing circuit functionality and order changes the model; no upgrade of circuit mixing claims.",
+      "records": [
+        "AUX-TREE-SLIDES"
+      ],
+      "branch_disposition": "provisional: graph proof complete; independent review pending; ordered-circuit lift unresolved"
+    },
+    {
+      "id": "nonlocal-graph-lift",
+      "title": "October 14 graph-selected Hurwitz lifts and decoded tree macros",
+      "prefixes": [
+        "experiments/20261014-111117-nonlocal-graph-lift"
+      ],
+      "disposition": "author-complete connectivity/comparison and derived macro theorem provisionally mapped",
+      "read_depth": "all eight artifacts read; exact enumeration and full paths run; earlier codec/tree proofs inspected",
+      "limits": "No independent review. Two different kernels are declared; general pair-chain gap remains unresolved.",
+      "records": [
+        "HB-NONLOCAL-LIFT",
+        "HB-TREE-MACRO"
+      ],
+      "branch_disposition": "provisional: proved scoped claims with exact checks; general mixing open"
+    },
+    {
+      "id": "cycle-excess-one",
+      "title": "October 14 nonminimal full-cycle proof attempt and separate tree refresh",
+      "prefixes": [
+        "experiments/20261014-133815-cycle-excess-one"
+      ],
+      "disposition": "scoped author proofs and obstruction provisionally mapped; original growing-N pair gap unresolved",
+      "read_depth": "all nine artifacts read; both exhaustive scripts run; primary counting normalization inspected",
+      "limits": "Same-author work only. Separate kernels and parameter regimes remain explicit; no independent certification or local-gap upgrade.",
+      "records": [
+        "HB-CYCLE-EXCESS",
+        "ALT-TREE-EXTRAS"
+      ],
+      "branch_disposition": "provisional results; original full-chain mixing unresolved"
+    },
+    {
+      "id": "adjacent-gap-proof",
+      "title": "October 15 actual adjacent K_A gap attempt",
+      "prefixes": [
+        "experiments/20261015-adjacent-gap-proof"
+      ],
+      "disposition": "short-block theorem and constant-factor reduction provisionally registered; main N+1 target unresolved",
+      "read_depth": "all six artifacts read; exact script run; projection/certificate calculations inspected; targeted finite-size source boundary and supersession checked",
+      "limits": "No independent review or general polynomial gap. Complete small endpoint classification is distinct from empirical finite-spectrum extrapolation.",
+      "records": [
+        "HB-ADJACENT-LOCAL"
+      ],
+      "branch_disposition": "provisional scoped proof progress; full-cycle N+1 polynomial mixing inconclusive"
+    },
+    {
+      "id": "all-pair-interval-gap",
+      "title": "October 15 arbitrary-position pair comparison and S3 Fourier proof",
+      "prefixes": [
+        "experiments/20261015-113600-all-pair-interval-gap"
+      ],
+      "disposition": "actual S3 pair gap and improved all-N comparison provisionally mapped; growing-N gap unresolved",
+      "read_depth": "six artifacts inspected; exact script completed; symbolic interval and stationary-path arguments checked by author",
+      "limits": "No independent review or growing-N inverse-polynomial gap. Finite checks supplement symbolic completeness arguments.",
+      "records": [
+        "HB-ALLPAIR-INTERVAL"
+      ],
+      "branch_disposition": "provisional scoped proof progress"
+    },
+    {
+      "id": "support-marginal-audit",
+      "title": "October 15 actual support marginal and cut-and-join transfer audit",
+      "prefixes": [
+        "experiments/20261015-122824-support-marginal-audit"
+      ],
+      "disposition": "correct weighted limit, lumpability counterexamples and conditional observable criterion provisionally mapped; growing-N marginal rate unresolved",
+      "read_depth": "all six new artifacts inspected; exact six-fiber audit executed; primary split-merge definitions checked for model scope",
+      "limits": "No independent review, all-N positive graph gap or circuit bottleneck. Graph failure of exact closure does not refute rapid marginal mixing.",
+      "records": [
+        "HB-SUPPORT-MARGINAL"
+      ],
+      "branch_disposition": "provisional obstruction to the automatic projection transfer; marginal conjecture unresolved"
+    },
+    {
+      "id": "parallel-hurwitz-layers",
+      "title": "October 15 parallel ternary Hurwitz matching layers",
+      "prefixes": [
+        "experiments/20261015-134144-parallel-hurwitz-layers"
+      ],
+      "disposition": "scoped comparisons and benchmarks provisionally mapped; full-cycle gap unresolved",
+      "read_depth": "six artifacts inspected, exact checks completed, primary theorem hypotheses checked",
+      "limits": "No independent review; pure orbit and augmented global scopes distinguished.",
+      "records": [
+        "HB-PARALLEL-LAYERS"
+      ],
+      "branch_disposition": "provisional scoped proof progress"
+    },
+    {
+      "id": "local-endpoint-blindness",
+      "title": "October 19 locally endpoint-blind initialization and prefix relaxation",
+      "prefixes": [
+        "experiments/20261019-140150-local-endpoint-blindness"
+      ],
+      "disposition": "scoped results and explicit conditional comparison provisionally mapped; identity-to-endpoint implication unresolved",
+      "read_depth": "all six artifacts read; deterministic exact checks completed; CLR primary statement and archived M10/referee scope checked",
+      "limits": "No independent referee and no original-kernel polynomial-gap theorem. Long-overlap strategy was already archived.",
+      "records": [
+        "HB-ENDPOINT-BLINDNESS"
+      ],
+      "branch_disposition": "provisional proof progress with unresolved transfer"
+    },
+    {
+      "id": "bridge-decorrelation-bootstrap",
+      "title": "October 20 conditional tail decorrelation and complexity bootstrap",
+      "prefixes": [
+        "experiments/20261020-073334-bridge-decorrelation-bootstrap"
+      ],
+      "disposition": "conditional recursive implication and exact stronger-constant refutation provisionally mapped; universal static premise unresolved",
+      "read_depth": "six current artifacts inspected; 101-record exact/numerical harness completed; prior length-three proof and overlap input traced; DS primary named Plancherel passage checked",
+      "limits": "No independent referee and no finite-to-asymptotic inference. Numerical estimates are not upper bounds.",
+      "records": [
+        "HB-DECORRELATION-BOOTSTRAP"
+      ],
+      "branch_disposition": "provisional conditional theorem and falsifiable static research target"
+    },
+    {
+      "id": "relaxed-endpoint-refresh",
+      "title": "October 26 bounded endpoint-error single-gate refresh",
+      "prefixes": [
+        "experiments/20261026-141337-relaxed-endpoint-refresh"
+      ],
+      "disposition": "scoped proofs, exact connectivity checks and conditional sampler reduction provisionally registered; general relaxed mixing unresolved",
+      "read_depth": "all eleven artifacts inspected; labeled graphs, full ordered-word quotient, separate count DP, exact cut flux and two numerical probes run",
+      "limits": "No independent referee or numerical gap lower certificate. All-N connectivity is restricted to even lengths at most six. No result from the stopped length-eight generation.",
+      "records": [
+        "ALT-RELAXED-ENDPOINT"
+      ],
+      "branch_disposition": "provisional partial proof progress; keep candidate, no original-chain decision"
     }
   ],
   "targets": [
@@ -2022,8 +3426,9 @@
       "**Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.",
       "**Current answer:** Several regimes have internally audited samplers, but there is no all-length theorem. Very short words can be sampled exactly; a sparse-length range has negligible-error samplers; sufficiently long words have a rank-recursive approximate sampler. The intermediate range remains open. Failed restricted samplers are not evidence of general sampling hardness.",
       "**Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.",
-      "**Evidence level:** This is a documentary consolidation of existing statements and scoped internal reviews, not a fresh proof audit. `accepted-inherited` records prior acceptance; same-model reviewers are correlated. The large heat-bath archive is only partly traced. See coverage before treating a branch as settled.",
-      "**Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum."
+      "**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 and single-cycle records and October 14 auxiliary tree-slide theorem add author arguments and exact checks, registered provisionally pending independent review. The single-cycle local gap remains unresolved. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.",
+      "**Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.",
+      "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing."
     ],
     "routes": {
       "Surviving Samplers": [
@@ -2079,6 +3484,48 @@
           "text": "The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this.",
           "record": "G-HEATBATH"
         }
+      ],
+      "Other Generator Families": [
+        {
+          "text": "For (S3)^k with literal within-triple transpositions, a new self-contained Hurwitz/square-refresh proof gives gap >=1/(200 k m^12). Counts vary; fixed triple partition. Author result with exact checks, provisionally registered pending independent review.",
+          "record": "ALT-PRODUCT-S3"
+        }
+      ],
+      "Endpoint Walk Benchmarks": [
+        {
+          "text": "For minimal factorizations of one full cycle, square refresh never acts and the Hurwitz kernel is comparable to two-factor heat bath. A separate Pr\u00fcfer-coordinate walk mixes rapidly; polynomial mixing of the adjacent walk remains unresolved here.",
+          "record": "HB-CYCLE-MINIMAL"
+        },
+        {
+          "text": "For full-cycle length N+1, the original pair hybrid remains open at growing N. S3 all-length mixing, a balanced-square branch improvement and a frozen exact-multigraph obstruction are proved in a new author report.",
+          "record": "HB-CYCLE-EXCESS"
+        },
+        {
+          "text": "A separate tree-plus-2h-extra-edges global refresh has an exact spanning-tree rejection correction. Its hybrid mixes in O_h(N^h log(1/epsilon)) completed attempts at fixed h, including explicit N+1 and N+3 bounds; it does not prove pair-slide mixing.",
+          "record": "ALT-TREE-EXTRAS"
+        },
+        {
+          "text": "For the actual adjacent K_A, a uniform-in-N length-three gap >=1/24 yields constant-factor comparison with exact triple heat bath at every length. A local correlation obstruction prevents the tested proof from extending to the full-cycle N+1 polynomial gap.",
+          "record": "HB-ADJACENT-LOCAL"
+        },
+        {
+          "text": "The actual arbitrary-position pair walk has gap between 1/(2m) and 3/(4m) in S3. For every N its Dirichlet form lies between (2/m) and 4m^2 times the adjacent form; growing-N full-cycle mixing remains unresolved.",
+          "record": "HB-ALLPAIR-INTERVAL"
+        },
+        {
+          "text": "The support marginal has compatible-order weights, but the actual all-pair walk does not close on support graphs, even for full-cycle N+1. Its averaged graph kernel does not describe the observed process beyond one step; polynomial growing-N marginal mixing remains unresolved.",
+          "record": "HB-SUPPORT-MARGINAL"
+        },
+        {
+          "text": "Independent ternary Hurwitz matching updates have layer gap between (1/48)min(m gamma,1) and (m/2)gamma on each orbit; nonidentity endpoints require a twisted seam. This gives a parallel speedup and a commuting benchmark, while growing-N full-cycle mixing remains unresolved.",
+          "record": "HB-PARALLEL-LAYERS"
+        }
+      ],
+      "Auxiliary Graph Walks": [
+        {
+          "text": "With circuit order and functionality discarded, labeled-tree edge slides have gap >=2/[(N-1)^2(N-2)^2], for both the natural wedge-weighted target and a uniform-tree correction. Author comparison proof, provisionally registered; no transfer to adjacent Hurwitz mixing.",
+          "record": "AUX-TREE-SLIDES"
+        }
       ]
     }
   },
@@ -2092,9 +3539,10 @@
     "auxiliary": "An explicitly named quotient, restricted, comparison or ideal chain; not interchangeable with the full K.",
     "other-generators": "Different generator libraries, including expander benchmarks; implementation and endpoint-conditioned sampling must be specified anew.",
     "crypto-gibbs": "Speculative computational hardness/pseudorandomness or different expected-length stationary targets.",
-    "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied."
+    "experiment": "Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied.",
+    "relaxed-endpoint": "Uniform length-m all-transposition words with N-cycles(eval(w))<=k, identity center; a different target from exact bridges. Kernel and correction budget must be declared."
   },
-  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Explicit read scopes follow below. No fresh literature search, research computation, proof verification, formal build or background run was conducted. No formalization branch was discovered. An unlaunched adaptive campaign programme was prepared on 2026-10-25; no mathematical acceptance changed.",
+  "coverage_scope": "Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The inherited October deltas retain their author-scoped provisional records and exact source hashes; this merge does not independently re-audit them. Historical campaign preparation from 2026-10-25 and later compatibility notes are preserved as dated operational records, not current launch authority. Foreground projection notes and the completed sparse-noise viability artifacts are inventoried with pending mathematical map integration; no new acceptance or all-length/global-security conclusion is inferred. No formalization branch was discovered. See integration-2026-10-29-current-state.md for merge scope and validation.",
   "conflicts": [
     {
       "id": "C-IRRED",
@@ -2249,6 +3697,77 @@
       "reason": "Global mass failure does not invalidate the exact small-support conditional decoder.",
       "evidence": [
         "quotient-audit"
+      ]
+    },
+    {
+      "from": "AUX-TREE-SLIDES",
+      "to": "HB-CYCLE-MINIMAL",
+      "type": "does-not-imply",
+      "reason": "Ordinary support forgetting is not injective or strongly lumpable, and graph-adjacent pairs need not be adjacent word slots. A quantitative circuit lift remains missing.",
+      "evidence": [
+        "tree-slides-proof",
+        "tree-slides-results"
+      ]
+    },
+    {
+      "from": "HB-TREE-MACRO",
+      "to": "HB-CYCLE-MINIMAL",
+      "type": "does-not-imply",
+      "reason": "A rapidly mixing decoded-tree macro kernel with polynomial-length Hurwitz implementations need not give polynomial stationary-flow congestion for the ordinary adjacent kernel.",
+      "evidence": [
+        "nonlocal-proof",
+        "nonlocal-ledger"
+      ]
+    },
+    {
+      "to": "HB-CYCLE-EXCESS",
+      "type": "does-not-imply",
+      "reason": "A fast global tree regeneration and polynomial-length local implementation do not supply a gap for the original edge-slide pair hybrid without a congestion comparison.",
+      "evidence": [
+        "excess-tree-proof",
+        "excess-proof",
+        "excess-ledger"
+      ],
+      "from": "ALT-TREE-EXTRAS"
+    },
+    {
+      "from": "HB-ADJACENT-LOCAL",
+      "to": "HB-CYCLE-EXCESS",
+      "type": "does-not-imply",
+      "reason": "A uniform length-three conditional gap and constant-factor comparison do not bound the growing-length N+1 gap; the tested local-to-global estimate fails at correlation 2/3.",
+      "evidence": [
+        "adjacent-gap-proof",
+        "adjacent-gap-ledger"
+      ]
+    },
+    {
+      "from": "HB-ALLPAIR-INTERVAL",
+      "to": "HB-CYCLE-EXCESS",
+      "type": "does-not-imply",
+      "reason": "The all-length S3 theorem fixes N=3, and the all-N polynomial comparison has no independent growing-N gap input.",
+      "evidence": [
+        "all-pair-interval-proof",
+        "all-pair-interval-ledger"
+      ]
+    },
+    {
+      "from": "HB-ENDPOINT-BLINDNESS",
+      "to": "G-HEATBATH",
+      "type": "does-not-imply",
+      "reason": "Local endpoint blindness and a fast ideal block kernel do not provide the arbitrary-endpoint local block-gap premise in the displayed comparison. The original-chain all-endpoint implication remains open.",
+      "evidence": [
+        "endpoint-blindness-proof",
+        "endpoint-blindness-ledger"
+      ]
+    },
+    {
+      "from": "HB-DECORRELATION-BOOTSTRAP",
+      "to": "G-HEATBATH",
+      "type": "does-not-imply",
+      "reason": "The original local walk would mix polynomially under the stated static decorrelation premise, but that premise is unresolved. Finite certificates and the conditional implication alone do not settle the global gap.",
+      "evidence": [
+        "decorrelation-bootstrap-proof",
+        "decorrelation-bootstrap-ledger"
       ]
     }
   ],
@@ -2428,6 +3947,38 @@
       "locator": "Theorem 1; archived M15 application and L-0022",
       "transfer": "Stationary-flow projection and rejected-exit restriction gaps combine; half-laziness gives gap(K)>=bar_gap*min_gap/3. Reducible restrictions have zero gap; never renormalize away exits.",
       "review_scope": "Documentary translation from archived report/ledger; full external theorem not reread here."
+    },
+    {
+      "id": "E-ALOV-DOWNUP",
+      "citation": "Nima Anari, Kuikui Liu, Shayan Oveis Gharan and Cynthia Vinzant, Log-Concave Polynomials II: High-Dimensional Walks and an FPRAS for Counting Bases of a Matroid, arXiv:1811.01816v3",
+      "url": "https://arxiv.org/pdf/1811.01816v3",
+      "locator": "Definition of M_mu and Theorem 1.1 on PDF p.2; Theorem 5.2 on PDF p.23",
+      "transfer": "Unit-weight graphic matroid of K_N has rank N-1. Delete a uniform tree edge and reinsert a uniform cross-component edge including the old edge; gap at least 1/(N-1), without added laziness. Used only for AUX-TREE-SLIDES.",
+      "review_scope": "Primary theorem statements and exact kernel specialization checked on 2026-10-14; external theorem invoked, not reproved."
+    },
+    {
+      "id": "E-GJV-CYCLE",
+      "citation": "I. P. Goulden, D. M. Jackson and R. Vakil, Towards the geometry of double Hurwitz numbers, January 19, 2005 primary preprint",
+      "url": "https://math.stanford.edu/~vakil/files/Djan2005.pdf",
+      "locator": "Proposition 1.1 (Hurwitz axioms); Theorem 3.1, equation (21)",
+      "transfer": "Set alpha=(N), beta=(1^N), r=N-1+2h. Their H=(N-1)!F_h counts all full-cycle endpoints; reverse ordered factors for the project convention. Supplies scalar fixed-cycle counts for ALT-TREE-EXTRAS and HB-CYCLE-EXCESS, not a mixing theorem.",
+      "review_scope": "Primary statements, factor-order equation, transitivity condition, automorphism prefactor and c_i specialization checked in the 2026-10-14 author session. The count theorem is imported, not reproved."
+    },
+    {
+      "id": "E-AAV-PARALLEL",
+      "citation": "Anshu, Arad and Vidick, A simple proof of the detectability lemma and spectral gap amplification, arXiv:1602.01210v3",
+      "url": "https://arxiv.org/pdf/1602.01210v3",
+      "locator": "Lemma 2 and Corollary 3; Section III arbitrary-projector formulation",
+      "transfer": "Local orbit projections on uniform L2 commute except with two neighbors. Bound the matching projection product using the full unnormalized gap, then compare actual layers.",
+      "review_scope": "Primary hypotheses, noncommutation parameter and normalization checked by author 2026-10-15; external theorem invoked, not reproved."
+    },
+    {
+      "id": "E-CLR-PARALLEL",
+      "citation": "Caputo, Liggett and Richthammer, Proof of Aldous spectral gap conjecture, arXiv:0906.1238v4",
+      "url": "https://arxiv.org/pdf/0906.1238v4",
+      "locator": "Theorem 1.1 and Section 1.2 generators",
+      "transfer": "Minimal commuting endpoints give interchange on the position cycle. Unit-rate gap 4 sin^2(pi/m), multiplied by 2/(3m), supplies gamma_seq.",
+      "review_scope": "Primary theorem, zero off-cycle weights and edge-rate normalization checked 2026-10-15. Separate from the older dense-endpoint import."
     }
   ],
   "policy_definitions": [

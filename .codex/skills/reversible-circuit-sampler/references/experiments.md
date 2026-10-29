@@ -17,6 +17,17 @@ S_4, m=4: 120 identity words split into 13 Hurwitz components.
 S_4, m=6: 3936 identity words split into 17 Hurwitz components.
 ```
 
+## Relaxed Endpoint Targets
+
+For an intentionally relaxed endpoint law, check its declared correction
+bound instead of requiring every output to be identity. For transposition
+words, endpoint defect `N - number_of_cycles` has the parity of the word
+length. At even lengths, budgets 0 and 1 are identical; budget 2 already
+allows every endpoint in S3 and S4. Retain the standard smoke cases, but
+include a genuinely constrained case such as S5,m4,k2 before interpreting
+them as evidence about the relaxation. Restoring exact functionality by
+appending a correction does not itself preserve a uniform circuit law.
+
 ## S_10 Testing
 
 `S_10` has `10! = 3628800` elements and 45 transpositions. Direct permutation arithmetic is fine. Full word enumeration is not fine for moderate `m`.

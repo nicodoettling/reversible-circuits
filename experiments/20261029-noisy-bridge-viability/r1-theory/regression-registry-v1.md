@@ -1,0 +1,16 @@
+# Theory regressions and retained routes v1
+
+1. **T0-LENGTH:** Removing L>=2r is false. For N=3,L=r=6,k=0, the sole six-window is the whole identity bridge, so its null probability is1. But p6(id)=p12(id)=1/3 and beta6=1/3. Both the proof and checker retain this counterexample. Current T0 excludes it by hypothesis.
+2. **T0-N2:** N=2 has a single gate and a single word at each even length; every replacement is identical. beta6=1; no attack advantage exists. The numerical corollary requires N>=1000, and finite tests include N2.
+3. **T0-FULLNOISE:** At k=L, Q_L(D)=mu^tensor L for every source. H<=0, so T0's attack premise fails. The exact local channel masks verify that replacing every coordinate produces a constant iid tensor.
+4. **T0-BOUNDARY:** L0 admits only empty word/k0; L2 and L6 fall outside the nontrivial six-window theorem; oddL is infeasible by sign. These are mathematical boundary classifications, not invented experiment outputs.
+5. **PAIR-SMOKE:** The exact k-subset formula alpha=(L-k)(L-k-1)/(L(L-1)) was checked at all k on global S3L4,S4L4,S4L6 and N2L4 pair marginals. It is a regression, not the new attack.
+6. **CP-1:** The inherited cached-prefix model has joint selected-hit probability21/2000 greater than gamma²=1/100, while the later residual posterior21/221 remains below gamma=1/10. The checker rejects the false product bound. T0 multiplies no window marginals; its only repeated-query product uses genuinely independent fresh reference replies conditional on fixed setup.
+7. **SMALL-REFERENCE:** Literal enumeration agrees with global bridge counts27/120/3936; connected counts are not substituted. Length12 projection checks enumerate tuples and exact completion counts, not all length12 words.
+8. **C2-NOISE:** The support upper bound may be strict when a replacement removes an old label or redraws an old gate. The proof uses <=, never equality.
+9. **C2-LARGE-NOISE:** At k=L, its h=5m+1 exceeds possible word support4m, forcing a universal event and R=1. A nontrivial bound here would refute the claimed derivation; the authored statement handles it correctly.
+10. **C2-COUNT-DOMAIN:** The lower count D(N,m) is used only for N>=2m. S3L4 and S4L6 construction checks lie outside this lower-count hypothesis and cannot validate it.
+
+Retained route notes: a generic Cayley-graph canonical-path argument could produce a loose polynomial dense smoothing bound, but it was not developed into an imported lemma or used in T0. The coordinator suggested even-return moment ratios, which removed that need. No mixing theorem is a dependency. A test for existence of any null window alone incurs an unhelpful large-L union bound; counting windows against a linear deterministic budget avoids this. Full or nonlocal scrambling can remove the local witness premise; its security remains unresolved. The planted-support attack is separate and handles C2 even after unrestricted numbers of Hurwitz moves.
+
+The early theory message to the construction role preceded learning that its own assignment also withheld r1 proofs; that role reported the exposure. All later mutual review is explicitly nonblind. The r3 blind thread was not sent this proof by this role. Same-model reviews remain correlated regardless.

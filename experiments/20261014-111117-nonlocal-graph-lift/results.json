@@ -1,0 +1,206 @@
+{
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "commit": "9a7ca2119172f87b15e9f85e28cee6dc91af188f",
+  "command": "python3 -B experiments/20261014-111117-nonlocal-graph-lift/check.py",
+  "seeds": "none: exhaustive deterministic enumeration",
+  "normal_forms": [
+    {
+      "N": 2,
+      "m": 0,
+      "words": 1,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 2,
+      "m": 1,
+      "words": 1,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 2,
+      "m": 2,
+      "words": 1,
+      "max_moves_to_normal_form": 1
+    },
+    {
+      "N": 2,
+      "m": 3,
+      "words": 1,
+      "max_moves_to_normal_form": 3
+    },
+    {
+      "N": 2,
+      "m": 4,
+      "words": 1,
+      "max_moves_to_normal_form": 6
+    },
+    {
+      "N": 2,
+      "m": 5,
+      "words": 1,
+      "max_moves_to_normal_form": 10
+    },
+    {
+      "N": 2,
+      "m": 6,
+      "words": 1,
+      "max_moves_to_normal_form": 15
+    },
+    {
+      "N": 3,
+      "m": 0,
+      "words": 1,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 3,
+      "m": 1,
+      "words": 3,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 3,
+      "m": 2,
+      "words": 9,
+      "max_moves_to_normal_form": 1
+    },
+    {
+      "N": 3,
+      "m": 3,
+      "words": 27,
+      "max_moves_to_normal_form": 5
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "words": 81,
+      "max_moves_to_normal_form": 8
+    },
+    {
+      "N": 3,
+      "m": 5,
+      "words": 243,
+      "max_moves_to_normal_form": 14
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "words": 729,
+      "max_moves_to_normal_form": 19
+    },
+    {
+      "N": 4,
+      "m": 0,
+      "words": 1,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 4,
+      "m": 1,
+      "words": 6,
+      "max_moves_to_normal_form": 0
+    },
+    {
+      "N": 4,
+      "m": 2,
+      "words": 36,
+      "max_moves_to_normal_form": 1
+    },
+    {
+      "N": 4,
+      "m": 3,
+      "words": 216,
+      "max_moves_to_normal_form": 5
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "words": 1296,
+      "max_moves_to_normal_form": 10
+    },
+    {
+      "N": 4,
+      "m": 5,
+      "words": 7776,
+      "max_moves_to_normal_form": 14
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "words": 46656,
+      "max_moves_to_normal_form": 23
+    },
+    {
+      "N": 5,
+      "m": 4,
+      "words": 10000,
+      "max_moves_to_normal_form": 10
+    }
+  ],
+  "kernels": [
+    {
+      "N": 3,
+      "m": 4,
+      "identity_only": false,
+      "states": 81,
+      "endpoint_fibers": 3,
+      "components": 3,
+      "component_sizes": [
+        27,
+        27,
+        27
+      ],
+      "checked_channels": 2430,
+      "endpoint_and_path_preservation": true,
+      "integer_detailed_balance": true,
+      "all_uniform_observables_stationary": true
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "identity_only": false,
+      "states": 1296,
+      "endpoint_fibers": 12,
+      "components": 12,
+      "component_sizes": [
+        104,
+        104,
+        104,
+        108,
+        108,
+        108,
+        108,
+        108,
+        108,
+        108,
+        108,
+        120
+      ],
+      "checked_channels": 62208,
+      "endpoint_and_path_preservation": true,
+      "integer_detailed_balance": true,
+      "all_uniform_observables_stationary": true
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "identity_only": true,
+      "states": 3936,
+      "endpoint_fibers": 1,
+      "components": 1,
+      "component_sizes": [
+        3936
+      ],
+      "checked_channels": 472320,
+      "endpoint_and_path_preservation": true,
+      "integer_detailed_balance": true,
+      "all_uniform_observables_stationary": true
+    }
+  ],
+  "obstructions": {
+    "incident_only_frozen_two_disjoint_gates": true,
+    "naive_nonadjacent_square_replacement_fails": true
+  },
+  "status": "all exact checks passed; no asymptotic inference from enumeration"
+}

@@ -5181,7 +5181,7 @@
     ".codex/skills/reversible-circuit-sampler/references/experiments.md": {
       "family": "operations",
       "mode": "research",
-      "sha256": "fc0d9c6533e2c5e288d98183958b379fb4b7cff5082c4453b2bd67ca456c4514"
+      "sha256": "0f1989fd81253acfbebae69b0a1c75c146768d89449d9b5d39dd7dc6c32593de"
     },
     ".codex/skills/reversible-circuit-sampler/references/sampling-problem.md": {
       "family": "operations",
@@ -25008,6 +25008,886 @@
       "mode": "research",
       "sha256": "84aa3c80da344d079f25ff487e9d796def883542c3cea4cb06098883005edfe1"
     },
+    "experiments/20261013-product-s3-mixing/check.py": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "47f3e33d391dd0a8ce5250a244067b858872d6543cbf895772e8391b34828157"
+    },
+    "experiments/20261013-product-s3-mixing/claim_ledger.md": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "95ac6ad3f572077501aa49eda003abcf3e5ecab90e0e95774077edad1160e302"
+    },
+    "experiments/20261013-product-s3-mixing/plan.md": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "36064da2a9ac22e2716abe9d335259ce87e8faca092ef21906520572666e2784"
+    },
+    "experiments/20261013-product-s3-mixing/proof.md": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "3424dfd43818331ddc029735c568582030f74aa77836e4f3aafb6bc2c36af22a"
+    },
+    "experiments/20261013-product-s3-mixing/report.md": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "79f1cbe3f9bd9f16005d654f39c5a94f01fdb381b75c48d7371d6d7a07b5a67f"
+    },
+    "experiments/20261013-product-s3-mixing/results.json": {
+      "family": "product-s3",
+      "mode": "research",
+      "sha256": "9a4ed0534b362c9234a53f44cbbe745f5c66807c94aa1c8d5e27025ba0800d69"
+    },
+    "experiments/20261013-single-cycle-walk/check.py": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "7777f4dcae1183e43ca3398460ef38ffa367d07334555f33b42bca1083b9e2f3"
+    },
+    "experiments/20261013-single-cycle-walk/claim_ledger.md": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "b081ce5fa927f0d592a468b9b9207795faaf2cf83d0967472a302726ed8bae60"
+    },
+    "experiments/20261013-single-cycle-walk/plan.md": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "28e617183ad6cc29a1697badfe028975c4d8bf167cf2a712f2b47adbfb2c15ba"
+    },
+    "experiments/20261013-single-cycle-walk/proof.md": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "9fec65e62cf007b1a030f836c978859ab173accd24bb30e673620eff0d0a3e00"
+    },
+    "experiments/20261013-single-cycle-walk/report.md": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "4b681029c8d724afda981a2e34919877e403be4948301d0745b6618ded4f44a8"
+    },
+    "experiments/20261013-single-cycle-walk/results.json": {
+      "family": "cycle-walk",
+      "mode": "research",
+      "sha256": "d16039a06a4a2a561c5286c7dee57260093ba48abe288ddb7b4ef0fd7649dbf9"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/check.py": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "a144cd522d70eed5c3296e6eb8a227fbe54523437d434f98815a0ec496d7dfd3"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/claim_ledger.md": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "3ebdb7bbc1d8426b7f88f91d67cf15becde9958a59470a6963b21337bbf04745"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/plan.md": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "8b01aefcdbe2683d54c8ea7cc412fe2a1cfb7f78e10b9799b9ed27c1c90fd294"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/proof.md": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "1141e358b0ba9dc5b3933b53de2cb5d540578df17747bf8778a3555d4b2fd5b4"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/report.md": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "0ea5662cb387f3c7f27bf245870541172fa701113487a4aed20e6701b00d1994"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/results.json": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "a0bbb3bdfebbd1ace2a542f9fc83404005550d9534c4535042b416a89a0d049e"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/tree_check.py": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "278ca1528438fb08e4daa5667b67e491eccfd882d6d8a41f8418e90043222421"
+    },
+    "experiments/20261014-111117-nonlocal-graph-lift/tree_results.json": {
+      "family": "nonlocal-graph-lift",
+      "mode": "research",
+      "sha256": "25f896722e50b97cac8bea65f3e8c8718bb9a7be3748143cca62d8a90827ffb3"
+    },
+    "experiments/20261014-133815-cycle-excess-one/check.py": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "43bce043a835de1831cd2fad4398d847798c031c243c7eaf5b85094a74fd9c27"
+    },
+    "experiments/20261014-133815-cycle-excess-one/claim_ledger.md": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "eaff7d1451fa7e33bb7dd85896fce8266765fc4c19ac10a22565292605d84c6f"
+    },
+    "experiments/20261014-133815-cycle-excess-one/plan.md": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "74802b4b13a680698f4ba27ffcd0394e84883febc74b9c2a8f2354f32a2b3d8c"
+    },
+    "experiments/20261014-133815-cycle-excess-one/proof.md": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "cd6d90387df714dac425428c31ad4009f8aa4ad7370ce432199bc07da5a020dd"
+    },
+    "experiments/20261014-133815-cycle-excess-one/report.md": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "b7d08ba2bd37db28a849c557b26196cc1a83be09f3e66b8111f2364b4da19b50"
+    },
+    "experiments/20261014-133815-cycle-excess-one/results.json": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "5a9b37554f6acb5c56ae4cc8f19598427e641dd5694f84e0f2bc5493decebe8f"
+    },
+    "experiments/20261014-133815-cycle-excess-one/tree_jump_check.py": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "c460db9bc80faa8e5338f8fe3821a5d34516bc23f27685f2d5770cf89ece4d2e"
+    },
+    "experiments/20261014-133815-cycle-excess-one/tree_jump_proof.md": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "23d328385f050c5a1f0e05253ad8ba074fca75e7933f695503a15846fd20ad7f"
+    },
+    "experiments/20261014-133815-cycle-excess-one/tree_jump_results.json": {
+      "family": "cycle-excess-one",
+      "mode": "research",
+      "sha256": "24b8d0f2b45981895dc91be74549d23e35749c58bc525f6a0bd082621177efd4"
+    },
+    "experiments/20261014-tree-slides/check.py": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "c76d6aedd82e91b1b6679801336f606f777e5c204a567d1ad918bb02061af212"
+    },
+    "experiments/20261014-tree-slides/claim_ledger.md": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "8e9059728e10f9498d678a4cc8603ec29fdc259224d54e765082a4129274974d"
+    },
+    "experiments/20261014-tree-slides/plan.md": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "ad37c61b4d60705bfd190242dad00a9cf99bcc096b18897fa5ca815c391f2979"
+    },
+    "experiments/20261014-tree-slides/proof.md": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "2b0d35d8cc2be862c0d46ed0315a9c22dbcd8ce3ca00f9ac6d7715bde4a40a68"
+    },
+    "experiments/20261014-tree-slides/report.md": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "38c65ab28ce55d1b321eb47d92494b45f67891437a2da9ed72fc020a8c9d96c8"
+    },
+    "experiments/20261014-tree-slides/results.json": {
+      "family": "tree-slides",
+      "mode": "research",
+      "sha256": "cdc78365dc55f4464c4e5171e5d02d1e771bee2946913e0a47c202a57e8baf5b"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/check.py": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "1e6b1d0100c9d316a67a8cb848902bb0af63ee220fbae13557096c784921ae92"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/claim_ledger.md": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "f66eb87c49f59005686f7db08203e801315ce5e80248f07fe0cfde1d3aa82bb6"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/plan.md": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "75366db8536f44ef6817a51049acc47e24f49688a0a64035eedd0b933806ae49"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/proof.md": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "bdbe27db6be6f89dd227425eb793d0aa7869421dd55862d3c87a09304b781a1d"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/report.md": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "39899ad6264cdcc18f309120e8f23b68c4334b7f4c8c2b42a0cf6ac04f360d18"
+    },
+    "experiments/20261015-113600-all-pair-interval-gap/results.jsonl": {
+      "family": "all-pair-interval-gap",
+      "mode": "research",
+      "sha256": "2b0fa5c769143759eaae0c66f9990345768f7dfd9b8f7205c07ae7512171a2be"
+    },
+    "experiments/20261015-122824-support-marginal-audit/check.py": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "53276eaacdf4a49ee684e90fc1c0e01fa43c8a325c5f6dcc772a0a8e24f169bc"
+    },
+    "experiments/20261015-122824-support-marginal-audit/claim_ledger.md": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "c8b0286dd4ec29d046d45a835df5d5be46ba316e6f84a1a6a114934ca738b5af"
+    },
+    "experiments/20261015-122824-support-marginal-audit/plan.md": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "3a0272984ead141a65790344128fdfc021a6daa558507a1e2bb14fffb3d3e22e"
+    },
+    "experiments/20261015-122824-support-marginal-audit/proof.md": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "b5fa342412699d47dc3e56dd0d26f24f8a4b51f1541014f01598a58b2a48cc2a"
+    },
+    "experiments/20261015-122824-support-marginal-audit/report.md": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "64f56da12cdac2f196afa2e116a3bc165c6f6c8719eab21bdc584f1a49f91ea7"
+    },
+    "experiments/20261015-122824-support-marginal-audit/results.jsonl": {
+      "family": "support-marginal-audit",
+      "mode": "research",
+      "sha256": "2dd0db68b72b2f118f62141073ad8a9479d6952f608275e045488c5072925b2e"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/check.py": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "bbe67373ca79c408092ff86813db43903ad45a8615acf35b395694566478c95d"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/claim_ledger.md": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "38f29cdd3f0a4a9b30488d15ef5094cb10f6ec11223517c7b7ba8d084d257d6c"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/plan.md": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "5538065c2cbc1a05ca1c81e8f3b42cb7647bbb47145a56bab87e18710e3a726e"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/proof.md": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "242a48fb3b06bce516482f318cb5d2d7fc29cf241c820018212a08d73530261a"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/report.md": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "89f2c86341ab2e9aa6d12db790a6898535ebe7c6c2bc330908cb1234e2c778e3"
+    },
+    "experiments/20261015-134144-parallel-hurwitz-layers/results.jsonl": {
+      "family": "parallel-hurwitz-layers",
+      "mode": "research",
+      "sha256": "c7e075c112a37edad9d6af9e698f5567a0ad55debf0f965a4d1c2acef18c931a"
+    },
+    "experiments/20261015-adjacent-gap-proof/check.py": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "73786fb9e9510804a74521741bc1eefaed69d87ba913e82dc189ad4ebd0ea58d"
+    },
+    "experiments/20261015-adjacent-gap-proof/claim_ledger.md": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "2e8d1f8922fd1310b0b1ba30c44a31a585d1385322e469197fa5f5c2e59ee760"
+    },
+    "experiments/20261015-adjacent-gap-proof/plan.md": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "4934167ccba2308a4d61d28e738e7b97465fafb87efc4419de9cf17579b31809"
+    },
+    "experiments/20261015-adjacent-gap-proof/proof.md": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "16f1dc0fc2d68ee01487e190912452ed1b767cc2220e143f841718cbe2588374"
+    },
+    "experiments/20261015-adjacent-gap-proof/report.md": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "f90ff8ca34664ae435d9cd874b9e302cfc3988e364f64b9316792f87dc1bd0ae"
+    },
+    "experiments/20261015-adjacent-gap-proof/results.json": {
+      "family": "adjacent-gap-proof",
+      "mode": "research",
+      "sha256": "6e9b7caaaf51123c3ffcf2721f9963eff302664d2d2b5c4674e60936575f8910"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/check.py": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "3cf555ecc16ed1a5554f009271c551aad2739bfa019d5b97a2803d306cc204ff"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/claim_ledger.md": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "dfc71020433f2d79ca20e07fcb7ad28c5e41dc35ef9c3eb550f05e916e75f45f"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/plan.md": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "5bc366a52f832ec497e1fc58d243eddd040b230603906138a0d26cf4cce843c1"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/proof.md": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "7fc8424de4e1e46f77820fd4db5ae5f9248c5cfaf9133da24b9b509cd7d4be65"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/report.md": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "31dfcbb8b988a51a49456804042160af54865959bafc7f6b22b50629c657fcd3"
+    },
+    "experiments/20261019-140150-local-endpoint-blindness/results.jsonl": {
+      "family": "local-endpoint-blindness",
+      "mode": "research",
+      "sha256": "ff856ea26bbb6bfb8c936961d77ff3d89c71cf7f5f0dc07347020e7a3b36837e"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/check.py": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "db73dfc3d817a9397af26352ed0b9bf645262cf1f8169cab8439a9b67fd4e9f1"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/claim_ledger.md": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "fe0a17e8a56cd3dbbe3281b615c2c3f76e28cb9b69333190dd829f8e45a422e6"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/plan.md": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "82dd32efc0b7d5d0280e9a36084ec6a3ea418680cd14be7c3b1b8cefc21e3427"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/proof.md": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "e2f2ae03b7cd8b45e679a21553469c53478387ba3f041c1163e6b0fb1e06ff5e"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/report.md": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "694f3529d4c18288021ee948c87093961a7d73757421328e52f34316535257e9"
+    },
+    "experiments/20261020-073334-bridge-decorrelation-bootstrap/results.jsonl": {
+      "family": "bridge-decorrelation-bootstrap",
+      "mode": "research",
+      "sha256": "306868626c636bd15373ecbb9439a3da0d4aece4c64e40b7c5d7c4fdd88d3fe1"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/audit.jsonl": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "318279afbe8bf82cd906e52a8d7ff58ab04534f5ddd87c21925fe1b9a38958c7"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/audit.py": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "d8eceba97f835f4fb6a836ec011a151901a733cf9ffca3a223251172a2cb4b72"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/check.py": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "dfb73ab58695051b3e67b67621e211fed1658bf811f0a06d405a9b2554894bfe"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/claim_ledger.md": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "b48edb17fd5b7cec45923db7f8b1833a0e0101be2bef9f0d04e0ee07766ed2b3"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/plan.md": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "2d24844387c30f33a292963c8ac4d3e651e65c731bd35251264faf145cc45615"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/proof.md": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "6eb04bb050b2fa05ce8fc46be6e4849bfdc2a65b2732f42b41c3b877c64729fc"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.jsonl": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "5945dedafa2c7d49022e299fd0c7d31ac6db969dbb51cbdcbd0fff844f188c82"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/quotient.py": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "f094a62e8ea7e69c6381130c27c00e7c48eccbca69c1d0a46b06f53877416fd9"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/report.md": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "18e722470926f45438079473e7434307d378c1ae0a7e168a327a1843496f4a27"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/results.jsonl": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "aa4e7674dc653ec10bb5c0c974edd68d2854087ff1e3d7b1b6407a52128bc6fe"
+    },
+    "experiments/20261026-141337-relaxed-endpoint-refresh/spectral.jsonl": {
+      "family": "relaxed-endpoint-refresh",
+      "mode": "research",
+      "sha256": "e34674e5e13bc9ec9845b6bfe5627e7cd138416e6d8164888c2705f52cb9dcc0"
+    },
+    "experiments/20261028-bridge-projections/check.py": {
+      "family": "bridge-projections",
+      "mode": "research",
+      "sha256": "b437551661b231834ab4e2c65205c836f3b9d80ac94ed3766cf9b9b30647dc7c"
+    },
+    "experiments/20261028-bridge-projections/plan.md": {
+      "family": "bridge-projections",
+      "mode": "research",
+      "sha256": "de09cbaac4447f42739db27a124ff0d3af3f4edada03a9fc5c7f3f787e164dda"
+    },
+    "experiments/20261028-bridge-projections/report.md": {
+      "family": "bridge-projections",
+      "mode": "research",
+      "sha256": "9c26747f70bf5537c45263e739fe9dc0cbafa12c84a98e4449a59719093e5805"
+    },
+    "experiments/20261028-bridge-projections/results.json": {
+      "family": "bridge-projections",
+      "mode": "research",
+      "sha256": "5a2f9e0e2b7c9f9368509671798756ddd37bccff559d8338ea9aee9ec801f6c6"
+    },
+    "experiments/20261029-noisy-bridge-viability/artifact-manifest-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "d0b380034801afd14c753ddf02ab107e2b6dc35a49798ca81189994f33e2d77d"
+    },
+    "experiments/20261029-noisy-bridge-viability/artifact-validation-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "a007796e111249189801e8942d16687af9d9f184eeb306dad239f5e12b1b7433"
+    },
+    "experiments/20261029-noisy-bridge-viability/changed-files-v1.txt": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "bbf5736f6886d74e28e93b1c02d3d60a126c572de728094fb47cc3554cd8622f"
+    },
+    "experiments/20261029-noisy-bridge-viability/claim-ledger-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "51f4b04891f0aa623d67cf054d6500ce6c001c943be2f98ee2af4ab70d6ad01b"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/bounded-smoke-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "e2d262349fe28851f68bda0d886f8879207bc075da28ba2231ad244cceed486e"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "fdb1c68b040c32427b73173753e3414291f4f823230d646c1acdab81ae59e87a"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/final-decisive-v1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "1b33ad99ba79c15adc1f6c3411ca1d819e2f3cafafdd0145635889b12565a586"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/job-registry.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ac444b7bb12bac4aa6b771c92447a2efc1f61d8357502e76f011868ba220ae92"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ecaa79af7f661f27df560e700ab308efb7ee0c6e703725f0ba566aba049df274"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v2.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "5f2218e69ab89b67fc34ef0d736ed80f77bd8ca9efbca13b80cb7183af5249b5"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-proof-v3.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ca4e2ce94108182d111add869078a9db3507438d08281b0611617d8cac002ae1"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "bd0a5d3bbd88abd8c07fd32af9e16d51794022c7f3ee7cd2fa6ece569180ed6c"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v2.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "d6221e67e61f96fcd9f83b9937cbf0fbf0acc517eb1c73db35af010bf2d24d42"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/local-channel-statement-v3.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "439f7744357ca1e78a582b427143cedbc33f8f2058cad209038c5aae9708c7ca"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/regressions-report-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "0b1946754eb44a2d00c13caf49db5341057a5ca02e0959d85a6cbdc29f8f52ef"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "92ed9ec146f4b7352b32ccdbb6d8b5b838b8b859353777255d578abaf6169fe4"
+    },
+    "experiments/20261029-noisy-bridge-viability/coordinator/regressions-v1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "037a43b42fbfefbb8f31049d571a1959eb16f9c07c0955338fbb8226aad9dc1a"
+    },
+    "experiments/20261029-noisy-bridge-viability/model-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "5ae652793061de15cea357872b2037b6e3786ccb9432d49658e1ccc4188faf61"
+    },
+    "experiments/20261029-noisy-bridge-viability/plan.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "b9f57bf0e02ef71b856c8b4251f9e30821a72f07fab7345714547225753acd0a"
+    },
+    "experiments/20261029-noisy-bridge-viability/proof-graph-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "6652eb38311884f467a5fde6c32e858c0fd13865ced104ef90394255030e32ec"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/TASK.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "32766aa95a27fd3d5884f4b4bda9ef111a45be99ff9d2d73de28154dff48ef89"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/check-T0-v1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "99e21554ece37b4824964bd6720a820e6d8cbd6cdf77cefcf7b3bde973a3df1c"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/checkpoint-final-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "546ae89dcf24f472b7b9199bd6e8e52fe38049feca26e31f1ad0ad049f576de7"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/checkpoint-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "63fc6849b1a174231d24b7056b5295af6082f8013dc32a581734382809a03f9c"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/claim-ledger-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "4baea983cf9c0edcfbb5830b2682b012d43752bd32f44bb06190bd54688aaf08"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-correction-recheck-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "d6ee9555bd365cb8c940349d2955a088330840751d8cd76abaecf1b46626140f"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-inputs-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "10a4af39283f9a9a8e9f7690e6c0c646700edf19032fa886811d813faef5f5ca"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/delivery-audit-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ede908c8c955852a9cefe4c9c4793322f86c41a7eb94d7f4596749069a2fbbe0"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/finish-addendum-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "13daf388f4fe3836ec3d69242e6311aa18e83f1f434e2b8cf118ad777e49db9b"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/plan.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "b3663b9fdd80f02b33718dd7eb65581159d4937690c2adba54df34a773a17c5e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/proof-T0.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "447ad895ad2eede2a5d428d657c79a6bc319f21b960663a9a22d3d948b242ed7"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/regression-registry-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "62f60c9080d41b58a4a41a6eed188bce80a7218b3b662f7b78512f2eda83218f"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/report.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "997a65df27faa836e0f1864c678f3757e116d0a82705ff340b5fdbed817b4cde"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/results-T0-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "7354c9d9c0f96997b61ec468f8a545f7f057425f6044031914d7ed3002cd015e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-inputs-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "3e2d2cc0627ac38e58e3d029c29a4101b6e32fdfedcdca45ab9e0e200a0d7cfc"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/review-C2-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "a9d80f33e36ca8b1b16fd933ea47b674a6d779ba495f425857acf72f65e21fee"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/role-finish-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "8301255eba0a281c01c40ec9f639f6de7dfb96d18ca1c79c8de35127c8517498"
+    },
+    "experiments/20261029-noisy-bridge-viability/r1-theory/statement-T0.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "6ce9be16da02a1e1ce85fe464035f2e8b3f985188fc9f585276eb357fdb5927b"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/FINISH-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "1930e3e148af9ffefe146de39a17dba324159ca35cab073c06d0dafd37f1bb86"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/FINISH-v2.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "3c95b5d2174ad0745a606f534ae441d23e0a9622f65d937b56422d1f6b92c78d"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/LC1-v2-review-inputs-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "5cba7d88be0fa3a1bf743292279f2aa67de716e79ebca9430731c977598d0d54"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/LC1-v3-review-inputs-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "8e406a8598cd38787f6a257f181144631e7dc80a2175a4d62453a912ed5c8448"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/T0-review-inputs-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "80d7c35f55acc2a156b8d07c4dd588e3c3257084771d15e090773ef9ae3f92d2"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/TASK.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "e30f99351a151ef32f60593f7d7f0aad7f6e82a64fc8d5d6d1b3d28aa4a7fd02"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-rejection-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "62fe7255f50df888075d7159bf4b6c8d3e04f6d0768d796385d64b86856541ce"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-runtime-erratum-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "c86627c091dc2951810bd00e9250454dd82e0a37322ce181243ff748f45bd40f"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-1-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "e0462d7037134a0cc7c7a8b247fdb35ef3b8dbc5520ec696c2dbf7088549bd38"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-rejection-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "5cf75a0cd9f44d7038b3b95c27d4c9a82b4e51b7fb0a919d4e5a7e57b09b9761"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidate-2-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "19ce92bc66dcad62cd136bef72a2cb0a2897eebe75e54449dc2da5f07d5257c9"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/candidates_v1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "81d8beba9270aa81a4ffb6afa4a2bb950a563f67e0859519842974a4a5808740"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "87aa8cbb945a7760d376da91ece0131d558f11051c5829dbf257ee94c321c382"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/check_candidates_v2.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "db179cec8d065243a8acffc9675bec56da07cf312eaa6b07218ae124cc71ecf6"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/checker-v1-rejection.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "618147ad38bbd7305b0262471eccdefc34c553045d475f2b600c68803e916636"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/checkpoint-0727.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "69c843dc4eb7df34af7ba331fa3ffa85e30908af3a7aaae3cb230b88cd64c20b"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/claim-ledger-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "b528d2c0a70b329a3a5a77f02e4b6d610a010d353aaaa5181df867c37db3dc34"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/implementation-scope-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "40d8c3c1eee5413be39e5299111c3f93d87edddbdb2c13470ceb4e0a05c4b831"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/post-report-review-addendum-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "627a3d251c0fee79e379f587c45f471742bede4bc8c721b2068f6aaa89db45ba"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/report-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "e19e302925b901216b50e00ac528ab9dac6f83e49fe5d5ca3d70007d3dd39a60"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/results-candidates-v2.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "f36fb50dc2367cdff1f6d788d991e7277b17ad87ecd27b223c6de08b98b12cd5"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v2-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "a27a76ec4576054a5dbfd44cbf31e947db172a916c4586272eb9c5b105faf47d"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/review-LC1-v3-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "75185561e0244c04de422815bd06c15fcf4aa7b493f12436e1096db7ecb0b08c"
+    },
+    "experiments/20261029-noisy-bridge-viability/r2-construction/review-T0-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "23c7391e81ac53a0efaa04ff06e0b7b2dc5a6055d8702a1bd0e64e4716151f74"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/RECOVERY-final.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "2c9c0172bc97a4366cc900c8a27261195627e2aa5bcb905963ecea03520868fd"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/RECOVERY.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "2309c7e8a614dde98a1466832b2d403c988d2157e04bab7b98706f05254259f1"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/artifact-sha256-v1.txt": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "1ef7d338195446375adec8ec4d78720098552e4dbef940e2c8e1b168c091705e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-report-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "f3847a2d2c49dabb3569f9fa3c18363d05ca27fdd2da433b475bef3b28e52296"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "a5e21c7ab0ba0253073f6d0474bc7ea77e95dc17f095fab90c5975fff444035a"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v2-T0.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "17b49784bc635e87700758331efae8d2e22e05852509ee701c4f41ded7ec143d"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/blind-supplement-v3-C2.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "5a7c5d354e8459d040c5f2126d202c9d75b10436f80d0282692884de182f2e33"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact-c1-results-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "c9a6210d7a92e78a7fe9e99c41d390e9c81834ad5628a3795b3c12bf4582c23c"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/exact_c1.py": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "888e9d055381e4083ad24aac7e8240bb928a923eb56dcfdaa6f2453b6c098c8e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/git-status-final.txt": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "74176620a7f11590fb6d5e6c6ab0c17a36e2cd839b8839e5d97cb55cdf972f7c"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/halfway-checkpoint.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "87177fbff19f5417f45f98377c6a83bc85105aaa9f7a067889def115bfbf4052"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/plan.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "1766b6714563a7300de9e66fae2390a26264a506658939866cd02d79c71dd54e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/report-erratum-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "737feb9765c13b0ee6e18a8cc100c29b9d1ba3ad89413081be2cc33112369d08"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/report-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "a26c9e41954ebf90d6286b168ad5ff31d2a0ba7b3a66ebb15b4a6f9052427c2e"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/report.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "cd754bc8bcdf154cf5aa466b412794796b48a3244aec1e4d6d6cd414df5aca11"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v1-v2.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "18968607f47b13eb05835881c461732b2320400f425cfc8d54d7473857dce142"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-LC1-v3.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "780df9f5ecb86d2be295e843fd3c9f0690f6dee037071e20e25b3a10dc53d0e8"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/review-T0-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "f12595c27c75f68c68d37b45db39cab52639634aa9896435c22d4d69a2af035a"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/role-finish-v1.json": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "3e60adf8925ff321fe88dbbc4c6ad14a3d09eedda02708fd37faa1d12902c80b"
+    },
+    "experiments/20261029-noisy-bridge-viability/r3-adversarial/task-received.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "f6a5447674b040eb68de6d7abfa15bc8a215d66f817291a0fd4a2cf1e24edee4"
+    },
+    "experiments/20261029-noisy-bridge-viability/reconciliation-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "18e06c0e1515a6e298887d0209bc36a42684d4a32a1102bbee406e1c11c8b17e"
+    },
+    "experiments/20261029-noisy-bridge-viability/regression-registry-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "eedd30b4268af2269d899728ea2cee6064c09df16d5b29e523c9f96bbbbca964"
+    },
+    "experiments/20261029-noisy-bridge-viability/report.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "f8e566d4428fb63f2f9da482ab2e6f8c56997551f412556de9bd26281de3d628"
+    },
+    "experiments/20261029-noisy-bridge-viability/reviews/LC1-v1-arithmetic-repair.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ca2efe066839f96d77e4e2bef2536e43a58b589c0f833cfe76c178c7773570e2"
+    },
+    "experiments/20261029-noisy-bridge-viability/reviews/LC1-v2-efficiency-repair.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ba9b862c2fa75c5b0c4d1e0489268e089df3438dee0c06e11f5e630337ca95dc"
+    },
+    "experiments/20261029-noisy-bridge-viability/reviews/coordinator-C1-review-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "bd79fe6ef5f56ca89b876b886d2b29e30c7f656bd48dd95e1196e2c91b4ee5db"
+    },
+    "experiments/20261029-noisy-bridge-viability/reviews/delivery-input-ledger-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "ce9d09e6fc658196002640d85a18c44ed1646e916a582dcce45267e34032561d"
+    },
+    "experiments/20261029-noisy-bridge-viability/reviews/delivery-input-report-v1.md": {
+      "family": "noisy-bridge-viability",
+      "mode": "research",
+      "sha256": "3f5cdaac103d6ae07af4eb8394c377f43c0fef296198a47347ad490a90830ebf"
+    },
     "experiments/INDEX.md": {
       "family": "authority",
       "mode": "research",
@@ -25068,6 +25948,16 @@
       "mode": "research",
       "sha256": "9089dfd4fab4e5f972e77c8f7151fe51d2f2f8b4e652e05cae6176fa29c5dfe4"
     },
+    "notes/genus-scaling-4h-run.md": {
+      "family": "operations",
+      "mode": "research",
+      "sha256": "e6bf66b555f2025db0c8f2960014ac091f948ee23b14c752976c0ad143f7af1c"
+    },
+    "notes/genus-scaling-4h-runbook.md": {
+      "family": "operations",
+      "mode": "research",
+      "sha256": "b741cfdd1a7183fd680cad6ccf428d112e54f22fe17bf93b0713eaf7d282460d"
+    },
     "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md": {
       "family": "heatbath",
       "mode": "research",
@@ -25092,6 +25982,16 @@
       "family": "heatbath",
       "mode": "research",
       "sha256": "8aefaf5bf420a5a2d5577bd14b57ccc2d68a3827e77112cd2d4b2caf215c40f3"
+    },
+    "notes/noisy-bridge-viability-90m-run.md": {
+      "family": "operations",
+      "mode": "research",
+      "sha256": "14d17e07c98c956bc250d0afb7fb6d12c5cf89306bfa9c931c92fc05c5a15945"
+    },
+    "notes/noisy-bridge-viability-90m-runbook.md": {
+      "family": "operations",
+      "mode": "research",
+      "sha256": "5c161736f440ececed4410b940edf0c0039ea441af9316ad2db69079a82051df"
     },
     "notes/rank-recursive-identity-bridge-goal-run.md": {
       "family": "rank",
@@ -25277,8 +26177,78 @@
       "family": "manuscript",
       "mode": "research",
       "sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a"
+    },
+    "research-campaigns/noisy-bridge-20261029/CHECKPOINT.json": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "e136920e0fede69163b96ca07af0726372b2e8feddbfcde6c7c19ac4ecb8a8f2"
+    },
+    "research-campaigns/noisy-bridge-20261029/COMPLETION.json": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "9da0eeeb0591fc65f022be657ef2550ab2b5e681aabd533c4c77bec0d5be9736"
+    },
+    "research-campaigns/noisy-bridge-20261029/MISSION.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "14d17e07c98c956bc250d0afb7fb6d12c5cf89306bfa9c931c92fc05c5a15945"
+    },
+    "research-campaigns/noisy-bridge-20261029/RECOVERY.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "0afb049772541f568d3b559b5f0368c259826eaa787d066b911915aedc7d449c"
+    },
+    "research-campaigns/noisy-bridge-20261029/claims.json": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "b94e8d3f9e390b909176101dd35459913b8c3137d6c51f011903a58d2f718147"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/PROJECT_MAP.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "2af762f2d042968fe39209d4240a84c8910d073ac761211a79f6f8fd280c7272"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/README.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "3784b985659b3787d12944af0f5264fe824488b7c06cf605a61adbd0a7b8b778"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/continuous-prc/MODEL-v4.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "3cb764accf650fae7f0d753254611ed1d5efdc37334f8538af51915b77fcd4f4"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/continuous-prc/PROJECT_MAP.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "07e537bcbba0b78584694dbd8c30649945432a599d4cc647eb63d0aaa3dec4ca"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/experiments/20261028-bridge-projections/check.py": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "b437551661b231834ab4e2c65205c836f3b9d80ac94ed3766cf9b9b30647dc7c"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/experiments/20261028-bridge-projections/plan.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "de09cbaac4447f42739db27a124ff0d3af3f4edada03a9fc5c7f3f787e164dda"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/experiments/20261028-bridge-projections/report.md": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "9c26747f70bf5537c45263e739fe9dc0cbafa12c84a98e4449a59719093e5805"
+    },
+    "research-campaigns/noisy-bridge-20261029/inputs/experiments/20261028-bridge-projections/results.json": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "5a2f9e0e2b7c9f9368509671798756ddd37bccff559d8338ea9aee9ec801f6c6"
+    },
+    "research-campaigns/noisy-bridge-20261029/tasks.json": {
+      "family": "campaign",
+      "mode": "research",
+      "sha256": "36e1c72c83520517b9644f8196af1335ffa163a88326934787306050900b490b"
     }
   },
-  "review_receipt": "notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md",
+  "review_receipt": "notes/project-map/integration-2026-10-29-current-state.md",
   "schema_version": 1
 }

@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-10-28 (Europe/Berlin).
+Documentary consolidation: 2026-10-29 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -10,9 +10,11 @@ Documentary consolidation: 2026-10-28 (Europe/Berlin).
 
 **Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.
 
-**Evidence level:** This is a documentary consolidation of existing statements and scoped internal reviews, not a fresh proof audit. `accepted-inherited` records prior acceptance; same-model reviewers are correlated. The large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
+**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 and single-cycle records and October 14 auxiliary tree-slide theorem add author arguments and exact checks, registered provisionally pending independent review. The single-cycle local gap remains unresolved. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
 
-**Conventions:** Products act rightmost first. Words are labeled and ordered, not graphs or conjugacy classes. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
+**Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
+
+**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
 
 ## Surviving Samplers
 
@@ -34,6 +36,24 @@ Documentary consolidation: 2026-10-28 (Europe/Berlin).
 - Exact component selection already works. Supply connected words for larger support and g>=2, with error 2^(-b) in expected poly(N,m,b) time, to obtain global error <=N*2^(-b). This is sufficient, not necessary for every possible sampler. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
 - No all-length sampler is established, and no general hardness theorem explains the uncovered range. [G-ALL](notes/project-map/RESULTS.md#g-all)
 - The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this. [G-HEATBATH](notes/project-map/RESULTS.md#g-heatbath)
+
+## Other Generator Families
+
+- For (S3)^k with literal within-triple transpositions, a new self-contained Hurwitz/square-refresh proof gives gap >=1/(200 k m^12). Counts vary; fixed triple partition. Author result with exact checks, provisionally registered pending independent review. [ALT-PRODUCT-S3](notes/project-map/RESULTS.md#alt-product-s3)
+
+## Endpoint Walk Benchmarks
+
+- For minimal factorizations of one full cycle, square refresh never acts and the Hurwitz kernel is comparable to two-factor heat bath. A separate Prüfer-coordinate walk mixes rapidly; polynomial mixing of the adjacent walk remains unresolved here. [HB-CYCLE-MINIMAL](notes/project-map/RESULTS.md#hb-cycle-minimal)
+- For full-cycle length N+1, the original pair hybrid remains open at growing N. S3 all-length mixing, a balanced-square branch improvement and a frozen exact-multigraph obstruction are proved in a new author report. [HB-CYCLE-EXCESS](notes/project-map/RESULTS.md#hb-cycle-excess)
+- A separate tree-plus-2h-extra-edges global refresh has an exact spanning-tree rejection correction. Its hybrid mixes in O_h(N^h log(1/epsilon)) completed attempts at fixed h, including explicit N+1 and N+3 bounds; it does not prove pair-slide mixing. [ALT-TREE-EXTRAS](notes/project-map/RESULTS.md#alt-tree-extras)
+- For the actual adjacent K_A, a uniform-in-N length-three gap >=1/24 yields constant-factor comparison with exact triple heat bath at every length. A local correlation obstruction prevents the tested proof from extending to the full-cycle N+1 polynomial gap. [HB-ADJACENT-LOCAL](notes/project-map/RESULTS.md#hb-adjacent-local)
+- The actual arbitrary-position pair walk has gap between 1/(2m) and 3/(4m) in S3. For every N its Dirichlet form lies between (2/m) and 4m^2 times the adjacent form; growing-N full-cycle mixing remains unresolved. [HB-ALLPAIR-INTERVAL](notes/project-map/RESULTS.md#hb-allpair-interval)
+- The support marginal has compatible-order weights, but the actual all-pair walk does not close on support graphs, even for full-cycle N+1. Its averaged graph kernel does not describe the observed process beyond one step; polynomial growing-N marginal mixing remains unresolved. [HB-SUPPORT-MARGINAL](notes/project-map/RESULTS.md#hb-support-marginal)
+- Independent ternary Hurwitz matching updates have layer gap between (1/48)min(m gamma,1) and (m/2)gamma on each orbit; nonidentity endpoints require a twisted seam. This gives a parallel speedup and a commuting benchmark, while growing-N full-cycle mixing remains unresolved. [HB-PARALLEL-LAYERS](notes/project-map/RESULTS.md#hb-parallel-layers)
+
+## Auxiliary Graph Walks
+
+- With circuit order and functionality discarded, labeled-tree edge slides have gap >=2/[(N-1)^2(N-2)^2], for both the natural wedge-weighted target and a uniform-tree correction. Author comparison proof, provisionally registered; no transfer to adjacent Hurwitz mixing. [AUX-TREE-SLIDES](notes/project-map/RESULTS.md#aux-tree-slides)
 
 ## Read Next
 
