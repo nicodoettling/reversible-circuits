@@ -28,6 +28,16 @@ include a genuinely constrained case such as S5,m4,k2 before interpreting
 them as evidence about the relaxation. Restoring exact functionality by
 appending a correction does not itself preserve a uniform circuit law.
 
+For a correction-gate lift, count extensions per prefix before identifying
+the projected target, and check whether the projected kernel is Markovian.
+A coupling counterexample refutes its specified distance and time horizon;
+it does not by itself prove slow mixing of the chain.
+Keep uniform endpoint-permutation laws distinct from uniform circuit laws:
+the latter weight endpoints by their word counts. Large pointwise density
+ratios can coexist with small total variation; neither statistic alone
+supplies a spectral comparison. Test a proposed prefix law by counting
+extensions on a concrete endpoint event before inferring uniformity.
+
 ## S_10 Testing
 
 `S_10` has `10! = 3628800` elements and 45 transpositions. Direct permutation arithmetic is fine. Full word enumeration is not fine for moderate `m`.
