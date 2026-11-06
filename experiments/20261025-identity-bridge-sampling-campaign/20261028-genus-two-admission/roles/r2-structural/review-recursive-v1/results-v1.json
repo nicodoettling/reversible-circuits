@@ -1,0 +1,142 @@
+{
+  "status": "complete",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "seeds": null,
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "reviewed_sampler_sha256": "8b44aa29010b2cb1cb62bf879c191a090f04e704ba622024c15214ace588b63b",
+  "script_sha256": "7aeccd5d5b72eabfde28d24bee622fc7b2e691225cf711f399fa3a6283308490",
+  "counts": [
+    {
+      "degree": 1,
+      "counts": 3
+    },
+    {
+      "degree": 2,
+      "counts": 6
+    },
+    {
+      "degree": 3,
+      "counts": 9
+    },
+    {
+      "degree": 4,
+      "counts": 15
+    },
+    {
+      "degree": 5,
+      "counts": 21
+    },
+    {
+      "degree": 6,
+      "counts": 33
+    },
+    {
+      "degree": 7,
+      "counts": 45
+    },
+    {
+      "degree": 8,
+      "counts": 66
+    },
+    {
+      "degree": 9,
+      "counts": 90
+    },
+    {
+      "degree": 10,
+      "counts": 126
+    },
+    {
+      "degree": 11,
+      "counts": 168
+    },
+    {
+      "degree": 12,
+      "counts": 231
+    },
+    {
+      "degree": 13,
+      "counts": 303
+    },
+    {
+      "degree": 14,
+      "counts": 405
+    }
+  ],
+  "allocations": [
+    {
+      "lengths": [
+        1,
+        1
+      ],
+      "partial_forcing_queries": 6,
+      "zero_masses": 5
+    },
+    {
+      "lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "partial_forcing_queries": 486,
+      "zero_masses": 6
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      "partial_forcing_queries": 162,
+      "zero_masses": 3
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        1,
+        3,
+        2,
+        1,
+        4
+      ],
+      "partial_forcing_queries": 1458,
+      "zero_masses": 3
+    }
+  ],
+  "forward_law": {
+    "endpoint": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "genus": 2,
+    "length": 7,
+    "words": 23296,
+    "leaves": 23296,
+    "execution_nodes": 34673,
+    "each_probability": "1/23296",
+    "full_law_equals_literal_enumeration": true,
+    "digest": "3911a38589de7cdab79353e7758c11ee58e47272dae775ae93bb7c02687fec4e"
+  },
+  "regressions": {
+    "support_total": 81,
+    "support_connected": 80,
+    "squareless_retained": true,
+    "cp1_rejects_marginal_product": true,
+    "singleton_zero_genera": [
+      1,
+      2
+    ],
+    "degree2_both_endpoints_all_genera": true
+  },
+  "elapsed_seconds": 4.025269396137446,
+  "generated_utc": "2026-10-28T11:20:27.264790+00:00"
+}

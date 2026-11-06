@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "claim": "R1-T2.v1 exact counts, allocation and forward law",
+  "seed_exact": null,
+  "diagnostic_seeds": [
+    1729,
+    2718
+  ],
+  "python": "3.12.3",
+  "dependencies": "Python standard library only",
+  "commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "command": [
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/audit-v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/results-v1.json"
+  ],
+  "code_sha256": "8b44aa29010b2cb1cb62bf879c191a090f04e704ba622024c15214ace588b63b",
+  "counts": [
+    {
+      "n": 1,
+      "maximum_support_states": 1,
+      "endpoint_genus_checks": 3
+    },
+    {
+      "n": 2,
+      "maximum_support_states": 1,
+      "endpoint_genus_checks": 6
+    },
+    {
+      "n": 3,
+      "maximum_support_states": 6,
+      "endpoint_genus_checks": 18
+    },
+    {
+      "n": 4,
+      "maximum_support_states": 36,
+      "endpoint_genus_checks": 72
+    },
+    {
+      "n": 5,
+      "maximum_support_states": 250,
+      "endpoint_genus_checks": 360
+    }
+  ],
+  "allocation": [
+    {
+      "lengths": [
+        1,
+        1
+      ],
+      "queries": 6,
+      "zero_mass_queries": 5,
+      "digest": "5ddbcffc14017d8af30648ccfed3e54d0f648fc3e3ef17a9ae4c5219956dd30d"
+    },
+    {
+      "lengths": [
+        1,
+        1,
+        1
+      ],
+      "queries": 18,
+      "zero_mass_queries": 7,
+      "digest": "dfc12f51c67457c7ad5c9d7495e64ce2253042de6f82394ddc17cd8c68c88809"
+    },
+    {
+      "lengths": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "queries": 54,
+      "zero_mass_queries": 6,
+      "digest": "42807bb6146b1438015edd658fc6643bf6de7575771fcf24355532a3a5c3dd5d"
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "queries": 54,
+      "zero_mass_queries": 3,
+      "digest": "9564516484767fc1d319fd62d1bfe9823ee83fda67d75b71014837a40e9b828f"
+    },
+    {
+      "lengths": [
+        3,
+        2,
+        1,
+        1,
+        2
+      ],
+      "queries": 162,
+      "zero_mass_queries": 0,
+      "digest": "d6fea044f7b4849707a6ff65c21bab45d08704cec58ba5eb16f8c858f229b792"
+    },
+    {
+      "lengths": [
+        1,
+        4,
+        2,
+        1,
+        3,
+        1
+      ],
+      "queries": 486,
+      "zero_mass_queries": 3,
+      "digest": "4d441187520b050ee3ae33cb903c50c9d67972331a4f0d556a901562611f9ce9"
+    }
+  ],
+  "forward_law": [
+    {
+      "logical_leaf_tapes": 24,
+      "implementation_replays": 37,
+      "word_count": 24,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "genus": 0,
+      "length": 4,
+      "each_probability": "1/24",
+      "digest": "01380b7a45d24e16c6fa0a15a25c4d24c8956ffc8a16a167b7e5aae0c8c13def"
+    },
+    {
+      "logical_leaf_tapes": 240,
+      "implementation_replays": 361,
+      "word_count": 240,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "genus": 1,
+      "length": 6,
+      "each_probability": "1/240",
+      "digest": "b4d7b2c9f7a9d5a934bf52a77f022daa4d6db15a3f38d832a9db9a144d86ad3a"
+    },
+    {
+      "logical_leaf_tapes": 2184,
+      "implementation_replays": 3277,
+      "word_count": 2184,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        1,
+        2
+      ],
+      "genus": 2,
+      "length": 8,
+      "each_probability": "1/2184",
+      "digest": "7c31011c8330473f7c76eb822bb5acfb7338e4a52df5e6fcba3eb17c8fd65331"
+    },
+    {
+      "logical_leaf_tapes": 8,
+      "implementation_replays": 12,
+      "word_count": 8,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "genus": 0,
+      "length": 3,
+      "each_probability": "1/8",
+      "digest": "eed03e68eab70c8c1a55077e33ff12900e7ffb2e6eff717ee1972443d41ab161"
+    },
+    {
+      "logical_leaf_tapes": 80,
+      "implementation_replays": 120,
+      "word_count": 80,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "genus": 1,
+      "length": 5,
+      "each_probability": "1/80",
+      "digest": "7b3715c3e3bdcb90692804e5ba94c05d015d797a8e09d2480b1ed2fc9f61dcc7"
+    },
+    {
+      "logical_leaf_tapes": 728,
+      "implementation_replays": 1092,
+      "word_count": 728,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        2,
+        1
+      ],
+      "genus": 2,
+      "length": 7,
+      "each_probability": "1/728",
+      "digest": "7449f43baab06016efd8f780021cc6671d6403b2227abf2733586cbdc0d11809"
+    },
+    {
+      "logical_leaf_tapes": 8,
+      "implementation_replays": 12,
+      "word_count": 8,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "genus": 0,
+      "length": 3,
+      "each_probability": "1/8",
+      "digest": "37d63fb73288ce95ff9abd924554a020406815ec87f2e1743045b1b1d01079bf"
+    },
+    {
+      "logical_leaf_tapes": 80,
+      "implementation_replays": 120,
+      "word_count": 80,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "genus": 1,
+      "length": 5,
+      "each_probability": "1/80",
+      "digest": "32692f504fe63556b3a998de173986538f9a4da96e4a436cf3ba63fa23fa17b7"
+    },
+    {
+      "logical_leaf_tapes": 728,
+      "implementation_replays": 1092,
+      "word_count": 728,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        0,
+        2
+      ],
+      "genus": 2,
+      "length": 7,
+      "each_probability": "1/728",
+      "digest": "a0b3d639585264d021250f92ed7d0329f5ce17b13d6e32bb97e7199616ebb849"
+    },
+    {
+      "logical_leaf_tapes": 3,
+      "implementation_replays": 4,
+      "word_count": 3,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "genus": 0,
+      "length": 2,
+      "each_probability": "1/3",
+      "digest": "40ba60c66dda29831bee7e2f46d74a1bfdcd5f78572b2c46c3cba6839b4c7f8a"
+    },
+    {
+      "logical_leaf_tapes": 27,
+      "implementation_replays": 40,
+      "word_count": 27,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "genus": 1,
+      "length": 4,
+      "each_probability": "1/27",
+      "digest": "298ddf04459d9ecfde3a66e83147ca062d2727d95589a5421d6a80b96d6a04d7"
+    },
+    {
+      "logical_leaf_tapes": 243,
+      "implementation_replays": 364,
+      "word_count": 243,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        1,
+        2,
+        0
+      ],
+      "genus": 2,
+      "length": 6,
+      "each_probability": "1/243",
+      "digest": "aedc58fe39741336f23cbde4570fa323c91f9e229a4b8f58c7cd4f3d744b8274"
+    },
+    {
+      "logical_leaf_tapes": 3,
+      "implementation_replays": 4,
+      "word_count": 3,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "genus": 0,
+      "length": 2,
+      "each_probability": "1/3",
+      "digest": "4b33c20d65bbf5f06df1d6f4aec5c6a5083e59a5ae00dc918b9debfb6a5aa9b3"
+    },
+    {
+      "logical_leaf_tapes": 27,
+      "implementation_replays": 40,
+      "word_count": 27,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "genus": 1,
+      "length": 4,
+      "each_probability": "1/27",
+      "digest": "563690bc4a0ed1b2fe66939fca44c0e1448a88b6c3feeab1c81ab4bafbe5e43b"
+    },
+    {
+      "logical_leaf_tapes": 243,
+      "implementation_replays": 364,
+      "word_count": 243,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        0,
+        1
+      ],
+      "genus": 2,
+      "length": 6,
+      "each_probability": "1/243",
+      "digest": "66225e4d8387909f7d6b7ab9bb5bba261310734614f83148208dcce15afda88f"
+    },
+    {
+      "logical_leaf_tapes": 8,
+      "implementation_replays": 12,
+      "word_count": 8,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "genus": 0,
+      "length": 3,
+      "each_probability": "1/8",
+      "digest": "a43cf9079ccade08cb3e6e110439a33f80f0a2413e848d78c756b78e370c7acc"
+    },
+    {
+      "logical_leaf_tapes": 80,
+      "implementation_replays": 120,
+      "word_count": 80,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "genus": 1,
+      "length": 5,
+      "each_probability": "1/80",
+      "digest": "6e4e2123b6745ad48f8bf00cf93a2f1bb6e49751cb3729f09c7778a41e1c2f44"
+    },
+    {
+      "logical_leaf_tapes": 728,
+      "implementation_replays": 1092,
+      "word_count": 728,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        2,
+        1,
+        0
+      ],
+      "genus": 2,
+      "length": 7,
+      "each_probability": "1/728",
+      "digest": "b242b912792786da6cae901a29335bf762a0381b1331ce9d58ee5aab1df57f1c"
+    },
+    {
+      "logical_leaf_tapes": 2880,
+      "implementation_replays": 4315,
+      "word_count": 2880,
+      "all_words_one_logical_tape": true,
+      "endpoint": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "genus": 0,
+      "length": 6,
+      "each_probability": "1/2880",
+      "digest": "c6cde340a5f7908d1b36b523ad1e32bf74ad86abd91abb521e21a55fb302d135"
+    }
+  ],
+  "regressions": {
+    "baselines": [
+      {
+        "n": 3,
+        "m": 4,
+        "global_count": 27
+      },
+      {
+        "n": 4,
+        "m": 4,
+        "global_count": 120
+      },
+      {
+        "n": 4,
+        "m": 6,
+        "global_count": 3936
+      }
+    ],
+    "transposition_endpoint_total": 81,
+    "connected": 80,
+    "squareless_word": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "singleton_zero": true,
+    "N2_unique": true,
+    "seeded_validity": true,
+    "odd_identity_lengths": true
+  },
+  "elapsed_seconds": 1.1874108121264726,
+  "verdict": "all exact finite checks passed; asymptotic proof remains separately reviewable"
+}

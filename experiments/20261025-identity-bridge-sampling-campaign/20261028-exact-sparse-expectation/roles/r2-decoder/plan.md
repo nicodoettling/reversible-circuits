@@ -1,0 +1,11 @@
+# I2-D.v1 unrestricted decoder/cost plan
+
+Target: exactly uniform Omega(N,m) for all feasible N>=2, even m>=0. This role supplies an actual algorithm and per-realized-macro cost envelope, not an unconditional all-length expected-polynomial theorem. Rightmost-first products, explicit words, canonical labels, ideal fair bits. Global sparse expected-time regimes belong to R1 theory and joint review. Odd m rejected; m0, m2, N2 and isolates explicit.
+
+Read exact inherited DYZ C-table/least-label assembly proof and source checks, QC.v1 quotient proof/code and construction_audit.md. Preserve their restricted-policy obstructions. Build C and unrestricted Z only in polynomial preparation. Sample the entire support macro, labels and position sets before creating any quotient counter. Decode each selected nontrivial component with a new counter, using explicit linear-scan memo maps, then release it. No cutoff and no preprocessing of exponential tables at all possible degrees.
+
+Resource target: S_v<=3^(v-1), Q<=(ell+1)S_v. Explicit linear key scans yield deterministic arithmetic/structural work O(poly(P)9^v) per selected component, P=N+m+2. Fair-bit rejection has only a conditional expected bound, not finite worst-case running time. Pin a generous uniform polynomial exponent and a separate exponential storage envelope. Whole-sample conditional expected cost is poly(P)(1+sum_selected9^v); no independence among component sizes needed.
+
+Finite validation after explicit reservation: actual complete global forward laws at S3m4,S4m4,S4m6 and S3m8, independently enumerated literal words, all component and macro normalization checks. Include a selected larger/high-genus component and compare its actual operation/statistics with envelope; ensure counters absent at preparation and created only for selected components. Regressions retain support81vs80, zero-square, unweighted graph and frozen cutoff failures. No computation is currently reserved.
+
+Deliver complete theorem/proof/code, input/halfway/final report, raw JSON, job receipt and frozen hashes by13:35UTC for fresh reviews. No changes outside this role. Same model/effort/default tier inherited; no independently exposed server-tier attestation.

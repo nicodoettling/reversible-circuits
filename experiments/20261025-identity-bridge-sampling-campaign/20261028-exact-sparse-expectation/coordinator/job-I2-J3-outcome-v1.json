@@ -1,0 +1,51 @@
+{
+  "job": "I2-J3",
+  "status": "complete-released",
+  "utc": "2026-10-28T12:45:20.278755+00:00",
+  "owner": "coordinator",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.4.0/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000003/run.json",
+    "--timeout",
+    "180",
+    "--memory-gib",
+    "1",
+    "--",
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/audit-v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/production-audit-attempt000003-v1.json"
+  ],
+  "run_sha256": "30bbf59d06f06e099eb043e0fda45e3f50e724dae38c05808b51363af5d2cb98",
+  "helper_sha256": "c9a6e8997542bf507c7948e99476e01f35c137df1faae91cb600b7782aa537a9",
+  "source_hashes": {
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/audit-v1.py": "805849383213ab9540020f9f391dcd6e20ddafc7a8e0cd291495ee88adc01ade",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/exact_sampler-v1.py": "93d38c75d25446dc7287cd65ea0ec4f05c5f3855fe96b3ee26fe6a9444bb33a0"
+  },
+  "output": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/production-audit-attempt000003-v1.json",
+  "base_commit": "1fe07986764490ebeabb9bccf77e3d713e2a8f95",
+  "raw_embedded_author_base_commit": "92af1b7b47583b60571a84c660d527422ce0e8ce (frozen script provenance, not execution HEAD)",
+  "scope": "Execute previously unlaunched frozen production-law audit after exact operator disposition; all finite laws plus selected-only tables.",
+  "parameters": "S3m4,S4m4,S4m6,S3m8 full laws; rare selectedv6 ell14 genus2 atN82,m14; boundaries/support/cutoff regressions",
+  "seed": null,
+  "validity_seeds": [
+    1729,
+    2718
+  ],
+  "estimate": "6270full-law words; quotient selectedv6 keys<=3645;<256MiB;180s/1GiB; compact artifact JSON, one stdoutsummary",
+  "timeout_seconds": 180,
+  "memory_gib": 1,
+  "predecessor": "I2-J2 admission rejected/not launched, original incident unchanged",
+  "operator_note": "research-campaigns/identity-bridge-sampling-20261025/operator-recovery-policy2-20261028-v1.md",
+  "exit_code": 0,
+  "stdout": "{\"status\": \"complete\", \"seconds\": 3.297881167847663, \"words\": [27, 120, 3936, 2187], \"rare_counter_keys\": 276}\n",
+  "stderr": "",
+  "elapsed_seconds": 3.455306309973821,
+  "completed_utc": "2026-10-28T12:45:23.846159+00:00",
+  "output_sha256": "515dc16e3789bc6c9f82d8ef1179cc083b5ff1603970ddc2326e0413c8d09ebd",
+  "output_bytes": 4099
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "campaign_id": "identity-bridge-sampling-20261025",
+  "claims": [
+    {
+      "id": "GLOBAL-T0",
+      "status": "OPEN",
+      "statement": "For every N>=2, even m>=0, b>=1, uniformly nearly sample ordered identity transposition words with TV <= 2^(-b), expected bit time one polynomial in N,m,b; rightmost-first composition, independent fair bits.",
+      "dependencies": [],
+      "evidence": [],
+      "note": "Mission target, not accepted. Existing restricted results keep their source-scoped statuses in the catalogue."
+    },
+    {
+      "id": "R1-T2.v1",
+      "status": "ACCEPTED-REVIEWED",
+      "statement": "Exact fair-bit expected-polynomial sampler for connected fixed-endpoint transposition words of genus 0,1,2 on every fixed label set. Claimed bound O(v^11 log^3(v+1)).",
+      "dependencies": [
+        "S-G01 (inherited)",
+        "Goulden-Jackson1999 Theorem1.1 fixed-endpoint normalization",
+        "R1 positive-marker formula",
+        "R1 forced-cycle tensor oracle",
+        "R1 final-letter per-word law"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md"
+      ],
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
+    },
+    {
+      "id": "C2.v1",
+      "status": "ACCEPTED-REVIEWED",
+      "statement": "Exact fair-bit expected-polynomial sampler for connected identity genus-two words of length 2N+2, N>=2. Claimed bound O(N^20 log^4(N+1)).",
+      "dependencies": [
+        "S-G01 (inherited)",
+        "CUT2 universal genus-one cuts",
+        "C2 graph multiplicities",
+        "C2 forced-port moment parser",
+        "C2 reciprocal cut correction"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md"
+      ],
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
+    },
+    {
+      "id": "M-GROW.v1",
+      "status": "ACCEPTED-REVIEWED",
+      "statement": "For j>=64, N=2^(8j), m=2^(6j), L=max{v<=N:3^v<=(N+m+2)^4}, 0<=G<=2^j, bridge mass of every component satisfying genus<=G or size<=L is at most 2^(-1-j*m/2).",
+      "dependencies": [
+        "DYZ identity Hurwitz recurrence (inherited normalization)",
+        "factorial genus majorant",
+        "least-label component assembly",
+        "subgroup bridge lower bound"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/report-v1.md"
+      ],
+      "note": "Exact scoped internal acceptance after fresh blind and current-version nonauthor reviews. Same-model reviews correlated; global mission OPEN.",
+      "adjudication": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md"
+    },
+    {
+      "id": "BLIND-B1-STRONG",
+      "status": "PROVISIONAL",
+      "statement": "Blind report stronger event bound 2^(-(j/2+1/4)m) and alternate majorant; retained separately, not the accepted target.",
+      "dependencies": [
+        "DYZ primary recurrence"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md"
+      ],
+      "note": "Coordinator analytically reconciled implication to M-GROW; no separate exact-version audit of the stronger target commissioned."
+    },
+    {
+      "id": "ES.v1",
+      "status": "UNRESOLVED",
+      "statement": "One exact uniform identity-bridge sampler with expected poly(N,m) bit time for N>=2, even m, m^3<=N^2.",
+      "dependencies": [
+        "Q-COST.v1",
+        "E-MOMENT.v1",
+        "exact unrestricted component assembly"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Exact operator disposition resolves prior I2-J2 hold. Attempt000003 production audit and fresh reviews active; candidate remains unresolved, with no status upgrade from restart. GLOBAL-T0 OPEN."
+    },
+    {
+      "id": "ES-LOG.v1",
+      "status": "UNRESOLVED",
+      "statement": "The same exact sampler has expected poly(N,m) bit time for N>=2, even m<=N^(2/3) ln(N)/4.",
+      "dependencies": [
+        "Q-COST.v1",
+        "E-MOMENT.v1",
+        "SB-T1.v1 normalized component bound"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/scope-log-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Exact operator disposition resolves prior I2-J2 hold. Attempt000003 production audit and fresh reviews active; candidate remains unresolved, with no status upgrade from restart. GLOBAL-T0 OPEN."
+    },
+    {
+      "id": "Q-COST.v1",
+      "status": "UNRESOLVED",
+      "statement": "Actual selected-component quotient decoding admits conditional expected bit envelope A (N+m+2)^12 (1+sum 9^v), without preprocessing unselected quotient tables.",
+      "dependencies": [
+        "QC.v1 complete orbit invariant",
+        "literal suffix counts",
+        "deterministic linear-scan memo"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/plan.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md"
+      ],
+      "note": "Exact operator disposition resolves prior I2-J2 hold. Attempt000003 production audit and fresh reviews active; candidate remains unresolved, with no status upgrade from restart. GLOBAL-T0 OPEN."
+    },
+    {
+      "id": "E-MOMENT.v1",
+      "status": "UNRESOLVED",
+      "statement": "Normalized expected sum of exponential component costs is polynomial in the separately frozen ES and ES-LOG regimes.",
+      "dependencies": [
+        "SG-T1.v1",
+        "SB-T1.v1",
+        "linearity under exact full macro law"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+      ],
+      "note": "Exact operator disposition resolves prior I2-J2 hold. Attempt000003 production audit and fresh reviews active; candidate remains unresolved, with no status upgrade from restart. GLOBAL-T0 OPEN."
+    },
+    {
+      "id": "EC-OBSTR.v1",
+      "status": "UNRESOLVED",
+      "statement": "For j>=64,N=2^(8j),m=2^(6j),J=2^(3j), Pr(maxsupport<=J)<=2^(-1-jm/2), so E sum9^v>=9^(J+1)(1-2^(-1-jm/2)).",
+      "dependencies": [
+        "M-GROW.v1 general finite numerator lemma",
+        "subgroup denominator"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/scope-obstruction-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md"
+      ],
+      "note": "Exact operator disposition resolves prior I2-J2 hold. Attempt000003 production audit and fresh reviews active; candidate remains unresolved, with no status upgrade from restart. GLOBAL-T0 OPEN."
+    },
+    {
+      "id": "I2-R3-A3.v2",
+      "status": "REPAIRED-PENDING-RECHECK",
+      "statement": "Separate preparationK0P^s and conditional remainderK1P^s(1+H) imply E total<=P^s[K0+K1(1+EH)]; v1 omitted separate preparation constant.",
+      "dependencies": [
+        "actual conditional decoder envelope",
+        "whole-macro tower expectation"
+      ],
+      "evidence": [
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v1.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/correction-v2.md",
+        "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md"
+      ],
+      "note": "Original exact coefficient rejected and preserved; fresh check of repaired cone pending. No change to I1 accepted results or EC target."
+    }
+  ],
+  "updated_utc": "2026-10-28T12:47:27.659226+00:00"
+}

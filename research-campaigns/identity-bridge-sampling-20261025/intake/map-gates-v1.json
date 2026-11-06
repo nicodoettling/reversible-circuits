@@ -1,0 +1,56 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "notes/project-map/manage.py",
+      "validate"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: 37 records, 49 pinned sources; no mathematical verification implied.\n",
+    "stderr": "",
+    "elapsed_seconds": 0.11740681901574135
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "notes/project-map/manage.py",
+      "check-freshness"
+    ],
+    "exit_code": 1,
+    "stdout": "{\n  \"new\": [\n    \"research-campaigns/identity-bridge-sampling-20261025/intake/bounded-smoke-20261028-v1.json\",\n    \"research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review/checkpoint.md\",\n    \"research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review/input.md\",\n    \"research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review/plan.md\",\n    \"research-campaigns/identity-bridge-sampling-20261025/intake/run-map-gates.py\"\n  ],\n  \"missing\": [],\n  \"changed\": [\n    \"research-campaigns/identity-bridge-sampling-20261025/RECOVERY.md\",\n    \"research-campaigns/identity-bridge-sampling-20261025/claims.json\",\n    \"research-campaigns/identity-bridge-sampling-20261025/tasks.json\"\n  ],\n  \"new_branches\": [],\n  \"missing_branches\": []\n}\n",
+    "stderr": "",
+    "elapsed_seconds": 0.498430245090276
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "notes/project-map/manage.py",
+      "render",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "PASS: deterministic views\n",
+    "stderr": "",
+    "elapsed_seconds": 0.05152006004936993
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "notes/project-map",
+      "-p",
+      "test_*.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.362s\n\nOK\n",
+    "elapsed_seconds": 0.42122496105730534
+  }
+]

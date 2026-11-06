@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "job_id": "I1-J6",
+  "role": "nonauthor exact-version mass review",
+  "reservation": "Coordinator granted exclusive reservation for stated exact finite checks, 60 seconds and 1 GiB address space; released immediately on successful completion.",
+  "command_argv": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json",
+    "--timeout",
+    "60",
+    "--memory-gib",
+    "1",
+    "--",
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/check-v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/results-v1.json"
+  ],
+  "command": "/usr/bin/python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json --timeout 60 --memory-gib 1 -- /usr/bin/python3 -B experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/check-v1.py --output experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/results-v1.json",
+  "base_commit_at_reservation": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "current_head_at_receipt": "a4e2b9a9b7d68f33165ecc6f18b3f1532f344bec",
+  "claim": "Independent finite falsification of frozen M-GROW.v1; finite checks are not asymptotic proof.",
+  "parameters": {
+    "event_counts": "N=2..5; even m=0..12; G=0..4; J=1..N",
+    "moments": "g=1..64; q=1/2048,3/8,511/1024,1/2",
+    "L_series": "r=0..128",
+    "convex_weights": "v=2..64",
+    "sequence": "j=1..256; final constant for j=64..256"
+  },
+  "seed": null,
+  "randomness": "None: exact integer and rational checks",
+  "preflight": {
+    "states": "fewer than 10000 estimated",
+    "memory": "less than 128 MiB estimated",
+    "timeout_seconds": 60,
+    "address_space_cap_gib": 1
+  },
+  "outcome": {
+    "exit_code": 0,
+    "status": "PASS",
+    "child_elapsed_seconds": 0.3224116920027882,
+    "tool_wall_seconds": 0.344031642,
+    "peak_weighted_support_states": 615,
+    "peak_rss": "not measured",
+    "cleanup": "normal completed helper invocation; no timeout or cleanup-error diagnostic"
+  },
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "script_sha256": "431f4cd3d726ddce70a6a4e0ccca9eda2004c01ad5e88841551ac3bcb15e56bb",
+  "results_sha256": "52c370a7fe27858125db81db7fc08dd1141e0265882048a04b294c4f98a7a640",
+  "written_at_utc": "2026-10-28T11:25:51.479691+00:00",
+  "preserved_original_construction_hashes": [
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/input.md",
+      "sha256": "dbe5d235f49554bc9ee7811b7090a1e410b39b226a202b2b9c4deaf3c0ba7ff9",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/plan.md",
+      "sha256": "bcfb1da36a5fb1d5b6474ba6966082d41aa454929c52675f1bf74b03eaf76456",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/statement-v1.md",
+      "sha256": "4409148f244ec610d4a06243c0fd208d037d49f17e88b1073593f5304233241d",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/source-verification-v1.md",
+      "sha256": "6fbad3a96239c47e62bac285dbc5c9c543b0ba25ab6935b495b92bdfddc43801",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-draft-v1.md",
+      "sha256": "c6f5b5815b62f5b953c36172c2d5849d84c04863c1af9fc9a11c10ebfe7f7ce8",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md",
+      "sha256": "5b72c76a281b7b3520b884b5e5438852499ab51a76bc2ad77e6e8ab9149ce775",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/sampler-v1.py",
+      "sha256": "8b44aa29010b2cb1cb62bf879c191a090f04e704ba622024c15214ace588b63b",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/audit-v1.py",
+      "sha256": "78769a94988bd96d1ff6a5764cf438eab6ab535146ffd2be5daf9707d5364f06",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/results-v1.json",
+      "sha256": "cb7fbe0742dc05702e6d6cd0a60d7bc61ac2f3103df455cf7b3139de7ddc164a",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/job-v1.json",
+      "sha256": "b2fa1e97847f387488b0c324a0b76dc320cdfc7eb2198de2ce22203fd80a1edc",
+      "match": true
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md",
+      "sha256": "a194a7b4e1b585055b94a87b3f5e9a43e4c2f9c75b04fda5480855ea5ba1ef14",
+      "match": true
+    }
+  ]
+}

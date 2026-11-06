@@ -1,0 +1,183 @@
+{
+  "status": "complete",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "deterministic_seed": null,
+  "validity_seeds": [
+    1729,
+    2718
+  ],
+  "base_commit": "92af1b7b47583b60571a84c660d527422ce0e8ce",
+  "sampler_sha256": "93d38c75d25446dc7287cd65ea0ec4f05c5f3855fe96b3ee26fe6a9444bb33a0",
+  "script_sha256": "805849383213ab9540020f9f391dcd6e20ddafc7a8e0cd291495ee88adc01ade",
+  "full_laws": [
+    {
+      "N": 3,
+      "m": 4,
+      "words": 27,
+      "each_probability": "1/27",
+      "logical_leaves": 27,
+      "replays": 42,
+      "full_law_equal": true,
+      "expected_nontrivial_component_9_cost": "657",
+      "law_sha256": "50a3039014e854e051a5816c46f5a7ac1331759c06c7c1583dc0991bb8c79f9e"
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "words": 120,
+      "each_probability": "1/120",
+      "logical_leaves": 120,
+      "replays": 181,
+      "full_law_equal": true,
+      "expected_nontrivial_component_9_cost": "12231/20",
+      "law_sha256": "1cc3ffd3bf14fcccff665cb68c4653735e94492a42056d6ec0cb166332ffffd0"
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "words": 3936,
+      "each_probability": "1/3936",
+      "logical_leaves": 3936,
+      "replays": 5736,
+      "full_law_equal": true,
+      "expected_nontrivial_component_9_cost": "3268431/656",
+      "law_sha256": "d2b3ecc537da92fb4b97aa804af1c5178462c54abcce79e0e7197ff2c8015ba2"
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "words": 2187,
+      "each_probability": "1/2187",
+      "logical_leaves": 2187,
+      "replays": 3282,
+      "full_law_equal": true,
+      "expected_nontrivial_component_9_cost": "6553/9",
+      "law_sha256": "5aee1b2ac0cfa4e17712061bac58cbb9e3688f9fb646b0e67c6ecb021433fff7"
+    }
+  ],
+  "rare_component": {
+    "N": 82,
+    "m": 14,
+    "component_v": 6,
+    "component_length": 14,
+    "component_genus": 2,
+    "inside_primary_sparse_range": true,
+    "old_H0_cutoff": 5,
+    "specified_labeled_macro_probability": "893846553600/10473202859556603306094354441",
+    "decoder_degrees_created": [
+      6
+    ],
+    "no_counter_before_macro": true,
+    "all_counters_released": true,
+    "component_metrics": {
+      "degree": 6,
+      "length": 14,
+      "count_keys": 276,
+      "transition_states": 58,
+      "memo_operations": 4300,
+      "key_comparisons": 410552,
+      "maximum_count_bits": 47,
+      "state_bound": 243,
+      "remaining_length_key_bound": 3645
+    },
+    "validity_seed": 1729
+  },
+  "regressions": {
+    "empty_odd_negative_small_degree": true,
+    "N2_unique": true,
+    "same_endpoint_connected_support_counts": [
+      80,
+      81
+    ],
+    "zero_step_support_boundary": true,
+    "squareless_retained": true,
+    "CP1_rejects_old_product": true,
+    "no_residual_cutoff_42_12_to_5_12": true,
+    "samples": [
+      {
+        "N": 3,
+        "m": 4,
+        "seed": 1729,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 3,
+        "m": 4,
+        "seed": 2718,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 4,
+        "m": 4,
+        "seed": 1729,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 4,
+        "m": 4,
+        "seed": 2718,
+        "decoder_degrees": [
+          2,
+          2
+        ]
+      },
+      {
+        "N": 4,
+        "m": 6,
+        "seed": 1729,
+        "decoder_degrees": [
+          4
+        ]
+      },
+      {
+        "N": 4,
+        "m": 6,
+        "seed": 2718,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 3,
+        "m": 8,
+        "seed": 1729,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 3,
+        "m": 8,
+        "seed": 2718,
+        "decoder_degrees": [
+          3
+        ]
+      },
+      {
+        "N": 5,
+        "m": 10,
+        "seed": 1729,
+        "decoder_degrees": [
+          4
+        ]
+      },
+      {
+        "N": 5,
+        "m": 10,
+        "seed": 2718,
+        "decoder_degrees": [
+          5
+        ]
+      }
+    ]
+  },
+  "elapsed_seconds": 3.297881167847663,
+  "generated_utc": "2026-10-28T12:45:23.797693+00:00"
+}

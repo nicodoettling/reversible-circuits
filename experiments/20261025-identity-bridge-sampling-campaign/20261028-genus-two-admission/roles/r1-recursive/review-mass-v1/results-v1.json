@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "claim": "Independent exact finite checks for frozen M-GROW.v1; not asymptotic proof",
+  "seed": null,
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "peak_weighted_support_states": 615,
+  "assembly_comparisons": 490,
+  "assembly_digest": "a8a063db074dc9dbccda6da30a76dcbc52dc34ff47886b5b43d1142c3e35d641",
+  "DYZ_recurrence_cells": 28,
+  "majorant_cells": 18,
+  "Eulerian_moment_checks": 256,
+  "moment_gmax": 64,
+  "moment_digest": "009fd689d1d8d6719f54c5a715c3cd13d78b749f3a96de0b30fbf4d07ef9c403",
+  "c_g_checks": 64,
+  "L_series_coefficients": 129,
+  "convex_degree_checks": 63,
+  "subgroup_denominator_checks": 60,
+  "sequence_j_range": [
+    1,
+    256
+  ],
+  "selected_exact_cutoffs": [
+    {
+      "j": 1,
+      "exact_L": 21,
+      "max_G_bits": 2
+    },
+    {
+      "j": 2,
+      "exact_L": 40,
+      "max_G_bits": 3
+    },
+    {
+      "j": 63,
+      "exact_L": 1271,
+      "max_G_bits": 64
+    },
+    {
+      "j": 64,
+      "exact_L": 1292,
+      "max_G_bits": 65
+    },
+    {
+      "j": 65,
+      "exact_L": 1312,
+      "max_G_bits": 66
+    },
+    {
+      "j": 256,
+      "exact_L": 5168,
+      "max_G_bits": 257
+    }
+  ],
+  "elapsed_seconds": 0.3224116920027882,
+  "script_sha256": "431f4cd3d726ddce70a6a4e0ccca9eda2004c01ad5e88841551ac3bcb15e56bb"
+}

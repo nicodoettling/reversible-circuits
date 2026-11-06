@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "reservation": "I1-J3",
+  "attempt": "000002",
+  "base_commit": "d8893491e04aff74ff3185f7054470ffa24a44a4",
+  "command": [
+    "python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json",
+    "--timeout",
+    "90",
+    "--memory-gib",
+    "1",
+    "--",
+    "python3",
+    "-B",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/finite_checks_v1.py",
+    "--output",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/finite-results-v1.json"
+  ],
+  "parameters": {
+    "DYZ_vmax": 8,
+    "DYZ_gmax": 8,
+    "literal_dp_N": [
+      2,
+      3,
+      4
+    ],
+    "literal_dp_max_m": 10,
+    "moment_gmax": 16
+  },
+  "seed": 0,
+  "seed_used": false,
+  "estimate": {
+    "wall_seconds": 10,
+    "memory_mib": 256,
+    "state_bound": 1100
+  },
+  "authorized_bounds": {
+    "wall_seconds": 90,
+    "address_space_gib": 1
+  },
+  "exit_code": 0,
+  "stdout": "PASS R3 exact checks: 63 majorant; 33 product/support; 162 assembly; 64 moment; data written.\n",
+  "stderr": "",
+  "tool_wall_seconds": 0.055754336,
+  "script_elapsed_seconds": 0.030824687099084258,
+  "python": "3.12.3",
+  "third_party_dependencies": [],
+  "output": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/finite-results-v1.json",
+  "output_sha256": "1d9d0fdd669c9cda678f0361b8f6bffe7da46efc1c2602a674756aca18f73b86",
+  "actual_max_DP_states": 57,
+  "raw_bytes": 93010,
+  "released": true,
+  "limitations": "Finite checks support normalization and falsification; they do not prove the asymptotic theorem. Peak memory was not measured; admission bound is not measured RSS."
+}

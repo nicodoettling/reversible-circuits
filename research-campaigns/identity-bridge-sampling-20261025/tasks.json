@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "id": "I0-REVIEW",
+      "agent": "/root/intake_review",
+      "status": "completed",
+      "role": "documentary preparation review",
+      "directory": "research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review",
+      "next": "None; immutable documentary report frozen, not proof certification.",
+      "report": "research-campaigns/identity-bridge-sampling-20261025/intake/roles/preparation-review/report-v1.md"
+    },
+    {
+      "id": "P0.v1",
+      "agent": "/root",
+      "status": "completed",
+      "next": "I1 admitted; exact brief and D-20261028-04 record scope and novelty."
+    },
+    {
+      "id": "I1-r1-recursive",
+      "agent": "/root/r1_recursive",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/report-v1.md"
+    },
+    {
+      "id": "I1-r2-structural",
+      "agent": "/root/r2_structural",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/report-v1.md"
+    },
+    {
+      "id": "I1-r3-mass",
+      "agent": "/root/r3_mass",
+      "status": "completed-author-report",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:00:00Z",
+      "allocation_end_utc": "2026-10-28T13:47:00Z",
+      "next": "Frozen author proposal preserved; exact scoped acceptance is completed in I1 reconciliation-v1.md. No further author work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/report-v1.md"
+    },
+    {
+      "id": "I1-review-mass",
+      "agent": "/root/r1_recursive",
+      "status": "completed-reconciled",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-mass-v1.md",
+      "report_due_utc": "2026-10-28T11:45:00Z",
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md"
+    },
+    {
+      "id": "I1-review-recursive",
+      "agent": "/root/r2_structural",
+      "status": "completed-reconciled",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/exact-recursive-v1.md",
+      "report_due_utc": "2026-10-28T11:50:00Z",
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md"
+    },
+    {
+      "id": "I1-review-blind",
+      "agent": "/root/r4_blind",
+      "status": "completed-reconciled",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/review-inputs/blind-package-v1.md",
+      "report_due_utc": "2026-10-28T11:50:00Z",
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r4-blind/blind-report-v1.md"
+    },
+    {
+      "id": "I1-review-structural",
+      "agent": "/root",
+      "status": "completed-reconciled",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator",
+      "next": "Immutable review accepted at exact scope; see I1 reconciliation-v1.md. No further work.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md"
+    },
+    {
+      "id": "I1-integration-audit",
+      "agent": "/root/r3_mass",
+      "status": "completed",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/integration-review-v1",
+      "next": "Documentary PASS; two stale planning sentences corrected. No further task.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/integration-review-v1/report-v1.md"
+    },
+    {
+      "id": "I2-r1-expectation",
+      "agent": "/root/r5_expectation",
+      "status": "completed-author-report-provisional",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r1-expectation-v1.md",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:35:00Z",
+      "allocation_end_utc": "2026-10-28T14:25:00Z",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
+    },
+    {
+      "id": "I2-r2-decoder",
+      "agent": "/root/r2_structural",
+      "status": "completed-author-report-provisional",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r2-decoder-v1.md",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:35:00Z",
+      "allocation_end_utc": "2026-10-28T14:25:00Z",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md"
+    },
+    {
+      "id": "I2-r3-falsification",
+      "agent": "/root/r3_mass",
+      "status": "completed-author-report-provisional",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r3-falsification-v1.md",
+      "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+      "report_due_utc": "2026-10-28T13:35:00Z",
+      "allocation_end_utc": "2026-10-28T14:25:00Z",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
+      "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md"
+    },
+    {
+      "id": "I2-review-blind",
+      "agent": "/root/i2_blind",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r4-blind",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/blind-package-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-review-theory",
+      "agent": "/root/i2_theory_review",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r5-theory-review",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/exact-theory-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-review-implementation",
+      "agent": "/root/i2_implementation_review",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r6-implementation-review",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/exact-implementation-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-J3-production-audit",
+      "agent": "/root",
+      "status": "running",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator",
+      "reservation": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J3-reservation-v1.json",
+      "next": "Wait for bounded result/cleanup; preserve raw and receipt. No other job may overlap."
+    }
+  ],
+  "updated_utc": "2026-10-28T12:47:27.659226+00:00"
+}

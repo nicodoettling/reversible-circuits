@@ -1,0 +1,9 @@
+# Blind referee halfway checkpoint — I2.v1
+
+Only the frozen assignment, expressly allowed pre-existing files, the required skill texts/references, and the allowed DYZ primary PDF have been read. Current candidate artifacts and other current reviewers remain unread. System/developer environment guidance and the user-provided AGENTS.md were visible at intake; no inherited current-candidate conversation was provided. Same-model/context-lineage correlation is acknowledged.
+
+Provisional mathematical conclusions: ES.v1 and ES-LOG.v1 admit the same unrestricted macro-assembly plus quotient-suffix decoder. Explicit quotient enumeration, literal transitions, deterministic linear lookups, count-bit bounds and fair-bit rejection give a constructive cost bounded by a fixed polynomial in P=N+m+2 times 1+sum_B 9^|B|. The allowed exact component tail yields a bounded exponential moment in each sparse range once N exceeds an absolute threshold. For smaller N, the deterministic bound sum_B 9^|B|<=N9^N supplies an absolute constant; there is no need for analytic range membership testing.
+
+EC-OBSTR.v1 also appears proved. For J=2^(3j), the arbitrary-cutoff conditions hold because x=k/N^2=2^(-10j-1), 3Nx<=3/8 and b_J x<2^(-j)/72. A direct all-components-size<=J numerator bound follows from the DYZ majorant and exact labeled-profile expansion. The embedded-subgroup bridge normalizer yields the claimed probability; the H9 bound is pointwise on Vmax>J.
+
+Still to freeze: full derivations and all constants; explicit bit implementation; hand small-case regressions; source/dependency and scope table; immutable report and manifest. No mathematical computation job has been launched. All verification so far is symbolic derivation and read-only source inspection. No descendant, Git write, candidate edit, or installation has occurred.

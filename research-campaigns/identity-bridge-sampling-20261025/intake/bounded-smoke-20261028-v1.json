@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "kind": "inert bounded smoke, no mathematical experiment",
+  "started_at": "2026-10-28T07:45:22.384599+00:00",
+  "finished_at": "2026-10-28T07:45:22.490515+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/nico/projects/harnesses/codex-research-harness-releases/v0.3.1/src/research_harness/bounded.py",
+    "--run-file",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000001/run.json",
+    "--timeout",
+    "10",
+    "--memory-gib",
+    "1",
+    "--",
+    "/usr/bin/python3",
+    "-B",
+    "-c",
+    "print(\"inert bounded smoke: ok\")"
+  ],
+  "exit_code": 0,
+  "stdout": "inert bounded smoke: ok\n",
+  "stderr": "",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "base_commit": "748f510f009886a09552da631be850b3e0ec1dd0",
+  "status": "passed"
+}

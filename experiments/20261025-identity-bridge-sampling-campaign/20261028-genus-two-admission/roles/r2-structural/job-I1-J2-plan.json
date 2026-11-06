@@ -1,0 +1,19 @@
+{
+  "job_id": "I1-J2",
+  "status": "reserved",
+  "tested_claim": "Actual numeric-code parser law equals independent plane tree/unicycle weight inventory and labeled macro law matches coordinator exact S2/S3 reference",
+  "max_n": 4,
+  "samples_per_seed_per_n": 5,
+  "seeds": [
+    1729,
+    2718
+  ],
+  "deterministic_seed": null,
+  "expected_memory_mib": 256,
+  "address_limit_gib": 1,
+  "wall_seconds": 180,
+  "state_estimate": "Mass,child count,sum,subset count <=4; two binary genus totals; imbalance <=9; finite exact parser tapes",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "command": "python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json --timeout 180 --memory-gib 1 -- python3 -B experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/audit_grammar.py --max-n 4 --samples 5 --output experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/grammar-results-v1.json"
+}

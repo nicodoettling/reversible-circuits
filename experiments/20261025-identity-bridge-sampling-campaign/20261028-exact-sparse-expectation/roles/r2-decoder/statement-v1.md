@@ -1,0 +1,12 @@
+# I2-D.v1 exact unrestricted decoder and conditional cost theorem
+
+Author candidate, PROVISIONAL pending new proof/code review. For every integer N>=2 and even m>=0, the single algorithm PreparedExact in exact_sampler-v1.py outputs exactly uniform explicit ordered words in Omega(N,m). Products act rightmost first and labels are canonical [N]={1,...,N}. Odd lengths and empty fibers reject; m0 is the empty word and N2 has its unique even-length word. Randomness is independent fair bits. No range test, numerical logarithm/exponential, support cutoff or omitted target component is used.
+
+Put P=N+m+2. There is a universal constant A such that:
+
+1. Preparation computes only scalar connected counts C and unrestricted least-label counts Z, in deterministic O(P^12) bit time and O(P^8) bits of storage. No exponential decoder table is built in preparation.
+2. The algorithm samples the whole labeled support macro and its component position sets, with expected O(P^12) fair-bit work. Every component type is eligible with its exact weight.
+3. Given any selected nontrivial component of degree v and length ell, its quotient table construction and nonrandom decoding work are bounded deterministically by A P^12 9^v. Its random-bit work has a conditional expected bound of the same form, uniformly over the actual earlier sampling history. Its storage is at most A P^8 3^v bits. The full counter is discarded before the next component is decoded.
+4. Consequently the expected total bit time is at most A P^12(1+E_U sum_(nontrivial support components B)9^|B|), after increasing A if necessary. Conditional on the complete sampled macro, expected decoding time is at most A P^12(1+sum_B9^|B|), including scanning isolates. Peak storage is at most A P^8(1+max_B3^|B|), with maximum0 if there is no nontrivial component. This implies an expected storage bound using the same macro exponential moment, but no polynomial worst-case storage guarantee.
+
+The distribution theorem holds for every feasible even input. The separate ES.v1 and ES-LOG.v1 expected-polynomial regimes require their own reviewed exponential-moment proofs. No unrestricted all-length polynomial-time assertion is made here. Fair-bit rejection permits unboundedly long random tapes, so the theorem does not claim deterministic worst-case bit time including random draws. Degree N, output length m and precision b are distinct variables; exactness yields error0 for every b without altering the algorithm.

@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-28T12:23:05.565557+00:00",
+  "base_commit": "92af1b7b47583b60571a84c660d527422ce0e8ce",
+  "branch": "campaign/identity-bridge-sampling-20261025",
+  "purpose": "Safe attention checkpoint; preserves incomplete I2; no mathematical acceptance.",
+  "paths": [
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/claim_ledger.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J1-reservation-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J2-reservation-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r1-expectation-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r2-decoder-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r3-falsification-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/report.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/blind-statement-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/checkpoint-early-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/checkpoint-halfway-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/freeze-manifest-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/input-log-addendum-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/input-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/plan-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v2.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/resource-conditioning-clarification-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/source-input-hashes-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/statement-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/audit-v1.py",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/checkpoint-early-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/checkpoint-halfway-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/development-note-labels-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/exact_sampler-v1.py",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/freeze-manifest-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/handoff-admission-rejection-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/input-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/job-I2-J2-incident-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/job-plan-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/plan.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/statement-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/blind-obstruction-statement-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/checkpoint-early-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/checkpoint-halfway-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/correction-v2.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/input-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/job-I2-J1-outcome-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/manifest-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/moment-results-v1.json",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/moment_checks_v1.py",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/plan-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/scope-obstruction-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/scope-log-v1.md",
+    "experiments/20261025-identity-bridge-sampling-campaign/index.md",
+    "notes/project-map/PROGRAMME.md",
+    "notes/project-map/PROGRAMME_DECISIONS.md",
+    "research-campaigns/identity-bridge-sampling-20261025/RECOVERY.md",
+    "research-campaigns/identity-bridge-sampling-20261025/attention-20261028-i2-admission-v1.md",
+    "research-campaigns/identity-bridge-sampling-20261025/checkpoint-i2-attention-v1.json",
+    "research-campaigns/identity-bridge-sampling-20261025/claims.json",
+    "research-campaigns/identity-bridge-sampling-20261025/tasks.json",
+    "research-campaigns/identity-bridge-sampling-20261025/verification-i2-attention-v1.json"
+  ],
+  "files": [
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
+      "sha256": "6c0020a89a2f76e79143eaedfd074e45cfc7142e3efb42de9c0bba741480763e",
+      "bytes": 7517,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/claim_ledger.md",
+      "sha256": "7199d31a95eed8e655c7a5d47ea512285b9d72f815e163aec616f6b3c9fb0781",
+      "bytes": 1586,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J1-reservation-v1.json",
+      "sha256": "011666f8891e8022132734a8e50c4f3f419de107b6803f5277a40a8b07ca5c2e",
+      "bytes": 1439,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J2-reservation-v1.json",
+      "sha256": "b8a12b90f447508a4a1d100d790ff860f95ae2980ae9f404a62c590818e4edf0",
+      "bytes": 1579,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r1-expectation-v1.md",
+      "sha256": "ea44d072c29c24db5371585a726acd92bd6d9e135ebbaee46481d7e27aad4506",
+      "bytes": 870,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r2-decoder-v1.md",
+      "sha256": "cf9c28f600328bb4f85b17465d8847e2af7b644aa907b8070b06f4e569b5f9f1",
+      "bytes": 869,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r3-falsification-v1.md",
+      "sha256": "2b38456f3cd71d91dd88d1c3c8771b9adbe198cd362f934ad60108a9585bce7b",
+      "bytes": 825,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/report.md",
+      "sha256": "7f36c62aed06eabcc3f0e939fcdbc662c8ad97f198bb41cc97123a52df24e1cd",
+      "bytes": 2086,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/blind-statement-v1.md",
+      "sha256": "2c57673685cd987d6408ad5131b576cae7846781d03efa631cc1b2febf23e1f1",
+      "bytes": 2284,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/checkpoint-early-v1.md",
+      "sha256": "afa143e65a2d764f920378ffb8b22182e60c4f386eb6d4322f3c5182ce363f70",
+      "bytes": 1149,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/checkpoint-halfway-v1.md",
+      "sha256": "75b11fffbb8be50ecec4cf785f95dd50a498135f6b970b741ef5fc1efd09066d",
+      "bytes": 1784,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/freeze-manifest-v1.json",
+      "sha256": "7c2a2994e32962932aa8afc4429f5a671819924038dddc56e8af69adf6f51a78",
+      "bytes": 3818,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/input-log-addendum-v1.md",
+      "sha256": "c62adaee3e05bc0cc68fbf38e6277340f463069d831fd75f38e78d370bfea0a4",
+      "bytes": 2734,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/input-v1.md",
+      "sha256": "708a73fbc379a9e68c033bbd24347f08316a261663ae4b7a970b7a2753177504",
+      "bytes": 9333,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/plan-v1.md",
+      "sha256": "66df2c8503566759ab6157fde6cb82d51891ee6e7ea8d3724a9f905a4e79a779",
+      "bytes": 1643,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v1.md",
+      "sha256": "f6c3c7e7bca42e33a5e9a7394b13c280977658be00ba876dd8c977cf3bd950f4",
+      "bytes": 16810,
+      "status": "deliberate_provisional_draft_preserved"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-draft-v2.md",
+      "sha256": "7acaa1033ac5b5ee40f397d3ce4b6205ad267404c465eac912b7c3663fc3f363",
+      "bytes": 18351,
+      "status": "deliberate_provisional_draft_preserved"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+      "sha256": "06c0537531169afd10e47d9df15c2344619b1b57ec1e0c9c23e91a0ed2dec2e5",
+      "bytes": 20819,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md",
+      "sha256": "ee156cbf1a04964296aef5e428d889cf4855ff1728a9073358eadcb1bf8eef3f",
+      "bytes": 4896,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/resource-conditioning-clarification-v1.md",
+      "sha256": "197df8ffa6ab20fedf03be7924b25472bdd3bfee1b28ba58976eea869feaa502",
+      "bytes": 1171,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/source-input-hashes-v1.json",
+      "sha256": "b3934ad743a0b22aa6147f6bd7d995acc36ac49759bea2895dede3c3079a80da",
+      "bytes": 1761,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/statement-v1.md",
+      "sha256": "24ddaa1f86f9b52fc3e848502a96df8c46488313adcfabc179c4b670836e64a9",
+      "bytes": 1597,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/audit-v1.py",
+      "sha256": "805849383213ab9540020f9f391dcd6e20ddafc7a8e0cd291495ee88adc01ade",
+      "bytes": 9053,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/checkpoint-early-v1.md",
+      "sha256": "8be811a3e510815e7df36a801e73600ca9aca1f31b25a1540474ecb5170f5545",
+      "bytes": 892,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/checkpoint-halfway-v1.md",
+      "sha256": "f90ad9d297724addeb55052ed08c437fec27b3d8a7ae2d4e24aa32884e13c3e2",
+      "bytes": 1413,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/development-note-labels-v1.md",
+      "sha256": "79e181ffc7272e6c01b65a427d4e5ff7f493de3bbb65e9899b6d91aaf132e631",
+      "bytes": 866,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/exact_sampler-v1.py",
+      "sha256": "93d38c75d25446dc7287cd65ea0ec4f05c5f3855fe96b3ee26fe6a9444bb33a0",
+      "bytes": 7297,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/freeze-manifest-v1.json",
+      "sha256": "c79abd43ddd29d2d38d07c74467d0656b370927f86239f5bf8fd03f4a6fea434",
+      "bytes": 2090,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/handoff-admission-rejection-v1.md",
+      "sha256": "04c4c5cdb85dba0c2088786b094456b2890734c6c5792634557b29fea74e6d50",
+      "bytes": 1101,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/input-v1.md",
+      "sha256": "0380cbc94ff2623d539adafc5d7c43435a97c5a4ecedf7e6fb6d8992bccb4788",
+      "bytes": 1578,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/job-I2-J2-incident-v1.json",
+      "sha256": "362ae55ce703e466f39b38c86baeefb03bf5b0f869047ada9236913bca18b3fb",
+      "bytes": 1567,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/job-plan-v1.md",
+      "sha256": "33456877923d6a85695ebaa7c84bb6f4c191534fc37eb09813aded0864dfa860",
+      "bytes": 1614,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/plan.md",
+      "sha256": "416c4081c8376cabeee30a4206832f71ce50368fa418ea926d5c6d4ba27520cf",
+      "bytes": 2216,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md",
+      "sha256": "5ee643ed2c795ec569c40bd0ff514131ecd4e58cd1ed952f9ec1763eba3d2598",
+      "bytes": 17845,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md",
+      "sha256": "f1bc2fc5daea5ebba88b56cddbe95324fc886f871430fedca6886bb15b65327d",
+      "bytes": 7737,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/statement-v1.md",
+      "sha256": "a2f6951296cc2f10930b660194366710eb6cdd0a39f1e418d5a300b0b78d119b",
+      "bytes": 2470,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/blind-obstruction-statement-v1.md",
+      "sha256": "0019b67f0f5f001f4f4955b5a2a049a1bef6eed2917149a1798084cb5cf3fc72",
+      "bytes": 1658,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/checkpoint-early-v1.md",
+      "sha256": "7444e82c8f1122a21b3742008984cb7c231c17c6b89960e537e695a524901e37",
+      "bytes": 426,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/checkpoint-halfway-v1.md",
+      "sha256": "a430201e7432dadc33f760e573c5d685cd837db9ac0e6d0620d2f93668fecc84",
+      "bytes": 1197,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/correction-v2.md",
+      "sha256": "ffbd57b34703dfe279761fe240f359752201f873a370c19a22433fdcfb3a1c1f",
+      "bytes": 1396,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v1.md",
+      "sha256": "d435b7c6a4127909310be7c543a281fbc8c027f9fa5443ae1aa9147d41bc9874",
+      "bytes": 11214,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/falsification-proof-v2.md",
+      "sha256": "ee8b1cc8e9c53159dcd4c190fc0cef4ddd9eb9947819a29f719e40ec251e5199",
+      "bytes": 11874,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/input-v1.md",
+      "sha256": "abf85a111651553bfa319a05c96056a74b1c496332c21a5eed0f2460ce8c7fac",
+      "bytes": 2431,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/job-I2-J1-outcome-v1.json",
+      "sha256": "235900fb47ffd9b310025a08ec796823c5f2d36bef2a00313df4469e3cc55903",
+      "bytes": 1978,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/manifest-v1.json",
+      "sha256": "ca2a8766603815608a31b0c017c1dc621dcd812d0cdc09a6a5b9c8c1173c3a97",
+      "bytes": 2447,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/moment-results-v1.json",
+      "sha256": "16c3f60f31f32483dcb12cfe8ff52033d134cb6870db5b28b8d7b0fe9a252a16",
+      "bytes": 509648,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/moment_checks_v1.py",
+      "sha256": "bb7aa721042af5bb6790e382277b9d3cfbe4cffaf766debf1076f78285a67c20",
+      "bytes": 10149,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/plan-v1.md",
+      "sha256": "170e15822268675b844c3d2311781fc3ef07c3828347e82119125d3df4c097b4",
+      "bytes": 3441,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md",
+      "sha256": "8e9e6280bd13ab73f711d082955a916a78affea9a327c8a8a083c31718296efb",
+      "bytes": 8954,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/scope-obstruction-v1.md",
+      "sha256": "830d9849857d5f567556dc453e3ccebdf1628366fda23d82d01d5d479b048732",
+      "bytes": 1168,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/scope-log-v1.md",
+      "sha256": "0ef8e8d56ae4a1fd920e4c2d33cc0228a9ba5e6cc36599d6d1f52731e4e6e9dc",
+      "bytes": 1988,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "experiments/20261025-identity-bridge-sampling-campaign/index.md",
+      "sha256": "29b3258760307b0fa7b47ce01d8268195ec9ad75c7f7ebf5cd4758b8342ebe40",
+      "bytes": 484,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "notes/project-map/PROGRAMME.md",
+      "sha256": "48268c16160ad13e469d4d5e24e7f934c8945c57b72f8ff9f455170ed59fc506",
+      "bytes": 15183,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "notes/project-map/PROGRAMME_DECISIONS.md",
+      "sha256": "e39a22ff6bac5dad4539fe83190e4e240c5cfbdaaf9a5084569e38d128f4f2ed",
+      "bytes": 17097,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/RECOVERY.md",
+      "sha256": "1d66ec8cfd398d3b26aefa70a4bb14feb9040e560ef926fd146febd0179a9905",
+      "bytes": 6584,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/attention-20261028-i2-admission-v1.md",
+      "sha256": "8d4fe6fa102bc9375231ee3873861efb39594f59e64452102d771773737c20f0",
+      "bytes": 6909,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/checkpoint-i2-attention-v1.json",
+      "sha256": null,
+      "status": "self_manifest_no_recursive_hash"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/claims.json",
+      "sha256": "5376f0064d5ce4975c4e0d3d0f76011d87fc92d6eb5509908706abddf8e40d13",
+      "bytes": 10085,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/tasks.json",
+      "sha256": "d1636a5553b795d7e9ed1759378a082a274ee2986bd8b1f29e5dd6f97cf436d7",
+      "bytes": 8833,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    },
+    {
+      "path": "research-campaigns/identity-bridge-sampling-20261025/verification-i2-attention-v1.json",
+      "sha256": "cd8ad39300aad5be75dfbaf99589809cd6fdab926c90a2720499cef2d01c23a6",
+      "bytes": 8963,
+      "status": "frozen_complete_artifact_or_current_handoff"
+    }
+  ],
+  "excluded_control": [
+    "research-campaigns/identity-bridge-sampling-20261025/attention-request-draft-i2-v1.json"
+  ],
+  "excluded_control_disposition": "Atomically rename draft to NEEDS_ATTENTION.json after normal reviewed commit; request intentionally newer than checkpoint.",
+  "no_active_jobs": true,
+  "all_workers_frozen": true,
+  "map_integration": "pending; catalogue and inventory unchanged"
+}

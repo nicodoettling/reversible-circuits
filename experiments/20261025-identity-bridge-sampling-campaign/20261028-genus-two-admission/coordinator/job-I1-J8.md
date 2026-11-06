@@ -1,0 +1,7 @@
+# I1-J8 coordinator reservation
+
+2026-10-28, after I1-J7 completed/released. Sole active computational reservation. Test complete marked-word law of frozen production C2 structural sampler atN2,N3, then exact reciprocal-cut acceptance normalization. Enumerate categorical random decisions of the actual sample_cut path, including inherited S-G01 production decoder, labels and interleavings. Replace only unbiased categorical/fair-integer/shuffle primitives by exact rational exhaustive branching; do not replace sampler logic. Independent literal word endpoint/support/genus evaluator checks all6^6 baseline and3^8 target cases. Target finite law only; no asymptotic inference.
+
+Estimated <=200000 execution paths/marked leaf representations, <256MiB; cap1GiB, timeout180seconds. Conservative actual execution hard cap500000 nodes raises a clear incomplete exception before uncontrolled work. Deterministic, seed null; Python3 standard library only. Base commit a4e2b9a9b7d68f33165ecc6f18b3f1532f344bec. Detailed output full-word-law-results-v1.json, atomic at completion; stdout one short summary.
+
+Command: /usr/bin/python3 -B /home/nico/projects/harnesses/codex-research-harness-releases/v0.3.2/src/research_harness/bounded.py --run-file /home/nico/projects/research_projects/reversible_circuits/.campaigns/identity-bridge-sampling-20261025/attempts/000002/run.json --timeout 180 --memory-gib 1 -- /usr/bin/python3 -B experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/full-word-law-v1.py
