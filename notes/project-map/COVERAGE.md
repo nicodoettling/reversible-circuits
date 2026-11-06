@@ -110,9 +110,17 @@ Shares documentary paths with authority/manuscript families; no separate researc
 
 Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-crypto)
 
+## research-questions: User research questions awaiting investigation
+
+1 discovered entries. formulated questions only; no investigation launched or theorem accepted. Depth: complete formulation note; scoped Jain-Jin conference passage checked for terminology.
+
+Gate-count balance, Toffoli rewrite connectivity, local transposition surgery and a planted identity-subsequence game remain proposed directions. The user's endpoint-parity clarification is distinguished from identity-word connectivity. No hardness assumption is endorsed or existing result upgraded. See integration-2026-11-06-research-questions.md.
+
+Records: Pending; no mathematical record inferred.
+
 ## operations: Operational instructions, environment and runner smoke
 
-41 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+40 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
 

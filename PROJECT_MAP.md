@@ -16,6 +16,8 @@ Documentary consolidation: 2026-11-06 (Europe/Berlin).
 
 **Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
 
+**Ideas for future agents (2026-11-06):** [Four research questions](notes/research-questions-2026-11-06.md) formulate gate-library representation balance, Toffoli connectivity, local transposition surgery/proofs of equivalence, and a hidden planted identity-subsequence assumption. These are proposed questions only; no investigation or new mathematical acceptance is implied.
+
 ## Surviving Samplers
 
 - Exact short bridges: polynomial for m <= A(log N)^2, with fixed A; the full algorithm has exp(O(sqrt(min(m,N)))) state growth. [S-SHORT](notes/project-map/RESULTS.md#s-short)
