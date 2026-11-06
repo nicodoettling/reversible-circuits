@@ -1,0 +1,828 @@
+{
+  "status": "complete",
+  "claim": "I2-D.v1 targeted production-bit, DFS and counter-disposal checks",
+  "python": "3.12.3",
+  "nonstandard_dependencies": [],
+  "sampler_sha256": "93d38c75d25446dc7287cd65ea0ec4f05c5f3855fe96b3ee26fe6a9444bb33a0",
+  "script_sha256": "3f7a374b52e7fadda00894aeed493c4ff3fa6415c96bb8fc13d73ee11ed4ac32",
+  "bit_checks": {
+    "integer_cases": [
+      {
+        "bound": 1,
+        "width": 0,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 2,
+        "width": 1,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/2",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 3,
+        "width": 2,
+        "rejected_candidates": 1,
+        "truncated_mass_per_output_8_trials": "21845/65536",
+        "remaining_mass": "1/65536"
+      },
+      {
+        "bound": 4,
+        "width": 2,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/4",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 5,
+        "width": 3,
+        "rejected_candidates": 3,
+        "truncated_mass_per_output_8_trials": "3354131/16777216",
+        "remaining_mass": "6561/16777216"
+      },
+      {
+        "bound": 6,
+        "width": 3,
+        "rejected_candidates": 2,
+        "truncated_mass_per_output_8_trials": "21845/131072",
+        "remaining_mass": "1/65536"
+      },
+      {
+        "bound": 7,
+        "width": 3,
+        "rejected_candidates": 1,
+        "truncated_mass_per_output_8_trials": "2396745/16777216",
+        "remaining_mass": "1/16777216"
+      },
+      {
+        "bound": 8,
+        "width": 3,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/8",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 9,
+        "width": 4,
+        "rejected_candidates": 7,
+        "truncated_mass_per_output_8_trials": "476578055/4294967296",
+        "remaining_mass": "5764801/4294967296"
+      },
+      {
+        "bound": 10,
+        "width": 4,
+        "rejected_candidates": 6,
+        "truncated_mass_per_output_8_trials": "3354131/33554432",
+        "remaining_mass": "6561/16777216"
+      },
+      {
+        "bound": 11,
+        "width": 4,
+        "rejected_candidates": 5,
+        "truncated_mass_per_output_8_trials": "390416061/4294967296",
+        "remaining_mass": "390625/4294967296"
+      },
+      {
+        "bound": 12,
+        "width": 4,
+        "rejected_candidates": 4,
+        "truncated_mass_per_output_8_trials": "21845/262144",
+        "remaining_mass": "1/65536"
+      },
+      {
+        "bound": 13,
+        "width": 4,
+        "rejected_candidates": 3,
+        "truncated_mass_per_output_8_trials": "330381595/4294967296",
+        "remaining_mass": "6561/4294967296"
+      },
+      {
+        "bound": 14,
+        "width": 4,
+        "rejected_candidates": 2,
+        "truncated_mass_per_output_8_trials": "2396745/33554432",
+        "remaining_mass": "1/16777216"
+      },
+      {
+        "bound": 15,
+        "width": 4,
+        "rejected_candidates": 1,
+        "truncated_mass_per_output_8_trials": "286331153/4294967296",
+        "remaining_mass": "1/4294967296"
+      },
+      {
+        "bound": 16,
+        "width": 4,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/16",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 17,
+        "width": 5,
+        "rejected_candidates": 15,
+        "truncated_mass_per_output_8_trials": "64526396303/1099511627776",
+        "remaining_mass": "2562890625/1099511627776"
+      },
+      {
+        "bound": 18,
+        "width": 5,
+        "rejected_candidates": 14,
+        "truncated_mass_per_output_8_trials": "476578055/8589934592",
+        "remaining_mass": "5764801/4294967296"
+      },
+      {
+        "bound": 19,
+        "width": 5,
+        "rejected_candidates": 13,
+        "truncated_mass_per_output_8_trials": "57826099845/1099511627776",
+        "remaining_mass": "815730721/1099511627776"
+      },
+      {
+        "bound": 20,
+        "width": 5,
+        "rejected_candidates": 12,
+        "truncated_mass_per_output_8_trials": "3354131/67108864",
+        "remaining_mass": "6561/16777216"
+      },
+      {
+        "bound": 21,
+        "width": 5,
+        "rejected_candidates": 11,
+        "truncated_mass_per_output_8_trials": "52347488995/1099511627776",
+        "remaining_mass": "214358881/1099511627776"
+      },
+      {
+        "bound": 22,
+        "width": 5,
+        "rejected_candidates": 10,
+        "truncated_mass_per_output_8_trials": "390416061/8589934592",
+        "remaining_mass": "390625/4294967296"
+      },
+      {
+        "bound": 23,
+        "width": 5,
+        "rejected_candidates": 9,
+        "truncated_mass_per_output_8_trials": "47802981785/1099511627776",
+        "remaining_mass": "43046721/1099511627776"
+      },
+      {
+        "bound": 24,
+        "width": 5,
+        "rejected_candidates": 8,
+        "truncated_mass_per_output_8_trials": "21845/524288",
+        "remaining_mass": "1/65536"
+      },
+      {
+        "bound": 25,
+        "width": 5,
+        "rejected_candidates": 7,
+        "truncated_mass_per_output_8_trials": "43980234519/1099511627776",
+        "remaining_mass": "5764801/1099511627776"
+      },
+      {
+        "bound": 26,
+        "width": 5,
+        "rejected_candidates": 6,
+        "truncated_mass_per_output_8_trials": "330381595/8589934592",
+        "remaining_mass": "6561/4294967296"
+      },
+      {
+        "bound": 27,
+        "width": 5,
+        "rejected_candidates": 5,
+        "truncated_mass_per_output_8_trials": "40722638413/1099511627776",
+        "remaining_mass": "390625/1099511627776"
+      },
+      {
+        "bound": 28,
+        "width": 5,
+        "rejected_candidates": 4,
+        "truncated_mass_per_output_8_trials": "2396745/67108864",
+        "remaining_mass": "1/16777216"
+      },
+      {
+        "bound": 29,
+        "width": 5,
+        "rejected_candidates": 3,
+        "truncated_mass_per_output_8_trials": "37914193835/1099511627776",
+        "remaining_mass": "6561/1099511627776"
+      },
+      {
+        "bound": 30,
+        "width": 5,
+        "rejected_candidates": 2,
+        "truncated_mass_per_output_8_trials": "286331153/8589934592",
+        "remaining_mass": "1/4294967296"
+      },
+      {
+        "bound": 31,
+        "width": 5,
+        "rejected_candidates": 1,
+        "truncated_mass_per_output_8_trials": "35468117025/1099511627776",
+        "remaining_mass": "1/1099511627776"
+      },
+      {
+        "bound": 32,
+        "width": 5,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/32",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 33,
+        "width": 6,
+        "rejected_candidates": 31,
+        "truncated_mass_per_output_8_trials": "8503699565855/281474976710656",
+        "remaining_mass": "852891037441/281474976710656"
+      },
+      {
+        "bound": 34,
+        "width": 6,
+        "rejected_candidates": 30,
+        "truncated_mass_per_output_8_trials": "64526396303/2199023255552",
+        "remaining_mass": "2562890625/1099511627776"
+      },
+      {
+        "bound": 35,
+        "width": 6,
+        "rejected_candidates": 29,
+        "truncated_mass_per_output_8_trials": "8027849437077/281474976710656",
+        "remaining_mass": "500246412961/281474976710656"
+      },
+      {
+        "bound": 36,
+        "width": 6,
+        "rejected_candidates": 28,
+        "truncated_mass_per_output_8_trials": "476578055/17179869184",
+        "remaining_mass": "5764801/4294967296"
+      },
+      {
+        "bound": 37,
+        "width": 6,
+        "rejected_candidates": 27,
+        "truncated_mass_per_output_8_trials": "7599798572275/281474976710656",
+        "remaining_mass": "282429536481/281474976710656"
+      },
+      {
+        "bound": 38,
+        "width": 6,
+        "rejected_candidates": 26,
+        "truncated_mass_per_output_8_trials": "57826099845/2199023255552",
+        "remaining_mass": "815730721/1099511627776"
+      },
+      {
+        "bound": 39,
+        "width": 6,
+        "rejected_candidates": 25,
+        "truncated_mass_per_output_8_trials": "7213394585129/281474976710656",
+        "remaining_mass": "152587890625/281474976710656"
+      },
+      {
+        "bound": 40,
+        "width": 6,
+        "rejected_candidates": 24,
+        "truncated_mass_per_output_8_trials": "3354131/134217728",
+        "remaining_mass": "6561/16777216"
+      },
+      {
+        "bound": 41,
+        "width": 6,
+        "rejected_candidates": 23,
+        "truncated_mass_per_output_8_trials": "6863333310375/281474976710656",
+        "remaining_mass": "78310985281/281474976710656"
+      },
+      {
+        "bound": 42,
+        "width": 6,
+        "rejected_candidates": 22,
+        "truncated_mass_per_output_8_trials": "52347488995/2199023255552",
+        "remaining_mass": "214358881/1099511627776"
+      },
+      {
+        "bound": 43,
+        "width": 6,
+        "rejected_candidates": 21,
+        "truncated_mass_per_output_8_trials": "6545050089565/281474976710656",
+        "remaining_mass": "37822859361/281474976710656"
+      },
+      {
+        "bound": 44,
+        "width": 6,
+        "rejected_candidates": 20,
+        "truncated_mass_per_output_8_trials": "390416061/17179869184",
+        "remaining_mass": "390625/4294967296"
+      },
+      {
+        "bound": 45,
+        "width": 6,
+        "rejected_candidates": 19,
+        "truncated_mass_per_output_8_trials": "6254622069947/281474976710656",
+        "remaining_mass": "16983563041/281474976710656"
+      },
+      {
+        "bound": 46,
+        "width": 6,
+        "rejected_candidates": 18,
+        "truncated_mass_per_output_8_trials": "47802981785/2199023255552",
+        "remaining_mass": "43046721/1099511627776"
+      },
+      {
+        "bound": 47,
+        "width": 6,
+        "rejected_candidates": 17,
+        "truncated_mass_per_output_8_trials": "5988680871345/281474976710656",
+        "remaining_mass": "6975757441/281474976710656"
+      },
+      {
+        "bound": 48,
+        "width": 6,
+        "rejected_candidates": 16,
+        "truncated_mass_per_output_8_trials": "21845/1048576",
+        "remaining_mass": "1/65536"
+      },
+      {
+        "bound": 49,
+        "width": 6,
+        "rejected_candidates": 15,
+        "truncated_mass_per_output_8_trials": "5744334975919/281474976710656",
+        "remaining_mass": "2562890625/281474976710656"
+      },
+      {
+        "bound": 50,
+        "width": 6,
+        "rejected_candidates": 14,
+        "truncated_mass_per_output_8_trials": "43980234519/2199023255552",
+        "remaining_mass": "5764801/1099511627776"
+      },
+      {
+        "bound": 51,
+        "width": 6,
+        "rejected_candidates": 13,
+        "truncated_mass_per_output_8_trials": "5519101195685/281474976710656",
+        "remaining_mass": "815730721/281474976710656"
+      },
+      {
+        "bound": 52,
+        "width": 6,
+        "rejected_candidates": 12,
+        "truncated_mass_per_output_8_trials": "330381595/17179869184",
+        "remaining_mass": "6561/4294967296"
+      },
+      {
+        "bound": 53,
+        "width": 6,
+        "rejected_candidates": 11,
+        "truncated_mass_per_output_8_trials": "5310844572675/281474976710656",
+        "remaining_mass": "214358881/281474976710656"
+      },
+      {
+        "bound": 54,
+        "width": 6,
+        "rejected_candidates": 10,
+        "truncated_mass_per_output_8_trials": "40722638413/2199023255552",
+        "remaining_mass": "390625/1099511627776"
+      },
+      {
+        "bound": 55,
+        "width": 6,
+        "rejected_candidates": 9,
+        "truncated_mass_per_output_8_trials": "5117726066617/281474976710656",
+        "remaining_mass": "43046721/281474976710656"
+      },
+      {
+        "bound": 56,
+        "width": 6,
+        "rejected_candidates": 8,
+        "truncated_mass_per_output_8_trials": "2396745/134217728",
+        "remaining_mass": "1/16777216"
+      },
+      {
+        "bound": 57,
+        "width": 6,
+        "rejected_candidates": 7,
+        "truncated_mass_per_output_8_trials": "4938157385015/281474976710656",
+        "remaining_mass": "5764801/281474976710656"
+      },
+      {
+        "bound": 58,
+        "width": 6,
+        "rejected_candidates": 6,
+        "truncated_mass_per_output_8_trials": "37914193835/2199023255552",
+        "remaining_mass": "6561/1099511627776"
+      },
+      {
+        "bound": 59,
+        "width": 6,
+        "rejected_candidates": 5,
+        "truncated_mass_per_output_8_trials": "4770762310509/281474976710656",
+        "remaining_mass": "390625/281474976710656"
+      },
+      {
+        "bound": 60,
+        "width": 6,
+        "rejected_candidates": 4,
+        "truncated_mass_per_output_8_trials": "286331153/17179869184",
+        "remaining_mass": "1/4294967296"
+      },
+      {
+        "bound": 61,
+        "width": 6,
+        "rejected_candidates": 3,
+        "truncated_mass_per_output_8_trials": "4614343880395/281474976710656",
+        "remaining_mass": "6561/281474976710656"
+      },
+      {
+        "bound": 62,
+        "width": 6,
+        "rejected_candidates": 2,
+        "truncated_mass_per_output_8_trials": "35468117025/2199023255552",
+        "remaining_mass": "1/1099511627776"
+      },
+      {
+        "bound": 63,
+        "width": 6,
+        "rejected_candidates": 1,
+        "truncated_mass_per_output_8_trials": "4467856773185/281474976710656",
+        "remaining_mass": "1/281474976710656"
+      },
+      {
+        "bound": 64,
+        "width": 6,
+        "rejected_candidates": 0,
+        "truncated_mass_per_output_8_trials": "1/64",
+        "remaining_mass": "0"
+      },
+      {
+        "bound": 65,
+        "width": 7,
+        "rejected_candidates": 63,
+        "truncated_mass_per_output_8_trials": "1104760588579391/72057594037927936",
+        "remaining_mass": "248155780267521/72057594037927936"
+      }
+    ],
+    "actual_getrandbits_calls": 30512,
+    "categorical_patterns": [
+      [
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "categorical_tickets": 22,
+    "nonpositive_and_negative_rejected": true,
+    "audit_exact_index_used": false
+  },
+  "memo_checks": {
+    "replacement_preserves_single_key": true,
+    "missing_getitem_rejects": true,
+    "trace_changes_no_recurrence_or_branches": true,
+    "validity_seed": 1729,
+    "rows": [
+      {
+        "v": 2,
+        "ell": 2,
+        "genus": 0,
+        "count": 1,
+        "distinct_expansions": 2,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 2,
+          "length": 2,
+          "count_keys": 3,
+          "transition_states": 2,
+          "memo_operations": 35,
+          "key_comparisons": 50,
+          "maximum_count_bits": 1,
+          "state_bound": 3,
+          "remaining_length_key_bound": 9
+        }
+      },
+      {
+        "v": 2,
+        "ell": 4,
+        "genus": 1,
+        "count": 1,
+        "distinct_expansions": 4,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 2,
+          "length": 4,
+          "count_keys": 5,
+          "transition_states": 3,
+          "memo_operations": 64,
+          "key_comparisons": 139,
+          "maximum_count_bits": 1,
+          "state_bound": 3,
+          "remaining_length_key_bound": 15
+        }
+      },
+      {
+        "v": 2,
+        "ell": 6,
+        "genus": 2,
+        "count": 1,
+        "distinct_expansions": 6,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 2,
+          "length": 6,
+          "count_keys": 7,
+          "transition_states": 3,
+          "memo_operations": 92,
+          "key_comparisons": 259,
+          "maximum_count_bits": 1,
+          "state_bound": 3,
+          "remaining_length_key_bound": 21
+        }
+      },
+      {
+        "v": 3,
+        "ell": 4,
+        "genus": 0,
+        "count": 24,
+        "distinct_expansions": 6,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 3,
+          "length": 4,
+          "count_keys": 9,
+          "transition_states": 5,
+          "memo_operations": 114,
+          "key_comparisons": 433,
+          "maximum_count_bits": 5,
+          "state_bound": 9,
+          "remaining_length_key_bound": 45
+        }
+      },
+      {
+        "v": 3,
+        "ell": 6,
+        "genus": 1,
+        "count": 240,
+        "distinct_expansions": 11,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 3,
+          "length": 6,
+          "count_keys": 14,
+          "transition_states": 6,
+          "memo_operations": 187,
+          "key_comparisons": 976,
+          "maximum_count_bits": 8,
+          "state_bound": 9,
+          "remaining_length_key_bound": 63
+        }
+      },
+      {
+        "v": 3,
+        "ell": 8,
+        "genus": 2,
+        "count": 2184,
+        "distinct_expansions": 16,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 3,
+          "length": 8,
+          "count_keys": 19,
+          "transition_states": 6,
+          "memo_operations": 259,
+          "key_comparisons": 1716,
+          "maximum_count_bits": 12,
+          "state_bound": 9,
+          "remaining_length_key_bound": 81
+        }
+      },
+      {
+        "v": 4,
+        "ell": 6,
+        "genus": 0,
+        "count": 2880,
+        "distinct_expansions": 20,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 4,
+          "length": 6,
+          "count_keys": 28,
+          "transition_states": 13,
+          "memo_operations": 376,
+          "key_comparisons": 4154,
+          "maximum_count_bits": 12,
+          "state_bound": 27,
+          "remaining_length_key_bound": 189
+        }
+      },
+      {
+        "v": 4,
+        "ell": 8,
+        "genus": 1,
+        "count": 131040,
+        "distinct_expansions": 33,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 4,
+          "length": 8,
+          "count_keys": 41,
+          "transition_states": 14,
+          "memo_operations": 571,
+          "key_comparisons": 8453,
+          "maximum_count_bits": 17,
+          "state_bound": 27,
+          "remaining_length_key_bound": 243
+        }
+      },
+      {
+        "v": 4,
+        "ell": 10,
+        "genus": 2,
+        "count": 4959360,
+        "distinct_expansions": 46,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 4,
+          "length": 10,
+          "count_keys": 54,
+          "transition_states": 14,
+          "memo_operations": 765,
+          "key_comparisons": 13842,
+          "maximum_count_bits": 23,
+          "state_bound": 27,
+          "remaining_length_key_bound": 297
+        }
+      },
+      {
+        "v": 5,
+        "ell": 8,
+        "genus": 0,
+        "count": 1008000,
+        "distinct_expansions": 51,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 5,
+          "length": 8,
+          "count_keys": 64,
+          "transition_states": 26,
+          "memo_operations": 979,
+          "key_comparisons": 23332,
+          "maximum_count_bits": 20,
+          "state_bound": 81,
+          "remaining_length_key_bound": 729
+        }
+      },
+      {
+        "v": 5,
+        "ell": 10,
+        "genus": 1,
+        "count": 142732800,
+        "distinct_expansions": 77,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 5,
+          "length": 10,
+          "count_keys": 90,
+          "transition_states": 27,
+          "memo_operations": 1402,
+          "key_comparisons": 44182,
+          "maximum_count_bits": 28,
+          "state_bound": 81,
+          "remaining_length_key_bound": 891
+        }
+      },
+      {
+        "v": 5,
+        "ell": 12,
+        "genus": 2,
+        "count": 15800400000,
+        "distinct_expansions": 103,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 5,
+          "length": 12,
+          "count_keys": 116,
+          "transition_states": 27,
+          "memo_operations": 1824,
+          "key_comparisons": 71064,
+          "maximum_count_bits": 34,
+          "state_bound": 81,
+          "remaining_length_key_bound": 1053
+        }
+      },
+      {
+        "v": 6,
+        "ell": 10,
+        "genus": 0,
+        "count": 783820800,
+        "distinct_expansions": 131,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 6,
+          "length": 10,
+          "count_keys": 162,
+          "transition_states": 57,
+          "memo_operations": 2580,
+          "key_comparisons": 158392,
+          "maximum_count_bits": 30,
+          "state_bound": 243,
+          "remaining_length_key_bound": 2673
+        }
+      },
+      {
+        "v": 6,
+        "ell": 12,
+        "genus": 1,
+        "count": 275425920000,
+        "distinct_expansions": 188,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 6,
+          "length": 12,
+          "count_keys": 219,
+          "transition_states": 58,
+          "memo_operations": 3563,
+          "key_comparisons": 292554,
+          "maximum_count_bits": 39,
+          "state_bound": 243,
+          "remaining_length_key_bound": 3159
+        }
+      },
+      {
+        "v": 6,
+        "ell": 14,
+        "genus": 2,
+        "count": 72401570841600,
+        "distinct_expansions": 245,
+        "max_expansions_per_key": 1,
+        "metrics": {
+          "degree": 6,
+          "length": 14,
+          "count_keys": 276,
+          "transition_states": 58,
+          "memo_operations": 4545,
+          "key_comparisons": 445068,
+          "maximum_count_bits": 47,
+          "state_bound": 243,
+          "remaining_length_key_bound": 3645
+        }
+      }
+    ]
+  },
+  "disposal_checks": {
+    "N": 5,
+    "m": 4,
+    "nontrivial_selected_degrees": [
+      2,
+      2
+    ],
+    "isolate_degree": 1,
+    "counter_absent_before_next_creation": true,
+    "all_counters_released": true,
+    "interleaved_output": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "production_fair_bits_required": 0
+  },
+  "elapsed_seconds": 0.41152805904857814,
+  "generated_utc": "2026-10-28T12:51:16.194237+00:00"
+}

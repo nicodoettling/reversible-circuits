@@ -16,3 +16,5 @@ Frozen for new attention incident,2026-10-28. No I2 claim is accepted. Productio
 |R3-A3.v1 separate preparation constant|refuted at exact coefficient|falsification-proof-v1 and correction-v2|retain original|
 |R3-A3.v2 correctedK0/K1 implication|REPAIRED-PENDING-RECHECK|falsification-proof-v2|fresh review changed dependency cone|
 |ActualS4m4 unconditional stage probability product|refuted|R3 SectionD exact120-word decomposition|retain regression; not candidate refutation|
+
+Attempt000003 continuation: exact operator note resolves prior operational hold; D10/review-allocation-v1 records fresh validation/review. All mathematical statuses unchanged. Original interrupted report and request remain historical.

@@ -98,39 +98,77 @@
     {
       "id": "I2-r1-expectation",
       "agent": "/root/r5_expectation",
-      "status": "frozen-for-attention",
+      "status": "completed-author-report-provisional",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r1-expectation-v1.md",
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
       "report_due_utc": "2026-10-28T13:35:00Z",
       "allocation_end_utc": "2026-10-28T14:25:00Z",
-      "next": "No automatic continuation. Read exact attention handoff/request and operator disposition first; immutable author report preserved, new production validation and fresh reviews remain pending.",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/report-v1.md"
     },
     {
       "id": "I2-r2-decoder",
       "agent": "/root/r2_structural",
-      "status": "frozen-for-attention",
+      "status": "completed-author-report-provisional",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r2-decoder-v1.md",
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
       "report_due_utc": "2026-10-28T13:35:00Z",
       "allocation_end_utc": "2026-10-28T14:25:00Z",
-      "next": "No automatic continuation. Read exact attention handoff/request and operator disposition first; immutable author report preserved, new production validation and fresh reviews remain pending.",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/report-v1.md"
     },
     {
       "id": "I2-r3-falsification",
       "agent": "/root/r3_mass",
-      "status": "frozen-for-attention",
+      "status": "completed-author-report-provisional",
       "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification",
       "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/inputs/r3-falsification-v1.md",
       "brief": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/brief-v1.md",
       "report_due_utc": "2026-10-28T13:35:00Z",
       "allocation_end_utc": "2026-10-28T14:25:00Z",
-      "next": "No automatic continuation. Read exact attention handoff/request and operator disposition first; immutable author report preserved, new production validation and fresh reviews remain pending.",
+      "next": "Frozen author deliverable preserved; no author recreation. Exact operator note resolves prior hold; current review tasks handle unfinished validation and review.",
       "report": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r3-falsification/report-v1.md"
+    },
+    {
+      "id": "I2-review-blind",
+      "agent": "/root/i2_blind",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r4-blind",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/blind-package-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-review-theory",
+      "agent": "/root/i2_theory_review",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r5-theory-review",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/exact-theory-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-review-implementation",
+      "agent": "/root/i2_implementation_review",
+      "status": "active",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r6-implementation-review",
+      "input": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/review-inputs/exact-implementation-v1.md",
+      "report_due_utc": "2026-10-28T14:00:00Z",
+      "allocation_end_utc": "2026-10-28T14:45:00Z",
+      "next": "Freeze complete exact-scope report with hashes/dependency verdicts; no descendants/Git; request any mathematical job reservation. Blindness restrictions apply to blind role."
+    },
+    {
+      "id": "I2-J3-production-audit",
+      "agent": "/root",
+      "status": "running",
+      "directory": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator",
+      "reservation": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/coordinator/job-I2-J3-reservation-v1.json",
+      "next": "Wait for bounded result/cleanup; preserve raw and receipt. No other job may overlap."
     }
   ],
-  "updated_utc": "2026-10-28T12:21:15.521143+00:00"
+  "updated_utc": "2026-10-28T12:47:27.659226+00:00"
 }
