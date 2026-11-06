@@ -169,15 +169,16 @@
       "id": "Q-NEXT",
       "question": "What should a new decoder investigation test first, rather than repeat?",
       "records": [
-        "S-G01",
-        "S-CUT",
+        "S-G2",
+        "S-GENUS-FPT",
+        "P-SPARSE-EXACT",
         "S-QUOTIENT",
         "O-COUNTS",
         "R-CONNECTED"
       ],
       "source_ids": [
-        "g01-proof",
-        "cut-statement",
+        "genus-fpt-reconciliation",
+        "i2-theory-review",
         "connected-gap",
         "quotient-audit"
       ],
@@ -188,8 +189,8 @@
         "literal",
         "conditional"
       ],
-      "answer": "Test a genus-two final-letter decomposition and forced cycle-allocation masses, or an explicitly weighted higher-genus cut grammar. Counts alone and a larger existing cutoff are not the missing construction.",
-      "initial_retrieval_issue": "The recommendation is a planning judgment based on these scopes, not a new theorem or a claim of exhaustive literature novelty."
+      "answer": "Finish the interrupted exact sparse review first, then test a full global expected-cost envelope for the exponential-genus connected decoder. Genus-two existence and a generic genus-three extension are completed, not new assignments. Counts alone and a larger existing cutoff do not close the remaining global gap.",
+      "initial_retrieval_issue": "The old genus-two-first recommendation became stale after the imported campaign results. Current priority is a planning judgment, not a new mathematical acceptance or launch."
     },
     {
       "id": "Q-KERNEL",
@@ -213,6 +214,26 @@
       ],
       "answer": "Recorded acceptance covers N>=3, even m>=4, with exceptional cases explicit. It gives no polynomial gap. The m=2 multi-state chain has no allowed updates.",
       "initial_retrieval_issue": "Conditional manuscript wording lags the exact source translation and M01 audit."
+    },
+    {
+      "id": "Q-GENUS-VS-GLOBAL",
+      "question": "Does the all-genus connected sampler settle global all-length sampling?",
+      "records": ["S-GENUS-FPT", "G-ALL", "O-GROW"],
+      "source_ids": ["genus-fpt-statement", "genus-fpt-reconciliation", "i1-reconciliation"],
+      "expected_status": {"S-GENUS-FPT": "accepted-inherited", "G-ALL": "open", "O-GROW": "accepted-inherited"},
+      "required_text": ["C^(g+1)", "connected", "global"],
+      "answer": "No. The exact connected algorithm has exponential genus cost. A bound on its global expected assembly cost or a stronger decoder is still needed, and the growing-genus eligibility obstruction remains scoped and valid.",
+      "initial_retrieval_issue": "The original provisional banner predates the exact internal reconciliation; conversely that acceptance cannot be upgraded to a global theorem."
+    },
+    {
+      "id": "Q-EXACT-SPARSE-REVIEW",
+      "question": "Is the old exact sparse candidate accepted, and what work is missing?",
+      "records": ["P-SPARSE-EXACT", "S-SPARSE"],
+      "source_ids": ["i2-theory-review", "i2-blind-checkpoint", "i2-implementation-checkpoint"],
+      "expected_status": {"P-SPARSE-EXACT": "provisional", "S-SPARSE": "accepted-inherited"},
+      "required_text": ["blind", "implementation", "provisional"],
+      "answer": "The older negligible-error sparse theorem survives. The proposed exact replacement is not accepted: theory review and finite production checks exist, but blind/implementation final reviews and composed reconciliation are incomplete.",
+      "initial_retrieval_issue": "Old pre-execution report chronology and successful later finite checks can each mislead if treated as the final theorem verdict."
     }
   ]
 }

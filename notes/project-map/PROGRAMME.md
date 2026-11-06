@@ -1,8 +1,47 @@
 # Identity-Bridge Sampling Programme
 
-Version 1.1, operational clarification 2026-10-28 (Europe/Berlin). Scientific
-cards P0.v1-P5.v1 and their scopes are unchanged. Planning state: prepared,
-unlaunched. Campaign ID: `identity-bridge-sampling-20261025`.
+Version 2, consolidated 2026-11-06 (Europe/Berlin). This is planning state,
+not permission to launch. The old persistent campaign is STOPPED. Use the
+[fresh-start entry](../campaign-consolidation-2026-11-06.md) and the current
+[ranked targets](TARGETS.md), not historical run deadlines or worker states.
+
+## Current Portfolio
+
+| Card | State | Next obligation | Outcome routing |
+|---|---|---|---|
+| C1.v1 | first review target, not launched | Finish the interrupted exact sparse sampler's blind/implementation reviews and coordinator reconciliation | Accept only a closed exact-version chain; otherwise retain the precise flaw or gap and surviving lemmas |
+| C2.v1 | research target, not launched | Pay the exponential-genus decoder cost under exact global component selection in a genuinely new length regime | A useful cost theorem may extend global sampling; a failed upper envelope is not general hardness |
+| C3.v1 | audit target, not launched | External/human-readable review of the all-genus normalization, joint allocations and bit bounds | Preserve inherited scope or reopen the exact affected dependency cone |
+| C4.v1 | reserve | Improve exponential dependence on genus with a new compression ingredient | Require literal-word conditional decoding and uniform bit accounting, not only scalar counts |
+
+Admission for C1: freeze the current I2 author versions and partial R4/R6
+artifacts; use the completed R5 theory review and J3/J4 checks as scoped inputs.
+Do not repeat completed construction authors or infer acceptance from those
+finite checks. A new blind review must not inherit the candidate proof or its
+favorable theory verdict. If no complete review can be obtained, deliver an
+explicit unresolved obligation rather than promoting the sampler.
+
+Admission for C2: state the exact component-cost envelope and full global
+probability law, including its coefficient constants and bit costs. Compare
+against M-GROW before allocating a new dispatch policy. Accept only a proved
+new regime or a scoped obstruction; an apparent numerical threshold is neither.
+
+P1/P2 genus-two existence is achieved at inherited internal scope. The later
+single-exponential genus decoder also makes a generic genus-three extension
+redundant. Neither closes uniform polynomial cost at unrestricted genus or
+global all-length sampling. Local heat-bath mixing remains a separate reserve.
+The two rejected sparse-noise hiding candidates must not be rerun unchanged.
+
+The complete old campaign programme and append-only outcome receipts are
+[archived](history/2026-11-06-persistent-campaign/README.md). They include
+interrupted allocation states, not current worker activity. A future campaign
+needs its own mission, runtime/quota/recovery settings and launch authorization.
+
+## Historical Version 1 Programme
+
+The following original cards are preserved for provenance. Their old planned
+states and missing-genus wording are superseded by the current portfolio above.
+They do not constitute a fresh assignment or authorization.
 
 ## Objective and Evidence
 

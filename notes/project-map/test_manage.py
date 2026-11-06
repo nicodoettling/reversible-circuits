@@ -202,6 +202,26 @@ class MapChecks(unittest.TestCase):
 
 
 class RetrievalChecks(unittest.TestCase):
+    def test_sparse_candidate_is_not_promoted_by_consolidation(self):
+        folder = Path(__file__).resolve().parent
+        cat = manage.read_json(folder / "catalogue.json")
+        records = {r["id"]: r for r in cat["records"]}
+        candidate = records["P-SPARSE-EXACT"]
+        self.assertEqual(candidate["effective_status"], "provisional")
+        self.assertEqual(candidate["adjudications"], [])
+        self.assertIn("implementation", candidate["open_obligations"])
+        self.assertEqual(records["S-SPARSE"]["effective_status"], "accepted-inherited")
+
+    def test_connected_genus_acceptance_leaves_global_question_open(self):
+        folder = Path(__file__).resolve().parent
+        cat = manage.read_json(folder / "catalogue.json")
+        records = {r["id"]: r for r in cat["records"]}
+        theorem = records["S-GENUS-FPT"]
+        self.assertEqual(theorem["model"], "connected-endpoint")
+        self.assertEqual(theorem["effective_status"], "accepted-inherited")
+        self.assertIn("C^(g+1)", theorem["claim"])
+        self.assertEqual(records["G-ALL"]["effective_status"], "open")
+
     def test_documentary_retrieval_contracts(self):
         folder = Path(__file__).resolve().parent
         cat = manage.read_json(folder / "catalogue.json")

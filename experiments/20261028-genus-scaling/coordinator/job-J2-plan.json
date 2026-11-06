@@ -1,0 +1,19 @@
+{
+  "id": "J2",
+  "role": "r2-structure",
+  "claim": "penultimate cut topology and rejection bound",
+  "reservation": "coordinator exclusive after J1 exit0",
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "experiments/20261028-genus-scaling/roles/r2-structure/check_cuts_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/roles/r2-structure/cut-results-v1.json"
+  ],
+  "timeout_seconds": 180,
+  "address_limit_gib": 1,
+  "estimated_memory_mib": 128,
+  "estimated_seconds": 30,
+  "state_space": "N2/3/4 endpoint/support DP length<=12, no full N4g3 word enumeration",
+  "base_commit": "b178daf320833e859dcdee0ce56eb16c6d2130b7"
+}

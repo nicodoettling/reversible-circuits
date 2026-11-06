@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-06",
+  "models": {"noisy-words": "Frozen M0: complete fixed-length transposition identity words from a specified construction versus global uniform bridges, passed through identical hidden uniform-k-subset independent replacement noise and exposing the same public setup."},
+  "sources": {
+    "i1-rec-statement": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/statement-v1.md",
+    "i1-rec-proof": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md",
+    "i1-rec-review": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md",
+    "i1-cut-statement": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/theorem-v1.md",
+    "i1-cut-proof": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md",
+    "i1-cut-review": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md",
+    "i1-grow-statement": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/scope-growing-v1.md",
+    "i1-grow-proof": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md",
+    "i1-grow-review": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md",
+    "i1-reconciliation": "experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md",
+    "i2-exact-statement": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/statement-v1.md",
+    "i2-exact-proof": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md",
+    "i2-decoder-proof": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md",
+    "i2-theory-review": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r5-theory-review/report-v1.md",
+    "i2-blind-checkpoint": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r4-blind/halfway-v1.md",
+    "i2-implementation-checkpoint": "experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r6-implementation-review/checkpoint-halfway-v1.md",
+    "genus-fpt-statement": "experiments/20261028-genus-scaling/theorem-v1.md",
+    "genus-fpt-coefficients": "experiments/20261028-genus-scaling/coordinator/coefficient-theorem-v1.md",
+    "genus-fpt-decoder": "experiments/20261028-genus-scaling/roles/r1-recursion/proof-v1.md",
+    "genus-fpt-reconciliation": "experiments/20261028-genus-scaling/reconciliation-v1.md",
+    "genus-fpt-review-r2": "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/report-v1.md",
+    "genus-fpt-review-r3": "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/report-v1.md",
+    "noise-viability-report": "experiments/20261029-noisy-bridge-viability/report.md",
+    "noise-viability-reconciliation": "experiments/20261029-noisy-bridge-viability/reconciliation-v1.md",
+    "projection-foreground": "experiments/20261028-bridge-projections/report.md"
+  },
+  "frontier_updates": {
+    "**Current answer:**": "**Current answer:** Global near-uniform samplers survive in short, sparse and sufficiently long regimes; no all-length theorem is established. The consolidated campaigns add exact connected genus-two constructions and a uniform exact connected sampler with cost A C^(g+1)(N+g+2)^15. This is polynomial at logarithmic genus but does not close the global intermediate-length gap. An exact sparse global candidate has unfinished review and remains provisional.",
+    "**Two different frontiers:**": "**Two different frontiers:** Connected words can now be sampled at every genus with exponential genus cost. The global question is whether that cost can be paid under the exact component law, or replaced by a uniform polynomial bound. The local {3,4,5} heat-bath mixing question is separate and remains open; direct sampling proves no gap for that walk.",
+    "**Evidence level:**": "**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation."
+  },
+  "route_rows": [
+    {"section": "Surviving Samplers", "record": "S-G01", "text": "Exact connected genus-zero/one components remain useful primitives; later S-G2 and S-GENUS-FPT extend their genus coverage."},
+    {"section": "Surviving Samplers", "record": "S-G2", "text": "Connected genus-two arbitrary-endpoint sampling is exact, with conservative expected O(v^11 log^3(v+1)) bit time; a separate cut construction handles identity genus two."},
+    {"section": "Surviving Samplers", "record": "S-GENUS-FPT", "text": "One exact connected sampler handles every genus with expected A C^(g+1)(N+g+2)^15 bit time. For each fixed K, g<=K log(N+2) is polynomial-time. This is not a global all-length theorem."},
+    {"section": "What Failed", "record": "O-GROW", "text": "The low-genus/small-support eligibility obstruction persists even when the allowed genus grows through N^(1/8), on the stated m=N^(3/4) subsequence. This does not prove general sampling hardness."},
+    {"section": "Precise Gaps", "record": "R-CONNECTED", "text": "Exact macro assembly is available. The connected primitive's exponential genus dependence must be removed or paid in expectation to obtain a global theorem in new regimes; the stronger uniform-polynomial sufficient condition remains open."},
+    {"section": "Pending Review", "record": "P-SPARSE-EXACT", "text": "An exact sparse global candidate has a completed conditional theory review and successful finite production checks, but blind/implementation review and final reconciliation are unfinished. Do not cite it as accepted."},
+    {"section": "Pending Review", "record": "P-PROJECTION", "text": "Foreground projection and replacement-endpoint identities are preserved with exact checks; an independent proof audit is still needed. Endpoint agreement alone gives no word-level pseudorandomness."},
+    {"section": "Cryptographic Investigations", "record": "ALT-NOISE-ATTACK", "text": "Sparse replacements fail to hide the two specified relator/path-star constructions: short-relation and support tests give efficient distinguishers. The general noisy-word hiding question remains open."}
+  ],
+  "record_context_updates": {
+    "S-G01": {"version": 2, "limitations": "Historical genus-zero/one primitive, extended by S-G2 and S-GENUS-FPT. Uniform polynomial cost over unrestricted growing genus remains open. The underlying theorem and historical review binding are unchanged."},
+    "R-CONNECTED": {"version": 2, "open_obligations": "Supply uniform polynomial connected decoding over all feasible genera, or independently prove sufficient expected cost for an alternative global assembly. S-GENUS-FPT supplies exponential genus cost, not this stronger uniform-polynomial premise.", "limitations": "Sufficient, not necessary. The inherited conditional theorem is unchanged; later connected samplers partially discharge its component cases but do not close all-length global sampling."}
+  },
+  "target_updates": {
+    "T-CONNECTED": {
+      "version": 2, "rank": 4, "tier": "reserve research", "title": "Improve the remaining genus dependence",
+      "nearest": ["R-CONNECTED", "S-GENUS-FPT", "S-G2", "S-CUT2", "O-GROW"],
+      "obligation": "Remove or materially improve the exponential genus factor in the existing literal connected decoder, uniformly over feasible support, endpoint and genus. Genus-two existence and a generic genus-three extension are completed targets, not new allocations.",
+      "first_test": "Locate the exponential coefficient/marker inventory in the accepted FPT proof and freeze one compression hypothesis with a literal conditional-decoding contract, not just scalar counting.",
+      "stop_or_pivot": "Do not repeat the completed fixed-genus constructions or infer a global theorem from logarithmic-genus cost. Stop a compression when exact forced allocation or signed bit bounds fail; preserve the counterexample.",
+      "rationale": "The old genus-two stepping stone is complete; only a genuinely stronger parameter bound would advance this route.",
+      "uncertainty": "High for uniform polynomial genus dependence; the existing exponential bound is internally accepted."
+    },
+    "T-MASS": {
+      "version": 2, "rank": 2, "title": "Pay the connected decoder's cost under the global law",
+      "nearest": ["S-GENUS-FPT", "S-COUNTS", "S-SPARSE", "O-GROW", "P-SPARSE-EXACT"],
+      "obligation": "Freeze a useful upper envelope for the FPT decoder and bound its total expected cost under exact global component selection, or prove a new negligible-error dispatch policy in an explicitly new length regime.",
+      "first_test": "Identify an explicit usable coefficient/base constant in the FPT proof; write the marked-component expectation of its full cost envelope. Compare with the inherited sparse moment argument and the growing-genus eligibility obstruction before doing scaling experiments.",
+      "positive": "A proved cost/mass bound that gives a genuinely enlarged global length regime under declared decoder/bit assumptions.",
+      "negative": "A scoped obstruction to the proposed envelope or dispatch policy, not a lower bound on every sampler's actual runtime.",
+      "stop_or_pivot": "Do not merely enlarge the logarithmic support cutoff or redo fixed-genus existence. A divergent upper-envelope moment alone does not establish actual computational hardness.",
+      "rationale": "Uses the newly available connected decoder and exact assembly while confronting the actual global gap."
+    },
+    "T-AUDIT": {
+      "version": 2, "rank": 3,
+      "nearest": ["S-GENUS-FPT", "S-G2", "S-CUT2", "S-DENSE", "S-SPARSE", "O-GROW"],
+      "obligation": "Make the strongest internally accepted theorem chains suitable for external/human review. Prioritize all-genus coefficient normalization, forced two-child allocations and signed bit costs, retaining existing dense/sparse review obligations.",
+      "first_test": "Independently reconstruct repeated-cycle normalization and a two-positive-genus forced-allocation identity, then audit the all-genus denominator bound against the exact frozen proofs and review inputs."
+    },
+    "T-FIXED-LENGTH": {"rank": 5},
+    "T-HEATBATH": {"rank": 6},
+    "T-ALTERNATIVES": {"rank": 7, "nearest": ["ALT-EXPANDER", "ALT-CRYPTO", "ALT-NOISE-ATTACK"], "stop_or_pivot": "Reject unchanged noisy six-relator/path-star constructions using ALT-NOISE-ATTACK. Freeze any new generator/representation/security game; no endpoint-to-word-security or expander-to-bridge inference."},
+    "T-RETIRED": {"rank": 8, "obligation": "Retire genus-one/two existence, generic fixed-genus-three extension, the old dense schedule, standalone mean-lift repair and unchanged low-genus/small-support policies. Do not rerun the two rejected sparse-noise hiding constructions unchanged."}
+  },
+  "new_targets": [
+    {
+      "id": "T-SPARSE-EXACT-AUDIT", "version": 1, "rank": 1, "title": "Finish the interrupted exact sparse-sampler review", "tier": "active audit/integration",
+      "nearest": ["P-SPARSE-EXACT", "S-SPARSE", "S-COUNTS", "S-QUOTIENT"],
+      "obligation": "Finish the frozen candidate's missing blind and implementation reviews and reconcile its complete exact-law/expected-bit-cost chain. Retain the completed R5 review and J3/J4 evidence without treating them as final acceptance.",
+      "advance": "Could upgrade the sparse near-uniform regime to exact sampling, or expose a precise flaw without repeating completed construction work.",
+      "first_test": "Read the partial R4/R6 artifacts and R5's conditional interfaces, freeze the current sources, and isolate the first unfinished implementation/cost obligation. A fresh blind context must not inherit the candidate proof or its favorable theory verdict.",
+      "positive": "A complete exact-version reconciliation closing the declared sparse ranges with literal-word law and expected bit cost.",
+      "negative": "A checked counterexample or material proof objection with its dependency cone, preserving any valid restricted result.",
+      "stop_or_pivot": "No acceptance from finite laws alone, no all-length conclusion and no unchanged rerun of the original authors. Record a precise inconclusive gap if independent review cannot be completed.",
+      "effort": "One separately authorized bounded review allocation; no launch from this card.",
+      "uncertainty": "Moderate: analytic review and finite production checks exist, but full blind/implementation reconciliation is incomplete.",
+      "rationale": "The closest unfinished deliverable already has substantial preserved work; a fresh coordinator should finish or explicitly dispose of it before inventing a new ladder."
+    }
+  ],
+  "family_updates": {
+    "operations": {"prefixes": ["experiments/20260824-bwrap-subagent-smoke", ".codex", ".claude", ".agents", "dev", ".gitignore", "notes/codex-bwrap-apparmor-admin.md", "notes/codex-bwrap-apparmor-user.md", "notes/codex-userns.apparmor", "notes/genus-scaling-4h-run.md", "notes/genus-scaling-4h-runbook.md", "notes/noisy-bridge-viability-90m-run.md", "notes/noisy-bridge-viability-90m-runbook.md", "notes/campaign-consolidation-2026-11-06.md"]},
+    "campaign": {"disposition": "I1 exact genus-two samplers and growing-genus policy obstruction internally accepted; I2 exact sparse candidate remains provisional", "read_depth": "exact statements, I1 reconciliation, I2 theory review and partial-review artifacts traced; proofs not freshly re-audited", "records": ["S-G2", "S-CUT2", "O-GROW", "P-SPARSE-EXACT"]},
+    "noisy-bridge-viability": {"disposition": "two scoped construction rejections mapped at inherited internal acceptance; general hiding remains open", "read_depth": "report, exact reconciliation and existing review bindings traced; no new proof audit", "records": ["ALT-NOISE-ATTACK"]},
+    "bridge-projections": {"disposition": "foreground identities mapped provisionally; independent audit pending", "records": ["P-PROJECTION"]}
+  },
+  "new_families": [
+    {"id": "genus-scaling", "title": "Uniform exponential-genus connected sampling", "prefixes": ["experiments/20261028-genus-scaling", "research-campaigns/genus-scaling-20261028"], "disposition": "T0 exact composition accepted internally under checked published inputs; external/operator completion review remains separate", "read_depth": "frozen statement, full reconciliation and delivery hashes traced; decisive production check reproduced, not a new asymptotic proof audit", "limits": "Exponential genus cost, connected fibers only. Separate PORT-CONTRACT unresolved and not a theorem dependency. Same-model reviews correlated.", "records": ["S-GENUS-FPT"], "branch_disposition": "mapped T0; structural supplement and alternate refinements retain their exact source statuses"}
+  ],
+  "records": [
+    {
+      "id": "S-G2", "title": "Exact connected genus-two endpoint sampling", "family": "campaign", "kind": "theorem", "model": "connected-endpoint",
+      "claim": "R1-T2.v1 samples exactly each nonempty connected endpoint fiber of length v+cycles(sigma)-2+2g for g in {0,1,2}, with expected O(v^11 log^3(v+1)) bit time.",
+      "parameters": "Explicit v labels and endpoint sigma, genus at most two; independent fair bits.",
+      "guards": "Singleton genus zero is the empty word; singleton positive genus is infeasible. Identity genus two has length 2v+2.",
+      "assumptions": "Checked fixed-permutation Goulden-Jackson normalization, inherited S-G01 and complete final-letter allocation/decoder proof.",
+      "open_obligations": "No open obligation in the inherited restricted theorem; human/external review remains appropriate.",
+      "source_claimed_status": "Initially provisional statement; later exact I1 reconciliation accepts R1-T2.v1 internally.",
+      "effective_status": "accepted-inherited", "evidence": ["i1-rec-statement", "i1-rec-proof"], "adjudications": ["i1-reconciliation", "i1-rec-review"], "dependencies": ["S-G01"],
+      "limitations": "Connected fibers only; no global all-length sampler or walk mixing bound. S-GENUS-FPT later supplies uniform exponential genus dependence.",
+      "review_binding": "I1 reconciliation binds statement/proof/sampler hashes and full nonauthor R2 review; original provisional banners are immutable. Same-model reviews are correlated."
+    },
+    {
+      "id": "S-CUT2", "title": "Second exact connected identity genus-two construction", "family": "campaign", "kind": "theorem", "model": "connected",
+      "claim": "C2.v1 samples exactly connected identity words of length 2N+2 on all N labels, with conservative expected O(N^20 log^4(N+1)) bit time.",
+      "parameters": "N>=2, exact law, explicit ordered word, independent fair bits; no accuracy-dependent work.",
+      "guards": "Fixed connected identity fiber, not arbitrary endpoints or unordered support graphs.",
+      "assumptions": "Inherited S-G01 and audited cut incidences, weighted parser and reciprocal-cut rejection.",
+      "open_obligations": "None for the inherited genus-two statement; the separate higher-genus port grammar remains unresolved.",
+      "source_claimed_status": "C2.v1 accepted internally in I1 reconciliation.",
+      "effective_status": "accepted-inherited", "evidence": ["i1-cut-statement", "i1-cut-proof"], "adjudications": ["i1-reconciliation", "i1-cut-review"], "dependencies": ["S-G01"],
+      "limitations": "Alternative exact construction, not a global sampling theorem. Its structural higher-genus gap is not a dependency of S-GENUS-FPT.",
+      "review_binding": "I1 reconciliation binds C2 proof and sampler to the full coordinator nonauthor structural review; that review was not blind."
+    },
+    {
+      "id": "O-GROW", "title": "Growing low-genus eligibility still loses target mass", "family": "campaign", "kind": "counterexample", "model": "global",
+      "claim": "For j>=64, N=2^(8j), m=2^(6j), and 0<=G<=2^j, the global bridge event that every nontrivial component has g<=G OR v<=K has probability <=2^(-1-jm/2), with K=max{1<=v<=N:3^v<=(N+m+2)^4}.",
+      "parameters": "Explicit subsequence m=N^(3/4), growing genus cutoff up to N^(1/8), frozen logarithmic support cutoff K.",
+      "guards": "Only the stated output-eligibility policy is obstructed; G=0 is included.",
+      "assumptions": "Exact component counts/assembly, checked DYZ normalization, varying-genus numerator estimate and subgroup return lower bound.",
+      "open_obligations": "None for this inherited subsequence obstruction; stronger blind variants remain provisional.",
+      "source_claimed_status": "M-GROW.v1 accepted internally after full exact-version mass review and blind reconciliation.",
+      "effective_status": "accepted-inherited", "evidence": ["i1-grow-statement", "i1-grow-proof"], "adjudications": ["i1-reconciliation", "i1-grow-review"], "dependencies": ["S-COUNTS"],
+      "limitations": "Not an all-N threshold, a lower bound on every decoder's runtime, or general sampling hardness. Exponential-genus sampling does not automatically defeat this eligibility obstruction.",
+      "review_binding": "I1 reconciliation binds the exact M-GROW statement, mass proof and R1 nonauthor audit; stronger blind refinements were explicitly not promoted.", "view": "obstructions"
+    },
+    {
+      "id": "S-GENUS-FPT", "title": "Exact connected sampling with single-exponential genus cost", "family": "genus-scaling", "kind": "theorem", "model": "connected-endpoint",
+      "claim": "One uniform fair-bit algorithm samples exactly the connected identity fiber of length 2N-2+2g in expected A C^(g+1)(N+g+2)^15 bit operations, with absolute A>0,C>1. The auxiliary fixed-endpoint fiber has length N+cycles(sigma)-2+2g.",
+      "parameters": "N>=2, g>=0; explicit labels, endpoint and word. For every fixed K, g<=K log(N+2) gives expected polynomial time, with exponent allowed to depend on K.",
+      "guards": "Nonempty connected fibers only; singleton has only its empty genus-zero word. Exactness is TV0, not a worst-case finite random-bit guarantee.",
+      "assumptions": "Source-checked ELSV/GJV all-genus polynomial expansion and fixed-permutation normalization; explicit coefficient recovery, joint forced allocation, literal decoding and signed-arithmetic bit bounds.",
+      "open_obligations": "External/human review remains appropriate. General polynomial genus cost, global expected assembly cost and the separate structural PORT-CONTRACT remain unresolved.",
+      "source_claimed_status": "T0.v1/AUX-ENDPOINT-MARKER.v1 accepted for source-scoped internal use in exact reconciliation; operator/external completion review pending.",
+      "effective_status": "accepted-inherited", "evidence": ["genus-fpt-statement", "genus-fpt-coefficients", "genus-fpt-decoder"], "adjudications": ["genus-fpt-reconciliation", "genus-fpt-review-r2", "genus-fpt-review-r3"], "dependencies": ["S-G01"],
+      "limitations": "Exponential in genus, connected rather than global, polynomial in degree rather than log2(N) wires. Does not establish heat-bath mixing. Imported geometric enumeration is not reproved.",
+      "review_binding": "Reconciliation v1 binds T0 hash fecfe4a4..., coefficient proof b152819e..., decoder proof f87fc038..., full R2/R3 exact reviews and blind report. The historical provisional theorem banner is superseded only at that exact scope. Same-model reviews are correlated."
+    },
+    {
+      "id": "P-SPARSE-EXACT", "title": "Exact sparse global sampler awaiting completed review", "family": "campaign", "kind": "construction", "model": "global",
+      "claim": "ES.v1 and ES-LOG.v1 propose unrestricted exact macro selection followed by selected-component quotient decoding, with expected O((N+m+2)^14) bit time on each separately stated sparse regime.",
+      "parameters": "N>=2, even m; regimes m^3<=N^2 and m<=N^(2/3) ln(N)/4. Proposed exact output law; enormous fixed proof constant.",
+      "guards": "No components omitted; pay only actual selected-component counters. Uniform bit-cost and exact-law interfaces still require the completed implementation review.",
+      "assumptions": "Exponential component-cost moment, exact complete macro law and a correctly bounded quotient decoder with fresh counter disposal.",
+      "open_obligations": "Finish the interrupted blind and implementation reviews, reconcile their exact current versions with the theory review and finite audits, and close the full cost/exact-law dependency graph.",
+      "source_claimed_status": "Authors complete; nonblind theory review accepts the analytic argument conditionally on implementation interfaces. No composed sampler acceptance was issued.",
+      "effective_status": "provisional", "evidence": ["i2-exact-statement", "i2-exact-proof", "i2-decoder-proof", "i2-theory-review", "i2-blind-checkpoint", "i2-implementation-checkpoint"], "adjudications": [], "dependencies": ["S-COUNTS", "S-QUOTIENT"],
+      "limitations": "Not an accepted exact sparse theorem, all-length efficient sampler, worst-case polynomial bound or actual-runtime lower bound at m=N^(3/4). Successful production checks do not close interrupted proof reviews.",
+      "review_binding": "R5 report v1 is complete but explicitly conditional on R2 implementation/cost; R4/R6 have checkpoints rather than final full reports. Older report/handoff banners precede later jobs and remain historical.", "view": "results"
+    },
+    {
+      "id": "ALT-NOISE-ATTACK", "title": "Sparse replacements do not hide the two tested constructions", "family": "noisy-bridge-viability", "kind": "counterexample", "model": "noisy-words",
+      "claim": "In matched-noise game M0, six-relator constructions have efficient one-query short-window distinguishers under the stated bounded-scrambling conditions; the path/star construction has a support distinguisher surviving arbitrary Hurwitz scrambling. Both frozen sparse-noise candidates are rejected.",
+      "parameters": "T0: L=6M, H=M-1-2b-k>=M/2, N>=1000 gives advantage>=7/10. Path/star: N=lambda^6,L=2lambda,k=floor sqrt(lambda), lambda>=1024 gives false acceptance<=lambda^(-lambda).",
+      "guards": "Complete words, global uniform bridges, identical hidden uniform-k-subset replacements in both worlds. Attack restrictions and candidate schedules are not interchangeable.",
+      "assumptions": "Elementary return-moment/density bounds, surviving short relations and exact global support counting; no mixing or cryptographic hardness assumption.",
+      "open_obligations": "General sparse-noise hiding remains open; any new candidate needs matched support/short-relation tests and a separately justified security assumption.",
+      "source_claimed_status": "Scoped attack proofs accepted internally with complete exact-version reviews; no general impossibility or secure construction claimed.",
+      "effective_status": "accepted-inherited", "evidence": ["noise-viability-report"], "adjudications": ["noise-viability-reconciliation"], "dependencies": [],
+      "limitations": "Only the two specified families and stated parameter regimes. Endpoint matching alone gives no full-word security. Same-model reviews are correlated.",
+      "review_binding": "Noisy-bridge reconciliation v1 closes the exact T0/C1/C2 versions and LC1-v3 repair; provisional alternative onset and earlier flawed arithmetic are retained separately.", "view": "obstructions"
+    },
+    {
+      "id": "P-PROJECTION", "title": "Foreground bridge projections and replacement endpoint laws", "family": "bridge-projections", "kind": "auxiliary lemma", "model": "global",
+      "claim": "The foreground report gives exact ordered-subsequence completion probabilities under global uniform bridges and a convolution description of replacement endpoints. Long-completion mixing gives sufficient closeness to iid selected gates; endpoint closeness alone is weaker than word security.",
+      "parameters": "N>=2, even L, 0<=k<=L, fixed nonadaptive selected positions; rightmost-first multiplication.",
+      "guards": "Global and connected laws have different completion counts. Approximate sampler TV error is additional. Parity-aware nonlazy walk normalization is required for imported mixing bounds.",
+      "assumptions": "Explicit Hurwitz/triangular bijections and classical random-transposition estimates with the report's parity translation.",
+      "open_obligations": "Independent exact-version review before treating these foreground derivations as internally audited manuscript results.",
+      "source_claimed_status": "Elementary identities proved in foreground with exact checks; no independent long-run audit claimed.",
+      "effective_status": "provisional", "evidence": ["projection-foreground"], "adjudications": [], "dependencies": [],
+      "limitations": "No claim that an arbitrary structured sampler has these projection laws or that matching endpoints implies full-word pseudorandomness.",
+      "review_binding": "Single foreground report with explicit proof and finite checks; no full independent referee reconciliation exists."
+    }
+  ]
+}

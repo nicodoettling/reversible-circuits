@@ -201,3 +201,39 @@ The M15 audit records a hypothesis failure for the closest weighted-path contrac
 - Adjudication: None recorded for this scope.
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Finite witnesses and source normalization are in the report; no experiments rerun and no external papers newly checked. No contrary scoped verdict traced; complete audit provenance for this grouped negative remains pending.
+
+<a id="o-grow"></a>
+## O-GROW: Growing low-genus eligibility still loses target mass
+
+For j>=64, N=2^(8j), m=2^(6j), and 0<=G<=2^j, the global bridge event that every nontrivial component has g<=G OR v<=K has probability <=2^(-1-jm/2), with K=max{1<=v<=N:3^v<=(N+m+2)^4}.
+
+- Effective status: **accepted-inherited**; source: M-GROW.v1 accepted internally after full exact-version mass review and blind reconciliation.
+- Mapping depth: statement-and-verdict-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: global; parameters: Explicit subsequence m=N^(3/4), growing genus cutoff up to N^(1/8), frozen logarithmic support cutoff K.
+- Guards: Only the stated output-eligibility policy is obstructed; G=0 is included.
+- Assumptions: Exact component counts/assembly, checked DYZ normalization, varying-genus numerator estimate and subgroup return lower bound.
+- Remaining obligation: None for this inherited subsequence obstruction; stronger blind variants remain provisional.
+- Limitations: Not an all-N threshold, a lower bound on every decoder's runtime, or general sampling hardness. Exponential-genus sampling does not automatically defeat this eligibility obstruction.
+- Version / verdict binding: I1 reconciliation binds the exact M-GROW statement, mass proof and R1 nonauthor audit; stronger blind refinements were explicitly not promoted.
+- Evidence: [i1-grow-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/scope-growing-v1.md), [i1-grow-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md)
+- Adjudication: [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md), [i1-grow-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md)
+- Logical dependencies: [S-COUNTS](RESULTS.md#s-counts)
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="alt-noise-attack"></a>
+## ALT-NOISE-ATTACK: Sparse replacements do not hide the two tested constructions
+
+In matched-noise game M0, six-relator constructions have efficient one-query short-window distinguishers under the stated bounded-scrambling conditions; the path/star construction has a support distinguisher surviving arbitrary Hurwitz scrambling. Both frozen sparse-noise candidates are rejected.
+
+- Effective status: **accepted-inherited**; source: Scoped attack proofs accepted internally with complete exact-version reviews; no general impossibility or secure construction claimed.
+- Mapping depth: statement-and-verdict-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: noisy-words; parameters: T0: L=6M, H=M-1-2b-k>=M/2, N>=1000 gives advantage>=7/10. Path/star: N=lambda^6,L=2lambda,k=floor sqrt(lambda), lambda>=1024 gives false acceptance<=lambda^(-lambda).
+- Guards: Complete words, global uniform bridges, identical hidden uniform-k-subset replacements in both worlds. Attack restrictions and candidate schedules are not interchangeable.
+- Assumptions: Elementary return-moment/density bounds, surviving short relations and exact global support counting; no mixing or cryptographic hardness assumption.
+- Remaining obligation: General sparse-noise hiding remains open; any new candidate needs matched support/short-relation tests and a separately justified security assumption.
+- Limitations: Only the two specified families and stated parameter regimes. Endpoint matching alone gives no full-word security. Same-model reviews are correlated.
+- Version / verdict binding: Noisy-bridge reconciliation v1 closes the exact T0/C1/C2 versions and LC1-v3 repair; provisional alternative onset and earlier flawed arithmetic are retained separately.
+- Evidence: [noise-viability-report](../../experiments/20261029-noisy-bridge-viability/report.md)
+- Adjudication: [noise-viability-reconciliation](../../experiments/20261029-noisy-bridge-viability/reconciliation-v1.md)
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.

@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "kind": "fresh Python interpreter, generated coefficients and actual production-law replay",
+  "commit": "4b123da3c024adbcf73bfbf41c905f2f1f28d122",
+  "python": "3.12.3",
+  "dependencies": "stdlib",
+  "seed": null,
+  "pinned_files_verified": 26,
+  "pinned_sha256": {
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/coefficient-theorem-v1.md": "b152819ed84e460fe1d9248e2d178b7575104232b32551ef7466d518ec5ec610",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/coefficient_oracle_v1.py": "886bcb74ed39b18ff72b8b9ec4ad6f9e79b0fe6f09e406bdc2001a470e86cedc",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/coefficient-results-v1.json": "9d5c7dc0fe683adbbc523cbf5012cd7461aa66ecc3cd03d80a9ddde71b47796d",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/job-J1-plan.json": "98600c855dc76dab7f8b498fd0bd32dc90dbf0039baca3a351d530ea138c3273",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/coordinator/job-J1-outcome.json": "e16b1c2cad0bf3078803d4f9c342ab4e63aafeca9c5f8e940d7771c6315ef755",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/audit-v1.py": "fab39f3dd9aba9b56ab71a60cd9ea5dd5d5f25c7df8ca8995f4675ca4a349468",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/input-v1.md": "7b7247084027f630a9021e89ede7ffc34aff6618719223a9ef8420c31bb20bbe",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/job-v1.json": "9abe04124d2d09c7f7701c4657ef8b3747cea25063d2bae06a507419fef7f3bd",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/plan.md": "bfe102b64214baacd0146eb106352eb125e336431be781ddaab2795ad2877415",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/proof-draft-v1.md": "2c6fe16cac26be3e4e9a546980c5fdeaa74844be613ae11e2a586f02d944b9c5",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/proof-v1.md": "f87fc0387e4f936ce82ebe0800851cb88a340eacc1188e5b8e0816fa8123d173",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/report-v1.md": "08b6239625bb809d430b6c62df7b839acf6002bb386543cbdcd823b459021283",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/results-v1.json": "04d46fa8a8c4949499a726ecef7ac66a55f5b854f2c5ccae6551a57d47f7928b",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/sampler-v1.py": "26ca9e0d61f62d29f3f99b1d77e4bc925129abd025d07ca412d7dffd097a371d",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/source-verification-v1.md": "3eddc2ad4300895c8d9e6f05bcd432f1d1344053d381479f5e911774cbd3dc67",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r1-recursion/statement-v1.md": "e161d83dce0fc5dee0fa6ad40d93142e93eea18cb755bcdc4ab867c02a74f0cf",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/input-v1.md": "626021e06d082f3f0f00f895e7c032da8e77c72bd02bcd7c3d927e8e6bb3bef5",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/plan.md": "be4224cde4135ff2d6f35ac1ac3d2afb10977a2bc5fc8a22816065ab53640bac",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/checkpoint-early-v1.md": "ea0d68577a8b60cdabf19e53ba9e66963219cdbc2305e278ad88340a628e4ccf",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/checkpoint-halfway-v1.md": "146c1719ee40147e995de4bf8aa875c99e1c8e9f401b020cb57e4b9b7522d561",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/theorem-v1.md": "60b9014cae7d3219083441cb037441e56d83f8a7abc3fd47ba91dcf6828c8072",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/proof-v1.md": "59a627caad62feabc25ddb786eb76d84358ff7b5baf4e4ab277d3ecc20a08b13",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/check_cuts_v1.py": "09821dba5bb2eb86377249e096f44d0844608ef07b3765b41995ef584401fba0",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/cut-results-v1.json": "81c1470d7dde41204aae7dde137b2827ddd2e6eea440c798eb88f9f2f918f2b0",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/job-J2-plan.json": "30d5bb1c6dbe1c3664815034a1b0cd4dadbb1be2da769347c07fe2fe74032a77",
+    "/home/nico/projects/research_projects/reversible_circuits/.campaigns/genus-scaling-20261028/worktree/experiments/20261028-genus-scaling/roles/r2-structure/report-v1.md": "d1e9310e0761e7b564eb2f993d218a48b5c814ae3ad56f23a94835701eb7a73f"
+  },
+  "regenerated_genera": [
+    2,
+    3
+  ],
+  "actual_production_law": {
+    "endpoint": [
+      0,
+      1,
+      2
+    ],
+    "genus": 3,
+    "word_count": 19680,
+    "probability": [
+      1,
+      19680
+    ],
+    "replayed_runs": 29521,
+    "categorical_branchpoints": 9841,
+    "intercepted_calls": 324733,
+    "maximum_DFS_frontier": 30,
+    "exact_uniform": true
+  },
+  "forcing_partition": {
+    "sizes": [
+      1,
+      2,
+      1,
+      1
+    ],
+    "genus_pair": [
+      1,
+      1
+    ],
+    "total": 40320,
+    "extensions": [
+      30240,
+      10080
+    ]
+  },
+  "regressions": [
+    "S3m4=27",
+    "S4m4=120",
+    "S4m6=3936",
+    "ordinary81/connected80",
+    "CP1 false marginal product rejected"
+  ],
+  "elapsed_seconds": 1.7950504189357162,
+  "command": [
+    "experiments/20261028-genus-scaling/coordinator/clean_verify_v1.py",
+    "--output",
+    "experiments/20261028-genus-scaling/coordinator/clean-results-v1.json"
+  ]
+}

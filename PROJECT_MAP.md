@@ -2,15 +2,15 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-10-29 (Europe/Berlin).
+Documentary consolidation: 2026-11-06 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
-**Current answer:** Several regimes have internally audited samplers, but there is no all-length theorem. Very short words can be sampled exactly; a sparse-length range has negligible-error samplers; sufficiently long words have a rank-recursive approximate sampler. The intermediate range remains open. Failed restricted samplers are not evidence of general sampling hardness.
+**Current answer:** Global near-uniform samplers survive in short, sparse and sufficiently long regimes; no all-length theorem is established. The consolidated campaigns add exact connected genus-two constructions and a uniform exact connected sampler with cost A C^(g+1)(N+g+2)^15. This is polynomial at logarithmic genus but does not close the global intermediate-length gap. An exact sparse global candidate has unfinished review and remains provisional.
 
-**Two different frontiers:** For direct sampling, the concrete missing ingredient is a connected-word decoder on larger supports and higher genus. For the local {3,4,5} heat-bath walk, qualitative irreducibility is recorded as accepted but a polynomial mixing bound is still open. A direct sampler proves no mixing bound for that walk.
+**Two different frontiers:** Connected words can now be sampled at every genus with exponential genus cost. The global question is whether that cost can be paid under the exact component law, or replaced by a uniform polynomial bound. The local {3,4,5} heat-bath mixing question is separate and remains open; direct sampling proves no gap for that walk.
 
-**Evidence level:** The original map consolidates existing statements and scoped internal reviews; `accepted-inherited` is not fresh proof certification. The October 13 product-S3 and single-cycle records and October 14 auxiliary tree-slide theorem add author arguments and exact checks, registered provisionally pending independent review. The single-cycle local gap remains unresolved. Same-model reviews are correlated, and the large heat-bath archive is only partly traced. See coverage before treating a branch as settled.
+**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation.
 
 **Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
 
@@ -21,8 +21,10 @@ Documentary consolidation: 2026-10-29 (Europe/Berlin).
 - Exact short bridges: polynomial for m <= A(log N)^2, with fixed A; the full algorithm has exp(O(sqrt(min(m,N)))) state growth. [S-SHORT](notes/project-map/RESULTS.md#s-short)
 - Dense bridges: put q=floor(m/[2N(N-1)]). For q>=4ceil(log2 N), TV <= min(1,3N^2 exp(-q/144)). Fixed-constant N^2 log N lengths give only inverse-polynomial error from this bound; q/log N -> infinity suffices for negligible error. [S-DENSE](notes/project-map/RESULTS.md#s-dense)
 - Sparse bridges: negligible error for even m <= N^(2/3) ln N / 4, with explicit but very large asymptotic onset. The earlier theorem keeps a better error bound on its smaller range. [S-SPARSE](notes/project-map/RESULTS.md#s-sparse)
-- Exact connected components: genus zero or one, including arbitrary endpoints; a second marked-cut construction handles identity genus one. [S-G01](notes/project-map/RESULTS.md#s-g01)
+- Exact connected genus-zero/one components remain useful primitives; later S-G2 and S-GENUS-FPT extend their genus coverage. [S-G01](notes/project-map/RESULTS.md#s-g01)
 - Exact small-support components of any genus: a quotient-state decoder reaches support size proportional to log(N+m), capped at N. [S-QUOTIENT](notes/project-map/RESULTS.md#s-quotient)
+- Connected genus-two arbitrary-endpoint sampling is exact, with conservative expected O(v^11 log^3(v+1)) bit time; a separate cut construction handles identity genus two. [S-G2](notes/project-map/RESULTS.md#s-g2)
+- One exact connected sampler handles every genus with expected A C^(g+1)(N+g+2)^15 bit time. For each fixed K, g<=K log(N+2) is polynomial-time. This is not a global all-length theorem. [S-GENUS-FPT](notes/project-map/RESULTS.md#s-genus-fpt)
 
 ## What Failed
 
@@ -30,10 +32,11 @@ Documentary consolidation: 2026-10-29 (Europe/Berlin).
 - Low-genus-only output is not a general solution: even exact genus-one components cover a vanishing fraction at m=2N. [O-G01](notes/project-map/OBSTRUCTIONS.md#o-g01)
 - Uniform Hurwitz randomization cannot choose the correct global orbit weights. [O-HURWITZ](notes/project-map/OBSTRUCTIONS.md#o-hurwitz)
 - Polynomial scalar counts do not automatically give a decoder for literal words, and several insertion/support shortcuts have explicit counterexamples. [O-COUNTS](notes/project-map/OBSTRUCTIONS.md#o-counts)
+- The low-genus/small-support eligibility obstruction persists even when the allowed genus grows through N^(1/8), on the stated m=N^(3/4) subsequence. This does not prove general sampling hardness. [O-GROW](notes/project-map/OBSTRUCTIONS.md#o-grow)
 
 ## Precise Gaps
 
-- Exact component selection already works. Supply connected words for larger support and g>=2, with error 2^(-b) in expected poly(N,m,b) time, to obtain global error <=N*2^(-b). This is sufficient, not necessary for every possible sampler. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
+- Exact macro assembly is available. The connected primitive's exponential genus dependence must be removed or paid in expectation to obtain a global theorem in new regimes; the stronger uniform-polynomial sufficient condition remains open. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
 - No all-length sampler is established, and no general hardness theorem explains the uncovered range. [G-ALL](notes/project-map/RESULTS.md#g-all)
 - The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this. [G-HEATBATH](notes/project-map/RESULTS.md#g-heatbath)
 
@@ -55,6 +58,15 @@ Documentary consolidation: 2026-10-29 (Europe/Berlin).
 
 - With circuit order and functionality discarded, labeled-tree edge slides have gap >=2/[(N-1)^2(N-2)^2], for both the natural wedge-weighted target and a uniform-tree correction. Author comparison proof, provisionally registered; no transfer to adjacent Hurwitz mixing. [AUX-TREE-SLIDES](notes/project-map/RESULTS.md#aux-tree-slides)
 
+## Pending Review
+
+- An exact sparse global candidate has a completed conditional theory review and successful finite production checks, but blind/implementation review and final reconciliation are unfinished. Do not cite it as accepted. [P-SPARSE-EXACT](notes/project-map/RESULTS.md#p-sparse-exact)
+- Foreground projection and replacement-endpoint identities are preserved with exact checks; an independent proof audit is still needed. Endpoint agreement alone gives no word-level pseudorandomness. [P-PROJECTION](notes/project-map/RESULTS.md#p-projection)
+
+## Cryptographic Investigations
+
+- Sparse replacements fail to hide the two specified relator/path-star constructions: short-relation and support tests give efficient distinguishers. The general noisy-word hiding question remains open. [ALT-NOISE-ATTACK](notes/project-map/OBSTRUCTIONS.md#alt-noise-attack)
+
 ## Read Next
 
 - [RESULTS](notes/project-map/RESULTS.md)
@@ -64,8 +76,8 @@ Documentary consolidation: 2026-10-29 (Europe/Berlin).
 - [UPDATE_PROTOCOL](notes/project-map/UPDATE_PROTOCOL.md)
 - [Programme](notes/project-map/PROGRAMME.md)
 - [Programme Decisions](notes/project-map/PROGRAMME_DECISIONS.md)
-- [Prepared Campaign](notes/project-map/campaign-identity-bridge-sampling-20261025/README.md)
-- [Campaign Compatibility](notes/project-map/campaign-identity-bridge-sampling-20261025/COMPATIBILITY.md)
+- [Fresh Start Entry](notes/campaign-consolidation-2026-11-06.md)
+- [Historical Campaign Setup](notes/project-map/campaign-identity-bridge-sampling-20261025/README.md)
 
 ## Maintenance
 

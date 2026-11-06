@@ -15,6 +15,7 @@ Statuses below are scoped to exact claims. `accepted-inherited` means a recorded
 - **auxiliary:** An explicitly named quotient, restricted, comparison or ideal chain; not interchangeable with the full K.
 - **other-generators:** Different generator libraries, including expander benchmarks; implementation and endpoint-conditioned sampling must be specified anew.
 - **crypto-gibbs:** Speculative computational hardness/pseudorandomness or different expected-length stationary targets.
+- **noisy-words:** Frozen M0: complete fixed-length transposition identity words from a specified construction versus global uniform bridges, passed through identical hidden uniform-k-subset independent replacement noise and exposing the same public setup.
 - **experiment:** Finite diagnostic or separate graph-process experiment; no asymptotic sampler theorem implied.
 - **relaxed-endpoint:** Uniform length-m all-transposition words with N-cycles(eval(w))<=k, identity center; a different target from exact bridges. Kernel and correction budget must be declared.
 
@@ -147,7 +148,7 @@ For g in {0,1}, exactly sample each nonempty connected endpoint fiber of length 
 - Guards: Connected support on all v labels. Singleton g=0 is empty word; singleton g=1 infeasible.
 - Assumptions: Vakil Section 1.2, Corollary 1.5 and positive expansion of Proposition 3.2; disjoint final-letter decomposition; positive labeled-cycle allocation DP.
 - Remaining obligation: None for the recorded restricted statement; generalizations are separate records.
-- Limitations: Higher genus on unbounded support remains open. Source includes a second cut-incidence construction, grouped here, not newly audited by this mapping.
+- Limitations: Historical genus-zero/one primitive, extended by S-G2 and S-GENUS-FPT. Uniform polynomial cost over unrestricted growing genus remains open. The underlying theorem and historical review binding are unchanged.
 - Version / verdict binding: Frozen R1-T1.1 proof hash c779902... matches R2 recursive_audit. S1.v2 canonical proof hash 0da7b35... matches R2 final synthesis input; mathematical-body equivalence is explicitly recorded there.
 - Evidence: [g01-proof](../../experiments/20260907-genus-one-sampler/proof.md), [g01-ledger](../../experiments/20260907-genus-one-sampler/claim_ledger.md), [g01-frozen](../../experiments/20260907-genus-one-sampler/roles/r1-recursive/proof.md)
 - Adjudication: [g01-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/recursive_audit.md), [g01-synthesis-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md)
@@ -236,8 +237,8 @@ A sampler for connected identity words for L<v<=min(N,m/2+1), ell=2v-2+2g<=m, g>
 - Model: connected; parameters: b>=1; choosing b=ceil(log2(N+2))^2 makes the resulting error negligible.
 - Guards: Correct endpoint/length on every output; reject zero fibers; exact macro selection; conditional uniform bound for every selected component.
 - Assumptions: Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.
-- Remaining obligation: Supply the stated connected literal-word sampler; it has NOT been constructed.
-- Limitations: Sufficient, not necessary. Ignoring a separately proved negligible family or using another global architecture could also work.
+- Remaining obligation: Supply uniform polynomial connected decoding over all feasible genera, or independently prove sufficient expected cost for an alternative global assembly. S-GENUS-FPT supplies exponential genus cost, not this stronger uniform-polynomial premise.
+- Limitations: Sufficient, not necessary. The inherited conditional theorem is unchanged; later connected samplers partially discharge its component cases but do not close all-length global sampling.
 - Version / verdict binding: The linked verdict names the cited statement/version; all linked files are pinned at integration. Where no historical hash was recorded, this is a documentary scope match, not proof of historical byte identity. See exact reviewer/date in the verdict.
 - Evidence: [connected-gap](../../experiments/20260922-sparse-boundary/roles/r4-construction/reduction.md)
 - Adjudication: [quotient-audit](../../experiments/20260922-sparse-boundary/construction_audit.md), [boundary-ledger](../../experiments/20260922-sparse-boundary/claim_ledger.md)
@@ -783,6 +784,96 @@ For k=Theta(log N), optimal one-step Hamming transport expands on neighboring bo
 - Adjudication: None recorded for this scope.
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: m0 singleton; m<=k product heat bath; m2,k>=2 unrestricted; N2 singleton; parity-matched budget for odd m; even k0/1 frozen single-coordinate chain. Standard S3,m4 and S4,m4,m6 identity counts checked. Minimal matching endpoints are explicit witnesses. No conflict with fixed-k2 polynomial comparison or all-budget connectivity in ALT-RELAXED-HEATBATH. Rules out extending its density-ratio argument polynomially to logarithmic k, and refutes an approximate-uniform-prefix inference from close endpoint laws. No claim against general fast mixing.
+
+<a id="s-g2"></a>
+## S-G2: Exact connected genus-two endpoint sampling
+
+R1-T2.v1 samples exactly each nonempty connected endpoint fiber of length v+cycles(sigma)-2+2g for g in {0,1,2}, with expected O(v^11 log^3(v+1)) bit time.
+
+- Effective status: **accepted-inherited**; source: Initially provisional statement; later exact I1 reconciliation accepts R1-T2.v1 internally.
+- Mapping depth: statement-and-verdict-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: connected-endpoint; parameters: Explicit v labels and endpoint sigma, genus at most two; independent fair bits.
+- Guards: Singleton genus zero is the empty word; singleton positive genus is infeasible. Identity genus two has length 2v+2.
+- Assumptions: Checked fixed-permutation Goulden-Jackson normalization, inherited S-G01 and complete final-letter allocation/decoder proof.
+- Remaining obligation: No open obligation in the inherited restricted theorem; human/external review remains appropriate.
+- Limitations: Connected fibers only; no global all-length sampler or walk mixing bound. S-GENUS-FPT later supplies uniform exponential genus dependence.
+- Version / verdict binding: I1 reconciliation binds statement/proof/sampler hashes and full nonauthor R2 review; original provisional banners are immutable. Same-model reviews are correlated.
+- Evidence: [i1-rec-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/statement-v1.md), [i1-rec-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md)
+- Adjudication: [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md), [i1-rec-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md)
+- Logical dependencies: [S-G01](RESULTS.md#s-g01)
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="s-cut2"></a>
+## S-CUT2: Second exact connected identity genus-two construction
+
+C2.v1 samples exactly connected identity words of length 2N+2 on all N labels, with conservative expected O(N^20 log^4(N+1)) bit time.
+
+- Effective status: **accepted-inherited**; source: C2.v1 accepted internally in I1 reconciliation.
+- Mapping depth: statement-and-verdict-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: connected; parameters: N>=2, exact law, explicit ordered word, independent fair bits; no accuracy-dependent work.
+- Guards: Fixed connected identity fiber, not arbitrary endpoints or unordered support graphs.
+- Assumptions: Inherited S-G01 and audited cut incidences, weighted parser and reciprocal-cut rejection.
+- Remaining obligation: None for the inherited genus-two statement; the separate higher-genus port grammar remains unresolved.
+- Limitations: Alternative exact construction, not a global sampling theorem. Its structural higher-genus gap is not a dependency of S-GENUS-FPT.
+- Version / verdict binding: I1 reconciliation binds C2 proof and sampler to the full coordinator nonauthor structural review; that review was not blind.
+- Evidence: [i1-cut-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/theorem-v1.md), [i1-cut-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md)
+- Adjudication: [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md), [i1-cut-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md)
+- Logical dependencies: [S-G01](RESULTS.md#s-g01)
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="s-genus-fpt"></a>
+## S-GENUS-FPT: Exact connected sampling with single-exponential genus cost
+
+One uniform fair-bit algorithm samples exactly the connected identity fiber of length 2N-2+2g in expected A C^(g+1)(N+g+2)^15 bit operations, with absolute A>0,C>1. The auxiliary fixed-endpoint fiber has length N+cycles(sigma)-2+2g.
+
+- Effective status: **accepted-inherited**; source: T0.v1/AUX-ENDPOINT-MARKER.v1 accepted for source-scoped internal use in exact reconciliation; operator/external completion review pending.
+- Mapping depth: statement-and-verdict-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: connected-endpoint; parameters: N>=2, g>=0; explicit labels, endpoint and word. For every fixed K, g<=K log(N+2) gives expected polynomial time, with exponent allowed to depend on K.
+- Guards: Nonempty connected fibers only; singleton has only its empty genus-zero word. Exactness is TV0, not a worst-case finite random-bit guarantee.
+- Assumptions: Source-checked ELSV/GJV all-genus polynomial expansion and fixed-permutation normalization; explicit coefficient recovery, joint forced allocation, literal decoding and signed-arithmetic bit bounds.
+- Remaining obligation: External/human review remains appropriate. General polynomial genus cost, global expected assembly cost and the separate structural PORT-CONTRACT remain unresolved.
+- Limitations: Exponential in genus, connected rather than global, polynomial in degree rather than log2(N) wires. Does not establish heat-bath mixing. Imported geometric enumeration is not reproved.
+- Version / verdict binding: Reconciliation v1 binds T0 hash fecfe4a4..., coefficient proof b152819e..., decoder proof f87fc038..., full R2/R3 exact reviews and blind report. The historical provisional theorem banner is superseded only at that exact scope. Same-model reviews are correlated.
+- Evidence: [genus-fpt-statement](../../experiments/20261028-genus-scaling/theorem-v1.md), [genus-fpt-coefficients](../../experiments/20261028-genus-scaling/coordinator/coefficient-theorem-v1.md), [genus-fpt-decoder](../../experiments/20261028-genus-scaling/roles/r1-recursion/proof-v1.md)
+- Adjudication: [genus-fpt-reconciliation](../../experiments/20261028-genus-scaling/reconciliation-v1.md), [genus-fpt-review-r2](../../experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/report-v1.md), [genus-fpt-review-r3](../../experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/report-v1.md)
+- Logical dependencies: [S-G01](RESULTS.md#s-g01)
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="p-sparse-exact"></a>
+## P-SPARSE-EXACT: Exact sparse global sampler awaiting completed review
+
+ES.v1 and ES-LOG.v1 propose unrestricted exact macro selection followed by selected-component quotient decoding, with expected O((N+m+2)^14) bit time on each separately stated sparse regime.
+
+- Effective status: **provisional**; source: Authors complete; nonblind theory review accepts the analytic argument conditionally on implementation interfaces. No composed sampler acceptance was issued.
+- Mapping depth: statement-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: global; parameters: N>=2, even m; regimes m^3<=N^2 and m<=N^(2/3) ln(N)/4. Proposed exact output law; enormous fixed proof constant.
+- Guards: No components omitted; pay only actual selected-component counters. Uniform bit-cost and exact-law interfaces still require the completed implementation review.
+- Assumptions: Exponential component-cost moment, exact complete macro law and a correctly bounded quotient decoder with fresh counter disposal.
+- Remaining obligation: Finish the interrupted blind and implementation reviews, reconcile their exact current versions with the theory review and finite audits, and close the full cost/exact-law dependency graph.
+- Limitations: Not an accepted exact sparse theorem, all-length efficient sampler, worst-case polynomial bound or actual-runtime lower bound at m=N^(3/4). Successful production checks do not close interrupted proof reviews.
+- Version / verdict binding: R5 report v1 is complete but explicitly conditional on R2 implementation/cost; R4/R6 have checkpoints rather than final full reports. Older report/handoff banners precede later jobs and remain historical.
+- Evidence: [i2-exact-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/statement-v1.md), [i2-exact-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md), [i2-decoder-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md), [i2-theory-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r5-theory-review/report-v1.md), [i2-blind-checkpoint](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r4-blind/halfway-v1.md), [i2-implementation-checkpoint](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r6-implementation-review/checkpoint-halfway-v1.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: [S-COUNTS](RESULTS.md#s-counts), [S-QUOTIENT](RESULTS.md#s-quotient)
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="p-projection"></a>
+## P-PROJECTION: Foreground bridge projections and replacement endpoint laws
+
+The foreground report gives exact ordered-subsequence completion probabilities under global uniform bridges and a convolution description of replacement endpoints. Long-completion mixing gives sufficient closeness to iid selected gates; endpoint closeness alone is weaker than word security.
+
+- Effective status: **provisional**; source: Elementary identities proved in foreground with exact checks; no independent long-run audit claimed.
+- Mapping depth: statement-traced. Documentary integration of exact source scope; no new asymptotic proof certification. See integration-2026-11-06-campaigns.md.
+- Model: global; parameters: N>=2, even L, 0<=k<=L, fixed nonadaptive selected positions; rightmost-first multiplication.
+- Guards: Global and connected laws have different completion counts. Approximate sampler TV error is additional. Parity-aware nonlazy walk normalization is required for imported mixing bounds.
+- Assumptions: Explicit Hurwitz/triangular bijections and classical random-transposition estimates with the report's parity translation.
+- Remaining obligation: Independent exact-version review before treating these foreground derivations as internally audited manuscript results.
+- Limitations: No claim that an arbitrary structured sampler has these projection laws or that matching endpoints implies full-word pseudorandomness.
+- Version / verdict binding: Single foreground report with explicit proof and finite checks; no full independent referee reconciliation exists.
+- Evidence: [projection-foreground](../../experiments/20261028-bridge-projections/report.md)
+- Adjudication: None recorded for this scope.
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
 
 ## Imported Literature
 

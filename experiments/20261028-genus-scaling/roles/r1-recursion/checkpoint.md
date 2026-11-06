@@ -1,0 +1,9 @@
+# R1 halfway checkpoint — 2026-10-28 15:02 UTC
+
+Full conditional author package froze15:01:24UTC, much earlier than16:49 target. Statement/proof/report/code/results hashes are in manifest-v1.json and will not change. The conditional AUX-ENDPOINT-MARKER.v1 implication has a full proof and explicit C^g(N+g+2)^15 bit bound. Uniform coefficient generation remains a separate dependency authored by the coordinator. This worker read and cross-checked that proposed coefficient proof, finding no gap, but that is not a fresh referee certification.
+
+Coordinator reservation J4 ran the sole mathematical job for this role. All132 count cases,128 branch totals,1120 arbitrary forcing queries,32 complete literal laws totaling49184 words and180 seeded output checks passed. Genus-three identity counts N2/N3/N4 are1/19680/180686880. Reference DP peaked at36 states; no all-N4g3 word enumeration. Global smoke27/120/3936 and connected/ordinary80/81 regressions passed. Child elapsed0.6619s,1GiB address ceiling, actual RSS unknown.
+
+The current diagnostic code accepts arbitrary coefficient lists but supplies g3 constants; it is not itself the uniform coefficient preprocessor. Proposed next independent useful work is a new integration script binding coordinator-generated g2/g3 coefficients to the generic marker interface, with no change to frozen artifacts. Any mathematical execution needs a new reservation. Awaiting coordinator's review/integration routing.
+
+No descendants, CLI sessions, installs, commits or independent mathematical executions. Owned files only. Required negative findings remain in full proof/report, including signed-probability failure, scalar-count insufficiency, graph weighting, (ab)^3, multiplicities, CP1 and the policy obstruction. T0 remains uncertified until the separate coefficient and decoder arguments pass exact-version review and coordinator reconciliation.

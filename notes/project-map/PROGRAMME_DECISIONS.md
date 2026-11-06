@@ -55,6 +55,38 @@ Append-only receipts. Planning state and mathematical acceptance are separate.
   fingerprint, quota operation, primary commit or push is changed by this review.
 
 
+## D-20261106-01: Consolidated Baseline for a Fresh Coordinator
+
+- User authorized consolidation of the old persistent campaign and later
+  genus-scaling results into main, research-map update, commit and GitHub push.
+  No new background launch, STOP removal, quota change or completion acceptance
+  is part of this operation.
+- Previously uncommitted I2 state was preserved in campaign commit43bbaa9;
+  archival merge5154d2c retains the old campaign history. All191 scientific
+  files and134 genus-scaling files match their source worktrees byte-for-byte.
+  The131 genus delivery payload hashes pass. Frozen author reports, corrections,
+  old provisional banners and incomplete reviews remain unchanged.
+- S-G2, S-CUT2 and O-GROW inherit exact I1 internal verdicts. S-GENUS-FPT
+  inherits the later T0/AUX exact reconciliation with exponential genus cost.
+  Same-model review correlation and external/operator review limits remain.
+- P-SPARSE-EXACT remains provisional: the completed theory review explicitly
+  relies on implementation interfaces; blind/implementation final reviews and
+  composed reconciliation are unfinished. Later successful J3/J4 execution
+  receipts supersede the old report's pre-execution chronology, not its lack
+  of theorem acceptance.
+- Programme version2 replaces the old genus-two-first allocation with C1
+  unfinished sparse review, C2 global expected decoder cost, C3 external audit
+  and C4 uniform-genus compression reserve. Old programme/decision bytes are
+  archived with their original scope. No old proof or target is erased.
+- The already-published noisy-word attack study is mapped at its scoped internal
+  verdict; foreground projection identities remain provisional. No secure
+  construction, general impossibility or all-length sampler is inferred.
+- Integration is documentary statement/verdict tracing plus the named clean
+  genus reproduction:26 author pins, coefficients regenerated and19,680 actual
+  output probabilities checked. This is not a fresh asymptotic proof audit.
+- Exact paths, preservation checks, discovery coverage and validation are in
+  integration-2026-11-06-campaigns.md and the portable fresh-start entry.
+
 ## Outcome Receipt Format
 
 Each later receipt records its ID/date/timezone, manifest/session/attempt and

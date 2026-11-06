@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "role": "r1-recursion",
+      "status": "all assigned author/review reports frozen; idle",
+      "input": "experiments/20261028-genus-scaling/roles/r1-recursion/input-v1.md",
+      "agent_id": "/root/r1_recursion",
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier": "default inherited request; server telemetry unavailable",
+      "input_sha256": "7b7247084027f630a9021e89ede7ffc34aff6618719223a9ef8420c31bb20bbe",
+      "startup_recorded_at": "2026-10-28T14:44:29.784072+00:00",
+      "startup_note": "native spawn succeeded before this recorded time; no independent tier telemetry",
+      "review_input": "experiments/20261028-genus-scaling/roles/r1-recursion/review-coefficient-v1/input-v1.md",
+      "author_manifest": "experiments/20261028-genus-scaling/roles/r1-recursion/manifest-v1.json",
+      "latest_review": "experiments/20261028-genus-scaling/roles/r1-recursion/review-structural-blind-v1/structural-blind-report-v1.md",
+      "current_input": "experiments/20261028-genus-scaling/roles/r1-recursion/review-structural-blind-v1/input-v1.md"
+    },
+    {
+      "role": "r2-structure",
+      "status": "all assigned author/review reports frozen; idle",
+      "input": "experiments/20261028-genus-scaling/roles/r2-structure/input-v1.md",
+      "agent_id": "/root/r2_structure",
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier": "default inherited request; server telemetry unavailable",
+      "input_sha256": "626021e06d082f3f0f00f895e7c032da8e77c72bd02bcd7c3d927e8e6bb3bef5",
+      "startup_recorded_at": "2026-10-28T14:44:29.784072+00:00",
+      "startup_note": "native spawn succeeded before this recorded time; no independent tier telemetry",
+      "review_input": "experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/input-v1.md",
+      "author_manifest": "experiments/20261028-genus-scaling/roles/r2-structure/freeze-manifest-v1.json",
+      "current_input": "experiments/20261028-genus-scaling/roles/r2-structure/delivery-review-v1/input-v1.md",
+      "latest_review": "experiments/20261028-genus-scaling/roles/r2-structure/delivery-review-v1/report-v1.md"
+    },
+    {
+      "role": "r3-adversarial",
+      "status": "all assigned author/review reports frozen; idle",
+      "input": "experiments/20261028-genus-scaling/roles/r3-adversarial/input-v1.md",
+      "agent_id": "/root/r3_adversarial",
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "tier": "default inherited request; server telemetry unavailable",
+      "input_sha256": "c9bc6f0a4778ed5463b1c32d29d958c671bab7086ea0083b6114ccccb4457634",
+      "startup_recorded_at": "2026-10-28T14:44:29.784072+00:00",
+      "startup_note": "native spawn succeeded before this recorded time; no independent tier telemetry",
+      "blind_report": "experiments/20261028-genus-scaling/roles/r3-adversarial/blind-report-v1.md",
+      "blind_sha256": "97e4d2d4772667e7dbd67bbbff9c44c451947eb4933274277ccf5bebb6dd4e51",
+      "review_input": "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/input-v1.md",
+      "latest_review": "experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/report-v1.md"
+    }
+  ],
+  "updated_at": "2026-10-28T15:48:43.491840+00:00",
+  "coordinator_next_operation": "scoped local delivery checkpoint, then end turn for operator completion review; no research job or automatic successor"
+}

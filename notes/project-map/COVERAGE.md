@@ -2,9 +2,9 @@
 
 # Coverage and Conflicts
 
-Actual filesystem inventory, including dirty and untracked research. File hashes and branch headings are discovery, not content review. Initial 2026-10-01 integration was documentary only. The inherited October deltas retain their author-scoped provisional records and exact source hashes; this merge does not independently re-audit them. Historical campaign preparation from 2026-10-25 and later compatibility notes are preserved as dated operational records, not current launch authority. Foreground projection notes and the completed sparse-noise viability artifacts are inventoried with pending mathematical map integration; no new acceptance or all-length/global-security conclusion is inferred. No formalization branch was discovered. See integration-2026-10-29-current-state.md for merge scope and validation.
+Actual filesystem inventory, including dirty/untracked research, with runtime worktrees excluded. The 2026-11-06 consolidation imports both campaign histories and traces their exact statements/internal reconciliations without new asymptotic proof certification. I1, genus-scaling and the two noisy-word attacks have inherited scoped internal verdicts; exact sparse sampling and foreground projections remain provisional. Older October author records retain their previous statuses/source pins. Historical preparation documents are not current launch authority. One named clean genus check was reproduced; most raw archive microclaims were not freshly reviewed. No formalization branch was discovered. See integration-2026-11-06-campaigns.md and the earlier dated integration receipts for exact read depth and preserved disagreements.
 
-Discovery baseline: 4229 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4555 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -112,7 +112,7 @@ Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-cr
 
 ## operations: Operational instructions, environment and runner smoke
 
-40 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+41 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
 
@@ -120,27 +120,27 @@ Records: Pending; no mathematical record inferred.
 
 ## campaign: Resilient identity-bridge research campaign
 
-14 discovered entries. historical campaign preparation retained; later scientific outputs await scoped map integration. Depth: planning documents and existing map evidence.
+205 discovered entries. I1 exact genus-two samplers and growing-genus policy obstruction internally accepted; I2 exact sparse candidate remains provisional. Depth: exact statements, I1 reconciliation, I2 theory review and partial-review artifacts traced; proofs not freshly re-audited.
 
 Only scientific outputs belong to this family. Runtime metadata and nested worktree copies under .campaigns are excluded from discovery. New results require exact statements and reviews.
 
-Records: Pending; no mathematical record inferred.
+Records: [S-G2](RESULTS.md#s-g2), [S-CUT2](RESULTS.md#s-cut2), [O-GROW](OBSTRUCTIONS.md#o-grow), [P-SPARSE-EXACT](RESULTS.md#p-sparse-exact)
 
 ## bridge-projections: October 28 bridge projection and gate-replacement derivations
 
-4 discovered entries. foreground derivations and exact finite checks preserved; full mathematical map integration pending. Depth: inventory and report scope only in this merge; no new proof audit.
+4 discovered entries. foreground identities mapped provisionally; independent audit pending. Depth: inventory and report scope only in this merge; no new proof audit.
 
 Global and connected laws differ. Projection and replacement endpoint results are not full-word pseudorandomness or an all-length sampler theorem. Foreground proofs have no new independent certification from this inventory.
 
-Records: Pending; no mathematical record inferred.
+Records: [P-PROJECTION](RESULTS.md#p-projection)
 
 ## noisy-bridge-viability: October 29 sparse-noise bridge viability study
 
-90 discovered entries. completed scoped attack study preserved; full mathematical map integration pending. Depth: report and artifact inventory; no fresh proof review in this merge.
+90 discovered entries. two scoped construction rejections mapped at inherited internal acceptance; general hiding remains open. Depth: report, exact reconciliation and existing review bindings traced; no new proof audit.
 
 The run rejects two specified construction families under matched replacement noise. Internal correlated reviews and exact diagnostics do not establish general impossibility, a secure construction, or sampling hardness. Frozen proofs and reviews remain authoritative.
 
-Records: Pending; no mathematical record inferred.
+Records: [ALT-NOISE-ATTACK](OBSTRUCTIONS.md#alt-noise-attack)
 
 ## product-s3: October 13 product-of-triples mixing investigation
 
@@ -253,6 +253,14 @@ Records: [ALT-RELAXED-HEATBATH](RESULTS.md#alt-relaxed-heatbath)
 No independent referee, chain simulation or spectral inference. Conditional count-flatness transfer retains its unproved hypothesis.
 
 Records: [ALT-LOG-CORRECTION](RESULTS.md#alt-log-correction)
+
+## genus-scaling: Uniform exponential-genus connected sampling
+
+134 discovered entries. T0 exact composition accepted internally under checked published inputs; external/operator completion review remains separate. Depth: frozen statement, full reconciliation and delivery hashes traced; decisive production check reproduced, not a new asymptotic proof audit.
+
+Exponential genus cost, connected fibers only. Separate PORT-CONTRACT unresolved and not a theorem dependency. Same-model reviews correlated.
+
+Records: [S-GENUS-FPT](RESULTS.md#s-genus-fpt)
 
 ## Unresolved and Reconciled Discrepancies
 
@@ -408,6 +416,31 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [log-correction-results-jsonl](../../experiments/20261027-112519-logarithmic-correction-budget/results.jsonl): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
 - [log-correction-claim-ledger-md](../../experiments/20261027-112519-logarithmic-correction-budget/claim_ledger.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
 - [log-correction-report-md](../../experiments/20261027-112519-logarithmic-correction-budget/report.md): Whole author artifact inspected; elementary derivations and small exact arithmetic checked. No independent referee, simulation or asymptotic extrapolation.
+- [i1-rec-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/statement-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-rec-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-rec-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/review-recursive-v1/report-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-cut-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/theorem-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-cut-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r2-structural/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-cut-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/coordinator/structural-review-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-grow-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/scope-growing-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-grow-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r3-mass/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-grow-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/roles/r1-recursive/review-mass-v1/report-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i1-reconciliation](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-genus-two-admission/reconciliation-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-exact-statement](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/statement-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-exact-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r1-expectation/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-decoder-proof](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r2-decoder/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-theory-review](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r5-theory-review/report-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-blind-checkpoint](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r4-blind/halfway-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [i2-implementation-checkpoint](../../experiments/20261025-identity-bridge-sampling-campaign/20261028-exact-sparse-expectation/roles/r6-implementation-review/checkpoint-halfway-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-statement](../../experiments/20261028-genus-scaling/theorem-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-coefficients](../../experiments/20261028-genus-scaling/coordinator/coefficient-theorem-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-decoder](../../experiments/20261028-genus-scaling/roles/r1-recursion/proof-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-reconciliation](../../experiments/20261028-genus-scaling/reconciliation-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-review-r2](../../experiments/20261028-genus-scaling/roles/r2-structure/review-t0-v1/report-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [genus-fpt-review-r3](../../experiments/20261028-genus-scaling/roles/r3-adversarial/review-t0-v1/report-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [noise-viability-report](../../experiments/20261029-noisy-bridge-viability/report.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [noise-viability-reconciliation](../../experiments/20261029-noisy-bridge-viability/reconciliation-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [projection-foreground](../../experiments/20261028-bridge-projections/report.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
 
 ## Branch Retrieval
 

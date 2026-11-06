@@ -1,0 +1,11 @@
+# R3 halfway checkpoint — 2026-10-28 15:00 UTC
+
+Statement-only blindness is intact. No new worker proof or coordinator mathematical summary has been read. The coordinator supplied only the operational J3 reservation receipt and my own requested result.
+
+J3 passed in0.138903904s child time under180s/1GiB: complete genus2 numerator recovery;396 independent endpoint/support-state comparisons for N2..4 through genus3-relevant lengths;90 forced subset-mask allocation queries; baseline27/120/3936 and endpoint81/80 regressions. Python3.12.3, stdlib, deterministic seed0 metadata. It does not enumerate all N4,g3 literal words or certify asymptotics.
+
+Provisional proof now has a closed mathematical route under primary GJV Theorem3.2 and the checked fixed-permutation normalization. Main new construction is uniform coefficient recovery: all necessary connected counts through degreeS=(3g-2)(3g-3), lengthR=2S+2g are computed via partition DP plus anchored component inversion. Number of partitions through S is at most(S+1)exp(3sqrt(S)); every subpartition is another member of this inventory. Hence even a quadratic scan costs exp(O(g))poly(g). The finite variable map phi_j=sum_(a<=D) a^(a+j)p_a/a! has nonzero Vandermonde determinant. The numerator degree cutoff makes its inversion exact and avoids requiring a Hodge-integral algorithm.
+
+Denominator audit: original normalized counts have common denominatorR!S!; inverse-tree truncation and multiplier denominators divide(D!)^(2K)K!; inverse matrix has a common denominator det(D!V), raised to at mostK. Their product has O(g³log(g+2)) bits. The coefficient list therefore has exp(O(g)) entries of polynomial bit size. All allocation sums keep onlyO(g) marker bits and three polynomial degree/count coordinates; exact signed arithmetic occurs before converting to actual word counts.
+
+Remaining work before freeze: write the complete source-scoped theorem statement, connected-count inversion proof, conditional-law cancellation, uniform bit bound, full historical regression ledger and certification limitations. No further computation is presently needed. Retain T0 OPEN at project level until exact-version nonauthor audit; this worker's candidate is not an automatic upgrade.

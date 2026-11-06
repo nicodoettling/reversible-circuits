@@ -4,47 +4,61 @@
 
 Recommendations, not launched runs. Effort estimates are planning judgments, not promises.
 
-## T-CONNECTED: Decode higher-genus connected words (active research)
+## T-SPARSE-EXACT-AUDIT: Finish the interrupted exact sparse-sampler review (active audit/integration)
 
-Construct a positive, word-level conditional decoder for connected identity fibers with support beyond L=Theta(log(N+m)) and genus g>=2. The full sufficient target is uniform expected poly(N,m,b) time with TV<=2^(-b), uniformly in feasible v,ell. Begin with connected arbitrary-endpoint genus two as a bounded stepping stone, not as an all-length solution.
+Finish the frozen candidate's missing blind and implementation reviews and reconcile its complete exact-law/expected-bit-cost chain. Retain the completed R5 review and J3/J4 evidence without treating them as final acceptance.
 
-- Nearest evidence: [R-CONNECTED](RESULTS.md#r-connected), [S-G01](RESULTS.md#s-g01), [S-CUT](RESULTS.md#s-cut), [S-QUOTIENT](RESULTS.md#s-quotient), [O-COUNTS](OBSTRUCTIONS.md#o-counts)
-- Advance: Removes the actual missing primitive in an already exact component-selection pipeline; a uniform-in-g construction would give a global arbitrary-length sampler.
-- First test: Write the literal final-letter branch partition for genus two, including both g=1 children, and ask whether the sum over forced cycle assignments can be evaluated/decoded in polynomial time without enumerating subsets. In parallel compare a higher-genus marked-cut grammar with C1; demand a full word reconstruction and correct mark-forgetting weights.
-- Positive: A verified new connected decoder, or an explicit uniform-in-g reduction with error and bit bounds. Fixed-g progress must state its dependence on g.
-- Negative: A counterexample to a proposed state compression or a quantified obstruction to polynomial allocation/mark-forgetting for that mechanism.
-- Stop or pivot: Stop a route when it supplies only scalar counts, reintroduces exponential partition tables, or requires an unproved uniform conditional law. If genus-two work would cover negligible macro mass, report it as a primitive only and use T-MASS to redirect.
-- Effort: One bounded 4-hour design/falsification pass, then separately authorize implementation and adversarial audit if a concrete law survives.
-- Uncertainty: High; genus-one positivity need not extend with polynomial resources uniformly in g.
-- Rationale: Highest potential scope gain; uses accepted decoders and exact assembly instead of reopening already solved scalar counting.
+- Nearest evidence: [P-SPARSE-EXACT](RESULTS.md#p-sparse-exact), [S-SPARSE](RESULTS.md#s-sparse), [S-COUNTS](RESULTS.md#s-counts), [S-QUOTIENT](RESULTS.md#s-quotient)
+- Advance: Could upgrade the sparse near-uniform regime to exact sampling, or expose a precise flaw without repeating completed construction work.
+- First test: Read the partial R4/R6 artifacts and R5's conditional interfaces, freeze the current sources, and isolate the first unfinished implementation/cost obligation. A fresh blind context must not inherit the candidate proof or its favorable theory verdict.
+- Positive: A complete exact-version reconciliation closing the declared sparse ranges with literal-word law and expected bit cost.
+- Negative: A checked counterexample or material proof objection with its dependency cone, preserving any valid restricted result.
+- Stop or pivot: No acceptance from finite laws alone, no all-length conclusion and no unchanged rerun of the original authors. Record a precise inconclusive gap if independent review cannot be completed.
+- Effort: One separately authorized bounded review allocation; no launch from this card.
+- Uncertainty: Moderate: analytic review and finite production checks exist, but full blind/implementation reconciliation is incomplete.
+- Rationale: The closest unfinished deliverable already has substantial preserved work; a fresh coordinator should finish or explicitly dispose of it before inventing a new ladder.
 
-## T-MASS: Locate the component types that a new sampler must cover (active research)
+## T-MASS: Pay the connected decoder's cost under the global law (active research)
 
-Characterize the exact bridge-conditioned mass of larger-support, higher-genus components in the gap between the sparse theorem and m=N^(3/4). Seek a precise new admissible-component policy with a provable omitted-mass bound, not a claim that the known cutoff is sharp.
+Freeze a useful upper envelope for the FPT decoder and bound its total expected cost under exact global component selection, or prove a new negligible-error dispatch policy in an explicitly new length regime.
 
-- Nearest evidence: [S-COUNTS](RESULTS.md#s-counts), [S-SPARSE](RESULTS.md#s-sparse), [O-H0](OBSTRUCTIONS.md#o-h0), [O-H2](OBSTRUCTIONS.md#o-h2), [O-G01](OBSTRUCTIONS.md#o-g01), [P-BLIND-STRONG](OBSTRUCTIONS.md#p-blind-strong)
+- Nearest evidence: [S-GENUS-FPT](RESULTS.md#s-genus-fpt), [S-COUNTS](RESULTS.md#s-counts), [S-SPARSE](RESULTS.md#s-sparse), [O-GROW](OBSTRUCTIONS.md#o-grow), [P-SPARSE-EXACT](RESULTS.md#p-sparse-exact)
 - Advance: Determines which new decoder would materially improve the global sampler and can turn a limited primitive into a meaningful length theorem.
-- First test: Use existing C(v,ell) and least-label count code to compute exact selected tail/event probabilities at a small declared parameter grid. Compare low-genus and size-cutoff hypotheses; distinguish bridge conditioning from an ordinary Erdos-Renyi support graph. Before asserting an all-N negative, reconcile P-BLIND-STRONG.
-- Positive: A mass theorem identifying a new useful family or extending the known negligible-error regime under a feasible decoder policy.
-- Negative: A rigorous omitted-mass obstruction for a proposed policy, with its exact quantifiers, or an exact finite witness falsifying an unproved universal tail bound.
-- Stop or pivot: Stop simply enlarging the same polynomial quotient cutoff: O-H2 already handles it. Finite plots cannot determine an asymptotic threshold. Pivot if a mass calculation has no algorithmic consequence or new obstruction.
+- First test: Identify an explicit usable coefficient/base constant in the FPT proof; write the marked-component expectation of its full cost envelope. Compare with the inherited sparse moment argument and the growing-genus eligibility obstruction before doing scaling experiments.
+- Positive: A proved cost/mass bound that gives a genuinely enlarged global length regime under declared decoder/bit assumptions.
+- Negative: A scoped obstruction to the proposed envelope or dispatch policy, not a lower bound on every sampler's actual runtime.
+- Stop or pivot: Do not merely enlarge the logarithmic support cutoff or redo fixed-genus existence. A divergent upper-envelope moment alone does not establish actual computational hardness.
 - Effort: One bounded 2-4-hour diagnostic/proof-target pass using existing counts, with a named asymptotic lemma as the deliverable.
 - Uncertainty: Medium for useful falsification; high for a sharp transition theorem.
-- Rationale: Cheap discriminating tests can prevent investment in a decoder for components that carry negligible target mass.
+- Rationale: Uses the newly available connected decoder and exact assembly while confronting the actual global gap.
 
 ## T-AUDIT: Human-readable certification and manuscript reconciliation (active audit/integration)
 
-Independently review the exact frozen statements most consequential for the phase diagram, then integrate only stable versions into the manuscript. Prioritize the dense bridge-conditioned tail numerator and the sparse finite-genus bound/dispatch repair; trace classical count normalizations explicitly.
+Make the strongest internally accepted theorem chains suitable for external/human review. Prioritize all-genus coefficient normalization, forced two-child allocations and signed bit costs, retaining existing dense/sparse review obligations.
 
-- Nearest evidence: [S-DENSE](RESULTS.md#s-dense), [S-STAR](RESULTS.md#s-star), [S-G01](RESULTS.md#s-g01), [S-CUT](RESULTS.md#s-cut), [S-SPARSE](RESULTS.md#s-sparse), [O-H0](OBSTRUCTIONS.md#o-h0), [HB-IRRED](RESULTS.md#hb-irred)
+- Nearest evidence: [S-GENUS-FPT](RESULTS.md#s-genus-fpt), [S-G2](RESULTS.md#s-g2), [S-CUT2](RESULTS.md#s-cut2), [S-DENSE](RESULTS.md#s-dense), [S-SPARSE](RESULTS.md#s-sparse), [O-GROW](OBSTRUCTIONS.md#o-grow)
 - Advance: Turns a large internally accepted archive into a reviewable theorem chain without changing the mathematical target.
-- First test: Create a short dependency list for one theorem with exact source versions and boundary cases; inspect it independently before reading the old verdict. Verify word-count normalization and expected bit complexity rather than accepting finite tests as the proof.
+- First test: Independently reconstruct repeated-cycle normalization and a two-positive-genus forced-allocation identity, then audit the all-genus denominator bound against the exact frozen proofs and review inputs.
 - Positive: A concise scoped review with every prerequisite resolved or explicitly conditional, followed by a manuscript update of that exact theorem.
 - Negative: A numbered material objection and the precise affected descendants; retain surviving restricted claims and reopen only the dependency cone.
 - Stop or pivot: Do not rewrite all papers or launch broad literature review. Stop each audit at a concrete objection/closed dependency list; record accepted scope, not consensus by model count.
 - Effort: Separate bounded review sessions per theorem; human review time is not estimated by agent throughput.
 - Uncertainty: Moderate; prior exact-version audits exist, but are correlated and do not replace human certification.
 - Rationale: Important for trustworthy reuse; explicitly an audit target, not a claim of new mathematics.
+
+## T-CONNECTED: Improve the remaining genus dependence (reserve research)
+
+Remove or materially improve the exponential genus factor in the existing literal connected decoder, uniformly over feasible support, endpoint and genus. Genus-two existence and a generic genus-three extension are completed targets, not new allocations.
+
+- Nearest evidence: [R-CONNECTED](RESULTS.md#r-connected), [S-GENUS-FPT](RESULTS.md#s-genus-fpt), [S-G2](RESULTS.md#s-g2), [S-CUT2](RESULTS.md#s-cut2), [O-GROW](OBSTRUCTIONS.md#o-grow)
+- Advance: Removes the actual missing primitive in an already exact component-selection pipeline; a uniform-in-g construction would give a global arbitrary-length sampler.
+- First test: Locate the exponential coefficient/marker inventory in the accepted FPT proof and freeze one compression hypothesis with a literal conditional-decoding contract, not just scalar counting.
+- Positive: A verified new connected decoder, or an explicit uniform-in-g reduction with error and bit bounds. Fixed-g progress must state its dependence on g.
+- Negative: A counterexample to a proposed state compression or a quantified obstruction to polynomial allocation/mark-forgetting for that mechanism.
+- Stop or pivot: Do not repeat the completed fixed-genus constructions or infer a global theorem from logarithmic-genus cost. Stop a compression when exact forced allocation or signed bit bounds fail; preserve the counterexample.
+- Effort: One bounded 4-hour design/falsification pass, then separately authorize implementation and adversarial audit if a concrete law survives.
+- Uncertainty: High for uniform polynomial genus dependence; the existing exponential bound is internally accepted.
+- Rationale: The old genus-two stepping stone is complete; only a genuinely stronger parameter bound would advance this route.
 
 ## T-FIXED-LENGTH: Improve accuracy without increasing bridge length (reserve research)
 
@@ -78,19 +92,19 @@ Before another local-chain campaign, reconcile M340's unaudited transport obstru
 
 Specify a distinct generator/representation/access model before using expansion or hardness claims. No such theorem is inherited for all-transposition fixed-length bridges.
 
-- Nearest evidence: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-crypto)
+- Nearest evidence: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-crypto), [ALT-NOISE-ATTACK](OBSTRUCTIONS.md#alt-noise-attack)
 - Advance: Could provide a useful benchmark or independently meaningful security question, but changes the problem.
 - First test: Write the target distribution and input size, then check whether the claimed sampler/attack needs unavailable endpoint-completion counts or assumes an efficient gate implementation.
 - Positive: A correctly scoped benchmark theorem or falsifiable hardness assumption with explicit adversarial interfaces.
 - Negative: An elementary distinguisher or a proved normalization/representation mismatch.
-- Stop or pivot: Stop if the proposed model is not the intended fixed-length law or merely imports a base-walk gap as a bridge theorem.
+- Stop or pivot: Reject unchanged noisy six-relator/path-star constructions using ALT-NOISE-ATTACK. Freeze any new generator/representation/security game; no endpoint-to-word-security or expander-to-bridge inference.
 - Effort: Short specification pass only unless the user prioritizes the alternative.
 - Uncertainty: High; currently a proposal, not a supported hardness frontier.
 - Rationale: Retained for discoverability; avoid spending sampler work on an undeclared new model.
 
 ## T-RETIRED: Do not rerun completed or refuted assignments (retired)
 
-Retire genus-one existence, merely proving the old 2N^3 schedule, the standalone mean-lift requirement, H0/H1 negligible error throughout m^4<=N^3, and a rescue by only increasing the logarithmic quotient cutoff. Pure Hurwitz global uniformity is not an open candidate.
+Retire genus-one/two existence, generic fixed-genus-three extension, the old dense schedule, standalone mean-lift repair and unchanged low-genus/small-support policies. Do not rerun the two rejected sparse-noise hiding constructions unchanged.
 
 - Nearest evidence: [S-G01](RESULTS.md#s-g01), [S-CUT](RESULTS.md#s-cut), [S-DENSE](RESULTS.md#s-dense), [HB-DECOMP](RESULTS.md#hb-decomp), [O-H0](OBSTRUCTIONS.md#o-h0), [O-H2](OBSTRUCTIONS.md#o-h2), [O-HURWITZ](OBSTRUCTIONS.md#o-hurwitz)
 - Advance: Preserves resources for genuinely new ingredients.
@@ -112,4 +126,4 @@ Original briefs are preserved; these dispositions govern map-based reuse.
 - [notes/sparse-global-sampler-goal-run.md](../sparse-global-sampler-goal-run.md): Completed restricted sparse theorem; do not repeat the m^3<=N^2 target.
 - [notes/sparse-boundary-goal-run.md](../sparse-boundary-goal-run.md): Original H0/H1 uniform negligible-error assertion refuted; the broader any-sampler T0 stays open. Redirect to T-CONNECTED/T-MASS.
 - [notes/local-heatbath-polynomial-mixing-resolution-goal-run.md](../local-heatbath-polynomial-mixing-resolution-goal-run.md): Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization.
-- [notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md](campaign-identity-bridge-sampling-20261025/MISSION.md): Prepared, not launched. Frozen any-sampler mission with adaptive programme P0-P5. Separate operator start required; same-mission recovery/quota resume authorized thereafter.
+- [notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md](campaign-identity-bridge-sampling-20261025/MISSION.md): Historical mission: campaign launched and later deliberately stopped. Results are consolidated; consult notes/campaign-consolidation-2026-11-06.md before a separately authorized fresh launch.
