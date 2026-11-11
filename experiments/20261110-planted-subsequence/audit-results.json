@@ -1,0 +1,124 @@
+{
+  "commit": "c4331bada5575f58ad463e62479ff20015305759",
+  "command": "python3 -B experiments/20261110-planted-subsequence/audit.py",
+  "python": "3.12.3",
+  "dependencies": "standard library only",
+  "randomness": "none; deterministic independent enumeration",
+  "script_sha256": "f359d9bbd29c66fa94427f44b8eb42333a4a05d50c495f77585a8e3ac9eae1ff",
+  "N": 4,
+  "m": 8,
+  "k": 4,
+  "bridge_count": 140160,
+  "histogram": [
+    [
+      0,
+      1536
+    ],
+    [
+      1,
+      48
+    ],
+    [
+      2,
+      8640
+    ],
+    [
+      3,
+      11520
+    ],
+    [
+      4,
+      27648
+    ],
+    [
+      5,
+      12192
+    ],
+    [
+      6,
+      19728
+    ],
+    [
+      7,
+      9408
+    ],
+    [
+      8,
+      18240
+    ],
+    [
+      9,
+      1536
+    ],
+    [
+      10,
+      15936
+    ],
+    [
+      14,
+      4800
+    ],
+    [
+      16,
+      384
+    ],
+    [
+      18,
+      768
+    ],
+    [
+      20,
+      384
+    ],
+    [
+      21,
+      384
+    ],
+    [
+      22,
+      2160
+    ],
+    [
+      24,
+      960
+    ],
+    [
+      25,
+      432
+    ],
+    [
+      26,
+      1920
+    ],
+    [
+      27,
+      192
+    ],
+    [
+      28,
+      576
+    ],
+    [
+      30,
+      456
+    ],
+    [
+      38,
+      306
+    ],
+    [
+      70,
+      6
+    ]
+  ],
+  "TV": "124087/511000",
+  "repeat_pair_attack": {
+    "condition": "repeat pairs > 6",
+    "null_acceptance": "641/2920",
+    "planted_acceptance": "877/2100",
+    "advantage": "60737/306600"
+  },
+  "universal_m8_leading_coefficient": 264600,
+  "seconds": 1.2675607729979674,
+  "status": "all assertions passed; same-agent independent implementation, not independent proof review"
+}

@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-11-06 (Europe/Berlin).
+Documentary consolidation: 2026-11-10 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -16,7 +16,7 @@ Documentary consolidation: 2026-11-06 (Europe/Berlin).
 
 **Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
 
-**Ideas for future agents (2026-11-06):** [Four research questions](notes/research-questions-2026-11-06.md) formulate gate-library representation balance, Toffoli connectivity, local transposition surgery/proofs of equivalence, and a hidden planted identity-subsequence assumption. These are proposed questions only; no investigation or new mathematical acceptance is implied.
+**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure construction is established. Q1-Q3 remain proposed directions.
 
 ## Surviving Samplers
 
