@@ -1,5 +1,10 @@
 # Prepared Identity-Bridge Campaign
 
+**RETIRED2026-11-06.** The setup below is historical, not a command to resume.
+The old STOP remains active and all research is consolidated in main. See
+[the retirement record](RETIREMENT-20261106.md)
+and [prepared successor](../campaign-identity-bridge-next-20261106/README.md).
+
 Prepared 2026-10-25, compatibility reviewed 2026-10-28 (Europe/Berlin), not launched.
 
 The [mission](MISSION.md) fixes the research objective and permissions.

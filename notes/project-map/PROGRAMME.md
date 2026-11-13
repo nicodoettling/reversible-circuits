@@ -1,7 +1,12 @@
 # Identity-Bridge Sampling Programme
 
 Version 2, consolidated 2026-11-06 (Europe/Berlin). This is planning state,
-not permission to launch. The old persistent campaign is STOPPED. Use the
+not permission to launch. The old persistent campaign is retired and STOPPED.
+The [successor](campaign-identity-bridge-next-20261106/README.md) was launched
+and user-paused on2026-11-06 at checkpointb3f06a9. Its later research/map updates
+remain on the campaign branch, not integrated into this main-checkout programme.
+Explicit authorization is required before resumption.
+Use the
 [fresh-start entry](../campaign-consolidation-2026-11-06.md) and the current
 [ranked targets](TARGETS.md), not historical run deadlines or worker states.
 

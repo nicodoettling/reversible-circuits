@@ -78,6 +78,8 @@ Documentary consolidation: 2026-11-06 (Europe/Berlin).
 - [Programme Decisions](notes/project-map/PROGRAMME_DECISIONS.md)
 - [Fresh Start Entry](notes/campaign-consolidation-2026-11-06.md)
 - [Historical Campaign Setup](notes/project-map/campaign-identity-bridge-sampling-20261025/README.md)
+- [Prepared Successor](notes/project-map/campaign-identity-bridge-next-20261106/README.md)
+- [Retired Predecessor](notes/project-map/campaign-identity-bridge-sampling-20261025/RETIREMENT-20261106.md)
 
 ## Maintenance
 

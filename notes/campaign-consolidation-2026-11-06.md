@@ -4,6 +4,14 @@ This is the portable handoff for a future coordinator. No campaign is launched
 or rearmed by this consolidation. The old campaign remains stopped; historical
 runtime files and six-hour deadlines do not authorize execution now.
 
+The old persistent campaign has since been explicitly retired. Its
+[prepared successor](project-map/campaign-identity-bridge-next-20261106/README.md)
+started from this consolidated baseline, with no old conversation resumed and
+no inference during preparation. It was later separately launched and gently
+paused on2026-11-06 at checkpointb3f06a9. See its launch/pause record; those later
+research artifacts remain on the campaign branch pending integration into main.
+Explicit user authorization is required before resumption.
+
 ## Read First
 
 1. [Project map](../PROJECT_MAP.md) and its exact result links.

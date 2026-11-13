@@ -87,6 +87,49 @@ Append-only receipts. Planning state and mathematical acceptance are separate.
 - Exact paths, preservation checks, discovery coverage and validation are in
   integration-2026-11-06-campaigns.md and the portable fresh-start entry.
 
+## D-20261106-02: Retired Predecessor and Prepared Fresh Campaign
+
+- User authorized retiring identity-bridge-sampling-20261025 and preparing a
+  separate successor, not launching it. The supported stop command retained
+  STOPPED/no-attempt state and preserved all artifacts; its latest verified
+  checkpoint now includes43bbaa9. No native conversation is resumed.
+- Fresh campaign identity-bridge-next-20261106 starts from consolidated main
+  b8dd0f2 with its own branch, worktree and bootstrapba00761. Scientific mission
+  follows programme version2: finish exact sparse review first, then admit new
+  global cost/mass or audit questions. No theorem or source acceptance changed.
+- User explicitly confirmed four Astra Ultra contexts, auto-review/default,
+  six-hour attempts,128GiB memory, quota wrap8/stop6 with a best-effort5% reserve.
+  Verified resume headroom9%,15-second metadata polling and30-second freshness
+  retain a conservative buffer; there is no exact spending guarantee.
+- User explicitly authorized same-mission transient recovery and verified
+  quota-refill resume, plus the separate strategic/interruption manager.
+  Manager policy2 is enabled with900-second reviews; actual restrictions,
+  identity/integrity, containment and user STOP remain binding.
+- No new model/supervisor/attempt is started. Root session=null and attempt
+  count0 are required preparation gates. No push, publication or old-campaign
+  rearm is delegated by this setup. The pinned CLI0.163 is retained for the
+  tested harness adapter; using another CLI needs a distinct compatibility check.
+- Mission, settings, exact local commands and verification scope are recorded
+  in campaign-identity-bridge-next-20261106/ and the successor preparation receipt.
+
+## D-20261113-01: Commit the Successor's Operational History
+
+- The user requested committing the pending changes, not a push or a research
+  branch merge. The predecessor remains retired; the successor was separately
+  launched, had its optional quota guard disabled on explicit instruction, and
+  was user-paused on2026-11-06 with all three workers' partial reports frozen.
+- Its pause checkpoint isb3f06a9d92200861f466c928d5e025c4d2f022a6. The complete
+  C1/C2 reviews and unfinished follow-up live on that campaign branch. This
+  operational commit does not import those results or update their effective
+  mathematical status in the primary catalogue.
+- Primary navigation now distinguishes the historical preparation from the
+  later launch/pause. Exact chronology and controls are documented in
+  campaign-identity-bridge-next-20261106/LAUNCH-20261106.md. STOP remains binding;
+  no inference, rearm, new research, provider operation or push is authorized.
+- The documentary check and inventory receipt is
+  integration-2026-11-13-operational-commit.md. No proof source fingerprint or
+  acceptance status is changed by this reconciliation.
+
 ## Outcome Receipt Format
 
 Each later receipt records its ID/date/timezone, manifest/session/attempt and
