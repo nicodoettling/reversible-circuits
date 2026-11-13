@@ -1,0 +1,738 @@
+{
+  "metadata": {
+    "commit": "c4331bada5575f58ad463e62479ff20015305759",
+    "command": "python3 -B experiments/20261110-planted-subsequence/recursive_check.py",
+    "python": "3.12.3",
+    "dependencies": "standard library; imports check.Group",
+    "randomness": "none; exact enumeration of all recursive generation choices",
+    "script_sha256": "08f3ee81f5ff39f699261251a67b28af237622c62d36efe24ad465579d5d13c8",
+    "check_sha256": "a37175a62714c57aa334f2df81432a50f9310a2892962738021d6b8f11070724",
+    "seconds": 18.61147132699989
+  },
+  "cases": [
+    {
+      "N": 3,
+      "m": 4,
+      "exact_base_max_length": 2,
+      "bridge_count": 27,
+      "generation_denominator": 54,
+      "missing_words": 0,
+      "TV": "2/9",
+      "TV_decimal": 0.2222222222222222,
+      "one_top_plant_TV": {
+        "exact": "2/9",
+        "decimal": 0.2222222222222222
+      },
+      "generation_weight_histogram": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "exact_base_max_length": 2,
+      "bridge_count": 243,
+      "generation_denominator": 2430,
+      "missing_words": 0,
+      "TV": "88/405",
+      "TV_decimal": 0.21728395061728395,
+      "one_top_plant_TV": {
+        "exact": "4/27",
+        "decimal": 0.14814814814814814
+      },
+      "generation_weight_histogram": [
+        [
+          5,
+          72
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          9,
+          72
+        ],
+        [
+          10,
+          36
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          90,
+          3
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "exact_base_max_length": 2,
+      "bridge_count": 2187,
+      "generation_denominator": 204120,
+      "missing_words": 0,
+      "TV": "5702/25515",
+      "TV_decimal": 0.2234763864393494,
+      "one_top_plant_TV": {
+        "exact": "344/5103",
+        "decimal": 0.06741132667058593
+      },
+      "generation_weight_histogram": [
+        [
+          44,
+          48
+        ],
+        [
+          48,
+          144
+        ],
+        [
+          52,
+          96
+        ],
+        [
+          56,
+          48
+        ],
+        [
+          60,
+          480
+        ],
+        [
+          64,
+          192
+        ],
+        [
+          68,
+          12
+        ],
+        [
+          72,
+          240
+        ],
+        [
+          80,
+          48
+        ],
+        [
+          84,
+          336
+        ],
+        [
+          88,
+          24
+        ],
+        [
+          108,
+          96
+        ],
+        [
+          120,
+          96
+        ],
+        [
+          144,
+          48
+        ],
+        [
+          152,
+          12
+        ],
+        [
+          168,
+          96
+        ],
+        [
+          180,
+          96
+        ],
+        [
+          216,
+          24
+        ],
+        [
+          360,
+          48
+        ],
+        [
+          2520,
+          3
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 4,
+      "exact_base_max_length": 4,
+      "bridge_count": 27,
+      "generation_denominator": 27,
+      "missing_words": 0,
+      "TV": "0",
+      "TV_decimal": 0.0,
+      "one_top_plant_TV": {
+        "exact": "2/9",
+        "decimal": 0.2222222222222222
+      },
+      "generation_weight_histogram": [
+        [
+          1,
+          27
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 6,
+      "exact_base_max_length": 4,
+      "bridge_count": 243,
+      "generation_denominator": 1215,
+      "missing_words": 0,
+      "TV": "4/27",
+      "TV_decimal": 0.14814814814814814,
+      "one_top_plant_TV": {
+        "exact": "4/27",
+        "decimal": 0.14814814814814814
+      },
+      "generation_weight_histogram": [
+        [
+          3,
+          36
+        ],
+        [
+          4,
+          108
+        ],
+        [
+          6,
+          42
+        ],
+        [
+          7,
+          54
+        ],
+        [
+          15,
+          3
+        ]
+      ]
+    },
+    {
+      "N": 3,
+      "m": 8,
+      "exact_base_max_length": 4,
+      "bridge_count": 2187,
+      "generation_denominator": 51030,
+      "missing_words": 0,
+      "TV": "344/5103",
+      "TV_decimal": 0.06741132667058593,
+      "one_top_plant_TV": {
+        "exact": "344/5103",
+        "decimal": 0.06741132667058593
+      },
+      "generation_weight_histogram": [
+        [
+          14,
+          48
+        ],
+        [
+          16,
+          96
+        ],
+        [
+          18,
+          192
+        ],
+        [
+          20,
+          96
+        ],
+        [
+          21,
+          96
+        ],
+        [
+          22,
+          540
+        ],
+        [
+          24,
+          240
+        ],
+        [
+          25,
+          108
+        ],
+        [
+          26,
+          480
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          28,
+          144
+        ],
+        [
+          30,
+          72
+        ],
+        [
+          38,
+          24
+        ],
+        [
+          70,
+          3
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "exact_base_max_length": 2,
+      "bridge_count": 120,
+      "generation_denominator": 216,
+      "missing_words": 0,
+      "TV": "8/45",
+      "TV_decimal": 0.17777777777777778,
+      "one_top_plant_TV": {
+        "exact": "8/45",
+        "decimal": 0.17777777777777778
+      },
+      "generation_weight_histogram": [
+        [
+          1,
+          48
+        ],
+        [
+          2,
+          66
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "exact_base_max_length": 2,
+      "bridge_count": 3936,
+      "generation_denominator": 19440,
+      "missing_words": 96,
+      "TV": "3557/11070",
+      "TV_decimal": 0.3213188798554652,
+      "one_top_plant_TV": {
+        "exact": "758/3075",
+        "decimal": 0.2465040650406504
+      },
+      "generation_weight_histogram": [
+        [
+          0,
+          96
+        ],
+        [
+          1,
+          576
+        ],
+        [
+          2,
+          432
+        ],
+        [
+          3,
+          1152
+        ],
+        [
+          5,
+          288
+        ],
+        [
+          6,
+          720
+        ],
+        [
+          9,
+          288
+        ],
+        [
+          10,
+          144
+        ],
+        [
+          18,
+          234
+        ],
+        [
+          90,
+          6
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "exact_base_max_length": 2,
+      "bridge_count": 140160,
+      "generation_denominator": 3265920,
+      "missing_words": 1536,
+      "TV": "1794239/4966920",
+      "TV_decimal": 0.3612377489470336,
+      "one_top_plant_TV": {
+        "exact": "124087/511000",
+        "decimal": 0.2428317025440313
+      },
+      "generation_weight_histogram": [
+        [
+          0,
+          1536
+        ],
+        [
+          2,
+          2688
+        ],
+        [
+          4,
+          11568
+        ],
+        [
+          6,
+          5760
+        ],
+        [
+          8,
+          14400
+        ],
+        [
+          10,
+          13056
+        ],
+        [
+          12,
+          21888
+        ],
+        [
+          14,
+          4224
+        ],
+        [
+          16,
+          4224
+        ],
+        [
+          18,
+          2304
+        ],
+        [
+          20,
+          11232
+        ],
+        [
+          22,
+          2304
+        ],
+        [
+          24,
+          12432
+        ],
+        [
+          28,
+          576
+        ],
+        [
+          32,
+          576
+        ],
+        [
+          36,
+          12672
+        ],
+        [
+          40,
+          4992
+        ],
+        [
+          44,
+          192
+        ],
+        [
+          48,
+          576
+        ],
+        [
+          52,
+          384
+        ],
+        [
+          56,
+          192
+        ],
+        [
+          60,
+          1920
+        ],
+        [
+          64,
+          768
+        ],
+        [
+          68,
+          48
+        ],
+        [
+          72,
+          5568
+        ],
+        [
+          80,
+          192
+        ],
+        [
+          84,
+          1344
+        ],
+        [
+          88,
+          96
+        ],
+        [
+          108,
+          384
+        ],
+        [
+          120,
+          384
+        ],
+        [
+          144,
+          192
+        ],
+        [
+          152,
+          48
+        ],
+        [
+          168,
+          384
+        ],
+        [
+          180,
+          384
+        ],
+        [
+          216,
+          306
+        ],
+        [
+          360,
+          360
+        ],
+        [
+          2520,
+          6
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 4,
+      "exact_base_max_length": 4,
+      "bridge_count": 120,
+      "generation_denominator": 120,
+      "missing_words": 0,
+      "TV": "0",
+      "TV_decimal": 0.0,
+      "one_top_plant_TV": {
+        "exact": "8/45",
+        "decimal": 0.17777777777777778
+      },
+      "generation_weight_histogram": [
+        [
+          1,
+          120
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 6,
+      "exact_base_max_length": 4,
+      "bridge_count": 3936,
+      "generation_denominator": 10800,
+      "missing_words": 96,
+      "TV": "758/3075",
+      "TV_decimal": 0.2465040650406504,
+      "one_top_plant_TV": {
+        "exact": "758/3075",
+        "decimal": 0.2465040650406504
+      },
+      "generation_weight_histogram": [
+        [
+          0,
+          96
+        ],
+        [
+          1,
+          792
+        ],
+        [
+          2,
+          1368
+        ],
+        [
+          3,
+          768
+        ],
+        [
+          4,
+          432
+        ],
+        [
+          6,
+          168
+        ],
+        [
+          7,
+          306
+        ],
+        [
+          15,
+          6
+        ]
+      ]
+    },
+    {
+      "N": 4,
+      "m": 8,
+      "exact_base_max_length": 4,
+      "bridge_count": 140160,
+      "generation_denominator": 1008000,
+      "missing_words": 1536,
+      "TV": "124087/511000",
+      "TV_decimal": 0.2428317025440313,
+      "one_top_plant_TV": {
+        "exact": "124087/511000",
+        "decimal": 0.2428317025440313
+      },
+      "generation_weight_histogram": [
+        [
+          0,
+          1536
+        ],
+        [
+          1,
+          48
+        ],
+        [
+          2,
+          8640
+        ],
+        [
+          3,
+          11520
+        ],
+        [
+          4,
+          27648
+        ],
+        [
+          5,
+          12192
+        ],
+        [
+          6,
+          19728
+        ],
+        [
+          7,
+          9408
+        ],
+        [
+          8,
+          18240
+        ],
+        [
+          9,
+          1536
+        ],
+        [
+          10,
+          15936
+        ],
+        [
+          14,
+          4800
+        ],
+        [
+          16,
+          384
+        ],
+        [
+          18,
+          768
+        ],
+        [
+          20,
+          384
+        ],
+        [
+          21,
+          384
+        ],
+        [
+          22,
+          2160
+        ],
+        [
+          24,
+          960
+        ],
+        [
+          25,
+          432
+        ],
+        [
+          26,
+          1920
+        ],
+        [
+          27,
+          192
+        ],
+        [
+          28,
+          576
+        ],
+        [
+          30,
+          456
+        ],
+        [
+          38,
+          306
+        ],
+        [
+          70,
+          6
+        ]
+      ]
+    }
+  ]
+}

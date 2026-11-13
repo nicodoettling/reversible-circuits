@@ -38,6 +38,33 @@ ratios can coexist with small total variation; neither statistic alone
 supplies a spectral comparison. Test a proposed prefix law by counting
 extensions on a concrete endpoint event before inferring uniformity.
 
+## Planted Conditional Mixtures
+
+For hidden index-set planting, distinguish choosing an index set first and
+conditioning the word from conditioning on existence of any witness. Derive
+the fixed-set event probabilities before sampling: the mixture density is the
+average of indicator/event-probability ratios. Equal probabilities reduce it
+to witness count divided by its null expectation. Measure both likelihood
+fluctuations and null witness existence; finding an accidental witness need
+not distinguish the worlds.
+
+In the global all-transposition bridge model, selected-left stable sorting
+gives an exact conditional sampler by reversing Hurwitz moves on two uniform
+bridges. Ordinary interleaving is not a substitute. Verify the inverse map on
+small complete conditional fibers, and state the shorter-bridge sampler cost
+separately. Test both short plants and short complements; prefix-conjugated
+gates can expose complement witnesses. The worked reference is
+`experiments/20261110-planted-subsequence/proof.md` and its exact checker.
+For recursive constructions, keep the actual child laws in the analysis.
+If a computational hybrid needs an exact reference sibling, check that the
+reduction can sample it; hardwiring an unavailable sample invokes a stronger
+nonuniform security model.
+For a small plant in a long bridge, test random gate-pair equality and label
+overlap before expensive subset search. A multiplicative completion estimate
+can remain useful after rare-event conditioning; absolute TV alone may not.
+Compare any residual inverse-polynomial bias with the declared security
+parameter rather than calling a numerically small bias negligible.
+
 ## S_10 Testing
 
 `S_10` has `10! = 3628800` elements and 45 transpositions. Direct permutation arithmetic is fine. Full word enumeration is not fine for moderate `m`.

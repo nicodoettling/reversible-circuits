@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty/untracked research, with runtime worktrees excluded. The 2026-11-06 consolidation imports both campaign histories and traces their exact statements/internal reconciliations without new asymptotic proof certification. I1, genus-scaling and the two noisy-word attacks have inherited scoped internal verdicts; exact sparse sampling and foreground projections remain provisional. Older October author records retain their previous statuses/source pins. Historical preparation documents are not current launch authority. One named clean genus check was reproduced; most raw archive microclaims were not freshly reviewed. No formalization branch was discovered. See integration-2026-11-06-campaigns.md and the earlier dated integration receipts for exact read depth and preserved disagreements.
 
-Discovery baseline: 4555 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4573 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -109,6 +109,14 @@ Records: Pending; no mathematical record inferred.
 Shares documentary paths with authority/manuscript families; no separate research file tree. No new security or alternative-generator theorem inferred.
 
 Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-crypto)
+
+## research-questions: User research questions and planted-identity diagnostics
+
+18 discovered entries. formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction; no hardness acceptance or new accepted mathematical record. Depth: complete formulation and both foreground proof/code/result sets; exact finite checks and scoped primary spectral input checked; no independent proof review.
+
+Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure schedule or uniform-only recursive reduction is established. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md and integration-2026-11-10-planted-scaling.md.
+
+Records: Pending; no mathematical record inferred.
 
 ## operations: Operational instructions, environment and runner smoke
 

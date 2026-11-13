@@ -8,7 +8,7 @@
     "prepared_successor": "notes/project-map/campaign-identity-bridge-next-20261106/README.md",
     "retired_predecessor": "notes/project-map/campaign-identity-bridge-sampling-20261025/RETIREMENT-20261106.md"
   },
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
@@ -3613,6 +3613,20 @@
       "branch_disposition": "pending: indexed only; family records are navigation, not acceptance"
     },
     {
+      "id": "research-questions",
+      "title": "User research questions and planted-identity diagnostics",
+      "prefixes": [
+        "notes/research-questions-2026-11-06.md",
+        "experiments/20261110-planted-subsequence",
+        "experiments/20261110-planted-scaling"
+      ],
+      "disposition": "formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction; no hardness acceptance or new accepted mathematical record",
+      "read_depth": "complete formulation and both foreground proof/code/result sets; exact finite checks and scoped primary spectral input checked; no independent proof review",
+      "limits": "Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure schedule or uniform-only recursive reduction is established. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md and integration-2026-11-10-planted-scaling.md.",
+      "records": [],
+      "branch_disposition": "pending independent proof review: scoped author obstruction and conditional construction; no cryptographic acceptance"
+    },
+    {
       "id": "operations",
       "title": "Operational instructions, environment and runner smoke",
       "prefixes": [
@@ -4115,7 +4129,8 @@
       "**Two different frontiers:** Connected words can now be sampled at every genus with exponential genus cost. The global question is whether that cost can be paid under the exact component law, or replaced by a uniform polynomial bound. The local {3,4,5} heat-bath mixing question is separate and remains open; direct sampling proves no gap for that walk.",
       "**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation.",
       "**Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.",
-      "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing."
+      "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.",
+      "**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure construction is established. Q1-Q3 remain proposed directions."
     ],
     "routes": {
       "Surviving Samplers": [
