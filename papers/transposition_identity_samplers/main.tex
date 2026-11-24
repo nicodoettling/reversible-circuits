@@ -24,7 +24,7 @@
 
 \title{Sampling Identity Bridges in Symmetric Groups:\ Rank Recursion and Local Dynamics}
 \author{Project notes from the reversible-circuits sampler experiments}
-\date{September 1, 2026}
+\date{November 24, 2026}
 
 \begin{document}
 
@@ -59,11 +59,17 @@ but fixed by $N$ and $m$; arbitrary requested accuracy remains open.
 
 We also retain the local-dynamics picture.  Pure Hurwitz walks are not global
 samplers because they preserve weighted support-component data.  Exact
-$\{3,4,5\}$ block heat-bath updates are reversible for the uniform law and
-pass small exact tests, but no unconditional polynomial mixing theorem for
-that local chain is known.  Thus rank recursion supplies the current
-polynomial-time sampling result, while local heat-bath mixing and bounded-degree
-expander gate sets remain distinct structural questions.
+$\{3,4,5\}$ block heat-bath updates are reversible for the uniform law.
+However, a balanced support-component bottleneck rules out a mixing bound
+polynomial in $N,m$ over the entire parameter range: for every sufficiently
+large even $m$, some $N$ between constant multiples of
+$m^{3/2}/(\log m)^2$ and $m^{3/2}$ has mixing time at least
+$\exp(\Omega(m/(\log m)^2))$.  The obstruction applies to every
+uniform-stationary walk changing a bounded number of gates per step.
+For the adjacent pair chain at $m\ge CN\log N$, by contrast, the minimum
+conductance over support-profile cuts is $\Theta(N^{-3})$; full-chain
+mixing there remains unresolved.  These local-walk results leave direct
+sampling and other generator models as distinct questions.
 \end{abstract}
 
 \input{sections/problem_formulation}
@@ -85,6 +91,8 @@ expander gate sets remain distinct structural questions.
 \input{sections/scalable_diagnostics}
 
 \input{sections/square_refresh}
+
+\input{sections/conductance_obstruction}
 
 \input{sections/theoretical_status}
 

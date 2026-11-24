@@ -5163,11 +5163,6 @@
     }
   },
   "files": {
-    ".claude/settings.local.json": {
-      "family": "operations",
-      "mode": "research",
-      "sha256": "099f68eb7bfac17acf16f48a46cd24e4d87d9ca591d50c90165093af00f8971d"
-    },
     ".codex/skills/reversible-circuit-sampler/SKILL.md": {
       "family": "operations",
       "mode": "research",
@@ -5211,7 +5206,7 @@
     "HANDOFF.md": {
       "family": "authority",
       "mode": "research",
-      "sha256": "196b93147dbbb788d76f0be0d65dd81376a49edbf4ae71798f057c540eefada2"
+      "sha256": "850568ad0ba85e7184f57c63d0a6c05b976c0c19eafbcdfd1424a1fe6ba5e465"
     },
     "Literature/0110110v1.pdf": {
       "family": "literature",
@@ -27503,6 +27498,36 @@
       "mode": "research",
       "sha256": "faae74930f6b701ab75d93b94c6d527cbb1520738b273bf7516059c380c831c1"
     },
+    "experiments/20261124-conductance-audit/check.py": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "dfa779c9c21272563cbebd22699e87e693bbb1073ecc5794d0b1edad5fc586ea"
+    },
+    "experiments/20261124-conductance-audit/claim_ledger.md": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "cb7360c49c5826574a4e2b6ae182b6e35c872de3a3f1953d0ea27d081802712a"
+    },
+    "experiments/20261124-conductance-audit/plan.md": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "51fe8ceff272f6008954d0ccf5f971252c22036c6949d917a9ac4ad59619e875"
+    },
+    "experiments/20261124-conductance-audit/report.md": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "e29225cae37bbaa1d6e824cd306615ebc70a20d228f6214133c34d63ccbf8c5d"
+    },
+    "experiments/20261124-conductance-audit/results.jsonl": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "5c299e6db5549ec24a67501f8e5bf36291e6acedb165b54911b1810231cc11b7"
+    },
+    "experiments/20261124-conductance-audit/source.pdf": {
+      "family": "conductance-audit",
+      "mode": "research",
+      "sha256": "361655d05246c4b1a189a1835675d926ac8cf0d10e2d627d5ea2d5aa57d39e8f"
+    },
     "experiments/INDEX.md": {
       "family": "authority",
       "mode": "research",
@@ -27613,6 +27638,11 @@
       "mode": "research",
       "sha256": "5c161736f440ececed4410b940edf0c0039ea441af9316ad2db69079a82051df"
     },
+    "notes/planting-output-only-2026-11-17.md": {
+      "family": "research-questions",
+      "mode": "research",
+      "sha256": "3f6666a790a956c6d1ef89ea34e7cb9216700eebe5990ed4b877e0366cfb8b22"
+    },
     "notes/rank-recursive-identity-bridge-goal-run.md": {
       "family": "rank",
       "mode": "research",
@@ -27696,7 +27726,7 @@
     "papers/transposition_identity_samplers/README.md": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "41d53ce07d7a5ae09e06856c115f1cccfe7682cc99bd9282319b24d338422ca7"
+      "sha256": "878d97e394bab62c47139868e9b186814c9a42067f244b82bb4853007953fad3"
     },
     "papers/transposition_identity_samplers/identity_transposition_samplers.log": {
       "bytes_at_discovery": 16706,
@@ -27716,17 +27746,22 @@
     "papers/transposition_identity_samplers/main.pdf": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "d090ad7cf3794cb99b105506751fadff3d22cda21de061aa52c2796a489cb58b"
+      "sha256": "4d320fcb30fc5813767506df5c13b9a2aa349de03b1cd7729c308175e14d8c0b"
     },
     "papers/transposition_identity_samplers/main.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "0309701fc73dad4783bed4bac1dc70004dd7677d17d7b757140c7e5a31b67e19"
+      "sha256": "6a63c0b7b38135c9458bfb5dbf3bb7eed7e4538c6e66d464bb433fff96544b18"
     },
     "papers/transposition_identity_samplers/sections/conditional_block_sampling.tex": {
       "family": "manuscript",
       "mode": "research",
       "sha256": "ffed9e39437803061f30b9b78d0fb330c5692c90f1c5fb3d5111b9f04935eafd"
+    },
+    "papers/transposition_identity_samplers/sections/conductance_obstruction.tex": {
+      "family": "manuscript",
+      "mode": "research",
+      "sha256": "5d6ab6684ede6fb0d5011d6eee7eff3f2182268aeabeee4c89f5cba973eaffce"
     },
     "papers/transposition_identity_samplers/sections/exact_small_cases.tex": {
       "family": "manuscript",
@@ -27736,7 +27771,7 @@
     "papers/transposition_identity_samplers/sections/expander_gate_sets.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "308a4debdc09a17f599ea98458796fa8b84936cdc160abc8018b77ea5778c351"
+      "sha256": "f940f1bc487f6ef6cb82ad6854f54eb4d624810adff4066d298c958cc9bc5ca5"
     },
     "papers/transposition_identity_samplers/sections/finite_spectral_evidence.tex": {
       "family": "manuscript",
@@ -27756,17 +27791,17 @@
     "papers/transposition_identity_samplers/sections/implications.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "15f594605a0d3aab88a5d377301b7e2f3aa9bd72c5c46efcc29eef32b6d15ed5"
+      "sha256": "3a0009a785ee1568f1d88839169d3724d2b9a94faaae91cec772f4eb823e76a0"
     },
     "papers/transposition_identity_samplers/sections/internal_sources.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "7e8535500054d29e287a5d2c5d54e671188f307bb86c685174ebae3e2ae5c80a"
+      "sha256": "f9874410a704a86ed26c3a2b697ee914953fb2acd756edbfd0fd253f613ee719"
     },
     "papers/transposition_identity_samplers/sections/next_steps.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "050d33bd449649888c9849be69c568b1098b6430a9fd35f3adbd4ce95e82cfe8"
+      "sha256": "e93d584082ab3fee7a0c5b198bc3f7ad0f2f0dc17171bb2a6b1d299f01e13794"
     },
     "papers/transposition_identity_samplers/sections/orbit_breaking_candidates.tex": {
       "family": "manuscript",
@@ -27786,7 +27821,7 @@
     "papers/transposition_identity_samplers/sections/references.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "a7ea2009c9f04edf2c7a2a384f56e8b94563c290087e595fe717f3a87c0f8066"
+      "sha256": "bca7f30c9eeadedda79f127232434e2fb8ed3673b11c769c04b91de2e8c65696"
     },
     "papers/transposition_identity_samplers/sections/scalable_diagnostics.tex": {
       "family": "manuscript",
@@ -27801,7 +27836,7 @@
     "papers/transposition_identity_samplers/sections/theoretical_status.tex": {
       "family": "manuscript",
       "mode": "research",
-      "sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a"
+      "sha256": "e746c3ec7da0bc343c2520d3009f610b670606c93687ba7f0b13f88d99425dc3"
     },
     "research-campaigns/genus-scaling-20261028/CHECKPOINT.json": {
       "family": "genus-scaling",
@@ -28029,6 +28064,6 @@
       "sha256": "36e1c72c83520517b9644f8196af1335ffa163a88326934787306050900b490b"
     }
   },
-  "review_receipt": "notes/project-map/integration-2026-11-13-remote-merge.md",
+  "review_receipt": "notes/project-map/integration-2026-11-24-main-rebase.md",
   "schema_version": 1
 }

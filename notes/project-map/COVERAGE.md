@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty/untracked research, with runtime worktrees excluded. The 2026-11-06 consolidation imports both campaign histories and traces their exact statements/internal reconciliations without new asymptotic proof certification. I1, genus-scaling and the two noisy-word attacks have inherited scoped internal verdicts; exact sparse sampling and foreground projections remain provisional. Older October author records retain their previous statuses/source pins. Historical preparation documents are not current launch authority. One named clean genus check was reproduced; most raw archive microclaims were not freshly reviewed. No formalization branch was discovered. See integration-2026-11-06-campaigns.md and the earlier dated integration receipts for exact read depth and preserved disagreements.
 
-Discovery baseline: 4573 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4580 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -88,7 +88,7 @@ Records: [EXP-EDGE](RESULTS.md#exp-edge)
 
 ## manuscript: Manuscript and historical synthesis
 
-23 discovered entries. selected sections mapped; remaining sections pending. Depth: theoretical status, dense sampler, expander section, bibliography selected.
+24 discovered entries. selected sections mapped; remaining sections pending. Depth: theoretical status, dense sampler, expander section, bibliography selected.
 
 Manuscript proof revisions are a separate audit/integration target. LaTeX build products are not mathematical certification.
 
@@ -110,17 +110,17 @@ Shares documentary paths with authority/manuscript families; no separate researc
 
 Records: [ALT-EXPANDER](RESULTS.md#alt-expander), [ALT-CRYPTO](RESULTS.md#alt-crypto)
 
-## research-questions: User research questions and planted-identity diagnostics
+## research-questions: User research questions and planting diagnostics
 
-18 discovered entries. formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction; no hardness acceptance or new accepted mathematical record. Depth: complete formulation and both foreground proof/code/result sets; exact finite checks and scoped primary spectral input checked; no independent proof review.
+19 discovered entries. formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction and a separate oracle-access follow-up; no hardness acceptance or new accepted mathematical record. Depth: inherited complete formulation and foreground proof/code/result reviews; new oracle note read in full with direct author proof checks and PRF-definition source inspection; no independent proof review.
 
-Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure schedule or uniform-only recursive reduction is established. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md and integration-2026-11-10-planted-scaling.md.
+Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure full-description schedule or uniform-only recursive reduction is established. The separately requested output-only game has elementary hidden-region and uniform-mask guarantees, with PRF/PRP instantiations conditional on their stated security assumptions. Arbitrary small gate replacement remains unresolved without a host and surgery model. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md, integration-2026-11-10-planted-scaling.md and integration-2026-11-17-output-only-planting.md.
 
 Records: Pending; no mathematical record inferred.
 
 ## operations: Operational instructions, environment and runner smoke
 
-41 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
+40 discovered entries. inventoried; out of mathematical scope. Depth: project skill read; remaining operational material inventory-only.
 
 No environment changes or launches; historical bwrap instructions are not current research claims. Directory symlinks are not followed.
 
@@ -270,26 +270,35 @@ Exponential genus cost, connected fibers only. Separate PORT-CONTRACT unresolved
 
 Records: [S-GENUS-FPT](RESULTS.md#s-genus-fpt)
 
+## conductance-audit: November 24 supplied conductance draft and proof audit
+
+6 discovered entries. scoped bottleneck and pair conductance results promoted after substantive single-session review. Depth: all draft pages, expanded proofs, exact code and raw results inspected.
+
+No independent human review, formal certification, sharp finite onset or all-length direct sampler theorem.
+
+Records: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds)
+
 ## Unresolved and Reconciled Discrepancies
 
-- **C-IRRED (documentarily reconciled):** AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
-- **C-MEANLIFT (documentarily reconciled):** The old three-obligation plan includes a separate mean-lift lemma; the archived JSTV combination removes it. Projection and restricted-fiber estimates are still missing; do not launch another generic mean-lift mission. [scope](../../GOAL_SPEC.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md), [hb-ledger](../local-heatbath-polynomial-mixing-resolution-resolution-ledger.md)
+- **C-IRRED (documentarily reconciled):** Historical AGENTS/GOAL_SPEC retain conditional classification wording; the manuscript now proves irreducibility from self-contained all-endpoint pair connectivity. Earlier M01 records agree. m=2 remains excluded for the project kernel; universal quantitative mixing is refuted by O-LOCAL-BOTTLENECK. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
+- **C-MEANLIFT (documentarily reconciled):** The old three-obligation plan includes a separate mean-lift lemma; the archived JSTV combination removes it. Projection and restricted-fiber estimates are still missing; do not launch another generic mean-lift mission. The universal projection-gap target is now refuted by O-LOCAL-BOTTLENECK; only scoped regime-specific estimates remain meaningful. [scope](../../GOAL_SPEC.md), [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md), [hb-ledger](../local-heatbath-polynomial-mixing-resolution-resolution-ledger.md)
 - **C-DENSE (documentarily reconciled):** HANDOFF/manuscript emphasize 2N^3. September 5 strengthens the length/error theorem. This changes a sufficient regime, not a lower bound on minimum necessary length. [handoff](../../HANDOFF.md), [manuscript-dense](../../papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex), [dense-statement](../../experiments/20260905-bridge-length-phase-diagram/roles/r2-dense-threshold/report.md), [dense-audit](../../experiments/20260905-bridge-length-phase-diagram/roles/r1-short-exact/fresh_dense_audit.md)
 - **C-GENUS (documentarily reconciled):** The September 5 phase diagram leaves genus-one connected sampling open. September 7 closes it via two accepted constructions. Frozen provisional headers are superseded only by exact-version scoped audits, not rewritten. [phase](../../experiments/20260905-bridge-length-phase-diagram/phase_diagram.md), [g01-ledger](../../experiments/20260907-genus-one-sampler/claim_ledger.md), [g01-synthesis-audit](../../experiments/20260907-genus-one-sampler/roles/r2-structural/synthesis_audit.md), [cut-audit](../../experiments/20260907-genus-one-sampler/roles/r1-recursive/structural_audit.md)
 - **C-STRONG (pending audit):** The September 22 blind report claims a stronger all-N obstruction; canonical accepted delivery proves the explicit j>=64 subsequence. Both are retained, but the broader quantifier is not inherited as accepted. [boundary-blind](../../experiments/20260922-sparse-boundary/roles/r5-referee/blind_report.md), [boundary-obstruction](../../experiments/20260922-sparse-boundary/obstruction.md), [boundary-referee](../../experiments/20260922-sparse-boundary/roles/r5-referee/integration_audit_v2.md)
 - **C-M340 (pending fresh audit):** M340 author-refutes complete-label cross-cell residual transport. Final L-0337 explicitly withholds promotion. M341/M342 initialized assignments are not new results. M339 accepts only a conditional pivot theorem with a rho>0 correction. [hb-m340](../../experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M340-cross-cell-residual-flow/report.md), [hb-m339](../../experiments/20260811-polynomial-mixing-resolution/cycle-102/mission-M339-m337-fresh-referee/report.md), [hb-ledger](../local-heatbath-polynomial-mixing-resolution-resolution-ledger.md)
 - **C-INDEX (navigation repaired, historical files preserved):** Top-level summaries and the experiment index are not a complete current ledger. The map becomes a navigation layer; exact statements/verdicts remain authoritative. Manuscript integration is still a separate review task. [scope](../../GOAL_SPEC.md), [handoff](../../HANDOFF.md), [phase-ledger](../../experiments/20260905-bridge-length-phase-diagram/claim_ledger.md), [boundary-ledger](../../experiments/20260922-sparse-boundary/claim_ledger.md)
+- **C-CONDUCTANCE (proof-reviewed scope reconciliation):** Historical universal local-mixing openness in AGENTS, GOAL_SPEC and G-HEATBATH is superseded by the supplied November draft audit. The balanced cut applies to the project chain through b=5; long-profile Theta(N^-3) is a pair-kernel result and does not settle full mixing at N^2. [scope](../../GOAL_SPEC.md), [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex), [conductance-report](../../experiments/20261124-conductance-audit/report.md), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md)
 
 ## Read Register
 
 Full files are fingerprinted; listed read scopes may be excerpts only.
 
 - [scope](../../GOAL_SPEC.md): Decision question, exact kernel, baseline, routes and role definitions; historical scope, not current sampler frontier.
-- [handoff](../../HANDOFF.md): Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit.
-- [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex): Complete section read; conditional wording compared with later archived audits.
+- [handoff](../../HANDOFF.md): Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
+- [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex): Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
 - [manuscript-dense](../../papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex): Theorem statement and named recurrence/complexity passages previously inspected; no fresh line-by-line proof review.
-- [expander](../../papers/transposition_identity_samplers/sections/expander_gate_sets.tex): Whole section read; different generator model and transfer caveats.
-- [references](../../papers/transposition_identity_samplers/sections/references.tex): Whole short bibliography; DOI metadata only.
+- [expander](../../papers/transposition_identity_samplers/sections/expander_gate_sets.tex): Whole section read; different generator model and transfer caveats. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
+- [references](../../papers/transposition_identity_samplers/sections/references.tex): Whole short bibliography; DOI metadata only. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
 - [rr-ledger](../../experiments/20260901-rank-recursive-identity-bridge-goal/claim_ledger.md): Whole final ledger; exact theorem/audit linkage traced.
 - [rr-redteam](../../experiments/20260901-rank-recursive-identity-bridge-goal/roles/r6-redteam/report.md): Conventions and first audit sections; paired-lift result linked through final ledger, not whole proof reread.
 - [phase-ledger](../../experiments/20260905-bridge-length-phase-diagram/claim_ledger.md): Whole final ledger; statuses reconciled with later genus-one and sparse runs.
@@ -449,6 +458,12 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [noise-viability-report](../../experiments/20261029-noisy-bridge-viability/report.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
 - [noise-viability-reconciliation](../../experiments/20261029-noisy-bridge-viability/reconciliation-v1.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
 - [projection-foreground](../../experiments/20261028-bridge-projections/report.md): Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record.
+- [conductance-draft](../../experiments/20261124-conductance-audit/source.pdf): All six pages read and mathematical claims rederived.
+- [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex): Complete expanded proof checked, including conventions, parameter quantifiers, boundary cases and all transfers.
+- [conductance-report](../../experiments/20261124-conductance-audit/report.md): Complete single-session audit report; scoped promote verdict, source dependencies and limitations.
+- [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md): Every claim, dependency, independent calculation and action inspected; no separate reviewer.
+- [conductance-check](../../experiments/20261124-conductance-audit/check.py): Complete deterministic exact harness read and run.
+- [conductance-results](../../experiments/20261124-conductance-audit/results.jsonl): All exact results inspected; no finite-to-asymptotic inference.
 
 ## Branch Retrieval
 

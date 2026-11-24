@@ -1,0 +1,439 @@
+\section{A Conductance Obstruction to Uniformly Fast Local Mixing}
+\label{sec:conductance-obstruction}
+
+The results in this section are proved below.  They were supplied in the
+November 2026 conductance draft and expanded during the accompanying internal
+proof audit.  They concern the global uniform law $\pi_{N,m}$ on
+$\Omega(N,m)$, with products acting rightmost first.  They refute a mixing
+bound polynomial in $N,m$ for the local chain over its entire parameter
+range.  They do not give an impossibility theorem for direct sampling.
+
+For comparison with the project kernel, define the adjacent pair heat bath
+\[
+ P_{N,m}=\frac12 I+
+ \frac1{2(m-1)}\sum_{i=1}^{m-1}H_{i,2},\qquad m\ge2,
+\]
+where each conditional is uniform and windows do not wrap around.
+For any stationary kernel $L$, write
+\[
+ Q_L(A,A^c)=\sum_{x\in A}\pi_{N,m}(x)L(x,A^c),\qquad
+ \Phi(L)=\min_{0<\pi_{N,m}(A)\le1/2}
+       \frac{Q_L(A,A^c)}{\pi_{N,m}(A)}.
+\]
+Its support graph has one edge for each factor, with multiplicities.
+For $m=2h$, let $Z_k$ count components containing $2k$ gates, and let
+$A_K$ be the event that every component has at most $2K$ gates.
+Isolated vertices have zero gates.  Each nontrivial component subword is
+itself an identity word, since distinct components act on disjoint labels.
+
+\begin{theorem}[Balanced bottleneck and bounded-slot obstruction]
+\label{thm:balanced-bottleneck}
+There are absolute constants $c,C>0$ such that, for every sufficiently large
+even $m$, some integer $N=N_m$ satisfies
+\[
+ \frac{c m^{3/2}}{(\log m)^2}\le N\le C m^{3/2}.
+\]
+At these parameters there is a cap $K\asymp N/\sqrt m$ with
+$\pi_{N,m}(A_K)=1/2+o(1)$.  For the pair kernel,
+\[
+ \frac{Q_P(A_K,A_K^c)}{\min(\pi_{N,m}(A_K),\pi_{N,m}(A_K^c))}
+ \le \exp(-cN/\sqrt m).
+\]
+More generally, for each fixed integer $b\ge1$, every uniform-stationary
+kernel changing at most $b$ positions per step satisfies the same bound
+with a constant $c_b>0$.  For some $c'_b>0$, at time
+\[
+ t_m=\left\lfloor\exp\!\left(\frac{c'_b m}{(\log m)^2}\right)\right\rfloor
+\]
+a $1-o(1)$ fraction of individual starting words have total-variation
+distance at least $1/2-o(1)$ from uniform.  In particular this applies to
+$\Klocal$, with $b=5$, and refutes a universal polynomial mixing bound in
+$N$ and $m$ for that chain.
+\end{theorem}
+
+The quantifier on $N$ is existential: the theorem neither locates a sharp
+transition nor asserts this lower bound at every $N$ in the displayed
+interval.  All logarithms here are natural.
+
+\subsection{Connected-word counts and switching}
+
+\begin{lemma}[Connected-map bound]
+\label{lem:connected-map-bound}
+Let $U_{n,k}$ count length-$2k$ identity words on $[n]$ whose used labels
+form one connected component.  For an absolute constant $B$ and $k\ge1$,
+\[
+ U_{n,k}\le(2k)!B^k n^{k+1}
+                 \sum_{g=0}^k(k^2/n)^g.                 \tag{CB.1}
+\]
+\end{lemma}
+\begin{proof}
+A word with $v$ used labels defines an oriented ribbon map: order the
+incident half-edges at each vertex by gate index, cyclically.  Tracing face
+boundaries gives the cycles of the product (reversing the convention
+reverses the product, with the same identity conclusion).  Thus an identity
+word gives $v$ faces.  This is the pure Hurwitz-map correspondence of
+\cite[Definition 1.3 and equation (10)]{CLW2024}.  Euler's formula gives
+$2v-2k=2-2g$, so $v=k+1-g$.
+
+Here is an explicit upper-bound encoding, uniform in the genus.  Delete the
+primal edges of a dual spanning tree, merging the faces into one disk and
+leaving a connected one-face map.  Choose a spanning tree of that map.
+Its rooted plane-tree shape has at most $4^{v-1}$ possibilities.  The
+one-face map has $2g$ further edges.  Distribute their $4g$ ends as ordered
+lists in the tree's corners, then pair the ends.  Stars and bars gives
+$2^{O(k)}$ distributions; the number of pairings is
+$(4g-1)!!\le(4k)^{2g}$, with value one when $g=0$.
+
+The deleted $v-1$ dual-tree edges can now be reinserted in the disk face.
+Distribute their ends in its boundary corners, in $2^{O(k)}$ ways.  The
+ends admit at most $4^{v-1}$ noncrossing pairings.  This reconstructs every
+original map for at least one choice of the two trees; extra encodings
+only increase the bound.  Starting-corner and root choices cost at most a
+polynomial in $k$, absorbed into $B^k$.  Consequently the number of
+unlabelled maps is at most $B^k k^{2g}$.  Injective vertex labels and
+distinct chronological edge labels contribute at most $n^v(2k)!$.
+Summing over $g$ proves the bound.  Only $v\ge2$ can actually occur;
+extending the sum to $g=k$ is harmless.
+\end{proof}
+
+\begin{lemma}[Conditional component switching]
+\label{lem:component-switching}
+There are absolute $C_0,C_1,c_0>0$ such that, if $m=2h\le c_0N$ and
+$2\le k\le K\le h$, then
+\[
+ \mathbb E[Z_k\mid A_K]\le\Lambda_k,
+ \qquad
+ \Lambda_k=C_0N\left[C_1\max\left\{\frac mN,
+                                      \frac{mk^2}{N^2}\right\}\right]^k.
+                                                        \tag{CB.2}
+\]
+Moreover, writing $D_{N,h}$ for the number of words consisting of $h$
+disjoint edges, each used twice,
+\[
+ |A_K|\le D_{N,h}\exp\left(\sum_{k=2}^K\Lambda_k\right),\qquad
+ D_{n,k}=\frac{(n)_{2k}(2k)!}{4^k k!}.                  \tag{CB.3}
+\]
+\end{lemma}
+\begin{proof}
+Mark a component with $2k$ gates, retain its positions and all exterior
+gates, and replace it by $k$ disjoint doubled edges using labels absent
+from the exterior.  There are $n\ge N-2m$ available labels and precisely
+$D_{n,k}$ replacements.  Each resulting word has at most $\binom hk$
+reverse markings, since the reverse selects $k$ of its doubled-edge
+components.  For a fixed reverse marking there are $U_{n,k}$ originals.
+Giving each forward replacement weight $1/D_{n,k}$ handles the possible
+variation of $n$.  Double counting gives
+\[
+ \mathbb E[Z_k\mid A_K]\le\binom hk
+                  \sup_{N-2m\le n\le N}\frac{U_{n,k}}{D_{n,k}}.
+\]
+Take $c_0$ small enough that $n\ge N/2$ and $2k\le n/2$.
+Use $(n)_{2k}\ge(n/2)^{2k}$,
+$\binom hk k!\le h^k$, and
+$\sum_{g=0}^k x^g\le2^k\max\{1,x\}^k$ to obtain (CB.2).
+
+For the second assertion fix the vector $u=(Z_2,\ldots,Z_K)$ and denote
+its class by $A_u$.  The same weighted switching gives
+$u_k|A_u|\le\Lambda_k|A_{u-e_k}|$.  Iterating yields
+$|A_u|\le D_{N,h}\prod_{k=2}^K\Lambda_k^{u_k}/u_k!$.
+Summing over feasible vectors, then over all nonnegative vectors, proves
+(CB.3).  The all-zero class is exactly the set of disjoint doubled edges.
+\end{proof}
+
+\subsection{Balancing the cut and bounding its flow}
+
+\begin{proof}[Proof of Theorem~\ref{thm:balanced-bottleneck}]
+Choose small fixed $a,c_0>0$ such that (CB.2), for
+\[
+ K_N=\min\{h,\lfloor aN/\sqrt m\rfloor\},
+\]
+gives $\Lambda_k\le C_0N4^{-k}$ for $2\le k\le K_N$ whenever
+$m\le c_0N$.  Splitting the sum at $\sqrt N$ gives
+\[
+ \sum_{k=2}^{K_N}\Lambda_k
+   =O(m^2/N)+O(N4^{-\sqrt N}).
+\]
+Indeed below $\sqrt N$ the ratio in (CB.2) is $C_1m/N$, and above it
+the bound $C_0N4^{-k}$ applies.  Since $D_{N,h}\le N^m m^{m/2}$,
+(CB.3) implies $|A_{K_N}|^{1/m}\le C N\sqrt m$.
+
+For $s=\lfloor m/\log m\rfloor\le N$, let $a_g$ count length-$h$
+words on $[s]$ with product $g$.  Reversing a word inverts its product,
+so Cauchy--Schwarz gives
+\[
+ |\Omega(N,m)|\ge\sum_{g\in S_s}a_g^2
+       \ge\binom s2^{\!m}/s!,\qquad
+ |\Omega(N,m)|^{1/m}\ge c\frac{m^2}{(\log m)^2}.       \tag{CB.4}
+\]
+Consequently at
+$n_- =\lfloor b_0m^{3/2}/(\log m)^2\rfloor$, for sufficiently small
+fixed $b_0>0$, the capped event has mass at most $2^{-m}$.  At
+$n_+=\lceil m^{3/2}/a\rceil$ its cap is $h$ and its mass is one.
+For large $m$ the whole interval satisfies $m\le c_0N$.
+
+Increase the alphabet from $N$ to $N+1$.  Conditioned on avoiding the new
+label, the larger uniform law is exactly the smaller one.  Symmetry bounds
+the probability of using that label by $2m/(N+1)$.  Also $K_{N+1}-K_N$
+is either zero or one.  If it is one, the extra event at the new alphabet
+has probability at most
+\[
+ \Pr(A_{K_N+1})\mathbb E[Z_{K_N+1}\mid A_{K_N+1}]
+       \le C_0(N+1)4^{-(K_N+1)}.
+\]
+Thus the change in capped mass is $o(1)$ uniformly on $[n_-,n_+]$.
+Monotonicity is not required: at the first crossing of $1/2$, the mass
+is $1/2+o(1)$.  Fix this $N$ and its cap $K$.
+Then $K\asymp N/\sqrt m\gtrsim m/(\log m)^2$.
+
+In a pair update with nonidentity product, the two distinct factors have
+the same component vertex sets and weights before and after the move.
+Only a square refresh can change the profile.  Removing a square cannot
+increase any component weight; inserting a new square joins at most two
+remaining components and adds two gates.  If a word in $A_K$ exits, some
+old component therefore has half-length at least $K/2$.  The case where
+both joined pieces belong to the same old component satisfies the same
+bound (and the deleted two gates must be subtracted if they came from it).
+For $K\ge4$, (CB.2) gives
+\[
+ \frac{Q_P(A_K,A_K^c)}{\pi(A_K)}
+ \le\sum_{k\ge\lceil K/2\rceil}^{K}\Lambda_k
+ \le C N4^{-K/2}.                                    \tag{CB.5}
+\]
+
+For a move changing at most $b$ slots, contract the old components,
+including isolates.  The at most $b$ inserted edges can connect at most
+$b+1$ old components into one new component.  All unchanged gates in it
+come from those components, and at most $b$ gates are new.  An exit
+therefore requires an old half-length strictly greater than
+$(K-b/2)/(b+1)$.  When this threshold is at least one, the same argument
+bounds the escape probability by
+\[
+ C N4^{-s_b},\qquad
+ s_b=\left\lfloor\frac{K-b/2}{b+1}\right\rfloor+1.    \tag{CB.6}
+\]
+For fixed $b$, the factor $CN$ is absorbed into $\exp(-c_bN/\sqrt m)$.
+This argument only uses stationary uniform weights and the permitted
+changes, not heat-bath transition probabilities or reversibility.
+
+Finally stationarity gives equal flows across the cut in both directions.
+For $X_0\sim\pi$, a union bound over $t$ steps bounds the probability
+of crossing the cut by $2tQ_L(A_K,A_K^c)$.  Equivalently, the average over
+individual starting words of their probability of leaving their initial
+side is at most this quantity.  With the stated $t_m$, it tends to zero;
+Markov's inequality makes the leaving probability $o(1)$ for a
+$1-o(1)$ fraction of starting words.  Their initial side has stationary
+mass $1/2+o(1)$, which gives the asserted TV bound.  Since $N$ is
+polynomially bounded in $m$, the lower bound exceeds every polynomial in
+$N,m$.
+\end{proof}
+
+The same proof permits growing update budgets
+$b=o(m/(\log m)^3)$: (CB.6) is then superpolynomially small, so the
+mixing time is superpolynomial along the same family.  For lazy reversible
+kernels the indicator test function also gives an exponentially small
+spectral-gap upper bound for each fixed $b$.
+
+\subsection{Support-profile expansion at long lengths}
+
+The preceding family has $m/N\to0$.  The conclusion changes for cuts
+determined only by support profiles when $m$ is much larger.  A profile
+records the labeled vertex set and gate count of every component,
+including isolates.  This definition and the following proof do not
+require a Hurwitz-orbit classification theorem.
+
+\begin{theorem}[Long-length profile conductance]
+\label{thm:long-profile-conductance}
+For some absolute $C$ and all sufficiently large $N$, at every even
+$m\ge CN\log N$ the pair kernel satisfies
+\[
+ \varphi:=\min_{\substack{0<\pi(A)\le1/2\\
+                         A\text{ a union of profiles}}}
+       \frac{Q_P(A,A^c)}{\pi(A)}=\Theta(N^{-3}).
+\]
+Let $\delta$ be the minimum conductance of the restrictions of $P$ to
+individual profiles, with exits changed to holds and singleton
+conductance set to one.  Then
+\[
+ \Phi(P)\ge\frac{\delta\varphi}{\delta+\varphi+2}
+          \ge cN^{-3}\delta.
+\]
+The bound leaves $\delta$ unestimated; it is not a polynomial mixing
+theorem for the full walk at $m=N^2$.
+\end{theorem}
+
+\begin{proof}
+Write $d_v=\binom v2$ and let $\mu_{v,r}$ be the product distribution
+of $r$ independent uniform transpositions on $v\ge2$ labels.
+We first establish the parity-aware bound
+\[
+ \max_{\operatorname{sgn}(x)=(-1)^r}
+ \left|\frac{v!}{2}\mu_{v,r}(x)-1\right|
+ \le \exp\bigl(v^2e^{-r/(v-1)}\bigr)-1,\qquad r\ge1. \tag{CB.7}
+\]
+In the character expansion, the trivial and sign representations supply
+the uniform parity-class law.  Bound every other character by its
+dimension $f_\lambda$, and pair conjugate diagrams, whose transposition
+ratios have opposite signs.  For a positive ratio with first row $v-j$,
+the contents formula gives
+\[
+ r_\lambda=
+ \frac{\sum_i\binom{\lambda_i}{2}-\sum_i\binom{\lambda'_i}{2}}{d_v}
+ \le1-\frac j{v-1}.
+\]
+Indeed the first numerator sum is at most $v(v-j-1)/2$.
+Choosing the entries below the first row and their tableau gives
+$\sum_{\lambda:\lambda_1=v-j}f_\lambda^2
+ \le\binom vj^2j!\le v^{2j}/j!$.
+Summing over $j\ge1$ proves (CB.7); zero ratios contribute nothing
+for $r\ge1$.  The $v=2$ parity law is exact.
+
+Fix a sufficiently large absolute $D$.  If an even
+$\ell\ge Dv\log N$, the first half of an unrestricted identity bridge
+of length $\ell$ or $\ell-2$ has density at most two relative to
+independent gates, by (CB.7) on the remaining half and the whole bridge.
+For $r$ independent gates the probability that their graph is disconnected
+is at most
+\[
+ \sum_{j=1}^{\lfloor v/2\rfloor}\binom vj
+       \left(1-\frac{j(v-j)}{d_v}\right)^r.
+\]
+For $r\ge Dv\log N/3$ this is $O(N^{-15})$, uniformly in
+$2\le v\le N$, after increasing $D$.  Both unrestricted bridges are
+therefore connected with probability $1-O(N^{-15})$.
+At a specified adjacent pair of the length-$\ell$ bridge, the square
+probability is exactly
+\[
+ \frac{\mu_{v,\ell-2}(\id)}{d_v\mu_{v,\ell}(\id)}
+          =\frac{1+o(1)}{d_v}.
+\]
+Conditional on a square, its deletion leaves a uniform unrestricted
+length-$(\ell-2)$ identity bridge.  Conditioning the original word to be
+connected thus gives probability at least $c/d_v$ of a square whose
+deletion leaves all $v$ labels connected, and probability at most
+$N^{-10}/d_v$ of a square whose deletion disconnects them.
+In particular the full-support connected profile has mass greater than
+$1/2$ when $m\ge2DN\log N$.
+
+Conditioned on a profile, the component words are independent uniform
+connected words and their colors have a uniform interleaving.  Call a
+component $i$ dense if its gate count $\ell_i$ is at least
+$Dv_i\log N$.  The dense components carry at least $m/2$ gates.
+From a profile with at least two components, select moves that remove a
+square from a dense source $i$ without disconnecting its labels, then
+insert a square joining it to another dense component.  If there is only
+one dense component, allow every other component, including isolates, as
+target.  The merger is dense: in the latter case its source has at least
+$m-DN\log N\ge DN\log N$ gates.
+
+At a uniformly chosen adjacent pair, the probability that both colors
+are $i$ is $\ell_i(\ell_i-1)/(m(m-1))$.  Their component indices are
+consecutive, so the preceding deletion estimate applies.  There is at
+least one eligible target label, and a square refresh joins $i$ to a
+target with probability at least $v_i/d_N$.  The selected forward rate,
+including laziness, is at least
+\[
+ \frac{c}{m^2N^2}\sum_{i\text{ dense}}\frac{\ell_i^2}{v_i}
+ \ge\frac{c(\sum_{i\text{ dense}}\ell_i)^2}
+            {m^2N^2\sum_{i\text{ dense}}v_i}
+ \ge c'N^{-3}.
+\]
+Every reverse of a selected move deletes a square that disconnects a
+dense component.  Conditional on any profile, its total reverse rate
+is at most $N^{-10}$, by the deletion estimate and averaging over colors.
+Any union $A$ of profiles of mass at most $1/2$ excludes the dominant
+full-support profile.  Its selected outgoing flow is at least
+$c'N^{-3}\pi(A)$.  The portion ending inside $A$ is, by reversibility,
+at most the reverse flow originating in $A$, namely $N^{-10}\pi(A)$.
+Their difference proves the lower bound for $\varphi$.
+
+For the upper bound let $A$ be the event that label $N$ is unused.
+It has positive mass less than $1/2$.  Its conditional law is the
+unrestricted bridge on $N-1$ labels, in which an adjacent square occurs
+with probability $(1+o(1))/d_{N-1}$.  Only a square refresh can introduce
+$N$, doing so with probability $2/N$.  The escape rate is consequently
+$(1+o(1))/(N d_{N-1})=\Theta(N^{-3})$.
+
+For an arbitrary cut $A$ with $\pi(A)\le1/2$, round it to the union $B$
+of profiles where its conditional mass exceeds $1/2$, and put
+$u=\pi(A\mathbin{\triangle} B)$.  Restricted flow gives
+$Q_P(A,A^c)\ge\delta u$.
+Also $\min(\pi(B),1-\pi(B))\ge\pi(A)-u$, even if $\pi(B)>1/2$.
+Stationarity and the symmetric difference bound therefore give
+\[
+ Q_P(A,A^c)\ge Q_P(B,B^c)-2u
+              \ge\varphi\pi(A)-(\varphi+2)u.
+\]
+Eliminating $u$ proves the assertion (trivially if $\delta=0$).
+\end{proof}
+
+\subsection{Connectivity and a coarse all-length lower bound}
+
+\begin{lemma}[All-endpoint pair connectivity]
+\label{lem:all-endpoint-pair-connectivity}
+For $N\ge2$, any two transposition words of the same length and product
+are connected by adjacent same-product pair replacements.
+\end{lemma}
+\begin{proof}
+In the active word, eliminate its largest available label $v$.  Carry
+the first factor $t=(v,a)$ to the right.  On meeting $u$ fixing $v$, use
+$(t,u)\mapsto(u,utu)$; on meeting $u=(v,b)\ne t$, use
+$(t,u)\mapsto(tut,t)$.  In either case the left factor now fixes $v$.
+On meeting another $t$, move the resulting square to reserved positions
+at the front and continue.  The identity
+$(t,t,u)\mapsto(t,tut,t)\mapsto(u,t,t)$ moves a square past a gate
+without changing either one, using two inverse Hurwitz moves; reversing
+this sequence moves it to the front.
+
+If a carried gate reaches the end, the preceding active factors fix
+$v$.  For active product $g$, the final gate must be
+$(v,g^{-1}(v))$.  This happens exactly when $g$ moves $v$.  Freeze this
+gate, update the active product to $g(v,g^{-1}(v))$, which fixes $v$,
+and descend through the labels.  If $g$ fixes $v$, all its occurrences
+are removed into reserved squares instead.  The frozen residual depends
+only on the original endpoint.  The number of reserved squares depends
+only on endpoint and length.  Recolor them all to $(1\,2)^2$ by pair
+refreshes.  This is a common normal form; it proves connectivity only.
+\end{proof}
+
+\begin{proposition}[Coarse conductance bound]
+\label{prop:coarse-pair-conductance}
+For $N\ge3$ and every even $m\ge2$,
+\[
+ \Phi(P_{N,m})\ge\frac1{4N(m-1)d_N^{2N+1}}.           \tag{CB.8}
+\]
+\end{proposition}
+\begin{proof}
+Every nontrivial pair transition has probability at least
+$p_*=1/[2(m-1)d_N]$: a same-product pair fiber has size $d_N$, three,
+or two.  For $m>N$, put $W=N-1$.  For each ordered pair of identity
+words $x,y$, construct splices with the first $i$ gates of $y$, a
+length-$W$ connector, and the suffix of $x$ after position $i+W$.
+The required connector permutation has parity $(-1)^W$ and minimum
+transposition length at most $N-1$, so squares pad it to length $W$.
+At $i=0$ and $i=m-W$ choose the connectors giving $x$ and $y$ themselves.
+Consecutive splices differ in a window of $N$ gates, and the preceding
+lemma joins them within it.  Fix all choices deterministically.
+
+For a directed edge on such a route, there are at most $N$ possible
+stage windows containing its two altered positions.  Fix one.  Outside
+it the edge specifies the prefix of $y$ and suffix of $x$.  Encode the
+complementary prefix of $x$ and suffix of $y$ in an identity word using
+a connector of length $N$ (again parity permits it).  Recording also
+the original length-$N$ windows of $x$ and $y$ recovers the ordered
+pair.  Hence an edge can be used by at most
+$N|\Omega(N,m)|d_N^{2N}$ ordered pairs.
+
+Every pair directed from a cut to its complement uses an exiting edge.
+For $|A|\le|\Omega|/2$, counting such pairs, then multiplying the
+number of exiting edges by $p_*/|\Omega|$, gives (CB.8).
+Only edge use, not path length or visit multiplicity, is counted here.
+For $m\le N$, connectivity supplies an exiting edge for every nontrivial
+cut and $|\Omega|\le d_N^m$ gives an even stronger bound.
+\end{proof}
+
+The bound is exponential in $N\log N$ and is consistent with the
+bottleneck theorem.  Odd identity lengths are infeasible; $m=0$ and
+$N=2$ give singleton identity spaces.  At $m=2$ the pair kernel refreshes
+the whole doubled edge, whereas the project kernel has no permitted
+block and must be treated as the identity kernel.  These exceptions are
+outside Theorem~\ref{thm:balanced-bottleneck}.

@@ -4,8 +4,8 @@ This folder contains a LaTeX research note consolidating completed findings on
 fixed-length identity-bridge sampling in symmetric groups.  Its main result is
 a polynomial-time, fixed-negligible-error rank-recursive sampler at length
 `2N^3`; it also records the transposition heat-bath model, its remaining
-polynomial-mixing proof obligations, and expander-generator benchmark
-directions.
+conductance obstruction to universal polynomial local mixing, the remaining
+long-length mixing questions, and expander-generator benchmark directions.
 
 Main file:
 
@@ -31,15 +31,19 @@ Scope:
 - finite small-case spectral evidence,
 - prefix-rejection bottlenecks for conditional block sampling,
 - direct exact r=4/r=5 block samplers and integrated {3,4,5} heat-bath,
-- current irreducibility and polynomial-mixing proof obligations,
+- a balanced bottleneck for every bounded-slot uniform-stationary walk,
+- long-length support-profile conductance and all-endpoint pair connectivity,
+- current regime-specific polynomial-mixing proof obligations,
 - conditional projection/decomposition and large-block comparison routes,
 - negative congestion lesson for deterministic canonical-square routing,
 - alternative expander-generator benchmark models, including
   Kassabov-style generators.
 
-The note includes completed findings through the September 2026
-rank-recursive goal run.  The new dense-sampler proof is internally audited but
-is explicitly marked for independent human referee review.
+The note includes the September 2026 rank-recursive result and the November
+24, 2026 conductance-draft audit. The latter's proofs and exact checks are in
+`../../experiments/20261124-conductance-audit/`; the manuscript section
+`sections/conductance_obstruction.tex` gives the expanded proofs.
+Internal audits do not replace independent human referee review.
 
 Build, if a LaTeX distribution is installed:
 

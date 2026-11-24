@@ -1,5 +1,32 @@
 # Handoff: Random Reversible Identity Circuits and Symmetric-Group Hardness
 
+## Conductance audit update (2026-11-24)
+
+**Proved in the supplied draft and checked in a single-session proof audit:**
+there is no mixing bound polynomial in `N,m` for the exact local `{3,4,5}`
+chain over its entire parameter range. For every sufficiently large even `m`,
+some `c m^(3/2)/(log m)^2 <= N <= C m^(3/2)` admits a balanced cut by maximum
+support-component gate count with exponentially small flow. Every
+uniform-stationary walk changing a fixed number of slots has mixing time
+at least `exp(c_b m/(log m)^2)` along this family; at that time almost every
+starting word still has TV distance at least `1/2-o(1)`.
+
+The [expanded manuscript proof](papers/transposition_identity_samplers/sections/conductance_obstruction.tex)
+also establishes `Theta(N^-3)` conductance over support-profile cuts of the
+half-lazy adjacent pair heat bath at even `m >= C N log N`, an explicit
+all-length lower bound `1/[4N(m-1) binom(N,2)^(2N+1)]` for that pair chain,
+and self-contained all-endpoint pair connectivity. The latter gives
+unconditional project-chain irreducibility for even `m>=4` without a
+Hurwitz-classification dependency. The long-length full-chain rate, including
+`m=N^2`, remains **unresolved**. General direct sampling is not ruled out.
+
+See the [audit and claim ledger](experiments/20261124-conductance-audit/report.md)
+for source provenance, proof qualifications, exact falsification checks and
+boundary cases. This is an internal mathematical review, not formal or
+independent human certification. Historical open/conditional statements below
+and in `GOAL_SPEC.md`/`AGENTS.md` retain their original provenance and are
+superseded at precisely this scope; existing direct-sampler results survive.
+
 ## Current Research Map (2026-10-01)
 
 Start with [PROJECT_MAP.md](PROJECT_MAP.md) for the consolidated frontier,

@@ -8,7 +8,7 @@
     "prepared_successor": "notes/project-map/campaign-identity-bridge-next-20261106/README.md",
     "retired_predecessor": "notes/project-map/campaign-identity-bridge-sampling-20261025/RETIREMENT-20261106.md"
   },
-  "date": "2026-11-10",
+  "date": "2026-11-24",
   "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
@@ -22,19 +22,19 @@
     },
     "handoff": {
       "path": "HANDOFF.md",
-      "read_scope": "Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit.",
+      "read_scope": "Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
       "checked_locators": [
         "## Rank-Recursive Transposition Sampler Direction"
       ],
-      "sha256": "196b93147dbbb788d76f0be0d65dd81376a49edbf4ae71798f057c540eefada2"
+      "sha256": "850568ad0ba85e7184f57c63d0a6c05b976c0c19eafbcdfd1424a1fe6ba5e465"
     },
     "manuscript-status": {
       "path": "papers/transposition_identity_samplers/sections/theoretical_status.tex",
-      "read_scope": "Complete section read; conditional wording compared with later archived audits.",
+      "read_scope": "Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
       "checked_locators": [
-        "\\subsection{Conditional irreducibility}"
+        "\\subsection{Unconditional irreducibility}"
       ],
-      "sha256": "6839643b39fd48ba4852c9810e92d10ddda813bca19b955c6af25c48abaddb1a"
+      "sha256": "e746c3ec7da0bc343c2520d3009f610b670606c93687ba7f0b13f88d99425dc3"
     },
     "manuscript-dense": {
       "path": "papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex",
@@ -46,19 +46,19 @@
     },
     "expander": {
       "path": "papers/transposition_identity_samplers/sections/expander_gate_sets.tex",
-      "read_scope": "Whole section read; different generator model and transfer caveats.",
+      "read_scope": "Whole section read; different generator model and transfer caveats. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
       "checked_locators": [
         "\\section{Alternative Gate Sets and Expander Generators}"
       ],
-      "sha256": "308a4debdc09a17f599ea98458796fa8b84936cdc160abc8018b77ea5778c351"
+      "sha256": "f940f1bc487f6ef6cb82ad6854f54eb4d624810adff4066d298c958cc9bc5ca5"
     },
     "references": {
       "path": "papers/transposition_identity_samplers/sections/references.tex",
-      "read_scope": "Whole short bibliography; DOI metadata only.",
+      "read_scope": "Whole short bibliography; DOI metadata only. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
       "checked_locators": [
         "\\begin{thebibliography}{9}"
       ],
-      "sha256": "a7ea2009c9f04edf2c7a2a384f56e8b94563c290087e595fe717f3a87c0f8066"
+      "sha256": "bca7f30c9eeadedda79f127232434e2fb8ed3673b11c769c04b91de2e8c65696"
     },
     "rr-ledger": {
       "path": "experiments/20260901-rank-recursive-identity-bridge-goal/claim_ledger.md",
@@ -1351,6 +1351,54 @@
         "# Projections and Random Gate Replacements"
       ],
       "read_scope": "Documentary statement/verdict trace through the cited exact reconciliation; file and locator pinned, not a new full-proof audit. Partial-review status is explicit in the associated record."
+    },
+    "conductance-draft": {
+      "path": "experiments/20261124-conductance-audit/source.pdf",
+      "read_scope": "All six pages read and mathematical claims rederived.",
+      "checked_locators": [
+        "Theorem 1; Theorem 2; equation (4)"
+      ],
+      "sha256": "361655d05246c4b1a189a1835675d926ac8cf0d10e2d627d5ea2d5aa57d39e8f"
+    },
+    "conductance-proof": {
+      "path": "papers/transposition_identity_samplers/sections/conductance_obstruction.tex",
+      "read_scope": "Complete expanded proof checked, including conventions, parameter quantifiers, boundary cases and all transfers.",
+      "checked_locators": [
+        "\\label{thm:balanced-bottleneck}"
+      ],
+      "sha256": "5d6ab6684ede6fb0d5011d6eee7eff3f2182268aeabeee4c89f5cba973eaffce"
+    },
+    "conductance-report": {
+      "path": "experiments/20261124-conductance-audit/report.md",
+      "read_scope": "Complete single-session audit report; scoped promote verdict, source dependencies and limitations.",
+      "checked_locators": [
+        "## Main conclusion and its exact scope"
+      ],
+      "sha256": "e29225cae37bbaa1d6e824cd306615ebc70a20d228f6214133c34d63ccbf8c5d"
+    },
+    "conductance-ledger": {
+      "path": "experiments/20261124-conductance-audit/claim_ledger.md",
+      "read_scope": "Every claim, dependency, independent calculation and action inspected; no separate reviewer.",
+      "checked_locators": [
+        "| Claim | Status | Assumptions |"
+      ],
+      "sha256": "cb7360c49c5826574a4e2b6ae182b6e35c872de3a3f1953d0ea27d081802712a"
+    },
+    "conductance-check": {
+      "path": "experiments/20261124-conductance-audit/check.py",
+      "read_scope": "Complete deterministic exact harness read and run.",
+      "checked_locators": [
+        "def switching_checks():"
+      ],
+      "sha256": "dfa779c9c21272563cbebd22699e87e693bbb1073ecc5794d0b1edad5fc586ea"
+    },
+    "conductance-results": {
+      "path": "experiments/20261124-conductance-audit/results.jsonl",
+      "read_scope": "All exact results inspected; no finite-to-asymptotic inference.",
+      "checked_locators": [
+        "all exact checks passed"
+      ],
+      "sha256": "5c299e6db5549ec24a67501f8e5bf36291e6acedb165b54911b1810231cc11b7"
     }
   },
   "records": [
@@ -2018,8 +2066,8 @@
     },
     {
       "id": "G-HEATBATH",
-      "version": 1,
-      "title": "General heat-bath mixing is still open",
+      "version": 2,
+      "title": "Historical universal heat-bath question, now superseded",
       "family": "heatbath",
       "kind": "open obligation",
       "model": "heatbath",
@@ -2027,9 +2075,9 @@
       "parameters": "N>=3, even m>=4, exact GOAL_SPEC kernel; arbitrary accuracy in TV if a gap bound were proved.",
       "guards": "Sampling the target by another algorithm does not supply a gap comparison.",
       "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
-      "open_obligations": "One accepted positive or negative terminal theorem. No automatic resume is authorized by this map.",
+      "open_obligations": "Universal polynomial mixing is refuted by O-LOCAL-BOTTLENECK. Long-length full-chain mixing remains open.",
       "source_claimed_status": "UNRESOLVED; run paused at Cycle 103",
-      "effective_status": "open",
+      "effective_status": "superseded",
       "check_depth": "statement-traced",
       "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
       "evidence": [
@@ -2040,8 +2088,8 @@
       "dependencies": [],
       "aliases": [],
       "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
-      "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
-      "limitations": "Qualitative irreducibility is closed; many auxiliary/conditional results are not terminal.",
+      "disagreements": "The historical run was unresolved; the November 24 supplied-draft audit closes its universal decision question negatively. Its frozen original statement is preserved.",
+      "limitations": "Original version retained in history/2026-11-24-conductance/G-HEATBATH-v1.json. This historical statement is not the current frontier.",
       "view": "results",
       "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
     },
@@ -3374,6 +3422,78 @@
       "dependencies": [],
       "limitations": "No claim that an arbitrary structured sampler has these projection laws or that matching endpoints implies full-word pseudorandomness.",
       "review_binding": "Single foreground report with explicit proof and finite checks; no full independent referee reconciliation exists."
+    },
+    {
+      "version": 1,
+      "family": "conductance-audit",
+      "model": "heatbath",
+      "source_claimed_status": "proved in supplied draft; promoted after expanded single-session proof audit",
+      "effective_status": "accepted-reviewed",
+      "check_depth": "proof-reviewed",
+      "checked": "Full draft audit and expanded proof rederivation, plus deterministic finite checks. One session, no independent human referee or formalization.",
+      "evidence": [
+        "conductance-draft",
+        "conductance-proof",
+        "conductance-report",
+        "conductance-ledger",
+        "conductance-check",
+        "conductance-results"
+      ],
+      "adjudications": [
+        "conductance-report",
+        "conductance-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Exact S3,m4; S4,m4; S4,m6 and boundary cases, all endpoint fibers, map genus, cut boundaries and 30 switching-moment checks passed.",
+      "review_binding": "Scoped November 24 review of the pinned draft and expanded manuscript proof; ledger records promote verdict and limitations.",
+      "id": "O-LOCAL-BOTTLENECK",
+      "title": "Balanced support bottleneck refutes universal local rapid mixing",
+      "kind": "asymptotic obstruction",
+      "view": "obstructions",
+      "claim": "For every sufficiently large even m, some c m^(3/2)/(log m)^2 <= N <= C m^(3/2) has a balanced maximum-component cut with flow <=exp(-c_b N/sqrt(m)) for every uniform-stationary walk changing at most fixed b slots. At exp(c_b m/(log m)^2) steps almost every start has TV >=1/2-o(1). This refutes universal polynomial mixing in N,m for the exact project kernel (b=5).",
+      "parameters": "Global uniform identity words; products rightmost first. Existential N for each large even m, fixed b; growing b=o(m/(log m)^3) gives superpolynomial slowdown. Odd m empty; m=0,2 and N=2 handled separately.",
+      "guards": "No claim at every N in the interval, no explicit numerical onset, no impossibility of direct sampling, and no m=N^2 slowdown conclusion.",
+      "assumptions": "Proved tree/cotree map encoding, weighted component switching, embedded-alphabet counting and bounded-slot boundary. CLW Definition 1.3/equation (10) correspondence checked; no Hurwitz classification or mixing theorem assumed.",
+      "open_obligations": "None for the scoped theorem. Locate the transition more sharply or study regimes/moves outside the obstruction separately.",
+      "disagreements": "Supersedes G-HEATBATH universal open status and historical AGENTS/GOAL_SPEC open wording. Direct-sampler and nonidentity-endpoint results are unaffected.",
+      "limitations": "Single-session proof audit; no formal or human certification, sharp transition or finite onset. Uniform stationarity is an essential hypothesis."
+    },
+    {
+      "version": 1,
+      "family": "conductance-audit",
+      "model": "heatbath",
+      "source_claimed_status": "proved in supplied draft; promoted after expanded single-session proof audit",
+      "effective_status": "accepted-reviewed",
+      "check_depth": "proof-reviewed",
+      "checked": "Full draft audit and expanded proof rederivation, plus deterministic finite checks. One session, no independent human referee or formalization.",
+      "evidence": [
+        "conductance-draft",
+        "conductance-proof",
+        "conductance-report",
+        "conductance-ledger",
+        "conductance-check",
+        "conductance-results"
+      ],
+      "adjudications": [
+        "conductance-report",
+        "conductance-ledger"
+      ],
+      "dependencies": [],
+      "aliases": [],
+      "regressions": "Exact S3,m4; S4,m4; S4,m6 and boundary cases, all endpoint fibers, map genus, cut boundaries and 30 switching-moment checks passed.",
+      "review_binding": "Scoped November 24 review of the pinned draft and expanded manuscript proof; ledger records promote verdict and limitations.",
+      "id": "HB-CONDUCTANCE-BOUNDS",
+      "title": "Long-length profile expansion and coarse all-length pair bounds",
+      "kind": "conductance theorem",
+      "view": "results",
+      "claim": "For half-lazy adjacent pair heat bath, minimum conductance over support-profile unions is Theta(N^-3) at even m>=C N log N. Full conductance is at least delta phi/(delta+phi+2), where delta is minimum restricted-profile conductance. At every even m>=2 and N>=3, Phi>=1/[4N(m-1)binom(N,2)^(2N+1)]. A self-contained vertex sweep proves all-endpoint pair connectivity.",
+      "parameters": "Uniform identity words; exact nonwrapping adjacent-pair heat bath. Long theorem requires large N; all-length lower bound requires N>=3,m>=2 even. Connectivity allows all feasible endpoints and N>=2.",
+      "guards": "Profile expansion is not a full-chain polynomial gap. Coarse lower bound is exponential in N log N. Pair and {3,4,5} normalizations are distinct.",
+      "assumptions": "Proved parity-aware character estimate, connected-deletion bridge bound, profile factorization, dense merger/reverse-flow count, and parity-compatible splice encoding. No Hurwitz classification is required.",
+      "open_obligations": "Bound restricted-profile conductance at long lengths; full mixing at m=N^2 remains unresolved.",
+      "disagreements": "Constructive connectivity agrees with HB-NONLOCAL-LIFT and replaces conditional manuscript wording without promoting unrelated historical proofs.",
+      "limitations": "One-session proof audit; no quantitative polynomial fiber bound, and no automatic rate transfer to another kernel."
     }
   ],
   "coverage": [
@@ -3614,17 +3734,18 @@
     },
     {
       "id": "research-questions",
-      "title": "User research questions and planted-identity diagnostics",
+      "title": "User research questions and planting diagnostics",
       "prefixes": [
         "notes/research-questions-2026-11-06.md",
         "experiments/20261110-planted-subsequence",
-        "experiments/20261110-planted-scaling"
+        "experiments/20261110-planted-scaling",
+        "notes/planting-output-only-2026-11-17.md"
       ],
-      "disposition": "formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction; no hardness acceptance or new accepted mathematical record",
-      "read_depth": "complete formulation and both foreground proof/code/result sets; exact finite checks and scoped primary spectral input checked; no independent proof review",
-      "limits": "Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure schedule or uniform-only recursive reduction is established. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md and integration-2026-11-10-planted-scaling.md.",
+      "disposition": "formulation and bounded Q4 diagnostics with a scoped growing-plant obstruction and a separate oracle-access follow-up; no hardness acceptance or new accepted mathematical record",
+      "read_depth": "inherited complete formulation and foreground proof/code/result reviews; new oracle note read in full with direct author proof checks and PRF-definition source inspection; no independent proof review",
+      "limits": "Q1-Q3 remain proposed directions. Q4 has exact planting laws, finite attacks, and a conditional recursive sampler requiring stronger nonuniform security. The growing-plant follow-up derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host, under the explicit all-transposition and negligible-in-N convention; an N-gate host with a polylogarithmic plant remains unresolved. No secure full-description schedule or uniform-only recursive reduction is established. The separately requested output-only game has elementary hidden-region and uniform-mask guarantees, with PRF/PRP instantiations conditional on their stated security assumptions. Arbitrary small gate replacement remains unresolved without a host and surgery model. Existing mathematical records and priorities are unchanged. See integration-2026-11-10-planted-subsequence.md, integration-2026-11-10-planted-scaling.md and integration-2026-11-17-output-only-planting.md.",
       "records": [],
-      "branch_disposition": "pending independent proof review: scoped author obstruction and conditional construction; no cryptographic acceptance"
+      "branch_disposition": "pending independent proof review: scoped author obstruction, oracle lemmas and conditional constructions; no cryptographic acceptance"
     },
     {
       "id": "operations",
@@ -3909,6 +4030,21 @@
         "S-GENUS-FPT"
       ],
       "branch_disposition": "mapped T0; structural supplement and alternate refinements retain their exact source statuses"
+    },
+    {
+      "id": "conductance-audit",
+      "title": "November 24 supplied conductance draft and proof audit",
+      "prefixes": [
+        "experiments/20261124-conductance-audit"
+      ],
+      "disposition": "scoped bottleneck and pair conductance results promoted after substantive single-session review",
+      "read_depth": "all draft pages, expanded proofs, exact code and raw results inspected",
+      "limits": "No independent human review, formal certification, sharp finite onset or all-length direct sampler theorem.",
+      "records": [
+        "O-LOCAL-BOTTLENECK",
+        "HB-CONDUCTANCE-BOUNDS"
+      ],
+      "branch_disposition": "proof-reviewed with deterministic falsification checks"
     }
   ],
   "targets": [
@@ -4028,24 +4164,22 @@
     {
       "id": "T-HEATBATH",
       "rank": 6,
-      "title": "Reopen one quantitative heat-bath obligation, not the whole archive",
+      "title": "Restrict local mixing to long lengths or change the update scale",
       "tier": "reserve research/audit",
       "nearest": [
-        "G-HEATBATH",
-        "HB-BASE",
-        "HB-DECOMP",
-        "HB-M340",
-        "O-TRANSFER"
+        "O-LOCAL-BOTTLENECK",
+        "HB-CONDUCTANCE-BOUNDS",
+        "HB-DECOMP"
       ],
-      "obligation": "Before another local-chain campaign, reconcile M340's unaudited transport obstruction and select either the explicit base-scale gap or the exact stationary-flow projection/restriction estimate. Preserve the actual kernel and normalization.",
+      "obligation": "The universal fixed-slot mixing target is refuted. For a separately authorized investigation, select a long-length restricted-profile conductance estimate or an update rule beyond the bounded-slot theorem.",
       "advance": "Would advance a distinct mixing theorem, not merely produce another direct sampler.",
-      "first_test": "Read the exact chosen mission's statement plus its predecessor/fresh audit; for M340 verify the Hall witness and determine only the proposed transport it blocks. For a transfer, write the actual Dirichlet comparison before investigating the ideal chain.",
-      "positive": "A proved quantitative estimate with all missing comparisons supplied, or a tightly scoped new lemma reducing a named gap.",
-      "negative": "A reviewed counterexample that retires a specific comparison, or a full-K low-conductance family if one is genuinely found.",
-      "stop_or_pivot": "No generic mean-lift task, single-normal-form congestion argument, or finite-spectrum-to-asymptotic inference. Stop if an auxiliary chain is substituted for K.",
-      "effort": "First 1-2 hours for archive reconciliation; authorize new research only after the exact target is fixed.",
-      "uncertainty": "Very high for full mixing; lower for a precise scope audit.",
-      "rationale": "The user's current priority is any polynomial sampler; keep this significant but separate program as a reserve."
+      "first_test": "Read the balanced-cut theorem and long-profile proof, state the exact kernel and regime, and check the selected target avoids the obstruction.",
+      "positive": "An inverse-polynomial restricted-profile estimate at long lengths, or a justified nonlocal kernel with a full gap bound.",
+      "negative": "A new scoped bottleneck at long lengths or for the proposed larger-update kernel; the universal fixed-slot obstruction is already proved.",
+      "stop_or_pivot": "Do not seek a universal polynomial fixed-slot gap, infer full mixing from profile expansion, or substitute an auxiliary kernel without comparison.",
+      "effort": "A bounded new target requires separate authorization; no historical campaign resume.",
+      "uncertainty": "Full long-length mixing unresolved; universal fixed-slot mixing refuted.",
+      "rationale": "The new obstruction closes the old universal target; preserve direct sampling and regime-specific dynamics as distinct questions."
     },
     {
       "id": "T-ALTERNATIVES",
@@ -4115,7 +4249,7 @@
     },
     {
       "path": "notes/local-heatbath-polynomial-mixing-resolution-goal-run.md",
-      "disposition": "Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization."
+      "disposition": "Historical paused run preserved. O-LOCAL-BOTTLENECK now refutes its universal polynomial target. Do not resume it; new work must choose a separate long-length or larger-update target."
     },
     {
       "path": "notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md",
@@ -4126,11 +4260,13 @@
     "frontier_paragraphs": [
       "**Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.",
       "**Current answer:** Global near-uniform samplers survive in short, sparse and sufficiently long regimes; no all-length theorem is established. The consolidated campaigns add exact connected genus-two constructions and a uniform exact connected sampler with cost A C^(g+1)(N+g+2)^15. This is polynomial at logarithmic genus but does not close the global intermediate-length gap. An exact sparse global candidate has unfinished review and remains provisional.",
-      "**Two different frontiers:** Connected words can now be sampled at every genus with exponential genus cost. The global question is whether that cost can be paid under the exact component law, or replaced by a uniform polynomial bound. The local {3,4,5} heat-bath mixing question is separate and remains open; direct sampling proves no gap for that walk.",
-      "**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation.",
+      "**Two different frontiers:** Connected words can be sampled at every genus with exponential genus cost; global all-length polynomial sampling remains open. A new balanced support-component bottleneck refutes universal polynomial mixing of the local {3,4,5} heat bath. Long-length local mixing, including m=N^2, remains unresolved. Direct sampling proves no gap for that walk.",
+      "**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation. The November 24 conductance records instead include fresh single-session proof review and exact checks, with no independent human certification.",
       "**Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.",
-      "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.",
-      "**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure construction is established. Q1-Q3 remain proposed directions."
+      "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, without by itself resolving quantitative mixing. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.",
+      "**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure full-description construction is established. Q1-Q3 remain proposed directions.",
+      "**Output-only planting (2026-11-17):** The [oracle-access follow-up](notes/planting-output-only-2026-11-17.md) separates the user's new interface from the gate-description attacks. Identity circuits are exactly indistinguishable by I/O; a secret rare input region gives a q rho transcript bound, and an independent uniform permutation mask hides any independent reversible block. Efficient PRF/PRP versions retain their explicit security assumptions. These are author proof notes without independent review or experiments; small edited-gate count alone supplies no generic hiding theorem.",
+      "**Conductance audit (2026-11-24):** The [supplied-draft audit](experiments/20261124-conductance-audit/report.md) establishes a balanced bottleneck for every fixed-size slot update, including {3,4,5}, at existential N between c m^(3/2)/(log m)^2 and C m^(3/2). Mixing takes at least exp(c m/(log m)^2) along this family. For pair heat bath at m>=C N log N, profile conductance is Theta(N^-3); the full rate still needs a fiber estimate. Expanded proofs are integrated into the main manuscript."
     ],
     "routes": {
       "Surviving Samplers": [
@@ -4183,6 +4319,10 @@
         {
           "record": "O-GROW",
           "text": "The low-genus/small-support eligibility obstruction persists even when the allowed genus grows through N^(1/8), on the stated m=N^(3/4) subsequence. This does not prove general sampling hardness."
+        },
+        {
+          "record": "O-LOCAL-BOTTLENECK",
+          "text": "Every bounded-slot uniform-stationary walk has a balanced support bottleneck along an explicit existential parameter family. This refutes universal polynomial {3,4,5} mixing, not efficient direct sampling."
         }
       ],
       "Precise Gaps": [
@@ -4195,8 +4335,8 @@
           "record": "G-ALL"
         },
         {
-          "text": "The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this.",
-          "record": "G-HEATBATH"
+          "text": "Long-length pair-chain support cuts have conductance Theta(N^-3), but full mixing still needs a restricted-profile estimate. The universal local mixing target is refuted; m=N^2 remains unresolved.",
+          "record": "HB-CONDUCTANCE-BOUNDS"
         }
       ],
       "Other Generator Families": [
@@ -4278,7 +4418,7 @@
     {
       "id": "C-IRRED",
       "status": "documentarily reconciled",
-      "description": "AGENTS/GOAL_SPEC and manuscript retain conditional Hurwitz-classification wording. M01 plus its nonauthor audit record the checked Ben-Itzhak--Teicher translation and qualitative irreducibility for m>=4. Quantitative mixing remains open; m=2 is excluded.",
+      "description": "Historical AGENTS/GOAL_SPEC retain conditional classification wording; the manuscript now proves irreducibility from self-contained all-endpoint pair connectivity. Earlier M01 records agree. m=2 remains excluded for the project kernel; universal quantitative mixing is refuted by O-LOCAL-BOTTLENECK.",
       "sources": [
         "scope",
         "manuscript-status",
@@ -4289,7 +4429,7 @@
     {
       "id": "C-MEANLIFT",
       "status": "documentarily reconciled",
-      "description": "The old three-obligation plan includes a separate mean-lift lemma; the archived JSTV combination removes it. Projection and restricted-fiber estimates are still missing; do not launch another generic mean-lift mission.",
+      "description": "The old three-obligation plan includes a separate mean-lift lemma; the archived JSTV combination removes it. Projection and restricted-fiber estimates are still missing; do not launch another generic mean-lift mission. The universal projection-gap target is now refuted by O-LOCAL-BOTTLENECK; only scoped regime-specific estimates remain meaningful.",
       "sources": [
         "scope",
         "hb-resolution",
@@ -4347,6 +4487,17 @@
         "handoff",
         "phase-ledger",
         "boundary-ledger"
+      ]
+    },
+    {
+      "id": "C-CONDUCTANCE",
+      "status": "proof-reviewed scope reconciliation",
+      "description": "Historical universal local-mixing openness in AGENTS, GOAL_SPEC and G-HEATBATH is superseded by the supplied November draft audit. The balanced cut applies to the project chain through b=5; long-profile Theta(N^-3) is a pair-kernel result and does not settle full mixing at N^2.",
+      "sources": [
+        "scope",
+        "conductance-proof",
+        "conductance-report",
+        "conductance-ledger"
       ]
     }
   ],
@@ -4529,6 +4680,26 @@
       "evidence": [
         "log-correction-proof-md",
         "log-correction-report-md"
+      ]
+    },
+    {
+      "from": "O-LOCAL-BOTTLENECK",
+      "to": "G-HEATBATH",
+      "type": "supersedes",
+      "reason": "Closes the historical universal exact-project-chain mixing question negatively; retains the old unresolved run as provenance.",
+      "evidence": [
+        "conductance-proof",
+        "conductance-ledger"
+      ]
+    },
+    {
+      "from": "HB-CONDUCTANCE-BOUNDS",
+      "to": "HB-NONLOCAL-LIFT",
+      "type": "analogous-to",
+      "reason": "Independent self-contained pair connectivity agrees with the existing vertex-sweep result; the new conductance estimates have their separately stated scope.",
+      "evidence": [
+        "conductance-proof",
+        "conductance-ledger"
       ]
     }
   ],
@@ -4740,6 +4911,14 @@
       "locator": "Theorem 1.1 and Section 1.2 generators",
       "transfer": "Minimal commuting endpoints give interchange on the position cycle. Unit-rate gap 4 sin^2(pi/m), multiplied by 2/(3m), supplies gamma_seq.",
       "review_scope": "Primary theorem, zero off-cycle weights and edge-rate normalization checked 2026-10-15. Separate from the older dense-endpoint import."
+    },
+    {
+      "id": "E-CLW-MAPS",
+      "citation": "Chapuy, Louf and Walsh, Ann. Probab. 52 (2024), 1225-1252, DOI 10.1214/23-AOP1651",
+      "url": "https://arxiv.org/html/2206.11315",
+      "locator": "Definition 1.3 and equation (10)",
+      "transfer": "Ordered identity transposition words give pure Hurwitz maps with one face per vertex; restrict to the connected used support. The genus-uniform counting bound is proved separately in the new manuscript section.",
+      "review_scope": "Correspondence and conventions checked in source; publisher metadata checked against the IMS journal issue because arXiv abstract metadata conflict. No import of a literature mixing theorem."
     }
   ],
   "policy_definitions": [

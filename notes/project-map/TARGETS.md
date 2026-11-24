@@ -74,19 +74,19 @@ At fixed feasible N,m, find a positive exact connection primitive or a controlle
 - Uncertainty: High; exact star counts do not solve the joint old/star branch distribution.
 - Rationale: Broad impact, but less concrete than the connected decoder reduction and not currently the shortest path.
 
-## T-HEATBATH: Reopen one quantitative heat-bath obligation, not the whole archive (reserve research/audit)
+## T-HEATBATH: Restrict local mixing to long lengths or change the update scale (reserve research/audit)
 
-Before another local-chain campaign, reconcile M340's unaudited transport obstruction and select either the explicit base-scale gap or the exact stationary-flow projection/restriction estimate. Preserve the actual kernel and normalization.
+The universal fixed-slot mixing target is refuted. For a separately authorized investigation, select a long-length restricted-profile conductance estimate or an update rule beyond the bounded-slot theorem.
 
-- Nearest evidence: [G-HEATBATH](RESULTS.md#g-heatbath), [HB-BASE](RESULTS.md#hb-base), [HB-DECOMP](RESULTS.md#hb-decomp), [HB-M340](OBSTRUCTIONS.md#hb-m340), [O-TRANSFER](OBSTRUCTIONS.md#o-transfer)
+- Nearest evidence: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds), [HB-DECOMP](RESULTS.md#hb-decomp)
 - Advance: Would advance a distinct mixing theorem, not merely produce another direct sampler.
-- First test: Read the exact chosen mission's statement plus its predecessor/fresh audit; for M340 verify the Hall witness and determine only the proposed transport it blocks. For a transfer, write the actual Dirichlet comparison before investigating the ideal chain.
-- Positive: A proved quantitative estimate with all missing comparisons supplied, or a tightly scoped new lemma reducing a named gap.
-- Negative: A reviewed counterexample that retires a specific comparison, or a full-K low-conductance family if one is genuinely found.
-- Stop or pivot: No generic mean-lift task, single-normal-form congestion argument, or finite-spectrum-to-asymptotic inference. Stop if an auxiliary chain is substituted for K.
-- Effort: First 1-2 hours for archive reconciliation; authorize new research only after the exact target is fixed.
-- Uncertainty: Very high for full mixing; lower for a precise scope audit.
-- Rationale: The user's current priority is any polynomial sampler; keep this significant but separate program as a reserve.
+- First test: Read the balanced-cut theorem and long-profile proof, state the exact kernel and regime, and check the selected target avoids the obstruction.
+- Positive: An inverse-polynomial restricted-profile estimate at long lengths, or a justified nonlocal kernel with a full gap bound.
+- Negative: A new scoped bottleneck at long lengths or for the proposed larger-update kernel; the universal fixed-slot obstruction is already proved.
+- Stop or pivot: Do not seek a universal polynomial fixed-slot gap, infer full mixing from profile expansion, or substitute an auxiliary kernel without comparison.
+- Effort: A bounded new target requires separate authorization; no historical campaign resume.
+- Uncertainty: Full long-length mixing unresolved; universal fixed-slot mixing refuted.
+- Rationale: The new obstruction closes the old universal target; preserve direct sampling and regime-specific dynamics as distinct questions.
 
 ## T-ALTERNATIVES: Different generators or cryptographic target (reserve scope decision)
 
@@ -125,5 +125,5 @@ Original briefs are preserved; these dispositions govern map-based reuse.
 - [notes/genus-one-sampler-goal-run.md](../genus-one-sampler-goal-run.md): Retired existence target: S-G01 and S-CUT accepted internally. Preserve brief for provenance.
 - [notes/sparse-global-sampler-goal-run.md](../sparse-global-sampler-goal-run.md): Completed restricted sparse theorem; do not repeat the m^3<=N^2 target.
 - [notes/sparse-boundary-goal-run.md](../sparse-boundary-goal-run.md): Original H0/H1 uniform negligible-error assertion refuted; the broader any-sampler T0 stays open. Redirect to T-CONNECTED/T-MASS.
-- [notes/local-heatbath-polynomial-mixing-resolution-goal-run.md](../local-heatbath-polynomial-mixing-resolution-goal-run.md): Historical paused quantitative run. Do not resume or launch from this map; reconcile T-HEATBATH and obtain explicit authorization.
+- [notes/local-heatbath-polynomial-mixing-resolution-goal-run.md](../local-heatbath-polynomial-mixing-resolution-goal-run.md): Historical paused run preserved. O-LOCAL-BOTTLENECK now refutes its universal polynomial target. Do not resume it; new work must choose a separate long-length or larger-update target.
 - [notes/project-map/campaign-identity-bridge-sampling-20261025/MISSION.md](campaign-identity-bridge-sampling-20261025/MISSION.md): Retired2026-11-06; do not rearm. Results are consolidated. Use the separately prepared identity-bridge-next-20261106 successor only after its own launch approval.

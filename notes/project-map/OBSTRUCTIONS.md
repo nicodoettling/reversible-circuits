@@ -237,3 +237,21 @@ In matched-noise game M0, six-relator constructions have efficient one-query sho
 - Adjudication: [noise-viability-reconciliation](../../experiments/20261029-noisy-bridge-viability/reconciliation-v1.md)
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
+
+<a id="o-local-bottleneck"></a>
+## O-LOCAL-BOTTLENECK: Balanced support bottleneck refutes universal local rapid mixing
+
+For every sufficiently large even m, some c m^(3/2)/(log m)^2 <= N <= C m^(3/2) has a balanced maximum-component cut with flow <=exp(-c_b N/sqrt(m)) for every uniform-stationary walk changing at most fixed b slots. At exp(c_b m/(log m)^2) steps almost every start has TV >=1/2-o(1). This refutes universal polynomial mixing in N,m for the exact project kernel (b=5).
+
+- Effective status: **accepted-reviewed**; source: proved in supplied draft; promoted after expanded single-session proof audit
+- Mapping depth: proof-reviewed. Full draft audit and expanded proof rederivation, plus deterministic finite checks. One session, no independent human referee or formalization.
+- Model: heatbath; parameters: Global uniform identity words; products rightmost first. Existential N for each large even m, fixed b; growing b=o(m/(log m)^3) gives superpolynomial slowdown. Odd m empty; m=0,2 and N=2 handled separately.
+- Guards: No claim at every N in the interval, no explicit numerical onset, no impossibility of direct sampling, and no m=N^2 slowdown conclusion.
+- Assumptions: Proved tree/cotree map encoding, weighted component switching, embedded-alphabet counting and bounded-slot boundary. CLW Definition 1.3/equation (10) correspondence checked; no Hurwitz classification or mixing theorem assumed.
+- Remaining obligation: None for the scoped theorem. Locate the transition more sharply or study regimes/moves outside the obstruction separately.
+- Limitations: Single-session proof audit; no formal or human certification, sharp transition or finite onset. Uniform stationarity is an essential hypothesis.
+- Version / verdict binding: Scoped November 24 review of the pinned draft and expanded manuscript proof; ledger records promote verdict and limitations.
+- Evidence: [conductance-draft](../../experiments/20261124-conductance-audit/source.pdf), [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex), [conductance-report](../../experiments/20261124-conductance-audit/report.md), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md), [conductance-check](../../experiments/20261124-conductance-audit/check.py), [conductance-results](../../experiments/20261124-conductance-audit/results.jsonl)
+- Adjudication: [conductance-report](../../experiments/20261124-conductance-audit/report.md), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md)
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: Exact S3,m4; S4,m4; S4,m6 and boundary cases, all endpoint fibers, map genus, cut boundaries and 30 switching-moment checks passed. Supersedes G-HEATBATH universal open status and historical AGENTS/GOAL_SPEC open wording. Direct-sampler and nonidentity-endpoint results are unaffected.

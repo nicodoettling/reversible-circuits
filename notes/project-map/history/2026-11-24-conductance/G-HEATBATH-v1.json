@@ -1,0 +1,29 @@
+{
+  "id": "G-HEATBATH",
+  "version": 1,
+  "title": "General heat-bath mixing is still open",
+  "family": "heatbath",
+  "kind": "open obligation",
+  "model": "heatbath",
+  "claim": "Neither universal gap(K)>=c(Nm)^(-C) nor an explicit infinite superpolynomial full-K obstruction has been established in the recorded run.",
+  "parameters": "N>=3, even m>=4, exact GOAL_SPEC kernel; arbitrary accuracy in TV if a gap bound were proved.",
+  "guards": "Sampling the target by another algorithm does not supply a gap comparison.",
+  "assumptions": "Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.",
+  "open_obligations": "One accepted positive or negative terminal theorem. No automatic resume is authorized by this map.",
+  "source_claimed_status": "UNRESOLVED; run paused at Cycle 103",
+  "effective_status": "open",
+  "check_depth": "statement-traced",
+  "checked": "Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.",
+  "evidence": [
+    "hb-resolution",
+    "hb-ledger"
+  ],
+  "adjudications": [],
+  "dependencies": [],
+  "aliases": [],
+  "regressions": "Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping.",
+  "disagreements": "No new exact-scope disagreement identified by this documentary trace.",
+  "limitations": "Qualitative irreducibility is closed; many auxiliary/conditional results are not terminal.",
+  "view": "results",
+  "review_binding": "No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status."
+}

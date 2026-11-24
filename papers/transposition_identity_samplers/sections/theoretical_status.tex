@@ -4,7 +4,9 @@ Theorem~\ref{thm:dense-rank-recursion} gives a polynomial-time sampler for the
 dense schedule without proving that a local chain mixes rapidly.  This section
 records the still-distinct status of the exact local
 $\{3,4,5\}$ heat-bath approach.  Its stationary law and several structural
-inputs are known, but its polynomial mixing time remains open.
+inputs are known. Theorem~\ref{thm:balanced-bottleneck} now refutes a
+universal polynomial mixing bound; rapid mixing in specified long-length
+regimes remains open.
 
 \subsection{Proved inputs}
 
@@ -36,7 +38,7 @@ lower bound $k\ge 2(v-1)$ is the standard transitive transposition
 factorization lower bound specialized to the identity: a transitive
 factorization of a permutation $\sigma\in S_v$ has length at least
 $v+c(\sigma)-2$, and $c(\id)=v$.  Conversely, choose any tree on $C$ and list
-its $v-1$ edges twice.  The resulting doubled-tree word has product $\id$ and
+each of its $v-1$ edges as an adjacent identical pair.  The resulting word has product $\id$ and
 connected support.  Additional length can be added in increments of two by
 inserting square pairs $(t,t)$.
 \end{proof}
@@ -51,45 +53,25 @@ restricted heat-bath chain on such a fiber is reversible for the conditional
 uniform law.  This factorization is now a proved structural input, but its
 spectral consequences remain open.
 
-\subsection{Conditional irreducibility}
+\subsection{Unconditional irreducibility}
 
-Earlier versions of the project isolated the following identity-specialized
-Hurwitz transitivity statement as the main irreducibility input.  A later H1
-run found a local citation to Ben-Itzhak--Teicher, Theorem 3.4, which appears
-to prove the needed identity Classification H statement for all-transpositions
-in $S_N$.  Final manuscript use should still verify the bibliographic details
-and theorem numbering, but the mathematical blocker has shifted from
-qualitative irreducibility to quantitative mixing.
-
-The earlier formulation is:
-
-\begin{conjecture}[\texttt{H1\_id}]
-For every labeled set $C$ with $|C|=v\ge 2$ and every even
-$k\ge 2(v-1)$, all length-$k$ identity words in $S_C$ whose support graph is
-connected lie in one Hurwitz orbit.
-\end{conjecture}
-
-Equivalently, after adding the already proved disjoint-component sorting and
-invariant preservation directions, \texttt{H1\_id} would imply the identity
-Classification H: two identity transposition words are Hurwitz-connected if
-and only if they have the same labeled weighted support-component data.
-
-\begin{proposition}[Conditional irreducibility]
-Assume \texttt{H1\_id}, or equivalently identity Classification H in the
-preceding convention.  Then the lazy exact $\{3,4,5\}$ same-product heat-bath
-chain is irreducible on $\Omega(N,m)$ for $N\ge 2$ and even $m\ge 4$.
+\begin{proposition}[Irreducibility]
+The lazy exact $\{3,4,5\}$ same-product heat-bath chain is irreducible
+on $\Omega(N,m)$ for $N\ge2$ and even $m\ge4$.
 \end{proposition}
-
-\begin{proof}[Proof sketch]
-Size-$3$ same-product block updates contain padded Hurwitz moves, so the chain
-can move within each weighted support-component class.  Size-$4$ updates
-contain square refreshes $(t,t)\mapsto (s,s)$, so the chain can change the
-weighted component data by creating, moving, and pruning square pairs.  Under
-Classification H, each component can be put into a doubled-tree normal form;
-square refreshes then move between feasible component data, and the feasible
-component lemma characterizes exactly the available nonzero components.  Hence
-all nonexceptional states communicate.
+\begin{proof}
+Lemma~\ref{lem:all-endpoint-pair-connectivity} connects every endpoint
+fiber using adjacent pair replacements.  Every adjacent pair lies in
+some nonwrapping length-three window when $m\ge3$.  The corresponding
+pair replacement, with the third gate retained, has positive probability
+under that window's exact heat bath.  Thus the project chain contains all
+edges needed for connectivity.
 \end{proof}
+
+Earlier manuscript versions made this statement conditional on connected
+identity Hurwitz transitivity.  The constructive pair-connectivity proof
+removes that dependency.  No quantitative gap estimate follows from this
+connectivity argument alone.
 
 The exceptional cases are understood separately.  If $m$ is odd then
 $\Omega(N,m)$ is empty.  If $m=0$ it is a singleton.  If $N=2$ and $m$ is even
@@ -99,9 +81,10 @@ block sizes are $3,4,5$.
 
 \subsection{Conditional polynomial-mixing statements}
 
-No unconditional polynomial mixing theorem is currently available for this
-local chain.  The strongest output of the polynomial upper-bound attempt is a
-pair of conditional routes.
+A polynomial mixing bound over all $N,m$ is false by
+Theorem~\ref{thm:balanced-bottleneck}. The following conditional routes
+remain useful on restricted parameter regimes; their polynomial premises
+cannot all hold uniformly across the bottleneck family.
 
 For any lazy reversible irreducible chain $K$ on $\Omega(N,m)$ with spectral
 gap $\gamma$,
@@ -111,11 +94,11 @@ gap $\gamma$,
   \gamma^{-1}\left(m\log\binom{N}{2}+\log\frac{1}{\epsilon}\right),
 \]
 because the uniform stationary law has
-$\pi_{\min}\ge |T_N|^{-m}=\binom{N}{2}^{-m}$.  Thus the remaining task is an
-inverse-polynomial lower bound on the gap of $\Klocal$.
+$\pi_{\min}\ge |T_N|^{-m}=\binom{N}{2}^{-m}$.  Thus an inverse-polynomial lower bound on the gap of $\Klocal$ would
+suffice on any specified regime where such a bound is possible.
 
 \begin{theorem}[Projection/decomposition route, conditional]
-Assume \texttt{H1\_id}.  Let $\Phi$ be the labeled weighted
+Let $\Phi$ be the labeled weighted
 support-component map, and let $\bar K$ be the stationary-flow projection of
 $\Klocal$ onto the image of $\Phi$.  Suppose the following estimates hold:
 \begin{enumerate}
@@ -146,7 +129,7 @@ back to the Dirichlet form of $\Klocal$.
 \end{proof}
 
 \begin{theorem}[Large-block comparison route, conditional]
-Assume \texttt{H1\_id}.  Let $K_L$ be the lazy ideal length-$L$ same-product
+Let $K_L$ be the lazy ideal length-$L$ same-product
 heat-bath chain.  Suppose that, for some polynomially bounded $L=L(N,m)$,
 $K_L$ has inverse-polynomial gap, every positive-probability $K_L$ transition
 can be simulated by $\{3,4,5\}$ subwindow updates, and the randomized
@@ -163,27 +146,31 @@ congestion, up to absolute laziness and normalization constants.
 
 \subsection{Current proof obligations}
 
-For the projection/decomposition route, the missing estimates are now precise.
-The projection must have inverse-polynomial conductance or Poincare constant;
+The bottleneck cut is itself a union of support profiles, so the projection
+cannot have an inverse-polynomial gap throughout the original parameter
+range. On restricted regimes this route still needs
+a projection conductance or Poincare bound;
 the weighted-component fibers must mix in polynomial time; and the mean-lift
 term must not lose more than a polynomial factor.  The latest run proved a
 fresh-square certificate for support expansion from a length-$4$ identity
 window and found no small support-size or weighted-component bottleneck through
 $S_5,m=6$.  For example, the $S_5,m=6$ support-size conductance was about
 $0.614126$, and singleton/threshold scans of the labeled weighted-component
-projection had minimum conductance about $0.556800$.  These are finite checks,
-not asymptotic proofs.
+projection had minimum conductance about $0.556800$.  These finite checks did not detect the asymptotic bottleneck. At long
+lengths Theorem~\ref{thm:long-profile-conductance} supplies a profile
+conductance bound for the pair chain, but leaves its restricted-fiber
+conductance unestimated.
 
 For the large-block route, $K_m$ samples the uniform bridge in one non-lazy
 step, but this is too global to implement locally.  A useful mesoscopic
 $K_L$, with $L<m$, would require parity-aware bridge smoothing and a
 one-dimensional block-dynamics contraction theorem.  Local simulation is false
-for $L=2$ in general.  For $L\ge 6$, the current reduction is to a
-Pair-Resampling Lemma: adjacent two-factor same-product replacements should
-connect every same-product length-$L$ fiber with polynomial diameter.  Finite
-checks through $S_5,L=6$ found connected representative fibers, with maximum
-sampled-source BFS distance $12$ in the largest checked fiber, but this remains
-empirical.
+for $L=2$ in general.  For $L\ge 6$, the remaining requirement is a
+quantitative pair-resampling and congestion problem.
+Lemma~\ref{lem:all-endpoint-pair-connectivity} settles connectivity;
+a useful gap comparison still needs bounds on path lengths and congestion.
+Theorem~\ref{thm:balanced-bottleneck} prevents polynomial comparison
+with a rapidly mixing ideal chain throughout the full parameter range.
 
 The main negative theory lesson is that deterministic routing through one
 canonical doubled-tree or square-rich normal form should not be used as a

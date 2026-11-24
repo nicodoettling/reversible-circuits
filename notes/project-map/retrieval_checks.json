@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-10-01",
+  "date": "2026-11-24",
   "scope": "Same-session documentary navigation checks against listed primary statement/verdict artifacts. Required-text tests are structural regression checks, not proof verification.",
   "checks": [
     {
@@ -80,23 +80,27 @@
         "O-H0",
         "O-H2",
         "G-ALL",
-        "G-HEATBATH"
+        "G-HEATBATH",
+        "O-LOCAL-BOTTLENECK"
       ],
       "source_ids": [
         "boundary-obstruction",
         "boundary-referee",
-        "quotient-audit"
+        "quotient-audit",
+        "conductance-proof",
+        "conductance-ledger"
       ],
       "expected_status": {
         "O-H0": "accepted-inherited",
         "G-ALL": "open",
-        "G-HEATBATH": "open"
+        "G-HEATBATH": "superseded",
+        "O-LOCAL-BOTTLENECK": "accepted-reviewed"
       },
       "required_text": [
         "j>=64",
         "hardness"
       ],
-      "answer": "No. It rejects the named support policies via omitted mass on an explicit subsequence; no algorithmic hardness or full-chain conductance conclusion follows.",
+      "answer": "The old N^(3/4) support-policy obstruction alone has no full-chain conductance or general hardness consequence. Separately, the November 24 balanced-cut theorem refutes universal polynomial local mixing; arbitrary direct sampling remains open.",
       "initial_retrieval_issue": "A broad negative interpretation would conflate a restricted sampler with the target problem; map separates them."
     },
     {
@@ -197,43 +201,104 @@
       "question": "Is the actual local chain qualitatively irreducible, and does that prove polynomial mixing?",
       "records": [
         "HB-IRRED",
-        "G-HEATBATH"
+        "G-HEATBATH",
+        "O-LOCAL-BOTTLENECK"
       ],
       "source_ids": [
         "hb-irred",
         "hb-irred-audit",
-        "hb-resolution"
+        "hb-resolution",
+        "conductance-proof",
+        "conductance-ledger"
       ],
       "expected_status": {
         "HB-IRRED": "accepted-inherited",
-        "G-HEATBATH": "open"
+        "G-HEATBATH": "superseded",
+        "O-LOCAL-BOTTLENECK": "accepted-reviewed"
       },
       "required_text": [
         "m>=4",
         "gap"
       ],
-      "answer": "Recorded acceptance covers N>=3, even m>=4, with exceptional cases explicit. It gives no polynomial gap. The m=2 multi-state chain has no allowed updates.",
-      "initial_retrieval_issue": "Conditional manuscript wording lags the exact source translation and M01 audit."
+      "answer": "Yes, for even m>=4; the new self-contained pair sweep also proves it. Connectivity alone gives no polynomial gap. The separate balanced bottleneck now refutes universal polynomial project-chain mixing. At m=2 it still has no allowed updates.",
+      "initial_retrieval_issue": "Historical conditional manuscript wording was replaced by an explicit connectivity proof; the historical universal open question is now superseded by the scoped obstruction."
     },
     {
       "id": "Q-GENUS-VS-GLOBAL",
       "question": "Does the all-genus connected sampler settle global all-length sampling?",
-      "records": ["S-GENUS-FPT", "G-ALL", "O-GROW"],
-      "source_ids": ["genus-fpt-statement", "genus-fpt-reconciliation", "i1-reconciliation"],
-      "expected_status": {"S-GENUS-FPT": "accepted-inherited", "G-ALL": "open", "O-GROW": "accepted-inherited"},
-      "required_text": ["C^(g+1)", "connected", "global"],
+      "records": [
+        "S-GENUS-FPT",
+        "G-ALL",
+        "O-GROW"
+      ],
+      "source_ids": [
+        "genus-fpt-statement",
+        "genus-fpt-reconciliation",
+        "i1-reconciliation"
+      ],
+      "expected_status": {
+        "S-GENUS-FPT": "accepted-inherited",
+        "G-ALL": "open",
+        "O-GROW": "accepted-inherited"
+      },
+      "required_text": [
+        "C^(g+1)",
+        "connected",
+        "global"
+      ],
       "answer": "No. The exact connected algorithm has exponential genus cost. A bound on its global expected assembly cost or a stronger decoder is still needed, and the growing-genus eligibility obstruction remains scoped and valid.",
       "initial_retrieval_issue": "The original provisional banner predates the exact internal reconciliation; conversely that acceptance cannot be upgraded to a global theorem."
     },
     {
       "id": "Q-EXACT-SPARSE-REVIEW",
       "question": "Is the old exact sparse candidate accepted, and what work is missing?",
-      "records": ["P-SPARSE-EXACT", "S-SPARSE"],
-      "source_ids": ["i2-theory-review", "i2-blind-checkpoint", "i2-implementation-checkpoint"],
-      "expected_status": {"P-SPARSE-EXACT": "provisional", "S-SPARSE": "accepted-inherited"},
-      "required_text": ["blind", "implementation", "provisional"],
+      "records": [
+        "P-SPARSE-EXACT",
+        "S-SPARSE"
+      ],
+      "source_ids": [
+        "i2-theory-review",
+        "i2-blind-checkpoint",
+        "i2-implementation-checkpoint"
+      ],
+      "expected_status": {
+        "P-SPARSE-EXACT": "provisional",
+        "S-SPARSE": "accepted-inherited"
+      },
+      "required_text": [
+        "blind",
+        "implementation",
+        "provisional"
+      ],
       "answer": "The older negligible-error sparse theorem survives. The proposed exact replacement is not accepted: theory review and finite production checks exist, but blind/implementation final reviews and composed reconciliation are incomplete.",
       "initial_retrieval_issue": "Old pre-execution report chronology and successful later finite checks can each mislead if treated as the final theorem verdict."
+    },
+    {
+      "id": "Q-CONDUCTANCE-SCOPE",
+      "question": "Does the conductance theorem rule out direct sampling or settle local mixing at m=N^2?",
+      "records": [
+        "O-LOCAL-BOTTLENECK",
+        "HB-CONDUCTANCE-BOUNDS",
+        "G-ALL"
+      ],
+      "source_ids": [
+        "conductance-proof",
+        "conductance-report",
+        "conductance-ledger"
+      ],
+      "expected_status": {
+        "O-LOCAL-BOTTLENECK": "accepted-reviewed",
+        "HB-CONDUCTANCE-BOUNDS": "accepted-reviewed",
+        "G-ALL": "open"
+      },
+      "required_text": [
+        "Existential N",
+        "bounded",
+        "restricted-profile",
+        "m=N^2"
+      ],
+      "answer": "No. It refutes a universal bound for fixed-slot uniform-stationary walks along an existential intermediate family. At long lengths the pair profile conductance is Theta(N^-3), with restricted-profile conductance still unresolved. Direct sampling is a different problem.",
+      "initial_retrieval_issue": "Avoid upgrading a local algorithm obstruction to sampling hardness, or profile expansion to full mixing."
     }
   ]
 }

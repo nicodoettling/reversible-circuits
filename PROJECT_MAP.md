@@ -2,21 +2,25 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-11-10 (Europe/Berlin).
+Documentary consolidation: 2026-11-24 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
 **Current answer:** Global near-uniform samplers survive in short, sparse and sufficiently long regimes; no all-length theorem is established. The consolidated campaigns add exact connected genus-two constructions and a uniform exact connected sampler with cost A C^(g+1)(N+g+2)^15. This is polynomial at logarithmic genus but does not close the global intermediate-length gap. An exact sparse global candidate has unfinished review and remains provisional.
 
-**Two different frontiers:** Connected words can now be sampled at every genus with exponential genus cost. The global question is whether that cost can be paid under the exact component law, or replaced by a uniform polynomial bound. The local {3,4,5} heat-bath mixing question is separate and remains open; direct sampling proves no gap for that walk.
+**Two different frontiers:** Connected words can be sampled at every genus with exponential genus cost; global all-length polynomial sampling remains open. A new balanced support-component bottleneck refutes universal polynomial mixing of the local {3,4,5} heat bath. Long-length local mixing, including m=N^2, remains unresolved. Direct sampling proves no gap for that walk.
 
-**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation.
+**Evidence level:** Campaign results are documentary imports of exact statements and scoped internal verdicts, not fresh mathematical certification. Same-model reviews are correlated. Initial provisional banners are retained alongside later exact reconciliations. The older October author records keep their provisional scope; the large heat-bath archive remains only partly traced. Interrupted sparse-sampler reviews are not accepted by this consolidation. The November 24 conductance records instead include fresh single-session proof review and exact checks, with no independent human certification.
 
 **Conventions:** Products act rightmost first. The core word models are labeled and ordered; auxiliary graph models are declared separately. Time is polynomial in N and m, not log N wires. Odd identity length is infeasible; m=0 is the empty word; m=2 is a uniform doubled transposition; N=2 has one word at each even length. For a connected identity component on v labels, ell=2v-2+2g defines its nonnegative genus g, a measure of length beyond the minimum.
 
-**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, leaving general mixing open. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
+**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, without by itself resolving quantitative mixing. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.
 
-**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure construction is established. Q1-Q3 remain proposed directions.
+**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure full-description construction is established. Q1-Q3 remain proposed directions.
+
+**Output-only planting (2026-11-17):** The [oracle-access follow-up](notes/planting-output-only-2026-11-17.md) separates the user's new interface from the gate-description attacks. Identity circuits are exactly indistinguishable by I/O; a secret rare input region gives a q rho transcript bound, and an independent uniform permutation mask hides any independent reversible block. Efficient PRF/PRP versions retain their explicit security assumptions. These are author proof notes without independent review or experiments; small edited-gate count alone supplies no generic hiding theorem.
+
+**Conductance audit (2026-11-24):** The [supplied-draft audit](experiments/20261124-conductance-audit/report.md) establishes a balanced bottleneck for every fixed-size slot update, including {3,4,5}, at existential N between c m^(3/2)/(log m)^2 and C m^(3/2). Mixing takes at least exp(c m/(log m)^2) along this family. For pair heat bath at m>=C N log N, profile conductance is Theta(N^-3); the full rate still needs a fiber estimate. Expanded proofs are integrated into the main manuscript.
 
 ## Surviving Samplers
 
@@ -35,12 +39,13 @@ Documentary consolidation: 2026-11-10 (Europe/Berlin).
 - Uniform Hurwitz randomization cannot choose the correct global orbit weights. [O-HURWITZ](notes/project-map/OBSTRUCTIONS.md#o-hurwitz)
 - Polynomial scalar counts do not automatically give a decoder for literal words, and several insertion/support shortcuts have explicit counterexamples. [O-COUNTS](notes/project-map/OBSTRUCTIONS.md#o-counts)
 - The low-genus/small-support eligibility obstruction persists even when the allowed genus grows through N^(1/8), on the stated m=N^(3/4) subsequence. This does not prove general sampling hardness. [O-GROW](notes/project-map/OBSTRUCTIONS.md#o-grow)
+- Every bounded-slot uniform-stationary walk has a balanced support bottleneck along an explicit existential parameter family. This refutes universal polynomial {3,4,5} mixing, not efficient direct sampling. [O-LOCAL-BOTTLENECK](notes/project-map/OBSTRUCTIONS.md#o-local-bottleneck)
 
 ## Precise Gaps
 
 - Exact macro assembly is available. The connected primitive's exponential genus dependence must be removed or paid in expectation to obtain a global theorem in new regimes; the stronger uniform-polynomial sufficient condition remains open. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
 - No all-length sampler is established, and no general hardness theorem explains the uncovered range. [G-ALL](notes/project-map/RESULTS.md#g-all)
-- The local heat-bath chain still needs an inverse-polynomial full-chain gap. Several auxiliary routes and counterexamples narrow methods without resolving this. [G-HEATBATH](notes/project-map/RESULTS.md#g-heatbath)
+- Long-length pair-chain support cuts have conductance Theta(N^-3), but full mixing still needs a restricted-profile estimate. The universal local mixing target is refuted; m=N^2 remains unresolved. [HB-CONDUCTANCE-BOUNDS](notes/project-map/RESULTS.md#hb-conductance-bounds)
 
 ## Other Generator Families
 

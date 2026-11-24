@@ -390,22 +390,22 @@ Archived polynomial conductance bounds rule out named minimal-connected, join-tr
 - Regressions / disagreements: Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping. No new exact-scope disagreement identified by this documentary trace.
 
 <a id="g-heatbath"></a>
-## G-HEATBATH: General heat-bath mixing is still open
+## G-HEATBATH: Historical universal heat-bath question, now superseded
 
 Neither universal gap(K)>=c(Nm)^(-C) nor an explicit infinite superpolynomial full-K obstruction has been established in the recorded run.
 
-- Effective status: **open**; source: UNRESOLVED; run paused at Cycle 103
+- Effective status: **superseded**; source: UNRESOLVED; run paused at Cycle 103
 - Mapping depth: statement-traced. Documentary trace of the stated scope and cited verdict; no proof rederivation, experiment rerun, or formal verification by this mapping.
 - Model: heatbath; parameters: N>=3, even m>=4, exact GOAL_SPEC kernel; arbitrary accuracy in TV if a gap bound were proved.
 - Guards: Sampling the target by another algorithm does not supply a gap comparison.
 - Assumptions: Named source inputs and exact probability/bit model in the linked statement; no local-walk mixing assumption unless explicitly stated.
-- Remaining obligation: One accepted positive or negative terminal theorem. No automatic resume is authorized by this map.
-- Limitations: Qualitative irreducibility is closed; many auxiliary/conditional results are not terminal.
+- Remaining obligation: Universal polynomial mixing is refuted by O-LOCAL-BOTTLENECK. Long-length full-chain mixing remains open.
+- Limitations: Original version retained in history/2026-11-24-conductance/G-HEATBATH-v1.json. This historical statement is not the current frontier.
 - Version / verdict binding: No scoped acceptance is inherited for this record; the linked source and stated mapping depth delimit its status.
 - Evidence: [hb-resolution](../local-heatbath-polynomial-mixing-resolution-resolution.md), [hb-ledger](../local-heatbath-polynomial-mixing-resolution-resolution-ledger.md)
 - Adjudication: None recorded for this scope.
 - Logical dependencies: None at this map's granularity.
-- Regressions / disagreements: Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping. No new exact-scope disagreement identified by this documentary trace.
+- Regressions / disagreements: Historical checks and counterexamples are retained in the cited artifacts; not rerun in this mapping. The historical run was unresolved; the November 24 supplied-draft audit closes its universal decision question negatively. Its frozen original statement is preserved.
 
 <a id="alt-expander"></a>
 ## ALT-EXPANDER: Expander generators are a separate benchmark
@@ -875,6 +875,24 @@ The foreground report gives exact ordered-subsequence completion probabilities u
 - Logical dependencies: None at this map's granularity.
 - Regressions / disagreements: Original counterexamples and exact finite checks retained; see source reconciliation. This integration reproduces only the named genus clean check. Original provisional banners and later exact verdicts are separately retained; incomplete I2 reviews are not upgraded.
 
+<a id="hb-conductance-bounds"></a>
+## HB-CONDUCTANCE-BOUNDS: Long-length profile expansion and coarse all-length pair bounds
+
+For half-lazy adjacent pair heat bath, minimum conductance over support-profile unions is Theta(N^-3) at even m>=C N log N. Full conductance is at least delta phi/(delta+phi+2), where delta is minimum restricted-profile conductance. At every even m>=2 and N>=3, Phi>=1/[4N(m-1)binom(N,2)^(2N+1)]. A self-contained vertex sweep proves all-endpoint pair connectivity.
+
+- Effective status: **accepted-reviewed**; source: proved in supplied draft; promoted after expanded single-session proof audit
+- Mapping depth: proof-reviewed. Full draft audit and expanded proof rederivation, plus deterministic finite checks. One session, no independent human referee or formalization.
+- Model: heatbath; parameters: Uniform identity words; exact nonwrapping adjacent-pair heat bath. Long theorem requires large N; all-length lower bound requires N>=3,m>=2 even. Connectivity allows all feasible endpoints and N>=2.
+- Guards: Profile expansion is not a full-chain polynomial gap. Coarse lower bound is exponential in N log N. Pair and {3,4,5} normalizations are distinct.
+- Assumptions: Proved parity-aware character estimate, connected-deletion bridge bound, profile factorization, dense merger/reverse-flow count, and parity-compatible splice encoding. No Hurwitz classification is required.
+- Remaining obligation: Bound restricted-profile conductance at long lengths; full mixing at m=N^2 remains unresolved.
+- Limitations: One-session proof audit; no quantitative polynomial fiber bound, and no automatic rate transfer to another kernel.
+- Version / verdict binding: Scoped November 24 review of the pinned draft and expanded manuscript proof; ledger records promote verdict and limitations.
+- Evidence: [conductance-draft](../../experiments/20261124-conductance-audit/source.pdf), [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex), [conductance-report](../../experiments/20261124-conductance-audit/report.md), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md), [conductance-check](../../experiments/20261124-conductance-audit/check.py), [conductance-results](../../experiments/20261124-conductance-audit/results.jsonl)
+- Adjudication: [conductance-report](../../experiments/20261124-conductance-audit/report.md), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md)
+- Logical dependencies: None at this map's granularity.
+- Regressions / disagreements: Exact S3,m4; S4,m4; S4,m6 and boundary cases, all endpoint fibers, map genus, cut boundaries and 30 switching-moment checks passed. Constructive connectivity agrees with HB-NONLOCAL-LIFT and replaces conditional manuscript wording without promoting unrelated historical proofs.
+
 ## Imported Literature
 
 These are inherited source translations, not a fresh literature audit.
@@ -889,6 +907,7 @@ These are inherited source translations, not a fresh literature audit.
 - **E-GJV-CYCLE**: [I. P. Goulden, D. M. Jackson and R. Vakil, Towards the geometry of double Hurwitz numbers, January 19, 2005 primary preprint](https://math.stanford.edu/~vakil/files/Djan2005.pdf), Proposition 1.1 (Hurwitz axioms); Theorem 3.1, equation (21). Set alpha=(N), beta=(1^N), r=N-1+2h. Their H=(N-1)!F_h counts all full-cycle endpoints; reverse ordered factors for the project convention. Supplies scalar fixed-cycle counts for ALT-TREE-EXTRAS and HB-CYCLE-EXCESS, not a mixing theorem. Primary statements, factor-order equation, transitivity condition, automorphism prefactor and c_i specialization checked in the 2026-10-14 author session. The count theorem is imported, not reproved.
 - **E-AAV-PARALLEL**: [Anshu, Arad and Vidick, A simple proof of the detectability lemma and spectral gap amplification, arXiv:1602.01210v3](https://arxiv.org/pdf/1602.01210v3), Lemma 2 and Corollary 3; Section III arbitrary-projector formulation. Local orbit projections on uniform L2 commute except with two neighbors. Bound the matching projection product using the full unnormalized gap, then compare actual layers. Primary hypotheses, noncommutation parameter and normalization checked by author 2026-10-15; external theorem invoked, not reproved.
 - **E-CLR-PARALLEL**: [Caputo, Liggett and Richthammer, Proof of Aldous spectral gap conjecture, arXiv:0906.1238v4](https://arxiv.org/pdf/0906.1238v4), Theorem 1.1 and Section 1.2 generators. Minimal commuting endpoints give interchange on the position cycle. Unit-rate gap 4 sin^2(pi/m), multiplied by 2/(3m), supplies gamma_seq. Primary theorem, zero off-cycle weights and edge-rate normalization checked 2026-10-15. Separate from the older dense-endpoint import.
+- **E-CLW-MAPS**: [Chapuy, Louf and Walsh, Ann. Probab. 52 (2024), 1225-1252, DOI 10.1214/23-AOP1651](https://arxiv.org/html/2206.11315), Definition 1.3 and equation (10). Ordered identity transposition words give pure Hurwitz maps with one face per vertex; restrict to the connected used support. The genus-uniform counting bound is proved separately in the new manuscript section. Correspondence and conventions checked in source; publisher metadata checked against the IMS journal issue because arXiv abstract metadata conflict. No import of a literature mixing theorem.
 
 ## Nonlogical Relations
 
@@ -912,3 +931,5 @@ These links do not supply proof prerequisites.
 - [ALT-RELAXED-HEATBATH](RESULTS.md#alt-relaxed-heatbath) **supersedes** [ALT-RELAXED-ENDPOINT](RESULTS.md#alt-relaxed-endpoint): Supersedes only the previous qualitative boundary-access gap and short-length connectivity limit. The old quadratic slowdown and exact-sampling reduction remain valid; growing-N polynomial mixing remains unresolved. [relaxed-heatbath-proof-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/proof.md), [relaxed-heatbath-report-md](../../experiments/20261027-104714-relaxed-heatbath-comparison/report.md)
 - [ALT-LOG-CORRECTION](RESULTS.md#alt-log-correction) **analogous-to** [ALT-RELAXED-HEATBATH](RESULTS.md#alt-relaxed-heatbath): Extends the correction-multiplicity and Hamming investigations to a growing logarithmic budget; does not supersede the earlier fixed-k2 spectral comparison or all-budget connectivity. [log-correction-proof-md](../../experiments/20261027-112519-logarithmic-correction-budget/proof.md), [log-correction-claim-ledger-md](../../experiments/20261027-112519-logarithmic-correction-budget/claim_ledger.md)
 - [ALT-LOG-CORRECTION](RESULTS.md#alt-log-correction) **does-not-imply** [G-HEATBATH](RESULTS.md#g-heatbath): The endpoint counting theorem and two failed relaxed proof routes give neither a polynomial gap nor a torpid-mixing theorem for the original exact local chain. [log-correction-proof-md](../../experiments/20261027-112519-logarithmic-correction-budget/proof.md), [log-correction-report-md](../../experiments/20261027-112519-logarithmic-correction-budget/report.md)
+- [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck) **supersedes** [G-HEATBATH](RESULTS.md#g-heatbath): Closes the historical universal exact-project-chain mixing question negatively; retains the old unresolved run as provenance. [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md)
+- [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds) **analogous-to** [HB-NONLOCAL-LIFT](RESULTS.md#hb-nonlocal-lift): Independent self-contained pair connectivity agrees with the existing vertex-sweep result; the new conductance estimates have their separately stated scope. [conductance-proof](../../papers/transposition_identity_samplers/sections/conductance_obstruction.tex), [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md)

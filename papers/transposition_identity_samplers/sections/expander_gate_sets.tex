@@ -2,10 +2,10 @@
 
 The all-transpositions model is attractive because it has rich Hurwitz
 structure and very explicit local block conditionals.  The recent
-polynomial-mixing work also suggests a possible drawback: the natural
-$\{3,4,5\}$ heat-bath chain may have subtle slow modes inside weighted
-support-component fibers or near sparse boundary layers.  It is therefore
-reasonable to consider different generator sets.
+conductance theorem establishes a drawback: the natural $\{3,4,5\}$
+heat-bath chain has a balanced support-component bottleneck along the
+family in Theorem~\ref{thm:balanced-bottleneck}.  This motivates considering
+different generator sets as well as nonlocal samplers.
 
 A particularly clean theoretical alternative is to choose, for each $N$, a
 bounded-size symmetric generating set $S_N^{\mathrm{exp}}\subseteq S_N$ or
@@ -58,8 +58,8 @@ This suggests a useful split in future work:
   such as random local reversible gates or simple permutations.
 \end{itemize}
 
-If polynomial mixing for the $\{3,4,5\}$ transposition heat-bath chain is
-false, an expander-generator bridge model could still provide a clean
-theorem-level sampler target.  Conversely, if even expander-generator bridge
+Although a universal polynomial mixing bound for the $\{3,4,5\}$
+transposition chain is false, an expander-generator bridge model could
+still provide a separate sampler target.  If even expander-generator bridge
 dynamics are hard to analyze, that would clarify that the main difficulty is
 endpoint conditioning itself rather than the transposition support geometry.
