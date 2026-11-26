@@ -1,0 +1,52 @@
+For every fixed \(k>1\), at even length \(m\asymp N^k\), I get a worst-case mixing lower bound of **\(\Omega(N^{k+2})\)** for the same adjacent two-gate walk on the full identity fiber. The stronger claim of **superpolynomial** mixing time remains unresolved even at \(m=N^2\).
+
+There is a concrete reason the previous proof stops. Its cut consists of words in which every connected component of the support graph contains at most \(2K\) gate occurrences, with \(K\asymp N^{1/4}\). Each component uses at least two symbols, so every word in the cut satisfies
+\[
+m\le 2K\lfloor N/2\rfloor\le NK.
+\]
+**At \(m=N^2\), the previous cut is empty.** A stretched-exponential bound there needs a different bottleneck.
+
+## A conductance theorem for long identity circuits
+
+Let \(P_{N,m}\) be the half-lazy walk on all length-\(m\) transposition words with product equal to the identity. In an active step, choose \(i\) uniformly from \(\{1,\ldots,m-1\}\) and replace \((t_i,t_{i+1})\) uniformly by a pair with the same product. Time is measured in individual steps.
+
+For absolute constants \(C,c>0\), every even \(m\ge C N\log N\) satisfies
+\[
+\boxed{\displaystyle
+\Phi(P_{N,m})\le C\min\!\left\{\frac1{N^3},\frac1{mN}\right\},
+\qquad
+t_{\mathrm{mix}}(1/4)\ge c\,mN^2.}
+\]
+There is no upper restriction on \(m\), and the state space includes every identity circuit of that length. For example, at \(m\asymp N^2\) this gives conductance \(O(N^{-3})\) and mixing time \(\Omega(N^4)\). The mixing bound uses a spectral estimate in addition to the cut.
+
+**The new cut watches one symbol partway through the circuit.** Write \(G_j=t_1\cdots t_j\), take \(L=\lfloor N/8\rfloor\), and fix a set \(D\) containing half the symbols and excluding \(1\). Set
+\[
+A=\{w:G_L(1)\in D\}.
+\]
+Two facts give the bound.
+
+- **Both sides have constant stationary probability.** For \(m\ge C N\log N\), the law of the first \(L\) gates of a uniform identity word is within constant density factors of \(L\) independent uniform transpositions. Indeed, the number of ways to complete a prefix is proportional to the probability that the remaining random transpositions produce its inverse. At this length those probabilities are uniformly close to \(2/N!\) on the required parity class, by the random-transposition character estimate. In the independent prefix, symbol \(1\) has a constant chance to stay put and a constant chance to land in \(D\). genui{"citation":{"refs":["turn499035980view0","turn623196590view0"]}}
+- **Only the update at \(i=L\) can cross the cut.** Even then, \(G_L(1)\) can change only if the old or new \(t_L\) touches \(1\). At stationarity each is a uniform transposition, so this has probability at most \(4/N\). Choosing the required update costs another factor \(1/(m-1)\). This gives \(\Phi(P_{N,m})=O(1/(mN))\).
+
+The stronger mixing bound comes from watching **how long** the symbol spends in \(D\):
+\[
+F(w)=\sum_{j=1}^{L}\mathbf 1_{\{G_j(1)\in D\}}.
+\]
+With constant probability \(F=0\). With constant probability the symbol enters \(D\) during the first \(L/2\) gates and stays there through \(L\). Hence \(\operatorname{Var}_\pi(F)=\Omega(N^2)\). A two-gate update changes at most one summand, and the stationary probability of changing one is \(O((L/m)/N)=O(1/m)\). The variational bound gives spectral gap \(O(1/(mN^2))\), hence the claimed worst-case mixing lower bound. The other conductance bound, \(O(N^{-3})\), comes from the earlier unused-symbol cut, whose conditional escape probability is asymptotic to \(2/N^3\) in this regime. genui{"citation":{"ref":"turn775029251view0"}}
+
+## How to settle all longer polynomial lengths
+
+There is also a reduction in the direction of your original **fast-mixing** question. Write \(\Phi_{N,\ell}(g)\) for the conductance of the same two-gate walk on words of length \(\ell\) with product \(g\). Take \(B=\lceil4N\log N\rceil\). For all sufficiently large \(N\) and every even \(m\ge4B\),
+\[
+\boxed{\displaystyle
+\Phi_{N,m}(\mathrm{id})
+\ \ge\
+c\,\frac{B}{m}
+\min_{\substack{2B\le\ell\le4B\\
+                  \operatorname{sgn}(g)=(-1)^\ell}}
+\Phi_{N,\ell}(g).}
+\]
+
+The reason is that we can split the circuit into intervals of length \(B\) to \(2B\) and record the permutation at each boundary. Given its two neighbors, each boundary permutation has a nearly uniform law on its parity class. Updating a uniformly chosen boundary therefore contracts Hamming distance at rate \(\Omega(B/m)\). Given all boundaries, the interval interiors are independent. Applying conditional variance to a cut indicator bounds its variance by a constant times the sum of its variances under resampling two neighboring intervals. Each such resampling takes place in a fixed-product fiber of length \(2B\) to \(4B\), and each original two-gate update is counted at most twice. This gives the displayed comparison. The product \(g\) appears because an interval inside an identity circuit can compute any parity-compatible permutation. genui{"citation":{"refs":["turn499035980view0","turn623196590view0"]}}
+
+So there is a specific research target. **An inverse-polynomial conductance theorem for every product \(g\) in the single length range \([2B,4B]\) would prove polynomial mixing for every longer polynomial length.** Conversely, a stretched-exponential bottleneck at \(m=N^2\) would force a stretched-exponential bottleneck in some fixed-product fiber already at length \(\Theta(N\log N)\). The unresolved scale for that question can thus be brought down from \(N^2\) to \(N\log N\).

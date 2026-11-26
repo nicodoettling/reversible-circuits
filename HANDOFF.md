@@ -1,5 +1,35 @@
 # Handoff: Random Reversible Identity Circuits and Symmetric-Group Hardness
 
+## Growing windows and quadratic reductions (2026-11-26)
+
+The [follow-up audit](experiments/20261126-window-reductions/report.md)
+integrates the supplied conversation excerpts with explicit proofs:
+
+- **Proved:** the balanced bottleneck extends to any update budget
+  `b=o(m/(log m)^3)` along the same existential `N_m` family.
+- **Proved, ideal updates:** an exact overlapping heat bath with windows
+  at most `min(m,3B)`, `B=ceil(8N log(N+1))`, mixes in
+  `O(q log(q/epsilon))` completed draws, `q=max(1,floor(m/B))`, for every
+  feasible endpoint. For `m<2B` it refreshes the whole word. No polynomial
+  implementation of general all-transposition block conditionals is proved.
+- **Conditional application:** inverse-polynomial adjacent-pair conductance
+  for every endpoint at lengths `[2B,4B-2]` implies polynomial mixing at
+  every longer polynomial length. Contrapositively, a long-length bottleneck
+  forces a bottleneck in a base-length endpoint fiber. This says nothing
+  about shorter lengths and does not reduce to identity endpoints alone.
+- **Proved at even quadratic length:** every cut determined by prefixes
+  spaced at least `ceil(4N log N)+2` has cut ratio at least `c/(mN)`,
+  with a sharp midpoint derangement example. Full conductance reduces to
+  relabeling-invariant cuts with a conservative `N^-11` comparison term.
+  The supplied `N^-5`/`N^-7` refinements remain unverified. Both labeled
+  and quotient walks have mixing lower bound `Omega(N^4)`; whether their
+  mixing is superpolynomial remains **unresolved**.
+
+These are single-session proof derivations with exact falsification checks,
+not independent certification. The twisted-star and padded families in the
+earlier excerpts are distinct targets; their additional claims are archived
+without promotion to the all-transposition model.
+
 ## Conductance audit update (2026-11-24)
 
 **Proved in the supplied draft and checked in a single-session proof audit:**

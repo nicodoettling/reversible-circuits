@@ -1,0 +1,63 @@
+For the same adjacent two-gate walk on the full identity fiber, I get a **balanced bottleneck**. At some polynomial lengths, the walk takes stretched-exponential time to mix from **almost every individual starting circuit**. The earlier bound allowed the slow starting circuits to form an exponentially small fraction of the fiber.
+
+At \(m=N^2\), I get a result in the other direction. Every cut defined by the support components and their gate counts has conductance at least \(c/N^3\). So a superpolynomial slowdown at quadratic length would need a different explanation.
+
+## A balanced bottleneck at intermediate lengths
+
+For every sufficiently large even \(m\), there exists an \(N\) in the range
+\[
+c\,\frac{m^{3/2}}{(\log m)^2}\le N\le C m^{3/2}
+\]
+and a set \(A\) of length-\(m\) identity circuits such that
+\[
+\pi(A)=\tfrac12+o(1),
+\qquad
+\frac{Q(A,A^c)}{\min\{\pi(A),\pi(A^c)\}}
+\le \exp\!\left(-c\,\frac{N}{\sqrt m}\right).
+\]
+Here \(\pi\) is uniform on **all** length-\(m\) transposition words computing the identity, and \(Q(A,A^c)\) is the stationary probability of crossing from \(A\) to \(A^c\) in one step. The theorem selects \(N\) for each \(m\). In terms of \(N\), the resulting lengths lie between \(cN^{2/3}\) and \(CN^{2/3}(\log N)^{4/3}\).
+
+**The cut has a concrete definition.** Draw one edge per gate on the \(N\) symbols. Fix \(K=\lfloor aN/\sqrt m\rfloor\) for a sufficiently small absolute \(a>0\). A circuit belongs to \(A\) when every connected component contains at most \(2K\) gate occurrences.
+
+Two observations give the result.
+
+1. **Leaving \(A\) requires an unusually large component already inside it.** A square refresh can join two old components. To exceed \(2K\) gates after one move, some old component must already contain at least \(K\) gates. A sharper count shows that, conditional on \(A\), this happens with probability at most \(CN4^{-K/2}\). The count uses the correspondence between connected identity words and orientable Hurwitz maps. genui{"citation":{"ref":"turn765865435view0"}}
+2. **We can make both sides equally large.** Hold \(m\) fixed and increase \(N\) one symbol at a time. At the lower end of the displayed range, \(A\) has exponentially small mass. At the upper end it contains the whole fiber. Introducing one symbol changes the measure by at most \(2m/(N+1)=o(1)\), and increasing the cutoff by one adds only an exponentially small boundary layer. Thus the mass passes through \(1/2+o(1)\).
+
+Consequently, at time
+\[
+t=\left\lfloor\exp\!\left(c'\frac{m}{(\log m)^2}\right)\right\rfloor,
+\]
+a \(1-o(1)\) fraction of starting words \(x\) still satisfy
+\[
+\|P^t(x,\cdot)-\pi\|_{\mathrm{TV}}\ge \tfrac12-o(1).
+\]
+This also strengthens the obstruction for alternative moves. On this family, **any uniform-stationary walk changing at most \(b=o(m/(\log m)^3)\) gate positions per step still has superpolynomial mixing time**, even if those positions can be nonconsecutive.
+
+## What happens at quadratic length
+
+For every even \(m\ge C N\log N\), including quadratic length, I get the sharp conductance **lower bound**
+\[
+\min_{\substack{0<\pi(A)\le1/2\\ A\text{ is a union of support profiles}}}
+\frac{Q(A,A^c)}{\pi(A)}
+=\Theta(N^{-3}).
+\]
+A *support profile* specifies the exact vertex set of each connected component and its number of gate occurrences. These profiles are precisely the Hurwitz orbits. The event that symbol \(N\) never appears attains the upper bound to within a constant factor. genui{"citation":{"ref":"turn510556065view0"}}
+
+There is also a quantitative implication for the **full walk**. If \(\delta\) is the smallest conductance of the walk inside any single profile, with proposed exits changed to holding steps, then
+\[
+\Phi(P_{N,m})\ge cN^{-3}\delta.
+\]
+So if the full walk at \(m=N^2\) has superpolynomially small conductance, **some individual Hurwitz orbit must itself have superpolynomially small conductance under the restricted walk**. This identifies what would have to be slow at quadratic length. The balanced bottleneck above settles slow mixing for the intermediate family. The full quadratic-length case remains unresolved.
+
+The proof note also gives an unconditional lower bound \(\Phi(P_{N,m})\ge m^{-1}\exp[-O(N\log N)]\) for arbitrary cuts at every even length.
+
+[Transposition_walk_conductance.pdf](https://chatgpt.com/library?file_id=libfile_1d7dcfca74ec81918afecd03b104f7ae&account_id=personal)
+
+---
+
+If you want, I can:
+
+- Explain key implications of balanced bottleneck for mixing times
+- Detail the significance of conductance lower bounds at quadratic length
+- Clarify the construction and role of the set A defining the cut

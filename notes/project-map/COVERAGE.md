@@ -4,7 +4,7 @@
 
 Actual filesystem inventory, including dirty/untracked research, with runtime worktrees excluded. The 2026-11-06 consolidation imports both campaign histories and traces their exact statements/internal reconciliations without new asymptotic proof certification. I1, genus-scaling and the two noisy-word attacks have inherited scoped internal verdicts; exact sparse sampling and foreground projections remain provisional. Older October author records retain their previous statuses/source pins. Historical preparation documents are not current launch authority. One named clean genus check was reproduced; most raw archive microclaims were not freshly reviewed. No formalization branch was discovered. See integration-2026-11-06-campaigns.md and the earlier dated integration receipts for exact read depth and preserved disagreements.
 
-Discovery baseline: 4580 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
+Discovery baseline: 4596 entries; 920 ledger/mission branches. Counts are navigation inventory, not numbers of reviewed theorems.
 
 ## authority: Project authority and navigation
 
@@ -88,7 +88,7 @@ Records: [EXP-EDGE](RESULTS.md#exp-edge)
 
 ## manuscript: Manuscript and historical synthesis
 
-24 discovered entries. selected sections mapped; remaining sections pending. Depth: theoretical status, dense sampler, expander section, bibliography selected.
+26 discovered entries. selected sections mapped; remaining sections pending. Depth: theoretical status, dense sampler, expander section, bibliography selected.
 
 Manuscript proof revisions are a separate audit/integration target. LaTeX build products are not mathematical certification.
 
@@ -278,6 +278,14 @@ No independent human review, formal certification, sharp finite onset or all-len
 
 Records: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds)
 
+## window-reductions: November 26 shared-excerpt and quadratic-reduction audit
+
+14 discovered entries. scoped new manuscript statements promoted; stronger supplied exponents and unrelated model claims retained as unresolved. Depth: all seven message strings read for scope; selected proofs reconstructed; exact code and outputs inspected.
+
+Single-session proof review, not independent certification; no large-block implementation guarantee or full quadratic mixing resolution.
+
+Records: [HB-WINDOW-REDUCTIONS](RESULTS.md#hb-window-reductions), [HB-QUADRATIC-REDUCTIONS](RESULTS.md#hb-quadratic-reductions)
+
 ## Unresolved and Reconciled Discrepancies
 
 - **C-IRRED (documentarily reconciled):** Historical AGENTS/GOAL_SPEC retain conditional classification wording; the manuscript now proves irreducibility from self-contained all-endpoint pair connectivity. Earlier M01 records agree. m=2 remains excluded for the project kernel; universal quantitative mixing is refuted by O-LOCAL-BOTTLENECK. [scope](../../GOAL_SPEC.md), [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex), [hb-irred](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01/proof.md), [hb-irred-audit](../../experiments/20260811-polynomial-mixing-resolution/cycle-01/mission-M01-audit/report.md)
@@ -294,8 +302,8 @@ Records: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTAN
 Full files are fingerprinted; listed read scopes may be excerpts only.
 
 - [scope](../../GOAL_SPEC.md): Decision question, exact kernel, baseline, routes and role definitions; historical scope, not current sampler frontier.
-- [handoff](../../HANDOFF.md): Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
-- [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex): Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
+- [handoff](../../HANDOFF.md): Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth. November 26 delta reviewed: explicit ideal growing-window theorem, all-endpoint base reduction and conservative quadratic reductions; unchanged original passages retain their existing status.
+- [manuscript-status](../../papers/transposition_identity_samplers/sections/theoretical_status.tex): Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth. November 26 delta reviewed: explicit ideal growing-window theorem, all-endpoint base reduction and conservative quadratic reductions; unchanged original passages retain their existing status.
 - [manuscript-dense](../../papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex): Theorem statement and named recurrence/complexity passages previously inspected; no fresh line-by-line proof review.
 - [expander](../../papers/transposition_identity_samplers/sections/expander_gate_sets.tex): Whole section read; different generator model and transfer caveats. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
 - [references](../../papers/transposition_identity_samplers/sections/references.tex): Whole short bibliography; DOI metadata only. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.
@@ -464,6 +472,15 @@ Full files are fingerprinted; listed read scopes may be excerpts only.
 - [conductance-ledger](../../experiments/20261124-conductance-audit/claim_ledger.md): Every claim, dependency, independent calculation and action inspected; no separate reviewer.
 - [conductance-check](../../experiments/20261124-conductance-audit/check.py): Complete deterministic exact harness read and run.
 - [conductance-results](../../experiments/20261124-conductance-audit/results.jsonl): All exact results inspected; no finite-to-asymptotic inference.
+- [window-plan](../../experiments/20261126-window-reductions/plan.md): Complete authorized scope and falsification plan.
+- [window-proof](../../papers/transposition_identity_samplers/sections/growing_windows.tex): Complete proof rederived: growing-budget corollary, ideal block coupling, exact conductance/gap normalization and endpoint/length limits.
+- [quadratic-proof](../../papers/transposition_identity_samplers/sections/quadratic_diagnostics.tex): Complete proof rederived: spaced-prefix comparison, conservative relabeling congestion with coarea, and quotient fixed-point slow mode.
+- [window-report](../../experiments/20261126-window-reductions/report.md): Complete scoped promote verdict, source disagreements, dependencies and limitations.
+- [window-ledger](../../experiments/20261126-window-reductions/claim_ledger.md): All per-claim adjudications, including unverified supplied exponents and distinct model claims.
+- [window-check](../../experiments/20261126-window-reductions/check.py): Complete deterministic harness inspected and executed; no finite-to-asymptotic inference.
+- [window-results](../../experiments/20261126-window-reductions/results.jsonl): All exact output records inspected.
+- [window-source-manifest](../../experiments/20261126-window-reductions/sources/manifest.json): Seven user-supplied messages recovered; source content read for scope and selected claims, no blanket proof acceptance.
+- [quadratic-source](../../experiments/20261126-window-reductions/sources/pasted-quadratic-claims.md): Mathematical transcription checked against the user message; claimed N^-5/N^-7 refinements retained as unverified.
 
 ## Branch Retrieval
 

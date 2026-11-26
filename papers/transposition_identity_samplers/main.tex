@@ -24,7 +24,7 @@
 
 \title{Sampling Identity Bridges in Symmetric Groups:\ Rank Recursion and Local Dynamics}
 \author{Project notes from the reversible-circuits sampler experiments}
-\date{November 24, 2026}
+\date{November 26, 2026}
 
 \begin{document}
 
@@ -66,9 +66,18 @@ large even $m$, some $N$ between constant multiples of
 $m^{3/2}/(\log m)^2$ and $m^{3/2}$ has mixing time at least
 $\exp(\Omega(m/(\log m)^2))$.  The obstruction applies to every
 uniform-stationary walk changing a bounded number of gates per step.
+It also gives superpolynomial slowdown for update budgets
+$b=o(m/(\log m)^3)$ along the same family.  A separately specified
+ideal exact heat bath with windows of order $N\log N$ mixes rapidly
+at every feasible length, with conditional-sampling cost left separate.
+An all-endpoint conductance bound at length $\Theta(N\log N)$ would
+imply rapid pair-chain mixing at every longer polynomial length.
 For the adjacent pair chain at $m\ge CN\log N$, by contrast, the minimum
 conductance over support-profile cuts is $\Theta(N^{-3})$; full-chain
-mixing there remains unresolved.  These local-walk results leave direct
+mixing there remains unresolved.  At quadratic length, well-separated
+prefix cuts also have conductance at least $cN^{-3}$, and the full
+conductance question reduces to cuts invariant under relabeling.
+These local-walk results leave direct
 sampling and other generator models as distinct questions.
 \end{abstract}
 
@@ -93,6 +102,10 @@ sampling and other generator models as distinct questions.
 \input{sections/square_refresh}
 
 \input{sections/conductance_obstruction}
+
+\input{sections/growing_windows}
+
+\input{sections/quadratic_diagnostics}
 
 \input{sections/theoretical_status}
 

@@ -76,12 +76,12 @@ At fixed feasible N,m, find a positive exact connection primitive or a controlle
 
 ## T-HEATBATH: Restrict local mixing to long lengths or change the update scale (reserve research/audit)
 
-The universal fixed-slot mixing target is refuted. For a separately authorized investigation, select a long-length restricted-profile conductance estimate or an update rule beyond the bounded-slot theorem.
+The universal small-slot target is refuted. Select an all-endpoint base bound at Theta(N log N), a quadratic relabeling-invariant bottleneck beyond spaced-prefix tests, or an exact implementation of the proved ideal block bath.
 
-- Nearest evidence: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds), [HB-DECOMP](RESULTS.md#hb-decomp)
+- Nearest evidence: [O-LOCAL-BOTTLENECK](OBSTRUCTIONS.md#o-local-bottleneck), [HB-CONDUCTANCE-BOUNDS](RESULTS.md#hb-conductance-bounds), [HB-DECOMP](RESULTS.md#hb-decomp), [HB-WINDOW-REDUCTIONS](RESULTS.md#hb-window-reductions), [HB-QUADRATIC-REDUCTIONS](RESULTS.md#hb-quadratic-reductions)
 - Advance: Would advance a distinct mixing theorem, not merely produce another direct sampler.
-- First test: Read the balanced-cut theorem and long-profile proof, state the exact kernel and regime, and check the selected target avoids the obstruction.
-- Positive: An inverse-polynomial restricted-profile estimate at long lengths, or a justified nonlocal kernel with a full gap bound.
+- First test: Read the November 24 and 26 exact statements; retain all endpoint, length, scan and completed-update qualifications. Do not assume the unverified N^-5/N^-7 relabeling factors.
+- Positive: A uniform inverse-polynomial all-endpoint base bound, a long-length restricted-profile estimate, or an efficient exact implementation of the ideal growing-window kernel.
 - Negative: A new scoped bottleneck at long lengths or for the proposed larger-update kernel; the universal fixed-slot obstruction is already proved.
 - Stop or pivot: Do not seek a universal polynomial fixed-slot gap, infer full mixing from profile expansion, or substitute an auxiliary kernel without comparison.
 - Effort: A bounded new target requires separate authorization; no historical campaign resume.

@@ -8,7 +8,7 @@
     "prepared_successor": "notes/project-map/campaign-identity-bridge-next-20261106/README.md",
     "retired_predecessor": "notes/project-map/campaign-identity-bridge-sampling-20261025/RETIREMENT-20261106.md"
   },
-  "date": "2026-11-24",
+  "date": "2026-11-26",
   "timezone": "Europe/Berlin",
   "baseline_commit": "3162c87e3b6d1a1c750221d6d6c659e06158dd12",
   "sources": {
@@ -22,19 +22,19 @@
     },
     "handoff": {
       "path": "HANDOFF.md",
-      "read_scope": "Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
+      "read_scope": "Context, dense recursive section, expected-length and hardness sections; selected sections, not a new cryptographic audit. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth. November 26 delta reviewed: explicit ideal growing-window theorem, all-endpoint base reduction and conservative quadratic reductions; unchanged original passages retain their existing status.",
       "checked_locators": [
         "## Rank-Recursive Transposition Sampler Direction"
       ],
-      "sha256": "850568ad0ba85e7184f57c63d0a6c05b976c0c19eafbcdfd1424a1fe6ba5e465"
+      "sha256": "e76c8fbef55b855206f48a5f6f0fef4ef3cff18510ec90e9d853edf3eef2aa98"
     },
     "manuscript-status": {
       "path": "papers/transposition_identity_samplers/sections/theoretical_status.tex",
-      "read_scope": "Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth.",
+      "read_scope": "Complete section read; conditional wording compared with later archived audits. November 24 delta reviewed: scoped conductance integration; unchanged earlier claims retain their existing review depth. November 26 delta reviewed: explicit ideal growing-window theorem, all-endpoint base reduction and conservative quadratic reductions; unchanged original passages retain their existing status.",
       "checked_locators": [
         "\\subsection{Unconditional irreducibility}"
       ],
-      "sha256": "e746c3ec7da0bc343c2520d3009f610b670606c93687ba7f0b13f88d99425dc3"
+      "sha256": "a405065837ce03c592910db22bd103c3efc4229d6d1bbbf8a1740ead15b58d17"
     },
     "manuscript-dense": {
       "path": "papers/transposition_identity_samplers/sections/rank_recursive_sampler.tex",
@@ -1399,6 +1399,78 @@
         "all exact checks passed"
       ],
       "sha256": "5c299e6db5549ec24a67501f8e5bf36291e6acedb165b54911b1810231cc11b7"
+    },
+    "window-plan": {
+      "path": "experiments/20261126-window-reductions/plan.md",
+      "read_scope": "Complete authorized scope and falsification plan.",
+      "checked_locators": [
+        "# Growing windows"
+      ],
+      "sha256": "cff18c36671a0de74525dff68ba6479fc734f5f63642a6afd438aafe6940c030"
+    },
+    "window-proof": {
+      "path": "papers/transposition_identity_samplers/sections/growing_windows.tex",
+      "read_scope": "Complete proof rederived: growing-budget corollary, ideal block coupling, exact conductance/gap normalization and endpoint/length limits.",
+      "checked_locators": [
+        "\\label{thm:base-length-reduction}"
+      ],
+      "sha256": "99af0e6a1bd58a94c8275e4402bcf89802edc612f83f59e12b275513ee3beec3"
+    },
+    "quadratic-proof": {
+      "path": "papers/transposition_identity_samplers/sections/quadratic_diagnostics.tex",
+      "read_scope": "Complete proof rederived: spaced-prefix comparison, conservative relabeling congestion with coarea, and quotient fixed-point slow mode.",
+      "checked_locators": [
+        "\\label{thm:relabeling-reduction}"
+      ],
+      "sha256": "a24005d21971a455de5800406ce08ca6f5185d1656d7265bcbccf68a5edb8789"
+    },
+    "window-report": {
+      "path": "experiments/20261126-window-reductions/report.md",
+      "read_scope": "Complete scoped promote verdict, source disagreements, dependencies and limitations.",
+      "checked_locators": [
+        "## Results and limits"
+      ],
+      "sha256": "e5ad06402619914182c151a3bc83bd394283e60bf72429aa2c9b7f7620ed2a8b"
+    },
+    "window-ledger": {
+      "path": "experiments/20261126-window-reductions/claim_ledger.md",
+      "read_scope": "All per-claim adjudications, including unverified supplied exponents and distinct model claims.",
+      "checked_locators": [
+        "| Claim | Status | Assumptions |"
+      ],
+      "sha256": "afd7c542d161b219711762d1cfe9bdac995daa4a2d9a8bf26024770f519c7d15"
+    },
+    "window-check": {
+      "path": "experiments/20261126-window-reductions/check.py",
+      "read_scope": "Complete deterministic harness inspected and executed; no finite-to-asymptotic inference.",
+      "checked_locators": [
+        "def conjugation_path("
+      ],
+      "sha256": "cb2a7f1dc54d30d0ffc288f9566345089b79cad0f2a36eb80c80b18c78d6fe74"
+    },
+    "window-results": {
+      "path": "experiments/20261126-window-reductions/results.jsonl",
+      "read_scope": "All exact output records inspected.",
+      "checked_locators": [
+        "all exact checks passed"
+      ],
+      "sha256": "ca57b8f080cf93ac51cdcaaec37ca8d2ab977575f1d39ee0ff5827f0862e8596"
+    },
+    "window-source-manifest": {
+      "path": "experiments/20261126-window-reductions/sources/manifest.json",
+      "read_scope": "Seven user-supplied messages recovered; source content read for scope and selected claims, no blanket proof acceptance.",
+      "checked_locators": [
+        "retrieved"
+      ],
+      "sha256": "4b3310f6e404dfb591adeeedb4f5a6de3955b9ae7b5877a0548e9d5b933e1d44"
+    },
+    "quadratic-source": {
+      "path": "experiments/20261126-window-reductions/sources/pasted-quadratic-claims.md",
+      "read_scope": "Mathematical transcription checked against the user message; claimed N^-5/N^-7 refinements retained as unverified.",
+      "checked_locators": [
+        "# Additional quadratic-length claims"
+      ],
+      "sha256": "272d90e1dd724370e130ef64d3519e860c5b420f2cfa890357c525dc1e988d43"
     }
   },
   "records": [
@@ -3494,6 +3566,89 @@
       "open_obligations": "Bound restricted-profile conductance at long lengths; full mixing at m=N^2 remains unresolved.",
       "disagreements": "Constructive connectivity agrees with HB-NONLOCAL-LIFT and replaces conditional manuscript wording without promoting unrelated historical proofs.",
       "limitations": "One-session proof audit; no quantitative polynomial fiber bound, and no automatic rate transfer to another kernel."
+    },
+    {
+      "version": 1,
+      "family": "window-reductions",
+      "model": "heatbath",
+      "source_claimed_status": "scoped results proved in reconstructed full proofs; stronger supplied relabeling exponents unverified",
+      "effective_status": "accepted-reviewed",
+      "check_depth": "proof-reviewed",
+      "checked": "Complete new manuscript proofs reconstructed and checked in one session; deterministic finite checks reproduced. No independent human referee or formal certification.",
+      "evidence": [
+        "window-plan",
+        "window-proof",
+        "quadratic-proof",
+        "window-report",
+        "window-ledger",
+        "window-check",
+        "window-results",
+        "window-source-manifest",
+        "quadratic-source"
+      ],
+      "adjudications": [
+        "window-report",
+        "window-ledger"
+      ],
+      "aliases": [],
+      "regressions": "S3,m4,6 and S4,m4,6 identity fibers; S3,m3 odd endpoints; explicit conjugation paths and encoding checks; smoothing/fixed-point identities through S6; 5684 interval geometries; m0,2 and N2 boundaries.",
+      "review_binding": "November 26 scoped single-session derivation, exact checker and promote ledger. Source-only claims are explicitly excluded.",
+      "view": "results",
+      "id": "HB-WINDOW-REDUCTIONS",
+      "title": "Growing-window mixing and all-endpoint base-length transfer",
+      "kind": "ideal mixing theorem and conditional local transfer",
+      "claim": "The balanced obstruction persists for b=o(m/log^3 m). A specified half-lazy exact overlapping block bath with B=ceil(8N log(N+1)) and windows <=min(m,3B) mixes in O(q log(q/epsilon)) completed draws at every endpoint and length. For m>=2B, adjacent-pair conductance is >=(2B-1) phi_*/[32(m-1)], with phi_* the all-endpoint minimum over lengths 2B..4B-2; the gap comparison has denominator 16. Uniform polynomial base bounds imply longer polynomial-length mixing; long bottlenecks force a base endpoint bottleneck.",
+      "parameters": "Uniform endpoint fibers, rightmost-first products, half-lazy nonwrapping pair bath. Ideal bath uses q=max(1,floor(m/B)) blocks, whole-word refresh if q=1. Growing-budget negative result retains the original existential N_m family.",
+      "guards": "Ideal block mixing is not a polynomial exact-conditional implementation. Base transfer requires all endpoints and only applies at m>=2B; m<2B is excluded from the local comparison. It does not propagate every short bottleneck upward or settle quadratic mixing.",
+      "assumptions": "CB.6 and CB.7 in the unchanged conductance proof; explicit bridge factorization, Hamming coupling and normalized conditional variance comparison. Polynomial application retains the unproved all-endpoint base premise.",
+      "open_obligations": "Uniform inverse-polynomial all-endpoint base gap/conductance; efficient exact general all-transposition block conditionals; independent review.",
+      "dependencies": [
+        "O-LOCAL-BOTTLENECK",
+        "HB-CONDUCTANCE-BOUNDS"
+      ],
+      "disagreements": "The earlier shared positive result used twisted-star gates or padding. October endpoint-blindness already contains the macro strategy with a conservative smoothing scale and a different K_A kernel; its unrelated claims remain provisional.",
+      "limitations": "Specified ideal kernel only; whole-word updates at short lengths; no all-length local mixing or implementation theorem. Single-session review."
+    },
+    {
+      "version": 1,
+      "family": "window-reductions",
+      "model": "heatbath",
+      "source_claimed_status": "scoped results proved in reconstructed full proofs; stronger supplied relabeling exponents unverified",
+      "effective_status": "accepted-reviewed",
+      "check_depth": "proof-reviewed",
+      "checked": "Complete new manuscript proofs reconstructed and checked in one session; deterministic finite checks reproduced. No independent human referee or formal certification.",
+      "evidence": [
+        "window-plan",
+        "window-proof",
+        "quadratic-proof",
+        "window-report",
+        "window-ledger",
+        "window-check",
+        "window-results",
+        "window-source-manifest",
+        "quadratic-source"
+      ],
+      "adjudications": [
+        "window-report",
+        "window-ledger"
+      ],
+      "aliases": [],
+      "regressions": "S3,m4,6 and S4,m4,6 identity fibers; S3,m3 odd endpoints; explicit conjugation paths and encoding checks; smoothing/fixed-point identities through S6; 5684 interval geometries; m0,2 and N2 boundaries.",
+      "review_binding": "November 26 scoped single-session derivation, exact checker and promote ledger. Source-only claims are explicitly excluded.",
+      "view": "results",
+      "id": "HB-QUADRATIC-REDUCTIONS",
+      "title": "Spaced-prefix expansion and relabeling reduction at quadratic length",
+      "kind": "conductance reduction and polynomial slow mode",
+      "claim": "At m=2 floor(N^2/2), every cut based on prefixes separated by >=ceil(4N log N)+2 has ratio >=c/(mN), sharply for midpoint derangements. Orbit-size-weighted relabeling quotient satisfies c min(Phi(quotient),N^-11)<=Phi(P)<=Phi(quotient). Both chains have mixing lower bound Omega(N^4) from an invariant fixed-point sum.",
+      "parameters": "Full uniform identity fiber and exact half-lazy adjacent pair bath. General proved relabeling comparison requires even m>=2 binom(N,2) and uses c min(Phi(quotient),1/(N m^2 binom(N,2)^3)). N sufficiently large for quadratic asymptotics.",
+      "guards": "The supplied N^-5 special-quadratic and N^-7 general-quadratic refinements remain unverified. Quotient is weighted by orbit sizes, not uniform on unlabeled words. Polynomial slowdown does not establish superpolynomial mixing.",
+      "assumptions": "CB.7 parity-aware smoothing and elementary character ratios; explicit square extraction/conjugation routes, stage encoding, cut-flow comparison and coarea; fixed-point covariance calculation.",
+      "open_obligations": "Full quadratic mixing remains unresolved; sharper congestion exponents and smaller constant multiples of N^2 need additional proofs; independent review.",
+      "dependencies": [
+        "HB-CONDUCTANCE-BOUNDS"
+      ],
+      "disagreements": "Supplied congestion sketch did not justify N^-5/N^-7. Complete reconstruction proves a weaker N^-11 term at the stated quadratic length, sufficient for the qualitative reduction.",
+      "limitations": "No superpolynomial quadratic bottleneck, no efficient quotient implementation, and no blanket acceptance of earlier shared alternative-generator claims."
     }
   ],
   "coverage": [
@@ -4045,6 +4200,21 @@
         "HB-CONDUCTANCE-BOUNDS"
       ],
       "branch_disposition": "proof-reviewed with deterministic falsification checks"
+    },
+    {
+      "id": "window-reductions",
+      "title": "November 26 shared-excerpt and quadratic-reduction audit",
+      "prefixes": [
+        "experiments/20261126-window-reductions"
+      ],
+      "disposition": "scoped new manuscript statements promoted; stronger supplied exponents and unrelated model claims retained as unresolved",
+      "read_depth": "all seven message strings read for scope; selected proofs reconstructed; exact code and outputs inspected",
+      "limits": "Single-session proof review, not independent certification; no large-block implementation guarantee or full quadratic mixing resolution.",
+      "records": [
+        "HB-WINDOW-REDUCTIONS",
+        "HB-QUADRATIC-REDUCTIONS"
+      ],
+      "branch_disposition": "proof-reviewed at the reconstructed scope; stronger source claims pending"
     }
   ],
   "targets": [
@@ -4169,12 +4339,14 @@
       "nearest": [
         "O-LOCAL-BOTTLENECK",
         "HB-CONDUCTANCE-BOUNDS",
-        "HB-DECOMP"
+        "HB-DECOMP",
+        "HB-WINDOW-REDUCTIONS",
+        "HB-QUADRATIC-REDUCTIONS"
       ],
-      "obligation": "The universal fixed-slot mixing target is refuted. For a separately authorized investigation, select a long-length restricted-profile conductance estimate or an update rule beyond the bounded-slot theorem.",
+      "obligation": "The universal small-slot target is refuted. Select an all-endpoint base bound at Theta(N log N), a quadratic relabeling-invariant bottleneck beyond spaced-prefix tests, or an exact implementation of the proved ideal block bath.",
       "advance": "Would advance a distinct mixing theorem, not merely produce another direct sampler.",
-      "first_test": "Read the balanced-cut theorem and long-profile proof, state the exact kernel and regime, and check the selected target avoids the obstruction.",
-      "positive": "An inverse-polynomial restricted-profile estimate at long lengths, or a justified nonlocal kernel with a full gap bound.",
+      "first_test": "Read the November 24 and 26 exact statements; retain all endpoint, length, scan and completed-update qualifications. Do not assume the unverified N^-5/N^-7 relabeling factors.",
+      "positive": "A uniform inverse-polynomial all-endpoint base bound, a long-length restricted-profile estimate, or an efficient exact implementation of the ideal growing-window kernel.",
       "negative": "A new scoped bottleneck at long lengths or for the proposed larger-update kernel; the universal fixed-slot obstruction is already proved.",
       "stop_or_pivot": "Do not seek a universal polynomial fixed-slot gap, infer full mixing from profile expansion, or substitute an auxiliary kernel without comparison.",
       "effort": "A bounded new target requires separate authorization; no historical campaign resume.",
@@ -4266,7 +4438,8 @@
       "**Graph-directed macro distinction:** HB-NONLOCAL-LIFT gives constructive all-endpoint pair-chain connectivity and a polynomial gap comparison, without by itself resolving quantitative mixing. HB-TREE-MACRO gives a separate fast completed-sequence sampler for minimal full-cycle words by decoding tree slides; it does not bound ordinary adjacent Hurwitz mixing.",
       "**New-question diagnostics (2026-11-10):** [Four research questions](notes/research-questions-2026-11-06.md) remain separate from the sampler frontier. The first [planted-subsequence experiment](experiments/20261110-planted-subsequence/report.md) gives exact planting laws, finite attacks and a conditional recursive sampler requiring stronger nonuniform security. The [growing-plant follow-up](experiments/20261110-planted-scaling/report.md) derives inverse-polynomial leakage for polylogarithmic or N-gate plants in an N^2-gate host in the explicit transposition model, refuting negligible-in-N security for those schedules. The N-gate host with a polylogarithmic plant remains unresolved. These author arguments have exact checks but no independent proof review; no hard regime or secure full-description construction is established. Q1-Q3 remain proposed directions.",
       "**Output-only planting (2026-11-17):** The [oracle-access follow-up](notes/planting-output-only-2026-11-17.md) separates the user's new interface from the gate-description attacks. Identity circuits are exactly indistinguishable by I/O; a secret rare input region gives a q rho transcript bound, and an independent uniform permutation mask hides any independent reversible block. Efficient PRF/PRP versions retain their explicit security assumptions. These are author proof notes without independent review or experiments; small edited-gate count alone supplies no generic hiding theorem.",
-      "**Conductance audit (2026-11-24):** The [supplied-draft audit](experiments/20261124-conductance-audit/report.md) establishes a balanced bottleneck for every fixed-size slot update, including {3,4,5}, at existential N between c m^(3/2)/(log m)^2 and C m^(3/2). Mixing takes at least exp(c m/(log m)^2) along this family. For pair heat bath at m>=C N log N, profile conductance is Theta(N^-3); the full rate still needs a fiber estimate. Expanded proofs are integrated into the main manuscript."
+      "**Conductance audit (2026-11-24):** The [supplied-draft audit](experiments/20261124-conductance-audit/report.md) establishes a balanced bottleneck for every fixed-size slot update, including {3,4,5}, at existential N between c m^(3/2)/(log m)^2 and C m^(3/2). Mixing takes at least exp(c m/(log m)^2) along this family. For pair heat bath at m>=C N log N, profile conductance is Theta(N^-3); the full rate still needs a fiber estimate. Expanded proofs are integrated into the main manuscript.",
+      "**Growing windows and reductions (2026-11-26):** The [follow-up audit](experiments/20261126-window-reductions/report.md) proves fast mixing of a specified ideal O(N log N) block bath and a two-direction all-endpoint base-length reduction for the pair chain. Smaller growing updates still meet the intermediate bottleneck. At quadratic length, spaced-prefix cuts have sharp N^-3 expansion and the full conductance question reduces to relabeling-invariant cuts, with a conservative N^-11 comparison. Omega(N^4) mixing is proved; superpolynomial mixing remains unresolved. Exact block implementation is separate."
     ],
     "routes": {
       "Surviving Samplers": [
@@ -4337,6 +4510,14 @@
         {
           "text": "Long-length pair-chain support cuts have conductance Theta(N^-3), but full mixing still needs a restricted-profile estimate. The universal local mixing target is refuted; m=N^2 remains unresolved.",
           "record": "HB-CONDUCTANCE-BOUNDS"
+        },
+        {
+          "record": "HB-WINDOW-REDUCTIONS",
+          "text": "Every endpoint at lengths Theta(N log N) is the sufficient base target for longer local mixing. The ideal growing-window bath is fast in completed updates; implementation remains separate."
+        },
+        {
+          "record": "HB-QUADRATIC-REDUCTIONS",
+          "text": "Quadratic superpolynomial bottlenecks can be sought among relabeling-invariant cuts, beyond well-separated prefix tests. Claimed sharper source exponents are unverified."
         }
       ],
       "Other Generator Families": [
@@ -4700,6 +4881,26 @@
       "evidence": [
         "conductance-proof",
         "conductance-ledger"
+      ]
+    },
+    {
+      "from": "HB-WINDOW-REDUCTIONS",
+      "to": "HB-ENDPOINT-BLINDNESS",
+      "type": "analogous-to",
+      "reason": "Reuses and rederives the overlap strategy with CB.7 smoothing at O(N log N), exact pair normalization and direct conductance comparison; does not upgrade unrelated October claims.",
+      "evidence": [
+        "window-proof",
+        "window-report"
+      ]
+    },
+    {
+      "from": "HB-WINDOW-REDUCTIONS",
+      "to": "HB-BASE",
+      "type": "analogous-to",
+      "reason": "Makes a precise all-endpoint base-length reduction manuscript-ready; does not certify every archived Hamiltonian comparison.",
+      "evidence": [
+        "window-proof",
+        "window-report"
       ]
     }
   ],

@@ -2,7 +2,7 @@
 
 # Research Project Map
 
-Documentary consolidation: 2026-11-24 (Europe/Berlin).
+Documentary consolidation: 2026-11-26 (Europe/Berlin).
 
 **Question:** Can we sample an ordered list of transpositions with product identity, nearly uniformly over all such lists of the prescribed length, in time polynomial in permutation degree N and output length m? Any algorithm is allowed; fast mixing of a particular walk is a separate goal.
 
@@ -21,6 +21,8 @@ Documentary consolidation: 2026-11-24 (Europe/Berlin).
 **Output-only planting (2026-11-17):** The [oracle-access follow-up](notes/planting-output-only-2026-11-17.md) separates the user's new interface from the gate-description attacks. Identity circuits are exactly indistinguishable by I/O; a secret rare input region gives a q rho transcript bound, and an independent uniform permutation mask hides any independent reversible block. Efficient PRF/PRP versions retain their explicit security assumptions. These are author proof notes without independent review or experiments; small edited-gate count alone supplies no generic hiding theorem.
 
 **Conductance audit (2026-11-24):** The [supplied-draft audit](experiments/20261124-conductance-audit/report.md) establishes a balanced bottleneck for every fixed-size slot update, including {3,4,5}, at existential N between c m^(3/2)/(log m)^2 and C m^(3/2). Mixing takes at least exp(c m/(log m)^2) along this family. For pair heat bath at m>=C N log N, profile conductance is Theta(N^-3); the full rate still needs a fiber estimate. Expanded proofs are integrated into the main manuscript.
+
+**Growing windows and reductions (2026-11-26):** The [follow-up audit](experiments/20261126-window-reductions/report.md) proves fast mixing of a specified ideal O(N log N) block bath and a two-direction all-endpoint base-length reduction for the pair chain. Smaller growing updates still meet the intermediate bottleneck. At quadratic length, spaced-prefix cuts have sharp N^-3 expansion and the full conductance question reduces to relabeling-invariant cuts, with a conservative N^-11 comparison. Omega(N^4) mixing is proved; superpolynomial mixing remains unresolved. Exact block implementation is separate.
 
 ## Surviving Samplers
 
@@ -46,6 +48,8 @@ Documentary consolidation: 2026-11-24 (Europe/Berlin).
 - Exact macro assembly is available. The connected primitive's exponential genus dependence must be removed or paid in expectation to obtain a global theorem in new regimes; the stronger uniform-polynomial sufficient condition remains open. [R-CONNECTED](notes/project-map/RESULTS.md#r-connected)
 - No all-length sampler is established, and no general hardness theorem explains the uncovered range. [G-ALL](notes/project-map/RESULTS.md#g-all)
 - Long-length pair-chain support cuts have conductance Theta(N^-3), but full mixing still needs a restricted-profile estimate. The universal local mixing target is refuted; m=N^2 remains unresolved. [HB-CONDUCTANCE-BOUNDS](notes/project-map/RESULTS.md#hb-conductance-bounds)
+- Every endpoint at lengths Theta(N log N) is the sufficient base target for longer local mixing. The ideal growing-window bath is fast in completed updates; implementation remains separate. [HB-WINDOW-REDUCTIONS](notes/project-map/RESULTS.md#hb-window-reductions)
+- Quadratic superpolynomial bottlenecks can be sought among relabeling-invariant cuts, beyond well-separated prefix tests. Claimed sharper source exponents are unverified. [HB-QUADRATIC-REDUCTIONS](notes/project-map/RESULTS.md#hb-quadratic-reductions)
 
 ## Other Generator Families
 

@@ -1,0 +1,67 @@
+The result covers **every identity circuit over the specified gate set at one length**, \(m=4r\). The main limitation is that \(4r\) is a special length: it is the **shortest length not divisible by three** at which these gates can compute the identity. That forces every circuit in the fiber to have a noncrossing structure. At your preferred length \(2N-2\), that structure disappears.
+
+## Which identity circuits are covered?
+
+Recall the parameters
+\[
+N=3r+1,\qquad 3\nmid r,\qquad
+\rho=(2\,3\,4)(5\,6\,7)\cdots(N-2\,\,N-1\,\,N),
+\qquad g_a=(1\,a)\rho.
+\]
+The alphabet is exactly \(A_N=\{g_2,\ldots,g_N\}\). The walk chooses five consecutive gates and allows a replacement with the same product.
+
+Take **\(N=7\)**. Then \(r=2\), \(\rho=(2\,3\,4)(5\,6\,7)\), and the proved length is **eight**. There are exactly 72 length-eight identity words over these six gates, and the result covers all 72. The count follows from the minimal star-factorization formula. genui{"citation":{"ref":"turn531359385view0"}}
+
+| Identity circuit | Length | What the result says |
+|---|---:|---|
+| \(g_2g_7g_5g_6g_7g_2g_3g_4\) | 8 | Covered. The walk can start here and mix over all 72 words. |
+| \((g_2g_4)^3\) | 6 | Outside the proved length, even though it uses the same gates. Here \(g_2g_4=\rho^2\). |
+| \(g_2^{12}\) | 12 | Outside the proved length. This is exactly \(2N-2\). Indeed, \(g_2=(1\,2\,3\,4)(5\,6\,7)\) has order 12. |
+| \(e^8\) | 8 | Requires adding an idle gate. In that enlarged alphabet this circuit is **isolated** under five-gate updates. |
+
+## Why length \(4r\) is special
+
+For a word \(g_{a_1}\cdots g_{a_L}\), move all copies of \(\rho\) to the right. This gives
+\[
+g_{a_1}\cdots g_{a_L}
+=t_1\cdots t_L\,\rho^L,
+\qquad
+t_j=(1\,\,\rho^{j-1}(a_j)).
+\]
+This is a position-by-position bijection. Thus a length-\(L\) identity word corresponds exactly to a length-\(L\) factorization of \(\rho^{-L}\) into ordinary star transpositions.
+
+- **If \(3\mid L\)**, the target is \(e\). Every even such length is possible, since the normalized word can consist of cancelling pairs.
+- **If \(3\nmid L\)**, the target consists of \(r\) disjoint three-cycles. Its minimum star-factorization length is exactly \(4r\). Every even length above that minimum is also possible by inserting cancelling pairs into the normalized word. genui{"citation":{"ref":"turn531359385view0"}}
+
+At \(L=4r\), minimality forces **each triple of \(\rho\) to occur exactly four times** among the gate indices. Moreover, two different triples cannot occur in the order \(A,B,A,B\), even as a subsequence. One triple can be nested inside another. For example, the covered eight-gate word in the table has triple pattern \(A\,B\,B\,B\,B\,A\,A\,A\). Irving and Rattan give the precise classification, including the allowed order within each triple. genui{"citation":{"ref":"turn437930070view1"}}
+
+A consequence is that **no covered circuit contains a proper nonempty contiguous identity subcircuit**. If it did, deleting that subcircuit would split \(4r\) into two shorter positive identity lengths. Both would have to be multiples of six, whereas \(4r\) is not divisible by three.
+
+For your project, the important substitution is
+\[
+L=2N-2=6r
+\quad\Longrightarrow\quad
+\rho^{-L}=e.
+\]
+At that length the full fiber is exactly equivalent, under the position-by-position relabeling, to **all ordinary star-transposition identity words of length \(6r\)**. This includes words that repeatedly use a few star labels. The minimal-factorization argument gives no conductance bound for that full fiber.
+
+## Why adding an idle gate or inverses matters
+
+Adding \(e\) already breaks five-gate mixing for every admissible \(r\ge2\). Starting from \(e^{4r}\), a move would have to create a positive identity word using at most five nonidle gates. The shortest such word has length six. So \(e^{4r}\) is isolated while the original identity circuits are still present. The enlarged full fiber has **zero conductance**.
+
+Adding inverses gives a stronger obstruction. Assign \(+1\) to each \(g_a\) and \(-1\) to each \(g_a^{-1}\), and let \(d(w)\) be their sum modulo three. **Every product-preserving rewrite of fewer than \(2r\) consecutive gates preserves \(d(w)\).** To see why, normalize the two windows as above. If their counts differed modulo three, their equal products would express \(\rho\) or \(\rho^{-1}\) using fewer than \(4r\) star transpositions, contradicting the minimum length.
+
+Consequently, for admissible \(r\ge4\), these two kinds of length-\(4r\) identity circuits lie in **different components** of the five-gate walk:
+
+- Every identity from the original positive alphabet has \(d=4r\bmod 3\ne0\).
+- The circuit \((g_ag_a^{-1})^{2r}\) has \(d=0\).
+
+So the existence result relies on three precise choices: the prescribed length \(4r\), the alphabet containing only the \(g_a\), and locality measured in consecutive **gate positions**. Each \(g_a\) itself moves all \(N\) points. If your requirement includes an inverse-closed gate set or freely available idle gates, this particular construction fails on the full fiber.
+
+---
+
+If you want, I can:
+
+- Explore extensions with inverses and idle gates
+- Analyze conductance bounds at length 2N-2
+- Classify identity circuits beyond length 4r

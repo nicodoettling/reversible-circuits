@@ -1,0 +1,103 @@
+Yes. For **ordinary transpositions**, the full identity fiber has a genuine bottleneck at some polynomial lengths. In particular, the usual two-gate walk is connected and has the uniform stationary distribution, yet its worst-case mixing time is **stretched exponential**. The obstruction also applies to any walk that changes a fixed number of gates per step.
+
+Let
+\[
+\Omega_{N,m}=\{(t_1,\ldots,t_m):t_i\text{ is a transposition in }S_N,\ t_1\cdots t_m=e\}.
+\]
+Every circuit in this set is included. For the two-gate walk, stay put with probability \(1/2\). Otherwise choose two consecutive gates uniformly and resample them uniformly among pairs with the same product.
+
+## Full-fiber conductance theorem
+
+There are absolute constants \(C,c_0,c_1>0\) such that, for all sufficiently large \(N\) and all even lengths in the range
+\[
+C N^{2/3}(\log N)^{4/3}\le m\le c_0N,
+\]
+the two-gate walk satisfies
+\[
+\boxed{\quad 0<\Phi(P)\le \exp(-c_1N^{1/4}).\quad}
+\]
+This includes \(m\asymp N^{3/4}\) and every sufficiently small fixed positive multiple of \(N\). Thus \(t_{\mathrm{mix}}(1/4)\ge \tfrac14\exp(c_1N^{1/4})\) on the **unrestricted** identity fiber. The mixing implication is the standard bottleneck inequality. genui{"citation":{"ref":"turn744037180search11"}}
+
+The graph really is connected. Hurwitz moves can take any identity factorization to one consisting of adjacent equal pairs with the same weighted support components. The two-gate heat bath can then recolor every pair to the same chosen transposition. This uses the Hurwitz-orbit classification for transposition factorizations of the identity. genui{"citation":{"ref":"turn744037180view0"}}
+
+## Where the bottleneck comes from
+
+Draw one edge on \([N]\) for each gate, counting repetitions. Each connected component of this support graph computes the identity on its own symbols, so its number of gates is even. Call a component with \(2k\) gates a component of size \(k\). Set
+\[
+K=\lfloor(N/8)^{1/4}\rfloor,\qquad
+A=\{w\in\Omega_{N,m}:\text{every component has size at most }K\}.
+\]
+
+**A circuit can leave \(A\) in one two-gate move only if it already has a component of size at least \(K/2\).** Rewriting two distinct transpositions preserves their support components. Rewriting a square \(t,t\) to \(s,s\) can merge at most two existing components and add one to their combined size.
+
+The counting argument gives
+\[
+\Pr_{\pi(\cdot\mid A)}
+  [\text{some component has size between }K/2\text{ and }K]
+  \le \exp(-\Omega(N^{1/4})).
+\]
+Moreover, \(\pi(A)\le1/2\) in the stated length range. These two facts give the conductance bound. The walk is allowed to leave \(A\) at every step. It takes a long time because very few words in \(A\) are positioned to leave.
+
+Here is the counting step in more detail. Write \(h=m/2\). Mark one component of size \(k\), keep its \(2k\) gate positions, and replace it by \(k\) disjoint transpositions, each occurring twice in any order. If \(n\) symbols are available after fixing the exterior, the number of replacement words is exactly
+\[
+D_{n,k}=\frac{(n)_{2k}(2k)!}{4^k k!},
+\]
+where \((n)_{2k}\) is the falling factorial. In the reverse direction, there are at most \(\binom hk\) ways to select the \(k\) double-edge components that were inserted.
+
+The number \(U_{n,k}\) of possible *connected* original words satisfies, for an absolute \(B\),
+\[
+U_{n,k}\le 2(2k)!\,B^k n^{k+1}
+\qquad\text{when } k^4\le n/2.
+\]
+To see the exponent, a connected identity word on \(v\) symbols gives an orientable Hurwitz map with \(v\) vertices, \(2k\) edges, \(v\) faces, and genus \(g=k+1-v\). The number of underlying unlabeled maps is at most \(B^k k^{4g}\). One encoding deletes a dual spanning tree to leave one face, then records a primal spanning tree and the insertion positions of the \(4g\) ends of the remaining handle edges. The deleted edges form noncrossing chords in the single face and have exponentially many encodings in \(k\). Assigning gate positions and vertex labels gives at most \((2k)!\,n^{k+1-g}\) choices. Summing over \(g\) gives the bound. The identity-word correspondence and Euler formula are described by Chapuy, Louf, and Walsh. genui{"citation":{"ref":"turn302077303view0"}}
+
+Since \(n\ge N-2m\), double counting the replacements shows that the expected number of size-\(k\) components under \(\pi(\cdot\mid A)\) is at most
+\[
+\lambda_k=\binom hk\sup_n\frac{U_{n,k}}{D_{n,k}}
+\le 2N\left(\frac{B' m}{N}\right)^k.
+\]
+Choose \(c_0\) small enough that \(B'm/N\le1/2\). Summing over \(K/2\le k\le K\) proves the claimed boundary estimate.
+
+The same calculation verifies that \(A\) is the smaller side of the cut. If there are \(a_k\) size-\(k\) components, successively replacing them by double edges bounds the number of words with that profile by \(D_{N,h}\prod_{k\ge2}\lambda_k^{a_k}/a_k!\). Consequently,
+\[
+|A|\le D_{N,h}\exp(O(m^2/N)),\qquad |A|^{1/m}\le O(N\sqrt m).
+\]
+For the full fiber, use just \(s=\lfloor m/\log m\rfloor\) symbols. Counting two half-words with matching products and applying Cauchy–Schwarz gives
+\[
+|\Omega_{N,m}|\ge \frac{\binom{s}{2}^{\,m}}{s!},
+\qquad
+|\Omega_{N,m}|^{1/m}\ge \Omega\!\left(\frac{m^2}{\log^2 m}\right).
+\]
+The latter exceeds the bound for \(A\) by a constant factor throughout the theorem’s range.
+
+**Changing the local rules does not remove this bottleneck if each move changes at most \(b=O(1)\) transpositions.** The positions can even be nonconsecutive. Adding \(b\) edges can combine pieces of at most \(b+1\) old components into one new component. Leaving \(A\) therefore still requires an old component of size \(\Omega(K/(b+1))\). The same count gives \(\Phi\le\exp(-\Omega_b(N^{1/4}))\) for any such walk with uniform stationary distribution.
+
+## What we can say at \(m=2N-2\) and at other lengths
+
+There is a separate, exact cut calculation valid for **every even \(m\)**. Let \(H_{n,m}=|\Omega_{n,m}|\), \(d_n=\binom n2\), and let \(E\) be the event that symbol \(N\) never appears. Put \(p=H_{N-1,m}/H_{N,m}\). For the lazy two-gate heat bath,
+\[
+\boxed{\displaystyle
+\Phi(P)\le
+\frac{p}{\min\{p,1-p\}}\,
+\frac{d_{N-1}}{N}\,
+\frac{H_{N-1,m-2}}{H_{N-1,m}}.}
+\]
+Indeed, starting uniformly in \(E\), the chosen pair must be a square to introduce \(N\). Its exact probability of being a square is \(d_{N-1}H_{N-1,m-2}/H_{N-1,m}\). The refreshed transposition then touches \(N\) with probability \(2/N\), and the laziness contributes \(1/2\).
+
+In particular, for **every** \(m=\Theta(N)\), including \(m=2N-2\), this gives
+\[
+\Phi(P)=O\!\left(\frac{\log^5 N}{N^3}\right),
+\qquad
+t_{\mathrm{mix}}(1/4)=\Omega\!\left(\frac{N^3}{\log^5 N}\right).
+\]
+The estimates use two facts. First, the even return counts are log-convex by Cauchy–Schwarz, so \(H_{n,m-2}/H_{n,m}\le H_{n,m}^{-2/m}\). Second, the subgroup count above gives \(H_{n,m}^{1/m}\gtrsim N^2/\log^2 N\) for \(n=N-1,N\). It also implies that a uniform word uses at least \(cN/\log N\) symbols with high probability, since words on at most \(s\) symbols number at most \(\binom Ns d_s^m\). By symmetry, \(1-p\gtrsim1/\log N\).
+
+So a **universal rapid-mixing theorem for bounded-size rewrites of ordinary transpositions is false**. The stretched-exponential obstruction concerns worst-case starts in the small-component set. At the specific length \(2N-2\), the calculation proves the cubic-up-to-logarithms mixing lower bound; whether the worst-case mixing time there is superpolynomial remains unresolved by this argument.
+
+---
+
+If you want, I can:
+
+- Explain the full-fiber conductance theorem proof steps in detail
+- Describe the significance of the parameter K and its role in the bottleneck argument
+- Compare mixing time behavior for different local rewrite sizes b in the two-gate walk

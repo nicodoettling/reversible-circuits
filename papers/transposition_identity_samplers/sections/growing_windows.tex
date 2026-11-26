@@ -1,0 +1,162 @@
+\section{Growing Windows and Reduction to a Base Length}
+\label{sec:growing-windows}
+
+The statements below distinguish two answers to the growing-window question.
+Small growing updates still encounter the balanced bottleneck, whereas a
+specified ideal heat bath with windows of order $N\log N$ mixes rapidly at
+every feasible length.  The latter counts completed exact conditional draws;
+it does not supply a polynomial-time implementation of those draws over all
+transpositions.  All products act rightmost first and windows do not wrap.
+
+\begin{corollary}[Obstruction for growing update budgets]
+\label{cor:growing-obstruction}
+Use the parameters $N_m,K$ and balanced event $A_K$ of
+Theorem~\ref{thm:balanced-bottleneck}.  Let $b=b_m\ge1$ be integer and
+$b=o(m/(\log m)^3)$.  Every kernel $L_m$ with uniform stationary law on
+$\Omega(N_m,m)$ that changes at most $b$ gate positions per step satisfies
+\[
+ \frac{Q_{L_m}(A_K,A_K^c)}{\min\{\pi(A_K),\pi(A_K^c)\}}
+ \le C N_m4^{-s_b},\qquad
+ s_b=\left\lfloor\frac{K-b/2}{b+1}\right\rfloor+1.
+\]
+Here $s_b/\log m\to\infty$.  At time $t_m=\lfloor2^{s_b}\rfloor$, a
+$1-o(1)$ fraction of starting words have TV distance at least $1/2-o(1)$.
+In particular, mixing is superpolynomial in $N_m,m$.  Neither consecutive
+positions nor reversibility is required.
+\end{corollary}
+\begin{proof}
+Equation (CB.6) gives the cut bound, with an absolute constant because its
+counting estimate is uniform in $b$.  Since
+$K\gtrsim m/(\log m)^2$ and $b=o(m/(\log m)^3)$,
+$s_b\asymp K/(b+1)=\omega(\log m)$.  Thus
+$t_m Q_{L_m}(A_K,A_K^c)\le C N_m2^{-s_b}=o(1)$.
+The stationary crossing and Markov-inequality argument in
+Theorem~\ref{thm:balanced-bottleneck} proves the individual-start claim.
+The selected $N_m$ is polynomially bounded in $m$.
+\end{proof}
+
+For the positive result define the endpoint fiber
+$\Omega_g(N,m)=\{w\in T_N^m:\prod_iw_i=g\}$, with its uniform law.
+Let $\mu_{N,r}$ be the product distribution of $r$ independent uniform
+transpositions.  By (CB.7), the choice
+\[
+ B=\lceil8N\log(N+1)\rceil
+ \quad\hbox{gives}\quad
+ \left|\frac{N!}{2}\mu_{N,r}(x)-1\right|\le\eta:=\frac1{16}
+ \quad(r\ge B,\ \operatorname{sgn}(x)=(-1)^r).       \tag{GW.1}
+\]
+We take $N\ge3$; the $N=2$ fibers are singletons.
+
+\begin{theorem}[Rapid mixing of an ideal growing-window heat bath]
+\label{thm:growing-window-mixing}
+For every nonempty $\Omega_g(N,m)$, set $q=\max\{1,\lfloor m/B\rfloor\}$.
+For $q\ge2$, partition the word into $q$ blocks: the first $q-1$ have
+length $B$ and the last has length in $[B,2B-1]$.  With probability $1/2$
+hold; otherwise choose one of the $d=q-1$ adjacent block pairs uniformly
+and refresh its union by an exact uniform same-product draw.  Call this
+kernel $\mathcal B$.  For $q=1$, refresh the whole word with probability
+$1/2$.  Then every move changes at most $\min\{m,3B\}$ positions and
+\[
+ \operatorname{gap}(\mathcal B)\ge\frac1{16(q-1)},\qquad
+ \Phi(\mathcal B)\ge\frac1{32(q-1)}\quad(q\ge2),       \tag{GW.2}
+\]
+\[
+ t_{\rm mix}(\mathcal B,\epsilon)
+ \le \lceil4d\log(2d/\epsilon)\rceil
+      +\lceil2d\log(2q/\epsilon)\rceil.              \tag{GW.3}
+\]
+For $q=1$ the gap is $1/2$ and $t_{\rm mix}\le\lceil\log_2(1/\epsilon)\rceil$.
+Singleton gaps and conductances may be set to one.  These bounds are
+uniform in the endpoint $g$ and count ideal block updates.
+\end{theorem}
+\begin{proof}
+Let $x_i$ be the prefix product at block boundary $i$, with $x_0=e,x_q=g$.
+Their joint density is proportional to
+$\prod_i\mu_{N,L_i}(x_{i-1}^{-1}x_i)$.
+Given these boundaries, block interiors are independent uniform bridges.
+Refreshing blocks $i,i+1$ first heat-bath updates $x_i$ and then draws
+both interiors conditional on the new boundaries.
+
+By (GW.1), every conditional law of $x_i$ dominates
+$a=((1-\eta)/(1+\eta))^2$ times the uniform law on its prescribed parity
+class.  Any two such conditionals admit a coupling with disagreement
+probability at most $\beta=1-a\le64/289$.  For boundary vectors differing
+only at $j$, updating $j$ erases the disagreement; only $j-1,j+1$ can
+create another.  Half-laziness therefore gives expected Hamming distance
+at most $1-(1-2\beta)/(2d)\le1-1/(4d)$.
+Every parity-compatible boundary vector is feasible by (GW.1), so
+telescoping along Hamming paths extends the contraction to any pair of
+vectors.  After $t$ steps their mismatch probability is at most
+$d e^{-t/(4d)}$.
+
+Once the boundaries agree, use identical subsequent draws.  Each block
+is refreshed with probability at least $1/(2d)$ per step, so a further
+$t$ steps leave any interior uncoupled with probability at most
+$q e^{-t/(2d)}$.  This proves (GW.3).  Splitting a long time into two
+equal phases gives exponential decay at rate $1/(8d)$.  Applying that
+bound to an eigenfunction of this finite reversible half-lazy kernel
+gives gap at least $1-e^{-1/(8d)}\ge1/(16d)$.
+The indicator variational inequality gives $\Phi\ge\operatorname{gap}/2$.
+\end{proof}
+
+\begin{theorem}[All-endpoint base-length reduction]
+\label{thm:base-length-reduction}
+Let $P_{N,\ell,g}$ be the half-lazy adjacent pair heat bath on
+$\Omega_g(N,\ell)$, with the same normalization as $P_{N,m}$.
+Define
+\[
+ \phi_* =\min_{\substack{2B\le\ell\le4B-2\\
+                   \operatorname{sgn}(h)=(-1)^\ell}}
+                    \Phi(P_{N,\ell,h}),\qquad
+ \gamma_* =\min_{\substack{2B\le\ell\le4B-2\\
+                   \operatorname{sgn}(h)=(-1)^\ell}}
+                    \operatorname{gap}(P_{N,\ell,h}).
+\]
+For every $m\ge2B$ and feasible $g$,
+\[
+ \Phi(P_{N,m,g})\ge\frac{2B-1}{32(m-1)}\phi_*,\qquad
+ \operatorname{gap}(P_{N,m,g})
+       \ge\frac{2B-1}{16(m-1)}\gamma_*.              \tag{GW.4}
+\]
+The implication is conditional as a rapid-mixing statement: no
+inverse-polynomial lower bound for $\phi_*$ or $\gamma_*$ is supplied.
+\end{theorem}
+\begin{proof}
+Use the block partition from Theorem~\ref{thm:growing-window-mixing},
+writing $I_i$ for a neighboring union.  Its length $\ell_i$ lies in
+$[2B,4B-2]$.  For $f=1_A$, the local conditional cut with mass $p$
+satisfies $Q_i\ge\phi_*\min(p,1-p)\ge\phi_*p(1-p)$.
+The ideal-chain Poincare bound gives
+\[
+ \operatorname{Var}_\pi f
+ \le8\sum_i\mathbb E\operatorname{Var}(f\mid I_i^c)
+ \le\frac8{\phi_*}\sum_i\mathbb E Q_i
+ \le\frac{16(m-1)}{(2B-1)\phi_*}Q_P(A,A^c).
+\]
+For the last inequality, each adjacent bond is in at most two unions,
+and its local coefficient $1/[2(\ell_i-1)]$ is at most
+$(m-1)/(2B-1)$ times its global coefficient.  If $\pi(A)\le1/2$,
+$\operatorname{Var}1_A\ge\pi(A)/2$, proving the conductance inequality.
+For general $f$, use the local Poincare inequality with $\gamma_*$ in
+place of the conditional cut bound; this gives the gap inequality.
+\end{proof}
+
+The two useful directions are now explicit.  A uniform inverse-polynomial
+bound over \emph{all endpoints} at lengths in $[2B,4B-2]$ implies polynomial
+mixing at every longer polynomial length, since
+$\log|\Omega_g(N,m)|\le m\log\binom N2$ and Cheeger's inequality converts
+conductance to gap.  Conversely, a superpolynomially small conductance at
+some polynomial length $m\ge2B$, including $m\asymp N^2$, forces
+superpolynomially small conductance in at least one of these base fibers.
+This is a contrapositive, not a claim that every short bottleneck persists
+at every longer length.  It neither controls $m<2B$ nor replaces all
+endpoints by $h=e$.  The intermediate bottleneck family has $m\ll N\log N$
+and therefore does not resolve the base-length question.
+
+The ideal-chain theorem settles a mixing question for a specified growing
+window rule, not for every growing window size or scan rule.  In particular,
+when $m<2B$ it uses a whole-word refresh.  Exact large-block sampling cost
+remains a separate obligation.  Odd identity lengths are empty; $m=0$ is
+the empty singleton and $m=2$ uses the whole-word rule.  None of these
+statements turns a bound polynomial in $N,m$ into a bound polynomial in
+the wire count $\log_2N$.

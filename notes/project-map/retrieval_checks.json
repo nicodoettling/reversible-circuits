@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-11-24",
+  "date": "2026-11-26",
   "scope": "Same-session documentary navigation checks against listed primary statement/verdict artifacts. Required-text tests are structural regression checks, not proof verification.",
   "checks": [
     {
@@ -299,6 +299,48 @@
       ],
       "answer": "No. It refutes a universal bound for fixed-slot uniform-stationary walks along an existential intermediate family. At long lengths the pair profile conductance is Theta(N^-3), with restricted-profile conductance still unresolved. Direct sampling is a different problem.",
       "initial_retrieval_issue": "Avoid upgrading a local algorithm obstruction to sampling hardness, or profile expansion to full mixing."
+    },
+    {
+      "id": "Q-WINDOW-TRANSFER",
+      "question": "Do growing windows solve local mixing for every range, and what are the two directions of the base reduction?",
+      "records": [
+        "HB-WINDOW-REDUCTIONS"
+      ],
+      "source_ids": [
+        "window-proof",
+        "window-report"
+      ],
+      "expected_status": {
+        "HB-WINDOW-REDUCTIONS": "accepted-reviewed"
+      },
+      "required_text": [
+        "all endpoints",
+        "m<2B",
+        "completed"
+      ],
+      "answer": "The specified ideal O(N log N) bath mixes rapidly in completed draws. All-endpoint base bounds imply longer polynomial mixing, and long bottlenecks force a base endpoint bottleneck. Shorter lengths, identity-only premises and implementation are not settled.",
+      "initial_retrieval_issue": "Recovered shared excerpts distinguish original transpositions from twisted-star gates and padded targets."
+    },
+    {
+      "id": "Q-QUADRATIC-QUOTIENT",
+      "question": "Which quadratic relabeling comparison was actually proved?",
+      "records": [
+        "HB-QUADRATIC-REDUCTIONS"
+      ],
+      "source_ids": [
+        "quadratic-proof",
+        "window-report"
+      ],
+      "expected_status": {
+        "HB-QUADRATIC-REDUCTIONS": "accepted-reviewed"
+      },
+      "required_text": [
+        "N^-11",
+        "N^-5/N^-7",
+        "unresolved"
+      ],
+      "answer": "The conservative N^-11 minimum comparison at m=2 floor(N^2/2) is proved. The sharper supplied exponents are unverified; full superpolynomial quadratic mixing remains unresolved despite the Omega(N^4) lower bound.",
+      "initial_retrieval_issue": "The source sketch omitted the congestion encoding; full reconstruction gives a weaker polynomial sufficient for the qualitative reduction."
     }
   ]
 }

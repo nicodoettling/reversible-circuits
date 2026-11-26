@@ -1,0 +1,75 @@
+Take the gate set to be **all \(d=\binom N2\) ordinary transpositions**. I get two conductance theorems for the same two-gate update. Both state spaces are connected, and both results hold at every even length \(m\ge4\).
+
+| Family of identity circuits | Conductance of the lazy two-gate walk |
+|---|---|
+| The whole circuit touches at most three symbols, with the triple allowed to vary | \(\displaystyle 0<\Phi\le \frac{3}{3^{m-1}-3}\) |
+| Every prefix permutation is at distance at most two transpositions from the identity, with the active symbols allowed to change throughout the circuit | \(\displaystyle \Phi\ge \frac{1}{8(m-1)d^5}\) |
+
+The second family **contains the first**. At \(m=2N\), this gives an exponentially slow connected example and a larger connected family with conductance \(\Omega(N^{-11})\). The positive result also extends to a family around **any** starting identity circuit, even one whose halfway permutation moves all \(N\) symbols.
+
+## The local walk
+
+Write a circuit as \(w=(t_1,\ldots,t_m)\), and write \(X_i=t_1\cdots t_i\), with \(X_0=X_m=e\). With probability \(1/2\), stay put. Otherwise choose \(i\) uniformly from \(1,\ldots,m-1\) and replace \((t_i,t_{i+1})\) uniformly among all pairs \((s,u)\) satisfying
+\[
+su=t_it_{i+1}
+\]
+and belonging to the chosen family after replacement. There are at most \(d\) candidates, since choosing \(s\) determines \(u\). Each move preserves functionality and can be verified in polynomial time. In prefix coordinates, it changes only \(X_i\). The heat bath is reversible for the uniform distribution.
+
+## A connected family where mixing really is exponentially slow
+
+Fix \(N\ge4\). Let \(A\) consist of circuits whose support is **exactly** \(S=\{1,2,3\}\), inside the family of circuits touching at most three symbols.
+
+There are \(3^{m-1}-3\) circuits in \(A\). Indeed, we can choose the first \(m-1\) transpositions on \(S\) arbitrarily. Their product is odd in \(S_3\), hence is itself a transposition, which uniquely determines the last gate. We subtract the three words that repeat a single transposition throughout.
+
+**To leave \(A\), every gate outside the selected pair must be the same transposition \(t\).** Otherwise those exterior gates already use all three symbols of \(S\), so a two-gate edit cannot change the support and stay in the family. Since \(m\) is even and the whole product is the identity, the selected pair must then be a square \(s,s\). For each location there are just three choices for \(t\) and two choices for \(s\).
+
+In fact the stationary one-step exit probability from \(A\) is exactly
+\[
+\frac{Q(A,A^c)}{\pi(A)}
+=\frac{3(2N-5)}{(2N-3)(3^{m-1}-3)}.
+\]
+The graph is connected. On a fixed triple, every odd permutation is one transposition away from every even permutation, so its interior prefix states can be changed one at a time. Triples sharing two symbols are connected through the word repeating their shared transposition. For \(N=4\), \(A\) has asymptotically one quarter of the stationary mass. Thus a macroscopic part of this connected graph takes exponentially long to escape. The standard bottleneck bound gives \(t_{\mathrm{mix}}(1/4)=\Omega(3^m)\). genui{"citation":{"ref":"turn872757243search15"}}
+
+## A positive theorem around any starting circuit
+
+Let \(C\) be **any** length-\(m=2h\) transposition identity circuit. Record its even prefix permutations
+\[
+c_0=e,\ c_1,\ldots,c_h=e,
+\qquad c_j=C_1\cdots C_{2j}.
+\]
+Write \(\mathcal N(g)=\{gt:t\text{ is a transposition}\}\). Define \(\mathcal F(C)\) to contain every identity circuit \(w\) satisfying
+\[
+X_{2j-1}(w)\in \mathcal N(c_{j-1})\cap\mathcal N(c_j)
+\qquad(1\le j\le h).
+\]
+The **even prefixes of \(w\) are free to change**. No gate position is reserved for padding.
+
+**Theorem.** For \(N\ge3\), the two-gate walk on \(\mathcal F(C)\) is connected, has uniform stationary distribution, and satisfies
+\[
+\boxed{\qquad
+\frac{1}{8(m-1)d^5}\ \le\ \Phi\ \le\ \frac{1}{2(m-1)}.
+\qquad}
+\]
+Moreover, \(\lvert\mathcal F(C)\rvert\ge 2^{m-1}\) **for every reference circuit \(C\)**. Each odd prefix has at least two choices because a product of two transpositions has at least two ordered spellings. Once the odd prefixes are chosen, each interior even prefix also has at least two choices, since its two neighboring odd prefixes share \(c_j\) as a neighbor.
+
+**Why the conductance bound holds.** To go from \(x\) to \(y\), process the odd prefixes from left to right. At odd prefix \(2j-1\), do the following:
+
+1. Set the even prefix immediately to its right to \(c_j\).
+2. Change the odd prefix to its value in \(y\). Its two neighbors are now \(c_{j-1}\) and \(c_j\), so this is legal.
+3. Restore the even prefix immediately to its left to its value in \(y\).
+
+Skip the fixed endpoints. Every step is one allowed two-gate move.
+
+The important part is how many routes can use the same transition. Fix a directed transition. Its location determines the stage \(j\) up to two choices. Make a complementary circuit using the prefix from \(x\) and the suffix from \(y\), joined at the corresponding reference even prefix. From this complementary circuit and the state at the transition, we can recover all odd prefixes of both \(x,y\). Only the two even prefixes next to the edit can be missing from either circuit. Each missing value has at most \(d\) choices. Consequently, at most \(2|\mathcal F(C)|d^4\) ordered pairs use that transition. Every pair on opposite sides of a cut must cross it, and each legal transition has probability at least \(1/[2(m-1)d]\). This gives the displayed lower bound. The upper bound follows by taking a cut determined by the first gate, which can change only when \(i=1\).
+
+**Why the second row of the table follows.** Choose \(c_j=e\) for all \(j\). Then the odd prefix permutations can be **any sequence of transpositions**, and the even prefixes are exactly the compatible permutations at distance at most two from \(e\). A circuit in this family can use all \(N\) symbols and can go its entire length without an interior return to the identity. What removes the exponential bottleneck is the ability to bring in a new symbol in one part of the word while the old symbols are still in use elsewhere.
+
+The limitation for your application is precise. A **fixed** reference gives one common uniform target for every starting circuit in \(\mathcal F(C)\). Every member stays within two transpositions of that reference at each prefix. Two arbitrary equivalent circuits can have very different prefix permutations, and the theorem does not establish rapid mixing on the unrestricted identity fiber.
+
+---
+
+If you want, I can:
+
+- Explain the significance of the conductance bounds for mixing times
+- Provide a concrete example illustrating the two-gate walk transitions
+- Discuss further implications for circuit design and sampling

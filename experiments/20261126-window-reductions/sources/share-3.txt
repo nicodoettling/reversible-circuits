@@ -1,0 +1,93 @@
+For the same twisted-star gate set, **the five-gate walk has conductance exactly zero for every even \(m>4r\)** once \(N=3r+1\) and \(r\ge 11\). This holds even if we allow **every** product-preserving rewrite of five consecutive gates. At each of those lengths, the full identity fiber contains an isolated circuit.
+
+There is also a positive general-length theorem. On the **same gate set and the same full identity fiber**, windows of width \(O(N\log N)\) suffice for inverse-polynomial conductance at every nonempty length. The distinction is how many consecutive gates one move can change.
+
+## The state space and the obstruction
+
+Recall the alphabet. Let \(N=3r+1\), with \(3\nmid r\), and set
+\[
+t_a=(1\,a),\qquad
+\rho=(2\,3\,4)(5\,6\,7)\cdots(N-2\,\,N-1\,\,N),\qquad
+g_a=t_a\rho .
+\]
+There are \(N-1\) gates. The state space \(\Omega_m\) consists of **all** ordered length-\(m\) words in these gates whose product is the identity. A width-\(k\) move replaces at most \(k\) consecutive gates by the same number of gates with the same product.
+
+**Zero-conductance theorem.** Let \(k\ge2\) and \(r\ge2k+1\). Every width-\(k\) walk on \(\Omega_m\) with uniform stationary distribution has \(\Phi=0\) in either of these ranges:
+
+- Every even \(m>4r\).
+- Every multiple of six \(m\ge4k-2\), including those below \(4r\).
+
+At the particular length \(m=2N-2\), the obstruction is stronger. **Even width \(\lfloor N/2\rfloor\) leaves an isolated circuit.**
+
+The reason is visible directly in a circuit. Given its gate labels \(a_1,\ldots,a_m\), define \(u_j=\rho^{j-1}(a_j)\). Then
+\[
+g_{a_1}\cdots g_{a_m}
+=t_{u_1}\cdots t_{u_m}\rho^m.
+\]
+This is a position-by-position bijection, so it preserves the width of every rewrite. In these coordinates, there is an exact test:
+
+> A circuit is isolated under all width-\(k\) rewrites if and only if every window of at most \(k\) normalized labels has pairwise distinct labels.
+
+Indeed, distinct labels \(i_1,\ldots,i_d\) produce the cycle \((1\,i_d\,\ldots\,i_1)\). Any length-\(d\) spelling must use each of those \(d\) leaves, and the cycle determines their order. Conversely, two closest equal labels in a window enclose either a square, which can be refreshed, or a leaf cycle, which can be respelled starting at a different leaf.
+
+For a concrete example, take **\(N=13\) and \(m=24\)**. Concatenate these two rows of normalized labels:
+\[
+\begin{aligned}
+&(2,12,11,10,9,8,7,6,5,4,3,2),\\
+&(7,8,9,10,11,12,2,3,4,5,6,7).
+\end{aligned}
+\]
+The two rows spell inverse cycles, and \(\rho^{24}=e\), so this is an identity circuit. Check any six consecutive labels, including across the join. They are all distinct. **There is no possible first move**, even though the same fiber also contains, for example, the circuit with all normalized labels equal to \(2\).
+
+## Why this happens at general lengths
+
+Write \(E(P;x)\) for the star spelling of a leaf cycle \(P=(x\,x_1\,\ldots\,x_{d-1})\) that starts at \(x\):
+\[
+E(P;x)=t_x t_{x_{d-1}}\cdots t_{x_1}t_x.
+\]
+Its only repeated label is \(x\), at distance \(d\). The following constructions give a frozen circuit at **each** length in the theorem.
+
+**When \(6\mid m\)**, the normalized target is the identity. Take a cycle \(P\) on \(2k-2\) leaves. Spell \(P\) and \(P^{-1}\) starting at leaves halfway apart around the cycle. The resulting word has length \(4k-2\), and every \(k\)-window has distinct labels. To reach any larger even length, surround the spelling of \(P\) by \(Y\) and \(Y^{-1}\), where \(Y\) cycles through \(k\) unused leaves. Every letter of \(Y\) commutes with the permutation \(P\), and the short windows still have distinct labels. Taking \(P\) on \(N-2\) leaves instead gives the stronger example at \(m=2N-2\).
+
+**When \(3\nmid m\)**, the normalized target \(\rho^{-m}\) moves every leaf. Write it as \(\prod_{i=1}^r(a_i\,b_i\,c_i)\). The useful factorization is
+\[
+\begin{aligned}
+P&=(a_1\,b_1\,a_2\,b_2\,\cdots\,a_r\,b_r),\\
+Q&=(b_r\,c_r\,b_{r-1}\,c_{r-1}\,\cdots\,b_1\,c_1).
+\end{aligned}
+\]
+Direct multiplication gives \(PQ=\rho^{-m}\). For any even \(m>4r\), take
+\[
+Y\,E(P;a_1)\,Y^{-1}\,E(Q;b_{k+1}),
+\qquad |Y|=\frac{m-4r-2}{2},
+\]
+where \(Y\) cycles through \(c_1,\ldots,c_k\). These letters commute with \(P\). At the join, the last \(k-1\) labels of \(E(P;a_1)\) belong to triples with indices at most \(k\), while the first \(k-1\) labels of \(E(Q;b_{k+1})\) belong to triples with indices greater than \(k\). Thus every short window is rigid. In this case the frozen circuit uses **every leaf**, so requiring full support does not remove the obstruction.
+
+## A positive conductance theorem for every length
+
+Let \(B=\lceil C N\log(N+1)\rceil\) for a sufficiently large absolute constant \(C\), and let \(q=\max\{1,\lfloor m/B\rfloor\}\). The following walk on \(\Omega_m\) has
+\[
+\boxed{\displaystyle \Phi\ge \frac{c}{q}}
+\]
+for an absolute constant \(c>0\).
+
+1. Divide the word into \(q\) consecutive blocks. The first \(q-1\) have length \(B\), and the last takes the remainder.
+2. With probability \(1/2\), stay put. Otherwise choose a uniformly random neighboring pair of blocks and resample their union uniformly among words of the same length and product. If \(q=1\), resample the single block.
+
+Each move changes at most \(\min(m,3B)\) consecutive gates. Verification consists of comparing the two block products and checking that the exterior agrees.
+
+The conductance bound comes from looking at the partial products at block boundaries. After \(B\) random star transpositions, each permutation of the required parity has probability within 1% of \(2/N!\). This follows from the \(L^2\) estimate for the star walk by pairing the positive and negative eigenvalues of the walk without holding and doubling the time. Consequently, changing a neighboring boundary changes the conditional distribution at a boundary by less than \(0.1\) in total variation. Updating a disagreeing boundary erases that disagreement, while only its two neighbors can create another. This gives contraction at rate \(1-\Omega(1/q)\). Once the boundaries agree, updating a pair couples its interiors as well. The full walk therefore has spectral gap \(\Omega(1/q)\), giving the displayed conductance bound. genui{"citation":{"ref":"turn301807965view0"}}
+
+The block update is also **exactly sampleable in expected polynomial time**. The Goulden–Jackson formula counts star factorizations of arbitrary length on a specified used support. Summing over the number of optional fixed leaves used gives the number of completions after each possible next gate. These counts require only polynomial-degree univariate coefficient computations. They let us sample a uniform replacement one gate at a time. genui{"citation":{"refs":["turn324153147view0","turn324153147view1"]}}
+
+If you also want **polynomially many possible moves per circuit**, there is an explicit variant. Order the \(M\) valid block replacements lexicographically and change the current rank by \(\pm2^j\bmod M\), choosing \(j\) from \(O(B\log N)\) possibilities. The same counts compute ranks and their inverses. For each nonzero cyclic Fourier frequency, at least one shift puts its phase between a quarter-turn and a half-turn, up to sign. The resulting block walk has gap \(\Omega(1/(B\log N))\), giving full-fiber conductance \(\Omega(1/(qB\log N))\). This still gives polynomial mixing for every \(m=\mathrm{poly}(N)\).
+
+For your original locality requirement, the remaining gap is fairly narrow. At **every even \(m>4r\)**, some circuit forces the window width to be **\(\Omega(N)\)**. Width **\(O(N\log N)\)** suffices. At linear \(m\) the positive walk can refresh the whole circuit, whereas for \(m\gg N\log N\) it changes a vanishing fraction of the circuit per step. Whether width \(O(N)\) suffices throughout that long-word regime is the question these bounds leave open.
+
+---
+
+If you want, I can:
+
+- Explain zero conductance theorem with detailed examples
+- Describe the positive conductance block resampling method in detail
+- Discuss open questions and potential improvements on locality bounds

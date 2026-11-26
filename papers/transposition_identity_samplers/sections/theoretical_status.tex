@@ -161,12 +161,19 @@ lengths Theorem~\ref{thm:long-profile-conductance} supplies a profile
 conductance bound for the pair chain, but leaves its restricted-fiber
 conductance unestimated.
 
-For the large-block route, $K_m$ samples the uniform bridge in one non-lazy
-step, but this is too global to implement locally.  A useful mesoscopic
-$K_L$, with $L<m$, would require parity-aware bridge smoothing and a
-one-dimensional block-dynamics contraction theorem.  Local simulation is false
-for $L=2$ in general.  For $L\ge 6$, the remaining requirement is a
-quantitative pair-resampling and congestion problem.
+For the large-block route, Theorem~\ref{thm:growing-window-mixing} now
+provides parity-aware contraction for an explicit ideal overlapping
+heat bath with maximum window $O(N\log N)$.  It is mesoscopic when
+$m\gg N\log N$ and uses a whole-word refresh when $m<2B$.
+Exact conditional implementation and quantitative local simulation remain
+separate obligations.  Theorem~\ref{thm:base-length-reduction} reduces
+long-length pair-chain mixing to all endpoints at lengths
+$\Theta(N\log N)$; an identity-only premise is insufficient for that
+comparison.  Corollary~\ref{cor:growing-obstruction} extends the negative
+result to certain growing update sizes.  At quadratic length,
+Theorems~\ref{thm:spaced-prefix-cuts} and~\ref{thm:relabeling-reduction}
+rule out well-separated prefix tests and reduce the remaining conductance
+question to relabeling-invariant cuts, respectively.
 Lemma~\ref{lem:all-endpoint-pair-connectivity} settles connectivity;
 a useful gap comparison still needs bounds on path lengths and congestion.
 Theorem~\ref{thm:balanced-bottleneck} prevents polynomial comparison

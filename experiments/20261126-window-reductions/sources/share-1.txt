@@ -1,0 +1,91 @@
+Yes. There are two different positive results here. **For ordinary transposition circuits, \(N\) idle gates suffice to randomize every input circuit of a given length and functionality using two-gate moves.** There is also a generating set of size \(N-1\) for which we can prove rapid mixing on the **entire unpadded identity fiber** at a linear circuit length.
+
+## 1. Every transposition circuit can be randomized after \(N\) idle gates
+
+Let
+\[
+A=\{e\}\cup\{(a\,b):1\le a<b\le N\}.
+\]
+Take **any** length-\(m\) circuit \(C\in A^m\) computing \(\sigma\in S_N\), and initialize the walk at \(C\,e^N\). There is one common state space \(\mathcal F_{m,\sigma}\) for every such \(C\). The walk mixes to uniform on this family, and **all \(m\) original gate positions can change**. For instance, the same walk randomizes both \((12)(23)(12)(13)\) and \((12)(12)(34)(34)\) after padding. The first circuit has no adjacent cancellation.
+
+**The family.** A state is a circuit \(xw\) computing \(\sigma\). The prefix \(x\in A^m\) is arbitrary. The suffix \(w\) has \(N\) gates. To define its allowed forms, put
+\[
+D_j=\{e,(1\,j),\ldots,(j-1\,j)\}.
+\]
+For some \(1\le k\le N\), the suffix must have the form
+\[
+w=d_N\cdots d_{k+1}\;s\;d_k\cdots d_2,
+\qquad d_j\in D_j,
+\]
+where \(s\) is idle or is a transposition on \(\{1,\ldots,k\}\). Thus the suffix is a standard permutation factorization with one extra gate that can move through it. The index \(k\) is only a membership test. The states are ordinary, unmarked gate strings.
+
+**The entire walk** uses one rule. With probability \(1/2\), stay. Otherwise choose two consecutive positions uniformly, propose two independent uniform gates from \(A\), and accept exactly when their product equals the old pair product and the resulting suffix has an allowed form. Both tests take polynomial time. The proposal is symmetric.
+
+**Conductance.** Writing \(L=m+N\), a conservative bound is
+\[
+\boxed{\displaystyle \Phi\ \ge\ \frac{c}{L^3N^{13}}}
+\]
+for an absolute \(c>0\). In particular, the mixing time is polynomial in \(N,m,\log(1/\varepsilon)\). The exponent is a congestion bound and is unlikely to be sharp. The standard conductance-to-mixing inequality applies because the walk is lazy and reversible. genui{"citation":{"ref":"turn651625001search12"}}
+
+Here is the reason the padding works. For a fixed prefix \(x\), the suffix must compute \(x^{-1}\sigma\), where \(x\) here denotes its product. For every fixed choice of \(k,s\), there is exactly one choice of the remaining digits. This follows by successively determining where \(N,N-1,\ldots,2\) go. Consequently, each prefix has between one and \(M=N+\binom{N+1}{3}\) allowed suffixes. Within this set, the extra gate moves right by a two-gate equality \(s d_k=d'_k s'\), where \(s'\) acts on \([k-1]\). In at most \(N\) steps it reaches the unique ordinary factorization followed by \(e\). genui{"citation":{"ref":"turn939627572view0"}}
+
+This lets us **replace any chosen prefix gate**. Bubble it to the right using the adjacent Hurwitz move \((a,b)\mapsto(b,b^{-1}ab)\). Bring the desired replacement, with the appropriate conjugation, to the front of the correction suffix. Apply one more Hurwitz move across the boundary, then undo the bubbling. All other prefix gates return to their original values.
+
+For the congestion estimate, route two independent uniform states into one another by replacing their prefix gates from left to right. The route takes \(O(L^2)\) steps. For independent uniform prefix words, the intermediate prefix at every fixed step is uniform, since bubbling is bijective and conjugation preserves \(A\). The actual endpoint prefix laws cost a factor at most \(M\) each, and lifting back to a particular circuit costs at most one more \(M\). Thus each stage puts at most \(M^3\) times stationary mass on any state. Every used edge has proposal probability at least \(1/[2(L-1)|A|^2]\), giving the displayed bound.
+
+So the answer to your earlier padding idea is **yes with this correction suffix**. In particular, if two starting circuits compute the same permutation, their output distributions approach each other. The uniform target is \(\mathcal F_{m,\sigma}\), whose final \(N\) slots have the specified form.
+
+## 2. A full unpadded identity fiber at linear length
+
+Here is an existence result where **the only membership condition is that the circuit computes the identity**.
+
+Take \(N=3r+1\) with \(3\nmid r\). Let \(\rho\) fix \(1\) and cycle the other points in disjoint triples,
+\[
+\rho=(2\,3\,4)(5\,6\,7)\cdots(N-2\,\,N-1\,\,N).
+\]
+Use the \(N-1\) gates
+\[
+g_a=(1\,a)\rho,\qquad 2\le a\le N.
+\]
+They generate \(S_N\). Indeed, the products \(g_a g_b^{-1}=(1\,a)(1\,b)\) generate \(A_N\), and each \(g_a\) is odd.
+
+Set \(m=4r\). The state space is exactly
+\[
+\Omega=\{(h_1,\ldots,h_m)\in\{g_2,\ldots,g_N\}^{m}:h_1\cdots h_m=e\}.
+\]
+
+**The entire walk** is again one rule. With probability \(1/2\), stay. Otherwise choose a window of five consecutive gates uniformly, propose five independent uniform gates, and accept if the two window products agree. For \(m<5\), use the whole word. There is no suffix, pairing condition, or support test. For example, at \(N=7\) the circuit
+\[
+g_2\,g_7\,g_5\,g_6\,g_7\,g_2\,g_3\,g_4
+\]
+is a state. The walk has \(\Phi\ge r^{-O(1)}\) on the full fiber.
+
+The feature that makes this provable is that moving the copies of \(\rho\) to the right converts the word, position by position, into a star-transposition factorization of \(\rho^{-m}\). This target moves every leaf and has \(r\) three-cycles. Its minimum star-factorization length is exactly \(4r\). Irving and Rattan’s characterization therefore describes **every state**. The four factors belonging to each target cycle form one block in a noncrossing partition. Blocks can be nested to arbitrary depth. Each has three possible internal representations. In particular,
+\[
+|\Omega|=3^r\frac{(4r)!}{(3r+1)!}.
+\]
+genui{"citation":{"refs":["turn727775577view0","turn346126701view0"]}}
+
+The conductance argument uses two local operations already present in the five-gate walk. When a block’s four gates are consecutive, we can refresh its internal representation. We can also slide it past one neighboring gate from another block, because its product is a three-cycle disjoint from that gate’s leaf and fixing the star center.
+
+For clarity, the polynomial bound also accounts for mixing the **labels** of the blocks. The unlabelled shapes are rooted 4-ary trees. Uniform trees of successive sizes can be coupled by adding or deleting one leaf. This gives a route that shrinks the starting shape while growing an independent uniform target shape, sliding each exposed block into its new position. To exchange two prescribed block labels, temporarily place the first exposed block at the beginning, bring the second next to it, exchange them, and reverse the route. At any intermediate stage, apart from at most two exposed blocks, the word consists of a growing and a shrinking tree. If \(T_j=\binom{4j}{j}/(3j+1)\), then \(T_r/(T_aT_b)=O(r^{3/2})\) whenever \(a+b\in\{r-1,r-2\}\). The slide positions and the two exposure times contribute only polynomially many choices. Labels are transported bijectively, so they contribute no factorial congestion. At most \(r\) such exchanges randomize the labeling, and one final growth sweep randomizes the shape and the internal representations. This yields the claimed inverse-polynomial conductance. The tree-growth coupling is due to Łuczak and Winkler. genui{"citation":{"ref":"turn998800775search0"}}
+
+## 3. What this gives at your exact length \(m=2N-2\)
+
+With the **ordinary star gates** \(t_a=(1\,a)\), the same argument gives rapid mixing on **every length-\(2N-2\) identity circuit whose gates touch all \(N\) points**. Its only move is
+\[
+t_a\,t_a\,t_b\ \longleftrightarrow\ t_b\,t_a\,t_a.
+\]
+Choose a consecutive triple uniformly, apply the rule if possible, and add probability \(1/2\) of staying. The family includes fully nested words such as \(t_2t_3\cdots t_Nt_N\cdots t_3t_2\). Here the noncrossing blocks have size two, and the same tree-growth and label-exchange argument applies with binary trees. genui{"citation":{"refs":["turn346126701view0","turn998800775search0"]}}
+
+There is also a shorter-length full-fiber result with just four symmetric generators. For suitable \(x,y\in S_N\), the alphabet \(\{x,x^{-1},y,y^{-1}\}\) works simultaneously for every even \(m<cN^{1/3}\). The move replaces an adjacent \(aa^{-1}\) by \(bb^{-1}\). Large girth makes every identity word in this range freely reducible, and inverting the letters in even positions identifies the walk with the rapidly mixing pair-flip chain. genui{"citation":{"refs":["turn811670728view1","turn534085900view1","turn534085900view0"]}}
+
+The remaining gap for your original transposition project is specific: **uniform mixing on all unpadded length-\(2N-2\) identity words over all \(\binom N2\) transpositions**. The padding result handles every one of those inputs with \(N\) extra slots. The star result keeps the exact length and covers the entire transitive star family.
+
+---
+
+If you want, I can:
+
+- Explain the mixing time implications for ordinary transposition circuits with padding
+- Describe the tree-growth coupling argument and its role in rapid mixing for identity fibers
+- Detail the gap remaining for uniform mixing of length-2N-2 identity words over transpositions
